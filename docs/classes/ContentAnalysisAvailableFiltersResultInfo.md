@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisAvailableFiltersResultInfo
+[Documentation](../README.md) / ContentAnalysisAvailableFiltersResultInfo
 
 # Class: ContentAnalysisAvailableFiltersResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md)
+##### data?
+
+[`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:165050
+main.ts:176639
 
 ## Properties
 
@@ -48,7 +50,7 @@ main.ts:165050
 
 #### Defined in
 
-main.ts:165046
+main.ts:176635
 
 ## Methods
 
@@ -58,7 +60,9 @@ main.ts:165046
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -66,7 +70,7 @@ main.ts:165046
 
 #### Defined in
 
-main.ts:165059
+main.ts:176648
 
 ***
 
@@ -76,7 +80,9 @@ main.ts:165059
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -84,7 +90,7 @@ main.ts:165059
 
 #### Defined in
 
-main.ts:165082
+main.ts:176671
 
 ***
 
@@ -94,7 +100,9 @@ main.ts:165082
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -102,4 +110,4 @@ main.ts:165082
 
 #### Defined in
 
-main.ts:165075
+main.ts:176664

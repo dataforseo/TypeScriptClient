@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:78855
+main.ts:88567
 
 ## Properties
 
@@ -49,7 +51,7 @@ Note: results will be returned for the specified domain only
 
 #### Defined in
 
-main.ts:78851
+main.ts:88563
 
 ## Methods
 
@@ -59,7 +61,9 @@ main.ts:78851
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -67,7 +71,7 @@ main.ts:78851
 
 #### Defined in
 
-main.ts:78864
+main.ts:88576
 
 ***
 
@@ -77,7 +81,9 @@ main.ts:78864
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -85,7 +91,7 @@ main.ts:78864
 
 #### Defined in
 
-main.ts:78881
+main.ts:88593
 
 ***
 
@@ -95,7 +101,9 @@ main.ts:78881
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -103,4 +111,4 @@ main.ts:78881
 
 #### Defined in
 
-main.ts:78874
+main.ts:88586

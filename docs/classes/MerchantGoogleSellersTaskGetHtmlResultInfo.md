@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleSellersTaskGetHtmlResultInfo
+[Documentation](../README.md) / MerchantGoogleSellersTaskGetHtmlResultInfo
 
 # Class: MerchantGoogleSellersTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IMerchantGoogleSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:176734
+main.ts:188467
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:176726
+main.ts:188459
 
 ***
 
@@ -65,7 +67,7 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-main.ts:176730
+main.ts:188463
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:176728
+main.ts:188461
 
 ***
 
@@ -97,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:176721
+main.ts:188454
 
 ***
 
@@ -113,7 +115,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:176719
+main.ts:188452
 
 ***
 
@@ -129,7 +131,7 @@ product_id received in a POST array
 
 #### Defined in
 
-main.ts:176713
+main.ts:188446
 
 ***
 
@@ -145,7 +147,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:176717
+main.ts:188450
 
 ***
 
@@ -161,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:176715
+main.ts:188448
 
 ## Methods
 
@@ -171,7 +173,9 @@ main.ts:176715
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +183,7 @@ main.ts:176715
 
 #### Defined in
 
-main.ts:176743
+main.ts:188476
 
 ***
 
@@ -189,7 +193,9 @@ main.ts:176743
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +203,7 @@ main.ts:176743
 
 #### Defined in
 
-main.ts:176771
+main.ts:188504
 
 ***
 
@@ -207,7 +213,9 @@ main.ts:176771
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -215,4 +223,4 @@ main.ts:176771
 
 #### Defined in
 
-main.ts:176764
+main.ts:188497

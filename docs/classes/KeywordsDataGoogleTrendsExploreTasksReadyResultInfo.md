@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:123432
+main.ts:133681
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:123424
+main.ts:133673
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:123428
+main.ts:133677
 
 ***
 
@@ -78,7 +80,7 @@ type of the task
 
 #### Defined in
 
-main.ts:123422
+main.ts:133671
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:123418
+main.ts:133667
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:123420
+main.ts:133669
 
 ***
 
@@ -127,7 +129,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:123426
+main.ts:133675
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:123426
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:123426
 
 #### Defined in
 
-main.ts:123441
+main.ts:133690
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:123441
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:123441
 
 #### Defined in
 
-main.ts:123463
+main.ts:133712
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:123463
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:123463
 
 #### Defined in
 
-main.ts:123456
+main.ts:133705

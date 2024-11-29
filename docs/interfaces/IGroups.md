@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGroups
+[Documentation](../README.md) / IGroups
 
 # Interface: IGroups
 
@@ -20,7 +20,7 @@ technology categories in this group
 
 #### Defined in
 
-main.ts:76027
+main.ts:85731
 
 ***
 
@@ -34,7 +34,7 @@ marketing, sales
 
 #### Defined in
 
-main.ts:76023
+main.ts:85727
 
 ***
 
@@ -46,4 +46,4 @@ title of the technology group
 
 #### Defined in
 
-main.ts:76025
+main.ts:85729

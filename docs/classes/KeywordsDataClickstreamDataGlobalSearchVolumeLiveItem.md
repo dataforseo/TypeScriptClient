@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
+[Documentation](../README.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:136201
+main.ts:148146
 
 ## Properties
 
@@ -47,7 +49,7 @@ represents clickstream-based search volume in available countries, as well as it
 
 #### Defined in
 
-main.ts:136197
+main.ts:148142
 
 ***
 
@@ -64,7 +66,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:136190
+main.ts:148135
 
 ***
 
@@ -82,7 +84,7 @@ you can learn more about clickstream search volume in this Help Center article
 
 #### Defined in
 
-main.ts:136194
+main.ts:148139
 
 ## Methods
 
@@ -92,7 +94,9 @@ main.ts:136194
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +104,7 @@ main.ts:136194
 
 #### Defined in
 
-main.ts:136210
+main.ts:148155
 
 ***
 
@@ -110,7 +114,9 @@ main.ts:136210
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +124,7 @@ main.ts:136210
 
 #### Defined in
 
-main.ts:136233
+main.ts:148178
 
 ***
 
@@ -128,7 +134,9 @@ main.ts:136233
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -136,4 +144,4 @@ main.ts:136233
 
 #### Defined in
 
-main.ts:136226
+main.ts:148171

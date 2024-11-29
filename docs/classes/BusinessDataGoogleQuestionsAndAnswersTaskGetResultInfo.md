@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:209775
+main.ts:224696
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:209747
+main.ts:224668
 
 ***
 
@@ -65,7 +67,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:209756
+main.ts:224677
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:209752
+main.ts:224673
 
 ***
 
@@ -100,7 +102,7 @@ unique identifier of the SERP feature
 
 #### Defined in
 
-main.ts:209758
+main.ts:224679
 
 ***
 
@@ -118,7 +120,7 @@ possible item types: google_business_question_item
 
 #### Defined in
 
-main.ts:209762
+main.ts:224683
 
 ***
 
@@ -137,7 +139,7 @@ possible item types google_business_answer_element
 
 #### Defined in
 
-main.ts:209771
+main.ts:224692
 
 ***
 
@@ -153,7 +155,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:209766
+main.ts:224687
 
 ***
 
@@ -169,7 +171,7 @@ array of google business question items without answers
 
 #### Defined in
 
-main.ts:209764
+main.ts:224685
 
 ***
 
@@ -178,7 +180,7 @@ main.ts:209764
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
@@ -190,7 +192,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:209738
+main.ts:224659
 
 ***
 
@@ -206,7 +208,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:209744
+main.ts:224665
 
 ***
 
@@ -222,7 +224,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:209742
+main.ts:224663
 
 ***
 
@@ -238,7 +240,7 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:209740
+main.ts:224661
 
 ## Methods
 
@@ -248,7 +250,9 @@ main.ts:209740
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -256,7 +260,7 @@ main.ts:209740
 
 #### Defined in
 
-main.ts:209784
+main.ts:224705
 
 ***
 
@@ -266,7 +270,9 @@ main.ts:209784
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -274,7 +280,7 @@ main.ts:209784
 
 #### Defined in
 
-main.ts:209824
+main.ts:224745
 
 ***
 
@@ -284,7 +290,9 @@ main.ts:209824
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -292,4 +300,4 @@ main.ts:209824
 
 #### Defined in
 
-main.ts:209817
+main.ts:224738

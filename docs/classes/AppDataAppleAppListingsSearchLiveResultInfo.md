@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / AppDataAppleAppListingsSearchLiveResultInfo
 
 # Class: AppDataAppleAppListingsSearchLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:196781
+main.ts:209131
 
 ## Properties
 
@@ -46,7 +48,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:196770
+main.ts:209120
 
 ***
 
@@ -62,7 +64,7 @@ array of apps and related data
 
 #### Defined in
 
-main.ts:196777
+main.ts:209127
 
 ***
 
@@ -78,7 +80,7 @@ offset in the results array of returned apps
 
 #### Defined in
 
-main.ts:196772
+main.ts:209122
 
 ***
 
@@ -95,7 +97,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Defined in
 
-main.ts:196775
+main.ts:209125
 
 ***
 
@@ -111,7 +113,7 @@ the total number of relevant results in the database
 
 #### Defined in
 
-main.ts:196768
+main.ts:209118
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:196768
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:196768
 
 #### Defined in
 
-main.ts:196790
+main.ts:209140
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:196790
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:196790
 
 #### Defined in
 
-main.ts:196815
+main.ts:209165
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:196815
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:196815
 
 #### Defined in
 
-main.ts:196808
+main.ts:209158

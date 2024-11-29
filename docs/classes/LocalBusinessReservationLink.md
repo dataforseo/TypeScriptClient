@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalBusinessReservationLink
+[Documentation](../README.md) / LocalBusinessReservationLink
 
 # Class: LocalBusinessReservationLink
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md)
+##### data?
+
+[`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:23917
+main.ts:24982
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:23917
 
 #### Defined in
 
-main.ts:23855
+main.ts:24920
 
 ***
 
@@ -69,7 +71,7 @@ domain of the reservation software
 
 #### Defined in
 
-main.ts:23911
+main.ts:24976
 
 ***
 
@@ -89,7 +91,7 @@ type of element
 
 #### Defined in
 
-main.ts:23853
+main.ts:24918
 
 ***
 
@@ -105,7 +107,7 @@ URL to make a reservation
 
 #### Defined in
 
-main.ts:23913
+main.ts:24978
 
 ## Methods
 
@@ -115,7 +117,9 @@ main.ts:23913
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -127,7 +131,7 @@ main.ts:23913
 
 #### Defined in
 
-main.ts:23922
+main.ts:24987
 
 ***
 
@@ -137,7 +141,9 @@ main.ts:23922
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -149,7 +155,7 @@ main.ts:23922
 
 #### Defined in
 
-main.ts:23941
+main.ts:25006
 
 ***
 
@@ -159,7 +165,9 @@ main.ts:23941
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -171,4 +179,4 @@ main.ts:23941
 
 #### Defined in
 
-main.ts:23934
+main.ts:24999

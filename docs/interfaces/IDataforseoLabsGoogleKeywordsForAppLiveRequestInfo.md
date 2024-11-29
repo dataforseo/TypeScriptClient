@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
@@ -26,7 +26,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:112049
+main.ts:121381
 
 ***
 
@@ -47,7 +47,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:112096
+main.ts:121428
 
 ***
 
@@ -66,7 +66,7 @@ en
 
 #### Defined in
 
-main.ts:112085
+main.ts:121417
 
 ***
 
@@ -85,7 +85,7 @@ English
 
 #### Defined in
 
-main.ts:112076
+main.ts:121408
 
 ***
 
@@ -100,7 +100,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:112118
+main.ts:121450
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:112067
+main.ts:121399
 
 ***
 
@@ -138,7 +138,7 @@ United States
 
 #### Defined in
 
-main.ts:112058
+main.ts:121390
 
 ***
 
@@ -153,7 +153,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:112123
+main.ts:121455
 
 ***
 
@@ -180,7 +180,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:112113
+main.ts:121445
 
 ***
 
@@ -196,4 +196,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:112129
+main.ts:121461

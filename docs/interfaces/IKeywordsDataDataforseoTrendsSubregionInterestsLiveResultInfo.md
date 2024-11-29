@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:126587
+main.ts:136842
 
 ***
 
@@ -36,7 +36,7 @@ values in this array represent percentages relative to the maximum value within 
 
 #### Defined in
 
-main.ts:126592
+main.ts:136847
 
 ***
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:126589
+main.ts:136844
 
 ***
 
@@ -60,7 +60,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:126574
+main.ts:136829
 
 ***
 
@@ -73,7 +73,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126582
+main.ts:136837
 
 ***
 
@@ -86,7 +86,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126579
+main.ts:136834
 
 ***
 
@@ -98,4 +98,4 @@ type of element
 
 #### Defined in
 
-main.ts:126576
+main.ts:136831

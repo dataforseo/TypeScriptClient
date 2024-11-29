@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantApi
+[Documentation](../README.md) / MerchantApi
 
 # Class: MerchantApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:14633
+main.ts:15189
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:14633
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:14633
 
 #### Defined in
 
-main.ts:14631
+main.ts:15187
 
 ## Methods
 
@@ -56,7 +62,9 @@ main.ts:14631
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -70,7 +78,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15906
+main.ts:16462
 
 ***
 
@@ -80,7 +88,9 @@ main.ts:15906
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -94,7 +104,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15949
+main.ts:16505
 
 ***
 
@@ -104,7 +114,9 @@ main.ts:15949
 
 #### Parameters
 
-• **body**: [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -116,7 +128,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15825
+main.ts:16381
 
 ***
 
@@ -132,7 +144,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15866
+main.ts:16422
 
 ***
 
@@ -142,7 +154,9 @@ main.ts:15866
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -156,7 +170,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15741
+main.ts:16297
 
 ***
 
@@ -166,7 +180,9 @@ main.ts:15741
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -180,7 +196,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15784
+main.ts:16340
 
 ***
 
@@ -190,7 +206,9 @@ main.ts:15784
 
 #### Parameters
 
-• **body**: [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -202,7 +220,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15660
+main.ts:16216
 
 ***
 
@@ -218,7 +236,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15701
+main.ts:16257
 
 ***
 
@@ -228,7 +246,9 @@ main.ts:15701
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -242,7 +262,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16236
+main.ts:16792
 
 ***
 
@@ -252,7 +272,9 @@ main.ts:16236
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -266,7 +288,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16279
+main.ts:16835
 
 ***
 
@@ -276,7 +298,9 @@ main.ts:16279
 
 #### Parameters
 
-• **body**: [`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -288,7 +312,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16155
+main.ts:16711
 
 ***
 
@@ -304,7 +328,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16196
+main.ts:16752
 
 ***
 
@@ -314,7 +338,9 @@ main.ts:16196
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -328,7 +354,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16071
+main.ts:16627
 
 ***
 
@@ -338,7 +364,9 @@ main.ts:16071
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -352,7 +380,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16114
+main.ts:16670
 
 ***
 
@@ -362,7 +390,9 @@ main.ts:16114
 
 #### Parameters
 
-• **body**: [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -374,7 +404,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15990
+main.ts:16546
 
 ***
 
@@ -390,7 +420,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16031
+main.ts:16587
 
 ***
 
@@ -400,7 +430,9 @@ main.ts:16031
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -414,7 +446,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15458
+main.ts:16014
 
 ***
 
@@ -424,7 +456,9 @@ main.ts:15458
 
 #### Parameters
 
-• **body**: [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -436,7 +470,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15377
+main.ts:15933
 
 ***
 
@@ -452,7 +486,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15418
+main.ts:15974
 
 ***
 
@@ -462,7 +496,9 @@ main.ts:15418
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -476,7 +512,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15293
+main.ts:15849
 
 ***
 
@@ -486,7 +522,9 @@ main.ts:15293
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -500,7 +538,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15336
+main.ts:15892
 
 ***
 
@@ -510,7 +548,9 @@ main.ts:15336
 
 #### Parameters
 
-• **body**: [`MerchantGoogleProductSpecTaskPostRequestInfo`](MerchantGoogleProductSpecTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantGoogleProductSpecTaskPostRequestInfo`](MerchantGoogleProductSpecTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -522,7 +562,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15212
+main.ts:15768
 
 ***
 
@@ -538,7 +578,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15253
+main.ts:15809
 
 ***
 
@@ -548,7 +588,9 @@ main.ts:15253
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -562,7 +604,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14963
+main.ts:15519
 
 ***
 
@@ -572,7 +614,9 @@ main.ts:14963
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -586,7 +630,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15006
+main.ts:15562
 
 ***
 
@@ -596,7 +640,9 @@ main.ts:15006
 
 #### Parameters
 
-• **body**: [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)[]
+##### body
+
+[`MerchantGoogleProductsTaskPostRequestInfo`](MerchantGoogleProductsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -608,7 +654,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14845
+main.ts:15401
 
 ***
 
@@ -624,7 +670,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14886
+main.ts:15442
 
 ***
 
@@ -634,7 +680,9 @@ main.ts:14886
 
 #### Parameters
 
-• **shop\_ad\_aclk**: `string`
+##### shop\_ad\_aclk
+
+`string`
 
 unique ad click referral parameter
 you can obtain this parameter with Google Shopping Products or Google Shopping Sellers
@@ -647,7 +695,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15500
+main.ts:16056
 
 ***
 
@@ -657,7 +705,9 @@ main.ts:15500
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -671,7 +721,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15128
+main.ts:15684
 
 ***
 
@@ -681,7 +731,9 @@ main.ts:15128
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -695,7 +747,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15171
+main.ts:15727
 
 ***
 
@@ -705,7 +757,9 @@ main.ts:15171
 
 #### Parameters
 
-• **body**: [`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -717,7 +771,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15047
+main.ts:15603
 
 ***
 
@@ -733,7 +787,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15088
+main.ts:15644
 
 ***
 
@@ -749,7 +803,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15622
+main.ts:16178
 
 ***
 
@@ -765,7 +819,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15540
+main.ts:16096
 
 ***
 
@@ -775,7 +829,9 @@ main.ts:15540
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -791,7 +847,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:15582
+main.ts:16138
 
 ***
 
@@ -801,7 +857,9 @@ main.ts:15582
 
 #### Parameters
 
-• **body**: [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)[]
+##### body
+
+[`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -813,7 +871,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14684
+main.ts:15240
 
 ***
 
@@ -829,7 +887,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14725
+main.ts:15281
 
 ***
 
@@ -845,7 +903,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14762
+main.ts:15318
 
 ***
 
@@ -855,7 +913,9 @@ main.ts:14762
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -871,7 +931,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14804
+main.ts:15360
 
 ***
 
@@ -881,7 +941,9 @@ main.ts:14804
 
 #### Parameters
 
-• **body**: [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)[]
+##### body
+
+[`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)[]
 
 (optional)
 
@@ -893,7 +955,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14642
+main.ts:15198
 
 ***
 
@@ -909,7 +971,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14923
+main.ts:15479
 
 ***
 
@@ -919,7 +981,9 @@ main.ts:14923
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -927,7 +991,7 @@ main.ts:14923
 
 #### Defined in
 
-main.ts:15925
+main.ts:16481
 
 ***
 
@@ -937,7 +1001,9 @@ main.ts:15925
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -945,7 +1011,7 @@ main.ts:15925
 
 #### Defined in
 
-main.ts:15968
+main.ts:16524
 
 ***
 
@@ -955,7 +1021,9 @@ main.ts:15968
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -963,7 +1031,7 @@ main.ts:15968
 
 #### Defined in
 
-main.ts:15845
+main.ts:16401
 
 ***
 
@@ -973,7 +1041,9 @@ main.ts:15845
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -981,7 +1051,7 @@ main.ts:15845
 
 #### Defined in
 
-main.ts:15882
+main.ts:16438
 
 ***
 
@@ -991,7 +1061,9 @@ main.ts:15882
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -999,7 +1071,7 @@ main.ts:15882
 
 #### Defined in
 
-main.ts:15760
+main.ts:16316
 
 ***
 
@@ -1009,7 +1081,9 @@ main.ts:15760
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1017,7 +1091,7 @@ main.ts:15760
 
 #### Defined in
 
-main.ts:15803
+main.ts:16359
 
 ***
 
@@ -1027,7 +1101,9 @@ main.ts:15803
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1035,7 +1111,7 @@ main.ts:15803
 
 #### Defined in
 
-main.ts:15680
+main.ts:16236
 
 ***
 
@@ -1045,7 +1121,9 @@ main.ts:15680
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1053,7 +1131,7 @@ main.ts:15680
 
 #### Defined in
 
-main.ts:15717
+main.ts:16273
 
 ***
 
@@ -1063,7 +1141,9 @@ main.ts:15717
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1071,7 +1151,7 @@ main.ts:15717
 
 #### Defined in
 
-main.ts:16255
+main.ts:16811
 
 ***
 
@@ -1081,7 +1161,9 @@ main.ts:16255
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1089,7 +1171,7 @@ main.ts:16255
 
 #### Defined in
 
-main.ts:16298
+main.ts:16854
 
 ***
 
@@ -1099,7 +1181,9 @@ main.ts:16298
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1107,7 +1191,7 @@ main.ts:16298
 
 #### Defined in
 
-main.ts:16175
+main.ts:16731
 
 ***
 
@@ -1117,7 +1201,9 @@ main.ts:16175
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1125,7 +1211,7 @@ main.ts:16175
 
 #### Defined in
 
-main.ts:16212
+main.ts:16768
 
 ***
 
@@ -1135,7 +1221,9 @@ main.ts:16212
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1143,7 +1231,7 @@ main.ts:16212
 
 #### Defined in
 
-main.ts:16090
+main.ts:16646
 
 ***
 
@@ -1153,7 +1241,9 @@ main.ts:16090
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1161,7 +1251,7 @@ main.ts:16090
 
 #### Defined in
 
-main.ts:16133
+main.ts:16689
 
 ***
 
@@ -1171,7 +1261,9 @@ main.ts:16133
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1179,7 +1271,7 @@ main.ts:16133
 
 #### Defined in
 
-main.ts:16010
+main.ts:16566
 
 ***
 
@@ -1189,7 +1281,9 @@ main.ts:16010
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1197,7 +1291,7 @@ main.ts:16010
 
 #### Defined in
 
-main.ts:16047
+main.ts:16603
 
 ***
 
@@ -1207,7 +1301,9 @@ main.ts:16047
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1215,7 +1311,7 @@ main.ts:16047
 
 #### Defined in
 
-main.ts:15477
+main.ts:16033
 
 ***
 
@@ -1225,7 +1321,9 @@ main.ts:15477
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1233,7 +1331,7 @@ main.ts:15477
 
 #### Defined in
 
-main.ts:15397
+main.ts:15953
 
 ***
 
@@ -1243,7 +1341,9 @@ main.ts:15397
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1251,7 +1351,7 @@ main.ts:15397
 
 #### Defined in
 
-main.ts:15434
+main.ts:15990
 
 ***
 
@@ -1261,7 +1361,9 @@ main.ts:15434
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1269,7 +1371,7 @@ main.ts:15434
 
 #### Defined in
 
-main.ts:15312
+main.ts:15868
 
 ***
 
@@ -1279,7 +1381,9 @@ main.ts:15312
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1287,7 +1391,7 @@ main.ts:15312
 
 #### Defined in
 
-main.ts:15355
+main.ts:15911
 
 ***
 
@@ -1297,7 +1401,9 @@ main.ts:15355
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1305,7 +1411,7 @@ main.ts:15355
 
 #### Defined in
 
-main.ts:15232
+main.ts:15788
 
 ***
 
@@ -1315,7 +1421,9 @@ main.ts:15232
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1323,7 +1431,7 @@ main.ts:15232
 
 #### Defined in
 
-main.ts:15269
+main.ts:15825
 
 ***
 
@@ -1333,7 +1441,9 @@ main.ts:15269
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1341,7 +1451,7 @@ main.ts:15269
 
 #### Defined in
 
-main.ts:14982
+main.ts:15538
 
 ***
 
@@ -1351,7 +1461,9 @@ main.ts:14982
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1359,7 +1471,7 @@ main.ts:14982
 
 #### Defined in
 
-main.ts:15025
+main.ts:15581
 
 ***
 
@@ -1369,7 +1481,9 @@ main.ts:15025
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1377,7 +1491,7 @@ main.ts:15025
 
 #### Defined in
 
-main.ts:14865
+main.ts:15421
 
 ***
 
@@ -1387,7 +1501,9 @@ main.ts:14865
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1395,7 +1511,7 @@ main.ts:14865
 
 #### Defined in
 
-main.ts:14902
+main.ts:15458
 
 ***
 
@@ -1405,7 +1521,9 @@ main.ts:14902
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1413,7 +1531,7 @@ main.ts:14902
 
 #### Defined in
 
-main.ts:15519
+main.ts:16075
 
 ***
 
@@ -1423,7 +1541,9 @@ main.ts:15519
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1431,7 +1551,7 @@ main.ts:15519
 
 #### Defined in
 
-main.ts:15147
+main.ts:15703
 
 ***
 
@@ -1441,7 +1561,9 @@ main.ts:15147
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1449,7 +1571,7 @@ main.ts:15147
 
 #### Defined in
 
-main.ts:15190
+main.ts:15746
 
 ***
 
@@ -1459,7 +1581,9 @@ main.ts:15190
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1467,7 +1591,7 @@ main.ts:15190
 
 #### Defined in
 
-main.ts:15067
+main.ts:15623
 
 ***
 
@@ -1477,7 +1601,9 @@ main.ts:15067
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1485,7 +1611,7 @@ main.ts:15067
 
 #### Defined in
 
-main.ts:15104
+main.ts:15660
 
 ***
 
@@ -1495,7 +1621,9 @@ main.ts:15104
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1503,7 +1631,7 @@ main.ts:15104
 
 #### Defined in
 
-main.ts:15638
+main.ts:16194
 
 ***
 
@@ -1513,7 +1641,9 @@ main.ts:15638
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1521,7 +1651,7 @@ main.ts:15638
 
 #### Defined in
 
-main.ts:15556
+main.ts:16112
 
 ***
 
@@ -1531,7 +1661,9 @@ main.ts:15556
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1539,7 +1671,7 @@ main.ts:15556
 
 #### Defined in
 
-main.ts:15601
+main.ts:16157
 
 ***
 
@@ -1549,7 +1681,9 @@ main.ts:15601
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1557,7 +1691,7 @@ main.ts:15601
 
 #### Defined in
 
-main.ts:14704
+main.ts:15260
 
 ***
 
@@ -1567,7 +1701,9 @@ main.ts:14704
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1575,7 +1711,7 @@ main.ts:14704
 
 #### Defined in
 
-main.ts:14741
+main.ts:15297
 
 ***
 
@@ -1585,7 +1721,9 @@ main.ts:14741
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1593,7 +1731,7 @@ main.ts:14741
 
 #### Defined in
 
-main.ts:14778
+main.ts:15334
 
 ***
 
@@ -1603,7 +1741,9 @@ main.ts:14778
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1611,7 +1751,7 @@ main.ts:14778
 
 #### Defined in
 
-main.ts:14823
+main.ts:15379
 
 ***
 
@@ -1621,7 +1761,9 @@ main.ts:14823
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1629,7 +1771,7 @@ main.ts:14823
 
 #### Defined in
 
-main.ts:14662
+main.ts:15218
 
 ***
 
@@ -1639,7 +1781,9 @@ main.ts:14662
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1647,4 +1791,4 @@ main.ts:14662
 
 #### Defined in
 
-main.ts:14939
+main.ts:15495

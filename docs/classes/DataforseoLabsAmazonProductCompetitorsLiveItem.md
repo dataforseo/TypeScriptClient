@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
+[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductCompetitorsLiveItem`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:104729
+main.ts:114367
 
 ## Properties
 
@@ -48,7 +50,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:104708
+main.ts:114346
 
 ***
 
@@ -66,7 +68,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:104712
+main.ts:114350
 
 ***
 
@@ -84,7 +86,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Defined in
 
-main.ts:104722
+main.ts:114360
 
 ***
 
@@ -101,7 +103,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Defined in
 
-main.ts:104725
+main.ts:114363
 
 ***
 
@@ -117,7 +119,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:104718
+main.ts:114356
 
 ***
 
@@ -133,7 +135,7 @@ search engine type
 
 #### Defined in
 
-main.ts:104704
+main.ts:114342
 
 ***
 
@@ -151,7 +153,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:104716
+main.ts:114354
 
 ## Methods
 
@@ -161,7 +163,9 @@ main.ts:104716
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -169,7 +173,7 @@ main.ts:104716
 
 #### Defined in
 
-main.ts:104738
+main.ts:114376
 
 ***
 
@@ -179,7 +183,9 @@ main.ts:104738
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -187,7 +193,7 @@ main.ts:104738
 
 #### Defined in
 
-main.ts:104761
+main.ts:114399
 
 ***
 
@@ -197,7 +203,9 @@ main.ts:104761
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -205,4 +213,4 @@ main.ts:104761
 
 #### Defined in
 
-main.ts:104754
+main.ts:114392

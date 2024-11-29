@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpApi
+[Documentation](../README.md) / SerpApi
 
 # Class: SerpApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -36,9 +38,13 @@ main.ts:16
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -56,7 +62,9 @@ main.ts:14
 
 #### Parameters
 
-• **body**: [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)[]
+##### body
+
+[`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)[]
 
 (optional)
 
@@ -78,7 +86,9 @@ main.ts:151
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -92,7 +102,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5214
+main.ts:5532
 
 ***
 
@@ -102,7 +112,9 @@ main.ts:5214
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -116,7 +128,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5257
+main.ts:5575
 
 ***
 
@@ -126,7 +138,9 @@ main.ts:5257
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -140,7 +154,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5171
+main.ts:5489
 
 ***
 
@@ -150,7 +164,9 @@ main.ts:5171
 
 #### Parameters
 
-• **body**: [`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpBaiduOrganicTaskPostRequestInfo`](SerpBaiduOrganicTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -162,7 +178,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5053
+main.ts:5371
 
 ***
 
@@ -178,7 +194,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5131
+main.ts:5449
 
 ***
 
@@ -194,7 +210,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5094
+main.ts:5412
 
 ***
 
@@ -204,7 +220,9 @@ main.ts:5094
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpBingLocalPackLiveHtmlRequestInfo`](SerpBingLocalPackLiveHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -216,7 +234,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3680
+main.ts:3998
 
 ***
 
@@ -226,7 +244,9 @@ main.ts:3680
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpBingLocalPackLiveRegularRequestInfo`](SerpBingLocalPackLiveRegularRequestInfo.md)[]
 
 (optional)
 
@@ -238,7 +258,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3638
+main.ts:3956
 
 ***
 
@@ -248,7 +268,9 @@ main.ts:3638
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -262,7 +284,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3597
+main.ts:3915
 
 ***
 
@@ -272,7 +294,9 @@ main.ts:3597
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -286,7 +310,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3554
+main.ts:3872
 
 ***
 
@@ -296,7 +320,9 @@ main.ts:3554
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpBingLocalPackTaskPostRequestInfo`](SerpBingLocalPackTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -308,7 +334,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3436
+main.ts:3754
 
 ***
 
@@ -324,7 +350,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3514
+main.ts:3832
 
 ***
 
@@ -340,7 +366,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3477
+main.ts:3795
 
 ***
 
@@ -350,7 +376,9 @@ main.ts:3477
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -362,7 +390,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3352
+main.ts:3670
 
 ***
 
@@ -372,7 +400,9 @@ main.ts:3352
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpBingOrganicLiveHtmlRequestInfo`](SerpBingOrganicLiveHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -384,7 +414,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3394
+main.ts:3712
 
 ***
 
@@ -394,7 +424,9 @@ main.ts:3394
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpBingOrganicLiveRegularRequestInfo`](SerpBingOrganicLiveRegularRequestInfo.md)[]
 
 (optional)
 
@@ -406,7 +438,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3310
+main.ts:3628
 
 ***
 
@@ -416,7 +448,9 @@ main.ts:3310
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -430,7 +464,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3226
+main.ts:3544
 
 ***
 
@@ -440,7 +474,9 @@ main.ts:3226
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -454,7 +490,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3269
+main.ts:3587
 
 ***
 
@@ -464,7 +500,9 @@ main.ts:3269
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -478,7 +516,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3183
+main.ts:3501
 
 ***
 
@@ -488,7 +526,9 @@ main.ts:3183
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpBingOrganicTaskPostRequestInfo`](SerpBingOrganicTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -500,7 +540,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3065
+main.ts:3383
 
 ***
 
@@ -516,7 +556,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3143
+main.ts:3461
 
 ***
 
@@ -532,7 +572,139 @@ Successful operation
 
 #### Defined in
 
-main.ts:3106
+main.ts:3424
+
+***
+
+### googleAdsAdvertisersTaskGetAdvanced()
+
+> **googleAdsAdvertisersTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:3064
+
+***
+
+### googleAdsAdvertisersTaskPost()
+
+> **googleAdsAdvertisersTaskPost**(`body`): `Promise`\<[`SerpGoogleAdsAdvertisersTaskPostResponseInfo`](SerpGoogleAdsAdvertisersTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleAdsAdvertisersTaskPostRequestInfo`](SerpGoogleAdsAdvertisersTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsAdvertisersTaskPostResponseInfo`](SerpGoogleAdsAdvertisersTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:2983
+
+***
+
+### googleAdsAdvertisersTasksReady()
+
+> **googleAdsAdvertisersTasksReady**(): `Promise`\<[`SerpGoogleAdsAdvertisersTasksReadyResponseInfo`](SerpGoogleAdsAdvertisersTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsAdvertisersTasksReadyResponseInfo`](SerpGoogleAdsAdvertisersTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:3024
+
+***
+
+### googleAdsSearchTaskGetAdvanced()
+
+> **googleAdsSearchTaskGetAdvanced**(`id`): `Promise`\<[`SerpGoogleAdsSearchTaskGetAdvancedResponseInfo`](SerpGoogleAdsSearchTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsSearchTaskGetAdvancedResponseInfo`](SerpGoogleAdsSearchTaskGetAdvancedResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:3223
+
+***
+
+### googleAdsSearchTaskPost()
+
+> **googleAdsSearchTaskPost**(`body`): `Promise`\<[`SerpGoogleAdsSearchTaskPostResponseInfo`](SerpGoogleAdsSearchTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`SerpGoogleAdsSearchTaskPostRequestInfo`](SerpGoogleAdsSearchTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsSearchTaskPostResponseInfo`](SerpGoogleAdsSearchTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:3142
+
+***
+
+### googleAdsSearchTasksReady()
+
+> **googleAdsSearchTasksReady**(): `Promise`\<[`SerpGoogleAdsSearchTasksReadyResponseInfo`](SerpGoogleAdsSearchTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsSearchTasksReadyResponseInfo`](SerpGoogleAdsSearchTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:3183
 
 ***
 
@@ -542,7 +714,9 @@ main.ts:3106
 
 #### Parameters
 
-• **body**: [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -564,7 +738,9 @@ main.ts:2502
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -588,7 +764,9 @@ main.ts:2461
 
 #### Parameters
 
-• **body**: [`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpGoogleAutocompleteTaskPostRequestInfo`](SerpGoogleAutocompleteTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -642,7 +820,9 @@ main.ts:2384
 
 #### Parameters
 
-• **body**: [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -664,7 +844,9 @@ main.ts:2904
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -688,7 +870,9 @@ main.ts:2863
 
 #### Parameters
 
-• **body**: [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -742,7 +926,9 @@ main.ts:2786
 
 #### Parameters
 
-• **body**: [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -764,7 +950,9 @@ main.ts:2703
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -788,7 +976,9 @@ main.ts:2662
 
 #### Parameters
 
-• **body**: [`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -842,7 +1032,9 @@ main.ts:2585
 
 #### Parameters
 
-• **body**: [`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpGoogleEventsLiveAdvancedRequestInfo`](SerpGoogleEventsLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -864,7 +1056,9 @@ main.ts:1654
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -888,7 +1082,9 @@ main.ts:1613
 
 #### Parameters
 
-• **body**: [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -942,7 +1138,9 @@ main.ts:1536
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpGoogleImagesLiveAdvancedRequestInfo`](SerpGoogleImagesLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -964,7 +1162,9 @@ main.ts:1898
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpGoogleImagesLiveHtmlRequestInfo`](SerpGoogleImagesLiveHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -986,7 +1186,9 @@ main.ts:1940
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1010,7 +1212,9 @@ main.ts:1814
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1034,7 +1238,9 @@ main.ts:1857
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpGoogleImagesTaskPostRequestInfo`](SerpGoogleImagesTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1088,7 +1294,9 @@ main.ts:1737
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1112,7 +1320,9 @@ main.ts:2259
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1136,7 +1346,9 @@ main.ts:2302
 
 #### Parameters
 
-• **body**: [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1190,7 +1402,9 @@ main.ts:2182
 
 #### Parameters
 
-• **body**: [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -1212,7 +1426,9 @@ main.ts:1125
 
 #### Parameters
 
-• **body**: [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)[]
+##### body
+
+[`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -1234,7 +1450,9 @@ main.ts:1167
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 a universally unique identifier (UUID)
@@ -1259,7 +1477,9 @@ main.ts:1041
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1283,7 +1503,9 @@ main.ts:1084
 
 #### Parameters
 
-• **body**: [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1337,7 +1559,9 @@ main.ts:963
 
 #### Parameters
 
-• **body**: [`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpGoogleMapsLiveAdvancedRequestInfo`](SerpGoogleMapsLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -1359,7 +1583,9 @@ main.ts:880
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 a universally unique identifier (UUID)
@@ -1384,7 +1610,9 @@ main.ts:839
 
 #### Parameters
 
-• **body**: [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1438,7 +1666,9 @@ main.ts:761
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpGoogleNewsLiveAdvancedRequestInfo`](SerpGoogleNewsLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -1460,7 +1690,9 @@ main.ts:1411
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpGoogleNewsLiveHtmlRequestInfo`](SerpGoogleNewsLiveHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -1482,7 +1714,9 @@ main.ts:1453
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1506,7 +1740,9 @@ main.ts:1327
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1530,7 +1766,9 @@ main.ts:1370
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpGoogleNewsTaskPostRequestInfo`](SerpGoogleNewsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1584,7 +1822,9 @@ main.ts:1250
 
 #### Parameters
 
-• **body**: [`SerpGoogleOrganicLiveAdvancedRequestInfo`](SerpGoogleOrganicLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpGoogleOrganicLiveAdvancedRequestInfo`](SerpGoogleOrganicLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -1606,7 +1846,9 @@ main.ts:636
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpGoogleOrganicLiveHtmlRequestInfo`](SerpGoogleOrganicLiveHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -1628,7 +1870,9 @@ main.ts:678
 
 #### Parameters
 
-• **body**: [`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)[]
+##### body
+
+[`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)[]
 
 (optional)
 
@@ -1650,7 +1894,9 @@ main.ts:594
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1674,7 +1920,9 @@ main.ts:510
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1698,7 +1946,9 @@ main.ts:553
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1722,7 +1972,9 @@ main.ts:467
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpGoogleOrganicTaskPostRequestInfo`](SerpGoogleOrganicTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1776,7 +2028,9 @@ main.ts:353
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1800,7 +2054,9 @@ main.ts:2100
 
 #### Parameters
 
-• **body**: [`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpGoogleSearchByImageTaskPostRequestInfo`](SerpGoogleSearchByImageTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1854,7 +2110,9 @@ main.ts:2023
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1868,7 +2126,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5459
+main.ts:5777
 
 ***
 
@@ -1878,7 +2136,9 @@ main.ts:5459
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1892,7 +2152,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5502
+main.ts:5820
 
 ***
 
@@ -1902,7 +2162,9 @@ main.ts:5502
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1916,7 +2178,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5416
+main.ts:5734
 
 ***
 
@@ -1926,7 +2188,9 @@ main.ts:5416
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpNaverOrganicTaskPostRequestInfo`](SerpNaverOrganicTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1938,7 +2202,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5298
+main.ts:5616
 
 ***
 
@@ -1954,7 +2218,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5376
+main.ts:5694
 
 ***
 
@@ -1970,7 +2234,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5339
+main.ts:5657
 
 ***
 
@@ -1980,7 +2244,9 @@ main.ts:5339
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1998,7 +2264,9 @@ main.ts:171
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2006,7 +2274,7 @@ main.ts:171
 
 #### Defined in
 
-main.ts:5233
+main.ts:5551
 
 ***
 
@@ -2016,7 +2284,9 @@ main.ts:5233
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2024,7 +2294,7 @@ main.ts:5233
 
 #### Defined in
 
-main.ts:5276
+main.ts:5594
 
 ***
 
@@ -2034,7 +2304,9 @@ main.ts:5276
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2042,7 +2314,7 @@ main.ts:5276
 
 #### Defined in
 
-main.ts:5190
+main.ts:5508
 
 ***
 
@@ -2052,7 +2324,9 @@ main.ts:5190
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2060,7 +2334,7 @@ main.ts:5190
 
 #### Defined in
 
-main.ts:5073
+main.ts:5391
 
 ***
 
@@ -2070,7 +2344,9 @@ main.ts:5073
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2078,7 +2354,7 @@ main.ts:5073
 
 #### Defined in
 
-main.ts:5147
+main.ts:5465
 
 ***
 
@@ -2088,7 +2364,9 @@ main.ts:5147
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2096,7 +2374,7 @@ main.ts:5147
 
 #### Defined in
 
-main.ts:5110
+main.ts:5428
 
 ***
 
@@ -2106,7 +2384,9 @@ main.ts:5110
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2114,7 +2394,7 @@ main.ts:5110
 
 #### Defined in
 
-main.ts:3700
+main.ts:4018
 
 ***
 
@@ -2124,7 +2404,9 @@ main.ts:3700
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2132,7 +2414,7 @@ main.ts:3700
 
 #### Defined in
 
-main.ts:3658
+main.ts:3976
 
 ***
 
@@ -2142,7 +2424,9 @@ main.ts:3658
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2150,7 +2434,7 @@ main.ts:3658
 
 #### Defined in
 
-main.ts:3616
+main.ts:3934
 
 ***
 
@@ -2160,7 +2444,9 @@ main.ts:3616
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2168,7 +2454,7 @@ main.ts:3616
 
 #### Defined in
 
-main.ts:3573
+main.ts:3891
 
 ***
 
@@ -2178,7 +2464,9 @@ main.ts:3573
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2186,7 +2474,7 @@ main.ts:3573
 
 #### Defined in
 
-main.ts:3456
+main.ts:3774
 
 ***
 
@@ -2196,7 +2484,9 @@ main.ts:3456
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2204,7 +2494,7 @@ main.ts:3456
 
 #### Defined in
 
-main.ts:3530
+main.ts:3848
 
 ***
 
@@ -2214,7 +2504,9 @@ main.ts:3530
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2222,7 +2514,7 @@ main.ts:3530
 
 #### Defined in
 
-main.ts:3493
+main.ts:3811
 
 ***
 
@@ -2232,7 +2524,9 @@ main.ts:3493
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2240,7 +2534,7 @@ main.ts:3493
 
 #### Defined in
 
-main.ts:3372
+main.ts:3690
 
 ***
 
@@ -2250,7 +2544,9 @@ main.ts:3372
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2258,7 +2554,7 @@ main.ts:3372
 
 #### Defined in
 
-main.ts:3414
+main.ts:3732
 
 ***
 
@@ -2268,7 +2564,9 @@ main.ts:3414
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2276,7 +2574,7 @@ main.ts:3414
 
 #### Defined in
 
-main.ts:3330
+main.ts:3648
 
 ***
 
@@ -2286,7 +2584,9 @@ main.ts:3330
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2294,7 +2594,7 @@ main.ts:3330
 
 #### Defined in
 
-main.ts:3245
+main.ts:3563
 
 ***
 
@@ -2304,7 +2604,9 @@ main.ts:3245
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2312,7 +2614,7 @@ main.ts:3245
 
 #### Defined in
 
-main.ts:3288
+main.ts:3606
 
 ***
 
@@ -2322,7 +2624,9 @@ main.ts:3288
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2330,7 +2634,7 @@ main.ts:3288
 
 #### Defined in
 
-main.ts:3202
+main.ts:3520
 
 ***
 
@@ -2340,7 +2644,9 @@ main.ts:3202
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2348,7 +2654,7 @@ main.ts:3202
 
 #### Defined in
 
-main.ts:3085
+main.ts:3403
 
 ***
 
@@ -2358,7 +2664,9 @@ main.ts:3085
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2366,7 +2674,7 @@ main.ts:3085
 
 #### Defined in
 
-main.ts:3159
+main.ts:3477
 
 ***
 
@@ -2376,7 +2684,9 @@ main.ts:3159
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2384,7 +2694,127 @@ main.ts:3159
 
 #### Defined in
 
-main.ts:3122
+main.ts:3440
+
+***
+
+### processGoogleAdsAdvertisersTaskGetAdvanced()
+
+> `protected` **processGoogleAdsAdvertisersTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:3083
+
+***
+
+### processGoogleAdsAdvertisersTaskPost()
+
+> `protected` **processGoogleAdsAdvertisersTaskPost**(`response`): `Promise`\<[`SerpGoogleAdsAdvertisersTaskPostResponseInfo`](SerpGoogleAdsAdvertisersTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsAdvertisersTaskPostResponseInfo`](SerpGoogleAdsAdvertisersTaskPostResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:3003
+
+***
+
+### processGoogleAdsAdvertisersTasksReady()
+
+> `protected` **processGoogleAdsAdvertisersTasksReady**(`response`): `Promise`\<[`SerpGoogleAdsAdvertisersTasksReadyResponseInfo`](SerpGoogleAdsAdvertisersTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsAdvertisersTasksReadyResponseInfo`](SerpGoogleAdsAdvertisersTasksReadyResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:3040
+
+***
+
+### processGoogleAdsSearchTaskGetAdvanced()
+
+> `protected` **processGoogleAdsSearchTaskGetAdvanced**(`response`): `Promise`\<[`SerpGoogleAdsSearchTaskGetAdvancedResponseInfo`](SerpGoogleAdsSearchTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsSearchTaskGetAdvancedResponseInfo`](SerpGoogleAdsSearchTaskGetAdvancedResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:3242
+
+***
+
+### processGoogleAdsSearchTaskPost()
+
+> `protected` **processGoogleAdsSearchTaskPost**(`response`): `Promise`\<[`SerpGoogleAdsSearchTaskPostResponseInfo`](SerpGoogleAdsSearchTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsSearchTaskPostResponseInfo`](SerpGoogleAdsSearchTaskPostResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:3162
+
+***
+
+### processGoogleAdsSearchTasksReady()
+
+> `protected` **processGoogleAdsSearchTasksReady**(`response`): `Promise`\<[`SerpGoogleAdsSearchTasksReadyResponseInfo`](SerpGoogleAdsSearchTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsSearchTasksReadyResponseInfo`](SerpGoogleAdsSearchTasksReadyResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:3199
 
 ***
 
@@ -2394,7 +2824,9 @@ main.ts:3122
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2412,7 +2844,9 @@ main.ts:2522
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2430,7 +2864,9 @@ main.ts:2480
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2448,7 +2884,9 @@ main.ts:2363
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2466,7 +2904,9 @@ main.ts:2437
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2484,7 +2924,9 @@ main.ts:2400
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2502,7 +2944,9 @@ main.ts:2924
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2520,7 +2964,9 @@ main.ts:2882
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2538,7 +2984,9 @@ main.ts:2765
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2556,7 +3004,9 @@ main.ts:2839
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2574,7 +3024,9 @@ main.ts:2802
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2592,7 +3044,9 @@ main.ts:2723
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2610,7 +3064,9 @@ main.ts:2681
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2628,7 +3084,9 @@ main.ts:2564
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2646,7 +3104,9 @@ main.ts:2638
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2664,7 +3124,9 @@ main.ts:2601
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2682,7 +3144,9 @@ main.ts:1674
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2700,7 +3164,9 @@ main.ts:1632
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2718,7 +3184,9 @@ main.ts:1515
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2736,7 +3204,9 @@ main.ts:1589
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2754,7 +3224,9 @@ main.ts:1552
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2772,7 +3244,9 @@ main.ts:1918
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2790,7 +3264,9 @@ main.ts:1960
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2808,7 +3284,9 @@ main.ts:1833
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2826,7 +3304,9 @@ main.ts:1876
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2844,7 +3324,9 @@ main.ts:1716
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2862,7 +3344,9 @@ main.ts:1790
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2880,7 +3364,9 @@ main.ts:1753
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2898,7 +3384,9 @@ main.ts:2278
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2916,7 +3404,9 @@ main.ts:2321
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2934,7 +3424,9 @@ main.ts:2161
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2952,7 +3444,9 @@ main.ts:2235
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2970,7 +3464,9 @@ main.ts:2198
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2988,7 +3484,9 @@ main.ts:1145
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3006,7 +3504,9 @@ main.ts:1187
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3024,7 +3524,9 @@ main.ts:1060
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3042,7 +3544,9 @@ main.ts:1103
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3060,7 +3564,9 @@ main.ts:942
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3078,7 +3584,9 @@ main.ts:1016
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3096,7 +3604,9 @@ main.ts:979
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3114,7 +3624,9 @@ main.ts:900
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3132,7 +3644,9 @@ main.ts:858
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3150,7 +3664,9 @@ main.ts:740
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3168,7 +3684,9 @@ main.ts:814
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3186,7 +3704,9 @@ main.ts:777
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3204,7 +3724,9 @@ main.ts:1431
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3222,7 +3744,9 @@ main.ts:1473
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3240,7 +3764,9 @@ main.ts:1346
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3258,7 +3784,9 @@ main.ts:1389
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3276,7 +3804,9 @@ main.ts:1229
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3294,7 +3824,9 @@ main.ts:1303
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3312,7 +3844,9 @@ main.ts:1266
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3330,7 +3864,9 @@ main.ts:656
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3348,7 +3884,9 @@ main.ts:698
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3366,7 +3904,9 @@ main.ts:614
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3384,7 +3924,9 @@ main.ts:529
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3402,7 +3944,9 @@ main.ts:572
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3420,7 +3964,9 @@ main.ts:486
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3438,7 +3984,9 @@ main.ts:332
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3456,7 +4004,9 @@ main.ts:443
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3474,7 +4024,9 @@ main.ts:369
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3492,7 +4044,9 @@ main.ts:2119
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3510,7 +4064,9 @@ main.ts:2002
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3528,7 +4084,9 @@ main.ts:2076
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3546,7 +4104,9 @@ main.ts:2039
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3554,7 +4114,7 @@ main.ts:2039
 
 #### Defined in
 
-main.ts:5478
+main.ts:5796
 
 ***
 
@@ -3564,7 +4124,9 @@ main.ts:5478
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3572,7 +4134,7 @@ main.ts:5478
 
 #### Defined in
 
-main.ts:5521
+main.ts:5839
 
 ***
 
@@ -3582,7 +4144,9 @@ main.ts:5521
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3590,7 +4154,7 @@ main.ts:5521
 
 #### Defined in
 
-main.ts:5435
+main.ts:5753
 
 ***
 
@@ -3600,7 +4164,9 @@ main.ts:5435
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3608,7 +4174,7 @@ main.ts:5435
 
 #### Defined in
 
-main.ts:5318
+main.ts:5636
 
 ***
 
@@ -3618,7 +4184,9 @@ main.ts:5318
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3626,7 +4194,7 @@ main.ts:5318
 
 #### Defined in
 
-main.ts:5392
+main.ts:5710
 
 ***
 
@@ -3636,7 +4204,9 @@ main.ts:5392
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3644,7 +4214,7 @@ main.ts:5392
 
 #### Defined in
 
-main.ts:5355
+main.ts:5673
 
 ***
 
@@ -3654,7 +4224,9 @@ main.ts:5355
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3672,7 +4244,9 @@ main.ts:129
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3680,7 +4254,7 @@ main.ts:129
 
 #### Defined in
 
-main.ts:5031
+main.ts:5349
 
 ***
 
@@ -3690,7 +4264,9 @@ main.ts:5031
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3698,7 +4274,7 @@ main.ts:5031
 
 #### Defined in
 
-main.ts:4949
+main.ts:5267
 
 ***
 
@@ -3708,7 +4284,9 @@ main.ts:4949
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3716,7 +4294,7 @@ main.ts:4949
 
 #### Defined in
 
-main.ts:4994
+main.ts:5312
 
 ***
 
@@ -3726,7 +4304,9 @@ main.ts:4994
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3734,7 +4314,7 @@ main.ts:4994
 
 #### Defined in
 
-main.ts:3043
+main.ts:3361
 
 ***
 
@@ -3744,7 +4324,9 @@ main.ts:3043
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3752,7 +4334,7 @@ main.ts:3043
 
 #### Defined in
 
-main.ts:2961
+main.ts:3279
 
 ***
 
@@ -3762,7 +4344,9 @@ main.ts:2961
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3770,7 +4354,7 @@ main.ts:2961
 
 #### Defined in
 
-main.ts:3006
+main.ts:3324
 
 ***
 
@@ -3780,7 +4364,9 @@ main.ts:3006
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3792,13 +4378,55 @@ main.ts:87
 
 ***
 
+### processSerpGoogleAdsAdvertisersLocations()
+
+> `protected` **processSerpGoogleAdsAdvertisersLocations**(`response`): `Promise`\<[`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:2961
+
+***
+
+### processSerpGoogleAdsSearchLocations()
+
+> `protected` **processSerpGoogleAdsSearchLocations**(`response`): `Promise`\<[`SerpGoogleAdsSearchLocationsResponseInfo`](SerpGoogleAdsSearchLocationsResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsSearchLocationsResponseInfo`](SerpGoogleAdsSearchLocationsResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:3120
+
+***
+
 ### processSerpGoogleLanguages()
 
 > `protected` **processSerpGoogleLanguages**(`response`): `Promise`\<[`SerpGoogleLanguagesResponseInfo`](SerpGoogleLanguagesResponseInfo.md)\>
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3816,7 +4444,9 @@ main.ts:290
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3834,7 +4464,9 @@ main.ts:208
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3852,7 +4484,9 @@ main.ts:253
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3870,7 +4504,9 @@ main.ts:45
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3878,7 +4514,7 @@ main.ts:45
 
 #### Defined in
 
-main.ts:5640
+main.ts:5958
 
 ***
 
@@ -3888,7 +4524,9 @@ main.ts:5640
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3896,7 +4534,7 @@ main.ts:5640
 
 #### Defined in
 
-main.ts:5558
+main.ts:5876
 
 ***
 
@@ -3906,7 +4544,9 @@ main.ts:5558
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3914,7 +4554,7 @@ main.ts:5558
 
 #### Defined in
 
-main.ts:5603
+main.ts:5921
 
 ***
 
@@ -3924,7 +4564,9 @@ main.ts:5603
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3932,7 +4574,7 @@ main.ts:5603
 
 #### Defined in
 
-main.ts:4541
+main.ts:4859
 
 ***
 
@@ -3942,7 +4584,9 @@ main.ts:4541
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3950,7 +4594,7 @@ main.ts:4541
 
 #### Defined in
 
-main.ts:4459
+main.ts:4777
 
 ***
 
@@ -3960,7 +4604,9 @@ main.ts:4459
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3968,7 +4614,7 @@ main.ts:4459
 
 #### Defined in
 
-main.ts:4504
+main.ts:4822
 
 ***
 
@@ -3978,7 +4624,9 @@ main.ts:4504
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -3986,7 +4634,7 @@ main.ts:4504
 
 #### Defined in
 
-main.ts:3819
+main.ts:4137
 
 ***
 
@@ -3996,7 +4644,9 @@ main.ts:3819
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4004,7 +4654,7 @@ main.ts:3819
 
 #### Defined in
 
-main.ts:3737
+main.ts:4055
 
 ***
 
@@ -4014,7 +4664,9 @@ main.ts:3737
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4022,7 +4674,7 @@ main.ts:3737
 
 #### Defined in
 
-main.ts:3782
+main.ts:4100
 
 ***
 
@@ -4032,7 +4684,9 @@ main.ts:3782
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4040,7 +4694,7 @@ main.ts:3782
 
 #### Defined in
 
-main.ts:5842
+main.ts:6160
 
 ***
 
@@ -4050,7 +4704,9 @@ main.ts:5842
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4058,7 +4714,7 @@ main.ts:5842
 
 #### Defined in
 
-main.ts:5885
+main.ts:6203
 
 ***
 
@@ -4068,7 +4724,9 @@ main.ts:5885
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4076,7 +4734,7 @@ main.ts:5885
 
 #### Defined in
 
-main.ts:5799
+main.ts:6117
 
 ***
 
@@ -4086,7 +4744,9 @@ main.ts:5799
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4094,7 +4754,7 @@ main.ts:5799
 
 #### Defined in
 
-main.ts:5682
+main.ts:6000
 
 ***
 
@@ -4104,7 +4764,9 @@ main.ts:5682
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4112,7 +4774,7 @@ main.ts:5682
 
 #### Defined in
 
-main.ts:5756
+main.ts:6074
 
 ***
 
@@ -4122,7 +4784,9 @@ main.ts:5756
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4130,7 +4794,7 @@ main.ts:5756
 
 #### Defined in
 
-main.ts:5719
+main.ts:6037
 
 ***
 
@@ -4140,7 +4804,9 @@ main.ts:5719
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4158,7 +4824,9 @@ main.ts:406
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4166,7 +4834,7 @@ main.ts:406
 
 #### Defined in
 
-main.ts:4870
+main.ts:5188
 
 ***
 
@@ -4176,7 +4844,9 @@ main.ts:4870
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4184,7 +4854,7 @@ main.ts:4870
 
 #### Defined in
 
-main.ts:4912
+main.ts:5230
 
 ***
 
@@ -4194,7 +4864,9 @@ main.ts:4912
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4202,7 +4874,7 @@ main.ts:4912
 
 #### Defined in
 
-main.ts:4828
+main.ts:5146
 
 ***
 
@@ -4212,7 +4884,9 @@ main.ts:4828
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4220,7 +4894,7 @@ main.ts:4828
 
 #### Defined in
 
-main.ts:4743
+main.ts:5061
 
 ***
 
@@ -4230,7 +4904,9 @@ main.ts:4743
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4238,7 +4914,7 @@ main.ts:4743
 
 #### Defined in
 
-main.ts:4786
+main.ts:5104
 
 ***
 
@@ -4248,7 +4924,9 @@ main.ts:4786
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4256,7 +4934,7 @@ main.ts:4786
 
 #### Defined in
 
-main.ts:4700
+main.ts:5018
 
 ***
 
@@ -4266,7 +4944,9 @@ main.ts:4700
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4274,7 +4954,7 @@ main.ts:4700
 
 #### Defined in
 
-main.ts:4583
+main.ts:4901
 
 ***
 
@@ -4284,7 +4964,9 @@ main.ts:4583
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4292,7 +4974,7 @@ main.ts:4583
 
 #### Defined in
 
-main.ts:4657
+main.ts:4975
 
 ***
 
@@ -4302,7 +4984,9 @@ main.ts:4657
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4310,7 +4994,7 @@ main.ts:4657
 
 #### Defined in
 
-main.ts:4620
+main.ts:4938
 
 ***
 
@@ -4320,7 +5004,9 @@ main.ts:4620
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4328,7 +5014,7 @@ main.ts:4620
 
 #### Defined in
 
-main.ts:4422
+main.ts:4740
 
 ***
 
@@ -4338,7 +5024,9 @@ main.ts:4422
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4346,7 +5034,7 @@ main.ts:4422
 
 #### Defined in
 
-main.ts:4380
+main.ts:4698
 
 ***
 
@@ -4356,7 +5044,9 @@ main.ts:4380
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4364,7 +5054,7 @@ main.ts:4380
 
 #### Defined in
 
-main.ts:4263
+main.ts:4581
 
 ***
 
@@ -4374,7 +5064,9 @@ main.ts:4263
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4382,7 +5074,7 @@ main.ts:4263
 
 #### Defined in
 
-main.ts:4337
+main.ts:4655
 
 ***
 
@@ -4392,7 +5084,9 @@ main.ts:4337
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4400,7 +5094,7 @@ main.ts:4337
 
 #### Defined in
 
-main.ts:4300
+main.ts:4618
 
 ***
 
@@ -4410,7 +5104,9 @@ main.ts:4300
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4418,7 +5114,7 @@ main.ts:4300
 
 #### Defined in
 
-main.ts:4020
+main.ts:4338
 
 ***
 
@@ -4428,7 +5124,9 @@ main.ts:4020
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4436,7 +5134,7 @@ main.ts:4020
 
 #### Defined in
 
-main.ts:3978
+main.ts:4296
 
 ***
 
@@ -4446,7 +5144,9 @@ main.ts:3978
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4454,7 +5154,7 @@ main.ts:3978
 
 #### Defined in
 
-main.ts:3861
+main.ts:4179
 
 ***
 
@@ -4464,7 +5164,9 @@ main.ts:3861
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4472,7 +5174,7 @@ main.ts:3861
 
 #### Defined in
 
-main.ts:3935
+main.ts:4253
 
 ***
 
@@ -4482,7 +5184,9 @@ main.ts:3935
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4490,7 +5194,7 @@ main.ts:3935
 
 #### Defined in
 
-main.ts:3898
+main.ts:4216
 
 ***
 
@@ -4500,7 +5204,9 @@ main.ts:3898
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4508,7 +5214,7 @@ main.ts:3898
 
 #### Defined in
 
-main.ts:4221
+main.ts:4539
 
 ***
 
@@ -4518,7 +5224,9 @@ main.ts:4221
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4526,7 +5234,7 @@ main.ts:4221
 
 #### Defined in
 
-main.ts:4179
+main.ts:4497
 
 ***
 
@@ -4536,7 +5244,9 @@ main.ts:4179
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4544,7 +5254,7 @@ main.ts:4179
 
 #### Defined in
 
-main.ts:4062
+main.ts:4380
 
 ***
 
@@ -4554,7 +5264,9 @@ main.ts:4062
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4562,7 +5274,7 @@ main.ts:4062
 
 #### Defined in
 
-main.ts:4136
+main.ts:4454
 
 ***
 
@@ -4572,7 +5284,9 @@ main.ts:4136
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -4580,7 +5294,7 @@ main.ts:4136
 
 #### Defined in
 
-main.ts:4099
+main.ts:4417
 
 ***
 
@@ -4590,7 +5304,9 @@ main.ts:4099
 
 #### Parameters
 
-• **body**: [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)[]
+##### body
+
+[`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)[]
 
 (optional)
 
@@ -4618,7 +5334,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5015
+main.ts:5333
 
 ***
 
@@ -4634,7 +5350,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4933
+main.ts:5251
 
 ***
 
@@ -4644,7 +5360,9 @@ main.ts:4933
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -4660,7 +5378,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4975
+main.ts:5293
 
 ***
 
@@ -4676,7 +5394,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3027
+main.ts:3345
 
 ***
 
@@ -4692,7 +5410,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:2945
+main.ts:3263
 
 ***
 
@@ -4702,7 +5420,9 @@ main.ts:2945
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -4718,7 +5438,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:2987
+main.ts:3305
 
 ***
 
@@ -4728,7 +5448,9 @@ main.ts:2987
 
 #### Parameters
 
-• **body**: [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)[]
+##### body
+
+[`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -4741,6 +5463,38 @@ Successful operation
 #### Defined in
 
 main.ts:67
+
+***
+
+### serpGoogleAdsAdvertisersLocations()
+
+> **serpGoogleAdsAdvertisersLocations**(): `Promise`\<[`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsAdvertisersLocationsResponseInfo`](SerpGoogleAdsAdvertisersLocationsResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:2945
+
+***
+
+### serpGoogleAdsSearchLocations()
+
+> **serpGoogleAdsSearchLocations**(): `Promise`\<[`SerpGoogleAdsSearchLocationsResponseInfo`](SerpGoogleAdsSearchLocationsResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`SerpGoogleAdsSearchLocationsResponseInfo`](SerpGoogleAdsSearchLocationsResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:3104
 
 ***
 
@@ -4782,7 +5536,9 @@ main.ts:192
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -4808,7 +5564,9 @@ main.ts:234
 
 #### Parameters
 
-• **body**: [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)[]
+##### body
+
+[`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)[]
 
 (optional)
 
@@ -4836,7 +5594,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5624
+main.ts:5942
 
 ***
 
@@ -4852,7 +5610,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5542
+main.ts:5860
 
 ***
 
@@ -4862,7 +5620,9 @@ main.ts:5542
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -4878,7 +5638,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5584
+main.ts:5902
 
 ***
 
@@ -4894,7 +5654,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4525
+main.ts:4843
 
 ***
 
@@ -4910,7 +5670,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4443
+main.ts:4761
 
 ***
 
@@ -4920,7 +5680,9 @@ main.ts:4443
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -4936,7 +5698,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4485
+main.ts:4803
 
 ***
 
@@ -4952,7 +5714,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3803
+main.ts:4121
 
 ***
 
@@ -4968,7 +5730,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3721
+main.ts:4039
 
 ***
 
@@ -4978,7 +5740,9 @@ main.ts:3721
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -4994,7 +5758,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3763
+main.ts:4081
 
 ***
 
@@ -5004,7 +5768,9 @@ main.ts:3763
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5018,7 +5784,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5823
+main.ts:6141
 
 ***
 
@@ -5028,7 +5794,9 @@ main.ts:5823
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5042,7 +5810,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5866
+main.ts:6184
 
 ***
 
@@ -5052,7 +5820,9 @@ main.ts:5866
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5066,7 +5836,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5780
+main.ts:6098
 
 ***
 
@@ -5076,7 +5846,9 @@ main.ts:5780
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpSeznamOrganicTaskPostRequestInfo`](SerpSeznamOrganicTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -5088,7 +5860,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5662
+main.ts:5980
 
 ***
 
@@ -5104,7 +5876,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5740
+main.ts:6058
 
 ***
 
@@ -5120,7 +5892,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:5703
+main.ts:6021
 
 ***
 
@@ -5146,7 +5918,9 @@ main.ts:390
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpYahooOrganicLiveAdvancedRequestInfo`](SerpYahooOrganicLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -5158,7 +5932,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4850
+main.ts:5168
 
 ***
 
@@ -5168,7 +5942,9 @@ main.ts:4850
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpYahooOrganicLiveHtmlRequestInfo`](SerpYahooOrganicLiveHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -5180,7 +5956,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4892
+main.ts:5210
 
 ***
 
@@ -5190,7 +5966,9 @@ main.ts:4892
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpYahooOrganicLiveRegularRequestInfo`](SerpYahooOrganicLiveRegularRequestInfo.md)[]
 
 (optional)
 
@@ -5202,7 +5980,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4808
+main.ts:5126
 
 ***
 
@@ -5212,7 +5990,9 @@ main.ts:4808
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5226,7 +6006,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4724
+main.ts:5042
 
 ***
 
@@ -5236,7 +6016,9 @@ main.ts:4724
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5250,7 +6032,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4767
+main.ts:5085
 
 ***
 
@@ -5260,7 +6042,9 @@ main.ts:4767
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5274,7 +6058,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4681
+main.ts:4999
 
 ***
 
@@ -5284,7 +6068,9 @@ main.ts:4681
 
 #### Parameters
 
-• **body**: [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)[]
+##### body
+
+[`SerpYahooOrganicTaskPostRequestInfo`](SerpYahooOrganicTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -5296,7 +6082,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4563
+main.ts:4881
 
 ***
 
@@ -5312,7 +6098,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4641
+main.ts:4959
 
 ***
 
@@ -5328,7 +6114,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4604
+main.ts:4922
 
 ***
 
@@ -5338,7 +6124,9 @@ main.ts:4604
 
 #### Parameters
 
-• **body**: [`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](SerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -5350,7 +6138,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4402
+main.ts:4720
 
 ***
 
@@ -5360,7 +6148,9 @@ main.ts:4402
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5374,7 +6164,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4361
+main.ts:4679
 
 ***
 
@@ -5384,7 +6174,9 @@ main.ts:4361
 
 #### Parameters
 
-• **body**: [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -5396,7 +6188,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4243
+main.ts:4561
 
 ***
 
@@ -5412,7 +6204,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4321
+main.ts:4639
 
 ***
 
@@ -5428,7 +6220,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4284
+main.ts:4602
 
 ***
 
@@ -5438,7 +6230,9 @@ main.ts:4284
 
 #### Parameters
 
-• **body**: [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -5450,7 +6244,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4000
+main.ts:4318
 
 ***
 
@@ -5460,7 +6254,9 @@ main.ts:4000
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5474,7 +6270,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3959
+main.ts:4277
 
 ***
 
@@ -5484,7 +6280,9 @@ main.ts:3959
 
 #### Parameters
 
-• **body**: [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -5496,7 +6294,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3841
+main.ts:4159
 
 ***
 
@@ -5512,7 +6310,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3919
+main.ts:4237
 
 ***
 
@@ -5528,7 +6326,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:3882
+main.ts:4200
 
 ***
 
@@ -5538,7 +6336,9 @@ main.ts:3882
 
 #### Parameters
 
-• **body**: [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -5550,7 +6350,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4201
+main.ts:4519
 
 ***
 
@@ -5560,7 +6360,9 @@ main.ts:4201
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -5574,7 +6376,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4160
+main.ts:4478
 
 ***
 
@@ -5584,7 +6386,9 @@ main.ts:4160
 
 #### Parameters
 
-• **body**: [`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)[]
+##### body
+
+[`SerpYoutubeVideoSubtitlesTaskPostRequestInfo`](SerpYoutubeVideoSubtitlesTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -5596,7 +6400,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4042
+main.ts:4360
 
 ***
 
@@ -5612,7 +6416,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:4120
+main.ts:4438
 
 ***
 
@@ -5628,4 +6432,4 @@ Successful operation
 
 #### Defined in
 
-main.ts:4083
+main.ts:4401

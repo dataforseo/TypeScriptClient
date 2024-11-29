@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonReviewsTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantAmazonReviewsTaskPostRequestInfo
 
 # Interface: IMerchantAmazonReviewsTaskPostRequestInfo
 
@@ -23,7 +23,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:184534
+main.ts:196846
 
 ***
 
@@ -35,12 +35,12 @@ parsing depth
 optional field
 number of reviews in SERP;
 we strongly recommend setting the parsing depth in the multiples of ten, because our system processes ten reviews in a row;
-maximum value: 100
+maximum value: 50
 default value: 10
 
 #### Defined in
 
-main.ts:184595
+main.ts:196907
 
 ***
 
@@ -50,12 +50,12 @@ main.ts:184595
 
 filter reviews by specified keyword
 optional field
-you can specify up to 300 symbols in this field;
+you can specify up to 300 characters in this field;
 if you use this field, the response will only include reviews that contain the specified keyword
 
 #### Defined in
 
-main.ts:184630
+main.ts:196940
 
 ***
 
@@ -79,7 +79,7 @@ default rule: all_stars
 
 #### Defined in
 
-main.ts:184625
+main.ts:196935
 
 ***
 
@@ -98,7 +98,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Defined in
 
-main.ts:184647
+main.ts:196957
 
 ***
 
@@ -115,7 +115,7 @@ en_GB
 
 #### Defined in
 
-main.ts:184581
+main.ts:196893
 
 ***
 
@@ -133,7 +133,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:184574
+main.ts:196886
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:184557
+main.ts:196869
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:184566
+main.ts:196878
 
 ***
 
@@ -187,7 +187,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:184549
+main.ts:196861
 
 ***
 
@@ -205,7 +205,7 @@ default rule: all_contents
 
 #### Defined in
 
-main.ts:184638
+main.ts:196948
 
 ***
 
@@ -220,12 +220,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:184679
+main.ts:196991
 
 ***
 
@@ -241,7 +242,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:184669
+main.ts:196980
 
 ***
 
@@ -256,12 +257,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:184663
+main.ts:196974
 
 ***
 
@@ -279,7 +281,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:184542
+main.ts:196854
 
 ***
 
@@ -297,7 +299,7 @@ default rule: all_reviews
 
 #### Defined in
 
-main.ts:184611
+main.ts:196921
 
 ***
 
@@ -314,7 +316,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:184588
+main.ts:196900
 
 ***
 
@@ -324,15 +326,13 @@ main.ts:184588
 
 results sorting parameters
 optional field
-you can use this field to sort the results;
 possible types of sorting:
-helpful — sort by helpful reviews;
-recent — sort by recent reviews;
+helpful — for now, the only available sorting value;
 default rule: helpful
 
 #### Defined in
 
-main.ts:184603
+main.ts:196913
 
 ***
 
@@ -348,4 +348,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:184653
+main.ts:196963

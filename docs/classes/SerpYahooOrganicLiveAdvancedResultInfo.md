@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooOrganicLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpYahooOrganicLiveAdvancedResultInfo
 
 # Class: SerpYahooOrganicLiveAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYahooOrganicLiveAdvancedResultInfo`](../interfaces/ISerpYahooOrganicLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpYahooOrganicLiveAdvancedResultInfo`](../interfaces/ISerpYahooOrganicLiveAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:68497
+main.ts:77652
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:68474
+main.ts:77626
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:68479
+main.ts:77631
 
 ***
 
@@ -85,7 +87,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
 
 #### Defined in
 
-main.ts:68487
+main.ts:77642
 
 ***
 
@@ -101,7 +103,7 @@ items featured in the faq_box
 
 #### Defined in
 
-main.ts:68493
+main.ts:77648
 
 ***
 
@@ -117,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:68491
+main.ts:77646
 
 ***
 
@@ -126,7 +128,7 @@ main.ts:68491
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -134,7 +136,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:68463
+main.ts:77615
 
 ***
 
@@ -150,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:68471
+main.ts:77623
 
 ***
 
@@ -166,7 +168,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:68469
+main.ts:77621
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYahooOrganicLiveAdvancedResultInfo`](../interfaces/ISerpYahooOrganicLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpYahooOrganicLiveAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:77637
 
 ***
 
@@ -182,7 +201,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:68467
+main.ts:77619
 
 ***
 
@@ -198,7 +217,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:68489
+main.ts:77644
 
 ***
 
@@ -215,7 +234,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:68482
+main.ts:77634
 
 ***
 
@@ -231,7 +250,7 @@ type of element
 
 #### Defined in
 
-main.ts:68465
+main.ts:77617
 
 ## Methods
 
@@ -241,7 +260,9 @@ main.ts:68465
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -249,7 +270,7 @@ main.ts:68465
 
 #### Defined in
 
-main.ts:68506
+main.ts:77661
 
 ***
 
@@ -259,7 +280,9 @@ main.ts:68506
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +290,7 @@ main.ts:68506
 
 #### Defined in
 
-main.ts:68542
+main.ts:77698
 
 ***
 
@@ -277,7 +300,9 @@ main.ts:68542
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -285,4 +310,4 @@ main.ts:68542
 
 #### Defined in
 
-main.ts:68535
+main.ts:77691

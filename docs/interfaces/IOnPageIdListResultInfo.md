@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageIdListResultInfo
+[Documentation](../README.md) / IOnPageIdListResultInfo
 
 # Interface: IOnPageIdListResultInfo
 
@@ -20,7 +20,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:151952
+main.ts:163157
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:151947
+main.ts:163152
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:151942
+main.ts:163147
 
 ***
 
@@ -62,7 +62,7 @@ id of the task
 
 #### Defined in
 
-main.ts:151934
+main.ts:163139
 
 ***
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:151954
+main.ts:163159
 
 ***
 
@@ -91,7 +91,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:151950
+main.ts:163155
 
 ***
 
@@ -104,4 +104,4 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:151937
+main.ts:163142

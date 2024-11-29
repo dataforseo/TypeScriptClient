@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBingLocationsCountryResultInfo
+[Documentation](../README.md) / SerpBingLocationsCountryResultInfo
 
 # Class: SerpBingLocationsCountryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBingLocationsCountryResultInfo`](../interfaces/ISerpBingLocationsCountryResultInfo.md)
+##### data?
+
+[`ISerpBingLocationsCountryResultInfo`](../interfaces/ISerpBingLocationsCountryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:56912
+main.ts:63012
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:56906
+main.ts:63006
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:56893
+main.ts:62993
 
 ***
 
@@ -85,7 +87,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:56904
+main.ts:63004
 
 ***
 
@@ -101,7 +103,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:56895
+main.ts:62995
 
 ***
 
@@ -117,7 +119,7 @@ location type
 
 #### Defined in
 
-main.ts:56908
+main.ts:63008
 
 ## Methods
 
@@ -127,7 +129,9 @@ main.ts:56908
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -135,7 +139,7 @@ main.ts:56908
 
 #### Defined in
 
-main.ts:56921
+main.ts:63021
 
 ***
 
@@ -145,7 +149,9 @@ main.ts:56921
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -153,7 +159,7 @@ main.ts:56921
 
 #### Defined in
 
-main.ts:56942
+main.ts:63042
 
 ***
 
@@ -163,7 +169,9 @@ main.ts:56942
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -171,4 +179,4 @@ main.ts:56942
 
 #### Defined in
 
-main.ts:56935
+main.ts:63035

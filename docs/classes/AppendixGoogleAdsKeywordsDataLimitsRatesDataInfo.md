@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:215798
+main.ts:230749
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:215798
 
 #### Defined in
 
-main.ts:215794
+main.ts:230745
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:215794
 
 #### Defined in
 
-main.ts:215792
+main.ts:230743
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:215792
 
 #### Defined in
 
-main.ts:215793
+main.ts:230744
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:215793
 
 #### Defined in
 
-main.ts:215791
+main.ts:230742
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:215791
 
 #### Defined in
 
-main.ts:215790
+main.ts:230741
 
 ## Methods
 
@@ -110,7 +112,9 @@ main.ts:215790
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +122,7 @@ main.ts:215790
 
 #### Defined in
 
-main.ts:215807
+main.ts:230758
 
 ***
 
@@ -128,7 +132,9 @@ main.ts:215807
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +142,7 @@ main.ts:215807
 
 #### Defined in
 
-main.ts:215828
+main.ts:230779
 
 ***
 
@@ -146,7 +152,9 @@ main.ts:215828
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -154,4 +162,4 @@ main.ts:215828
 
 #### Defined in
 
-main.ts:215821
+main.ts:230772

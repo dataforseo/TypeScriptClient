@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
 
 # Class: SerpGoogleLocalFinderLiveHtmlRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:42970
+main.ts:44821
 
 ## Properties
 
@@ -55,7 +57,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:42946
+main.ts:44797
 
 ***
 
@@ -74,7 +76,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:42928
+main.ts:44779
 
 ***
 
@@ -84,10 +86,10 @@ main.ts:42928
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
 
 #### Implementation of
 
@@ -95,7 +97,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:42877
+main.ts:44728
 
 ***
 
@@ -115,7 +117,7 @@ example:en
 
 #### Defined in
 
-main.ts:42923
+main.ts:44774
 
 ***
 
@@ -136,7 +138,7 @@ English
 
 #### Defined in
 
-main.ts:42917
+main.ts:44768
 
 ***
 
@@ -157,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:42899
+main.ts:44750
 
 ***
 
@@ -182,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:42910
+main.ts:44761
 
 ***
 
@@ -203,7 +205,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:42892
+main.ts:44743
 
 ***
 
@@ -222,7 +224,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:42951
+main.ts:44802
 
 ***
 
@@ -243,7 +245,7 @@ default value: android
 
 #### Defined in
 
-main.ts:42935
+main.ts:44786
 
 ***
 
@@ -265,7 +267,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:42885
+main.ts:44736
 
 ***
 
@@ -285,7 +287,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:42966
+main.ts:44817
 
 ***
 
@@ -308,7 +310,7 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:42960
+main.ts:44811
 
 ## Methods
 
@@ -318,7 +320,9 @@ main.ts:42960
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -326,7 +330,7 @@ main.ts:42960
 
 #### Defined in
 
-main.ts:42979
+main.ts:44830
 
 ***
 
@@ -336,7 +340,9 @@ main.ts:42979
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -344,7 +350,7 @@ main.ts:42979
 
 #### Defined in
 
-main.ts:43008
+main.ts:44859
 
 ***
 
@@ -354,7 +360,9 @@ main.ts:43008
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -362,4 +370,4 @@ main.ts:43008
 
 #### Defined in
 
-main.ts:43001
+main.ts:44852

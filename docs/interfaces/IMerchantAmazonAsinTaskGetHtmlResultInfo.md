@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonAsinTaskGetHtmlResultInfo
+[Documentation](../README.md) / IMerchantAmazonAsinTaskGetHtmlResultInfo
 
 # Interface: IMerchantAmazonAsinTaskGetHtmlResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:182931
+main.ts:195239
 
 ***
 
@@ -35,7 +35,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:182935
+main.ts:195243
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:182933
+main.ts:195241
 
 ***
 
@@ -59,7 +59,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:182926
+main.ts:195234
 
 ***
 
@@ -71,7 +71,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:182924
+main.ts:195232
 
 ***
 
@@ -83,7 +83,7 @@ ASIN received in a POST array
 
 #### Defined in
 
-main.ts:182918
+main.ts:195226
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:182922
+main.ts:195230
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:182920
+main.ts:195228

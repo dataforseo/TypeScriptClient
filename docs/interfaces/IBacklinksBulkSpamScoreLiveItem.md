@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkSpamScoreLiveItem
+[Documentation](../README.md) / IBacklinksBulkSpamScoreLiveItem
 
 # Interface: IBacklinksBulkSpamScoreLiveItem
 
@@ -21,7 +21,7 @@ learn more about how the metric is calculated
 
 #### Defined in
 
-main.ts:149836
+main.ts:161041
 
 ***
 
@@ -33,7 +33,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:149833
+main.ts:161038
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Defined in
 
-main.ts:149831
+main.ts:161036

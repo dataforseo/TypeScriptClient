@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMicrodataInspectionInfo
+[Documentation](../README.md) / IMicrodataInspectionInfo
 
 # Interface: IMicrodataInspectionInfo
 
@@ -21,7 +21,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:160166
+main.ts:171809
 
 ***
 
@@ -34,4 +34,4 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:160163
+main.ts:171806

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleMyBusinessInfoLiveResultInfo
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessInfoLiveResultInfo
 
 # Class: BusinessDataGoogleMyBusinessInfoLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:202076
+main.ts:214860
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:202056
+main.ts:214840
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:202061
+main.ts:214845
 
 ***
 
@@ -84,7 +86,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:202065
+main.ts:214849
 
 ***
 
@@ -102,7 +104,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:202072
+main.ts:214856
 
 ***
 
@@ -119,7 +121,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:202068
+main.ts:214852
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:202068
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
@@ -140,7 +142,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:202047
+main.ts:214831
 
 ***
 
@@ -156,7 +158,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:202053
+main.ts:214837
 
 ***
 
@@ -172,7 +174,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:202051
+main.ts:214835
 
 ***
 
@@ -188,7 +190,7 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:202049
+main.ts:214833
 
 ## Methods
 
@@ -198,7 +200,9 @@ main.ts:202049
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -206,7 +210,7 @@ main.ts:202049
 
 #### Defined in
 
-main.ts:202085
+main.ts:214869
 
 ***
 
@@ -216,7 +220,9 @@ main.ts:202085
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -224,7 +230,7 @@ main.ts:202085
 
 #### Defined in
 
-main.ts:202118
+main.ts:214902
 
 ***
 
@@ -234,7 +240,9 @@ main.ts:202118
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -242,4 +250,4 @@ main.ts:202118
 
 #### Defined in
 
-main.ts:202111
+main.ts:214895

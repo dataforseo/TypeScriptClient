@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordInfo
+[Documentation](../README.md) / IKeywordInfo
 
 # Interface: IKeywordInfo
 
@@ -21,7 +21,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:82808
+main.ts:92520
 
 ***
 
@@ -34,7 +34,7 @@ represents the relative amount of competition associated with the given keyword.
 
 #### Defined in
 
-main.ts:82785
+main.ts:92497
 
 ***
 
@@ -50,7 +50,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:82791
+main.ts:92503
 
 ***
 
@@ -63,7 +63,7 @@ represents the average cost per click (USD) historically paid for the keyword
 
 #### Defined in
 
-main.ts:82794
+main.ts:92506
 
 ***
 
@@ -77,7 +77,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:82805
+main.ts:92517
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:82782
+main.ts:92494
 
 ***
 
@@ -106,7 +106,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:82801
+main.ts:92513
 
 ***
 
@@ -119,7 +119,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
-main.ts:82811
+main.ts:92523
 
 ***
 
@@ -131,7 +131,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82777
+main.ts:92489
 
 ***
 
@@ -144,4 +144,4 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 #### Defined in
 
-main.ts:82797
+main.ts:92509

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainsByLiveItem
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainsByLiveItem
 
 # Class: DomainAnalyticsTechnologiesDomainsByLiveItem
 
@@ -24,7 +24,9 @@ items array
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesDomainsByLiveItem`](../interfaces/IDomainAnalyticsTechnologiesDomainsByLiveItem.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesDomainsByLiveItem`](../interfaces/IDomainAnalyticsTechnologiesDomainsByLiveItem.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@ items array
 
 #### Defined in
 
-main.ts:78069
+main.ts:87779
 
 ## Properties
 
@@ -49,7 +51,7 @@ code of the language that content on the target domain is written with
 
 #### Defined in
 
-main.ts:78052
+main.ts:87762
 
 ***
 
@@ -66,7 +68,7 @@ ISO code of the country that target domain is determined to belong to
 
 #### Defined in
 
-main.ts:78046
+main.ts:87756
 
 ***
 
@@ -82,7 +84,7 @@ domain meta description
 
 #### Defined in
 
-main.ts:78033
+main.ts:87743
 
 ***
 
@@ -98,7 +100,7 @@ specified domain name
 
 #### Defined in
 
-main.ts:78029
+main.ts:87739
 
 ***
 
@@ -115,7 +117,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:78038
+main.ts:87748
 
 ***
 
@@ -132,7 +134,7 @@ emails indicated on the target website
 
 #### Defined in
 
-main.ts:78058
+main.ts:87768
 
 ***
 
@@ -149,7 +151,7 @@ code of the language that target domain is determined to be associated with
 
 #### Defined in
 
-main.ts:78049
+main.ts:87759
 
 ***
 
@@ -168,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:78043
+main.ts:87753
 
 ***
 
@@ -184,7 +186,7 @@ domain meta keywords
 
 #### Defined in
 
-main.ts:78035
+main.ts:87745
 
 ***
 
@@ -201,7 +203,7 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-main.ts:78055
+main.ts:87765
 
 ***
 
@@ -218,7 +220,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-main.ts:78061
+main.ts:87771
 
 ***
 
@@ -236,7 +238,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 #### Defined in
 
-main.ts:78065
+main.ts:87775
 
 ***
 
@@ -252,7 +254,7 @@ domain meta title
 
 #### Defined in
 
-main.ts:78031
+main.ts:87741
 
 ***
 
@@ -268,7 +270,7 @@ type of element
 
 #### Defined in
 
-main.ts:78027
+main.ts:87737
 
 ## Methods
 
@@ -278,7 +280,9 @@ main.ts:78027
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -286,7 +290,7 @@ main.ts:78027
 
 #### Defined in
 
-main.ts:78078
+main.ts:87788
 
 ***
 
@@ -296,7 +300,9 @@ main.ts:78078
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -304,7 +310,7 @@ main.ts:78078
 
 #### Defined in
 
-main.ts:78124
+main.ts:87834
 
 ***
 
@@ -314,7 +320,9 @@ main.ts:78124
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -322,4 +330,4 @@ main.ts:78124
 
 #### Defined in
 
-main.ts:78117
+main.ts:87827

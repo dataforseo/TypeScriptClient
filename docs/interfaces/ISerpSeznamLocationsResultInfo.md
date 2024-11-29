@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpSeznamLocationsResultInfo
+[Documentation](../README.md) / ISerpSeznamLocationsResultInfo
 
 # Interface: ISerpSeznamLocationsResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:72595
+main.ts:82239
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:72587
+main.ts:82231
 
 ***
 
@@ -46,7 +46,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:72593
+main.ts:82237
 
 ***
 
@@ -58,7 +58,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:72589
+main.ts:82233
 
 ***
 
@@ -70,4 +70,4 @@ location type
 
 #### Defined in
 
-main.ts:72597
+main.ts:82241

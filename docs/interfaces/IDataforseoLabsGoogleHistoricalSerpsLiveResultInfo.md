@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
@@ -21,7 +21,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96745
+main.ts:106607
 
 ***
 
@@ -33,7 +33,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96742
+main.ts:106604
 
 ***
 
@@ -42,11 +42,11 @@ main.ts:96742
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:96734
+main.ts:106596
 
 ***
 
@@ -58,7 +58,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96738
+main.ts:106600
 
 ***
 
@@ -70,7 +70,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96736
+main.ts:106598
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96731
+main.ts:106593
 
 ***
 
@@ -94,4 +94,4 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96740
+main.ts:106602

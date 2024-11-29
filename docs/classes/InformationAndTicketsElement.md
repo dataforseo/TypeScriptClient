@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / InformationAndTicketsElement
+[Documentation](../README.md) / InformationAndTicketsElement
 
 # Class: InformationAndTicketsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md)
+##### data?
+
+[`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:46114
+main.ts:48929
 
 ## Properties
 
@@ -46,7 +48,7 @@ description of the element
 
 #### Defined in
 
-main.ts:46106
+main.ts:48921
 
 ***
 
@@ -62,7 +64,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:46110
+main.ts:48925
 
 ***
 
@@ -78,7 +80,7 @@ title of the element
 
 #### Defined in
 
-main.ts:46104
+main.ts:48919
 
 ***
 
@@ -94,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:46102
+main.ts:48917
 
 ***
 
@@ -110,7 +112,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:46108
+main.ts:48923
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:46108
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:46108
 
 #### Defined in
 
-main.ts:46123
+main.ts:48938
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:46123
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:46123
 
 #### Defined in
 
-main.ts:46144
+main.ts:48959
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:46144
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:46144
 
 #### Defined in
 
-main.ts:46137
+main.ts:48952

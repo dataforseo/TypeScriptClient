@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoTrendsGraphElementItem
+[Documentation](../README.md) / DataforseoTrendsGraphElementItem
 
 # Class: DataforseoTrendsGraphElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md)
+##### data?
+
+[`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:125629
+main.ts:135882
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:125629
 
 #### Defined in
 
-main.ts:21899
+main.ts:22797
 
 ***
 
@@ -68,7 +70,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:125625
+main.ts:135878
 
 ***
 
@@ -84,7 +86,7 @@ DataForSEO Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:125623
+main.ts:135876
 
 ***
 
@@ -105,7 +107,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21897
+main.ts:22795
 
 ***
 
@@ -126,7 +128,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21894
+main.ts:22792
 
 ***
 
@@ -146,7 +148,7 @@ type of element
 
 #### Defined in
 
-main.ts:21891
+main.ts:22789
 
 ## Methods
 
@@ -156,7 +158,9 @@ main.ts:21891
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -168,7 +172,7 @@ main.ts:21891
 
 #### Defined in
 
-main.ts:125634
+main.ts:135887
 
 ***
 
@@ -178,7 +182,9 @@ main.ts:125634
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -190,7 +196,7 @@ main.ts:125634
 
 #### Defined in
 
-main.ts:125661
+main.ts:135914
 
 ***
 
@@ -200,7 +206,9 @@ main.ts:125661
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -212,4 +220,4 @@ main.ts:125661
 
 #### Defined in
 
-main.ts:125654
+main.ts:135907

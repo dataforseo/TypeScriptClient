@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SearchIntentInfo
+[Documentation](../README.md) / SearchIntentInfo
 
 # Class: SearchIntentInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md)
+##### data?
+
+[`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:83438
+main.ts:93150
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:83429
+main.ts:93141
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:83434
+main.ts:93146
 
 ***
 
@@ -83,7 +85,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:83426
+main.ts:93138
 
 ***
 
@@ -100,7 +102,7 @@ possible values: google
 
 #### Defined in
 
-main.ts:83423
+main.ts:93135
 
 ## Methods
 
@@ -110,7 +112,9 @@ main.ts:83423
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +122,7 @@ main.ts:83423
 
 #### Defined in
 
-main.ts:83447
+main.ts:93159
 
 ***
 
@@ -128,7 +132,9 @@ main.ts:83447
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +142,7 @@ main.ts:83447
 
 #### Defined in
 
-main.ts:83471
+main.ts:93183
 
 ***
 
@@ -146,7 +152,9 @@ main.ts:83471
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -154,4 +162,4 @@ main.ts:83471
 
 #### Defined in
 
-main.ts:83464
+main.ts:93176

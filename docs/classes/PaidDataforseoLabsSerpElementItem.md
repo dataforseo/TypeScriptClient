@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PaidDataforseoLabsSerpElementItem
+[Documentation](../README.md) / PaidDataforseoLabsSerpElementItem
 
 # Class: PaidDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:98058
+main.ts:107877
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:98058
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -68,7 +70,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:98052
+main.ts:107871
 
 ***
 
@@ -84,7 +86,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98009
+main.ts:107827
 
 ***
 
@@ -103,7 +105,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:98048
+main.ts:107867
 
 ***
 
@@ -119,7 +121,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:98007
+main.ts:107825
 
 ***
 
@@ -136,7 +138,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:98018
+main.ts:107836
 
 ***
 
@@ -144,7 +146,7 @@ main.ts:98018
 
 > `optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Implementation of
 
@@ -152,7 +154,7 @@ website domain
 
 #### Defined in
 
-main.ts:98005
+main.ts:107823
 
 ***
 
@@ -171,7 +173,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:98039
+main.ts:107858
 
 ***
 
@@ -190,7 +192,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:98029
+main.ts:107848
 
 ***
 
@@ -210,7 +212,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:98015
+main.ts:107833
 
 ***
 
@@ -226,7 +228,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:98013
+main.ts:107831
 
 ***
 
@@ -245,7 +247,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:98034
+main.ts:107853
 
 ***
 
@@ -253,7 +255,8 @@ main.ts:98034
 
 > `optional` **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
-link of the element
+links featured in the math_solver element
+if there are none, equals null
 
 #### Implementation of
 
@@ -261,7 +264,7 @@ link of the element
 
 #### Defined in
 
-main.ts:98020
+main.ts:107839
 
 ***
 
@@ -277,7 +280,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:98022
+main.ts:107841
 
 ***
 
@@ -299,7 +302,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -320,7 +323,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -338,7 +341,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:98043
+main.ts:107862
 
 ***
 
@@ -359,7 +362,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -375,7 +378,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:98054
+main.ts:107873
 
 ***
 
@@ -391,7 +394,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:98024
+main.ts:107843
 
 ***
 
@@ -407,7 +410,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98050
+main.ts:107869
 
 ***
 
@@ -423,7 +426,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98003
+main.ts:107821
 
 ***
 
@@ -443,7 +446,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -459,7 +462,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98011
+main.ts:107829
 
 ***
 
@@ -479,7 +482,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -489,7 +492,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -501,7 +506,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:98063
+main.ts:107882
 
 ***
 
@@ -511,7 +516,9 @@ main.ts:98063
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -523,7 +530,7 @@ main.ts:98063
 
 #### Defined in
 
-main.ts:98117
+main.ts:107936
 
 ***
 
@@ -533,7 +540,9 @@ main.ts:98117
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -545,4 +554,4 @@ main.ts:98117
 
 #### Defined in
 
-main.ts:98110
+main.ts:107929

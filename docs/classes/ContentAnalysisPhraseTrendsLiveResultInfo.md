@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisPhraseTrendsLiveResultInfo
+[Documentation](../README.md) / ContentAnalysisPhraseTrendsLiveResultInfo
 
 # Class: ContentAnalysisPhraseTrendsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisPhraseTrendsLiveResultInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveResultInfo.md)
+##### data?
+
+[`IContentAnalysisPhraseTrendsLiveResultInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:168590
+main.ts:180179
 
 ## Properties
 
@@ -52,7 +54,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Defined in
 
-main.ts:168567
+main.ts:180156
 
 ***
 
@@ -74,7 +76,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:168582
+main.ts:180171
 
 ***
 
@@ -90,7 +92,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:168551
+main.ts:180140
 
 ***
 
@@ -112,7 +114,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:168586
+main.ts:180175
 
 ***
 
@@ -130,7 +132,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:168575
+main.ts:180164
 
 ***
 
@@ -151,7 +153,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:168578
+main.ts:180167
 
 ***
 
@@ -168,7 +170,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Defined in
 
-main.ts:168556
+main.ts:180145
 
 ***
 
@@ -190,7 +192,7 @@ possible connotations: "anger", "happiness", "love", "sadness", "share", "fun"
 
 #### Defined in
 
-main.ts:168563
+main.ts:180152
 
 ***
 
@@ -208,7 +210,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:168571
+main.ts:180160
 
 ***
 
@@ -225,7 +227,7 @@ contains objects with top domains citing the target keyword and citation count p
 
 #### Defined in
 
-main.ts:168559
+main.ts:180148
 
 ***
 
@@ -241,7 +243,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:168553
+main.ts:180142
 
 ***
 
@@ -257,7 +259,7 @@ type of element
 
 #### Defined in
 
-main.ts:168549
+main.ts:180138
 
 ## Methods
 
@@ -267,7 +269,9 @@ main.ts:168549
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -275,7 +279,7 @@ main.ts:168549
 
 #### Defined in
 
-main.ts:168599
+main.ts:180188
 
 ***
 
@@ -285,7 +289,9 @@ main.ts:168599
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -293,7 +299,7 @@ main.ts:168599
 
 #### Defined in
 
-main.ts:168669
+main.ts:180258
 
 ***
 
@@ -303,7 +309,9 @@ main.ts:168669
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -311,4 +319,4 @@ main.ts:168669
 
 #### Defined in
 
-main.ts:168662
+main.ts:180251

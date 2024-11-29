@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleLanguagesResultInfo
+[Documentation](../README.md) / BusinessDataGoogleLanguagesResultInfo
 
 # Class: BusinessDataGoogleLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleLanguagesResultInfo`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleLanguagesResultInfo`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:200412
+main.ts:212762
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:200408
+main.ts:212758
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:200406
+main.ts:212756
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:200406
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:200406
 
 #### Defined in
 
-main.ts:200421
+main.ts:212771
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:200421
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:200421
 
 #### Defined in
 
-main.ts:200439
+main.ts:212789
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:200439
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:200439
 
 #### Defined in
 
-main.ts:200432
+main.ts:212782

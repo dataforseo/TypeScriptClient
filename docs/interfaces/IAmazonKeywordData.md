@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonKeywordData
+[Documentation](../README.md) / IAmazonKeywordData
 
 # Interface: IAmazonKeywordData
 
@@ -20,7 +20,7 @@ related keyword
 
 #### Defined in
 
-main.ts:22944
+main.ts:23842
 
 ***
 
@@ -32,7 +32,7 @@ keyword info for the returned keyword
 
 #### Defined in
 
-main.ts:22950
+main.ts:23848
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:22948
+main.ts:23846
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:22946
+main.ts:23844
 
 ***
 
@@ -68,4 +68,4 @@ search engine type
 
 #### Defined in
 
-main.ts:22942
+main.ts:23840

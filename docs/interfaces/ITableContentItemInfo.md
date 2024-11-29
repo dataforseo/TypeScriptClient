@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITableContentItemInfo
+[Documentation](../README.md) / ITableContentItemInfo
 
 # Interface: ITableContentItemInfo
 
@@ -20,4 +20,4 @@ content of the row cells of the header
 
 #### Defined in
 
-main.ts:161582
+main.ts:173195

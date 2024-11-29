@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
@@ -23,7 +23,7 @@ default value: false
 
 #### Defined in
 
-main.ts:95405
+main.ts:105123
 
 ***
 
@@ -42,7 +42,7 @@ en
 
 #### Defined in
 
-main.ts:95400
+main.ts:105118
 
 ***
 
@@ -61,7 +61,7 @@ English
 
 #### Defined in
 
-main.ts:95391
+main.ts:105109
 
 ***
 
@@ -76,7 +76,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:95410
+main.ts:105128
 
 ***
 
@@ -95,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:95382
+main.ts:105100
 
 ***
 
@@ -114,7 +114,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:95373
+main.ts:105091
 
 ***
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:95415
+main.ts:105133
 
 ***
 
@@ -145,7 +145,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:95421
+main.ts:105139
 
 ***
 
@@ -160,4 +160,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:95364
+main.ts:105082

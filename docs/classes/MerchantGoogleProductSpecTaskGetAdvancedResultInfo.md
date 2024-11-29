@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleProductSpecTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantGoogleProductSpecTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductSpecTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:177617
+main.ts:189354
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:177599
+main.ts:189336
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:177604
+main.ts:189341
 
 ***
 
@@ -82,7 +84,7 @@ description of the product
 
 #### Defined in
 
-main.ts:177592
+main.ts:189329
 
 ***
 
@@ -98,7 +100,7 @@ URL of the product image
 
 #### Defined in
 
-main.ts:177594
+main.ts:189331
 
 ***
 
@@ -116,7 +118,7 @@ shopping_specification
 
 #### Defined in
 
-main.ts:177608
+main.ts:189345
 
 ***
 
@@ -133,7 +135,7 @@ contains all product attributes and related data listed on the product specifica
 
 #### Defined in
 
-main.ts:177613
+main.ts:189350
 
 ***
 
@@ -149,7 +151,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:177610
+main.ts:189347
 
 ***
 
@@ -165,7 +167,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:177588
+main.ts:189325
 
 ***
 
@@ -181,7 +183,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:177586
+main.ts:189323
 
 ***
 
@@ -198,7 +200,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:177580
+main.ts:189317
 
 ***
 
@@ -214,7 +216,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:177584
+main.ts:189321
 
 ***
 
@@ -230,7 +232,7 @@ tags of the product
 
 #### Defined in
 
-main.ts:177596
+main.ts:189333
 
 ***
 
@@ -246,7 +248,7 @@ title of the product
 
 #### Defined in
 
-main.ts:177590
+main.ts:189327
 
 ***
 
@@ -262,7 +264,7 @@ type of element
 
 #### Defined in
 
-main.ts:177582
+main.ts:189319
 
 ## Methods
 
@@ -272,7 +274,9 @@ main.ts:177582
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -280,7 +284,7 @@ main.ts:177582
 
 #### Defined in
 
-main.ts:177626
+main.ts:189363
 
 ***
 
@@ -290,7 +294,9 @@ main.ts:177626
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -298,7 +304,7 @@ main.ts:177626
 
 #### Defined in
 
-main.ts:177668
+main.ts:189405
 
 ***
 
@@ -308,7 +314,9 @@ main.ts:177668
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -316,4 +324,4 @@ main.ts:177668
 
 #### Defined in
 
-main.ts:177661
+main.ts:189398

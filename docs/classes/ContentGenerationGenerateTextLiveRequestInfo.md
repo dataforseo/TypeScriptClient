@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateTextLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationGenerateTextLiveRequestInfo
 
 # Class: ContentGenerationGenerateTextLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:169957
+main.ts:181546
 
 ## Properties
 
@@ -51,7 +53,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169937
+main.ts:181526
 
 ***
 
@@ -70,7 +72,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169924
+main.ts:181513
 
 ***
 
@@ -88,7 +90,7 @@ if set to true, generated content will include a logical conclusion
 
 #### Defined in
 
-main.ts:169941
+main.ts:181530
 
 ***
 
@@ -108,7 +110,7 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 #### Defined in
 
-main.ts:169930
+main.ts:181519
 
 ***
 
@@ -128,7 +130,7 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 #### Defined in
 
-main.ts:169919
+main.ts:181508
 
 ***
 
@@ -148,7 +150,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:169947
+main.ts:181536
 
 ***
 
@@ -168,7 +170,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:169953
+main.ts:181542
 
 ***
 
@@ -187,7 +189,7 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-main.ts:169908
+main.ts:181497
 
 ***
 
@@ -206,7 +208,7 @@ can take values from 1 to 1000
 
 #### Defined in
 
-main.ts:169913
+main.ts:181502
 
 ## Methods
 
@@ -216,7 +218,9 @@ main.ts:169913
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -224,7 +228,7 @@ main.ts:169913
 
 #### Defined in
 
-main.ts:169966
+main.ts:181555
 
 ***
 
@@ -234,7 +238,9 @@ main.ts:169966
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -242,7 +248,7 @@ main.ts:169966
 
 #### Defined in
 
-main.ts:169999
+main.ts:181588
 
 ***
 
@@ -252,7 +258,9 @@ main.ts:169999
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -260,4 +268,4 @@ main.ts:169999
 
 #### Defined in
 
-main.ts:169992
+main.ts:181581

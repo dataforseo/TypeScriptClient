@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingPageIntersectionLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingPageIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveRequestInfo
 
@@ -31,7 +31,7 @@ example:
 
 #### Defined in
 
-main.ts:108174
+main.ts:117736
 
 ***
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:108269
+main.ts:117831
 
 ***
 
@@ -76,7 +76,7 @@ default value: false
 
 #### Defined in
 
-main.ts:108221
+main.ts:117783
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:108249
+main.ts:117811
 
 ***
 
@@ -106,7 +106,7 @@ default value: true
 
 #### Defined in
 
-main.ts:108236
+main.ts:117798
 
 ***
 
@@ -124,7 +124,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:108244
+main.ts:117806
 
 ***
 
@@ -142,7 +142,7 @@ default value:
 
 #### Defined in
 
-main.ts:108216
+main.ts:117778
 
 ***
 
@@ -160,7 +160,7 @@ en
 
 #### Defined in
 
-main.ts:108208
+main.ts:117770
 
 ***
 
@@ -178,7 +178,7 @@ English
 
 #### Defined in
 
-main.ts:108200
+main.ts:117762
 
 ***
 
@@ -193,7 +193,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:108226
+main.ts:117788
 
 ***
 
@@ -212,7 +212,7 @@ example:
 
 #### Defined in
 
-main.ts:108192
+main.ts:117754
 
 ***
 
@@ -231,7 +231,7 @@ United States
 
 #### Defined in
 
-main.ts:108183
+main.ts:117745
 
 ***
 
@@ -246,7 +246,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:108231
+main.ts:117793
 
 ***
 
@@ -272,7 +272,7 @@ example:
 
 #### Defined in
 
-main.ts:108285
+main.ts:117847
 
 ***
 
@@ -307,7 +307,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:108161
+main.ts:117723
 
 ***
 
@@ -323,4 +323,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:108291
+main.ts:117853

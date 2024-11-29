@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsMetricsInfo
+[Documentation](../README.md) / IDataforseoLabsMetricsInfo
 
 # Interface: IDataforseoLabsMetricsInfo
 
@@ -26,7 +26,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87811
+main.ts:97529
 
 ***
 
@@ -41,7 +41,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87803
+main.ts:97521
 
 ***
 
@@ -59,7 +59,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87807
+main.ts:97525
 
 ***
 
@@ -71,7 +71,7 @@ total count of organic SERPs that contain the domain or subdomain
 
 #### Defined in
 
-main.ts:87781
+main.ts:97499
 
 ***
 
@@ -86,7 +86,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87786
+main.ts:97504
 
 ***
 
@@ -101,7 +101,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87774
+main.ts:97492
 
 ***
 
@@ -116,7 +116,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87779
+main.ts:97497
 
 ***
 
@@ -129,7 +129,7 @@ indicates how many ranked elements of the indicated target went down
 
 #### Defined in
 
-main.ts:87795
+main.ts:97513
 
 ***
 
@@ -142,7 +142,7 @@ indicates how many ranked elements of the indicated target were previously prese
 
 #### Defined in
 
-main.ts:87798
+main.ts:97516
 
 ***
 
@@ -155,7 +155,7 @@ indicates how many new ranked elements were found for the indicated target
 
 #### Defined in
 
-main.ts:87789
+main.ts:97507
 
 ***
 
@@ -168,7 +168,7 @@ indicates how many ranked elements of the indicated target went up
 
 #### Defined in
 
-main.ts:87792
+main.ts:97510
 
 ***
 
@@ -180,7 +180,7 @@ number of organic SERPs where the domain or subdomain ranks #1
 
 #### Defined in
 
-main.ts:87747
+main.ts:97465
 
 ***
 
@@ -192,19 +192,7 @@ number of organic SERPs where the domain or subdomain ranks #11-20
 
 #### Defined in
 
-main.ts:87753
-
-***
-
-### pos\_21\_30?
-
-> `optional` **pos\_21\_30**: `number`
-
-number of organic SERPs where the domain or subdomain ranks #21-30
-
-#### Defined in
-
-main.ts:87755
+main.ts:97471
 
 ***
 
@@ -216,7 +204,19 @@ number of organic SERPs where the domain or subdomain ranks #2-3
 
 #### Defined in
 
-main.ts:87749
+main.ts:97467
+
+***
+
+### pos\_21\_30?
+
+> `optional` **pos\_21\_30**: `number`
+
+number of organic SERPs where the domain or subdomain ranks #21-30
+
+#### Defined in
+
+main.ts:97473
 
 ***
 
@@ -228,19 +228,7 @@ number of organic SERPs where the domain or subdomain ranks #31-40
 
 #### Defined in
 
-main.ts:87757
-
-***
-
-### pos\_41\_50?
-
-> `optional` **pos\_41\_50**: `number`
-
-number of organic SERPs where the domain or subdomain ranks #41-50
-
-#### Defined in
-
-main.ts:87759
+main.ts:97475
 
 ***
 
@@ -252,7 +240,19 @@ number of organic SERPs where the domain or subdomain ranks #4-10
 
 #### Defined in
 
-main.ts:87751
+main.ts:97469
+
+***
+
+### pos\_41\_50?
+
+> `optional` **pos\_41\_50**: `number`
+
+number of organic SERPs where the domain or subdomain ranks #41-50
+
+#### Defined in
+
+main.ts:97477
 
 ***
 
@@ -264,7 +264,7 @@ number of organic SERPs where the domain or subdomain ranks #51-60
 
 #### Defined in
 
-main.ts:87761
+main.ts:97479
 
 ***
 
@@ -276,7 +276,7 @@ number of organic SERPs where the domain or subdomain ranks #61-70
 
 #### Defined in
 
-main.ts:87763
+main.ts:97481
 
 ***
 
@@ -288,7 +288,7 @@ number of organic SERPs where the domain or subdomain ranks #71-80
 
 #### Defined in
 
-main.ts:87765
+main.ts:97483
 
 ***
 
@@ -300,7 +300,7 @@ number of organic SERPs where the domain or subdomain ranks #81-90
 
 #### Defined in
 
-main.ts:87767
+main.ts:97485
 
 ***
 
@@ -312,4 +312,4 @@ number of organic SERPs where the domain or subdomain ranks #91-100
 
 #### Defined in
 
-main.ts:87769
+main.ts:97487

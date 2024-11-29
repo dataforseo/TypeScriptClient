@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsSerpCompetitorsLiveItem
+[Documentation](../README.md) / DataforseoLabsSerpCompetitorsLiveItem
 
 # Class: DataforseoLabsSerpCompetitorsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:92377
+main.ts:102095
 
 ## Properties
 
@@ -47,7 +49,7 @@ the arithmetic mean of values in the keywords_positions array
 
 #### Defined in
 
-main.ts:92347
+main.ts:102065
 
 ***
 
@@ -63,7 +65,7 @@ domain name of the detected SERP competitor
 
 #### Defined in
 
-main.ts:92344
+main.ts:102062
 
 ***
 
@@ -82,7 +84,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92359
+main.ts:102077
 
 ***
 
@@ -98,7 +100,7 @@ the number of specified keywords the domain has positions for in SERPs
 
 #### Defined in
 
-main.ts:92361
+main.ts:102079
 
 ***
 
@@ -111,7 +113,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: `number`[]
 
 #### Implementation of
 
@@ -119,7 +121,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Defined in
 
-main.ts:92373
+main.ts:102091
 
 ***
 
@@ -136,7 +138,7 @@ the median of the values in the keywords_positions array
 
 #### Defined in
 
-main.ts:92350
+main.ts:102068
 
 ***
 
@@ -154,7 +156,7 @@ calculated as sum(100-keywords_positions)
 
 #### Defined in
 
-main.ts:92354
+main.ts:102072
 
 ***
 
@@ -171,7 +173,7 @@ represents the number of search results in SERP relevant to the domain for the s
 
 #### Defined in
 
-main.ts:92370
+main.ts:102088
 
 ***
 
@@ -187,7 +189,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92342
+main.ts:102060
 
 ***
 
@@ -207,7 +209,7 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Defined in
 
-main.ts:92367
+main.ts:102085
 
 ## Methods
 
@@ -217,7 +219,9 @@ main.ts:92367
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -225,7 +229,7 @@ main.ts:92367
 
 #### Defined in
 
-main.ts:92386
+main.ts:102104
 
 ***
 
@@ -235,7 +239,9 @@ main.ts:92386
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -243,7 +249,7 @@ main.ts:92386
 
 #### Defined in
 
-main.ts:92418
+main.ts:102136
 
 ***
 
@@ -253,7 +259,9 @@ main.ts:92418
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -261,4 +269,4 @@ main.ts:92418
 
 #### Defined in
 
-main.ts:92411
+main.ts:102129

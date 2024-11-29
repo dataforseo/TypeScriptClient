@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAvailableLanguages
+[Documentation](../README.md) / IAvailableLanguages
 
 # Interface: IAvailableLanguages
 
@@ -22,7 +22,7 @@ only google and bing are currently available
 
 #### Defined in
 
-main.ts:81701
+main.ts:91413
 
 ***
 
@@ -34,7 +34,7 @@ the number of keywords available for the given location and language
 
 #### Defined in
 
-main.ts:81707
+main.ts:91419
 
 ***
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:81705
+main.ts:91417
 
 ***
 
@@ -58,7 +58,7 @@ language name
 
 #### Defined in
 
-main.ts:81703
+main.ts:91415
 
 ***
 
@@ -70,4 +70,4 @@ the number of SERP pages available for the given location and language
 
 #### Defined in
 
-main.ts:81709
+main.ts:91421

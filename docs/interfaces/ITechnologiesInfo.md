@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITechnologiesInfo
+[Documentation](../README.md) / ITechnologiesInfo
 
 # Interface: ITechnologiesInfo
 
@@ -18,11 +18,11 @@
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23831
+main.ts:24724
 
 ***
 
@@ -32,11 +32,11 @@ main.ts:23831
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23832
+main.ts:24725
 
 ***
 
@@ -46,11 +46,11 @@ main.ts:23832
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23835
+main.ts:24728
 
 ***
 
@@ -60,11 +60,11 @@ main.ts:23835
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23845
+main.ts:24738
 
 ***
 
@@ -74,11 +74,11 @@ main.ts:23845
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23842
+main.ts:24735
 
 ***
 
@@ -88,11 +88,11 @@ main.ts:23842
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23841
+main.ts:24734
 
 ***
 
@@ -102,11 +102,11 @@ main.ts:23841
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23844
+main.ts:24737
 
 ***
 
@@ -116,11 +116,11 @@ main.ts:23844
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23843
+main.ts:24736
 
 ***
 
@@ -130,11 +130,11 @@ main.ts:23843
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23837
+main.ts:24730
 
 ***
 
@@ -144,11 +144,11 @@ main.ts:23837
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23839
+main.ts:24732
 
 ***
 
@@ -158,11 +158,11 @@ main.ts:23839
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23836
+main.ts:24729
 
 ***
 
@@ -172,11 +172,11 @@ main.ts:23836
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23834
+main.ts:24727
 
 ***
 
@@ -186,11 +186,11 @@ main.ts:23834
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23840
+main.ts:24733
 
 ***
 
@@ -200,11 +200,11 @@ main.ts:23840
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23838
+main.ts:24731
 
 ***
 
@@ -214,11 +214,11 @@ main.ts:23838
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23846
+main.ts:24739
 
 ***
 
@@ -228,8 +228,8 @@ main.ts:23846
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:23833
+main.ts:24726

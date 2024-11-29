@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixKeywordsDataDayStatisticsMoneyData
+[Documentation](../README.md) / AppendixKeywordsDataDayStatisticsMoneyData
 
 # Class: AppendixKeywordsDataDayStatisticsMoneyData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixKeywordsDataDayStatisticsMoneyData`](../interfaces/IAppendixKeywordsDataDayStatisticsMoneyData.md)
+##### data?
+
+[`IAppendixKeywordsDataDayStatisticsMoneyData`](../interfaces/IAppendixKeywordsDataDayStatisticsMoneyData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:220227
+main.ts:235228
 
 ## Properties
 
@@ -44,7 +46,21 @@ main.ts:220227
 
 #### Defined in
 
-main.ts:220209
+main.ts:235208
+
+***
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsMoneyData`](../interfaces/IAppendixKeywordsDataDayStatisticsMoneyData.md).[`audience_estimation`](../interfaces/IAppendixKeywordsDataDayStatisticsMoneyData.md#audience_estimation)
+
+#### Defined in
+
+main.ts:235221
 
 ***
 
@@ -58,7 +74,7 @@ main.ts:220209
 
 #### Defined in
 
-main.ts:220216
+main.ts:235215
 
 ***
 
@@ -72,7 +88,7 @@ main.ts:220216
 
 #### Defined in
 
-main.ts:220214
+main.ts:235213
 
 ***
 
@@ -86,7 +102,7 @@ main.ts:220214
 
 #### Defined in
 
-main.ts:220221
+main.ts:235220
 
 ***
 
@@ -100,7 +116,7 @@ main.ts:220221
 
 #### Defined in
 
-main.ts:220220
+main.ts:235219
 
 ***
 
@@ -114,7 +130,7 @@ main.ts:220220
 
 #### Defined in
 
-main.ts:220215
+main.ts:235214
 
 ***
 
@@ -128,7 +144,7 @@ main.ts:220215
 
 #### Defined in
 
-main.ts:220213
+main.ts:235212
 
 ***
 
@@ -142,7 +158,7 @@ main.ts:220213
 
 #### Defined in
 
-main.ts:220223
+main.ts:235224
 
 ***
 
@@ -156,7 +172,7 @@ main.ts:220223
 
 #### Defined in
 
-main.ts:220219
+main.ts:235218
 
 ***
 
@@ -170,7 +186,21 @@ main.ts:220219
 
 #### Defined in
 
-main.ts:220217
+main.ts:235216
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsMoneyData`](../interfaces/IAppendixKeywordsDataDayStatisticsMoneyData.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixKeywordsDataDayStatisticsMoneyData.md#keyword_suggestions_for_url)
+
+#### Defined in
+
+main.ts:235222
 
 ***
 
@@ -184,7 +214,7 @@ main.ts:220217
 
 #### Defined in
 
-main.ts:220206
+main.ts:235205
 
 ***
 
@@ -198,7 +228,7 @@ main.ts:220206
 
 #### Defined in
 
-main.ts:220207
+main.ts:235206
 
 ***
 
@@ -212,7 +242,7 @@ main.ts:220207
 
 #### Defined in
 
-main.ts:220210
+main.ts:235209
 
 ***
 
@@ -226,7 +256,7 @@ main.ts:220210
 
 #### Defined in
 
-main.ts:220211
+main.ts:235210
 
 ***
 
@@ -240,7 +270,7 @@ main.ts:220211
 
 #### Defined in
 
-main.ts:220218
+main.ts:235217
 
 ***
 
@@ -254,13 +284,13 @@ main.ts:220218
 
 #### Defined in
 
-main.ts:220208
+main.ts:235207
 
 ***
 
 ### search\_volume\_history?
 
-> `optional` **search\_volume\_history**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **search\_volume\_history**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
 
 #### Implementation of
 
@@ -268,7 +298,7 @@ main.ts:220208
 
 #### Defined in
 
-main.ts:220222
+main.ts:235223
 
 ***
 
@@ -282,7 +312,7 @@ main.ts:220222
 
 #### Defined in
 
-main.ts:220212
+main.ts:235211
 
 ## Methods
 
@@ -292,7 +322,9 @@ main.ts:220212
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -300,7 +332,7 @@ main.ts:220212
 
 #### Defined in
 
-main.ts:220236
+main.ts:235237
 
 ***
 
@@ -310,7 +342,9 @@ main.ts:220236
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -318,7 +352,7 @@ main.ts:220236
 
 #### Defined in
 
-main.ts:220270
+main.ts:235273
 
 ***
 
@@ -328,7 +362,9 @@ main.ts:220270
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -336,4 +372,4 @@ main.ts:220270
 
 #### Defined in
 
-main.ts:220263
+main.ts:235266

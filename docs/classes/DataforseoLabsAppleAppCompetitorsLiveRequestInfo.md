@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleAppCompetitorsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAppleAppCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:114937
+main.ts:124109
 
 ## Properties
 
@@ -52,7 +54,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:114850
+main.ts:124022
 
 ***
 
@@ -80,7 +82,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:114900
+main.ts:124072
 
 ***
 
@@ -103,7 +105,7 @@ en
 
 #### Defined in
 
-main.ts:114886
+main.ts:124058
 
 ***
 
@@ -126,7 +128,7 @@ English
 
 #### Defined in
 
-main.ts:114877
+main.ts:124049
 
 ***
 
@@ -145,7 +147,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:114922
+main.ts:124094
 
 ***
 
@@ -168,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:114868
+main.ts:124040
 
 ***
 
@@ -191,7 +193,7 @@ United States
 
 #### Defined in
 
-main.ts:114859
+main.ts:124031
 
 ***
 
@@ -210,7 +212,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 #### Defined in
 
-main.ts:114927
+main.ts:124099
 
 ***
 
@@ -241,7 +243,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:114917
+main.ts:124089
 
 ***
 
@@ -261,7 +263,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:114933
+main.ts:124105
 
 ## Methods
 
@@ -271,7 +273,9 @@ main.ts:114933
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -279,7 +283,7 @@ main.ts:114933
 
 #### Defined in
 
-main.ts:114946
+main.ts:124118
 
 ***
 
@@ -289,7 +293,9 @@ main.ts:114946
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -297,7 +303,7 @@ main.ts:114946
 
 #### Defined in
 
-main.ts:114980
+main.ts:124152
 
 ***
 
@@ -307,7 +313,9 @@ main.ts:114980
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -315,4 +323,4 @@ main.ts:114980
 
 #### Defined in
 
-main.ts:114973
+main.ts:124145

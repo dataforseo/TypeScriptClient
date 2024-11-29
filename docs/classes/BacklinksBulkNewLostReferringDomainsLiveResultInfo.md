@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostReferringDomainsLiveResultInfo
+[Documentation](../README.md) / BacklinksBulkNewLostReferringDomainsLiveResultInfo
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:150967
+main.ts:162172
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:150963
+main.ts:162168
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:150961
+main.ts:162166
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:150961
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:150961
 
 #### Defined in
 
-main.ts:150976
+main.ts:162181
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:150976
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:150976
 
 #### Defined in
 
-main.ts:150998
+main.ts:162203
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:150998
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:150998
 
 #### Defined in
 
-main.ts:150991
+main.ts:162196

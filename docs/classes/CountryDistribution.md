@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CountryDistribution
+[Documentation](../README.md) / CountryDistribution
 
 # Class: CountryDistribution
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ICountryDistribution`](../interfaces/ICountryDistribution.md)
+##### data?
+
+[`ICountryDistribution`](../interfaces/ICountryDistribution.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:136135
+main.ts:148080
 
 ## Properties
 
@@ -46,7 +48,7 @@ country ISO code
 
 #### Defined in
 
-main.ts:136127
+main.ts:148072
 
 ***
 
@@ -62,7 +64,7 @@ percentage of global search volume
 
 #### Defined in
 
-main.ts:136131
+main.ts:148076
 
 ***
 
@@ -78,7 +80,7 @@ search volume in a given country
 
 #### Defined in
 
-main.ts:136129
+main.ts:148074
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:136129
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:136129
 
 #### Defined in
 
-main.ts:136144
+main.ts:148089
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:136144
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:136144
 
 #### Defined in
 
-main.ts:136163
+main.ts:148108
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:136163
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:136163
 
 #### Defined in
 
-main.ts:136156
+main.ts:148101

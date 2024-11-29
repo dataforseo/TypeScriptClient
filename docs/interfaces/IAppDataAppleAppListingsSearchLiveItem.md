@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppListingsSearchLiveItem
+[Documentation](../README.md) / IAppDataAppleAppListingsSearchLiveItem
 
 # Interface: IAppDataAppleAppListingsSearchLiveItem
 
@@ -20,7 +20,7 @@ ID of the returned app
 
 #### Defined in
 
-main.ts:196745
+main.ts:209095
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:196754
+main.ts:209104
 
 ***
 
@@ -45,7 +45,7 @@ detailed information about the app
 
 #### Defined in
 
-main.ts:196761
+main.ts:209111
 
 ***
 
@@ -57,7 +57,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:196751
+main.ts:209101
 
 ***
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:196749
+main.ts:209099
 
 ***
 
@@ -81,7 +81,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:196747
+main.ts:209097
 
 ***
 
@@ -96,4 +96,4 @@ example:
 
 #### Defined in
 
-main.ts:196759
+main.ts:209109

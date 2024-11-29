@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OrganicDataforseoLabsSerpElementItem
+[Documentation](../README.md) / OrganicDataforseoLabsSerpElementItem
 
 # Class: OrganicDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:91408
+main.ts:101118
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:91408
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -74,7 +76,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:91374
+main.ts:101084
 
 ***
 
@@ -91,7 +93,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:91361
+main.ts:101071
 
 ***
 
@@ -107,7 +109,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:91402
+main.ts:101112
 
 ***
 
@@ -123,7 +125,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:91342
+main.ts:101052
 
 ***
 
@@ -142,7 +144,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91397
+main.ts:101107
 
 ***
 
@@ -158,7 +160,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:91354
+main.ts:101064
 
 ***
 
@@ -174,7 +176,7 @@ subdomain in SERP
 
 #### Defined in
 
-main.ts:91336
+main.ts:101046
 
 ***
 
@@ -192,7 +194,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91392
+main.ts:101102
 
 ***
 
@@ -211,7 +213,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91383
+main.ts:101093
 
 ***
 
@@ -227,7 +229,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:91358
+main.ts:101068
 
 ***
 
@@ -243,7 +245,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:91366
+main.ts:101076
 
 ***
 
@@ -262,7 +264,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91388
+main.ts:101098
 
 ***
 
@@ -278,7 +280,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:91350
+main.ts:101060
 
 ***
 
@@ -294,7 +296,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:91346
+main.ts:101056
 
 ***
 
@@ -310,7 +312,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:91352
+main.ts:101062
 
 ***
 
@@ -326,13 +328,13 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:91348
+main.ts:101058
 
 ***
 
 ### links?
 
-> `optional` **links**: `any`
+> `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
@@ -344,7 +346,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:91370
+main.ts:101080
 
 ***
 
@@ -360,7 +362,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:91376
+main.ts:101086
 
 ***
 
@@ -382,7 +384,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -398,7 +400,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:91356
+main.ts:101066
 
 ***
 
@@ -419,7 +421,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -436,7 +438,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:91400
+main.ts:101110
 
 ***
 
@@ -457,7 +459,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -473,7 +475,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:91404
+main.ts:101114
 
 ***
 
@@ -490,7 +492,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:91364
+main.ts:101074
 
 ***
 
@@ -506,7 +508,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:91378
+main.ts:101088
 
 ***
 
@@ -522,7 +524,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91334
+main.ts:101044
 
 ***
 
@@ -538,7 +540,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:91338
+main.ts:101048
 
 ***
 
@@ -558,7 +560,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -574,7 +576,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:91340
+main.ts:101050
 
 ***
 
@@ -590,7 +592,7 @@ relevant website name in SERP
 
 #### Defined in
 
-main.ts:91344
+main.ts:101054
 
 ***
 
@@ -610,7 +612,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -620,7 +622,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -632,7 +636,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:91413
+main.ts:101123
 
 ***
 
@@ -642,7 +646,9 @@ main.ts:91413
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -654,7 +660,7 @@ main.ts:91413
 
 #### Defined in
 
-main.ts:91467
+main.ts:101181
 
 ***
 
@@ -664,7 +670,9 @@ main.ts:91467
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -676,4 +684,4 @@ main.ts:91467
 
 #### Defined in
 
-main.ts:91460
+main.ts:101174

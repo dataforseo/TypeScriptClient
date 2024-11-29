@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:90506
+main.ts:100224
 
 ## Properties
 
@@ -46,7 +48,7 @@ backlink data for the returned domain
 
 #### Defined in
 
-main.ts:90502
+main.ts:100220
 
 ***
 
@@ -65,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:90468
+main.ts:100186
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:90463
+main.ts:100181
 
 ***
 
@@ -100,7 +102,7 @@ domain name
 
 #### Defined in
 
-main.ts:90458
+main.ts:100176
 
 ***
 
@@ -117,7 +119,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-main.ts:90486
+main.ts:100204
 
 ***
 
@@ -136,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:90473
+main.ts:100191
 
 ***
 
@@ -155,7 +157,7 @@ example:
 
 #### Defined in
 
-main.ts:90483
+main.ts:100201
 
 ***
 
@@ -175,7 +177,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:90500
+main.ts:100218
 
 ***
 
@@ -193,7 +195,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-main.ts:90493
+main.ts:100211
 
 ***
 
@@ -212,7 +214,7 @@ NameCheap, Inc.
 
 #### Defined in
 
-main.ts:90498
+main.ts:100216
 
 ***
 
@@ -228,7 +230,7 @@ search engine type
 
 #### Defined in
 
-main.ts:90456
+main.ts:100174
 
 ***
 
@@ -245,7 +247,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:90489
+main.ts:100207
 
 ***
 
@@ -264,7 +266,7 @@ example:
 
 #### Defined in
 
-main.ts:90478
+main.ts:100196
 
 ## Methods
 
@@ -274,7 +276,9 @@ main.ts:90478
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -282,7 +286,7 @@ main.ts:90478
 
 #### Defined in
 
-main.ts:90515
+main.ts:100233
 
 ***
 
@@ -292,7 +296,9 @@ main.ts:90515
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -300,7 +306,7 @@ main.ts:90515
 
 #### Defined in
 
-main.ts:90554
+main.ts:100272
 
 ***
 
@@ -310,7 +316,9 @@ main.ts:90554
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -318,4 +326,4 @@ main.ts:90554
 
 #### Defined in
 
-main.ts:90547
+main.ts:100265

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataUserProfileInfo
+[Documentation](../README.md) / IBusinessDataUserProfileInfo
 
 # Interface: IBusinessDataUserProfileInfo
 
@@ -20,7 +20,7 @@ URL to the reviewer’s profile picture
 
 #### Defined in
 
-main.ts:211760
+main.ts:226693
 
 ***
 
@@ -32,7 +32,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:211762
+main.ts:226695
 
 ***
 
@@ -44,7 +44,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:211756
+main.ts:226689
 
 ***
 
@@ -56,7 +56,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:211764
+main.ts:226697
 
 ***
 
@@ -68,4 +68,4 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-main.ts:211758
+main.ts:226691

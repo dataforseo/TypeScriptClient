@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksSummaryLiveResultInfo
+[Documentation](../README.md) / IBacklinksSummaryLiveResultInfo
 
 # Interface: IBacklinksSummaryLiveResultInfo
 
@@ -20,7 +20,7 @@ indicates the number of backlinks
 
 #### Defined in
 
-main.ts:139286
+main.ts:150491
 
 ***
 
@@ -34,7 +34,7 @@ to learn more about how the metric is calculated, refer to this Help Center page
 
 #### Defined in
 
-main.ts:139290
+main.ts:150495
 
 ***
 
@@ -47,7 +47,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139303
+main.ts:150508
 
 ***
 
@@ -61,7 +61,7 @@ note that the number of broken pages includes pages on the target discovered by 
 
 #### Defined in
 
-main.ts:139307
+main.ts:150512
 
 ***
 
@@ -73,7 +73,7 @@ number of crawled pages for the target
 
 #### Defined in
 
-main.ts:139292
+main.ts:150497
 
 ***
 
@@ -86,7 +86,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139300
+main.ts:150505
 
 ***
 
@@ -101,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:139275
+main.ts:150480
 
 ***
 
@@ -113,7 +113,7 @@ information about the target
 
 #### Defined in
 
-main.ts:139294
+main.ts:150499
 
 ***
 
@@ -126,7 +126,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139297
+main.ts:150502
 
 ***
 
@@ -142,7 +142,7 @@ example:
 
 #### Defined in
 
-main.ts:139281
+main.ts:150486
 
 ***
 
@@ -155,7 +155,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:139284
+main.ts:150489
 
 ***
 
@@ -168,7 +168,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:139310
+main.ts:150515
 
 ***
 
@@ -180,7 +180,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139312
+main.ts:150517
 
 ***
 
@@ -193,7 +193,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:139319
+main.ts:150524
 
 ***
 
@@ -212,7 +212,7 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 #### Defined in
 
-main.ts:139336
+main.ts:150541
 
 ***
 
@@ -229,7 +229,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:139350
+main.ts:150555
 
 ***
 
@@ -248,7 +248,7 @@ cms, blogs, unknown, ecommerce, message-boards
 
 #### Defined in
 
-main.ts:139341
+main.ts:150546
 
 ***
 
@@ -268,7 +268,7 @@ article, section, summary, ""
 
 #### Defined in
 
-main.ts:139347
+main.ts:150552
 
 ***
 
@@ -285,7 +285,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:139326
+main.ts:150531
 
 ***
 
@@ -304,7 +304,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:139331
+main.ts:150536
 
 ***
 
@@ -316,7 +316,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:139314
+main.ts:150519
 
 ***
 
@@ -328,7 +328,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139316
+main.ts:150521
 
 ***
 
@@ -340,7 +340,7 @@ indicates the number of pages pointing to the target
 
 #### Defined in
 
-main.ts:139323
+main.ts:150528
 
 ***
 
@@ -352,7 +352,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139352
+main.ts:150557
 
 ***
 
@@ -364,7 +364,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:139321
+main.ts:150526
 
 ***
 
@@ -376,4 +376,4 @@ target in a POST array
 
 #### Defined in
 
-main.ts:139270
+main.ts:150475

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisCategoriesInfo
+[Documentation](../README.md) / IContentAnalysisCategoriesInfo
 
 # Interface: IContentAnalysisCategoriesInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:23347
+main.ts:24245
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:23347
 
 #### Defined in
 
-main.ts:23348
+main.ts:24246

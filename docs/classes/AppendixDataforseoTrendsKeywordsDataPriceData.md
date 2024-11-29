@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDataforseoTrendsKeywordsDataPriceData
+[Documentation](../README.md) / AppendixDataforseoTrendsKeywordsDataPriceData
 
 # Class: AppendixDataforseoTrendsKeywordsDataPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md)
+##### data?
+
+[`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:221347
+main.ts:236518
 
 ## Properties
 
 ### demography?
 
-> `optional` **demography**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **demography**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -44,13 +46,13 @@ main.ts:221347
 
 #### Defined in
 
-main.ts:221340
+main.ts:236511
 
 ***
 
 ### explore?
 
-> `optional` **explore**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **explore**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,13 +60,13 @@ main.ts:221340
 
 #### Defined in
 
-main.ts:221341
+main.ts:236512
 
 ***
 
 ### merged\_data?
 
-> `optional` **merged\_data**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **merged\_data**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -72,13 +74,13 @@ main.ts:221341
 
 #### Defined in
 
-main.ts:221342
+main.ts:236513
 
 ***
 
 ### subregion\_interests?
 
-> `optional` **subregion\_interests**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **subregion\_interests**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -86,7 +88,7 @@ main.ts:221342
 
 #### Defined in
 
-main.ts:221343
+main.ts:236514
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:221343
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:221343
 
 #### Defined in
 
-main.ts:221356
+main.ts:236527
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:221356
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:221356
 
 #### Defined in
 
-main.ts:221376
+main.ts:236547
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:221376
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:221376
 
 #### Defined in
 
-main.ts:221369
+main.ts:236540

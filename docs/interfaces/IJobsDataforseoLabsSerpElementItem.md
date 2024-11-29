@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IJobsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IJobsDataforseoLabsSerpElementItem
 
 # Interface: IJobsDataforseoLabsSerpElementItem
 
@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:98634
+main.ts:108370
 
 ***
 
@@ -42,7 +42,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -88,7 +88,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98630
+main.ts:108366
 
 ***
 
@@ -104,7 +104,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -116,7 +116,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98632
+main.ts:108368
 
 ***
 
@@ -132,4 +132,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

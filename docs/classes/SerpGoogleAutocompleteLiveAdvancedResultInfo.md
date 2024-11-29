@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleAutocompleteLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleAutocompleteLiveAdvancedResultInfo
 
 # Class: SerpGoogleAutocompleteLiveAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:52886
+main.ts:56605
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:52863
+main.ts:56580
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:52868
+main.ts:56585
 
 ***
 
@@ -85,15 +87,15 @@ autocomplete
 
 #### Defined in
 
-main.ts:52876
+main.ts:56595
 
 ***
 
 ### items?
 
-> `optional` **items**: [`SerpGoogleAutocompleteeAdvancedItem`](SerpGoogleAutocompleteeAdvancedItem.md)[]
+> `optional` **items**: [`SerpGoogleAutocompleteAdvancedItem`](SerpGoogleAutocompleteAdvancedItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Implementation of
 
@@ -101,7 +103,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:52882
+main.ts:56601
 
 ***
 
@@ -117,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:52880
+main.ts:56599
 
 ***
 
@@ -126,7 +128,7 @@ main.ts:52880
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -134,7 +136,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:52852
+main.ts:56569
 
 ***
 
@@ -150,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:52860
+main.ts:56577
 
 ***
 
@@ -166,7 +168,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:52858
+main.ts:56575
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:56590
 
 ***
 
@@ -182,7 +200,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:52856
+main.ts:56573
 
 ***
 
@@ -198,7 +216,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:52878
+main.ts:56597
 
 ***
 
@@ -215,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:52871
+main.ts:56588
 
 ***
 
@@ -231,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:52854
+main.ts:56571
 
 ## Methods
 
@@ -241,7 +259,9 @@ main.ts:52854
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -249,7 +269,7 @@ main.ts:52854
 
 #### Defined in
 
-main.ts:52895
+main.ts:56614
 
 ***
 
@@ -259,7 +279,9 @@ main.ts:52895
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +289,7 @@ main.ts:52895
 
 #### Defined in
 
-main.ts:52931
+main.ts:56651
 
 ***
 
@@ -277,7 +299,9 @@ main.ts:52931
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -285,4 +309,4 @@ main.ts:52931
 
 #### Defined in
 
-main.ts:52924
+main.ts:56644

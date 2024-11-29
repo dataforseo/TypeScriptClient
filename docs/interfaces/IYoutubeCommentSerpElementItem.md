@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IYoutubeCommentSerpElementItem
+[Documentation](../README.md) / IYoutubeCommentSerpElementItem
 
 # Interface: IYoutubeCommentSerpElementItem
 
@@ -24,7 +24,7 @@ name of the author of the comment
 
 #### Defined in
 
-main.ts:65654
+main.ts:73876
 
 ***
 
@@ -36,7 +36,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-main.ts:65656
+main.ts:73878
 
 ***
 
@@ -48,7 +48,7 @@ URL of the author’s channel
 
 #### Defined in
 
-main.ts:65658
+main.ts:73880
 
 ***
 
@@ -60,7 +60,7 @@ number of likes on the comment
 
 #### Defined in
 
-main.ts:65669
+main.ts:73891
 
 ***
 
@@ -72,7 +72,7 @@ displayed publication date
 
 #### Defined in
 
-main.ts:65662
+main.ts:73884
 
 ***
 
@@ -89,7 +89,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62349
+main.ts:70531
 
 ***
 
@@ -107,7 +107,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62346
+main.ts:70528
 
 ***
 
@@ -119,7 +119,7 @@ number of replies on the comment
 
 #### Defined in
 
-main.ts:65671
+main.ts:73893
 
 ***
 
@@ -131,7 +131,7 @@ text of the comment
 
 #### Defined in
 
-main.ts:65660
+main.ts:73882
 
 ***
 
@@ -146,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:65667
+main.ts:73889
 
 ***
 
@@ -162,4 +162,4 @@ type of element
 
 #### Defined in
 
-main.ts:62342
+main.ts:70524

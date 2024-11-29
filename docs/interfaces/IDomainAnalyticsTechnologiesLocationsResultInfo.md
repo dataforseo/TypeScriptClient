@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesLocationsResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesLocationsResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesLocationsResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:75589
+main.ts:85293
 
 ***
 
@@ -32,4 +32,4 @@ full name of the location
 
 #### Defined in
 
-main.ts:75587
+main.ts:85291

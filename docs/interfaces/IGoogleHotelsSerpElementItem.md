@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleHotelsSerpElementItem
+[Documentation](../README.md) / IGoogleHotelsSerpElementItem
 
 # Interface: IGoogleHotelsSerpElementItem
 
@@ -24,7 +24,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:34673
+main.ts:36158
 
 ***
 
@@ -38,7 +38,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:34669
+main.ts:36154
 
 ***
 
@@ -56,7 +56,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -73,7 +73,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -105,7 +105,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34677
+main.ts:36162
 
 ***
 
@@ -121,7 +121,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -133,7 +133,7 @@ source URL
 
 #### Defined in
 
-main.ts:34671
+main.ts:36156
 
 ***
 
@@ -149,4 +149,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

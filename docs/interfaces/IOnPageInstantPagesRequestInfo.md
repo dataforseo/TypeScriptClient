@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageInstantPagesRequestInfo
+[Documentation](../README.md) / IOnPageInstantPagesRequestInfo
 
 # Interface: IOnPageInstantPagesRequestInfo
 
@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:162921
+main.ts:174509
 
 ***
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-main.ts:162893
+main.ts:174481
 
 ***
 
@@ -66,7 +66,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162905
+main.ts:174493
 
 ***
 
@@ -82,7 +82,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:162911
+main.ts:174499
 
 ***
 
@@ -98,7 +98,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162899
+main.ts:174487
 
 ***
 
@@ -113,7 +113,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162980
+main.ts:174569
 
 ***
 
@@ -132,7 +132,7 @@ Note: only integer threshold values can be modified;
 
 #### Defined in
 
-main.ts:162985
+main.ts:174574
 
 ***
 
@@ -141,7 +141,8 @@ main.ts:162985
 > `optional` **custom\_js**: `string`
 
 custom javascript
-optional fieldNote that the execution time for the script you enter here should be 700 ms maximumfor example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
+optional fieldNote that the execution time for the script you enter here should be 700 ms maximum;
+for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
 let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) {\r\n if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
 meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
 as a response you will receive the following data:
@@ -153,7 +154,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162970
+main.ts:174559
 
 ***
 
@@ -170,7 +171,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:162876
+main.ts:174464
 
 ***
 
@@ -186,7 +187,7 @@ false
 
 #### Defined in
 
-main.ts:162948
+main.ts:174536
 
 ***
 
@@ -205,7 +206,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162942
+main.ts:174530
 
 ***
 
@@ -221,7 +222,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162933
+main.ts:174521
 
 ***
 
@@ -237,7 +238,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-main.ts:162959
+main.ts:174547
 
 ***
 
@@ -253,7 +254,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:162996
+main.ts:174585
 
 ***
 
@@ -269,7 +270,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162927
+main.ts:174515
 
 ***
 
@@ -284,7 +285,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162953
+main.ts:174541
 
 ***
 
@@ -299,7 +300,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162916
+main.ts:174504
 
 ***
 
@@ -314,7 +315,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:162990
+main.ts:174579
 
 ***
 
@@ -331,7 +332,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Defined in
 
-main.ts:162869
+main.ts:174457
 
 ***
 
@@ -346,4 +347,4 @@ default value: false
 
 #### Defined in
 
-main.ts:162975
+main.ts:174564

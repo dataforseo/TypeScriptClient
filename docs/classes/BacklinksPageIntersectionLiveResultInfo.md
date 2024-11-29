@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksPageIntersectionLiveResultInfo
+[Documentation](../README.md) / BacklinksPageIntersectionLiveResultInfo
 
 # Class: BacklinksPageIntersectionLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksPageIntersectionLiveResultInfo`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md)
+##### data?
+
+[`IBacklinksPageIntersectionLiveResultInfo`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:147835
+main.ts:159040
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:147831
+main.ts:159036
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:147829
+main.ts:159034
 
 ***
 
@@ -82,7 +84,7 @@ targets from a POST array
 
 #### Defined in
 
-main.ts:147825
+main.ts:159030
 
 ***
 
@@ -98,7 +100,7 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:147827
+main.ts:159032
 
 ## Methods
 
@@ -108,7 +110,9 @@ main.ts:147827
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +120,7 @@ main.ts:147827
 
 #### Defined in
 
-main.ts:147844
+main.ts:159049
 
 ***
 
@@ -126,7 +130,9 @@ main.ts:147844
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +140,7 @@ main.ts:147844
 
 #### Defined in
 
-main.ts:147874
+main.ts:159079
 
 ***
 
@@ -144,7 +150,9 @@ main.ts:147874
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -152,4 +160,4 @@ main.ts:147874
 
 #### Defined in
 
-main.ts:147867
+main.ts:159072

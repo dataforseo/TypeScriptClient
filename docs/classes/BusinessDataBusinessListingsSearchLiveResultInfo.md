@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsSearchLiveResultInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsSearchLiveResultInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:199231
+main.ts:211581
 
 ## Properties
 
@@ -47,7 +49,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:199217
+main.ts:211567
 
 ***
 
@@ -65,7 +67,7 @@ possible item types: business_listing
 
 #### Defined in
 
-main.ts:199227
+main.ts:211577
 
 ***
 
@@ -81,7 +83,7 @@ offset in the results array of returned businesses
 
 #### Defined in
 
-main.ts:199219
+main.ts:211569
 
 ***
 
@@ -99,7 +101,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:199223
+main.ts:211573
 
 ***
 
@@ -115,7 +117,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:199214
+main.ts:211564
 
 ## Methods
 
@@ -125,7 +127,9 @@ main.ts:199214
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -133,7 +137,7 @@ main.ts:199214
 
 #### Defined in
 
-main.ts:199240
+main.ts:211590
 
 ***
 
@@ -143,7 +147,9 @@ main.ts:199240
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -151,7 +157,7 @@ main.ts:199240
 
 #### Defined in
 
-main.ts:199265
+main.ts:211615
 
 ***
 
@@ -161,7 +167,9 @@ main.ts:199265
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -169,4 +177,4 @@ main.ts:199265
 
 #### Defined in
 
-main.ts:199258
+main.ts:211608

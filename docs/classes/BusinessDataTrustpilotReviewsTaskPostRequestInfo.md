@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
+[Documentation](../README.md) / BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:211286
+main.ts:226217
 
 ## Properties
 
@@ -51,7 +53,7 @@ maximum value: 25000
 
 #### Defined in
 
-main.ts:211256
+main.ts:226185
 
 ***
 
@@ -73,7 +75,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Defined in
 
-main.ts:211233
+main.ts:226162
 
 ***
 
@@ -88,8 +90,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -97,7 +100,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:211282
+main.ts:226213
 
 ***
 
@@ -112,8 +115,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -121,7 +125,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:211272
+main.ts:226202
 
 ***
 
@@ -143,7 +147,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:211249
+main.ts:226178
 
 ***
 
@@ -165,7 +169,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:211241
+main.ts:226170
 
 ***
 
@@ -185,7 +189,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:211262
+main.ts:226191
 
 ## Methods
 
@@ -195,7 +199,9 @@ main.ts:211262
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -203,7 +209,7 @@ main.ts:211262
 
 #### Defined in
 
-main.ts:211295
+main.ts:226226
 
 ***
 
@@ -213,7 +219,9 @@ main.ts:211295
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -221,7 +229,7 @@ main.ts:211295
 
 #### Defined in
 
-main.ts:211318
+main.ts:226249
 
 ***
 
@@ -231,7 +239,9 @@ main.ts:211318
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -239,4 +249,4 @@ main.ts:211318
 
 #### Defined in
 
-main.ts:211311
+main.ts:226242

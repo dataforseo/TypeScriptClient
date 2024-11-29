@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
@@ -27,7 +27,7 @@ B01LW2SL7R
 
 #### Defined in
 
-main.ts:104021
+main.ts:113659
 
 ***
 
@@ -44,7 +44,7 @@ en
 
 #### Defined in
 
-main.ts:104051
+main.ts:113689
 
 ***
 
@@ -61,7 +61,7 @@ English
 
 #### Defined in
 
-main.ts:104044
+main.ts:113682
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:104037
+main.ts:113675
 
 ***
 
@@ -97,7 +97,7 @@ United States
 
 #### Defined in
 
-main.ts:104029
+main.ts:113667
 
 ***
 
@@ -113,4 +113,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:104057
+main.ts:113695

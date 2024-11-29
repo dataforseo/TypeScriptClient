@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoCommentsTasksFixedResultInfo
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsTasksFixedResultInfo
 
 # Interface: ISerpYoutubeVideoCommentsTasksFixedResultInfo
 
@@ -20,7 +20,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:65454
+main.ts:73676
 
 ***
 
@@ -33,7 +33,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:65462
+main.ts:73684
 
 ***
 
@@ -46,7 +46,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:65465
+main.ts:73687
 
 ***
 
@@ -59,7 +59,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:65459
+main.ts:73681
 
 ***
 
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:65447
+main.ts:73669
 
 ***
 
@@ -84,7 +84,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:65449
+main.ts:73671
 
 ***
 
@@ -97,7 +97,7 @@ can take the following values: video_comments
 
 #### Defined in
 
-main.ts:65452
+main.ts:73674
 
 ***
 
@@ -109,4 +109,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:65456
+main.ts:73678

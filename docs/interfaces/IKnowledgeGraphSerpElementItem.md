@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphSerpElementItem
 
 # Interface: IKnowledgeGraphSerpElementItem
 
@@ -24,7 +24,7 @@ card id
 
 #### Defined in
 
-main.ts:29558
+main.ts:31117
 
 ***
 
@@ -38,7 +38,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:29569
+main.ts:31128
 
 ***
 
@@ -50,7 +50,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29556
+main.ts:31115
 
 ***
 
@@ -63,7 +63,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:29563
+main.ts:31122
 
 ***
 
@@ -75,7 +75,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:29571
+main.ts:31130
 
 ***
 
@@ -87,7 +87,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:29565
+main.ts:31124
 
 ***
 
@@ -105,7 +105,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -122,7 +122,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -140,7 +140,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -154,7 +154,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29575
+main.ts:31134
 
 ***
 
@@ -166,7 +166,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:29554
+main.ts:31113
 
 ***
 
@@ -178,7 +178,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:29552
+main.ts:31111
 
 ***
 
@@ -194,7 +194,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -206,7 +206,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:29560
+main.ts:31119
 
 ***
 
@@ -222,4 +222,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

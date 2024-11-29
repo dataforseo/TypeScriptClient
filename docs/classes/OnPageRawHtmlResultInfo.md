@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRawHtmlResultInfo
+[Documentation](../README.md) / OnPageRawHtmlResultInfo
 
 # Class: OnPageRawHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageRawHtmlResultInfo`](../interfaces/IOnPageRawHtmlResultInfo.md)
+##### data?
+
+[`IOnPageRawHtmlResultInfo`](../interfaces/IOnPageRawHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160554
+main.ts:172197
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:160544
+main.ts:172187
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:160546
+main.ts:172189
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:160550
+main.ts:172193
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:160548
+main.ts:172191
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:160548
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:160548
 
 #### Defined in
 
-main.ts:160563
+main.ts:172206
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:160563
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:160563
 
 #### Defined in
 
-main.ts:160583
+main.ts:172226
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:160583
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:160583
 
 #### Defined in
 
-main.ts:160576
+main.ts:172219

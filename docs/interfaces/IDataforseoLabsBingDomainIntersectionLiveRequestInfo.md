@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingDomainIntersectionLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingDomainIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveRequestInfo
 
@@ -35,7 +35,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:107175
+main.ts:116813
 
 ***
 
@@ -50,7 +50,7 @@ default value: false
 
 #### Defined in
 
-main.ts:107148
+main.ts:116786
 
 ***
 
@@ -68,7 +68,7 @@ default value: true
 
 #### Defined in
 
-main.ts:107135
+main.ts:116773
 
 ***
 
@@ -86,7 +86,7 @@ default value:
 
 #### Defined in
 
-main.ts:107143
+main.ts:116781
 
 ***
 
@@ -104,7 +104,7 @@ en
 
 #### Defined in
 
-main.ts:107127
+main.ts:116765
 
 ***
 
@@ -122,7 +122,7 @@ English
 
 #### Defined in
 
-main.ts:107119
+main.ts:116757
 
 ***
 
@@ -137,7 +137,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107153
+main.ts:116791
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:107111
+main.ts:116749
 
 ***
 
@@ -175,7 +175,7 @@ United States
 
 #### Defined in
 
-main.ts:107102
+main.ts:116740
 
 ***
 
@@ -190,7 +190,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:107158
+main.ts:116796
 
 ***
 
@@ -216,7 +216,7 @@ example:
 
 #### Defined in
 
-main.ts:107191
+main.ts:116829
 
 ***
 
@@ -232,7 +232,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107197
+main.ts:116835
 
 ***
 
@@ -247,7 +247,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:107088
+main.ts:116726
 
 ***
 
@@ -262,4 +262,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:107093
+main.ts:116731

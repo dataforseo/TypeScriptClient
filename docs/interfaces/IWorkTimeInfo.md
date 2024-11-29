@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IWorkTimeInfo
+[Documentation](../README.md) / IWorkTimeInfo
 
 # Interface: IWorkTimeInfo
 
@@ -20,7 +20,7 @@ hours in the 24-hour format
 
 #### Defined in
 
-main.ts:22185
+main.ts:23083
 
 ***
 
@@ -32,4 +32,4 @@ minutes
 
 #### Defined in
 
-main.ts:22187
+main.ts:23085

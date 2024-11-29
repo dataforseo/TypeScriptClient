@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:95770
+main.ts:105488
 
 ## Properties
 
@@ -50,7 +52,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:95723
+main.ts:105441
 
 ***
 
@@ -71,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:95730
+main.ts:105448
 
 ***
 
@@ -81,10 +83,10 @@ main.ts:95730
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
 
 #### Implementation of
 
@@ -92,7 +94,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:95717
+main.ts:105435
 
 ***
 
@@ -114,7 +116,7 @@ en
 
 #### Defined in
 
-main.ts:95760
+main.ts:105478
 
 ***
 
@@ -136,7 +138,7 @@ English
 
 #### Defined in
 
-main.ts:95752
+main.ts:105470
 
 ***
 
@@ -157,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:95744
+main.ts:105462
 
 ***
 
@@ -178,7 +180,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:95737
+main.ts:105455
 
 ***
 
@@ -198,7 +200,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:95766
+main.ts:105484
 
 ## Methods
 
@@ -208,7 +210,9 @@ main.ts:95766
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +220,7 @@ main.ts:95766
 
 #### Defined in
 
-main.ts:95779
+main.ts:105497
 
 ***
 
@@ -226,7 +230,9 @@ main.ts:95779
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +240,7 @@ main.ts:95779
 
 #### Defined in
 
-main.ts:95803
+main.ts:105521
 
 ***
 
@@ -244,7 +250,9 @@ main.ts:95803
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -252,4 +260,4 @@ main.ts:95803
 
 #### Defined in
 
-main.ts:95796
+main.ts:105514

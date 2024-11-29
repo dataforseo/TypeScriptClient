@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBacklinksDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixBacklinksDayStatisticsRatesData
 
 # Interface: IAppendixBacklinksDayStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:219348
+main.ts:234347
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:219348
 
 #### Defined in
 
-main.ts:219365
+main.ts:234367
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:219365
 
 #### Defined in
 
-main.ts:219346
+main.ts:234345
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:219346
 
 #### Defined in
 
-main.ts:219353
+main.ts:234352
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:219353
 
 #### Defined in
 
-main.ts:219354
+main.ts:234353
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:219354
 
 #### Defined in
 
-main.ts:219355
+main.ts:234354
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:219355
 
 #### Defined in
 
-main.ts:219362
+main.ts:234362
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:219362
 
 #### Defined in
 
-main.ts:219352
+main.ts:234351
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:219352
 
 #### Defined in
 
-main.ts:219356
+main.ts:234355
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:219356
 
 #### Defined in
 
-main.ts:219368
+main.ts:234361
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:219368
 
 #### Defined in
 
-main.ts:219361
+main.ts:234360
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:219361
 
 #### Defined in
 
-main.ts:219344
+main.ts:234343
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:219344
 
 #### Defined in
 
-main.ts:219345
+main.ts:234344
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:219345
 
 #### Defined in
 
-main.ts:219347
+main.ts:234346
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:219347
 
 #### Defined in
 
-main.ts:219358
+main.ts:234357
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:219358
 
 #### Defined in
 
-main.ts:219357
+main.ts:234356
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:219357
 
 #### Defined in
 
-main.ts:219367
+main.ts:234364
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:219367
 
 #### Defined in
 
-main.ts:219343
+main.ts:234342
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:219343
 
 #### Defined in
 
-main.ts:219364
+main.ts:234366
 
 ***
 
@@ -208,7 +208,7 @@ main.ts:219364
 
 #### Defined in
 
-main.ts:219363
+main.ts:234365
 
 ***
 
@@ -218,7 +218,7 @@ main.ts:219363
 
 #### Defined in
 
-main.ts:219350
+main.ts:234349
 
 ***
 
@@ -228,7 +228,7 @@ main.ts:219350
 
 #### Defined in
 
-main.ts:219366
+main.ts:234363
 
 ***
 
@@ -238,7 +238,7 @@ main.ts:219366
 
 #### Defined in
 
-main.ts:219349
+main.ts:234348
 
 ***
 
@@ -248,7 +248,7 @@ main.ts:219349
 
 #### Defined in
 
-main.ts:219351
+main.ts:234350
 
 ***
 
@@ -258,7 +258,7 @@ main.ts:219351
 
 #### Defined in
 
-main.ts:219342
+main.ts:234341
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:219342
 
 #### Defined in
 
-main.ts:219360
+main.ts:234359
 
 ***
 
@@ -278,4 +278,4 @@ main.ts:219360
 
 #### Defined in
 
-main.ts:219359
+main.ts:234358

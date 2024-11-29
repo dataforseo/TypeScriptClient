@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRankedKeywordsInfo
+[Documentation](../README.md) / IRankedKeywordsInfo
 
 # Interface: IRankedKeywordsInfo
 
@@ -20,7 +20,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 #### Defined in
 
-main.ts:140522
+main.ts:151727
 
 ***
 
@@ -32,7 +32,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 #### Defined in
 
-main.ts:140524
+main.ts:151729
 
 ***
 
@@ -44,4 +44,4 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Defined in
 
-main.ts:140520
+main.ts:151725

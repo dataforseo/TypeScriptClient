@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonRankedKeywordsLiveItem
+[Documentation](../README.md) / DataforseoLabsAmazonRankedKeywordsLiveItem
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAmazonRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveItem.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:103648
+main.ts:113286
 
 ## Properties
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -46,7 +48,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:103642
+main.ts:113280
 
 ***
 
@@ -62,7 +64,7 @@ contains data on the products’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:103644
+main.ts:113282
 
 ***
 
@@ -78,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103640
+main.ts:113278
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:103640
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:103640
 
 #### Defined in
 
-main.ts:103657
+main.ts:113295
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:103657
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:103657
 
 #### Defined in
 
-main.ts:103676
+main.ts:113314
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:103676
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:103676
 
 #### Defined in
 
-main.ts:103669
+main.ts:113307

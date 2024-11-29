@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseTasksReadyResultInfo
+[Documentation](../README.md) / IOnPageLighthouseTasksReadyResultInfo
 
 # Interface: IOnPageLighthouseTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 #### Defined in
 
-main.ts:164166
+main.ts:175755
 
 ***
 
@@ -33,7 +33,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:164162
+main.ts:175751
 
 ***
 
@@ -45,4 +45,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:164164
+main.ts:175753

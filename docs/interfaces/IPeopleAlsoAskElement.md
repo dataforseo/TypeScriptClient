@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPeopleAlsoAskElement
+[Documentation](../README.md) / IPeopleAlsoAskElement
 
 # Interface: IPeopleAlsoAskElement
 
@@ -20,7 +20,7 @@ expanded element
 
 #### Defined in
 
-main.ts:30389
+main.ts:31948
 
 ***
 
@@ -32,7 +32,7 @@ question that triggered additional expanded elements
 
 #### Defined in
 
-main.ts:30385
+main.ts:31944
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30383
+main.ts:31942
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:30381
+main.ts:31940
 
 ***
 
@@ -68,4 +68,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:30387
+main.ts:31946

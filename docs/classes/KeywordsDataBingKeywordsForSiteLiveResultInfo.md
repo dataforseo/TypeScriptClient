@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordsForSiteLiveResultInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordsForSiteLiveResultInfo
 
 # Class: KeywordsDataBingKeywordsForSiteLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordsForSiteLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordsForSiteLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:130683
+main.ts:142518
 
 ## Properties
 
@@ -47,7 +49,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:130675
+main.ts:142510
 
 ***
 
@@ -68,7 +70,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:130665
+main.ts:142500
 
 ***
 
@@ -86,7 +88,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130669
+main.ts:142504
 
 ***
 
@@ -103,7 +105,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130658
+main.ts:142493
 
 ***
 
@@ -119,7 +121,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:130649
+main.ts:142484
 
 ***
 
@@ -135,7 +137,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:130653
+main.ts:142488
 
 ***
 
@@ -151,7 +153,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:130651
+main.ts:142486
 
 ***
 
@@ -169,7 +171,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130679
+main.ts:142514
 
 ***
 
@@ -185,7 +187,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:130655
+main.ts:142490
 
 ***
 
@@ -202,7 +204,7 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 
 #### Defined in
 
-main.ts:130672
+main.ts:142507
 
 ## Methods
 
@@ -212,7 +214,9 @@ main.ts:130672
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -220,7 +224,7 @@ main.ts:130672
 
 #### Defined in
 
-main.ts:130692
+main.ts:142527
 
 ***
 
@@ -230,7 +234,9 @@ main.ts:130692
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -238,7 +244,7 @@ main.ts:130692
 
 #### Defined in
 
-main.ts:130726
+main.ts:142561
 
 ***
 
@@ -248,7 +254,9 @@ main.ts:130726
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -256,4 +264,4 @@ main.ts:130726
 
 #### Defined in
 
-main.ts:130719
+main.ts:142554

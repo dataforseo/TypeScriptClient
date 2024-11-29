@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:204304
+main.ts:217470
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:204309
+main.ts:217475
 
 ***
 
@@ -49,7 +49,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-main.ts:204315
+main.ts:217481
 
 ***
 
@@ -62,7 +62,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:204312
+main.ts:217478
 
 ***
 
@@ -71,12 +71,12 @@ main.ts:204312
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character);
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character);
 in order to obtain accurate search results, the location name is appended to the keyword automatically
 
 #### Defined in
 
-main.ts:204297
+main.ts:217463
 
 ***
 
@@ -88,7 +88,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:204301
+main.ts:217467
 
 ***
 
@@ -100,4 +100,4 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:204299
+main.ts:217465

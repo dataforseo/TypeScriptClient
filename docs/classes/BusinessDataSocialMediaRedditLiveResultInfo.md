@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataSocialMediaRedditLiveResultInfo
+[Documentation](../README.md) / BusinessDataSocialMediaRedditLiveResultInfo
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:215310
+main.ts:230253
 
 ## Properties
 
@@ -47,7 +49,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:215304
+main.ts:230247
 
 ***
 
@@ -63,7 +65,7 @@ reddit reviews for the page_url
 
 #### Defined in
 
-main.ts:215306
+main.ts:230249
 
 ***
 
@@ -79,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:215301
+main.ts:230244
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:215301
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:215301
 
 #### Defined in
 
-main.ts:215319
+main.ts:230262
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:215319
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:215319
 
 #### Defined in
 
-main.ts:215342
+main.ts:230285
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:215342
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:215342
 
 #### Defined in
 
-main.ts:215335
+main.ts:230278

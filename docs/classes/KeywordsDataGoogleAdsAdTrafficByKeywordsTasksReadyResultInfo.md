@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:121240
+main.ts:131481
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:121232
+main.ts:131473
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:121236
+main.ts:131477
 
 ***
 
@@ -78,7 +80,7 @@ type of the task
 
 #### Defined in
 
-main.ts:121230
+main.ts:131471
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:121226
+main.ts:131467
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:121228
+main.ts:131469
 
 ***
 
@@ -127,7 +129,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:121234
+main.ts:131475
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:121234
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:121234
 
 #### Defined in
 
-main.ts:121249
+main.ts:131490
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:121249
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:121249
 
 #### Defined in
 
-main.ts:121271
+main.ts:131512
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:121271
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:121271
 
 #### Defined in
 
-main.ts:121264
+main.ts:131505

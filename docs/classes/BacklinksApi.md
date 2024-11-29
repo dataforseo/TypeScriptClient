@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksApi
+[Documentation](../README.md) / BacklinksApi
 
 # Class: BacklinksApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:11508
+main.ts:12064
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:11508
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:11508
 
 #### Defined in
 
-main.ts:11506
+main.ts:12062
 
 ## Methods
 
@@ -56,7 +62,9 @@ main.ts:11506
 
 #### Parameters
 
-• **body**: [`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksAnchorsLiveRequestInfo`](BacklinksAnchorsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -68,7 +76,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11801
+main.ts:12357
 
 ***
 
@@ -84,7 +92,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11600
+main.ts:12156
 
 ***
 
@@ -94,7 +102,9 @@ main.ts:11600
 
 #### Parameters
 
-• **body**: [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)[]
+##### body
+
+[`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -106,7 +116,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11559
+main.ts:12115
 
 ***
 
@@ -116,7 +126,9 @@ main.ts:11559
 
 #### Parameters
 
-• **body**: [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)[]
+##### body
+
+[`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)[]
 
 (optional)
 
@@ -128,7 +140,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11517
+main.ts:12073
 
 ***
 
@@ -138,7 +150,9 @@ main.ts:11517
 
 #### Parameters
 
-• **body**: [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)[]
 
 (optional)
 
@@ -150,7 +164,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11759
+main.ts:12315
 
 ***
 
@@ -160,7 +174,9 @@ main.ts:11759
 
 #### Parameters
 
-• **body**: [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)[]
 
 (optional)
 
@@ -172,7 +188,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12263
+main.ts:12819
 
 ***
 
@@ -182,7 +198,9 @@ main.ts:12263
 
 #### Parameters
 
-• **body**: [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)[]
 
 (optional)
 
@@ -194,7 +212,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12389
+main.ts:12945
 
 ***
 
@@ -204,7 +222,9 @@ main.ts:12389
 
 #### Parameters
 
-• **body**: [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -216,7 +236,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12431
+main.ts:12987
 
 ***
 
@@ -226,7 +246,9 @@ main.ts:12431
 
 #### Parameters
 
-• **body**: [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -238,7 +260,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12473
+main.ts:13029
 
 ***
 
@@ -248,7 +270,9 @@ main.ts:12473
 
 #### Parameters
 
-• **body**: [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)[]
 
 (optional)
 
@@ -260,7 +284,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12221
+main.ts:12777
 
 ***
 
@@ -270,7 +294,9 @@ main.ts:12221
 
 #### Parameters
 
-• **body**: [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -282,7 +308,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12347
+main.ts:12903
 
 ***
 
@@ -292,7 +318,9 @@ main.ts:12347
 
 #### Parameters
 
-• **body**: [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)[]
 
 (optional)
 
@@ -304,7 +332,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12305
+main.ts:12861
 
 ***
 
@@ -314,7 +342,9 @@ main.ts:12305
 
 #### Parameters
 
-• **body**: [`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksCompetitorsLiveRequestInfo`](BacklinksCompetitorsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -326,7 +356,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12011
+main.ts:12567
 
 ***
 
@@ -336,7 +366,9 @@ main.ts:12011
 
 #### Parameters
 
-• **body**: [`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksDomainIntersectionLiveRequestInfo`](BacklinksDomainIntersectionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -348,7 +380,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12053
+main.ts:12609
 
 ***
 
@@ -358,7 +390,9 @@ main.ts:12053
 
 #### Parameters
 
-• **body**: [`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksDomainPagesLiveRequestInfo`](BacklinksDomainPagesLiveRequestInfo.md)[]
 
 (optional)
 
@@ -370,7 +404,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11843
+main.ts:12399
 
 ***
 
@@ -380,7 +414,9 @@ main.ts:11843
 
 #### Parameters
 
-• **body**: [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -392,7 +428,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11885
+main.ts:12441
 
 ***
 
@@ -402,7 +438,9 @@ main.ts:11885
 
 #### Parameters
 
-• **body**: [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -414,7 +452,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11717
+main.ts:12273
 
 ***
 
@@ -430,7 +468,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11637
+main.ts:12193
 
 ***
 
@@ -440,7 +478,9 @@ main.ts:11637
 
 #### Parameters
 
-• **body**: [`BacklinksPageIntersectionLiveRequestInfo`](BacklinksPageIntersectionLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksPageIntersectionLiveRequestInfo`](BacklinksPageIntersectionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -452,7 +492,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12095
+main.ts:12651
 
 ***
 
@@ -462,7 +502,9 @@ main.ts:12095
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -470,7 +512,7 @@ main.ts:12095
 
 #### Defined in
 
-main.ts:11821
+main.ts:12377
 
 ***
 
@@ -480,7 +522,9 @@ main.ts:11821
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -488,7 +532,7 @@ main.ts:11821
 
 #### Defined in
 
-main.ts:11616
+main.ts:12172
 
 ***
 
@@ -498,7 +542,9 @@ main.ts:11616
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -506,7 +552,7 @@ main.ts:11616
 
 #### Defined in
 
-main.ts:11579
+main.ts:12135
 
 ***
 
@@ -516,7 +562,9 @@ main.ts:11579
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -524,7 +572,7 @@ main.ts:11579
 
 #### Defined in
 
-main.ts:11537
+main.ts:12093
 
 ***
 
@@ -534,7 +582,9 @@ main.ts:11537
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -542,7 +592,7 @@ main.ts:11537
 
 #### Defined in
 
-main.ts:11779
+main.ts:12335
 
 ***
 
@@ -552,7 +602,9 @@ main.ts:11779
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -560,7 +612,7 @@ main.ts:11779
 
 #### Defined in
 
-main.ts:12283
+main.ts:12839
 
 ***
 
@@ -570,7 +622,9 @@ main.ts:12283
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -578,7 +632,7 @@ main.ts:12283
 
 #### Defined in
 
-main.ts:12409
+main.ts:12965
 
 ***
 
@@ -588,7 +642,9 @@ main.ts:12409
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -596,7 +652,7 @@ main.ts:12409
 
 #### Defined in
 
-main.ts:12451
+main.ts:13007
 
 ***
 
@@ -606,7 +662,9 @@ main.ts:12451
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -614,7 +672,7 @@ main.ts:12451
 
 #### Defined in
 
-main.ts:12493
+main.ts:13049
 
 ***
 
@@ -624,7 +682,9 @@ main.ts:12493
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -632,7 +692,7 @@ main.ts:12493
 
 #### Defined in
 
-main.ts:12241
+main.ts:12797
 
 ***
 
@@ -642,7 +702,9 @@ main.ts:12241
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -650,7 +712,7 @@ main.ts:12241
 
 #### Defined in
 
-main.ts:12367
+main.ts:12923
 
 ***
 
@@ -660,7 +722,9 @@ main.ts:12367
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -668,7 +732,7 @@ main.ts:12367
 
 #### Defined in
 
-main.ts:12325
+main.ts:12881
 
 ***
 
@@ -678,7 +742,9 @@ main.ts:12325
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -686,7 +752,7 @@ main.ts:12325
 
 #### Defined in
 
-main.ts:12031
+main.ts:12587
 
 ***
 
@@ -696,7 +762,9 @@ main.ts:12031
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -704,7 +772,7 @@ main.ts:12031
 
 #### Defined in
 
-main.ts:12073
+main.ts:12629
 
 ***
 
@@ -714,7 +782,9 @@ main.ts:12073
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -722,7 +792,7 @@ main.ts:12073
 
 #### Defined in
 
-main.ts:11863
+main.ts:12419
 
 ***
 
@@ -732,7 +802,9 @@ main.ts:11863
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -740,7 +812,7 @@ main.ts:11863
 
 #### Defined in
 
-main.ts:11905
+main.ts:12461
 
 ***
 
@@ -750,7 +822,9 @@ main.ts:11905
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -758,7 +832,7 @@ main.ts:11905
 
 #### Defined in
 
-main.ts:11737
+main.ts:12293
 
 ***
 
@@ -768,7 +842,9 @@ main.ts:11737
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -776,7 +852,7 @@ main.ts:11737
 
 #### Defined in
 
-main.ts:11653
+main.ts:12209
 
 ***
 
@@ -786,7 +862,9 @@ main.ts:11653
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -794,7 +872,7 @@ main.ts:11653
 
 #### Defined in
 
-main.ts:12115
+main.ts:12671
 
 ***
 
@@ -804,7 +882,9 @@ main.ts:12115
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -812,7 +892,7 @@ main.ts:12115
 
 #### Defined in
 
-main.ts:11947
+main.ts:12503
 
 ***
 
@@ -822,7 +902,9 @@ main.ts:11947
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -830,7 +912,7 @@ main.ts:11947
 
 #### Defined in
 
-main.ts:11989
+main.ts:12545
 
 ***
 
@@ -840,7 +922,9 @@ main.ts:11989
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -848,7 +932,7 @@ main.ts:11989
 
 #### Defined in
 
-main.ts:11695
+main.ts:12251
 
 ***
 
@@ -858,7 +942,9 @@ main.ts:11695
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -866,7 +952,7 @@ main.ts:11695
 
 #### Defined in
 
-main.ts:12199
+main.ts:12755
 
 ***
 
@@ -876,7 +962,9 @@ main.ts:12199
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -884,7 +972,7 @@ main.ts:12199
 
 #### Defined in
 
-main.ts:12157
+main.ts:12713
 
 ***
 
@@ -894,7 +982,9 @@ main.ts:12157
 
 #### Parameters
 
-• **body**: [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -906,7 +996,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11927
+main.ts:12483
 
 ***
 
@@ -916,7 +1006,9 @@ main.ts:11927
 
 #### Parameters
 
-• **body**: [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)[]
 
 (optional)
 
@@ -928,7 +1020,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11969
+main.ts:12525
 
 ***
 
@@ -938,7 +1030,9 @@ main.ts:11969
 
 #### Parameters
 
-• **body**: [`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksSummaryLiveRequestInfo`](BacklinksSummaryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -950,7 +1044,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11675
+main.ts:12231
 
 ***
 
@@ -960,7 +1054,9 @@ main.ts:11675
 
 #### Parameters
 
-• **body**: [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -972,7 +1068,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12179
+main.ts:12735
 
 ***
 
@@ -982,7 +1078,9 @@ main.ts:12179
 
 #### Parameters
 
-• **body**: [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)[]
+##### body
+
+[`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -994,4 +1092,4 @@ Successful operation
 
 #### Defined in
 
-main.ts:12137
+main.ts:12693

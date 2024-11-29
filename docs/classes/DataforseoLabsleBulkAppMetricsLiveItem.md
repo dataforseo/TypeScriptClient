@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsleBulkAppMetricsLiveItem
+[Documentation](../README.md) / DataforseoLabsleBulkAppMetricsLiveItem
 
 # Class: DataforseoLabsleBulkAppMetricsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsleBulkAppMetricsLiveItem`](../interfaces/IDataforseoLabsleBulkAppMetricsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsleBulkAppMetricsLiveItem`](../interfaces/IDataforseoLabsleBulkAppMetricsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:111615
+main.ts:120947
 
 ## Properties
 
@@ -46,7 +48,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:111608
+main.ts:120940
 
 ***
 
@@ -67,7 +69,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Defined in
 
-main.ts:111611
+main.ts:120943
 
 ***
 
@@ -83,7 +85,7 @@ search engine type
 
 #### Defined in
 
-main.ts:111606
+main.ts:120938
 
 ## Methods
 
@@ -93,7 +95,9 @@ main.ts:111606
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -101,7 +105,7 @@ main.ts:111606
 
 #### Defined in
 
-main.ts:111624
+main.ts:120956
 
 ***
 
@@ -111,7 +115,9 @@ main.ts:111624
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -119,7 +125,7 @@ main.ts:111624
 
 #### Defined in
 
-main.ts:111649
+main.ts:120981
 
 ***
 
@@ -129,7 +135,9 @@ main.ts:111649
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -137,4 +145,4 @@ main.ts:111649
 
 #### Defined in
 
-main.ts:111642
+main.ts:120974

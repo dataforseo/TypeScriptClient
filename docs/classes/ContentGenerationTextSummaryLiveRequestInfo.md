@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationTextSummaryLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationTextSummaryLiveRequestInfo
 
 # Class: ContentGenerationTextSummaryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:171853
+main.ts:183442
 
 ## Properties
 
@@ -49,7 +51,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:171843
+main.ts:183432
 
 ***
 
@@ -67,7 +69,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:171838
+main.ts:183427
 
 ***
 
@@ -85,7 +87,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:171834
+main.ts:183423
 
 ***
 
@@ -105,7 +107,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:171849
+main.ts:183438
 
 ***
 
@@ -124,7 +126,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:171830
+main.ts:183419
 
 ## Methods
 
@@ -134,7 +136,9 @@ main.ts:171830
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -142,7 +146,7 @@ main.ts:171830
 
 #### Defined in
 
-main.ts:171862
+main.ts:183451
 
 ***
 
@@ -152,7 +156,9 @@ main.ts:171862
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +166,7 @@ main.ts:171862
 
 #### Defined in
 
-main.ts:171883
+main.ts:183472
 
 ***
 
@@ -170,7 +176,9 @@ main.ts:171883
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -178,4 +186,4 @@ main.ts:171883
 
 #### Defined in
 
-main.ts:171876
+main.ts:183465

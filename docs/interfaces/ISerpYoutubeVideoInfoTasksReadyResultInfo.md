@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoInfoTasksReadyResultInfo
+[Documentation](../README.md) / ISerpYoutubeVideoInfoTasksReadyResultInfo
 
 # Interface: ISerpYoutubeVideoInfoTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:61733
+main.ts:69915
 
 ***
 
@@ -33,7 +33,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:61741
+main.ts:69923
 
 ***
 
@@ -46,7 +46,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:61744
+main.ts:69926
 
 ***
 
@@ -59,7 +59,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:61738
+main.ts:69920
 
 ***
 
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:61726
+main.ts:69908
 
 ***
 
@@ -84,7 +84,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:61728
+main.ts:69910
 
 ***
 
@@ -97,7 +97,7 @@ example: video_info
 
 #### Defined in
 
-main.ts:61731
+main.ts:69913
 
 ***
 
@@ -109,4 +109,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:61735
+main.ts:69917

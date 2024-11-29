@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsWhoisOverviewLiveItem
+[Documentation](../README.md) / IDomainAnalyticsWhoisOverviewLiveItem
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveItem
 
@@ -22,7 +22,7 @@ backlink data for the returned domain
 
 #### Defined in
 
-main.ts:80025
+main.ts:89737
 
 ***
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:79991
+main.ts:89703
 
 ***
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:79986
+main.ts:89698
 
 ***
 
@@ -64,7 +64,7 @@ domain name
 
 #### Defined in
 
-main.ts:79981
+main.ts:89693
 
 ***
 
@@ -77,7 +77,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-main.ts:80009
+main.ts:89721
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:79996
+main.ts:89708
 
 ***
 
@@ -107,7 +107,7 @@ example:
 
 #### Defined in
 
-main.ts:80006
+main.ts:89718
 
 ***
 
@@ -119,7 +119,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:80023
+main.ts:89735
 
 ***
 
@@ -133,7 +133,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-main.ts:80016
+main.ts:89728
 
 ***
 
@@ -148,7 +148,7 @@ NameCheap, Inc.
 
 #### Defined in
 
-main.ts:80021
+main.ts:89733
 
 ***
 
@@ -161,7 +161,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:80012
+main.ts:89724
 
 ***
 
@@ -176,4 +176,4 @@ example:
 
 #### Defined in
 
-main.ts:80001
+main.ts:89713

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonSellersTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantAmazonSellersTaskPostRequestInfo
 
 # Interface: IMerchantAmazonSellersTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ learn more about the identifier in this help center guide
 
 #### Defined in
 
-main.ts:183213
+main.ts:195523
 
 ***
 
@@ -43,7 +43,7 @@ en
 
 #### Defined in
 
-main.ts:183258
+main.ts:195568
 
 ***
 
@@ -60,7 +60,7 @@ English
 
 #### Defined in
 
-main.ts:183251
+main.ts:195561
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:183235
+main.ts:195545
 
 ***
 
@@ -96,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:183244
+main.ts:195554
 
 ***
 
@@ -113,7 +113,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:183228
+main.ts:195538
 
 ***
 
@@ -128,12 +128,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:183297
+main.ts:195609
 
 ***
 
@@ -149,7 +150,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:183287
+main.ts:195598
 
 ***
 
@@ -164,12 +165,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:183281
+main.ts:195592
 
 ***
 
@@ -187,7 +189,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:183221
+main.ts:195531
 
 ***
 
@@ -204,7 +206,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 #### Defined in
 
-main.ts:183265
+main.ts:195575
 
 ***
 
@@ -220,4 +222,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:183271
+main.ts:195581

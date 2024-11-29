@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleBusinessPostBusinessDataSerpElementItem
+[Documentation](../README.md) / GoogleBusinessPostBusinessDataSerpElementItem
 
 # Class: GoogleBusinessPostBusinessDataSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md)
+##### data?
+
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:202677
+main.ts:215652
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:202677
 
 #### Defined in
 
-main.ts:21313
+main.ts:22211
 
 ***
 
@@ -68,7 +70,7 @@ author of the post
 
 #### Defined in
 
-main.ts:202654
+main.ts:215629
 
 ***
 
@@ -84,7 +86,7 @@ url of an image included in the post
 
 #### Defined in
 
-main.ts:202662
+main.ts:215637
 
 ***
 
@@ -100,7 +102,7 @@ links included in the post
 
 #### Defined in
 
-main.ts:202673
+main.ts:215648
 
 ***
 
@@ -117,7 +119,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:202650
+main.ts:215625
 
 ***
 
@@ -135,7 +137,7 @@ in the following format:
 
 #### Defined in
 
-main.ts:202666
+main.ts:215641
 
 ***
 
@@ -151,7 +153,7 @@ main content of a post
 
 #### Defined in
 
-main.ts:202658
+main.ts:215633
 
 ***
 
@@ -171,7 +173,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21311
+main.ts:22209
 
 ***
 
@@ -192,7 +194,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21309
+main.ts:22207
 
 ***
 
@@ -208,7 +210,7 @@ additional content of a post
 
 #### Defined in
 
-main.ts:202656
+main.ts:215631
 
 ***
 
@@ -227,7 +229,7 @@ example:
 
 #### Defined in
 
-main.ts:202671
+main.ts:215646
 
 ***
 
@@ -247,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:21306
+main.ts:22204
 
 ***
 
@@ -263,7 +265,7 @@ url of a post
 
 #### Defined in
 
-main.ts:202660
+main.ts:215635
 
 ***
 
@@ -279,7 +281,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:202652
+main.ts:215627
 
 ## Methods
 
@@ -289,7 +291,9 @@ main.ts:202652
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -301,7 +305,7 @@ main.ts:202652
 
 #### Defined in
 
-main.ts:202682
+main.ts:215657
 
 ***
 
@@ -311,7 +315,9 @@ main.ts:202682
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -323,7 +329,7 @@ main.ts:202682
 
 #### Defined in
 
-main.ts:202713
+main.ts:215688
 
 ***
 
@@ -333,7 +339,9 @@ main.ts:202713
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -345,4 +353,4 @@ main.ts:202713
 
 #### Defined in
 
-main.ts:202706
+main.ts:215681

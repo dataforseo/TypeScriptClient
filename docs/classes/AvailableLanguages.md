@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AvailableLanguages
+[Documentation](../README.md) / AvailableLanguages
 
 # Class: AvailableLanguages
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAvailableLanguages`](../interfaces/IAvailableLanguages.md)
+##### data?
+
+[`IAvailableLanguages`](../interfaces/IAvailableLanguages.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:81644
+main.ts:91356
 
 ## Properties
 
@@ -48,7 +50,7 @@ only google and bing are currently available
 
 #### Defined in
 
-main.ts:81632
+main.ts:91344
 
 ***
 
@@ -64,7 +66,7 @@ the number of keywords available for the given location and language
 
 #### Defined in
 
-main.ts:81638
+main.ts:91350
 
 ***
 
@@ -80,7 +82,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:81636
+main.ts:91348
 
 ***
 
@@ -96,7 +98,7 @@ language name
 
 #### Defined in
 
-main.ts:81634
+main.ts:91346
 
 ***
 
@@ -112,7 +114,7 @@ the number of SERP pages available for the given location and language
 
 #### Defined in
 
-main.ts:81640
+main.ts:91352
 
 ## Methods
 
@@ -122,7 +124,9 @@ main.ts:81640
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +134,7 @@ main.ts:81640
 
 #### Defined in
 
-main.ts:81653
+main.ts:91365
 
 ***
 
@@ -140,7 +144,9 @@ main.ts:81653
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +154,7 @@ main.ts:81653
 
 #### Defined in
 
-main.ts:81678
+main.ts:91390
 
 ***
 
@@ -158,7 +164,9 @@ main.ts:81678
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -166,4 +174,4 @@ main.ts:81678
 
 #### Defined in
 
-main.ts:81671
+main.ts:91383

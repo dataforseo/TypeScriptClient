@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordAnnotations
+[Documentation](../README.md) / KeywordAnnotations
 
 # Class: KeywordAnnotations
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md)
+##### data?
+
+[`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:119030
+main.ts:128762
 
 ## Properties
 
@@ -46,7 +48,7 @@ the list of concepts for the keyword
 
 #### Defined in
 
-main.ts:119026
+main.ts:128758
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:119026
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:119026
 
 #### Defined in
 
-main.ts:119039
+main.ts:128771
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:119039
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:119039
 
 #### Defined in
 
-main.ts:119060
+main.ts:128792
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:119060
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:119060
 
 #### Defined in
 
-main.ts:119053
+main.ts:128785

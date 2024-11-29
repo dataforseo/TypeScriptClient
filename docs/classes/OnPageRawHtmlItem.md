@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRawHtmlItem
+[Documentation](../README.md) / OnPageRawHtmlItem
 
 # Class: OnPageRawHtmlItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md)
+##### data?
+
+[`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160497
+main.ts:172140
 
 ## Properties
 
@@ -46,7 +48,7 @@ HTML page
 
 #### Defined in
 
-main.ts:160493
+main.ts:172136
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:160493
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:160493
 
 #### Defined in
 
-main.ts:160506
+main.ts:172149
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:160506
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:160506
 
 #### Defined in
 
-main.ts:160523
+main.ts:172166
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:160523
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:160523
 
 #### Defined in
 
-main.ts:160516
+main.ts:172159

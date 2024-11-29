@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
@@ -26,7 +26,7 @@ ss:/webfacts:net_worth
 
 #### Defined in
 
-main.ts:96362
+main.ts:106006
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96367
+main.ts:106011
 
 ***
 
@@ -51,7 +51,7 @@ link of the element
 
 #### Defined in
 
-main.ts:96364
+main.ts:106008
 
 ***
 
@@ -69,7 +69,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -86,7 +86,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -103,7 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -115,7 +115,7 @@ title of the link
 
 #### Defined in
 
-main.ts:96358
+main.ts:106002
 
 ***
 
@@ -131,7 +131,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -147,4 +147,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

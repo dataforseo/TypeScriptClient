@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentUrlInfo
+[Documentation](../README.md) / ContentUrlInfo
 
 # Class: ContentUrlInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentUrlInfo`](../interfaces/IContentUrlInfo.md)
+##### data?
+
+[`IContentUrlInfo`](../interfaces/IContentUrlInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161249
+main.ts:172862
 
 ## Properties
 
@@ -46,7 +48,7 @@ text of the URL’s anchor
 
 #### Defined in
 
-main.ts:161245
+main.ts:172858
 
 ***
 
@@ -62,7 +64,7 @@ other URL found in the content element
 
 #### Defined in
 
-main.ts:161243
+main.ts:172856
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:161243
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:161243
 
 #### Defined in
 
-main.ts:161258
+main.ts:172871
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:161258
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:161258
 
 #### Defined in
 
-main.ts:161276
+main.ts:172889
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:161276
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:161276
 
 #### Defined in
 
-main.ts:161269
+main.ts:172882

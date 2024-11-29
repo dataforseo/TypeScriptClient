@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / MerchantGoogleLocationsCountryResultInfo
 
 # Class: MerchantGoogleLocationsCountryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md)
+##### data?
+
+[`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:173414
+main.ts:185003
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:173408
+main.ts:184997
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:173399
+main.ts:184988
 
 ***
 
@@ -78,7 +80,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:173401
+main.ts:184990
 
 ***
 
@@ -97,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:173406
+main.ts:184995
 
 ***
 
@@ -113,7 +115,7 @@ location type
 
 #### Defined in
 
-main.ts:173410
+main.ts:184999
 
 ## Methods
 
@@ -123,7 +125,9 @@ main.ts:173410
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +135,7 @@ main.ts:173410
 
 #### Defined in
 
-main.ts:173423
+main.ts:185012
 
 ***
 
@@ -141,7 +145,9 @@ main.ts:173423
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -149,7 +155,7 @@ main.ts:173423
 
 #### Defined in
 
-main.ts:173444
+main.ts:185033
 
 ***
 
@@ -159,7 +165,9 @@ main.ts:173444
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -167,4 +175,4 @@ main.ts:173444
 
 #### Defined in
 
-main.ts:173437
+main.ts:185026

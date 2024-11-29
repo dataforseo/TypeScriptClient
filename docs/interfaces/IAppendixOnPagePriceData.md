@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixOnPagePriceData
+[Documentation](../README.md) / IAppendixOnPagePriceData
 
 # Interface: IAppendixOnPagePriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:223541
+main.ts:238728
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:223541
 
 #### Defined in
 
-main.ts:223542
+main.ts:238729
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:223542
 
 #### Defined in
 
-main.ts:223543
+main.ts:238730
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:223543
 
 #### Defined in
 
-main.ts:223544
+main.ts:238731
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:223544
 
 #### Defined in
 
-main.ts:223539
+main.ts:238726
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:223539
 
 #### Defined in
 
-main.ts:223545
+main.ts:238732
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:223545
 
 #### Defined in
 
-main.ts:223546
+main.ts:238733
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:223546
 
 #### Defined in
 
-main.ts:223540
+main.ts:238727
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:223540
 
 #### Defined in
 
-main.ts:223547
+main.ts:238734
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:223547
 
 #### Defined in
 
-main.ts:223548
+main.ts:238735
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:223548
 
 #### Defined in
 
-main.ts:223551
+main.ts:238738
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:223551
 
 #### Defined in
 
-main.ts:223549
+main.ts:238736
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:223549
 
 #### Defined in
 
-main.ts:223550
+main.ts:238737
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:223550
 
 #### Defined in
 
-main.ts:223552
+main.ts:238739
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:223552
 
 #### Defined in
 
-main.ts:223553
+main.ts:238740
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:223553
 
 #### Defined in
 
-main.ts:223554
+main.ts:238741
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:223554
 
 #### Defined in
 
-main.ts:223555
+main.ts:238742
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:223555
 
 #### Defined in
 
-main.ts:223556
+main.ts:238743
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:223556
 
 #### Defined in
 
-main.ts:223557
+main.ts:238744
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:223557
 
 #### Defined in
 
-main.ts:223558
+main.ts:238745

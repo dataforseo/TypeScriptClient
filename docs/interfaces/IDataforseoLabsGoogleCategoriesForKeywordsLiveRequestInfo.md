@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
@@ -20,12 +20,12 @@ target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000
-each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:88193
+main.ts:97911
 
 ***
 
@@ -42,7 +42,7 @@ en
 
 #### Defined in
 
-main.ts:88207
+main.ts:97925
 
 ***
 
@@ -59,7 +59,7 @@ English
 
 #### Defined in
 
-main.ts:88200
+main.ts:97918
 
 ***
 
@@ -75,4 +75,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:88213
+main.ts:97931

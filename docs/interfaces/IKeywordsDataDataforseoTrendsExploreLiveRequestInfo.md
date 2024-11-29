@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsExploreLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
 # Interface: IKeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:125597
+main.ts:135850
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Defined in
 
-main.ts:125604
+main.ts:135857
 
 ***
 
@@ -55,10 +55,11 @@ main.ts:125604
 keywords
 required field
 the maximum number of keywords you can specify: 5
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:125568
+main.ts:135821
 
 ***
 
@@ -77,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:125586
+main.ts:135839
 
 ***
 
@@ -96,7 +97,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:125577
+main.ts:135830
 
 ***
 
@@ -112,7 +113,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:125616
+main.ts:135869
 
 ***
 
@@ -128,7 +129,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Defined in
 
-main.ts:125610
+main.ts:135863
 
 ***
 
@@ -140,4 +141,4 @@ type of element
 
 #### Defined in
 
-main.ts:125588
+main.ts:135841

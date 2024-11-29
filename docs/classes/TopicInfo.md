@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopicInfo
+[Documentation](../README.md) / TopicInfo
 
 # Class: TopicInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITopicInfo`](../interfaces/ITopicInfo.md)
+##### data?
+
+[`ITopicInfo`](../interfaces/ITopicInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161695
+main.ts:173308
 
 ## Properties
 
@@ -46,7 +48,7 @@ content author name
 
 #### Defined in
 
-main.ts:161679
+main.ts:173292
 
 ***
 
@@ -62,7 +64,7 @@ meta title
 
 #### Defined in
 
-main.ts:161675
+main.ts:173288
 
 ***
 
@@ -78,7 +80,7 @@ content language
 
 #### Defined in
 
-main.ts:161681
+main.ts:173294
 
 ***
 
@@ -94,7 +96,7 @@ HTML level
 
 #### Defined in
 
-main.ts:161683
+main.ts:173296
 
 ***
 
@@ -110,7 +112,7 @@ main title of the block
 
 #### Defined in
 
-main.ts:161677
+main.ts:173290
 
 ***
 
@@ -127,7 +129,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161686
+main.ts:173299
 
 ***
 
@@ -144,7 +146,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161689
+main.ts:173302
 
 ***
 
@@ -160,7 +162,7 @@ content of the table on the page
 
 #### Defined in
 
-main.ts:161691
+main.ts:173304
 
 ## Methods
 
@@ -170,7 +172,9 @@ main.ts:161691
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +182,7 @@ main.ts:161691
 
 #### Defined in
 
-main.ts:161704
+main.ts:173317
 
 ***
 
@@ -188,7 +192,9 @@ main.ts:161704
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -196,7 +202,7 @@ main.ts:161704
 
 #### Defined in
 
-main.ts:161740
+main.ts:173353
 
 ***
 
@@ -206,7 +212,9 @@ main.ts:161740
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -214,4 +222,4 @@ main.ts:161740
 
 #### Defined in
 
-main.ts:161733
+main.ts:173346

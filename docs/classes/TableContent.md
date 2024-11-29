@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TableContent
+[Documentation](../README.md) / TableContent
 
 # Class: TableContent
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITableContent`](../interfaces/ITableContent.md)
+##### data?
+
+[`ITableContent`](../interfaces/ITableContent.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161597
+main.ts:173210
 
 ## Properties
 
@@ -46,7 +48,7 @@ content of the body of the table
 
 #### Defined in
 
-main.ts:161591
+main.ts:173204
 
 ***
 
@@ -62,7 +64,7 @@ content of the footer of the table
 
 #### Defined in
 
-main.ts:161593
+main.ts:173206
 
 ***
 
@@ -78,7 +80,7 @@ parsed content of the header
 
 #### Defined in
 
-main.ts:161589
+main.ts:173202
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:161589
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:161589
 
 #### Defined in
 
-main.ts:161606
+main.ts:173219
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:161606
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:161606
 
 #### Defined in
 
-main.ts:161637
+main.ts:173250
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:161637
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:161637
 
 #### Defined in
 
-main.ts:161630
+main.ts:173243

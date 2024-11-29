@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphExpandedElement
+[Documentation](../README.md) / IKnowledgeGraphExpandedElement
 
 # Interface: IKnowledgeGraphExpandedElement
 
@@ -20,7 +20,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:28613
+main.ts:30172
 
 ***
 
@@ -32,7 +32,7 @@ title of a given element
 
 #### Defined in
 
-main.ts:28609
+main.ts:30168
 
 ***
 
@@ -44,7 +44,7 @@ images of the element
 
 #### Defined in
 
-main.ts:28619
+main.ts:30178
 
 ***
 
@@ -56,7 +56,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28617
+main.ts:30176
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28627
+main.ts:30186
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:28624
+main.ts:30183
 
 ***
 
@@ -96,7 +96,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28615
+main.ts:30174
 
 ***
 
@@ -108,7 +108,7 @@ type of element
 
 #### Defined in
 
-main.ts:28607
+main.ts:30166
 
 ***
 
@@ -120,4 +120,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:28611
+main.ts:30170

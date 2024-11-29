@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleImagesTasksFixedResponseInfo
+[Documentation](../README.md) / SerpGoogleImagesTasksFixedResponseInfo
 
 # Class: SerpGoogleImagesTasksFixedResponseInfo
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleImagesTasksFixedResponseInfo`](../interfaces/ISerpGoogleImagesTasksFixedResponseInfo.md)
+##### data?
+
+[`ISerpGoogleImagesTasksFixedResponseInfo`](../interfaces/ISerpGoogleImagesTasksFixedResponseInfo.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:47519
+main.ts:50680
 
 ## Properties
 
@@ -58,7 +60,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24152
+main.ts:25217
 
 ***
 
@@ -79,7 +81,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24145
+main.ts:25210
 
 ***
 
@@ -100,7 +102,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24148
+main.ts:25213
 
 ***
 
@@ -116,7 +118,7 @@ array of tasks
 
 #### Defined in
 
-main.ts:47515
+main.ts:50676
 
 ***
 
@@ -136,7 +138,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:24154
+main.ts:25219
 
 ***
 
@@ -156,7 +158,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:24156
+main.ts:25221
 
 ***
 
@@ -176,7 +178,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:24150
+main.ts:25215
 
 ***
 
@@ -196,7 +198,7 @@ the current version of the API
 
 #### Defined in
 
-main.ts:24142
+main.ts:25207
 
 ## Methods
 
@@ -206,7 +208,9 @@ main.ts:24142
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -218,7 +222,7 @@ main.ts:24142
 
 #### Defined in
 
-main.ts:47523
+main.ts:50684
 
 ***
 
@@ -228,7 +232,9 @@ main.ts:47523
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -240,7 +246,7 @@ main.ts:47523
 
 #### Defined in
 
-main.ts:47545
+main.ts:50706
 
 ***
 
@@ -250,7 +256,9 @@ main.ts:47545
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -262,4 +270,4 @@ main.ts:47545
 
 #### Defined in
 
-main.ts:47538
+main.ts:50699

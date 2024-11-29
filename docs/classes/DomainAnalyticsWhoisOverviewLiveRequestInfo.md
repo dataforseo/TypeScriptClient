@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsWhoisOverviewLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsWhoisOverviewLiveRequestInfo
 
 # Class: DomainAnalyticsWhoisOverviewLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:79413
+main.ts:89125
 
 ## Properties
 
@@ -59,7 +61,7 @@ for more information about filters, please refer to Filters Page or this help ce
 
 #### Defined in
 
-main.ts:79387
+main.ts:89099
 
 ***
 
@@ -78,7 +80,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:79367
+main.ts:89079
 
 ***
 
@@ -97,7 +99,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:79372
+main.ts:89084
 
 ***
 
@@ -127,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:79403
+main.ts:89115
 
 ***
 
@@ -147,7 +149,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:79409
+main.ts:89121
 
 ## Methods
 
@@ -157,7 +159,9 @@ main.ts:79409
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +169,7 @@ main.ts:79409
 
 #### Defined in
 
-main.ts:79422
+main.ts:89134
 
 ***
 
@@ -175,7 +179,9 @@ main.ts:79422
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -183,7 +189,7 @@ main.ts:79422
 
 #### Defined in
 
-main.ts:79451
+main.ts:89163
 
 ***
 
@@ -193,7 +199,9 @@ main.ts:79451
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -201,4 +209,4 @@ main.ts:79451
 
 #### Defined in
 
-main.ts:79444
+main.ts:89156

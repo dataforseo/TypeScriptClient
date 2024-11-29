@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsStatusResultInfo
+[Documentation](../README.md) / DataforseoLabsStatusResultInfo
 
 # Class: DataforseoLabsStatusResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md)
+##### data?
+
+[`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:80624
+main.ts:90336
 
 ## Properties
 
@@ -46,7 +48,7 @@ update information for the Amazon endpoints
 
 #### Defined in
 
-main.ts:80620
+main.ts:90332
 
 ***
 
@@ -62,7 +64,7 @@ update information for the Bing endpoints
 
 #### Defined in
 
-main.ts:80618
+main.ts:90330
 
 ***
 
@@ -78,7 +80,7 @@ update information for the Google endpoints
 
 #### Defined in
 
-main.ts:80616
+main.ts:90328
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:80616
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:80616
 
 #### Defined in
 
-main.ts:80633
+main.ts:90345
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:80633
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:80633
 
 #### Defined in
 
-main.ts:80652
+main.ts:90364
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:80652
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:80652
 
 #### Defined in
 
-main.ts:80645
+main.ts:90357

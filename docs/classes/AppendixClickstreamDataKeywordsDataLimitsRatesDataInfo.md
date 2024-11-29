@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:215921
+main.ts:230872
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:215921
 
 #### Defined in
 
-main.ts:215916
+main.ts:230867
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:215916
 
 #### Defined in
 
-main.ts:215914
+main.ts:230865
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:215914
 
 #### Defined in
 
-main.ts:215917
+main.ts:230868
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:215917
 
 #### Defined in
 
-main.ts:215915
+main.ts:230866
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:215915
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:215915
 
 #### Defined in
 
-main.ts:215930
+main.ts:230881
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:215930
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:215930
 
 #### Defined in
 
-main.ts:215950
+main.ts:230901
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:215950
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:215950
 
 #### Defined in
 
-main.ts:215943
+main.ts:230894

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingRankedKeywordsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingRankedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsBingRankedKeywordsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:109052
+main.ts:118462
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
 
 contains ranked keywords and related data
 
@@ -46,7 +48,7 @@ contains ranked keywords and related data
 
 #### Defined in
 
-main.ts:109048
+main.ts:118458
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:109040
+main.ts:118450
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:109036
+main.ts:118446
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:109033
+main.ts:118443
 
 ***
 
@@ -117,7 +119,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-main.ts:109043
+main.ts:118453
 
 ***
 
@@ -138,7 +140,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-main.ts:109046
+main.ts:118456
 
 ***
 
@@ -154,7 +156,7 @@ search engine type
 
 #### Defined in
 
-main.ts:109028
+main.ts:118438
 
 ***
 
@@ -170,7 +172,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:109030
+main.ts:118440
 
 ***
 
@@ -186,7 +188,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:109038
+main.ts:118448
 
 ## Methods
 
@@ -196,7 +198,9 @@ main.ts:109038
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -204,7 +208,7 @@ main.ts:109038
 
 #### Defined in
 
-main.ts:109061
+main.ts:118471
 
 ***
 
@@ -214,7 +218,9 @@ main.ts:109061
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -222,7 +228,7 @@ main.ts:109061
 
 #### Defined in
 
-main.ts:109102
+main.ts:118512
 
 ***
 
@@ -232,7 +238,9 @@ main.ts:109102
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -240,4 +248,4 @@ main.ts:109102
 
 #### Defined in
 
-main.ts:109095
+main.ts:118505

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForDomainLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForDomainLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForDomainLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:87827
+main.ts:97545
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:87821
+main.ts:97539
 
 ***
 
@@ -67,7 +69,7 @@ ranking data relevant to the specified domain or subdomain
 
 #### Defined in
 
-main.ts:87823
+main.ts:97541
 
 ***
 
@@ -83,7 +85,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87818
+main.ts:97536
 
 ## Methods
 
@@ -93,7 +95,9 @@ main.ts:87818
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -101,7 +105,7 @@ main.ts:87818
 
 #### Defined in
 
-main.ts:87836
+main.ts:97554
 
 ***
 
@@ -111,7 +115,9 @@ main.ts:87836
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -119,7 +125,7 @@ main.ts:87836
 
 #### Defined in
 
-main.ts:87865
+main.ts:97583
 
 ***
 
@@ -129,7 +135,9 @@ main.ts:87865
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -137,4 +145,4 @@ main.ts:87865
 
 #### Defined in
 
-main.ts:87858
+main.ts:97576

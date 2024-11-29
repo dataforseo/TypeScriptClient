@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkReferringDomainsLiveItem
+[Documentation](../README.md) / IBacklinksBulkReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkReferringDomainsLiveItem
 
@@ -21,7 +21,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 #### Defined in
 
-main.ts:150187
+main.ts:161392
 
 ***
 
@@ -33,7 +33,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:150189
+main.ts:161394
 
 ***
 
@@ -46,7 +46,7 @@ the number of primary (root) domains referring to your target
 
 #### Defined in
 
-main.ts:150192
+main.ts:161397
 
 ***
 
@@ -58,7 +58,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:150194
+main.ts:161399
 
 ***
 
@@ -70,4 +70,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:150184
+main.ts:161389

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPeopleAlsoAskExpandedElement
+[Documentation](../README.md) / IPeopleAlsoAskExpandedElement
 
 # Interface: IPeopleAlsoAskExpandedElement
 
@@ -20,7 +20,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:30298
+main.ts:31857
 
 ***
 
@@ -32,7 +32,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:30294
+main.ts:31853
 
 ***
 
@@ -44,7 +44,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:30290
+main.ts:31849
 
 ***
 
@@ -56,7 +56,7 @@ images of the element
 
 #### Defined in
 
-main.ts:30300
+main.ts:31859
 
 ***
 
@@ -68,7 +68,7 @@ table element
 
 #### Defined in
 
-main.ts:30307
+main.ts:31866
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:30305
+main.ts:31864
 
 ***
 
@@ -95,7 +95,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:30296
+main.ts:31855
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Defined in
 
-main.ts:30288
+main.ts:31847
 
 ***
 
@@ -119,4 +119,4 @@ URL of element
 
 #### Defined in
 
-main.ts:30292
+main.ts:31851

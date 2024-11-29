@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ResourceMetaInfo
+[Documentation](../README.md) / ResourceMetaInfo
 
 # Class: ResourceMetaInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md)
+##### data?
+
+[`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:156120
+main.ts:167755
 
 ## Properties
 
@@ -47,7 +49,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:156106
+main.ts:167741
 
 ***
 
@@ -63,7 +65,7 @@ image height in px
 
 #### Defined in
 
-main.ts:156116
+main.ts:167751
 
 ***
 
@@ -79,7 +81,7 @@ original image height in px
 
 #### Defined in
 
-main.ts:156112
+main.ts:167747
 
 ***
 
@@ -95,7 +97,7 @@ original image width in px
 
 #### Defined in
 
-main.ts:156110
+main.ts:167745
 
 ***
 
@@ -111,7 +113,7 @@ title
 
 #### Defined in
 
-main.ts:156108
+main.ts:167743
 
 ***
 
@@ -127,7 +129,7 @@ image width in px
 
 #### Defined in
 
-main.ts:156114
+main.ts:167749
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:156114
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:156114
 
 #### Defined in
 
-main.ts:156129
+main.ts:167764
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:156129
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:156129
 
 #### Defined in
 
-main.ts:156151
+main.ts:167786
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:156151
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:156151
 
 #### Defined in
 
-main.ts:156144
+main.ts:167779

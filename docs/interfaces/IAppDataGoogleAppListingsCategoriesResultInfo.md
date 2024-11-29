@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppListingsCategoriesResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppListingsCategoriesResultInfo
 
 # Interface: IAppDataGoogleAppListingsCategoriesResultInfo
 
@@ -20,7 +20,7 @@ name of the supported app category
 
 #### Defined in
 
-main.ts:191711
+main.ts:204047
 
 ***
 
@@ -32,4 +32,4 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-main.ts:191713
+main.ts:204049

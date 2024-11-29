@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
+[Documentation](../README.md) / ContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:170639
+main.ts:182228
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:170629
+main.ts:182218
 
 ***
 
@@ -62,7 +64,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:170633
+main.ts:182222
 
 ***
 
@@ -78,7 +80,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:170631
+main.ts:182220
 
 ***
 
@@ -94,7 +96,7 @@ resulting subtopics
 
 #### Defined in
 
-main.ts:170635
+main.ts:182224
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:170635
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:170635
 
 #### Defined in
 
-main.ts:170648
+main.ts:182237
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:170648
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:170648
 
 #### Defined in
 
-main.ts:170672
+main.ts:182261
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:170672
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:170672
 
 #### Defined in
 
-main.ts:170665
+main.ts:182254

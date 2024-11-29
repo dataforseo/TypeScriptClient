@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsStatusInfo
+[Documentation](../README.md) / IDataforseoLabsStatusInfo
 
 # Interface: IDataforseoLabsStatusInfo
 
@@ -23,4 +23,4 @@ example:
 
 #### Defined in
 
-main.ts:80609
+main.ts:90321

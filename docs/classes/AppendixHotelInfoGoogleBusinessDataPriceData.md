@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixHotelInfoGoogleBusinessDataPriceData
+[Documentation](../README.md) / AppendixHotelInfoGoogleBusinessDataPriceData
 
 # Class: AppendixHotelInfoGoogleBusinessDataPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixHotelInfoGoogleBusinessDataPriceData`](../interfaces/IAppendixHotelInfoGoogleBusinessDataPriceData.md)
+##### data?
+
+[`IAppendixHotelInfoGoogleBusinessDataPriceData`](../interfaces/IAppendixHotelInfoGoogleBusinessDataPriceData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:222547
+main.ts:237674
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:222547
 
 #### Defined in
 
-main.ts:222540
+main.ts:237667
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:222540
 
 #### Defined in
 
-main.ts:222541
+main.ts:237668
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:222541
 
 #### Defined in
 
-main.ts:222542
+main.ts:237669
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:222542
 
 #### Defined in
 
-main.ts:222543
+main.ts:237670
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:222543
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:222543
 
 #### Defined in
 
-main.ts:222556
+main.ts:237683
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:222556
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:222556
 
 #### Defined in
 
-main.ts:222576
+main.ts:237703
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:222576
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:222576
 
 #### Defined in
 
-main.ts:222569
+main.ts:237696

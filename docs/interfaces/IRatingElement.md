@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRatingElement
+[Documentation](../README.md) / IRatingElement
 
 # Interface: IRatingElement
 
@@ -22,7 +22,7 @@ left, right
 
 #### Defined in
 
-main.ts:21290
+main.ts:21977
 
 ***
 
@@ -34,7 +34,7 @@ the maximum value for a rating_type
 
 #### Defined in
 
-main.ts:21299
+main.ts:21971
 
 ***
 
@@ -47,7 +47,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:21293
+main.ts:21965
 
 ***
 
@@ -59,19 +59,19 @@ type of element
 
 #### Defined in
 
-main.ts:21286
+main.ts:21973
 
 ***
 
 ### value?
 
-> `optional` **value**: `string`
+> `optional` **value**: `number`
 
-value of the rating
+the value of the rating
 
 #### Defined in
 
-main.ts:21295
+main.ts:21967
 
 ***
 
@@ -79,8 +79,8 @@ main.ts:21295
 
 > `optional` **votes\_count**: `number`
 
-the amount of feedback
+the amount of feedbac
 
 #### Defined in
 
-main.ts:21297
+main.ts:21969

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBingKeywordsDataDayStatisticsDataInfo
+[Documentation](../README.md) / IAppendixBingKeywordsDataDayStatisticsDataInfo
 
 # Interface: IAppendixBingKeywordsDataDayStatisticsDataInfo
 
@@ -12,13 +12,33 @@
 
 ## Properties
 
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixInfo`](../classes/AppendixInfo.md)
+
+#### Defined in
+
+main.ts:233353
+
+***
+
 ### keyword\_performance?
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Defined in
 
-main.ts:218368
+main.ts:233349
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](../classes/AppendixInfo.md)
+
+#### Defined in
+
+main.ts:233354
 
 ***
 
@@ -28,7 +48,7 @@ main.ts:218368
 
 #### Defined in
 
-main.ts:218371
+main.ts:233352
 
 ***
 
@@ -38,7 +58,7 @@ main.ts:218371
 
 #### Defined in
 
-main.ts:218370
+main.ts:233351
 
 ***
 
@@ -48,7 +68,7 @@ main.ts:218370
 
 #### Defined in
 
-main.ts:218369
+main.ts:233350
 
 ***
 
@@ -58,4 +78,4 @@ main.ts:218369
 
 #### Defined in
 
-main.ts:218372
+main.ts:233355

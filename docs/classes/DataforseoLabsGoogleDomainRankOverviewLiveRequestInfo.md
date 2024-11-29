@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:95306
+main.ts:105024
 
 ## Properties
 
@@ -49,7 +51,7 @@ default value: false
 
 #### Defined in
 
-main.ts:95286
+main.ts:105004
 
 ***
 
@@ -72,7 +74,7 @@ en
 
 #### Defined in
 
-main.ts:95281
+main.ts:104999
 
 ***
 
@@ -95,7 +97,7 @@ English
 
 #### Defined in
 
-main.ts:95272
+main.ts:104990
 
 ***
 
@@ -114,7 +116,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:95291
+main.ts:105009
 
 ***
 
@@ -137,7 +139,7 @@ example:
 
 #### Defined in
 
-main.ts:95263
+main.ts:104981
 
 ***
 
@@ -160,7 +162,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:95254
+main.ts:104972
 
 ***
 
@@ -179,7 +181,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:95296
+main.ts:105014
 
 ***
 
@@ -199,7 +201,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:95302
+main.ts:105020
 
 ***
 
@@ -218,7 +220,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:95245
+main.ts:104963
 
 ## Methods
 
@@ -228,7 +230,9 @@ main.ts:95245
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -236,7 +240,7 @@ main.ts:95245
 
 #### Defined in
 
-main.ts:95315
+main.ts:105033
 
 ***
 
@@ -246,7 +250,9 @@ main.ts:95315
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -254,7 +260,7 @@ main.ts:95315
 
 #### Defined in
 
-main.ts:95340
+main.ts:105058
 
 ***
 
@@ -264,7 +270,9 @@ main.ts:95340
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -272,4 +280,4 @@ main.ts:95340
 
 #### Defined in
 
-main.ts:95333
+main.ts:105051

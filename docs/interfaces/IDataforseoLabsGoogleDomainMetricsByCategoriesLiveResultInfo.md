@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 
@@ -20,7 +20,7 @@ categories in a POST array
 
 #### Defined in
 
-main.ts:89647
+main.ts:99365
 
 ***
 
@@ -32,7 +32,7 @@ contains historical ranking and traffic data
 
 #### Defined in
 
-main.ts:89657
+main.ts:99375
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:89655
+main.ts:99373
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:89651
+main.ts:99369
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:89649
+main.ts:99367
 
 ***
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89645
+main.ts:99363
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:89653
+main.ts:99371

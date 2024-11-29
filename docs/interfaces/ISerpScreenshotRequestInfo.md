@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpScreenshotRequestInfo
+[Documentation](../README.md) / ISerpScreenshotRequestInfo
 
 # Interface: ISerpScreenshotRequestInfo
 
@@ -24,7 +24,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 #### Defined in
 
-main.ts:25123
+main.ts:26188
 
 ***
 
@@ -38,7 +38,7 @@ can be specified in the following range: 240-9999
 
 #### Defined in
 
-main.ts:25131
+main.ts:26196
 
 ***
 
@@ -52,7 +52,7 @@ can be specified in the following range: 0.5-3
 
 #### Defined in
 
-main.ts:25135
+main.ts:26200
 
 ***
 
@@ -66,7 +66,7 @@ can be specified in the following range: 240-9999
 
 #### Defined in
 
-main.ts:25127
+main.ts:26192
 
 ***
 
@@ -81,4 +81,4 @@ you will be able to use it within 7 days to request the results of the task at a
 
 #### Defined in
 
-main.ts:25117
+main.ts:26182

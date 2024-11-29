@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpScreenshotResultInfo
+[Documentation](../README.md) / ISerpScreenshotResultInfo
 
 # Interface: ISerpScreenshotResultInfo
 
@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:25253
+main.ts:26318
 
 ***
 
@@ -32,4 +32,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:25251
+main.ts:26316

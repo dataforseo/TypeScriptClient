@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesTasksReadyResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:203502
+main.ts:216668
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:203494
+main.ts:216660
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:203498
+main.ts:216664
 
 ***
 
@@ -79,7 +81,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:203487
+main.ts:216653
 
 ***
 
@@ -96,7 +98,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:203490
+main.ts:216656
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:203492
+main.ts:216658
 
 ***
 
@@ -128,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:203496
+main.ts:216662
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:203496
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:203496
 
 #### Defined in
 
-main.ts:203511
+main.ts:216677
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:203511
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:203511
 
 #### Defined in
 
-main.ts:203533
+main.ts:216699
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:203533
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:203533
 
 #### Defined in
 
-main.ts:203526
+main.ts:216692

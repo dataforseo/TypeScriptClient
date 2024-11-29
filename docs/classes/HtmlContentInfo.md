@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HtmlContentInfo
+[Documentation](../README.md) / HtmlContentInfo
 
 # Class: HtmlContentInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md)
+##### data?
+
+[`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:154363
+main.ts:165990
 
 ## Properties
 
@@ -46,7 +48,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:154342
+main.ts:165969
 
 ***
 
@@ -62,7 +64,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:154344
+main.ts:165971
 
 ***
 
@@ -78,7 +80,7 @@ Dale–Chall Readability Index
 
 #### Defined in
 
-main.ts:154346
+main.ts:165973
 
 ***
 
@@ -95,7 +97,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:154353
+main.ts:165980
 
 ***
 
@@ -111,7 +113,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:154348
+main.ts:165975
 
 ***
 
@@ -128,7 +130,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:154359
+main.ts:165986
 
 ***
 
@@ -145,7 +147,7 @@ plain_text_size to size ratio
 
 #### Defined in
 
-main.ts:154338
+main.ts:165965
 
 ***
 
@@ -161,7 +163,7 @@ total size of the text on the page measured in bytes
 
 #### Defined in
 
-main.ts:154335
+main.ts:165962
 
 ***
 
@@ -177,7 +179,7 @@ number of words on the page
 
 #### Defined in
 
-main.ts:154340
+main.ts:165967
 
 ***
 
@@ -193,7 +195,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:154350
+main.ts:165977
 
 ***
 
@@ -210,7 +212,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:154356
+main.ts:165983
 
 ## Methods
 
@@ -220,7 +222,9 @@ main.ts:154356
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -228,7 +232,7 @@ main.ts:154356
 
 #### Defined in
 
-main.ts:154372
+main.ts:165999
 
 ***
 
@@ -238,7 +242,9 @@ main.ts:154372
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -246,7 +252,7 @@ main.ts:154372
 
 #### Defined in
 
-main.ts:154399
+main.ts:166026
 
 ***
 
@@ -256,7 +262,9 @@ main.ts:154399
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -264,4 +272,4 @@ main.ts:154399
 
 #### Defined in
 
-main.ts:154392
+main.ts:166019

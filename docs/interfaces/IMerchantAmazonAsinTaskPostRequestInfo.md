@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonAsinTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantAmazonAsinTaskPostRequestInfo
 
 # Interface: IMerchantAmazonAsinTaskPostRequestInfo
 
@@ -23,7 +23,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:181459
+main.ts:193564
 
 ***
 
@@ -40,7 +40,7 @@ en_GB
 
 #### Defined in
 
-main.ts:181506
+main.ts:193611
 
 ***
 
@@ -58,7 +58,38 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:181499
+main.ts:193604
+
+***
+
+### load\_more\_local\_reviews?
+
+> `optional` **load\_more\_local\_reviews**: `boolean`
+
+load more local reviews
+optional field
+if set to true, additional local reviews will be loaded in the top_local_reviews array of the Task GET response;
+Note: you will be charged double the price for using this parameter
+
+#### Defined in
+
+main.ts:193623
+
+***
+
+### local\_reviews\_sort?
+
+> `optional` **local\_reviews\_sort**: `string`
+
+sort local reviews
+optional field
+reviews in the top_local_reviews array of the Task GET response can be sorted by most helpful or most recent first;
+possible values: helpful, recent
+default value: helpful
+
+#### Defined in
+
+main.ts:193629
 
 ***
 
@@ -76,7 +107,7 @@ example:
 
 #### Defined in
 
-main.ts:181482
+main.ts:193587
 
 ***
 
@@ -95,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:181491
+main.ts:193596
 
 ***
 
@@ -112,7 +143,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:181474
+main.ts:193579
 
 ***
 
@@ -127,12 +158,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:181545
+main.ts:193663
 
 ***
 
@@ -148,7 +180,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:181535
+main.ts:193652
 
 ***
 
@@ -163,12 +195,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:181529
+main.ts:193646
 
 ***
 
@@ -186,7 +219,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:181467
+main.ts:193572
 
 ***
 
@@ -203,7 +236,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:181513
+main.ts:193618
 
 ***
 
@@ -219,4 +252,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:181519
+main.ts:193635

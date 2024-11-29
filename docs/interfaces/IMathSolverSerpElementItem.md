@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMathSolverSerpElementItem
+[Documentation](../README.md) / IMathSolverSerpElementItem
 
 # Interface: IMathSolverSerpElementItem
 
@@ -24,7 +24,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:34907
+main.ts:36392
 
 ***
 
@@ -36,7 +36,7 @@ link of the element
 
 #### Defined in
 
-main.ts:34909
+main.ts:36394
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -103,7 +103,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34913
+main.ts:36398
 
 ***
 
@@ -116,7 +116,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:34905
+main.ts:36390
 
 ***
 
@@ -128,7 +128,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34902
+main.ts:36387
 
 ***
 
@@ -144,7 +144,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -160,4 +160,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

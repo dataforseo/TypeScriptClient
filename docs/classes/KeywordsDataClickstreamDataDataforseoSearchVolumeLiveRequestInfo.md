@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:135736
+main.ts:147598
 
 ## Properties
 
@@ -44,7 +46,8 @@ UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000
 the keywords will be converted to lowercase format
 Note: certain symbols and characters (e.g., UTF symbols, emojis) are not allowed
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -52,7 +55,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:135697
+main.ts:147557
 
 ***
 
@@ -72,7 +75,7 @@ en
 
 #### Defined in
 
-main.ts:135721
+main.ts:147581
 
 ***
 
@@ -92,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:135715
+main.ts:147575
 
 ***
 
@@ -112,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:135709
+main.ts:147569
 
 ***
 
@@ -132,7 +135,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:135703
+main.ts:147563
 
 ***
 
@@ -152,7 +155,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:135732
+main.ts:147594
 
 ***
 
@@ -162,8 +165,10 @@ main.ts:135732
 
 use clickstream data to provide results
 optional field
-if this parameter set to true, you will get search volume rate based on clickstream data
-otherwise, Bing search volume data will be used to calculate search volume
+if set to true, you will get DataForSEO search volume values based on clickstream data;
+if set to false, Bing search volume data will be used to calculate DataForSEO search volume;
+default value: true;
+Note: some locations may not be available for calculating Bing search volume, in this case search volume will be calculated based on clickstream data even if you set this parameter to false
 
 #### Implementation of
 
@@ -171,7 +176,7 @@ otherwise, Bing search volume data will be used to calculate search volume
 
 #### Defined in
 
-main.ts:135726
+main.ts:147588
 
 ## Methods
 
@@ -181,7 +186,9 @@ main.ts:135726
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -189,7 +196,7 @@ main.ts:135726
 
 #### Defined in
 
-main.ts:135745
+main.ts:147607
 
 ***
 
@@ -199,7 +206,9 @@ main.ts:135745
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -207,7 +216,7 @@ main.ts:135745
 
 #### Defined in
 
-main.ts:135772
+main.ts:147634
 
 ***
 
@@ -217,7 +226,9 @@ main.ts:135772
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -225,4 +236,4 @@ main.ts:135772
 
 #### Defined in
 
-main.ts:135765
+main.ts:147627

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:215907
+main.ts:230858
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:215907
 
 #### Defined in
 
-main.ts:215905
+main.ts:230856
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:215905
 
 #### Defined in
 
-main.ts:215908
+main.ts:230859
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:215908
 
 #### Defined in
 
-main.ts:215906
+main.ts:230857

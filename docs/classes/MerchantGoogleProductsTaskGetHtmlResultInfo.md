@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleProductsTaskGetHtmlResultInfo
+[Documentation](../README.md) / MerchantGoogleProductsTaskGetHtmlResultInfo
 
 # Class: MerchantGoogleProductsTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IMerchantGoogleProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:175359
+main.ts:187088
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:175351
+main.ts:187080
 
 ***
 
@@ -65,7 +67,7 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-main.ts:175355
+main.ts:187084
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:175353
+main.ts:187082
 
 ***
 
@@ -90,7 +92,7 @@ main.ts:175353
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -98,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:175338
+main.ts:187067
 
 ***
 
@@ -114,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:175346
+main.ts:187075
 
 ***
 
@@ -130,7 +132,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:175344
+main.ts:187073
 
 ***
 
@@ -146,7 +148,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:175342
+main.ts:187071
 
 ***
 
@@ -162,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:175340
+main.ts:187069
 
 ## Methods
 
@@ -172,7 +174,9 @@ main.ts:175340
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +184,7 @@ main.ts:175340
 
 #### Defined in
 
-main.ts:175368
+main.ts:187097
 
 ***
 
@@ -190,7 +194,9 @@ main.ts:175368
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +204,7 @@ main.ts:175368
 
 #### Defined in
 
-main.ts:175396
+main.ts:187125
 
 ***
 
@@ -208,7 +214,9 @@ main.ts:175396
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:175396
 
 #### Defined in
 
-main.ts:175389
+main.ts:187118

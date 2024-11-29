@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
@@ -25,7 +25,7 @@ maximum value: 210
 
 #### Defined in
 
-main.ts:212850
+main.ts:227787
 
 ***
 
@@ -36,13 +36,14 @@ main.ts:212850
 keyword
 required field
 the keyword you specify should indicate a business category, company name, or a prominent place;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:212823
+main.ts:227760
 
 ***
 
@@ -58,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:212835
+main.ts:227772
 
 ***
 
@@ -74,7 +75,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:212829
+main.ts:227766
 
 ***
 
@@ -89,12 +90,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:212876
+main.ts:227815
 
 ***
 
@@ -109,12 +111,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:212866
+main.ts:227804
 
 ***
 
@@ -132,7 +135,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:212843
+main.ts:227780
 
 ***
 
@@ -148,4 +151,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:212856
+main.ts:227793

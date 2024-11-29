@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:76038
+main.ts:85742
 
 ## Properties
 
@@ -46,7 +48,7 @@ array of technology groups
 
 #### Defined in
 
-main.ts:76034
+main.ts:85738
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:76034
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:76034
 
 #### Defined in
 
-main.ts:76047
+main.ts:85751
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:76047
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:76047
 
 #### Defined in
 
-main.ts:76068
+main.ts:85772
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:76068
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:76068
 
 #### Defined in
 
-main.ts:76061
+main.ts:85765

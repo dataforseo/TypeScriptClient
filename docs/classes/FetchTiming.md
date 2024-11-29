@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FetchTiming
+[Documentation](../README.md) / FetchTiming
 
 # Class: FetchTiming
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IFetchTiming`](../interfaces/IFetchTiming.md)
+##### data?
+
+[`IFetchTiming`](../interfaces/IFetchTiming.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:156197
+main.ts:167832
 
 ## Properties
 
@@ -46,7 +48,7 @@ indicates how many milliseconds it took to fetch a resource
 
 #### Defined in
 
-main.ts:156187
+main.ts:167822
 
 ***
 
@@ -63,7 +65,7 @@ the amount of time a browser needs to complete downloading a resource
 
 #### Defined in
 
-main.ts:156193
+main.ts:167828
 
 ***
 
@@ -80,7 +82,7 @@ the amount of time a browser needs to start downloading a resource
 
 #### Defined in
 
-main.ts:156190
+main.ts:167825
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:156190
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:156190
 
 #### Defined in
 
-main.ts:156206
+main.ts:167841
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:156206
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:156206
 
 #### Defined in
 
-main.ts:156225
+main.ts:167860
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:156225
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:156225
 
 #### Defined in
 
-main.ts:156218
+main.ts:167853

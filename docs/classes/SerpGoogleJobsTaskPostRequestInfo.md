@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleJobsTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleJobsTaskPostRequestInfo
 
 # Class: SerpGoogleJobsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:50083
+main.ts:53777
 
 ## Properties
 
@@ -53,7 +55,7 @@ month — return job vacancies posted no longer than a month ago
 
 #### Defined in
 
-main.ts:50047
+main.ts:53739
 
 ***
 
@@ -76,7 +78,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:50032
+main.ts:53724
 
 ***
 
@@ -96,7 +98,7 @@ fulltime, partime, contractor, intern
 
 #### Defined in
 
-main.ts:50038
+main.ts:53730
 
 ***
 
@@ -106,12 +108,13 @@ main.ts:50038
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
 Note: the keyword you specify must indicate the job title;
 example: .net developer
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -119,7 +122,7 @@ example: .net developer
 
 #### Defined in
 
-main.ts:49980
+main.ts:53672
 
 ***
 
@@ -140,7 +143,7 @@ en
 
 #### Defined in
 
-main.ts:50023
+main.ts:53715
 
 ***
 
@@ -161,7 +164,7 @@ English
 
 #### Defined in
 
-main.ts:50016
+main.ts:53708
 
 ***
 
@@ -181,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:50001
+main.ts:53693
 
 ***
 
@@ -202,7 +205,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:49995
+main.ts:53687
 
 ***
 
@@ -224,7 +227,7 @@ minimal value: > 0
 
 #### Defined in
 
-main.ts:50009
+main.ts:53701
 
 ***
 
@@ -239,8 +242,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -248,7 +252,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:50079
+main.ts:53773
 
 ***
 
@@ -268,7 +272,7 @@ regular, advanced, html
 
 #### Defined in
 
-main.ts:50069
+main.ts:53762
 
 ***
 
@@ -283,8 +287,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -292,7 +297,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:50063
+main.ts:53756
 
 ***
 
@@ -314,7 +319,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:49988
+main.ts:53680
 
 ***
 
@@ -334,7 +339,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:50053
+main.ts:53745
 
 ## Methods
 
@@ -344,7 +349,9 @@ main.ts:50053
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -352,7 +359,7 @@ main.ts:50053
 
 #### Defined in
 
-main.ts:50092
+main.ts:53786
 
 ***
 
@@ -362,7 +369,9 @@ main.ts:50092
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -370,7 +379,7 @@ main.ts:50092
 
 #### Defined in
 
-main.ts:50126
+main.ts:53820
 
 ***
 
@@ -380,7 +389,9 @@ main.ts:50126
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -388,4 +399,4 @@ main.ts:50126
 
 #### Defined in
 
-main.ts:50119
+main.ts:53813

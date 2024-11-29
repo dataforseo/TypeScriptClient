@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:123123
+main.ts:133369
 
 ## Properties
 
@@ -49,7 +51,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-main.ts:123059
+main.ts:133303
 
 ***
 
@@ -72,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:123068
+main.ts:133312
 
 ***
 
@@ -93,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:123075
+main.ts:133319
 
 ***
 
@@ -115,7 +117,7 @@ default value:
 
 #### Defined in
 
-main.ts:123093
+main.ts:133337
 
 ***
 
@@ -126,7 +128,8 @@ main.ts:123093
 keywords
 required field
 The maximum number of keywords you can specify: 5
-Note: comma symbols (,) in the specified keywords will be unset and ignored
+Note: the comma characters (,) in the specified keywords will be unset and ignored
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -134,7 +137,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Defined in
 
-main.ts:123020
+main.ts:133264
 
 ***
 
@@ -156,7 +159,7 @@ en
 
 #### Defined in
 
-main.ts:123052
+main.ts:133296
 
 ***
 
@@ -178,7 +181,7 @@ English
 
 #### Defined in
 
-main.ts:123044
+main.ts:133288
 
 ***
 
@@ -200,7 +203,7 @@ example:
 
 #### Defined in
 
-main.ts:123036
+main.ts:133280
 
 ***
 
@@ -222,7 +225,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:123028
+main.ts:133272
 
 ***
 
@@ -237,8 +240,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -246,7 +250,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:123113
+main.ts:133359
 
 ***
 
@@ -261,8 +265,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -270,7 +275,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:123103
+main.ts:133348
 
 ***
 
@@ -290,7 +295,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:123119
+main.ts:133365
 
 ***
 
@@ -314,7 +319,7 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-main.ts:123085
+main.ts:133329
 
 ***
 
@@ -330,7 +335,7 @@ type of element
 
 #### Defined in
 
-main.ts:123054
+main.ts:133298
 
 ## Methods
 
@@ -340,7 +345,9 @@ main.ts:123054
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -348,7 +355,7 @@ main.ts:123054
 
 #### Defined in
 
-main.ts:123132
+main.ts:133378
 
 ***
 
@@ -358,7 +365,9 @@ main.ts:123132
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -366,7 +375,7 @@ main.ts:123132
 
 #### Defined in
 
-main.ts:123170
+main.ts:133416
 
 ***
 
@@ -376,7 +385,9 @@ main.ts:123170
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -384,4 +395,4 @@ main.ts:123170
 
 #### Defined in
 
-main.ts:123163
+main.ts:133409

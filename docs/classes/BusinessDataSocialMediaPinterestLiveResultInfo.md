@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataSocialMediaPinterestLiveResultInfo
+[Documentation](../README.md) / BusinessDataSocialMediaPinterestLiveResultInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:214718
+main.ts:229661
 
 ## Properties
 
@@ -47,7 +49,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:214710
+main.ts:229653
 
 ***
 
@@ -65,7 +67,7 @@ this field shows the number of content saves made from the related page_url usin
 
 #### Defined in
 
-main.ts:214714
+main.ts:229657
 
 ***
 
@@ -81,7 +83,7 @@ type of element
 
 #### Defined in
 
-main.ts:214707
+main.ts:229650
 
 ## Methods
 
@@ -91,7 +93,9 @@ main.ts:214707
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +103,7 @@ main.ts:214707
 
 #### Defined in
 
-main.ts:214727
+main.ts:229670
 
 ***
 
@@ -109,7 +113,9 @@ main.ts:214727
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -117,7 +123,7 @@ main.ts:214727
 
 #### Defined in
 
-main.ts:214746
+main.ts:229689
 
 ***
 
@@ -127,7 +133,9 @@ main.ts:214746
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -135,4 +143,4 @@ main.ts:214746
 
 #### Defined in
 
-main.ts:214739
+main.ts:229682

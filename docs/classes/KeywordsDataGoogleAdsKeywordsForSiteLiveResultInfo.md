@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:119657
+main.ts:129389
 
 ## Properties
 
@@ -50,7 +52,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:119625
+main.ts:129357
 
 ***
 
@@ -71,7 +73,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:119632
+main.ts:129364
 
 ***
 
@@ -88,7 +90,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:119647
+main.ts:129379
 
 ***
 
@@ -106,7 +108,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:119644
+main.ts:129376
 
 ***
 
@@ -122,7 +124,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:119608
+main.ts:129340
 
 ***
 
@@ -138,7 +140,7 @@ the annotations for the keyword
 
 #### Defined in
 
-main.ts:119653
+main.ts:129385
 
 ***
 
@@ -155,7 +157,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:119614
+main.ts:129346
 
 ***
 
@@ -172,7 +174,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:119611
+main.ts:129343
 
 ***
 
@@ -190,7 +192,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:119640
+main.ts:129372
 
 ***
 
@@ -208,7 +210,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:119651
+main.ts:129383
 
 ***
 
@@ -227,7 +229,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:119619
+main.ts:129351
 
 ***
 
@@ -245,7 +247,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:119636
+main.ts:129368
 
 ## Methods
 
@@ -255,7 +257,9 @@ main.ts:119636
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -263,7 +267,7 @@ main.ts:119636
 
 #### Defined in
 
-main.ts:119666
+main.ts:129398
 
 ***
 
@@ -273,7 +277,9 @@ main.ts:119666
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -281,7 +287,7 @@ main.ts:119666
 
 #### Defined in
 
-main.ts:119698
+main.ts:129430
 
 ***
 
@@ -291,7 +297,9 @@ main.ts:119698
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -299,4 +307,4 @@ main.ts:119698
 
 #### Defined in
 
-main.ts:119691
+main.ts:129423

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMoneyData
+[Documentation](../README.md) / AppendixMoneyData
 
 # Class: AppendixMoneyData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md)
+##### data?
+
+[`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:220857
+main.ts:236020
 
 ## Properties
 
@@ -46,7 +48,7 @@ amount of money left in your account
 
 #### Defined in
 
-main.ts:220849
+main.ts:236012
 
 ***
 
@@ -62,7 +64,7 @@ cost limits
 
 #### Defined in
 
-main.ts:220851
+main.ts:236014
 
 ***
 
@@ -78,7 +80,7 @@ statistics of your spending
 
 #### Defined in
 
-main.ts:220853
+main.ts:236016
 
 ***
 
@@ -94,7 +96,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:220847
+main.ts:236010
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:220847
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:220847
 
 #### Defined in
 
-main.ts:220866
+main.ts:236029
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:220866
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:220866
 
 #### Defined in
 
-main.ts:220886
+main.ts:236049
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:220886
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:220886
 
 #### Defined in
 
-main.ts:220879
+main.ts:236042

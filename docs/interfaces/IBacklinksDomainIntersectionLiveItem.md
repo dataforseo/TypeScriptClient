@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksDomainIntersectionLiveItem
+[Documentation](../README.md) / IBacklinksDomainIntersectionLiveItem
 
 # Interface: IBacklinksDomainIntersectionLiveItem
 
@@ -25,7 +25,7 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 #### Defined in
 
-main.ts:146778
+main.ts:157983
 
 ***
 
@@ -37,4 +37,4 @@ contains the domain intersections summary
 
 #### Defined in
 
-main.ts:146780
+main.ts:157985

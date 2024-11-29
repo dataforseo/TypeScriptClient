@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TwitterElement
+[Documentation](../README.md) / TwitterElement
 
 # Class: TwitterElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITwitterElement`](../interfaces/ITwitterElement.md)
+##### data?
+
+[`ITwitterElement`](../interfaces/ITwitterElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:30719
+main.ts:32278
 
 ## Properties
 
@@ -46,7 +48,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:30708
+main.ts:32267
 
 ***
 
@@ -65,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:30713
+main.ts:32272
 
 ***
 
@@ -81,7 +83,7 @@ tweet message
 
 #### Defined in
 
-main.ts:30706
+main.ts:32265
 
 ***
 
@@ -97,7 +99,7 @@ type of element
 
 #### Defined in
 
-main.ts:30704
+main.ts:32263
 
 ***
 
@@ -113,7 +115,7 @@ URL
 
 #### Defined in
 
-main.ts:30715
+main.ts:32274
 
 ## Methods
 
@@ -123,7 +125,9 @@ main.ts:30715
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +135,7 @@ main.ts:30715
 
 #### Defined in
 
-main.ts:30728
+main.ts:32287
 
 ***
 
@@ -141,7 +145,9 @@ main.ts:30728
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -149,7 +155,7 @@ main.ts:30728
 
 #### Defined in
 
-main.ts:30749
+main.ts:32308
 
 ***
 
@@ -159,7 +165,9 @@ main.ts:30749
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -167,4 +175,4 @@ main.ts:30749
 
 #### Defined in
 
-main.ts:30742
+main.ts:32301

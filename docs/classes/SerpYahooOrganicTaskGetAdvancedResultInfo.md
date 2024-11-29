@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooOrganicTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpYahooOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpYahooOrganicTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYahooOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpYahooOrganicTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpYahooOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpYahooOrganicTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:67760
+main.ts:76359
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:67736
+main.ts:76332
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:67741
+main.ts:76337
 
 ***
 
@@ -85,7 +87,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
 
 #### Defined in
 
-main.ts:67749
+main.ts:76348
 
 ***
 
@@ -102,7 +104,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:67756
+main.ts:76355
 
 ***
 
@@ -118,7 +120,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:67753
+main.ts:76352
 
 ***
 
@@ -135,7 +137,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:67725
+main.ts:76321
 
 ***
 
@@ -151,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:67733
+main.ts:76329
 
 ***
 
@@ -167,7 +169,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:67731
+main.ts:76327
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYahooOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpYahooOrganicTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpYahooOrganicTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:76343
 
 ***
 
@@ -183,7 +202,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:67729
+main.ts:76325
 
 ***
 
@@ -199,7 +218,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:67751
+main.ts:76350
 
 ***
 
@@ -216,7 +235,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:67744
+main.ts:76340
 
 ***
 
@@ -232,7 +251,7 @@ type of element
 
 #### Defined in
 
-main.ts:67727
+main.ts:76323
 
 ## Methods
 
@@ -242,7 +261,9 @@ main.ts:67727
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +271,7 @@ main.ts:67727
 
 #### Defined in
 
-main.ts:67769
+main.ts:76368
 
 ***
 
@@ -260,7 +281,9 @@ main.ts:67769
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +291,7 @@ main.ts:67769
 
 #### Defined in
 
-main.ts:67805
+main.ts:76405
 
 ***
 
@@ -278,7 +301,9 @@ main.ts:67805
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +311,4 @@ main.ts:67805
 
 #### Defined in
 
-main.ts:67798
+main.ts:76398

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppElement
+[Documentation](../README.md) / AppElement
 
 # Class: AppElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppElement`](../interfaces/IAppElement.md)
+##### data?
+
+[`IAppElement`](../interfaces/IAppElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:31204
+main.ts:32763
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:31196
+main.ts:32755
 
 ***
 
@@ -62,7 +64,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:31200
+main.ts:32759
 
 ***
 
@@ -78,7 +80,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31194
+main.ts:32753
 
 ***
 
@@ -94,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:31192
+main.ts:32751
 
 ***
 
@@ -110,7 +112,7 @@ URL
 
 #### Defined in
 
-main.ts:31198
+main.ts:32757
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:31198
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:31198
 
 #### Defined in
 
-main.ts:31213
+main.ts:32772
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:31213
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:31213
 
 #### Defined in
 
-main.ts:31234
+main.ts:32793
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:31234
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:31234
 
 #### Defined in
 
-main.ts:31227
+main.ts:32786

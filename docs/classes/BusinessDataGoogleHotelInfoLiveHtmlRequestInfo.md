@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:207672
+main.ts:221027
 
 ## Properties
 
@@ -50,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:207654
+main.ts:221009
 
 ***
 
@@ -71,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:207636
+main.ts:220991
 
 ***
 
@@ -92,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:207643
+main.ts:220998
 
 ***
 
@@ -114,7 +116,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:207662
+main.ts:221017
 
 ***
 
@@ -133,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:207648
+main.ts:221003
 
 ***
 
@@ -154,7 +156,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:207584
+main.ts:220939
 
 ***
 
@@ -175,7 +177,7 @@ en
 
 #### Defined in
 
-main.ts:207629
+main.ts:220984
 
 ***
 
@@ -196,7 +198,7 @@ English
 
 #### Defined in
 
-main.ts:207622
+main.ts:220977
 
 ***
 
@@ -217,7 +219,7 @@ example:
 
 #### Defined in
 
-main.ts:207606
+main.ts:220961
 
 ***
 
@@ -240,7 +242,7 @@ example:
 
 #### Defined in
 
-main.ts:207615
+main.ts:220970
 
 ***
 
@@ -261,7 +263,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:207599
+main.ts:220954
 
 ***
 
@@ -283,7 +285,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:207592
+main.ts:220947
 
 ***
 
@@ -303,7 +305,7 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-main.ts:207668
+main.ts:221023
 
 ## Methods
 
@@ -313,7 +315,9 @@ main.ts:207668
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -321,7 +325,7 @@ main.ts:207668
 
 #### Defined in
 
-main.ts:207681
+main.ts:221036
 
 ***
 
@@ -331,7 +335,9 @@ main.ts:207681
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -339,7 +345,7 @@ main.ts:207681
 
 #### Defined in
 
-main.ts:207714
+main.ts:221069
 
 ***
 
@@ -349,7 +355,9 @@ main.ts:207714
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -357,4 +365,4 @@ main.ts:207714
 
 #### Defined in
 
-main.ts:207707
+main.ts:221062

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPagePagesByResourceRequestInfo
+[Documentation](../README.md) / OnPagePagesByResourceRequestInfo
 
 # Class: OnPagePagesByResourceRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md)
+##### data?
+
+[`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:155563
+main.ts:167198
 
 ## Properties
 
@@ -58,7 +60,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:155539
+main.ts:167174
 
 ***
 
@@ -78,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:155509
+main.ts:167144
 
 ***
 
@@ -97,7 +99,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:155520
+main.ts:167155
 
 ***
 
@@ -116,7 +118,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:155525
+main.ts:167160
 
 ***
 
@@ -144,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:155553
+main.ts:167188
 
 ***
 
@@ -164,7 +166,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:155559
+main.ts:167194
 
 ***
 
@@ -184,7 +186,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Defined in
 
-main.ts:155515
+main.ts:167150
 
 ## Methods
 
@@ -194,7 +196,9 @@ main.ts:155515
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -202,7 +206,7 @@ main.ts:155515
 
 #### Defined in
 
-main.ts:155572
+main.ts:167207
 
 ***
 
@@ -212,7 +216,9 @@ main.ts:155572
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -220,7 +226,7 @@ main.ts:155572
 
 #### Defined in
 
-main.ts:155603
+main.ts:167238
 
 ***
 
@@ -230,7 +236,9 @@ main.ts:155603
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -238,4 +246,4 @@ main.ts:155603
 
 #### Defined in
 
-main.ts:155596
+main.ts:167231

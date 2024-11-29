@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:87102
+main.ts:96820
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:87098
+main.ts:96816
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:87096
+main.ts:96814
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:87096
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:87096
 
 #### Defined in
 
-main.ts:87111
+main.ts:96829
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:87111
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:87111
 
 #### Defined in
 
-main.ts:87129
+main.ts:96847
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:87129
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:87129
 
 #### Defined in
 
-main.ts:87122
+main.ts:96840

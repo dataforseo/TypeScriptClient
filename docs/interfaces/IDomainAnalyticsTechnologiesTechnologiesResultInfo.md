@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologiesResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
@@ -20,4 +20,4 @@ array of technology groups
 
 #### Defined in
 
-main.ts:76085
+main.ts:85789

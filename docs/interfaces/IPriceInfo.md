@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPriceInfo
+[Documentation](../README.md) / IPriceInfo
 
 # Interface: IPriceInfo
 
@@ -21,7 +21,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:23104
+main.ts:24002
 
 ***
 
@@ -34,7 +34,7 @@ indicates the current price of the product or service featured in the result
 
 #### Defined in
 
-main.ts:23095
+main.ts:23993
 
 ***
 
@@ -47,7 +47,7 @@ raw price string as provided in the result
 
 #### Defined in
 
-main.ts:23110
+main.ts:24008
 
 ***
 
@@ -60,7 +60,7 @@ indicates whether a price is provided in a range
 
 #### Defined in
 
-main.ts:23107
+main.ts:24005
 
 ***
 
@@ -73,7 +73,7 @@ the maximum price of the product or service as indicated in the result
 
 #### Defined in
 
-main.ts:23101
+main.ts:23999
 
 ***
 
@@ -86,4 +86,4 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Defined in
 
-main.ts:23098
+main.ts:23996

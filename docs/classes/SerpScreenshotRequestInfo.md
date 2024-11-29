@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpScreenshotRequestInfo
+[Documentation](../README.md) / SerpScreenshotRequestInfo
 
 # Class: SerpScreenshotRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md)
+##### data?
+
+[`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:25067
+main.ts:26132
 
 ## Properties
 
@@ -50,7 +52,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 #### Defined in
 
-main.ts:25051
+main.ts:26116
 
 ***
 
@@ -68,7 +70,7 @@ can be specified in the following range: 240-9999
 
 #### Defined in
 
-main.ts:25059
+main.ts:26124
 
 ***
 
@@ -86,7 +88,7 @@ can be specified in the following range: 0.5-3
 
 #### Defined in
 
-main.ts:25063
+main.ts:26128
 
 ***
 
@@ -104,7 +106,7 @@ can be specified in the following range: 240-9999
 
 #### Defined in
 
-main.ts:25055
+main.ts:26120
 
 ***
 
@@ -123,7 +125,7 @@ you will be able to use it within 7 days to request the results of the task at a
 
 #### Defined in
 
-main.ts:25045
+main.ts:26110
 
 ## Methods
 
@@ -133,7 +135,9 @@ main.ts:25045
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -141,7 +145,7 @@ main.ts:25045
 
 #### Defined in
 
-main.ts:25076
+main.ts:26141
 
 ***
 
@@ -151,7 +155,9 @@ main.ts:25076
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -159,7 +165,7 @@ main.ts:25076
 
 #### Defined in
 
-main.ts:25097
+main.ts:26162
 
 ***
 
@@ -169,7 +175,9 @@ main.ts:25097
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -177,4 +185,4 @@ main.ts:25097
 
 #### Defined in
 
-main.ts:25090
+main.ts:26155

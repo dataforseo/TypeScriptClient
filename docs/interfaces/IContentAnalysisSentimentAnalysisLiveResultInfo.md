@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
+[Documentation](../README.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveResultInfo
 
@@ -22,7 +22,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:167732
+main.ts:179321
 
 ***
 
@@ -36,7 +36,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Defined in
 
-main.ts:167736
+main.ts:179325
 
 ***
 
@@ -48,4 +48,4 @@ type of element
 
 #### Defined in
 
-main.ts:167728
+main.ts:179317

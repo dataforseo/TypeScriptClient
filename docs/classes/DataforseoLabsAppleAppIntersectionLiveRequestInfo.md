@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleAppIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAppleAppIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsAppleAppIntersectionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:115557
+main.ts:124729
 
 ## Properties
 
@@ -63,7 +65,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 #### Defined in
 
-main.ts:115473
+main.ts:124645
 
 ***
 
@@ -88,7 +90,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:115520
+main.ts:124692
 
 ***
 
@@ -111,7 +113,7 @@ en
 
 #### Defined in
 
-main.ts:115509
+main.ts:124681
 
 ***
 
@@ -134,7 +136,7 @@ English
 
 #### Defined in
 
-main.ts:115500
+main.ts:124672
 
 ***
 
@@ -153,7 +155,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:115542
+main.ts:124714
 
 ***
 
@@ -176,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:115491
+main.ts:124663
 
 ***
 
@@ -199,7 +201,7 @@ United States
 
 #### Defined in
 
-main.ts:115482
+main.ts:124654
 
 ***
 
@@ -218,7 +220,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:115547
+main.ts:124719
 
 ***
 
@@ -249,7 +251,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:115537
+main.ts:124709
 
 ***
 
@@ -269,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:115553
+main.ts:124725
 
 ## Methods
 
@@ -279,7 +281,9 @@ main.ts:115553
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -287,7 +291,7 @@ main.ts:115553
 
 #### Defined in
 
-main.ts:115566
+main.ts:124738
 
 ***
 
@@ -297,7 +301,9 @@ main.ts:115566
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -305,7 +311,7 @@ main.ts:115566
 
 #### Defined in
 
-main.ts:115606
+main.ts:124778
 
 ***
 
@@ -315,7 +321,9 @@ main.ts:115606
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -323,4 +331,4 @@ main.ts:115606
 
 #### Defined in
 
-main.ts:115599
+main.ts:124771

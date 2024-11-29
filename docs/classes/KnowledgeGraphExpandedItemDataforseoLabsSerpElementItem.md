@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:97869
+main.ts:107687
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:97869
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -62,7 +64,7 @@ main.ts:20747
 
 google defined data attribute ID
 example:
-kc:/local:place qa
+action:listen_artist
 
 #### Implementation of
 
@@ -70,7 +72,7 @@ kc:/local:place qa
 
 #### Defined in
 
-main.ts:97863
+main.ts:107681
 
 ***
 
@@ -86,7 +88,7 @@ expanded element
 
 #### Defined in
 
-main.ts:97865
+main.ts:107683
 
 ***
 
@@ -108,7 +110,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -129,7 +131,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -150,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -166,7 +168,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:97859
+main.ts:107677
 
 ***
 
@@ -186,7 +188,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -206,7 +208,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -216,7 +218,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -228,7 +232,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:97874
+main.ts:107692
 
 ***
 
@@ -238,7 +242,9 @@ main.ts:97874
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +256,7 @@ main.ts:97874
 
 #### Defined in
 
-main.ts:97898
+main.ts:107716
 
 ***
 
@@ -260,7 +266,9 @@ main.ts:97898
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -272,4 +280,4 @@ main.ts:97898
 
 #### Defined in
 
-main.ts:97891
+main.ts:107709

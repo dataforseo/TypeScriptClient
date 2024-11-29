@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInfoElementMerchantSerpElementItem
+[Documentation](../README.md) / IProductInfoElementMerchantSerpElementItem
 
 # Interface: IProductInfoElementMerchantSerpElementItem
 
@@ -24,7 +24,7 @@ description of the product
 
 #### Defined in
 
-main.ts:178915
+main.ts:190656
 
 ***
 
@@ -37,7 +37,7 @@ contains snippets with the description of product features
 
 #### Defined in
 
-main.ts:178924
+main.ts:190665
 
 ***
 
@@ -50,7 +50,7 @@ contains urls to product images
 
 #### Defined in
 
-main.ts:178921
+main.ts:190662
 
 ***
 
@@ -68,7 +68,7 @@ left, right
 
 #### Defined in
 
-main.ts:21135
+main.ts:21813
 
 ***
 
@@ -81,7 +81,7 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178911
+main.ts:190652
 
 ***
 
@@ -98,7 +98,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21131
+main.ts:21809
 
 ***
 
@@ -115,7 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21128
+main.ts:21806
 
 ***
 
@@ -128,7 +128,7 @@ the popularity rate based on reviews
 
 #### Defined in
 
-main.ts:178927
+main.ts:190668
 
 ***
 
@@ -141,7 +141,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178930
+main.ts:190671
 
 ***
 
@@ -154,7 +154,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178933
+main.ts:190674
 
 ***
 
@@ -166,7 +166,7 @@ title of the product
 
 #### Defined in
 
-main.ts:178913
+main.ts:190654
 
 ***
 
@@ -182,7 +182,7 @@ type of element
 
 #### Defined in
 
-main.ts:21125
+main.ts:21803
 
 ***
 
@@ -195,7 +195,7 @@ url of the product on Google Shopping
 
 #### Defined in
 
-main.ts:178918
+main.ts:190659
 
 ***
 
@@ -208,4 +208,4 @@ contains brief information about different product variations
 
 #### Defined in
 
-main.ts:178936
+main.ts:190677

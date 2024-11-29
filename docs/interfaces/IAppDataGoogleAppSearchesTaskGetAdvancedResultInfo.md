@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
 # Interface: IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:187718
+main.ts:200054
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:187723
+main.ts:200059
 
 ***
 
@@ -48,7 +48,7 @@ found apps
 
 #### Defined in
 
-main.ts:187729
+main.ts:200065
 
 ***
 
@@ -60,7 +60,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:187727
+main.ts:200063
 
 ***
 
@@ -72,7 +72,7 @@ keyword received in a POST request
 
 #### Defined in
 
-main.ts:187709
+main.ts:200045
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:187715
+main.ts:200051
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:187713
+main.ts:200049
 
 ***
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:187711
+main.ts:200047
 
 ***
 
@@ -120,4 +120,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:187725
+main.ts:200061

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RatingInfo
+[Documentation](../README.md) / RatingInfo
 
 # Class: RatingInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRatingInfo`](../interfaces/IRatingInfo.md)
+##### data?
+
+[`IRatingInfo`](../interfaces/IRatingInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23128
+main.ts:24026
 
 ## Properties
 
@@ -46,7 +48,7 @@ the maximum value for a rating_type
 
 #### Defined in
 
-main.ts:23124
+main.ts:24022
 
 ***
 
@@ -63,7 +65,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:23118
+main.ts:24016
 
 ***
 
@@ -79,7 +81,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:23120
+main.ts:24018
 
 ***
 
@@ -95,7 +97,7 @@ the amount of feedback
 
 #### Defined in
 
-main.ts:23122
+main.ts:24020
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:23122
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:23122
 
 #### Defined in
 
-main.ts:23137
+main.ts:24035
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:23137
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:23137
 
 #### Defined in
 
-main.ts:23157
+main.ts:24055
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:23157
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:23157
 
 #### Defined in
 
-main.ts:23150
+main.ts:24048

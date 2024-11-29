@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseYoutubeSerpElementItem
+[Documentation](../README.md) / BaseYoutubeSerpElementItem
 
 # Class: BaseYoutubeSerpElementItem
 
@@ -24,7 +24,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseYoutubeSerpElementItem`](../interfaces/IBaseYoutubeSerpElementItem.md)
+##### data?
+
+[`IBaseYoutubeSerpElementItem`](../interfaces/IBaseYoutubeSerpElementItem.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@
 
 #### Defined in
 
-main.ts:62290
+main.ts:70472
 
 ## Properties
 
@@ -42,7 +44,7 @@ main.ts:62290
 
 #### Defined in
 
-main.ts:62288
+main.ts:70470
 
 ***
 
@@ -59,7 +61,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62286
+main.ts:70468
 
 ***
 
@@ -77,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62283
+main.ts:70465
 
 ***
 
@@ -93,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:62279
+main.ts:70461
 
 ## Methods
 
@@ -103,7 +105,9 @@ main.ts:62279
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -111,7 +115,7 @@ main.ts:62279
 
 #### Defined in
 
-main.ts:62300
+main.ts:70482
 
 ***
 
@@ -121,7 +125,9 @@ main.ts:62300
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +135,7 @@ main.ts:62300
 
 #### Defined in
 
-main.ts:62330
+main.ts:70512
 
 ***
 
@@ -139,7 +145,9 @@ main.ts:62330
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -147,4 +155,4 @@ main.ts:62330
 
 #### Defined in
 
-main.ts:62308
+main.ts:70490

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IShoppingElement
+[Documentation](../README.md) / IShoppingElement
 
 # Interface: IShoppingElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:31897
+main.ts:33450
 
 ***
 
@@ -35,7 +35,7 @@ by Google
 
 #### Defined in
 
-main.ts:31902
+main.ts:33455
 
 ***
 
@@ -48,7 +48,7 @@ URL of the page on the marketplace website where the product is hosted
 
 #### Defined in
 
-main.ts:31905
+main.ts:33458
 
 ***
 
@@ -60,7 +60,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:31892
+main.ts:33445
 
 ***
 
@@ -73,7 +73,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:31895
+main.ts:33448
 
 ***
 
@@ -85,7 +85,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31890
+main.ts:33443
 
 ***
 
@@ -97,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:31888
+main.ts:33441
 
 ***
 
@@ -109,4 +109,4 @@ URL
 
 #### Defined in
 
-main.ts:31907
+main.ts:33460

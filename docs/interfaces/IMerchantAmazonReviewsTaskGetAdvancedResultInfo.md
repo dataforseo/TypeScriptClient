@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ asin received in a POST array
 
 #### Defined in
 
-main.ts:185329
+main.ts:197427
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:185340
+main.ts:197438
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:185345
+main.ts:197443
 
 ***
 
@@ -60,7 +60,7 @@ product image data
 
 #### Defined in
 
-main.ts:185353
+main.ts:197451
 
 ***
 
@@ -75,7 +75,7 @@ amazon_review_item
 
 #### Defined in
 
-main.ts:185363
+main.ts:197461
 
 ***
 
@@ -88,7 +88,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185369
+main.ts:197467
 
 ***
 
@@ -101,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185366
+main.ts:197464
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185337
+main.ts:197435
 
 ***
 
@@ -125,7 +125,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185335
+main.ts:197433
 
 ***
 
@@ -138,7 +138,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:185356
+main.ts:197454
 
 ***
 
@@ -150,7 +150,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:185358
+main.ts:197456
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185333
+main.ts:197431
 
 ***
 
@@ -175,7 +175,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:185348
+main.ts:197446
 
 ***
 
@@ -188,7 +188,7 @@ the title of the product for which the reviews are collected
 
 #### Defined in
 
-main.ts:185351
+main.ts:197449
 
 ***
 
@@ -200,4 +200,4 @@ type of element
 
 #### Defined in
 
-main.ts:185331
+main.ts:197429

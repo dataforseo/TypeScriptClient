@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:76315
+main.ts:86020
 
 ## Properties
 
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:76214
+main.ts:85918
 
 ***
 
@@ -79,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:76249
+main.ts:85954
 
 ***
 
@@ -100,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:76207
+main.ts:85911
 
 ***
 
@@ -121,7 +123,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76279
+main.ts:85984
 
 ***
 
@@ -142,7 +144,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76272
+main.ts:85977
 
 ***
 
@@ -164,7 +166,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76294
+main.ts:85999
 
 ***
 
@@ -185,7 +187,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76286
+main.ts:85991
 
 ***
 
@@ -199,6 +201,7 @@ at least one field (group, category, keyword, technology) must be set
 UTF-8 encoding
 example:
 "seo"
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -206,7 +209,7 @@ example:
 
 #### Defined in
 
-main.ts:76228
+main.ts:85933
 
 ***
 
@@ -225,7 +228,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76299
+main.ts:86004
 
 ***
 
@@ -246,7 +249,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:76235
+main.ts:85940
 
 ***
 
@@ -266,7 +269,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Defined in
 
-main.ts:76305
+main.ts:86010
 
 ***
 
@@ -296,7 +299,7 @@ default value:
 
 #### Defined in
 
-main.ts:76265
+main.ts:85970
 
 ***
 
@@ -316,7 +319,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:76311
+main.ts:86016
 
 ***
 
@@ -337,7 +340,7 @@ example:
 
 #### Defined in
 
-main.ts:76221
+main.ts:85925
 
 ## Methods
 
@@ -347,7 +350,9 @@ main.ts:76221
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -355,7 +360,7 @@ main.ts:76221
 
 #### Defined in
 
-main.ts:76324
+main.ts:86029
 
 ***
 
@@ -365,7 +370,9 @@ main.ts:76324
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -373,7 +380,7 @@ main.ts:76324
 
 #### Defined in
 
-main.ts:76362
+main.ts:86067
 
 ***
 
@@ -383,7 +390,9 @@ main.ts:76362
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -391,4 +400,4 @@ main.ts:76362
 
 #### Defined in
 
-main.ts:76355
+main.ts:86060

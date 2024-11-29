@@ -1,0 +1,477 @@
+[**Documentation**](../README.md)
+
+***
+
+[Documentation](../README.md) / SerpBingOrganicLiveAdvancedRequestInfo
+
+# Class: SerpBingOrganicLiveAdvancedRequestInfo
+
+## Implements
+
+- [`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md)
+
+## Indexable
+
+ \[`key`: `string`\]: `any`
+
+## Constructors
+
+### new SerpBingOrganicLiveAdvancedRequestInfo()
+
+> **new SerpBingOrganicLiveAdvancedRequestInfo**(`data`?): [`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)
+
+#### Parameters
+
+##### data?
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md)
+
+#### Returns
+
+[`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)
+
+#### Defined in
+
+main.ts:65691
+
+## Properties
+
+### browser\_screen\_height?
+
+> `optional` **browser\_screen\_height**: `number`
+
+browser screen height
+optional field
+you can set a custom browser screen height to calculate pixel rankings for a particular device;
+by default, the parameter is set to:
+1080 for desktop;
+640 for mobile on android;
+812 for mobile on iOS;
+Note: to use this parameter, set calculate_rectangles to true
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`browser_screen_height`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#browser_screen_height)
+
+#### Defined in
+
+main.ts:65668
+
+***
+
+### browser\_screen\_resolution\_ratio?
+
+> `optional` **browser\_screen\_resolution\_ratio**: `number`
+
+browser screen resolution ratio
+optional field
+you can set a custom browser screen resolution ratio to calculate pixel rankings for a particular device;
+by default, the parameter is set to:
+1 for desktop;
+3 for mobile on android;
+3 for mobile on iOS;
+Note: to use this parameter, set calculate_rectangles to true
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`browser_screen_resolution_ratio`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#browser_screen_resolution_ratio)
+
+#### Defined in
+
+main.ts:65677
+
+***
+
+### browser\_screen\_width?
+
+> `optional` **browser\_screen\_width**: `number`
+
+browser screen width
+optional field
+you can set a custom browser screen width to calculate pixel rankings for a particular device;
+by default, the parameter is set to:
+1920 for desktop;
+360 for mobile on android;
+375 for mobile on iOS;
+Note: to use this parameter, set calculate_rectangles to true
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`browser_screen_width`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#browser_screen_width)
+
+#### Defined in
+
+main.ts:65659
+
+***
+
+### calculate\_rectangles?
+
+> `optional` **calculate\_rectangles**: `boolean`
+
+calcualte pixel rankings for SERP elements in advanced results
+optional field
+pixel ranking refers to the distance between the result snippet and top left corner of the screen;
+Visit Help Center to learn more>>
+by default, the parameter is set to false
+Note: if set to true, the charge per task will be multiplied by 2
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`calculate_rectangles`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#calculate_rectangles)
+
+#### Defined in
+
+main.ts:65650
+
+***
+
+### depth?
+
+> `optional` **depth**: `number`
+
+parsing depth
+optional field
+number of results in SERP
+default value: 100
+max value: 700
+Note: your account will be billed per each SERP containing up to 100 results;
+thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
+if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#depth)
+
+#### Defined in
+
+main.ts:65636
+
+***
+
+### device?
+
+> `optional` **device**: `string`
+
+device type
+optional field
+can take the values:desktop, mobile
+default value: desktop
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#device)
+
+#### Defined in
+
+main.ts:65620
+
+***
+
+### keyword?
+
+> `optional` **keyword**: `string`
+
+keyword
+required field
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#keyword)
+
+#### Defined in
+
+main.ts:65571
+
+***
+
+### language\_code?
+
+> `optional` **language\_code**: `string`
+
+search engine language code
+required field if you don’t specify language_name
+if you use this field, you don’t need to specify language_name
+you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/bing/languages
+example:
+en
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#language_code)
+
+#### Defined in
+
+main.ts:65615
+
+***
+
+### language\_name?
+
+> `optional` **language\_name**: `string`
+
+full name of search engine language
+required field if you don’t specify language_code
+if you use this field, you don’t need to specify language_code
+you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/bing/languages
+example:
+English
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#language_name)
+
+#### Defined in
+
+main.ts:65608
+
+***
+
+### location\_code?
+
+> `optional` **location\_code**: `number`
+
+search engine location code
+required field if you don’t specify location_name or location_coordinate
+if you use this field, you don’t need to specify location_name or location_coordinate
+you can receive the list of available locations of the search engines with their location_code by making a separate request to the https://api.dataforseo.com/v3/serp/bing/locations
+example:
+2840
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#location_code)
+
+#### Defined in
+
+main.ts:65593
+
+***
+
+### location\_coordinate?
+
+> `optional` **location\_coordinate**: `string`
+
+GPS coordinates of a location
+required field if you don’t specify location_name or location_code
+if you use this field, you don’t need to specify location_name or location_code
+location_coordinate parameter should be specified in the “latitude,longitude” format
+the maximum number of decimal digits for “latitude” and “longitude”: 7
+example:
+53.476225,-2.243572
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`location_coordinate`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#location_coordinate)
+
+#### Defined in
+
+main.ts:65601
+
+***
+
+### location\_name?
+
+> `optional` **location\_name**: `string`
+
+full name of search engine location
+required field if you don’t specify location_code or location_coordinate
+if you use this field, you don’t need to specify location_code or location_coordinate
+you can receive the list of available locations of the search engine with their location_name by making a separate request to the https://api.dataforseo.com/v3/serp/bing/locations
+example:
+London,England,United Kingdom
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#location_name)
+
+#### Defined in
+
+main.ts:65586
+
+***
+
+### max\_crawl\_pages?
+
+> `optional` **max\_crawl\_pages**: `number`
+
+page crawl limit
+optional field
+number of search results pages to crawl
+max value: 100
+Note: the max_crawl_pages and depth parameters complement each other;
+learn more at our help center
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#max_crawl_pages)
+
+#### Defined in
+
+main.ts:65643
+
+***
+
+### os?
+
+> `optional` **os**: `string`
+
+device operating system
+optional field
+if you specify desktop in the device field, choose from the following values: windows, macos
+default value: windows
+if you specify mobile in the device field, choose from the following values: android, ios
+default value: android
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#os)
+
+#### Defined in
+
+main.ts:65627
+
+***
+
+### priority?
+
+> `optional` **priority**: `number`
+
+task priority
+optional field
+can take the following values:
+1 – normal execution priority (set by default)
+2 – high execution priority
+You will be additionally charged for the tasks with high execution priority.
+The cost can be calculated on the Pricing page.
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`priority`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#priority)
+
+#### Defined in
+
+main.ts:65579
+
+***
+
+### search\_param?
+
+> `optional` **search\_param**: `string`
+
+additional parameters of the search query
+optional field
+get the list of available parameters and additional details here
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`search_param`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#search_param)
+
+#### Defined in
+
+main.ts:65681
+
+***
+
+### tag?
+
+> `optional` **tag**: `string`
+
+user-defined task identifier
+optional field
+the character limit is 255
+you can use this parameter to identify the task and match it with the result
+you will find the specified tag value in the data object of the response
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#tag)
+
+#### Defined in
+
+main.ts:65687
+
+***
+
+### url?
+
+> `optional` **url**: `string`
+
+direct URL of the search query
+optional field
+you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
+example:
+https://www.bing.com/search?q=rank%20checker&count=50&first=1&setlang=en&cc=US&safesearch=Moderate&FORM=SEPAGE
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md).[`url`](../interfaces/ISerpBingOrganicLiveAdvancedRequestInfo.md#url)
+
+#### Defined in
+
+main.ts:65563
+
+## Methods
+
+### init()
+
+> **init**(`_data`?): `void`
+
+#### Parameters
+
+##### \_data?
+
+`any`
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+main.ts:65700
+
+***
+
+### toJSON()
+
+> **toJSON**(`data`?): `any`
+
+#### Parameters
+
+##### data?
+
+`any`
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+main.ts:65734
+
+***
+
+### fromJS()
+
+> `static` **fromJS**(`data`): [`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)
+
+#### Parameters
+
+##### data
+
+`any`
+
+#### Returns
+
+[`SerpBingOrganicLiveAdvancedRequestInfo`](SerpBingOrganicLiveAdvancedRequestInfo.md)
+
+#### Defined in
+
+main.ts:65727

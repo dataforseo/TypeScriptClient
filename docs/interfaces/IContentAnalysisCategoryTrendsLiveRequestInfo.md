@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
+[Documentation](../README.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveRequestInfo
 
@@ -22,7 +22,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:169033
+main.ts:180622
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:169063
+main.ts:180652
 
 ***
 
@@ -53,7 +53,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:169075
+main.ts:180664
 
 ***
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:169070
+main.ts:180659
 
 ***
 
@@ -97,7 +97,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:169092
+main.ts:180681
 
 ***
 
@@ -118,7 +118,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:169057
+main.ts:180646
 
 ***
 
@@ -134,7 +134,7 @@ possible values:
 
 #### Defined in
 
-main.ts:169039
+main.ts:180628
 
 ***
 
@@ -151,7 +151,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:169046
+main.ts:180635
 
 ***
 
@@ -167,4 +167,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:169098
+main.ts:180687

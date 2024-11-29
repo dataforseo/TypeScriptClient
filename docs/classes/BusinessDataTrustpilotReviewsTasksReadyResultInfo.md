@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:211519
+main.ts:226452
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:211511
+main.ts:226444
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:211515
+main.ts:226448
 
 ***
 
@@ -79,7 +81,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:211504
+main.ts:226437
 
 ***
 
@@ -96,7 +98,7 @@ can take the following values: trustpilot
 
 #### Defined in
 
-main.ts:211507
+main.ts:226440
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:211509
+main.ts:226442
 
 ***
 
@@ -128,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:211513
+main.ts:226446
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:211513
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:211513
 
 #### Defined in
 
-main.ts:211528
+main.ts:226461
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:211528
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:211528
 
 #### Defined in
 
-main.ts:211550
+main.ts:226483
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:211550
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:211550
 
 #### Defined in
 
-main.ts:211543
+main.ts:226476

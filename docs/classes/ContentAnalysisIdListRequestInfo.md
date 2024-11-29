@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisIdListRequestInfo
+[Documentation](../README.md) / ContentAnalysisIdListRequestInfo
 
 # Class: ContentAnalysisIdListRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md)
+##### data?
+
+[`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:164735
+main.ts:176324
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:164705
+main.ts:176294
 
 ***
 
@@ -73,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:164712
+main.ts:176301
 
 ***
 
@@ -91,7 +93,7 @@ default value: false
 
 #### Defined in
 
-main.ts:164731
+main.ts:176320
 
 ***
 
@@ -110,7 +112,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:164717
+main.ts:176306
 
 ***
 
@@ -129,7 +131,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:164722
+main.ts:176311
 
 ***
 
@@ -148,7 +150,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:164727
+main.ts:176316
 
 ## Methods
 
@@ -158,7 +160,9 @@ main.ts:164727
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +170,7 @@ main.ts:164727
 
 #### Defined in
 
-main.ts:164744
+main.ts:176333
 
 ***
 
@@ -176,7 +180,9 @@ main.ts:164744
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -184,7 +190,7 @@ main.ts:164744
 
 #### Defined in
 
-main.ts:164766
+main.ts:176355
 
 ***
 
@@ -194,7 +200,9 @@ main.ts:164766
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -202,4 +210,4 @@ main.ts:164766
 
 #### Defined in
 
-main.ts:164759
+main.ts:176348

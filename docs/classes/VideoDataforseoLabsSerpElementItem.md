@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / VideoDataforseoLabsSerpElementItem
+[Documentation](../README.md) / VideoDataforseoLabsSerpElementItem
 
 # Class: VideoDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IVideoDataforseoLabsSerpElementItem`](../interfaces/IVideoDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IVideoDataforseoLabsSerpElementItem`](../interfaces/IVideoDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:97151
+main.ts:106378
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:97151
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -60,7 +62,7 @@ main.ts:20747
 
 > `optional` **items**: [`VideoElement`](VideoElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -68,7 +70,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:97147
+main.ts:106374
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -132,7 +134,23 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
+
+***
+
+### se\_type?
+
+> `optional` **se\_type**: `string`
+
+search engine type
+
+#### Implementation of
+
+[`IVideoDataforseoLabsSerpElementItem`](../interfaces/IVideoDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IVideoDataforseoLabsSerpElementItem.md#se_type)
+
+#### Defined in
+
+main.ts:106372
 
 ***
 
@@ -152,7 +170,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -172,7 +190,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -182,7 +200,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -194,7 +214,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:97156
+main.ts:106383
 
 ***
 
@@ -204,7 +224,9 @@ main.ts:97156
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +238,7 @@ main.ts:97156
 
 #### Defined in
 
-main.ts:97178
+main.ts:106406
 
 ***
 
@@ -226,7 +248,9 @@ main.ts:97178
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -238,4 +262,4 @@ main.ts:97178
 
 #### Defined in
 
-main.ts:97171
+main.ts:106399

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateLiveResultInfo
+[Documentation](../README.md) / IContentGenerationGenerateLiveResultInfo
 
 # Interface: IContentGenerationGenerateLiveResultInfo
 
@@ -20,7 +20,7 @@ resulting text
 
 #### Defined in
 
-main.ts:169784
+main.ts:181373
 
 ***
 
@@ -32,7 +32,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:169778
+main.ts:181367
 
 ***
 
@@ -44,7 +44,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:169782
+main.ts:181371
 
 ***
 
@@ -56,7 +56,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:169780
+main.ts:181369
 
 ***
 
@@ -70,4 +70,4 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:169788
+main.ts:181377

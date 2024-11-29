@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixKeywordsDatasRatesDataInfo
+[Documentation](../README.md) / IAppendixKeywordsDatasRatesDataInfo
 
 # Interface: IAppendixKeywordsDatasRatesDataInfo
 
@@ -18,7 +18,17 @@
 
 #### Defined in
 
-main.ts:216064
+main.ts:231021
+
+***
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:231034
 
 ***
 
@@ -28,7 +38,7 @@ main.ts:216064
 
 #### Defined in
 
-main.ts:216071
+main.ts:231028
 
 ***
 
@@ -38,7 +48,7 @@ main.ts:216071
 
 #### Defined in
 
-main.ts:216069
+main.ts:231026
 
 ***
 
@@ -48,7 +58,7 @@ main.ts:216069
 
 #### Defined in
 
-main.ts:216076
+main.ts:231033
 
 ***
 
@@ -58,7 +68,7 @@ main.ts:216076
 
 #### Defined in
 
-main.ts:216075
+main.ts:231032
 
 ***
 
@@ -68,7 +78,7 @@ main.ts:216075
 
 #### Defined in
 
-main.ts:216070
+main.ts:231027
 
 ***
 
@@ -78,7 +88,7 @@ main.ts:216070
 
 #### Defined in
 
-main.ts:216068
+main.ts:231025
 
 ***
 
@@ -88,7 +98,7 @@ main.ts:216068
 
 #### Defined in
 
-main.ts:216074
+main.ts:231031
 
 ***
 
@@ -98,7 +108,17 @@ main.ts:216074
 
 #### Defined in
 
-main.ts:216072
+main.ts:231029
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:231035
 
 ***
 
@@ -108,7 +128,7 @@ main.ts:216072
 
 #### Defined in
 
-main.ts:216061
+main.ts:231018
 
 ***
 
@@ -118,7 +138,7 @@ main.ts:216061
 
 #### Defined in
 
-main.ts:216062
+main.ts:231019
 
 ***
 
@@ -128,7 +148,7 @@ main.ts:216062
 
 #### Defined in
 
-main.ts:216065
+main.ts:231022
 
 ***
 
@@ -138,7 +158,7 @@ main.ts:216065
 
 #### Defined in
 
-main.ts:216066
+main.ts:231023
 
 ***
 
@@ -148,7 +168,7 @@ main.ts:216066
 
 #### Defined in
 
-main.ts:216073
+main.ts:231030
 
 ***
 
@@ -158,7 +178,7 @@ main.ts:216073
 
 #### Defined in
 
-main.ts:216063
+main.ts:231020
 
 ***
 
@@ -168,4 +188,4 @@ main.ts:216063
 
 #### Defined in
 
-main.ts:216067
+main.ts:231024

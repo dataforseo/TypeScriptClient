@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SearchVolumeHistoryItemInfo
+[Documentation](../README.md) / SearchVolumeHistoryItemInfo
 
 # Class: SearchVolumeHistoryItemInfo
 
@@ -24,7 +24,9 @@ device type = desktop contains historical search volume data for searches made f
 
 #### Parameters
 
-• **data?**: [`ISearchVolumeHistoryItemInfo`](../interfaces/ISearchVolumeHistoryItemInfo.md)
+##### data?
+
+[`ISearchVolumeHistoryItemInfo`](../interfaces/ISearchVolumeHistoryItemInfo.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@ device type = desktop contains historical search volume data for searches made f
 
 #### Defined in
 
-main.ts:134662
+main.ts:146519
 
 ## Properties
 
@@ -48,7 +50,7 @@ day of the month
 
 #### Defined in
 
-main.ts:134656
+main.ts:146513
 
 ***
 
@@ -64,7 +66,7 @@ month
 
 #### Defined in
 
-main.ts:134654
+main.ts:146511
 
 ***
 
@@ -80,7 +82,7 @@ search volume rate
 
 #### Defined in
 
-main.ts:134658
+main.ts:146515
 
 ***
 
@@ -96,7 +98,7 @@ year
 
 #### Defined in
 
-main.ts:134652
+main.ts:146509
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:134652
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:134652
 
 #### Defined in
 
-main.ts:134671
+main.ts:146528
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:134671
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:134671
 
 #### Defined in
 
-main.ts:134691
+main.ts:146548
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:134691
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:134691
 
 #### Defined in
 
-main.ts:134684
+main.ts:146541

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:185246
+main.ts:197344
 
 ## Properties
 
@@ -46,7 +48,7 @@ asin received in a POST array
 
 #### Defined in
 
-main.ts:185202
+main.ts:197300
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:185213
+main.ts:197311
 
 ***
 
@@ -82,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:185218
+main.ts:197316
 
 ***
 
@@ -98,7 +100,7 @@ product image data
 
 #### Defined in
 
-main.ts:185226
+main.ts:197324
 
 ***
 
@@ -117,7 +119,7 @@ amazon_review_item
 
 #### Defined in
 
-main.ts:185236
+main.ts:197334
 
 ***
 
@@ -134,7 +136,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185242
+main.ts:197340
 
 ***
 
@@ -151,7 +153,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185239
+main.ts:197337
 
 ***
 
@@ -167,7 +169,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185210
+main.ts:197308
 
 ***
 
@@ -183,7 +185,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185208
+main.ts:197306
 
 ***
 
@@ -200,7 +202,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:185229
+main.ts:197327
 
 ***
 
@@ -216,7 +218,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:185231
+main.ts:197329
 
 ***
 
@@ -232,7 +234,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185206
+main.ts:197304
 
 ***
 
@@ -249,7 +251,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:185221
+main.ts:197319
 
 ***
 
@@ -266,7 +268,7 @@ the title of the product for which the reviews are collected
 
 #### Defined in
 
-main.ts:185224
+main.ts:197322
 
 ***
 
@@ -282,7 +284,7 @@ type of element
 
 #### Defined in
 
-main.ts:185204
+main.ts:197302
 
 ## Methods
 
@@ -292,7 +294,9 @@ main.ts:185204
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -300,7 +304,7 @@ main.ts:185204
 
 #### Defined in
 
-main.ts:185255
+main.ts:197353
 
 ***
 
@@ -310,7 +314,9 @@ main.ts:185255
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -318,7 +324,7 @@ main.ts:185255
 
 #### Defined in
 
-main.ts:185294
+main.ts:197392
 
 ***
 
@@ -328,7 +334,9 @@ main.ts:185294
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -336,4 +344,4 @@ main.ts:185294
 
 #### Defined in
 
-main.ts:185287
+main.ts:197385

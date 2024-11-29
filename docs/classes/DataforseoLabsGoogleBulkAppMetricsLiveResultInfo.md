@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:111696
+main.ts:121028
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains data related to the ranking app metrics of the specified application
 
 #### Defined in
 
-main.ts:111692
+main.ts:121024
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:111690
+main.ts:121022
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:111686
+main.ts:121018
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:111684
+main.ts:121016
 
 ***
 
@@ -110,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:111682
+main.ts:121014
 
 ***
 
@@ -126,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:111688
+main.ts:121020
 
 ## Methods
 
@@ -136,7 +138,9 @@ main.ts:111688
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -144,7 +148,7 @@ main.ts:111688
 
 #### Defined in
 
-main.ts:111705
+main.ts:121037
 
 ***
 
@@ -154,7 +158,9 @@ main.ts:111705
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +168,7 @@ main.ts:111705
 
 #### Defined in
 
-main.ts:111731
+main.ts:121063
 
 ***
 
@@ -172,7 +178,9 @@ main.ts:111731
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -180,4 +188,4 @@ main.ts:111731
 
 #### Defined in
 
-main.ts:111724
+main.ts:121056

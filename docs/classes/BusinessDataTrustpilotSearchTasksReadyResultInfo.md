@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotSearchTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataTrustpilotSearchTasksReadyResultInfo
 
 # Class: BusinessDataTrustpilotSearchTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:210767
+main.ts:225696
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:210759
+main.ts:225688
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:210763
+main.ts:225692
 
 ***
 
@@ -79,7 +81,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:210752
+main.ts:225681
 
 ***
 
@@ -96,7 +98,7 @@ can take the following values: trustpilot
 
 #### Defined in
 
-main.ts:210755
+main.ts:225684
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:210757
+main.ts:225686
 
 ***
 
@@ -128,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:210761
+main.ts:225690
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:210761
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:210761
 
 #### Defined in
 
-main.ts:210776
+main.ts:225705
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:210776
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:210776
 
 #### Defined in
 
-main.ts:210798
+main.ts:225727
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:210798
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:210798
 
 #### Defined in
 
-main.ts:210791
+main.ts:225720

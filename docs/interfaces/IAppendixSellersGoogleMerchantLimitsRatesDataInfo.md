@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSellersGoogleMerchantLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 
 # Interface: IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:216556
+main.ts:231515
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:216556
 
 #### Defined in
 
-main.ts:216555
+main.ts:231514
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:216555
 
 #### Defined in
 
-main.ts:216553
+main.ts:231512
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:216553
 
 #### Defined in
 
-main.ts:216554
+main.ts:231513

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md)
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](../classes/KeywordDataKeywordDataInfo.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:110205
+main.ts:101503
 
 ***
 
 ### ranked\_serp\_element?
 
-> **`optional`** **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
+> `optional` **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
 
 contains data on the domain’s SERP element found for the returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:110207
+main.ts:101505
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:110203
+main.ts:101501

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPopularTimes
+[Documentation](../README.md) / IPopularTimes
 
 # Interface: IPopularTimes
 
@@ -21,8 +21,8 @@ information about busy hours of the local establishment on each day of the week
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`BusyWorkingTimeInfo`](../classes/BusyWorkingTimeInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: [`BusyWorkingTimeInfo`](../classes/BusyWorkingTimeInfo.md)[]
 
 #### Defined in
 
-main.ts:198747
+main.ts:211097

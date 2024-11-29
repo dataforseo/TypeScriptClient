@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsSearchLiveResultInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsSearchLiveResultInfo
 
 # Interface: IBusinessDataBusinessListingsSearchLiveResultInfo
 
@@ -21,7 +21,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:199289
+main.ts:211639
 
 ***
 
@@ -35,7 +35,7 @@ possible item types: business_listing
 
 #### Defined in
 
-main.ts:199299
+main.ts:211649
 
 ***
 
@@ -47,7 +47,7 @@ offset in the results array of returned businesses
 
 #### Defined in
 
-main.ts:199291
+main.ts:211641
 
 ***
 
@@ -61,7 +61,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:199295
+main.ts:211645
 
 ***
 
@@ -73,4 +73,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:199286
+main.ts:211636

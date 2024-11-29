@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryResultInfo
 
@@ -23,4 +23,4 @@ example:
 
 #### Defined in
 
-main.ts:82161
+main.ts:91873

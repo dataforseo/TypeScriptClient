@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageInstantPagesResultInfo
+[Documentation](../README.md) / OnPageInstantPagesResultInfo
 
 # Class: OnPageInstantPagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md)
+##### data?
+
+[`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:163019
+main.ts:174608
 
 ## Properties
 
@@ -48,7 +50,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:163011
+main.ts:174600
 
 ***
 
@@ -65,7 +67,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:163004
+main.ts:174593
 
 ***
 
@@ -82,7 +84,7 @@ in this case the value will be null
 
 #### Defined in
 
-main.ts:163007
+main.ts:174596
 
 ***
 
@@ -98,7 +100,7 @@ items array
 
 #### Defined in
 
-main.ts:163015
+main.ts:174604
 
 ***
 
@@ -114,7 +116,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:163013
+main.ts:174602
 
 ## Methods
 
@@ -124,7 +126,9 @@ main.ts:163013
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +136,7 @@ main.ts:163013
 
 #### Defined in
 
-main.ts:163028
+main.ts:174617
 
 ***
 
@@ -142,7 +146,9 @@ main.ts:163028
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +156,7 @@ main.ts:163028
 
 #### Defined in
 
-main.ts:163053
+main.ts:174642
 
 ***
 
@@ -160,7 +166,9 @@ main.ts:163053
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +176,4 @@ main.ts:163053
 
 #### Defined in
 
-main.ts:163046
+main.ts:174635

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleQuestionsAndAnswersItem
+[Documentation](../README.md) / IBusinessDataGoogleQuestionsAndAnswersItem
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersItem
 
@@ -21,7 +21,7 @@ possible item types: google_business_question_item
 
 #### Defined in
 
-main.ts:209726
+main.ts:224647
 
 ***
 
@@ -33,7 +33,7 @@ original text of the question
 
 #### Defined in
 
-main.ts:209719
+main.ts:224640
 
 ***
 
@@ -45,7 +45,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209711
+main.ts:224632
 
 ***
 
@@ -57,7 +57,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209715
+main.ts:224636
 
 ***
 
@@ -69,7 +69,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209713
+main.ts:224634
 
 ***
 
@@ -81,7 +81,7 @@ ID of the question
 
 #### Defined in
 
-main.ts:209707
+main.ts:224628
 
 ***
 
@@ -93,7 +93,7 @@ current text of the question
 
 #### Defined in
 
-main.ts:209717
+main.ts:224638
 
 ***
 
@@ -105,7 +105,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:209705
+main.ts:224626
 
 ***
 
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:209703
+main.ts:224624
 
 ***
 
@@ -130,7 +130,7 @@ estimated time when the question was posted
 
 #### Defined in
 
-main.ts:209721
+main.ts:224642
 
 ***
 
@@ -142,7 +142,7 @@ exact time when the question was posted
 
 #### Defined in
 
-main.ts:209723
+main.ts:224644
 
 ***
 
@@ -154,7 +154,7 @@ type of element
 
 #### Defined in
 
-main.ts:209700
+main.ts:224621
 
 ***
 
@@ -166,4 +166,4 @@ URL of the question
 
 #### Defined in
 
-main.ts:209709
+main.ts:224630

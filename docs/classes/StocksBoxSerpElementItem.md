@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / StocksBoxSerpElementItem
+[Documentation](../README.md) / StocksBoxSerpElementItem
 
 # Class: StocksBoxSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md)
+##### data?
+
+[`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:33566
+main.ts:35119
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:33566
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ source domain
 
 #### Defined in
 
-main.ts:33553
+main.ts:35106
 
 ***
 
@@ -84,7 +86,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:33562
+main.ts:35115
 
 ***
 
@@ -106,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -122,7 +124,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33549
+main.ts:35102
 
 ***
 
@@ -143,7 +145,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -165,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -183,7 +185,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33557
+main.ts:35110
 
 ***
 
@@ -199,7 +201,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:33547
+main.ts:35100
 
 ***
 
@@ -216,7 +218,7 @@ indicates the source of the video
 
 #### Defined in
 
-main.ts:33545
+main.ts:35098
 
 ***
 
@@ -233,7 +235,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33560
+main.ts:35113
 
 ***
 
@@ -249,7 +251,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33542
+main.ts:35095
 
 ***
 
@@ -269,7 +271,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -285,7 +287,7 @@ source URL
 
 #### Defined in
 
-main.ts:33551
+main.ts:35104
 
 ***
 
@@ -305,7 +307,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -315,7 +317,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -327,7 +331,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:33571
+main.ts:35124
 
 ***
 
@@ -337,7 +341,9 @@ main.ts:33571
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -349,7 +355,7 @@ main.ts:33571
 
 #### Defined in
 
-main.ts:33597
+main.ts:35150
 
 ***
 
@@ -359,7 +365,9 @@ main.ts:33597
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -371,4 +379,4 @@ main.ts:33597
 
 #### Defined in
 
-main.ts:33590
+main.ts:35143

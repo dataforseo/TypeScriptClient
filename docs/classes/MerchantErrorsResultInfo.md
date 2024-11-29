@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantErrorsResultInfo
+[Documentation](../README.md) / MerchantErrorsResultInfo
 
 # Class: MerchantErrorsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md)
+##### data?
+
+[`IMerchantErrorsResultInfo`](../interfaces/IMerchantErrorsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:172844
+main.ts:184433
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:172820
+main.ts:184409
 
 ***
 
@@ -65,7 +67,7 @@ error code
 
 #### Defined in
 
-main.ts:172824
+main.ts:184413
 
 ***
 
@@ -82,7 +84,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:172827
+main.ts:184416
 
 ***
 
@@ -98,7 +100,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:172822
+main.ts:184411
 
 ***
 
@@ -114,7 +116,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:172834
+main.ts:184423
 
 ***
 
@@ -130,7 +132,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:172832
+main.ts:184421
 
 ***
 
@@ -147,7 +149,7 @@ server response
 
 #### Defined in
 
-main.ts:172840
+main.ts:184429
 
 ***
 
@@ -164,7 +166,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:172837
+main.ts:184426
 
 ***
 
@@ -181,7 +183,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:172830
+main.ts:184419
 
 ***
 
@@ -197,7 +199,7 @@ id of the task
 
 #### Defined in
 
-main.ts:172815
+main.ts:184404
 
 ## Methods
 
@@ -207,7 +209,9 @@ main.ts:172815
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -215,7 +219,7 @@ main.ts:172815
 
 #### Defined in
 
-main.ts:172853
+main.ts:184442
 
 ***
 
@@ -225,7 +229,9 @@ main.ts:172853
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -233,7 +239,7 @@ main.ts:172853
 
 #### Defined in
 
-main.ts:172879
+main.ts:184468
 
 ***
 
@@ -243,7 +249,9 @@ main.ts:172879
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -251,4 +259,4 @@ main.ts:172879
 
 #### Defined in
 
-main.ts:172872
+main.ts:184461

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:88135
+main.ts:97853
 
 ## Properties
 
@@ -42,8 +44,8 @@ target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000
-each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -51,7 +53,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:88111
+main.ts:97829
 
 ***
 
@@ -72,7 +74,7 @@ en
 
 #### Defined in
 
-main.ts:88125
+main.ts:97843
 
 ***
 
@@ -93,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:88118
+main.ts:97836
 
 ***
 
@@ -113,7 +115,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:88131
+main.ts:97849
 
 ## Methods
 
@@ -123,7 +125,9 @@ main.ts:88131
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +135,7 @@ main.ts:88131
 
 #### Defined in
 
-main.ts:88144
+main.ts:97862
 
 ***
 
@@ -141,7 +145,9 @@ main.ts:88144
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -149,7 +155,7 @@ main.ts:88144
 
 #### Defined in
 
-main.ts:88168
+main.ts:97886
 
 ***
 
@@ -159,7 +165,9 @@ main.ts:88168
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -167,4 +175,4 @@ main.ts:88168
 
 #### Defined in
 
-main.ts:88161
+main.ts:97879

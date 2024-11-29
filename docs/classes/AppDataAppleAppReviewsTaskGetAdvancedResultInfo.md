@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:196076
+main.ts:208426
 
 ## Properties
 
@@ -46,7 +48,7 @@ application id received in a POST array
 
 #### Defined in
 
-main.ts:196042
+main.ts:208392
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:196053
+main.ts:208403
 
 ***
 
@@ -82,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:196058
+main.ts:208408
 
 ***
 
@@ -98,7 +100,7 @@ found reviews
 
 #### Defined in
 
-main.ts:196072
+main.ts:208422
 
 ***
 
@@ -115,7 +117,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:196070
+main.ts:208420
 
 ***
 
@@ -131,7 +133,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:196050
+main.ts:208400
 
 ***
 
@@ -147,7 +149,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:196048
+main.ts:208398
 
 ***
 
@@ -164,7 +166,7 @@ rating of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:196064
+main.ts:208414
 
 ***
 
@@ -181,7 +183,7 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 #### Defined in
 
-main.ts:196067
+main.ts:208417
 
 ***
 
@@ -197,7 +199,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:196046
+main.ts:208396
 
 ***
 
@@ -214,7 +216,7 @@ title of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:196061
+main.ts:208411
 
 ***
 
@@ -230,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:196044
+main.ts:208394
 
 ## Methods
 
@@ -240,7 +242,9 @@ main.ts:196044
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -248,7 +252,7 @@ main.ts:196044
 
 #### Defined in
 
-main.ts:196085
+main.ts:208435
 
 ***
 
@@ -258,7 +262,9 @@ main.ts:196085
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +272,7 @@ main.ts:196085
 
 #### Defined in
 
-main.ts:196117
+main.ts:208467
 
 ***
 
@@ -276,7 +282,9 @@ main.ts:196117
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -284,4 +292,4 @@ main.ts:196117
 
 #### Defined in
 
-main.ts:196110
+main.ts:208460

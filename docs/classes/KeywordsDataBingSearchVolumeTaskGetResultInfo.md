@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeTaskGetResultInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeTaskGetResultInfo
 
 # Class: KeywordsDataBingSearchVolumeTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:128828
+main.ts:139093
 
 ## Properties
 
@@ -47,7 +49,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Defined in
 
-main.ts:128820
+main.ts:139085
 
 ***
 
@@ -69,7 +71,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:128808
+main.ts:139073
 
 ***
 
@@ -87,7 +89,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128812
+main.ts:139077
 
 ***
 
@@ -104,7 +106,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:128800
+main.ts:139065
 
 ***
 
@@ -120,7 +122,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:128791
+main.ts:139056
 
 ***
 
@@ -136,7 +138,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:128795
+main.ts:139060
 
 ***
 
@@ -152,7 +154,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:128793
+main.ts:139058
 
 ***
 
@@ -170,7 +172,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128824
+main.ts:139089
 
 ***
 
@@ -186,7 +188,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:128797
+main.ts:139062
 
 ***
 
@@ -205,7 +207,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128817
+main.ts:139082
 
 ## Methods
 
@@ -215,7 +217,9 @@ main.ts:128817
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -223,7 +227,7 @@ main.ts:128817
 
 #### Defined in
 
-main.ts:128837
+main.ts:139102
 
 ***
 
@@ -233,7 +237,9 @@ main.ts:128837
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -241,7 +247,7 @@ main.ts:128837
 
 #### Defined in
 
-main.ts:128871
+main.ts:139136
 
 ***
 
@@ -251,7 +257,9 @@ main.ts:128871
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -259,4 +267,4 @@ main.ts:128871
 
 #### Defined in
 
-main.ts:128864
+main.ts:139129

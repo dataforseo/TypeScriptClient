@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IConceptInfo
+[Documentation](../README.md) / IConceptInfo
 
 # Interface: IConceptInfo
 
@@ -20,7 +20,7 @@ the concept group of the concept details
 
 #### Defined in
 
-main.ts:119019
+main.ts:128751
 
 ***
 
@@ -32,4 +32,4 @@ the concept name for the keyword in the concept_group
 
 #### Defined in
 
-main.ts:119017
+main.ts:128749

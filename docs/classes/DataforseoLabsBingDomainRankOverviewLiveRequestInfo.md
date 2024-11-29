@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingDomainRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:107555
+main.ts:117117
 
 ## Properties
 
@@ -53,7 +55,7 @@ en
 
 #### Defined in
 
-main.ts:107535
+main.ts:117097
 
 ***
 
@@ -76,7 +78,7 @@ English
 
 #### Defined in
 
-main.ts:107526
+main.ts:117088
 
 ***
 
@@ -95,7 +97,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107540
+main.ts:117102
 
 ***
 
@@ -119,7 +121,7 @@ example:
 
 #### Defined in
 
-main.ts:107517
+main.ts:117079
 
 ***
 
@@ -143,7 +145,7 @@ United States
 
 #### Defined in
 
-main.ts:107507
+main.ts:117069
 
 ***
 
@@ -162,7 +164,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:107545
+main.ts:117107
 
 ***
 
@@ -182,7 +184,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107551
+main.ts:117113
 
 ***
 
@@ -201,7 +203,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:107497
+main.ts:117059
 
 ## Methods
 
@@ -211,7 +213,9 @@ main.ts:107497
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -219,7 +223,7 @@ main.ts:107497
 
 #### Defined in
 
-main.ts:107564
+main.ts:117126
 
 ***
 
@@ -229,7 +233,9 @@ main.ts:107564
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -237,7 +243,7 @@ main.ts:107564
 
 #### Defined in
 
-main.ts:107588
+main.ts:117150
 
 ***
 
@@ -247,7 +253,9 @@ main.ts:107588
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -255,4 +263,4 @@ main.ts:107588
 
 #### Defined in
 
-main.ts:107581
+main.ts:117143

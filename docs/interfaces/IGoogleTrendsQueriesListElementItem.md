@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleTrendsQueriesListElementItem
+[Documentation](../README.md) / IGoogleTrendsQueriesListElementItem
 
 # Interface: IGoogleTrendsQueriesListElementItem
 
@@ -24,7 +24,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:124277
+main.ts:134526
 
 ***
 
@@ -41,7 +41,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:21886
+main.ts:22784
 
 ***
 
@@ -58,7 +58,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21881
+main.ts:22779
 
 ***
 
@@ -74,7 +74,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:21883
+main.ts:22781
 
 ***
 
@@ -90,4 +90,4 @@ type of element
 
 #### Defined in
 
-main.ts:21878
+main.ts:22776

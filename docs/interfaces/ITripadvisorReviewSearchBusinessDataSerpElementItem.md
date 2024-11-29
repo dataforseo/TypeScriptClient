@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITripadvisorReviewSearchBusinessDataSerpElementItem
 
@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:214328
+main.ts:229271
 
 ***
 
@@ -40,7 +40,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:214319
+main.ts:229262
 
 ***
 
@@ -56,7 +56,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21397
+main.ts:22295
 
 ***
 
@@ -73,7 +73,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21395
+main.ts:22293
 
 ***
 
@@ -85,7 +85,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:214323
+main.ts:229266
 
 ***
 
@@ -97,7 +97,7 @@ contains information about the owner’s response
 
 #### Defined in
 
-main.ts:214343
+main.ts:229286
 
 ***
 
@@ -110,7 +110,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:214346
+main.ts:229289
 
 ***
 
@@ -122,7 +122,7 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-main.ts:214339
+main.ts:229282
 
 ***
 
@@ -134,7 +134,7 @@ content of the review
 
 #### Defined in
 
-main.ts:214337
+main.ts:229280
 
 ***
 
@@ -149,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:214333
+main.ts:229276
 
 ***
 
@@ -161,7 +161,7 @@ title of the review
 
 #### Defined in
 
-main.ts:214335
+main.ts:229278
 
 ***
 
@@ -177,7 +177,7 @@ type of element
 
 #### Defined in
 
-main.ts:21392
+main.ts:22290
 
 ***
 
@@ -189,7 +189,7 @@ URL of the review
 
 #### Defined in
 
-main.ts:214321
+main.ts:229264
 
 ***
 
@@ -201,4 +201,4 @@ information from the reviewer’s profile
 
 #### Defined in
 
-main.ts:214341
+main.ts:229284

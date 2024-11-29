@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppsInfo
+[Documentation](../README.md) / AppsInfo
 
 # Class: AppsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppsInfo`](../interfaces/IAppsInfo.md)
+##### data?
+
+[`IAppsInfo`](../interfaces/IAppsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:189606
+main.ts:201942
 
 ## Properties
 
@@ -46,7 +48,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:189598
+main.ts:201934
 
 ***
 
@@ -62,7 +64,7 @@ title of the app
 
 #### Defined in
 
-main.ts:189600
+main.ts:201936
 
 ***
 
@@ -78,7 +80,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:189602
+main.ts:201938
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:189602
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:189602
 
 #### Defined in
 
-main.ts:189615
+main.ts:201951
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:189615
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:189615
 
 #### Defined in
 
-main.ts:189634
+main.ts:201970
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:189634
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:189634
 
 #### Defined in
 
-main.ts:189627
+main.ts:201963

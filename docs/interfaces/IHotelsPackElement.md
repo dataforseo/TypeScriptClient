@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelsPackElement
+[Documentation](../README.md) / IHotelsPackElement
 
 # Interface: IHotelsPackElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:34026
+main.ts:35579
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:34032
+main.ts:35585
 
 ***
 
@@ -46,7 +46,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:34030
+main.ts:35583
 
 ***
 
@@ -58,7 +58,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:34036
+main.ts:35589
 
 ***
 
@@ -70,7 +70,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:34022
+main.ts:35575
 
 ***
 
@@ -83,7 +83,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:34039
+main.ts:35592
 
 ***
 
@@ -95,7 +95,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34024
+main.ts:35577
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Defined in
 
-main.ts:34020
+main.ts:35573
 
 ***
 
@@ -119,4 +119,4 @@ URL
 
 #### Defined in
 
-main.ts:34034
+main.ts:35587

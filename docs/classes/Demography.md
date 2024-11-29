@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Demography
+[Documentation](../README.md) / Demography
 
 # Class: Demography
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDemography`](../interfaces/IDemography.md)
+##### data?
+
+[`IDemography`](../interfaces/IDemography.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:127019
+main.ts:137276
 
 ## Properties
 
@@ -46,7 +48,7 @@ distribution of keyword popularity by age
 
 #### Defined in
 
-main.ts:127013
+main.ts:137270
 
 ***
 
@@ -62,7 +64,7 @@ distribution of keyword popularity by gender
 
 #### Defined in
 
-main.ts:127015
+main.ts:137272
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:127015
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:127015
 
 #### Defined in
 
-main.ts:127028
+main.ts:137285
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:127028
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:127028
 
 #### Defined in
 
-main.ts:127054
+main.ts:137311
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:127054
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:127054
 
 #### Defined in
 
-main.ts:127047
+main.ts:137304

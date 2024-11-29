@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphListItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphListItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphListItemDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphListItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphListItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphListItemDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:97714
+main.ts:107533
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:97714
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -62,7 +64,7 @@ main.ts:20747
 
 google defined data attribute ID
 example:
-kc:/common/topic:social media presence
+kc:/local:place qa
 
 #### Implementation of
 
@@ -70,7 +72,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:97705
+main.ts:107525
 
 ***
 
@@ -78,8 +80,7 @@ main.ts:97705
 
 > `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -87,7 +88,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97710
+main.ts:107529
 
 ***
 
@@ -103,7 +104,7 @@ link of the element
 
 #### Defined in
 
-main.ts:97707
+main.ts:107527
 
 ***
 
@@ -125,7 +126,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -146,7 +147,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -167,7 +168,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -175,7 +176,7 @@ main.ts:20736
 
 > `optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Implementation of
 
@@ -183,7 +184,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:97701
+main.ts:107521
 
 ***
 
@@ -203,7 +204,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -223,7 +224,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -233,7 +234,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -245,7 +248,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:97719
+main.ts:107538
 
 ***
 
@@ -255,7 +258,9 @@ main.ts:97719
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +272,7 @@ main.ts:97719
 
 #### Defined in
 
-main.ts:97744
+main.ts:107563
 
 ***
 
@@ -277,7 +282,9 @@ main.ts:97744
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -289,4 +296,4 @@ main.ts:97744
 
 #### Defined in
 
-main.ts:97737
+main.ts:107556

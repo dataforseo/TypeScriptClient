@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseVersionsResultInfo
+[Documentation](../README.md) / IOnPageLighthouseVersionsResultInfo
 
 # Interface: IOnPageLighthouseVersionsResultInfo
 
@@ -18,4 +18,4 @@
 
 #### Defined in
 
-main.ts:163648
+main.ts:175237

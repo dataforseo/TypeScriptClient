@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:92144
+main.ts:101862
 
 ## Properties
 
@@ -59,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:92118
+main.ts:101836
 
 ***
 
@@ -78,7 +80,7 @@ default value: true
 
 #### Defined in
 
-main.ts:92085
+main.ts:101803
 
 ***
 
@@ -100,7 +102,7 @@ default value:
 
 #### Defined in
 
-main.ts:92093
+main.ts:101811
 
 ***
 
@@ -113,8 +115,8 @@ required field
 the results will be based on the keywords you specify in this array
 UTF-8 encoding;
 the keywords will be converted to lowercase format;
-a keyword should be at least 3 characters long;
 you can specify the maximum of 200 keywords
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -122,7 +124,7 @@ you can specify the maximum of 200 keywords
 
 #### Defined in
 
-main.ts:92048
+main.ts:101766
 
 ***
 
@@ -144,7 +146,7 @@ en
 
 #### Defined in
 
-main.ts:92080
+main.ts:101798
 
 ***
 
@@ -166,7 +168,7 @@ English
 
 #### Defined in
 
-main.ts:92072
+main.ts:101790
 
 ***
 
@@ -185,7 +187,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:92098
+main.ts:101816
 
 ***
 
@@ -207,7 +209,7 @@ example:
 
 #### Defined in
 
-main.ts:92064
+main.ts:101782
 
 ***
 
@@ -229,7 +231,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:92056
+main.ts:101774
 
 ***
 
@@ -248,7 +250,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:92103
+main.ts:101821
 
 ***
 
@@ -278,7 +280,7 @@ example:
 
 #### Defined in
 
-main.ts:92134
+main.ts:101852
 
 ***
 
@@ -298,7 +300,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:92140
+main.ts:101858
 
 ## Methods
 
@@ -308,7 +310,9 @@ main.ts:92140
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -316,7 +320,7 @@ main.ts:92140
 
 #### Defined in
 
-main.ts:92153
+main.ts:101871
 
 ***
 
@@ -326,7 +330,9 @@ main.ts:92153
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -334,7 +340,7 @@ main.ts:92153
 
 #### Defined in
 
-main.ts:92197
+main.ts:101915
 
 ***
 
@@ -344,7 +350,9 @@ main.ts:92197
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -352,4 +360,4 @@ main.ts:92197
 
 #### Defined in
 
-main.ts:92190
+main.ts:101908

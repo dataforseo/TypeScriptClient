@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationCheckGrammarLiveRequestInfo
+[Documentation](../README.md) / IContentGenerationCheckGrammarLiveRequestInfo
 
 # Interface: IContentGenerationCheckGrammarLiveRequestInfo
 
@@ -22,7 +22,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:171152
+main.ts:182741
 
 ***
 
@@ -36,7 +36,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:171156
+main.ts:182745
 
 ***
 
@@ -52,7 +52,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:171162
+main.ts:182751
 
 ***
 
@@ -67,4 +67,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:171148
+main.ts:182737

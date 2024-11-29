@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppRankedSerpElementInfo
+[Documentation](../README.md) / IAppRankedSerpElementInfo
 
 # Interface: IAppRankedSerpElementInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:112304
+main.ts:121636
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:112311
+main.ts:121643
 
 ***
 
@@ -52,7 +52,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:112317
+main.ts:121649
 
 ***
 
@@ -64,7 +64,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:112306
+main.ts:121638
 
 ***
 
@@ -76,7 +76,7 @@ search engine type
 
 #### Defined in
 
-main.ts:112298
+main.ts:121630
 
 ***
 
@@ -89,4 +89,4 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:112301
+main.ts:121633

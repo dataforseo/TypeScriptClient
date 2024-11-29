@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:99657
+main.ts:109394
 
 ## Properties
 
@@ -51,7 +53,7 @@ we recommend always setting correlate to true
 
 #### Defined in
 
-main.ts:99635
+main.ts:109371
 
 ***
 
@@ -71,7 +73,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:99621
+main.ts:109357
 
 ***
 
@@ -92,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:99628
+main.ts:109364
 
 ***
 
@@ -111,7 +113,7 @@ default value: false
 
 #### Defined in
 
-main.ts:99640
+main.ts:109376
 
 ***
 
@@ -121,9 +123,10 @@ main.ts:99640
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
-default value: false
-with this parameter enabled, you will be charged double the price for the request
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response;
+default value: false;
+Note: historical clickstream data is available from 2024/05 (May, 2024);
+with this parameter enabled, you will be charged double the price for the request;
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Implementation of
@@ -132,7 +135,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:99647
+main.ts:109384
 
 ***
 
@@ -154,7 +157,7 @@ en
 
 #### Defined in
 
-main.ts:99615
+main.ts:109351
 
 ***
 
@@ -176,7 +179,7 @@ English
 
 #### Defined in
 
-main.ts:99607
+main.ts:109343
 
 ***
 
@@ -198,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:99599
+main.ts:109335
 
 ***
 
@@ -220,7 +223,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:99591
+main.ts:109327
 
 ***
 
@@ -240,7 +243,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:99653
+main.ts:109390
 
 ***
 
@@ -259,7 +262,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:99583
+main.ts:109319
 
 ## Methods
 
@@ -269,7 +272,9 @@ main.ts:99583
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -277,7 +282,7 @@ main.ts:99583
 
 #### Defined in
 
-main.ts:99666
+main.ts:109403
 
 ***
 
@@ -287,7 +292,9 @@ main.ts:99666
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -295,7 +302,7 @@ main.ts:99666
 
 #### Defined in
 
-main.ts:99693
+main.ts:109430
 
 ***
 
@@ -305,7 +312,9 @@ main.ts:99693
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -313,4 +322,4 @@ main.ts:99693
 
 #### Defined in
 
-main.ts:99686
+main.ts:109423

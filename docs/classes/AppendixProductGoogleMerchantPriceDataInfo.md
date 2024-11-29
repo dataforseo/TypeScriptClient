@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixProductGoogleMerchantPriceDataInfo
+[Documentation](../README.md) / AppendixProductGoogleMerchantPriceDataInfo
 
 # Class: AppendixProductGoogleMerchantPriceDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixProductGoogleMerchantPriceDataInfo`](../interfaces/IAppendixProductGoogleMerchantPriceDataInfo.md)
+##### data?
+
+[`IAppendixProductGoogleMerchantPriceDataInfo`](../interfaces/IAppendixProductGoogleMerchantPriceDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:221726
+main.ts:236905
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:221726
 
 #### Defined in
 
-main.ts:221720
+main.ts:236899
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:221720
 
 #### Defined in
 
-main.ts:221721
+main.ts:236900
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:221721
 
 #### Defined in
 
-main.ts:221722
+main.ts:236901
 
 ## Methods
 
@@ -82,7 +84,9 @@ main.ts:221722
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -90,7 +94,7 @@ main.ts:221722
 
 #### Defined in
 
-main.ts:221735
+main.ts:236914
 
 ***
 
@@ -100,7 +104,9 @@ main.ts:221735
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +114,7 @@ main.ts:221735
 
 #### Defined in
 
-main.ts:221754
+main.ts:236933
 
 ***
 
@@ -118,7 +124,9 @@ main.ts:221754
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -126,4 +134,4 @@ main.ts:221754
 
 #### Defined in
 
-main.ts:221747
+main.ts:236926

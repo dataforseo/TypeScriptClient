@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleAutocompleteTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleAutocompleteTaskPostRequestInfo
 
 # Class: SerpGoogleAutocompleteTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleAutocompleteTaskPostRequestInfo`](../interfaces/ISerpGoogleAutocompleteTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:51553
+main.ts:55259
 
 ## Properties
 
@@ -61,7 +63,7 @@ products-cc — used in google shopping search
 
 #### Defined in
 
-main.ts:51517
+main.ts:55221
 
 ***
 
@@ -74,7 +76,7 @@ optional field
 the horizontal numerical position of the cursor pointer within the keyword in the search bar;
 by modifying the position of the cursor pointer, you will obtain different autocomplete suggestions for the same seed keyword;
 minimal value: 0
-default value: the number of the last symbol of the specified keyword
+default value: the number of the last character of the specified keyword
 example:
 |which query are s – "cursor_pointer": 0
 which query is s| – "cursor_pointer": 16
@@ -86,7 +88,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Defined in
 
-main.ts:51500
+main.ts:55204
 
 ***
 
@@ -96,10 +98,11 @@ main.ts:51500
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -107,7 +110,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:51454
+main.ts:55158
 
 ***
 
@@ -128,7 +131,7 @@ en
 
 #### Defined in
 
-main.ts:51489
+main.ts:55193
 
 ***
 
@@ -149,7 +152,7 @@ English
 
 #### Defined in
 
-main.ts:51482
+main.ts:55186
 
 ***
 
@@ -169,7 +172,7 @@ example:
 
 #### Defined in
 
-main.ts:51475
+main.ts:55179
 
 ***
 
@@ -190,7 +193,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:51469
+main.ts:55173
 
 ***
 
@@ -205,8 +208,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -214,7 +218,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:51549
+main.ts:55255
 
 ***
 
@@ -234,7 +238,7 @@ advanced
 
 #### Defined in
 
-main.ts:51539
+main.ts:55244
 
 ***
 
@@ -249,8 +253,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be url-encoded;
-i.e., the # symbol will be encoded into %23
+Note: special characters in postback_url will be url-encoded;
+i.e., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -258,7 +263,7 @@ i.e., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:51533
+main.ts:55238
 
 ***
 
@@ -280,7 +285,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:51462
+main.ts:55166
 
 ***
 
@@ -300,7 +305,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:51523
+main.ts:55227
 
 ## Methods
 
@@ -310,7 +315,9 @@ main.ts:51523
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -318,7 +325,7 @@ main.ts:51523
 
 #### Defined in
 
-main.ts:51562
+main.ts:55268
 
 ***
 
@@ -328,7 +335,9 @@ main.ts:51562
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -336,7 +345,7 @@ main.ts:51562
 
 #### Defined in
 
-main.ts:51590
+main.ts:55296
 
 ***
 
@@ -346,7 +355,9 @@ main.ts:51590
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -354,4 +365,4 @@ main.ts:51590
 
 #### Defined in
 
-main.ts:51583
+main.ts:55289

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordsForKeywordsLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordsForKeywordsLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsLiveRequestInfo
 
@@ -27,7 +27,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:131993
+main.ts:143836
 
 ***
 
@@ -47,7 +47,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132003
+main.ts:143846
 
 ***
 
@@ -63,7 +63,7 @@ default value: all
 
 #### Defined in
 
-main.ts:131984
+main.ts:143827
 
 ***
 
@@ -75,10 +75,11 @@ keywords
 required field
 you can specify the maximum of 200 keywords with each keyword containing no more than 100 characters;
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:131933
+main.ts:143776
 
 ***
 
@@ -94,7 +95,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:131978
+main.ts:143821
 
 ***
 
@@ -110,7 +111,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:131967
+main.ts:143810
 
 ***
 
@@ -126,7 +127,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:131961
+main.ts:143804
 
 ***
 
@@ -143,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:131947
+main.ts:143790
 
 ***
 
@@ -161,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:131955
+main.ts:143798
 
 ***
 
@@ -178,7 +179,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:131940
+main.ts:143783
 
 ***
 
@@ -193,7 +194,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:132008
+main.ts:143851
 
 ***
 
@@ -208,7 +209,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:131972
+main.ts:143815
 
 ***
 
@@ -224,4 +225,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:132014
+main.ts:143857

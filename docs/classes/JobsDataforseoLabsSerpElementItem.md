@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / JobsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / JobsDataforseoLabsSerpElementItem
 
 # Class: JobsDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IJobsDataforseoLabsSerpElementItem`](../interfaces/IJobsDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IJobsDataforseoLabsSerpElementItem`](../interfaces/IJobsDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:98581
+main.ts:108317
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:98581
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -68,7 +70,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:98577
+main.ts:108313
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -132,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -148,7 +150,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98573
+main.ts:108309
 
 ***
 
@@ -168,7 +170,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -184,7 +186,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98575
+main.ts:108311
 
 ***
 
@@ -204,7 +206,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -214,7 +216,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -226,7 +230,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:98586
+main.ts:108322
 
 ***
 
@@ -236,7 +240,9 @@ main.ts:98586
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -248,7 +254,7 @@ main.ts:98586
 
 #### Defined in
 
-main.ts:98610
+main.ts:108346
 
 ***
 
@@ -258,7 +264,9 @@ main.ts:98610
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -270,4 +278,4 @@ main.ts:98610
 
 #### Defined in
 
-main.ts:98603
+main.ts:108339

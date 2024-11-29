@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDataforseoLabsDayStatisticsRatesData
+[Documentation](../README.md) / AppendixDataforseoLabsDayStatisticsRatesData
 
 # Class: AppendixDataforseoLabsDayStatisticsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:218604
+main.ts:233603
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:218604
 
 #### Defined in
 
-main.ts:218600
+main.ts:233596
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:218600
 
 #### Defined in
 
-main.ts:218587
+main.ts:233586
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:218587
 
 #### Defined in
 
-main.ts:218589
+main.ts:233588
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:218589
 
 #### Defined in
 
-main.ts:218599
+main.ts:233595
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:218599
 
 #### Defined in
 
-main.ts:218598
+main.ts:233593
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:218598
 
 #### Defined in
 
-main.ts:218590
+main.ts:233589
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:218590
 
 #### Defined in
 
-main.ts:218574
+main.ts:233573
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:218574
 
 #### Defined in
 
-main.ts:218575
+main.ts:233574
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:218575
 
 #### Defined in
 
-main.ts:218573
+main.ts:233572
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:218573
 
 #### Defined in
 
-main.ts:218559
+main.ts:233558
 
 ***
 
@@ -184,7 +186,7 @@ main.ts:218559
 
 #### Defined in
 
-main.ts:218580
+main.ts:233579
 
 ***
 
@@ -198,7 +200,7 @@ main.ts:218580
 
 #### Defined in
 
-main.ts:218597
+main.ts:233598
 
 ***
 
@@ -212,7 +214,7 @@ main.ts:218597
 
 #### Defined in
 
-main.ts:218568
+main.ts:233567
 
 ***
 
@@ -226,7 +228,7 @@ main.ts:218568
 
 #### Defined in
 
-main.ts:218571
+main.ts:233570
 
 ***
 
@@ -240,7 +242,7 @@ main.ts:218571
 
 #### Defined in
 
-main.ts:218581
+main.ts:233580
 
 ***
 
@@ -254,7 +256,7 @@ main.ts:218581
 
 #### Defined in
 
-main.ts:218570
+main.ts:233569
 
 ***
 
@@ -268,7 +270,7 @@ main.ts:218570
 
 #### Defined in
 
-main.ts:218583
+main.ts:233582
 
 ***
 
@@ -282,7 +284,7 @@ main.ts:218583
 
 #### Defined in
 
-main.ts:218560
+main.ts:233559
 
 ***
 
@@ -296,7 +298,7 @@ main.ts:218560
 
 #### Defined in
 
-main.ts:218592
+main.ts:233592
 
 ***
 
@@ -310,7 +312,7 @@ main.ts:218592
 
 #### Defined in
 
-main.ts:218584
+main.ts:233583
 
 ***
 
@@ -324,7 +326,7 @@ main.ts:218584
 
 #### Defined in
 
-main.ts:218579
+main.ts:233578
 
 ***
 
@@ -338,7 +340,7 @@ main.ts:218579
 
 #### Defined in
 
-main.ts:218586
+main.ts:233585
 
 ***
 
@@ -352,7 +354,7 @@ main.ts:218586
 
 #### Defined in
 
-main.ts:218594
+main.ts:233591
 
 ***
 
@@ -366,7 +368,7 @@ main.ts:218594
 
 #### Defined in
 
-main.ts:218578
+main.ts:233577
 
 ***
 
@@ -380,7 +382,7 @@ main.ts:218578
 
 #### Defined in
 
-main.ts:218577
+main.ts:233576
 
 ***
 
@@ -394,7 +396,7 @@ main.ts:218577
 
 #### Defined in
 
-main.ts:218588
+main.ts:233587
 
 ***
 
@@ -408,7 +410,7 @@ main.ts:218588
 
 #### Defined in
 
-main.ts:218585
+main.ts:233584
 
 ***
 
@@ -422,7 +424,7 @@ main.ts:218585
 
 #### Defined in
 
-main.ts:218576
+main.ts:233575
 
 ***
 
@@ -436,7 +438,7 @@ main.ts:218576
 
 #### Defined in
 
-main.ts:218593
+main.ts:233597
 
 ***
 
@@ -450,7 +452,7 @@ main.ts:218593
 
 #### Defined in
 
-main.ts:218558
+main.ts:233557
 
 ***
 
@@ -464,7 +466,7 @@ main.ts:218558
 
 #### Defined in
 
-main.ts:218572
+main.ts:233571
 
 ***
 
@@ -478,7 +480,7 @@ main.ts:218572
 
 #### Defined in
 
-main.ts:218561
+main.ts:233560
 
 ***
 
@@ -492,7 +494,7 @@ main.ts:218561
 
 #### Defined in
 
-main.ts:218562
+main.ts:233561
 
 ***
 
@@ -506,7 +508,7 @@ main.ts:218562
 
 #### Defined in
 
-main.ts:218563
+main.ts:233562
 
 ***
 
@@ -520,7 +522,7 @@ main.ts:218563
 
 #### Defined in
 
-main.ts:218564
+main.ts:233563
 
 ***
 
@@ -534,7 +536,7 @@ main.ts:218564
 
 #### Defined in
 
-main.ts:218569
+main.ts:233568
 
 ***
 
@@ -548,7 +550,7 @@ main.ts:218569
 
 #### Defined in
 
-main.ts:218567
+main.ts:233566
 
 ***
 
@@ -562,7 +564,7 @@ main.ts:218567
 
 #### Defined in
 
-main.ts:218591
+main.ts:233590
 
 ***
 
@@ -576,7 +578,7 @@ main.ts:218591
 
 #### Defined in
 
-main.ts:218565
+main.ts:233564
 
 ***
 
@@ -590,7 +592,7 @@ main.ts:218565
 
 #### Defined in
 
-main.ts:218596
+main.ts:233594
 
 ***
 
@@ -604,7 +606,7 @@ main.ts:218596
 
 #### Defined in
 
-main.ts:218566
+main.ts:233565
 
 ***
 
@@ -618,7 +620,7 @@ main.ts:218566
 
 #### Defined in
 
-main.ts:218595
+main.ts:233599
 
 ***
 
@@ -632,7 +634,7 @@ main.ts:218595
 
 #### Defined in
 
-main.ts:218582
+main.ts:233581
 
 ## Methods
 
@@ -642,7 +644,9 @@ main.ts:218582
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -650,7 +654,7 @@ main.ts:218582
 
 #### Defined in
 
-main.ts:218613
+main.ts:233612
 
 ***
 
@@ -660,7 +664,9 @@ main.ts:218613
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -668,7 +674,7 @@ main.ts:218613
 
 #### Defined in
 
-main.ts:218672
+main.ts:233671
 
 ***
 
@@ -678,7 +684,9 @@ main.ts:218672
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -686,4 +694,4 @@ main.ts:218672
 
 #### Defined in
 
-main.ts:218665
+main.ts:233664

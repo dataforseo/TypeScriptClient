@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleEventsTaskPostRequestInfo
+[Documentation](../README.md) / ISerpGoogleEventsTaskPostRequestInfo
 
 # Interface: ISerpGoogleEventsTaskPostRequestInfo
 
@@ -23,7 +23,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-main.ts:45334
+main.ts:48149
 
 ***
 
@@ -42,7 +42,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:45356
+main.ts:48171
 
 ***
 
@@ -52,14 +52,15 @@ main.ts:45356
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:45280
+main.ts:48095
 
 ***
 
@@ -77,7 +78,7 @@ en
 
 #### Defined in
 
-main.ts:45329
+main.ts:48144
 
 ***
 
@@ -95,7 +96,7 @@ English
 
 #### Defined in
 
-main.ts:45321
+main.ts:48136
 
 ***
 
@@ -112,7 +113,7 @@ example:
 
 #### Defined in
 
-main.ts:45302
+main.ts:48117
 
 ***
 
@@ -133,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:45313
+main.ts:48128
 
 ***
 
@@ -150,7 +151,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:45295
+main.ts:48110
 
 ***
 
@@ -167,7 +168,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:45363
+main.ts:48178
 
 ***
 
@@ -183,7 +184,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:45340
+main.ts:48155
 
 ***
 
@@ -198,12 +199,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:45395
+main.ts:48212
 
 ***
 
@@ -219,7 +221,7 @@ advanced
 
 #### Defined in
 
-main.ts:45385
+main.ts:48201
 
 ***
 
@@ -234,12 +236,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:45379
+main.ts:48195
 
 ***
 
@@ -257,7 +260,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:45288
+main.ts:48103
 
 ***
 
@@ -274,7 +277,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:45347
+main.ts:48162
 
 ***
 
@@ -290,4 +293,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:45369
+main.ts:48184

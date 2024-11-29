@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixLimitsRatesData
+[Documentation](../README.md) / AppendixLimitsRatesData
 
 # Class: AppendixLimitsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md)
+##### data?
+
+[`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:218175
+main.ts:233150
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:218175
 
 #### Defined in
 
-main.ts:218170
+main.ts:233145
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:218170
 
 #### Defined in
 
-main.ts:218171
+main.ts:233146
 
 ## Methods
 
@@ -68,7 +70,9 @@ main.ts:218171
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -76,7 +80,7 @@ main.ts:218171
 
 #### Defined in
 
-main.ts:218184
+main.ts:233159
 
 ***
 
@@ -86,7 +90,9 @@ main.ts:218184
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -94,7 +100,7 @@ main.ts:218184
 
 #### Defined in
 
-main.ts:218202
+main.ts:233177
 
 ***
 
@@ -104,7 +110,9 @@ main.ts:218202
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -112,4 +120,4 @@ main.ts:218202
 
 #### Defined in
 
-main.ts:218195
+main.ts:233170

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetInfoTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleDatasetInfoTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetInfoTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:55217
+main.ts:58894
 
 ## Properties
 
@@ -50,7 +52,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-main.ts:55153
+main.ts:58828
 
 ***
 
@@ -68,7 +70,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:55177
+main.ts:58852
 
 ***
 
@@ -88,7 +90,7 @@ en
 
 #### Defined in
 
-main.ts:55173
+main.ts:58848
 
 ***
 
@@ -108,7 +110,7 @@ English
 
 #### Defined in
 
-main.ts:55167
+main.ts:58842
 
 ***
 
@@ -127,7 +129,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:55182
+main.ts:58857
 
 ***
 
@@ -142,8 +144,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -151,7 +154,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:55213
+main.ts:58890
 
 ***
 
@@ -170,7 +173,7 @@ possible value: advanced
 
 #### Defined in
 
-main.ts:55203
+main.ts:58879
 
 ***
 
@@ -185,8 +188,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -194,7 +198,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:55198
+main.ts:58874
 
 ***
 
@@ -216,7 +220,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:55161
+main.ts:58836
 
 ***
 
@@ -236,7 +240,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:55188
+main.ts:58863
 
 ## Methods
 
@@ -246,7 +250,9 @@ main.ts:55188
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -254,7 +260,7 @@ main.ts:55188
 
 #### Defined in
 
-main.ts:55226
+main.ts:58903
 
 ***
 
@@ -264,7 +270,9 @@ main.ts:55226
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -272,7 +280,7 @@ main.ts:55226
 
 #### Defined in
 
-main.ts:55252
+main.ts:58929
 
 ***
 
@@ -282,7 +290,9 @@ main.ts:55252
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -290,4 +300,4 @@ main.ts:55252
 
 #### Defined in
 
-main.ts:55245
+main.ts:58922

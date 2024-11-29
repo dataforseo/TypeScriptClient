@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixOnPageDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixOnPageDayStatisticsRatesData
 
 # Interface: IAppendixOnPageDayStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:219124
+main.ts:234120
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:219124
 
 #### Defined in
 
-main.ts:219119
+main.ts:234118
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:219119
 
 #### Defined in
 
-main.ts:219120
+main.ts:234119
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:219120
 
 #### Defined in
 
-main.ts:219112
+main.ts:234111
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:219112
 
 #### Defined in
 
-main.ts:219107
+main.ts:234106
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:219107
 
 #### Defined in
 
-main.ts:219110
+main.ts:234109
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:219110
 
 #### Defined in
 
-main.ts:219122
+main.ts:234121
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:219122
 
 #### Defined in
 
-main.ts:219123
+main.ts:234123
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:219123
 
 #### Defined in
 
-main.ts:219114
+main.ts:234113
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:219114
 
 #### Defined in
 
-main.ts:219117
+main.ts:234116
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:219117
 
 #### Defined in
 
-main.ts:219116
+main.ts:234115
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:219116
 
 #### Defined in
 
-main.ts:219108
+main.ts:234107
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:219108
 
 #### Defined in
 
-main.ts:219121
+main.ts:234122
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:219121
 
 #### Defined in
 
-main.ts:219106
+main.ts:234105
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:219106
 
 #### Defined in
 
-main.ts:219118
+main.ts:234117
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:219118
 
 #### Defined in
 
-main.ts:219105
+main.ts:234104
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:219105
 
 #### Defined in
 
-main.ts:219111
+main.ts:234110
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:219111
 
 #### Defined in
 
-main.ts:219113
+main.ts:234112
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:219113
 
 #### Defined in
 
-main.ts:219115
+main.ts:234114
 
 ***
 
@@ -208,7 +208,7 @@ main.ts:219115
 
 #### Defined in
 
-main.ts:219104
+main.ts:234103
 
 ***
 
@@ -218,7 +218,7 @@ main.ts:219104
 
 #### Defined in
 
-main.ts:219103
+main.ts:234102
 
 ***
 
@@ -228,7 +228,7 @@ main.ts:219103
 
 #### Defined in
 
-main.ts:219101
+main.ts:234100
 
 ***
 
@@ -238,7 +238,7 @@ main.ts:219101
 
 #### Defined in
 
-main.ts:219102
+main.ts:234101
 
 ***
 
@@ -248,4 +248,4 @@ main.ts:219102
 
 #### Defined in
 
-main.ts:219109
+main.ts:234108

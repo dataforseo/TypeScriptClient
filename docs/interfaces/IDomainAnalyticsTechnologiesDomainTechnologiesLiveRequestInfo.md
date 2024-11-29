@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
@@ -23,4 +23,4 @@ Note: results will be returned for the specified domain only
 
 #### Defined in
 
-main.ts:78897
+main.ts:88609

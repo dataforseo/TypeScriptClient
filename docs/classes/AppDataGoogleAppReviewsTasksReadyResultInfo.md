@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppReviewsTasksReadyResultInfo
+[Documentation](../README.md) / AppDataGoogleAppReviewsTasksReadyResultInfo
 
 # Class: AppDataGoogleAppReviewsTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppReviewsTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:190782
+main.ts:203118
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:190771
+main.ts:203107
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Google App Reviews task
 
 #### Defined in
 
-main.ts:190775
+main.ts:203111
 
 ***
 
@@ -79,7 +81,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:190778
+main.ts:203114
 
 ***
 
@@ -96,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:190765
+main.ts:203101
 
 ***
 
@@ -112,7 +114,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:190767
+main.ts:203103
 
 ***
 
@@ -128,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:190769
+main.ts:203105
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:190773
+main.ts:203109
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:190773
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:190773
 
 #### Defined in
 
-main.ts:190791
+main.ts:203127
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:190791
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:190791
 
 #### Defined in
 
-main.ts:190814
+main.ts:203150
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:190814
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:190814
 
 #### Defined in
 
-main.ts:190807
+main.ts:203143

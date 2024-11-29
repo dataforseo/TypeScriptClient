@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MentionCarouselElement
+[Documentation](../README.md) / MentionCarouselElement
 
 # Class: MentionCarouselElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md)
+##### data?
+
+[`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:32139
+main.ts:33692
 
 ## Properties
 
@@ -46,7 +48,7 @@ additional elements in the mention_carousel item
 
 #### Defined in
 
-main.ts:32135
+main.ts:33688
 
 ***
 
@@ -62,7 +64,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:32130
+main.ts:33683
 
 ***
 
@@ -79,7 +81,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32133
+main.ts:33686
 
 ***
 
@@ -95,7 +97,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32128
+main.ts:33681
 
 ***
 
@@ -111,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:32126
+main.ts:33679
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:32126
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:32126
 
 #### Defined in
 
-main.ts:32148
+main.ts:33701
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:32148
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:32148
 
 #### Defined in
 
-main.ts:32173
+main.ts:33726
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:32173
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:32173
 
 #### Defined in
 
-main.ts:32166
+main.ts:33719

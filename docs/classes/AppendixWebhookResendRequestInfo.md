@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixWebhookResendRequestInfo
+[Documentation](../README.md) / AppendixWebhookResendRequestInfo
 
 # Class: AppendixWebhookResendRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md)
+##### data?
+
+[`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:224016
+main.ts:239203
 
 ## Properties
 
@@ -49,7 +51,7 @@ each identifier in the task array must be specified as a separate object
 
 #### Defined in
 
-main.ts:224012
+main.ts:239199
 
 ## Methods
 
@@ -59,7 +61,9 @@ main.ts:224012
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -67,7 +71,7 @@ main.ts:224012
 
 #### Defined in
 
-main.ts:224025
+main.ts:239212
 
 ***
 
@@ -77,7 +81,9 @@ main.ts:224025
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -85,7 +91,7 @@ main.ts:224025
 
 #### Defined in
 
-main.ts:224042
+main.ts:239229
 
 ***
 
@@ -95,7 +101,9 @@ main.ts:224042
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -103,4 +111,4 @@ main.ts:224042
 
 #### Defined in
 
-main.ts:224035
+main.ts:239222

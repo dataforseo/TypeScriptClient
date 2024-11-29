@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:120919
+main.ts:131157
 
 ## Properties
 
@@ -50,7 +52,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:120813
+main.ts:131049
 
 ***
 
@@ -74,7 +76,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:120869
+main.ts:131105
 
 ***
 
@@ -94,7 +96,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:120884
+main.ts:131120
 
 ***
 
@@ -117,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:120878
+main.ts:131114
 
 ***
 
@@ -135,7 +137,8 @@ Note #1: Google Ads may return no data for certain groups of keywords;
 Note #2: Google Ads provides combined search volume values for groups of similar keywords
 to obtain search volume for similar keywords, we recommend submitting such keywords in separate requests;
 Note #3: Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -143,7 +146,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:120807
+main.ts:131043
 
 ***
 
@@ -163,7 +166,7 @@ en
 
 #### Defined in
 
-main.ts:120859
+main.ts:131095
 
 ***
 
@@ -183,7 +186,7 @@ English
 
 #### Defined in
 
-main.ts:120853
+main.ts:131089
 
 ***
 
@@ -205,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:120838
+main.ts:131074
 
 ***
 
@@ -228,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:120847
+main.ts:131083
 
 ***
 
@@ -250,7 +253,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:120830
+main.ts:131066
 
 ***
 
@@ -268,7 +271,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:120817
+main.ts:131053
 
 ***
 
@@ -283,8 +286,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -292,7 +296,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:120909
+main.ts:131147
 
 ***
 
@@ -307,8 +311,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -316,7 +321,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:120899
+main.ts:131136
 
 ***
 
@@ -335,7 +340,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:120822
+main.ts:131058
 
 ***
 
@@ -354,7 +359,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:120889
+main.ts:131125
 
 ***
 
@@ -374,7 +379,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:120915
+main.ts:131153
 
 ## Methods
 
@@ -384,7 +389,9 @@ main.ts:120915
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -392,7 +399,7 @@ main.ts:120915
 
 #### Defined in
 
-main.ts:120928
+main.ts:131166
 
 ***
 
@@ -402,7 +409,9 @@ main.ts:120928
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -410,7 +419,7 @@ main.ts:120928
 
 #### Defined in
 
-main.ts:120964
+main.ts:131202
 
 ***
 
@@ -420,7 +429,9 @@ main.ts:120964
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -428,4 +439,4 @@ main.ts:120964
 
 #### Defined in
 
-main.ts:120957
+main.ts:131195

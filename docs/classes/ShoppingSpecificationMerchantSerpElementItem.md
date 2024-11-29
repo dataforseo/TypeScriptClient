@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ShoppingSpecificationMerchantSerpElementItem
+[Documentation](../README.md) / ShoppingSpecificationMerchantSerpElementItem
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md)
+##### data?
+
+[`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:177521
+main.ts:189258
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:177521
 
 #### Defined in
 
-main.ts:21044
+main.ts:21722
 
 ***
 
@@ -69,7 +71,7 @@ indicates the name of the product specification section in which the related ele
 
 #### Defined in
 
-main.ts:177512
+main.ts:189249
 
 ***
 
@@ -91,7 +93,7 @@ left, right
 
 #### Defined in
 
-main.ts:21042
+main.ts:21720
 
 ***
 
@@ -112,7 +114,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21038
+main.ts:21716
 
 ***
 
@@ -133,7 +135,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21035
+main.ts:21713
 
 ***
 
@@ -150,7 +152,7 @@ attribute name of the product data specification
 
 #### Defined in
 
-main.ts:177515
+main.ts:189252
 
 ***
 
@@ -166,7 +168,7 @@ content of the specification
 
 #### Defined in
 
-main.ts:177517
+main.ts:189254
 
 ***
 
@@ -186,7 +188,7 @@ type of element
 
 #### Defined in
 
-main.ts:21032
+main.ts:21710
 
 ***
 
@@ -202,7 +204,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:177509
+main.ts:189246
 
 ## Methods
 
@@ -212,7 +214,9 @@ main.ts:177509
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -224,7 +228,7 @@ main.ts:177509
 
 #### Defined in
 
-main.ts:177526
+main.ts:189263
 
 ***
 
@@ -234,7 +238,9 @@ main.ts:177526
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -246,7 +252,7 @@ main.ts:177526
 
 #### Defined in
 
-main.ts:177547
+main.ts:189284
 
 ***
 
@@ -256,7 +262,9 @@ main.ts:177547
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -268,4 +276,4 @@ main.ts:177547
 
 #### Defined in
 
-main.ts:177540
+main.ts:189277

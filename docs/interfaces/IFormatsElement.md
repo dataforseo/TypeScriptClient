@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFormatsElement
+[Documentation](../README.md) / IFormatsElement
 
 # Interface: IFormatsElement
 
@@ -21,7 +21,7 @@ for example: zip, html, csv
 
 #### Defined in
 
-main.ts:53976
+main.ts:57705
 
 ***
 
@@ -33,7 +33,7 @@ file size in bytes
 
 #### Defined in
 
-main.ts:53978
+main.ts:57707
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Defined in
 
-main.ts:53973
+main.ts:57702

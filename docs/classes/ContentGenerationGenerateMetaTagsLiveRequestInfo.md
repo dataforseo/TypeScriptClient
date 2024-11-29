@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateMetaTagsLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationGenerateMetaTagsLiveRequestInfo
 
 # Class: ContentGenerationGenerateMetaTagsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateMetaTagsLiveRequestInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationGenerateMetaTagsLiveRequestInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:170292
+main.ts:181881
 
 ## Properties
 
@@ -51,7 +53,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:170282
+main.ts:181871
 
 ***
 
@@ -71,7 +73,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:170288
+main.ts:181877
 
 ***
 
@@ -91,7 +93,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:170275
+main.ts:181864
 
 ## Methods
 
@@ -101,7 +103,9 @@ main.ts:170275
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -109,7 +113,7 @@ main.ts:170275
 
 #### Defined in
 
-main.ts:170301
+main.ts:181890
 
 ***
 
@@ -119,7 +123,9 @@ main.ts:170301
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -127,7 +133,7 @@ main.ts:170301
 
 #### Defined in
 
-main.ts:170320
+main.ts:181909
 
 ***
 
@@ -137,7 +143,9 @@ main.ts:170320
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -145,4 +153,4 @@ main.ts:170320
 
 #### Defined in
 
-main.ts:170313
+main.ts:181902

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:134847
+main.ts:146704
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:134847
 
 #### Defined in
 
-main.ts:134836
+main.ts:146693
 
 ***
 
@@ -60,7 +62,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:134829
+main.ts:146686
 
 ***
 
@@ -77,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:134835
+main.ts:146692
 
 ***
 
@@ -94,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:134832
+main.ts:146689
 
 ***
 
@@ -112,7 +114,7 @@ default value monthly
 
 #### Defined in
 
-main.ts:134840
+main.ts:146697
 
 ***
 
@@ -129,7 +131,7 @@ if the device parameter is not specified, the data will be returned for all avai
 
 #### Defined in
 
-main.ts:134843
+main.ts:146700
 
 ## Methods
 
@@ -139,7 +141,9 @@ main.ts:134843
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +151,7 @@ main.ts:134843
 
 #### Defined in
 
-main.ts:134856
+main.ts:146713
 
 ***
 
@@ -157,7 +161,9 @@ main.ts:134856
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +171,7 @@ main.ts:134856
 
 #### Defined in
 
-main.ts:134882
+main.ts:146739
 
 ***
 
@@ -175,7 +181,9 @@ main.ts:134882
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -183,4 +191,4 @@ main.ts:134882
 
 #### Defined in
 
-main.ts:134875
+main.ts:146732

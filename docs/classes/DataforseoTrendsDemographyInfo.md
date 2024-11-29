@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoTrendsDemographyInfo
+[Documentation](../README.md) / DataforseoTrendsDemographyInfo
 
 # Class: DataforseoTrendsDemographyInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md)
+##### data?
+
+[`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:127102
+main.ts:137359
 
 ## Properties
 
@@ -47,7 +49,7 @@ conains keyword popularity data by age and gender
 
 #### Defined in
 
-main.ts:127094
+main.ts:137351
 
 ***
 
@@ -65,7 +67,7 @@ if you specified a single keyword, the value will be null
 
 #### Defined in
 
-main.ts:127098
+main.ts:137355
 
 ***
 
@@ -82,7 +84,7 @@ the data included in the demography and demography_comparison is based on the ke
 
 #### Defined in
 
-main.ts:127091
+main.ts:137348
 
 ***
 
@@ -99,7 +101,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:127086
+main.ts:137343
 
 ***
 
@@ -115,7 +117,7 @@ type of element
 
 #### Defined in
 
-main.ts:127088
+main.ts:137345
 
 ## Methods
 
@@ -125,7 +127,9 @@ main.ts:127088
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -133,7 +137,7 @@ main.ts:127088
 
 #### Defined in
 
-main.ts:127111
+main.ts:137368
 
 ***
 
@@ -143,7 +147,9 @@ main.ts:127111
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -151,7 +157,7 @@ main.ts:127111
 
 #### Defined in
 
-main.ts:127136
+main.ts:137393
 
 ***
 
@@ -161,7 +167,9 @@ main.ts:127136
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -169,4 +177,4 @@ main.ts:127136
 
 #### Defined in
 
-main.ts:127129
+main.ts:137386

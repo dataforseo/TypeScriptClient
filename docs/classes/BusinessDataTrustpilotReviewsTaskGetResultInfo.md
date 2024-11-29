@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:211940
+main.ts:226873
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:211914
+main.ts:226847
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:211919
+main.ts:226852
 
 ***
 
@@ -82,7 +84,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:211907
+main.ts:226840
 
 ***
 
@@ -99,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:211936
+main.ts:226869
 
 ***
 
@@ -116,7 +118,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:211933
+main.ts:226866
 
 ***
 
@@ -133,7 +135,7 @@ address of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:211925
+main.ts:226858
 
 ***
 
@@ -150,7 +152,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:211930
+main.ts:226863
 
 ***
 
@@ -166,7 +168,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:211927
+main.ts:226860
 
 ***
 
@@ -182,7 +184,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:211911
+main.ts:226844
 
 ***
 
@@ -199,7 +201,7 @@ the name of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:211922
+main.ts:226855
 
 ***
 
@@ -215,7 +217,7 @@ type of element
 
 #### Defined in
 
-main.ts:211909
+main.ts:226842
 
 ## Methods
 
@@ -225,7 +227,9 @@ main.ts:211909
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -233,7 +237,7 @@ main.ts:211909
 
 #### Defined in
 
-main.ts:211949
+main.ts:226882
 
 ***
 
@@ -243,7 +247,9 @@ main.ts:211949
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -251,7 +257,7 @@ main.ts:211949
 
 #### Defined in
 
-main.ts:211980
+main.ts:226913
 
 ***
 
@@ -261,7 +267,9 @@ main.ts:211980
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -269,4 +277,4 @@ main.ts:211980
 
 #### Defined in
 
-main.ts:211973
+main.ts:226906

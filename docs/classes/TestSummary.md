@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TestSummary
+[Documentation](../README.md) / TestSummary
 
 # Class: TestSummary
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITestSummary`](../interfaces/ITestSummary.md)
+##### data?
+
+[`ITestSummary`](../interfaces/ITestSummary.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:159947
+main.ts:171582
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of serious microdata errors
 
 #### Defined in
 
-main.ts:159939
+main.ts:171574
 
 ***
 
@@ -62,7 +64,7 @@ number of fatal microdata errors
 
 #### Defined in
 
-main.ts:159937
+main.ts:171572
 
 ***
 
@@ -78,7 +80,7 @@ number of microdata information flags
 
 #### Defined in
 
-main.ts:159943
+main.ts:171578
 
 ***
 
@@ -94,7 +96,7 @@ number of microdata warnings
 
 #### Defined in
 
-main.ts:159941
+main.ts:171576
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:159941
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:159941
 
 #### Defined in
 
-main.ts:159956
+main.ts:171591
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:159956
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:159956
 
 #### Defined in
 
-main.ts:159976
+main.ts:171611
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:159976
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:159976
 
 #### Defined in
 
-main.ts:159969
+main.ts:171604

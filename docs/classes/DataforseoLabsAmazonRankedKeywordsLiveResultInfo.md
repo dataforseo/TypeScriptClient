@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonRankedKeywordsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAmazonRankedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsAmazonRankedKeywordsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:103720
+main.ts:113358
 
 ## Properties
 
@@ -46,7 +48,7 @@ ASIN in a POST array
 
 #### Defined in
 
-main.ts:103704
+main.ts:113342
 
 ***
 
@@ -62,7 +64,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:103716
+main.ts:113354
 
 ***
 
@@ -78,7 +80,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:103714
+main.ts:113352
 
 ***
 
@@ -95,7 +97,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:103710
+main.ts:113348
 
 ***
 
@@ -112,7 +114,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:103707
+main.ts:113345
 
 ***
 
@@ -128,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103702
+main.ts:113340
 
 ***
 
@@ -144,7 +146,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:103712
+main.ts:113350
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:103712
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:103712
 
 #### Defined in
 
-main.ts:103729
+main.ts:113367
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:103729
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:103729
 
 #### Defined in
 
-main.ts:103756
+main.ts:113394
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:103756
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:103756
 
 #### Defined in
 
-main.ts:103749
+main.ts:113387

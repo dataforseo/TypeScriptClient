@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SslInfo
+[Documentation](../README.md) / SslInfo
 
 # Class: SslInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISslInfo`](../interfaces/ISslInfo.md)
+##### data?
+
+[`ISslInfo`](../interfaces/ISslInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:153512
+main.ts:165139
 
 ## Properties
 
@@ -50,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:153508
+main.ts:165135
 
 ***
 
@@ -67,7 +69,7 @@ the version of the ssl certificate’s hash function
 
 #### Defined in
 
-main.ts:153502
+main.ts:165129
 
 ***
 
@@ -84,7 +86,7 @@ the entity that issued the detected ssl certificate
 
 #### Defined in
 
-main.ts:153493
+main.ts:165120
 
 ***
 
@@ -101,7 +103,7 @@ the entity associated with the public key
 
 #### Defined in
 
-main.ts:153496
+main.ts:165123
 
 ***
 
@@ -118,7 +120,7 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Defined in
 
-main.ts:153499
+main.ts:165126
 
 ***
 
@@ -135,7 +137,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-main.ts:153490
+main.ts:165117
 
 ## Methods
 
@@ -145,7 +147,9 @@ main.ts:153490
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -153,7 +157,7 @@ main.ts:153490
 
 #### Defined in
 
-main.ts:153521
+main.ts:165148
 
 ***
 
@@ -163,7 +167,9 @@ main.ts:153521
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -171,7 +177,7 @@ main.ts:153521
 
 #### Defined in
 
-main.ts:153543
+main.ts:165170
 
 ***
 
@@ -181,7 +187,9 @@ main.ts:153543
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -189,4 +197,4 @@ main.ts:153543
 
 #### Defined in
 
-main.ts:153536
+main.ts:165163

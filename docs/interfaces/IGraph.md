@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGraph
+[Documentation](../README.md) / IGraph
 
 # Interface: IGraph
 
@@ -20,7 +20,7 @@ contains arrays of elements available in the list
 
 #### Defined in
 
-main.ts:33532
+main.ts:35085
 
 ***
 
@@ -33,4 +33,4 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-main.ts:33535
+main.ts:35088

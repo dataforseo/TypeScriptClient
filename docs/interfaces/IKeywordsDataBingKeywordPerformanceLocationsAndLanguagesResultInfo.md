@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
@@ -21,7 +21,7 @@ contains locations supported in combination with a specific language
 
 #### Defined in
 
-main.ts:132420
+main.ts:144263
 
 ***
 
@@ -33,7 +33,7 @@ language code
 
 #### Defined in
 
-main.ts:132417
+main.ts:144260
 
 ***
 
@@ -45,4 +45,4 @@ language name
 
 #### Defined in
 
-main.ts:132415
+main.ts:144258

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisRatingDistributionLiveResultInfo
+[Documentation](../README.md) / ContentAnalysisRatingDistributionLiveResultInfo
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisRatingDistributionLiveResultInfo`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md)
+##### data?
+
+[`IContentAnalysisRatingDistributionLiveResultInfo`](../interfaces/IContentAnalysisRatingDistributionLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:168117
+main.ts:179706
 
 ## Properties
 
@@ -46,7 +48,7 @@ max rating on a distribution scale
 
 #### Defined in
 
-main.ts:168111
+main.ts:179700
 
 ***
 
@@ -62,7 +64,7 @@ contains rating distribution metrics
 
 #### Defined in
 
-main.ts:168113
+main.ts:179702
 
 ***
 
@@ -78,7 +80,7 @@ min rating on a distribution scale
 
 #### Defined in
 
-main.ts:168109
+main.ts:179698
 
 ***
 
@@ -94,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:168107
+main.ts:179696
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:168107
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:168107
 
 #### Defined in
 
-main.ts:168126
+main.ts:179715
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:168126
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:168126
 
 #### Defined in
 
-main.ts:168146
+main.ts:179735
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:168146
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:168146
 
 #### Defined in
 
-main.ts:168139
+main.ts:179728

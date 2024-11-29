@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsCategoriesResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Class: KeywordsDataGoogleTrendsCategoriesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsCategoriesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsCategoriesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsCategoriesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:122846
+main.ts:133089
 
 ## Properties
 
@@ -46,7 +48,7 @@ unique google trends category identifier
 
 #### Defined in
 
-main.ts:122831
+main.ts:133074
 
 ***
 
@@ -69,7 +71,7 @@ where category_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:122842
+main.ts:133085
 
 ***
 
@@ -85,7 +87,7 @@ name of the google trends category
 
 #### Defined in
 
-main.ts:122833
+main.ts:133076
 
 ## Methods
 
@@ -95,7 +97,9 @@ main.ts:122833
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -103,7 +107,7 @@ main.ts:122833
 
 #### Defined in
 
-main.ts:122855
+main.ts:133098
 
 ***
 
@@ -113,7 +117,9 @@ main.ts:122855
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -121,7 +127,7 @@ main.ts:122855
 
 #### Defined in
 
-main.ts:122874
+main.ts:133117
 
 ***
 
@@ -131,7 +137,9 @@ main.ts:122874
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -139,4 +147,4 @@ main.ts:122874
 
 #### Defined in
 
-main.ts:122867
+main.ts:133110

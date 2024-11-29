@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksCompetitorsLiveResultInfo
+[Documentation](../README.md) / BacklinksCompetitorsLiveResultInfo
 
 # Class: BacklinksCompetitorsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md)
+##### data?
+
+[`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:145845
+main.ts:157050
 
 ## Properties
 
@@ -46,7 +48,7 @@ items array
 
 #### Defined in
 
-main.ts:145841
+main.ts:157046
 
 ***
 
@@ -62,7 +64,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:145839
+main.ts:157044
 
 ***
 
@@ -78,7 +80,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:145837
+main.ts:157042
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:145837
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:145837
 
 #### Defined in
 
-main.ts:145854
+main.ts:157059
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:145854
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:145854
 
 #### Defined in
 
-main.ts:145877
+main.ts:157082
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:145877
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:145877
 
 #### Defined in
 
-main.ts:145870
+main.ts:157075

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IEventsElement
+[Documentation](../README.md) / IEventsElement
 
 # Interface: IEventsElement
 
@@ -20,7 +20,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:32341
+main.ts:33894
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32339
+main.ts:33892
 
 ***
 
@@ -44,7 +44,7 @@ type of element
 
 #### Defined in
 
-main.ts:32337
+main.ts:33890
 
 ***
 
@@ -56,4 +56,4 @@ URL
 
 #### Defined in
 
-main.ts:32343
+main.ts:33896

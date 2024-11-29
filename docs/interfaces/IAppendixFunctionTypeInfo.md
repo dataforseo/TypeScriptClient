@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixFunctionTypeInfo
+[Documentation](../README.md) / IAppendixFunctionTypeInfo
 
 # Interface: IAppendixFunctionTypeInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:215531
+main.ts:230474
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:215531
 
 #### Defined in
 
-main.ts:215532
+main.ts:230475
 
 ***
 
@@ -38,4 +38,4 @@ main.ts:215532
 
 #### Defined in
 
-main.ts:215530
+main.ts:230473

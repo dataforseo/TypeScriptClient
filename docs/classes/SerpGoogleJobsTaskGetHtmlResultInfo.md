@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleJobsTaskGetHtmlResultInfo
+[Documentation](../README.md) / SerpGoogleJobsTaskGetHtmlResultInfo
 
 # Class: SerpGoogleJobsTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md)
+##### data?
+
+[`ISerpGoogleJobsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleJobsTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:51253
+main.ts:54956
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:51245
+main.ts:54948
 
 ***
 
@@ -65,7 +67,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:51249
+main.ts:54952
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:51247
+main.ts:54950
 
 ***
 
@@ -98,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:51232
+main.ts:54935
 
 ***
 
@@ -114,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:51240
+main.ts:54943
 
 ***
 
@@ -130,7 +132,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:51238
+main.ts:54941
 
 ***
 
@@ -146,7 +148,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:51236
+main.ts:54939
 
 ***
 
@@ -162,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:51234
+main.ts:54937
 
 ## Methods
 
@@ -172,7 +174,9 @@ main.ts:51234
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +184,7 @@ main.ts:51234
 
 #### Defined in
 
-main.ts:51262
+main.ts:54965
 
 ***
 
@@ -190,7 +194,9 @@ main.ts:51262
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +204,7 @@ main.ts:51262
 
 #### Defined in
 
-main.ts:51290
+main.ts:54993
 
 ***
 
@@ -208,7 +214,9 @@ main.ts:51290
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:51290
 
 #### Defined in
 
-main.ts:51283
+main.ts:54986

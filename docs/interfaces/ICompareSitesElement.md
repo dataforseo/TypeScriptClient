@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICompareSitesElement
+[Documentation](../README.md) / ICompareSitesElement
 
 # Interface: ICompareSitesElement
 
@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:36317
+main.ts:37802
 
 ***
 
@@ -33,7 +33,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:36320
+main.ts:37805
 
 ***
 
@@ -46,7 +46,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36323
+main.ts:37808
 
 ***
 
@@ -58,7 +58,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36313
+main.ts:37798
 
 ***
 
@@ -70,7 +70,7 @@ type of element
 
 #### Defined in
 
-main.ts:36311
+main.ts:37796
 
 ***
 
@@ -82,4 +82,4 @@ URL
 
 #### Defined in
 
-main.ts:36315
+main.ts:37800

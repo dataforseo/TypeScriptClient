@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsRelevantPagesLiveItem
+[Documentation](../README.md) / IDataforseoLabsRelevantPagesLiveItem
 
 # Interface: IDataforseoLabsRelevantPagesLiveItem
 
@@ -24,7 +24,7 @@ rankings and traffic metrics for the relevant page
 
 #### Defined in
 
-main.ts:95027
+main.ts:104745
 
 ***
 
@@ -36,7 +36,7 @@ absolute URL of the relevant page
 
 #### Defined in
 
-main.ts:95025
+main.ts:104743
 
 ***
 
@@ -48,4 +48,4 @@ search engine type
 
 #### Defined in
 
-main.ts:95023
+main.ts:104741

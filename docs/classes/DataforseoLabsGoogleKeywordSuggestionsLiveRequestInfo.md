@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:84649
+main.ts:94363
 
 ## Properties
 
@@ -49,7 +51,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84582
+main.ts:94296
 
 ***
 
@@ -81,7 +83,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:84605
+main.ts:94319
 
 ***
 
@@ -100,7 +102,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84587
+main.ts:94301
 
 ***
 
@@ -110,7 +112,7 @@ main.ts:84587
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -121,7 +123,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:84577
+main.ts:94291
 
 ***
 
@@ -140,7 +142,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84565
+main.ts:94279
 
 ***
 
@@ -159,7 +161,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84570
+main.ts:94284
 
 ***
 
@@ -170,8 +172,8 @@ main.ts:84570
 keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
-the keywords will be converted to lowercase format
+the keywords will be converted to lowercase format;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -179,7 +181,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:84524
+main.ts:94238
 
 ***
 
@@ -202,7 +204,7 @@ en
 
 #### Defined in
 
-main.ts:84560
+main.ts:94274
 
 ***
 
@@ -225,7 +227,7 @@ English
 
 #### Defined in
 
-main.ts:84551
+main.ts:94265
 
 ***
 
@@ -244,7 +246,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:84626
+main.ts:94340
 
 ***
 
@@ -267,7 +269,7 @@ example:
 
 #### Defined in
 
-main.ts:84542
+main.ts:94256
 
 ***
 
@@ -290,7 +292,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:84533
+main.ts:94247
 
 ***
 
@@ -309,7 +311,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:84631
+main.ts:94345
 
 ***
 
@@ -331,7 +333,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:84639
+main.ts:94353
 
 ***
 
@@ -361,7 +363,7 @@ example:
 
 #### Defined in
 
-main.ts:84621
+main.ts:94335
 
 ***
 
@@ -381,7 +383,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:84645
+main.ts:94359
 
 ## Methods
 
@@ -391,7 +393,9 @@ main.ts:84645
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -399,7 +403,7 @@ main.ts:84645
 
 #### Defined in
 
-main.ts:84658
+main.ts:94372
 
 ***
 
@@ -409,7 +413,9 @@ main.ts:84658
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -417,7 +423,7 @@ main.ts:84658
 
 #### Defined in
 
-main.ts:84698
+main.ts:94412
 
 ***
 
@@ -427,7 +433,9 @@ main.ts:84698
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -435,4 +443,4 @@ main.ts:84698
 
 #### Defined in
 
-main.ts:84691
+main.ts:94405

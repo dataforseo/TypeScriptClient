@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsLocationsResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsLocationsResultInfo
 
 # Class: KeywordsDataGoogleAdsLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:116936
+main.ts:126108
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:116929
+main.ts:126101
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:116916
+main.ts:126088
 
 ***
 
@@ -85,7 +87,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:116927
+main.ts:126099
 
 ***
 
@@ -101,7 +103,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:116918
+main.ts:126090
 
 ***
 
@@ -118,7 +120,7 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:116932
+main.ts:126104
 
 ## Methods
 
@@ -128,7 +130,9 @@ main.ts:116932
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +140,7 @@ main.ts:116932
 
 #### Defined in
 
-main.ts:116945
+main.ts:126117
 
 ***
 
@@ -146,7 +150,9 @@ main.ts:116945
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -154,7 +160,7 @@ main.ts:116945
 
 #### Defined in
 
-main.ts:116966
+main.ts:126138
 
 ***
 
@@ -164,7 +170,9 @@ main.ts:116966
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -172,4 +180,4 @@ main.ts:116966
 
 #### Defined in
 
-main.ts:116959
+main.ts:126131

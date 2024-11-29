@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkNewLostBacklinksLiveItem
+[Documentation](../README.md) / IBacklinksBulkNewLostBacklinksLiveItem
 
 # Interface: IBacklinksBulkNewLostBacklinksLiveItem
 
@@ -21,7 +21,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:150568
+main.ts:161773
 
 ***
 
@@ -34,7 +34,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:150565
+main.ts:161770
 
 ***
 
@@ -46,4 +46,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:150562
+main.ts:161767

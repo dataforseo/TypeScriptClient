@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixClickstreamDataKeywordsDataPriceData
+[Documentation](../README.md) / IAppendixClickstreamDataKeywordsDataPriceData
 
 # Interface: IAppendixClickstreamDataKeywordsDataPriceData
 
@@ -14,31 +14,31 @@
 
 ### bulk\_search\_volume?
 
-> `optional` **bulk\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:221267
+main.ts:236438
 
 ***
 
 ### dataforseo\_search\_volume?
 
-> `optional` **dataforseo\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **dataforseo\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:221268
+main.ts:236439
 
 ***
 
 ### global\_search\_volume?
 
-> `optional` **global\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **global\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:221269
+main.ts:236440
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:221269
 
 #### Defined in
 
-main.ts:221270
+main.ts:236441

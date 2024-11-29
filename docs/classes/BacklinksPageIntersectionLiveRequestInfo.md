@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksPageIntersectionLiveRequestInfo
+[Documentation](../README.md) / BacklinksPageIntersectionLiveRequestInfo
 
 # Class: BacklinksPageIntersectionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksPageIntersectionLiveRequestInfo`](../interfaces/IBacklinksPageIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksPageIntersectionLiveRequestInfo`](../interfaces/IBacklinksPageIntersectionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:147097
+main.ts:158302
 
 ## Properties
 
@@ -53,7 +55,7 @@ default value: live
 
 #### Defined in
 
-main.ts:147013
+main.ts:158218
 
 ***
 
@@ -73,7 +75,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147079
+main.ts:158284
 
 ***
 
@@ -97,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:147004
+main.ts:158209
 
 ***
 
@@ -128,7 +130,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:147030
+main.ts:158235
 
 ***
 
@@ -148,7 +150,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147073
+main.ts:158278
 
 ***
 
@@ -167,7 +169,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147067
+main.ts:158272
 
 ***
 
@@ -189,7 +191,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147062
+main.ts:158267
 
 ***
 
@@ -211,7 +213,7 @@ default value: all
 
 #### Defined in
 
-main.ts:147087
+main.ts:158292
 
 ***
 
@@ -230,7 +232,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147054
+main.ts:158259
 
 ***
 
@@ -249,7 +251,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Defined in
 
-main.ts:147049
+main.ts:158254
 
 ***
 
@@ -277,7 +279,7 @@ example:
 
 #### Defined in
 
-main.ts:147044
+main.ts:158249
 
 ***
 
@@ -297,7 +299,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:147093
+main.ts:158298
 
 ***
 
@@ -326,7 +328,7 @@ example:
 
 #### Defined in
 
-main.ts:146994
+main.ts:158199
 
 ## Methods
 
@@ -336,7 +338,9 @@ main.ts:146994
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -344,7 +348,7 @@ main.ts:146994
 
 #### Defined in
 
-main.ts:147106
+main.ts:158311
 
 ***
 
@@ -354,7 +358,9 @@ main.ts:147106
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -362,7 +368,7 @@ main.ts:147106
 
 #### Defined in
 
-main.ts:147153
+main.ts:158358
 
 ***
 
@@ -372,7 +378,9 @@ main.ts:147153
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -380,4 +388,4 @@ main.ts:147153
 
 #### Defined in
 
-main.ts:147146
+main.ts:158351

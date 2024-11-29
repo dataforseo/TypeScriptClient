@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:111970
+main.ts:121302
 
 ## Properties
 
@@ -52,7 +54,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:111886
+main.ts:121218
 
 ***
 
@@ -77,7 +79,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:111933
+main.ts:121265
 
 ***
 
@@ -100,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:111922
+main.ts:121254
 
 ***
 
@@ -123,7 +125,7 @@ English
 
 #### Defined in
 
-main.ts:111913
+main.ts:121245
 
 ***
 
@@ -142,7 +144,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:111955
+main.ts:121287
 
 ***
 
@@ -165,7 +167,7 @@ example:
 
 #### Defined in
 
-main.ts:111904
+main.ts:121236
 
 ***
 
@@ -188,7 +190,7 @@ United States
 
 #### Defined in
 
-main.ts:111895
+main.ts:121227
 
 ***
 
@@ -207,7 +209,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:111960
+main.ts:121292
 
 ***
 
@@ -238,7 +240,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:111950
+main.ts:121282
 
 ***
 
@@ -258,7 +260,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111966
+main.ts:121298
 
 ## Methods
 
@@ -268,7 +270,9 @@ main.ts:111966
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -276,7 +280,7 @@ main.ts:111966
 
 #### Defined in
 
-main.ts:111979
+main.ts:121311
 
 ***
 
@@ -286,7 +290,9 @@ main.ts:111979
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -294,7 +300,7 @@ main.ts:111979
 
 #### Defined in
 
-main.ts:112013
+main.ts:121345
 
 ***
 
@@ -304,7 +310,9 @@ main.ts:112013
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -312,4 +320,4 @@ main.ts:112013
 
 #### Defined in
 
-main.ts:112006
+main.ts:121338

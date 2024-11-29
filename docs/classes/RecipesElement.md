@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RecipesElement
+[Documentation](../README.md) / RecipesElement
 
 # Class: RecipesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRecipesElement`](../interfaces/IRecipesElement.md)
+##### data?
+
+[`IRecipesElement`](../interfaces/IRecipesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:32650
+main.ts:34203
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:32641
+main.ts:34194
 
 ***
 
@@ -62,7 +64,7 @@ website domain
 
 #### Defined in
 
-main.ts:32636
+main.ts:34189
 
 ***
 
@@ -79,7 +81,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32646
+main.ts:34199
 
 ***
 
@@ -96,7 +98,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:32639
+main.ts:34192
 
 ***
 
@@ -112,7 +114,7 @@ the total time it takes to prepare the cook the dish
 
 #### Defined in
 
-main.ts:32643
+main.ts:34196
 
 ***
 
@@ -128,7 +130,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32632
+main.ts:34185
 
 ***
 
@@ -144,7 +146,7 @@ type of element
 
 #### Defined in
 
-main.ts:32630
+main.ts:34183
 
 ***
 
@@ -160,7 +162,7 @@ URL
 
 #### Defined in
 
-main.ts:32634
+main.ts:34187
 
 ## Methods
 
@@ -170,7 +172,9 @@ main.ts:32634
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +182,7 @@ main.ts:32634
 
 #### Defined in
 
-main.ts:32659
+main.ts:34212
 
 ***
 
@@ -188,7 +192,9 @@ main.ts:32659
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -196,7 +202,7 @@ main.ts:32659
 
 #### Defined in
 
-main.ts:32683
+main.ts:34236
 
 ***
 
@@ -206,7 +212,9 @@ main.ts:32683
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -214,4 +222,4 @@ main.ts:32683
 
 #### Defined in
 
-main.ts:32676
+main.ts:34229

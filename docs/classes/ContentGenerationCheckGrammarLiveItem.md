@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationCheckGrammarLiveItem
+[Documentation](../README.md) / ContentGenerationCheckGrammarLiveItem
 
 # Class: ContentGenerationCheckGrammarLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md)
+##### data?
+
+[`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:171194
+main.ts:182783
 
 ## Properties
 
@@ -46,7 +48,7 @@ description of the grammar or spelling error
 
 #### Defined in
 
-main.ts:171171
+main.ts:182760
 
 ***
 
@@ -62,7 +64,7 @@ offset token for subsequent requests
 
 #### Defined in
 
-main.ts:171177
+main.ts:182766
 
 ***
 
@@ -78,7 +80,7 @@ message of the grammar or spelling error
 
 #### Defined in
 
-main.ts:171169
+main.ts:182758
 
 ***
 
@@ -94,7 +96,7 @@ offset token for subsequent requests
 
 #### Defined in
 
-main.ts:171175
+main.ts:182764
 
 ***
 
@@ -110,7 +112,7 @@ id of the rule category
 
 #### Defined in
 
-main.ts:171188
+main.ts:182777
 
 ***
 
@@ -126,7 +128,7 @@ name of the rule category
 
 #### Defined in
 
-main.ts:171190
+main.ts:182779
 
 ***
 
@@ -142,7 +144,7 @@ description of the grammar or spelling rule
 
 #### Defined in
 
-main.ts:171184
+main.ts:182773
 
 ***
 
@@ -159,7 +161,7 @@ see the List of Grammar Rules for Content Generation API
 
 #### Defined in
 
-main.ts:171182
+main.ts:182771
 
 ***
 
@@ -175,7 +177,7 @@ type of the issue found by the relevant rule
 
 #### Defined in
 
-main.ts:171186
+main.ts:182775
 
 ***
 
@@ -191,7 +193,7 @@ suggested corrections
 
 #### Defined in
 
-main.ts:171173
+main.ts:182762
 
 ***
 
@@ -207,7 +209,7 @@ type of element
 
 #### Defined in
 
-main.ts:171179
+main.ts:182768
 
 ## Methods
 
@@ -217,7 +219,9 @@ main.ts:171179
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -225,7 +229,7 @@ main.ts:171179
 
 #### Defined in
 
-main.ts:171203
+main.ts:182792
 
 ***
 
@@ -235,7 +239,9 @@ main.ts:171203
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -243,7 +249,7 @@ main.ts:171203
 
 #### Defined in
 
-main.ts:171234
+main.ts:182823
 
 ***
 
@@ -253,7 +259,9 @@ main.ts:171234
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -261,4 +269,4 @@ main.ts:171234
 
 #### Defined in
 
-main.ts:171227
+main.ts:182816

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleLocationsResultInfo
+[Documentation](../README.md) / AppDataGoogleLocationsResultInfo
 
 # Class: AppDataGoogleLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md)
+##### data?
+
+[`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:186578
+main.ts:198676
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:186572
+main.ts:198670
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:186560
+main.ts:198658
 
 ***
 
@@ -78,7 +80,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:186562
+main.ts:198660
 
 ***
 
@@ -100,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:186570
+main.ts:198668
 
 ***
 
@@ -116,7 +118,7 @@ location type
 
 #### Defined in
 
-main.ts:186574
+main.ts:198672
 
 ## Methods
 
@@ -126,7 +128,9 @@ main.ts:186574
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +138,7 @@ main.ts:186574
 
 #### Defined in
 
-main.ts:186587
+main.ts:198685
 
 ***
 
@@ -144,7 +148,9 @@ main.ts:186587
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -152,7 +158,7 @@ main.ts:186587
 
 #### Defined in
 
-main.ts:186608
+main.ts:198706
 
 ***
 
@@ -162,7 +168,9 @@ main.ts:186608
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -170,4 +178,4 @@ main.ts:186608
 
 #### Defined in
 
-main.ts:186601
+main.ts:198699

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / SerpYahooOrganicTaskGetRegularResultInfo
 
 # Class: SerpYahooOrganicTaskGetRegularResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYahooOrganicTaskGetRegularResultInfo`](../interfaces/ISerpYahooOrganicTaskGetRegularResultInfo.md)
+##### data?
+
+[`ISerpYahooOrganicTaskGetRegularResultInfo`](../interfaces/ISerpYahooOrganicTaskGetRegularResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:67498
+main.ts:76087
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:67474
+main.ts:76058
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:67479
+main.ts:76063
 
 ***
 
@@ -77,8 +79,10 @@ main.ts:67479
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
 possible item types:
-organic
+featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video;
 note that this array contains all types of search results found in the returned SERP;
+however, this endpoint provides data for organic, paid, and featured_snippet types only;
+to get all items (including SERP features and rich snippets) found in the returned SERP, please refer to the Yahoo Organiс Advanced SERP endpoint
 
 #### Implementation of
 
@@ -86,7 +90,7 @@ note that this array contains all types of search results found in the returned 
 
 #### Defined in
 
-main.ts:67488
+main.ts:76077
 
 ***
 
@@ -102,7 +106,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:67494
+main.ts:76083
 
 ***
 
@@ -118,7 +122,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:67492
+main.ts:76081
 
 ***
 
@@ -135,7 +139,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:67463
+main.ts:76047
 
 ***
 
@@ -151,7 +155,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:67471
+main.ts:76055
 
 ***
 
@@ -167,7 +171,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:67469
+main.ts:76053
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYahooOrganicTaskGetRegularResultInfo`](../interfaces/ISerpYahooOrganicTaskGetRegularResultInfo.md).[`refinement_chips`](../interfaces/ISerpYahooOrganicTaskGetRegularResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:76069
 
 ***
 
@@ -183,7 +204,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:67467
+main.ts:76051
 
 ***
 
@@ -199,7 +220,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:67490
+main.ts:76079
 
 ***
 
@@ -216,7 +237,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:67482
+main.ts:76066
 
 ***
 
@@ -232,7 +253,7 @@ type of element
 
 #### Defined in
 
-main.ts:67465
+main.ts:76049
 
 ## Methods
 
@@ -242,7 +263,9 @@ main.ts:67465
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +273,7 @@ main.ts:67465
 
 #### Defined in
 
-main.ts:67507
+main.ts:76096
 
 ***
 
@@ -260,7 +283,9 @@ main.ts:67507
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +293,7 @@ main.ts:67507
 
 #### Defined in
 
-main.ts:67543
+main.ts:76133
 
 ***
 
@@ -278,7 +303,9 @@ main.ts:67543
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +313,4 @@ main.ts:67543
 
 #### Defined in
 
-main.ts:67536
+main.ts:76126

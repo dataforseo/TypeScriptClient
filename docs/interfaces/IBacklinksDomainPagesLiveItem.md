@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksDomainPagesLiveItem
+[Documentation](../README.md) / IBacklinksDomainPagesLiveItem
 
 # Interface: IBacklinksDomainPagesLiveItem
 
@@ -20,7 +20,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:143018
+main.ts:154223
 
 ***
 
@@ -33,7 +33,7 @@ domain where the page was found
 
 #### Defined in
 
-main.ts:142982
+main.ts:154187
 
 ***
 
@@ -46,7 +46,7 @@ indicates the size of the encoded page, in bytes
 
 #### Defined in
 
-main.ts:143016
+main.ts:154221
 
 ***
 
@@ -61,7 +61,7 @@ example:
 
 #### Defined in
 
-main.ts:143006
+main.ts:154211
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:142996
+main.ts:154201
 
 ***
 
@@ -89,7 +89,7 @@ Internet Protocol address
 
 #### Defined in
 
-main.ts:142990
+main.ts:154195
 
 ***
 
@@ -102,7 +102,7 @@ indicates the URL to redirect a page to if exists
 
 #### Defined in
 
-main.ts:143011
+main.ts:154216
 
 ***
 
@@ -115,7 +115,7 @@ main website domain does not include subdomains
 
 #### Defined in
 
-main.ts:142979
+main.ts:154184
 
 ***
 
@@ -127,7 +127,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:143020
+main.ts:154225
 
 ***
 
@@ -139,7 +139,7 @@ page meta data
 
 #### Defined in
 
-main.ts:143024
+main.ts:154229
 
 ***
 
@@ -152,7 +152,7 @@ relevant page URL
 
 #### Defined in
 
-main.ts:142988
+main.ts:154193
 
 ***
 
@@ -164,7 +164,7 @@ contains backlink data for this page
 
 #### Defined in
 
-main.ts:143026
+main.ts:154231
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:143001
+main.ts:154206
 
 ***
 
@@ -191,7 +191,7 @@ server version
 
 #### Defined in
 
-main.ts:143022
+main.ts:154227
 
 ***
 
@@ -203,7 +203,7 @@ indicates the page size, in bytes
 
 #### Defined in
 
-main.ts:143013
+main.ts:154218
 
 ***
 
@@ -215,7 +215,7 @@ HTTP status code of the page
 
 #### Defined in
 
-main.ts:143008
+main.ts:154213
 
 ***
 
@@ -228,7 +228,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:142985
+main.ts:154190
 
 ***
 
@@ -240,4 +240,4 @@ type of element
 
 #### Defined in
 
-main.ts:142976
+main.ts:154181

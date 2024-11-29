@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
@@ -27,7 +27,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-main.ts:111557
+main.ts:120889
 
 ***
 
@@ -46,7 +46,7 @@ en
 
 #### Defined in
 
-main.ts:111593
+main.ts:120925
 
 ***
 
@@ -65,7 +65,7 @@ English
 
 #### Defined in
 
-main.ts:111584
+main.ts:120916
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:111575
+main.ts:120907
 
 ***
 
@@ -103,7 +103,7 @@ United States
 
 #### Defined in
 
-main.ts:111566
+main.ts:120898
 
 ***
 
@@ -119,4 +119,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111599
+main.ts:120931

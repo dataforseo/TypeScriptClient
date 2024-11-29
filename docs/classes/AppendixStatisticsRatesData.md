@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixStatisticsRatesData
+[Documentation](../README.md) / AppendixStatisticsRatesData
 
 # Class: AppendixStatisticsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixStatisticsRatesData`](../interfaces/IAppendixStatisticsRatesData.md)
+##### data?
+
+[`IAppendixStatisticsRatesData`](../interfaces/IAppendixStatisticsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:219959
+main.ts:234958
 
 ## Properties
 
@@ -44,13 +46,13 @@ main.ts:219959
 
 #### Defined in
 
-main.ts:219954
+main.ts:234953
 
 ***
 
 ### minute?
 
-> `optional` **minute**: [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
+> `optional` **minute**: [`AppendixMinuteStatisticsRatesData`](AppendixMinuteStatisticsRatesData.md)
 
 #### Implementation of
 
@@ -58,7 +60,7 @@ main.ts:219954
 
 #### Defined in
 
-main.ts:219955
+main.ts:234954
 
 ## Methods
 
@@ -68,7 +70,9 @@ main.ts:219955
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -76,7 +80,7 @@ main.ts:219955
 
 #### Defined in
 
-main.ts:219968
+main.ts:234967
 
 ***
 
@@ -86,7 +90,9 @@ main.ts:219968
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -94,7 +100,7 @@ main.ts:219968
 
 #### Defined in
 
-main.ts:219986
+main.ts:234985
 
 ***
 
@@ -104,7 +110,9 @@ main.ts:219986
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -112,4 +120,4 @@ main.ts:219986
 
 #### Defined in
 
-main.ts:219979
+main.ts:234978

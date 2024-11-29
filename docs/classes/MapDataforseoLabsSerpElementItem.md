@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MapDataforseoLabsSerpElementItem
+[Documentation](../README.md) / MapDataforseoLabsSerpElementItem
 
 # Class: MapDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IMapDataforseoLabsSerpElementItem`](../interfaces/IMapDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IMapDataforseoLabsSerpElementItem`](../interfaces/IMapDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:97271
+main.ts:107077
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:97271
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -74,7 +76,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -95,7 +97,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -116,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -132,7 +134,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97265
+main.ts:107071
 
 ***
 
@@ -152,7 +154,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -168,7 +170,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:97267
+main.ts:107073
 
 ***
 
@@ -188,7 +190,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -198,7 +200,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -210,7 +214,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:97276
+main.ts:107082
 
 ***
 
@@ -220,7 +224,9 @@ main.ts:97276
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -232,7 +238,7 @@ main.ts:97276
 
 #### Defined in
 
-main.ts:97295
+main.ts:107101
 
 ***
 
@@ -242,7 +248,9 @@ main.ts:97295
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -254,4 +262,4 @@ main.ts:97295
 
 #### Defined in
 
-main.ts:97288
+main.ts:107094

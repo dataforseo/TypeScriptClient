@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / VideoElement
+[Documentation](../README.md) / VideoElement
 
 # Class: VideoElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IVideoElement`](../interfaces/IVideoElement.md)
+##### data?
+
+[`IVideoElement`](../interfaces/IVideoElement.md)
 
 #### Returns
 
@@ -30,25 +32,9 @@
 
 #### Defined in
 
-main.ts:31594
+main.ts:33151
 
 ## Properties
-
-### preview?
-
-> `optional` **preview**: `string`
-
-URL to the video preview image
-
-#### Implementation of
-
-[`IVideoElement`](../interfaces/IVideoElement.md).[`preview`](../interfaces/IVideoElement.md#preview)
-
-#### Defined in
-
-main.ts:31590
-
-***
 
 ### source?
 
@@ -63,7 +49,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:31579
+main.ts:33138
 
 ***
 
@@ -82,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:31586
+main.ts:33145
 
 ***
 
@@ -98,7 +84,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31581
+main.ts:33140
 
 ***
 
@@ -114,7 +100,7 @@ type of element
 
 #### Defined in
 
-main.ts:31576
+main.ts:33135
 
 ***
 
@@ -130,7 +116,7 @@ URL
 
 #### Defined in
 
-main.ts:31588
+main.ts:33147
 
 ## Methods
 
@@ -140,7 +126,9 @@ main.ts:31588
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +136,7 @@ main.ts:31588
 
 #### Defined in
 
-main.ts:31603
+main.ts:33160
 
 ***
 
@@ -158,7 +146,9 @@ main.ts:31603
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +156,7 @@ main.ts:31603
 
 #### Defined in
 
-main.ts:31625
+main.ts:33181
 
 ***
 
@@ -176,7 +166,9 @@ main.ts:31625
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +176,4 @@ main.ts:31625
 
 #### Defined in
 
-main.ts:31618
+main.ts:33174

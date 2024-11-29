@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / EventsElement
+[Documentation](../README.md) / EventsElement
 
 # Class: EventsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IEventsElement`](../interfaces/IEventsElement.md)
+##### data?
+
+[`IEventsElement`](../interfaces/IEventsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:32292
+main.ts:33845
 
 ## Properties
 
@@ -46,7 +48,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:32286
+main.ts:33839
 
 ***
 
@@ -62,7 +64,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32284
+main.ts:33837
 
 ***
 
@@ -78,7 +80,7 @@ type of element
 
 #### Defined in
 
-main.ts:32282
+main.ts:33835
 
 ***
 
@@ -94,7 +96,7 @@ URL
 
 #### Defined in
 
-main.ts:32288
+main.ts:33841
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:32288
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:32288
 
 #### Defined in
 
-main.ts:32301
+main.ts:33854
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:32301
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:32301
 
 #### Defined in
 
-main.ts:32321
+main.ts:33874
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:32321
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:32321
 
 #### Defined in
 
-main.ts:32314
+main.ts:33867

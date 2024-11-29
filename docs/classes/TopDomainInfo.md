@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopDomainInfo
+[Documentation](../README.md) / TopDomainInfo
 
 # Class: TopDomainInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITopDomainInfo`](../interfaces/ITopDomainInfo.md)
+##### data?
+
+[`ITopDomainInfo`](../interfaces/ITopDomainInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23247
+main.ts:24145
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:23247
 
 #### Defined in
 
-main.ts:23243
+main.ts:24141
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:23243
 
 #### Defined in
 
-main.ts:23242
+main.ts:24140
 
 ## Methods
 
@@ -68,7 +70,9 @@ main.ts:23242
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -76,7 +80,7 @@ main.ts:23242
 
 #### Defined in
 
-main.ts:23256
+main.ts:24154
 
 ***
 
@@ -86,7 +90,9 @@ main.ts:23256
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -94,7 +100,7 @@ main.ts:23256
 
 #### Defined in
 
-main.ts:23274
+main.ts:24172
 
 ***
 
@@ -104,7 +110,9 @@ main.ts:23274
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -112,4 +120,4 @@ main.ts:23274
 
 #### Defined in
 
-main.ts:23267
+main.ts:24165

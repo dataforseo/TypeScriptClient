@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsSearchLiveRequestInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsSearchLiveRequestInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:198251
+main.ts:210601
 
 ## Properties
 
@@ -50,7 +52,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:198176
+main.ts:210526
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:198176
 description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
@@ -69,7 +71,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:198181
+main.ts:210531
 
 ***
 
@@ -94,7 +96,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:198210
+main.ts:210560
 
 ***
 
@@ -111,7 +113,7 @@ optional field
 
 #### Defined in
 
-main.ts:198189
+main.ts:210539
 
 ***
 
@@ -130,7 +132,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:198228
+main.ts:210578
 
 ***
 
@@ -154,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:198199
+main.ts:210549
 
 ***
 
@@ -173,7 +175,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:198233
+main.ts:210583
 
 ***
 
@@ -195,7 +197,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:198241
+main.ts:210591
 
 ***
 
@@ -222,7 +224,7 @@ example:
 
 #### Defined in
 
-main.ts:198223
+main.ts:210573
 
 ***
 
@@ -242,7 +244,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:198247
+main.ts:210597
 
 ***
 
@@ -253,7 +255,7 @@ main.ts:198247
 title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
@@ -261,7 +263,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:198186
+main.ts:210536
 
 ## Methods
 
@@ -271,7 +273,9 @@ main.ts:198186
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -279,7 +283,7 @@ main.ts:198186
 
 #### Defined in
 
-main.ts:198260
+main.ts:210610
 
 ***
 
@@ -289,7 +293,9 @@ main.ts:198260
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -297,7 +303,7 @@ main.ts:198260
 
 #### Defined in
 
-main.ts:198299
+main.ts:210649
 
 ***
 
@@ -307,7 +313,9 @@ main.ts:198299
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -315,4 +323,4 @@ main.ts:198299
 
 #### Defined in
 
-main.ts:198292
+main.ts:210642

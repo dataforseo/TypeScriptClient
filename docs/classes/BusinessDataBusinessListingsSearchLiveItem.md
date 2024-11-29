@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsSearchLiveItem
+[Documentation](../README.md) / BusinessDataBusinessListingsSearchLiveItem
 
 # Class: BusinessDataBusinessListingsSearchLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md)
+##### data?
+
+[`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:198930
+main.ts:211280
 
 ## Properties
 
@@ -47,7 +49,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:198835
+main.ts:211185
 
 ***
 
@@ -63,7 +65,7 @@ address of the business entity
 
 #### Defined in
 
-main.ts:198844
+main.ts:211194
 
 ***
 
@@ -79,7 +81,7 @@ object containing address components of the business entity
 
 #### Defined in
 
-main.ts:198846
+main.ts:211196
 
 ***
 
@@ -96,7 +98,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Defined in
 
-main.ts:198877
+main.ts:211227
 
 ***
 
@@ -113,7 +115,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:198829
+main.ts:211179
 
 ***
 
@@ -130,7 +132,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:198832
+main.ts:211182
 
 ***
 
@@ -147,7 +149,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:198916
+main.ts:211266
 
 ***
 
@@ -165,7 +167,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198839
+main.ts:211189
 
 ***
 
@@ -182,7 +184,7 @@ list of contacts to interact with the business
 
 #### Defined in
 
-main.ts:198913
+main.ts:211263
 
 ***
 
@@ -199,7 +201,7 @@ the description of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:198826
+main.ts:211176
 
 ***
 
@@ -215,7 +217,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:198856
+main.ts:211206
 
 ***
 
@@ -232,7 +234,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198842
+main.ts:211192
 
 ***
 
@@ -251,7 +253,7 @@ example:
 
 #### Defined in
 
-main.ts:198926
+main.ts:211276
 
 ***
 
@@ -269,7 +271,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:198892
+main.ts:211242
 
 ***
 
@@ -285,7 +287,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Defined in
 
-main.ts:198874
+main.ts:211224
 
 ***
 
@@ -304,7 +306,7 @@ example:
 
 #### Defined in
 
-main.ts:198921
+main.ts:211271
 
 ***
 
@@ -322,7 +324,7 @@ example:
 
 #### Defined in
 
-main.ts:198868
+main.ts:211218
 
 ***
 
@@ -339,7 +341,7 @@ list of options to interact with the business directly from search results
 
 #### Defined in
 
-main.ts:198910
+main.ts:211260
 
 ***
 
@@ -355,7 +357,7 @@ URL of the logo featured in Google My Business profile
 
 #### Defined in
 
-main.ts:198858
+main.ts:211208
 
 ***
 
@@ -373,7 +375,7 @@ example:
 
 #### Defined in
 
-main.ts:198872
+main.ts:211222
 
 ***
 
@@ -389,7 +391,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:198860
+main.ts:211210
 
 ***
 
@@ -405,7 +407,7 @@ related business entities
 
 #### Defined in
 
-main.ts:198901
+main.ts:211251
 
 ***
 
@@ -421,7 +423,7 @@ phone number of the business entity
 
 #### Defined in
 
-main.ts:198852
+main.ts:211202
 
 ***
 
@@ -439,7 +441,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198850
+main.ts:211200
 
 ***
 
@@ -465,7 +467,7 @@ example:
 
 #### Defined in
 
-main.ts:198885
+main.ts:211235
 
 ***
 
@@ -482,7 +484,7 @@ information related to busy hours of the business entity
 
 #### Defined in
 
-main.ts:198907
+main.ts:211257
 
 ***
 
@@ -500,7 +502,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:198896
+main.ts:211246
 
 ***
 
@@ -517,7 +519,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:198888
+main.ts:211238
 
 ***
 
@@ -538,7 +540,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:198899
+main.ts:211249
 
 ***
 
@@ -554,7 +556,7 @@ additional information on the business entity
 
 #### Defined in
 
-main.ts:198864
+main.ts:211214
 
 ***
 
@@ -571,7 +573,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:198823
+main.ts:211173
 
 ***
 
@@ -587,7 +589,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:198862
+main.ts:211212
 
 ***
 
@@ -603,7 +605,7 @@ type of element
 
 #### Defined in
 
-main.ts:198820
+main.ts:211170
 
 ***
 
@@ -619,13 +621,13 @@ absolute url of the business entity
 
 #### Defined in
 
-main.ts:198854
+main.ts:211204
 
 ***
 
 ### work\_time?
 
-> `optional` **work\_time**: [`WorkInfo`](WorkInfo.md)
+> `optional` **work\_time**: [`WorkTime`](WorkTime.md)
 
 work time details
 information related to operational hours of the business entity
@@ -636,7 +638,7 @@ information related to operational hours of the business entity
 
 #### Defined in
 
-main.ts:198904
+main.ts:211254
 
 ## Methods
 
@@ -646,7 +648,9 @@ main.ts:198904
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -654,7 +658,7 @@ main.ts:198904
 
 #### Defined in
 
-main.ts:198939
+main.ts:211289
 
 ***
 
@@ -664,7 +668,9 @@ main.ts:198939
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -672,7 +678,7 @@ main.ts:198939
 
 #### Defined in
 
-main.ts:199022
+main.ts:211372
 
 ***
 
@@ -682,7 +688,9 @@ main.ts:199022
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -690,4 +698,4 @@ main.ts:199022
 
 #### Defined in
 
-main.ts:199015
+main.ts:211365

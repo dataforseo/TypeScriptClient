@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:215967
+main.ts:230918
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:215967
 
 #### Defined in
 
-main.ts:215965
+main.ts:230916
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:215965
 
 #### Defined in
 
-main.ts:215968
+main.ts:230919
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:215968
 
 #### Defined in
 
-main.ts:215966
+main.ts:230917

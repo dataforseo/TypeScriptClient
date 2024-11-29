@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
+[Documentation](../README.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveResultInfo
 
@@ -20,7 +20,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:170692
+main.ts:182281
 
 ***
 
@@ -32,7 +32,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:170696
+main.ts:182285
 
 ***
 
@@ -44,7 +44,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:170694
+main.ts:182283
 
 ***
 
@@ -56,4 +56,4 @@ resulting subtopics
 
 #### Defined in
 
-main.ts:170698
+main.ts:182287

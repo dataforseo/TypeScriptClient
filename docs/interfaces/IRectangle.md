@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRectangle
+[Documentation](../README.md) / IRectangle
 
 # Interface: IRectangle
 
@@ -20,7 +20,7 @@ height of the element in pixels
 
 #### Defined in
 
-main.ts:22484
+main.ts:23382
 
 ***
 
@@ -32,7 +32,7 @@ width of the element in pixels
 
 #### Defined in
 
-main.ts:22482
+main.ts:23380
 
 ***
 
@@ -45,7 +45,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22477
+main.ts:23375
 
 ***
 
@@ -58,4 +58,4 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22480
+main.ts:23378

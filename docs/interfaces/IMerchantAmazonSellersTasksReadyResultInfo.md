@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonSellersTasksReadyResultInfo
+[Documentation](../README.md) / IMerchantAmazonSellersTasksReadyResultInfo
 
 # Interface: IMerchantAmazonSellersTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:183483
+main.ts:195795
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of Amazon Sellers Advanced task
 
 #### Defined in
 
-main.ts:183487
+main.ts:195799
 
 ***
 
@@ -44,7 +44,7 @@ URL for collecting the results of Amazon Sellers HTML task
 
 #### Defined in
 
-main.ts:183489
+main.ts:195801
 
 ***
 
@@ -57,7 +57,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:183477
+main.ts:195789
 
 ***
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:183479
+main.ts:195791
 
 ***
 
@@ -81,7 +81,7 @@ type of search engine
 
 #### Defined in
 
-main.ts:183481
+main.ts:195793
 
 ***
 
@@ -93,4 +93,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:183485
+main.ts:195797

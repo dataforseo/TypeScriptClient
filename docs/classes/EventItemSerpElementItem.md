@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / EventItemSerpElementItem
+[Documentation](../README.md) / EventItemSerpElementItem
 
 # Class: EventItemSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md)
+##### data?
+
+[`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:46195
+main.ts:49008
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:46195
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:46178
+main.ts:48993
 
 ***
 
@@ -85,7 +87,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:46185
+main.ts:49000
 
 ***
 
@@ -101,7 +103,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:46182
+main.ts:48997
 
 ***
 
@@ -110,7 +112,6 @@ main.ts:46182
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](InformationAndTicketsElement.md)[]
 
 additional information and ticket purchase options
-if there is none, equals null
 
 #### Implementation of
 
@@ -118,7 +119,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:46191
+main.ts:49004
 
 ***
 
@@ -127,7 +128,6 @@ main.ts:46191
 > `optional` **location\_info**: [`LocationInfo`](LocationInfo.md)
 
 information about the event’s venue
-if there is none, equals null
 
 #### Implementation of
 
@@ -135,7 +135,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:46188
+main.ts:49002
 
 ***
 
@@ -157,7 +157,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -178,7 +178,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -200,7 +200,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -208,7 +208,7 @@ main.ts:20356
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Implementation of
 
@@ -216,7 +216,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:46176
+main.ts:48991
 
 ***
 
@@ -236,7 +236,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -244,7 +244,7 @@ main.ts:20352
 
 > `optional` **url**: `string`
 
-relevant URL
+search URL with refinement parameters
 
 #### Implementation of
 
@@ -252,7 +252,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:46180
+main.ts:48995
 
 ***
 
@@ -272,7 +272,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -282,7 +282,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -294,7 +296,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:46200
+main.ts:49013
 
 ***
 
@@ -304,7 +306,9 @@ main.ts:46200
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -316,7 +320,7 @@ main.ts:46200
 
 #### Defined in
 
-main.ts:46228
+main.ts:49041
 
 ***
 
@@ -326,7 +330,9 @@ main.ts:46228
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -338,4 +344,4 @@ main.ts:46228
 
 #### Defined in
 
-main.ts:46221
+main.ts:49034

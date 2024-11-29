@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / WorkTimeInfo
+[Documentation](../README.md) / WorkTimeInfo
 
 # Class: WorkTimeInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md)
+##### data?
+
+[`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22144
+main.ts:23042
 
 ## Properties
 
@@ -46,7 +48,7 @@ hours in the 24-hour format
 
 #### Defined in
 
-main.ts:22138
+main.ts:23036
 
 ***
 
@@ -62,7 +64,7 @@ minutes
 
 #### Defined in
 
-main.ts:22140
+main.ts:23038
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:22140
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:22140
 
 #### Defined in
 
-main.ts:22153
+main.ts:23051
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:22153
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:22153
 
 #### Defined in
 
-main.ts:22171
+main.ts:23069
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:22171
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:22171
 
 #### Defined in
 
-main.ts:22164
+main.ts:23062

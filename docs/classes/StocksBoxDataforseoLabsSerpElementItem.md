@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / StocksBoxDataforseoLabsSerpElementItem
+[Documentation](../README.md) / StocksBoxDataforseoLabsSerpElementItem
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:99201
+main.ts:108937
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:99201
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -60,7 +62,7 @@ main.ts:20747
 
 > `optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Implementation of
 
@@ -68,7 +70,7 @@ website domain
 
 #### Defined in
 
-main.ts:99192
+main.ts:108928
 
 ***
 
@@ -84,7 +86,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:99197
+main.ts:108933
 
 ***
 
@@ -106,13 +108,13 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price of the shopping element
 
@@ -122,7 +124,7 @@ price of the shopping element
 
 #### Defined in
 
-main.ts:99188
+main.ts:108924
 
 ***
 
@@ -143,7 +145,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -164,7 +166,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -180,7 +182,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:99186
+main.ts:108922
 
 ***
 
@@ -197,7 +199,7 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-main.ts:99184
+main.ts:108920
 
 ***
 
@@ -214,7 +216,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:99195
+main.ts:108931
 
 ***
 
@@ -230,7 +232,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:99181
+main.ts:108917
 
 ***
 
@@ -250,7 +252,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -266,7 +268,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:99190
+main.ts:108926
 
 ***
 
@@ -286,7 +288,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -296,7 +298,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -308,7 +312,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:99206
+main.ts:108942
 
 ***
 
@@ -318,7 +322,9 @@ main.ts:99206
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -330,7 +336,7 @@ main.ts:99206
 
 #### Defined in
 
-main.ts:99231
+main.ts:108967
 
 ***
 
@@ -340,7 +346,9 @@ main.ts:99231
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -352,4 +360,4 @@ main.ts:99231
 
 #### Defined in
 
-main.ts:99224
+main.ts:108960

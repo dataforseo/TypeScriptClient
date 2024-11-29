@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
@@ -20,7 +20,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:86089
+main.ts:95805
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:86087
+main.ts:95803
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:86085
+main.ts:95801
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:86083
+main.ts:95799
 
 ***
 
@@ -68,4 +68,4 @@ search engine type
 
 #### Defined in
 
-main.ts:86081
+main.ts:95797

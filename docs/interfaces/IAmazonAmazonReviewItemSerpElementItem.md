@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonAmazonReviewItemSerpElementItem
+[Documentation](../README.md) / IAmazonAmazonReviewItemSerpElementItem
 
 # Interface: IAmazonAmazonReviewItemSerpElementItem
 
@@ -25,7 +25,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-main.ts:185176
+main.ts:195063
 
 ***
 
@@ -37,7 +37,7 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:185178
+main.ts:195065
 
 ***
 
@@ -50,7 +50,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:185169
+main.ts:195056
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:185193
+main.ts:195080
 
 ***
 
@@ -82,7 +82,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22412
+main.ts:23310
 
 ***
 
@@ -99,7 +99,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22409
+main.ts:23307
 
 ***
 
@@ -111,7 +111,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:185195
+main.ts:195082
 
 ***
 
@@ -123,7 +123,7 @@ content of the review
 
 #### Defined in
 
-main.ts:185188
+main.ts:195075
 
 ***
 
@@ -135,7 +135,7 @@ subtitle of the review
 
 #### Defined in
 
-main.ts:185173
+main.ts:195060
 
 ***
 
@@ -147,7 +147,7 @@ title of the review
 
 #### Defined in
 
-main.ts:185184
+main.ts:195071
 
 ***
 
@@ -163,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:22406
+main.ts:23304
 
 ***
 
@@ -171,11 +171,11 @@ main.ts:22406
 
 > `optional` **url**: `string`
 
-URL to the review
+relevant url
 
 #### Defined in
 
-main.ts:185186
+main.ts:195073
 
 ***
 
@@ -187,7 +187,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:185182
+main.ts:195069
 
 ***
 
@@ -199,7 +199,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-main.ts:185171
+main.ts:195058
 
 ***
 
@@ -211,7 +211,7 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:185180
+main.ts:195067
 
 ***
 
@@ -227,4 +227,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22414
+main.ts:23312

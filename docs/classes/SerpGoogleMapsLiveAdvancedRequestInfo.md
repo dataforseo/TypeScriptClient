@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleMapsLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpGoogleMapsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleMapsLiveAdvancedRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpGoogleMapsLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:40581
+main.ts:42405
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:40549
+main.ts:42373
 
 ***
 
@@ -73,7 +75,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-main.ts:40526
+main.ts:42350
 
 ***
 
@@ -83,12 +85,13 @@ main.ts:40526
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -96,7 +99,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:40481
+main.ts:42305
 
 ***
 
@@ -117,7 +120,7 @@ en
 
 #### Defined in
 
-main.ts:40520
+main.ts:42344
 
 ***
 
@@ -138,7 +141,7 @@ English
 
 #### Defined in
 
-main.ts:40513
+main.ts:42337
 
 ***
 
@@ -159,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:40495
+main.ts:42319
 
 ***
 
@@ -184,7 +187,7 @@ example:
 
 #### Defined in
 
-main.ts:40506
+main.ts:42330
 
 ***
 
@@ -205,7 +208,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:40488
+main.ts:42312
 
 ***
 
@@ -226,7 +229,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:40556
+main.ts:42380
 
 ***
 
@@ -247,7 +250,7 @@ default value: android
 
 #### Defined in
 
-main.ts:40533
+main.ts:42357
 
 ***
 
@@ -268,7 +271,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:40540
+main.ts:42364
 
 ***
 
@@ -290,7 +293,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-main.ts:40571
+main.ts:42395
 
 ***
 
@@ -311,7 +314,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-main.ts:40563
+main.ts:42387
 
 ***
 
@@ -331,7 +334,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:40577
+main.ts:42401
 
 ***
 
@@ -351,7 +354,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-main.ts:40472
+main.ts:42295
 
 ## Methods
 
@@ -361,7 +364,9 @@ main.ts:40472
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -369,7 +374,7 @@ main.ts:40472
 
 #### Defined in
 
-main.ts:40590
+main.ts:42414
 
 ***
 
@@ -379,7 +384,9 @@ main.ts:40590
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -387,7 +394,7 @@ main.ts:40590
 
 #### Defined in
 
-main.ts:40621
+main.ts:42445
 
 ***
 
@@ -397,7 +404,9 @@ main.ts:40621
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -405,4 +414,4 @@ main.ts:40621
 
 #### Defined in
 
-main.ts:40614
+main.ts:42438

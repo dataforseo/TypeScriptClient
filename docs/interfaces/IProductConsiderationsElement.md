@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductConsiderationsElement
+[Documentation](../README.md) / IProductConsiderationsElement
 
 # Interface: IProductConsiderationsElement
 
@@ -21,7 +21,7 @@ the category is indicated just above the title fo the consideration element
 
 #### Defined in
 
-main.ts:35281
+main.ts:36766
 
 ***
 
@@ -33,7 +33,7 @@ expanded element
 
 #### Defined in
 
-main.ts:35283
+main.ts:36768
 
 ***
 
@@ -45,7 +45,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35278
+main.ts:36763
 
 ***
 
@@ -57,4 +57,4 @@ type of element
 
 #### Defined in
 
-main.ts:35276
+main.ts:36761

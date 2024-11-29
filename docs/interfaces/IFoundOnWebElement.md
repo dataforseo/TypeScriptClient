@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFoundOnWebElement
+[Documentation](../README.md) / IFoundOnWebElement
 
 # Interface: IFoundOnWebElement
 
@@ -20,7 +20,7 @@ image of the element
 
 #### Defined in
 
-main.ts:35423
+main.ts:36908
 
 ***
 
@@ -32,7 +32,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:35421
+main.ts:36906
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35419
+main.ts:36904
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:35417
+main.ts:36902

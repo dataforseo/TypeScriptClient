@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
 # Interface: IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
@@ -22,11 +22,12 @@ UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000
 the keywords will be converted to lowercase format
 Note: certain symbols and characters (e.g., UTF symbols, emojis) are not allowed
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:135801
+main.ts:147664
 
 ***
 
@@ -42,7 +43,7 @@ en
 
 #### Defined in
 
-main.ts:135825
+main.ts:147688
 
 ***
 
@@ -58,7 +59,7 @@ English
 
 #### Defined in
 
-main.ts:135819
+main.ts:147682
 
 ***
 
@@ -74,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:135813
+main.ts:147676
 
 ***
 
@@ -90,7 +91,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:135807
+main.ts:147670
 
 ***
 
@@ -106,7 +107,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:135836
+main.ts:147701
 
 ***
 
@@ -116,9 +117,11 @@ main.ts:135836
 
 use clickstream data to provide results
 optional field
-if this parameter set to true, you will get search volume rate based on clickstream data
-otherwise, Bing search volume data will be used to calculate search volume
+if set to true, you will get DataForSEO search volume values based on clickstream data;
+if set to false, Bing search volume data will be used to calculate DataForSEO search volume;
+default value: true;
+Note: some locations may not be available for calculating Bing search volume, in this case search volume will be calculated based on clickstream data even if you set this parameter to false
 
 #### Defined in
 
-main.ts:135830
+main.ts:147695

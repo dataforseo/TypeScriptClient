@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleEventsLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleEventsLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleEventsLiveAdvancedRequestInfo
 
@@ -23,7 +23,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-main.ts:46738
+main.ts:49557
 
 ***
 
@@ -42,7 +42,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:46760
+main.ts:49579
 
 ***
 
@@ -52,14 +52,15 @@ main.ts:46760
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:46692
+main.ts:49511
 
 ***
 
@@ -77,7 +78,7 @@ en
 
 #### Defined in
 
-main.ts:46733
+main.ts:49552
 
 ***
 
@@ -95,7 +96,7 @@ English
 
 #### Defined in
 
-main.ts:46725
+main.ts:49544
 
 ***
 
@@ -112,7 +113,7 @@ example:
 
 #### Defined in
 
-main.ts:46706
+main.ts:49525
 
 ***
 
@@ -133,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:46717
+main.ts:49536
 
 ***
 
@@ -150,7 +151,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:46699
+main.ts:49518
 
 ***
 
@@ -167,7 +168,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:46767
+main.ts:49586
 
 ***
 
@@ -183,7 +184,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:46744
+main.ts:49563
 
 ***
 
@@ -200,7 +201,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:46751
+main.ts:49570
 
 ***
 
@@ -216,4 +217,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:46773
+main.ts:49592

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IResourceMetaInfo
+[Documentation](../README.md) / IResourceMetaInfo
 
 # Interface: IResourceMetaInfo
 
@@ -21,7 +21,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:156170
+main.ts:167805
 
 ***
 
@@ -33,7 +33,7 @@ image height in px
 
 #### Defined in
 
-main.ts:156180
+main.ts:167815
 
 ***
 
@@ -45,7 +45,7 @@ original image height in px
 
 #### Defined in
 
-main.ts:156176
+main.ts:167811
 
 ***
 
@@ -57,7 +57,7 @@ original image width in px
 
 #### Defined in
 
-main.ts:156174
+main.ts:167809
 
 ***
 
@@ -69,7 +69,7 @@ title
 
 #### Defined in
 
-main.ts:156172
+main.ts:167807
 
 ***
 
@@ -81,4 +81,4 @@ image width in px
 
 #### Defined in
 
-main.ts:156178
+main.ts:167813

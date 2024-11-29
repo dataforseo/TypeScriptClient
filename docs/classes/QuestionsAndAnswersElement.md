@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / QuestionsAndAnswersElement
+[Documentation](../README.md) / QuestionsAndAnswersElement
 
 # Class: QuestionsAndAnswersElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md)
+##### data?
+
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:33805
+main.ts:35358
 
 ## Properties
 
@@ -46,7 +48,7 @@ answer included in the item
 
 #### Defined in
 
-main.ts:33794
+main.ts:35347
 
 ***
 
@@ -62,7 +64,7 @@ website domain
 
 #### Defined in
 
-main.ts:33799
+main.ts:35352
 
 ***
 
@@ -78,7 +80,7 @@ question included in the item
 
 #### Defined in
 
-main.ts:33792
+main.ts:35345
 
 ***
 
@@ -95,7 +97,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:33797
+main.ts:35350
 
 ***
 
@@ -111,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:33788
+main.ts:35341
 
 ***
 
@@ -127,7 +129,7 @@ URL
 
 #### Defined in
 
-main.ts:33790
+main.ts:35343
 
 ***
 
@@ -143,7 +145,7 @@ answer upvotes from the source
 
 #### Defined in
 
-main.ts:33801
+main.ts:35354
 
 ## Methods
 
@@ -153,7 +155,9 @@ main.ts:33801
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -161,7 +165,7 @@ main.ts:33801
 
 #### Defined in
 
-main.ts:33814
+main.ts:35367
 
 ***
 
@@ -171,7 +175,9 @@ main.ts:33814
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +185,7 @@ main.ts:33814
 
 #### Defined in
 
-main.ts:33837
+main.ts:35390
 
 ***
 
@@ -189,7 +195,9 @@ main.ts:33837
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -197,4 +205,4 @@ main.ts:33837
 
 #### Defined in
 
-main.ts:33830
+main.ts:35383

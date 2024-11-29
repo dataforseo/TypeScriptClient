@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeHistoryLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
 # Class: KeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:135122
+main.ts:146980
 
 ## Properties
 
@@ -57,7 +59,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:135099
+main.ts:146957
 
 ***
 
@@ -84,7 +86,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:135112
+main.ts:146970
 
 ***
 
@@ -104,7 +106,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 #### Defined in
 
-main.ts:135077
+main.ts:146935
 
 ***
 
@@ -117,6 +119,7 @@ required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -124,7 +127,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:135039
+main.ts:146897
 
 ***
 
@@ -143,7 +146,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:135071
+main.ts:146929
 
 ***
 
@@ -162,7 +165,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:135066
+main.ts:146924
 
 ***
 
@@ -183,7 +186,7 @@ example:
 
 #### Defined in
 
-main.ts:135053
+main.ts:146911
 
 ***
 
@@ -205,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:135061
+main.ts:146919
 
 ***
 
@@ -226,7 +229,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:135046
+main.ts:146904
 
 ***
 
@@ -249,7 +252,7 @@ default value:  monthly
 
 #### Defined in
 
-main.ts:135086
+main.ts:146944
 
 ***
 
@@ -269,7 +272,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:135118
+main.ts:146976
 
 ## Methods
 
@@ -279,7 +282,9 @@ main.ts:135118
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -287,7 +292,7 @@ main.ts:135118
 
 #### Defined in
 
-main.ts:135131
+main.ts:146989
 
 ***
 
@@ -297,7 +302,9 @@ main.ts:135131
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -305,7 +312,7 @@ main.ts:135131
 
 #### Defined in
 
-main.ts:135162
+main.ts:147020
 
 ***
 
@@ -315,7 +322,9 @@ main.ts:135162
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -323,4 +332,4 @@ main.ts:135162
 
 #### Defined in
 
-main.ts:135155
+main.ts:147013

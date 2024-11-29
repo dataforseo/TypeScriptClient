@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRefineProductsElement
+[Documentation](../README.md) / IRefineProductsElement
 
 # Interface: IRefineProductsElement
 
@@ -21,7 +21,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:35657
+main.ts:37142
 
 ***
 
@@ -33,7 +33,7 @@ keyword for the related refined search
 
 #### Defined in
 
-main.ts:35659
+main.ts:37144
 
 ***
 
@@ -45,7 +45,7 @@ type of search refinement
 
 #### Defined in
 
-main.ts:35661
+main.ts:37146
 
 ***
 
@@ -57,7 +57,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35654
+main.ts:37139
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:35652
+main.ts:37137
 
 ***
 
@@ -81,4 +81,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35663
+main.ts:37148

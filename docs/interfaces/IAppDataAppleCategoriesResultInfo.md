@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleCategoriesResultInfo
+[Documentation](../README.md) / IAppDataAppleCategoriesResultInfo
 
 # Interface: IAppDataAppleCategoriesResultInfo
 
@@ -20,4 +20,4 @@ contains full list of supported app categories
 
 #### Defined in
 
-main.ts:192385
+main.ts:204721

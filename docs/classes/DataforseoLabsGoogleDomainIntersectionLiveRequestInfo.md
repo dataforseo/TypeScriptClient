@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:93545
+main.ts:103263
 
 ## Properties
 
@@ -61,7 +63,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:93519
+main.ts:103237
 
 ***
 
@@ -71,7 +73,7 @@ main.ts:93519
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -82,7 +84,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:93492
+main.ts:103210
 
 ***
 
@@ -101,7 +103,7 @@ default value: false
 
 #### Defined in
 
-main.ts:93485
+main.ts:103203
 
 ***
 
@@ -123,7 +125,7 @@ default value: true
 
 #### Defined in
 
-main.ts:93472
+main.ts:103190
 
 ***
 
@@ -145,7 +147,7 @@ default value:
 
 #### Defined in
 
-main.ts:93480
+main.ts:103198
 
 ***
 
@@ -167,7 +169,7 @@ en
 
 #### Defined in
 
-main.ts:93464
+main.ts:103182
 
 ***
 
@@ -189,7 +191,7 @@ English
 
 #### Defined in
 
-main.ts:93456
+main.ts:103174
 
 ***
 
@@ -208,7 +210,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:93497
+main.ts:103215
 
 ***
 
@@ -230,7 +232,7 @@ example:
 
 #### Defined in
 
-main.ts:93448
+main.ts:103166
 
 ***
 
@@ -252,7 +254,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:93440
+main.ts:103158
 
 ***
 
@@ -271,7 +273,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:93502
+main.ts:103220
 
 ***
 
@@ -301,7 +303,7 @@ example:
 
 #### Defined in
 
-main.ts:93535
+main.ts:103253
 
 ***
 
@@ -321,7 +323,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:93541
+main.ts:103259
 
 ***
 
@@ -340,7 +342,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:93427
+main.ts:103145
 
 ***
 
@@ -359,7 +361,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:93432
+main.ts:103150
 
 ## Methods
 
@@ -369,7 +371,9 @@ main.ts:93432
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -377,7 +381,7 @@ main.ts:93432
 
 #### Defined in
 
-main.ts:93554
+main.ts:103272
 
 ***
 
@@ -387,7 +391,9 @@ main.ts:93554
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -395,7 +401,7 @@ main.ts:93554
 
 #### Defined in
 
-main.ts:93597
+main.ts:103315
 
 ***
 
@@ -405,7 +411,9 @@ main.ts:93597
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -413,4 +421,4 @@ main.ts:93597
 
 #### Defined in
 
-main.ts:93590
+main.ts:103308

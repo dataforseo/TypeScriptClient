@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBaiduLanguagesResultInfo
+[Documentation](../README.md) / ISerpBaiduLanguagesResultInfo
 
 # Interface: ISerpBaiduLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:69369
+main.ts:78781
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:69367
+main.ts:78779

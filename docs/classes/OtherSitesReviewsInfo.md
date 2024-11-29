@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OtherSitesReviewsInfo
+[Documentation](../README.md) / OtherSitesReviewsInfo
 
 # Class: OtherSitesReviewsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md)
+##### data?
+
+[`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:206155
+main.ts:219510
 
 ## Properties
 
@@ -47,7 +49,7 @@ information about the rating enclosed in the review on a third-party site
 
 #### Defined in
 
-main.ts:206151
+main.ts:219506
 
 ***
 
@@ -64,7 +66,7 @@ text of the review
 
 #### Defined in
 
-main.ts:206148
+main.ts:219503
 
 ***
 
@@ -81,7 +83,7 @@ contains a name of the third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:206142
+main.ts:219497
 
 ***
 
@@ -98,7 +100,7 @@ URL to the a third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:206145
+main.ts:219500
 
 ## Methods
 
@@ -108,7 +110,9 @@ main.ts:206145
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +120,7 @@ main.ts:206145
 
 #### Defined in
 
-main.ts:206164
+main.ts:219519
 
 ***
 
@@ -126,7 +130,9 @@ main.ts:206164
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +140,7 @@ main.ts:206164
 
 #### Defined in
 
-main.ts:206184
+main.ts:219539
 
 ***
 
@@ -144,7 +150,9 @@ main.ts:206184
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -152,4 +160,4 @@ main.ts:206184
 
 #### Defined in
 
-main.ts:206177
+main.ts:219532

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBingOrganicLiveRegularResultInfo
+[Documentation](../README.md) / SerpBingOrganicLiveRegularResultInfo
 
 # Class: SerpBingOrganicLiveRegularResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBingOrganicLiveRegularResultInfo`](../interfaces/ISerpBingOrganicLiveRegularResultInfo.md)
+##### data?
+
+[`ISerpBingOrganicLiveRegularResultInfo`](../interfaces/ISerpBingOrganicLiveRegularResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:58560
+main.ts:65329
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:58537
+main.ts:65303
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:58542
+main.ts:65308
 
 ***
 
@@ -84,7 +86,7 @@ possible item types: organic, paid
 
 #### Defined in
 
-main.ts:58549
+main.ts:65318
 
 ***
 
@@ -101,7 +103,7 @@ array of 8 search queries related to the keyword
 
 #### Defined in
 
-main.ts:58556
+main.ts:65325
 
 ***
 
@@ -117,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:58553
+main.ts:65322
 
 ***
 
@@ -126,7 +128,7 @@ main.ts:58553
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -134,7 +136,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:58526
+main.ts:65292
 
 ***
 
@@ -150,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:58534
+main.ts:65300
 
 ***
 
@@ -166,7 +168,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:58532
+main.ts:65298
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveRegularResultInfo`](../interfaces/ISerpBingOrganicLiveRegularResultInfo.md).[`refinement_chips`](../interfaces/ISerpBingOrganicLiveRegularResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:65314
 
 ***
 
@@ -182,7 +201,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:58530
+main.ts:65296
 
 ***
 
@@ -198,7 +217,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:58551
+main.ts:65320
 
 ***
 
@@ -215,7 +234,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:58545
+main.ts:65311
 
 ***
 
@@ -231,7 +250,7 @@ type of element
 
 #### Defined in
 
-main.ts:58528
+main.ts:65294
 
 ## Methods
 
@@ -241,7 +260,9 @@ main.ts:58528
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -249,7 +270,7 @@ main.ts:58528
 
 #### Defined in
 
-main.ts:58569
+main.ts:65338
 
 ***
 
@@ -259,7 +280,9 @@ main.ts:58569
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +290,7 @@ main.ts:58569
 
 #### Defined in
 
-main.ts:58605
+main.ts:65375
 
 ***
 
@@ -277,7 +300,9 @@ main.ts:58605
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -285,4 +310,4 @@ main.ts:58605
 
 #### Defined in
 
-main.ts:58598
+main.ts:65368

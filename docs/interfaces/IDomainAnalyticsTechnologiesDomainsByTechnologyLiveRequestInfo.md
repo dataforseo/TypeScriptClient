@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:77943
+main.ts:87652
 
 ***
 
@@ -52,7 +52,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:77982
+main.ts:87692
 
 ***
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:77936
+main.ts:87645
 
 ***
 
@@ -84,10 +84,11 @@ you can specify the maximum of 10 keywords;
 UTF-8 encoding;
 example:
 ["seo","software"]
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:77958
+main.ts:87668
 
 ***
 
@@ -102,7 +103,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:78004
+main.ts:87714
 
 ***
 
@@ -119,7 +120,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:77965
+main.ts:87675
 
 ***
 
@@ -136,7 +137,7 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-main.ts:78011
+main.ts:87721
 
 ***
 
@@ -154,7 +155,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:78019
+main.ts:87729
 
 ***
 
@@ -181,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:77999
+main.ts:87709
 
 ***
 
@@ -198,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:77950
+main.ts:87659
 
 ***
 
@@ -218,4 +219,4 @@ example:
 
 #### Defined in
 
-main.ts:77929
+main.ts:87638

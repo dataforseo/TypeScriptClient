@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeLiveResultInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataBingSearchVolumeLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:129329
+main.ts:139596
 
 ## Properties
 
@@ -47,7 +49,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Defined in
 
-main.ts:129321
+main.ts:139588
 
 ***
 
@@ -68,7 +70,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:129309
+main.ts:139576
 
 ***
 
@@ -86,7 +88,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:129313
+main.ts:139580
 
 ***
 
@@ -103,7 +105,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:129302
+main.ts:139569
 
 ***
 
@@ -119,7 +121,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:129291
+main.ts:139558
 
 ***
 
@@ -136,7 +138,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:129297
+main.ts:139564
 
 ***
 
@@ -153,7 +155,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:129294
+main.ts:139561
 
 ***
 
@@ -171,7 +173,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:129325
+main.ts:139592
 
 ***
 
@@ -187,7 +189,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:129299
+main.ts:139566
 
 ***
 
@@ -206,7 +208,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:129318
+main.ts:139585
 
 ## Methods
 
@@ -216,7 +218,9 @@ main.ts:129318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -224,7 +228,7 @@ main.ts:129318
 
 #### Defined in
 
-main.ts:129338
+main.ts:139605
 
 ***
 
@@ -234,7 +238,9 @@ main.ts:129338
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -242,7 +248,7 @@ main.ts:129338
 
 #### Defined in
 
-main.ts:129372
+main.ts:139639
 
 ***
 
@@ -252,7 +258,9 @@ main.ts:129372
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -260,4 +268,4 @@ main.ts:129372
 
 #### Defined in
 
-main.ts:129365
+main.ts:139632

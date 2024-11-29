@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageContentParsingResultInfo
+[Documentation](../README.md) / OnPageContentParsingResultInfo
 
 # Class: OnPageContentParsingResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageContentParsingResultInfo`](../interfaces/IOnPageContentParsingResultInfo.md)
+##### data?
+
+[`IOnPageContentParsingResultInfo`](../interfaces/IOnPageContentParsingResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161966
+main.ts:173579
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:161956
+main.ts:173569
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:161958
+main.ts:173571
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:161962
+main.ts:173575
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:161960
+main.ts:173573
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:161960
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:161960
 
 #### Defined in
 
-main.ts:161975
+main.ts:173588
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:161975
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:161975
 
 #### Defined in
 
-main.ts:161999
+main.ts:173612
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:161999
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:161999
 
 #### Defined in
 
-main.ts:161992
+main.ts:173605

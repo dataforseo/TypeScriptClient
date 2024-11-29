@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / ISerpGoogleOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpGoogleOrganicTaskGetRegularResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:27725
+main.ts:29282
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:27730
+main.ts:29287
 
 ***
 
@@ -50,11 +50,11 @@ possible item types:
 answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, images, jobs, knowledge_graph, local_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, ai_overview
 note that this array contains all types of search results found in the returned SERP;
 however, this endpoint provides data for featured_snippet, organic and paid types only;
-to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Google Organiс Advanced SERP endpoint
+to get all items (including SERP features and rich snippets) found in the returned SERP, please refer to the Google Organiс Advanced SERP endpoint
 
 #### Defined in
 
-main.ts:27741
+main.ts:29300
 
 ***
 
@@ -66,7 +66,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:27747
+main.ts:29306
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:27745
+main.ts:29304
 
 ***
 
@@ -91,7 +91,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:27714
+main.ts:29271
 
 ***
 
@@ -103,7 +103,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:27722
+main.ts:29279
 
 ***
 
@@ -115,7 +115,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:27720
+main.ts:29277
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:29292
 
 ***
 
@@ -127,7 +139,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:27718
+main.ts:29275
 
 ***
 
@@ -139,7 +151,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:27743
+main.ts:29302
 
 ***
 
@@ -152,7 +164,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:27733
+main.ts:29290
 
 ***
 
@@ -164,4 +176,4 @@ type of element
 
 #### Defined in
 
-main.ts:27716
+main.ts:29273

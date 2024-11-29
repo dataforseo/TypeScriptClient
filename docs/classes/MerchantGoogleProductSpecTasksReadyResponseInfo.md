@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleProductSpecTasksReadyResponseInfo
+[Documentation](../README.md) / MerchantGoogleProductSpecTasksReadyResponseInfo
 
 # Class: MerchantGoogleProductSpecTasksReadyResponseInfo
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleProductSpecTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyResponseInfo.md)
+##### data?
+
+[`IMerchantGoogleProductSpecTasksReadyResponseInfo`](../interfaces/IMerchantGoogleProductSpecTasksReadyResponseInfo.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:177458
+main.ts:189195
 
 ## Properties
 
@@ -58,7 +60,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24152
+main.ts:25217
 
 ***
 
@@ -79,7 +81,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24145
+main.ts:25210
 
 ***
 
@@ -100,7 +102,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24148
+main.ts:25213
 
 ***
 
@@ -116,7 +118,7 @@ array of tasks
 
 #### Defined in
 
-main.ts:177454
+main.ts:189191
 
 ***
 
@@ -136,7 +138,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:24154
+main.ts:25219
 
 ***
 
@@ -156,7 +158,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:24156
+main.ts:25221
 
 ***
 
@@ -176,7 +178,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:24150
+main.ts:25215
 
 ***
 
@@ -196,7 +198,7 @@ the current version of the API
 
 #### Defined in
 
-main.ts:24142
+main.ts:25207
 
 ## Methods
 
@@ -206,7 +208,9 @@ main.ts:24142
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -218,7 +222,7 @@ main.ts:24142
 
 #### Defined in
 
-main.ts:177462
+main.ts:189199
 
 ***
 
@@ -228,7 +232,9 @@ main.ts:177462
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -240,7 +246,7 @@ main.ts:177462
 
 #### Defined in
 
-main.ts:177484
+main.ts:189221
 
 ***
 
@@ -250,7 +256,9 @@ main.ts:177484
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -262,4 +270,4 @@ main.ts:177484
 
 #### Defined in
 
-main.ts:177477
+main.ts:189214

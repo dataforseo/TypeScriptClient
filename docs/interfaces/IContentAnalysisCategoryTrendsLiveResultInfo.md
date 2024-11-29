@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisCategoryTrendsLiveResultInfo
+[Documentation](../README.md) / IContentAnalysisCategoryTrendsLiveResultInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveResultInfo
 
@@ -26,7 +26,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Defined in
 
-main.ts:169309
+main.ts:180898
 
 ***
 
@@ -44,7 +44,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:169324
+main.ts:180913
 
 ***
 
@@ -56,7 +56,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:169293
+main.ts:180882
 
 ***
 
@@ -74,7 +74,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:169328
+main.ts:180917
 
 ***
 
@@ -88,7 +88,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:169317
+main.ts:180906
 
 ***
 
@@ -105,7 +105,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:169320
+main.ts:180909
 
 ***
 
@@ -118,7 +118,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Defined in
 
-main.ts:169298
+main.ts:180887
 
 ***
 
@@ -136,7 +136,7 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 #### Defined in
 
-main.ts:169305
+main.ts:180894
 
 ***
 
@@ -150,7 +150,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:169313
+main.ts:180902
 
 ***
 
@@ -163,7 +163,7 @@ contains objects with top domains citing the target category and citation count 
 
 #### Defined in
 
-main.ts:169301
+main.ts:180890
 
 ***
 
@@ -175,7 +175,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:169295
+main.ts:180884
 
 ***
 
@@ -187,4 +187,4 @@ type of element
 
 #### Defined in
 
-main.ts:169291
+main.ts:180880

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataApi
+[Documentation](../README.md) / KeywordsDataApi
 
 # Class: KeywordsDataApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:8900
+main.ts:9218
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:8900
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,9 +52,131 @@ main.ts:8900
 
 #### Defined in
 
-main.ts:8898
+main.ts:9216
 
 ## Methods
+
+### bingAudienceEstimationIndustries()
+
+> **bingAudienceEstimationIndustries**(): `Promise`\<[`KeywordsDataBingAudienceEstimationIndustriesResponseInfo`](KeywordsDataBingAudienceEstimationIndustriesResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationIndustriesResponseInfo`](KeywordsDataBingAudienceEstimationIndustriesResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:10967
+
+***
+
+### bingAudienceEstimationJobFunctions()
+
+> **bingAudienceEstimationJobFunctions**(): `Promise`\<[`KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:10930
+
+***
+
+### bingAudienceEstimationLive()
+
+> **bingAudienceEstimationLive**(`body`): `Promise`\<[`KeywordsDataBingAudienceEstimationLiveResponseInfo`](KeywordsDataBingAudienceEstimationLiveResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`KeywordsDataBingAudienceEstimationLiveRequestInfo`](KeywordsDataBingAudienceEstimationLiveRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationLiveResponseInfo`](KeywordsDataBingAudienceEstimationLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:11127
+
+***
+
+### bingAudienceEstimationTaskGet()
+
+> **bingAudienceEstimationTaskGet**(`id`): `Promise`\<[`KeywordsDataBingAudienceEstimationTaskGetResponseInfo`](KeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)\>
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationTaskGetResponseInfo`](KeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:11086
+
+***
+
+### bingAudienceEstimationTaskPost()
+
+> **bingAudienceEstimationTaskPost**(`body`): `Promise`\<[`KeywordsDataBingAudienceEstimationTaskPostResponseInfo`](KeywordsDataBingAudienceEstimationTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`KeywordsDataBingAudienceEstimationTaskPostRequestInfo`](KeywordsDataBingAudienceEstimationTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationTaskPostResponseInfo`](KeywordsDataBingAudienceEstimationTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:11005
+
+***
+
+### bingAudienceEstimationTasksReady()
+
+> **bingAudienceEstimationTasksReady**(): `Promise`\<[`KeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:11046
+
+***
 
 ### bingKeywordPerformanceLive()
 
@@ -56,7 +184,9 @@ main.ts:8898
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)[]
 
 (optional)
 
@@ -68,7 +198,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11100
+main.ts:11656
 
 ***
 
@@ -78,7 +208,9 @@ main.ts:11100
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -92,7 +224,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11059
+main.ts:11615
 
 ***
 
@@ -102,7 +234,9 @@ main.ts:11059
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -114,7 +248,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10978
+main.ts:11534
 
 ***
 
@@ -130,7 +264,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11019
+main.ts:11575
 
 ***
 
@@ -140,7 +274,9 @@ main.ts:11019
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingKeywordsForKeywordsLiveRequestInfo`](KeywordsDataBingKeywordsForKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingKeywordsForKeywordsLiveRequestInfo`](KeywordsDataBingKeywordsForKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -152,7 +288,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10899
+main.ts:11455
 
 ***
 
@@ -162,7 +298,9 @@ main.ts:10899
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -176,7 +314,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10858
+main.ts:11414
 
 ***
 
@@ -186,7 +324,9 @@ main.ts:10858
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -198,7 +338,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10777
+main.ts:11333
 
 ***
 
@@ -214,7 +354,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10818
+main.ts:11374
 
 ***
 
@@ -224,7 +364,9 @@ main.ts:10818
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)[]
 
 (optional)
 
@@ -236,7 +378,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10735
+main.ts:11291
 
 ***
 
@@ -246,7 +388,9 @@ main.ts:10735
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -260,7 +404,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10694
+main.ts:11250
 
 ***
 
@@ -270,7 +414,9 @@ main.ts:10694
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -282,7 +428,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10613
+main.ts:11169
 
 ***
 
@@ -298,7 +444,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10654
+main.ts:11210
 
 ***
 
@@ -308,7 +454,9 @@ main.ts:10654
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -320,7 +468,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11301
+main.ts:11857
 
 ***
 
@@ -330,7 +478,9 @@ main.ts:11301
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -344,7 +494,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11260
+main.ts:11816
 
 ***
 
@@ -354,7 +504,9 @@ main.ts:11260
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -366,7 +518,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11179
+main.ts:11735
 
 ***
 
@@ -382,7 +534,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11220
+main.ts:11776
 
 ***
 
@@ -392,7 +544,9 @@ main.ts:11220
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingSearchVolumeLiveRequestInfo`](KeywordsDataBingSearchVolumeLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingSearchVolumeLiveRequestInfo`](KeywordsDataBingSearchVolumeLiveRequestInfo.md)[]
 
 (optional)
 
@@ -404,7 +558,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10571
+main.ts:10889
 
 ***
 
@@ -414,7 +568,9 @@ main.ts:10571
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -428,7 +584,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10530
+main.ts:10848
 
 ***
 
@@ -438,7 +594,9 @@ main.ts:10530
 
 #### Parameters
 
-• **body**: [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -450,7 +608,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10449
+main.ts:10767
 
 ***
 
@@ -466,7 +624,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10490
+main.ts:10808
 
 ***
 
@@ -476,7 +634,9 @@ main.ts:10490
 
 #### Parameters
 
-• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+##### body
+
+[`KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveRequestInfo.md)[]
 
 (optional)
 
@@ -488,7 +648,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11464
+main.ts:12020
 
 ***
 
@@ -498,7 +658,9 @@ main.ts:11464
 
 #### Parameters
 
-• **body**: [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)[]
 
 (optional)
 
@@ -510,7 +672,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11380
+main.ts:11936
 
 ***
 
@@ -520,7 +682,9 @@ main.ts:11380
 
 #### Parameters
 
-• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+##### body
+
+[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveRequestInfo.md)[]
 
 (optional)
 
@@ -532,7 +696,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11422
+main.ts:11978
 
 ***
 
@@ -542,7 +706,9 @@ main.ts:11422
 
 #### Parameters
 
-• **body**: [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)[]
 
 (optional)
 
@@ -554,7 +720,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10291
+main.ts:10609
 
 ***
 
@@ -564,7 +730,9 @@ main.ts:10291
 
 #### Parameters
 
-• **body**: [`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataDataforseoTrendsExploreLiveRequestInfo`](KeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)[]
 
 (optional)
 
@@ -576,7 +744,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10207
+main.ts:10525
 
 ***
 
@@ -586,7 +754,9 @@ main.ts:10207
 
 #### Parameters
 
-• **body**: [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)[]
 
 (optional)
 
@@ -598,7 +768,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10333
+main.ts:10651
 
 ***
 
@@ -608,7 +778,9 @@ main.ts:10333
 
 #### Parameters
 
-• **body**: [`KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -620,7 +792,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10249
+main.ts:10567
 
 ***
 
@@ -630,7 +802,9 @@ main.ts:10249
 
 #### Parameters
 
-• **body**: [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -642,7 +816,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9763
+main.ts:10081
 
 ***
 
@@ -652,7 +826,9 @@ main.ts:9763
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -666,7 +842,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9722
+main.ts:10040
 
 ***
 
@@ -676,7 +852,9 @@ main.ts:9722
 
 #### Parameters
 
-• **body**: [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -688,7 +866,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9641
+main.ts:9959
 
 ***
 
@@ -704,7 +882,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9682
+main.ts:10000
 
 ***
 
@@ -714,7 +892,9 @@ main.ts:9682
 
 #### Parameters
 
-• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -726,7 +906,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9599
+main.ts:9917
 
 ***
 
@@ -736,7 +916,9 @@ main.ts:9599
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -750,7 +932,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9558
+main.ts:9876
 
 ***
 
@@ -760,7 +942,9 @@ main.ts:9558
 
 #### Parameters
 
-• **body**: [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -772,7 +956,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9477
+main.ts:9795
 
 ***
 
@@ -788,7 +972,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9518
+main.ts:9836
 
 ***
 
@@ -798,7 +982,9 @@ main.ts:9518
 
 #### Parameters
 
-• **body**: [`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)[]
 
 (optional)
 
@@ -810,7 +996,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9435
+main.ts:9753
 
 ***
 
@@ -820,7 +1006,9 @@ main.ts:9435
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -834,7 +1022,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9394
+main.ts:9712
 
 ***
 
@@ -844,7 +1032,9 @@ main.ts:9394
 
 #### Parameters
 
-• **body**: [`KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -856,7 +1046,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9313
+main.ts:9631
 
 ***
 
@@ -872,7 +1062,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9354
+main.ts:9672
 
 ***
 
@@ -882,7 +1072,9 @@ main.ts:9354
 
 #### Parameters
 
-• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleAdsSearchVolumeLiveRequestInfo`](KeywordsDataGoogleAdsSearchVolumeLiveRequestInfo.md)[]
 
 (optional)
 
@@ -894,7 +1086,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9271
+main.ts:9589
 
 ***
 
@@ -904,7 +1096,9 @@ main.ts:9271
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -918,7 +1112,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9230
+main.ts:9548
 
 ***
 
@@ -928,7 +1122,9 @@ main.ts:9230
 
 #### Parameters
 
-• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -940,7 +1136,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9149
+main.ts:9467
 
 ***
 
@@ -956,7 +1152,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9190
+main.ts:9508
 
 ***
 
@@ -972,7 +1168,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8992
+main.ts:9310
 
 ***
 
@@ -988,7 +1184,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9923
+main.ts:10241
 
 ***
 
@@ -998,7 +1194,9 @@ main.ts:9923
 
 #### Parameters
 
-• **body**: [`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleTrendsExploreLiveRequestInfo`](KeywordsDataGoogleTrendsExploreLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1010,7 +1208,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10083
+main.ts:10401
 
 ***
 
@@ -1020,7 +1218,9 @@ main.ts:10083
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1034,7 +1234,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10042
+main.ts:10360
 
 ***
 
@@ -1044,7 +1244,9 @@ main.ts:10042
 
 #### Parameters
 
-• **body**: [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)[]
+##### body
+
+[`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1056,7 +1258,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9961
+main.ts:10279
 
 ***
 
@@ -1072,7 +1274,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10002
+main.ts:10320
 
 ***
 
@@ -1088,7 +1290,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10940
+main.ts:11496
 
 ***
 
@@ -1104,7 +1306,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10411
+main.ts:10729
 
 ***
 
@@ -1120,7 +1322,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10374
+main.ts:10692
 
 ***
 
@@ -1136,7 +1338,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11141
+main.ts:11697
 
 ***
 
@@ -1152,7 +1354,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:11342
+main.ts:11898
 
 ***
 
@@ -1168,7 +1370,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10124
+main.ts:10442
 
 ***
 
@@ -1178,7 +1380,9 @@ main.ts:10124
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -1194,7 +1398,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:10166
+main.ts:10484
 
 ***
 
@@ -1204,7 +1408,9 @@ main.ts:10166
 
 #### Parameters
 
-• **body**: [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)[]
+##### body
+
+[`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -1216,7 +1422,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8951
+main.ts:9269
 
 ***
 
@@ -1232,7 +1438,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9111
+main.ts:9429
 
 ***
 
@@ -1248,7 +1454,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9029
+main.ts:9347
 
 ***
 
@@ -1258,7 +1464,9 @@ main.ts:9029
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -1274,7 +1482,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9071
+main.ts:9389
 
 ***
 
@@ -1290,7 +1498,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9886
+main.ts:10204
 
 ***
 
@@ -1306,7 +1514,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9804
+main.ts:10122
 
 ***
 
@@ -1316,7 +1524,9 @@ main.ts:9804
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -1332,7 +1542,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:9846
+main.ts:10164
 
 ***
 
@@ -1342,7 +1552,9 @@ main.ts:9846
 
 #### Parameters
 
-• **body**: [`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)[]
+##### body
+
+[`KeywordsDataIdListRequestInfo`](KeywordsDataIdListRequestInfo.md)[]
 
 (optional)
 
@@ -1354,7 +1566,127 @@ Successful operation
 
 #### Defined in
 
-main.ts:8909
+main.ts:9227
+
+***
+
+### processBingAudienceEstimationIndustries()
+
+> `protected` **processBingAudienceEstimationIndustries**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationIndustriesResponseInfo`](KeywordsDataBingAudienceEstimationIndustriesResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationIndustriesResponseInfo`](KeywordsDataBingAudienceEstimationIndustriesResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:10983
+
+***
+
+### processBingAudienceEstimationJobFunctions()
+
+> `protected` **processBingAudienceEstimationJobFunctions**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo`](KeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:10946
+
+***
+
+### processBingAudienceEstimationLive()
+
+> `protected` **processBingAudienceEstimationLive**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationLiveResponseInfo`](KeywordsDataBingAudienceEstimationLiveResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationLiveResponseInfo`](KeywordsDataBingAudienceEstimationLiveResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:11147
+
+***
+
+### processBingAudienceEstimationTaskGet()
+
+> `protected` **processBingAudienceEstimationTaskGet**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationTaskGetResponseInfo`](KeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationTaskGetResponseInfo`](KeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:11105
+
+***
+
+### processBingAudienceEstimationTaskPost()
+
+> `protected` **processBingAudienceEstimationTaskPost**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationTaskPostResponseInfo`](KeywordsDataBingAudienceEstimationTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationTaskPostResponseInfo`](KeywordsDataBingAudienceEstimationTaskPostResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:11025
+
+***
+
+### processBingAudienceEstimationTasksReady()
+
+> `protected` **processBingAudienceEstimationTasksReady**(`response`): `Promise`\<[`KeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](KeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:11062
 
 ***
 
@@ -1364,7 +1696,9 @@ main.ts:8909
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1372,7 +1706,7 @@ main.ts:8909
 
 #### Defined in
 
-main.ts:11120
+main.ts:11676
 
 ***
 
@@ -1382,7 +1716,9 @@ main.ts:11120
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1390,7 +1726,7 @@ main.ts:11120
 
 #### Defined in
 
-main.ts:11078
+main.ts:11634
 
 ***
 
@@ -1400,7 +1736,9 @@ main.ts:11078
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1408,7 +1746,7 @@ main.ts:11078
 
 #### Defined in
 
-main.ts:10998
+main.ts:11554
 
 ***
 
@@ -1418,7 +1756,9 @@ main.ts:10998
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1426,7 +1766,7 @@ main.ts:10998
 
 #### Defined in
 
-main.ts:11035
+main.ts:11591
 
 ***
 
@@ -1436,7 +1776,9 @@ main.ts:11035
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1444,7 +1786,7 @@ main.ts:11035
 
 #### Defined in
 
-main.ts:10919
+main.ts:11475
 
 ***
 
@@ -1454,7 +1796,9 @@ main.ts:10919
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1462,7 +1806,7 @@ main.ts:10919
 
 #### Defined in
 
-main.ts:10877
+main.ts:11433
 
 ***
 
@@ -1472,7 +1816,9 @@ main.ts:10877
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1480,7 +1826,7 @@ main.ts:10877
 
 #### Defined in
 
-main.ts:10797
+main.ts:11353
 
 ***
 
@@ -1490,7 +1836,9 @@ main.ts:10797
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1498,7 +1846,7 @@ main.ts:10797
 
 #### Defined in
 
-main.ts:10834
+main.ts:11390
 
 ***
 
@@ -1508,7 +1856,9 @@ main.ts:10834
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1516,7 +1866,7 @@ main.ts:10834
 
 #### Defined in
 
-main.ts:10755
+main.ts:11311
 
 ***
 
@@ -1526,7 +1876,9 @@ main.ts:10755
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1534,7 +1886,7 @@ main.ts:10755
 
 #### Defined in
 
-main.ts:10713
+main.ts:11269
 
 ***
 
@@ -1544,7 +1896,9 @@ main.ts:10713
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1552,7 +1906,7 @@ main.ts:10713
 
 #### Defined in
 
-main.ts:10633
+main.ts:11189
 
 ***
 
@@ -1562,7 +1916,9 @@ main.ts:10633
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1570,7 +1926,7 @@ main.ts:10633
 
 #### Defined in
 
-main.ts:10670
+main.ts:11226
 
 ***
 
@@ -1580,7 +1936,9 @@ main.ts:10670
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1588,7 +1946,7 @@ main.ts:10670
 
 #### Defined in
 
-main.ts:11321
+main.ts:11877
 
 ***
 
@@ -1598,7 +1956,9 @@ main.ts:11321
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1606,7 +1966,7 @@ main.ts:11321
 
 #### Defined in
 
-main.ts:11279
+main.ts:11835
 
 ***
 
@@ -1616,7 +1976,9 @@ main.ts:11279
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1624,7 +1986,7 @@ main.ts:11279
 
 #### Defined in
 
-main.ts:11199
+main.ts:11755
 
 ***
 
@@ -1634,7 +1996,9 @@ main.ts:11199
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1642,7 +2006,7 @@ main.ts:11199
 
 #### Defined in
 
-main.ts:11236
+main.ts:11792
 
 ***
 
@@ -1652,7 +2016,9 @@ main.ts:11236
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1660,7 +2026,7 @@ main.ts:11236
 
 #### Defined in
 
-main.ts:10591
+main.ts:10909
 
 ***
 
@@ -1670,7 +2036,9 @@ main.ts:10591
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1678,7 +2046,7 @@ main.ts:10591
 
 #### Defined in
 
-main.ts:10549
+main.ts:10867
 
 ***
 
@@ -1688,7 +2056,9 @@ main.ts:10549
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1696,7 +2066,7 @@ main.ts:10549
 
 #### Defined in
 
-main.ts:10469
+main.ts:10787
 
 ***
 
@@ -1706,7 +2076,9 @@ main.ts:10469
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1714,7 +2086,7 @@ main.ts:10469
 
 #### Defined in
 
-main.ts:10506
+main.ts:10824
 
 ***
 
@@ -1724,7 +2096,9 @@ main.ts:10506
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1732,7 +2106,7 @@ main.ts:10506
 
 #### Defined in
 
-main.ts:11484
+main.ts:12040
 
 ***
 
@@ -1742,7 +2116,9 @@ main.ts:11484
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1750,7 +2126,7 @@ main.ts:11484
 
 #### Defined in
 
-main.ts:11400
+main.ts:11956
 
 ***
 
@@ -1760,7 +2136,9 @@ main.ts:11400
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1768,7 +2146,7 @@ main.ts:11400
 
 #### Defined in
 
-main.ts:11442
+main.ts:11998
 
 ***
 
@@ -1778,7 +2156,9 @@ main.ts:11442
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1786,7 +2166,7 @@ main.ts:11442
 
 #### Defined in
 
-main.ts:10311
+main.ts:10629
 
 ***
 
@@ -1796,7 +2176,9 @@ main.ts:10311
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1804,7 +2186,7 @@ main.ts:10311
 
 #### Defined in
 
-main.ts:10227
+main.ts:10545
 
 ***
 
@@ -1814,7 +2196,9 @@ main.ts:10227
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1822,7 +2206,7 @@ main.ts:10227
 
 #### Defined in
 
-main.ts:10353
+main.ts:10671
 
 ***
 
@@ -1832,7 +2216,9 @@ main.ts:10353
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1840,7 +2226,7 @@ main.ts:10353
 
 #### Defined in
 
-main.ts:10269
+main.ts:10587
 
 ***
 
@@ -1850,7 +2236,9 @@ main.ts:10269
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1858,7 +2246,7 @@ main.ts:10269
 
 #### Defined in
 
-main.ts:9783
+main.ts:10101
 
 ***
 
@@ -1868,7 +2256,9 @@ main.ts:9783
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1876,7 +2266,7 @@ main.ts:9783
 
 #### Defined in
 
-main.ts:9741
+main.ts:10059
 
 ***
 
@@ -1886,7 +2276,9 @@ main.ts:9741
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1894,7 +2286,7 @@ main.ts:9741
 
 #### Defined in
 
-main.ts:9661
+main.ts:9979
 
 ***
 
@@ -1904,7 +2296,9 @@ main.ts:9661
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1912,7 +2306,7 @@ main.ts:9661
 
 #### Defined in
 
-main.ts:9698
+main.ts:10016
 
 ***
 
@@ -1922,7 +2316,9 @@ main.ts:9698
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1930,7 +2326,7 @@ main.ts:9698
 
 #### Defined in
 
-main.ts:9619
+main.ts:9937
 
 ***
 
@@ -1940,7 +2336,9 @@ main.ts:9619
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1948,7 +2346,7 @@ main.ts:9619
 
 #### Defined in
 
-main.ts:9577
+main.ts:9895
 
 ***
 
@@ -1958,7 +2356,9 @@ main.ts:9577
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1966,7 +2366,7 @@ main.ts:9577
 
 #### Defined in
 
-main.ts:9497
+main.ts:9815
 
 ***
 
@@ -1976,7 +2376,9 @@ main.ts:9497
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1984,7 +2386,7 @@ main.ts:9497
 
 #### Defined in
 
-main.ts:9534
+main.ts:9852
 
 ***
 
@@ -1994,7 +2396,9 @@ main.ts:9534
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2002,7 +2406,7 @@ main.ts:9534
 
 #### Defined in
 
-main.ts:9455
+main.ts:9773
 
 ***
 
@@ -2012,7 +2416,9 @@ main.ts:9455
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2020,7 +2426,7 @@ main.ts:9455
 
 #### Defined in
 
-main.ts:9413
+main.ts:9731
 
 ***
 
@@ -2030,7 +2436,9 @@ main.ts:9413
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2038,7 +2446,7 @@ main.ts:9413
 
 #### Defined in
 
-main.ts:9333
+main.ts:9651
 
 ***
 
@@ -2048,7 +2456,9 @@ main.ts:9333
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2056,7 +2466,7 @@ main.ts:9333
 
 #### Defined in
 
-main.ts:9370
+main.ts:9688
 
 ***
 
@@ -2066,7 +2476,9 @@ main.ts:9370
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2074,7 +2486,7 @@ main.ts:9370
 
 #### Defined in
 
-main.ts:9291
+main.ts:9609
 
 ***
 
@@ -2084,7 +2496,9 @@ main.ts:9291
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2092,7 +2506,7 @@ main.ts:9291
 
 #### Defined in
 
-main.ts:9249
+main.ts:9567
 
 ***
 
@@ -2102,7 +2516,9 @@ main.ts:9249
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2110,7 +2526,7 @@ main.ts:9249
 
 #### Defined in
 
-main.ts:9169
+main.ts:9487
 
 ***
 
@@ -2120,7 +2536,9 @@ main.ts:9169
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2128,7 +2546,7 @@ main.ts:9169
 
 #### Defined in
 
-main.ts:9206
+main.ts:9524
 
 ***
 
@@ -2138,7 +2556,9 @@ main.ts:9206
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2146,7 +2566,7 @@ main.ts:9206
 
 #### Defined in
 
-main.ts:9008
+main.ts:9326
 
 ***
 
@@ -2156,7 +2576,9 @@ main.ts:9008
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2164,7 +2586,7 @@ main.ts:9008
 
 #### Defined in
 
-main.ts:9939
+main.ts:10257
 
 ***
 
@@ -2174,7 +2596,9 @@ main.ts:9939
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2182,7 +2606,7 @@ main.ts:9939
 
 #### Defined in
 
-main.ts:10103
+main.ts:10421
 
 ***
 
@@ -2192,7 +2616,9 @@ main.ts:10103
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2200,7 +2626,7 @@ main.ts:10103
 
 #### Defined in
 
-main.ts:10061
+main.ts:10379
 
 ***
 
@@ -2210,7 +2636,9 @@ main.ts:10061
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2218,7 +2646,7 @@ main.ts:10061
 
 #### Defined in
 
-main.ts:9981
+main.ts:10299
 
 ***
 
@@ -2228,7 +2656,9 @@ main.ts:9981
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2236,7 +2666,7 @@ main.ts:9981
 
 #### Defined in
 
-main.ts:10018
+main.ts:10336
 
 ***
 
@@ -2246,7 +2676,9 @@ main.ts:10018
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2254,7 +2686,7 @@ main.ts:10018
 
 #### Defined in
 
-main.ts:10956
+main.ts:11512
 
 ***
 
@@ -2264,7 +2696,9 @@ main.ts:10956
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2272,7 +2706,7 @@ main.ts:10956
 
 #### Defined in
 
-main.ts:10427
+main.ts:10745
 
 ***
 
@@ -2282,7 +2716,9 @@ main.ts:10427
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2290,7 +2726,7 @@ main.ts:10427
 
 #### Defined in
 
-main.ts:10390
+main.ts:10708
 
 ***
 
@@ -2300,7 +2736,9 @@ main.ts:10390
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2308,7 +2746,7 @@ main.ts:10390
 
 #### Defined in
 
-main.ts:11157
+main.ts:11713
 
 ***
 
@@ -2318,7 +2756,9 @@ main.ts:11157
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2326,7 +2766,7 @@ main.ts:11157
 
 #### Defined in
 
-main.ts:11358
+main.ts:11914
 
 ***
 
@@ -2336,7 +2776,9 @@ main.ts:11358
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2344,7 +2786,7 @@ main.ts:11358
 
 #### Defined in
 
-main.ts:10140
+main.ts:10458
 
 ***
 
@@ -2354,7 +2796,9 @@ main.ts:10140
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2362,7 +2806,7 @@ main.ts:10140
 
 #### Defined in
 
-main.ts:10185
+main.ts:10503
 
 ***
 
@@ -2372,7 +2816,9 @@ main.ts:10185
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2380,7 +2826,7 @@ main.ts:10185
 
 #### Defined in
 
-main.ts:8971
+main.ts:9289
 
 ***
 
@@ -2390,7 +2836,9 @@ main.ts:8971
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2398,7 +2846,7 @@ main.ts:8971
 
 #### Defined in
 
-main.ts:9127
+main.ts:9445
 
 ***
 
@@ -2408,7 +2856,9 @@ main.ts:9127
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2416,7 +2866,7 @@ main.ts:9127
 
 #### Defined in
 
-main.ts:9045
+main.ts:9363
 
 ***
 
@@ -2426,7 +2876,9 @@ main.ts:9045
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2434,7 +2886,7 @@ main.ts:9045
 
 #### Defined in
 
-main.ts:9090
+main.ts:9408
 
 ***
 
@@ -2444,7 +2896,9 @@ main.ts:9090
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2452,7 +2906,7 @@ main.ts:9090
 
 #### Defined in
 
-main.ts:9902
+main.ts:10220
 
 ***
 
@@ -2462,7 +2916,9 @@ main.ts:9902
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2470,7 +2926,7 @@ main.ts:9902
 
 #### Defined in
 
-main.ts:9820
+main.ts:10138
 
 ***
 
@@ -2480,7 +2936,9 @@ main.ts:9820
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2488,7 +2946,7 @@ main.ts:9820
 
 #### Defined in
 
-main.ts:9865
+main.ts:10183
 
 ***
 
@@ -2498,7 +2956,9 @@ main.ts:9865
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2506,4 +2966,4 @@ main.ts:9865
 
 #### Defined in
 
-main.ts:8929
+main.ts:9247

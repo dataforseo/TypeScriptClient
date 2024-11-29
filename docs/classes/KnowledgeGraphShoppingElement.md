@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphShoppingElement
+[Documentation](../README.md) / KnowledgeGraphShoppingElement
 
 # Class: KnowledgeGraphShoppingElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md)
+##### data?
+
+[`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:28835
+main.ts:30394
 
 ## Properties
 
@@ -46,7 +48,7 @@ website domain
 
 #### Defined in
 
-main.ts:28816
+main.ts:30375
 
 ***
 
@@ -65,7 +67,7 @@ by Google
 
 #### Defined in
 
-main.ts:28828
+main.ts:30387
 
 ***
 
@@ -82,7 +84,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Defined in
 
-main.ts:28831
+main.ts:30390
 
 ***
 
@@ -99,7 +101,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:28819
+main.ts:30378
 
 ***
 
@@ -115,7 +117,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28823
+main.ts:30382
 
 ***
 
@@ -131,7 +133,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:28821
+main.ts:30380
 
 ***
 
@@ -147,7 +149,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28812
+main.ts:30371
 
 ***
 
@@ -163,7 +165,7 @@ type of element
 
 #### Defined in
 
-main.ts:28810
+main.ts:30369
 
 ***
 
@@ -179,7 +181,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:28814
+main.ts:30373
 
 ## Methods
 
@@ -189,7 +191,9 @@ main.ts:28814
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +201,7 @@ main.ts:28814
 
 #### Defined in
 
-main.ts:28844
+main.ts:30403
 
 ***
 
@@ -207,7 +211,9 @@ main.ts:28844
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -215,7 +221,7 @@ main.ts:28844
 
 #### Defined in
 
-main.ts:28869
+main.ts:30428
 
 ***
 
@@ -225,7 +231,9 @@ main.ts:28869
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -233,4 +241,4 @@ main.ts:28869
 
 #### Defined in
 
-main.ts:28862
+main.ts:30421

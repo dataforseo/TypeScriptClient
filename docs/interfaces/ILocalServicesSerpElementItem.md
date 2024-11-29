@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalServicesSerpElementItem
+[Documentation](../README.md) / ILocalServicesSerpElementItem
 
 # Interface: ILocalServicesSerpElementItem
 
@@ -24,7 +24,7 @@ source domain
 
 #### Defined in
 
-main.ts:34597
+main.ts:36082
 
 ***
 
@@ -36,7 +36,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:34599
+main.ts:36084
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -103,7 +103,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34603
+main.ts:36088
 
 ***
 
@@ -115,7 +115,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34593
+main.ts:36078
 
 ***
 
@@ -131,7 +131,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -143,7 +143,7 @@ source URL
 
 #### Defined in
 
-main.ts:34595
+main.ts:36080
 
 ***
 
@@ -159,4 +159,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

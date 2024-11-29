@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocation
+[Documentation](../README.md) / ILocation
 
 # Interface: ILocation
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:207280
+main.ts:220635
 
 ***
 
@@ -36,7 +36,7 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-main.ts:207288
+main.ts:220643
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:207285
+main.ts:220640
 
 ***
 
@@ -63,7 +63,7 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-main.ts:207267
+main.ts:220622
 
 ***
 
@@ -75,7 +75,7 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:207263
+main.ts:220618
 
 ***
 
@@ -87,7 +87,7 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:207265
+main.ts:220620
 
 ***
 
@@ -102,7 +102,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:207272
+main.ts:220627
 
 ***
 
@@ -115,4 +115,4 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-main.ts:207275
+main.ts:220630

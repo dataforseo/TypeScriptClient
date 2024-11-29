@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetSearchTaskPostRequestInfo
+[Documentation](../README.md) / ISerpGoogleDatasetSearchTaskPostRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchTaskPostRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:53315
+main.ts:57042
 
 ***
 
@@ -41,7 +41,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:53330
+main.ts:57057
 
 ***
 
@@ -55,7 +55,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:53343
+main.ts:57070
 
 ***
 
@@ -69,7 +69,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:53351
+main.ts:57078
 
 ***
 
@@ -79,14 +79,15 @@ main.ts:53351
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”.
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”.
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:53298
+main.ts:57025
 
 ***
 
@@ -101,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:53326
+main.ts:57053
 
 ***
 
@@ -117,7 +118,7 @@ English
 
 #### Defined in
 
-main.ts:53321
+main.ts:57048
 
 ***
 
@@ -131,7 +132,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:53339
+main.ts:57066
 
 ***
 
@@ -146,7 +147,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:53335
+main.ts:57062
 
 ***
 
@@ -161,12 +162,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:53386
+main.ts:57115
 
 ***
 
@@ -181,7 +183,7 @@ only value: advanced
 
 #### Defined in
 
-main.ts:53376
+main.ts:57104
 
 ***
 
@@ -196,12 +198,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:53371
+main.ts:57099
 
 ***
 
@@ -219,7 +222,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:53306
+main.ts:57033
 
 ***
 
@@ -235,7 +238,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:53361
+main.ts:57088
 
 ***
 
@@ -249,7 +252,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:53355
+main.ts:57082
 
 ***
 
@@ -263,4 +266,4 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:53347
+main.ts:57074

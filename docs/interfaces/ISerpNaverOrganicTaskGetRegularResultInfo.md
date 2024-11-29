@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpNaverOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / ISerpNaverOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpNaverOrganicTaskGetRegularResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:71839
+main.ts:81540
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:71844
+main.ts:81545
 
 ***
 
@@ -54,7 +54,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Defined in
 
-main.ts:71855
+main.ts:81559
 
 ***
 
@@ -66,7 +66,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:71861
+main.ts:81565
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:71859
+main.ts:81563
 
 ***
 
@@ -91,7 +91,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:71828
+main.ts:81529
 
 ***
 
@@ -103,7 +103,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:71836
+main.ts:81537
 
 ***
 
@@ -115,7 +115,20 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:71834
+main.ts:81535
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:81551
 
 ***
 
@@ -127,7 +140,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:71832
+main.ts:81533
 
 ***
 
@@ -139,7 +152,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:71857
+main.ts:81561
 
 ***
 
@@ -152,7 +165,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:71847
+main.ts:81548
 
 ***
 
@@ -164,4 +177,4 @@ type of element
 
 #### Defined in
 
-main.ts:71830
+main.ts:81531

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataAttributesInfo
+[Documentation](../README.md) / BusinessDataAttributesInfo
 
 # Class: BusinessDataAttributesInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md)
+##### data?
+
+[`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:198424
+main.ts:210774
 
 ## Properties
 
@@ -43,7 +45,7 @@ indicates attributes a business entity can offer
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -51,7 +53,7 @@ indicates attributes a business entity can offer
 
 #### Defined in
 
-main.ts:198417
+main.ts:210767
 
 ***
 
@@ -64,7 +66,7 @@ indicates attributes a business entity cannot offer
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -72,7 +74,7 @@ indicates attributes a business entity cannot offer
 
 #### Defined in
 
-main.ts:198420
+main.ts:210770
 
 ## Methods
 
@@ -82,7 +84,9 @@ main.ts:198420
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -90,7 +94,7 @@ main.ts:198420
 
 #### Defined in
 
-main.ts:198433
+main.ts:210783
 
 ***
 
@@ -100,7 +104,9 @@ main.ts:198433
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +114,7 @@ main.ts:198433
 
 #### Defined in
 
-main.ts:198463
+main.ts:210813
 
 ***
 
@@ -118,7 +124,9 @@ main.ts:198463
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -126,4 +134,4 @@ main.ts:198463
 
 #### Defined in
 
-main.ts:198456
+main.ts:210806

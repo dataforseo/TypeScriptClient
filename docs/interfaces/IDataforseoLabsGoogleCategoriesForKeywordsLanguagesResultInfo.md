@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:87145
+main.ts:96863
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:87143
+main.ts:96861

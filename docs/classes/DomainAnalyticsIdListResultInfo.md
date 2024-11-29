@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsIdListResultInfo
+[Documentation](../README.md) / DomainAnalyticsIdListResultInfo
 
 # Class: DomainAnalyticsIdListResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:74784
+main.ts:84488
 
 ## Properties
 
@@ -46,7 +48,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:74778
+main.ts:84482
 
 ***
 
@@ -65,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:74773
+main.ts:84477
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:74768
+main.ts:84472
 
 ***
 
@@ -100,7 +102,7 @@ id of the task
 
 #### Defined in
 
-main.ts:74760
+main.ts:84464
 
 ***
 
@@ -120,7 +122,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:74780
+main.ts:84484
 
 ***
 
@@ -137,7 +139,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:74776
+main.ts:84480
 
 ***
 
@@ -154,7 +156,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:74763
+main.ts:84467
 
 ## Methods
 
@@ -164,7 +166,9 @@ main.ts:74763
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -172,7 +176,7 @@ main.ts:74763
 
 #### Defined in
 
-main.ts:74793
+main.ts:84497
 
 ***
 
@@ -182,7 +186,9 @@ main.ts:74793
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -190,7 +196,7 @@ main.ts:74793
 
 #### Defined in
 
-main.ts:74822
+main.ts:84526
 
 ***
 
@@ -200,7 +206,9 @@ main.ts:74822
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -208,4 +216,4 @@ main.ts:74822
 
 #### Defined in
 
-main.ts:74815
+main.ts:84519

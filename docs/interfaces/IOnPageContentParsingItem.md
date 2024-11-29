@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageContentParsingItem
+[Documentation](../README.md) / IOnPageContentParsingItem
 
 # Interface: IOnPageContentParsingItem
 
@@ -22,7 +22,7 @@ example:
 
 #### Defined in
 
-main.ts:161944
+main.ts:173557
 
 ***
 
@@ -34,7 +34,7 @@ parsed content of the page
 
 #### Defined in
 
-main.ts:161948
+main.ts:173561
 
 ***
 
@@ -46,7 +46,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:161946
+main.ts:173559
 
 ***
 
@@ -58,4 +58,4 @@ type of element
 
 #### Defined in
 
-main.ts:161940
+main.ts:173553

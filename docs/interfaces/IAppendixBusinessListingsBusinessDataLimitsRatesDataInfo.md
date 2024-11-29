@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:217103
+main.ts:232066
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:217103
 
 #### Defined in
 
-main.ts:217102
+main.ts:232065
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:217102
 
 #### Defined in
 
-main.ts:217104
+main.ts:232067
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:217104
 
 #### Defined in
 
-main.ts:217101
+main.ts:232064

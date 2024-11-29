@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPages
+[Documentation](../README.md) / IPages
 
 # Interface: IPages
 
@@ -20,7 +20,7 @@ information about the page with duplicate content
 
 #### Defined in
 
-main.ts:157332
+main.ts:168967
 
 ***
 
@@ -34,4 +34,4 @@ can take values from 0 to 10
 
 #### Defined in
 
-main.ts:157330
+main.ts:168965

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBingKeywordsDataDayStatisticsDataInfo
+[Documentation](../README.md) / AppendixBingKeywordsDataDayStatisticsDataInfo
 
 # Class: AppendixBingKeywordsDataDayStatisticsDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md)
+##### data?
+
+[`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
 #### Returns
 
@@ -30,9 +32,23 @@
 
 #### Defined in
 
-main.ts:218322
+main.ts:233299
 
 ## Properties
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
+
+#### Implementation of
+
+[`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`audience_estimation`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#audience_estimation)
+
+#### Defined in
+
+main.ts:233293
+
+***
 
 ### keyword\_performance?
 
@@ -44,7 +60,21 @@ main.ts:218322
 
 #### Defined in
 
-main.ts:218314
+main.ts:233289
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
+
+#### Implementation of
+
+[`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#keyword_suggestions_for_url)
+
+#### Defined in
+
+main.ts:233294
 
 ***
 
@@ -58,7 +88,7 @@ main.ts:218314
 
 #### Defined in
 
-main.ts:218317
+main.ts:233292
 
 ***
 
@@ -72,7 +102,7 @@ main.ts:218317
 
 #### Defined in
 
-main.ts:218316
+main.ts:233291
 
 ***
 
@@ -86,7 +116,7 @@ main.ts:218316
 
 #### Defined in
 
-main.ts:218315
+main.ts:233290
 
 ***
 
@@ -100,7 +130,7 @@ main.ts:218315
 
 #### Defined in
 
-main.ts:218318
+main.ts:233295
 
 ## Methods
 
@@ -110,7 +140,9 @@ main.ts:218318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +150,7 @@ main.ts:218318
 
 #### Defined in
 
-main.ts:218331
+main.ts:233308
 
 ***
 
@@ -128,7 +160,9 @@ main.ts:218331
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +170,7 @@ main.ts:218331
 
 #### Defined in
 
-main.ts:218352
+main.ts:233331
 
 ***
 
@@ -146,7 +180,9 @@ main.ts:218352
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -154,4 +190,4 @@ main.ts:218352
 
 #### Defined in
 
-main.ts:218345
+main.ts:233324

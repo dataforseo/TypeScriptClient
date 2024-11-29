@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IWorkHours
+[Documentation](../README.md) / IWorkHours
 
 # Interface: IWorkHours
 
@@ -21,7 +21,7 @@ indicates whether the establishment is opened or closed
 
 #### Defined in
 
-main.ts:39749
+main.ts:41558
 
 ***
 
@@ -33,8 +33,8 @@ work hours timetable
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`WorkDayInfo`](../classes/WorkDayInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: [`WorkDayInfo`](../classes/WorkDayInfo.md)[]
 
 #### Defined in
 
-main.ts:39746
+main.ts:41555

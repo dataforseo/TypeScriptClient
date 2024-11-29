@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ExploreBrandsSerpElementItem
+[Documentation](../README.md) / ExploreBrandsSerpElementItem
 
 # Class: ExploreBrandsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md)
+##### data?
+
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:35840
+main.ts:37325
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:35840
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:35832
+main.ts:37317
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -133,7 +135,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -151,7 +153,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35836
+main.ts:37321
 
 ***
 
@@ -167,7 +169,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35830
+main.ts:37315
 
 ***
 
@@ -187,7 +189,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -207,7 +209,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -217,7 +219,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -229,7 +233,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:35845
+main.ts:37330
 
 ***
 
@@ -239,7 +243,9 @@ main.ts:35845
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -251,7 +257,7 @@ main.ts:35845
 
 #### Defined in
 
-main.ts:35869
+main.ts:37354
 
 ***
 
@@ -261,7 +267,9 @@ main.ts:35869
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -273,4 +281,4 @@ main.ts:35869
 
 #### Defined in
 
-main.ts:35862
+main.ts:37347

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordProperties
+[Documentation](../README.md) / IKeywordProperties
 
 # Interface: IKeywordProperties
 
@@ -22,7 +22,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:82970
+main.ts:92682
 
 ***
 
@@ -35,7 +35,7 @@ indicates the language of the keyword as identified by our system
 
 #### Defined in
 
-main.ts:82984
+main.ts:92696
 
 ***
 
@@ -48,7 +48,7 @@ if true, the language set in the request does not match the language determined 
 
 #### Defined in
 
-main.ts:82987
+main.ts:92699
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:82981
+main.ts:92693
 
 ***
 
@@ -75,7 +75,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82966
+main.ts:92678
 
 ***
 
@@ -91,4 +91,4 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:82976
+main.ts:92688

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleCategoriesResultInfo
+[Documentation](../README.md) / AppDataAppleCategoriesResultInfo
 
 # Class: AppDataAppleCategoriesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md)
+##### data?
+
+[`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:192338
+main.ts:204674
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains full list of supported app categories
 
 #### Defined in
 
-main.ts:192334
+main.ts:204670
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:192334
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:192334
 
 #### Defined in
 
-main.ts:192347
+main.ts:204683
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:192347
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:192347
 
 #### Defined in
 
-main.ts:192368
+main.ts:204704
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:192368
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:192368
 
 #### Defined in
 
-main.ts:192361
+main.ts:204697

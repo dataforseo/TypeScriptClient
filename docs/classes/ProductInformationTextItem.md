@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductInformationTextItem
+[Documentation](../README.md) / ProductInformationTextItem
 
 # Class: ProductInformationTextItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductInformationTextItem`](../interfaces/IProductInformationTextItem.md)
+##### data?
+
+[`IProductInformationTextItem`](../interfaces/IProductInformationTextItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:182034
+main.ts:194152
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:182034
 
 #### Defined in
 
-main.ts:23359
+main.ts:24257
 
 ***
 
@@ -72,7 +74,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:23357
+main.ts:24255
 
 ***
 
@@ -88,7 +90,7 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:182030
+main.ts:194148
 
 ***
 
@@ -108,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:23355
+main.ts:24253
 
 ## Methods
 
@@ -118,7 +120,9 @@ main.ts:23355
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +134,7 @@ main.ts:23355
 
 #### Defined in
 
-main.ts:182039
+main.ts:194157
 
 ***
 
@@ -140,7 +144,9 @@ main.ts:182039
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -152,7 +158,7 @@ main.ts:182039
 
 #### Defined in
 
-main.ts:182057
+main.ts:194175
 
 ***
 
@@ -162,7 +168,9 @@ main.ts:182057
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -174,4 +182,4 @@ main.ts:182057
 
 #### Defined in
 
-main.ts:182050
+main.ts:194168

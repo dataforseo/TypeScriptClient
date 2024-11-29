@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixGoogleBusinessDataPriceData
+[Documentation](../README.md) / AppendixGoogleBusinessDataPriceData
 
 # Class: AppendixGoogleBusinessDataPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md)
+##### data?
+
+[`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md)
 
 #### Returns
 
@@ -30,9 +32,23 @@
 
 #### Defined in
 
-main.ts:222669
+main.ts:237797
 
 ## Properties
+
+### extended\_reviews?
+
+> `optional` **extended\_reviews**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`extended_reviews`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#extended_reviews)
+
+#### Defined in
+
+main.ts:237787
+
+***
 
 ### hotel\_info?
 
@@ -44,7 +60,7 @@ main.ts:222669
 
 #### Defined in
 
-main.ts:222660
+main.ts:237788
 
 ***
 
@@ -58,7 +74,7 @@ main.ts:222660
 
 #### Defined in
 
-main.ts:222661
+main.ts:237789
 
 ***
 
@@ -72,7 +88,7 @@ main.ts:222661
 
 #### Defined in
 
-main.ts:222662
+main.ts:237790
 
 ***
 
@@ -86,7 +102,7 @@ main.ts:222662
 
 #### Defined in
 
-main.ts:222663
+main.ts:237791
 
 ***
 
@@ -100,7 +116,7 @@ main.ts:222663
 
 #### Defined in
 
-main.ts:222664
+main.ts:237792
 
 ***
 
@@ -114,7 +130,7 @@ main.ts:222664
 
 #### Defined in
 
-main.ts:222665
+main.ts:237793
 
 ## Methods
 
@@ -124,7 +140,9 @@ main.ts:222665
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +150,7 @@ main.ts:222665
 
 #### Defined in
 
-main.ts:222678
+main.ts:237806
 
 ***
 
@@ -142,7 +160,9 @@ main.ts:222678
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +170,7 @@ main.ts:222678
 
 #### Defined in
 
-main.ts:222700
+main.ts:237829
 
 ***
 
@@ -160,7 +180,9 @@ main.ts:222700
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +190,4 @@ main.ts:222700
 
 #### Defined in
 
-main.ts:222693
+main.ts:237822

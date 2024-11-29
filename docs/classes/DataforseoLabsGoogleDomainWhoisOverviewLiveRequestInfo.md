@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:90341
+main.ts:100059
 
 ## Properties
 
@@ -59,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 #### Defined in
 
-main.ts:90315
+main.ts:100033
 
 ***
 
@@ -78,7 +80,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90295
+main.ts:100013
 
 ***
 
@@ -97,7 +99,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:90300
+main.ts:100018
 
 ***
 
@@ -127,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:90331
+main.ts:100049
 
 ***
 
@@ -147,7 +149,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90337
+main.ts:100055
 
 ## Methods
 
@@ -157,7 +159,9 @@ main.ts:90337
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +169,7 @@ main.ts:90337
 
 #### Defined in
 
-main.ts:90350
+main.ts:100068
 
 ***
 
@@ -175,7 +179,9 @@ main.ts:90350
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -183,7 +189,7 @@ main.ts:90350
 
 #### Defined in
 
-main.ts:90379
+main.ts:100097
 
 ***
 
@@ -193,7 +199,9 @@ main.ts:90379
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -201,4 +209,4 @@ main.ts:90379
 
 #### Defined in
 
-main.ts:90372
+main.ts:100090

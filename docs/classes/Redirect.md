@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Redirect
+[Documentation](../README.md) / Redirect
 
 # Class: Redirect
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRedirect`](../interfaces/IRedirect.md)
+##### data?
+
+[`IRedirect`](../interfaces/IRedirect.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:140539
+main.ts:151744
 
 ## Properties
 
@@ -46,7 +48,7 @@ HTTP status code of the URL
 
 #### Defined in
 
-main.ts:140533
+main.ts:151738
 
 ***
 
@@ -62,7 +64,7 @@ type of element
 
 #### Defined in
 
-main.ts:140531
+main.ts:151736
 
 ***
 
@@ -78,7 +80,7 @@ indirect link URL
 
 #### Defined in
 
-main.ts:140535
+main.ts:151740
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:140535
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:140535
 
 #### Defined in
 
-main.ts:140548
+main.ts:151753
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:140548
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:140548
 
 #### Defined in
 
-main.ts:140567
+main.ts:151772
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:140567
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:140567
 
 #### Defined in
 
-main.ts:140560
+main.ts:151765

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixKeywordsDataDayStatisticsMoneyData
+[Documentation](../README.md) / IAppendixKeywordsDataDayStatisticsMoneyData
 
 # Interface: IAppendixKeywordsDataDayStatisticsMoneyData
 
@@ -18,7 +18,17 @@
 
 #### Defined in
 
-main.ts:220302
+main.ts:235307
+
+***
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:235320
 
 ***
 
@@ -28,7 +38,7 @@ main.ts:220302
 
 #### Defined in
 
-main.ts:220309
+main.ts:235314
 
 ***
 
@@ -38,7 +48,7 @@ main.ts:220309
 
 #### Defined in
 
-main.ts:220307
+main.ts:235312
 
 ***
 
@@ -48,7 +58,7 @@ main.ts:220307
 
 #### Defined in
 
-main.ts:220314
+main.ts:235319
 
 ***
 
@@ -58,7 +68,7 @@ main.ts:220314
 
 #### Defined in
 
-main.ts:220313
+main.ts:235318
 
 ***
 
@@ -68,7 +78,7 @@ main.ts:220313
 
 #### Defined in
 
-main.ts:220308
+main.ts:235313
 
 ***
 
@@ -78,7 +88,7 @@ main.ts:220308
 
 #### Defined in
 
-main.ts:220306
+main.ts:235311
 
 ***
 
@@ -88,7 +98,7 @@ main.ts:220306
 
 #### Defined in
 
-main.ts:220316
+main.ts:235323
 
 ***
 
@@ -98,7 +108,7 @@ main.ts:220316
 
 #### Defined in
 
-main.ts:220312
+main.ts:235317
 
 ***
 
@@ -108,7 +118,17 @@ main.ts:220312
 
 #### Defined in
 
-main.ts:220310
+main.ts:235315
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:235321
 
 ***
 
@@ -118,7 +138,7 @@ main.ts:220310
 
 #### Defined in
 
-main.ts:220299
+main.ts:235304
 
 ***
 
@@ -128,7 +148,7 @@ main.ts:220299
 
 #### Defined in
 
-main.ts:220300
+main.ts:235305
 
 ***
 
@@ -138,7 +158,7 @@ main.ts:220300
 
 #### Defined in
 
-main.ts:220303
+main.ts:235308
 
 ***
 
@@ -148,7 +168,7 @@ main.ts:220303
 
 #### Defined in
 
-main.ts:220304
+main.ts:235309
 
 ***
 
@@ -158,7 +178,7 @@ main.ts:220304
 
 #### Defined in
 
-main.ts:220311
+main.ts:235316
 
 ***
 
@@ -168,17 +188,17 @@ main.ts:220311
 
 #### Defined in
 
-main.ts:220301
+main.ts:235306
 
 ***
 
 ### search\_volume\_history?
 
-> `optional` **search\_volume\_history**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **search\_volume\_history**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
 
 #### Defined in
 
-main.ts:220315
+main.ts:235322
 
 ***
 
@@ -188,4 +208,4 @@ main.ts:220315
 
 #### Defined in
 
-main.ts:220305
+main.ts:235310

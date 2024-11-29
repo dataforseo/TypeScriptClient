@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleAutocompleteLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleAutocompleteLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleAutocompleteLiveAdvancedRequestInfo
 
@@ -35,7 +35,7 @@ products-cc — used in google shopping search
 
 #### Defined in
 
-main.ts:52838
+main.ts:56555
 
 ***
 
@@ -48,7 +48,7 @@ optional field
 the horizontal numerical position of the cursor pointer within the keyword in the search bar;
 by modifying the position of the cursor pointer, you will obtain different autocomplete suggestions for the same seed keyword;
 minimal value: 0
-default value: the number of the last symbol of the specified keyword
+default value: the number of the last character of the specified keyword
 example:
 |which query are s – "cursor_pointer": 0
 which query is s| – "cursor_pointer": 16
@@ -56,7 +56,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Defined in
 
-main.ts:52821
+main.ts:56538
 
 ***
 
@@ -66,14 +66,15 @@ main.ts:52821
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:52783
+main.ts:56500
 
 ***
 
@@ -90,7 +91,7 @@ en
 
 #### Defined in
 
-main.ts:52810
+main.ts:56527
 
 ***
 
@@ -107,7 +108,7 @@ English
 
 #### Defined in
 
-main.ts:52803
+main.ts:56520
 
 ***
 
@@ -123,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:52796
+main.ts:56513
 
 ***
 
@@ -140,7 +141,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:52790
+main.ts:56507
 
 ***
 
@@ -156,4 +157,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:52844
+main.ts:56561

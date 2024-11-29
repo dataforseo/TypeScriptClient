@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
@@ -14,13 +14,13 @@
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBBulkTrafficEstimationLiveItem`](../classes/DataforseoLabsBBulkTrafficEstimationLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](../classes/DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
 array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:106199
+main.ts:115837
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:106197
+main.ts:115835
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:106193
+main.ts:115831
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:106190
+main.ts:115828
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:106187
+main.ts:115825
 
 ***
 
@@ -82,4 +82,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:106195
+main.ts:115833

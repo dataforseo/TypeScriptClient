@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseLiveJsonRequestInfo
+[Documentation](../README.md) / IOnPageLighthouseLiveJsonRequestInfo
 
 # Interface: IOnPageLighthouseLiveJsonRequestInfo
 
@@ -31,7 +31,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:164555
+main.ts:176144
 
 ***
 
@@ -49,7 +49,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:164542
+main.ts:176131
 
 ***
 
@@ -65,7 +65,7 @@ default value: false
 
 #### Defined in
 
-main.ts:164534
+main.ts:176123
 
 ***
 
@@ -81,7 +81,7 @@ en
 
 #### Defined in
 
-main.ts:164572
+main.ts:176161
 
 ***
 
@@ -97,7 +97,7 @@ English
 
 #### Defined in
 
-main.ts:164566
+main.ts:176155
 
 ***
 
@@ -113,7 +113,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:164578
+main.ts:176167
 
 ***
 
@@ -129,7 +129,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:164528
+main.ts:176117
 
 ***
 
@@ -144,4 +144,4 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:164560
+main.ts:176149

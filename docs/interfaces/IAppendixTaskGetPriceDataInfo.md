@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixTaskGetPriceDataInfo
+[Documentation](../README.md) / IAppendixTaskGetPriceDataInfo
 
 # Interface: IAppendixTaskGetPriceDataInfo
 
@@ -18,4 +18,4 @@
 
 #### Defined in
 
-main.ts:221606
+main.ts:236785

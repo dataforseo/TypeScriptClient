@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageDuplicateContentItem
+[Documentation](../README.md) / IOnPageDuplicateContentItem
 
 # Interface: IOnPageDuplicateContentItem
 
@@ -20,7 +20,7 @@ pages with duplicate content
 
 #### Defined in
 
-main.ts:157402
+main.ts:169037
 
 ***
 
@@ -32,7 +32,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:157400
+main.ts:169035
 
 ***
 
@@ -44,4 +44,4 @@ URL of the specified page
 
 #### Defined in
 
-main.ts:157398
+main.ts:169033

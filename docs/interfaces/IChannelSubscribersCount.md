@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IChannelSubscribersCount
+[Documentation](../README.md) / IChannelSubscribersCount
 
 # Interface: IChannelSubscribersCount
 
@@ -20,7 +20,7 @@ subscriber count
 
 #### Defined in
 
-main.ts:62124
+main.ts:70306
 
 ***
 
@@ -33,4 +33,4 @@ subscriber count as displayed on YouTube
 
 #### Defined in
 
-main.ts:62122
+main.ts:70304

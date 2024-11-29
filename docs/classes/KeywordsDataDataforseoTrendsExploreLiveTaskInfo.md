@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataDataforseoTrendsExploreLiveTaskInfo
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsExploreLiveTaskInfo
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveTaskInfo
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataDataforseoTrendsExploreLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveTaskInfo.md)
+##### data?
+
+[`IKeywordsDataDataforseoTrendsExploreLiveTaskInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveTaskInfo.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:125809
+main.ts:136062
 
 ## Properties
 
@@ -58,7 +60,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24244
+main.ts:25309
 
 ***
 
@@ -82,7 +84,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:24250
+main.ts:25315
 
 ***
 
@@ -103,7 +105,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:24233
+main.ts:25298
 
 ***
 
@@ -123,7 +125,7 @@ URL path
 
 #### Defined in
 
-main.ts:24248
+main.ts:25313
 
 ***
 
@@ -139,7 +141,7 @@ array of results
 
 #### Defined in
 
-main.ts:125805
+main.ts:136058
 
 ***
 
@@ -159,7 +161,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:24246
+main.ts:25311
 
 ***
 
@@ -181,7 +183,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24237
+main.ts:25302
 
 ***
 
@@ -202,7 +204,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24240
+main.ts:25305
 
 ***
 
@@ -222,7 +224,7 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:24242
+main.ts:25307
 
 ## Methods
 
@@ -232,7 +234,9 @@ main.ts:24242
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -244,7 +248,7 @@ main.ts:24242
 
 #### Defined in
 
-main.ts:125813
+main.ts:136066
 
 ***
 
@@ -254,7 +258,9 @@ main.ts:125813
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +272,7 @@ main.ts:125813
 
 #### Defined in
 
-main.ts:125835
+main.ts:136088
 
 ***
 
@@ -276,7 +282,9 @@ main.ts:125835
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -288,4 +296,4 @@ main.ts:125835
 
 #### Defined in
 
-main.ts:125828
+main.ts:136081

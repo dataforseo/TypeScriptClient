@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRowCellInfo
+[Documentation](../README.md) / IRowCellInfo
 
 # Interface: IRowCellInfo
 
@@ -20,7 +20,7 @@ indicates if the text belongs to the header
 
 #### Defined in
 
-main.ts:161524
+main.ts:173137
 
 ***
 
@@ -32,7 +32,7 @@ content text
 
 #### Defined in
 
-main.ts:161520
+main.ts:173133
 
 ***
 
@@ -44,4 +44,4 @@ contains other URLs and anchors found in the content element
 
 #### Defined in
 
-main.ts:161522
+main.ts:173135

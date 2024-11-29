@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDemographyComparisonInfo
+[Documentation](../README.md) / IDemographyComparisonInfo
 
 # Interface: IDemographyComparisonInfo
 
@@ -20,11 +20,11 @@ type of element
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: `number`[]
 
 #### Defined in
 
-main.ts:21211
+main.ts:21889
 
 ***
 
@@ -36,8 +36,8 @@ type of element
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: `number`[]
 
 #### Defined in
 
-main.ts:21213
+main.ts:21891

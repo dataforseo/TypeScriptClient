@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:136273
+main.ts:148218
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:136269
+main.ts:148214
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:136267
+main.ts:148212
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:136267
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:136267
 
 #### Defined in
 
-main.ts:136282
+main.ts:148227
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:136282
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:136282
 
 #### Defined in
 
-main.ts:136304
+main.ts:148249
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:136304
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:136304
 
 #### Defined in
 
-main.ts:136297
+main.ts:148242

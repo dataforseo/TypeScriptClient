@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorLocationsCountryResultInfo
+[Documentation](../README.md) / BusinessDataTripadvisorLocationsCountryResultInfo
 
 # Class: BusinessDataTripadvisorLocationsCountryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:212361
+main.ts:227294
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:212355
+main.ts:227288
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:212345
+main.ts:227278
 
 ***
 
@@ -78,7 +80,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:212347
+main.ts:227280
 
 ***
 
@@ -98,7 +100,7 @@ example:
 
 #### Defined in
 
-main.ts:212353
+main.ts:227286
 
 ***
 
@@ -114,7 +116,7 @@ location type
 
 #### Defined in
 
-main.ts:212357
+main.ts:227290
 
 ## Methods
 
@@ -124,7 +126,9 @@ main.ts:212357
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +136,7 @@ main.ts:212357
 
 #### Defined in
 
-main.ts:212370
+main.ts:227303
 
 ***
 
@@ -142,7 +146,9 @@ main.ts:212370
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +156,7 @@ main.ts:212370
 
 #### Defined in
 
-main.ts:212391
+main.ts:227324
 
 ***
 
@@ -160,7 +166,9 @@ main.ts:212391
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +176,4 @@ main.ts:212391
 
 #### Defined in
 
-main.ts:212384
+main.ts:227317

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:83999
+main.ts:93712
 
 ## Properties
 
@@ -56,7 +58,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:83915
+main.ts:93628
 
 ***
 
@@ -89,7 +91,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:83963
+main.ts:93676
 
 ***
 
@@ -108,7 +110,7 @@ default value: false
 
 #### Defined in
 
-main.ts:83937
+main.ts:93650
 
 ***
 
@@ -118,7 +120,7 @@ main.ts:83937
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -129,7 +131,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:83932
+main.ts:93645
 
 ***
 
@@ -148,7 +150,7 @@ default value: false
 
 #### Defined in
 
-main.ts:83920
+main.ts:93633
 
 ***
 
@@ -167,7 +169,7 @@ default value: false
 
 #### Defined in
 
-main.ts:83925
+main.ts:93638
 
 ***
 
@@ -179,6 +181,7 @@ keyword
 required field
 UTF-8 encoding
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -186,7 +189,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:83871
+main.ts:93584
 
 ***
 
@@ -208,7 +211,7 @@ en
 
 #### Defined in
 
-main.ts:83903
+main.ts:93616
 
 ***
 
@@ -230,7 +233,7 @@ English
 
 #### Defined in
 
-main.ts:83895
+main.ts:93608
 
 ***
 
@@ -249,7 +252,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:83984
+main.ts:93697
 
 ***
 
@@ -271,7 +274,7 @@ example:
 
 #### Defined in
 
-main.ts:83887
+main.ts:93600
 
 ***
 
@@ -293,7 +296,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:83879
+main.ts:93592
 
 ***
 
@@ -312,7 +315,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:83989
+main.ts:93702
 
 ***
 
@@ -342,7 +345,7 @@ example:
 
 #### Defined in
 
-main.ts:83979
+main.ts:93692
 
 ***
 
@@ -363,7 +366,7 @@ default value: false
 
 #### Defined in
 
-main.ts:83944
+main.ts:93657
 
 ***
 
@@ -383,7 +386,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:83995
+main.ts:93708
 
 ## Methods
 
@@ -393,7 +396,9 @@ main.ts:83995
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -401,7 +406,7 @@ main.ts:83995
 
 #### Defined in
 
-main.ts:84008
+main.ts:93721
 
 ***
 
@@ -411,7 +416,9 @@ main.ts:84008
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -419,7 +426,7 @@ main.ts:84008
 
 #### Defined in
 
-main.ts:84048
+main.ts:93761
 
 ***
 
@@ -429,7 +436,9 @@ main.ts:84048
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -437,4 +446,4 @@ main.ts:84048
 
 #### Defined in
 
-main.ts:84041
+main.ts:93754

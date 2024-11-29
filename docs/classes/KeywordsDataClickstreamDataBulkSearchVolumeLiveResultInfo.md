@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:137313
+main.ts:148518
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`KeywordsDataClickstreamDataBulkSearchVolumeLiveItem`](KeywordsDataClickstreamDataBulkSearchVolumeLiveItem.md)[]
+> `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
 contains keywords and related data
 
@@ -46,7 +48,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:137309
+main.ts:148514
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:137307
+main.ts:148512
 
 ***
 
@@ -78,7 +80,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:137305
+main.ts:148510
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:137305
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:137305
 
 #### Defined in
 
-main.ts:137322
+main.ts:148527
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:137322
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:137322
 
 #### Defined in
 
-main.ts:137345
+main.ts:148550
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:137345
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:137345
 
 #### Defined in
 
-main.ts:137338
+main.ts:148543

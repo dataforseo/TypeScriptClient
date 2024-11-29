@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInformationImageRow
+[Documentation](../README.md) / IProductInformationImageRow
 
 # Interface: IProductInformationImageRow
 
@@ -24,7 +24,7 @@ alternative text of the related product image
 
 #### Defined in
 
-main.ts:182123
+main.ts:194241
 
 ***
 
@@ -40,7 +40,7 @@ type of element
 
 #### Defined in
 
-main.ts:23480
+main.ts:24373
 
 ***
 
@@ -52,4 +52,4 @@ URL of the image
 
 #### Defined in
 
-main.ts:182125
+main.ts:194243

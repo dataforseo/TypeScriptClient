@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationCheckGrammarLiveResultInfo
+[Documentation](../README.md) / ContentGenerationCheckGrammarLiveResultInfo
 
 # Class: ContentGenerationCheckGrammarLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:171305
+main.ts:182894
 
 ## Properties
 
@@ -46,7 +48,7 @@ initial text in the POST request
 
 #### Defined in
 
-main.ts:171295
+main.ts:182884
 
 ***
 
@@ -62,7 +64,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:171289
+main.ts:182878
 
 ***
 
@@ -78,7 +80,7 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-main.ts:171301
+main.ts:182890
 
 ***
 
@@ -94,7 +96,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:171299
+main.ts:182888
 
 ***
 
@@ -110,7 +112,7 @@ language code in the POST request
 
 #### Defined in
 
-main.ts:171297
+main.ts:182886
 
 ***
 
@@ -126,7 +128,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:171293
+main.ts:182882
 
 ***
 
@@ -142,7 +144,7 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:171291
+main.ts:182880
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:171291
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:171291
 
 #### Defined in
 
-main.ts:171314
+main.ts:182903
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:171314
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:171314
 
 #### Defined in
 
-main.ts:171341
+main.ts:182930
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:171341
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:171341
 
 #### Defined in
 
-main.ts:171334
+main.ts:182923

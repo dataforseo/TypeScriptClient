@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelInfoPriceOffer
+[Documentation](../README.md) / HotelInfoPriceOffer
 
 # Class: HotelInfoPriceOffer
 
@@ -24,7 +24,9 @@ featured price offers
 
 #### Parameters
 
-• **data?**: [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md)
+##### data?
+
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@ featured price offers
 
 #### Defined in
 
-main.ts:203769
+main.ts:216935
 
 ## Properties
 
@@ -49,7 +51,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:203752
+main.ts:216918
 
 ***
 
@@ -67,7 +69,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:203765
+main.ts:216931
 
 ***
 
@@ -84,7 +86,7 @@ the maximum number of visitors for which the price offer is valid
 
 #### Defined in
 
-main.ts:203758
+main.ts:216924
 
 ***
 
@@ -101,7 +103,7 @@ URLs of the images featured in the price offer
 
 #### Defined in
 
-main.ts:203761
+main.ts:216927
 
 ***
 
@@ -117,7 +119,7 @@ price per night
 
 #### Defined in
 
-main.ts:203749
+main.ts:216915
 
 ***
 
@@ -133,7 +135,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:203747
+main.ts:216913
 
 ***
 
@@ -149,7 +151,7 @@ type of element
 
 #### Defined in
 
-main.ts:203745
+main.ts:216911
 
 ***
 
@@ -166,7 +168,7 @@ URL to the page of the website where price offer appears
 
 #### Defined in
 
-main.ts:203755
+main.ts:216921
 
 ## Methods
 
@@ -176,7 +178,9 @@ main.ts:203755
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -184,7 +188,7 @@ main.ts:203755
 
 #### Defined in
 
-main.ts:203778
+main.ts:216944
 
 ***
 
@@ -194,7 +198,9 @@ main.ts:203778
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -202,7 +208,7 @@ main.ts:203778
 
 #### Defined in
 
-main.ts:203806
+main.ts:216972
 
 ***
 
@@ -212,7 +218,9 @@ main.ts:203806
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -220,4 +228,4 @@ main.ts:203806
 
 #### Defined in
 
-main.ts:203799
+main.ts:216965

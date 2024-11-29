@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataSocialMediaFacebookLiveResultInfo
+[Documentation](../README.md) / BusinessDataSocialMediaFacebookLiveResultInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataSocialMediaFacebookLiveResultInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataSocialMediaFacebookLiveResultInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:214977
+main.ts:229920
 
 ## Properties
 
@@ -47,7 +49,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 #### Defined in
 
-main.ts:214973
+main.ts:229916
 
 ***
 
@@ -64,7 +66,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:214970
+main.ts:229913
 
 ***
 
@@ -80,7 +82,7 @@ type of element
 
 #### Defined in
 
-main.ts:214967
+main.ts:229910
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:214967
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:214967
 
 #### Defined in
 
-main.ts:214986
+main.ts:229929
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:214986
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:214986
 
 #### Defined in
 
-main.ts:215005
+main.ts:229948
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:215005
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:215005
 
 #### Defined in
 
-main.ts:214998
+main.ts:229941

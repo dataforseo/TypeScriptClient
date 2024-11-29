@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MetricsBundleInfo
+[Documentation](../README.md) / MetricsBundleInfo
 
 # Class: MetricsBundleInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md)
+##### data?
+
+[`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:79724
+main.ts:89436
 
 ## Properties
 
@@ -46,7 +48,7 @@ ranking and traffic data from organic search
 
 #### Defined in
 
-main.ts:79718
+main.ts:89430
 
 ***
 
@@ -62,7 +64,7 @@ ranking and traffic data from paid search
 
 #### Defined in
 
-main.ts:79720
+main.ts:89432
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:79720
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:79720
 
 #### Defined in
 
-main.ts:79733
+main.ts:89445
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:79733
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:79733
 
 #### Defined in
 
-main.ts:79751
+main.ts:89463
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:79751
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:79751
 
 #### Defined in
 
-main.ts:79744
+main.ts:89456

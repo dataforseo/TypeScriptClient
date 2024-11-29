@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphImagesElement
+[Documentation](../README.md) / KnowledgeGraphImagesElement
 
 # Class: KnowledgeGraphImagesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md)
+##### data?
+
+[`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:28131
+main.ts:29690
 
 ## Properties
 
@@ -46,7 +48,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:28122
+main.ts:29681
 
 ***
 
@@ -62,7 +64,7 @@ domain in SERP of the Ad element
 
 #### Defined in
 
-main.ts:28120
+main.ts:29679
 
 ***
 
@@ -79,7 +81,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:28125
+main.ts:29684
 
 ***
 
@@ -95,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:28116
+main.ts:29675
 
 ***
 
@@ -111,7 +113,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:28118
+main.ts:29677
 
 ***
 
@@ -127,7 +129,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:28127
+main.ts:29686
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:28127
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:28127
 
 #### Defined in
 
-main.ts:28140
+main.ts:29699
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:28140
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:28140
 
 #### Defined in
 
-main.ts:28162
+main.ts:29721
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:28162
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:28162
 
 #### Defined in
 
-main.ts:28155
+main.ts:29714

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RefineProductsElement
+[Documentation](../README.md) / RefineProductsElement
 
 # Class: RefineProductsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md)
+##### data?
+
+[`IRefineProductsElement`](../interfaces/IRefineProductsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:35603
+main.ts:37088
 
 ## Properties
 
@@ -47,7 +49,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:35593
+main.ts:37078
 
 ***
 
@@ -63,7 +65,7 @@ keyword for the related refined search
 
 #### Defined in
 
-main.ts:35595
+main.ts:37080
 
 ***
 
@@ -79,7 +81,7 @@ type of search refinement
 
 #### Defined in
 
-main.ts:35597
+main.ts:37082
 
 ***
 
@@ -95,7 +97,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35590
+main.ts:37075
 
 ***
 
@@ -111,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:35588
+main.ts:37073
 
 ***
 
@@ -127,7 +129,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35599
+main.ts:37084
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:35599
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:35599
 
 #### Defined in
 
-main.ts:35612
+main.ts:37097
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:35612
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:35612
 
 #### Defined in
 
-main.ts:35634
+main.ts:37119
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:35634
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:35634
 
 #### Defined in
 
-main.ts:35627
+main.ts:37112

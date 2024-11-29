@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductInformationRows
+[Documentation](../README.md) / ProductInformationRows
 
 # Class: ProductInformationRows
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductInformationRows`](../interfaces/IProductInformationRows.md)
+##### data?
+
+[`IProductInformationRows`](../interfaces/IProductInformationRows.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:182188
+main.ts:194306
 
 ## Properties
 
@@ -46,7 +48,7 @@ rows containing related product information
 
 #### Defined in
 
-main.ts:182184
+main.ts:194302
 
 ***
 
@@ -62,7 +64,7 @@ title under which related product information appears on the Amazon product page
 
 #### Defined in
 
-main.ts:182182
+main.ts:194300
 
 ***
 
@@ -78,7 +80,7 @@ type of element
 
 #### Defined in
 
-main.ts:182180
+main.ts:194298
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:182180
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:182180
 
 #### Defined in
 
-main.ts:182197
+main.ts:194315
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:182197
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:182197
 
 #### Defined in
 
-main.ts:182220
+main.ts:194338
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:182220
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:182220
 
 #### Defined in
 
-main.ts:182213
+main.ts:194331

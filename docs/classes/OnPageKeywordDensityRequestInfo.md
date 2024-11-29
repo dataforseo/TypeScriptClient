@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageKeywordDensityRequestInfo
+[Documentation](../README.md) / OnPageKeywordDensityRequestInfo
 
 # Class: OnPageKeywordDensityRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md)
+##### data?
+
+[`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:159458
+main.ts:171093
 
 ## Properties
 
@@ -61,7 +63,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:159434
+main.ts:171069
 
 ***
 
@@ -81,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:159401
+main.ts:171036
 
 ***
 
@@ -100,7 +102,7 @@ possible values:
 
 #### Defined in
 
-main.ts:159406
+main.ts:171041
 
 ***
 
@@ -119,7 +121,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:159417
+main.ts:171052
 
 ***
 
@@ -147,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:159448
+main.ts:171083
 
 ***
 
@@ -167,7 +169,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159454
+main.ts:171089
 
 ***
 
@@ -187,7 +189,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:159412
+main.ts:171047
 
 ## Methods
 
@@ -197,7 +199,9 @@ main.ts:159412
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -205,7 +209,7 @@ main.ts:159412
 
 #### Defined in
 
-main.ts:159467
+main.ts:171102
 
 ***
 
@@ -215,7 +219,9 @@ main.ts:159467
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -223,7 +229,7 @@ main.ts:159467
 
 #### Defined in
 
-main.ts:159498
+main.ts:171133
 
 ***
 
@@ -233,7 +239,9 @@ main.ts:159498
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -241,4 +249,4 @@ main.ts:159498
 
 #### Defined in
 
-main.ts:159491
+main.ts:171126

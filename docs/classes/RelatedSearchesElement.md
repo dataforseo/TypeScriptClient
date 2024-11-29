@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RelatedSearchesElement
+[Documentation](../README.md) / RelatedSearchesElement
 
 # Class: RelatedSearchesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRelatedSearchesElement`](../interfaces/IRelatedSearchesElement.md)
+##### data?
+
+[`IRelatedSearchesElement`](../interfaces/IRelatedSearchesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22567
+main.ts:23465
 
 ## Properties
 
@@ -46,7 +48,7 @@ the alt tag of the product image featured in the results
 
 #### Defined in
 
-main.ts:22561
+main.ts:23459
 
 ***
 
@@ -62,7 +64,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:22563
+main.ts:23461
 
 ***
 
@@ -78,7 +80,7 @@ product title
 
 #### Defined in
 
-main.ts:22557
+main.ts:23455
 
 ***
 
@@ -94,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:22555
+main.ts:23453
 
 ***
 
@@ -110,7 +112,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:22559
+main.ts:23457
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:22559
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:22559
 
 #### Defined in
 
-main.ts:22576
+main.ts:23474
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:22576
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:22576
 
 #### Defined in
 
-main.ts:22597
+main.ts:23495
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:22597
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:22597
 
 #### Defined in
 
-main.ts:22590
+main.ts:23488

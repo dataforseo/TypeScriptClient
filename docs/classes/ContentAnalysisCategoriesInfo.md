@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisCategoriesInfo
+[Documentation](../README.md) / ContentAnalysisCategoriesInfo
 
 # Class: ContentAnalysisCategoriesInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md)
+##### data?
+
+[`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23299
+main.ts:24197
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:23299
 
 #### Defined in
 
-main.ts:23294
+main.ts:24192
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:23294
 
 #### Defined in
 
-main.ts:23295
+main.ts:24193
 
 ## Methods
 
@@ -68,7 +70,9 @@ main.ts:23295
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -76,7 +80,7 @@ main.ts:23295
 
 #### Defined in
 
-main.ts:23308
+main.ts:24206
 
 ***
 
@@ -86,7 +90,9 @@ main.ts:23308
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -94,7 +100,7 @@ main.ts:23308
 
 #### Defined in
 
-main.ts:23330
+main.ts:24228
 
 ***
 
@@ -104,7 +110,9 @@ main.ts:23330
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -112,4 +120,4 @@ main.ts:23330
 
 #### Defined in
 
-main.ts:23323
+main.ts:24221

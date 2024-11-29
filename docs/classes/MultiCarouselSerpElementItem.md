@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MultiCarouselSerpElementItem
+[Documentation](../README.md) / MultiCarouselSerpElementItem
 
 # Class: MultiCarouselSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IMultiCarouselSerpElementItem`](../interfaces/IMultiCarouselSerpElementItem.md)
+##### data?
+
+[`IMultiCarouselSerpElementItem`](../interfaces/IMultiCarouselSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:32572
+main.ts:34125
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:32572
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:32564
+main.ts:34117
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -133,7 +135,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -151,7 +153,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32568
+main.ts:34121
 
 ***
 
@@ -171,7 +173,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -191,7 +193,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -201,7 +203,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +217,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:32577
+main.ts:34130
 
 ***
 
@@ -223,7 +227,9 @@ main.ts:32577
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -235,7 +241,7 @@ main.ts:32577
 
 #### Defined in
 
-main.ts:32600
+main.ts:34153
 
 ***
 
@@ -245,7 +251,9 @@ main.ts:32600
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -257,4 +265,4 @@ main.ts:32600
 
 #### Defined in
 
-main.ts:32593
+main.ts:34146

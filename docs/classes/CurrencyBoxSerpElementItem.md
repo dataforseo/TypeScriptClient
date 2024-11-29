@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CurrencyBoxSerpElementItem
+[Documentation](../README.md) / CurrencyBoxSerpElementItem
 
 # Class: CurrencyBoxSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md)
+##### data?
+
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:34947
+main.ts:36432
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:34947
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ converted currency
 
 #### Defined in
 
-main.ts:34929
+main.ts:36414
 
 ***
 
@@ -86,7 +88,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-main.ts:34924
+main.ts:36409
 
 ***
 
@@ -103,7 +105,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:34927
+main.ts:36412
 
 ***
 
@@ -119,7 +121,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:34939
+main.ts:36424
 
 ***
 
@@ -141,7 +143,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -162,7 +164,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -184,7 +186,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -202,7 +204,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34943
+main.ts:36428
 
 ***
 
@@ -219,7 +221,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34937
+main.ts:36422
 
 ***
 
@@ -238,7 +240,7 @@ example:
 
 #### Defined in
 
-main.ts:34934
+main.ts:36419
 
 ***
 
@@ -258,7 +260,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -274,7 +276,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:34920
+main.ts:36405
 
 ***
 
@@ -294,7 +296,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -304,7 +306,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -316,7 +320,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:34952
+main.ts:36437
 
 ***
 
@@ -326,7 +330,9 @@ main.ts:34952
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -338,7 +344,7 @@ main.ts:34952
 
 #### Defined in
 
-main.ts:34977
+main.ts:36462
 
 ***
 
@@ -348,7 +354,9 @@ main.ts:34977
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -360,4 +368,4 @@ main.ts:34977
 
 #### Defined in
 
-main.ts:34970
+main.ts:36455

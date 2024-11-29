@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TechnologyCategoryInfo
+[Documentation](../README.md) / TechnologyCategoryInfo
 
 # Class: TechnologyCategoryInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md)
+##### data?
+
+[`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:75888
+main.ts:85592
 
 ## Properties
 
@@ -48,7 +50,7 @@ crm, cart_abandonment
 
 #### Defined in
 
-main.ts:75874
+main.ts:85578
 
 ***
 
@@ -66,7 +68,7 @@ user_generated_content.content_curation
 
 #### Defined in
 
-main.ts:75878
+main.ts:85582
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:75884
+main.ts:85588
 
 ***
 
@@ -100,7 +102,7 @@ title of the technology category
 
 #### Defined in
 
-main.ts:75880
+main.ts:85584
 
 ## Methods
 
@@ -110,7 +112,9 @@ main.ts:75880
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +122,7 @@ main.ts:75880
 
 #### Defined in
 
-main.ts:75897
+main.ts:85601
 
 ***
 
@@ -128,7 +132,9 @@ main.ts:75897
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +142,7 @@ main.ts:75897
 
 #### Defined in
 
-main.ts:75921
+main.ts:85625
 
 ***
 
@@ -146,7 +152,9 @@ main.ts:75921
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -154,4 +162,4 @@ main.ts:75921
 
 #### Defined in
 
-main.ts:75914
+main.ts:85618

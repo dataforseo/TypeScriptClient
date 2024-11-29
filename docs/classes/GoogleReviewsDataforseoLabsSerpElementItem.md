@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleReviewsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / GoogleReviewsDataforseoLabsSerpElementItem
 
 # Class: GoogleReviewsDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:98238
+main.ts:108058
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:98238
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -68,7 +70,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:98234
+main.ts:108054
 
 ***
 
@@ -84,7 +86,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:98232
+main.ts:108052
 
 ***
 
@@ -100,7 +102,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:98230
+main.ts:108050
 
 ***
 
@@ -122,7 +124,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -143,7 +145,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -164,7 +166,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -181,7 +183,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:98228
+main.ts:108048
 
 ***
 
@@ -197,7 +199,7 @@ the number of reviews
 
 #### Defined in
 
-main.ts:98225
+main.ts:108045
 
 ***
 
@@ -217,7 +219,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -237,7 +239,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -247,7 +249,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -259,7 +263,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:98243
+main.ts:108063
 
 ***
 
@@ -269,7 +273,9 @@ main.ts:98243
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -281,7 +287,7 @@ main.ts:98243
 
 #### Defined in
 
-main.ts:98265
+main.ts:108085
 
 ***
 
@@ -291,7 +297,9 @@ main.ts:98265
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -303,4 +311,4 @@ main.ts:98265
 
 #### Defined in
 
-main.ts:98258
+main.ts:108078

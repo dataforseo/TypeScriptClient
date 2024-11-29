@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISocialMetricsInfo
+[Documentation](../README.md) / ISocialMetricsInfo
 
 # Interface: ISocialMetricsInfo
 
@@ -20,7 +20,7 @@ likes count
 
 #### Defined in
 
-main.ts:23236
+main.ts:24134
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Defined in
 
-main.ts:23234
+main.ts:24132

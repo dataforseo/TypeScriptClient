@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesResultInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesResultInfo
 
 # Class: BusinessDataBusinessListingsCategoriesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:197830
+main.ts:210180
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of businesses in the category
 
 #### Defined in
 
-main.ts:197826
+main.ts:210176
 
 ***
 
@@ -62,7 +64,7 @@ full name of the category
 
 #### Defined in
 
-main.ts:197824
+main.ts:210174
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:197824
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:197824
 
 #### Defined in
 
-main.ts:197839
+main.ts:210189
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:197839
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:197839
 
 #### Defined in
 
-main.ts:197857
+main.ts:210207
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:197857
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:197857
 
 #### Defined in
 
-main.ts:197850
+main.ts:210200

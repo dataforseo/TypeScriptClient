@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageIdListResultInfo
+[Documentation](../README.md) / OnPageIdListResultInfo
 
 # Class: OnPageIdListResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md)
+##### data?
+
+[`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:151871
+main.ts:163076
 
 ## Properties
 
@@ -46,7 +48,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:151865
+main.ts:163070
 
 ***
 
@@ -65,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:151860
+main.ts:163065
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:151855
+main.ts:163060
 
 ***
 
@@ -100,7 +102,7 @@ id of the task
 
 #### Defined in
 
-main.ts:151847
+main.ts:163052
 
 ***
 
@@ -120,7 +122,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:151867
+main.ts:163072
 
 ***
 
@@ -137,7 +139,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:151863
+main.ts:163068
 
 ***
 
@@ -154,7 +156,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:151850
+main.ts:163055
 
 ## Methods
 
@@ -164,7 +166,9 @@ main.ts:151850
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -172,7 +176,7 @@ main.ts:151850
 
 #### Defined in
 
-main.ts:151880
+main.ts:163085
 
 ***
 
@@ -182,7 +186,9 @@ main.ts:151880
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -190,7 +196,7 @@ main.ts:151880
 
 #### Defined in
 
-main.ts:151909
+main.ts:163114
 
 ***
 
@@ -200,7 +206,9 @@ main.ts:151909
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -208,4 +216,4 @@ main.ts:151909
 
 #### Defined in
 
-main.ts:151902
+main.ts:163107

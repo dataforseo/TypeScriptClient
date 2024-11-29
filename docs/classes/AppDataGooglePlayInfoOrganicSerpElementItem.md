@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGooglePlayInfoOrganicSerpElementItem
+[Documentation](../README.md) / AppDataGooglePlayInfoOrganicSerpElementItem
 
 # Class: AppDataGooglePlayInfoOrganicSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md)
+##### data?
+
+[`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:189733
+main.ts:202069
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:189733
 
 #### Defined in
 
-main.ts:21988
+main.ts:22886
 
 ***
 
@@ -68,7 +70,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:189660
+main.ts:201996
 
 ***
 
@@ -84,7 +86,7 @@ description of the app
 
 #### Defined in
 
-main.ts:189666
+main.ts:202002
 
 ***
 
@@ -100,7 +102,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:189682
+main.ts:202018
 
 ***
 
@@ -116,7 +118,7 @@ physical address of the developer
 
 #### Defined in
 
-main.ts:189690
+main.ts:202026
 
 ***
 
@@ -132,7 +134,7 @@ email address of the developer
 
 #### Defined in
 
-main.ts:189688
+main.ts:202024
 
 ***
 
@@ -148,7 +150,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:189684
+main.ts:202020
 
 ***
 
@@ -164,7 +166,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:189686
+main.ts:202022
 
 ***
 
@@ -180,7 +182,7 @@ official website of the developer
 
 #### Defined in
 
-main.ts:189692
+main.ts:202028
 
 ***
 
@@ -197,7 +199,7 @@ contains relevant app categories
 
 #### Defined in
 
-main.ts:189726
+main.ts:202062
 
 ***
 
@@ -213,7 +215,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:189664
+main.ts:202000
 
 ***
 
@@ -230,7 +232,7 @@ contains URLs to the images published on the app page on Google Play
 
 #### Defined in
 
-main.ts:189714
+main.ts:202050
 
 ***
 
@@ -247,7 +249,7 @@ approximate number of installs as displayed on the app page
 
 #### Defined in
 
-main.ts:189677
+main.ts:202013
 
 ***
 
@@ -264,7 +266,7 @@ the exact number of installs of the app
 
 #### Defined in
 
-main.ts:189680
+main.ts:202016
 
 ***
 
@@ -280,7 +282,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:189672
+main.ts:202008
 
 ***
 
@@ -299,7 +301,7 @@ example:
 
 #### Defined in
 
-main.ts:189708
+main.ts:202044
 
 ***
 
@@ -315,7 +317,7 @@ main category of the app
 
 #### Defined in
 
-main.ts:189674
+main.ts:202010
 
 ***
 
@@ -331,7 +333,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:189696
+main.ts:202032
 
 ***
 
@@ -348,7 +350,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:189723
+main.ts:202059
 
 ***
 
@@ -370,13 +372,13 @@ left, right
 
 #### Defined in
 
-main.ts:21982
+main.ts:22880
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price of the app
 
@@ -386,7 +388,7 @@ price of the app
 
 #### Defined in
 
-main.ts:189670
+main.ts:202006
 
 ***
 
@@ -407,7 +409,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21978
+main.ts:22876
 
 ***
 
@@ -428,7 +430,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21975
+main.ts:22873
 
 ***
 
@@ -448,7 +450,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21986
+main.ts:22884
 
 ***
 
@@ -467,7 +469,7 @@ example:
 
 #### Defined in
 
-main.ts:189703
+main.ts:202039
 
 ***
 
@@ -483,7 +485,7 @@ the total number of reviews the app has
 
 #### Defined in
 
-main.ts:189668
+main.ts:202004
 
 ***
 
@@ -500,7 +502,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:189720
+main.ts:202056
 
 ***
 
@@ -516,7 +518,7 @@ size of the app
 
 #### Defined in
 
-main.ts:189698
+main.ts:202034
 
 ***
 
@@ -533,7 +535,7 @@ contains relevant app tags
 
 #### Defined in
 
-main.ts:189729
+main.ts:202065
 
 ***
 
@@ -553,7 +555,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21984
+main.ts:22882
 
 ***
 
@@ -573,7 +575,7 @@ type of element
 
 #### Defined in
 
-main.ts:21972
+main.ts:22870
 
 ***
 
@@ -590,7 +592,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:189711
+main.ts:202047
 
 ***
 
@@ -606,7 +608,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:189662
+main.ts:201998
 
 ***
 
@@ -622,7 +624,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:189694
+main.ts:202030
 
 ***
 
@@ -639,7 +641,7 @@ contains URLs to the video published on the app page on Google Play
 
 #### Defined in
 
-main.ts:189717
+main.ts:202053
 
 ## Methods
 
@@ -649,7 +651,9 @@ main.ts:189717
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -661,7 +665,7 @@ main.ts:189717
 
 #### Defined in
 
-main.ts:189738
+main.ts:202074
 
 ***
 
@@ -671,7 +675,9 @@ main.ts:189738
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -683,7 +689,7 @@ main.ts:189738
 
 #### Defined in
 
-main.ts:189807
+main.ts:202143
 
 ***
 
@@ -693,7 +699,9 @@ main.ts:189807
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -705,4 +713,4 @@ main.ts:189807
 
 #### Defined in
 
-main.ts:189800
+main.ts:202136

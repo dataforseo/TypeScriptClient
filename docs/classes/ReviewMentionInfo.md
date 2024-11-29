@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ReviewMentionInfo
+[Documentation](../README.md) / ReviewMentionInfo
 
 # Class: ReviewMentionInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md)
+##### data?
+
+[`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:206074
+main.ts:219429
 
 ## Properties
 
@@ -46,7 +48,7 @@ count of negative reviews by criterion
 
 #### Defined in
 
-main.ts:206065
+main.ts:219420
 
 ***
 
@@ -62,7 +64,7 @@ count of positive reviews by criterion
 
 #### Defined in
 
-main.ts:206063
+main.ts:219418
 
 ***
 
@@ -78,7 +80,7 @@ positive score by criterion
 
 #### Defined in
 
-main.ts:206061
+main.ts:219416
 
 ***
 
@@ -94,7 +96,7 @@ title of the evaluated criterion
 
 #### Defined in
 
-main.ts:206059
+main.ts:219414
 
 ***
 
@@ -110,7 +112,7 @@ count of all reviews by criterion
 
 #### Defined in
 
-main.ts:206067
+main.ts:219422
 
 ***
 
@@ -127,7 +129,7 @@ indicates whether the review element is visible by default
 
 #### Defined in
 
-main.ts:206070
+main.ts:219425
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:206070
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:206070
 
 #### Defined in
 
-main.ts:206083
+main.ts:219438
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:206083
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:206083
 
 #### Defined in
 
-main.ts:206105
+main.ts:219460
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:206105
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:206105
 
 #### Defined in
 
-main.ts:206098
+main.ts:219453

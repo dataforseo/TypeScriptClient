@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITwitterElement
+[Documentation](../README.md) / ITwitterElement
 
 # Interface: ITwitterElement
 
@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:30770
+main.ts:32329
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:30775
+main.ts:32334
 
 ***
 
@@ -47,7 +47,7 @@ tweet message
 
 #### Defined in
 
-main.ts:30768
+main.ts:32327
 
 ***
 
@@ -59,7 +59,7 @@ type of element
 
 #### Defined in
 
-main.ts:30766
+main.ts:32325
 
 ***
 
@@ -71,4 +71,4 @@ URL
 
 #### Defined in
 
-main.ts:30777
+main.ts:32336

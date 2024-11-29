@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBacklinksLiveRequestInfo
+[Documentation](../README.md) / IBacklinksBacklinksLiveRequestInfo
 
 # Interface: IBacklinksBacklinksLiveRequestInfo
 
@@ -27,7 +27,7 @@ default value: live
 
 #### Defined in
 
-main.ts:140439
+main.ts:151644
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:140363
+main.ts:151568
 
 ***
 
@@ -64,7 +64,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140456
+main.ts:151661
 
 ***
 
@@ -87,7 +87,7 @@ semantic_location
 
 #### Defined in
 
-main.ts:140376
+main.ts:151581
 
 ***
 
@@ -114,7 +114,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:140397
+main.ts:151602
 
 ***
 
@@ -130,7 +130,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140450
+main.ts:151655
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140444
+main.ts:151649
 
 ***
 
@@ -160,7 +160,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:140430
+main.ts:151635
 
 ***
 
@@ -178,7 +178,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:140356
+main.ts:151561
 
 ***
 
@@ -194,7 +194,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Defined in
 
-main.ts:140417
+main.ts:151622
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Defined in
 
-main.ts:140411
+main.ts:151616
 
 ***
 
@@ -236,7 +236,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Defined in
 
-main.ts:140425
+main.ts:151630
 
 ***
 
@@ -252,7 +252,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:140462
+main.ts:151667
 
 ***
 
@@ -267,7 +267,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:140348
+main.ts:151553
 
 ***
 
@@ -281,4 +281,4 @@ can be set from 1 to 1000
 
 #### Defined in
 
-main.ts:140380
+main.ts:151585

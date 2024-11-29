@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:64400
+main.ts:72610
 
 ## Properties
 
@@ -48,7 +50,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:64385
+main.ts:72595
 
 ***
 
@@ -69,7 +71,7 @@ en
 
 #### Defined in
 
-main.ts:64381
+main.ts:72591
 
 ***
 
@@ -90,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:64374
+main.ts:72584
 
 ***
 
@@ -111,7 +113,7 @@ example:
 
 #### Defined in
 
-main.ts:64367
+main.ts:72577
 
 ***
 
@@ -132,7 +134,7 @@ United States
 
 #### Defined in
 
-main.ts:64360
+main.ts:72570
 
 ***
 
@@ -151,7 +153,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:64390
+main.ts:72600
 
 ***
 
@@ -168,7 +170,7 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-main.ts:64349
+main.ts:72559
 
 ***
 
@@ -186,7 +188,7 @@ possible values:
 
 #### Defined in
 
-main.ts:64353
+main.ts:72563
 
 ***
 
@@ -206,7 +208,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:64396
+main.ts:72606
 
 ***
 
@@ -226,7 +228,7 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-main.ts:64346
+main.ts:72556
 
 ## Methods
 
@@ -236,7 +238,9 @@ main.ts:64346
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -244,7 +248,7 @@ main.ts:64346
 
 #### Defined in
 
-main.ts:64409
+main.ts:72619
 
 ***
 
@@ -254,7 +258,9 @@ main.ts:64409
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -262,7 +268,7 @@ main.ts:64409
 
 #### Defined in
 
-main.ts:64435
+main.ts:72645
 
 ***
 
@@ -272,7 +278,9 @@ main.ts:64435
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -280,4 +288,4 @@ main.ts:64435
 
 #### Defined in
 
-main.ts:64428
+main.ts:72638

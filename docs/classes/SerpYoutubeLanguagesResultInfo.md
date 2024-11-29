@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeLanguagesResultInfo
+[Documentation](../README.md) / SerpYoutubeLanguagesResultInfo
 
 # Class: SerpYoutubeLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md)
+##### data?
+
+[`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:61151
+main.ts:69329
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:61147
+main.ts:69325
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:61145
+main.ts:69323
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:61145
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:61145
 
 #### Defined in
 
-main.ts:61160
+main.ts:69338
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:61160
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:61160
 
 #### Defined in
 
-main.ts:61178
+main.ts:69356
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:61178
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:61178
 
 #### Defined in
 
-main.ts:61171
+main.ts:69349

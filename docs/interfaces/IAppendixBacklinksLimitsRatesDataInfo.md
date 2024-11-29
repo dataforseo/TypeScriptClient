@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBacklinksLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixBacklinksLimitsRatesDataInfo
 
 # Interface: IAppendixBacklinksLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:217302
+main.ts:232268
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:217302
 
 #### Defined in
 
-main.ts:217300
+main.ts:232266
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:217300
 
 #### Defined in
 
-main.ts:217307
+main.ts:232273
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:217307
 
 #### Defined in
 
-main.ts:217308
+main.ts:232274
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:217308
 
 #### Defined in
 
-main.ts:217309
+main.ts:232275
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:217309
 
 #### Defined in
 
-main.ts:217316
+main.ts:232283
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:217316
 
 #### Defined in
 
-main.ts:217306
+main.ts:232272
 
 ***
 
@@ -88,7 +88,17 @@ main.ts:217306
 
 #### Defined in
 
-main.ts:217310
+main.ts:232276
+
+***
+
+### bulk\_spam\_score?
+
+> `optional` **bulk\_spam\_score**: [`AppendixInfo`](../classes/AppendixInfo.md)
+
+#### Defined in
+
+main.ts:232282
 
 ***
 
@@ -98,7 +108,7 @@ main.ts:217310
 
 #### Defined in
 
-main.ts:217315
+main.ts:232281
 
 ***
 
@@ -108,7 +118,7 @@ main.ts:217315
 
 #### Defined in
 
-main.ts:217298
+main.ts:232264
 
 ***
 
@@ -118,7 +128,7 @@ main.ts:217298
 
 #### Defined in
 
-main.ts:217299
+main.ts:232265
 
 ***
 
@@ -128,7 +138,7 @@ main.ts:217299
 
 #### Defined in
 
-main.ts:217301
+main.ts:232267
 
 ***
 
@@ -138,7 +148,7 @@ main.ts:217301
 
 #### Defined in
 
-main.ts:217312
+main.ts:232278
 
 ***
 
@@ -148,7 +158,7 @@ main.ts:217312
 
 #### Defined in
 
-main.ts:217311
+main.ts:232277
 
 ***
 
@@ -158,7 +168,7 @@ main.ts:217311
 
 #### Defined in
 
-main.ts:217297
+main.ts:232263
 
 ***
 
@@ -168,7 +178,7 @@ main.ts:217297
 
 #### Defined in
 
-main.ts:217304
+main.ts:232270
 
 ***
 
@@ -178,7 +188,7 @@ main.ts:217304
 
 #### Defined in
 
-main.ts:217303
+main.ts:232269
 
 ***
 
@@ -188,7 +198,7 @@ main.ts:217303
 
 #### Defined in
 
-main.ts:217305
+main.ts:232271
 
 ***
 
@@ -198,7 +208,7 @@ main.ts:217305
 
 #### Defined in
 
-main.ts:217296
+main.ts:232262
 
 ***
 
@@ -208,7 +218,7 @@ main.ts:217296
 
 #### Defined in
 
-main.ts:217314
+main.ts:232280
 
 ***
 
@@ -218,4 +228,4 @@ main.ts:217314
 
 #### Defined in
 
-main.ts:217313
+main.ts:232279

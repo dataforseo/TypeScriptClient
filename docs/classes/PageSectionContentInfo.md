@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageSectionContentInfo
+[Documentation](../README.md) / PageSectionContentInfo
 
 # Class: PageSectionContentInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md)
+##### data?
+
+[`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161381
+main.ts:172994
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161372
+main.ts:172985
 
 ***
 
@@ -64,7 +66,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161375
+main.ts:172988
 
 ***
 
@@ -80,7 +82,7 @@ content of the table on the page
 
 #### Defined in
 
-main.ts:161377
+main.ts:172990
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:161377
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:161377
 
 #### Defined in
 
-main.ts:161390
+main.ts:173003
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:161390
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:161390
 
 #### Defined in
 
-main.ts:161421
+main.ts:173034
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:161421
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:161421
 
 #### Defined in
 
-main.ts:161414
+main.ts:173027

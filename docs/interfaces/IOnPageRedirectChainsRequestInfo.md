@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageRedirectChainsRequestInfo
+[Documentation](../README.md) / IOnPageRedirectChainsRequestInfo
 
 # Interface: IOnPageRedirectChainsRequestInfo
 
@@ -29,7 +29,7 @@ examples:
 
 #### Defined in
 
-main.ts:158296
+main.ts:169931
 
 ***
 
@@ -45,7 +45,7 @@ example:
 
 #### Defined in
 
-main.ts:158270
+main.ts:169905
 
 ***
 
@@ -60,7 +60,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:158280
+main.ts:169915
 
 ***
 
@@ -75,7 +75,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Defined in
 
-main.ts:158285
+main.ts:169920
 
 ***
 
@@ -91,7 +91,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:158302
+main.ts:169937
 
 ***
 
@@ -106,4 +106,4 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-main.ts:158275
+main.ts:169910

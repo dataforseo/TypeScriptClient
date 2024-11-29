@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageRawHtmlItem
+[Documentation](../README.md) / IOnPageRawHtmlItem
 
 # Interface: IOnPageRawHtmlItem
 
@@ -20,4 +20,4 @@ HTML page
 
 #### Defined in
 
-main.ts:160536
+main.ts:172179

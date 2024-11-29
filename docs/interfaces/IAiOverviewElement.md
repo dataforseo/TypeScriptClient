@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAiOverviewElement
+[Documentation](../README.md) / IAiOverviewElement
 
 # Interface: IAiOverviewElement
 
@@ -20,7 +20,7 @@ images of the element
 
 #### Defined in
 
-main.ts:29359
+main.ts:30918
 
 ***
 
@@ -32,7 +32,7 @@ references relevant to the element
 
 #### Defined in
 
-main.ts:29361
+main.ts:30920
 
 ***
 
@@ -44,7 +44,7 @@ description content
 
 #### Defined in
 
-main.ts:29357
+main.ts:30916
 
 ***
 
@@ -56,7 +56,7 @@ title of the element
 
 #### Defined in
 
-main.ts:29355
+main.ts:30914
 
 ***
 
@@ -68,4 +68,4 @@ type of element
 
 #### Defined in
 
-main.ts:29353
+main.ts:30912

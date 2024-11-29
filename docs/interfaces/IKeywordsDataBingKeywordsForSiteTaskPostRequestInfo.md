@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129795
+main.ts:141628
 
 ***
 
@@ -46,7 +46,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129805
+main.ts:141638
 
 ***
 
@@ -62,7 +62,7 @@ default value: all
 
 #### Defined in
 
-main.ts:129782
+main.ts:141615
 
 ***
 
@@ -78,7 +78,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:129776
+main.ts:141609
 
 ***
 
@@ -94,7 +94,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:129770
+main.ts:141603
 
 ***
 
@@ -110,7 +110,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:129764
+main.ts:141597
 
 ***
 
@@ -127,7 +127,7 @@ example:
 
 #### Defined in
 
-main.ts:129750
+main.ts:141583
 
 ***
 
@@ -145,7 +145,7 @@ example:
 
 #### Defined in
 
-main.ts:129758
+main.ts:141591
 
 ***
 
@@ -162,7 +162,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:129743
+main.ts:141576
 
 ***
 
@@ -177,12 +177,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:129825
+main.ts:141660
 
 ***
 
@@ -197,12 +198,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:129815
+main.ts:141649
 
 ***
 
@@ -217,7 +219,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:129830
+main.ts:141665
 
 ***
 
@@ -232,7 +234,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:129787
+main.ts:141620
 
 ***
 
@@ -248,7 +250,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129836
+main.ts:141671
 
 ***
 
@@ -262,4 +264,4 @@ the URL of the webpage or the domain to scan for possible keywords
 
 #### Defined in
 
-main.ts:129736
+main.ts:141569

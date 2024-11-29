@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RedditReviews
+[Documentation](../README.md) / RedditReviews
 
 # Class: RedditReviews
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRedditReviews`](../interfaces/IRedditReviews.md)
+##### data?
+
+[`IRedditReviews`](../interfaces/IRedditReviews.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:215238
+main.ts:230181
 
 ## Properties
 
@@ -47,7 +49,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Defined in
 
-main.ts:215228
+main.ts:230171
 
 ***
 
@@ -63,7 +65,7 @@ URL to the subreddit post
 
 #### Defined in
 
-main.ts:215232
+main.ts:230175
 
 ***
 
@@ -79,7 +81,7 @@ the name of the subreddit
 
 #### Defined in
 
-main.ts:215225
+main.ts:230168
 
 ***
 
@@ -95,7 +97,7 @@ number of subreddit members
 
 #### Defined in
 
-main.ts:215234
+main.ts:230177
 
 ***
 
@@ -111,7 +113,7 @@ title of the subreddit post
 
 #### Defined in
 
-main.ts:215230
+main.ts:230173
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:215230
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:215230
 
 #### Defined in
 
-main.ts:215247
+main.ts:230190
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:215247
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:215247
 
 #### Defined in
 
-main.ts:215268
+main.ts:230211
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:215268
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:215268
 
 #### Defined in
 
-main.ts:215261
+main.ts:230204

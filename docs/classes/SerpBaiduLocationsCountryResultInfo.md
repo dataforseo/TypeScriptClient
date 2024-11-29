@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBaiduLocationsCountryResultInfo
+[Documentation](../README.md) / SerpBaiduLocationsCountryResultInfo
 
 # Class: SerpBaiduLocationsCountryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md)
+##### data?
+
+[`ISerpBaiduLocationsCountryResultInfo`](../interfaces/ISerpBaiduLocationsCountryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:69145
+main.ts:78557
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:69138
+main.ts:78550
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:69130
+main.ts:78542
 
 ***
 
@@ -80,7 +82,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:69136
+main.ts:78548
 
 ***
 
@@ -96,7 +98,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:69132
+main.ts:78544
 
 ***
 
@@ -113,7 +115,7 @@ only City is supported for all countries except China (where Country is also sup
 
 #### Defined in
 
-main.ts:69141
+main.ts:78553
 
 ## Methods
 
@@ -123,7 +125,9 @@ main.ts:69141
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +135,7 @@ main.ts:69141
 
 #### Defined in
 
-main.ts:69154
+main.ts:78566
 
 ***
 
@@ -141,7 +145,9 @@ main.ts:69154
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -149,7 +155,7 @@ main.ts:69154
 
 #### Defined in
 
-main.ts:69175
+main.ts:78587
 
 ***
 
@@ -159,7 +165,9 @@ main.ts:69175
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -167,4 +175,4 @@ main.ts:69175
 
 #### Defined in
 
-main.ts:69168
+main.ts:78580

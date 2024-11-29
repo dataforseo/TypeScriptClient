@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppStoreReviewsSearchSerpElementItem
+[Documentation](../README.md) / AppDataAppStoreReviewsSearchSerpElementItem
 
 # Class: AppDataAppStoreReviewsSearchSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md)
+##### data?
+
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:195978
+main.ts:208328
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:195978
 
 #### Defined in
 
-main.ts:21988
+main.ts:22886
 
 ***
 
@@ -68,7 +70,7 @@ id of the review
 
 #### Defined in
 
-main.ts:195970
+main.ts:208320
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:21982
+main.ts:22880
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21978
+main.ts:22876
 
 ***
 
@@ -132,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21975
+main.ts:22873
 
 ***
 
@@ -152,7 +154,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21986
+main.ts:22884
 
 ***
 
@@ -168,7 +170,7 @@ content of the review
 
 #### Defined in
 
-main.ts:195972
+main.ts:208322
 
 ***
 
@@ -187,7 +189,7 @@ example:
 
 #### Defined in
 
-main.ts:195968
+main.ts:208318
 
 ***
 
@@ -207,7 +209,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21984
+main.ts:22882
 
 ***
 
@@ -227,7 +229,7 @@ type of element
 
 #### Defined in
 
-main.ts:21972
+main.ts:22870
 
 ***
 
@@ -243,7 +245,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:195974
+main.ts:208324
 
 ***
 
@@ -260,7 +262,7 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:195963
+main.ts:208313
 
 ## Methods
 
@@ -270,7 +272,9 @@ main.ts:195963
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -282,7 +286,7 @@ main.ts:195963
 
 #### Defined in
 
-main.ts:195983
+main.ts:208333
 
 ***
 
@@ -292,7 +296,9 @@ main.ts:195983
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -304,7 +310,7 @@ main.ts:195983
 
 #### Defined in
 
-main.ts:196005
+main.ts:208355
 
 ***
 
@@ -314,7 +320,9 @@ main.ts:196005
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -326,4 +334,4 @@ main.ts:196005
 
 #### Defined in
 
-main.ts:195998
+main.ts:208348

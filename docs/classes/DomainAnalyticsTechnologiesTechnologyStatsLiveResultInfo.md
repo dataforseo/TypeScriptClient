@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:77524
+main.ts:87232
 
 ## Properties
 
@@ -46,7 +48,7 @@ starting date of the time range
 
 #### Defined in
 
-main.ts:77514
+main.ts:87222
 
 ***
 
@@ -62,7 +64,7 @@ ending date of the time range
 
 #### Defined in
 
-main.ts:77516
+main.ts:87224
 
 ***
 
@@ -78,7 +80,7 @@ items array
 
 #### Defined in
 
-main.ts:77520
+main.ts:87228
 
 ***
 
@@ -94,7 +96,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:77518
+main.ts:87226
 
 ***
 
@@ -110,7 +112,7 @@ target technology
 
 #### Defined in
 
-main.ts:77512
+main.ts:87220
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:77512
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:77512
 
 #### Defined in
 
-main.ts:77533
+main.ts:87241
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:77533
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:77533
 
 #### Defined in
 
-main.ts:77558
+main.ts:87266
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:77558
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:77558
 
 #### Defined in
 
-main.ts:77551
+main.ts:87259

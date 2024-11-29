@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalBusinessDeliveryServiceInfo
+[Documentation](../README.md) / LocalBusinessDeliveryServiceInfo
 
 # Class: LocalBusinessDeliveryServiceInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md)
+##### data?
+
+[`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:24031
+main.ts:25096
 
 ## Properties
 
@@ -47,7 +49,7 @@ domain of the online food ordering system
 
 #### Defined in
 
-main.ts:24025
+main.ts:25090
 
 ***
 
@@ -63,7 +65,7 @@ type of element
 
 #### Defined in
 
-main.ts:24022
+main.ts:25087
 
 ***
 
@@ -79,7 +81,7 @@ URL to place an order
 
 #### Defined in
 
-main.ts:24027
+main.ts:25092
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:24027
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:24027
 
 #### Defined in
 
-main.ts:24040
+main.ts:25105
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:24040
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:24040
 
 #### Defined in
 
-main.ts:24059
+main.ts:25124
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:24059
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:24059
 
 #### Defined in
 
-main.ts:24052
+main.ts:25117

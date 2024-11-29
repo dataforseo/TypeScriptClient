@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / StoresCountInfo
+[Documentation](../README.md) / StoresCountInfo
 
 # Class: StoresCountInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md)
+##### data?
+
+[`IStoresCountInfo`](../interfaces/IStoresCountInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:174409
+main.ts:186138
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of stores that offer the product
 
 #### Defined in
 
-main.ts:174397
+main.ts:186126
 
 ***
 
@@ -66,7 +68,7 @@ in this case, the parameter is true
 
 #### Defined in
 
-main.ts:174405
+main.ts:186134
 
 ***
 
@@ -82,7 +84,7 @@ text displayed on the Google Shopping page
 
 #### Defined in
 
-main.ts:174399
+main.ts:186128
 
 ## Methods
 
@@ -92,7 +94,9 @@ main.ts:174399
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +104,7 @@ main.ts:174399
 
 #### Defined in
 
-main.ts:174418
+main.ts:186147
 
 ***
 
@@ -110,7 +114,9 @@ main.ts:174418
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +124,7 @@ main.ts:174418
 
 #### Defined in
 
-main.ts:174437
+main.ts:186166
 
 ***
 
@@ -128,7 +134,9 @@ main.ts:174437
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -136,4 +144,4 @@ main.ts:174437
 
 #### Defined in
 
-main.ts:174430
+main.ts:186159

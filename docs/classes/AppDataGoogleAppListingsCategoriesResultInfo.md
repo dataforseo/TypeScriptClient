@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListingsCategoriesResultInfo
+[Documentation](../README.md) / AppDataGoogleAppListingsCategoriesResultInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:191670
+main.ts:204006
 
 ## Properties
 
@@ -46,7 +48,7 @@ name of the supported app category
 
 #### Defined in
 
-main.ts:191664
+main.ts:204000
 
 ***
 
@@ -62,7 +64,7 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-main.ts:191666
+main.ts:204002
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:191666
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:191666
 
 #### Defined in
 
-main.ts:191679
+main.ts:204015
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:191679
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:191679
 
 #### Defined in
 
-main.ts:191697
+main.ts:204033
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:191697
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:191697
 
 #### Defined in
 
-main.ts:191690
+main.ts:204026

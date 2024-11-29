@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpAiSummaryRequestInfo
+[Documentation](../README.md) / ISerpAiSummaryRequestInfo
 
 # Interface: ISerpAiSummaryRequestInfo
 
@@ -23,7 +23,7 @@ default value: false
 
 #### Defined in
 
-main.ts:25466
+main.ts:26531
 
 ***
 
@@ -38,7 +38,7 @@ default value: false
 
 #### Defined in
 
-main.ts:25471
+main.ts:26536
 
 ***
 
@@ -55,7 +55,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Defined in
 
-main.ts:25456
+main.ts:26521
 
 ***
 
@@ -70,7 +70,7 @@ default value: true
 
 #### Defined in
 
-main.ts:25461
+main.ts:26526
 
 ***
 
@@ -85,4 +85,4 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-main.ts:25449
+main.ts:26514

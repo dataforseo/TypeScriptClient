@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataBingLanguagesResultInfo
 
 # Class: KeywordsDataBingLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingLanguagesResultInfo`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingLanguagesResultInfo`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:128053
+main.ts:138312
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:128049
+main.ts:138308
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:128047
+main.ts:138306
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:128047
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:128047
 
 #### Defined in
 
-main.ts:128062
+main.ts:138321
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:128062
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:128062
 
 #### Defined in
 
-main.ts:128080
+main.ts:138339
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:128080
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:128080
 
 #### Defined in
 
-main.ts:128073
+main.ts:138332

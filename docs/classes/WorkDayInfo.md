@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / WorkDayInfo
+[Documentation](../README.md) / WorkDayInfo
 
 # Class: WorkDayInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IWorkDayInfo`](../interfaces/IWorkDayInfo.md)
+##### data?
+
+[`IWorkDayInfo`](../interfaces/IWorkDayInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22088
+main.ts:22986
 
 ## Properties
 
@@ -46,7 +48,7 @@ closing time
 
 #### Defined in
 
-main.ts:22084
+main.ts:22982
 
 ***
 
@@ -62,7 +64,7 @@ opening time
 
 #### Defined in
 
-main.ts:22082
+main.ts:22980
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:22082
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:22082
 
 #### Defined in
 
-main.ts:22097
+main.ts:22995
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:22097
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:22097
 
 #### Defined in
 
-main.ts:22115
+main.ts:23013
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:22115
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:22115
 
 #### Defined in
 
-main.ts:22108
+main.ts:23006

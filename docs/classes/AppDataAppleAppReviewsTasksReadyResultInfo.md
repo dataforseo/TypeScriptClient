@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppReviewsTasksReadyResultInfo
+[Documentation](../README.md) / AppDataAppleAppReviewsTasksReadyResultInfo
 
 # Class: AppDataAppleAppReviewsTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:195780
+main.ts:208130
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:195769
+main.ts:208119
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Apple App Reviews task
 
 #### Defined in
 
-main.ts:195773
+main.ts:208123
 
 ***
 
@@ -79,7 +81,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:195776
+main.ts:208126
 
 ***
 
@@ -96,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:195763
+main.ts:208113
 
 ***
 
@@ -112,7 +114,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:195765
+main.ts:208115
 
 ***
 
@@ -128,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:195767
+main.ts:208117
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:195771
+main.ts:208121
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:195771
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:195771
 
 #### Defined in
 
-main.ts:195789
+main.ts:208139
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:195789
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:195789
 
 #### Defined in
 
-main.ts:195812
+main.ts:208162
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:195812
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:195812
 
 #### Defined in
 
-main.ts:195805
+main.ts:208155

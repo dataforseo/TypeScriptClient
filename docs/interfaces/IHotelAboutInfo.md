@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelAboutInfo
+[Documentation](../README.md) / IHotelAboutInfo
 
 # Interface: IHotelAboutInfo
 
@@ -21,7 +21,7 @@ information about hotel amenities
 
 #### Defined in
 
-main.ts:205843
+main.ts:219198
 
 ***
 
@@ -34,7 +34,7 @@ check-in time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:205828
+main.ts:219183
 
 ***
 
@@ -47,7 +47,7 @@ check-out time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:205831
+main.ts:219186
 
 ***
 
@@ -60,7 +60,7 @@ the description of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:205822
+main.ts:219177
 
 ***
 
@@ -73,7 +73,7 @@ domain of the hotel’s website
 
 #### Defined in
 
-main.ts:205837
+main.ts:219192
 
 ***
 
@@ -86,7 +86,7 @@ address of the hotel indicated in the standardised format
 
 #### Defined in
 
-main.ts:205834
+main.ts:219189
 
 ***
 
@@ -99,7 +99,7 @@ information about hotel amenities labelled as “popular”
 
 #### Defined in
 
-main.ts:205846
+main.ts:219201
 
 ***
 
@@ -112,7 +112,7 @@ details about the hotel provided in addition to the description
 
 #### Defined in
 
-main.ts:205825
+main.ts:219180
 
 ***
 
@@ -125,4 +125,4 @@ URL to the hotel’s website indicated in the listing
 
 #### Defined in
 
-main.ts:205840
+main.ts:219195

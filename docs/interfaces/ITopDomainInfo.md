@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopDomainInfo
+[Documentation](../README.md) / ITopDomainInfo
 
 # Interface: ITopDomainInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:23288
+main.ts:24186
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:23288
 
 #### Defined in
 
-main.ts:23287
+main.ts:24185

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrendsMapDataInfo
+[Documentation](../README.md) / TrendsMapDataInfo
 
 # Class: TrendsMapDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md)
+##### data?
+
+[`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:123969
+main.ts:134218
 
 ## Properties
 
@@ -49,7 +51,7 @@ US-NY
 
 #### Defined in
 
-main.ts:123951
+main.ts:134200
 
 ***
 
@@ -66,7 +68,7 @@ you can use this field for matching obtained results with location parameters sp
 
 #### Defined in
 
-main.ts:123954
+main.ts:134203
 
 ***
 
@@ -84,7 +86,7 @@ if you specified only one keyword, the value will be null
 
 #### Defined in
 
-main.ts:123965
+main.ts:134214
 
 ***
 
@@ -105,7 +107,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:123961
+main.ts:134210
 
 ## Methods
 
@@ -115,7 +117,9 @@ main.ts:123961
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -123,7 +127,7 @@ main.ts:123961
 
 #### Defined in
 
-main.ts:123978
+main.ts:134227
 
 ***
 
@@ -133,7 +137,9 @@ main.ts:123978
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -141,7 +147,7 @@ main.ts:123978
 
 #### Defined in
 
-main.ts:124002
+main.ts:134251
 
 ***
 
@@ -151,7 +157,9 @@ main.ts:124002
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -159,4 +167,4 @@ main.ts:124002
 
 #### Defined in
 
-main.ts:123995
+main.ts:134244

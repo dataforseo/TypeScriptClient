@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppRankedSerpElementInfo
+[Documentation](../README.md) / AppRankedSerpElementInfo
 
 # Class: AppRankedSerpElementInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md)
+##### data?
+
+[`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:112249
+main.ts:121581
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:112232
+main.ts:121564
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:112239
+main.ts:121571
 
 ***
 
@@ -86,7 +88,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:112245
+main.ts:121577
 
 ***
 
@@ -102,7 +104,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:112234
+main.ts:121566
 
 ***
 
@@ -118,7 +120,7 @@ search engine type
 
 #### Defined in
 
-main.ts:112226
+main.ts:121558
 
 ***
 
@@ -135,7 +137,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:112229
+main.ts:121561
 
 ## Methods
 
@@ -145,7 +147,9 @@ main.ts:112229
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -153,7 +157,7 @@ main.ts:112229
 
 #### Defined in
 
-main.ts:112258
+main.ts:121590
 
 ***
 
@@ -163,7 +167,9 @@ main.ts:112258
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -171,7 +177,7 @@ main.ts:112258
 
 #### Defined in
 
-main.ts:112280
+main.ts:121612
 
 ***
 
@@ -181,7 +187,9 @@ main.ts:112280
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -189,4 +197,4 @@ main.ts:112280
 
 #### Defined in
 
-main.ts:112273
+main.ts:121605

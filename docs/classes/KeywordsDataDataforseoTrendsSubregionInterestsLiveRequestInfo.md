@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo
 
 # Class: KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:125971
+main.ts:136225
 
 ## Properties
 
@@ -53,7 +55,7 @@ example:
 
 #### Defined in
 
-main.ts:125948
+main.ts:136202
 
 ***
 
@@ -74,7 +76,7 @@ example:
 
 #### Defined in
 
-main.ts:125955
+main.ts:136209
 
 ***
 
@@ -87,6 +89,7 @@ required field
 the maximum number of keywords you can specify: 5
 avoid symbols and special characters (e.g., UTF symbols, emojis);
 specifying non-Latin characters, you’ll get data for the countries where they are used
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -94,7 +97,7 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 
 #### Defined in
 
-main.ts:125919
+main.ts:136173
 
 ***
 
@@ -117,7 +120,7 @@ example:
 
 #### Defined in
 
-main.ts:125937
+main.ts:136191
 
 ***
 
@@ -140,7 +143,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:125928
+main.ts:136182
 
 ***
 
@@ -160,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:125967
+main.ts:136221
 
 ***
 
@@ -180,7 +183,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Defined in
 
-main.ts:125961
+main.ts:136215
 
 ***
 
@@ -196,7 +199,7 @@ type of element
 
 #### Defined in
 
-main.ts:125939
+main.ts:136193
 
 ## Methods
 
@@ -206,7 +209,9 @@ main.ts:125939
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +219,7 @@ main.ts:125939
 
 #### Defined in
 
-main.ts:125980
+main.ts:136234
 
 ***
 
@@ -224,7 +229,9 @@ main.ts:125980
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -232,7 +239,7 @@ main.ts:125980
 
 #### Defined in
 
-main.ts:126008
+main.ts:136262
 
 ***
 
@@ -242,7 +249,9 @@ main.ts:126008
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -250,4 +259,4 @@ main.ts:126008
 
 #### Defined in
 
-main.ts:126001
+main.ts:136255

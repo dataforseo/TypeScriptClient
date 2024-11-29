@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AbsoluteItems
+[Documentation](../README.md) / AbsoluteItems
 
 # Class: AbsoluteItems
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md)
+##### data?
+
+[`IAbsoluteItems`](../interfaces/IAbsoluteItems.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:126270
+main.ts:136525
 
 ## Properties
 
@@ -50,7 +52,7 @@ US-NY
 
 #### Defined in
 
-main.ts:126251
+main.ts:136506
 
 ***
 
@@ -70,7 +72,7 @@ Andorra
 
 #### Defined in
 
-main.ts:126257
+main.ts:136512
 
 ***
 
@@ -93,7 +95,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:126266
+main.ts:136521
 
 ## Methods
 
@@ -103,7 +105,9 @@ main.ts:126266
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -111,7 +115,7 @@ main.ts:126266
 
 #### Defined in
 
-main.ts:126279
+main.ts:136534
 
 ***
 
@@ -121,7 +125,9 @@ main.ts:126279
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +135,7 @@ main.ts:126279
 
 #### Defined in
 
-main.ts:126302
+main.ts:136557
 
 ***
 
@@ -139,7 +145,9 @@ main.ts:126302
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -147,4 +155,4 @@ main.ts:126302
 
 #### Defined in
 
-main.ts:126295
+main.ts:136550

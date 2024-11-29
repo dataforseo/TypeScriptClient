@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:89578
+main.ts:99296
 
 ## Properties
 
@@ -46,7 +48,7 @@ categories in a POST array
 
 #### Defined in
 
-main.ts:89564
+main.ts:99282
 
 ***
 
@@ -62,7 +64,7 @@ contains historical ranking and traffic data
 
 #### Defined in
 
-main.ts:89574
+main.ts:99292
 
 ***
 
@@ -78,7 +80,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:89572
+main.ts:99290
 
 ***
 
@@ -94,7 +96,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:89568
+main.ts:99286
 
 ***
 
@@ -110,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:89566
+main.ts:99284
 
 ***
 
@@ -126,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89562
+main.ts:99280
 
 ***
 
@@ -142,7 +144,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:89570
+main.ts:99288
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:89570
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:89570
 
 #### Defined in
 
-main.ts:89587
+main.ts:99305
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:89587
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:89587
 
 #### Defined in
 
-main.ts:89618
+main.ts:99336
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:89618
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:89618
 
 #### Defined in
 
-main.ts:89611
+main.ts:99329

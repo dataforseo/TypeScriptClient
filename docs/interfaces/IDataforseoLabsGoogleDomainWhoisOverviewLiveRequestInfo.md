@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
@@ -33,7 +33,7 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 #### Defined in
 
-main.ts:90427
+main.ts:100145
 
 ***
 
@@ -48,7 +48,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90407
+main.ts:100125
 
 ***
 
@@ -63,7 +63,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:90412
+main.ts:100130
 
 ***
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:90443
+main.ts:100161
 
 ***
 
@@ -105,4 +105,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90449
+main.ts:100167

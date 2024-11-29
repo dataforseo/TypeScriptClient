@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Rectangle
+[Documentation](../README.md) / Rectangle
 
 # Class: Rectangle
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRectangle`](../interfaces/IRectangle.md)
+##### data?
+
+[`IRectangle`](../interfaces/IRectangle.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22431
+main.ts:23329
 
 ## Properties
 
@@ -46,7 +48,7 @@ height of the element in pixels
 
 #### Defined in
 
-main.ts:22427
+main.ts:23325
 
 ***
 
@@ -62,7 +64,7 @@ width of the element in pixels
 
 #### Defined in
 
-main.ts:22425
+main.ts:23323
 
 ***
 
@@ -79,7 +81,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22420
+main.ts:23318
 
 ***
 
@@ -96,7 +98,7 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22423
+main.ts:23321
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:22423
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:22423
 
 #### Defined in
 
-main.ts:22440
+main.ts:23338
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:22440
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:22440
 
 #### Defined in
 
-main.ts:22460
+main.ts:23358
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:22460
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:22460
 
 #### Defined in
 
-main.ts:22453
+main.ts:23351

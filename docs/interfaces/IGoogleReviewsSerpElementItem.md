@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleReviewsSerpElementItem
+[Documentation](../README.md) / IGoogleReviewsSerpElementItem
 
 # Interface: IGoogleReviewsSerpElementItem
 
@@ -24,7 +24,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:30935
+main.ts:32494
 
 ***
 
@@ -36,7 +36,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:30933
+main.ts:32492
 
 ***
 
@@ -48,7 +48,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:30931
+main.ts:32490
 
 ***
 
@@ -66,7 +66,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -83,7 +83,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -114,7 +114,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:30929
+main.ts:32488
 
 ***
 
@@ -128,7 +128,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30939
+main.ts:32498
 
 ***
 
@@ -140,7 +140,7 @@ the number of reviews
 
 #### Defined in
 
-main.ts:30926
+main.ts:32485
 
 ***
 
@@ -156,7 +156,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -172,4 +172,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

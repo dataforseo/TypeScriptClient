@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingSerpCompetitorsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingSerpCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-main.ts:110811
+main.ts:120143
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:110809
+main.ts:120141
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:110805
+main.ts:120137
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:110802
+main.ts:120134
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:110796
+main.ts:120128
 
 ***
 
@@ -79,11 +79,11 @@ main.ts:110796
 > `optional` **seed\_keywords**: `string`[]
 
 keywords specified in the request
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:110799
+main.ts:120131
 
 ***
 
@@ -95,4 +95,4 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:110807
+main.ts:120139

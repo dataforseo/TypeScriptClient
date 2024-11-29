@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DictionarySerpElementItem
+[Documentation](../README.md) / DictionarySerpElementItem
 
 # Class: DictionarySerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md)
+##### data?
+
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:70616
+main.ts:80042
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:70616
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:70598
+main.ts:80024
 
 ***
 
@@ -84,7 +86,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:70596
+main.ts:80022
 
 ***
 
@@ -100,7 +102,7 @@ keyword highlighted in the result
 
 #### Defined in
 
-main.ts:70600
+main.ts:80026
 
 ***
 
@@ -118,7 +120,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:70608
+main.ts:80034
 
 ***
 
@@ -140,7 +142,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -161,7 +163,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -183,7 +185,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -201,7 +203,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:70612
+main.ts:80038
 
 ***
 
@@ -217,13 +219,13 @@ snippet of the element
 
 #### Defined in
 
-main.ts:70602
+main.ts:80028
 
 ***
 
 ### text?
 
-> `optional` **text**: `boolean`
+> `optional` **text**: `string`
 
 description of the results element in SERP
 
@@ -233,7 +235,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:70604
+main.ts:80030
 
 ***
 
@@ -249,7 +251,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:70592
+main.ts:80018
 
 ***
 
@@ -269,7 +271,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -285,7 +287,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:70594
+main.ts:80020
 
 ***
 
@@ -305,7 +307,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -315,7 +317,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -327,7 +331,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:70621
+main.ts:80047
 
 ***
 
@@ -337,7 +341,9 @@ main.ts:70621
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -349,7 +355,7 @@ main.ts:70621
 
 #### Defined in
 
-main.ts:70651
+main.ts:80077
 
 ***
 
@@ -359,7 +365,9 @@ main.ts:70651
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -371,4 +379,4 @@ main.ts:70651
 
 #### Defined in
 
-main.ts:70644
+main.ts:80070

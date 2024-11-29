@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / DataforseoLabsLocationsAndLanguagesResultInfo
 
 # Class: DataforseoLabsLocationsAndLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md)
+##### data?
+
+[`IDataforseoLabsLocationsAndLanguagesResultInfo`](../interfaces/IDataforseoLabsLocationsAndLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:81734
+main.ts:91446
 
 ## Properties
 
@@ -47,7 +49,7 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-main.ts:81730
+main.ts:91442
 
 ***
 
@@ -63,7 +65,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:81723
+main.ts:91435
 
 ***
 
@@ -79,7 +81,7 @@ location code
 
 #### Defined in
 
-main.ts:81716
+main.ts:91428
 
 ***
 
@@ -96,7 +98,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-main.ts:81721
+main.ts:91433
 
 ***
 
@@ -112,7 +114,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:81718
+main.ts:91430
 
 ***
 
@@ -130,7 +132,7 @@ Country
 
 #### Defined in
 
-main.ts:81727
+main.ts:91439
 
 ## Methods
 
@@ -140,7 +142,9 @@ main.ts:81727
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +152,7 @@ main.ts:81727
 
 #### Defined in
 
-main.ts:81743
+main.ts:91455
 
 ***
 
@@ -158,7 +162,9 @@ main.ts:81743
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +172,7 @@ main.ts:81743
 
 #### Defined in
 
-main.ts:81769
+main.ts:91481
 
 ***
 
@@ -176,7 +182,9 @@ main.ts:81769
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +192,4 @@ main.ts:81769
 
 #### Defined in
 
-main.ts:81762
+main.ts:91474

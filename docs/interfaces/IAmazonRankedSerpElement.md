@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonRankedSerpElement
+[Documentation](../README.md) / IAmazonRankedSerpElement
 
 # Interface: IAmazonRankedSerpElement
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:103616
+main.ts:113254
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:103628
+main.ts:113266
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:103633
+main.ts:113271
 
 ***
 
@@ -63,7 +63,7 @@ total number of results in Amazon SERP
 
 #### Defined in
 
-main.ts:103623
+main.ts:113261
 
 ***
 
@@ -75,7 +75,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103610
+main.ts:113248
 
 ***
 
@@ -88,7 +88,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:103613
+main.ts:113251
 
 ***
 
@@ -103,4 +103,4 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:103621
+main.ts:113259

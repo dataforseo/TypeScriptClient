@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageAvailableFiltersResultInfo
+[Documentation](../README.md) / OnPageAvailableFiltersResultInfo
 
 # Class: OnPageAvailableFiltersResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md)
+##### data?
+
+[`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:152584
+main.ts:163789
 
 ## Properties
 
@@ -48,7 +50,7 @@ main.ts:152584
 
 #### Defined in
 
-main.ts:152580
+main.ts:163785
 
 ***
 
@@ -66,7 +68,7 @@ main.ts:152580
 
 #### Defined in
 
-main.ts:152577
+main.ts:163782
 
 ***
 
@@ -84,7 +86,7 @@ main.ts:152577
 
 #### Defined in
 
-main.ts:152576
+main.ts:163781
 
 ***
 
@@ -102,7 +104,7 @@ main.ts:152576
 
 #### Defined in
 
-main.ts:152575
+main.ts:163780
 
 ***
 
@@ -120,7 +122,7 @@ main.ts:152575
 
 #### Defined in
 
-main.ts:152578
+main.ts:163783
 
 ***
 
@@ -138,7 +140,7 @@ main.ts:152578
 
 #### Defined in
 
-main.ts:152579
+main.ts:163784
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:152579
 
 #### Defined in
 
-main.ts:152574
+main.ts:163779
 
 ## Methods
 
@@ -166,7 +168,9 @@ main.ts:152574
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -174,7 +178,7 @@ main.ts:152574
 
 #### Defined in
 
-main.ts:152593
+main.ts:163798
 
 ***
 
@@ -184,7 +188,9 @@ main.ts:152593
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -192,7 +198,7 @@ main.ts:152593
 
 #### Defined in
 
-main.ts:152658
+main.ts:163863
 
 ***
 
@@ -202,7 +208,9 @@ main.ts:152658
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -210,4 +218,4 @@ main.ts:152658
 
 #### Defined in
 
-main.ts:152651
+main.ts:163856

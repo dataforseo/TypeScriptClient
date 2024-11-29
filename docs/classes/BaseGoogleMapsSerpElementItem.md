@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseGoogleMapsSerpElementItem
+[Documentation](../README.md) / BaseGoogleMapsSerpElementItem
 
 # Class: BaseGoogleMapsSerpElementItem
 
@@ -23,7 +23,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md)
+##### data?
+
+[`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md)
 
 #### Returns
 
@@ -31,7 +33,7 @@
 
 #### Defined in
 
-main.ts:39835
+main.ts:41644
 
 ## Properties
 
@@ -41,7 +43,7 @@ main.ts:39835
 
 #### Defined in
 
-main.ts:39833
+main.ts:41642
 
 ***
 
@@ -49,7 +51,7 @@ main.ts:39833
 
 > `optional` **domain**: `string`
 
-domain in the SERP element
+domain in SERP
 
 #### Implementation of
 
@@ -57,7 +59,7 @@ domain in the SERP element
 
 #### Defined in
 
-main.ts:39821
+main.ts:41630
 
 ***
 
@@ -74,7 +76,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:39819
+main.ts:41628
 
 ***
 
@@ -92,7 +94,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:39816
+main.ts:41625
 
 ***
 
@@ -109,7 +111,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:39828
+main.ts:41637
 
 ***
 
@@ -130,7 +132,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:39831
+main.ts:41640
 
 ***
 
@@ -138,7 +140,7 @@ main.ts:39831
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Implementation of
 
@@ -146,7 +148,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:39823
+main.ts:41632
 
 ***
 
@@ -162,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:39812
+main.ts:41621
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:39812
 
 > `optional` **url**: `string`
 
-relevant URL in SERP
+search URL with refinement parameters
 
 #### Implementation of
 
@@ -178,7 +180,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:39825
+main.ts:41634
 
 ## Methods
 
@@ -188,7 +190,9 @@ main.ts:39825
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -196,7 +200,7 @@ main.ts:39825
 
 #### Defined in
 
-main.ts:39845
+main.ts:41654
 
 ***
 
@@ -206,7 +210,9 @@ main.ts:39845
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +220,7 @@ main.ts:39845
 
 #### Defined in
 
-main.ts:39881
+main.ts:41690
 
 ***
 
@@ -224,7 +230,9 @@ main.ts:39881
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -232,4 +240,4 @@ main.ts:39881
 
 #### Defined in
 
-main.ts:39864
+main.ts:41673

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleLanguagesResultInfo
+[Documentation](../README.md) / IAppDataGoogleLanguagesResultInfo
 
 # Interface: IAppDataGoogleLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:187001
+main.ts:199099
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:186999
+main.ts:199097

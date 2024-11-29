@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksErrorsResultInfo
+[Documentation](../README.md) / BacklinksErrorsResultInfo
 
 # Class: BacklinksErrorsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md)
+##### data?
+
+[`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:137975
+main.ts:149180
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:137952
+main.ts:149157
 
 ***
 
@@ -65,7 +67,7 @@ error code
 
 #### Defined in
 
-main.ts:137956
+main.ts:149161
 
 ***
 
@@ -82,7 +84,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:137959
+main.ts:149164
 
 ***
 
@@ -98,7 +100,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:137954
+main.ts:149159
 
 ***
 
@@ -114,7 +116,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:137966
+main.ts:149171
 
 ***
 
@@ -130,7 +132,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:137964
+main.ts:149169
 
 ***
 
@@ -147,7 +149,7 @@ server response
 
 #### Defined in
 
-main.ts:137971
+main.ts:149176
 
 ***
 
@@ -163,7 +165,7 @@ time taken by HTTP request
 
 #### Defined in
 
-main.ts:137968
+main.ts:149173
 
 ***
 
@@ -180,7 +182,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:137962
+main.ts:149167
 
 ***
 
@@ -196,7 +198,7 @@ id of the task
 
 #### Defined in
 
-main.ts:137947
+main.ts:149152
 
 ## Methods
 
@@ -206,7 +208,9 @@ main.ts:137947
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +218,7 @@ main.ts:137947
 
 #### Defined in
 
-main.ts:137984
+main.ts:149189
 
 ***
 
@@ -224,7 +228,9 @@ main.ts:137984
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -232,7 +238,7 @@ main.ts:137984
 
 #### Defined in
 
-main.ts:138010
+main.ts:149215
 
 ***
 
@@ -242,7 +248,9 @@ main.ts:138010
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -250,4 +258,4 @@ main.ts:138010
 
 #### Defined in
 
-main.ts:138003
+main.ts:149208

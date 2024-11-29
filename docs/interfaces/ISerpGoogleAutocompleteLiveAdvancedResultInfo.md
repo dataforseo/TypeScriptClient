@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleAutocompleteLiveAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleAutocompleteLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleAutocompleteLiveAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:52975
+main.ts:56696
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:52980
+main.ts:56701
 
 ***
 
@@ -51,19 +51,19 @@ autocomplete
 
 #### Defined in
 
-main.ts:52988
+main.ts:56711
 
 ***
 
 ### items?
 
-> `optional` **items**: [`SerpGoogleAutocompleteeAdvancedItem`](../classes/SerpGoogleAutocompleteeAdvancedItem.md)[]
+> `optional` **items**: [`SerpGoogleAutocompleteAdvancedItem`](../classes/SerpGoogleAutocompleteAdvancedItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:52994
+main.ts:56717
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:52992
+main.ts:56715
 
 ***
 
@@ -84,11 +84,11 @@ main.ts:52992
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:52964
+main.ts:56685
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:52972
+main.ts:56693
 
 ***
 
@@ -112,7 +112,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:52970
+main.ts:56691
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:56706
 
 ***
 
@@ -124,7 +136,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:52968
+main.ts:56689
 
 ***
 
@@ -136,7 +148,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:52990
+main.ts:56713
 
 ***
 
@@ -149,7 +161,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:52983
+main.ts:56704
 
 ***
 
@@ -161,4 +173,4 @@ type of element
 
 #### Defined in
 
-main.ts:52966
+main.ts:56687

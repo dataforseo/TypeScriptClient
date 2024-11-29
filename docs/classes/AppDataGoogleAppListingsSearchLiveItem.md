@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListingsSearchLiveItem
+[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveItem
 
 # Class: AppDataGoogleAppListingsSearchLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md)
+##### data?
+
+[`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:192066
+main.ts:204402
 
 ## Properties
 
@@ -46,7 +48,7 @@ ID of the returned app
 
 #### Defined in
 
-main.ts:192046
+main.ts:204382
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:192055
+main.ts:204391
 
 ***
 
@@ -79,7 +81,7 @@ detailed information about the app
 
 #### Defined in
 
-main.ts:192062
+main.ts:204398
 
 ***
 
@@ -95,7 +97,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:192052
+main.ts:204388
 
 ***
 
@@ -111,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:192050
+main.ts:204386
 
 ***
 
@@ -127,7 +129,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:192048
+main.ts:204384
 
 ***
 
@@ -146,7 +148,7 @@ example:
 
 #### Defined in
 
-main.ts:192060
+main.ts:204396
 
 ## Methods
 
@@ -156,7 +158,9 @@ main.ts:192060
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +168,7 @@ main.ts:192060
 
 #### Defined in
 
-main.ts:192075
+main.ts:204411
 
 ***
 
@@ -174,7 +178,9 @@ main.ts:192075
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -182,7 +188,7 @@ main.ts:192075
 
 #### Defined in
 
-main.ts:192098
+main.ts:204434
 
 ***
 
@@ -192,7 +198,9 @@ main.ts:192098
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -200,4 +208,4 @@ main.ts:192098
 
 #### Defined in
 
-main.ts:192091
+main.ts:204427

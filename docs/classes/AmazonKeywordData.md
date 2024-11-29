@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonKeywordData
+[Documentation](../README.md) / AmazonKeywordData
 
 # Class: AmazonKeywordData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md)
+##### data?
+
+[`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22895
+main.ts:23793
 
 ## Properties
 
@@ -46,7 +48,7 @@ related keyword
 
 #### Defined in
 
-main.ts:22885
+main.ts:23783
 
 ***
 
@@ -62,7 +64,7 @@ keyword info for the returned keyword
 
 #### Defined in
 
-main.ts:22891
+main.ts:23789
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:22889
+main.ts:23787
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:22887
+main.ts:23785
 
 ***
 
@@ -110,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:22883
+main.ts:23781
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:22883
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:22883
 
 #### Defined in
 
-main.ts:22904
+main.ts:23802
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:22904
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:22904
 
 #### Defined in
 
-main.ts:22925
+main.ts:23823
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:22925
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:22925
 
 #### Defined in
 
-main.ts:22918
+main.ts:23816

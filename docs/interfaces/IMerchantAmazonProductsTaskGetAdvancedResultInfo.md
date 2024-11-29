@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonProductsTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ amazon product departments and subcategories
 
 #### Defined in
 
-main.ts:180963
+main.ts:193051
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:180946
+main.ts:193034
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:180951
+main.ts:193039
 
 ***
 
@@ -63,7 +63,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:180959
+main.ts:193047
 
 ***
 
@@ -75,7 +75,7 @@ Amazon product items within the editorial_recommendations element
 
 #### Defined in
 
-main.ts:180967
+main.ts:193055
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:180965
+main.ts:193053
 
 ***
 
@@ -96,11 +96,11 @@ main.ts:180965
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:180935
+main.ts:193023
 
 ***
 
@@ -112,7 +112,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:180943
+main.ts:193031
 
 ***
 
@@ -124,7 +124,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:180941
+main.ts:193029
 
 ***
 
@@ -136,7 +136,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:180939
+main.ts:193027
 
 ***
 
@@ -148,7 +148,7 @@ search engine results count
 
 #### Defined in
 
-main.ts:180961
+main.ts:193049
 
 ***
 
@@ -161,7 +161,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:180954
+main.ts:193042
 
 ***
 
@@ -173,4 +173,4 @@ type of element
 
 #### Defined in
 
-main.ts:180937
+main.ts:193025

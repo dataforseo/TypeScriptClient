@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixNaverKeywordsDataDataInfo
+[Documentation](../README.md) / AppendixNaverKeywordsDataDataInfo
 
 # Class: AppendixNaverKeywordsDataDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md)
+##### data?
+
+[`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:217773
+main.ts:232740
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:217773
 
 #### Defined in
 
-main.ts:217768
+main.ts:232735
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:217768
 
 #### Defined in
 
-main.ts:217769
+main.ts:232736
 
 ## Methods
 
@@ -68,7 +70,9 @@ main.ts:217769
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -76,7 +80,7 @@ main.ts:217769
 
 #### Defined in
 
-main.ts:217782
+main.ts:232749
 
 ***
 
@@ -86,7 +90,9 @@ main.ts:217782
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -94,7 +100,7 @@ main.ts:217782
 
 #### Defined in
 
-main.ts:217800
+main.ts:232767
 
 ***
 
@@ -104,7 +110,9 @@ main.ts:217800
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -112,4 +120,4 @@ main.ts:217800
 
 #### Defined in
 
-main.ts:217793
+main.ts:232760

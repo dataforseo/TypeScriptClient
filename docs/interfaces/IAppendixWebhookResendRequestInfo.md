@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixWebhookResendRequestInfo
+[Documentation](../README.md) / IAppendixWebhookResendRequestInfo
 
 # Interface: IAppendixWebhookResendRequestInfo
 
@@ -23,4 +23,4 @@ each identifier in the task array must be specified as a separate object
 
 #### Defined in
 
-main.ts:224058
+main.ts:239245

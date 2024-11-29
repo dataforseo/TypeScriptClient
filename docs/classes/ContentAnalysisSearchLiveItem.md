@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSearchLiveItem
+[Documentation](../README.md) / ContentAnalysisSearchLiveItem
 
 # Class: ContentAnalysisSearchLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md)
+##### data?
+
+[`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:166390
+main.ts:177979
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains data on citations from the given url
 
 #### Defined in
 
-main.ts:166386
+main.ts:177975
 
 ***
 
@@ -63,7 +65,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:166365
+main.ts:177954
 
 ***
 
@@ -79,7 +81,7 @@ domain name
 
 #### Defined in
 
-main.ts:166341
+main.ts:177930
 
 ***
 
@@ -98,7 +100,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:166357
+main.ts:177946
 
 ***
 
@@ -117,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:166362
+main.ts:177951
 
 ***
 
@@ -134,7 +136,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:166368
+main.ts:177957
 
 ***
 
@@ -150,7 +152,7 @@ main domain
 
 #### Defined in
 
-main.ts:166343
+main.ts:177932
 
 ***
 
@@ -168,7 +170,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166376
+main.ts:177965
 
 ***
 
@@ -184,7 +186,7 @@ page types
 
 #### Defined in
 
-main.ts:166378
+main.ts:177967
 
 ***
 
@@ -201,7 +203,7 @@ all ratings found on the page based on microdata
 
 #### Defined in
 
-main.ts:166381
+main.ts:177970
 
 ***
 
@@ -219,7 +221,7 @@ the higher the score, the more value the related citation has
 
 #### Defined in
 
-main.ts:166372
+main.ts:177961
 
 ***
 
@@ -236,7 +238,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:166384
+main.ts:177973
 
 ***
 
@@ -254,7 +256,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:166352
+main.ts:177941
 
 ***
 
@@ -270,7 +272,7 @@ type of element
 
 #### Defined in
 
-main.ts:166337
+main.ts:177926
 
 ***
 
@@ -286,7 +288,7 @@ URL where the citation was found
 
 #### Defined in
 
-main.ts:166339
+main.ts:177928
 
 ***
 
@@ -305,7 +307,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:166348
+main.ts:177937
 
 ## Methods
 
@@ -315,7 +317,9 @@ main.ts:166348
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -323,7 +327,7 @@ main.ts:166348
 
 #### Defined in
 
-main.ts:166399
+main.ts:177988
 
 ***
 
@@ -333,7 +337,9 @@ main.ts:166399
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -341,7 +347,7 @@ main.ts:166399
 
 #### Defined in
 
-main.ts:166447
+main.ts:178036
 
 ***
 
@@ -351,7 +357,9 @@ main.ts:166447
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -359,4 +367,4 @@ main.ts:166447
 
 #### Defined in
 
-main.ts:166440
+main.ts:178029

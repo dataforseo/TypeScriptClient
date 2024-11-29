@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsCompetitorsDomainLiveItem
+[Documentation](../README.md) / IDataforseoLabsCompetitorsDomainLiveItem
 
 # Interface: IDataforseoLabsCompetitorsDomainLiveItem
 
@@ -22,7 +22,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:93196
+main.ts:102914
 
 ***
 
@@ -40,7 +40,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Defined in
 
-main.ts:93213
+main.ts:102931
 
 ***
 
@@ -52,7 +52,7 @@ domain name
 
 #### Defined in
 
-main.ts:93192
+main.ts:102910
 
 ***
 
@@ -69,7 +69,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Defined in
 
-main.ts:93205
+main.ts:102923
 
 ***
 
@@ -81,7 +81,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:93202
+main.ts:102920
 
 ***
 
@@ -99,7 +99,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Defined in
 
-main.ts:93209
+main.ts:102927
 
 ***
 
@@ -111,7 +111,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93190
+main.ts:102908
 
 ***
 
@@ -125,4 +125,4 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:93200
+main.ts:102918

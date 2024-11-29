@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsStatusResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsStatusResultInfo
 
 # Interface: IKeywordsDataGoogleAdsStatusResultInfo
 
@@ -23,7 +23,7 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Defined in
 
-main.ts:116790
+main.ts:125962
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:116795
+main.ts:125967
 
 ***
 
@@ -50,7 +50,7 @@ the latest month for which search volume data is available
 
 #### Defined in
 
-main.ts:116799
+main.ts:125971
 
 ***
 
@@ -62,4 +62,4 @@ the latest year for which search volume data is available
 
 #### Defined in
 
-main.ts:116797
+main.ts:125969

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RankInfo
+[Documentation](../README.md) / RankInfo
 
 # Class: RankInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRankInfo`](../interfaces/IRankInfo.md)
+##### data?
+
+[`IRankInfo`](../interfaces/IRankInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:91280
+main.ts:100990
 
 ## Properties
 
@@ -48,7 +50,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:91276
+main.ts:100986
 
 ***
 
@@ -66,7 +68,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:91272
+main.ts:100982
 
 ## Methods
 
@@ -76,7 +78,9 @@ main.ts:91272
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -84,7 +88,7 @@ main.ts:91272
 
 #### Defined in
 
-main.ts:91289
+main.ts:100999
 
 ***
 
@@ -94,7 +98,9 @@ main.ts:91289
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -102,7 +108,7 @@ main.ts:91289
 
 #### Defined in
 
-main.ts:91307
+main.ts:101017
 
 ***
 
@@ -112,7 +118,9 @@ main.ts:91307
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -120,4 +128,4 @@ main.ts:91307
 
 #### Defined in
 
-main.ts:91300
+main.ts:101010

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingLocalPackLiveRegularResultInfo
+[Documentation](../README.md) / ISerpBingLocalPackLiveRegularResultInfo
 
 # Interface: ISerpBingLocalPackLiveRegularResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:60395
+main.ts:68322
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:60400
+main.ts:68327
 
 ***
 
@@ -51,7 +51,7 @@ local_pack
 
 #### Defined in
 
-main.ts:60408
+main.ts:68338
 
 ***
 
@@ -63,7 +63,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:60414
+main.ts:68344
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:60412
+main.ts:68342
 
 ***
 
@@ -84,11 +84,11 @@ main.ts:60412
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:60384
+main.ts:68311
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:60392
+main.ts:68319
 
 ***
 
@@ -112,7 +112,20 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:60390
+main.ts:68317
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:68333
 
 ***
 
@@ -124,7 +137,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:60388
+main.ts:68315
 
 ***
 
@@ -136,7 +149,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:60410
+main.ts:68340
 
 ***
 
@@ -149,7 +162,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:60403
+main.ts:68330
 
 ***
 
@@ -161,4 +174,4 @@ type of element
 
 #### Defined in
 
-main.ts:60386
+main.ts:68313

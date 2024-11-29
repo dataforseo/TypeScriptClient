@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentGenerationLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixContentGenerationLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:217602
+main.ts:232569
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:217602
 
 #### Defined in
 
-main.ts:217598
+main.ts:232565
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:217598
 
 #### Defined in
 
-main.ts:217599
+main.ts:232566
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:217599
 
 #### Defined in
 
-main.ts:217604
+main.ts:232571
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:217604
 
 #### Defined in
 
-main.ts:217600
+main.ts:232567
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:217600
 
 #### Defined in
 
-main.ts:217601
+main.ts:232568
 
 ***
 
@@ -78,4 +78,4 @@ main.ts:217601
 
 #### Defined in
 
-main.ts:217603
+main.ts:232570

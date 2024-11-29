@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMetricsBundleInfo
+[Documentation](../README.md) / IMetricsBundleInfo
 
 # Interface: IMetricsBundleInfo
 
@@ -20,7 +20,7 @@ ranking and traffic data from organic search
 
 #### Defined in
 
-main.ts:79765
+main.ts:89477
 
 ***
 
@@ -32,4 +32,4 @@ ranking and traffic data from paid search
 
 #### Defined in
 
-main.ts:79767
+main.ts:89479

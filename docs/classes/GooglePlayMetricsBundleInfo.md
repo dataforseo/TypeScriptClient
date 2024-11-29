@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GooglePlayMetricsBundleInfo
+[Documentation](../README.md) / GooglePlayMetricsBundleInfo
 
 # Class: GooglePlayMetricsBundleInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md)
+##### data?
+
+[`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:112856
+main.ts:122188
 
 ## Properties
 
@@ -46,7 +48,7 @@ ranking data from Google Play organic search
 
 #### Defined in
 
-main.ts:112852
+main.ts:122184
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:112852
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:112852
 
 #### Defined in
 
-main.ts:112865
+main.ts:122197
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:112865
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:112865
 
 #### Defined in
 
-main.ts:112882
+main.ts:122214
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:112882
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:112882
 
 #### Defined in
 
-main.ts:112875
+main.ts:122207

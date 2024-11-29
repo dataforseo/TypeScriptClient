@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPagePageScreenshotRequestInfo
+[Documentation](../README.md) / OnPagePageScreenshotRequestInfo
 
 # Class: OnPagePageScreenshotRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md)
+##### data?
+
+[`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160818
+main.ts:172447
 
 ## Properties
 
@@ -49,7 +51,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:160731
+main.ts:172374
 
 ***
 
@@ -82,7 +84,7 @@ Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_re
 
 #### Defined in
 
-main.ts:160757
+main.ts:172400
 
 ***
 
@@ -103,7 +105,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:160771
+main.ts:172414
 
 ***
 
@@ -124,7 +126,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:160778
+main.ts:172421
 
 ***
 
@@ -145,35 +147,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:160764
-
-***
-
-### custom\_js?
-
-> `optional` **custom\_js**: `string`
-
-custom javascript
-optional field
-Note that the execution time for the script you enter here should be 700 ms maximum
-for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n  let src = document.scripts[i].getAttribute(\"src\");\r\n  if (src != undefined) {\r\n    if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;
-the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
-as a response you will receive the following data:
-"custom_js_response": {
-  "url": "https://dataforseo.com/",
-  "test": "test"
-}
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
-
-#### Implementation of
-
-[`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`custom_js`](../interfaces/IOnPagePageScreenshotRequestInfo.md#custom_js)
-
-#### Defined in
-
-main.ts:160803
+main.ts:172407
 
 ***
 
@@ -194,7 +168,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:160738
+main.ts:172381
 
 ***
 
@@ -214,7 +188,7 @@ false
 
 #### Defined in
 
-main.ts:160789
+main.ts:172432
 
 ***
 
@@ -233,7 +207,7 @@ default value: true
 
 #### Defined in
 
-main.ts:160783
+main.ts:172426
 
 ***
 
@@ -253,7 +227,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:160814
+main.ts:172443
 
 ***
 
@@ -272,7 +246,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:160808
+main.ts:172437
 
 ***
 
@@ -291,7 +265,7 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Defined in
 
-main.ts:160726
+main.ts:172369
 
 ## Methods
 
@@ -301,7 +275,9 @@ main.ts:160726
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -309,7 +285,7 @@ main.ts:160726
 
 #### Defined in
 
-main.ts:160827
+main.ts:172456
 
 ***
 
@@ -319,7 +295,9 @@ main.ts:160827
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -327,7 +305,7 @@ main.ts:160827
 
 #### Defined in
 
-main.ts:160855
+main.ts:172483
 
 ***
 
@@ -337,7 +315,9 @@ main.ts:160855
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -345,4 +325,4 @@ main.ts:160855
 
 #### Defined in
 
-main.ts:160848
+main.ts:172476

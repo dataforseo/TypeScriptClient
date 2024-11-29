@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMerchantDayStatisticsRatesData
+[Documentation](../README.md) / AppendixMerchantDayStatisticsRatesData
 
 # Class: AppendixMerchantDayStatisticsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:218853
+main.ts:233852
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:218853
 
 #### Defined in
 
-main.ts:218843
+main.ts:233842
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:218843
 
 #### Defined in
 
-main.ts:218846
+main.ts:233845
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:218846
 
 #### Defined in
 
-main.ts:218842
+main.ts:233841
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:218842
 
 #### Defined in
 
-main.ts:218849
+main.ts:233848
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:218849
 
 #### Defined in
 
-main.ts:218845
+main.ts:233844
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:218845
 
 #### Defined in
 
-main.ts:218844
+main.ts:233843
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:218844
 
 #### Defined in
 
-main.ts:218847
+main.ts:233846
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:218847
 
 #### Defined in
 
-main.ts:218848
+main.ts:233847
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:218848
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:218848
 
 #### Defined in
 
-main.ts:218862
+main.ts:233861
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:218862
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:218862
 
 #### Defined in
 
-main.ts:218886
+main.ts:233885
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:218886
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:218886
 
 #### Defined in
 
-main.ts:218879
+main.ts:233878

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageWaterfallResultInfo
+[Documentation](../README.md) / OnPageWaterfallResultInfo
 
 # Class: OnPageWaterfallResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageWaterfallResultInfo`](../interfaces/IOnPageWaterfallResultInfo.md)
+##### data?
+
+[`IOnPageWaterfallResultInfo`](../interfaces/IOnPageWaterfallResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:159220
+main.ts:170855
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:159210
+main.ts:170845
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:159212
+main.ts:170847
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:159216
+main.ts:170851
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:159214
+main.ts:170849
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:159214
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:159214
 
 #### Defined in
 
-main.ts:159229
+main.ts:170864
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:159229
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:159229
 
 #### Defined in
 
-main.ts:159253
+main.ts:170888
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:159253
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:159253
 
 #### Defined in
 
-main.ts:159246
+main.ts:170881

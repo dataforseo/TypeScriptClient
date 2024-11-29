@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateTagsRequestInfo
+[Documentation](../README.md) / OnPageDuplicateTagsRequestInfo
 
 # Class: OnPageDuplicateTagsRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md)
+##### data?
+
+[`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:156799
+main.ts:168434
 
 ## Properties
 
@@ -48,7 +50,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 #### Defined in
 
-main.ts:156779
+main.ts:168414
 
 ***
 
@@ -68,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:156773
+main.ts:168408
 
 ***
 
@@ -87,7 +89,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:156784
+main.ts:168419
 
 ***
 
@@ -106,7 +108,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:156789
+main.ts:168424
 
 ***
 
@@ -126,7 +128,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:156795
+main.ts:168430
 
 ***
 
@@ -142,7 +144,7 @@ type of element
 
 #### Defined in
 
-main.ts:156775
+main.ts:168410
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:156775
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:156775
 
 #### Defined in
 
-main.ts:156808
+main.ts:168443
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:156808
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:156808
 
 #### Defined in
 
-main.ts:156830
+main.ts:168465
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:156830
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:156830
 
 #### Defined in
 
-main.ts:156823
+main.ts:168458

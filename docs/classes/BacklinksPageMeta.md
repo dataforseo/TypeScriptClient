@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksPageMeta
+[Documentation](../README.md) / BacklinksPageMeta
 
 # Class: BacklinksPageMeta
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md)
+##### data?
+
+[`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:142365
+main.ts:153570
 
 ## Properties
 
@@ -46,7 +48,7 @@ canonical page
 
 #### Defined in
 
-main.ts:142321
+main.ts:153526
 
 ***
 
@@ -64,7 +66,7 @@ utf-8
 
 #### Defined in
 
-main.ts:142357
+main.ts:153562
 
 ***
 
@@ -80,7 +82,7 @@ number of external links on the page
 
 #### Defined in
 
-main.ts:142325
+main.ts:153530
 
 ***
 
@@ -97,7 +99,7 @@ content of h1 tags
 
 #### Defined in
 
-main.ts:142339
+main.ts:153544
 
 ***
 
@@ -114,7 +116,7 @@ content of h2 tags
 
 #### Defined in
 
-main.ts:142342
+main.ts:153547
 
 ***
 
@@ -131,7 +133,7 @@ content of h3 tags
 
 #### Defined in
 
-main.ts:142345
+main.ts:153550
 
 ***
 
@@ -147,7 +149,7 @@ content of alt tags
 
 #### Defined in
 
-main.ts:142347
+main.ts:153552
 
 ***
 
@@ -163,7 +165,7 @@ number of images on the page
 
 #### Defined in
 
-main.ts:142327
+main.ts:153532
 
 ***
 
@@ -179,7 +181,7 @@ number of internal links on the page
 
 #### Defined in
 
-main.ts:142323
+main.ts:153528
 
 ***
 
@@ -197,7 +199,7 @@ en
 
 #### Defined in
 
-main.ts:142353
+main.ts:153558
 
 ***
 
@@ -214,7 +216,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:142332
+main.ts:153537
 
 ***
 
@@ -230,7 +232,7 @@ type of a platform
 
 #### Defined in
 
-main.ts:142359
+main.ts:153564
 
 ***
 
@@ -246,7 +248,7 @@ CMS details
 
 #### Defined in
 
-main.ts:142349
+main.ts:153554
 
 ***
 
@@ -268,7 +270,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-main.ts:142336
+main.ts:153541
 
 ***
 
@@ -288,7 +290,7 @@ website technologies
 
 #### Defined in
 
-main.ts:142361
+main.ts:153566
 
 ***
 
@@ -304,7 +306,7 @@ page title
 
 #### Defined in
 
-main.ts:142319
+main.ts:153524
 
 ***
 
@@ -320,7 +322,7 @@ number of words on the page
 
 #### Defined in
 
-main.ts:142329
+main.ts:153534
 
 ## Methods
 
@@ -330,7 +332,9 @@ main.ts:142329
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -338,7 +342,7 @@ main.ts:142329
 
 #### Defined in
 
-main.ts:142374
+main.ts:153579
 
 ***
 
@@ -348,7 +352,9 @@ main.ts:142374
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -356,7 +362,7 @@ main.ts:142374
 
 #### Defined in
 
-main.ts:142443
+main.ts:153648
 
 ***
 
@@ -366,7 +372,9 @@ main.ts:142443
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -374,4 +382,4 @@ main.ts:142443
 
 #### Defined in
 
-main.ts:142436
+main.ts:153641

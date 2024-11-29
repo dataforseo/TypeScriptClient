@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
@@ -20,7 +20,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:101817
+main.ts:111555
 
 ***
 
@@ -32,7 +32,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101813
+main.ts:111551
 
 ***
 
@@ -44,4 +44,4 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:101815
+main.ts:111553

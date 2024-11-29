@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBaiduOrganicTaskGetHtmlResultInfo
+[Documentation](../README.md) / SerpBaiduOrganicTaskGetHtmlResultInfo
 
 # Class: SerpBaiduOrganicTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md)
+##### data?
+
+[`ISerpBaiduOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpBaiduOrganicTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:70988
+main.ts:80422
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:70980
+main.ts:80414
 
 ***
 
@@ -65,7 +67,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:70984
+main.ts:80418
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:70982
+main.ts:80416
 
 ***
 
@@ -98,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:70967
+main.ts:80401
 
 ***
 
@@ -114,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:70975
+main.ts:80409
 
 ***
 
@@ -130,7 +132,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:70973
+main.ts:80407
 
 ***
 
@@ -146,7 +148,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:70971
+main.ts:80405
 
 ***
 
@@ -162,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:70969
+main.ts:80403
 
 ## Methods
 
@@ -172,7 +174,9 @@ main.ts:70969
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +184,7 @@ main.ts:70969
 
 #### Defined in
 
-main.ts:70997
+main.ts:80431
 
 ***
 
@@ -190,7 +194,9 @@ main.ts:70997
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +204,7 @@ main.ts:70997
 
 #### Defined in
 
-main.ts:71025
+main.ts:80459
 
 ***
 
@@ -208,7 +214,9 @@ main.ts:71025
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:71025
 
 #### Defined in
 
-main.ts:71018
+main.ts:80452

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleAppCompetitorsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleAppCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsGoogleAppCompetitorsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:113018
+main.ts:122350
 
 ## Properties
 
@@ -46,7 +48,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:113004
+main.ts:122336
 
 ***
 
@@ -62,7 +64,7 @@ contains data related to the app_id and competitor applications
 
 #### Defined in
 
-main.ts:113014
+main.ts:122346
 
 ***
 
@@ -78,7 +80,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:113012
+main.ts:122344
 
 ***
 
@@ -94,7 +96,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:113008
+main.ts:122340
 
 ***
 
@@ -110,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:113006
+main.ts:122338
 
 ***
 
@@ -126,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:113002
+main.ts:122334
 
 ***
 
@@ -142,7 +144,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:113010
+main.ts:122342
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:113010
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:113010
 
 #### Defined in
 
-main.ts:113027
+main.ts:122359
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:113027
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:113027
 
 #### Defined in
 
-main.ts:113054
+main.ts:122386
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:113054
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:113054
 
 #### Defined in
 
-main.ts:113047
+main.ts:122379

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FormatsElement
+[Documentation](../README.md) / FormatsElement
 
 # Class: FormatsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IFormatsElement`](../interfaces/IFormatsElement.md)
+##### data?
+
+[`IFormatsElement`](../interfaces/IFormatsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:53930
+main.ts:57659
 
 ## Properties
 
@@ -47,7 +49,7 @@ for example: zip, html, csv
 
 #### Defined in
 
-main.ts:53924
+main.ts:57653
 
 ***
 
@@ -63,7 +65,7 @@ file size in bytes
 
 #### Defined in
 
-main.ts:53926
+main.ts:57655
 
 ***
 
@@ -79,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:53921
+main.ts:57650
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:53921
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:53921
 
 #### Defined in
 
-main.ts:53939
+main.ts:57668
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:53939
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:53939
 
 #### Defined in
 
-main.ts:53958
+main.ts:57687
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:53958
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:53958
 
 #### Defined in
 
-main.ts:53951
+main.ts:57680

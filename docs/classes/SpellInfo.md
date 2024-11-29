@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SpellInfo
+[Documentation](../README.md) / SpellInfo
 
 # Class: SpellInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISpellInfo`](../interfaces/ISpellInfo.md)
+##### data?
+
+[`ISpellInfo`](../interfaces/ISpellInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23498
+main.ts:24391
 
 ## Properties
 
@@ -47,7 +49,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:23488
+main.ts:24381
 
 ***
 
@@ -67,7 +69,7 @@ including_results_for
 
 #### Defined in
 
-main.ts:23494
+main.ts:24387
 
 ## Methods
 
@@ -77,7 +79,9 @@ main.ts:23494
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -85,7 +89,7 @@ main.ts:23494
 
 #### Defined in
 
-main.ts:23507
+main.ts:24400
 
 ***
 
@@ -95,7 +99,9 @@ main.ts:23507
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -103,7 +109,7 @@ main.ts:23507
 
 #### Defined in
 
-main.ts:23525
+main.ts:24418
 
 ***
 
@@ -113,7 +119,9 @@ main.ts:23525
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -121,4 +129,4 @@ main.ts:23525
 
 #### Defined in
 
-main.ts:23518
+main.ts:24411

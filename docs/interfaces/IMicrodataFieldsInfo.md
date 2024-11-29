@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMicrodataFieldsInfo
+[Documentation](../README.md) / IMicrodataFieldsInfo
 
 # Interface: IMicrodataFieldsInfo
 
@@ -21,7 +21,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:160090
+main.ts:171733
 
 ***
 
@@ -34,33 +34,33 @@ name of the data field
 
 #### Defined in
 
-main.ts:160078
+main.ts:171721
 
 ***
 
 ### test\_results?
 
-> `optional` **test\_results**: `any`
+> `optional` **test\_results**: [`Test_results`](../classes/Test_results.md)
 
 microdata validation test results
 sub-type microdata test results that contain detected errors and related messages
 
 #### Defined in
 
-main.ts:160087
+main.ts:171730
 
 ***
 
 ### types?
 
-> `optional` **types**: `any`
+> `optional` **types**: `string`[]
 
 parent microdata types
 for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:160081
+main.ts:171724
 
 ***
 
@@ -73,4 +73,4 @@ microdata value specified on a target web page
 
 #### Defined in
 
-main.ts:160084
+main.ts:171727

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataAttributesInfo
+[Documentation](../README.md) / IBusinessDataAttributesInfo
 
 # Interface: IBusinessDataAttributesInfo
 
@@ -21,11 +21,11 @@ indicates attributes a business entity can offer
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:198490
+main.ts:210840
 
 ***
 
@@ -38,8 +38,8 @@ indicates attributes a business entity cannot offer
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Defined in
 
-main.ts:198493
+main.ts:210843

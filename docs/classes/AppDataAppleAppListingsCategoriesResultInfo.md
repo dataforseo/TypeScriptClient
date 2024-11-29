@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListingsCategoriesResultInfo
+[Documentation](../README.md) / AppDataAppleAppListingsCategoriesResultInfo
 
 # Class: AppDataAppleAppListingsCategoriesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListingsCategoriesResultInfo`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppListingsCategoriesResultInfo`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:196298
+main.ts:208648
 
 ## Properties
 
@@ -46,7 +48,7 @@ name of the supported app category
 
 #### Defined in
 
-main.ts:196292
+main.ts:208642
 
 ***
 
@@ -62,7 +64,7 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-main.ts:196294
+main.ts:208644
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:196294
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:196294
 
 #### Defined in
 
-main.ts:196307
+main.ts:208657
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:196307
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:196307
 
 #### Defined in
 
-main.ts:196325
+main.ts:208675
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:196325
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:196325
 
 #### Defined in
 
-main.ts:196318
+main.ts:208668

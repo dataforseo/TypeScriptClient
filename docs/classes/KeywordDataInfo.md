@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordDataInfo
+[Documentation](../README.md) / KeywordDataInfo
 
 # Class: KeywordDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md)
+##### data?
+
+[`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:83546
+main.ts:93258
 
 ## Properties
 
@@ -47,13 +49,13 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:83539
+main.ts:93251
 
 ***
 
 ### clickstream\_keyword\_info?
 
-> `optional` **clickstream\_keyword\_info**: `any`
+> `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -64,7 +66,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Defined in
 
-main.ts:83525
+main.ts:93237
 
 ***
 
@@ -84,7 +86,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:83533
+main.ts:93245
 
 ***
 
@@ -100,7 +102,7 @@ returned keyword idea
 
 #### Defined in
 
-main.ts:83512
+main.ts:93224
 
 ***
 
@@ -116,7 +118,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:83518
+main.ts:93230
 
 ***
 
@@ -132,7 +134,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:83520
+main.ts:93232
 
 ***
 
@@ -148,7 +150,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:83522
+main.ts:93234
 
 ***
 
@@ -164,7 +166,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:83527
+main.ts:93239
 
 ***
 
@@ -180,7 +182,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:83516
+main.ts:93228
 
 ***
 
@@ -196,7 +198,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:83514
+main.ts:93226
 
 ***
 
@@ -212,7 +214,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83510
+main.ts:93222
 
 ***
 
@@ -229,7 +231,7 @@ learn about search intent in this help center article
 
 #### Defined in
 
-main.ts:83542
+main.ts:93254
 
 ***
 
@@ -246,7 +248,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:83536
+main.ts:93248
 
 ## Methods
 
@@ -256,7 +258,9 @@ main.ts:83536
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -264,7 +268,7 @@ main.ts:83536
 
 #### Defined in
 
-main.ts:83555
+main.ts:93267
 
 ***
 
@@ -274,7 +278,9 @@ main.ts:83555
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -282,7 +288,7 @@ main.ts:83555
 
 #### Defined in
 
-main.ts:83584
+main.ts:93296
 
 ***
 
@@ -292,7 +298,9 @@ main.ts:83584
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -300,4 +308,4 @@ main.ts:83584
 
 #### Defined in
 
-main.ts:83577
+main.ts:93289

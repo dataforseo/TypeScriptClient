@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageResourcesRequestInfo
+[Documentation](../README.md) / IOnPageResourcesRequestInfo
 
 # Interface: IOnPageResourcesRequestInfo
 
@@ -32,7 +32,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:156066
+main.ts:167701
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:156036
+main.ts:167671
 
 ***
 
@@ -63,7 +63,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:156047
+main.ts:167682
 
 ***
 
@@ -78,7 +78,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Defined in
 
-main.ts:156052
+main.ts:167687
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:156092
+main.ts:167727
 
 ***
 
@@ -124,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:156078
+main.ts:167713
 
 ***
 
@@ -140,7 +140,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:156098
+main.ts:167733
 
 ***
 
@@ -156,4 +156,4 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Defined in
 
-main.ts:156042
+main.ts:167677

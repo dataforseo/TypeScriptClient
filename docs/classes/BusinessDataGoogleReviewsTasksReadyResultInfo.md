@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
 
 # Class: BusinessDataGoogleReviewsTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:208282
+main.ts:221826
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:208274
+main.ts:221818
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:208278
+main.ts:221822
 
 ***
 
@@ -79,7 +81,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:208267
+main.ts:221811
 
 ***
 
@@ -96,7 +98,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:208270
+main.ts:221814
 
 ***
 
@@ -112,7 +114,7 @@ type of search engine
 
 #### Defined in
 
-main.ts:208272
+main.ts:221816
 
 ***
 
@@ -128,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:208276
+main.ts:221820
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:208276
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:208276
 
 #### Defined in
 
-main.ts:208291
+main.ts:221835
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:208291
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:208291
 
 #### Defined in
 
-main.ts:208313
+main.ts:221857
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:208313
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:208313
 
 #### Defined in
 
-main.ts:208306
+main.ts:221850

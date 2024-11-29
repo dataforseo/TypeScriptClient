@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateMetaTagsLiveResultInfo
+[Documentation](../README.md) / IContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Interface: IContentGenerationGenerateMetaTagsLiveResultInfo
 
@@ -20,7 +20,7 @@ generated description
 
 #### Defined in
 
-main.ts:170426
+main.ts:182015
 
 ***
 
@@ -32,7 +32,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:170418
+main.ts:182007
 
 ***
 
@@ -44,7 +44,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:170422
+main.ts:182011
 
 ***
 
@@ -56,7 +56,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:170420
+main.ts:182009
 
 ***
 
@@ -68,4 +68,4 @@ generated title
 
 #### Defined in
 
-main.ts:170424
+main.ts:182013

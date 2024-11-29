@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMerchantDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixMerchantDayStatisticsRatesData
 
 # Interface: IAppendixMerchantDayStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:218906
+main.ts:233905
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:218906
 
 #### Defined in
 
-main.ts:218909
+main.ts:233908
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:218909
 
 #### Defined in
 
-main.ts:218905
+main.ts:233904
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:218905
 
 #### Defined in
 
-main.ts:218912
+main.ts:233911
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:218912
 
 #### Defined in
 
-main.ts:218908
+main.ts:233907
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:218908
 
 #### Defined in
 
-main.ts:218907
+main.ts:233906
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:218907
 
 #### Defined in
 
-main.ts:218910
+main.ts:233909
 
 ***
 
@@ -88,4 +88,4 @@ main.ts:218910
 
 #### Defined in
 
-main.ts:218911
+main.ts:233910

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / QueriesListDataInfo
+[Documentation](../README.md) / QueriesListDataInfo
 
 # Class: QueriesListDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md)
+##### data?
+
+[`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:124168
+main.ts:134417
 
 ## Properties
 
@@ -47,7 +49,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:124164
+main.ts:134413
 
 ***
 
@@ -64,7 +66,7 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:124161
+main.ts:134410
 
 ## Methods
 
@@ -74,7 +76,9 @@ main.ts:124161
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +86,7 @@ main.ts:124161
 
 #### Defined in
 
-main.ts:124177
+main.ts:134426
 
 ***
 
@@ -92,7 +96,9 @@ main.ts:124177
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +106,7 @@ main.ts:124177
 
 #### Defined in
 
-main.ts:124203
+main.ts:134452
 
 ***
 
@@ -110,7 +116,9 @@ main.ts:124203
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -118,4 +126,4 @@ main.ts:124203
 
 #### Defined in
 
-main.ts:124196
+main.ts:134445

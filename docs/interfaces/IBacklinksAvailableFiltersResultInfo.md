@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksAvailableFiltersResultInfo
+[Documentation](../README.md) / IBacklinksAvailableFiltersResultInfo
 
 # Interface: IBacklinksAvailableFiltersResultInfo
 
@@ -22,7 +22,7 @@
 
 #### Defined in
 
-main.ts:138364
+main.ts:149569
 
 ***
 
@@ -36,7 +36,7 @@ main.ts:138364
 
 #### Defined in
 
-main.ts:138362
+main.ts:149567
 
 ***
 
@@ -50,7 +50,7 @@ main.ts:138362
 
 #### Defined in
 
-main.ts:138370
+main.ts:149575
 
 ***
 
@@ -64,7 +64,7 @@ main.ts:138370
 
 #### Defined in
 
-main.ts:138361
+main.ts:149566
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:138361
 
 #### Defined in
 
-main.ts:138366
+main.ts:149571
 
 ***
 
@@ -92,7 +92,7 @@ main.ts:138366
 
 #### Defined in
 
-main.ts:138363
+main.ts:149568
 
 ***
 
@@ -106,7 +106,7 @@ main.ts:138363
 
 #### Defined in
 
-main.ts:138369
+main.ts:149574
 
 ***
 
@@ -120,7 +120,7 @@ main.ts:138369
 
 #### Defined in
 
-main.ts:138367
+main.ts:149572
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:138367
 
 #### Defined in
 
-main.ts:138365
+main.ts:149570
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:138365
 
 #### Defined in
 
-main.ts:138368
+main.ts:149573

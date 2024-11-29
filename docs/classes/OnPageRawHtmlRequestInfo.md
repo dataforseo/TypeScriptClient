@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRawHtmlRequestInfo
+[Documentation](../README.md) / OnPageRawHtmlRequestInfo
 
 # Class: OnPageRawHtmlRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md)
+##### data?
+
+[`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160436
+main.ts:172079
 
 ## Properties
 
@@ -50,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:160427
+main.ts:172070
 
 ***
 
@@ -69,7 +71,7 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Defined in
 
-main.ts:160432
+main.ts:172075
 
 ## Methods
 
@@ -79,7 +81,9 @@ main.ts:160432
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -87,7 +91,7 @@ main.ts:160432
 
 #### Defined in
 
-main.ts:160445
+main.ts:172088
 
 ***
 
@@ -97,7 +101,9 @@ main.ts:160445
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -105,7 +111,7 @@ main.ts:160445
 
 #### Defined in
 
-main.ts:160463
+main.ts:172106
 
 ***
 
@@ -115,7 +121,9 @@ main.ts:160463
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -123,4 +131,4 @@ main.ts:160463
 
 #### Defined in
 
-main.ts:160456
+main.ts:172099

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:64102
+main.ts:72307
 
 ## Properties
 
@@ -46,7 +48,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:64090
+main.ts:72295
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:64069
+main.ts:72271
 
 ***
 
@@ -82,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:64074
+main.ts:72276
 
 ***
 
@@ -101,7 +103,7 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:64082
+main.ts:72287
 
 ***
 
@@ -117,7 +119,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:64098
+main.ts:72303
 
 ***
 
@@ -133,7 +135,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:64096
+main.ts:72301
 
 ***
 
@@ -149,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:64066
+main.ts:72268
 
 ***
 
@@ -165,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:64064
+main.ts:72266
 
 ***
 
@@ -181,7 +183,24 @@ language code of original text
 
 #### Defined in
 
-main.ts:64088
+main.ts:72293
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:72282
 
 ***
 
@@ -197,7 +216,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:64062
+main.ts:72264
 
 ***
 
@@ -214,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:64077
+main.ts:72279
 
 ***
 
@@ -230,7 +249,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:64092
+main.ts:72297
 
 ***
 
@@ -246,7 +265,7 @@ title of the video
 
 #### Defined in
 
-main.ts:64094
+main.ts:72299
 
 ***
 
@@ -262,7 +281,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:64086
+main.ts:72291
 
 ***
 
@@ -278,7 +297,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:64084
+main.ts:72289
 
 ***
 
@@ -294,7 +313,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:64060
+main.ts:72262
 
 ## Methods
 
@@ -304,7 +323,9 @@ main.ts:64060
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -312,7 +333,7 @@ main.ts:64060
 
 #### Defined in
 
-main.ts:64111
+main.ts:72316
 
 ***
 
@@ -322,7 +343,9 @@ main.ts:64111
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -330,7 +353,7 @@ main.ts:64111
 
 #### Defined in
 
-main.ts:64151
+main.ts:72357
 
 ***
 
@@ -340,7 +363,9 @@ main.ts:64151
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -348,4 +373,4 @@ main.ts:64151
 
 #### Defined in
 
-main.ts:64144
+main.ts:72350

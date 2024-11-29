@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
@@ -14,13 +14,13 @@
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingRankedKeywordsLiveItem`](../classes/DataforseoLabsBingRankedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsLiveItem`](../classes/DataforseoLabsLiveItem.md)[]
 
 contains ranked keywords and related data
 
 #### Defined in
 
-main.ts:109159
+main.ts:118569
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:109151
+main.ts:118561
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:109147
+main.ts:118557
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:109144
+main.ts:118554
 
 ***
 
@@ -75,7 +75,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-main.ts:109154
+main.ts:118564
 
 ***
 
@@ -92,7 +92,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-main.ts:109157
+main.ts:118567
 
 ***
 
@@ -104,7 +104,7 @@ search engine type
 
 #### Defined in
 
-main.ts:109139
+main.ts:118549
 
 ***
 
@@ -116,7 +116,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:109141
+main.ts:118551
 
 ***
 
@@ -128,4 +128,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:109149
+main.ts:118559

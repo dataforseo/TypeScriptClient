@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsErrorsResultInfo
+[Documentation](../README.md) / DataforseoLabsErrorsResultInfo
 
 # Class: DataforseoLabsErrorsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md)
+##### data?
+
+[`IDataforseoLabsErrorsResultInfo`](../interfaces/IDataforseoLabsErrorsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:80930
+main.ts:90642
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:80907
+main.ts:90619
 
 ***
 
@@ -65,7 +67,7 @@ error code
 
 #### Defined in
 
-main.ts:80911
+main.ts:90623
 
 ***
 
@@ -82,7 +84,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:80914
+main.ts:90626
 
 ***
 
@@ -98,7 +100,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:80909
+main.ts:90621
 
 ***
 
@@ -114,7 +116,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:80921
+main.ts:90633
 
 ***
 
@@ -130,7 +132,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:80919
+main.ts:90631
 
 ***
 
@@ -147,7 +149,7 @@ server response
 
 #### Defined in
 
-main.ts:80926
+main.ts:90638
 
 ***
 
@@ -163,7 +165,7 @@ time taken by HTTP request
 
 #### Defined in
 
-main.ts:80923
+main.ts:90635
 
 ***
 
@@ -180,7 +182,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:80917
+main.ts:90629
 
 ***
 
@@ -196,7 +198,7 @@ id of the task
 
 #### Defined in
 
-main.ts:80902
+main.ts:90614
 
 ## Methods
 
@@ -206,7 +208,9 @@ main.ts:80902
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +218,7 @@ main.ts:80902
 
 #### Defined in
 
-main.ts:80939
+main.ts:90651
 
 ***
 
@@ -224,7 +228,9 @@ main.ts:80939
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -232,7 +238,7 @@ main.ts:80939
 
 #### Defined in
 
-main.ts:80965
+main.ts:90677
 
 ***
 
@@ -242,7 +248,9 @@ main.ts:80965
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -250,4 +258,4 @@ main.ts:80965
 
 #### Defined in
 
-main.ts:80958
+main.ts:90670

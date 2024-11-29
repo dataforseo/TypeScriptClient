@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
@@ -21,7 +21,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:88279
+main.ts:97997
 
 ***
 
@@ -33,4 +33,4 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:88276
+main.ts:97994

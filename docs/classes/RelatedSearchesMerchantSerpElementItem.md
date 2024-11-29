@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RelatedSearchesMerchantSerpElementItem
+[Documentation](../README.md) / RelatedSearchesMerchantSerpElementItem
 
 # Class: RelatedSearchesMerchantSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md)
+##### data?
+
+[`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:175022
+main.ts:186751
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:175022
 
 #### Defined in
 
-main.ts:21044
+main.ts:21722
 
 ***
 
@@ -69,7 +71,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:175018
+main.ts:186747
 
 ***
 
@@ -91,7 +93,7 @@ left, right
 
 #### Defined in
 
-main.ts:21042
+main.ts:21720
 
 ***
 
@@ -112,7 +114,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21038
+main.ts:21716
 
 ***
 
@@ -133,7 +135,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21035
+main.ts:21713
 
 ***
 
@@ -153,7 +155,7 @@ type of element
 
 #### Defined in
 
-main.ts:21032
+main.ts:21710
 
 ***
 
@@ -169,7 +171,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:175015
+main.ts:186744
 
 ## Methods
 
@@ -179,7 +181,9 @@ main.ts:175015
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -191,7 +195,7 @@ main.ts:175015
 
 #### Defined in
 
-main.ts:175027
+main.ts:186756
 
 ***
 
@@ -201,7 +205,9 @@ main.ts:175027
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +219,7 @@ main.ts:175027
 
 #### Defined in
 
-main.ts:175050
+main.ts:186779
 
 ***
 
@@ -223,7 +229,9 @@ main.ts:175050
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -235,4 +243,4 @@ main.ts:175050
 
 #### Defined in
 
-main.ts:175043
+main.ts:186772

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelReviewInfo
+[Documentation](../README.md) / HotelReviewInfo
 
 # Class: HotelReviewInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHotelReviewInfo`](../interfaces/IHotelReviewInfo.md)
+##### data?
+
+[`IHotelReviewInfo`](../interfaces/IHotelReviewInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:206233
+main.ts:219588
 
 ## Properties
 
@@ -47,7 +49,7 @@ information about hotel reviews by criteria
 
 #### Defined in
 
-main.ts:206223
+main.ts:219578
 
 ***
 
@@ -64,7 +66,7 @@ reviews from third-paty sites
 
 #### Defined in
 
-main.ts:206229
+main.ts:219584
 
 ***
 
@@ -85,7 +87,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-main.ts:206226
+main.ts:219581
 
 ***
 
@@ -101,7 +103,7 @@ overall hotel rating based on customer votes
 
 #### Defined in
 
-main.ts:206217
+main.ts:219572
 
 ***
 
@@ -118,7 +120,7 @@ the number of customer votes included in the calculation of the hotel rating
 
 #### Defined in
 
-main.ts:206220
+main.ts:219575
 
 ## Methods
 
@@ -128,7 +130,9 @@ main.ts:206220
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +140,7 @@ main.ts:206220
 
 #### Defined in
 
-main.ts:206242
+main.ts:219597
 
 ***
 
@@ -146,7 +150,9 @@ main.ts:206242
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -154,7 +160,7 @@ main.ts:206242
 
 #### Defined in
 
-main.ts:206277
+main.ts:219632
 
 ***
 
@@ -164,7 +170,9 @@ main.ts:206277
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -172,4 +180,4 @@ main.ts:206277
 
 #### Defined in
 
-main.ts:206270
+main.ts:219625

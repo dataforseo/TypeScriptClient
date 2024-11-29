@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:88589
+main.ts:98307
 
 ## Properties
 
@@ -49,7 +51,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:88471
+main.ts:98189
 
 ***
 
@@ -69,7 +71,7 @@ default value: true
 
 #### Defined in
 
-main.ts:88509
+main.ts:98227
 
 ***
 
@@ -102,7 +104,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:88563
+main.ts:98281
 
 ***
 
@@ -121,7 +123,7 @@ default value: false
 
 #### Defined in
 
-main.ts:88526
+main.ts:98244
 
 ***
 
@@ -131,7 +133,7 @@ main.ts:88526
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -142,7 +144,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:88521
+main.ts:98239
 
 ***
 
@@ -161,7 +163,7 @@ default value: false
 
 #### Defined in
 
-main.ts:88514
+main.ts:98232
 
 ***
 
@@ -183,7 +185,7 @@ en
 
 #### Defined in
 
-main.ts:88503
+main.ts:98221
 
 ***
 
@@ -205,7 +207,7 @@ English
 
 #### Defined in
 
-main.ts:88495
+main.ts:98213
 
 ***
 
@@ -224,7 +226,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:88531
+main.ts:98249
 
 ***
 
@@ -246,7 +248,7 @@ example:
 
 #### Defined in
 
-main.ts:88487
+main.ts:98205
 
 ***
 
@@ -268,7 +270,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:88479
+main.ts:98197
 
 ***
 
@@ -287,7 +289,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:88536
+main.ts:98254
 
 ***
 
@@ -309,7 +311,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:88544
+main.ts:98262
 
 ***
 
@@ -339,7 +341,7 @@ example:
 
 #### Defined in
 
-main.ts:88579
+main.ts:98297
 
 ***
 
@@ -359,7 +361,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:88585
+main.ts:98303
 
 ## Methods
 
@@ -369,7 +371,9 @@ main.ts:88585
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -377,7 +381,7 @@ main.ts:88585
 
 #### Defined in
 
-main.ts:88598
+main.ts:98316
 
 ***
 
@@ -387,7 +391,9 @@ main.ts:88598
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -395,7 +401,7 @@ main.ts:88598
 
 #### Defined in
 
-main.ts:88641
+main.ts:98359
 
 ***
 
@@ -405,7 +411,9 @@ main.ts:88641
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -413,4 +421,4 @@ main.ts:88641
 
 #### Defined in
 
-main.ts:88634
+main.ts:98352

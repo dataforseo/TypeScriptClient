@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:199837
+main.ts:212187
 
 ## Properties
 
@@ -47,7 +49,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:199823
+main.ts:212173
 
 ***
 
@@ -65,7 +67,7 @@ possible item types: business_category
 
 #### Defined in
 
-main.ts:199833
+main.ts:212183
 
 ***
 
@@ -81,7 +83,7 @@ offset in the results array of returned categories
 
 #### Defined in
 
-main.ts:199825
+main.ts:212175
 
 ***
 
@@ -99,7 +101,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:199829
+main.ts:212179
 
 ***
 
@@ -115,7 +117,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:199820
+main.ts:212170
 
 ## Methods
 
@@ -125,7 +127,9 @@ main.ts:199820
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -133,7 +137,7 @@ main.ts:199820
 
 #### Defined in
 
-main.ts:199846
+main.ts:212196
 
 ***
 
@@ -143,7 +147,9 @@ main.ts:199846
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -151,7 +157,7 @@ main.ts:199846
 
 #### Defined in
 
-main.ts:199871
+main.ts:212221
 
 ***
 
@@ -161,7 +167,9 @@ main.ts:199871
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -169,4 +177,4 @@ main.ts:199871
 
 #### Defined in
 
-main.ts:199864
+main.ts:212214

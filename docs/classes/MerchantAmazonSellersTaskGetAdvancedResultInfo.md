@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonSellersTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:183862
+main.ts:196174
 
 ## Properties
 
@@ -47,7 +49,7 @@ learn more about ASINs in this help center guide
 
 #### Defined in
 
-main.ts:183827
+main.ts:196139
 
 ***
 
@@ -64,7 +66,7 @@ you can use it to make sure the provided results are accurate
 
 #### Defined in
 
-main.ts:183838
+main.ts:196150
 
 ***
 
@@ -83,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:183843
+main.ts:196155
 
 ***
 
@@ -100,7 +102,7 @@ image URL of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:183849
+main.ts:196161
 
 ***
 
@@ -119,7 +121,7 @@ amazon_seller_main_item, amazon_seller_item
 
 #### Defined in
 
-main.ts:183854
+main.ts:196166
 
 ***
 
@@ -135,7 +137,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:183858
+main.ts:196170
 
 ***
 
@@ -151,7 +153,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:183856
+main.ts:196168
 
 ***
 
@@ -167,7 +169,7 @@ language code received in a POST array
 
 #### Defined in
 
-main.ts:183835
+main.ts:196147
 
 ***
 
@@ -183,7 +185,7 @@ location code received in a POST array
 
 #### Defined in
 
-main.ts:183833
+main.ts:196145
 
 ***
 
@@ -199,7 +201,7 @@ search engine domain received in a POST array
 
 #### Defined in
 
-main.ts:183831
+main.ts:196143
 
 ***
 
@@ -216,7 +218,7 @@ title of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:183846
+main.ts:196158
 
 ***
 
@@ -232,7 +234,7 @@ type of element
 
 #### Defined in
 
-main.ts:183829
+main.ts:196141
 
 ## Methods
 
@@ -242,7 +244,9 @@ main.ts:183829
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +254,7 @@ main.ts:183829
 
 #### Defined in
 
-main.ts:183871
+main.ts:196183
 
 ***
 
@@ -260,7 +264,9 @@ main.ts:183871
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +274,7 @@ main.ts:183871
 
 #### Defined in
 
-main.ts:183907
+main.ts:196219
 
 ***
 
@@ -278,7 +284,9 @@ main.ts:183907
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +294,4 @@ main.ts:183907
 
 #### Defined in
 
-main.ts:183900
+main.ts:196212

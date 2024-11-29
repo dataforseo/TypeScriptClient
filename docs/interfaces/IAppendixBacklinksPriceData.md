@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBacklinksPriceData
+[Documentation](../README.md) / IAppendixBacklinksPriceData
 
 # Interface: IAppendixBacklinksPriceData
 
@@ -14,131 +14,141 @@
 
 ### anchors?
 
-> `optional` **anchors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **anchors**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222398
+main.ts:237580
 
 ***
 
 ### backlinks?
 
-> `optional` **backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222399
+main.ts:237581
 
 ***
 
 ### bulk\_backlinks?
 
-> `optional` **bulk\_backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222400
+main.ts:237582
 
 ***
 
 ### bulk\_new\_lost\_backlinks?
 
-> `optional` **bulk\_new\_lost\_backlinks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_new\_lost\_backlinks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222401
+main.ts:237583
 
 ***
 
 ### bulk\_new\_lost\_referring\_domains?
 
-> `optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222402
+main.ts:237584
 
 ***
 
 ### bulk\_pages\_summary?
 
-> `optional` **bulk\_pages\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_pages\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222403
+main.ts:237585
 
 ***
 
 ### bulk\_ranks?
 
-> `optional` **bulk\_ranks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_ranks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222404
+main.ts:237586
 
 ***
 
 ### bulk\_referring\_domains?
 
-> `optional` **bulk\_referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222405
+main.ts:237587
+
+***
+
+### bulk\_spam\_score?
+
+> `optional` **bulk\_spam\_score**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
+
+#### Defined in
+
+main.ts:237588
 
 ***
 
 ### competitors?
 
-> `optional` **competitors**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **competitors**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222406
+main.ts:237589
 
 ***
 
 ### content\_duplicates?
 
-> `optional` **content\_duplicates**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **content\_duplicates**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222407
+main.ts:237590
 
 ***
 
 ### domain\_intersection?
 
-> `optional` **domain\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domain\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222408
+main.ts:237591
 
 ***
 
 ### domain\_pages?
 
-> `optional` **domain\_pages**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domain\_pages**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222409
+main.ts:237592
 
 ***
 
 ### domain\_pages\_summary?
 
-> `optional` **domain\_pages\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domain\_pages\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222410
+main.ts:237593
 
 ***
 
@@ -148,74 +158,74 @@ main.ts:222410
 
 #### Defined in
 
-main.ts:222411
+main.ts:237594
 
 ***
 
 ### history?
 
-> `optional` **history**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **history**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222412
+main.ts:237595
 
 ***
 
 ### page\_intersection?
 
-> `optional` **page\_intersection**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **page\_intersection**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222413
+main.ts:237596
 
 ***
 
 ### referring\_domains?
 
-> `optional` **referring\_domains**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **referring\_domains**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222414
+main.ts:237597
 
 ***
 
 ### referring\_networks?
 
-> `optional` **referring\_networks**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **referring\_networks**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222415
+main.ts:237598
 
 ***
 
 ### summary?
 
-> `optional` **summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222416
+main.ts:237599
 
 ***
 
 ### timeseries\_new\_lost\_summary?
 
-> `optional` **timeseries\_new\_lost\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **timeseries\_new\_lost\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222417
+main.ts:237600
 
 ***
 
 ### timeseries\_summary?
 
-> `optional` **timeseries\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **timeseries\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222418
+main.ts:237601

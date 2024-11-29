@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleSellersAdUrlResultInfo
+[Documentation](../README.md) / MerchantGoogleSellersAdUrlResultInfo
 
 # Class: MerchantGoogleSellersAdUrlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md)
+##### data?
+
+[`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:179198
+main.ts:190939
 
 ## Properties
 
@@ -46,7 +48,7 @@ unique ad click referral parameter
 
 #### Defined in
 
-main.ts:179189
+main.ts:190930
 
 ***
 
@@ -62,7 +64,7 @@ full URL of the advertisement
 
 #### Defined in
 
-main.ts:179191
+main.ts:190932
 
 ***
 
@@ -79,7 +81,7 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 #### Defined in
 
-main.ts:179194
+main.ts:190935
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:179194
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:179194
 
 #### Defined in
 
-main.ts:179207
+main.ts:190948
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:179207
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:179207
 
 #### Defined in
 
-main.ts:179230
+main.ts:190971
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:179230
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:179230
 
 #### Defined in
 
-main.ts:179223
+main.ts:190964

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PopularProductsElement
+[Documentation](../README.md) / PopularProductsElement
 
 # Class: PopularProductsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md)
+##### data?
+
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:33110
+main.ts:34663
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:33096
+main.ts:34649
 
 ***
 
@@ -63,7 +65,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:33101
+main.ts:34654
 
 ***
 
@@ -79,7 +81,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33103
+main.ts:34656
 
 ***
 
@@ -96,7 +98,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33106
+main.ts:34659
 
 ***
 
@@ -112,7 +114,7 @@ seller of the product
 
 #### Defined in
 
-main.ts:33098
+main.ts:34651
 
 ***
 
@@ -128,7 +130,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33094
+main.ts:34647
 
 ***
 
@@ -144,7 +146,7 @@ type of element
 
 #### Defined in
 
-main.ts:33092
+main.ts:34645
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:33092
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:33092
 
 #### Defined in
 
-main.ts:33119
+main.ts:34672
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:33119
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:33119
 
 #### Defined in
 
-main.ts:33142
+main.ts:34695
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:33142
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:33142
 
 #### Defined in
 
-main.ts:33135
+main.ts:34688

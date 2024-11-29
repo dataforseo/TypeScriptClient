@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
@@ -22,11 +22,11 @@
 
 google defined data attribute ID
 example:
-kc:/shopping/gpc:organic-offers
+action:listen_artist
 
 #### Defined in
 
-main.ts:97994
+main.ts:107812
 
 ***
 
@@ -38,7 +38,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:97996
+main.ts:107814
 
 ***
 
@@ -56,7 +56,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -73,7 +73,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -102,7 +102,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97990
+main.ts:107808
 
 ***
 
@@ -118,7 +118,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -134,4 +134,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

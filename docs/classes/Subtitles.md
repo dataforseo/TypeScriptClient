@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Subtitles
+[Documentation](../README.md) / Subtitles
 
 # Class: Subtitles
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISubtitles`](../interfaces/ISubtitles.md)
+##### data?
+
+[`ISubtitles`](../interfaces/ISubtitles.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:62139
+main.ts:70321
 
 ## Properties
 
@@ -46,7 +48,7 @@ defines if subtitles are auto generated
 
 #### Defined in
 
-main.ts:62135
+main.ts:70317
 
 ***
 
@@ -62,7 +64,7 @@ defines if subtitles are translatable
 
 #### Defined in
 
-main.ts:62133
+main.ts:70315
 
 ***
 
@@ -78,7 +80,7 @@ language of subtitles
 
 #### Defined in
 
-main.ts:62131
+main.ts:70313
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:62131
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:62131
 
 #### Defined in
 
-main.ts:62148
+main.ts:70330
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:62148
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:62148
 
 #### Defined in
 
-main.ts:62167
+main.ts:70349
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:62167
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:62167
 
 #### Defined in
 
-main.ts:62160
+main.ts:70342

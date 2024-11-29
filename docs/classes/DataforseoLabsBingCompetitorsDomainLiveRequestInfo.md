@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingCompetitorsDomainLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:106446
+main.ts:116084
 
 ## Properties
 
@@ -66,7 +68,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:106430
+main.ts:116068
 
 ***
 
@@ -94,7 +96,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:106376
+main.ts:116014
 
 ***
 
@@ -114,7 +116,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:106436
+main.ts:116074
 
 ***
 
@@ -137,7 +139,7 @@ default value:
 
 #### Defined in
 
-main.ts:106362
+main.ts:116000
 
 ***
 
@@ -159,7 +161,7 @@ en
 
 #### Defined in
 
-main.ts:106353
+main.ts:115991
 
 ***
 
@@ -181,7 +183,7 @@ English
 
 #### Defined in
 
-main.ts:106345
+main.ts:115983
 
 ***
 
@@ -200,7 +202,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:106398
+main.ts:116036
 
 ***
 
@@ -223,7 +225,7 @@ example:
 
 #### Defined in
 
-main.ts:106337
+main.ts:115975
 
 ***
 
@@ -246,7 +248,7 @@ United States
 
 #### Defined in
 
-main.ts:106328
+main.ts:115966
 
 ***
 
@@ -265,7 +267,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 #### Defined in
 
-main.ts:106408
+main.ts:116046
 
 ***
 
@@ -284,7 +286,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:106403
+main.ts:116041
 
 ***
 
@@ -315,7 +317,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:106393
+main.ts:116031
 
 ***
 
@@ -335,7 +337,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106442
+main.ts:116080
 
 ***
 
@@ -354,7 +356,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:106319
+main.ts:115957
 
 ## Methods
 
@@ -364,7 +366,9 @@ main.ts:106319
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -372,7 +376,7 @@ main.ts:106319
 
 #### Defined in
 
-main.ts:106455
+main.ts:116093
 
 ***
 
@@ -382,7 +386,9 @@ main.ts:106455
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -390,7 +396,7 @@ main.ts:106455
 
 #### Defined in
 
-main.ts:106501
+main.ts:116139
 
 ***
 
@@ -400,7 +406,9 @@ main.ts:106501
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -408,4 +416,4 @@ main.ts:106501
 
 #### Defined in
 
-main.ts:106494
+main.ts:116132

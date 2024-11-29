@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
@@ -24,7 +24,9 @@ items array
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@ items array
 
 #### Defined in
 
-main.ts:77405
+main.ts:87113
 
 ## Properties
 
@@ -53,7 +55,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:77394
+main.ts:87102
 
 ***
 
@@ -69,7 +71,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:77389
+main.ts:87097
 
 ***
 
@@ -85,7 +87,7 @@ number of domains that use the specified technology
 
 #### Defined in
 
-main.ts:77391
+main.ts:87099
 
 ***
 
@@ -107,7 +109,7 @@ learn more about rank and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:77401
+main.ts:87109
 
 ***
 
@@ -128,7 +130,7 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:77397
+main.ts:87105
 
 ***
 
@@ -144,7 +146,7 @@ type of element
 
 #### Defined in
 
-main.ts:77387
+main.ts:87095
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:77387
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:77387
 
 #### Defined in
 
-main.ts:77414
+main.ts:87122
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:77414
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:77414
 
 #### Defined in
 
-main.ts:77454
+main.ts:87162
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:77454
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:77454
 
 #### Defined in
 
-main.ts:77447
+main.ts:87155

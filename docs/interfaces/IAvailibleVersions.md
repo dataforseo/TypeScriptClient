@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAvailibleVersions
+[Documentation](../README.md) / IAvailibleVersions
 
 # Interface: IAvailibleVersions
 
@@ -21,7 +21,7 @@ if false, the version is not used by default and should be specified in the corr
 
 #### Defined in
 
-main.ts:163592
+main.ts:175181
 
 ***
 
@@ -33,4 +33,4 @@ lighthouse version
 
 #### Defined in
 
-main.ts:163589
+main.ts:175178

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFaqBoxElement
+[Documentation](../README.md) / IFaqBoxElement
 
 # Interface: IFaqBoxElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:29729
+main.ts:31288
 
 ***
 
@@ -32,7 +32,7 @@ link of the element
 
 #### Defined in
 
-main.ts:29731
+main.ts:31290
 
 ***
 
@@ -44,7 +44,7 @@ reference page title
 
 #### Defined in
 
-main.ts:29727
+main.ts:31286
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:29725
+main.ts:31284

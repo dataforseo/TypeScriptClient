@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBusinessListingsBusinessDataPriceData
+[Documentation](../README.md) / IAppendixBusinessListingsBusinessDataPriceData
 
 # Interface: IAppendixBusinessListingsBusinessDataPriceData
 
@@ -18,17 +18,17 @@
 
 #### Defined in
 
-main.ts:222475
+main.ts:237658
 
 ***
 
 ### categories\_aggregation?
 
-> `optional` **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222476
+main.ts:237659
 
 ***
 
@@ -38,14 +38,14 @@ main.ts:222476
 
 #### Defined in
 
-main.ts:222477
+main.ts:237660
 
 ***
 
 ### search?
 
-> `optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222478
+main.ts:237661

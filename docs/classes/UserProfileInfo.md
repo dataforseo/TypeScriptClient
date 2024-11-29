@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / UserProfileInfo
+[Documentation](../README.md) / UserProfileInfo
 
 # Class: UserProfileInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IUserProfileInfo`](../interfaces/IUserProfileInfo.md)
+##### data?
+
+[`IUserProfileInfo`](../interfaces/IUserProfileInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:185000
+main.ts:194887
 
 ## Properties
 
@@ -46,7 +48,7 @@ URL to the profile picture of the reviewer
 
 #### Defined in
 
-main.ts:184990
+main.ts:194877
 
 ***
 
@@ -62,7 +64,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:184996
+main.ts:194883
 
 ***
 
@@ -78,7 +80,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:184988
+main.ts:194875
 
 ***
 
@@ -94,7 +96,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:184994
+main.ts:194881
 
 ***
 
@@ -102,7 +104,7 @@ main.ts:184994
 
 > `optional` **url**: `string`
 
-URL to the reviewer’s profile
+URL of the video
 
 #### Implementation of
 
@@ -110,7 +112,7 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-main.ts:184992
+main.ts:194879
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:184992
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:184992
 
 #### Defined in
 
-main.ts:185009
+main.ts:194896
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:185009
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:185009
 
 #### Defined in
 
-main.ts:185030
+main.ts:194917
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:185030
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:185030
 
 #### Defined in
 
-main.ts:185023
+main.ts:194910

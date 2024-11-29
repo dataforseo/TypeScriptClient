@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisCategoriesResultInfo
+[Documentation](../README.md) / ContentAnalysisCategoriesResultInfo
 
 # Class: ContentAnalysisCategoriesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md)
+##### data?
+
+[`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:165561
+main.ts:177150
 
 ## Properties
 
@@ -46,7 +48,7 @@ category code
 
 #### Defined in
 
-main.ts:165545
+main.ts:177134
 
 ***
 
@@ -70,7 +72,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:165557
+main.ts:177146
 
 ***
 
@@ -86,7 +88,7 @@ full name of the category
 
 #### Defined in
 
-main.ts:165547
+main.ts:177136
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:165547
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:165547
 
 #### Defined in
 
-main.ts:165570
+main.ts:177159
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:165570
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:165570
 
 #### Defined in
 
-main.ts:165589
+main.ts:177178
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:165589
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:165589
 
 #### Defined in
 
-main.ts:165582
+main.ts:177171

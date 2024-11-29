@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleReviewsTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataGoogleReviewsTaskGetResultInfo
 
 # Class: BusinessDataGoogleReviewsTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleReviewsTaskGetResultInfo`](../interfaces/IBusinessDataGoogleReviewsTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:208778
+main.ts:222322
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:208742
+main.ts:222286
 
 ***
 
@@ -65,7 +67,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208766
+main.ts:222310
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:208747
+main.ts:222291
 
 ***
 
@@ -101,7 +103,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208759
+main.ts:222303
 
 ***
 
@@ -118,7 +120,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:208774
+main.ts:222318
 
 ***
 
@@ -135,7 +137,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:208771
+main.ts:222315
 
 ***
 
@@ -144,7 +146,7 @@ main.ts:208771
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -152,7 +154,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:208731
+main.ts:222275
 
 ***
 
@@ -168,7 +170,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:208739
+main.ts:222283
 
 ***
 
@@ -184,7 +186,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:208737
+main.ts:222281
 
 ***
 
@@ -201,7 +203,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208762
+main.ts:222306
 
 ***
 
@@ -218,7 +220,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:208756
+main.ts:222300
 
 ***
 
@@ -234,7 +236,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:208768
+main.ts:222312
 
 ***
 
@@ -250,7 +252,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:208735
+main.ts:222279
 
 ***
 
@@ -267,7 +269,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Defined in
 
-main.ts:208753
+main.ts:222297
 
 ***
 
@@ -284,7 +286,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:208750
+main.ts:222294
 
 ***
 
@@ -300,7 +302,7 @@ type of element
 
 #### Defined in
 
-main.ts:208733
+main.ts:222277
 
 ## Methods
 
@@ -310,7 +312,9 @@ main.ts:208733
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -318,7 +322,7 @@ main.ts:208733
 
 #### Defined in
 
-main.ts:208787
+main.ts:222331
 
 ***
 
@@ -328,7 +332,9 @@ main.ts:208787
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -336,7 +342,7 @@ main.ts:208787
 
 #### Defined in
 
-main.ts:208823
+main.ts:222367
 
 ***
 
@@ -346,7 +352,9 @@ main.ts:208823
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -354,4 +362,4 @@ main.ts:208823
 
 #### Defined in
 
-main.ts:208816
+main.ts:222360

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPeopleAlsoSearch
+[Documentation](../README.md) / IPeopleAlsoSearch
 
 # Interface: IPeopleAlsoSearch
 
@@ -22,7 +22,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198562
+main.ts:210912
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198565
+main.ts:210915
 
 ***
 
@@ -48,7 +48,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:198571
+main.ts:210921
 
 ***
 
@@ -61,4 +61,4 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:198568
+main.ts:210918

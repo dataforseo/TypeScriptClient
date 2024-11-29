@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMerchantLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixMerchantLimitsRatesDataInfo
 
 # Interface: IAppendixMerchantLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:216739
+main.ts:231698
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:216739
 
 #### Defined in
 
-main.ts:216742
+main.ts:231701
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:216742
 
 #### Defined in
 
-main.ts:216738
+main.ts:231697
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:216738
 
 #### Defined in
 
-main.ts:216741
+main.ts:231700
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:216741
 
 #### Defined in
 
-main.ts:216740
+main.ts:231699
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:216740
 
 #### Defined in
 
-main.ts:216743
+main.ts:231702
 
 ***
 
@@ -78,4 +78,4 @@ main.ts:216743
 
 #### Defined in
 
-main.ts:216744
+main.ts:231703

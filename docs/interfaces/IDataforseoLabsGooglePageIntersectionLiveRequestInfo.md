@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGooglePageIntersectionLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGooglePageIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveRequestInfo
 
@@ -31,7 +31,7 @@ example:
 
 #### Defined in
 
-main.ts:100385
+main.ts:110123
 
 ***
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:100485
+main.ts:110223
 
 ***
 
@@ -76,7 +76,7 @@ default value: false
 
 #### Defined in
 
-main.ts:100465
+main.ts:110203
 
 ***
 
@@ -86,14 +86,14 @@ main.ts:100465
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:100460
+main.ts:110198
 
 ***
 
@@ -108,7 +108,7 @@ default value: false
 
 #### Defined in
 
-main.ts:100453
+main.ts:110191
 
 ***
 
@@ -123,7 +123,7 @@ default value: true
 
 #### Defined in
 
-main.ts:100440
+main.ts:110178
 
 ***
 
@@ -141,7 +141,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:100448
+main.ts:110186
 
 ***
 
@@ -159,7 +159,7 @@ default value:
 
 #### Defined in
 
-main.ts:100425
+main.ts:110163
 
 ***
 
@@ -177,7 +177,7 @@ en
 
 #### Defined in
 
-main.ts:100417
+main.ts:110155
 
 ***
 
@@ -195,7 +195,7 @@ English
 
 #### Defined in
 
-main.ts:100409
+main.ts:110147
 
 ***
 
@@ -210,7 +210,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:100430
+main.ts:110168
 
 ***
 
@@ -228,7 +228,7 @@ example:
 
 #### Defined in
 
-main.ts:100401
+main.ts:110139
 
 ***
 
@@ -246,7 +246,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:100393
+main.ts:110131
 
 ***
 
@@ -261,7 +261,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:100435
+main.ts:110173
 
 ***
 
@@ -287,7 +287,7 @@ example:
 
 #### Defined in
 
-main.ts:100501
+main.ts:110239
 
 ***
 
@@ -322,7 +322,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:100372
+main.ts:110110
 
 ***
 
@@ -338,4 +338,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:100507
+main.ts:110245

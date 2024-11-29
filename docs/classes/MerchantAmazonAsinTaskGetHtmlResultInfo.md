@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonAsinTaskGetHtmlResultInfo
+[Documentation](../README.md) / MerchantAmazonAsinTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonAsinTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:182857
+main.ts:195165
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:182849
+main.ts:195157
 
 ***
 
@@ -65,7 +67,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:182853
+main.ts:195161
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:182851
+main.ts:195159
 
 ***
 
@@ -97,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:182844
+main.ts:195152
 
 ***
 
@@ -113,7 +115,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:182842
+main.ts:195150
 
 ***
 
@@ -129,7 +131,7 @@ ASIN received in a POST array
 
 #### Defined in
 
-main.ts:182836
+main.ts:195144
 
 ***
 
@@ -145,7 +147,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:182840
+main.ts:195148
 
 ***
 
@@ -161,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:182838
+main.ts:195146
 
 ## Methods
 
@@ -171,7 +173,9 @@ main.ts:182838
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +183,7 @@ main.ts:182838
 
 #### Defined in
 
-main.ts:182866
+main.ts:195174
 
 ***
 
@@ -189,7 +193,9 @@ main.ts:182866
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +203,7 @@ main.ts:182866
 
 #### Defined in
 
-main.ts:182894
+main.ts:195202
 
 ***
 
@@ -207,7 +213,9 @@ main.ts:182894
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -215,4 +223,4 @@ main.ts:182894
 
 #### Defined in
 
-main.ts:182887
+main.ts:195195

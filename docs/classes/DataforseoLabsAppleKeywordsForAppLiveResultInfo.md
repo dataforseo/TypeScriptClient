@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleKeywordsForAppLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAppleKeywordsForAppLiveResultInfo
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAppleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:114656
+main.ts:123828
 
 ## Properties
 
@@ -46,13 +48,13 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:114642
+main.ts:123814
 
 ***
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsAppleKeywordsForAppLiveItem`](DataforseoLabsAppleKeywordsForAppLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -62,7 +64,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Defined in
 
-main.ts:114652
+main.ts:123824
 
 ***
 
@@ -78,7 +80,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:114650
+main.ts:123822
 
 ***
 
@@ -94,7 +96,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:114646
+main.ts:123818
 
 ***
 
@@ -110,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:114644
+main.ts:123816
 
 ***
 
@@ -126,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:114640
+main.ts:123812
 
 ***
 
@@ -142,7 +144,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:114648
+main.ts:123820
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:114648
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:114648
 
 #### Defined in
 
-main.ts:114665
+main.ts:123837
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:114665
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:114665
 
 #### Defined in
 
-main.ts:114692
+main.ts:123864
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:114692
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:114692
 
 #### Defined in
 
-main.ts:114685
+main.ts:123857

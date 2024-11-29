@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleBulkAppMetricsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:113962
+main.ts:123294
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains data related to the ranking app metrics of the specified application
 
 #### Defined in
 
-main.ts:113958
+main.ts:123290
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:113956
+main.ts:123288
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:113952
+main.ts:123284
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:113950
+main.ts:123282
 
 ***
 
@@ -110,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:113948
+main.ts:123280
 
 ***
 
@@ -126,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:113954
+main.ts:123286
 
 ## Methods
 
@@ -136,7 +138,9 @@ main.ts:113954
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -144,7 +148,7 @@ main.ts:113954
 
 #### Defined in
 
-main.ts:113971
+main.ts:123303
 
 ***
 
@@ -154,7 +158,9 @@ main.ts:113971
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +168,7 @@ main.ts:113971
 
 #### Defined in
 
-main.ts:113997
+main.ts:123329
 
 ***
 
@@ -172,7 +178,9 @@ main.ts:113997
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -180,4 +188,4 @@ main.ts:113997
 
 #### Defined in
 
-main.ts:113990
+main.ts:123322

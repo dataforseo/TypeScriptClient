@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:111493
+main.ts:120825
 
 ## Properties
 
@@ -53,7 +55,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-main.ts:111447
+main.ts:120779
 
 ***
 
@@ -76,7 +78,7 @@ en
 
 #### Defined in
 
-main.ts:111483
+main.ts:120815
 
 ***
 
@@ -99,7 +101,7 @@ English
 
 #### Defined in
 
-main.ts:111474
+main.ts:120806
 
 ***
 
@@ -122,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:111465
+main.ts:120797
 
 ***
 
@@ -145,7 +147,7 @@ United States
 
 #### Defined in
 
-main.ts:111456
+main.ts:120788
 
 ***
 
@@ -165,7 +167,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111489
+main.ts:120821
 
 ## Methods
 
@@ -175,7 +177,9 @@ main.ts:111489
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -183,7 +187,7 @@ main.ts:111489
 
 #### Defined in
 
-main.ts:111502
+main.ts:120834
 
 ***
 
@@ -193,7 +197,9 @@ main.ts:111502
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -201,7 +207,7 @@ main.ts:111502
 
 #### Defined in
 
-main.ts:111528
+main.ts:120860
 
 ***
 
@@ -211,7 +217,9 @@ main.ts:111528
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -219,4 +227,4 @@ main.ts:111528
 
 #### Defined in
 
-main.ts:111521
+main.ts:120853

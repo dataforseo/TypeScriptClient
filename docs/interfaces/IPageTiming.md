@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPageTiming
+[Documentation](../README.md) / IPageTiming
 
 # Interface: IPageTiming
 
@@ -21,7 +21,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:154840
+main.ts:166467
 
 ***
 
@@ -34,7 +34,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:154831
+main.ts:166458
 
 ***
 
@@ -46,7 +46,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:154850
+main.ts:166477
 
 ***
 
@@ -58,7 +58,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:154852
+main.ts:166479
 
 ***
 
@@ -71,7 +71,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:154858
+main.ts:166485
 
 ***
 
@@ -84,7 +84,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:154855
+main.ts:166482
 
 ***
 
@@ -97,7 +97,7 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 #### Defined in
 
-main.ts:154837
+main.ts:166464
 
 ***
 
@@ -110,7 +110,7 @@ The amount of time (in milliseconds) to render the largest content element visib
 
 #### Defined in
 
-main.ts:154834
+main.ts:166461
 
 ***
 
@@ -123,7 +123,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:154846
+main.ts:166473
 
 ***
 
@@ -136,7 +136,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:154828
+main.ts:166455
 
 ***
 
@@ -149,7 +149,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:154843
+main.ts:166470
 
 ***
 
@@ -161,4 +161,4 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:154848
+main.ts:166475

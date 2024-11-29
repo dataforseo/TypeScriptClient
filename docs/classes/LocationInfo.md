@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocationInfo
+[Documentation](../README.md) / LocationInfo
 
 # Class: LocationInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocationInfo`](../interfaces/ILocationInfo.md)
+##### data?
+
+[`ILocationInfo`](../interfaces/ILocationInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:46038
+main.ts:48854
 
 ## Properties
 
@@ -46,7 +48,7 @@ address of the event’s venue
 
 #### Defined in
 
-main.ts:46026
+main.ts:48843
 
 ***
 
@@ -55,7 +57,6 @@ main.ts:46026
 > `optional` **cid**: `string`
 
 google-defined client id
-unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
@@ -64,7 +65,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:46032
+main.ts:48848
 
 ***
 
@@ -80,7 +81,7 @@ the unique identifier of the element in SERP
 
 #### Defined in
 
-main.ts:46034
+main.ts:48850
 
 ***
 
@@ -96,7 +97,7 @@ name of the event’s venue
 
 #### Defined in
 
-main.ts:46024
+main.ts:48841
 
 ***
 
@@ -104,7 +105,7 @@ main.ts:46024
 
 > `optional` **url**: `string`
 
-URL to the event’s venue on google maps
+search URL with refinement parameters
 
 #### Implementation of
 
@@ -112,7 +113,7 @@ URL to the event’s venue on google maps
 
 #### Defined in
 
-main.ts:46028
+main.ts:48845
 
 ## Methods
 
@@ -122,7 +123,9 @@ main.ts:46028
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +133,7 @@ main.ts:46028
 
 #### Defined in
 
-main.ts:46047
+main.ts:48863
 
 ***
 
@@ -140,7 +143,9 @@ main.ts:46047
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +153,7 @@ main.ts:46047
 
 #### Defined in
 
-main.ts:46068
+main.ts:48884
 
 ***
 
@@ -158,7 +163,9 @@ main.ts:46068
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -166,4 +173,4 @@ main.ts:46068
 
 #### Defined in
 
-main.ts:46061
+main.ts:48877

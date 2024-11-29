@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:54758
+main.ts:58426
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:54728
+main.ts:58396
 
 ***
 
@@ -71,7 +73,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:54714
+main.ts:58382
 
 ***
 
@@ -89,7 +91,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:54736
+main.ts:58404
 
 ***
 
@@ -107,7 +109,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:54744
+main.ts:58412
 
 ***
 
@@ -117,10 +119,11 @@ main.ts:54744
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -128,7 +131,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:54698
+main.ts:58366
 
 ***
 
@@ -148,7 +151,7 @@ en
 
 #### Defined in
 
-main.ts:54710
+main.ts:58378
 
 ***
 
@@ -168,7 +171,7 @@ English
 
 #### Defined in
 
-main.ts:54704
+main.ts:58372
 
 ***
 
@@ -186,7 +189,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:54732
+main.ts:58400
 
 ***
 
@@ -205,7 +208,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:54719
+main.ts:58387
 
 ***
 
@@ -225,7 +228,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:54754
+main.ts:58422
 
 ***
 
@@ -243,7 +246,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:54748
+main.ts:58416
 
 ***
 
@@ -261,7 +264,7 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:54740
+main.ts:58408
 
 ## Methods
 
@@ -271,7 +274,9 @@ main.ts:54740
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -279,7 +284,7 @@ main.ts:54740
 
 #### Defined in
 
-main.ts:54767
+main.ts:58435
 
 ***
 
@@ -289,7 +294,9 @@ main.ts:54767
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -297,7 +304,7 @@ main.ts:54767
 
 #### Defined in
 
-main.ts:54803
+main.ts:58471
 
 ***
 
@@ -307,7 +314,9 @@ main.ts:54803
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -315,4 +324,4 @@ main.ts:54803
 
 #### Defined in
 
-main.ts:54796
+main.ts:58464

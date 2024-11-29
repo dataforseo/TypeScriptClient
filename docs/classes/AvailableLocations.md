@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AvailableLocations
+[Documentation](../README.md) / AvailableLocations
 
 # Class: AvailableLocations
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAvailableLocations`](../interfaces/IAvailableLocations.md)
+##### data?
+
+[`IAvailableLocations`](../interfaces/IAvailableLocations.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:132295
+main.ts:144138
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:132287
+main.ts:144130
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:132283
+main.ts:144126
 
 ***
 
@@ -78,7 +80,7 @@ location name
 
 #### Defined in
 
-main.ts:132285
+main.ts:144128
 
 ***
 
@@ -96,7 +98,7 @@ Country, Region
 
 #### Defined in
 
-main.ts:132291
+main.ts:144134
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:132291
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:132291
 
 #### Defined in
 
-main.ts:132304
+main.ts:144147
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:132304
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:132304
 
 #### Defined in
 
-main.ts:132324
+main.ts:144167
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:132324
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:132324
 
 #### Defined in
 
-main.ts:132317
+main.ts:144160

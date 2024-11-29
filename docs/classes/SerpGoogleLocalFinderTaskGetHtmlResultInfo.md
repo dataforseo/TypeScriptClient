@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderTaskGetHtmlResultInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderTaskGetHtmlResultInfo
 
 # Class: SerpGoogleLocalFinderTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:42154
+main.ts:43997
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:42146
+main.ts:43989
 
 ***
 
@@ -65,7 +67,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:42150
+main.ts:43993
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:42148
+main.ts:43991
 
 ***
 
@@ -98,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:42133
+main.ts:43976
 
 ***
 
@@ -114,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:42141
+main.ts:43984
 
 ***
 
@@ -130,7 +132,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:42139
+main.ts:43982
 
 ***
 
@@ -146,7 +148,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:42137
+main.ts:43980
 
 ***
 
@@ -162,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:42135
+main.ts:43978
 
 ## Methods
 
@@ -172,7 +174,9 @@ main.ts:42135
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +184,7 @@ main.ts:42135
 
 #### Defined in
 
-main.ts:42163
+main.ts:44006
 
 ***
 
@@ -190,7 +194,9 @@ main.ts:42163
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +204,7 @@ main.ts:42163
 
 #### Defined in
 
-main.ts:42191
+main.ts:44034
 
 ***
 
@@ -208,7 +214,9 @@ main.ts:42191
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:42191
 
 #### Defined in
 
-main.ts:42184
+main.ts:44027

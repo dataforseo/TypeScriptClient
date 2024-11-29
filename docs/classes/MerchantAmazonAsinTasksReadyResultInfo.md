@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonAsinTasksReadyResultInfo
+[Documentation](../README.md) / MerchantAmazonAsinTasksReadyResultInfo
 
 # Class: MerchantAmazonAsinTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md)
+##### data?
+
+[`IMerchantAmazonAsinTasksReadyResultInfo`](../interfaces/IMerchantAmazonAsinTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:181674
+main.ts:193792
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:181664
+main.ts:193782
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Amazon ASIN Advanced task
 
 #### Defined in
 
-main.ts:181668
+main.ts:193786
 
 ***
 
@@ -78,7 +80,7 @@ URL for collecting the results of the Amazon ASIN HTML task
 
 #### Defined in
 
-main.ts:181670
+main.ts:193788
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:181657
+main.ts:193775
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:181659
+main.ts:193777
 
 ***
 
@@ -128,7 +130,7 @@ can take the following values: shopping
 
 #### Defined in
 
-main.ts:181662
+main.ts:193780
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:181666
+main.ts:193784
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:181666
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:181666
 
 #### Defined in
 
-main.ts:181683
+main.ts:193801
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:181683
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:181683
 
 #### Defined in
 
-main.ts:181706
+main.ts:193824
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:181706
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:181706
 
 #### Defined in
 
-main.ts:181699
+main.ts:193817

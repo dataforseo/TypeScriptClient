@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBacklinksLiveResultInfo
+[Documentation](../README.md) / BacklinksBacklinksLiveResultInfo
 
 # Class: BacklinksBacklinksLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:141069
+main.ts:152274
 
 ## Properties
 
@@ -50,7 +52,7 @@ custom mode specified in a POST array
 
 #### Defined in
 
-main.ts:141055
+main.ts:152260
 
 ***
 
@@ -66,7 +68,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:141061
+main.ts:152266
 
 ***
 
@@ -82,7 +84,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:141059
+main.ts:152264
 
 ***
 
@@ -98,7 +100,7 @@ mode specified in a POST array
 
 #### Defined in
 
-main.ts:141053
+main.ts:152258
 
 ***
 
@@ -116,7 +118,7 @@ search_after_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:141065
+main.ts:152270
 
 ***
 
@@ -132,7 +134,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:141051
+main.ts:152256
 
 ***
 
@@ -148,7 +150,7 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:141057
+main.ts:152262
 
 ## Methods
 
@@ -158,7 +160,9 @@ main.ts:141057
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +170,7 @@ main.ts:141057
 
 #### Defined in
 
-main.ts:141078
+main.ts:152283
 
 ***
 
@@ -176,7 +180,9 @@ main.ts:141078
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -184,7 +190,7 @@ main.ts:141078
 
 #### Defined in
 
-main.ts:141111
+main.ts:152316
 
 ***
 
@@ -194,7 +200,9 @@ main.ts:141111
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -202,4 +210,4 @@ main.ts:141111
 
 #### Defined in
 
-main.ts:141104
+main.ts:152309

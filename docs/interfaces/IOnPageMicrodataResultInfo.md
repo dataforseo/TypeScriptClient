@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageMicrodataResultInfo
+[Documentation](../README.md) / IOnPageMicrodataResultInfo
 
 # Interface: IOnPageMicrodataResultInfo
 
@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:160298
+main.ts:171941
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:160300
+main.ts:171943
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Defined in
 
-main.ts:160306
+main.ts:171949
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:160304
+main.ts:171947
 
 ***
 
@@ -69,4 +69,4 @@ microdata validation test results
 
 #### Defined in
 
-main.ts:160302
+main.ts:171945

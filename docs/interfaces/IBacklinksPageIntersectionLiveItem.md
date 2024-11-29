@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksPageIntersectionLiveItem
+[Documentation](../README.md) / IBacklinksPageIntersectionLiveItem
 
 # Interface: IBacklinksPageIntersectionLiveItem
 
@@ -21,11 +21,11 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`BacklinksPageIntersectionInfo`](../classes/BacklinksPageIntersectionInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: [`BacklinksPageIntersectionInfo`](../classes/BacklinksPageIntersectionInfo.md)[]
 
 #### Defined in
 
-main.ts:147816
+main.ts:159021
 
 ***
 
@@ -37,4 +37,4 @@ contains the page intersections summary
 
 #### Defined in
 
-main.ts:147818
+main.ts:159023

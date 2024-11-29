@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:88826
+main.ts:98544
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains keyword ideas and related data
 
 #### Defined in
 
-main.ts:88822
+main.ts:98540
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:88814
+main.ts:98532
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:88810
+main.ts:98528
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:88808
+main.ts:98526
 
 ***
 
@@ -110,7 +112,7 @@ current offset value
 
 #### Defined in
 
-main.ts:88816
+main.ts:98534
 
 ***
 
@@ -128,7 +130,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:88820
+main.ts:98538
 
 ***
 
@@ -144,7 +146,7 @@ search engine type
 
 #### Defined in
 
-main.ts:88804
+main.ts:98522
 
 ***
 
@@ -160,7 +162,7 @@ categories in a POST array
 
 #### Defined in
 
-main.ts:88806
+main.ts:98524
 
 ***
 
@@ -176,7 +178,7 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:88812
+main.ts:98530
 
 ## Methods
 
@@ -186,7 +188,9 @@ main.ts:88812
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -194,7 +198,7 @@ main.ts:88812
 
 #### Defined in
 
-main.ts:88835
+main.ts:98553
 
 ***
 
@@ -204,7 +208,9 @@ main.ts:88835
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -212,7 +218,7 @@ main.ts:88835
 
 #### Defined in
 
-main.ts:88868
+main.ts:98586
 
 ***
 
@@ -222,7 +228,9 @@ main.ts:88868
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -230,4 +238,4 @@ main.ts:88868
 
 #### Defined in
 
-main.ts:88861
+main.ts:98579

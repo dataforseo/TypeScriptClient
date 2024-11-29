@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixStatisticsRatesData
+[Documentation](../README.md) / IAppendixStatisticsRatesData
 
 # Interface: IAppendixStatisticsRatesData
 
@@ -18,14 +18,14 @@
 
 #### Defined in
 
-main.ts:219999
+main.ts:234998
 
 ***
 
 ### minute?
 
-> `optional` **minute**: [`AppendixMinuteStatisticsDataInfo`](../classes/AppendixMinuteStatisticsDataInfo.md)
+> `optional` **minute**: [`AppendixMinuteStatisticsRatesData`](../classes/AppendixMinuteStatisticsRatesData.md)
 
 #### Defined in
 
-main.ts:220000
+main.ts:234999

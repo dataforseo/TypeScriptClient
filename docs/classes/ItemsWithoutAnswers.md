@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ItemsWithoutAnswers
+[Documentation](../README.md) / ItemsWithoutAnswers
 
 # Class: ItemsWithoutAnswers
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md)
+##### data?
+
+[`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:209405
+main.ts:224326
 
 ## Properties
 
@@ -47,7 +49,7 @@ items within google_business_question_item
 
 #### Defined in
 
-main.ts:209401
+main.ts:224322
 
 ***
 
@@ -63,7 +65,7 @@ original text of the question
 
 #### Defined in
 
-main.ts:209394
+main.ts:224315
 
 ***
 
@@ -79,7 +81,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209386
+main.ts:224307
 
 ***
 
@@ -95,7 +97,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209390
+main.ts:224311
 
 ***
 
@@ -111,7 +113,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209388
+main.ts:224309
 
 ***
 
@@ -127,7 +129,7 @@ ID of the question
 
 #### Defined in
 
-main.ts:209382
+main.ts:224303
 
 ***
 
@@ -143,7 +145,7 @@ current text of the question
 
 #### Defined in
 
-main.ts:209392
+main.ts:224313
 
 ***
 
@@ -159,7 +161,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:209380
+main.ts:224301
 
 ***
 
@@ -176,7 +178,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:209378
+main.ts:224299
 
 ***
 
@@ -192,7 +194,7 @@ estimated time when the question was posted
 
 #### Defined in
 
-main.ts:209396
+main.ts:224317
 
 ***
 
@@ -208,7 +210,7 @@ exact time when the question was posted
 
 #### Defined in
 
-main.ts:209398
+main.ts:224319
 
 ***
 
@@ -224,7 +226,7 @@ type of element
 
 #### Defined in
 
-main.ts:209375
+main.ts:224296
 
 ***
 
@@ -240,7 +242,7 @@ URL of the question
 
 #### Defined in
 
-main.ts:209384
+main.ts:224305
 
 ## Methods
 
@@ -250,7 +252,9 @@ main.ts:209384
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -258,7 +262,7 @@ main.ts:209384
 
 #### Defined in
 
-main.ts:209414
+main.ts:224335
 
 ***
 
@@ -268,7 +272,9 @@ main.ts:209414
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -276,7 +282,7 @@ main.ts:209414
 
 #### Defined in
 
-main.ts:209443
+main.ts:224364
 
 ***
 
@@ -286,7 +292,9 @@ main.ts:209443
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -294,4 +302,4 @@ main.ts:209443
 
 #### Defined in
 
-main.ts:209436
+main.ts:224357

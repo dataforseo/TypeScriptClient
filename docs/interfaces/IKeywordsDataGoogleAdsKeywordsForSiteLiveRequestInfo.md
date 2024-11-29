@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
@@ -26,7 +26,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:119576
+main.ts:129308
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Defined in
 
-main.ts:119584
+main.ts:129316
 
 ***
 
@@ -60,7 +60,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:119590
+main.ts:129322
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:119563
+main.ts:129295
 
 ***
 
@@ -92,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:119557
+main.ts:129289
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:119542
+main.ts:129274
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:119551
+main.ts:129283
 
 ***
 
@@ -147,7 +147,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:119534
+main.ts:129266
 
 ***
 
@@ -162,7 +162,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:119568
+main.ts:129300
 
 ***
 
@@ -177,7 +177,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:119595
+main.ts:129327
 
 ***
 
@@ -193,7 +193,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:119601
+main.ts:129333
 
 ***
 
@@ -208,7 +208,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:119519
+main.ts:129251
 
 ***
 
@@ -225,4 +225,4 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:119526
+main.ts:129258

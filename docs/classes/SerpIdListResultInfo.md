@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpIdListResultInfo
+[Documentation](../README.md) / SerpIdListResultInfo
 
 # Class: SerpIdListResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md)
+##### data?
+
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:24500
+main.ts:25565
 
 ## Properties
 
@@ -46,7 +48,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:24494
+main.ts:25559
 
 ***
 
@@ -65,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:24489
+main.ts:25554
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:24484
+main.ts:25549
 
 ***
 
@@ -100,7 +102,7 @@ id of the task
 
 #### Defined in
 
-main.ts:24476
+main.ts:25541
 
 ***
 
@@ -120,7 +122,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:24496
+main.ts:25561
 
 ***
 
@@ -137,7 +139,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24492
+main.ts:25557
 
 ***
 
@@ -154,7 +156,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:24479
+main.ts:25544
 
 ## Methods
 
@@ -164,7 +166,9 @@ main.ts:24479
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -172,7 +176,7 @@ main.ts:24479
 
 #### Defined in
 
-main.ts:24509
+main.ts:25574
 
 ***
 
@@ -182,7 +186,9 @@ main.ts:24509
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -190,7 +196,7 @@ main.ts:24509
 
 #### Defined in
 
-main.ts:24538
+main.ts:25603
 
 ***
 
@@ -200,7 +206,9 @@ main.ts:24538
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -208,4 +216,4 @@ main.ts:24538
 
 #### Defined in
 
-main.ts:24531
+main.ts:25596

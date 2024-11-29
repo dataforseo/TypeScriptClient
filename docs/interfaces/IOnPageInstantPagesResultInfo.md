@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageInstantPagesResultInfo
+[Documentation](../README.md) / IOnPageInstantPagesResultInfo
 
 # Interface: IOnPageInstantPagesResultInfo
 
@@ -22,7 +22,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:163082
+main.ts:174671
 
 ***
 
@@ -35,7 +35,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:163075
+main.ts:174664
 
 ***
 
@@ -48,7 +48,7 @@ in this case the value will be null
 
 #### Defined in
 
-main.ts:163078
+main.ts:174667
 
 ***
 
@@ -60,7 +60,7 @@ items array
 
 #### Defined in
 
-main.ts:163086
+main.ts:174675
 
 ***
 
@@ -72,4 +72,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:163084
+main.ts:174673

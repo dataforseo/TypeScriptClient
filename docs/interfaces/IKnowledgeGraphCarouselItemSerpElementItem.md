@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphCarouselItemSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphCarouselItemSerpElementItem
 
 # Interface: IKnowledgeGraphCarouselItemSerpElementItem
 
@@ -26,7 +26,7 @@ action:listen_artist
 
 #### Defined in
 
-main.ts:28025
+main.ts:29584
 
 ***
 
@@ -38,7 +38,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:28029
+main.ts:29588
 
 ***
 
@@ -50,7 +50,7 @@ link of the element
 
 #### Defined in
 
-main.ts:28027
+main.ts:29586
 
 ***
 
@@ -68,7 +68,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -85,7 +85,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -103,7 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -117,7 +117,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28033
+main.ts:29592
 
 ***
 
@@ -129,7 +129,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28021
+main.ts:29580
 
 ***
 
@@ -145,7 +145,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -161,4 +161,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

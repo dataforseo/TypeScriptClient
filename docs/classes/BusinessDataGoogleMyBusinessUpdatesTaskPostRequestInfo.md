@@ -1,14 +1,10 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
-
-## Extends
-
-- [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
 ## Implements
 
@@ -26,19 +22,17 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`constructor`](BusinessDataTaskRequestInfo.md#constructors)
-
 #### Defined in
 
-main.ts:202303
+main.ts:215171
 
 ## Properties
 
@@ -59,7 +53,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:202299
+main.ts:215139
 
 ***
 
@@ -70,30 +64,21 @@ main.ts:202299
 keyword
 required field
 the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
-this field can also be used to pass the following parameters:
-cid – a unique, google-defined id of the business entity;
-place_id – an identifier of the business entity in Google Maps;
-spp – a unique identifier of local services featured in the local_pack element of Google SERP
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;this field can also be used to pass cid (unique, google-defined id of the business entity) or place_id (identifier of the business entity in Google Maps) parameters
 example:
 cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
-spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
 
 #### Implementation of
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#keyword)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`keyword`](BusinessDataTaskRequestInfo.md#keyword)
-
 #### Defined in
 
-main.ts:192880
+main.ts:215087
 
 ***
 
@@ -104,7 +89,7 @@ main.ts:192880
 search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
-you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/business_data/google/languages
+you can receive the list of available languages with their language_code by making a separate request to the https://api.dataforseo.com/v3/business_data/google/languages
 example:
 en
 
@@ -112,13 +97,9 @@ en
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#language_code)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_code`](BusinessDataTaskRequestInfo.md#language_code)
-
 #### Defined in
 
-main.ts:192926
+main.ts:215132
 
 ***
 
@@ -129,7 +110,7 @@ main.ts:192926
 full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
-you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/business_data/google/languages
+you can receive the list of available languages with language_name by making a separate request to the https://api.dataforseo.com/v3/business_data/google/languages
 example:
 English
 
@@ -137,13 +118,9 @@ English
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#language_name)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_name`](BusinessDataTaskRequestInfo.md#language_name)
-
 #### Defined in
 
-main.ts:192919
+main.ts:215125
 
 ***
 
@@ -162,13 +139,9 @@ example:
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_code)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_code`](BusinessDataTaskRequestInfo.md#location_code)
-
 #### Defined in
 
-main.ts:192902
+main.ts:215109
 
 ***
 
@@ -181,8 +154,7 @@ required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,radius” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9 (mm)
-the maximum value for “radius”: 199999 (mm)
+the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
@@ -190,13 +162,9 @@ example:
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_coordinate)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_coordinate`](BusinessDataTaskRequestInfo.md#location_coordinate)
-
 #### Defined in
 
-main.ts:192912
+main.ts:215118
 
 ***
 
@@ -207,7 +175,7 @@ main.ts:192912
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
 if you use this field, you don’t need to specify location_code or location_coordinate
-you can receive the list of available locations with location_name by making a separate request to https://api.dataforseo.com/v3/business_data/google/locations
+you can receive the list of available locations with location_name by making a separate request to the https://api.dataforseo.com/v3/business_data/google/locations
 example:
 London,England,United Kingdom
 
@@ -215,13 +183,9 @@ London,England,United Kingdom
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#location_name)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_name`](BusinessDataTaskRequestInfo.md#location_name)
-
 #### Defined in
 
-main.ts:192895
+main.ts:215102
 
 ***
 
@@ -236,20 +200,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#pingback_url)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`pingback_url`](BusinessDataTaskRequestInfo.md#pingback_url)
-
 #### Defined in
 
-main.ts:192952
+main.ts:215167
 
 ***
 
@@ -264,20 +225,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#postback_url)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`postback_url`](BusinessDataTaskRequestInfo.md#postback_url)
-
 #### Defined in
 
-main.ts:192942
+main.ts:215156
 
 ***
 
@@ -297,13 +255,9 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#priority)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`priority`](BusinessDataTaskRequestInfo.md#priority)
-
 #### Defined in
 
-main.ts:192888
+main.ts:215095
 
 ***
 
@@ -321,13 +275,9 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md#tag)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`tag`](BusinessDataTaskRequestInfo.md#tag)
-
 #### Defined in
 
-main.ts:192932
+main.ts:215145
 
 ## Methods
 
@@ -337,19 +287,17 @@ main.ts:192932
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`init`](BusinessDataTaskRequestInfo.md#init)
-
 #### Defined in
 
-main.ts:202307
+main.ts:215180
 
 ***
 
@@ -359,19 +307,17 @@ main.ts:202307
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`toJSON`](BusinessDataTaskRequestInfo.md#tojson)
-
 #### Defined in
 
-main.ts:202325
+main.ts:215207
 
 ***
 
@@ -381,16 +327,14 @@ main.ts:202325
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`fromJS`](BusinessDataTaskRequestInfo.md#fromjs)
-
 #### Defined in
 
-main.ts:202318
+main.ts:215200

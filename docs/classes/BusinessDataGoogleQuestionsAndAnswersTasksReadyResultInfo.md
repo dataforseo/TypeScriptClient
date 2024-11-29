@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:209197
+main.ts:224118
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:209189
+main.ts:224110
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:209193
+main.ts:224114
 
 ***
 
@@ -79,7 +81,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:209182
+main.ts:224103
 
 ***
 
@@ -96,7 +98,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:209185
+main.ts:224106
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:209187
+main.ts:224108
 
 ***
 
@@ -128,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:209191
+main.ts:224112
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:209191
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:209191
 
 #### Defined in
 
-main.ts:209206
+main.ts:224127
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:209206
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:209206
 
 #### Defined in
 
-main.ts:209228
+main.ts:224149
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:209228
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:209228
 
 #### Defined in
 
-main.ts:209221
+main.ts:224142

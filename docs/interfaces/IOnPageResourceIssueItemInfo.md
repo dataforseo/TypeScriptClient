@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageResourceIssueItemInfo
+[Documentation](../README.md) / IOnPageResourceIssueItemInfo
 
 # Interface: IOnPageResourceIssueItemInfo
 
@@ -20,7 +20,7 @@ column where the error was found
 
 #### Defined in
 
-main.ts:154932
+main.ts:166559
 
 ***
 
@@ -32,7 +32,7 @@ line where the error was found
 
 #### Defined in
 
-main.ts:154930
+main.ts:166557
 
 ***
 
@@ -45,7 +45,7 @@ the full list of possible HTML errors can be found here
 
 #### Defined in
 
-main.ts:154935
+main.ts:166562
 
 ***
 
@@ -66,4 +66,4 @@ possible values:
 
 #### Defined in
 
-main.ts:154946
+main.ts:166573

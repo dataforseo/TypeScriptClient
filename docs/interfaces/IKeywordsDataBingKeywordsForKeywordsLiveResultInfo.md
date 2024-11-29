@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsLiveResultInfo
 
@@ -21,7 +21,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:132162
+main.ts:144005
 
 ***
 
@@ -38,7 +38,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:132151
+main.ts:143994
 
 ***
 
@@ -52,7 +52,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132155
+main.ts:143998
 
 ***
 
@@ -66,7 +66,7 @@ possible values: all, mobile, desktop, tablet
 
 #### Defined in
 
-main.ts:132144
+main.ts:143987
 
 ***
 
@@ -78,7 +78,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:132132
+main.ts:143975
 
 ***
 
@@ -91,7 +91,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132138
+main.ts:143981
 
 ***
 
@@ -104,7 +104,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132135
+main.ts:143978
 
 ***
 
@@ -118,7 +118,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132166
+main.ts:144009
 
 ***
 
@@ -130,7 +130,7 @@ indicates whether data from partner networks is included in the response
 
 #### Defined in
 
-main.ts:132140
+main.ts:143983
 
 ***
 
@@ -144,4 +144,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132159
+main.ts:144002

@@ -1,14 +1,10 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelInfoTaskPostRequestInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTaskPostRequestInfo
-
-## Extends
-
-- [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md)
 
 ## Indexable
 
@@ -28,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:205250
+main.ts:218576
 
 ***
 
@@ -46,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:205230
+main.ts:218556
 
 ***
 
@@ -65,7 +61,7 @@ example:
 
 #### Defined in
 
-main.ts:205239
+main.ts:218565
 
 ***
 
@@ -83,7 +79,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:205258
+main.ts:218584
 
 ***
 
@@ -98,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:205244
+main.ts:218570
 
 ***
 
@@ -116,7 +112,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:205222
+main.ts:218495
 
 ***
 
@@ -125,28 +121,16 @@ main.ts:205222
 > `optional` **keyword**: `string`
 
 keyword
-required field
-the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
-this field can also be used to pass the following parameters:
-cid – a unique, google-defined id of the business entity;
-place_id – an identifier of the business entity in Google Maps;
-spp – a unique identifier of local services featured in the local_pack element of Google SERP
-example:
-cid:194604053573767737
-place_id:GhIJQWDl0CIeQUARxks3icF8U8A
-spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
-learn more about the cid and place_id identifiers in this help center article
-
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`keyword`](IBusinessDataTaskRequestInfo.md#keyword)
+required field if you don’t specify hotel_identifier
+if you use this field, you don’t need to specify hotel_identifier
+the keyword you specify should indicate the name of the hotel entity
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”
 
 #### Defined in
 
-main.ts:193027
+main.ts:218503
 
 ***
 
@@ -161,13 +145,9 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`language_code`](IBusinessDataTaskRequestInfo.md#language_code)
-
 #### Defined in
 
-main.ts:193073
+main.ts:218548
 
 ***
 
@@ -182,13 +162,9 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`language_name`](IBusinessDataTaskRequestInfo.md#language_name)
-
 #### Defined in
 
-main.ts:193066
+main.ts:218541
 
 ***
 
@@ -203,13 +179,9 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_code`](IBusinessDataTaskRequestInfo.md#location_code)
-
 #### Defined in
 
-main.ts:193049
+main.ts:218525
 
 ***
 
@@ -220,20 +192,15 @@ main.ts:193049
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
-location_coordinate parameter should be specified in the “latitude,longitude,radius” format
+location_coordinate parameter should be specified in the “latitude,longitude” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9 (mm)
-the maximum value for “radius”: 199999 (mm)
+Note: if the coordinates are used to set a location, the search will occur in the nearest settlement;
 example:
-53.476225,-2.243572,200
-
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_coordinate`](IBusinessDataTaskRequestInfo.md#location_coordinate)
+53.476225,-2.243572
 
 #### Defined in
 
-main.ts:193059
+main.ts:218534
 
 ***
 
@@ -248,13 +215,9 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_name`](IBusinessDataTaskRequestInfo.md#location_name)
-
 #### Defined in
 
-main.ts:193042
+main.ts:218518
 
 ***
 
@@ -264,21 +227,19 @@ main.ts:193042
 
 notification URL of a completed task
 optional field
-when a task is completed we will notify you by GET request sent to the URL you have specified
-you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
+when a task is completed we will notify you by GET request sent to the URL you have specified;
+you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable;
+we will set the necessary values before sending the request;
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`pingback_url`](IBusinessDataTaskRequestInfo.md#pingback_url)
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:193099
+main.ts:218619
 
 ***
 
@@ -294,7 +255,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:205264
+main.ts:218607
 
 ***
 
@@ -304,21 +265,18 @@ main.ts:205264
 
 return URL for sending task results
 optional field
-once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified
-you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request.
+once the task is completed, we will send a POST request with its results compressed in the gzip format to the postback_url you specified;
+you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded $tag variable. We will set the necessary values before sending the request;
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`postback_url`](IBusinessDataTaskRequestInfo.md#postback_url)
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:193089
+main.ts:218601
 
 ***
 
@@ -334,13 +292,9 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`priority`](IBusinessDataTaskRequestInfo.md#priority)
-
 #### Defined in
 
-main.ts:193035
+main.ts:218511
 
 ***
 
@@ -350,14 +304,10 @@ main.ts:193035
 
 user-defined task identifier
 optional field
-the character limit is 255
-you can use this parameter to identify the task and match it with the result
+the character limit is 255;
+you can use this parameter to identify the task and match it with the result;
 you will find the specified tag value in the data object of the response
-
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`tag`](IBusinessDataTaskRequestInfo.md#tag)
 
 #### Defined in
 
-main.ts:193079
+main.ts:218590

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
+[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:105298
+main.ts:114936
 
 ## Properties
 
@@ -50,7 +52,7 @@ data on the intersection
 
 #### Defined in
 
-main.ts:105294
+main.ts:114932
 
 ***
 
@@ -66,7 +68,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105292
+main.ts:114930
 
 ***
 
@@ -82,7 +84,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105290
+main.ts:114928
 
 ## Methods
 
@@ -92,7 +94,9 @@ main.ts:105290
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +104,7 @@ main.ts:105290
 
 #### Defined in
 
-main.ts:105307
+main.ts:114945
 
 ***
 
@@ -110,7 +114,9 @@ main.ts:105307
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +124,7 @@ main.ts:105307
 
 #### Defined in
 
-main.ts:105332
+main.ts:114970
 
 ***
 
@@ -128,7 +134,9 @@ main.ts:105332
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -136,4 +144,4 @@ main.ts:105332
 
 #### Defined in
 
-main.ts:105325
+main.ts:114963

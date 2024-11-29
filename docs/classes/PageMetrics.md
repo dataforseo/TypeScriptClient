@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageMetrics
+[Documentation](../README.md) / PageMetrics
 
 # Class: PageMetrics
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPageMetrics`](../interfaces/IPageMetrics.md)
+##### data?
+
+[`IPageMetrics`](../interfaces/IPageMetrics.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:153843
+main.ts:165470
 
 ## Properties
 
@@ -47,7 +49,7 @@ number of broken links across all crawled pages on a target website
 
 #### Defined in
 
-main.ts:153818
+main.ts:165445
 
 ***
 
@@ -64,7 +66,7 @@ the number of images and other resources with broken links
 
 #### Defined in
 
-main.ts:153821
+main.ts:165448
 
 ***
 
@@ -84,7 +86,7 @@ page-specific on-page check-ups
 
 #### Defined in
 
-main.ts:153839
+main.ts:165466
 
 ***
 
@@ -100,7 +102,7 @@ number of pages with duplicate content
 
 #### Defined in
 
-main.ts:153815
+main.ts:165442
 
 ***
 
@@ -116,7 +118,7 @@ number of pages with duplicate descriptions
 
 #### Defined in
 
-main.ts:153813
+main.ts:165440
 
 ***
 
@@ -132,7 +134,7 @@ number of pages with duplicate titles
 
 #### Defined in
 
-main.ts:153811
+main.ts:165438
 
 ***
 
@@ -149,7 +151,7 @@ the number of links pointing to other websites
 
 #### Defined in
 
-main.ts:153806
+main.ts:165433
 
 ***
 
@@ -166,7 +168,7 @@ the number of links pointing to other pages within the target website
 
 #### Defined in
 
-main.ts:153809
+main.ts:165436
 
 ***
 
@@ -183,7 +185,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Defined in
 
-main.ts:153824
+main.ts:165451
 
 ***
 
@@ -201,7 +203,7 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Defined in
 
-main.ts:153837
+main.ts:165464
 
 ***
 
@@ -221,7 +223,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:153833
+main.ts:165460
 
 ***
 
@@ -238,7 +240,7 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-main.ts:153827
+main.ts:165454
 
 ## Methods
 
@@ -248,7 +250,9 @@ main.ts:153827
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -256,7 +260,7 @@ main.ts:153827
 
 #### Defined in
 
-main.ts:153852
+main.ts:165479
 
 ***
 
@@ -266,7 +270,9 @@ main.ts:153852
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -274,7 +280,7 @@ main.ts:153852
 
 #### Defined in
 
-main.ts:153886
+main.ts:165513
 
 ***
 
@@ -284,7 +290,9 @@ main.ts:153886
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -292,4 +300,4 @@ main.ts:153886
 
 #### Defined in
 
-main.ts:153879
+main.ts:165506

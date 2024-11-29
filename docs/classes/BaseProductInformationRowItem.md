@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseProductInformationRowItem
+[Documentation](../README.md) / BaseProductInformationRowItem
 
 # Class: BaseProductInformationRowItem
 
@@ -10,7 +10,6 @@
 
 - [`ProductInformationImageRow`](ProductInformationImageRow.md)
 - [`ProductInformationTextRow`](ProductInformationTextRow.md)
-- [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
 
 ## Implements
 
@@ -28,7 +27,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseProductInformationRowItem`](../interfaces/IBaseProductInformationRowItem.md)
+##### data?
+
+[`IBaseProductInformationRowItem`](../interfaces/IBaseProductInformationRowItem.md)
 
 #### Returns
 
@@ -36,7 +37,7 @@
 
 #### Defined in
 
-main.ts:23424
+main.ts:24322
 
 ## Properties
 
@@ -46,7 +47,7 @@ main.ts:23424
 
 #### Defined in
 
-main.ts:23422
+main.ts:24320
 
 ***
 
@@ -62,7 +63,7 @@ type of element
 
 #### Defined in
 
-main.ts:23418
+main.ts:24316
 
 ## Methods
 
@@ -72,7 +73,9 @@ main.ts:23418
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +83,7 @@ main.ts:23418
 
 #### Defined in
 
-main.ts:23434
+main.ts:24332
 
 ***
 
@@ -90,7 +93,9 @@ main.ts:23434
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +103,7 @@ main.ts:23434
 
 #### Defined in
 
-main.ts:23466
+main.ts:24359
 
 ***
 
@@ -108,7 +113,9 @@ main.ts:23466
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +123,4 @@ main.ts:23466
 
 #### Defined in
 
-main.ts:23444
+main.ts:24342

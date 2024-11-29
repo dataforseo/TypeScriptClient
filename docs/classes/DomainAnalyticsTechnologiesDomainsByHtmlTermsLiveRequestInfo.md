@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:78486
+main.ts:88197
 
 ## Properties
 
@@ -61,7 +63,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:78445
+main.ts:88156
 
 ***
 
@@ -75,6 +77,7 @@ UTF-8 encoding
 maximum number of keywords you can specify: 10
 example:
 ["seo","software"]
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -82,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:78421
+main.ts:88132
 
 ***
 
@@ -101,7 +104,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:78467
+main.ts:88178
 
 ***
 
@@ -122,7 +125,7 @@ default value: entry
 
 #### Defined in
 
-main.ts:78428
+main.ts:88139
 
 ***
 
@@ -143,7 +146,7 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-main.ts:78474
+main.ts:88185
 
 ***
 
@@ -165,7 +168,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:78482
+main.ts:88193
 
 ***
 
@@ -196,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:78462
+main.ts:88173
 
 ***
 
@@ -218,7 +221,7 @@ example:
 
 #### Defined in
 
-main.ts:78414
+main.ts:88124
 
 ## Methods
 
@@ -228,7 +231,9 @@ main.ts:78414
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -236,7 +241,7 @@ main.ts:78414
 
 #### Defined in
 
-main.ts:78495
+main.ts:88206
 
 ***
 
@@ -246,7 +251,9 @@ main.ts:78495
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -254,7 +261,7 @@ main.ts:78495
 
 #### Defined in
 
-main.ts:78535
+main.ts:88246
 
 ***
 
@@ -264,7 +271,9 @@ main.ts:78535
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -272,4 +281,4 @@ main.ts:78535
 
 #### Defined in
 
-main.ts:78528
+main.ts:88239

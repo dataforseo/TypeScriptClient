@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AiOverviewSerpElementItem
+[Documentation](../README.md) / AiOverviewSerpElementItem
 
 # Class: AiOverviewSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md)
+##### data?
+
+[`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:36609
+main.ts:38094
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:36609
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -70,7 +72,7 @@ if false, the ai_overview element is loaded from cache;
 
 #### Defined in
 
-main.ts:36596
+main.ts:38081
 
 ***
 
@@ -86,7 +88,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:36598
+main.ts:38083
 
 ***
 
@@ -108,7 +110,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -129,7 +131,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -151,7 +153,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -169,7 +171,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36605
+main.ts:38090
 
 ***
 
@@ -186,7 +188,7 @@ includes references to webpages that may have been used to generate the ai_overv
 
 #### Defined in
 
-main.ts:36601
+main.ts:38086
 
 ***
 
@@ -206,7 +208,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -226,7 +228,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -236,7 +238,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -248,7 +252,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:36614
+main.ts:38099
 
 ***
 
@@ -258,7 +262,9 @@ main.ts:36614
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -270,7 +276,7 @@ main.ts:36614
 
 #### Defined in
 
-main.ts:36643
+main.ts:38128
 
 ***
 
@@ -280,7 +286,9 @@ main.ts:36643
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -292,4 +300,4 @@ main.ts:36643
 
 #### Defined in
 
-main.ts:36636
+main.ts:38121

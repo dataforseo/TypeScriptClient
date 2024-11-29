@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleProductsTasksReadyResultInfo
+[Documentation](../README.md) / IMerchantGoogleProductsTasksReadyResultInfo
 
 # Interface: IMerchantGoogleProductsTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:174006
+main.ts:185743
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of Google Shopping Products Advanced task
 
 #### Defined in
 
-main.ts:174010
+main.ts:185747
 
 ***
 
@@ -44,7 +44,7 @@ URL for collecting the results of Google Shopping Products HTML task
 
 #### Defined in
 
-main.ts:174012
+main.ts:185749
 
 ***
 
@@ -57,7 +57,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:173999
+main.ts:185736
 
 ***
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:174001
+main.ts:185738
 
 ***
 
@@ -82,7 +82,7 @@ example: products
 
 #### Defined in
 
-main.ts:174004
+main.ts:185741
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:174008
+main.ts:185745

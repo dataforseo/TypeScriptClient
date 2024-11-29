@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHtmlResourceElementItem
+[Documentation](../README.md) / IHtmlResourceElementItem
 
 # Interface: IHtmlResourceElementItem
 
@@ -24,7 +24,7 @@ indicates whether a page contains broken links
 
 #### Defined in
 
-main.ts:155289
+main.ts:166924
 
 ***
 
@@ -36,7 +36,7 @@ indicates whether a page contains broken resources
 
 #### Defined in
 
-main.ts:155287
+main.ts:166922
 
 ***
 
@@ -52,7 +52,7 @@ instructions for caching
 
 #### Defined in
 
-main.ts:21566
+main.ts:22464
 
 ***
 
@@ -73,7 +73,7 @@ on-page check-ups related to the page
 
 #### Defined in
 
-main.ts:21569
+main.ts:22467
 
 ***
 
@@ -86,7 +86,7 @@ indicates the number of clicks from the homepage needed before landing at the ta
 
 #### Defined in
 
-main.ts:155298
+main.ts:166933
 
 ***
 
@@ -102,7 +102,20 @@ type of encoding
 
 #### Defined in
 
-main.ts:21571
+main.ts:22469
+
+***
+
+### custom\_js\_client\_exception?
+
+> `optional` **custom\_js\_client\_exception**: `string`
+
+error when executing a custom js
+if the error occurred when executing the script you specified in the custom_js field, the error message would be displayed here
+
+#### Defined in
+
+main.ts:166920
 
 ***
 
@@ -116,7 +129,7 @@ note that you should specify a custom_js field when setting a task to receive th
 
 #### Defined in
 
-main.ts:155285
+main.ts:166917
 
 ***
 
@@ -128,7 +141,7 @@ indicates whether a page has duplicate content
 
 #### Defined in
 
-main.ts:155295
+main.ts:166930
 
 ***
 
@@ -140,7 +153,7 @@ indicates whether a page has a duplicate description
 
 #### Defined in
 
-main.ts:155293
+main.ts:166928
 
 ***
 
@@ -152,7 +165,7 @@ indicates whether a page has duplicate title tags
 
 #### Defined in
 
-main.ts:155291
+main.ts:166926
 
 ***
 
@@ -169,7 +182,7 @@ indicates the size of the encoded page measured in bytes
 
 #### Defined in
 
-main.ts:21556
+main.ts:22454
 
 ***
 
@@ -188,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:21564
+main.ts:22462
 
 ***
 
@@ -200,7 +213,7 @@ indicates whether a page is a single resource
 
 #### Defined in
 
-main.ts:155300
+main.ts:166935
 
 ***
 
@@ -217,7 +230,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:21578
+main.ts:22476
 
 ***
 
@@ -234,7 +247,7 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-main.ts:21546
+main.ts:22444
 
 ***
 
@@ -250,7 +263,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:21573
+main.ts:22471
 
 ***
 
@@ -263,7 +276,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:155272
+main.ts:166904
 
 ***
 
@@ -278,7 +291,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:155279
+main.ts:166911
 
 ***
 
@@ -290,7 +303,7 @@ object of page load metrics
 
 #### Defined in
 
-main.ts:155274
+main.ts:166906
 
 ***
 
@@ -302,7 +315,7 @@ relative URL length in characters
 
 #### Defined in
 
-main.ts:155304
+main.ts:166939
 
 ***
 
@@ -318,7 +331,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:21550
+main.ts:22448
 
 ***
 
@@ -334,7 +347,7 @@ type of the returned resource
 
 #### Defined in
 
-main.ts:21541
+main.ts:22439
 
 ***
 
@@ -350,7 +363,7 @@ server version
 
 #### Defined in
 
-main.ts:21575
+main.ts:22473
 
 ***
 
@@ -367,7 +380,7 @@ indicates the size of a given page measured in bytes
 
 #### Defined in
 
-main.ts:21553
+main.ts:22451
 
 ***
 
@@ -383,7 +396,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:21543
+main.ts:22441
 
 ***
 
@@ -395,7 +408,7 @@ total DOM size of a page
 
 #### Defined in
 
-main.ts:155281
+main.ts:166913
 
 ***
 
@@ -412,7 +425,7 @@ indicates the compressed size of a given page
 
 #### Defined in
 
-main.ts:21559
+main.ts:22457
 
 ***
 
@@ -428,7 +441,7 @@ page URL
 
 #### Defined in
 
-main.ts:21548
+main.ts:22446
 
 ***
 
@@ -440,4 +453,4 @@ page URL length in characters
 
 #### Defined in
 
-main.ts:155302
+main.ts:166937

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalBusinessMenuLink
+[Documentation](../README.md) / LocalBusinessMenuLink
 
 # Class: LocalBusinessMenuLink
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md)
+##### data?
+
+[`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:24093
+main.ts:25158
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:24093
 
 #### Defined in
 
-main.ts:23855
+main.ts:24920
 
 ***
 
@@ -69,7 +71,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:24087
+main.ts:25152
 
 ***
 
@@ -89,7 +91,7 @@ type of element
 
 #### Defined in
 
-main.ts:23853
+main.ts:24918
 
 ***
 
@@ -105,7 +107,7 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:24089
+main.ts:25154
 
 ## Methods
 
@@ -115,7 +117,9 @@ main.ts:24089
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -127,7 +131,7 @@ main.ts:24089
 
 #### Defined in
 
-main.ts:24098
+main.ts:25163
 
 ***
 
@@ -137,7 +141,9 @@ main.ts:24098
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -149,7 +155,7 @@ main.ts:24098
 
 #### Defined in
 
-main.ts:24117
+main.ts:25182
 
 ***
 
@@ -159,7 +165,9 @@ main.ts:24117
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -171,4 +179,4 @@ main.ts:24117
 
 #### Defined in
 
-main.ts:24110
+main.ts:25175

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:132620
+main.ts:144466
 
 ## Properties
 
@@ -49,7 +51,7 @@ default value: all
 
 #### Defined in
 
-main.ts:132547
+main.ts:144391
 
 ***
 
@@ -63,6 +65,7 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 80
 The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -70,7 +73,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:132542
+main.ts:144386
 
 ***
 
@@ -90,7 +93,7 @@ example:
 
 #### Defined in
 
-main.ts:132590
+main.ts:144434
 
 ***
 
@@ -111,7 +114,7 @@ English
 
 #### Defined in
 
-main.ts:132584
+main.ts:144428
 
 ***
 
@@ -132,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:132569
+main.ts:144413
 
 ***
 
@@ -154,7 +157,7 @@ example:
 
 #### Defined in
 
-main.ts:132577
+main.ts:144421
 
 ***
 
@@ -175,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:132562
+main.ts:144406
 
 ***
 
@@ -197,7 +200,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-main.ts:132555
+main.ts:144399
 
 ***
 
@@ -212,8 +215,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -221,7 +225,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:132610
+main.ts:144456
 
 ***
 
@@ -236,8 +240,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -245,7 +250,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:132600
+main.ts:144445
 
 ***
 
@@ -265,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:132616
+main.ts:144462
 
 ## Methods
 
@@ -275,7 +280,9 @@ main.ts:132616
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -283,7 +290,7 @@ main.ts:132616
 
 #### Defined in
 
-main.ts:132629
+main.ts:144475
 
 ***
 
@@ -293,7 +300,9 @@ main.ts:132629
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -301,7 +310,7 @@ main.ts:132629
 
 #### Defined in
 
-main.ts:132660
+main.ts:144506
 
 ***
 
@@ -311,7 +320,9 @@ main.ts:132660
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -319,4 +330,4 @@ main.ts:132660
 
 #### Defined in
 
-main.ts:132653
+main.ts:144499

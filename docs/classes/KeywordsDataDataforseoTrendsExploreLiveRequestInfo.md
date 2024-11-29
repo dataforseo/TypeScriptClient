@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataDataforseoTrendsExploreLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataDataforseoTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:125505
+main.ts:135757
 
 ## Properties
 
@@ -53,7 +55,7 @@ example:
 
 #### Defined in
 
-main.ts:125482
+main.ts:135734
 
 ***
 
@@ -74,7 +76,7 @@ example:
 
 #### Defined in
 
-main.ts:125489
+main.ts:135741
 
 ***
 
@@ -85,6 +87,7 @@ main.ts:125489
 keywords
 required field
 the maximum number of keywords you can specify: 5
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -92,7 +95,7 @@ the maximum number of keywords you can specify: 5
 
 #### Defined in
 
-main.ts:125453
+main.ts:135705
 
 ***
 
@@ -115,7 +118,7 @@ example:
 
 #### Defined in
 
-main.ts:125471
+main.ts:135723
 
 ***
 
@@ -138,7 +141,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:125462
+main.ts:135714
 
 ***
 
@@ -158,7 +161,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:125501
+main.ts:135753
 
 ***
 
@@ -178,7 +181,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Defined in
 
-main.ts:125495
+main.ts:135747
 
 ***
 
@@ -194,7 +197,7 @@ type of element
 
 #### Defined in
 
-main.ts:125473
+main.ts:135725
 
 ## Methods
 
@@ -204,7 +207,9 @@ main.ts:125473
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -212,7 +217,7 @@ main.ts:125473
 
 #### Defined in
 
-main.ts:125514
+main.ts:135766
 
 ***
 
@@ -222,7 +227,9 @@ main.ts:125514
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -230,7 +237,7 @@ main.ts:125514
 
 #### Defined in
 
-main.ts:125542
+main.ts:135794
 
 ***
 
@@ -240,7 +247,9 @@ main.ts:125542
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -248,4 +257,4 @@ main.ts:125542
 
 #### Defined in
 
-main.ts:125535
+main.ts:135787

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingSubdomainsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingSubdomainsLiveRequestInfo
 
 # Class: DataforseoLabsBingSubdomainsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:111038
+main.ts:120370
 
 ## Properties
 
@@ -58,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:111001
+main.ts:120333
 
 ***
 
@@ -81,7 +83,7 @@ default value: live
 
 #### Defined in
 
-main.ts:110987
+main.ts:120319
 
 ***
 
@@ -104,7 +106,7 @@ default value:
 
 #### Defined in
 
-main.ts:110978
+main.ts:120310
 
 ***
 
@@ -127,7 +129,7 @@ en
 
 #### Defined in
 
-main.ts:110969
+main.ts:120301
 
 ***
 
@@ -150,7 +152,7 @@ English
 
 #### Defined in
 
-main.ts:110960
+main.ts:120292
 
 ***
 
@@ -169,7 +171,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:111023
+main.ts:120355
 
 ***
 
@@ -193,7 +195,7 @@ example:
 
 #### Defined in
 
-main.ts:110951
+main.ts:120283
 
 ***
 
@@ -217,7 +219,7 @@ United States
 
 #### Defined in
 
-main.ts:110941
+main.ts:120273
 
 ***
 
@@ -236,7 +238,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:111028
+main.ts:120360
 
 ***
 
@@ -267,7 +269,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:111018
+main.ts:120350
 
 ***
 
@@ -287,7 +289,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111034
+main.ts:120366
 
 ***
 
@@ -306,7 +308,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:110931
+main.ts:120263
 
 ## Methods
 
@@ -316,7 +318,9 @@ main.ts:110931
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -324,7 +328,7 @@ main.ts:110931
 
 #### Defined in
 
-main.ts:111047
+main.ts:120379
 
 ***
 
@@ -334,7 +338,9 @@ main.ts:111047
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -342,7 +348,7 @@ main.ts:111047
 
 #### Defined in
 
-main.ts:111087
+main.ts:120419
 
 ***
 
@@ -352,7 +358,9 @@ main.ts:111087
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -360,4 +368,4 @@ main.ts:111087
 
 #### Defined in
 
-main.ts:111080
+main.ts:120412

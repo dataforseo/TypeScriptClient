@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
+[Documentation](../README.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Class: GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
+##### data?
+
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:174955
+main.ts:186684
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:174955
 
 #### Defined in
 
-main.ts:21044
+main.ts:21722
 
 ***
 
@@ -68,7 +70,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:174951
+main.ts:186680
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:21042
+main.ts:21720
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21038
+main.ts:21716
 
 ***
 
@@ -132,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21035
+main.ts:21713
 
 ***
 
@@ -148,7 +150,7 @@ product title
 
 #### Defined in
 
-main.ts:174949
+main.ts:186678
 
 ***
 
@@ -168,7 +170,7 @@ type of element
 
 #### Defined in
 
-main.ts:21032
+main.ts:21710
 
 ***
 
@@ -184,7 +186,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174947
+main.ts:186676
 
 ## Methods
 
@@ -194,7 +196,9 @@ main.ts:174947
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -206,7 +210,7 @@ main.ts:174947
 
 #### Defined in
 
-main.ts:174960
+main.ts:186689
 
 ***
 
@@ -216,7 +220,9 @@ main.ts:174960
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -228,7 +234,7 @@ main.ts:174960
 
 #### Defined in
 
-main.ts:174984
+main.ts:186713
 
 ***
 
@@ -238,7 +244,9 @@ main.ts:174984
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -250,4 +258,4 @@ main.ts:174984
 
 #### Defined in
 
-main.ts:174977
+main.ts:186706

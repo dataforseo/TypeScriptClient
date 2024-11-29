@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentItemInfo
+[Documentation](../README.md) / ContentItemInfo
 
 # Class: ContentItemInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentItemInfo`](../interfaces/IContentItemInfo.md)
+##### data?
+
+[`IContentItemInfo`](../interfaces/IContentItemInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161308
+main.ts:172921
 
 ## Properties
 
@@ -46,7 +48,7 @@ content text
 
 #### Defined in
 
-main.ts:161299
+main.ts:172912
 
 ***
 
@@ -63,7 +65,7 @@ displayed in case the text is a link anchor
 
 #### Defined in
 
-main.ts:161302
+main.ts:172915
 
 ***
 
@@ -79,7 +81,7 @@ contains other URLs and anchors found in the content element
 
 #### Defined in
 
-main.ts:161304
+main.ts:172917
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:161304
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:161304
 
 #### Defined in
 
-main.ts:161317
+main.ts:172930
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:161317
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:161317
 
 #### Defined in
 
-main.ts:161340
+main.ts:172953
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:161340
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:161340
 
 #### Defined in
 
-main.ts:161333
+main.ts:172946

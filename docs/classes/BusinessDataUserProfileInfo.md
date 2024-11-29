@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataUserProfileInfo
+[Documentation](../README.md) / BusinessDataUserProfileInfo
 
 # Class: BusinessDataUserProfileInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md)
+##### data?
+
+[`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:211709
+main.ts:226642
 
 ## Properties
 
@@ -46,7 +48,7 @@ URL to the reviewer’s profile picture
 
 #### Defined in
 
-main.ts:211701
+main.ts:226634
 
 ***
 
@@ -62,7 +64,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:211703
+main.ts:226636
 
 ***
 
@@ -78,7 +80,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:211697
+main.ts:226630
 
 ***
 
@@ -94,7 +96,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:211705
+main.ts:226638
 
 ***
 
@@ -110,7 +112,7 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-main.ts:211699
+main.ts:226632
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:211699
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:211699
 
 #### Defined in
 
-main.ts:211718
+main.ts:226651
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:211718
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:211718
 
 #### Defined in
 
-main.ts:211739
+main.ts:226672
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:211739
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:211739
 
 #### Defined in
 
-main.ts:211732
+main.ts:226665

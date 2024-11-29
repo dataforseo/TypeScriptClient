@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:201911
+main.ts:214515
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:201916
+main.ts:214520
 
 ***
 
@@ -50,7 +50,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:201920
+main.ts:214524
 
 ***
 
@@ -62,7 +62,7 @@ array of directory items
 
 #### Defined in
 
-main.ts:201925
+main.ts:214529
 
 ***
 
@@ -75,7 +75,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:201923
+main.ts:214527
 
 ***
 
@@ -84,7 +84,7 @@ main.ts:201923
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
@@ -92,7 +92,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:201902
+main.ts:214506
 
 ***
 
@@ -104,7 +104,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:201908
+main.ts:214512
 
 ***
 
@@ -116,7 +116,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:201906
+main.ts:214510
 
 ***
 
@@ -128,4 +128,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:201904
+main.ts:214508

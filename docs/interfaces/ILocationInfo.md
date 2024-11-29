@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocationInfo
+[Documentation](../README.md) / ILocationInfo
 
 # Interface: ILocationInfo
 
@@ -20,7 +20,7 @@ address of the event’s venue
 
 #### Defined in
 
-main.ts:46087
+main.ts:48903
 
 ***
 
@@ -29,12 +29,11 @@ main.ts:46087
 > `optional` **cid**: `string`
 
 google-defined client id
-unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:46093
+main.ts:48908
 
 ***
 
@@ -46,7 +45,7 @@ the unique identifier of the element in SERP
 
 #### Defined in
 
-main.ts:46095
+main.ts:48910
 
 ***
 
@@ -58,7 +57,7 @@ name of the event’s venue
 
 #### Defined in
 
-main.ts:46085
+main.ts:48901
 
 ***
 
@@ -66,8 +65,8 @@ main.ts:46085
 
 > `optional` **url**: `string`
 
-URL to the event’s venue on google maps
+search URL with refinement parameters
 
 #### Defined in
 
-main.ts:46089
+main.ts:48905

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
@@ -24,7 +24,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:121012
+main.ts:131251
 
 ***
 
@@ -44,7 +44,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:121068
+main.ts:131307
 
 ***
 
@@ -60,7 +60,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:121083
+main.ts:131322
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:121077
+main.ts:131316
 
 ***
 
@@ -97,11 +97,12 @@ Note #1: Google Ads may return no data for certain groups of keywords;
 Note #2: Google Ads provides combined search volume values for groups of similar keywords
 to obtain search volume for similar keywords, we recommend submitting such keywords in separate requests;
 Note #3: Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:121006
+main.ts:131245
 
 ***
 
@@ -117,7 +118,7 @@ en
 
 #### Defined in
 
-main.ts:121058
+main.ts:131297
 
 ***
 
@@ -133,7 +134,7 @@ English
 
 #### Defined in
 
-main.ts:121052
+main.ts:131291
 
 ***
 
@@ -151,7 +152,7 @@ example:
 
 #### Defined in
 
-main.ts:121037
+main.ts:131276
 
 ***
 
@@ -170,7 +171,7 @@ example:
 
 #### Defined in
 
-main.ts:121046
+main.ts:131285
 
 ***
 
@@ -188,7 +189,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:121029
+main.ts:131268
 
 ***
 
@@ -202,7 +203,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:121016
+main.ts:131255
 
 ***
 
@@ -217,12 +218,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:121108
+main.ts:131349
 
 ***
 
@@ -237,12 +239,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:121098
+main.ts:131338
 
 ***
 
@@ -257,7 +260,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:121021
+main.ts:131260
 
 ***
 
@@ -272,7 +275,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:121088
+main.ts:131327
 
 ***
 
@@ -288,4 +291,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:121114
+main.ts:131355

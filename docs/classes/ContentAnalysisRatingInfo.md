@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisRatingInfo
+[Documentation](../README.md) / ContentAnalysisRatingInfo
 
 # Class: ContentAnalysisRatingInfo
 
@@ -24,7 +24,9 @@ content rating rating related to content_info
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md)
+##### data?
+
+[`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@ content rating rating related to content_info
 
 #### Defined in
 
-main.ts:166029
+main.ts:177618
 
 ## Properties
 
@@ -48,7 +50,7 @@ maximum value for the rating name
 
 #### Defined in
 
-main.ts:166023
+main.ts:177612
 
 ***
 
@@ -65,7 +67,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:166017
+main.ts:177606
 
 ***
 
@@ -81,7 +83,7 @@ number of votes
 
 #### Defined in
 
-main.ts:166021
+main.ts:177610
 
 ***
 
@@ -97,7 +99,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:166019
+main.ts:177608
 
 ***
 
@@ -113,7 +115,7 @@ relative rating
 
 #### Defined in
 
-main.ts:166025
+main.ts:177614
 
 ## Methods
 
@@ -123,7 +125,9 @@ main.ts:166025
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +135,7 @@ main.ts:166025
 
 #### Defined in
 
-main.ts:166038
+main.ts:177627
 
 ***
 
@@ -141,7 +145,9 @@ main.ts:166038
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -149,7 +155,7 @@ main.ts:166038
 
 #### Defined in
 
-main.ts:166059
+main.ts:177648
 
 ***
 
@@ -159,7 +165,9 @@ main.ts:166059
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -167,4 +175,4 @@ main.ts:166059
 
 #### Defined in
 
-main.ts:166052
+main.ts:177641

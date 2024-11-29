@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageKeywordDensityResultInfo
+[Documentation](../README.md) / OnPageKeywordDensityResultInfo
 
 # Class: OnPageKeywordDensityResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md)
+##### data?
+
+[`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:159669
+main.ts:171304
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:159656
+main.ts:171291
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:159658
+main.ts:171293
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:159665
+main.ts:171300
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:159663
+main.ts:171298
 
 ***
 
@@ -112,7 +114,7 @@ total number of keywords on the specified website or web page matching the set k
 
 #### Defined in
 
-main.ts:159661
+main.ts:171296
 
 ## Methods
 
@@ -122,7 +124,9 @@ main.ts:159661
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +134,7 @@ main.ts:159661
 
 #### Defined in
 
-main.ts:159678
+main.ts:171313
 
 ***
 
@@ -140,7 +144,9 @@ main.ts:159678
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +154,7 @@ main.ts:159678
 
 #### Defined in
 
-main.ts:159703
+main.ts:171338
 
 ***
 
@@ -158,7 +164,9 @@ main.ts:159703
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -166,4 +174,4 @@ main.ts:159703
 
 #### Defined in
 
-main.ts:159696
+main.ts:171331

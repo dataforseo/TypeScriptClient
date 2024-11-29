@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonAmazonSellerMainItemSerpElementItem
+[Documentation](../README.md) / AmazonAmazonSellerMainItemSerpElementItem
 
 # Class: AmazonAmazonSellerMainItemSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md)
+##### data?
+
+[`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:183633
+main.ts:195945
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:183633
 
 #### Defined in
 
-main.ts:22320
+main.ts:23218
 
 ***
 
@@ -69,7 +71,7 @@ condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:183623
+main.ts:195935
 
 ***
 
@@ -86,7 +88,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:183626
+main.ts:195938
 
 ***
 
@@ -103,7 +105,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:183629
+main.ts:195941
 
 ***
 
@@ -121,13 +123,13 @@ left, right
 
 #### Defined in
 
-main.ts:183608
+main.ts:195920
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 product pricing details
 if there are no details, the value will be null
@@ -138,7 +140,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:183617
+main.ts:195929
 
 ***
 
@@ -159,7 +161,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22316
+main.ts:23214
 
 ***
 
@@ -180,7 +182,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22313
+main.ts:23211
 
 ***
 
@@ -197,7 +199,7 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-main.ts:183620
+main.ts:195932
 
 ***
 
@@ -213,7 +215,7 @@ business name of the seller
 
 #### Defined in
 
-main.ts:183610
+main.ts:195922
 
 ***
 
@@ -229,7 +231,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-main.ts:183612
+main.ts:195924
 
 ***
 
@@ -245,7 +247,7 @@ sender company name
 
 #### Defined in
 
-main.ts:183614
+main.ts:195926
 
 ***
 
@@ -265,7 +267,7 @@ type of element
 
 #### Defined in
 
-main.ts:22310
+main.ts:23208
 
 ***
 
@@ -285,7 +287,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22318
+main.ts:23216
 
 ## Methods
 
@@ -295,7 +297,9 @@ main.ts:22318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -307,7 +311,7 @@ main.ts:22318
 
 #### Defined in
 
-main.ts:183638
+main.ts:195950
 
 ***
 
@@ -317,7 +321,9 @@ main.ts:183638
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -329,7 +335,7 @@ main.ts:183638
 
 #### Defined in
 
-main.ts:183664
+main.ts:195976
 
 ***
 
@@ -339,7 +345,9 @@ main.ts:183664
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -351,4 +359,4 @@ main.ts:183664
 
 #### Defined in
 
-main.ts:183657
+main.ts:195969

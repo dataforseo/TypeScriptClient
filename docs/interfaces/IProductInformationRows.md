@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInformationRows
+[Documentation](../README.md) / IProductInformationRows
 
 # Interface: IProductInformationRows
 
@@ -20,7 +20,7 @@ rows containing related product information
 
 #### Defined in
 
-main.ts:182243
+main.ts:194361
 
 ***
 
@@ -32,7 +32,7 @@ title under which related product information appears on the Amazon product page
 
 #### Defined in
 
-main.ts:182241
+main.ts:194359
 
 ***
 
@@ -44,4 +44,4 @@ type of element
 
 #### Defined in
 
-main.ts:182239
+main.ts:194357

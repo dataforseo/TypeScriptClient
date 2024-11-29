@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / StreamingQualityElement
+[Documentation](../README.md) / StreamingQualityElement
 
 # Class: StreamingQualityElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md)
+##### data?
+
+[`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:62209
+main.ts:70391
 
 ## Properties
 
@@ -46,7 +48,7 @@ bit rate of the video
 
 #### Defined in
 
-main.ts:62201
+main.ts:70383
 
 ***
 
@@ -62,7 +64,7 @@ frame rate of the video
 
 #### Defined in
 
-main.ts:62205
+main.ts:70387
 
 ***
 
@@ -78,7 +80,7 @@ video height in pixels
 
 #### Defined in
 
-main.ts:62199
+main.ts:70381
 
 ***
 
@@ -94,7 +96,7 @@ label of the quality element
 
 #### Defined in
 
-main.ts:62195
+main.ts:70377
 
 ***
 
@@ -110,7 +112,7 @@ media type of the video
 
 #### Defined in
 
-main.ts:62203
+main.ts:70385
 
 ***
 
@@ -126,7 +128,7 @@ type of element
 
 #### Defined in
 
-main.ts:62193
+main.ts:70375
 
 ***
 
@@ -142,7 +144,7 @@ video width in pixels
 
 #### Defined in
 
-main.ts:62197
+main.ts:70379
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:62197
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:62197
 
 #### Defined in
 
-main.ts:62218
+main.ts:70400
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:62218
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:62218
 
 #### Defined in
 
-main.ts:62241
+main.ts:70423
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:62241
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:62241
 
 #### Defined in
 
-main.ts:62234
+main.ts:70416

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDirectoryInfo
+[Documentation](../README.md) / BusinessDirectoryInfo
 
 # Class: BusinessDirectoryInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md)
+##### data?
+
+[`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:201351
+main.ts:213947
 
 ## Properties
 
@@ -48,7 +50,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:201347
+main.ts:213943
 
 ***
 
@@ -65,7 +67,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:201343
+main.ts:213939
 
 ## Methods
 
@@ -75,7 +77,9 @@ main.ts:201343
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -83,7 +87,7 @@ main.ts:201343
 
 #### Defined in
 
-main.ts:201360
+main.ts:213956
 
 ***
 
@@ -93,7 +97,9 @@ main.ts:201360
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -101,7 +107,7 @@ main.ts:201360
 
 #### Defined in
 
-main.ts:201382
+main.ts:213978
 
 ***
 
@@ -111,7 +117,9 @@ main.ts:201382
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -119,4 +127,4 @@ main.ts:201382
 
 #### Defined in
 
-main.ts:201375
+main.ts:213971

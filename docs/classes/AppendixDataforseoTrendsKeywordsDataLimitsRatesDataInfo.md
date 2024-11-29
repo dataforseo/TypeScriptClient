@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:215861
+main.ts:230812
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:215861
 
 #### Defined in
 
-main.ts:215856
+main.ts:230807
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:215856
 
 #### Defined in
 
-main.ts:215854
+main.ts:230805
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:215854
 
 #### Defined in
 
-main.ts:215857
+main.ts:230808
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:215857
 
 #### Defined in
 
-main.ts:215855
+main.ts:230806
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:215855
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:215855
 
 #### Defined in
 
-main.ts:215870
+main.ts:230821
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:215870
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:215870
 
 #### Defined in
 
-main.ts:215890
+main.ts:230841
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:215890
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:215890
 
 #### Defined in
 
-main.ts:215883
+main.ts:230834

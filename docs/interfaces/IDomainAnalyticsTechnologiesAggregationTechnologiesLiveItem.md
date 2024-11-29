@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
@@ -23,7 +23,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:76596
+main.ts:86302
 
 ***
 
@@ -35,7 +35,7 @@ technology category id
 
 #### Defined in
 
-main.ts:76588
+main.ts:86294
 
 ***
 
@@ -47,7 +47,7 @@ technology group id
 
 #### Defined in
 
-main.ts:76586
+main.ts:86292
 
 ***
 
@@ -60,7 +60,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:76593
+main.ts:86299
 
 ***
 
@@ -73,7 +73,7 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Defined in
 
-main.ts:76599
+main.ts:86305
 
 ***
 
@@ -85,7 +85,7 @@ technology name
 
 #### Defined in
 
-main.ts:76590
+main.ts:86296
 
 ***
 
@@ -97,4 +97,4 @@ type of element
 
 #### Defined in
 
-main.ts:76584
+main.ts:86290

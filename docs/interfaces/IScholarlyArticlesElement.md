@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IScholarlyArticlesElement
+[Documentation](../README.md) / IScholarlyArticlesElement
 
 # Interface: IScholarlyArticlesElement
 
@@ -20,7 +20,7 @@ author
 
 #### Defined in
 
-main.ts:33005
+main.ts:34558
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Defined in
 
-main.ts:33007
+main.ts:34560
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33001
+main.ts:34554
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:32999
+main.ts:34552
 
 ***
 
@@ -68,4 +68,4 @@ URL
 
 #### Defined in
 
-main.ts:33003
+main.ts:34556

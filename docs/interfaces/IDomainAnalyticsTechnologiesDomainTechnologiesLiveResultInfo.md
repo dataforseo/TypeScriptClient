@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
@@ -21,7 +21,7 @@ code of the language that content on the target domain is written in
 
 #### Defined in
 
-main.ts:79068
+main.ts:88780
 
 ***
 
@@ -34,7 +34,7 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:79062
+main.ts:88774
 
 ***
 
@@ -46,7 +46,7 @@ domain meta description
 
 #### Defined in
 
-main.ts:79049
+main.ts:88761
 
 ***
 
@@ -58,7 +58,7 @@ specified domain name
 
 #### Defined in
 
-main.ts:79045
+main.ts:88757
 
 ***
 
@@ -71,7 +71,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:79054
+main.ts:88766
 
 ***
 
@@ -84,7 +84,7 @@ emails indicated on the target website
 
 #### Defined in
 
-main.ts:79074
+main.ts:88786
 
 ***
 
@@ -97,7 +97,7 @@ code of the language that the target domain is determined to be associated with
 
 #### Defined in
 
-main.ts:79065
+main.ts:88777
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:79059
+main.ts:88771
 
 ***
 
@@ -124,7 +124,7 @@ domain meta keywords
 
 #### Defined in
 
-main.ts:79051
+main.ts:88763
 
 ***
 
@@ -137,7 +137,7 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-main.ts:79071
+main.ts:88783
 
 ***
 
@@ -150,7 +150,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-main.ts:79077
+main.ts:88789
 
 ***
 
@@ -164,7 +164,7 @@ see the full list of available technologies structured by groups and categories
 
 #### Defined in
 
-main.ts:79081
+main.ts:88793
 
 ***
 
@@ -176,7 +176,7 @@ domain meta title
 
 #### Defined in
 
-main.ts:79047
+main.ts:88759
 
 ***
 
@@ -188,4 +188,4 @@ type of element
 
 #### Defined in
 
-main.ts:79043
+main.ts:88755

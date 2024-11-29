@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageResourceIssueInfo
+[Documentation](../README.md) / OnPageResourceIssueInfo
 
 # Class: OnPageResourceIssueInfo
 
@@ -24,7 +24,9 @@ resource errors and warnings
 
 #### Parameters
 
-• **data?**: [`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md)
+##### data?
+
+[`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:154960
+main.ts:166587
 
 ## Properties
 
@@ -48,7 +50,7 @@ resource errors
 
 #### Defined in
 
-main.ts:154954
+main.ts:166581
 
 ***
 
@@ -64,7 +66,7 @@ resource warnings
 
 #### Defined in
 
-main.ts:154956
+main.ts:166583
 
 ## Methods
 
@@ -74,7 +76,9 @@ main.ts:154956
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +86,7 @@ main.ts:154956
 
 #### Defined in
 
-main.ts:154969
+main.ts:166596
 
 ***
 
@@ -92,7 +96,9 @@ main.ts:154969
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +106,7 @@ main.ts:154969
 
 #### Defined in
 
-main.ts:154995
+main.ts:166622
 
 ***
 
@@ -110,7 +116,9 @@ main.ts:154995
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -118,4 +126,4 @@ main.ts:154995
 
 #### Defined in
 
-main.ts:154988
+main.ts:166615

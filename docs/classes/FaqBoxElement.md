@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FaqBoxElement
+[Documentation](../README.md) / FaqBoxElement
 
 # Class: FaqBoxElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md)
+##### data?
+
+[`IFaqBoxElement`](../interfaces/IFaqBoxElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:29672
+main.ts:31231
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:29666
+main.ts:31225
 
 ***
 
@@ -62,7 +64,7 @@ link of the element
 
 #### Defined in
 
-main.ts:29668
+main.ts:31227
 
 ***
 
@@ -78,7 +80,7 @@ reference page title
 
 #### Defined in
 
-main.ts:29664
+main.ts:31223
 
 ***
 
@@ -94,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:29662
+main.ts:31221
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:29662
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:29662
 
 #### Defined in
 
-main.ts:29681
+main.ts:31240
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:29681
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:29681
 
 #### Defined in
 
-main.ts:29705
+main.ts:31264
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:29705
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:29705
 
 #### Defined in
 
-main.ts:29698
+main.ts:31257

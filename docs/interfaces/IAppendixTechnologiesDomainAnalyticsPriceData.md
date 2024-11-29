@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixTechnologiesDomainAnalyticsPriceData
+[Documentation](../README.md) / IAppendixTechnologiesDomainAnalyticsPriceData
 
 # Interface: IAppendixTechnologiesDomainAnalyticsPriceData
 
@@ -14,41 +14,41 @@
 
 ### aggregation\_technologies?
 
-> `optional` **aggregation\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **aggregation\_technologies**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223369
+main.ts:238556
 
 ***
 
 ### domain\_technologies?
 
-> `optional` **domain\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domain\_technologies**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223372
+main.ts:238559
 
 ***
 
 ### domains\_by\_html\_terms?
 
-> `optional` **domains\_by\_html\_terms**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domains\_by\_html\_terms**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223370
+main.ts:238557
 
 ***
 
 ### domains\_by\_technology?
 
-> `optional` **domains\_by\_technology**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domains\_by\_technology**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223371
+main.ts:238558
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:223371
 
 #### Defined in
 
-main.ts:223366
+main.ts:238553
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:223366
 
 #### Defined in
 
-main.ts:223367
+main.ts:238554
 
 ***
 
@@ -78,24 +78,24 @@ main.ts:223367
 
 #### Defined in
 
-main.ts:223368
+main.ts:238555
 
 ***
 
 ### technologies\_summary?
 
-> `optional` **technologies\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **technologies\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223373
+main.ts:238560
 
 ***
 
 ### technology\_stats?
 
-> `optional` **technology\_stats**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **technology\_stats**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223374
+main.ts:238561

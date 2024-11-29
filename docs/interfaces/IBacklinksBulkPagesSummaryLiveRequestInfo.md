@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkPagesSummaryLiveRequestInfo
+[Documentation](../README.md) / IBacklinksBulkPagesSummaryLiveRequestInfo
 
 # Interface: IBacklinksBulkPagesSummaryLiveRequestInfo
 
@@ -23,7 +23,7 @@ default value: true
 
 #### Defined in
 
-main.ts:151216
+main.ts:162421
 
 ***
 
@@ -39,7 +39,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:151222
+main.ts:162427
 
 ***
 
@@ -56,4 +56,4 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 #### Defined in
 
-main.ts:151211
+main.ts:162416

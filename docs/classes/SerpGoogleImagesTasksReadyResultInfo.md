@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleImagesTasksReadyResultInfo
+[Documentation](../README.md) / SerpGoogleImagesTasksReadyResultInfo
 
 # Class: SerpGoogleImagesTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md)
+##### data?
+
+[`ISerpGoogleImagesTasksReadyResultInfo`](../interfaces/ISerpGoogleImagesTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:47169
+main.ts:50330
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:47154
+main.ts:50315
 
 ***
 
@@ -63,7 +65,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:47162
+main.ts:50323
 
 ***
 
@@ -80,7 +82,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:47165
+main.ts:50326
 
 ***
 
@@ -97,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:47159
+main.ts:50320
 
 ***
 
@@ -114,7 +116,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:47147
+main.ts:50308
 
 ***
 
@@ -130,7 +132,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:47149
+main.ts:50310
 
 ***
 
@@ -147,7 +149,7 @@ example: images
 
 #### Defined in
 
-main.ts:47152
+main.ts:50313
 
 ***
 
@@ -163,7 +165,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:47156
+main.ts:50317
 
 ## Methods
 
@@ -173,7 +175,9 @@ main.ts:47156
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +185,7 @@ main.ts:47156
 
 #### Defined in
 
-main.ts:47178
+main.ts:50339
 
 ***
 
@@ -191,7 +195,9 @@ main.ts:47178
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -199,7 +205,7 @@ main.ts:47178
 
 #### Defined in
 
-main.ts:47202
+main.ts:50363
 
 ***
 
@@ -209,7 +215,9 @@ main.ts:47202
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -217,4 +225,4 @@ main.ts:47202
 
 #### Defined in
 
-main.ts:47195
+main.ts:50356

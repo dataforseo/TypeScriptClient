@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleAppCompetitorsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveRequestInfo
 
@@ -26,7 +26,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:115016
+main.ts:124188
 
 ***
 
@@ -50,7 +50,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:115066
+main.ts:124238
 
 ***
 
@@ -69,7 +69,7 @@ en
 
 #### Defined in
 
-main.ts:115052
+main.ts:124224
 
 ***
 
@@ -88,7 +88,7 @@ English
 
 #### Defined in
 
-main.ts:115043
+main.ts:124215
 
 ***
 
@@ -103,7 +103,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:115088
+main.ts:124260
 
 ***
 
@@ -122,7 +122,7 @@ example:
 
 #### Defined in
 
-main.ts:115034
+main.ts:124206
 
 ***
 
@@ -141,7 +141,7 @@ United States
 
 #### Defined in
 
-main.ts:115025
+main.ts:124197
 
 ***
 
@@ -156,7 +156,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 #### Defined in
 
-main.ts:115093
+main.ts:124265
 
 ***
 
@@ -183,7 +183,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:115083
+main.ts:124255
 
 ***
 
@@ -199,4 +199,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:115099
+main.ts:124271

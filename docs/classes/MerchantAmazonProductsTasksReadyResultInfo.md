@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonProductsTasksReadyResultInfo
+[Documentation](../README.md) / MerchantAmazonProductsTasksReadyResultInfo
 
 # Class: MerchantAmazonProductsTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonProductsTasksReadyResultInfo`](../interfaces/IMerchantAmazonProductsTasksReadyResultInfo.md)
+##### data?
+
+[`IMerchantAmazonProductsTasksReadyResultInfo`](../interfaces/IMerchantAmazonProductsTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:180096
+main.ts:192184
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:180086
+main.ts:192174
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Amazon Products Advanced task
 
 #### Defined in
 
-main.ts:180090
+main.ts:192178
 
 ***
 
@@ -78,7 +80,7 @@ URL for collecting the results of the Amazon Products HTML task
 
 #### Defined in
 
-main.ts:180092
+main.ts:192180
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:180079
+main.ts:192167
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:180081
+main.ts:192169
 
 ***
 
@@ -128,7 +130,7 @@ can take the following values: organic
 
 #### Defined in
 
-main.ts:180084
+main.ts:192172
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:180088
+main.ts:192176
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:180088
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:180088
 
 #### Defined in
 
-main.ts:180105
+main.ts:192193
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:180105
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:180105
 
 #### Defined in
 
-main.ts:180128
+main.ts:192216
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:180128
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:180128
 
 #### Defined in
 
-main.ts:180121
+main.ts:192209

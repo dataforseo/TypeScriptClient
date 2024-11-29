@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordProperties
+[Documentation](../README.md) / KeywordProperties
 
 # Class: KeywordProperties
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordProperties`](../interfaces/IKeywordProperties.md)
+##### data?
+
+[`IKeywordProperties`](../interfaces/IKeywordProperties.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:82917
+main.ts:92629
 
 ## Properties
 
@@ -48,7 +50,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:82896
+main.ts:92608
 
 ***
 
@@ -65,7 +67,7 @@ indicates the language of the keyword as identified by our system
 
 #### Defined in
 
-main.ts:82910
+main.ts:92622
 
 ***
 
@@ -82,7 +84,7 @@ if true, the language set in the request does not match the language determined 
 
 #### Defined in
 
-main.ts:82913
+main.ts:92625
 
 ***
 
@@ -101,7 +103,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:82907
+main.ts:92619
 
 ***
 
@@ -117,7 +119,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82892
+main.ts:92604
 
 ***
 
@@ -137,7 +139,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:82902
+main.ts:92614
 
 ## Methods
 
@@ -147,7 +149,9 @@ main.ts:82902
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -155,7 +159,7 @@ main.ts:82902
 
 #### Defined in
 
-main.ts:82926
+main.ts:92638
 
 ***
 
@@ -165,7 +169,9 @@ main.ts:82926
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -173,7 +179,7 @@ main.ts:82926
 
 #### Defined in
 
-main.ts:82948
+main.ts:92660
 
 ***
 
@@ -183,7 +189,9 @@ main.ts:82948
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -191,4 +199,4 @@ main.ts:82948
 
 #### Defined in
 
-main.ts:82941
+main.ts:92653

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSearchLiveResultInfo
+[Documentation](../README.md) / ContentAnalysisSearchLiveResultInfo
 
 # Class: ContentAnalysisSearchLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisSearchLiveResultInfo`](../interfaces/IContentAnalysisSearchLiveResultInfo.md)
+##### data?
+
+[`IContentAnalysisSearchLiveResultInfo`](../interfaces/IContentAnalysisSearchLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:166559
+main.ts:178148
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains citations and related data
 
 #### Defined in
 
-main.ts:166555
+main.ts:178144
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:166553
+main.ts:178142
 
 ***
 
@@ -80,7 +82,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:166549
+main.ts:178138
 
 ***
 
@@ -96,7 +98,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:166551
+main.ts:178140
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:166551
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:166551
 
 #### Defined in
 
-main.ts:166568
+main.ts:178157
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:166568
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:166568
 
 #### Defined in
 
-main.ts:166592
+main.ts:178181
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:166592
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:166592
 
 #### Defined in
 
-main.ts:166585
+main.ts:178174

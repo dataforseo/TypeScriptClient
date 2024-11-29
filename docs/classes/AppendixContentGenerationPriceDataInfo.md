@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentGenerationPriceDataInfo
+[Documentation](../README.md) / AppendixContentGenerationPriceDataInfo
 
 # Class: AppendixContentGenerationPriceDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md)
+##### data?
+
+[`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:222953
+main.ts:238140
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:222953
 
 #### Defined in
 
-main.ts:222949
+main.ts:238136
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:222949
 
 #### Defined in
 
-main.ts:222948
+main.ts:238135
 
 ## Methods
 
@@ -68,7 +70,9 @@ main.ts:222948
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -76,7 +80,7 @@ main.ts:222948
 
 #### Defined in
 
-main.ts:222962
+main.ts:238149
 
 ***
 
@@ -86,7 +90,9 @@ main.ts:222962
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -94,7 +100,7 @@ main.ts:222962
 
 #### Defined in
 
-main.ts:222980
+main.ts:238167
 
 ***
 
@@ -104,7 +110,9 @@ main.ts:222980
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -112,4 +120,4 @@ main.ts:222980
 
 #### Defined in
 
-main.ts:222973
+main.ts:238160

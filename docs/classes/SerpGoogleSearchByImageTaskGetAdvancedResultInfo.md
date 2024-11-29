@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleSearchByImageTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleSearchByImageTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleSearchByImageTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:49743
+main.ts:53431
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:49718
+main.ts:53405
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:49723
+main.ts:53410
 
 ***
 
@@ -82,7 +84,7 @@ URL specified in a POST array
 
 #### Defined in
 
-main.ts:49705
+main.ts:53392
 
 ***
 
@@ -102,7 +104,7 @@ images
 
 #### Defined in
 
-main.ts:49732
+main.ts:53421
 
 ***
 
@@ -110,8 +112,7 @@ main.ts:49732
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+items featured in the faq_box
 
 #### Implementation of
 
@@ -119,7 +120,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:49739
+main.ts:53427
 
 ***
 
@@ -135,7 +136,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:49736
+main.ts:53425
 
 ***
 
@@ -151,7 +152,7 @@ keyword Google associated with the specified image
 
 #### Defined in
 
-main.ts:49707
+main.ts:53394
 
 ***
 
@@ -167,7 +168,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:49715
+main.ts:53402
 
 ***
 
@@ -183,7 +184,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:49713
+main.ts:53400
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleSearchByImageTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleSearchByImageTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:53415
 
 ***
 
@@ -199,7 +216,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:49711
+main.ts:53398
 
 ***
 
@@ -215,7 +232,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:49734
+main.ts:53423
 
 ***
 
@@ -232,7 +249,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:49726
+main.ts:53413
 
 ***
 
@@ -248,7 +265,7 @@ type of element
 
 #### Defined in
 
-main.ts:49709
+main.ts:53396
 
 ## Methods
 
@@ -258,7 +275,9 @@ main.ts:49709
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +285,7 @@ main.ts:49709
 
 #### Defined in
 
-main.ts:49752
+main.ts:53440
 
 ***
 
@@ -276,7 +295,9 @@ main.ts:49752
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -284,7 +305,7 @@ main.ts:49752
 
 #### Defined in
 
-main.ts:49789
+main.ts:53478
 
 ***
 
@@ -294,7 +315,9 @@ main.ts:49789
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -302,4 +325,4 @@ main.ts:49789
 
 #### Defined in
 
-main.ts:49782
+main.ts:53471

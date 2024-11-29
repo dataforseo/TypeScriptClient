@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GpsCoordinatesLocationInfo
+[Documentation](../README.md) / GpsCoordinatesLocationInfo
 
 # Class: GpsCoordinatesLocationInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md)
+##### data?
+
+[`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:203690
+main.ts:216856
 
 ## Properties
 
@@ -48,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:203682
+main.ts:216848
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:203686
+main.ts:216852
 
 ## Methods
 
@@ -76,7 +78,9 @@ main.ts:203686
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -84,7 +88,7 @@ main.ts:203686
 
 #### Defined in
 
-main.ts:203699
+main.ts:216865
 
 ***
 
@@ -94,7 +98,9 @@ main.ts:203699
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -102,7 +108,7 @@ main.ts:203699
 
 #### Defined in
 
-main.ts:203717
+main.ts:216883
 
 ***
 
@@ -112,7 +118,9 @@ main.ts:203717
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -120,4 +128,4 @@ main.ts:203717
 
 #### Defined in
 
-main.ts:203710
+main.ts:216876

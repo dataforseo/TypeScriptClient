@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMerchantLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixMerchantLimitsRatesDataInfo
 
 # Class: AppendixMerchantLimitsRatesDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:216688
+main.ts:231647
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:216688
 
 #### Defined in
 
-main.ts:216679
+main.ts:231638
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:216679
 
 #### Defined in
 
-main.ts:216682
+main.ts:231641
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:216682
 
 #### Defined in
 
-main.ts:216678
+main.ts:231637
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:216678
 
 #### Defined in
 
-main.ts:216681
+main.ts:231640
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:216681
 
 #### Defined in
 
-main.ts:216680
+main.ts:231639
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:216680
 
 #### Defined in
 
-main.ts:216683
+main.ts:231642
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:216683
 
 #### Defined in
 
-main.ts:216684
+main.ts:231643
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:216684
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:216684
 
 #### Defined in
 
-main.ts:216697
+main.ts:231656
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:216697
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:216697
 
 #### Defined in
 
-main.ts:216720
+main.ts:231679
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:216720
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:216720
 
 #### Defined in
 
-main.ts:216713
+main.ts:231672

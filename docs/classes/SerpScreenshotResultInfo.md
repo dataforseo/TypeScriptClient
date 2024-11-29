@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpScreenshotResultInfo
+[Documentation](../README.md) / SerpScreenshotResultInfo
 
 # Class: SerpScreenshotResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md)
+##### data?
+
+[`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:25202
+main.ts:26267
 
 ## Properties
 
@@ -46,7 +48,7 @@ items array
 
 #### Defined in
 
-main.ts:25198
+main.ts:26263
 
 ***
 
@@ -62,7 +64,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:25196
+main.ts:26261
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:25196
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:25196
 
 #### Defined in
 
-main.ts:25211
+main.ts:26276
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:25211
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:25211
 
 #### Defined in
 
-main.ts:25233
+main.ts:26298
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:25233
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:25233
 
 #### Defined in
 
-main.ts:25226
+main.ts:26291

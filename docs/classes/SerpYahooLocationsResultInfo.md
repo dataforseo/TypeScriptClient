@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooLocationsResultInfo
+[Documentation](../README.md) / SerpYahooLocationsResultInfo
 
 # Class: SerpYahooLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYahooLocationsResultInfo`](../interfaces/ISerpYahooLocationsResultInfo.md)
+##### data?
+
+[`ISerpYahooLocationsResultInfo`](../interfaces/ISerpYahooLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:66391
+main.ts:74629
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:66385
+main.ts:74623
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:66372
+main.ts:74610
 
 ***
 
@@ -85,7 +87,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:66383
+main.ts:74621
 
 ***
 
@@ -101,7 +103,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:66374
+main.ts:74612
 
 ***
 
@@ -117,7 +119,7 @@ location type
 
 #### Defined in
 
-main.ts:66387
+main.ts:74625
 
 ## Methods
 
@@ -127,7 +129,9 @@ main.ts:66387
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -135,7 +139,7 @@ main.ts:66387
 
 #### Defined in
 
-main.ts:66400
+main.ts:74638
 
 ***
 
@@ -145,7 +149,9 @@ main.ts:66400
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -153,7 +159,7 @@ main.ts:66400
 
 #### Defined in
 
-main.ts:66421
+main.ts:74659
 
 ***
 
@@ -163,7 +169,9 @@ main.ts:66421
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -171,4 +179,4 @@ main.ts:66421
 
 #### Defined in
 
-main.ts:66414
+main.ts:74652

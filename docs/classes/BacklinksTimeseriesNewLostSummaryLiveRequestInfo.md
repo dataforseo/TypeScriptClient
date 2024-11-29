@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesNewLostSummaryLiveRequestInfo
+[Documentation](../README.md) / BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:148571
+main.ts:159776
 
 ## Properties
 
@@ -55,7 +57,7 @@ example:
 
 #### Defined in
 
-main.ts:148534
+main.ts:159739
 
 ***
 
@@ -78,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:148543
+main.ts:159748
 
 ***
 
@@ -105,7 +107,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-main.ts:148556
+main.ts:159761
 
 ***
 
@@ -124,7 +126,7 @@ default value: true
 
 #### Defined in
 
-main.ts:148561
+main.ts:159766
 
 ***
 
@@ -144,7 +146,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:148567
+main.ts:159772
 
 ***
 
@@ -164,7 +166,7 @@ example:
 
 #### Defined in
 
-main.ts:148523
+main.ts:159728
 
 ## Methods
 
@@ -174,7 +176,9 @@ main.ts:148523
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -182,7 +186,7 @@ main.ts:148523
 
 #### Defined in
 
-main.ts:148580
+main.ts:159785
 
 ***
 
@@ -192,7 +196,9 @@ main.ts:148580
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -200,7 +206,7 @@ main.ts:148580
 
 #### Defined in
 
-main.ts:148602
+main.ts:159807
 
 ***
 
@@ -210,7 +216,9 @@ main.ts:148602
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -218,4 +226,4 @@ main.ts:148602
 
 #### Defined in
 
-main.ts:148595
+main.ts:159800

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageWaterfallItem
+[Documentation](../README.md) / IOnPageWaterfallItem
 
 # Interface: IOnPageWaterfallItem
 
@@ -21,7 +21,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:159181
+main.ts:170816
 
 ***
 
@@ -34,7 +34,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:159178
+main.ts:170813
 
 ***
 
@@ -46,7 +46,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:159191
+main.ts:170826
 
 ***
 
@@ -58,7 +58,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:159193
+main.ts:170828
 
 ***
 
@@ -71,7 +71,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:159199
+main.ts:170834
 
 ***
 
@@ -84,7 +84,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:159196
+main.ts:170831
 
 ***
 
@@ -96,7 +96,7 @@ URL of the page
 
 #### Defined in
 
-main.ts:159172
+main.ts:170807
 
 ***
 
@@ -109,7 +109,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:159187
+main.ts:170822
 
 ***
 
@@ -122,7 +122,7 @@ contains separate arrays with timing for each resource found on the page
 
 #### Defined in
 
-main.ts:159202
+main.ts:170837
 
 ***
 
@@ -135,7 +135,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:159175
+main.ts:170810
 
 ***
 
@@ -148,7 +148,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:159184
+main.ts:170819
 
 ***
 
@@ -160,4 +160,4 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:159189
+main.ts:170824

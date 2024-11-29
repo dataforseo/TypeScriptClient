@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICrawlStatusInfo
+[Documentation](../README.md) / ICrawlStatusInfo
 
 # Interface: ICrawlStatusInfo
 
@@ -21,7 +21,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Defined in
 
-main.ts:22544
+main.ts:23442
 
 ***
 
@@ -33,7 +33,7 @@ number of crawled pages
 
 #### Defined in
 
-main.ts:22548
+main.ts:23446
 
 ***
 
@@ -45,4 +45,4 @@ number of pages that are currently in the crawling queue
 
 #### Defined in
 
-main.ts:22546
+main.ts:23444

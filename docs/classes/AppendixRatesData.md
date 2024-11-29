@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixRatesData
+[Documentation](../README.md) / AppendixRatesData
 
 # Class: AppendixRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixRatesData`](../interfaces/IAppendixRatesData.md)
+##### data?
+
+[`IAppendixRatesData`](../interfaces/IAppendixRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:220013
+main.ts:235012
 
 ## Properties
 
@@ -46,7 +48,7 @@ rate limits for API calls per a certain period of time
 
 #### Defined in
 
-main.ts:220007
+main.ts:235006
 
 ***
 
@@ -62,7 +64,7 @@ statisctics for API calls
 
 #### Defined in
 
-main.ts:220009
+main.ts:235008
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:220009
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:220009
 
 #### Defined in
 
-main.ts:220022
+main.ts:235021
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:220022
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:220022
 
 #### Defined in
 
-main.ts:220040
+main.ts:235039
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:220040
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:220040
 
 #### Defined in
 
-main.ts:220033
+main.ts:235032

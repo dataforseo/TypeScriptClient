@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleMapsLiveAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleMapsLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleMapsLiveAdvancedResultInfo
 
@@ -22,7 +22,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Defined in
 
-main.ts:40890
+main.ts:42719
 
 ***
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:40895
+main.ts:42724
 
 ***
 
@@ -52,7 +52,7 @@ maps_search, maps_paid_item
 
 #### Defined in
 
-main.ts:40903
+main.ts:42734
 
 ***
 
@@ -60,11 +60,11 @@ main.ts:40903
 
 > `optional` **items**: [`BaseGoogleMapsSerpElementItem`](../classes/BaseGoogleMapsSerpElementItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:40909
+main.ts:42740
 
 ***
 
@@ -76,7 +76,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:40907
+main.ts:42738
 
 ***
 
@@ -85,11 +85,11 @@ main.ts:40907
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:40878
+main.ts:42707
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:40886
+main.ts:42715
 
 ***
 
@@ -113,7 +113,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:40884
+main.ts:42713
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:42729
 
 ***
 
@@ -125,7 +137,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:40882
+main.ts:42711
 
 ***
 
@@ -137,7 +149,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:40905
+main.ts:42736
 
 ***
 
@@ -150,7 +162,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:40898
+main.ts:42727
 
 ***
 
@@ -162,4 +174,4 @@ type of element
 
 #### Defined in
 
-main.ts:40880
+main.ts:42709

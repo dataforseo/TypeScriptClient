@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:133554
+main.ts:145404
 
 ## Properties
 
@@ -49,7 +51,7 @@ default value: all
 
 #### Defined in
 
-main.ts:133501
+main.ts:145351
 
 ***
 
@@ -63,6 +65,7 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 80
 The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -70,7 +73,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:133496
+main.ts:145346
 
 ***
 
@@ -90,7 +93,7 @@ example:
 
 #### Defined in
 
-main.ts:133544
+main.ts:145394
 
 ***
 
@@ -111,7 +114,7 @@ English
 
 #### Defined in
 
-main.ts:133538
+main.ts:145388
 
 ***
 
@@ -132,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:133523
+main.ts:145373
 
 ***
 
@@ -154,7 +157,7 @@ example:
 
 #### Defined in
 
-main.ts:133531
+main.ts:145381
 
 ***
 
@@ -175,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:133516
+main.ts:145366
 
 ***
 
@@ -197,7 +200,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-main.ts:133509
+main.ts:145359
 
 ***
 
@@ -217,7 +220,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:133550
+main.ts:145400
 
 ## Methods
 
@@ -227,7 +230,9 @@ main.ts:133550
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -235,7 +240,7 @@ main.ts:133550
 
 #### Defined in
 
-main.ts:133563
+main.ts:145413
 
 ***
 
@@ -245,7 +250,9 @@ main.ts:133563
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -253,7 +260,7 @@ main.ts:133563
 
 #### Defined in
 
-main.ts:133592
+main.ts:145442
 
 ***
 
@@ -263,7 +270,9 @@ main.ts:133592
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -271,4 +280,4 @@ main.ts:133592
 
 #### Defined in
 
-main.ts:133585
+main.ts:145435

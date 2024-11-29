@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleShoppingSerpMerchantSerpElementItem
+[Documentation](../README.md) / IGoogleShoppingSerpMerchantSerpElementItem
 
 # Interface: IGoogleShoppingSerpMerchantSerpElementItem
 
@@ -29,7 +29,7 @@ you can get more details about the product by using this object in the POST requ
 
 #### Defined in
 
-main.ts:174690
+main.ts:186419
 
 ***
 
@@ -43,7 +43,7 @@ USD
 
 #### Defined in
 
-main.ts:174672
+main.ts:186401
 
 ***
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:174684
+main.ts:186413
 
 ***
 
@@ -71,7 +71,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:174713
+main.ts:186442
 
 ***
 
@@ -83,7 +83,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:174653
+main.ts:186382
 
 ***
 
@@ -95,7 +95,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:174649
+main.ts:186378
 
 ***
 
@@ -109,7 +109,7 @@ if there are no values, you will get null
 
 #### Defined in
 
-main.ts:174698
+main.ts:186427
 
 ***
 
@@ -124,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:174668
+main.ts:186397
 
 ***
 
@@ -142,7 +142,7 @@ left, right
 
 #### Defined in
 
-main.ts:21135
+main.ts:21813
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:174663
+main.ts:186392
 
 ***
 
@@ -173,7 +173,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:174679
+main.ts:186408
 
 ***
 
@@ -186,7 +186,7 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-main.ts:174707
+main.ts:186436
 
 ***
 
@@ -199,7 +199,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:174701
+main.ts:186430
 
 ***
 
@@ -216,7 +216,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21131
+main.ts:21809
 
 ***
 
@@ -233,7 +233,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21128
+main.ts:21806
 
 ***
 
@@ -247,7 +247,7 @@ if there are no values, you will get null
 
 #### Defined in
 
-main.ts:174694
+main.ts:186423
 
 ***
 
@@ -260,7 +260,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:174687
+main.ts:186416
 
 ***
 
@@ -273,7 +273,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:174710
+main.ts:186439
 
 ***
 
@@ -286,7 +286,7 @@ the popularity rate of the seller based on user reviews
 
 #### Defined in
 
-main.ts:174704
+main.ts:186433
 
 ***
 
@@ -298,7 +298,7 @@ URL to the product page on Google Shopping
 
 #### Defined in
 
-main.ts:174657
+main.ts:186386
 
 ***
 
@@ -311,7 +311,7 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-main.ts:174716
+main.ts:186445
 
 ***
 
@@ -323,7 +323,7 @@ tags assigned to the product
 
 #### Defined in
 
-main.ts:174659
+main.ts:186388
 
 ***
 
@@ -335,7 +335,7 @@ title of the element
 
 #### Defined in
 
-main.ts:174651
+main.ts:186380
 
 ***
 
@@ -351,7 +351,7 @@ type of element
 
 #### Defined in
 
-main.ts:21125
+main.ts:21803
 
 ***
 
@@ -363,7 +363,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:174655
+main.ts:186384
 
 ***
 
@@ -375,4 +375,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174647
+main.ts:186376

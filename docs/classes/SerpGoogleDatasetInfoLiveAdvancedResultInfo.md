@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetInfoLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleDatasetInfoLiveAdvancedResultInfo
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetInfoLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetInfoLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:56479
+main.ts:59958
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:56457
+main.ts:59934
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:56462
+main.ts:59939
 
 ***
 
@@ -84,13 +86,13 @@ possible item type: dataset
 
 #### Defined in
 
-main.ts:56469
+main.ts:59948
 
 ***
 
 ### items?
 
-> `optional` **items**: [`SerpGoogleDatasetInfoAdvancedItem`](SerpGoogleDatasetInfoAdvancedItem.md)[]
+> `optional` **items**: [`SerpGoogleDatasetAdvancedItem`](SerpGoogleDatasetAdvancedItem.md)[]
 
 elements of search results found in SERP
 
@@ -100,7 +102,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:56475
+main.ts:59954
 
 ***
 
@@ -116,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:56473
+main.ts:59952
 
 ***
 
@@ -125,7 +127,7 @@ main.ts:56473
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -133,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:56450
+main.ts:59927
 
 ***
 
@@ -149,7 +151,23 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:56454
+main.ts:59931
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleDatasetInfoLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:59944
 
 ***
 
@@ -165,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:56452
+main.ts:59929
 
 ***
 
@@ -181,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:56471
+main.ts:59950
 
 ***
 
@@ -198,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:56465
+main.ts:59942
 
 ## Methods
 
@@ -208,7 +226,9 @@ main.ts:56465
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +236,7 @@ main.ts:56465
 
 #### Defined in
 
-main.ts:56488
+main.ts:59967
 
 ***
 
@@ -226,7 +246,9 @@ main.ts:56488
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +256,7 @@ main.ts:56488
 
 #### Defined in
 
-main.ts:56522
+main.ts:60002
 
 ***
 
@@ -244,7 +266,9 @@ main.ts:56522
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -252,4 +276,4 @@ main.ts:56522
 
 #### Defined in
 
-main.ts:56515
+main.ts:59995

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsApi
+[Documentation](../README.md) / DataforseoLabsApi
 
 # Class: DataforseoLabsApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:6483
+main.ts:6801
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:6483
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:6483
 
 #### Defined in
 
-main.ts:6481
+main.ts:6799
 
 ## Methods
 
@@ -56,7 +62,9 @@ main.ts:6481
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)[]
 
 (optional)
 
@@ -68,7 +76,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7848
+main.ts:8166
 
 ***
 
@@ -78,7 +86,9 @@ main.ts:7848
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](DataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -90,7 +100,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8016
+main.ts:8334
 
 ***
 
@@ -100,7 +110,9 @@ main.ts:8016
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -112,7 +124,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8058
+main.ts:8376
 
 ***
 
@@ -122,7 +134,9 @@ main.ts:8058
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)[]
 
 (optional)
 
@@ -134,7 +148,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7974
+main.ts:8292
 
 ***
 
@@ -144,7 +158,9 @@ main.ts:7974
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAmazonRankedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRankedKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -156,7 +172,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7932
+main.ts:8250
 
 ***
 
@@ -166,7 +182,9 @@ main.ts:7932
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -178,7 +196,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7890
+main.ts:8208
 
 ***
 
@@ -188,7 +206,9 @@ main.ts:7890
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAppleAppCompetitorsLiveRequestInfo`](DataforseoLabsAppleAppCompetitorsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -200,7 +220,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8814
+main.ts:9132
 
 ***
 
@@ -210,7 +230,9 @@ main.ts:8814
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -222,7 +244,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8856
+main.ts:9174
 
 ***
 
@@ -232,7 +254,9 @@ main.ts:8856
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](DataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -244,7 +268,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8730
+main.ts:9048
 
 ***
 
@@ -254,7 +278,9 @@ main.ts:8730
 
 #### Parameters
 
-• **body**: [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)[]
 
 (optional)
 
@@ -266,7 +292,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8772
+main.ts:9090
 
 ***
 
@@ -282,7 +308,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6612
+main.ts:6930
 
 ***
 
@@ -292,7 +318,9 @@ main.ts:6612
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)[]
 
 (optional)
 
@@ -304,7 +332,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8100
+main.ts:8418
 
 ***
 
@@ -314,7 +342,9 @@ main.ts:8100
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)[]
 
 (optional)
 
@@ -326,7 +356,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8142
+main.ts:8460
 
 ***
 
@@ -336,7 +366,9 @@ main.ts:8142
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`](DataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingCompetitorsDomainLiveRequestInfo`](DataforseoLabsBingCompetitorsDomainLiveRequestInfo.md)[]
 
 (optional)
 
@@ -348,7 +380,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8184
+main.ts:8502
 
 ***
 
@@ -358,7 +390,9 @@ main.ts:8184
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -370,7 +404,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8226
+main.ts:8544
 
 ***
 
@@ -380,7 +414,9 @@ main.ts:8226
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingDomainRankOverviewLiveRequestInfo`](DataforseoLabsBingDomainRankOverviewLiveRequestInfo.md)[]
 
 (optional)
 
@@ -392,7 +428,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8268
+main.ts:8586
 
 ***
 
@@ -402,7 +438,9 @@ main.ts:8268
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingPageIntersectionLiveRequestInfo`](DataforseoLabsBingPageIntersectionLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingPageIntersectionLiveRequestInfo`](DataforseoLabsBingPageIntersectionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -414,7 +452,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8310
+main.ts:8628
 
 ***
 
@@ -424,7 +462,9 @@ main.ts:8310
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingRankedKeywordsLiveRequestInfo`](DataforseoLabsBingRankedKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -436,7 +476,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8352
+main.ts:8670
 
 ***
 
@@ -446,7 +486,9 @@ main.ts:8352
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingRelatedKeywordsLiveRequestInfo`](DataforseoLabsBingRelatedKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -458,7 +500,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8394
+main.ts:8712
 
 ***
 
@@ -468,7 +510,9 @@ main.ts:8394
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingRelevantPagesLiveRequestInfo`](DataforseoLabsBingRelevantPagesLiveRequestInfo.md)[]
 
 (optional)
 
@@ -480,7 +524,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8436
+main.ts:8754
 
 ***
 
@@ -490,7 +534,9 @@ main.ts:8436
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -502,7 +548,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8478
+main.ts:8796
 
 ***
 
@@ -512,7 +558,9 @@ main.ts:8478
 
 #### Parameters
 
-• **body**: [`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -524,7 +572,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8520
+main.ts:8838
 
 ***
 
@@ -540,7 +588,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6686
+main.ts:7004
 
 ***
 
@@ -550,7 +598,9 @@ main.ts:6686
 
 #### Parameters
 
-• **body**: [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -562,7 +612,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6571
+main.ts:6889
 
 ***
 
@@ -578,7 +628,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7054
+main.ts:7372
 
 ***
 
@@ -588,7 +638,9 @@ main.ts:7054
 
 #### Parameters
 
-• **body**: [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)[]
 
 (optional)
 
@@ -600,7 +652,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6492
+main.ts:6810
 
 ***
 
@@ -616,7 +668,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6649
+main.ts:6967
 
 ***
 
@@ -632,7 +684,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6533
+main.ts:6851
 
 ***
 
@@ -642,7 +694,9 @@ main.ts:6533
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleAppCompetitorsLiveRequestInfo`](DataforseoLabsGoogleAppCompetitorsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleAppCompetitorsLiveRequestInfo`](DataforseoLabsGoogleAppCompetitorsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -654,7 +708,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8646
+main.ts:8964
 
 ***
 
@@ -664,7 +718,9 @@ main.ts:8646
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -676,7 +732,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8688
+main.ts:9006
 
 ***
 
@@ -692,7 +748,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6723
+main.ts:7041
 
 ***
 
@@ -702,7 +758,9 @@ main.ts:6723
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -714,7 +772,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8562
+main.ts:8880
 
 ***
 
@@ -724,7 +782,9 @@ main.ts:8562
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo.md)[]
 
 (optional)
 
@@ -736,7 +796,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6971
+main.ts:7289
 
 ***
 
@@ -746,7 +806,9 @@ main.ts:6971
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)[]
 
 (optional)
 
@@ -758,7 +820,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7764
+main.ts:8082
 
 ***
 
@@ -768,7 +830,9 @@ main.ts:7764
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)[]
 
 (optional)
 
@@ -780,7 +844,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7092
+main.ts:7410
 
 ***
 
@@ -790,7 +854,9 @@ main.ts:7092
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -802,7 +868,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7134
+main.ts:7452
 
 ***
 
@@ -812,7 +878,9 @@ main.ts:7134
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)[]
 
 (optional)
 
@@ -824,7 +892,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7428
+main.ts:7746
 
 ***
 
@@ -834,7 +902,9 @@ main.ts:7428
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -846,7 +916,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7470
+main.ts:7788
 
 ***
 
@@ -856,7 +926,9 @@ main.ts:7470
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)[]
 
 (optional)
 
@@ -868,7 +940,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7218
+main.ts:7536
 
 ***
 
@@ -878,7 +950,9 @@ main.ts:7218
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainRankOverviewLiveRequestInfo.md)[]
 
 (optional)
 
@@ -890,7 +964,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7596
+main.ts:7914
 
 ***
 
@@ -900,7 +974,9 @@ main.ts:7596
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)[]
 
 (optional)
 
@@ -912,7 +988,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7302
+main.ts:7620
 
 ***
 
@@ -922,7 +998,9 @@ main.ts:7302
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)[]
 
 (optional)
 
@@ -934,7 +1012,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7806
+main.ts:8124
 
 ***
 
@@ -944,7 +1022,9 @@ main.ts:7806
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md)[]
 
 (optional)
 
@@ -956,7 +1036,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7680
+main.ts:7998
 
 ***
 
@@ -966,7 +1046,9 @@ main.ts:7680
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)[]
 
 (optional)
 
@@ -978,7 +1060,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6929
+main.ts:7247
 
 ***
 
@@ -988,7 +1070,9 @@ main.ts:6929
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo`](DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1000,7 +1084,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7638
+main.ts:7956
 
 ***
 
@@ -1010,7 +1094,9 @@ main.ts:7638
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](DataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](DataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1022,29 +1108,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6887
-
-***
-
-### googleKeywordSuggestionsLive()
-
-> **googleKeywordSuggestionsLive**(`body`): `Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
-
-#### Parameters
-
-• **body**: [`DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo.md)[]
-
-(optional)
-
-#### Returns
-
-`Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:6845
+main.ts:7205
 
 ***
 
@@ -1054,7 +1118,9 @@ main.ts:6845
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](DataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](DataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1066,7 +1132,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:8604
+main.ts:8922
 
 ***
 
@@ -1076,7 +1142,9 @@ main.ts:8604
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1088,7 +1156,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7176
+main.ts:7494
 
 ***
 
@@ -1098,7 +1166,9 @@ main.ts:7176
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](DataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1110,7 +1180,31 @@ Successful operation
 
 #### Defined in
 
-main.ts:6761
+main.ts:7079
+
+***
+
+### googleKeywordSuggestionsLive()
+
+> **googleKeywordSuggestionsLive**(`body`): `Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:7163
 
 ***
 
@@ -1120,7 +1214,9 @@ main.ts:6761
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGooglePageIntersectionLiveRequestInfo`](DataforseoLabsGooglePageIntersectionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1132,7 +1228,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7722
+main.ts:8040
 
 ***
 
@@ -1142,7 +1238,9 @@ main.ts:7722
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1154,7 +1252,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7344
+main.ts:7662
 
 ***
 
@@ -1164,7 +1262,9 @@ main.ts:7344
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1176,7 +1276,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:6803
+main.ts:7121
 
 ***
 
@@ -1186,7 +1286,9 @@ main.ts:6803
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleRelevantPagesLiveRequestInfo`](DataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleRelevantPagesLiveRequestInfo`](DataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1198,7 +1300,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7554
+main.ts:7872
 
 ***
 
@@ -1208,7 +1310,9 @@ main.ts:7554
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1220,7 +1324,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7013
+main.ts:7331
 
 ***
 
@@ -1230,7 +1334,9 @@ main.ts:7013
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1242,7 +1348,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7386
+main.ts:7704
 
 ***
 
@@ -1252,7 +1358,9 @@ main.ts:7386
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1264,7 +1372,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7512
+main.ts:7830
 
 ***
 
@@ -1274,7 +1382,9 @@ main.ts:7512
 
 #### Parameters
 
-• **body**: [`DataforseoLabsGoogleTopSearchesLiveRequestInfo`](DataforseoLabsGoogleTopSearchesLiveRequestInfo.md)[]
+##### body
+
+[`DataforseoLabsGoogleTopSearchesLiveRequestInfo`](DataforseoLabsGoogleTopSearchesLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1286,7 +1396,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:7260
+main.ts:7578
 
 ***
 
@@ -1296,7 +1406,9 @@ main.ts:7260
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1304,7 +1416,7 @@ main.ts:7260
 
 #### Defined in
 
-main.ts:7868
+main.ts:8186
 
 ***
 
@@ -1314,7 +1426,9 @@ main.ts:7868
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1322,7 +1436,7 @@ main.ts:7868
 
 #### Defined in
 
-main.ts:8036
+main.ts:8354
 
 ***
 
@@ -1332,7 +1446,9 @@ main.ts:8036
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1340,7 +1456,7 @@ main.ts:8036
 
 #### Defined in
 
-main.ts:8078
+main.ts:8396
 
 ***
 
@@ -1350,7 +1466,9 @@ main.ts:8078
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1358,7 +1476,7 @@ main.ts:8078
 
 #### Defined in
 
-main.ts:7994
+main.ts:8312
 
 ***
 
@@ -1368,7 +1486,9 @@ main.ts:7994
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1376,7 +1496,7 @@ main.ts:7994
 
 #### Defined in
 
-main.ts:7952
+main.ts:8270
 
 ***
 
@@ -1386,7 +1506,9 @@ main.ts:7952
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1394,7 +1516,7 @@ main.ts:7952
 
 #### Defined in
 
-main.ts:7910
+main.ts:8228
 
 ***
 
@@ -1404,7 +1526,9 @@ main.ts:7910
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1412,7 +1536,7 @@ main.ts:7910
 
 #### Defined in
 
-main.ts:8834
+main.ts:9152
 
 ***
 
@@ -1422,7 +1546,9 @@ main.ts:8834
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1430,7 +1556,7 @@ main.ts:8834
 
 #### Defined in
 
-main.ts:8876
+main.ts:9194
 
 ***
 
@@ -1440,7 +1566,9 @@ main.ts:8876
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1448,7 +1576,7 @@ main.ts:8876
 
 #### Defined in
 
-main.ts:8750
+main.ts:9068
 
 ***
 
@@ -1458,7 +1586,9 @@ main.ts:8750
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1466,7 +1596,7 @@ main.ts:8750
 
 #### Defined in
 
-main.ts:8792
+main.ts:9110
 
 ***
 
@@ -1476,7 +1606,9 @@ main.ts:8792
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1484,7 +1616,7 @@ main.ts:8792
 
 #### Defined in
 
-main.ts:6628
+main.ts:6946
 
 ***
 
@@ -1494,7 +1626,9 @@ main.ts:6628
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1502,7 +1636,7 @@ main.ts:6628
 
 #### Defined in
 
-main.ts:8120
+main.ts:8438
 
 ***
 
@@ -1512,7 +1646,9 @@ main.ts:8120
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1520,7 +1656,7 @@ main.ts:8120
 
 #### Defined in
 
-main.ts:8162
+main.ts:8480
 
 ***
 
@@ -1530,7 +1666,9 @@ main.ts:8162
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1538,7 +1676,7 @@ main.ts:8162
 
 #### Defined in
 
-main.ts:8204
+main.ts:8522
 
 ***
 
@@ -1548,7 +1686,9 @@ main.ts:8204
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1556,7 +1696,7 @@ main.ts:8204
 
 #### Defined in
 
-main.ts:8246
+main.ts:8564
 
 ***
 
@@ -1566,7 +1706,9 @@ main.ts:8246
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1574,7 +1716,7 @@ main.ts:8246
 
 #### Defined in
 
-main.ts:8288
+main.ts:8606
 
 ***
 
@@ -1584,7 +1726,9 @@ main.ts:8288
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1592,7 +1736,7 @@ main.ts:8288
 
 #### Defined in
 
-main.ts:8330
+main.ts:8648
 
 ***
 
@@ -1602,7 +1746,9 @@ main.ts:8330
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1610,7 +1756,7 @@ main.ts:8330
 
 #### Defined in
 
-main.ts:8372
+main.ts:8690
 
 ***
 
@@ -1620,7 +1766,9 @@ main.ts:8372
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1628,7 +1776,7 @@ main.ts:8372
 
 #### Defined in
 
-main.ts:8414
+main.ts:8732
 
 ***
 
@@ -1638,7 +1786,9 @@ main.ts:8414
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1646,7 +1796,7 @@ main.ts:8414
 
 #### Defined in
 
-main.ts:8456
+main.ts:8774
 
 ***
 
@@ -1656,7 +1806,9 @@ main.ts:8456
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1664,7 +1816,7 @@ main.ts:8456
 
 #### Defined in
 
-main.ts:8498
+main.ts:8816
 
 ***
 
@@ -1674,7 +1826,9 @@ main.ts:8498
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1682,7 +1836,7 @@ main.ts:8498
 
 #### Defined in
 
-main.ts:8540
+main.ts:8858
 
 ***
 
@@ -1692,7 +1846,9 @@ main.ts:8540
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1700,7 +1856,7 @@ main.ts:8540
 
 #### Defined in
 
-main.ts:6702
+main.ts:7020
 
 ***
 
@@ -1710,7 +1866,9 @@ main.ts:6702
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1718,7 +1876,7 @@ main.ts:6702
 
 #### Defined in
 
-main.ts:6591
+main.ts:6909
 
 ***
 
@@ -1728,7 +1886,9 @@ main.ts:6591
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1736,7 +1896,7 @@ main.ts:6591
 
 #### Defined in
 
-main.ts:7070
+main.ts:7388
 
 ***
 
@@ -1746,7 +1906,9 @@ main.ts:7070
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1754,7 +1916,7 @@ main.ts:7070
 
 #### Defined in
 
-main.ts:6512
+main.ts:6830
 
 ***
 
@@ -1764,7 +1926,9 @@ main.ts:6512
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1772,7 +1936,7 @@ main.ts:6512
 
 #### Defined in
 
-main.ts:6665
+main.ts:6983
 
 ***
 
@@ -1782,7 +1946,9 @@ main.ts:6665
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1790,7 +1956,7 @@ main.ts:6665
 
 #### Defined in
 
-main.ts:6549
+main.ts:6867
 
 ***
 
@@ -1800,7 +1966,9 @@ main.ts:6549
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1808,7 +1976,7 @@ main.ts:6549
 
 #### Defined in
 
-main.ts:8666
+main.ts:8984
 
 ***
 
@@ -1818,7 +1986,9 @@ main.ts:8666
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1826,7 +1996,7 @@ main.ts:8666
 
 #### Defined in
 
-main.ts:8708
+main.ts:9026
 
 ***
 
@@ -1836,7 +2006,9 @@ main.ts:8708
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1844,7 +2016,7 @@ main.ts:8708
 
 #### Defined in
 
-main.ts:6739
+main.ts:7057
 
 ***
 
@@ -1854,7 +2026,9 @@ main.ts:6739
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1862,7 +2036,7 @@ main.ts:6739
 
 #### Defined in
 
-main.ts:8582
+main.ts:8900
 
 ***
 
@@ -1872,7 +2046,9 @@ main.ts:8582
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1880,7 +2056,7 @@ main.ts:8582
 
 #### Defined in
 
-main.ts:6991
+main.ts:7309
 
 ***
 
@@ -1890,7 +2066,9 @@ main.ts:6991
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1898,7 +2076,7 @@ main.ts:6991
 
 #### Defined in
 
-main.ts:7784
+main.ts:8102
 
 ***
 
@@ -1908,7 +2086,9 @@ main.ts:7784
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1916,7 +2096,7 @@ main.ts:7784
 
 #### Defined in
 
-main.ts:7112
+main.ts:7430
 
 ***
 
@@ -1926,7 +2106,9 @@ main.ts:7112
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1934,7 +2116,7 @@ main.ts:7112
 
 #### Defined in
 
-main.ts:7154
+main.ts:7472
 
 ***
 
@@ -1944,7 +2126,9 @@ main.ts:7154
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1952,7 +2136,7 @@ main.ts:7154
 
 #### Defined in
 
-main.ts:7448
+main.ts:7766
 
 ***
 
@@ -1962,7 +2146,9 @@ main.ts:7448
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1970,7 +2156,7 @@ main.ts:7448
 
 #### Defined in
 
-main.ts:7490
+main.ts:7808
 
 ***
 
@@ -1980,7 +2166,9 @@ main.ts:7490
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1988,7 +2176,7 @@ main.ts:7490
 
 #### Defined in
 
-main.ts:7238
+main.ts:7556
 
 ***
 
@@ -1998,7 +2186,9 @@ main.ts:7238
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2006,7 +2196,7 @@ main.ts:7238
 
 #### Defined in
 
-main.ts:7616
+main.ts:7934
 
 ***
 
@@ -2016,7 +2206,9 @@ main.ts:7616
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2024,7 +2216,7 @@ main.ts:7616
 
 #### Defined in
 
-main.ts:7322
+main.ts:7640
 
 ***
 
@@ -2034,7 +2226,9 @@ main.ts:7322
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2042,7 +2236,7 @@ main.ts:7322
 
 #### Defined in
 
-main.ts:7826
+main.ts:8144
 
 ***
 
@@ -2052,7 +2246,9 @@ main.ts:7826
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2060,7 +2256,7 @@ main.ts:7826
 
 #### Defined in
 
-main.ts:7700
+main.ts:8018
 
 ***
 
@@ -2070,7 +2266,9 @@ main.ts:7700
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2078,7 +2276,7 @@ main.ts:7700
 
 #### Defined in
 
-main.ts:6949
+main.ts:7267
 
 ***
 
@@ -2088,7 +2286,9 @@ main.ts:6949
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2096,7 +2296,7 @@ main.ts:6949
 
 #### Defined in
 
-main.ts:7658
+main.ts:7976
 
 ***
 
@@ -2106,7 +2306,9 @@ main.ts:7658
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2114,25 +2316,7 @@ main.ts:7658
 
 #### Defined in
 
-main.ts:6907
-
-***
-
-### processGoogleKeywordSuggestionsLive()
-
-> `protected` **processGoogleKeywordSuggestionsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:6865
+main.ts:7225
 
 ***
 
@@ -2142,7 +2326,9 @@ main.ts:6865
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2150,7 +2336,7 @@ main.ts:6865
 
 #### Defined in
 
-main.ts:8624
+main.ts:8942
 
 ***
 
@@ -2160,7 +2346,9 @@ main.ts:8624
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2168,7 +2356,7 @@ main.ts:8624
 
 #### Defined in
 
-main.ts:7196
+main.ts:7514
 
 ***
 
@@ -2178,7 +2366,9 @@ main.ts:7196
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2186,7 +2376,27 @@ main.ts:7196
 
 #### Defined in
 
-main.ts:6781
+main.ts:7099
+
+***
+
+### processGoogleKeywordSuggestionsLive()
+
+> `protected` **processGoogleKeywordSuggestionsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:7183
 
 ***
 
@@ -2196,7 +2406,9 @@ main.ts:6781
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2204,7 +2416,7 @@ main.ts:6781
 
 #### Defined in
 
-main.ts:7742
+main.ts:8060
 
 ***
 
@@ -2214,7 +2426,9 @@ main.ts:7742
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2222,7 +2436,7 @@ main.ts:7742
 
 #### Defined in
 
-main.ts:7364
+main.ts:7682
 
 ***
 
@@ -2232,7 +2446,9 @@ main.ts:7364
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2240,7 +2456,7 @@ main.ts:7364
 
 #### Defined in
 
-main.ts:6823
+main.ts:7141
 
 ***
 
@@ -2250,7 +2466,9 @@ main.ts:6823
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2258,7 +2476,7 @@ main.ts:6823
 
 #### Defined in
 
-main.ts:7574
+main.ts:7892
 
 ***
 
@@ -2268,7 +2486,9 @@ main.ts:7574
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2276,7 +2496,7 @@ main.ts:7574
 
 #### Defined in
 
-main.ts:7033
+main.ts:7351
 
 ***
 
@@ -2286,7 +2506,9 @@ main.ts:7033
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2294,7 +2516,7 @@ main.ts:7033
 
 #### Defined in
 
-main.ts:7406
+main.ts:7724
 
 ***
 
@@ -2304,7 +2526,9 @@ main.ts:7406
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2312,7 +2536,7 @@ main.ts:7406
 
 #### Defined in
 
-main.ts:7532
+main.ts:7850
 
 ***
 
@@ -2322,7 +2546,9 @@ main.ts:7532
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -2330,4 +2556,4 @@ main.ts:7532
 
 #### Defined in
 
-main.ts:7280
+main.ts:7598

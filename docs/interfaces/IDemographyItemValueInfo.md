@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDemographyItemValueInfo
+[Documentation](../README.md) / IDemographyItemValueInfo
 
 # Interface: IDemographyItemValueInfo
 
@@ -20,7 +20,7 @@ type of element
 
 #### Defined in
 
-main.ts:126936
+main.ts:137193
 
 ***
 
@@ -36,4 +36,4 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:126942
+main.ts:137199

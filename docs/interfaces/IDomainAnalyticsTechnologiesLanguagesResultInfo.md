@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesLanguagesResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:75755
+main.ts:85459
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:75753
+main.ts:85457

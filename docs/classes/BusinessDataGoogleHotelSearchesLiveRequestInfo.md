@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesLiveRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesLiveRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:204608
+main.ts:217775
 
 ## Properties
 
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:204515
+main.ts:217682
 
 ***
 
@@ -94,7 +96,7 @@ possible values:
 
 #### Defined in
 
-main.ts:204598
+main.ts:217765
 
 ***
 
@@ -116,7 +118,7 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-main.ts:204494
+main.ts:217661
 
 ***
 
@@ -139,7 +141,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-main.ts:204503
+main.ts:217670
 
 ***
 
@@ -163,7 +165,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-main.ts:204525
+main.ts:217692
 
 ***
 
@@ -182,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:204508
+main.ts:217675
 
 ***
 
@@ -205,7 +207,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:204486
+main.ts:217653
 
 ***
 
@@ -224,7 +226,7 @@ default value: false
 
 #### Defined in
 
-main.ts:204564
+main.ts:217731
 
 ***
 
@@ -243,7 +245,7 @@ default value: false
 
 #### Defined in
 
-main.ts:204569
+main.ts:217736
 
 ***
 
@@ -255,10 +257,11 @@ keyword
 optional field
 the keyword you specify is used to search for the list of hotels;
 if you don’t use this field, we will return the list of hotels found in a specified location;
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
 Note: in order to obtain accurate search results, the location name is appended to the keyword automatically
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -266,7 +269,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 #### Defined in
 
-main.ts:204439
+main.ts:217606
 
 ***
 
@@ -287,7 +290,7 @@ en
 
 #### Defined in
 
-main.ts:204477
+main.ts:217644
 
 ***
 
@@ -308,7 +311,7 @@ English
 
 #### Defined in
 
-main.ts:204470
+main.ts:217637
 
 ***
 
@@ -329,7 +332,7 @@ example:
 
 #### Defined in
 
-main.ts:204454
+main.ts:217621
 
 ***
 
@@ -352,7 +355,7 @@ example:
 
 #### Defined in
 
-main.ts:204463
+main.ts:217630
 
 ***
 
@@ -374,7 +377,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 #### Defined in
 
-main.ts:204447
+main.ts:217614
 
 ***
 
@@ -394,7 +397,7 @@ example:
 
 #### Defined in
 
-main.ts:204559
+main.ts:217726
 
 ***
 
@@ -414,7 +417,7 @@ example:
 
 #### Defined in
 
-main.ts:204553
+main.ts:217720
 
 ***
 
@@ -434,7 +437,7 @@ example:
 
 #### Defined in
 
-main.ts:204537
+main.ts:217704
 
 ***
 
@@ -458,7 +461,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:204547
+main.ts:217714
 
 ***
 
@@ -478,7 +481,7 @@ example:
 
 #### Defined in
 
-main.ts:204531
+main.ts:217698
 
 ***
 
@@ -498,7 +501,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:204604
+main.ts:217771
 
 ## Methods
 
@@ -508,7 +511,9 @@ main.ts:204604
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -516,7 +521,7 @@ main.ts:204604
 
 #### Defined in
 
-main.ts:204617
+main.ts:217784
 
 ***
 
@@ -526,7 +531,9 @@ main.ts:204617
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -534,7 +541,7 @@ main.ts:204617
 
 #### Defined in
 
-main.ts:204666
+main.ts:217833
 
 ***
 
@@ -544,7 +551,9 @@ main.ts:204666
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -552,4 +561,4 @@ main.ts:204666
 
 #### Defined in
 
-main.ts:204659
+main.ts:217826

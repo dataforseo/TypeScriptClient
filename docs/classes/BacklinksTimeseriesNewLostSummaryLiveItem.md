@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesNewLostSummaryLiveItem
+[Documentation](../README.md) / BacklinksTimeseriesNewLostSummaryLiveItem
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md)
+##### data?
+
+[`IBacklinksTimeseriesNewLostSummaryLiveItem`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:148702
+main.ts:159907
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:148680
+main.ts:159885
 
 ***
 
@@ -66,7 +68,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:148686
+main.ts:159891
 
 ***
 
@@ -83,7 +85,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:148692
+main.ts:159897
 
 ***
 
@@ -100,7 +102,7 @@ number of lost referring main domains of the target
 
 #### Defined in
 
-main.ts:148698
+main.ts:159903
 
 ***
 
@@ -117,7 +119,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:148683
+main.ts:159888
 
 ***
 
@@ -134,7 +136,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:148689
+main.ts:159894
 
 ***
 
@@ -151,7 +153,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:148695
+main.ts:159900
 
 ***
 
@@ -167,7 +169,7 @@ type of element
 
 #### Defined in
 
-main.ts:148675
+main.ts:159880
 
 ## Methods
 
@@ -177,7 +179,9 @@ main.ts:148675
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -185,7 +189,7 @@ main.ts:148675
 
 #### Defined in
 
-main.ts:148711
+main.ts:159916
 
 ***
 
@@ -195,7 +199,9 @@ main.ts:148711
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -203,7 +209,7 @@ main.ts:148711
 
 #### Defined in
 
-main.ts:148735
+main.ts:159940
 
 ***
 
@@ -213,7 +219,9 @@ main.ts:148735
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -221,4 +229,4 @@ main.ts:148735
 
 #### Defined in
 
-main.ts:148728
+main.ts:159933

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IBaseDataforseoLabsSerpElementItem
 
 # Interface: IBaseDataforseoLabsSerpElementItem
 
@@ -10,19 +10,20 @@
 
 - [`IOrganicDataforseoLabsSerpElementItem`](IOrganicDataforseoLabsSerpElementItem.md)
 - [`IPeopleAlsoAskDataforseoLabsSerpElementItem`](IPeopleAlsoAskDataforseoLabsSerpElementItem.md)
-- [`ITwitterDataforseoLabsSerpElementItem`](ITwitterDataforseoLabsSerpElementItem.md)
 - [`IRelatedSearchesDataforseoLabsSerpElementItem`](IRelatedSearchesDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphRowItemDataforseoLabsSerpElementItem`](IKnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphDataforseoLabsSerpElementItem`](IKnowledgeGraphDataforseoLabsSerpElementItem.md)
+- [`ITwitterDataforseoLabsSerpElementItem`](ITwitterDataforseoLabsSerpElementItem.md)
+- [`IVideoDataforseoLabsSerpElementItem`](IVideoDataforseoLabsSerpElementItem.md)
+- [`IImagesDataforseoLabsSerpElementItem`](IImagesDataforseoLabsSerpElementItem.md)
 - [`ICarouselDataforseoLabsSerpElementItem`](ICarouselDataforseoLabsSerpElementItem.md)
 - [`IMultiCarouselDataforseoLabsSerpElementItem`](IMultiCarouselDataforseoLabsSerpElementItem.md)
 - [`ITopStoriesDataforseoLabsSerpElementItem`](ITopStoriesDataforseoLabsSerpElementItem.md)
 - [`IAnswerBoxDataforseoLabsSerpElementItem`](IAnswerBoxDataforseoLabsSerpElementItem.md)
 - [`IMathSolverDataforseoLabsSerpElementItem`](IMathSolverDataforseoLabsSerpElementItem.md)
-- [`IVideoDataforseoLabsSerpElementItem`](IVideoDataforseoLabsSerpElementItem.md)
 - [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](IPeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 - [`IMapDataforseoLabsSerpElementItem`](IMapDataforseoLabsSerpElementItem.md)
 - [`IFeaturedSnippetDataforseoLabsSerpElementItem`](IFeaturedSnippetDataforseoLabsSerpElementItem.md)
@@ -36,7 +37,6 @@
 - [`IGoogleReviewsDataforseoLabsSerpElementItem`](IGoogleReviewsDataforseoLabsSerpElementItem.md)
 - [`IGooglePostsDataforseoLabsSerpElementItem`](IGooglePostsDataforseoLabsSerpElementItem.md)
 - [`IGoogleFlightsDataforseoLabsSerpElementItem`](IGoogleFlightsDataforseoLabsSerpElementItem.md)
-- [`IImagesDataforseoLabsSerpElementItem`](IImagesDataforseoLabsSerpElementItem.md)
 - [`IShoppingDataforseoLabsSerpElementItem`](IShoppingDataforseoLabsSerpElementItem.md)
 - [`IJobsDataforseoLabsSerpElementItem`](IJobsDataforseoLabsSerpElementItem.md)
 - [`IEventsDataforseoLabsSerpElementItem`](IEventsDataforseoLabsSerpElementItem.md)
@@ -66,7 +66,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -79,7 +79,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -104,7 +104,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -116,4 +116,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

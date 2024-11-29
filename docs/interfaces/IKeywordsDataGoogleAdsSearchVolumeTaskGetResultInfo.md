@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
@@ -24,7 +24,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:117912
+main.ts:127386
 
 ***
 
@@ -40,7 +40,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:117918
+main.ts:127392
 
 ***
 
@@ -53,7 +53,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:117933
+main.ts:127407
 
 ***
 
@@ -67,7 +67,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:117930
+main.ts:127404
 
 ***
 
@@ -76,11 +76,11 @@ main.ts:117930
 > `optional` **keyword**: `string`
 
 keyword
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:117895
+main.ts:127368
 
 ***
 
@@ -93,7 +93,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:117904
+main.ts:127378
 
 ***
 
@@ -106,7 +106,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:117901
+main.ts:127375
 
 ***
 
@@ -120,7 +120,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:117926
+main.ts:127400
 
 ***
 
@@ -134,7 +134,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:117937
+main.ts:127411
 
 ***
 
@@ -146,7 +146,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:117906
+main.ts:127380
 
 ***
 
@@ -160,17 +160,18 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:117922
+main.ts:127396
 
 ***
 
 ### spell?
 
-> `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> `optional` **spell**: `string`
 
-autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
+correct spelling of the keyword
+Note:if the keyword in the POST array appears to be misspelled, data will be returned for the correctly spelled keyword;
+we use the functionality of Google Ads API to check and validate the spelling of keywords, learn more by this link
 
 #### Defined in
 
-main.ts:117898
+main.ts:127372

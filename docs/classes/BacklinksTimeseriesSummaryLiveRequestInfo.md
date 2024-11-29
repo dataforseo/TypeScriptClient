@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveRequestInfo
+[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveRequestInfo
 
 # Class: BacklinksTimeseriesSummaryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:148073
+main.ts:159278
 
 ## Properties
 
@@ -53,7 +55,7 @@ example:
 
 #### Defined in
 
-main.ts:148036
+main.ts:159241
 
 ***
 
@@ -76,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:148045
+main.ts:159250
 
 ***
 
@@ -103,7 +105,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-main.ts:148058
+main.ts:159263
 
 ***
 
@@ -122,7 +124,7 @@ default value: true
 
 #### Defined in
 
-main.ts:148063
+main.ts:159268
 
 ***
 
@@ -142,7 +144,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:148069
+main.ts:159274
 
 ***
 
@@ -162,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:148027
+main.ts:159232
 
 ## Methods
 
@@ -172,7 +174,9 @@ main.ts:148027
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +184,7 @@ main.ts:148027
 
 #### Defined in
 
-main.ts:148082
+main.ts:159287
 
 ***
 
@@ -190,7 +194,9 @@ main.ts:148082
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +204,7 @@ main.ts:148082
 
 #### Defined in
 
-main.ts:148104
+main.ts:159309
 
 ***
 
@@ -208,7 +214,9 @@ main.ts:148104
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:148104
 
 #### Defined in
 
-main.ts:148097
+main.ts:159302

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Defined in
 
-main.ts:210614
+main.ts:225541
 
 ***
 
@@ -37,13 +37,14 @@ main.ts:210614
 keyword
 required field
 the keyword you specify should indicate a business category or company name;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:210598
+main.ts:225525
 
 ***
 
@@ -58,12 +59,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:210640
+main.ts:225569
 
 ***
 
@@ -78,12 +80,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:210630
+main.ts:225558
 
 ***
 
@@ -101,7 +104,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:210606
+main.ts:225533
 
 ***
 
@@ -117,4 +120,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:210620
+main.ts:225547

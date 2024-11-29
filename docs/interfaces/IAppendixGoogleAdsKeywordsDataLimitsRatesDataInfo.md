@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:215848
+main.ts:230799
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:215848
 
 #### Defined in
 
-main.ts:215846
+main.ts:230797
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:215846
 
 #### Defined in
 
-main.ts:215847
+main.ts:230798
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:215847
 
 #### Defined in
 
-main.ts:215845
+main.ts:230796
 
 ***
 
@@ -58,4 +58,4 @@ main.ts:215845
 
 #### Defined in
 
-main.ts:215844
+main.ts:230795

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AnalysisContentInfo
+[Documentation](../README.md) / AnalysisContentInfo
 
 # Class: AnalysisContentInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md)
+##### data?
+
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:166156
+main.ts:177745
 
 ## Properties
 
@@ -46,7 +48,7 @@ author of the content
 
 #### Defined in
 
-main.ts:166106
+main.ts:177695
 
 ***
 
@@ -68,7 +70,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:166126
+main.ts:177715
 
 ***
 
@@ -85,7 +87,7 @@ this value is calculated based on the number of words, sentences and characters 
 
 #### Defined in
 
-main.ts:166137
+main.ts:177726
 
 ***
 
@@ -103,7 +105,7 @@ page_content, comment
 
 #### Defined in
 
-main.ts:166095
+main.ts:177684
 
 ***
 
@@ -122,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:166134
+main.ts:177723
 
 ***
 
@@ -143,7 +145,7 @@ example:
 
 #### Defined in
 
-main.ts:166152
+main.ts:177741
 
 ***
 
@@ -159,7 +161,7 @@ highlighted text from the snippet
 
 #### Defined in
 
-main.ts:166115
+main.ts:177704
 
 ***
 
@@ -176,7 +178,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:166118
+main.ts:177707
 
 ***
 
@@ -193,7 +195,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Defined in
 
-main.ts:166104
+main.ts:177693
 
 ***
 
@@ -209,7 +211,7 @@ page title
 
 #### Defined in
 
-main.ts:166099
+main.ts:177688
 
 ***
 
@@ -225,7 +227,7 @@ title of the previous content block
 
 #### Defined in
 
-main.ts:166101
+main.ts:177690
 
 ***
 
@@ -242,7 +244,7 @@ rating related to content_info
 
 #### Defined in
 
-main.ts:166145
+main.ts:177734
 
 ***
 
@@ -261,7 +263,7 @@ article, header
 
 #### Defined in
 
-main.ts:166142
+main.ts:177731
 
 ***
 
@@ -283,7 +285,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:166122
+main.ts:177711
 
 ***
 
@@ -299,7 +301,7 @@ content snippet
 
 #### Defined in
 
-main.ts:166108
+main.ts:177697
 
 ***
 
@@ -315,7 +317,7 @@ character length of the snippet
 
 #### Defined in
 
-main.ts:166110
+main.ts:177699
 
 ***
 
@@ -332,7 +334,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:166113
+main.ts:177702
 
 ***
 
@@ -349,7 +351,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166129
+main.ts:177718
 
 ***
 
@@ -365,7 +367,7 @@ title of the result
 
 #### Defined in
 
-main.ts:166097
+main.ts:177686
 
 ## Methods
 
@@ -375,7 +377,9 @@ main.ts:166097
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -383,7 +387,7 @@ main.ts:166097
 
 #### Defined in
 
-main.ts:166165
+main.ts:177754
 
 ***
 
@@ -393,7 +397,9 @@ main.ts:166165
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -401,7 +407,7 @@ main.ts:166165
 
 #### Defined in
 
-main.ts:166220
+main.ts:177809
 
 ***
 
@@ -411,7 +417,9 @@ main.ts:166220
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -419,4 +427,4 @@ main.ts:166220
 
 #### Defined in
 
-main.ts:166213
+main.ts:177802

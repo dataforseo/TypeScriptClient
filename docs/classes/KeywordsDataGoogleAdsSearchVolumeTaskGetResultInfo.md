@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
 # Class: KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:117825
+main.ts:127298
 
 ## Properties
 
@@ -50,7 +52,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:117796
+main.ts:127269
 
 ***
 
@@ -70,7 +72,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:117802
+main.ts:127275
 
 ***
 
@@ -87,7 +89,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:117817
+main.ts:127290
 
 ***
 
@@ -105,7 +107,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:117814
+main.ts:127287
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:117814
 > `optional` **keyword**: `string`
 
 keyword
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -122,7 +124,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:117779
+main.ts:127251
 
 ***
 
@@ -139,7 +141,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:117788
+main.ts:127261
 
 ***
 
@@ -156,7 +158,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:117785
+main.ts:127258
 
 ***
 
@@ -174,7 +176,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:117810
+main.ts:127283
 
 ***
 
@@ -192,7 +194,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:117821
+main.ts:127294
 
 ***
 
@@ -208,7 +210,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:117790
+main.ts:127263
 
 ***
 
@@ -226,16 +228,17 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:117806
+main.ts:127279
 
 ***
 
 ### spell?
 
-> `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+> `optional` **spell**: `string`
 
-autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
+correct spelling of the keyword
+Note:if the keyword in the POST array appears to be misspelled, data will be returned for the correctly spelled keyword;
+we use the functionality of Google Ads API to check and validate the spelling of keywords, learn more by this link
 
 #### Implementation of
 
@@ -243,7 +246,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:117782
+main.ts:127255
 
 ## Methods
 
@@ -253,7 +256,9 @@ main.ts:117782
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -261,7 +266,7 @@ main.ts:117782
 
 #### Defined in
 
-main.ts:117834
+main.ts:127307
 
 ***
 
@@ -271,7 +276,9 @@ main.ts:117834
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -279,7 +286,7 @@ main.ts:117834
 
 #### Defined in
 
-main.ts:117866
+main.ts:127339
 
 ***
 
@@ -289,7 +296,9 @@ main.ts:117866
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -297,4 +306,4 @@ main.ts:117866
 
 #### Defined in
 
-main.ts:117859
+main.ts:127332

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
@@ -35,7 +35,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:93731
+main.ts:103449
 
 ***
 
@@ -45,14 +45,14 @@ main.ts:93731
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:93704
+main.ts:103422
 
 ***
 
@@ -67,7 +67,7 @@ default value: false
 
 #### Defined in
 
-main.ts:93697
+main.ts:103415
 
 ***
 
@@ -85,7 +85,7 @@ default value: true
 
 #### Defined in
 
-main.ts:93684
+main.ts:103402
 
 ***
 
@@ -103,7 +103,7 @@ default value:
 
 #### Defined in
 
-main.ts:93692
+main.ts:103410
 
 ***
 
@@ -121,7 +121,7 @@ en
 
 #### Defined in
 
-main.ts:93676
+main.ts:103394
 
 ***
 
@@ -139,7 +139,7 @@ English
 
 #### Defined in
 
-main.ts:93668
+main.ts:103386
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:93709
+main.ts:103427
 
 ***
 
@@ -172,7 +172,7 @@ example:
 
 #### Defined in
 
-main.ts:93660
+main.ts:103378
 
 ***
 
@@ -190,7 +190,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:93652
+main.ts:103370
 
 ***
 
@@ -205,7 +205,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:93714
+main.ts:103432
 
 ***
 
@@ -231,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:93747
+main.ts:103465
 
 ***
 
@@ -247,7 +247,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:93753
+main.ts:103471
 
 ***
 
@@ -262,7 +262,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:93639
+main.ts:103357
 
 ***
 
@@ -277,4 +277,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:93644
+main.ts:103362

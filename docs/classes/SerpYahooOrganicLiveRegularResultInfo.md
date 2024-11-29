@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooOrganicLiveRegularResultInfo
+[Documentation](../README.md) / SerpYahooOrganicLiveRegularResultInfo
 
 # Class: SerpYahooOrganicLiveRegularResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md)
+##### data?
+
+[`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:68238
+main.ts:77115
 
 ## Properties
 
@@ -47,7 +49,7 @@ You can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:68216
+main.ts:77086
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:68221
+main.ts:77091
 
 ***
 
@@ -74,9 +76,13 @@ main.ts:68221
 
 > `optional` **item\_types**: `string`[]
 
-types of search results in SERP
-contains types of search results (items) found in SERP
-Possible item types: organic
+types of search results found in SERP
+contains types of all search results (items) found in the returned SERP
+possible item types:
+featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video;
+note that this array contains all types of search results found in the returned SERP;
+however, this endpoint provides data for organic, paid, and featured_snippet types only;
+to get all items (including SERP features and rich snippets) found in the returned SERP, please refer to the Yahoo Organiс Advanced SERP endpoint
 
 #### Implementation of
 
@@ -84,7 +90,7 @@ Possible item types: organic
 
 #### Defined in
 
-main.ts:68228
+main.ts:77105
 
 ***
 
@@ -100,7 +106,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:68234
+main.ts:77111
 
 ***
 
@@ -116,7 +122,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:68232
+main.ts:77109
 
 ***
 
@@ -125,7 +131,7 @@ main.ts:68232
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -133,7 +139,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:68205
+main.ts:77075
 
 ***
 
@@ -149,7 +155,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:68213
+main.ts:77083
 
 ***
 
@@ -165,7 +171,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:68211
+main.ts:77081
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`refinement_chips`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:77097
 
 ***
 
@@ -181,7 +204,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:68209
+main.ts:77079
 
 ***
 
@@ -197,7 +220,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:68230
+main.ts:77107
 
 ***
 
@@ -214,7 +237,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:68224
+main.ts:77094
 
 ***
 
@@ -230,7 +253,7 @@ type of element
 
 #### Defined in
 
-main.ts:68207
+main.ts:77077
 
 ## Methods
 
@@ -240,7 +263,9 @@ main.ts:68207
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -248,7 +273,7 @@ main.ts:68207
 
 #### Defined in
 
-main.ts:68247
+main.ts:77124
 
 ***
 
@@ -258,7 +283,9 @@ main.ts:68247
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +293,7 @@ main.ts:68247
 
 #### Defined in
 
-main.ts:68283
+main.ts:77161
 
 ***
 
@@ -276,7 +303,9 @@ main.ts:68283
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -284,4 +313,4 @@ main.ts:68283
 
 #### Defined in
 
-main.ts:68276
+main.ts:77154

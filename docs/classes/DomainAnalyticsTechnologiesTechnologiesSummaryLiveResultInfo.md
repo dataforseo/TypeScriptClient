@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:77060
+main.ts:86768
 
 ## Properties
 
@@ -51,7 +53,7 @@ contains content language codes and number of websites per language
 
 #### Defined in
 
-main.ts:77053
+main.ts:86761
 
 ***
 
@@ -72,7 +74,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:77047
+main.ts:86755
 
 ***
 
@@ -93,7 +95,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Defined in
 
-main.ts:77056
+main.ts:86764
 
 ***
 
@@ -114,7 +116,7 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:77050
+main.ts:86758
 
 ## Methods
 
@@ -124,7 +126,9 @@ main.ts:77050
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +136,7 @@ main.ts:77050
 
 #### Defined in
 
-main.ts:77069
+main.ts:86777
 
 ***
 
@@ -142,7 +146,9 @@ main.ts:77069
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +156,7 @@ main.ts:77069
 
 #### Defined in
 
-main.ts:77113
+main.ts:86821
 
 ***
 
@@ -160,7 +166,9 @@ main.ts:77113
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +176,4 @@ main.ts:77113
 
 #### Defined in
 
-main.ts:77106
+main.ts:86814

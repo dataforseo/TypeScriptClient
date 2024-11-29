@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopicListDataItemInfo
+[Documentation](../README.md) / ITopicListDataItemInfo
 
 # Interface: ITopicListDataItemInfo
 
@@ -20,7 +20,7 @@ unique topic identifier in Google Trends
 
 #### Defined in
 
-main.ts:124825
+main.ts:135076
 
 ***
 
@@ -32,7 +32,7 @@ title of the topic
 
 #### Defined in
 
-main.ts:124827
+main.ts:135078
 
 ***
 
@@ -45,7 +45,7 @@ represents the general type of the topic
 
 #### Defined in
 
-main.ts:124830
+main.ts:135081
 
 ***
 
@@ -58,4 +58,4 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:124833
+main.ts:135084

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppReviewsTaskPostRequestInfo
+[Documentation](../README.md) / AppDataAppleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataAppleAppReviewsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md)
+##### data?
+
+[`IAppDataAppleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataAppleAppReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:195501
+main.ts:207849
 
 ## Properties
 
@@ -52,7 +54,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:195414
+main.ts:207760
 
 ***
 
@@ -73,7 +75,7 @@ maximum value: 500
 
 #### Defined in
 
-main.ts:195457
+main.ts:207803
 
 ***
 
@@ -82,7 +84,7 @@ main.ts:195457
 > `optional` **language\_code**: `string`
 
 search engine language code
-optional field
+required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/apple/languages
 example:
@@ -94,7 +96,7 @@ en
 
 #### Defined in
 
-main.ts:195442
+main.ts:207788
 
 ***
 
@@ -103,7 +105,7 @@ main.ts:195442
 > `optional` **language\_name**: `string`
 
 full name of search engine language
-optional field
+required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/apple/languages
 example:
@@ -115,7 +117,7 @@ English
 
 #### Defined in
 
-main.ts:195435
+main.ts:207781
 
 ***
 
@@ -136,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:195428
+main.ts:207774
 
 ***
 
@@ -157,7 +159,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:195421
+main.ts:207767
 
 ***
 
@@ -172,8 +174,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -181,7 +184,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:195497
+main.ts:207845
 
 ***
 
@@ -201,7 +204,7 @@ advanced
 
 #### Defined in
 
-main.ts:195487
+main.ts:207834
 
 ***
 
@@ -216,8 +219,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -225,7 +229,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:195481
+main.ts:207828
 
 ***
 
@@ -247,7 +251,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:195450
+main.ts:207796
 
 ***
 
@@ -269,7 +273,7 @@ default rule: most_helpful
 
 #### Defined in
 
-main.ts:195465
+main.ts:207811
 
 ***
 
@@ -289,7 +293,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:195471
+main.ts:207817
 
 ## Methods
 
@@ -299,7 +303,9 @@ main.ts:195471
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -307,7 +313,7 @@ main.ts:195471
 
 #### Defined in
 
-main.ts:195510
+main.ts:207858
 
 ***
 
@@ -317,7 +323,9 @@ main.ts:195510
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -325,7 +333,7 @@ main.ts:195510
 
 #### Defined in
 
-main.ts:195538
+main.ts:207886
 
 ***
 
@@ -335,7 +343,9 @@ main.ts:195538
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -343,4 +353,4 @@ main.ts:195538
 
 #### Defined in
 
-main.ts:195531
+main.ts:207879

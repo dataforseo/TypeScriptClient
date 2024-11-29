@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageMicrodataRequestInfo
+[Documentation](../README.md) / OnPageMicrodataRequestInfo
 
 # Class: OnPageMicrodataRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md)
+##### data?
+
+[`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:159871
+main.ts:171506
 
 ## Properties
 
@@ -50,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:159855
+main.ts:171490
 
 ***
 
@@ -70,7 +72,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159867
+main.ts:171502
 
 ***
 
@@ -90,7 +92,7 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-main.ts:159861
+main.ts:171496
 
 ## Methods
 
@@ -100,7 +102,9 @@ main.ts:159861
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +112,7 @@ main.ts:159861
 
 #### Defined in
 
-main.ts:159880
+main.ts:171515
 
 ***
 
@@ -118,7 +122,9 @@ main.ts:159880
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -126,7 +132,7 @@ main.ts:159880
 
 #### Defined in
 
-main.ts:159899
+main.ts:171534
 
 ***
 
@@ -136,7 +142,9 @@ main.ts:159899
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -144,4 +152,4 @@ main.ts:159899
 
 #### Defined in
 
-main.ts:159892
+main.ts:171527

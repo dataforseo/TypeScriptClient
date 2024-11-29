@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixNaverKeywordsDataDataInfo
+[Documentation](../README.md) / IAppendixNaverKeywordsDataDataInfo
 
 # Interface: IAppendixNaverKeywordsDataDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:217813
+main.ts:232780
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:217813
 
 #### Defined in
 
-main.ts:217814
+main.ts:232781

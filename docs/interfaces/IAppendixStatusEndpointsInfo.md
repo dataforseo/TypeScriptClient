@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixStatusEndpointsInfo
+[Documentation](../README.md) / IAppendixStatusEndpointsInfo
 
 # Interface: IAppendixStatusEndpointsInfo
 
@@ -25,7 +25,7 @@ postback/pingback
 
 #### Defined in
 
-main.ts:224236
+main.ts:239423
 
 ***
 
@@ -45,4 +45,4 @@ send_delay
 
 #### Defined in
 
-main.ts:224246
+main.ts:239433

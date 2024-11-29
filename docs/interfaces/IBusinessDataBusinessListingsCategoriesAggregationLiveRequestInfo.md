@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
@@ -24,7 +24,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:199553
+main.ts:211903
 
 ***
 
@@ -35,11 +35,11 @@ main.ts:199553
 description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Defined in
 
-main.ts:199558
+main.ts:211908
 
 ***
 
@@ -60,7 +60,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:199586
+main.ts:211936
 
 ***
 
@@ -75,7 +75,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:199591
+main.ts:211941
 
 ***
 
@@ -88,7 +88,7 @@ optional field
 
 #### Defined in
 
-main.ts:199566
+main.ts:211916
 
 ***
 
@@ -103,7 +103,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:199596
+main.ts:211946
 
 ***
 
@@ -122,7 +122,7 @@ example:
 
 #### Defined in
 
-main.ts:199575
+main.ts:211925
 
 ***
 
@@ -135,7 +135,7 @@ optional field
 
 #### Defined in
 
-main.ts:199599
+main.ts:211949
 
 ***
 
@@ -151,7 +151,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:199605
+main.ts:211955
 
 ***
 
@@ -162,8 +162,8 @@ main.ts:199605
 title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Defined in
 
-main.ts:199563
+main.ts:211913

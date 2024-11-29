@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkPagesSummaryLiveRequestInfo
+[Documentation](../README.md) / BacklinksBulkPagesSummaryLiveRequestInfo
 
 # Class: BacklinksBulkPagesSummaryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:151155
+main.ts:162360
 
 ## Properties
 
@@ -49,7 +51,7 @@ default value: true
 
 #### Defined in
 
-main.ts:151145
+main.ts:162350
 
 ***
 
@@ -69,7 +71,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:151151
+main.ts:162356
 
 ***
 
@@ -90,7 +92,7 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 #### Defined in
 
-main.ts:151140
+main.ts:162345
 
 ## Methods
 
@@ -100,7 +102,9 @@ main.ts:151140
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +112,7 @@ main.ts:151140
 
 #### Defined in
 
-main.ts:151164
+main.ts:162369
 
 ***
 
@@ -118,7 +122,9 @@ main.ts:151164
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -126,7 +132,7 @@ main.ts:151164
 
 #### Defined in
 
-main.ts:151187
+main.ts:162392
 
 ***
 
@@ -136,7 +142,9 @@ main.ts:151187
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -144,4 +152,4 @@ main.ts:151187
 
 #### Defined in
 
-main.ts:151180
+main.ts:162385

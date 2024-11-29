@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HtmlItem
+[Documentation](../README.md) / HtmlItem
 
 # Class: HtmlItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHtmlItem`](../interfaces/IHtmlItem.md)
+##### data?
+
+[`IHtmlItem`](../interfaces/IHtmlItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:36957
+main.ts:38448
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:36951
+main.ts:38442
 
 ***
 
@@ -65,7 +67,7 @@ HTML page
 
 #### Defined in
 
-main.ts:36953
+main.ts:38444
 
 ***
 
@@ -81,7 +83,7 @@ serial number of the returned HTML page
 
 #### Defined in
 
-main.ts:36946
+main.ts:38437
 
 ## Methods
 
@@ -91,7 +93,9 @@ main.ts:36946
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +103,7 @@ main.ts:36946
 
 #### Defined in
 
-main.ts:36966
+main.ts:38457
 
 ***
 
@@ -109,7 +113,9 @@ main.ts:36966
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -117,7 +123,7 @@ main.ts:36966
 
 #### Defined in
 
-main.ts:36985
+main.ts:38476
 
 ***
 
@@ -127,7 +133,9 @@ main.ts:36985
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -135,4 +143,4 @@ main.ts:36985
 
 #### Defined in
 
-main.ts:36978
+main.ts:38469

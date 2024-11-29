@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPagePageScreenshotRequestInfo
+[Documentation](../README.md) / IOnPagePageScreenshotRequestInfo
 
 # Interface: IOnPagePageScreenshotRequestInfo
 
@@ -23,7 +23,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:160887
+main.ts:172514
 
 ***
 
@@ -52,7 +52,7 @@ Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_re
 
 #### Defined in
 
-main.ts:160913
+main.ts:172540
 
 ***
 
@@ -69,7 +69,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:160927
+main.ts:172554
 
 ***
 
@@ -86,7 +86,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:160934
+main.ts:172561
 
 ***
 
@@ -103,31 +103,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:160920
-
-***
-
-### custom\_js?
-
-> `optional` **custom\_js**: `string`
-
-custom javascript
-optional field
-Note that the execution time for the script you enter here should be 700 ms maximum
-for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n  let src = document.scripts[i].getAttribute(\"src\");\r\n  if (src != undefined) {\r\n    if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;
-the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
-as a response you will receive the following data:
-"custom_js_response": {
-  "url": "https://dataforseo.com/",
-  "test": "test"
-}
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
-
-#### Defined in
-
-main.ts:160959
+main.ts:172547
 
 ***
 
@@ -144,7 +120,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:160894
+main.ts:172521
 
 ***
 
@@ -160,7 +136,7 @@ false
 
 #### Defined in
 
-main.ts:160945
+main.ts:172572
 
 ***
 
@@ -175,7 +151,7 @@ default value: true
 
 #### Defined in
 
-main.ts:160939
+main.ts:172566
 
 ***
 
@@ -191,7 +167,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:160970
+main.ts:172583
 
 ***
 
@@ -206,7 +182,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:160964
+main.ts:172577
 
 ***
 
@@ -221,4 +197,4 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Defined in
 
-main.ts:160882
+main.ts:172509

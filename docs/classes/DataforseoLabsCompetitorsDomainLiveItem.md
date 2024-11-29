@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsCompetitorsDomainLiveItem
+[Documentation](../README.md) / DataforseoLabsCompetitorsDomainLiveItem
 
 # Class: DataforseoLabsCompetitorsDomainLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md)
+##### data?
+
+[`IDataforseoLabsCompetitorsDomainLiveItem`](../interfaces/IDataforseoLabsCompetitorsDomainLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:93101
+main.ts:102819
 
 ## Properties
 
@@ -48,7 +50,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:93080
+main.ts:102798
 
 ***
 
@@ -70,7 +72,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Defined in
 
-main.ts:93097
+main.ts:102815
 
 ***
 
@@ -86,7 +88,7 @@ domain name
 
 #### Defined in
 
-main.ts:93076
+main.ts:102794
 
 ***
 
@@ -107,7 +109,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Defined in
 
-main.ts:93089
+main.ts:102807
 
 ***
 
@@ -123,7 +125,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:93086
+main.ts:102804
 
 ***
 
@@ -145,7 +147,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Defined in
 
-main.ts:93093
+main.ts:102811
 
 ***
 
@@ -161,7 +163,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93074
+main.ts:102792
 
 ***
 
@@ -179,7 +181,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:93084
+main.ts:102802
 
 ## Methods
 
@@ -189,7 +191,9 @@ main.ts:93084
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +201,7 @@ main.ts:93084
 
 #### Defined in
 
-main.ts:93110
+main.ts:102828
 
 ***
 
@@ -207,7 +211,9 @@ main.ts:93110
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -215,7 +221,7 @@ main.ts:93110
 
 #### Defined in
 
-main.ts:93152
+main.ts:102870
 
 ***
 
@@ -225,7 +231,9 @@ main.ts:93152
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -233,4 +241,4 @@ main.ts:93152
 
 #### Defined in
 
-main.ts:93145
+main.ts:102863

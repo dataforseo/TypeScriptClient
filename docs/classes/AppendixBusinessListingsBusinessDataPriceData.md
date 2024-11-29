@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBusinessListingsBusinessDataPriceData
+[Documentation](../README.md) / AppendixBusinessListingsBusinessDataPriceData
 
 # Class: AppendixBusinessListingsBusinessDataPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md)
+##### data?
+
+[`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:222431
+main.ts:237614
 
 ## Properties
 
@@ -44,13 +46,13 @@ main.ts:222431
 
 #### Defined in
 
-main.ts:222424
+main.ts:237607
 
 ***
 
 ### categories\_aggregation?
 
-> `optional` **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,7 +60,7 @@ main.ts:222424
 
 #### Defined in
 
-main.ts:222425
+main.ts:237608
 
 ***
 
@@ -72,13 +74,13 @@ main.ts:222425
 
 #### Defined in
 
-main.ts:222426
+main.ts:237609
 
 ***
 
 ### search?
 
-> `optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -86,7 +88,7 @@ main.ts:222426
 
 #### Defined in
 
-main.ts:222427
+main.ts:237610
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:222427
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:222427
 
 #### Defined in
 
-main.ts:222440
+main.ts:237623
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:222440
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:222440
 
 #### Defined in
 
-main.ts:222460
+main.ts:237643
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:222460
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:222460
 
 #### Defined in
 
-main.ts:222453
+main.ts:237636

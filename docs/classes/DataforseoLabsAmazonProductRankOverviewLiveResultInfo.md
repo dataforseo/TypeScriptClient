@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductRankOverviewLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:104282
+main.ts:113920
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:104278
+main.ts:113916
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:104276
+main.ts:113914
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:104272
+main.ts:113910
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:104269
+main.ts:113907
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:104266
+main.ts:113904
 
 ***
 
@@ -128,7 +130,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:104274
+main.ts:113912
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:104274
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:104274
 
 #### Defined in
 
-main.ts:104291
+main.ts:113929
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:104291
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:104291
 
 #### Defined in
 
-main.ts:104317
+main.ts:113955
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:104317
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:104317
 
 #### Defined in
 
-main.ts:104310
+main.ts:113948

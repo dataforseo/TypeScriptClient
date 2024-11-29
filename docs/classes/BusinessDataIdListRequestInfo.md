@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataIdListRequestInfo
+[Documentation](../README.md) / BusinessDataIdListRequestInfo
 
 # Class: BusinessDataIdListRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md)
+##### data?
+
+[`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:196998
+main.ts:209348
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:196968
+main.ts:209318
 
 ***
 
@@ -73,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:196975
+main.ts:209325
 
 ***
 
@@ -91,7 +93,7 @@ default value: false
 
 #### Defined in
 
-main.ts:196994
+main.ts:209344
 
 ***
 
@@ -110,7 +112,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:196980
+main.ts:209330
 
 ***
 
@@ -129,7 +131,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:196985
+main.ts:209335
 
 ***
 
@@ -148,7 +150,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:196990
+main.ts:209340
 
 ## Methods
 
@@ -158,7 +160,9 @@ main.ts:196990
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +170,7 @@ main.ts:196990
 
 #### Defined in
 
-main.ts:197007
+main.ts:209357
 
 ***
 
@@ -176,7 +180,9 @@ main.ts:197007
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -184,7 +190,7 @@ main.ts:197007
 
 #### Defined in
 
-main.ts:197029
+main.ts:209379
 
 ***
 
@@ -194,7 +200,9 @@ main.ts:197029
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -202,4 +210,4 @@ main.ts:197029
 
 #### Defined in
 
-main.ts:197022
+main.ts:209372

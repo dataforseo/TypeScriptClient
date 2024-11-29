@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisSearchLiveRequestInfo
+[Documentation](../README.md) / IContentAnalysisSearchLiveRequestInfo
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
 
@@ -35,7 +35,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:165973
+main.ts:177562
 
 ***
 
@@ -46,15 +46,15 @@ main.ts:165973
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:165926
+main.ts:177515
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:165938
+main.ts:177527
 
 ***
 
@@ -95,7 +95,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:165956
+main.ts:177545
 
 ***
 
@@ -110,7 +110,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 #### Defined in
 
-main.ts:165994
+main.ts:177583
 
 ***
 
@@ -128,7 +128,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:166002
+main.ts:177591
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:165989
+main.ts:177578
 
 ***
 
@@ -170,7 +170,7 @@ possible values:
 
 #### Defined in
 
-main.ts:165944
+main.ts:177533
 
 ***
 
@@ -187,7 +187,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:165951
+main.ts:177540
 
 ***
 
@@ -203,4 +203,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:166008
+main.ts:177597

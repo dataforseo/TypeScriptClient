@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGooglePlaySearchOrganicSerpElementItem
+[Documentation](../README.md) / AppDataGooglePlaySearchOrganicSerpElementItem
 
 # Class: AppDataGooglePlaySearchOrganicSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGooglePlaySearchOrganicSerpElementItem`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md)
+##### data?
+
+[`IAppDataGooglePlaySearchOrganicSerpElementItem`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:112154
+main.ts:121486
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:112154
 
 #### Defined in
 
-main.ts:21988
+main.ts:22886
 
 ***
 
@@ -68,7 +70,7 @@ id of the app
 
 #### Defined in
 
-main.ts:112136
+main.ts:121468
 
 ***
 
@@ -84,7 +86,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:112148
+main.ts:121480
 
 ***
 
@@ -100,7 +102,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:112150
+main.ts:121482
 
 ***
 
@@ -116,7 +118,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:112140
+main.ts:121472
 
 ***
 
@@ -132,7 +134,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:112144
+main.ts:121476
 
 ***
 
@@ -154,13 +156,13 @@ left, right
 
 #### Defined in
 
-main.ts:21982
+main.ts:22880
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price of the app
 
@@ -170,7 +172,7 @@ price of the app
 
 #### Defined in
 
-main.ts:112146
+main.ts:121478
 
 ***
 
@@ -191,7 +193,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21978
+main.ts:22876
 
 ***
 
@@ -212,7 +214,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21975
+main.ts:22873
 
 ***
 
@@ -232,7 +234,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21986
+main.ts:22884
 
 ***
 
@@ -248,7 +250,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:112142
+main.ts:121474
 
 ***
 
@@ -268,7 +270,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21984
+main.ts:22882
 
 ***
 
@@ -288,7 +290,7 @@ type of element
 
 #### Defined in
 
-main.ts:21972
+main.ts:22870
 
 ***
 
@@ -304,7 +306,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:112138
+main.ts:121470
 
 ## Methods
 
@@ -314,7 +316,9 @@ main.ts:112138
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -326,7 +330,7 @@ main.ts:112138
 
 #### Defined in
 
-main.ts:112159
+main.ts:121491
 
 ***
 
@@ -336,7 +340,9 @@ main.ts:112159
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -348,7 +354,7 @@ main.ts:112159
 
 #### Defined in
 
-main.ts:112184
+main.ts:121516
 
 ***
 
@@ -358,7 +364,9 @@ main.ts:112184
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -370,4 +378,4 @@ main.ts:112184
 
 #### Defined in
 
-main.ts:112177
+main.ts:121509

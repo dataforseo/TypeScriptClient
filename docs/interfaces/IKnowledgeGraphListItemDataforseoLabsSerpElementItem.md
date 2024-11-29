@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphListItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphListItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphListItemDataforseoLabsSerpElementItem
 
@@ -22,11 +22,11 @@
 
 google defined data attribute ID
 example:
-kc:/common/topic:social media presence
+kc:/local:place qa
 
 #### Defined in
 
-main.ts:97769
+main.ts:107588
 
 ***
 
@@ -34,12 +34,11 @@ main.ts:97769
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Defined in
 
-main.ts:97774
+main.ts:107592
 
 ***
 
@@ -51,7 +50,7 @@ link of the element
 
 #### Defined in
 
-main.ts:97771
+main.ts:107590
 
 ***
 
@@ -69,7 +68,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -86,7 +85,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -103,7 +102,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -111,11 +110,11 @@ main.ts:21018
 
 > `optional` **title**: `string`
 
-title of a given link element
+title of the row
 
 #### Defined in
 
-main.ts:97765
+main.ts:107584
 
 ***
 
@@ -131,7 +130,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -147,4 +146,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

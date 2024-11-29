@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseMerchantSerpElementItem
+[Documentation](../README.md) / BaseMerchantSerpElementItem
 
 # Class: BaseMerchantSerpElementItem
 
@@ -29,7 +29,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md)
+##### data?
+
+[`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -37,7 +39,7 @@
 
 #### Defined in
 
-main.ts:21046
+main.ts:21724
 
 ## Properties
 
@@ -47,7 +49,7 @@ main.ts:21046
 
 #### Defined in
 
-main.ts:21044
+main.ts:21722
 
 ***
 
@@ -65,7 +67,7 @@ left, right
 
 #### Defined in
 
-main.ts:21042
+main.ts:21720
 
 ***
 
@@ -82,7 +84,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21038
+main.ts:21716
 
 ***
 
@@ -99,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21035
+main.ts:21713
 
 ***
 
@@ -115,7 +117,7 @@ type of element
 
 #### Defined in
 
-main.ts:21032
+main.ts:21710
 
 ## Methods
 
@@ -125,7 +127,9 @@ main.ts:21032
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -133,7 +137,7 @@ main.ts:21032
 
 #### Defined in
 
-main.ts:21056
+main.ts:21734
 
 ***
 
@@ -143,7 +147,9 @@ main.ts:21056
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -151,7 +157,7 @@ main.ts:21056
 
 #### Defined in
 
-main.ts:21112
+main.ts:21790
 
 ***
 
@@ -161,7 +167,9 @@ main.ts:21112
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -169,4 +177,4 @@ main.ts:21112
 
 #### Defined in
 
-main.ts:21065
+main.ts:21743

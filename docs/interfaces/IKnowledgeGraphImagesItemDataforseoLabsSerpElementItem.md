@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem
 
@@ -25,7 +25,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96205
+main.ts:105849
 
 ***
 
@@ -37,7 +37,7 @@ link of the element
 
 #### Defined in
 
-main.ts:96202
+main.ts:105846
 
 ***
 
@@ -55,7 +55,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -72,7 +72,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -105,7 +105,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -121,4 +121,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingOrganicLiveRegularResultInfo
+[Documentation](../README.md) / ISerpBingOrganicLiveRegularResultInfo
 
 # Interface: ISerpBingOrganicLiveRegularResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:58649
+main.ts:65420
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:58654
+main.ts:65425
 
 ***
 
@@ -50,7 +50,7 @@ possible item types: organic, paid
 
 #### Defined in
 
-main.ts:58661
+main.ts:65435
 
 ***
 
@@ -63,7 +63,7 @@ array of 8 search queries related to the keyword
 
 #### Defined in
 
-main.ts:58668
+main.ts:65442
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:58665
+main.ts:65439
 
 ***
 
@@ -84,11 +84,11 @@ main.ts:58665
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:58638
+main.ts:65409
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:58646
+main.ts:65417
 
 ***
 
@@ -112,7 +112,20 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:58644
+main.ts:65415
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:65431
 
 ***
 
@@ -124,7 +137,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:58642
+main.ts:65413
 
 ***
 
@@ -136,7 +149,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:58663
+main.ts:65437
 
 ***
 
@@ -149,7 +162,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:58657
+main.ts:65428
 
 ***
 
@@ -161,4 +174,4 @@ type of element
 
 #### Defined in
 
-main.ts:58640
+main.ts:65411

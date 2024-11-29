@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ShoppingElement
+[Documentation](../README.md) / ShoppingElement
 
 # Class: ShoppingElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IShoppingElement`](../interfaces/IShoppingElement.md)
+##### data?
+
+[`IShoppingElement`](../interfaces/IShoppingElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:31835
+main.ts:33388
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:31821
+main.ts:33374
 
 ***
 
@@ -65,7 +67,7 @@ by Google
 
 #### Defined in
 
-main.ts:31826
+main.ts:33379
 
 ***
 
@@ -82,7 +84,7 @@ URL of the page on the marketplace website where the product is hosted
 
 #### Defined in
 
-main.ts:31829
+main.ts:33382
 
 ***
 
@@ -98,7 +100,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:31816
+main.ts:33369
 
 ***
 
@@ -115,7 +117,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:31819
+main.ts:33372
 
 ***
 
@@ -131,7 +133,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31814
+main.ts:33367
 
 ***
 
@@ -147,7 +149,7 @@ type of element
 
 #### Defined in
 
-main.ts:31812
+main.ts:33365
 
 ***
 
@@ -163,7 +165,7 @@ URL
 
 #### Defined in
 
-main.ts:31831
+main.ts:33384
 
 ## Methods
 
@@ -173,7 +175,9 @@ main.ts:31831
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +185,7 @@ main.ts:31831
 
 #### Defined in
 
-main.ts:31844
+main.ts:33397
 
 ***
 
@@ -191,7 +195,9 @@ main.ts:31844
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -199,7 +205,7 @@ main.ts:31844
 
 #### Defined in
 
-main.ts:31868
+main.ts:33421
 
 ***
 
@@ -209,7 +215,9 @@ main.ts:31868
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -217,4 +225,4 @@ main.ts:31868
 
 #### Defined in
 
-main.ts:31861
+main.ts:33414

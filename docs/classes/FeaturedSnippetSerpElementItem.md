@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FeaturedSnippetSerpElementItem
+[Documentation](../README.md) / FeaturedSnippetSerpElementItem
 
 # Class: FeaturedSnippetSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md)
+##### data?
+
+[`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:27504
+main.ts:29057
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:27504
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ breadcrumb of the ad element in SERP
 
 #### Defined in
 
-main.ts:27484
+main.ts:29037
 
 ***
 
@@ -84,7 +86,7 @@ description of the ad element in SERP
 
 #### Defined in
 
-main.ts:27480
+main.ts:29033
 
 ***
 
@@ -100,7 +102,7 @@ domain of the ad element in SERP
 
 #### Defined in
 
-main.ts:27476
+main.ts:29029
 
 ***
 
@@ -116,7 +118,7 @@ title
 
 #### Defined in
 
-main.ts:27486
+main.ts:29039
 
 ***
 
@@ -132,7 +134,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27493
+main.ts:29046
 
 ***
 
@@ -154,7 +156,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -175,7 +177,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -197,7 +199,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -215,7 +217,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27500
+main.ts:29053
 
 ***
 
@@ -232,7 +234,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27496
+main.ts:29049
 
 ***
 
@@ -251,7 +253,7 @@ example:
 
 #### Defined in
 
-main.ts:27491
+main.ts:29044
 
 ***
 
@@ -267,7 +269,7 @@ title of the ad element in SERP
 
 #### Defined in
 
-main.ts:27478
+main.ts:29031
 
 ***
 
@@ -287,7 +289,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -303,7 +305,7 @@ relevant URL of the ad element in SERP
 
 #### Defined in
 
-main.ts:27482
+main.ts:29035
 
 ***
 
@@ -323,7 +325,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -333,7 +335,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -345,7 +349,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:27509
+main.ts:29062
 
 ***
 
@@ -355,7 +359,9 @@ main.ts:27509
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -367,7 +373,7 @@ main.ts:27509
 
 #### Defined in
 
-main.ts:27540
+main.ts:29093
 
 ***
 
@@ -377,7 +383,9 @@ main.ts:27540
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -389,4 +397,4 @@ main.ts:27540
 
 #### Defined in
 
-main.ts:27533
+main.ts:29086

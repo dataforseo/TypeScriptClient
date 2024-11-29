@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppInfoTaskPostRequestInfo
+[Documentation](../README.md) / IAppDataGoogleAppInfoTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppInfoTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:189219
+main.ts:201555
 
 ***
 
@@ -35,7 +35,7 @@ main.ts:189219
 > `optional` **language\_code**: `string`
 
 search engine language code
-optional field
+required field if language_name is not specified
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -43,7 +43,7 @@ en
 
 #### Defined in
 
-main.ts:189247
+main.ts:201583
 
 ***
 
@@ -52,7 +52,7 @@ main.ts:189247
 > `optional` **language\_name**: `string`
 
 full name of search engine language
-optional field
+required field if language_code is not specified
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -60,7 +60,7 @@ English
 
 #### Defined in
 
-main.ts:189240
+main.ts:201576
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:189233
+main.ts:201569
 
 ***
 
@@ -94,7 +94,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:189226
+main.ts:201562
 
 ***
 
@@ -109,12 +109,12 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Defined in
 
-main.ts:189287
+main.ts:201623
 
 ***
 
@@ -130,7 +130,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:189277
+main.ts:201613
 
 ***
 
@@ -145,12 +145,12 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Defined in
 
-main.ts:189271
+main.ts:201607
 
 ***
 
@@ -168,7 +168,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:189255
+main.ts:201591
 
 ***
 
@@ -184,4 +184,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:189261
+main.ts:201597

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRankChanges
+[Documentation](../README.md) / IRankChanges
 
 # Interface: IRankChanges
 
@@ -21,7 +21,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Defined in
 
-main.ts:91263
+main.ts:100973
 
 ***
 
@@ -34,7 +34,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Defined in
 
-main.ts:91257
+main.ts:100967
 
 ***
 
@@ -47,7 +47,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Defined in
 
-main.ts:91260
+main.ts:100970
 
 ***
 
@@ -61,4 +61,4 @@ if this element is new, the value will be null
 
 #### Defined in
 
-main.ts:91254
+main.ts:100964

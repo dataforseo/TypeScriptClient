@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleAppIntersectionLiveItem
+[Documentation](../README.md) / DataforseoLabsAppleAppIntersectionLiveItem
 
 # Class: DataforseoLabsAppleAppIntersectionLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAppleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:115752
+main.ts:124924
 
 ## Properties
 
@@ -52,13 +54,13 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Defined in
 
-main.ts:115748
+main.ts:124920
 
 ***
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -68,7 +70,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:115744
+main.ts:124916
 
 ***
 
@@ -84,7 +86,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115742
+main.ts:124914
 
 ## Methods
 
@@ -94,7 +96,9 @@ main.ts:115742
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -102,7 +106,7 @@ main.ts:115742
 
 #### Defined in
 
-main.ts:115761
+main.ts:124933
 
 ***
 
@@ -112,7 +116,9 @@ main.ts:115761
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -120,7 +126,7 @@ main.ts:115761
 
 #### Defined in
 
-main.ts:115786
+main.ts:124958
 
 ***
 
@@ -130,7 +136,9 @@ main.ts:115786
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -138,4 +146,4 @@ main.ts:115786
 
 #### Defined in
 
-main.ts:115779
+main.ts:124951

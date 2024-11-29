@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingRelevantPagesLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingRelevantPagesLiveResultInfo
 
 # Class: DataforseoLabsBingRelevantPagesLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:110216
+main.ts:119548
 
 ## Properties
 
@@ -46,7 +48,7 @@ relevant pages and related data
 
 #### Defined in
 
-main.ts:110212
+main.ts:119544
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:110210
+main.ts:119542
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:110206
+main.ts:119538
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:110203
+main.ts:119535
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:110198
+main.ts:119530
 
 ***
 
@@ -128,7 +130,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:110200
+main.ts:119532
 
 ***
 
@@ -144,7 +146,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:110208
+main.ts:119540
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:110208
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:110208
 
 #### Defined in
 
-main.ts:110225
+main.ts:119557
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:110225
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:110225
 
 #### Defined in
 
-main.ts:110252
+main.ts:119584
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:110252
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:110252
 
 #### Defined in
 
-main.ts:110245
+main.ts:119577

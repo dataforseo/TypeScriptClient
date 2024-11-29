@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSummaryLiveRequestInfo
+[Documentation](../README.md) / ContentAnalysisSummaryLiveRequestInfo
 
 # Class: ContentAnalysisSummaryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md)
+##### data?
+
+[`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:166815
+main.ts:178404
 
 ## Properties
 
@@ -61,7 +63,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:166805
+main.ts:178394
 
 ***
 
@@ -86,7 +88,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:166773
+main.ts:178362
 
 ***
 
@@ -97,11 +99,11 @@ main.ts:166773
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -109,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:166744
+main.ts:178333
 
 ***
 
@@ -139,7 +141,7 @@ example:
 
 #### Defined in
 
-main.ts:166756
+main.ts:178345
 
 ***
 
@@ -159,7 +161,7 @@ possible values:
 
 #### Defined in
 
-main.ts:166762
+main.ts:178351
 
 ***
 
@@ -180,7 +182,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:166780
+main.ts:178369
 
 ***
 
@@ -202,7 +204,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:166788
+main.ts:178377
 
 ***
 
@@ -222,7 +224,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:166811
+main.ts:178400
 
 ## Methods
 
@@ -232,7 +234,9 @@ main.ts:166811
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -240,7 +244,7 @@ main.ts:166811
 
 #### Defined in
 
-main.ts:166824
+main.ts:178413
 
 ***
 
@@ -250,7 +254,9 @@ main.ts:166824
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -258,7 +264,7 @@ main.ts:166824
 
 #### Defined in
 
-main.ts:166862
+main.ts:178451
 
 ***
 
@@ -268,7 +274,9 @@ main.ts:166862
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -276,4 +284,4 @@ main.ts:166862
 
 #### Defined in
 
-main.ts:166855
+main.ts:178444

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:97941
+main.ts:107759
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:97941
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -62,7 +64,7 @@ main.ts:20747
 
 google defined data attribute ID
 example:
-kc:/shopping/gpc:organic-offers
+action:listen_artist
 
 #### Implementation of
 
@@ -70,7 +72,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:97935
+main.ts:107753
 
 ***
 
@@ -86,7 +88,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:97937
+main.ts:107755
 
 ***
 
@@ -108,7 +110,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -129,7 +131,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -150,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -166,7 +168,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97931
+main.ts:107749
 
 ***
 
@@ -186,7 +188,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -206,7 +208,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -216,7 +218,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -228,7 +232,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:97946
+main.ts:107764
 
 ***
 
@@ -238,7 +242,9 @@ main.ts:97946
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +256,7 @@ main.ts:97946
 
 #### Defined in
 
-main.ts:97970
+main.ts:107788
 
 ***
 
@@ -260,7 +266,9 @@ main.ts:97970
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -272,4 +280,4 @@ main.ts:97970
 
 #### Defined in
 
-main.ts:97963
+main.ts:107781

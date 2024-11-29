@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorLanguagesResultInfo
+[Documentation](../README.md) / BusinessDataTripadvisorLanguagesResultInfo
 
 # Class: BusinessDataTripadvisorLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:212543
+main.ts:227476
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:212539
+main.ts:227472
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:212537
+main.ts:227470
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:212537
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:212537
 
 #### Defined in
 
-main.ts:212552
+main.ts:227485
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:212552
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:212552
 
 #### Defined in
 
-main.ts:212570
+main.ts:227503
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:212570
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:212570
 
 #### Defined in
 
-main.ts:212563
+main.ts:227496

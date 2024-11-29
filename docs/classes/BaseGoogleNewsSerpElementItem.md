@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseGoogleNewsSerpElementItem
+[Documentation](../README.md) / BaseGoogleNewsSerpElementItem
 
 # Class: BaseGoogleNewsSerpElementItem
 
@@ -23,7 +23,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseGoogleNewsSerpElementItem`](../interfaces/IBaseGoogleNewsSerpElementItem.md)
+##### data?
+
+[`IBaseGoogleNewsSerpElementItem`](../interfaces/IBaseGoogleNewsSerpElementItem.md)
 
 #### Returns
 
@@ -31,7 +33,7 @@
 
 #### Defined in
 
-main.ts:43899
+main.ts:46144
 
 ## Properties
 
@@ -41,7 +43,7 @@ main.ts:43899
 
 #### Defined in
 
-main.ts:43897
+main.ts:46142
 
 ***
 
@@ -58,7 +60,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:43887
+main.ts:46132
 
 ***
 
@@ -76,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:43884
+main.ts:46129
 
 ***
 
@@ -94,7 +96,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:43895
+main.ts:46140
 
 ***
 
@@ -102,7 +104,7 @@ main.ts:43895
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Implementation of
 
@@ -110,7 +112,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:43891
+main.ts:46136
 
 ***
 
@@ -126,7 +128,7 @@ type of element
 
 #### Defined in
 
-main.ts:43880
+main.ts:46125
 
 ***
 
@@ -142,7 +144,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:43889
+main.ts:46134
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:43889
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:43889
 
 #### Defined in
 
-main.ts:43909
+main.ts:46154
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:43909
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:43909
 
 #### Defined in
 
-main.ts:43937
+main.ts:46182
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:43937
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:43937
 
 #### Defined in
 
-main.ts:43920
+main.ts:46165

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixStatusEndpointsInfo
+[Documentation](../README.md) / AppendixStatusEndpointsInfo
 
 # Class: AppendixStatusEndpointsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md)
+##### data?
+
+[`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:224190
+main.ts:239377
 
 ## Properties
 
@@ -51,7 +53,7 @@ postback/pingback
 
 #### Defined in
 
-main.ts:224176
+main.ts:239363
 
 ***
 
@@ -75,7 +77,7 @@ send_delay
 
 #### Defined in
 
-main.ts:224186
+main.ts:239373
 
 ## Methods
 
@@ -85,7 +87,9 @@ main.ts:224186
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -93,7 +97,7 @@ main.ts:224186
 
 #### Defined in
 
-main.ts:224199
+main.ts:239386
 
 ***
 
@@ -103,7 +107,9 @@ main.ts:224199
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -111,7 +117,7 @@ main.ts:224199
 
 #### Defined in
 
-main.ts:224217
+main.ts:239404
 
 ***
 
@@ -121,7 +127,9 @@ main.ts:224217
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -129,4 +137,4 @@ main.ts:224217
 
 #### Defined in
 
-main.ts:224210
+main.ts:239397

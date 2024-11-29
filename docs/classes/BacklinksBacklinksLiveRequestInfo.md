@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBacklinksLiveRequestInfo
+[Documentation](../README.md) / BacklinksBacklinksLiveRequestInfo
 
 # Class: BacklinksBacklinksLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:140250
+main.ts:151455
 
 ## Properties
 
@@ -53,7 +55,7 @@ default value: live
 
 #### Defined in
 
-main.ts:140223
+main.ts:151428
 
 ***
 
@@ -78,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:140147
+main.ts:151352
 
 ***
 
@@ -98,7 +100,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140240
+main.ts:151445
 
 ***
 
@@ -125,7 +127,7 @@ semantic_location
 
 #### Defined in
 
-main.ts:140160
+main.ts:151365
 
 ***
 
@@ -156,7 +158,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:140181
+main.ts:151386
 
 ***
 
@@ -176,7 +178,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140234
+main.ts:151439
 
 ***
 
@@ -195,7 +197,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140228
+main.ts:151433
 
 ***
 
@@ -214,7 +216,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:140214
+main.ts:151419
 
 ***
 
@@ -236,7 +238,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:140140
+main.ts:151345
 
 ***
 
@@ -256,7 +258,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Defined in
 
-main.ts:140201
+main.ts:151406
 
 ***
 
@@ -284,7 +286,7 @@ example:
 
 #### Defined in
 
-main.ts:140195
+main.ts:151400
 
 ***
 
@@ -306,7 +308,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Defined in
 
-main.ts:140209
+main.ts:151414
 
 ***
 
@@ -326,7 +328,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:140246
+main.ts:151451
 
 ***
 
@@ -345,7 +347,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:140132
+main.ts:151337
 
 ***
 
@@ -363,7 +365,7 @@ can be set from 1 to 1000
 
 #### Defined in
 
-main.ts:140164
+main.ts:151369
 
 ## Methods
 
@@ -373,7 +375,9 @@ main.ts:140164
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -381,7 +385,7 @@ main.ts:140164
 
 #### Defined in
 
-main.ts:140259
+main.ts:151464
 
 ***
 
@@ -391,7 +395,9 @@ main.ts:140259
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -399,7 +405,7 @@ main.ts:140259
 
 #### Defined in
 
-main.ts:140304
+main.ts:151509
 
 ***
 
@@ -409,7 +415,9 @@ main.ts:140304
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -417,4 +425,4 @@ main.ts:140304
 
 #### Defined in
 
-main.ts:140297
+main.ts:151502

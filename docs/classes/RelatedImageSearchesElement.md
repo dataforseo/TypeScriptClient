@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RelatedImageSearchesElement
+[Documentation](../README.md) / RelatedImageSearchesElement
 
 # Class: RelatedImageSearchesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md)
+##### data?
+
+[`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:30547
+main.ts:32106
 
 ## Properties
 
@@ -46,7 +48,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:30538
+main.ts:32097
 
 ***
 
@@ -63,7 +65,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:30543
+main.ts:32102
 
 ***
 
@@ -79,7 +81,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30536
+main.ts:32095
 
 ***
 
@@ -95,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:30534
+main.ts:32093
 
 ***
 
@@ -111,7 +113,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:30540
+main.ts:32099
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:30540
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:30540
 
 #### Defined in
 
-main.ts:30556
+main.ts:32115
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:30556
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:30556
 
 #### Defined in
 
-main.ts:30577
+main.ts:32136
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:30577
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:30577
 
 #### Defined in
 
-main.ts:30570
+main.ts:32129

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRedirect
+[Documentation](../README.md) / IRedirect
 
 # Interface: IRedirect
 
@@ -20,7 +20,7 @@ HTTP status code of the URL
 
 #### Defined in
 
-main.ts:140584
+main.ts:151789
 
 ***
 
@@ -32,7 +32,7 @@ type of element
 
 #### Defined in
 
-main.ts:140582
+main.ts:151787
 
 ***
 
@@ -44,4 +44,4 @@ indirect link URL
 
 #### Defined in
 
-main.ts:140586
+main.ts:151791

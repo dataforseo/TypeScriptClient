@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITechnologyCategoryInfo
+[Documentation](../README.md) / ITechnologyCategoryInfo
 
 # Interface: ITechnologyCategoryInfo
 
@@ -22,7 +22,7 @@ crm, cart_abandonment
 
 #### Defined in
 
-main.ts:75943
+main.ts:85647
 
 ***
 
@@ -36,7 +36,7 @@ user_generated_content.content_curation
 
 #### Defined in
 
-main.ts:75947
+main.ts:85651
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:75953
+main.ts:85657
 
 ***
 
@@ -62,4 +62,4 @@ title of the technology category
 
 #### Defined in
 
-main.ts:75949
+main.ts:85653

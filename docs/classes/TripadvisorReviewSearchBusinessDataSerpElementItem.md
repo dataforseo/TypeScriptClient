@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TripadvisorReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / TripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Class: TripadvisorReviewSearchBusinessDataSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md)
+##### data?
+
+[`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:214237
+main.ts:229180
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:214237
 
 #### Defined in
 
-main.ts:21313
+main.ts:22211
 
 ***
 
@@ -71,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:214215
+main.ts:229158
 
 ***
 
@@ -88,7 +90,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:214206
+main.ts:229149
 
 ***
 
@@ -108,7 +110,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21311
+main.ts:22209
 
 ***
 
@@ -129,7 +131,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21309
+main.ts:22207
 
 ***
 
@@ -145,7 +147,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:214210
+main.ts:229153
 
 ***
 
@@ -161,7 +163,7 @@ contains information about the owner’s response
 
 #### Defined in
 
-main.ts:214230
+main.ts:229173
 
 ***
 
@@ -178,7 +180,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:214233
+main.ts:229176
 
 ***
 
@@ -194,7 +196,7 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-main.ts:214226
+main.ts:229169
 
 ***
 
@@ -210,7 +212,7 @@ content of the review
 
 #### Defined in
 
-main.ts:214224
+main.ts:229167
 
 ***
 
@@ -229,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:214220
+main.ts:229163
 
 ***
 
@@ -245,7 +247,7 @@ title of the review
 
 #### Defined in
 
-main.ts:214222
+main.ts:229165
 
 ***
 
@@ -265,7 +267,7 @@ type of element
 
 #### Defined in
 
-main.ts:21306
+main.ts:22204
 
 ***
 
@@ -281,7 +283,7 @@ URL of the review
 
 #### Defined in
 
-main.ts:214208
+main.ts:229151
 
 ***
 
@@ -297,7 +299,7 @@ information from the reviewer’s profile
 
 #### Defined in
 
-main.ts:214228
+main.ts:229171
 
 ## Methods
 
@@ -307,7 +309,9 @@ main.ts:214228
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -319,7 +323,7 @@ main.ts:214228
 
 #### Defined in
 
-main.ts:214242
+main.ts:229185
 
 ***
 
@@ -329,7 +333,9 @@ main.ts:214242
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -341,7 +347,7 @@ main.ts:214242
 
 #### Defined in
 
-main.ts:214282
+main.ts:229225
 
 ***
 
@@ -351,7 +357,9 @@ main.ts:214282
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -363,4 +371,4 @@ main.ts:214282
 
 #### Defined in
 
-main.ts:214275
+main.ts:229218

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesTasksFixedResultInfo
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoSubtitlesTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoSubtitlesTasksFixedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:63805
+main.ts:72007
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:63790
+main.ts:71992
 
 ***
 
@@ -63,7 +65,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:63798
+main.ts:72000
 
 ***
 
@@ -80,7 +82,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:63801
+main.ts:72003
 
 ***
 
@@ -97,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:63795
+main.ts:71997
 
 ***
 
@@ -114,7 +116,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:63783
+main.ts:71985
 
 ***
 
@@ -130,7 +132,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:63785
+main.ts:71987
 
 ***
 
@@ -147,7 +149,7 @@ can take the following values: video_subtitles
 
 #### Defined in
 
-main.ts:63788
+main.ts:71990
 
 ***
 
@@ -163,7 +165,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:63792
+main.ts:71994
 
 ## Methods
 
@@ -173,7 +175,9 @@ main.ts:63792
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +185,7 @@ main.ts:63792
 
 #### Defined in
 
-main.ts:63814
+main.ts:72016
 
 ***
 
@@ -191,7 +195,9 @@ main.ts:63814
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -199,7 +205,7 @@ main.ts:63814
 
 #### Defined in
 
-main.ts:63838
+main.ts:72040
 
 ***
 
@@ -209,7 +215,9 @@ main.ts:63838
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -217,4 +225,4 @@ main.ts:63838
 
 #### Defined in
 
-main.ts:63831
+main.ts:72033

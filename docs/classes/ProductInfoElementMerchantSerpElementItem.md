@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductInfoElementMerchantSerpElementItem
+[Documentation](../README.md) / ProductInfoElementMerchantSerpElementItem
 
 # Class: ProductInfoElementMerchantSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md)
+##### data?
+
+[`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:178823
+main.ts:190564
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:178823
 
 #### Defined in
 
-main.ts:21044
+main.ts:21722
 
 ***
 
@@ -68,7 +70,7 @@ description of the product
 
 #### Defined in
 
-main.ts:178798
+main.ts:190539
 
 ***
 
@@ -85,7 +87,7 @@ contains snippets with the description of product features
 
 #### Defined in
 
-main.ts:178807
+main.ts:190548
 
 ***
 
@@ -102,7 +104,7 @@ contains urls to product images
 
 #### Defined in
 
-main.ts:178804
+main.ts:190545
 
 ***
 
@@ -124,7 +126,7 @@ left, right
 
 #### Defined in
 
-main.ts:21042
+main.ts:21720
 
 ***
 
@@ -141,7 +143,7 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178794
+main.ts:190535
 
 ***
 
@@ -162,7 +164,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21038
+main.ts:21716
 
 ***
 
@@ -183,7 +185,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21035
+main.ts:21713
 
 ***
 
@@ -200,7 +202,7 @@ the popularity rate based on reviews
 
 #### Defined in
 
-main.ts:178810
+main.ts:190551
 
 ***
 
@@ -217,7 +219,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178813
+main.ts:190554
 
 ***
 
@@ -234,7 +236,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178816
+main.ts:190557
 
 ***
 
@@ -250,7 +252,7 @@ title of the product
 
 #### Defined in
 
-main.ts:178796
+main.ts:190537
 
 ***
 
@@ -270,7 +272,7 @@ type of element
 
 #### Defined in
 
-main.ts:21032
+main.ts:21710
 
 ***
 
@@ -287,7 +289,7 @@ url of the product on Google Shopping
 
 #### Defined in
 
-main.ts:178801
+main.ts:190542
 
 ***
 
@@ -304,7 +306,7 @@ contains brief information about different product variations
 
 #### Defined in
 
-main.ts:178819
+main.ts:190560
 
 ## Methods
 
@@ -314,7 +316,9 @@ main.ts:178819
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -326,7 +330,7 @@ main.ts:178819
 
 #### Defined in
 
-main.ts:178828
+main.ts:190569
 
 ***
 
@@ -336,7 +340,9 @@ main.ts:178828
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -348,7 +354,7 @@ main.ts:178828
 
 #### Defined in
 
-main.ts:178871
+main.ts:190612
 
 ***
 
@@ -358,7 +364,9 @@ main.ts:178871
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -370,4 +378,4 @@ main.ts:178871
 
 #### Defined in
 
-main.ts:178864
+main.ts:190605

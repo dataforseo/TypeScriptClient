@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleSubdomainsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleSubdomainsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleSubdomainsLiveRequestInfo
 
@@ -32,7 +32,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:94322
+main.ts:104040
 
 ***
 
@@ -51,7 +51,7 @@ default value: live
 
 #### Defined in
 
-main.ts:94308
+main.ts:104026
 
 ***
 
@@ -68,7 +68,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:94299
+main.ts:104017
 
 ***
 
@@ -87,7 +87,7 @@ default value:
 
 #### Defined in
 
-main.ts:94292
+main.ts:104010
 
 ***
 
@@ -106,7 +106,7 @@ en
 
 #### Defined in
 
-main.ts:94283
+main.ts:104001
 
 ***
 
@@ -125,7 +125,7 @@ English
 
 #### Defined in
 
-main.ts:94274
+main.ts:103992
 
 ***
 
@@ -140,7 +140,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:94344
+main.ts:104062
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:94265
+main.ts:103983
 
 ***
 
@@ -178,7 +178,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:94256
+main.ts:103974
 
 ***
 
@@ -193,7 +193,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:94349
+main.ts:104067
 
 ***
 
@@ -220,7 +220,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:94339
+main.ts:104057
 
 ***
 
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:94355
+main.ts:104073
 
 ***
 
@@ -251,4 +251,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:94247
+main.ts:103965

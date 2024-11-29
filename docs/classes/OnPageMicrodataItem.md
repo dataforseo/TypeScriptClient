@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageMicrodataItem
+[Documentation](../README.md) / OnPageMicrodataItem
 
 # Class: OnPageMicrodataItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageMicrodataItem`](../interfaces/IOnPageMicrodataItem.md)
+##### data?
+
+[`IOnPageMicrodataItem`](../interfaces/IOnPageMicrodataItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160179
+main.ts:171822
 
 ## Properties
 
@@ -46,7 +48,7 @@ information related to microdata validation
 
 #### Defined in
 
-main.ts:160175
+main.ts:171818
 
 ***
 
@@ -62,7 +64,7 @@ type of element
 
 #### Defined in
 
-main.ts:160173
+main.ts:171816
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:160173
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:160173
 
 #### Defined in
 
-main.ts:160188
+main.ts:171831
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:160188
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:160188
 
 #### Defined in
 
-main.ts:160206
+main.ts:171849
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:160206
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:160206
 
 #### Defined in
 
-main.ts:160199
+main.ts:171842

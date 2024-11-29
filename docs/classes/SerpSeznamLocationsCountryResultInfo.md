@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpSeznamLocationsCountryResultInfo
+[Documentation](../README.md) / SerpSeznamLocationsCountryResultInfo
 
 # Class: SerpSeznamLocationsCountryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpSeznamLocationsCountryResultInfo`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md)
+##### data?
+
+[`ISerpSeznamLocationsCountryResultInfo`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:72728
+main.ts:82372
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:72722
+main.ts:82366
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:72714
+main.ts:82358
 
 ***
 
@@ -80,7 +82,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:72720
+main.ts:82364
 
 ***
 
@@ -96,7 +98,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:72716
+main.ts:82360
 
 ***
 
@@ -112,7 +114,7 @@ location type
 
 #### Defined in
 
-main.ts:72724
+main.ts:82368
 
 ## Methods
 
@@ -122,7 +124,9 @@ main.ts:72724
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +134,7 @@ main.ts:72724
 
 #### Defined in
 
-main.ts:72737
+main.ts:82381
 
 ***
 
@@ -140,7 +144,9 @@ main.ts:72737
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +154,7 @@ main.ts:72737
 
 #### Defined in
 
-main.ts:72758
+main.ts:82402
 
 ***
 
@@ -158,7 +164,9 @@ main.ts:72758
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -166,4 +174,4 @@ main.ts:72758
 
 #### Defined in
 
-main.ts:72751
+main.ts:82395

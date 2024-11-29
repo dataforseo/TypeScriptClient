@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleReviewsSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / GoogleReviewsSearchBusinessDataSerpElementItem
 
 # Class: GoogleReviewsSearchBusinessDataSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md)
+##### data?
+
+[`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:208575
+main.ts:222119
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:208575
 
 #### Defined in
 
-main.ts:21313
+main.ts:22211
 
 ***
 
@@ -68,7 +70,7 @@ images submitted by the reviewer
 
 #### Defined in
 
-main.ts:208568
+main.ts:222112
 
 ***
 
@@ -84,7 +86,7 @@ indicates whether the reviewer has a ‘local guide’ status
 
 #### Defined in
 
-main.ts:208540
+main.ts:222084
 
 ***
 
@@ -101,7 +103,7 @@ the original response to the review, no auto-translate applied
 
 #### Defined in
 
-main.ts:208554
+main.ts:222098
 
 ***
 
@@ -118,7 +120,7 @@ the original content of the review, no auto-translate applied
 
 #### Defined in
 
-main.ts:208524
+main.ts:222068
 
 ***
 
@@ -135,7 +137,7 @@ the owner’s response to the review
 
 #### Defined in
 
-main.ts:208551
+main.ts:222095
 
 ***
 
@@ -152,7 +154,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 #### Defined in
 
-main.ts:208557
+main.ts:222101
 
 ***
 
@@ -171,7 +173,7 @@ example:
 
 #### Defined in
 
-main.ts:208562
+main.ts:222106
 
 ***
 
@@ -187,7 +189,7 @@ total number of photos submitted by the reviewer
 
 #### Defined in
 
-main.ts:208538
+main.ts:222082
 
 ***
 
@@ -204,7 +206,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:208517
+main.ts:222061
 
 ***
 
@@ -220,7 +222,7 @@ URL of the reviewer’s profile image
 
 #### Defined in
 
-main.ts:208548
+main.ts:222092
 
 ***
 
@@ -236,7 +238,7 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:208542
+main.ts:222086
 
 ***
 
@@ -252,7 +254,7 @@ URL of the reviewer’s profile
 
 #### Defined in
 
-main.ts:208544
+main.ts:222088
 
 ***
 
@@ -272,7 +274,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21311
+main.ts:22209
 
 ***
 
@@ -293,7 +295,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21309
+main.ts:22207
 
 ***
 
@@ -309,7 +311,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:208534
+main.ts:222078
 
 ***
 
@@ -326,7 +328,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:208571
+main.ts:222115
 
 ***
 
@@ -344,7 +346,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 #### Defined in
 
-main.ts:208566
+main.ts:222110
 
 ***
 
@@ -360,7 +362,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:208521
+main.ts:222065
 
 ***
 
@@ -376,7 +378,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:208546
+main.ts:222090
 
 ***
 
@@ -392,7 +394,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:208536
+main.ts:222080
 
 ***
 
@@ -409,7 +411,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 #### Defined in
 
-main.ts:208527
+main.ts:222071
 
 ***
 
@@ -428,7 +430,7 @@ example:
 
 #### Defined in
 
-main.ts:208532
+main.ts:222076
 
 ***
 
@@ -448,7 +450,7 @@ type of element
 
 #### Defined in
 
-main.ts:21306
+main.ts:22204
 
 ***
 
@@ -464,7 +466,7 @@ the XPath of the review
 
 #### Defined in
 
-main.ts:208519
+main.ts:222063
 
 ## Methods
 
@@ -474,7 +476,9 @@ main.ts:208519
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -486,7 +490,7 @@ main.ts:208519
 
 #### Defined in
 
-main.ts:208580
+main.ts:222124
 
 ***
 
@@ -496,7 +500,9 @@ main.ts:208580
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -508,7 +514,7 @@ main.ts:208580
 
 #### Defined in
 
-main.ts:208626
+main.ts:222170
 
 ***
 
@@ -518,7 +524,9 @@ main.ts:208626
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -530,4 +538,4 @@ main.ts:208626
 
 #### Defined in
 
-main.ts:208619
+main.ts:222163

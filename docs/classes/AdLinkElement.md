@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AdLinkElement
+[Documentation](../README.md) / AdLinkElement
 
 # Class: AdLinkElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAdLinkElement`](../interfaces/IAdLinkElement.md)
+##### data?
+
+[`IAdLinkElement`](../interfaces/IAdLinkElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:29596
+main.ts:31155
 
 ## Properties
 
@@ -46,7 +48,7 @@ the identifier of the ad
 
 #### Defined in
 
-main.ts:29592
+main.ts:31151
 
 ***
 
@@ -62,7 +64,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29586
+main.ts:31145
 
 ***
 
@@ -78,7 +80,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29590
+main.ts:31149
 
 ***
 
@@ -94,7 +96,7 @@ title of the element
 
 #### Defined in
 
-main.ts:29584
+main.ts:31143
 
 ***
 
@@ -110,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:29582
+main.ts:31141
 
 ***
 
@@ -126,7 +128,7 @@ URL of element
 
 #### Defined in
 
-main.ts:29588
+main.ts:31147
 
 ## Methods
 
@@ -136,7 +138,9 @@ main.ts:29588
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -144,7 +148,7 @@ main.ts:29588
 
 #### Defined in
 
-main.ts:29605
+main.ts:31164
 
 ***
 
@@ -154,7 +158,9 @@ main.ts:29605
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +168,7 @@ main.ts:29605
 
 #### Defined in
 
-main.ts:29627
+main.ts:31186
 
 ***
 
@@ -172,7 +178,9 @@ main.ts:29627
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -180,4 +188,4 @@ main.ts:29627
 
 #### Defined in
 
-main.ts:29620
+main.ts:31179

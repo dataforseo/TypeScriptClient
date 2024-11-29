@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGrammarRulesResultInfo
+[Documentation](../README.md) / ContentGenerationGrammarRulesResultInfo
 
 # Class: ContentGenerationGrammarRulesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationGrammarRulesResultInfo`](../interfaces/IContentGenerationGrammarRulesResultInfo.md)
+##### data?
+
+[`IContentGenerationGrammarRulesResultInfo`](../interfaces/IContentGenerationGrammarRulesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:171663
+main.ts:183252
 
 ## Properties
 
@@ -46,7 +48,7 @@ array of rules
 
 #### Defined in
 
-main.ts:171659
+main.ts:183248
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:171659
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:171659
 
 #### Defined in
 
-main.ts:171672
+main.ts:183261
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:171672
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:171672
 
 #### Defined in
 
-main.ts:171693
+main.ts:183282
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:171693
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:171693
 
 #### Defined in
 
-main.ts:171686
+main.ts:183275

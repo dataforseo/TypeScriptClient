@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForAppLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForAppLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForAppLiveResultInfo
 
@@ -20,7 +20,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:112463
+main.ts:121795
 
 ***
 
@@ -32,7 +32,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Defined in
 
-main.ts:112473
+main.ts:121805
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:112471
+main.ts:121803
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:112467
+main.ts:121799
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:112465
+main.ts:121797
 
 ***
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:112461
+main.ts:121793
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:112469
+main.ts:121801

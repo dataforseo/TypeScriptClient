@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IShortVideosElement
+[Documentation](../README.md) / IShortVideosElement
 
 # Interface: IShortVideosElement
 
@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:33710
+main.ts:35263
 
 ***
 
@@ -33,7 +33,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:33715
+main.ts:35268
 
 ***
 
@@ -45,7 +45,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33708
+main.ts:35261
 
 ***
 
@@ -57,7 +57,7 @@ type of element
 
 #### Defined in
 
-main.ts:33706
+main.ts:35259
 
 ***
 
@@ -69,4 +69,4 @@ URL
 
 #### Defined in
 
-main.ts:33712
+main.ts:35265

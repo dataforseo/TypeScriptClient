@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphHotelsBookingElement
+[Documentation](../README.md) / IKnowledgeGraphHotelsBookingElement
 
 # Interface: IKnowledgeGraphHotelsBookingElement
 
@@ -20,7 +20,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29074
+main.ts:30633
 
 ***
 
@@ -32,7 +32,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29078
+main.ts:30637
 
 ***
 
@@ -44,7 +44,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:29083
+main.ts:30642
 
 ***
 
@@ -57,7 +57,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:29081
+main.ts:30640
 
 ***
 
@@ -69,7 +69,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:29072
+main.ts:30631
 
 ***
 
@@ -81,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:29070
+main.ts:30629
 
 ***
 
@@ -93,4 +93,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:29076
+main.ts:30635

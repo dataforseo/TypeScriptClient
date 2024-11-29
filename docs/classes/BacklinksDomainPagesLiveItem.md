@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksDomainPagesLiveItem
+[Documentation](../README.md) / BacklinksDomainPagesLiveItem
 
 # Class: BacklinksDomainPagesLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md)
+##### data?
+
+[`IBacklinksDomainPagesLiveItem`](../interfaces/IBacklinksDomainPagesLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:142903
+main.ts:154108
 
 ## Properties
 
@@ -46,7 +48,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:142891
+main.ts:154096
 
 ***
 
@@ -63,7 +65,7 @@ domain where the page was found
 
 #### Defined in
 
-main.ts:142855
+main.ts:154060
 
 ***
 
@@ -80,7 +82,7 @@ indicates the size of the encoded page, in bytes
 
 #### Defined in
 
-main.ts:142889
+main.ts:154094
 
 ***
 
@@ -99,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:142879
+main.ts:154084
 
 ***
 
@@ -119,7 +121,7 @@ example:
 
 #### Defined in
 
-main.ts:142869
+main.ts:154074
 
 ***
 
@@ -135,7 +137,7 @@ Internet Protocol address
 
 #### Defined in
 
-main.ts:142863
+main.ts:154068
 
 ***
 
@@ -152,7 +154,7 @@ indicates the URL to redirect a page to if exists
 
 #### Defined in
 
-main.ts:142884
+main.ts:154089
 
 ***
 
@@ -169,7 +171,7 @@ main website domain does not include subdomains
 
 #### Defined in
 
-main.ts:142852
+main.ts:154057
 
 ***
 
@@ -185,7 +187,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:142893
+main.ts:154098
 
 ***
 
@@ -201,7 +203,7 @@ page meta data
 
 #### Defined in
 
-main.ts:142897
+main.ts:154102
 
 ***
 
@@ -218,7 +220,7 @@ relevant page URL
 
 #### Defined in
 
-main.ts:142861
+main.ts:154066
 
 ***
 
@@ -234,7 +236,7 @@ contains backlink data for this page
 
 #### Defined in
 
-main.ts:142899
+main.ts:154104
 
 ***
 
@@ -253,7 +255,7 @@ example:
 
 #### Defined in
 
-main.ts:142874
+main.ts:154079
 
 ***
 
@@ -269,7 +271,7 @@ server version
 
 #### Defined in
 
-main.ts:142895
+main.ts:154100
 
 ***
 
@@ -285,7 +287,7 @@ indicates the page size, in bytes
 
 #### Defined in
 
-main.ts:142886
+main.ts:154091
 
 ***
 
@@ -301,7 +303,7 @@ HTTP status code of the page
 
 #### Defined in
 
-main.ts:142881
+main.ts:154086
 
 ***
 
@@ -318,7 +320,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:142858
+main.ts:154063
 
 ***
 
@@ -334,7 +336,7 @@ type of element
 
 #### Defined in
 
-main.ts:142849
+main.ts:154054
 
 ## Methods
 
@@ -344,7 +346,9 @@ main.ts:142849
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -352,7 +356,7 @@ main.ts:142849
 
 #### Defined in
 
-main.ts:142912
+main.ts:154117
 
 ***
 
@@ -362,7 +366,9 @@ main.ts:142912
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -370,7 +376,7 @@ main.ts:142912
 
 #### Defined in
 
-main.ts:142946
+main.ts:154151
 
 ***
 
@@ -380,7 +386,9 @@ main.ts:142946
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -388,4 +396,4 @@ main.ts:142946
 
 #### Defined in
 
-main.ts:142939
+main.ts:154144

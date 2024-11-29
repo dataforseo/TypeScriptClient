@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixDataforseoTrendsKeywordsDataPriceData
+[Documentation](../README.md) / IAppendixDataforseoTrendsKeywordsDataPriceData
 
 # Interface: IAppendixDataforseoTrendsKeywordsDataPriceData
 
@@ -14,38 +14,38 @@
 
 ### demography?
 
-> `optional` **demography**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **demography**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:221391
+main.ts:236562
 
 ***
 
 ### explore?
 
-> `optional` **explore**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **explore**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:221392
+main.ts:236563
 
 ***
 
 ### merged\_data?
 
-> `optional` **merged\_data**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **merged\_data**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:221393
+main.ts:236564
 
 ***
 
 ### subregion\_interests?
 
-> `optional` **subregion\_interests**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **subregion\_interests**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:221394
+main.ts:236565

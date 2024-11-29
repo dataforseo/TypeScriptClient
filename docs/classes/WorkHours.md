@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / WorkHours
+[Documentation](../README.md) / WorkHours
 
 # Class: WorkHours
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IWorkHours`](../interfaces/IWorkHours.md)
+##### data?
+
+[`IWorkHours`](../interfaces/IWorkHours.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:39693
+main.ts:41502
 
 ## Properties
 
@@ -47,7 +49,7 @@ indicates whether the establishment is opened or closed
 
 #### Defined in
 
-main.ts:39689
+main.ts:41498
 
 ***
 
@@ -59,7 +61,7 @@ work hours timetable
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`WorkDayInfo`](WorkDayInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: [`WorkDayInfo`](WorkDayInfo.md)[]
 
 #### Implementation of
 
@@ -67,7 +69,7 @@ work hours timetable
 
 #### Defined in
 
-main.ts:39686
+main.ts:41495
 
 ## Methods
 
@@ -77,7 +79,9 @@ main.ts:39686
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -85,7 +89,7 @@ main.ts:39686
 
 #### Defined in
 
-main.ts:39702
+main.ts:41511
 
 ***
 
@@ -95,7 +99,9 @@ main.ts:39702
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -103,7 +109,7 @@ main.ts:39702
 
 #### Defined in
 
-main.ts:39726
+main.ts:41535
 
 ***
 
@@ -113,7 +119,9 @@ main.ts:39726
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -121,4 +129,4 @@ main.ts:39726
 
 #### Defined in
 
-main.ts:39719
+main.ts:41528

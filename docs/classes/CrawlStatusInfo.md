@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CrawlStatusInfo
+[Documentation](../README.md) / CrawlStatusInfo
 
 # Class: CrawlStatusInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md)
+##### data?
+
+[`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22500
+main.ts:23398
 
 ## Properties
 
@@ -47,7 +49,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Defined in
 
-main.ts:22492
+main.ts:23390
 
 ***
 
@@ -63,7 +65,7 @@ number of crawled pages
 
 #### Defined in
 
-main.ts:22496
+main.ts:23394
 
 ***
 
@@ -79,7 +81,7 @@ number of pages that are currently in the crawling queue
 
 #### Defined in
 
-main.ts:22494
+main.ts:23392
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:22494
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:22494
 
 #### Defined in
 
-main.ts:22509
+main.ts:23407
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:22509
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:22509
 
 #### Defined in
 
-main.ts:22528
+main.ts:23426
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:22528
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:22528
 
 #### Defined in
 
-main.ts:22521
+main.ts:23419

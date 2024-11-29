@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppListTaskPostRequestInfo
+[Documentation](../README.md) / IAppDataGoogleAppListTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppListTaskPostRequestInfo
 
@@ -28,7 +28,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 #### Defined in
 
-main.ts:188293
+main.ts:200629
 
 ***
 
@@ -46,7 +46,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 #### Defined in
 
-main.ts:188283
+main.ts:200619
 
 ***
 
@@ -63,7 +63,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 #### Defined in
 
-main.ts:188232
+main.ts:200568
 
 ***
 
@@ -80,7 +80,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:188275
+main.ts:200611
 
 ***
 
@@ -89,7 +89,7 @@ main.ts:188275
 > `optional` **language\_code**: `string`
 
 search engine language code
-optional field
+required field if language_name is not specified
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -97,7 +97,7 @@ en
 
 #### Defined in
 
-main.ts:188260
+main.ts:200596
 
 ***
 
@@ -106,7 +106,7 @@ main.ts:188260
 > `optional` **language\_name**: `string`
 
 full name of search engine language
-optional field
+required field if language_code is not specified
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -114,7 +114,7 @@ English
 
 #### Defined in
 
-main.ts:188253
+main.ts:200589
 
 ***
 
@@ -131,7 +131,7 @@ example:
 
 #### Defined in
 
-main.ts:188246
+main.ts:200582
 
 ***
 
@@ -148,7 +148,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:188239
+main.ts:200575
 
 ***
 
@@ -163,12 +163,12 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Defined in
 
-main.ts:188325
+main.ts:200661
 
 ***
 
@@ -184,7 +184,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:188315
+main.ts:200651
 
 ***
 
@@ -199,12 +199,12 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Defined in
 
-main.ts:188309
+main.ts:200645
 
 ***
 
@@ -222,7 +222,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:188268
+main.ts:200604
 
 ***
 
@@ -238,4 +238,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:188299
+main.ts:200635

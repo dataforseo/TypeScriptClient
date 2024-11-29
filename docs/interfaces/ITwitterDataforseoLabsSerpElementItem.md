@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITwitterDataforseoLabsSerpElementItem
+[Documentation](../README.md) / ITwitterDataforseoLabsSerpElementItem
 
 # Interface: ITwitterDataforseoLabsSerpElementItem
 
@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:96013
+main.ts:106365
 
 ***
 
@@ -42,7 +42,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -88,7 +88,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96007
+main.ts:106359
 
 ***
 
@@ -100,7 +100,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:96009
+main.ts:106361
 
 ***
 
@@ -116,7 +116,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -128,7 +128,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:96011
+main.ts:106363
 
 ***
 
@@ -144,4 +144,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

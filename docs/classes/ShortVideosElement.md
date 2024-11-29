@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ShortVideosElement
+[Documentation](../README.md) / ShortVideosElement
 
 # Class: ShortVideosElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IShortVideosElement`](../interfaces/IShortVideosElement.md)
+##### data?
+
+[`IShortVideosElement`](../interfaces/IShortVideosElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:33659
+main.ts:35212
 
 ## Properties
 
@@ -46,7 +48,7 @@ website domain
 
 #### Defined in
 
-main.ts:33650
+main.ts:35203
 
 ***
 
@@ -63,7 +65,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:33655
+main.ts:35208
 
 ***
 
@@ -79,7 +81,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33648
+main.ts:35201
 
 ***
 
@@ -95,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:33646
+main.ts:35199
 
 ***
 
@@ -111,7 +113,7 @@ URL
 
 #### Defined in
 
-main.ts:33652
+main.ts:35205
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:33652
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:33652
 
 #### Defined in
 
-main.ts:33668
+main.ts:35221
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:33668
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:33668
 
 #### Defined in
 
-main.ts:33689
+main.ts:35242
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:33689
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:33689
 
 #### Defined in
 
-main.ts:33682
+main.ts:35235

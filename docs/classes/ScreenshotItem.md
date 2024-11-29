@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ScreenshotItem
+[Documentation](../README.md) / ScreenshotItem
 
 # Class: ScreenshotItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IScreenshotItem`](../interfaces/IScreenshotItem.md)
+##### data?
+
+[`IScreenshotItem`](../interfaces/IScreenshotItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:25148
+main.ts:26213
 
 ## Properties
 
@@ -48,7 +50,7 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Defined in
 
-main.ts:25144
+main.ts:26209
 
 ## Methods
 
@@ -58,7 +60,9 @@ main.ts:25144
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -66,7 +70,7 @@ main.ts:25144
 
 #### Defined in
 
-main.ts:25157
+main.ts:26222
 
 ***
 
@@ -76,7 +80,9 @@ main.ts:25157
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -84,7 +90,7 @@ main.ts:25157
 
 #### Defined in
 
-main.ts:25174
+main.ts:26239
 
 ***
 
@@ -94,7 +100,9 @@ main.ts:25174
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -102,4 +110,4 @@ main.ts:25174
 
 #### Defined in
 
-main.ts:25167
+main.ts:26232

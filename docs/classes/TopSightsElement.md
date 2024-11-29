@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopSightsElement
+[Documentation](../README.md) / TopSightsElement
 
 # Class: TopSightsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITopSightsElement`](../interfaces/ITopSightsElement.md)
+##### data?
+
+[`ITopSightsElement`](../interfaces/ITopSightsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:32805
+main.ts:34358
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:32798
+main.ts:34351
 
 ***
 
@@ -63,7 +65,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32801
+main.ts:34354
 
 ***
 
@@ -79,7 +81,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32794
+main.ts:34347
 
 ***
 
@@ -95,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:32792
+main.ts:34345
 
 ***
 
@@ -111,7 +113,7 @@ URL
 
 #### Defined in
 
-main.ts:32796
+main.ts:34349
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:32796
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:32796
 
 #### Defined in
 
-main.ts:32814
+main.ts:34367
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:32814
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:32814
 
 #### Defined in
 
-main.ts:32835
+main.ts:34388
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:32835
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:32835
 
 #### Defined in
 
-main.ts:32828
+main.ts:34381

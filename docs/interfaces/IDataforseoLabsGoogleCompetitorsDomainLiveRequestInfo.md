@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
@@ -40,7 +40,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:93055
+main.ts:102773
 
 ***
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:93001
+main.ts:102719
 
 ***
 
@@ -81,7 +81,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:92987
+main.ts:102705
 
 ***
 
@@ -97,7 +97,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:93061
+main.ts:102779
 
 ***
 
@@ -116,7 +116,7 @@ default value:
 
 #### Defined in
 
-main.ts:92980
+main.ts:102698
 
 ***
 
@@ -134,7 +134,7 @@ en
 
 #### Defined in
 
-main.ts:92971
+main.ts:102689
 
 ***
 
@@ -152,7 +152,7 @@ English
 
 #### Defined in
 
-main.ts:92963
+main.ts:102681
 
 ***
 
@@ -167,7 +167,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:93023
+main.ts:102741
 
 ***
 
@@ -185,7 +185,7 @@ example:
 
 #### Defined in
 
-main.ts:92955
+main.ts:102673
 
 ***
 
@@ -203,7 +203,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:92947
+main.ts:102665
 
 ***
 
@@ -218,7 +218,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Defined in
 
-main.ts:93033
+main.ts:102751
 
 ***
 
@@ -233,7 +233,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:93028
+main.ts:102746
 
 ***
 
@@ -260,7 +260,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:93018
+main.ts:102736
 
 ***
 
@@ -276,7 +276,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:93067
+main.ts:102785
 
 ***
 
@@ -291,4 +291,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:92939
+main.ts:102657

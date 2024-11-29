@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksHistoryLiveResultInfo
+[Documentation](../README.md) / IBacklinksHistoryLiveResultInfo
 
 # Interface: IBacklinksHistoryLiveResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:140001
+main.ts:151206
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:140006
+main.ts:151211
 
 ***
 
@@ -52,7 +52,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Defined in
 
-main.ts:140012
+main.ts:151217
 
 ***
 
@@ -64,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:140008
+main.ts:151213
 
 ***
 
@@ -76,4 +76,4 @@ target from the POST array
 
 #### Defined in
 
-main.ts:139996
+main.ts:151201

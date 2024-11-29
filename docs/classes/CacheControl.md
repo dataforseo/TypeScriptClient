@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CacheControl
+[Documentation](../README.md) / CacheControl
 
 # Class: CacheControl
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ICacheControl`](../interfaces/ICacheControl.md)
+##### data?
+
+[`ICacheControl`](../interfaces/ICacheControl.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:155034
+main.ts:166661
 
 ## Properties
 
@@ -46,7 +48,7 @@ indicates whether the page is cacheable
 
 #### Defined in
 
-main.ts:155027
+main.ts:166654
 
 ***
 
@@ -63,7 +65,7 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-main.ts:155030
+main.ts:166657
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:155030
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:155030
 
 #### Defined in
 
-main.ts:155043
+main.ts:166670
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:155043
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:155043
 
 #### Defined in
 
-main.ts:155061
+main.ts:166688
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:155061
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:155061
 
 #### Defined in
 
-main.ts:155054
+main.ts:166681

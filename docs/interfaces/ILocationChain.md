@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocationChain
+[Documentation](../README.md) / ILocationChain
 
 # Interface: ILocationChain
 
@@ -20,7 +20,7 @@ card identifier
 
 #### Defined in
 
-main.ts:205910
+main.ts:219265
 
 ***
 
@@ -33,7 +33,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:205916
+main.ts:219271
 
 ***
 
@@ -46,7 +46,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:205913
+main.ts:219268
 
 ***
 
@@ -58,4 +58,4 @@ title of the element in the location chain
 
 #### Defined in
 
-main.ts:205918
+main.ts:219273

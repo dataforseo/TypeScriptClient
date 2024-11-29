@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksTimeseriesSummaryLiveItem
+[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesSummaryLiveItem
 
@@ -20,7 +20,7 @@ number of backlinks for the given date
 
 #### Defined in
 
-main.ts:148282
+main.ts:159487
 
 ***
 
@@ -32,7 +32,7 @@ number of nofollow backlinks for the given date
 
 #### Defined in
 
-main.ts:148284
+main.ts:159489
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:148277
+main.ts:159482
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:148280
+main.ts:159485
 
 ***
 
@@ -73,7 +73,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:148291
+main.ts:159496
 
 ***
 
@@ -85,7 +85,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Defined in
 
-main.ts:148293
+main.ts:159498
 
 ***
 
@@ -98,7 +98,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:148300
+main.ts:159505
 
 ***
 
@@ -110,7 +110,7 @@ number of referring main domains for the given date
 
 #### Defined in
 
-main.ts:148295
+main.ts:159500
 
 ***
 
@@ -122,7 +122,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Defined in
 
-main.ts:148297
+main.ts:159502
 
 ***
 
@@ -134,7 +134,7 @@ number of pages pointing to target for the given date
 
 #### Defined in
 
-main.ts:148286
+main.ts:159491
 
 ***
 
@@ -146,7 +146,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 #### Defined in
 
-main.ts:148288
+main.ts:159493
 
 ***
 
@@ -158,7 +158,7 @@ number of referring subnetworks for the given date
 
 #### Defined in
 
-main.ts:148302
+main.ts:159507
 
 ***
 
@@ -170,4 +170,4 @@ type of element
 
 #### Defined in
 
-main.ts:148272
+main.ts:159477

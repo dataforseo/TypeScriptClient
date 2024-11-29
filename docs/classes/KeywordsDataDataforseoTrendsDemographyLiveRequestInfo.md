@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
 # Class: KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:126765
+main.ts:137021
 
 ## Properties
 
@@ -53,7 +55,7 @@ example:
 
 #### Defined in
 
-main.ts:126742
+main.ts:136998
 
 ***
 
@@ -74,7 +76,7 @@ example:
 
 #### Defined in
 
-main.ts:126749
+main.ts:137005
 
 ***
 
@@ -87,6 +89,7 @@ required field
 the maximum number of keywords you can specify: 5
 avoid symbols and special characters (e.g., UTF symbols, emojis);
 specifying non-Latin characters, you’ll get data for the countries where they are used
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -94,7 +97,7 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 
 #### Defined in
 
-main.ts:126713
+main.ts:136969
 
 ***
 
@@ -117,7 +120,7 @@ example:
 
 #### Defined in
 
-main.ts:126731
+main.ts:136987
 
 ***
 
@@ -140,7 +143,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:126722
+main.ts:136978
 
 ***
 
@@ -160,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:126761
+main.ts:137017
 
 ***
 
@@ -180,7 +183,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Defined in
 
-main.ts:126755
+main.ts:137011
 
 ***
 
@@ -196,7 +199,7 @@ type of element
 
 #### Defined in
 
-main.ts:126733
+main.ts:136989
 
 ## Methods
 
@@ -206,7 +209,9 @@ main.ts:126733
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +219,7 @@ main.ts:126733
 
 #### Defined in
 
-main.ts:126774
+main.ts:137030
 
 ***
 
@@ -224,7 +229,9 @@ main.ts:126774
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -232,7 +239,7 @@ main.ts:126774
 
 #### Defined in
 
-main.ts:126802
+main.ts:137058
 
 ***
 
@@ -242,7 +249,9 @@ main.ts:126802
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -250,4 +259,4 @@ main.ts:126802
 
 #### Defined in
 
-main.ts:126795
+main.ts:137051

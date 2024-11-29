@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisLocationsResultInfo
+[Documentation](../README.md) / IContentAnalysisLocationsResultInfo
 
 # Interface: IContentAnalysisLocationsResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:165262
+main.ts:176851
 
 ***
 
@@ -32,4 +32,4 @@ full name of the location
 
 #### Defined in
 
-main.ts:165260
+main.ts:176849

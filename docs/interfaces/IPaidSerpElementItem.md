@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPaidSerpElementItem
+[Documentation](../README.md) / IPaidSerpElementItem
 
 # Interface: IPaidSerpElementItem
 
@@ -24,7 +24,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:27157
+main.ts:28710
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27171
+main.ts:28724
 
 ***
 
@@ -49,7 +49,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:27174
+main.ts:28727
 
 ***
 
@@ -61,7 +61,7 @@ domain name of the reference
 
 #### Defined in
 
-main.ts:27155
+main.ts:28708
 
 ***
 
@@ -77,7 +77,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:27169
+main.ts:28722
 
 ***
 
@@ -89,7 +89,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:27167
+main.ts:28720
 
 ***
 
@@ -101,7 +101,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27163
+main.ts:28716
 
 ***
 
@@ -113,7 +113,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:27159
+main.ts:28712
 
 ***
 
@@ -125,7 +125,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:27161
+main.ts:28714
 
 ***
 
@@ -139,7 +139,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27178
+main.ts:28731
 
 ***
 
@@ -157,7 +157,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -170,7 +170,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27181
+main.ts:28734
 
 ***
 
@@ -187,7 +187,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -205,7 +205,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -219,7 +219,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27185
+main.ts:28738
 
 ***
 
@@ -231,7 +231,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27153
+main.ts:28706
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -259,7 +259,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:27165
+main.ts:28718
 
 ***
 
@@ -271,7 +271,7 @@ website name in SERP
 
 #### Defined in
 
-main.ts:27187
+main.ts:28740
 
 ***
 
@@ -287,4 +287,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

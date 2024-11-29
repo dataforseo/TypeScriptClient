@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksErrorsResultInfo
+[Documentation](../README.md) / IBacklinksErrorsResultInfo
 
 # Interface: IBacklinksErrorsResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:138037
+main.ts:149242
 
 ***
 
@@ -35,7 +35,7 @@ error code
 
 #### Defined in
 
-main.ts:138041
+main.ts:149246
 
 ***
 
@@ -48,7 +48,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:138044
+main.ts:149249
 
 ***
 
@@ -60,7 +60,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:138039
+main.ts:149244
 
 ***
 
@@ -72,7 +72,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:138051
+main.ts:149256
 
 ***
 
@@ -84,7 +84,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:138049
+main.ts:149254
 
 ***
 
@@ -97,7 +97,7 @@ server response
 
 #### Defined in
 
-main.ts:138056
+main.ts:149261
 
 ***
 
@@ -109,7 +109,7 @@ time taken by HTTP request
 
 #### Defined in
 
-main.ts:138053
+main.ts:149258
 
 ***
 
@@ -122,7 +122,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:138047
+main.ts:149252
 
 ***
 
@@ -134,4 +134,4 @@ id of the task
 
 #### Defined in
 
-main.ts:138032
+main.ts:149237

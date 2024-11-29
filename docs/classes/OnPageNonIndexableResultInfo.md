@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageNonIndexableResultInfo
+[Documentation](../README.md) / OnPageNonIndexableResultInfo
 
 # Class: OnPageNonIndexableResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageNonIndexableResultInfo`](../interfaces/IOnPageNonIndexableResultInfo.md)
+##### data?
+
+[`IOnPageNonIndexableResultInfo`](../interfaces/IOnPageNonIndexableResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:158806
+main.ts:170441
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:158794
+main.ts:170429
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:158796
+main.ts:170431
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:158802
+main.ts:170437
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:158800
+main.ts:170435
 
 ***
 
@@ -111,7 +113,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:158798
+main.ts:170433
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:158798
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:158798
 
 #### Defined in
 
-main.ts:158815
+main.ts:170450
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:158815
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:158815
 
 #### Defined in
 
-main.ts:158840
+main.ts:170475
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:158840
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:158840
 
 #### Defined in
 
-main.ts:158833
+main.ts:170468

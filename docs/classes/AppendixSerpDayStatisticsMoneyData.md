@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixSerpDayStatisticsMoneyData
+[Documentation](../README.md) / AppendixSerpDayStatisticsMoneyData
 
 # Class: AppendixSerpDayStatisticsMoneyData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md)
+##### data?
+
+[`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:220129
+main.ts:235128
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:220129
 
 #### Defined in
 
-main.ts:220124
+main.ts:235123
 
 ***
 
@@ -58,13 +60,13 @@ main.ts:220124
 
 #### Defined in
 
-main.ts:220120
+main.ts:235119
 
 ***
 
 ### jobs?
 
-> `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **jobs**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
 
 #### Implementation of
 
@@ -72,7 +74,7 @@ main.ts:220120
 
 #### Defined in
 
-main.ts:220122
+main.ts:235121
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:220122
 
 #### Defined in
 
-main.ts:220118
+main.ts:235117
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:220118
 
 #### Defined in
 
-main.ts:220119
+main.ts:235118
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:220119
 
 #### Defined in
 
-main.ts:220117
+main.ts:235116
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:220117
 
 #### Defined in
 
-main.ts:220125
+main.ts:235124
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:220125
 
 #### Defined in
 
-main.ts:220123
+main.ts:235122
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:220123
 
 #### Defined in
 
-main.ts:220115
+main.ts:235114
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:220115
 
 #### Defined in
 
-main.ts:220114
+main.ts:235113
 
 ***
 
@@ -184,7 +186,7 @@ main.ts:220114
 
 #### Defined in
 
-main.ts:220121
+main.ts:235120
 
 ***
 
@@ -198,7 +200,7 @@ main.ts:220121
 
 #### Defined in
 
-main.ts:220116
+main.ts:235115
 
 ## Methods
 
@@ -208,7 +210,9 @@ main.ts:220116
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +220,7 @@ main.ts:220116
 
 #### Defined in
 
-main.ts:220138
+main.ts:235137
 
 ***
 
@@ -226,7 +230,9 @@ main.ts:220138
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +240,7 @@ main.ts:220138
 
 #### Defined in
 
-main.ts:220166
+main.ts:235165
 
 ***
 
@@ -244,7 +250,9 @@ main.ts:220166
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -252,4 +260,4 @@ main.ts:220166
 
 #### Defined in
 
-main.ts:220159
+main.ts:235158

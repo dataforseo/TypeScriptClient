@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
@@ -14,13 +14,13 @@
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](../classes/DataforseoLabsGoogleRelatedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](../classes/DataforseoLabsRelatedKeywordsLiveItem.md)[]
 
 contains keywords and related data
 
 #### Defined in
 
-main.ts:84403
+main.ts:94117
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:84401
+main.ts:94115
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:84397
+main.ts:94111
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:84395
+main.ts:94109
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84388
+main.ts:94102
 
 ***
 
@@ -80,7 +80,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:84390
+main.ts:94104
 
 ***
 
@@ -97,7 +97,7 @@ fields in the array are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:84393
+main.ts:94107
 
 ***
 
@@ -109,4 +109,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:84399
+main.ts:94113

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
@@ -20,7 +20,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:90711
+main.ts:100429
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:90709
+main.ts:100427
 
 ***
 
@@ -44,7 +44,7 @@ search engine type
 
 #### Defined in
 
-main.ts:90705
+main.ts:100423
 
 ***
 
@@ -56,4 +56,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:90707
+main.ts:100425

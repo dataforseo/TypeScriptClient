@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphDataforseoLabsSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:96396
+main.ts:106040
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:96396
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -68,7 +70,7 @@ card id
 
 #### Defined in
 
-main.ts:96382
+main.ts:106026
 
 ***
 
@@ -84,7 +86,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:96390
+main.ts:106034
 
 ***
 
@@ -100,7 +102,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:96380
+main.ts:106024
 
 ***
 
@@ -116,7 +118,7 @@ URL of the image from knowledge graph
 
 #### Defined in
 
-main.ts:96386
+main.ts:106030
 
 ***
 
@@ -132,7 +134,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:96392
+main.ts:106036
 
 ***
 
@@ -148,7 +150,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:96388
+main.ts:106032
 
 ***
 
@@ -170,7 +172,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -191,7 +193,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -212,7 +214,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -228,7 +230,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96374
+main.ts:106018
 
 ***
 
@@ -244,7 +246,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:96378
+main.ts:106022
 
 ***
 
@@ -260,7 +262,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:96376
+main.ts:106020
 
 ***
 
@@ -280,7 +282,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -296,7 +298,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:96384
+main.ts:106028
 
 ***
 
@@ -316,7 +318,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -326,7 +328,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -338,7 +342,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:96401
+main.ts:106045
 
 ***
 
@@ -348,7 +352,9 @@ main.ts:96401
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -360,7 +366,7 @@ main.ts:96401
 
 #### Defined in
 
-main.ts:96432
+main.ts:106076
 
 ***
 
@@ -370,7 +376,9 @@ main.ts:96432
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -382,4 +390,4 @@ main.ts:96432
 
 #### Defined in
 
-main.ts:96425
+main.ts:106069

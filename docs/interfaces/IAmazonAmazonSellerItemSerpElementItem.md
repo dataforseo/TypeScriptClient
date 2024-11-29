@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonAmazonSellerItemSerpElementItem
+[Documentation](../README.md) / IAmazonAmazonSellerItemSerpElementItem
 
 # Interface: IAmazonAmazonSellerItemSerpElementItem
 
@@ -25,7 +25,7 @@ condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:183813
+main.ts:196125
 
 ***
 
@@ -38,7 +38,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:183816
+main.ts:196128
 
 ***
 
@@ -51,7 +51,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:183819
+main.ts:196131
 
 ***
 
@@ -65,20 +65,20 @@ left, right
 
 #### Defined in
 
-main.ts:183798
+main.ts:196110
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 product pricing details
 if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:183807
+main.ts:196119
 
 ***
 
@@ -95,7 +95,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22412
+main.ts:23310
 
 ***
 
@@ -112,7 +112,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22409
+main.ts:23307
 
 ***
 
@@ -125,7 +125,7 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-main.ts:183810
+main.ts:196122
 
 ***
 
@@ -137,7 +137,7 @@ business name of the seller
 
 #### Defined in
 
-main.ts:183800
+main.ts:196112
 
 ***
 
@@ -149,7 +149,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-main.ts:183802
+main.ts:196114
 
 ***
 
@@ -161,7 +161,7 @@ sender company name
 
 #### Defined in
 
-main.ts:183804
+main.ts:196116
 
 ***
 
@@ -177,7 +177,7 @@ type of element
 
 #### Defined in
 
-main.ts:22406
+main.ts:23304
 
 ***
 
@@ -193,4 +193,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22414
+main.ts:23312

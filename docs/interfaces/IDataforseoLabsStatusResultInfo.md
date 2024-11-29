@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsStatusResultInfo
+[Documentation](../README.md) / IDataforseoLabsStatusResultInfo
 
 # Interface: IDataforseoLabsStatusResultInfo
 
@@ -20,7 +20,7 @@ update information for the Amazon endpoints
 
 #### Defined in
 
-main.ts:80671
+main.ts:90383
 
 ***
 
@@ -32,7 +32,7 @@ update information for the Bing endpoints
 
 #### Defined in
 
-main.ts:80669
+main.ts:90381
 
 ***
 
@@ -44,4 +44,4 @@ update information for the Google endpoints
 
 #### Defined in
 
-main.ts:80667
+main.ts:90379

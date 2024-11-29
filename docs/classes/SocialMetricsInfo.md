@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SocialMetricsInfo
+[Documentation](../README.md) / SocialMetricsInfo
 
 # Class: SocialMetricsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md)
+##### data?
+
+[`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23193
+main.ts:24091
 
 ## Properties
 
@@ -46,7 +48,7 @@ likes count
 
 #### Defined in
 
-main.ts:23189
+main.ts:24087
 
 ***
 
@@ -62,7 +64,7 @@ type of element
 
 #### Defined in
 
-main.ts:23187
+main.ts:24085
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:23187
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:23187
 
 #### Defined in
 
-main.ts:23202
+main.ts:24100
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:23202
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:23202
 
 #### Defined in
 
-main.ts:23220
+main.ts:24118
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:23220
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:23220
 
 #### Defined in
 
-main.ts:23213
+main.ts:24111

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordAnnotations
+[Documentation](../README.md) / IKeywordAnnotations
 
 # Interface: IKeywordAnnotations
 
@@ -20,4 +20,4 @@ the list of concepts for the keyword
 
 #### Defined in
 
-main.ts:119077
+main.ts:128809

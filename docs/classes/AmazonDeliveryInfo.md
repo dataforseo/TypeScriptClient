@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonDeliveryInfo
+[Documentation](../README.md) / AmazonDeliveryInfo
 
 # Class: AmazonDeliveryInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md)
+##### data?
+
+[`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22731
+main.ts:23629
 
 ## Properties
 
@@ -46,7 +48,7 @@ the earliest date when the product can be shipped
 
 #### Defined in
 
-main.ts:22717
+main.ts:23615
 
 ***
 
@@ -62,7 +64,7 @@ the latest date when the product can be delivered
 
 #### Defined in
 
-main.ts:22719
+main.ts:23617
 
 ***
 
@@ -78,7 +80,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:22715
+main.ts:23613
 
 ***
 
@@ -96,7 +98,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:22727
+main.ts:23625
 
 ***
 
@@ -112,7 +114,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:22721
+main.ts:23619
 
 ***
 
@@ -128,7 +130,7 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:22723
+main.ts:23621
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:22723
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:22723
 
 #### Defined in
 
-main.ts:22740
+main.ts:23638
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:22740
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:22740
 
 #### Defined in
 
-main.ts:22762
+main.ts:23660
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:22762
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:22762
 
 #### Defined in
 
-main.ts:22755
+main.ts:23653

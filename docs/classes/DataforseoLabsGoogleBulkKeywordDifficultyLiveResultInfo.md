@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkKeywordDifficultyLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:86436
+main.ts:96152
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)[]
 
 contains keywords and related keyword difficulty scores
 
@@ -46,7 +48,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:86432
+main.ts:96148
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:86430
+main.ts:96146
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:86426
+main.ts:96142
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:86423
+main.ts:96139
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:86420
+main.ts:96136
 
 ***
 
@@ -128,7 +130,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:86428
+main.ts:96144
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:86428
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:86428
 
 #### Defined in
 
-main.ts:86445
+main.ts:96161
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:86445
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:86445
 
 #### Defined in
 
-main.ts:86471
+main.ts:96187
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:86471
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:86471
 
 #### Defined in
 
-main.ts:86464
+main.ts:96180

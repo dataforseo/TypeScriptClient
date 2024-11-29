@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsSubdomainsLiveItem
+[Documentation](../README.md) / IDataforseoLabsSubdomainsLiveItem
 
 # Interface: IDataforseoLabsSubdomainsLiveItem
 
@@ -24,7 +24,7 @@ ranking data relevant to subdomain
 
 #### Defined in
 
-main.ts:94429
+main.ts:104147
 
 ***
 
@@ -36,7 +36,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94425
+main.ts:104143
 
 ***
 
@@ -48,4 +48,4 @@ returned subdomain
 
 #### Defined in
 
-main.ts:94427
+main.ts:104145

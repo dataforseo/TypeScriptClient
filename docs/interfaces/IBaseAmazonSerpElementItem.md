@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseAmazonSerpElementItem
+[Documentation](../README.md) / IBaseAmazonSerpElementItem
 
 # Interface: IBaseAmazonSerpElementItem
 
@@ -14,9 +14,9 @@
 - [`IAmazonRelatedSearchesSerpElementItem`](IAmazonRelatedSearchesSerpElementItem.md)
 - [`IAmazonTopRatedFromOurBrandsSerpElementItem`](IAmazonTopRatedFromOurBrandsSerpElementItem.md)
 - [`IAmazonAmazonProductInfoSerpElementItem`](IAmazonAmazonProductInfoSerpElementItem.md)
+- [`IAmazonAmazonReviewItemSerpElementItem`](IAmazonAmazonReviewItemSerpElementItem.md)
 - [`IAmazonAmazonSellerMainItemSerpElementItem`](IAmazonAmazonSellerMainItemSerpElementItem.md)
 - [`IAmazonAmazonSellerItemSerpElementItem`](IAmazonAmazonSellerItemSerpElementItem.md)
-- [`IAmazonAmazonReviewItemSerpElementItem`](IAmazonAmazonReviewItemSerpElementItem.md)
 
 ## Properties
 
@@ -29,7 +29,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22412
+main.ts:23310
 
 ***
 
@@ -42,7 +42,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22409
+main.ts:23307
 
 ***
 
@@ -54,7 +54,7 @@ type of element
 
 #### Defined in
 
-main.ts:22406
+main.ts:23304
 
 ***
 
@@ -66,4 +66,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22414
+main.ts:23312

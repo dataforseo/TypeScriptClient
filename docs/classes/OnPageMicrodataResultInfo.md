@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageMicrodataResultInfo
+[Documentation](../README.md) / OnPageMicrodataResultInfo
 
 # Class: OnPageMicrodataResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md)
+##### data?
+
+[`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160242
+main.ts:171885
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:160230
+main.ts:171873
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:160232
+main.ts:171875
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:160238
+main.ts:171881
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:160236
+main.ts:171879
 
 ***
 
@@ -111,7 +113,7 @@ microdata validation test results
 
 #### Defined in
 
-main.ts:160234
+main.ts:171877
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:160234
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:160234
 
 #### Defined in
 
-main.ts:160251
+main.ts:171894
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:160251
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:160251
 
 #### Defined in
 
-main.ts:160276
+main.ts:171919
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:160276
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:160276
 
 #### Defined in
 
-main.ts:160269
+main.ts:171912

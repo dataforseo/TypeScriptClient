@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleAppCompetitorsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAppleAppCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveResultInfo
 
@@ -20,7 +20,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:115333
+main.ts:124505
 
 ***
 
@@ -32,7 +32,7 @@ contains data related to the app_id and competitor applications
 
 #### Defined in
 
-main.ts:115343
+main.ts:124515
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:115341
+main.ts:124513
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:115337
+main.ts:124509
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:115335
+main.ts:124507
 
 ***
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115331
+main.ts:124503
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:115339
+main.ts:124511

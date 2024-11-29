@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AnswerBoxDataforseoLabsSerpElementItem
+[Documentation](../README.md) / AnswerBoxDataforseoLabsSerpElementItem
 
 # Class: AnswerBoxDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAnswerBoxDataforseoLabsSerpElementItem`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IAnswerBoxDataforseoLabsSerpElementItem`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:96992
+main.ts:106854
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:96992
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -70,7 +72,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96988
+main.ts:106850
 
 ***
 
@@ -92,7 +94,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -113,7 +115,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -134,7 +136,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -151,7 +153,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:96984
+main.ts:106846
 
 ***
 
@@ -171,7 +173,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -191,7 +193,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -201,7 +203,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +217,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:96997
+main.ts:106859
 
 ***
 
@@ -223,7 +227,9 @@ main.ts:96997
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -235,7 +241,7 @@ main.ts:96997
 
 #### Defined in
 
-main.ts:97024
+main.ts:106886
 
 ***
 
@@ -245,7 +251,9 @@ main.ts:97024
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -257,4 +265,4 @@ main.ts:97024
 
 #### Defined in
 
-main.ts:97017
+main.ts:106879

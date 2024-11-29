@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseVersionsResultInfo
+[Documentation](../README.md) / OnPageLighthouseVersionsResultInfo
 
 # Class: OnPageLighthouseVersionsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md)
+##### data?
+
+[`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:163602
+main.ts:175191
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:163602
 
 #### Defined in
 
-main.ts:163598
+main.ts:175187
 
 ## Methods
 
@@ -54,7 +56,9 @@ main.ts:163598
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -62,7 +66,7 @@ main.ts:163598
 
 #### Defined in
 
-main.ts:163611
+main.ts:175200
 
 ***
 
@@ -72,7 +76,9 @@ main.ts:163611
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +86,7 @@ main.ts:163611
 
 #### Defined in
 
-main.ts:163632
+main.ts:175221
 
 ***
 
@@ -90,7 +96,9 @@ main.ts:163632
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -98,4 +106,4 @@ main.ts:163632
 
 #### Defined in
 
-main.ts:163625
+main.ts:175214

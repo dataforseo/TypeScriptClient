@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBusinessDataGoogleInfo
+[Documentation](../README.md) / IAppendixBusinessDataGoogleInfo
 
 # Interface: IAppendixBusinessDataGoogleInfo
 
@@ -12,13 +12,23 @@
 
 ## Properties
 
+### extended\_reviews?
+
+> `optional` **extended\_reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
+
+#### Defined in
+
+main.ts:231899
+
+***
+
 ### hotel\_info?
 
 > `optional` **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
 #### Defined in
 
-main.ts:216933
+main.ts:231895
 
 ***
 
@@ -28,7 +38,7 @@ main.ts:216933
 
 #### Defined in
 
-main.ts:216934
+main.ts:231896
 
 ***
 
@@ -38,7 +48,7 @@ main.ts:216934
 
 #### Defined in
 
-main.ts:216931
+main.ts:231893
 
 ***
 
@@ -48,7 +58,7 @@ main.ts:216931
 
 #### Defined in
 
-main.ts:216932
+main.ts:231894
 
 ***
 
@@ -58,7 +68,7 @@ main.ts:216932
 
 #### Defined in
 
-main.ts:216936
+main.ts:231898
 
 ***
 
@@ -68,4 +78,4 @@ main.ts:216936
 
 #### Defined in
 
-main.ts:216935
+main.ts:231897

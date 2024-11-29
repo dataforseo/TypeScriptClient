@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMentionCarouselElement
+[Documentation](../README.md) / IMentionCarouselElement
 
 # Interface: IMentionCarouselElement
 
@@ -20,7 +20,7 @@ additional elements in the mention_carousel item
 
 #### Defined in
 
-main.ts:32203
+main.ts:33756
 
 ***
 
@@ -32,7 +32,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:32198
+main.ts:33751
 
 ***
 
@@ -45,7 +45,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32201
+main.ts:33754
 
 ***
 
@@ -57,7 +57,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32196
+main.ts:33749
 
 ***
 
@@ -69,4 +69,4 @@ type of element
 
 #### Defined in
 
-main.ts:32194
+main.ts:33747

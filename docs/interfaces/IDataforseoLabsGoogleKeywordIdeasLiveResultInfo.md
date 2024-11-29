@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordIdeasLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
@@ -20,7 +20,7 @@ contains keyword ideas and related data
 
 #### Defined in
 
-main.ts:85567
+main.ts:95281
 
 ***
 
@@ -32,7 +32,7 @@ number of results returned in the items array
 
 #### Defined in
 
-main.ts:85559
+main.ts:95273
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:85555
+main.ts:95269
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:85553
+main.ts:95267
 
 ***
 
@@ -68,7 +68,7 @@ current offset value
 
 #### Defined in
 
-main.ts:85561
+main.ts:95275
 
 ***
 
@@ -82,7 +82,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:85565
+main.ts:95279
 
 ***
 
@@ -94,7 +94,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85548
+main.ts:95262
 
 ***
 
@@ -103,11 +103,11 @@ main.ts:85548
 > `optional` **seed\_keywords**: `string`[]
 
 keywords in a POST array
-keywords are returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:85551
+main.ts:95265
 
 ***
 
@@ -119,4 +119,4 @@ total number of results relevant to your request in our database
 
 #### Defined in
 
-main.ts:85557
+main.ts:95271

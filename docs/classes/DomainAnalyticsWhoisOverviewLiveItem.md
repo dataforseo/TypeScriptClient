@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsWhoisOverviewLiveItem
+[Documentation](../README.md) / DomainAnalyticsWhoisOverviewLiveItem
 
 # Class: DomainAnalyticsWhoisOverviewLiveItem
 
@@ -24,7 +24,9 @@ items array
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md)
+##### data?
+
+[`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@ items array
 
 #### Defined in
 
-main.ts:79911
+main.ts:89623
 
 ## Properties
 
@@ -48,7 +50,7 @@ backlink data for the returned domain
 
 #### Defined in
 
-main.ts:79907
+main.ts:89619
 
 ***
 
@@ -67,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:79873
+main.ts:89585
 
 ***
 
@@ -86,7 +88,7 @@ example:
 
 #### Defined in
 
-main.ts:79868
+main.ts:89580
 
 ***
 
@@ -102,7 +104,7 @@ domain name
 
 #### Defined in
 
-main.ts:79863
+main.ts:89575
 
 ***
 
@@ -119,7 +121,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-main.ts:79891
+main.ts:89603
 
 ***
 
@@ -138,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:79878
+main.ts:89590
 
 ***
 
@@ -157,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:79888
+main.ts:89600
 
 ***
 
@@ -173,7 +175,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:79905
+main.ts:89617
 
 ***
 
@@ -191,7 +193,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-main.ts:79898
+main.ts:89610
 
 ***
 
@@ -210,7 +212,7 @@ NameCheap, Inc.
 
 #### Defined in
 
-main.ts:79903
+main.ts:89615
 
 ***
 
@@ -227,7 +229,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:79894
+main.ts:89606
 
 ***
 
@@ -246,7 +248,7 @@ example:
 
 #### Defined in
 
-main.ts:79883
+main.ts:89595
 
 ## Methods
 
@@ -256,7 +258,9 @@ main.ts:79883
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -264,7 +268,7 @@ main.ts:79883
 
 #### Defined in
 
-main.ts:79920
+main.ts:89632
 
 ***
 
@@ -274,7 +278,9 @@ main.ts:79920
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -282,7 +288,7 @@ main.ts:79920
 
 #### Defined in
 
-main.ts:79952
+main.ts:89664
 
 ***
 
@@ -292,7 +298,9 @@ main.ts:79952
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -300,4 +308,4 @@ main.ts:79952
 
 #### Defined in
 
-main.ts:79945
+main.ts:89657

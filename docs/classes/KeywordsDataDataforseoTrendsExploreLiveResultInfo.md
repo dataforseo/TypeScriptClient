@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataDataforseoTrendsExploreLiveResultInfo
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsExploreLiveResultInfo
 
 # Class: KeywordsDataDataforseoTrendsExploreLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataDataforseoTrendsExploreLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataDataforseoTrendsExploreLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsExploreLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:125714
+main.ts:135967
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:125706
+main.ts:135959
 
 ***
 
@@ -65,7 +67,7 @@ contains keyword popularity and related data
 
 #### Defined in
 
-main.ts:125710
+main.ts:135963
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:125708
+main.ts:135961
 
 ***
 
@@ -97,7 +99,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:125693
+main.ts:135946
 
 ***
 
@@ -114,7 +116,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:125701
+main.ts:135954
 
 ***
 
@@ -131,7 +133,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:125698
+main.ts:135951
 
 ***
 
@@ -147,7 +149,7 @@ type of element
 
 #### Defined in
 
-main.ts:125695
+main.ts:135948
 
 ## Methods
 
@@ -157,7 +159,9 @@ main.ts:125695
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +169,7 @@ main.ts:125695
 
 #### Defined in
 
-main.ts:125723
+main.ts:135976
 
 ***
 
@@ -175,7 +179,9 @@ main.ts:125723
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -183,7 +189,7 @@ main.ts:125723
 
 #### Defined in
 
-main.ts:125754
+main.ts:136007
 
 ***
 
@@ -193,7 +199,9 @@ main.ts:125754
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -201,4 +209,4 @@ main.ts:125754
 
 #### Defined in
 
-main.ts:125747
+main.ts:136000

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationParaphraseLiveResultInfo
+[Documentation](../README.md) / ContentGenerationParaphraseLiveResultInfo
 
 # Class: ContentGenerationParaphraseLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationParaphraseLiveResultInfo`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationParaphraseLiveResultInfo`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:170911
+main.ts:182500
 
 ## Properties
 
@@ -46,7 +48,7 @@ paraphrased version of the given text
 
 #### Defined in
 
-main.ts:170907
+main.ts:182496
 
 ***
 
@@ -62,7 +64,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:170901
+main.ts:182490
 
 ***
 
@@ -78,7 +80,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:170905
+main.ts:182494
 
 ***
 
@@ -94,7 +96,7 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:170903
+main.ts:182492
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:170903
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:170903
 
 #### Defined in
 
-main.ts:170920
+main.ts:182509
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:170920
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:170920
 
 #### Defined in
 
-main.ts:170940
+main.ts:182529
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:170940
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:170940
 
 #### Defined in
 
-main.ts:170933
+main.ts:182522

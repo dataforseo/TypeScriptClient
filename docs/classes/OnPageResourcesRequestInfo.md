@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageResourcesRequestInfo
+[Documentation](../README.md) / OnPageResourcesRequestInfo
 
 # Class: OnPageResourcesRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md)
+##### data?
+
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:155955
+main.ts:167590
 
 ## Properties
 
@@ -58,7 +60,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:155919
+main.ts:167554
 
 ***
 
@@ -78,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:155889
+main.ts:167524
 
 ***
 
@@ -97,7 +99,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:155900
+main.ts:167535
 
 ***
 
@@ -116,7 +118,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Defined in
 
-main.ts:155905
+main.ts:167540
 
 ***
 
@@ -144,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:155945
+main.ts:167580
 
 ***
 
@@ -170,7 +172,7 @@ example:
 
 #### Defined in
 
-main.ts:155931
+main.ts:167566
 
 ***
 
@@ -190,7 +192,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:155951
+main.ts:167586
 
 ***
 
@@ -210,7 +212,7 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Defined in
 
-main.ts:155895
+main.ts:167530
 
 ## Methods
 
@@ -220,7 +222,9 @@ main.ts:155895
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -228,7 +232,7 @@ main.ts:155895
 
 #### Defined in
 
-main.ts:155964
+main.ts:167599
 
 ***
 
@@ -238,7 +242,9 @@ main.ts:155964
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -246,7 +252,7 @@ main.ts:155964
 
 #### Defined in
 
-main.ts:156000
+main.ts:167635
 
 ***
 
@@ -256,7 +262,9 @@ main.ts:156000
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -264,4 +272,4 @@ main.ts:156000
 
 #### Defined in
 
-main.ts:155993
+main.ts:167628

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IStoresCountInfo
+[Documentation](../README.md) / IStoresCountInfo
 
 # Interface: IStoresCountInfo
 
@@ -20,7 +20,7 @@ number of stores that offer the product
 
 #### Defined in
 
-main.ts:174452
+main.ts:186181
 
 ***
 
@@ -36,7 +36,7 @@ in this case, the parameter is true
 
 #### Defined in
 
-main.ts:174460
+main.ts:186189
 
 ***
 
@@ -48,4 +48,4 @@ text displayed on the Google Shopping page
 
 #### Defined in
 
-main.ts:174454
+main.ts:186183

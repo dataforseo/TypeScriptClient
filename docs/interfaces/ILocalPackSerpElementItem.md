@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalPackSerpElementItem
+[Documentation](../README.md) / ILocalPackSerpElementItem
 
 # Interface: ILocalPackSerpElementItem
 
@@ -24,7 +24,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:31423
+main.ts:32982
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31410
+main.ts:32969
 
 ***
 
@@ -48,7 +48,7 @@ source domain
 
 #### Defined in
 
-main.ts:31412
+main.ts:32971
 
 ***
 
@@ -60,7 +60,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:31418
+main.ts:32977
 
 ***
 
@@ -72,7 +72,7 @@ phone number
 
 #### Defined in
 
-main.ts:31414
+main.ts:32973
 
 ***
 
@@ -90,7 +90,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -125,7 +125,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -138,7 +138,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31421
+main.ts:32980
 
 ***
 
@@ -152,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31427
+main.ts:32986
 
 ***
 
@@ -164,7 +164,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31408
+main.ts:32967
 
 ***
 
@@ -180,7 +180,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -192,7 +192,7 @@ source URL
 
 #### Defined in
 
-main.ts:31416
+main.ts:32975
 
 ***
 
@@ -208,4 +208,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

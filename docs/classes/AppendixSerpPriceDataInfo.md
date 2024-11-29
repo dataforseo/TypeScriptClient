@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixSerpPriceDataInfo
+[Documentation](../README.md) / AppendixSerpPriceDataInfo
 
 # Class: AppendixSerpPriceDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md)
+##### data?
+
+[`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:222030
+main.ts:237209
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:222030
 
 #### Defined in
 
-main.ts:222024
+main.ts:237205
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:222024
 
 #### Defined in
 
-main.ts:222026
+main.ts:237203
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:222026
 
 #### Defined in
 
-main.ts:222025
+main.ts:237204
 
 ## Methods
 
@@ -82,7 +84,9 @@ main.ts:222025
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -90,7 +94,7 @@ main.ts:222025
 
 #### Defined in
 
-main.ts:222039
+main.ts:237218
 
 ***
 
@@ -100,7 +104,9 @@ main.ts:222039
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +114,7 @@ main.ts:222039
 
 #### Defined in
 
-main.ts:222058
+main.ts:237237
 
 ***
 
@@ -118,7 +124,9 @@ main.ts:222058
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -126,4 +134,4 @@ main.ts:222058
 
 #### Defined in
 
-main.ts:222051
+main.ts:237230

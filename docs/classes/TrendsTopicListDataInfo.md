@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrendsTopicListDataInfo
+[Documentation](../README.md) / TrendsTopicListDataInfo
 
 # Class: TrendsTopicListDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md)
+##### data?
+
+[`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:124848
+main.ts:135099
 
 ## Properties
 
@@ -47,7 +49,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:124844
+main.ts:135095
 
 ***
 
@@ -64,7 +66,7 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:124841
+main.ts:135092
 
 ## Methods
 
@@ -74,7 +76,9 @@ main.ts:124841
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +86,7 @@ main.ts:124841
 
 #### Defined in
 
-main.ts:124857
+main.ts:135108
 
 ***
 
@@ -92,7 +96,9 @@ main.ts:124857
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +106,7 @@ main.ts:124857
 
 #### Defined in
 
-main.ts:124883
+main.ts:135134
 
 ***
 
@@ -110,7 +116,9 @@ main.ts:124883
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -118,4 +126,4 @@ main.ts:124883
 
 #### Defined in
 
-main.ts:124876
+main.ts:135127

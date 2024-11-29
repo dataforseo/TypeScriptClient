@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
 # Class: KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:135503
+main.ts:147362
 
 ## Properties
 
@@ -47,7 +49,7 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-main.ts:135499
+main.ts:147358
 
 ***
 
@@ -63,7 +65,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:135492
+main.ts:147351
 
 ***
 
@@ -79,7 +81,7 @@ location code
 
 #### Defined in
 
-main.ts:135485
+main.ts:147344
 
 ***
 
@@ -96,7 +98,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-main.ts:135490
+main.ts:147349
 
 ***
 
@@ -112,7 +114,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:135487
+main.ts:147346
 
 ***
 
@@ -130,7 +132,7 @@ Country
 
 #### Defined in
 
-main.ts:135496
+main.ts:147355
 
 ## Methods
 
@@ -140,7 +142,9 @@ main.ts:135496
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +152,7 @@ main.ts:135496
 
 #### Defined in
 
-main.ts:135512
+main.ts:147371
 
 ***
 
@@ -158,7 +162,9 @@ main.ts:135512
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +172,7 @@ main.ts:135512
 
 #### Defined in
 
-main.ts:135538
+main.ts:147397
 
 ***
 
@@ -176,7 +182,9 @@ main.ts:135538
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +192,4 @@ main.ts:135538
 
 #### Defined in
 
-main.ts:135531
+main.ts:147390

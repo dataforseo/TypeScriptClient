@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
+[Documentation](../README.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveRequestInfo
 
@@ -25,7 +25,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:170616
+main.ts:182205
 
 ***
 
@@ -41,7 +41,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:170622
+main.ts:182211
 
 ***
 
@@ -56,4 +56,4 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-main.ts:170609
+main.ts:182198

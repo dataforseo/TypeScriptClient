@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleNewsTopStoriesSerpElementItem
+[Documentation](../README.md) / IGoogleNewsTopStoriesSerpElementItem
 
 # Interface: IGoogleNewsTopStoriesSerpElementItem
 
@@ -20,11 +20,11 @@
 
 > `optional` **items**: [`TopStoriesElement`](../classes/TopStoriesElement.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:44117
+main.ts:46362
 
 ***
 
@@ -38,7 +38,7 @@ left
 
 #### Defined in
 
-main.ts:44115
+main.ts:46360
 
 ***
 
@@ -55,7 +55,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:43959
+main.ts:46204
 
 ***
 
@@ -73,7 +73,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:43956
+main.ts:46201
 
 ***
 
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:43967
+main.ts:46212
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:43967
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Inherited from
 
@@ -107,7 +107,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:43963
+main.ts:46208
 
 ***
 
@@ -123,7 +123,7 @@ type of element
 
 #### Defined in
 
-main.ts:43952
+main.ts:46197
 
 ***
 
@@ -139,4 +139,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:43961
+main.ts:46206

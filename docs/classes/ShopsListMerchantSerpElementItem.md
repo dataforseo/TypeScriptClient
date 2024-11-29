@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ShopsListMerchantSerpElementItem
+[Documentation](../README.md) / ShopsListMerchantSerpElementItem
 
 # Class: ShopsListMerchantSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md)
+##### data?
+
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:176194
+main.ts:187927
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:176194
 
 #### Defined in
 
-main.ts:21044
+main.ts:21722
 
 ***
 
@@ -68,7 +70,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:176163
+main.ts:187896
 
 ***
 
@@ -86,7 +88,7 @@ USD
 
 #### Defined in
 
-main.ts:176174
+main.ts:187907
 
 ***
 
@@ -103,7 +105,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:176161
+main.ts:187894
 
 ***
 
@@ -119,7 +121,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:176153
+main.ts:187886
 
 ***
 
@@ -141,7 +143,7 @@ left, right
 
 #### Defined in
 
-main.ts:21042
+main.ts:21720
 
 ***
 
@@ -159,7 +161,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Defined in
 
-main.ts:176190
+main.ts:187923
 
 ***
 
@@ -176,7 +178,7 @@ possible values: Used, Refurbished, New, null
 
 #### Defined in
 
-main.ts:176186
+main.ts:187919
 
 ***
 
@@ -197,7 +199,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21038
+main.ts:21716
 
 ***
 
@@ -218,7 +220,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21035
+main.ts:21713
 
 ***
 
@@ -235,7 +237,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:176180
+main.ts:187913
 
 ***
 
@@ -252,7 +254,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:176177
+main.ts:187910
 
 ***
 
@@ -268,7 +270,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:176168
+main.ts:187901
 
 ***
 
@@ -285,7 +287,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:176183
+main.ts:187916
 
 ***
 
@@ -302,7 +304,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:176166
+main.ts:187899
 
 ***
 
@@ -318,7 +320,7 @@ product title
 
 #### Defined in
 
-main.ts:176155
+main.ts:187888
 
 ***
 
@@ -334,7 +336,7 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:176170
+main.ts:187903
 
 ***
 
@@ -354,7 +356,7 @@ type of element
 
 #### Defined in
 
-main.ts:21032
+main.ts:21710
 
 ***
 
@@ -371,7 +373,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 #### Defined in
 
-main.ts:176158
+main.ts:187891
 
 ***
 
@@ -387,7 +389,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:176151
+main.ts:187884
 
 ## Methods
 
@@ -397,7 +399,9 @@ main.ts:176151
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -409,7 +413,7 @@ main.ts:176151
 
 #### Defined in
 
-main.ts:176199
+main.ts:187932
 
 ***
 
@@ -419,7 +423,9 @@ main.ts:176199
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -431,7 +437,7 @@ main.ts:176199
 
 #### Defined in
 
-main.ts:176231
+main.ts:187964
 
 ***
 
@@ -441,7 +447,9 @@ main.ts:176231
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -453,4 +461,4 @@ main.ts:176231
 
 #### Defined in
 
-main.ts:176224
+main.ts:187957

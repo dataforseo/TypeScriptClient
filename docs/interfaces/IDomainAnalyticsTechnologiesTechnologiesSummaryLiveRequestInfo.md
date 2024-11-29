@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:76990
+main.ts:86697
 
 ***
 
@@ -49,7 +49,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:77025
+main.ts:86733
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:76983
+main.ts:86690
 
 ***
 
@@ -84,7 +84,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77033
+main.ts:86741
 
 ***
 
@@ -98,10 +98,11 @@ you can specify the maximum of 10 keywords;
 UTF-8 encoding;
 example:
 ["seo","software"]
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:77004
+main.ts:86712
 
 ***
 
@@ -118,7 +119,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:77011
+main.ts:86719
 
 ***
 
@@ -134,7 +135,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:77039
+main.ts:86747
 
 ***
 
@@ -151,7 +152,7 @@ example:
 
 #### Defined in
 
-main.ts:76997
+main.ts:86704
 
 ***
 
@@ -170,4 +171,4 @@ example:
 
 #### Defined in
 
-main.ts:76976
+main.ts:86683

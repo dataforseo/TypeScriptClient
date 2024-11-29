@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ImageUrlInfo
+[Documentation](../README.md) / ImageUrlInfo
 
 # Class: ImageUrlInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IImageUrlInfo`](../interfaces/IImageUrlInfo.md)
+##### data?
+
+[`IImageUrlInfo`](../interfaces/IImageUrlInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:214159
+main.ts:229102
 
 ## Properties
 
@@ -46,7 +48,7 @@ URL of the image used in the review
 
 #### Defined in
 
-main.ts:214155
+main.ts:229098
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:214155
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:214155
 
 #### Defined in
 
-main.ts:214168
+main.ts:229111
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:214168
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:214168
 
 #### Defined in
 
-main.ts:214185
+main.ts:229128
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:214185
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:214185
 
 #### Defined in
 
-main.ts:214178
+main.ts:229121

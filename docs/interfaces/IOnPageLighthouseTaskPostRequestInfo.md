@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseTaskPostRequestInfo
+[Documentation](../README.md) / IOnPageLighthouseTaskPostRequestInfo
 
 # Interface: IOnPageLighthouseTaskPostRequestInfo
 
@@ -31,7 +31,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:163947
+main.ts:175538
 
 ***
 
@@ -49,7 +49,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:163934
+main.ts:175525
 
 ***
 
@@ -65,7 +65,7 @@ default value: false
 
 #### Defined in
 
-main.ts:163926
+main.ts:175517
 
 ***
 
@@ -81,7 +81,7 @@ en
 
 #### Defined in
 
-main.ts:163964
+main.ts:175555
 
 ***
 
@@ -97,7 +97,7 @@ English
 
 #### Defined in
 
-main.ts:163958
+main.ts:175549
 
 ***
 
@@ -112,12 +112,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:163980
+main.ts:175572
 
 ***
 
@@ -132,12 +133,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:163990
+main.ts:175583
 
 ***
 
@@ -153,7 +155,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:163970
+main.ts:175561
 
 ***
 
@@ -169,7 +171,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:163920
+main.ts:175511
 
 ***
 
@@ -184,4 +186,4 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:163952
+main.ts:175543

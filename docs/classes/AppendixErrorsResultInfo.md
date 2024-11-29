@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixErrorsResultInfo
+[Documentation](../README.md) / AppendixErrorsResultInfo
 
 # Class: AppendixErrorsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md)
+##### data?
+
+[`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:223849
+main.ts:239036
 
 ## Properties
 
@@ -46,7 +48,7 @@ code
 
 #### Defined in
 
-main.ts:223843
+main.ts:239030
 
 ***
 
@@ -62,7 +64,7 @@ message
 
 #### Defined in
 
-main.ts:223845
+main.ts:239032
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:223845
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:223845
 
 #### Defined in
 
-main.ts:223858
+main.ts:239045
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:223858
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:223858
 
 #### Defined in
 
-main.ts:223876
+main.ts:239063
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:223876
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:223876
 
 #### Defined in
 
-main.ts:223869
+main.ts:239056

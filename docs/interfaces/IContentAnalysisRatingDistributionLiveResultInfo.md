@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisRatingDistributionLiveResultInfo
+[Documentation](../README.md) / IContentAnalysisRatingDistributionLiveResultInfo
 
 # Interface: IContentAnalysisRatingDistributionLiveResultInfo
 
@@ -20,7 +20,7 @@ max rating on a distribution scale
 
 #### Defined in
 
-main.ts:168166
+main.ts:179755
 
 ***
 
@@ -32,7 +32,7 @@ contains rating distribution metrics
 
 #### Defined in
 
-main.ts:168168
+main.ts:179757
 
 ***
 
@@ -44,7 +44,7 @@ min rating on a distribution scale
 
 #### Defined in
 
-main.ts:168164
+main.ts:179753
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:168162
+main.ts:179751

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ImpressionsInfo
+[Documentation](../README.md) / ImpressionsInfo
 
 # Class: ImpressionsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IImpressionsInfo`](../interfaces/IImpressionsInfo.md)
+##### data?
+
+[`IImpressionsInfo`](../interfaces/IImpressionsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:83060
+main.ts:92772
 
 ## Properties
 
@@ -47,7 +49,7 @@ represents the average position of the advertisement
 
 #### Defined in
 
-main.ts:83014
+main.ts:92726
 
 ***
 
@@ -64,7 +66,7 @@ represents the maximum position of the advertisement
 
 #### Defined in
 
-main.ts:83011
+main.ts:92723
 
 ***
 
@@ -81,7 +83,7 @@ represents the minimum position of the advertisement
 
 #### Defined in
 
-main.ts:83008
+main.ts:92720
 
 ***
 
@@ -98,7 +100,7 @@ it stands for the price you are willing to pay for an ad. The higher value, the 
 
 #### Defined in
 
-main.ts:83002
+main.ts:92714
 
 ***
 
@@ -117,7 +119,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Defined in
 
-main.ts:83029
+main.ts:92741
 
 ***
 
@@ -136,7 +138,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Defined in
 
-main.ts:83024
+main.ts:92736
 
 ***
 
@@ -155,7 +157,7 @@ you can find an actual CPC value for a keyword in the cpc field of the keyword_i
 
 #### Defined in
 
-main.ts:83019
+main.ts:92731
 
 ***
 
@@ -172,7 +174,7 @@ represents the average number of daily clicks on the advertisement
 
 #### Defined in
 
-main.ts:83047
+main.ts:92759
 
 ***
 
@@ -189,7 +191,7 @@ represents the maximum number of daily clicks on the advertisement
 
 #### Defined in
 
-main.ts:83044
+main.ts:92756
 
 ***
 
@@ -206,7 +208,7 @@ represents the minimum number of daily clicks on the advertisement
 
 #### Defined in
 
-main.ts:83041
+main.ts:92753
 
 ***
 
@@ -223,7 +225,7 @@ represents the average daily cost of the advertisement (USD)
 
 #### Defined in
 
-main.ts:83056
+main.ts:92768
 
 ***
 
@@ -240,7 +242,7 @@ represents the maximum daily cost of the advertisement (USD)
 
 #### Defined in
 
-main.ts:83053
+main.ts:92765
 
 ***
 
@@ -257,7 +259,7 @@ represents the minimum daily cost of the advertisement (USD)
 
 #### Defined in
 
-main.ts:83050
+main.ts:92762
 
 ***
 
@@ -274,7 +276,7 @@ represents the average number of daily impressions of the advertisement given th
 
 #### Defined in
 
-main.ts:83038
+main.ts:92750
 
 ***
 
@@ -291,7 +293,7 @@ represents the maximum number of daily impressions of the advertisement given th
 
 #### Defined in
 
-main.ts:83035
+main.ts:92747
 
 ***
 
@@ -308,7 +310,7 @@ represents the minimum number of daily impressions of the advertisement given th
 
 #### Defined in
 
-main.ts:83032
+main.ts:92744
 
 ***
 
@@ -327,7 +329,7 @@ example:
 
 #### Defined in
 
-main.ts:82999
+main.ts:92711
 
 ***
 
@@ -344,7 +346,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:83005
+main.ts:92717
 
 ***
 
@@ -360,7 +362,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82994
+main.ts:92706
 
 ## Methods
 
@@ -370,7 +372,9 @@ main.ts:82994
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -378,7 +382,7 @@ main.ts:82994
 
 #### Defined in
 
-main.ts:83069
+main.ts:92781
 
 ***
 
@@ -388,7 +392,9 @@ main.ts:83069
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -396,7 +402,7 @@ main.ts:83069
 
 #### Defined in
 
-main.ts:83104
+main.ts:92816
 
 ***
 
@@ -406,7 +412,9 @@ main.ts:83104
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -414,4 +422,4 @@ main.ts:83104
 
 #### Defined in
 
-main.ts:83097
+main.ts:92809

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RatingElement
+[Documentation](../README.md) / RatingElement
 
 # Class: RatingElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRatingElement`](../interfaces/IRatingElement.md)
+##### data?
+
+[`IRatingElement`](../interfaces/IRatingElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:21237
+main.ts:21915
 
 ## Properties
 
@@ -48,7 +50,7 @@ left, right
 
 #### Defined in
 
-main.ts:21224
+main.ts:21911
 
 ***
 
@@ -64,7 +66,7 @@ the maximum value for a rating_type
 
 #### Defined in
 
-main.ts:21233
+main.ts:21905
 
 ***
 
@@ -81,7 +83,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:21227
+main.ts:21899
 
 ***
 
@@ -97,15 +99,15 @@ type of element
 
 #### Defined in
 
-main.ts:21220
+main.ts:21907
 
 ***
 
 ### value?
 
-> `optional` **value**: `string`
+> `optional` **value**: `number`
 
-value of the rating
+the value of the rating
 
 #### Implementation of
 
@@ -113,7 +115,7 @@ value of the rating
 
 #### Defined in
 
-main.ts:21229
+main.ts:21901
 
 ***
 
@@ -121,7 +123,7 @@ main.ts:21229
 
 > `optional` **votes\_count**: `number`
 
-the amount of feedback
+the amount of feedbac
 
 #### Implementation of
 
@@ -129,7 +131,7 @@ the amount of feedback
 
 #### Defined in
 
-main.ts:21231
+main.ts:21903
 
 ## Methods
 
@@ -139,7 +141,9 @@ main.ts:21231
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +151,7 @@ main.ts:21231
 
 #### Defined in
 
-main.ts:21246
+main.ts:21924
 
 ***
 
@@ -157,7 +161,9 @@ main.ts:21246
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +171,7 @@ main.ts:21246
 
 #### Defined in
 
-main.ts:21268
+main.ts:21946
 
 ***
 
@@ -175,7 +181,9 @@ main.ts:21268
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -183,4 +191,4 @@ main.ts:21268
 
 #### Defined in
 
-main.ts:21261
+main.ts:21939

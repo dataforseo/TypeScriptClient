@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsDomainRankOverviewLiveItem
+[Documentation](../README.md) / IDataforseoLabsDomainRankOverviewLiveItem
 
 # Interface: IDataforseoLabsDomainRankOverviewLiveItem
 
@@ -20,7 +20,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:95499
+main.ts:105217
 
 ***
 
@@ -32,7 +32,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:95497
+main.ts:105215
 
 ***
 
@@ -48,7 +48,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:95501
+main.ts:105219
 
 ***
 
@@ -60,4 +60,4 @@ search engine type
 
 #### Defined in
 
-main.ts:95495
+main.ts:105213

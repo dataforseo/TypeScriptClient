@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppStoreInfoOrganicSerpElementItem
+[Documentation](../README.md) / IAppDataAppStoreInfoOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreInfoOrganicSerpElementItem
 
@@ -24,7 +24,7 @@ age rating and age-based content advisories
 
 #### Defined in
 
-main.ts:194361
+main.ts:206703
 
 ***
 
@@ -36,7 +36,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:194341
+main.ts:206683
 
 ***
 
@@ -48,7 +48,7 @@ all relevant categories/genres of the app
 
 #### Defined in
 
-main.ts:194357
+main.ts:206699
 
 ***
 
@@ -60,7 +60,7 @@ description of the app
 
 #### Defined in
 
-main.ts:194347
+main.ts:206689
 
 ***
 
@@ -72,7 +72,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:194363
+main.ts:206705
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:194365
+main.ts:206707
 
 ***
 
@@ -96,7 +96,7 @@ URL to the developer page on App Store
 
 #### Defined in
 
-main.ts:194367
+main.ts:206709
 
 ***
 
@@ -108,7 +108,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:194345
+main.ts:206687
 
 ***
 
@@ -121,7 +121,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Defined in
 
-main.ts:194389
+main.ts:206731
 
 ***
 
@@ -133,7 +133,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:194353
+main.ts:206695
 
 ***
 
@@ -145,7 +145,7 @@ languages supported in the app
 
 #### Defined in
 
-main.ts:194359
+main.ts:206701
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:194383
+main.ts:206725
 
 ***
 
@@ -172,7 +172,7 @@ main category/genre of the app
 
 #### Defined in
 
-main.ts:194355
+main.ts:206697
 
 ***
 
@@ -184,7 +184,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:194371
+main.ts:206713
 
 ***
 
@@ -197,7 +197,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:194395
+main.ts:206737
 
 ***
 
@@ -215,19 +215,19 @@ left, right
 
 #### Defined in
 
-main.ts:22073
+main.ts:22971
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of the app
 
 #### Defined in
 
-main.ts:194351
+main.ts:206693
 
 ***
 
@@ -244,7 +244,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22069
+main.ts:22967
 
 ***
 
@@ -261,7 +261,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22066
+main.ts:22964
 
 ***
 
@@ -277,7 +277,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:22077
+main.ts:22975
 
 ***
 
@@ -292,7 +292,7 @@ example:
 
 #### Defined in
 
-main.ts:194378
+main.ts:206720
 
 ***
 
@@ -304,7 +304,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:194349
+main.ts:206691
 
 ***
 
@@ -317,7 +317,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:194392
+main.ts:206734
 
 ***
 
@@ -329,7 +329,7 @@ size of the app
 
 #### Defined in
 
-main.ts:194373
+main.ts:206715
 
 ***
 
@@ -345,7 +345,7 @@ title of the app
 
 #### Defined in
 
-main.ts:22075
+main.ts:22973
 
 ***
 
@@ -361,7 +361,7 @@ type of element
 
 #### Defined in
 
-main.ts:22063
+main.ts:22961
 
 ***
 
@@ -374,7 +374,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:194386
+main.ts:206728
 
 ***
 
@@ -386,7 +386,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:194343
+main.ts:206685
 
 ***
 
@@ -398,4 +398,4 @@ current version of the app
 
 #### Defined in
 
-main.ts:194369
+main.ts:206711

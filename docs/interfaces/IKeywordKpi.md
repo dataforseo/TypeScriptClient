@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordKpi
+[Documentation](../README.md) / IKeywordKpi
 
 # Interface: IKeywordKpi
 
@@ -21,7 +21,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133274
+main.ts:145123
 
 ***
 
@@ -34,7 +34,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133277
+main.ts:145126
 
 ***
 
@@ -47,4 +47,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133280
+main.ts:145129

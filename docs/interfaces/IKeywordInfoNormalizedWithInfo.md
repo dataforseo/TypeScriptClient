@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordInfoNormalizedWithInfo
+[Documentation](../README.md) / IKeywordInfoNormalizedWithInfo
 
 # Interface: IKeywordInfoNormalizedWithInfo
 
@@ -21,7 +21,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 #### Defined in
 
-main.ts:82880
+main.ts:92592
 
 ***
 
@@ -34,7 +34,7 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 #### Defined in
 
-main.ts:82885
+main.ts:92597
 
 ***
 
@@ -46,4 +46,4 @@ monthly average clickstream search volume rate
 
 #### Defined in
 
-main.ts:82882
+main.ts:92594

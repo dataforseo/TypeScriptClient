@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RankedSerpElement
+[Documentation](../README.md) / RankedSerpElement
 
 # Class: RankedSerpElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md)
+##### data?
+
+[`IRankedSerpElement`](../interfaces/IRankedSerpElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:91630
+main.ts:101348
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:91600
+main.ts:101318
 
 ***
 
@@ -64,7 +66,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:91616
+main.ts:101334
 
 ***
 
@@ -83,7 +85,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:91613
+main.ts:101331
 
 ***
 
@@ -102,7 +104,7 @@ example:
 
 #### Defined in
 
-main.ts:91621
+main.ts:101339
 
 ***
 
@@ -121,7 +123,7 @@ example:
 
 #### Defined in
 
-main.ts:91626
+main.ts:101344
 
 ***
 
@@ -137,7 +139,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:91608
+main.ts:101326
 
 ***
 
@@ -153,7 +155,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91594
+main.ts:101312
 
 ***
 
@@ -170,7 +172,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:91597
+main.ts:101315
 
 ***
 
@@ -190,7 +192,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:91606
+main.ts:101324
 
 ## Methods
 
@@ -200,7 +202,9 @@ main.ts:91606
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -208,7 +212,7 @@ main.ts:91606
 
 #### Defined in
 
-main.ts:91639
+main.ts:101357
 
 ***
 
@@ -218,7 +222,9 @@ main.ts:91639
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -226,7 +232,7 @@ main.ts:91639
 
 #### Defined in
 
-main.ts:91668
+main.ts:101386
 
 ***
 
@@ -236,7 +242,9 @@ main.ts:91668
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -244,4 +252,4 @@ main.ts:91668
 
 #### Defined in
 
-main.ts:91661
+main.ts:101379

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalServicesElement
+[Documentation](../README.md) / LocalServicesElement
 
 # Class: LocalServicesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md)
+##### data?
+
+[`ILocalServicesElement`](../interfaces/ILocalServicesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:34455
+main.ts:35940
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:34446
+main.ts:35931
 
 ***
 
@@ -62,7 +64,7 @@ website domain
 
 #### Defined in
 
-main.ts:34444
+main.ts:35929
 
 ***
 
@@ -78,7 +80,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:34451
+main.ts:35936
 
 ***
 
@@ -95,7 +97,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:34449
+main.ts:35934
 
 ***
 
@@ -111,7 +113,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34440
+main.ts:35925
 
 ***
 
@@ -127,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:34438
+main.ts:35923
 
 ***
 
@@ -143,7 +145,7 @@ URL
 
 #### Defined in
 
-main.ts:34442
+main.ts:35927
 
 ## Methods
 
@@ -153,7 +155,9 @@ main.ts:34442
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -161,7 +165,7 @@ main.ts:34442
 
 #### Defined in
 
-main.ts:34464
+main.ts:35949
 
 ***
 
@@ -171,7 +175,9 @@ main.ts:34464
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +185,7 @@ main.ts:34464
 
 #### Defined in
 
-main.ts:34487
+main.ts:35972
 
 ***
 
@@ -189,7 +195,9 @@ main.ts:34487
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -197,4 +205,4 @@ main.ts:34487
 
 #### Defined in
 
-main.ts:34480
+main.ts:35965

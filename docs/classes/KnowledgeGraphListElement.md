@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphListElement
+[Documentation](../README.md) / KnowledgeGraphListElement
 
 # Class: KnowledgeGraphListElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md)
+##### data?
+
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:27881
+main.ts:29440
 
 ## Properties
 
@@ -46,7 +48,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:27872
+main.ts:29431
 
 ***
 
@@ -63,7 +65,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:27875
+main.ts:29434
 
 ***
 
@@ -79,7 +81,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:27868
+main.ts:29427
 
 ***
 
@@ -95,7 +97,7 @@ link anchor text
 
 #### Defined in
 
-main.ts:27866
+main.ts:29425
 
 ***
 
@@ -111,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:27864
+main.ts:29423
 
 ***
 
@@ -127,7 +129,7 @@ sitelink URL
 
 #### Defined in
 
-main.ts:27870
+main.ts:29429
 
 ***
 
@@ -143,7 +145,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:27877
+main.ts:29436
 
 ## Methods
 
@@ -153,7 +155,9 @@ main.ts:27877
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -161,7 +165,7 @@ main.ts:27877
 
 #### Defined in
 
-main.ts:27890
+main.ts:29449
 
 ***
 
@@ -171,7 +175,9 @@ main.ts:27890
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +185,7 @@ main.ts:27890
 
 #### Defined in
 
-main.ts:27913
+main.ts:29472
 
 ***
 
@@ -189,7 +195,9 @@ main.ts:27913
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -197,4 +205,4 @@ main.ts:27913
 
 #### Defined in
 
-main.ts:27906
+main.ts:29465

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MultiCarouselElement
+[Documentation](../README.md) / MultiCarouselElement
 
 # Class: MultiCarouselElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md)
+##### data?
+
+[`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:32502
+main.ts:34055
 
 ## Properties
 
@@ -46,7 +48,7 @@ multi_carousel_snippet results
 
 #### Defined in
 
-main.ts:32498
+main.ts:34051
 
 ***
 
@@ -62,7 +64,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32496
+main.ts:34049
 
 ***
 
@@ -78,7 +80,7 @@ type of element
 
 #### Defined in
 
-main.ts:32494
+main.ts:34047
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:32494
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:32494
 
 #### Defined in
 
-main.ts:32511
+main.ts:34064
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:32511
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:32511
 
 #### Defined in
 
-main.ts:32534
+main.ts:34087
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:32534
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:32534
 
 #### Defined in
 
-main.ts:32527
+main.ts:34080

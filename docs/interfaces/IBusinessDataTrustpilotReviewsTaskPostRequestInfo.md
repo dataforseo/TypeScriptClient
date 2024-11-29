@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
@@ -25,7 +25,7 @@ maximum value: 25000
 
 #### Defined in
 
-main.ts:211366
+main.ts:226297
 
 ***
 
@@ -43,7 +43,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Defined in
 
-main.ts:211343
+main.ts:226274
 
 ***
 
@@ -58,12 +58,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:211392
+main.ts:226325
 
 ***
 
@@ -78,12 +79,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:211382
+main.ts:226314
 
 ***
 
@@ -101,7 +103,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:211359
+main.ts:226290
 
 ***
 
@@ -119,7 +121,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:211351
+main.ts:226282
 
 ***
 
@@ -135,4 +137,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:211372
+main.ts:226303

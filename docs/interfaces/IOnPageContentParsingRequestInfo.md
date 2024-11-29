@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageContentParsingRequestInfo
+[Documentation](../README.md) / IOnPageContentParsingRequestInfo
 
 # Interface: IOnPageContentParsingRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:161236
+main.ts:172849
 
 ***
 
@@ -41,4 +41,4 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 #### Defined in
 
-main.ts:161229
+main.ts:172842

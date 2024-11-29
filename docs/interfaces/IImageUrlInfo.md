@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IImageUrlInfo
+[Documentation](../README.md) / IImageUrlInfo
 
 # Interface: IImageUrlInfo
 
@@ -20,4 +20,4 @@ URL of the image used in the review
 
 #### Defined in
 
-main.ts:214198
+main.ts:229141

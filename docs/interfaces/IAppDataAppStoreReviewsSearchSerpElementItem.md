@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppStoreReviewsSearchSerpElementItem
+[Documentation](../README.md) / IAppDataAppStoreReviewsSearchSerpElementItem
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
 
@@ -24,7 +24,7 @@ id of the review
 
 #### Defined in
 
-main.ts:196031
+main.ts:208381
 
 ***
 
@@ -42,7 +42,7 @@ left, right
 
 #### Defined in
 
-main.ts:22073
+main.ts:22971
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22069
+main.ts:22967
 
 ***
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22066
+main.ts:22964
 
 ***
 
@@ -92,7 +92,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:22077
+main.ts:22975
 
 ***
 
@@ -104,7 +104,7 @@ content of the review
 
 #### Defined in
 
-main.ts:196033
+main.ts:208383
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:196029
+main.ts:208379
 
 ***
 
@@ -135,7 +135,7 @@ title of the app
 
 #### Defined in
 
-main.ts:22075
+main.ts:22973
 
 ***
 
@@ -151,7 +151,7 @@ type of element
 
 #### Defined in
 
-main.ts:22063
+main.ts:22961
 
 ***
 
@@ -163,7 +163,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:196035
+main.ts:208385
 
 ***
 
@@ -176,4 +176,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:196024
+main.ts:208374

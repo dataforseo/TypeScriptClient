@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / SerpGoogleLocationsCountryResultInfo
 
 # Class: SerpGoogleLocationsCountryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md)
+##### data?
+
+[`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:25921
+main.ts:26986
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:25915
+main.ts:26980
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:25902
+main.ts:26967
 
 ***
 
@@ -85,7 +87,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:25913
+main.ts:26978
 
 ***
 
@@ -101,7 +103,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:25904
+main.ts:26969
 
 ***
 
@@ -117,7 +119,7 @@ location type
 
 #### Defined in
 
-main.ts:25917
+main.ts:26982
 
 ## Methods
 
@@ -127,7 +129,9 @@ main.ts:25917
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -135,7 +139,7 @@ main.ts:25917
 
 #### Defined in
 
-main.ts:25930
+main.ts:26995
 
 ***
 
@@ -145,7 +149,9 @@ main.ts:25930
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -153,7 +159,7 @@ main.ts:25930
 
 #### Defined in
 
-main.ts:25951
+main.ts:27016
 
 ***
 
@@ -163,7 +169,9 @@ main.ts:25951
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -171,4 +179,4 @@ main.ts:25951
 
 #### Defined in
 
-main.ts:25944
+main.ts:27009

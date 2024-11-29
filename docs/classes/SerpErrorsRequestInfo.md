@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpErrorsRequestInfo
+[Documentation](../README.md) / SerpErrorsRequestInfo
 
 # Class: SerpErrorsRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md)
+##### data?
+
+[`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:24732
+main.ts:25797
 
 ## Properties
 
@@ -40,7 +42,7 @@ main.ts:24732
 
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:24721
+main.ts:25786
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:24721
 
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -72,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:24728
+main.ts:25793
 
 ***
 
@@ -92,7 +94,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:24714
+main.ts:25779
 
 ***
 
@@ -111,7 +113,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:24703
+main.ts:25768
 
 ***
 
@@ -130,7 +132,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:24708
+main.ts:25773
 
 ## Methods
 
@@ -140,7 +142,9 @@ main.ts:24708
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +152,7 @@ main.ts:24708
 
 #### Defined in
 
-main.ts:24741
+main.ts:25806
 
 ***
 
@@ -158,7 +162,9 @@ main.ts:24741
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +172,7 @@ main.ts:24741
 
 #### Defined in
 
-main.ts:24762
+main.ts:25827
 
 ***
 
@@ -176,7 +182,9 @@ main.ts:24762
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +192,4 @@ main.ts:24762
 
 #### Defined in
 
-main.ts:24755
+main.ts:25820

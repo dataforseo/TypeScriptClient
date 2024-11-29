@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixSerpPriceData
+[Documentation](../README.md) / AppendixSerpPriceData
 
 # Class: AppendixSerpPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md)
+##### data?
+
+[`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:222093
+main.ts:237272
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:222093
 
 #### Defined in
 
-main.ts:222081
+main.ts:237260
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:222081
 
 #### Defined in
 
-main.ts:222082
+main.ts:237261
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:222082
 
 #### Defined in
 
-main.ts:222083
+main.ts:237262
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:222083
 
 #### Defined in
 
-main.ts:222084
+main.ts:237263
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:222084
 
 #### Defined in
 
-main.ts:222085
+main.ts:237264
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:222085
 
 #### Defined in
 
-main.ts:222086
+main.ts:237265
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:222086
 
 #### Defined in
 
-main.ts:222087
+main.ts:237266
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:222087
 
 #### Defined in
 
-main.ts:222088
+main.ts:237267
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:222088
 
 #### Defined in
 
-main.ts:222080
+main.ts:237259
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:222080
 
 #### Defined in
 
-main.ts:222089
+main.ts:237268
 
 ## Methods
 
@@ -180,7 +182,9 @@ main.ts:222089
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -188,7 +192,7 @@ main.ts:222089
 
 #### Defined in
 
-main.ts:222102
+main.ts:237281
 
 ***
 
@@ -198,7 +202,9 @@ main.ts:222102
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -206,7 +212,7 @@ main.ts:222102
 
 #### Defined in
 
-main.ts:222128
+main.ts:237307
 
 ***
 
@@ -216,7 +222,9 @@ main.ts:222128
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -224,4 +232,4 @@ main.ts:222128
 
 #### Defined in
 
-main.ts:222121
+main.ts:237300

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveResultInfo
+[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesSummaryLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md)
+##### data?
+
+[`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:148329
+main.ts:159534
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:148314
+main.ts:159519
 
 ***
 
@@ -68,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:148319
+main.ts:159524
 
 ***
 
@@ -84,7 +86,7 @@ group_range from a POST array
 
 #### Defined in
 
-main.ts:148321
+main.ts:159526
 
 ***
 
@@ -100,7 +102,7 @@ contains relevant summary data
 
 #### Defined in
 
-main.ts:148325
+main.ts:159530
 
 ***
 
@@ -116,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:148323
+main.ts:159528
 
 ***
 
@@ -132,7 +134,7 @@ target from a POST array
 
 #### Defined in
 
-main.ts:148309
+main.ts:159514
 
 ## Methods
 
@@ -142,7 +144,9 @@ main.ts:148309
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +154,7 @@ main.ts:148309
 
 #### Defined in
 
-main.ts:148338
+main.ts:159543
 
 ***
 
@@ -160,7 +164,9 @@ main.ts:148338
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -168,7 +174,7 @@ main.ts:148338
 
 #### Defined in
 
-main.ts:148364
+main.ts:159569
 
 ***
 
@@ -178,7 +184,9 @@ main.ts:148364
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -186,4 +194,4 @@ main.ts:148364
 
 #### Defined in
 
-main.ts:148357
+main.ts:159562

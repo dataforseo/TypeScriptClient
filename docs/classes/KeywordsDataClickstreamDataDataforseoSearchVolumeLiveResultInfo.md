@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:135941
+main.ts:147798
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveItem`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveItem.md)[]
+> `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
 array of keywords
 contains keywords and their search volume rates
@@ -47,7 +49,7 @@ contains keywords and their search volume rates
 
 #### Defined in
 
-main.ts:135937
+main.ts:147794
 
 ***
 
@@ -63,7 +65,7 @@ ithe number of results returned in the items array
 
 #### Defined in
 
-main.ts:135934
+main.ts:147791
 
 ***
 
@@ -82,7 +84,7 @@ we use the functionality of Google Ads API to check and validate the spelling of
 
 #### Defined in
 
-main.ts:135929
+main.ts:147786
 
 ***
 
@@ -99,7 +101,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:135924
+main.ts:147781
 
 ***
 
@@ -116,7 +118,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:135932
+main.ts:147789
 
 ## Methods
 
@@ -126,7 +128,9 @@ main.ts:135932
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +138,7 @@ main.ts:135932
 
 #### Defined in
 
-main.ts:135950
+main.ts:147807
 
 ***
 
@@ -144,7 +148,9 @@ main.ts:135950
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -152,7 +158,7 @@ main.ts:135950
 
 #### Defined in
 
-main.ts:135975
+main.ts:147832
 
 ***
 
@@ -162,7 +168,9 @@ main.ts:135975
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -170,4 +178,4 @@ main.ts:135975
 
 #### Defined in
 
-main.ts:135968
+main.ts:147825

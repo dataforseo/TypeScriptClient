@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonAsinTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantAmazonAsinTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonAsinTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonAsinTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantAmazonAsinTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:182565
+main.ts:194713
 
 ## Properties
 
@@ -48,7 +50,7 @@ learn more about the identified in this help center guide
 
 #### Defined in
 
-main.ts:182536
+main.ts:194684
 
 ***
 
@@ -65,7 +67,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:182547
+main.ts:194695
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:182552
+main.ts:194700
 
 ***
 
@@ -103,7 +105,7 @@ amazon_product_info
 
 #### Defined in
 
-main.ts:182557
+main.ts:194705
 
 ***
 
@@ -119,7 +121,7 @@ Amazon product info items
 
 #### Defined in
 
-main.ts:182561
+main.ts:194709
 
 ***
 
@@ -135,7 +137,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:182559
+main.ts:194707
 
 ***
 
@@ -151,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:182544
+main.ts:194692
 
 ***
 
@@ -167,7 +169,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:182542
+main.ts:194690
 
 ***
 
@@ -183,7 +185,7 @@ Amazon domain in a POST array
 
 #### Defined in
 
-main.ts:182540
+main.ts:194688
 
 ***
 
@@ -199,7 +201,7 @@ type of element
 
 #### Defined in
 
-main.ts:182538
+main.ts:194686
 
 ## Methods
 
@@ -209,7 +211,9 @@ main.ts:182538
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -217,7 +221,7 @@ main.ts:182538
 
 #### Defined in
 
-main.ts:182574
+main.ts:194722
 
 ***
 
@@ -227,7 +231,9 @@ main.ts:182574
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -235,7 +241,7 @@ main.ts:182574
 
 #### Defined in
 
-main.ts:182608
+main.ts:194756
 
 ***
 
@@ -245,7 +251,9 @@ main.ts:182608
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -253,4 +261,4 @@ main.ts:182608
 
 #### Defined in
 
-main.ts:182601
+main.ts:194749

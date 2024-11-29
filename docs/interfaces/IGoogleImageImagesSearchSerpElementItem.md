@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleImageImagesSearchSerpElementItem
+[Documentation](../README.md) / IGoogleImageImagesSearchSerpElementItem
 
 # Interface: IGoogleImageImagesSearchSerpElementItem
 
@@ -24,7 +24,7 @@ the alt tag of the image
 
 #### Defined in
 
-main.ts:47798
+main.ts:50959
 
 ***
 
@@ -36,7 +36,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Defined in
 
-main.ts:47804
+main.ts:50965
 
 ***
 
@@ -53,7 +53,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47644
+main.ts:50805
 
 ***
 
@@ -71,7 +71,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47641
+main.ts:50802
 
 ***
 
@@ -83,7 +83,7 @@ the URL of the source image
 
 #### Defined in
 
-main.ts:47802
+main.ts:50963
 
 ***
 
@@ -95,7 +95,7 @@ subtitle of the result in SERP
 
 #### Defined in
 
-main.ts:47796
+main.ts:50957
 
 ***
 
@@ -107,7 +107,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:47794
+main.ts:50955
 
 ***
 
@@ -123,7 +123,7 @@ type of element
 
 #### Defined in
 
-main.ts:47637
+main.ts:50798
 
 ***
 
@@ -131,11 +131,11 @@ main.ts:47637
 
 > `optional` **url**: `string`
 
-the URL of the page where the image is hosted
+search URL with refinement parameters
 
 #### Defined in
 
-main.ts:47800
+main.ts:50961
 
 ***
 
@@ -151,4 +151,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47646
+main.ts:50807

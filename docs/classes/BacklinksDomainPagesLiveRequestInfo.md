@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksDomainPagesLiveRequestInfo
+[Documentation](../README.md) / BacklinksDomainPagesLiveRequestInfo
 
 # Class: BacklinksDomainPagesLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:142139
+main.ts:153344
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:142118
+main.ts:153323
 
 ***
 
@@ -75,7 +77,7 @@ default value: live
 
 #### Defined in
 
-main.ts:142079
+main.ts:153284
 
 ***
 
@@ -95,7 +97,7 @@ default value: true
 
 #### Defined in
 
-main.ts:142129
+main.ts:153334
 
 ***
 
@@ -126,7 +128,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:142096
+main.ts:153301
 
 ***
 
@@ -145,7 +147,7 @@ default value: true
 
 #### Defined in
 
-main.ts:142123
+main.ts:153328
 
 ***
 
@@ -170,7 +172,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:142070
+main.ts:153275
 
 ***
 
@@ -189,7 +191,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:142054
+main.ts:153259
 
 ***
 
@@ -208,7 +210,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:142059
+main.ts:153264
 
 ***
 
@@ -236,7 +238,7 @@ example:
 
 #### Defined in
 
-main.ts:142110
+main.ts:153315
 
 ***
 
@@ -256,7 +258,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:142135
+main.ts:153340
 
 ***
 
@@ -276,7 +278,7 @@ forbes.com
 
 #### Defined in
 
-main.ts:142049
+main.ts:153254
 
 ## Methods
 
@@ -286,7 +288,9 @@ main.ts:142049
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -294,7 +298,7 @@ main.ts:142049
 
 #### Defined in
 
-main.ts:142148
+main.ts:153353
 
 ***
 
@@ -304,7 +308,9 @@ main.ts:142148
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -312,7 +318,7 @@ main.ts:142148
 
 #### Defined in
 
-main.ts:142187
+main.ts:153392
 
 ***
 
@@ -322,7 +328,9 @@ main.ts:142187
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -330,4 +338,4 @@ main.ts:142187
 
 #### Defined in
 
-main.ts:142180
+main.ts:153385

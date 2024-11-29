@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseLiveJsonRequestInfo
+[Documentation](../README.md) / OnPageLighthouseLiveJsonRequestInfo
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md)
+##### data?
+
+[`IOnPageLighthouseLiveJsonRequestInfo`](../interfaces/IOnPageLighthouseLiveJsonRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:164455
+main.ts:176044
 
 ## Properties
 
@@ -57,7 +59,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:164428
+main.ts:176017
 
 ***
 
@@ -79,7 +81,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:164415
+main.ts:176004
 
 ***
 
@@ -99,7 +101,7 @@ default value: false
 
 #### Defined in
 
-main.ts:164407
+main.ts:175996
 
 ***
 
@@ -119,7 +121,7 @@ en
 
 #### Defined in
 
-main.ts:164445
+main.ts:176034
 
 ***
 
@@ -139,7 +141,7 @@ English
 
 #### Defined in
 
-main.ts:164439
+main.ts:176028
 
 ***
 
@@ -159,7 +161,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:164451
+main.ts:176040
 
 ***
 
@@ -179,7 +181,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:164401
+main.ts:175990
 
 ***
 
@@ -198,7 +200,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:164433
+main.ts:176022
 
 ## Methods
 
@@ -208,7 +210,9 @@ main.ts:164433
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +220,7 @@ main.ts:164433
 
 #### Defined in
 
-main.ts:164464
+main.ts:176053
 
 ***
 
@@ -226,7 +230,9 @@ main.ts:164464
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +240,7 @@ main.ts:164464
 
 #### Defined in
 
-main.ts:164496
+main.ts:176085
 
 ***
 
@@ -244,7 +250,9 @@ main.ts:164496
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -252,4 +260,4 @@ main.ts:164496
 
 #### Defined in
 
-main.ts:164489
+main.ts:176078

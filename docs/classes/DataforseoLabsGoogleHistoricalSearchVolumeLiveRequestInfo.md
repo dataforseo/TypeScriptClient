@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:85745
+main.ts:95460
 
 ## Properties
 
@@ -40,7 +42,7 @@ main.ts:85745
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -51,7 +53,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:85735
+main.ts:95450
 
 ***
 
@@ -70,7 +72,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85728
+main.ts:95443
 
 ***
 
@@ -86,6 +88,7 @@ The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase format, data will be provided in a separate array
 note that if some of the keywords specified in this array are omitted in the results you receive, then our database doesn’t contain such keywords and cannot return data on them
 you will not be charged for the keywords omitted in the results
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -93,7 +96,7 @@ you will not be charged for the keywords omitted in the results
 
 #### Defined in
 
-main.ts:85691
+main.ts:95406
 
 ***
 
@@ -115,7 +118,7 @@ en
 
 #### Defined in
 
-main.ts:85723
+main.ts:95438
 
 ***
 
@@ -137,7 +140,7 @@ English
 
 #### Defined in
 
-main.ts:85715
+main.ts:95430
 
 ***
 
@@ -159,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:85707
+main.ts:95422
 
 ***
 
@@ -181,7 +184,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:85699
+main.ts:95414
 
 ***
 
@@ -201,7 +204,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85741
+main.ts:95456
 
 ## Methods
 
@@ -211,7 +214,9 @@ main.ts:85741
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -219,7 +224,7 @@ main.ts:85741
 
 #### Defined in
 
-main.ts:85754
+main.ts:95469
 
 ***
 
@@ -229,7 +234,9 @@ main.ts:85754
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -237,7 +244,7 @@ main.ts:85754
 
 #### Defined in
 
-main.ts:85782
+main.ts:95497
 
 ***
 
@@ -247,7 +254,9 @@ main.ts:85782
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -255,4 +264,4 @@ main.ts:85782
 
 #### Defined in
 
-main.ts:85775
+main.ts:95490

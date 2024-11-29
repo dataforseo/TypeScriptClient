@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLanguagesResultInfo
+[Documentation](../README.md) / ISerpGoogleLanguagesResultInfo
 
 # Interface: ISerpGoogleLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:26149
+main.ts:27214
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:26147
+main.ts:27212

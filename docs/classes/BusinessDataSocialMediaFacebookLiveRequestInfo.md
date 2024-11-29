@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataSocialMediaFacebookLiveRequestInfo
+[Documentation](../README.md) / BusinessDataSocialMediaFacebookLiveRequestInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataSocialMediaFacebookLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataSocialMediaFacebookLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:214900
+main.ts:229843
 
 ## Properties
 
@@ -50,7 +52,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:214896
+main.ts:229839
 
 ***
 
@@ -71,7 +73,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:214890
+main.ts:229833
 
 ## Methods
 
@@ -81,7 +83,9 @@ main.ts:214890
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -89,7 +93,7 @@ main.ts:214890
 
 #### Defined in
 
-main.ts:214909
+main.ts:229852
 
 ***
 
@@ -99,7 +103,9 @@ main.ts:214909
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -107,7 +113,7 @@ main.ts:214909
 
 #### Defined in
 
-main.ts:214931
+main.ts:229874
 
 ***
 
@@ -117,7 +123,9 @@ main.ts:214931
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -125,4 +133,4 @@ main.ts:214931
 
 #### Defined in
 
-main.ts:214924
+main.ts:229867

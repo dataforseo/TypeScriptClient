@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpAiSummaryResultInfo
+[Documentation](../README.md) / SerpAiSummaryResultInfo
 
 # Class: SerpAiSummaryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md)
+##### data?
+
+[`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:25536
+main.ts:26601
 
 ## Properties
 
@@ -46,7 +48,7 @@ items array
 
 #### Defined in
 
-main.ts:25532
+main.ts:26597
 
 ***
 
@@ -62,7 +64,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:25530
+main.ts:26595
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:25530
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:25530
 
 #### Defined in
 
-main.ts:25545
+main.ts:26610
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:25545
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:25545
 
 #### Defined in
 
-main.ts:25567
+main.ts:26632
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:25567
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:25567
 
 #### Defined in
 
-main.ts:25560
+main.ts:26625

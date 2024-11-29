@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixAppDataPriceData
+[Documentation](../README.md) / AppendixAppDataPriceData
 
 # Class: AppendixAppDataPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md)
+##### data?
+
+[`IAppendixAppDataPriceData`](../interfaces/IAppendixAppDataPriceData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:222228
+main.ts:237407
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:222228
 
 #### Defined in
 
-main.ts:222216
+main.ts:237395
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:222216
 
 #### Defined in
 
-main.ts:222217
+main.ts:237396
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:222217
 
 #### Defined in
 
-main.ts:222218
+main.ts:237397
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:222218
 
 #### Defined in
 
-main.ts:222219
+main.ts:237398
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:222219
 
 #### Defined in
 
-main.ts:222220
+main.ts:237399
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:222220
 
 #### Defined in
 
-main.ts:222221
+main.ts:237400
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:222221
 
 #### Defined in
 
-main.ts:222222
+main.ts:237401
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:222222
 
 #### Defined in
 
-main.ts:222223
+main.ts:237402
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:222223
 
 #### Defined in
 
-main.ts:222224
+main.ts:237403
 
 ## Methods
 
@@ -166,7 +168,9 @@ main.ts:222224
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -174,7 +178,7 @@ main.ts:222224
 
 #### Defined in
 
-main.ts:222237
+main.ts:237416
 
 ***
 
@@ -184,7 +188,9 @@ main.ts:222237
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -192,7 +198,7 @@ main.ts:222237
 
 #### Defined in
 
-main.ts:222262
+main.ts:237441
 
 ***
 
@@ -202,7 +208,9 @@ main.ts:222262
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -210,4 +218,4 @@ main.ts:222262
 
 #### Defined in
 
-main.ts:222255
+main.ts:237434

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AuthorsElement
+[Documentation](../README.md) / AuthorsElement
 
 # Class: AuthorsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAuthorsElement`](../interfaces/IAuthorsElement.md)
+##### data?
+
+[`IAuthorsElement`](../interfaces/IAuthorsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:53995
+main.ts:24756
 
 ## Properties
 
@@ -46,7 +48,7 @@ author’s link domain
 
 #### Defined in
 
-main.ts:53991
+main.ts:24752
 
 ***
 
@@ -62,7 +64,7 @@ name of the dataset author
 
 #### Defined in
 
-main.ts:53987
+main.ts:24748
 
 ***
 
@@ -78,7 +80,7 @@ type of element
 
 #### Defined in
 
-main.ts:53985
+main.ts:24746
 
 ***
 
@@ -94,7 +96,7 @@ author’s link URL
 
 #### Defined in
 
-main.ts:53989
+main.ts:24750
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:53989
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:53989
 
 #### Defined in
 
-main.ts:54004
+main.ts:24765
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:54004
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:54004
 
 #### Defined in
 
-main.ts:54024
+main.ts:24785
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:54024
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:54024
 
 #### Defined in
 
-main.ts:54017
+main.ts:24778

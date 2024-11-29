@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksReferringDomainsLiveItem
+[Documentation](../README.md) / IBacklinksReferringDomainsLiveItem
 
 # Interface: IBacklinksReferringDomainsLiveItem
 
@@ -20,7 +20,7 @@ indicates the number of backlinks pointing to the target
 
 #### Defined in
 
-main.ts:144516
+main.ts:155721
 
 ***
 
@@ -33,7 +33,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:144530
+main.ts:155735
 
 ***
 
@@ -46,7 +46,7 @@ number of broken backlinks pointing to the domain
 
 #### Defined in
 
-main.ts:144533
+main.ts:155738
 
 ***
 
@@ -59,7 +59,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Defined in
 
-main.ts:144536
+main.ts:155741
 
 ***
 
@@ -71,7 +71,7 @@ referring domain
 
 #### Defined in
 
-main.ts:144509
+main.ts:155714
 
 ***
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:144521
+main.ts:155726
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:144527
+main.ts:155732
 
 ***
 
@@ -117,7 +117,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:144514
+main.ts:155719
 
 ***
 
@@ -130,7 +130,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 #### Defined in
 
-main.ts:144539
+main.ts:155744
 
 ***
 
@@ -142,7 +142,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:144541
+main.ts:155746
 
 ***
 
@@ -155,7 +155,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:144549
+main.ts:155754
 
 ***
 
@@ -172,7 +172,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:144566
+main.ts:155771
 
 ***
 
@@ -189,7 +189,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:144578
+main.ts:155783
 
 ***
 
@@ -206,7 +206,7 @@ indicates referring platform types and link count per each platform
 
 #### Defined in
 
-main.ts:144569
+main.ts:155774
 
 ***
 
@@ -226,7 +226,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:144575
+main.ts:155780
 
 ***
 
@@ -243,7 +243,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:144558
+main.ts:155763
 
 ***
 
@@ -262,7 +262,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:144563
+main.ts:155768
 
 ***
 
@@ -275,7 +275,7 @@ the number of primary (root) domains referring to your target
 
 #### Defined in
 
-main.ts:144544
+main.ts:155749
 
 ***
 
@@ -287,7 +287,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:144546
+main.ts:155751
 
 ***
 
@@ -299,7 +299,7 @@ indicates the number of pages pointing to the target specified
 
 #### Defined in
 
-main.ts:144553
+main.ts:155758
 
 ***
 
@@ -311,7 +311,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:144555
+main.ts:155760
 
 ***
 
@@ -323,7 +323,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:144551
+main.ts:155756
 
 ***
 
@@ -335,4 +335,4 @@ type of element
 
 #### Defined in
 
-main.ts:144507
+main.ts:155712

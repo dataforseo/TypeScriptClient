@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
+[Documentation](../README.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveItem
 
@@ -21,7 +21,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:150950
+main.ts:162155
 
 ***
 
@@ -33,7 +33,7 @@ number of lost referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:150954
+main.ts:162159
 
 ***
 
@@ -46,7 +46,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:150947
+main.ts:162152
 
 ***
 
@@ -58,7 +58,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:150952
+main.ts:162157
 
 ***
 
@@ -70,4 +70,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:150944
+main.ts:162149

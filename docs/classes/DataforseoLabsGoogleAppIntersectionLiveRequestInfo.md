@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleAppIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleAppIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:113303
+main.ts:122635
 
 ## Properties
 
@@ -63,7 +65,7 @@ the maximum number of app IDs you can specify in this object is 20
 
 #### Defined in
 
-main.ts:113219
+main.ts:122551
 
 ***
 
@@ -88,7 +90,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:113266
+main.ts:122598
 
 ***
 
@@ -111,7 +113,7 @@ en
 
 #### Defined in
 
-main.ts:113255
+main.ts:122587
 
 ***
 
@@ -134,7 +136,7 @@ English
 
 #### Defined in
 
-main.ts:113246
+main.ts:122578
 
 ***
 
@@ -153,7 +155,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:113288
+main.ts:122620
 
 ***
 
@@ -176,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:113237
+main.ts:122569
 
 ***
 
@@ -199,7 +201,7 @@ United States
 
 #### Defined in
 
-main.ts:113228
+main.ts:122560
 
 ***
 
@@ -218,7 +220,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:113293
+main.ts:122625
 
 ***
 
@@ -249,7 +251,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:113283
+main.ts:122615
 
 ***
 
@@ -269,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:113299
+main.ts:122631
 
 ## Methods
 
@@ -279,7 +281,9 @@ main.ts:113299
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -287,7 +291,7 @@ main.ts:113299
 
 #### Defined in
 
-main.ts:113312
+main.ts:122644
 
 ***
 
@@ -297,7 +301,9 @@ main.ts:113312
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -305,7 +311,7 @@ main.ts:113312
 
 #### Defined in
 
-main.ts:113352
+main.ts:122684
 
 ***
 
@@ -315,7 +321,9 @@ main.ts:113352
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -323,4 +331,4 @@ main.ts:113352
 
 #### Defined in
 
-main.ts:113345
+main.ts:122677

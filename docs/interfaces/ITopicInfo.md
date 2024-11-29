@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopicInfo
+[Documentation](../README.md) / ITopicInfo
 
 # Interface: ITopicInfo
 
@@ -20,7 +20,7 @@ content author name
 
 #### Defined in
 
-main.ts:161776
+main.ts:173389
 
 ***
 
@@ -32,7 +32,7 @@ meta title
 
 #### Defined in
 
-main.ts:161772
+main.ts:173385
 
 ***
 
@@ -44,7 +44,7 @@ content language
 
 #### Defined in
 
-main.ts:161778
+main.ts:173391
 
 ***
 
@@ -56,7 +56,7 @@ HTML level
 
 #### Defined in
 
-main.ts:161780
+main.ts:173393
 
 ***
 
@@ -68,7 +68,7 @@ main title of the block
 
 #### Defined in
 
-main.ts:161774
+main.ts:173387
 
 ***
 
@@ -81,7 +81,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161783
+main.ts:173396
 
 ***
 
@@ -94,7 +94,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161786
+main.ts:173399
 
 ***
 
@@ -106,4 +106,4 @@ content of the table on the page
 
 #### Defined in
 
-main.ts:161788
+main.ts:173401

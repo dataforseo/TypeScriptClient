@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AnchorLinkElementItem
+[Documentation](../README.md) / AnchorLinkElementItem
 
 # Class: AnchorLinkElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md)
+##### data?
+
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:157773
+main.ts:169408
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:157773
 
 #### Defined in
 
-main.ts:21681
+main.ts:22579
 
 ***
 
@@ -73,7 +75,7 @@ possible values: internal, external
 
 #### Defined in
 
-main.ts:21673
+main.ts:22571
 
 ***
 
@@ -94,7 +96,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-main.ts:21666
+main.ts:22564
 
 ***
 
@@ -115,7 +117,7 @@ the link was found on this domain
 
 #### Defined in
 
-main.ts:21648
+main.ts:22546
 
 ***
 
@@ -136,7 +138,7 @@ the link is pointing to this domain
 
 #### Defined in
 
-main.ts:21651
+main.ts:22549
 
 ***
 
@@ -157,7 +159,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-main.ts:21676
+main.ts:22574
 
 ***
 
@@ -178,7 +180,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Defined in
 
-main.ts:21679
+main.ts:22577
 
 ***
 
@@ -197,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:157764
+main.ts:169399
 
 ***
 
@@ -218,7 +220,7 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21660
+main.ts:22558
 
 ***
 
@@ -239,7 +241,7 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21663
+main.ts:22561
 
 ***
 
@@ -260,7 +262,7 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21654
+main.ts:22552
 
 ***
 
@@ -280,7 +282,7 @@ url scheme of the referring page
 
 #### Defined in
 
-main.ts:21668
+main.ts:22566
 
 ***
 
@@ -301,7 +303,7 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21657
+main.ts:22555
 
 ***
 
@@ -321,7 +323,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-main.ts:21670
+main.ts:22568
 
 ***
 
@@ -338,7 +340,7 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:157769
+main.ts:169404
 
 ***
 
@@ -354,7 +356,7 @@ anchor text
 
 #### Defined in
 
-main.ts:157766
+main.ts:169401
 
 ***
 
@@ -374,7 +376,7 @@ type of element
 
 #### Defined in
 
-main.ts:21645
+main.ts:22543
 
 ## Methods
 
@@ -384,7 +386,9 @@ main.ts:21645
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -396,7 +400,7 @@ main.ts:21645
 
 #### Defined in
 
-main.ts:157778
+main.ts:169413
 
 ***
 
@@ -406,7 +410,9 @@ main.ts:157778
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -418,7 +424,7 @@ main.ts:157778
 
 #### Defined in
 
-main.ts:157802
+main.ts:169437
 
 ***
 
@@ -428,7 +434,9 @@ main.ts:157802
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -440,4 +448,4 @@ main.ts:157802
 
 #### Defined in
 
-main.ts:157795
+main.ts:169430

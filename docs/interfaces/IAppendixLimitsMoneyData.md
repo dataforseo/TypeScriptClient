@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixLimitsMoneyData
+[Documentation](../README.md) / IAppendixLimitsMoneyData
 
 # Interface: IAppendixLimitsMoneyData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:220107
+main.ts:235106
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:220107
 
 #### Defined in
 
-main.ts:220108
+main.ts:235107

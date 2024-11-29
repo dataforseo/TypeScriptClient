@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYahooLanguagesResultInfo
+[Documentation](../README.md) / ISerpYahooLanguagesResultInfo
 
 # Interface: ISerpYahooLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:66817
+main.ts:75055
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:66815
+main.ts:75053

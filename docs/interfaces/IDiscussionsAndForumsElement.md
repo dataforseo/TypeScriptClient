@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDiscussionsAndForumsElement
+[Documentation](../README.md) / IDiscussionsAndForumsElement
 
 # Interface: IDiscussionsAndForumsElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:36160
+main.ts:37645
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:36155
+main.ts:37640
 
 ***
 
@@ -44,7 +44,7 @@ number of posts from the discussion on the related source
 
 #### Defined in
 
-main.ts:36167
+main.ts:37652
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36158
+main.ts:37643
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:36165
+main.ts:37650
 
 ***
 
@@ -84,7 +84,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36151
+main.ts:37636
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:36149
+main.ts:37634
 
 ***
 
@@ -108,4 +108,4 @@ URL
 
 #### Defined in
 
-main.ts:36153
+main.ts:37638

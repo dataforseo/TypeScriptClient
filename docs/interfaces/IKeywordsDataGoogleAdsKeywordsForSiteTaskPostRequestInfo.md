@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:118566
+main.ts:128296
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Defined in
 
-main.ts:118574
+main.ts:128304
 
 ***
 
@@ -60,7 +60,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:118580
+main.ts:128310
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:118553
+main.ts:128283
 
 ***
 
@@ -92,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:118547
+main.ts:128277
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:118532
+main.ts:128262
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:118541
+main.ts:128271
 
 ***
 
@@ -147,7 +147,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:118524
+main.ts:128254
 
 ***
 
@@ -162,12 +162,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:118605
+main.ts:128337
 
 ***
 
@@ -182,12 +183,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:118595
+main.ts:128326
 
 ***
 
@@ -202,7 +204,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:118558
+main.ts:128288
 
 ***
 
@@ -217,7 +219,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:118585
+main.ts:128315
 
 ***
 
@@ -233,7 +235,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:118611
+main.ts:128343
 
 ***
 
@@ -248,7 +250,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:118509
+main.ts:128239
 
 ***
 
@@ -265,4 +267,4 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:118516
+main.ts:128246

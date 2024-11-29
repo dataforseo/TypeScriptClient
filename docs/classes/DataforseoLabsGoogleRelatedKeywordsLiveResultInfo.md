@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:84315
+main.ts:94029
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)[]
 
 contains keywords and related data
 
@@ -46,7 +48,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:84311
+main.ts:94025
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:84309
+main.ts:94023
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:84305
+main.ts:94019
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:84303
+main.ts:94017
 
 ***
 
@@ -110,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84296
+main.ts:94010
 
 ***
 
@@ -126,7 +128,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:84298
+main.ts:94012
 
 ***
 
@@ -147,7 +149,7 @@ fields in the array are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:84301
+main.ts:94015
 
 ***
 
@@ -163,7 +165,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:84307
+main.ts:94021
 
 ## Methods
 
@@ -173,7 +175,9 @@ main.ts:84307
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +185,7 @@ main.ts:84307
 
 #### Defined in
 
-main.ts:84324
+main.ts:94038
 
 ***
 
@@ -191,7 +195,9 @@ main.ts:84324
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -199,7 +205,7 @@ main.ts:84324
 
 #### Defined in
 
-main.ts:84358
+main.ts:94072
 
 ***
 
@@ -209,7 +215,9 @@ main.ts:84358
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -217,4 +225,4 @@ main.ts:84358
 
 #### Defined in
 
-main.ts:84351
+main.ts:94065

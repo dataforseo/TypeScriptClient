@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageKeywordDensityResultInfo
+[Documentation](../README.md) / IOnPageKeywordDensityResultInfo
 
 # Interface: IOnPageKeywordDensityResultInfo
 
@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:159725
+main.ts:171360
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:159727
+main.ts:171362
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Defined in
 
-main.ts:159734
+main.ts:171369
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:159732
+main.ts:171367
 
 ***
 
@@ -70,4 +70,4 @@ total number of keywords on the specified website or web page matching the set k
 
 #### Defined in
 
-main.ts:159730
+main.ts:171365

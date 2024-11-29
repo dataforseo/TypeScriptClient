@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpSeznamLanguagesResultInfo
+[Documentation](../README.md) / ISerpSeznamLanguagesResultInfo
 
 # Interface: ISerpSeznamLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:72951
+main.ts:82595
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:72949
+main.ts:82593

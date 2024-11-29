@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / YoutubeVideoInfoSerpElementItem
+[Documentation](../README.md) / YoutubeVideoInfoSerpElementItem
 
 # Class: YoutubeVideoInfoSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md)
+##### data?
+
+[`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:62405
+main.ts:70587
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:62405
 
 #### Defined in
 
-main.ts:62288
+main.ts:70470
 
 ***
 
@@ -68,7 +70,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:62389
+main.ts:70571
 
 ***
 
@@ -84,7 +86,7 @@ the ID of the channel where the video is published
 
 #### Defined in
 
-main.ts:62362
+main.ts:70544
 
 ***
 
@@ -100,7 +102,7 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Defined in
 
-main.ts:62368
+main.ts:70550
 
 ***
 
@@ -116,7 +118,7 @@ the name of the channel where the video is published
 
 #### Defined in
 
-main.ts:62364
+main.ts:70546
 
 ***
 
@@ -132,7 +134,7 @@ number of subscribers of the channel
 
 #### Defined in
 
-main.ts:62378
+main.ts:70560
 
 ***
 
@@ -148,7 +150,7 @@ the URL of the channel where the video is published
 
 #### Defined in
 
-main.ts:62366
+main.ts:70548
 
 ***
 
@@ -164,7 +166,7 @@ number of comments on the video
 
 #### Defined in
 
-main.ts:62376
+main.ts:70558
 
 ***
 
@@ -180,7 +182,7 @@ description of the video
 
 #### Defined in
 
-main.ts:62370
+main.ts:70552
 
 ***
 
@@ -196,7 +198,7 @@ duration of the video
 
 #### Defined in
 
-main.ts:62395
+main.ts:70577
 
 ***
 
@@ -212,7 +214,7 @@ duration of the video in seconds
 
 #### Defined in
 
-main.ts:62397
+main.ts:70579
 
 ***
 
@@ -228,7 +230,7 @@ indicates whether the video is embeddable
 
 #### Defined in
 
-main.ts:62393
+main.ts:70575
 
 ***
 
@@ -244,7 +246,7 @@ indicates whether the video is on live
 
 #### Defined in
 
-main.ts:62391
+main.ts:70573
 
 ***
 
@@ -260,7 +262,7 @@ keywords relevant to the video
 
 #### Defined in
 
-main.ts:62387
+main.ts:70569
 
 ***
 
@@ -276,7 +278,7 @@ number of likes on the video
 
 #### Defined in
 
-main.ts:62374
+main.ts:70556
 
 ***
 
@@ -292,7 +294,7 @@ the date when the video is published
 
 #### Defined in
 
-main.ts:62380
+main.ts:70562
 
 ***
 
@@ -313,7 +315,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62286
+main.ts:70468
 
 ***
 
@@ -335,7 +337,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62283
+main.ts:70465
 
 ***
 
@@ -351,7 +353,7 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Defined in
 
-main.ts:62401
+main.ts:70583
 
 ***
 
@@ -367,7 +369,7 @@ array of elements describing properties of subtitles in the video
 
 #### Defined in
 
-main.ts:62399
+main.ts:70581
 
 ***
 
@@ -383,7 +385,7 @@ the URL of the page where the thumbnail is hosted
 
 #### Defined in
 
-main.ts:62360
+main.ts:70542
 
 ***
 
@@ -402,7 +404,7 @@ example:
 
 #### Defined in
 
-main.ts:62385
+main.ts:70567
 
 ***
 
@@ -418,7 +420,7 @@ title of the video
 
 #### Defined in
 
-main.ts:62356
+main.ts:70538
 
 ***
 
@@ -438,7 +440,7 @@ type of element
 
 #### Defined in
 
-main.ts:62279
+main.ts:70461
 
 ***
 
@@ -454,7 +456,7 @@ URL of the video
 
 #### Defined in
 
-main.ts:62358
+main.ts:70540
 
 ***
 
@@ -470,7 +472,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:62354
+main.ts:70536
 
 ***
 
@@ -486,7 +488,7 @@ number of views of the video
 
 #### Defined in
 
-main.ts:62372
+main.ts:70554
 
 ## Methods
 
@@ -496,7 +498,9 @@ main.ts:62372
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -508,7 +512,7 @@ main.ts:62372
 
 #### Defined in
 
-main.ts:62410
+main.ts:70592
 
 ***
 
@@ -518,7 +522,9 @@ main.ts:62410
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -530,7 +536,7 @@ main.ts:62410
 
 #### Defined in
 
-main.ts:62462
+main.ts:70644
 
 ***
 
@@ -540,7 +546,9 @@ main.ts:62462
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -552,4 +560,4 @@ main.ts:62462
 
 #### Defined in
 
-main.ts:62455
+main.ts:70637

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
@@ -27,7 +27,7 @@ en
 
 #### Defined in
 
-main.ts:107649
+main.ts:117211
 
 ***
 
@@ -46,7 +46,7 @@ English
 
 #### Defined in
 
-main.ts:107640
+main.ts:117202
 
 ***
 
@@ -61,7 +61,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107654
+main.ts:117216
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:107631
+main.ts:117193
 
 ***
 
@@ -101,7 +101,7 @@ United States
 
 #### Defined in
 
-main.ts:107621
+main.ts:117183
 
 ***
 
@@ -116,7 +116,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:107659
+main.ts:117221
 
 ***
 
@@ -132,7 +132,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107665
+main.ts:117227
 
 ***
 
@@ -147,4 +147,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:107611
+main.ts:117173

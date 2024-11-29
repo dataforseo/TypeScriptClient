@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBingOrganicLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpBingOrganicLiveAdvancedResultInfo
 
 # Class: SerpBingOrganicLiveAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:58821
+main.ts:65937
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:58797
+main.ts:65911
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:58802
+main.ts:65916
 
 ***
 
@@ -85,7 +87,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 #### Defined in
 
-main.ts:58810
+main.ts:65927
 
 ***
 
@@ -93,8 +95,7 @@ main.ts:58810
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+items featured in the faq_box
 
 #### Implementation of
 
@@ -102,7 +103,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:58817
+main.ts:65933
 
 ***
 
@@ -118,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:58814
+main.ts:65931
 
 ***
 
@@ -127,7 +128,7 @@ main.ts:58814
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -135,7 +136,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:58786
+main.ts:65900
 
 ***
 
@@ -151,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:58794
+main.ts:65908
 
 ***
 
@@ -167,7 +168,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:58792
+main.ts:65906
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:65922
 
 ***
 
@@ -183,7 +201,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:58790
+main.ts:65904
 
 ***
 
@@ -199,7 +217,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:58812
+main.ts:65929
 
 ***
 
@@ -216,7 +234,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:58805
+main.ts:65919
 
 ***
 
@@ -232,7 +250,7 @@ type of element
 
 #### Defined in
 
-main.ts:58788
+main.ts:65902
 
 ## Methods
 
@@ -242,7 +260,9 @@ main.ts:58788
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +270,7 @@ main.ts:58788
 
 #### Defined in
 
-main.ts:58830
+main.ts:65946
 
 ***
 
@@ -260,7 +280,9 @@ main.ts:58830
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +290,7 @@ main.ts:58830
 
 #### Defined in
 
-main.ts:58866
+main.ts:65983
 
 ***
 
@@ -278,7 +300,9 @@ main.ts:58866
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +310,4 @@ main.ts:58866
 
 #### Defined in
 
-main.ts:58859
+main.ts:65976

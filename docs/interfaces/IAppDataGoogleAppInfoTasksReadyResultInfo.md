@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppInfoTasksReadyResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppInfoTasksReadyResultInfo
 
 # Interface: IAppDataGoogleAppInfoTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:189474
+main.ts:201810
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the Google App Info task
 
 #### Defined in
 
-main.ts:189478
+main.ts:201814
 
 ***
 
@@ -45,7 +45,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:189481
+main.ts:201817
 
 ***
 
@@ -58,7 +58,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:189468
+main.ts:201804
 
 ***
 
@@ -70,7 +70,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:189470
+main.ts:201806
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:189472
+main.ts:201808
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:189476
+main.ts:201812

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalJustificationInfo
+[Documentation](../README.md) / ILocalJustificationInfo
 
 # Interface: ILocalJustificationInfo
 
@@ -20,7 +20,7 @@ text snippet of local justification
 
 #### Defined in
 
-main.ts:39805
+main.ts:41614
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Defined in
 
-main.ts:39803
+main.ts:41612

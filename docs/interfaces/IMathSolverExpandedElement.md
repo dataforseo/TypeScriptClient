@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMathSolverExpandedElement
+[Documentation](../README.md) / IMathSolverExpandedElement
 
 # Interface: IMathSolverExpandedElement
 
@@ -21,7 +21,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Defined in
 
-main.ts:34749
+main.ts:36234
 
 ***
 
@@ -33,7 +33,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:34746
+main.ts:36231
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Defined in
 
-main.ts:34744
+main.ts:36229

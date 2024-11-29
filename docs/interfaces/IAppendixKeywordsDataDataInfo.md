@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixKeywordsDataDataInfo
+[Documentation](../README.md) / IAppendixKeywordsDataDataInfo
 
 # Interface: IAppendixKeywordsDataDataInfo
 
@@ -18,7 +18,17 @@
 
 #### Defined in
 
-main.ts:217919
+main.ts:232892
+
+***
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:232905
 
 ***
 
@@ -28,7 +38,7 @@ main.ts:217919
 
 #### Defined in
 
-main.ts:217926
+main.ts:232899
 
 ***
 
@@ -38,7 +48,7 @@ main.ts:217926
 
 #### Defined in
 
-main.ts:217924
+main.ts:232897
 
 ***
 
@@ -48,7 +58,7 @@ main.ts:217924
 
 #### Defined in
 
-main.ts:217931
+main.ts:232904
 
 ***
 
@@ -58,7 +68,7 @@ main.ts:217931
 
 #### Defined in
 
-main.ts:217930
+main.ts:232903
 
 ***
 
@@ -68,7 +78,7 @@ main.ts:217930
 
 #### Defined in
 
-main.ts:217925
+main.ts:232898
 
 ***
 
@@ -78,7 +88,7 @@ main.ts:217925
 
 #### Defined in
 
-main.ts:217923
+main.ts:232896
 
 ***
 
@@ -88,7 +98,7 @@ main.ts:217923
 
 #### Defined in
 
-main.ts:217933
+main.ts:232908
 
 ***
 
@@ -98,7 +108,7 @@ main.ts:217933
 
 #### Defined in
 
-main.ts:217929
+main.ts:232902
 
 ***
 
@@ -108,7 +118,7 @@ main.ts:217929
 
 #### Defined in
 
-main.ts:217934
+main.ts:232909
 
 ***
 
@@ -118,7 +128,17 @@ main.ts:217934
 
 #### Defined in
 
-main.ts:217927
+main.ts:232900
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:232906
 
 ***
 
@@ -128,7 +148,7 @@ main.ts:217927
 
 #### Defined in
 
-main.ts:217916
+main.ts:232889
 
 ***
 
@@ -138,7 +158,7 @@ main.ts:217916
 
 #### Defined in
 
-main.ts:217917
+main.ts:232890
 
 ***
 
@@ -148,7 +168,7 @@ main.ts:217917
 
 #### Defined in
 
-main.ts:217920
+main.ts:232893
 
 ***
 
@@ -158,7 +178,7 @@ main.ts:217920
 
 #### Defined in
 
-main.ts:217921
+main.ts:232894
 
 ***
 
@@ -168,7 +188,7 @@ main.ts:217921
 
 #### Defined in
 
-main.ts:217928
+main.ts:232901
 
 ***
 
@@ -178,7 +198,7 @@ main.ts:217928
 
 #### Defined in
 
-main.ts:217932
+main.ts:232907
 
 ***
 
@@ -188,7 +208,7 @@ main.ts:217932
 
 #### Defined in
 
-main.ts:217918
+main.ts:232891
 
 ***
 
@@ -198,4 +218,4 @@ main.ts:217918
 
 #### Defined in
 
-main.ts:217922
+main.ts:232895

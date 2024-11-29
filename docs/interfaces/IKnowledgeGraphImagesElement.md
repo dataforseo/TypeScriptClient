@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphImagesElement
+[Documentation](../README.md) / IKnowledgeGraphImagesElement
 
 # Interface: IKnowledgeGraphImagesElement
 
@@ -20,7 +20,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:28186
+main.ts:29745
 
 ***
 
@@ -32,7 +32,7 @@ domain in SERP of the Ad element
 
 #### Defined in
 
-main.ts:28184
+main.ts:29743
 
 ***
 
@@ -45,7 +45,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:28189
+main.ts:29748
 
 ***
 
@@ -57,7 +57,7 @@ type of element
 
 #### Defined in
 
-main.ts:28180
+main.ts:29739
 
 ***
 
@@ -69,7 +69,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:28182
+main.ts:29741
 
 ***
 
@@ -81,4 +81,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:28191
+main.ts:29750

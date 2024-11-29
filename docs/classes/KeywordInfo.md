@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordInfo
+[Documentation](../README.md) / KeywordInfo
 
 # Class: KeywordInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordInfo`](../interfaces/IKeywordInfo.md)
+##### data?
+
+[`IKeywordInfo`](../interfaces/IKeywordInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:82704
+main.ts:92416
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:82697
+main.ts:92409
 
 ***
 
@@ -64,7 +66,7 @@ represents the relative amount of competition associated with the given keyword.
 
 #### Defined in
 
-main.ts:82674
+main.ts:92386
 
 ***
 
@@ -84,7 +86,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:82680
+main.ts:92392
 
 ***
 
@@ -101,7 +103,7 @@ represents the average cost per click (USD) historically paid for the keyword
 
 #### Defined in
 
-main.ts:82683
+main.ts:92395
 
 ***
 
@@ -119,7 +121,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:82694
+main.ts:92406
 
 ***
 
@@ -138,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:82671
+main.ts:92383
 
 ***
 
@@ -156,7 +158,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:82690
+main.ts:92402
 
 ***
 
@@ -173,7 +175,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
-main.ts:82700
+main.ts:92412
 
 ***
 
@@ -189,7 +191,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82666
+main.ts:92378
 
 ***
 
@@ -206,7 +208,7 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 #### Defined in
 
-main.ts:82686
+main.ts:92398
 
 ## Methods
 
@@ -216,7 +218,9 @@ main.ts:82686
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -224,7 +228,7 @@ main.ts:82686
 
 #### Defined in
 
-main.ts:82713
+main.ts:92425
 
 ***
 
@@ -234,7 +238,9 @@ main.ts:82713
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -242,7 +248,7 @@ main.ts:82713
 
 #### Defined in
 
-main.ts:82747
+main.ts:92459
 
 ***
 
@@ -252,7 +258,9 @@ main.ts:82747
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -260,4 +268,4 @@ main.ts:82747
 
 #### Defined in
 
-main.ts:82740
+main.ts:92452

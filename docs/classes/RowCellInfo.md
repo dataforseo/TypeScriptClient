@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RowCellInfo
+[Documentation](../README.md) / RowCellInfo
 
 # Class: RowCellInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRowCellInfo`](../interfaces/IRowCellInfo.md)
+##### data?
+
+[`IRowCellInfo`](../interfaces/IRowCellInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161469
+main.ts:173082
 
 ## Properties
 
@@ -46,7 +48,7 @@ indicates if the text belongs to the header
 
 #### Defined in
 
-main.ts:161465
+main.ts:173078
 
 ***
 
@@ -62,7 +64,7 @@ content text
 
 #### Defined in
 
-main.ts:161461
+main.ts:173074
 
 ***
 
@@ -78,7 +80,7 @@ contains other URLs and anchors found in the content element
 
 #### Defined in
 
-main.ts:161463
+main.ts:173076
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:161463
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:161463
 
 #### Defined in
 
-main.ts:161478
+main.ts:173091
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:161478
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:161478
 
 #### Defined in
 
-main.ts:161501
+main.ts:173114
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:161501
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:161501
 
 #### Defined in
 
-main.ts:161494
+main.ts:173107

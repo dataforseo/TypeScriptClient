@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IExploreBrandsElement
+[Documentation](../README.md) / IExploreBrandsElement
 
 # Interface: IExploreBrandsElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:35818
+main.ts:37303
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:35816
+main.ts:37301
 
 ***
 
@@ -45,7 +45,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:35821
+main.ts:37306
 
 ***
 
@@ -57,7 +57,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35812
+main.ts:37297
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:35810
+main.ts:37295
 
 ***
 
@@ -81,7 +81,7 @@ URL
 
 #### Defined in
 
-main.ts:35814
+main.ts:37299
 
 ***
 
@@ -93,4 +93,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35823
+main.ts:37308

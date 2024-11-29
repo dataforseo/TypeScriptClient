@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataContactInfo
+[Documentation](../README.md) / BusinessDataContactInfo
 
 # Class: BusinessDataContactInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md)
+##### data?
+
+[`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:198764
+main.ts:211114
 
 ## Properties
 
@@ -46,7 +48,7 @@ data source
 
 #### Defined in
 
-main.ts:198760
+main.ts:211110
 
 ***
 
@@ -62,7 +64,7 @@ type of element
 
 #### Defined in
 
-main.ts:198754
+main.ts:211104
 
 ***
 
@@ -80,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:198758
+main.ts:211108
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:198758
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:198758
 
 #### Defined in
 
-main.ts:198773
+main.ts:211123
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:198773
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:198773
 
 #### Defined in
 
-main.ts:198792
+main.ts:211142
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:198792
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:198792
 
 #### Defined in
 
-main.ts:198785
+main.ts:211135

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LinkElement
+[Documentation](../README.md) / LinkElement
 
 # Class: LinkElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILinkElement`](../interfaces/ILinkElement.md)
+##### data?
+
+[`ILinkElement`](../interfaces/ILinkElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22645
+main.ts:23543
 
 ## Properties
 
@@ -46,7 +48,7 @@ description of the results element
 
 #### Defined in
 
-main.ts:22635
+main.ts:23533
 
 ***
 
@@ -62,7 +64,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:22639
+main.ts:23537
 
 ***
 
@@ -78,7 +80,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:22633
+main.ts:23531
 
 ***
 
@@ -94,7 +96,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:22631
+main.ts:23529
 
 ***
 
@@ -110,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:22629
+main.ts:23527
 
 ***
 
@@ -126,7 +128,7 @@ URL
 
 #### Defined in
 
-main.ts:22637
+main.ts:23535
 
 ***
 
@@ -142,7 +144,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22641
+main.ts:23539
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:22641
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:22641
 
 #### Defined in
 
-main.ts:22654
+main.ts:23552
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:22654
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:22654
 
 #### Defined in
 
-main.ts:22677
+main.ts:23575
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:22677
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:22677
 
 #### Defined in
 
-main.ts:22670
+main.ts:23568

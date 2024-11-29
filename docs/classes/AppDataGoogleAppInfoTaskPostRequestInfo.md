@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppInfoTaskPostRequestInfo
+[Documentation](../README.md) / AppDataGoogleAppInfoTaskPostRequestInfo
 
 # Class: AppDataGoogleAppInfoTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md)
+##### data?
+
+[`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:189156
+main.ts:201492
 
 ## Properties
 
@@ -52,7 +54,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:189084
+main.ts:201420
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:189084
 > `optional` **language\_code**: `string`
 
 search engine language code
-optional field
+required field if language_name is not specified
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -73,7 +75,7 @@ en
 
 #### Defined in
 
-main.ts:189112
+main.ts:201448
 
 ***
 
@@ -82,7 +84,7 @@ main.ts:189112
 > `optional` **language\_name**: `string`
 
 full name of search engine language
-optional field
+required field if language_code is not specified
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -94,7 +96,7 @@ English
 
 #### Defined in
 
-main.ts:189105
+main.ts:201441
 
 ***
 
@@ -115,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:189098
+main.ts:201434
 
 ***
 
@@ -136,7 +138,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:189091
+main.ts:201427
 
 ***
 
@@ -151,8 +153,8 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
@@ -160,7 +162,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:189152
+main.ts:201488
 
 ***
 
@@ -180,7 +182,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:189142
+main.ts:201478
 
 ***
 
@@ -195,8 +197,8 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
@@ -204,7 +206,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:189136
+main.ts:201472
 
 ***
 
@@ -226,7 +228,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:189120
+main.ts:201456
 
 ***
 
@@ -246,7 +248,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:189126
+main.ts:201462
 
 ## Methods
 
@@ -256,7 +258,9 @@ main.ts:189126
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -264,7 +268,7 @@ main.ts:189126
 
 #### Defined in
 
-main.ts:189165
+main.ts:201501
 
 ***
 
@@ -274,7 +278,9 @@ main.ts:189165
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -282,7 +288,7 @@ main.ts:189165
 
 #### Defined in
 
-main.ts:189191
+main.ts:201527
 
 ***
 
@@ -292,7 +298,9 @@ main.ts:189191
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -300,4 +308,4 @@ main.ts:189191
 
 #### Defined in
 
-main.ts:189184
+main.ts:201520

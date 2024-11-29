@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleOrganicLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleOrganicLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleOrganicLiveAdvancedRequestInfo
 
@@ -27,7 +27,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:38188
+main.ts:39687
 
 ***
 
@@ -47,7 +47,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:38198
+main.ts:39697
 
 ***
 
@@ -66,7 +66,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:38179
+main.ts:39678
 
 ***
 
@@ -83,7 +83,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:38170
+main.ts:39669
 
 ***
 
@@ -102,7 +102,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:38080
+main.ts:39579
 
 ***
 
@@ -117,7 +117,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:38137
+main.ts:39636
 
 ***
 
@@ -133,7 +133,7 @@ default value: true
 
 #### Defined in
 
-main.ts:38163
+main.ts:39662
 
 ***
 
@@ -143,16 +143,17 @@ main.ts:38163
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:38065
+main.ts:39564
 
 ***
 
@@ -169,7 +170,7 @@ en
 
 #### Defined in
 
-main.ts:38125
+main.ts:39624
 
 ***
 
@@ -186,7 +187,7 @@ English
 
 #### Defined in
 
-main.ts:38118
+main.ts:39617
 
 ***
 
@@ -204,7 +205,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 #### Defined in
 
-main.ts:38213
+main.ts:39712
 
 ***
 
@@ -221,7 +222,7 @@ example:
 
 #### Defined in
 
-main.ts:38101
+main.ts:39600
 
 ***
 
@@ -241,7 +242,7 @@ example:
 
 #### Defined in
 
-main.ts:38111
+main.ts:39610
 
 ***
 
@@ -258,7 +259,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:38094
+main.ts:39593
 
 ***
 
@@ -275,7 +276,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:38087
+main.ts:39586
 
 ***
 
@@ -292,7 +293,7 @@ default value: android
 
 #### Defined in
 
-main.ts:38144
+main.ts:39643
 
 ***
 
@@ -309,7 +310,7 @@ possible values: from 1 to 4
 
 #### Defined in
 
-main.ts:38205
+main.ts:39704
 
 ***
 
@@ -326,7 +327,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:38132
+main.ts:39631
 
 ***
 
@@ -340,7 +341,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:38217
+main.ts:39716
 
 ***
 
@@ -356,7 +357,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:38223
+main.ts:39722
 
 ***
 
@@ -379,7 +380,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Defined in
 
-main.ts:38157
+main.ts:39656
 
 ***
 
@@ -395,4 +396,4 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-main.ts:38071
+main.ts:39570

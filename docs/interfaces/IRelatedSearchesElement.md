@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRelatedSearchesElement
+[Documentation](../README.md) / IRelatedSearchesElement
 
 # Interface: IRelatedSearchesElement
 
@@ -20,7 +20,7 @@ the alt tag of the product image featured in the results
 
 #### Defined in
 
-main.ts:22620
+main.ts:23518
 
 ***
 
@@ -32,7 +32,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:22622
+main.ts:23520
 
 ***
 
@@ -44,7 +44,7 @@ product title
 
 #### Defined in
 
-main.ts:22616
+main.ts:23514
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:22614
+main.ts:23512
 
 ***
 
@@ -68,4 +68,4 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:22618
+main.ts:23516

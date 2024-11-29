@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CompareSitesElement
+[Documentation](../README.md) / CompareSitesElement
 
 # Class: CompareSitesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md)
+##### data?
+
+[`ICompareSitesElement`](../interfaces/ICompareSitesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:36262
+main.ts:37747
 
 ## Properties
 
@@ -46,7 +48,7 @@ website domain
 
 #### Defined in
 
-main.ts:36252
+main.ts:37737
 
 ***
 
@@ -63,7 +65,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:36255
+main.ts:37740
 
 ***
 
@@ -80,7 +82,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36258
+main.ts:37743
 
 ***
 
@@ -96,7 +98,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36248
+main.ts:37733
 
 ***
 
@@ -112,7 +114,7 @@ type of element
 
 #### Defined in
 
-main.ts:36246
+main.ts:37731
 
 ***
 
@@ -128,7 +130,7 @@ URL
 
 #### Defined in
 
-main.ts:36250
+main.ts:37735
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:36250
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:36250
 
 #### Defined in
 
-main.ts:36271
+main.ts:37756
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:36271
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:36271
 
 #### Defined in
 
-main.ts:36293
+main.ts:37778
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:36293
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:36293
 
 #### Defined in
 
-main.ts:36286
+main.ts:37771

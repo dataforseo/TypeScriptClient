@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleAvailableHistoryResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleAvailableHistoryResultInfo
 
 # Class: DataforseoLabsGoogleAvailableHistoryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleAvailableHistoryResultInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleAvailableHistoryResultInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:82119
+main.ts:91831
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:82115
+main.ts:91827
 
 ## Methods
 
@@ -59,7 +61,9 @@ main.ts:82115
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -67,7 +71,7 @@ main.ts:82115
 
 #### Defined in
 
-main.ts:82128
+main.ts:91840
 
 ***
 
@@ -77,7 +81,9 @@ main.ts:82128
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -85,7 +91,7 @@ main.ts:82128
 
 #### Defined in
 
-main.ts:82145
+main.ts:91857
 
 ***
 
@@ -95,7 +101,9 @@ main.ts:82145
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -103,4 +111,4 @@ main.ts:82145
 
 #### Defined in
 
-main.ts:82138
+main.ts:91850

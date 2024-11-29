@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateTagsResultInfo
+[Documentation](../README.md) / OnPageDuplicateTagsResultInfo
 
 # Class: OnPageDuplicateTagsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md)
+##### data?
+
+[`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:156968
+main.ts:168603
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:156952
+main.ts:168587
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:156954
+main.ts:168589
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:156964
+main.ts:168599
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:156962
+main.ts:168597
 
 ***
 
@@ -112,7 +114,7 @@ displays the number of pages with duplicate tags returned in the response
 
 #### Defined in
 
-main.ts:156960
+main.ts:168595
 
 ***
 
@@ -129,7 +131,7 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Defined in
 
-main.ts:156957
+main.ts:168592
 
 ## Methods
 
@@ -139,7 +141,9 @@ main.ts:156957
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +151,7 @@ main.ts:156957
 
 #### Defined in
 
-main.ts:156977
+main.ts:168612
 
 ***
 
@@ -157,7 +161,9 @@ main.ts:156977
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +171,7 @@ main.ts:156977
 
 #### Defined in
 
-main.ts:157003
+main.ts:168638
 
 ***
 
@@ -175,7 +181,9 @@ main.ts:157003
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -183,4 +191,4 @@ main.ts:157003
 
 #### Defined in
 
-main.ts:156996
+main.ts:168631

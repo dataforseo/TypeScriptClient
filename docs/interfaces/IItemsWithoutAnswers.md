@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IItemsWithoutAnswers
+[Documentation](../README.md) / IItemsWithoutAnswers
 
 # Interface: IItemsWithoutAnswers
 
@@ -21,7 +21,7 @@ items within google_business_question_item
 
 #### Defined in
 
-main.ts:209494
+main.ts:224415
 
 ***
 
@@ -33,7 +33,7 @@ original text of the question
 
 #### Defined in
 
-main.ts:209487
+main.ts:224408
 
 ***
 
@@ -45,7 +45,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209479
+main.ts:224400
 
 ***
 
@@ -57,7 +57,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209483
+main.ts:224404
 
 ***
 
@@ -69,7 +69,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209481
+main.ts:224402
 
 ***
 
@@ -81,7 +81,7 @@ ID of the question
 
 #### Defined in
 
-main.ts:209475
+main.ts:224396
 
 ***
 
@@ -93,7 +93,7 @@ current text of the question
 
 #### Defined in
 
-main.ts:209485
+main.ts:224406
 
 ***
 
@@ -105,7 +105,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:209473
+main.ts:224394
 
 ***
 
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:209471
+main.ts:224392
 
 ***
 
@@ -130,7 +130,7 @@ estimated time when the question was posted
 
 #### Defined in
 
-main.ts:209489
+main.ts:224410
 
 ***
 
@@ -142,7 +142,7 @@ exact time when the question was posted
 
 #### Defined in
 
-main.ts:209491
+main.ts:224412
 
 ***
 
@@ -154,7 +154,7 @@ type of element
 
 #### Defined in
 
-main.ts:209468
+main.ts:224389
 
 ***
 
@@ -166,4 +166,4 @@ URL of the question
 
 #### Defined in
 
-main.ts:209477
+main.ts:224398

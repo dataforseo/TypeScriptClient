@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleNewsTasksFixedResultInfo
+[Documentation](../README.md) / SerpGoogleNewsTasksFixedResultInfo
 
 # Class: SerpGoogleNewsTasksFixedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md)
+##### data?
+
+[`ISerpGoogleNewsTasksFixedResultInfo`](../interfaces/ISerpGoogleNewsTasksFixedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:43691
+main.ts:45936
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:43676
+main.ts:45921
 
 ***
 
@@ -63,7 +65,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:43684
+main.ts:45929
 
 ***
 
@@ -80,7 +82,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:43687
+main.ts:45932
 
 ***
 
@@ -97,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:43681
+main.ts:45926
 
 ***
 
@@ -114,7 +116,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:43669
+main.ts:45914
 
 ***
 
@@ -130,7 +132,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:43671
+main.ts:45916
 
 ***
 
@@ -147,7 +149,7 @@ can take the following values: news
 
 #### Defined in
 
-main.ts:43674
+main.ts:45919
 
 ***
 
@@ -163,7 +165,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:43678
+main.ts:45923
 
 ## Methods
 
@@ -173,7 +175,9 @@ main.ts:43678
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +185,7 @@ main.ts:43678
 
 #### Defined in
 
-main.ts:43700
+main.ts:45945
 
 ***
 
@@ -191,7 +195,9 @@ main.ts:43700
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -199,7 +205,7 @@ main.ts:43700
 
 #### Defined in
 
-main.ts:43724
+main.ts:45969
 
 ***
 
@@ -209,7 +215,9 @@ main.ts:43724
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -217,4 +225,4 @@ main.ts:43724
 
 #### Defined in
 
-main.ts:43717
+main.ts:45962

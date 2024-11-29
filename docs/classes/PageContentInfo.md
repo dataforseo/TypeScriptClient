@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageContentInfo
+[Documentation](../README.md) / PageContentInfo
 
 # Class: PageContentInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPageContentInfo`](../interfaces/IPageContentInfo.md)
+##### data?
+
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161807
+main.ts:173420
 
 ## Properties
 
@@ -46,7 +48,7 @@ parsed content of the footer
 
 #### Defined in
 
-main.ts:161797
+main.ts:173410
 
 ***
 
@@ -62,7 +64,7 @@ content of the header of the table
 
 #### Defined in
 
-main.ts:161795
+main.ts:173408
 
 ***
 
@@ -79,7 +81,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:161800
+main.ts:173413
 
 ***
 
@@ -96,7 +98,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:161803
+main.ts:173416
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:161803
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:161803
 
 #### Defined in
 
-main.ts:161816
+main.ts:173429
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:161816
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:161816
 
 #### Defined in
 
-main.ts:161844
+main.ts:173457
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:161844
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:161844
 
 #### Defined in
 
-main.ts:161837
+main.ts:173450

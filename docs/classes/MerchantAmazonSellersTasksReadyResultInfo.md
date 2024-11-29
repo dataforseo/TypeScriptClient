@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonSellersTasksReadyResultInfo
+[Documentation](../README.md) / MerchantAmazonSellersTasksReadyResultInfo
 
 # Class: MerchantAmazonSellersTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonSellersTasksReadyResultInfo`](../interfaces/IMerchantAmazonSellersTasksReadyResultInfo.md)
+##### data?
+
+[`IMerchantAmazonSellersTasksReadyResultInfo`](../interfaces/IMerchantAmazonSellersTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:183425
+main.ts:195737
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:183415
+main.ts:195727
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of Amazon Sellers Advanced task
 
 #### Defined in
 
-main.ts:183419
+main.ts:195731
 
 ***
 
@@ -78,7 +80,7 @@ URL for collecting the results of Amazon Sellers HTML task
 
 #### Defined in
 
-main.ts:183421
+main.ts:195733
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:183409
+main.ts:195721
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:183411
+main.ts:195723
 
 ***
 
@@ -127,7 +129,7 @@ type of search engine
 
 #### Defined in
 
-main.ts:183413
+main.ts:195725
 
 ***
 
@@ -143,7 +145,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:183417
+main.ts:195729
 
 ## Methods
 
@@ -153,7 +155,9 @@ main.ts:183417
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -161,7 +165,7 @@ main.ts:183417
 
 #### Defined in
 
-main.ts:183434
+main.ts:195746
 
 ***
 
@@ -171,7 +175,9 @@ main.ts:183434
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +185,7 @@ main.ts:183434
 
 #### Defined in
 
-main.ts:183457
+main.ts:195769
 
 ***
 
@@ -189,7 +195,9 @@ main.ts:183457
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -197,4 +205,4 @@ main.ts:183457
 
 #### Defined in
 
-main.ts:183450
+main.ts:195762

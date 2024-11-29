@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GooglePostsSerpElementItem
+[Documentation](../README.md) / GooglePostsSerpElementItem
 
 # Class: GooglePostsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md)
+##### data?
+
+[`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:35040
+main.ts:36525
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:35040
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:35032
+main.ts:36517
 
 ***
 
@@ -84,7 +86,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:35030
+main.ts:36515
 
 ***
 
@@ -106,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -122,7 +124,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:35028
+main.ts:36513
 
 ***
 
@@ -143,7 +145,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -165,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -183,7 +185,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35036
+main.ts:36521
 
 ***
 
@@ -203,7 +205,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -223,7 +225,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -233,7 +235,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -245,7 +249,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:35045
+main.ts:36530
 
 ***
 
@@ -255,7 +259,9 @@ main.ts:35045
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +273,7 @@ main.ts:35045
 
 #### Defined in
 
-main.ts:35066
+main.ts:36551
 
 ***
 
@@ -277,7 +283,9 @@ main.ts:35066
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -289,4 +297,4 @@ main.ts:35066
 
 #### Defined in
 
-main.ts:35059
+main.ts:36544

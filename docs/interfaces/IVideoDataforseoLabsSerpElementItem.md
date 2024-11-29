@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IVideoDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IVideoDataforseoLabsSerpElementItem
 
 # Interface: IVideoDataforseoLabsSerpElementItem
 
@@ -20,11 +20,11 @@
 
 > `optional` **items**: [`VideoElement`](../classes/VideoElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+elements of search results found in SERP
 
 #### Defined in
 
-main.ts:97196
+main.ts:106427
 
 ***
 
@@ -42,7 +42,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -76,7 +76,19 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
+
+***
+
+### se\_type?
+
+> `optional` **se\_type**: `string`
+
+search engine type
+
+#### Defined in
+
+main.ts:106425
 
 ***
 
@@ -92,7 +104,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -108,4 +120,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

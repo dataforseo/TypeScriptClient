@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksErrorsRequestInfo
+[Documentation](../README.md) / BacklinksErrorsRequestInfo
 
 # Class: BacklinksErrorsRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md)
+##### data?
+
+[`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:137865
+main.ts:149070
 
 ## Properties
 
@@ -40,7 +42,7 @@ main.ts:137865
 
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:137854
+main.ts:149059
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:137854
 
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -72,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:137861
+main.ts:149066
 
 ***
 
@@ -92,7 +94,7 @@ example: backlinks/live
 
 #### Defined in
 
-main.ts:137847
+main.ts:149052
 
 ***
 
@@ -111,7 +113,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:137836
+main.ts:149041
 
 ***
 
@@ -130,7 +132,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:137841
+main.ts:149046
 
 ## Methods
 
@@ -140,7 +142,9 @@ main.ts:137841
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +152,7 @@ main.ts:137841
 
 #### Defined in
 
-main.ts:137874
+main.ts:149079
 
 ***
 
@@ -158,7 +162,9 @@ main.ts:137874
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +172,7 @@ main.ts:137874
 
 #### Defined in
 
-main.ts:137895
+main.ts:149100
 
 ***
 
@@ -176,7 +182,9 @@ main.ts:137895
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +192,4 @@ main.ts:137895
 
 #### Defined in
 
-main.ts:137888
+main.ts:149093

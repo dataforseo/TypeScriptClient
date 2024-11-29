@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleNewsNewsSearchSerpElementItem
+[Documentation](../README.md) / IGoogleNewsNewsSearchSerpElementItem
 
 # Interface: IGoogleNewsNewsSearchSerpElementItem
 
@@ -20,11 +20,11 @@
 
 > `optional` **domain**: `string`
 
-domain name of the result in SERP
+domain in SERP
 
 #### Defined in
 
-main.ts:44037
+main.ts:46282
 
 ***
 
@@ -37,7 +37,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:44042
+main.ts:46287
 
 ***
 
@@ -54,7 +54,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:43959
+main.ts:46204
 
 ***
 
@@ -72,7 +72,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:43956
+main.ts:46201
 
 ***
 
@@ -90,7 +90,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:43967
+main.ts:46212
 
 ***
 
@@ -102,7 +102,7 @@ snippet of the result in SERP
 
 #### Defined in
 
-main.ts:44044
+main.ts:46289
 
 ***
 
@@ -114,7 +114,7 @@ indicates the time the result was published
 
 #### Defined in
 
-main.ts:44046
+main.ts:46291
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:44051
+main.ts:46296
 
 ***
 
@@ -137,7 +137,7 @@ main.ts:44051
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Inherited from
 
@@ -145,7 +145,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:43963
+main.ts:46208
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:43952
+main.ts:46197
 
 ***
 
@@ -169,11 +169,11 @@ main.ts:43952
 
 > `optional` **url**: `string`
 
-URL of the result in SERP
+search URL with refinement parameters
 
 #### Defined in
 
-main.ts:44039
+main.ts:46284
 
 ***
 
@@ -189,4 +189,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:43961
+main.ts:46206

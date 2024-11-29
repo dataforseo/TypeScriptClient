@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PeopleAlsoSearch
+[Documentation](../README.md) / PeopleAlsoSearch
 
 # Class: PeopleAlsoSearch
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md)
+##### data?
+
+[`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:198515
+main.ts:210865
 
 ## Properties
 
@@ -48,7 +50,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198502
+main.ts:210852
 
 ***
 
@@ -65,7 +67,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198505
+main.ts:210855
 
 ***
 
@@ -82,7 +84,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:198511
+main.ts:210861
 
 ***
 
@@ -99,7 +101,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:198508
+main.ts:210858
 
 ## Methods
 
@@ -109,7 +111,9 @@ main.ts:198508
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -117,7 +121,7 @@ main.ts:198508
 
 #### Defined in
 
-main.ts:198524
+main.ts:210874
 
 ***
 
@@ -127,7 +131,9 @@ main.ts:198524
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -135,7 +141,7 @@ main.ts:198524
 
 #### Defined in
 
-main.ts:198544
+main.ts:210894
 
 ***
 
@@ -145,7 +151,9 @@ main.ts:198544
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -153,4 +161,4 @@ main.ts:198544
 
 #### Defined in
 
-main.ts:198537
+main.ts:210887

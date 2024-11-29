@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseBusinessDataSerpElementItem
+[Documentation](../README.md) / IBaseBusinessDataSerpElementItem
 
 # Interface: IBaseBusinessDataSerpElementItem
 
@@ -27,7 +27,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21397
+main.ts:22295
 
 ***
 
@@ -40,7 +40,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21395
+main.ts:22293
 
 ***
 
@@ -52,4 +52,4 @@ type of element
 
 #### Defined in
 
-main.ts:21392
+main.ts:22290

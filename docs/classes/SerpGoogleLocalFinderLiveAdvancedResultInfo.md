@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderLiveAdvancedResultInfo
 
 # Class: SerpGoogleLocalFinderLiveAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:42647
+main.ts:44494
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:42624
+main.ts:44469
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:42629
+main.ts:44474
 
 ***
 
@@ -85,7 +87,7 @@ local_pack
 
 #### Defined in
 
-main.ts:42637
+main.ts:44484
 
 ***
 
@@ -93,7 +95,7 @@ main.ts:42637
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Implementation of
 
@@ -101,7 +103,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:42643
+main.ts:44490
 
 ***
 
@@ -117,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:42641
+main.ts:44488
 
 ***
 
@@ -126,7 +128,7 @@ main.ts:42641
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -134,7 +136,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:42613
+main.ts:44458
 
 ***
 
@@ -150,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:42621
+main.ts:44466
 
 ***
 
@@ -166,7 +168,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:42619
+main.ts:44464
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleLocalFinderLiveAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:44479
 
 ***
 
@@ -182,7 +200,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:42617
+main.ts:44462
 
 ***
 
@@ -198,7 +216,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:42639
+main.ts:44486
 
 ***
 
@@ -215,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:42632
+main.ts:44477
 
 ***
 
@@ -231,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:42615
+main.ts:44460
 
 ## Methods
 
@@ -241,7 +259,9 @@ main.ts:42615
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -249,7 +269,7 @@ main.ts:42615
 
 #### Defined in
 
-main.ts:42656
+main.ts:44503
 
 ***
 
@@ -259,7 +279,9 @@ main.ts:42656
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +289,7 @@ main.ts:42656
 
 #### Defined in
 
-main.ts:42692
+main.ts:44540
 
 ***
 
@@ -277,7 +299,9 @@ main.ts:42692
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -285,4 +309,4 @@ main.ts:42692
 
 #### Defined in
 
-main.ts:42685
+main.ts:44533

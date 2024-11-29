@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleOrganicLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpGoogleOrganicLiveAdvancedRequestInfo
 
 # Class: SerpGoogleOrganicLiveAdvancedRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:37977
+main.ts:39475
 
 ## Properties
 
@@ -53,7 +55,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:37938
+main.ts:39436
 
 ***
 
@@ -77,7 +79,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:37948
+main.ts:39446
 
 ***
 
@@ -100,7 +102,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:37929
+main.ts:39427
 
 ***
 
@@ -121,7 +123,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:37920
+main.ts:39418
 
 ***
 
@@ -144,7 +146,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:37830
+main.ts:39328
 
 ***
 
@@ -163,7 +165,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:37887
+main.ts:39385
 
 ***
 
@@ -183,7 +185,7 @@ default value: true
 
 #### Defined in
 
-main.ts:37913
+main.ts:39411
 
 ***
 
@@ -193,12 +195,13 @@ main.ts:37913
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -206,7 +209,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:37815
+main.ts:39313
 
 ***
 
@@ -227,7 +230,7 @@ en
 
 #### Defined in
 
-main.ts:37875
+main.ts:39373
 
 ***
 
@@ -248,7 +251,7 @@ English
 
 #### Defined in
 
-main.ts:37868
+main.ts:39366
 
 ***
 
@@ -270,7 +273,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 #### Defined in
 
-main.ts:37963
+main.ts:39461
 
 ***
 
@@ -291,7 +294,7 @@ example:
 
 #### Defined in
 
-main.ts:37851
+main.ts:39349
 
 ***
 
@@ -315,7 +318,7 @@ example:
 
 #### Defined in
 
-main.ts:37861
+main.ts:39359
 
 ***
 
@@ -336,7 +339,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:37844
+main.ts:39342
 
 ***
 
@@ -357,7 +360,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:37837
+main.ts:39335
 
 ***
 
@@ -378,7 +381,7 @@ default value: android
 
 #### Defined in
 
-main.ts:37894
+main.ts:39392
 
 ***
 
@@ -399,7 +402,7 @@ possible values: from 1 to 4
 
 #### Defined in
 
-main.ts:37955
+main.ts:39453
 
 ***
 
@@ -420,7 +423,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:37882
+main.ts:39380
 
 ***
 
@@ -438,7 +441,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:37967
+main.ts:39465
 
 ***
 
@@ -458,7 +461,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:37973
+main.ts:39471
 
 ***
 
@@ -485,7 +488,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Defined in
 
-main.ts:37907
+main.ts:39405
 
 ***
 
@@ -505,7 +508,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-main.ts:37821
+main.ts:39319
 
 ## Methods
 
@@ -515,7 +518,9 @@ main.ts:37821
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -523,7 +528,7 @@ main.ts:37821
 
 #### Defined in
 
-main.ts:37986
+main.ts:39484
 
 ***
 
@@ -533,7 +538,9 @@ main.ts:37986
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -541,7 +548,7 @@ main.ts:37986
 
 #### Defined in
 
-main.ts:38024
+main.ts:39522
 
 ***
 
@@ -551,7 +558,9 @@ main.ts:38024
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -559,4 +568,4 @@ main.ts:38024
 
 #### Defined in
 
-main.ts:38017
+main.ts:39515

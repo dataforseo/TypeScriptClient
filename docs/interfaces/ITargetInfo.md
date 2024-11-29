@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITargetInfo
+[Documentation](../README.md) / ITargetInfo
 
 # Interface: ITargetInfo
 
@@ -20,7 +20,7 @@ content management system
 
 #### Defined in
 
-main.ts:139003
+main.ts:150208
 
 ***
 
@@ -32,7 +32,7 @@ country code that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:139009
+main.ts:150214
 
 ***
 
@@ -44,7 +44,7 @@ IP address of the target
 
 #### Defined in
 
-main.ts:139007
+main.ts:150212
 
 ***
 
@@ -57,7 +57,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 #### Defined in
 
-main.ts:139012
+main.ts:150217
 
 ***
 
@@ -69,7 +69,7 @@ platform type
 
 #### Defined in
 
-main.ts:139005
+main.ts:150210
 
 ***
 
@@ -81,7 +81,7 @@ server
 
 #### Defined in
 
-main.ts:139001
+main.ts:150206
 
 ***
 
@@ -95,4 +95,4 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:139016
+main.ts:150221

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductSeller
+[Documentation](../README.md) / ProductSeller
 
 # Class: ProductSeller
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductSeller`](../interfaces/IProductSeller.md)
+##### data?
+
+[`IProductSeller`](../interfaces/IProductSeller.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:178647
+main.ts:190388
 
 ## Properties
 
@@ -47,13 +49,13 @@ product delivery information
 
 #### Defined in
 
-main.ts:178643
+main.ts:190384
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 product price
 product price details on the seller’s website
@@ -64,7 +66,7 @@ product price details on the seller’s website
 
 #### Defined in
 
-main.ts:178640
+main.ts:190381
 
 ***
 
@@ -80,7 +82,7 @@ rating of the seller
 
 #### Defined in
 
-main.ts:178634
+main.ts:190375
 
 ***
 
@@ -97,7 +99,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178637
+main.ts:190378
 
 ***
 
@@ -113,7 +115,7 @@ product title
 
 #### Defined in
 
-main.ts:178629
+main.ts:190370
 
 ***
 
@@ -129,7 +131,7 @@ type of element
 
 #### Defined in
 
-main.ts:178627
+main.ts:190368
 
 ***
 
@@ -146,7 +148,7 @@ url of the page where the product is sold
 
 #### Defined in
 
-main.ts:178632
+main.ts:190373
 
 ## Methods
 
@@ -156,7 +158,9 @@ main.ts:178632
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +168,7 @@ main.ts:178632
 
 #### Defined in
 
-main.ts:178656
+main.ts:190397
 
 ***
 
@@ -174,7 +178,9 @@ main.ts:178656
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -182,7 +188,7 @@ main.ts:178656
 
 #### Defined in
 
-main.ts:178679
+main.ts:190420
 
 ***
 
@@ -192,7 +198,9 @@ main.ts:178679
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -200,4 +208,4 @@ main.ts:178679
 
 #### Defined in
 
-main.ts:178672
+main.ts:190413

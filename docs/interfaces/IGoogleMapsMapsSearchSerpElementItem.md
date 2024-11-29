@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleMapsMapsSearchSerpElementItem
+[Documentation](../README.md) / IGoogleMapsMapsSearchSerpElementItem
 
 # Interface: IGoogleMapsMapsSearchSerpElementItem
 
@@ -25,7 +25,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:40130
+main.ts:41947
 
 ***
 
@@ -38,7 +38,7 @@ address of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:40112
+main.ts:41929
 
 ***
 
@@ -50,7 +50,20 @@ object containing address components of the local establishment
 
 #### Defined in
 
-main.ts:40114
+main.ts:41931
+
+***
+
+### book\_online\_url?
+
+> `optional` **book\_online\_url**: `string`
+
+URL in the ‘book online’ button of the element
+URL directing users to the online booking or order page of the business entity
+
+#### Defined in
+
+main.ts:41915
 
 ***
 
@@ -63,7 +76,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:40127
+main.ts:41944
 
 ***
 
@@ -76,7 +89,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:40133
+main.ts:41950
 
 ***
 
@@ -90,7 +103,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:40142
+main.ts:41959
 
 ***
 
@@ -102,7 +115,7 @@ URL of the preferred contact page
 
 #### Defined in
 
-main.ts:40096
+main.ts:41910
 
 ***
 
@@ -114,7 +127,7 @@ URL of the user’s or entity’s Local Guides profile, if available
 
 #### Defined in
 
-main.ts:40098
+main.ts:41912
 
 ***
 
@@ -122,7 +135,7 @@ main.ts:40098
 
 > `optional` **domain**: `string`
 
-domain in the SERP element
+domain in SERP
 
 #### Inherited from
 
@@ -130,7 +143,7 @@ domain in the SERP element
 
 #### Defined in
 
-main.ts:39913
+main.ts:41722
 
 ***
 
@@ -142,7 +155,7 @@ the unique identifier of the element in SERP
 
 #### Defined in
 
-main.ts:40138
+main.ts:41955
 
 ***
 
@@ -156,7 +169,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:40102
+main.ts:41919
 
 ***
 
@@ -168,7 +181,7 @@ indicates whether ownership of this local establishment is claimed
 
 #### Defined in
 
-main.ts:40152
+main.ts:41969
 
 ***
 
@@ -180,7 +193,7 @@ indicates whether this local establishment is a directory
 
 #### Defined in
 
-main.ts:40157
+main.ts:41974
 
 ***
 
@@ -194,7 +207,7 @@ example:
 
 #### Defined in
 
-main.ts:40146
+main.ts:41963
 
 ***
 
@@ -207,7 +220,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Defined in
 
-main.ts:40155
+main.ts:41972
 
 ***
 
@@ -221,7 +234,7 @@ example:
 
 #### Defined in
 
-main.ts:40150
+main.ts:41967
 
 ***
 
@@ -233,7 +246,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:40122
+main.ts:41939
 
 ***
 
@@ -246,7 +259,7 @@ phone number of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:40120
+main.ts:41937
 
 ***
 
@@ -259,7 +272,7 @@ place id of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:40117
+main.ts:41934
 
 ***
 
@@ -273,7 +286,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:40106
+main.ts:41923
 
 ***
 
@@ -290,7 +303,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:39911
+main.ts:41720
 
 ***
 
@@ -308,7 +321,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:39908
+main.ts:41717
 
 ***
 
@@ -325,7 +338,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:39920
+main.ts:41729
 
 ***
 
@@ -346,7 +359,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:39923
+main.ts:41732
 
 ***
 
@@ -359,7 +372,7 @@ contains the address and other information about the local establishment feature
 
 #### Defined in
 
-main.ts:40109
+main.ts:41926
 
 ***
 
@@ -367,7 +380,7 @@ main.ts:40109
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Inherited from
 
@@ -375,7 +388,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:39915
+main.ts:41724
 
 ***
 
@@ -387,7 +400,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:40124
+main.ts:41941
 
 ***
 
@@ -403,7 +416,7 @@ type of element
 
 #### Defined in
 
-main.ts:39904
+main.ts:41713
 
 ***
 
@@ -411,7 +424,7 @@ main.ts:39904
 
 > `optional` **url**: `string`
 
-relevant URL in SERP
+search URL with refinement parameters
 
 #### Inherited from
 
@@ -419,7 +432,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:39917
+main.ts:41726
 
 ***
 
@@ -432,4 +445,4 @@ information about work hours of the local establishment
 
 #### Defined in
 
-main.ts:40136
+main.ts:41953

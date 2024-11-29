@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleSearchIntentLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveRequestInfo
 
@@ -21,10 +21,11 @@ required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:86732
+main.ts:96450
 
 ***
 
@@ -41,7 +42,7 @@ en
 
 #### Defined in
 
-main.ts:86771
+main.ts:96489
 
 ***
 
@@ -83,7 +84,7 @@ English
 
 #### Defined in
 
-main.ts:86764
+main.ts:96482
 
 ***
 
@@ -99,4 +100,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:86777
+main.ts:96495

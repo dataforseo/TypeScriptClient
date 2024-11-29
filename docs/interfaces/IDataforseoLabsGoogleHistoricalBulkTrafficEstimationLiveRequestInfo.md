@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
@@ -24,7 +24,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:101542
+main.ts:111280
 
 ***
 
@@ -41,7 +41,7 @@ example:
 
 #### Defined in
 
-main.ts:101549
+main.ts:111287
 
 ***
 
@@ -56,7 +56,7 @@ default value: false
 
 #### Defined in
 
-main.ts:101554
+main.ts:111292
 
 ***
 
@@ -75,7 +75,7 @@ default value:
 
 #### Defined in
 
-main.ts:101563
+main.ts:111301
 
 ***
 
@@ -93,7 +93,7 @@ en
 
 #### Defined in
 
-main.ts:101536
+main.ts:111274
 
 ***
 
@@ -111,7 +111,7 @@ English
 
 #### Defined in
 
-main.ts:101528
+main.ts:111266
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:101520
+main.ts:111258
 
 ***
 
@@ -147,7 +147,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:101512
+main.ts:111250
 
 ***
 
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:101569
+main.ts:111307
 
 ***
 
@@ -179,4 +179,4 @@ you can set up to 1000 domains or subdomains
 
 #### Defined in
 
-main.ts:101504
+main.ts:111242

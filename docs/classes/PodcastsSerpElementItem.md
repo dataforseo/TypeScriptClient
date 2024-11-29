@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PodcastsSerpElementItem
+[Documentation](../README.md) / PodcastsSerpElementItem
 
 # Class: PodcastsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md)
+##### data?
+
+[`IPodcastsSerpElementItem`](../interfaces/IPodcastsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:33348
+main.ts:34901
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:33348
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:33340
+main.ts:34893
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -133,7 +135,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -151,7 +153,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33344
+main.ts:34897
 
 ***
 
@@ -171,7 +173,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -191,7 +193,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -201,7 +203,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +217,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:33353
+main.ts:34906
 
 ***
 
@@ -223,7 +227,9 @@ main.ts:33353
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -235,7 +241,7 @@ main.ts:33353
 
 #### Defined in
 
-main.ts:33376
+main.ts:34929
 
 ***
 
@@ -245,7 +251,9 @@ main.ts:33376
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -257,4 +265,4 @@ main.ts:33376
 
 #### Defined in
 
-main.ts:33369
+main.ts:34922

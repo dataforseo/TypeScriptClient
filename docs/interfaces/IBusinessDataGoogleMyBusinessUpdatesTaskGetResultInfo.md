@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
@@ -20,7 +20,7 @@ identifier of the business updates element in SERP
 
 #### Defined in
 
-main.ts:202912
+main.ts:215887
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:202905
+main.ts:215880
 
 ***
 
@@ -47,7 +47,7 @@ learn more about the cid identifier in this help center article
 
 #### Defined in
 
-main.ts:202916
+main.ts:215891
 
 ***
 
@@ -62,7 +62,7 @@ example:
 
 #### Defined in
 
-main.ts:202910
+main.ts:215885
 
 ***
 
@@ -75,7 +75,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:202919
+main.ts:215894
 
 ***
 
@@ -89,7 +89,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:202923
+main.ts:215898
 
 ***
 
@@ -103,7 +103,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:202930
+main.ts:215905
 
 ***
 
@@ -116,7 +116,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:202926
+main.ts:215901
 
 ***
 
@@ -125,7 +125,7 @@ main.ts:202926
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
@@ -133,7 +133,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:202896
+main.ts:215871
 
 ***
 
@@ -145,7 +145,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:202902
+main.ts:215877
 
 ***
 
@@ -157,7 +157,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:202900
+main.ts:215875
 
 ***
 
@@ -169,4 +169,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:202898
+main.ts:215873

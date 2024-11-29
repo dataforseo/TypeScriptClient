@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PopularTimes
+[Documentation](../README.md) / PopularTimes
 
 # Class: PopularTimes
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPopularTimes`](../interfaces/IPopularTimes.md)
+##### data?
+
+[`IPopularTimes`](../interfaces/IPopularTimes.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:198695
+main.ts:211045
 
 ## Properties
 
@@ -43,7 +45,7 @@ information about busy hours of the local establishment on each day of the week
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)[]
 
 #### Implementation of
 
@@ -51,7 +53,7 @@ information about busy hours of the local establishment on each day of the week
 
 #### Defined in
 
-main.ts:198691
+main.ts:211041
 
 ## Methods
 
@@ -61,7 +63,9 @@ main.ts:198691
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -69,7 +73,7 @@ main.ts:198691
 
 #### Defined in
 
-main.ts:198704
+main.ts:211054
 
 ***
 
@@ -79,7 +83,9 @@ main.ts:198704
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -87,7 +93,7 @@ main.ts:198704
 
 #### Defined in
 
-main.ts:198727
+main.ts:211077
 
 ***
 
@@ -97,7 +103,9 @@ main.ts:198727
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -105,4 +113,4 @@ main.ts:198727
 
 #### Defined in
 
-main.ts:198720
+main.ts:211070

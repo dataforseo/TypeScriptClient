@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseDataforseoTrendsItem
+[Documentation](../README.md) / IBaseDataforseoTrendsItem
 
 # Interface: IBaseDataforseoTrendsItem
 
@@ -23,7 +23,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21967
+main.ts:22865
 
 ***
 
@@ -36,7 +36,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21964
+main.ts:22862
 
 ***
 
@@ -48,4 +48,4 @@ type of element
 
 #### Defined in
 
-main.ts:21961
+main.ts:22859

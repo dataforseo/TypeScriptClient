@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSocialMediaBusinessDataPriceData
+[Documentation](../README.md) / IAppendixSocialMediaBusinessDataPriceData
 
 # Interface: IAppendixSocialMediaBusinessDataPriceData
 
@@ -14,28 +14,28 @@
 
 ### facebook?
 
-> `optional` **facebook**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **facebook**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222532
+main.ts:237907
 
 ***
 
 ### pinterest?
 
-> `optional` **pinterest**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **pinterest**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222533
+main.ts:237908
 
 ***
 
 ### reddit?
 
-> `optional` **reddit**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **reddit**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:222534
+main.ts:237909

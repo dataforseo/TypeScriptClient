@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonSellersTaskPostRequestInfo
+[Documentation](../README.md) / MerchantAmazonSellersTaskPostRequestInfo
 
 # Class: MerchantAmazonSellersTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md)
+##### data?
+
+[`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:183146
+main.ts:195456
 
 ## Properties
 
@@ -52,7 +54,7 @@ learn more about the identifier in this help center guide
 
 #### Defined in
 
-main.ts:183058
+main.ts:195366
 
 ***
 
@@ -73,7 +75,7 @@ en
 
 #### Defined in
 
-main.ts:183103
+main.ts:195411
 
 ***
 
@@ -94,7 +96,7 @@ English
 
 #### Defined in
 
-main.ts:183096
+main.ts:195404
 
 ***
 
@@ -115,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:183080
+main.ts:195388
 
 ***
 
@@ -138,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:183089
+main.ts:195397
 
 ***
 
@@ -159,7 +161,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:183073
+main.ts:195381
 
 ***
 
@@ -174,8 +176,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -183,7 +186,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183142
+main.ts:195452
 
 ***
 
@@ -203,7 +206,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:183132
+main.ts:195441
 
 ***
 
@@ -218,8 +221,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -227,7 +231,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183126
+main.ts:195435
 
 ***
 
@@ -249,7 +253,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:183066
+main.ts:195374
 
 ***
 
@@ -270,7 +274,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 #### Defined in
 
-main.ts:183110
+main.ts:195418
 
 ***
 
@@ -290,7 +294,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:183116
+main.ts:195424
 
 ## Methods
 
@@ -300,7 +304,9 @@ main.ts:183116
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -308,7 +314,7 @@ main.ts:183116
 
 #### Defined in
 
-main.ts:183155
+main.ts:195465
 
 ***
 
@@ -318,7 +324,9 @@ main.ts:183155
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -326,7 +334,7 @@ main.ts:183155
 
 #### Defined in
 
-main.ts:183183
+main.ts:195493
 
 ***
 
@@ -336,7 +344,9 @@ main.ts:183183
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -344,4 +354,4 @@ main.ts:183183
 
 #### Defined in
 
-main.ts:183176
+main.ts:195486

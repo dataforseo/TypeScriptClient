@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
@@ -25,7 +25,7 @@ contains content language codes and number of websites per language
 
 #### Defined in
 
-main.ts:77160
+main.ts:86868
 
 ***
 
@@ -42,7 +42,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:77154
+main.ts:86862
 
 ***
 
@@ -59,7 +59,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Defined in
 
-main.ts:77163
+main.ts:86871
 
 ***
 
@@ -76,4 +76,4 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:77157
+main.ts:86865

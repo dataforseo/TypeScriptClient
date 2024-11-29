@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantGoogleSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleSellersTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:176573
+main.ts:188306
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:176578
+main.ts:188311
 
 ***
 
@@ -48,7 +48,7 @@ URL to the product image
 
 #### Defined in
 
-main.ts:176584
+main.ts:188317
 
 ***
 
@@ -63,7 +63,7 @@ shops_list, buy_on_google
 
 #### Defined in
 
-main.ts:176592
+main.ts:188325
 
 ***
 
@@ -75,7 +75,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:176596
+main.ts:188329
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:176594
+main.ts:188327
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:176570
+main.ts:188303
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:176568
+main.ts:188301
 
 ***
 
@@ -124,7 +124,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:176562
+main.ts:188295
 
 ***
 
@@ -137,7 +137,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:176587
+main.ts:188320
 
 ***
 
@@ -149,7 +149,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:176566
+main.ts:188299
 
 ***
 
@@ -161,7 +161,7 @@ title of the product
 
 #### Defined in
 
-main.ts:176580
+main.ts:188313
 
 ***
 
@@ -173,7 +173,7 @@ type of element
 
 #### Defined in
 
-main.ts:176564
+main.ts:188297
 
 ***
 
@@ -185,4 +185,4 @@ URL to the product page
 
 #### Defined in
 
-main.ts:176582
+main.ts:188315

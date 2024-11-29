@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkSpamScoreLiveRequestInfo
+[Documentation](../README.md) / IBacklinksBulkSpamScoreLiveRequestInfo
 
 # Interface: IBacklinksBulkSpamScoreLiveRequestInfo
 
@@ -24,7 +24,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:149772
+main.ts:160977
 
 ***
 
@@ -53,4 +53,4 @@ example:
 
 #### Defined in
 
-main.ts:149766
+main.ts:160971

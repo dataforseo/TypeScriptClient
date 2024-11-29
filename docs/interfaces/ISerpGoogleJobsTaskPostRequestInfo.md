@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleJobsTaskPostRequestInfo
+[Documentation](../README.md) / ISerpGoogleJobsTaskPostRequestInfo
 
 # Interface: ISerpGoogleJobsTaskPostRequestInfo
 
@@ -27,7 +27,7 @@ month — return job vacancies posted no longer than a month ago
 
 #### Defined in
 
-main.ts:50230
+main.ts:53925
 
 ***
 
@@ -46,7 +46,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:50215
+main.ts:53910
 
 ***
 
@@ -62,7 +62,7 @@ fulltime, partime, contractor, intern
 
 #### Defined in
 
-main.ts:50221
+main.ts:53916
 
 ***
 
@@ -72,16 +72,17 @@ main.ts:50221
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
 Note: the keyword you specify must indicate the job title;
 example: .net developer
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:50163
+main.ts:53858
 
 ***
 
@@ -98,7 +99,7 @@ en
 
 #### Defined in
 
-main.ts:50206
+main.ts:53901
 
 ***
 
@@ -115,7 +116,7 @@ English
 
 #### Defined in
 
-main.ts:50199
+main.ts:53894
 
 ***
 
@@ -131,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:50184
+main.ts:53879
 
 ***
 
@@ -148,7 +149,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:50178
+main.ts:53873
 
 ***
 
@@ -166,7 +167,7 @@ minimal value: > 0
 
 #### Defined in
 
-main.ts:50192
+main.ts:53887
 
 ***
 
@@ -181,12 +182,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:50262
+main.ts:53959
 
 ***
 
@@ -202,7 +204,7 @@ regular, advanced, html
 
 #### Defined in
 
-main.ts:50252
+main.ts:53948
 
 ***
 
@@ -217,12 +219,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:50246
+main.ts:53942
 
 ***
 
@@ -240,7 +243,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:50171
+main.ts:53866
 
 ***
 
@@ -256,4 +259,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:50236
+main.ts:53931

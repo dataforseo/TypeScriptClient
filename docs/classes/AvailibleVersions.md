@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AvailibleVersions
+[Documentation](../README.md) / AvailibleVersions
 
 # Class: AvailibleVersions
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAvailibleVersions`](../interfaces/IAvailibleVersions.md)
+##### data?
+
+[`IAvailibleVersions`](../interfaces/IAvailibleVersions.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:163548
+main.ts:175137
 
 ## Properties
 
@@ -47,7 +49,7 @@ if false, the version is not used by default and should be specified in the corr
 
 #### Defined in
 
-main.ts:163544
+main.ts:175133
 
 ***
 
@@ -63,7 +65,7 @@ lighthouse version
 
 #### Defined in
 
-main.ts:163541
+main.ts:175130
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:163541
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:163541
 
 #### Defined in
 
-main.ts:163557
+main.ts:175146
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:163557
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:163557
 
 #### Defined in
 
-main.ts:163575
+main.ts:175164
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:163575
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:163575
 
 #### Defined in
 
-main.ts:163568
+main.ts:175157

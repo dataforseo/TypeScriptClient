@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationCheckGrammarLanguagesResultInfo
+[Documentation](../README.md) / ContentGenerationCheckGrammarLanguagesResultInfo
 
 # Class: ContentGenerationCheckGrammarLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationCheckGrammarLanguagesResultInfo`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md)
+##### data?
+
+[`IContentGenerationCheckGrammarLanguagesResultInfo`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:171499
+main.ts:183088
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:171495
+main.ts:183084
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:171493
+main.ts:183082
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:171493
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:171493
 
 #### Defined in
 
-main.ts:171508
+main.ts:183097
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:171508
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:171508
 
 #### Defined in
 
-main.ts:171526
+main.ts:183115
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:171526
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:171526
 
 #### Defined in
 
-main.ts:171519
+main.ts:183108

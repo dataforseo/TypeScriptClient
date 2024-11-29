@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrendsGraphDataInfo
+[Documentation](../README.md) / TrendsGraphDataInfo
 
 # Class: TrendsGraphDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md)
+##### data?
+
+[`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:123627
+main.ts:133876
 
 ## Properties
 
@@ -47,7 +49,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:123610
+main.ts:133859
 
 ***
 
@@ -64,7 +66,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:123613
+main.ts:133862
 
 ***
 
@@ -81,7 +83,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Defined in
 
-main.ts:123618
+main.ts:133867
 
 ***
 
@@ -97,7 +99,7 @@ a point in time in the Unix time format
 
 #### Defined in
 
-main.ts:123615
+main.ts:133864
 
 ***
 
@@ -116,7 +118,7 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Defined in
 
-main.ts:123623
+main.ts:133872
 
 ## Methods
 
@@ -126,7 +128,9 @@ main.ts:123623
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +138,7 @@ main.ts:123623
 
 #### Defined in
 
-main.ts:123636
+main.ts:133885
 
 ***
 
@@ -144,7 +148,9 @@ main.ts:123636
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -152,7 +158,7 @@ main.ts:123636
 
 #### Defined in
 
-main.ts:123661
+main.ts:133910
 
 ***
 
@@ -162,7 +168,9 @@ main.ts:123661
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -170,4 +178,4 @@ main.ts:123661
 
 #### Defined in
 
-main.ts:123654
+main.ts:133903

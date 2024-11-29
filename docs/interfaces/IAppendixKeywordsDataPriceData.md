@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixKeywordsDataPriceData
+[Documentation](../README.md) / IAppendixKeywordsDataPriceData
 
 # Interface: IAppendixKeywordsDataPriceData
 
@@ -18,7 +18,17 @@
 
 #### Defined in
 
-main.ts:221544
+main.ts:236721
+
+***
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
+
+#### Defined in
+
+main.ts:236722
 
 ***
 
@@ -28,7 +38,7 @@ main.ts:221544
 
 #### Defined in
 
-main.ts:221545
+main.ts:236723
 
 ***
 
@@ -38,7 +48,7 @@ main.ts:221545
 
 #### Defined in
 
-main.ts:221546
+main.ts:236724
 
 ***
 
@@ -48,7 +58,7 @@ main.ts:221546
 
 #### Defined in
 
-main.ts:221547
+main.ts:236725
 
 ***
 
@@ -58,7 +68,7 @@ main.ts:221547
 
 #### Defined in
 
-main.ts:221557
+main.ts:236736
 
 ***
 
@@ -68,7 +78,7 @@ main.ts:221557
 
 #### Defined in
 
-main.ts:221548
+main.ts:236726
 
 ***
 
@@ -78,7 +88,7 @@ main.ts:221548
 
 #### Defined in
 
-main.ts:221558
+main.ts:236737
 
 ***
 
@@ -88,7 +98,7 @@ main.ts:221558
 
 #### Defined in
 
-main.ts:221549
+main.ts:236727
 
 ***
 
@@ -98,7 +108,17 @@ main.ts:221549
 
 #### Defined in
 
-main.ts:221550
+main.ts:236728
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
+
+#### Defined in
+
+main.ts:236731
 
 ***
 
@@ -108,7 +128,7 @@ main.ts:221550
 
 #### Defined in
 
-main.ts:221551
+main.ts:236729
 
 ***
 
@@ -118,7 +138,7 @@ main.ts:221551
 
 #### Defined in
 
-main.ts:221552
+main.ts:236730
 
 ***
 
@@ -128,7 +148,7 @@ main.ts:221552
 
 #### Defined in
 
-main.ts:221553
+main.ts:236732
 
 ***
 
@@ -138,7 +158,7 @@ main.ts:221553
 
 #### Defined in
 
-main.ts:221554
+main.ts:236733
 
 ***
 
@@ -148,7 +168,7 @@ main.ts:221554
 
 #### Defined in
 
-main.ts:221555
+main.ts:236734
 
 ***
 
@@ -158,7 +178,7 @@ main.ts:221555
 
 #### Defined in
 
-main.ts:221556
+main.ts:236735
 
 ***
 
@@ -168,4 +188,4 @@ main.ts:221556
 
 #### Defined in
 
-main.ts:221543
+main.ts:236720

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleLocationsResultInfo
+[Documentation](../README.md) / AppDataAppleLocationsResultInfo
 
 # Class: AppDataAppleLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md)
+##### data?
+
+[`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:192521
+main.ts:204857
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:192515
+main.ts:204851
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:192502
+main.ts:204838
 
 ***
 
@@ -78,7 +80,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:192504
+main.ts:204840
 
 ***
 
@@ -101,7 +103,7 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 #### Defined in
 
-main.ts:192513
+main.ts:204849
 
 ***
 
@@ -117,7 +119,7 @@ location type
 
 #### Defined in
 
-main.ts:192517
+main.ts:204853
 
 ## Methods
 
@@ -127,7 +129,9 @@ main.ts:192517
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -135,7 +139,7 @@ main.ts:192517
 
 #### Defined in
 
-main.ts:192530
+main.ts:204866
 
 ***
 
@@ -145,7 +149,9 @@ main.ts:192530
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -153,7 +159,7 @@ main.ts:192530
 
 #### Defined in
 
-main.ts:192551
+main.ts:204887
 
 ***
 
@@ -163,7 +169,9 @@ main.ts:192551
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -171,4 +179,4 @@ main.ts:192551
 
 #### Defined in
 
-main.ts:192544
+main.ts:204880

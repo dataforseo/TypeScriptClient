@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageContentParsingLiveRequestInfo
+[Documentation](../README.md) / OnPageContentParsingLiveRequestInfo
 
 # Class: OnPageContentParsingLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md)
+##### data?
+
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:162262
+main.ts:173863
 
 ## Properties
 
@@ -49,7 +51,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:162225
+main.ts:173826
 
 ***
 
@@ -82,7 +84,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-main.ts:162185
+main.ts:173786
 
 ***
 
@@ -104,7 +106,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162201
+main.ts:173802
 
 ***
 
@@ -126,7 +128,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:162209
+main.ts:173810
 
 ***
 
@@ -148,33 +150,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162193
-
-***
-
-### custom\_js?
-
-> `optional` **custom\_js**: `string`
-
-custom javascript
-optional field
-Note that the execution time for the script you enter here should be 700 ms maximum, for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) {\r\n if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
-as a response you will receive the following data:
-"custom_js_response": {
-"url": "https://dataforseo.com/",
-"test": "test"
-}
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
-
-#### Implementation of
-
-[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`custom_js`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#custom_js)
-
-#### Defined in
-
-main.ts:162166
+main.ts:173794
 
 ***
 
@@ -195,7 +171,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:162154
+main.ts:173767
 
 ***
 
@@ -215,7 +191,7 @@ false
 
 #### Defined in
 
-main.ts:162220
+main.ts:173821
 
 ***
 
@@ -238,7 +214,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162240
+main.ts:173841
 
 ***
 
@@ -258,7 +234,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162231
+main.ts:173832
 
 ***
 
@@ -279,7 +255,7 @@ if you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-main.ts:162247
+main.ts:173848
 
 ***
 
@@ -299,7 +275,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:162258
+main.ts:173859
 
 ***
 
@@ -318,7 +294,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162214
+main.ts:173815
 
 ***
 
@@ -337,7 +313,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:162252
+main.ts:173853
 
 ***
 
@@ -357,7 +333,7 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-main.ts:162147
+main.ts:173760
 
 ## Methods
 
@@ -367,7 +343,9 @@ main.ts:162147
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -375,7 +353,7 @@ main.ts:162147
 
 #### Defined in
 
-main.ts:162271
+main.ts:173872
 
 ***
 
@@ -385,7 +363,9 @@ main.ts:162271
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -393,7 +373,7 @@ main.ts:162271
 
 #### Defined in
 
-main.ts:162302
+main.ts:173902
 
 ***
 
@@ -403,7 +383,9 @@ main.ts:162302
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -411,4 +393,4 @@ main.ts:162302
 
 #### Defined in
 
-main.ts:162295
+main.ts:173895

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:105990
+main.ts:115628
 
 ## Properties
 
@@ -53,7 +55,7 @@ default value:
 
 #### Defined in
 
-main.ts:105980
+main.ts:115618
 
 ***
 
@@ -74,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:105971
+main.ts:115609
 
 ***
 
@@ -95,7 +97,7 @@ English
 
 #### Defined in
 
-main.ts:105964
+main.ts:115602
 
 ***
 
@@ -117,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:105957
+main.ts:115595
 
 ***
 
@@ -139,7 +141,7 @@ United States
 
 #### Defined in
 
-main.ts:105949
+main.ts:115587
 
 ***
 
@@ -159,7 +161,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:105986
+main.ts:115624
 
 ***
 
@@ -180,7 +182,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-main.ts:105941
+main.ts:115579
 
 ## Methods
 
@@ -190,7 +192,9 @@ main.ts:105941
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +202,7 @@ main.ts:105941
 
 #### Defined in
 
-main.ts:105999
+main.ts:115637
 
 ***
 
@@ -208,7 +212,9 @@ main.ts:105999
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +222,7 @@ main.ts:105999
 
 #### Defined in
 
-main.ts:106030
+main.ts:115668
 
 ***
 
@@ -226,7 +232,9 @@ main.ts:106030
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -234,4 +242,4 @@ main.ts:106030
 
 #### Defined in
 
-main.ts:106023
+main.ts:115661

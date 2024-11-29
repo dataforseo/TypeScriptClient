@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains objects with keywords and related data
 
 #### Defined in
 
-main.ts:102967
+main.ts:112605
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:102965
+main.ts:112603
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:102961
+main.ts:112599
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:102959
+main.ts:112597
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:102952
+main.ts:112590
 
 ***
 
@@ -80,7 +80,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:102954
+main.ts:112592
 
 ***
 
@@ -93,7 +93,7 @@ fields in the object are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:102957
+main.ts:112595
 
 ***
 
@@ -105,4 +105,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:102963
+main.ts:112601

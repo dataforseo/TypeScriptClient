@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleImagesLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleImagesLiveAdvancedResultInfo
 
 # Class: SerpGoogleImagesLiveAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleImagesLiveAdvancedResultInfo`](../interfaces/ISerpGoogleImagesLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleImagesLiveAdvancedResultInfo`](../interfaces/ISerpGoogleImagesLiveAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:48400
+main.ts:51823
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:48377
+main.ts:51798
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:48382
+main.ts:51803
 
 ***
 
@@ -85,7 +87,7 @@ carousel, images_search, related_searches
 
 #### Defined in
 
-main.ts:48390
+main.ts:51813
 
 ***
 
@@ -93,7 +95,7 @@ main.ts:48390
 
 > `optional` **items**: [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)[]
 
-contains keywords and images related to the specified search term
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -101,7 +103,7 @@ contains keywords and images related to the specified search term
 
 #### Defined in
 
-main.ts:48396
+main.ts:51819
 
 ***
 
@@ -117,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:48394
+main.ts:51817
 
 ***
 
@@ -126,7 +128,7 @@ main.ts:48394
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -134,7 +136,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:48366
+main.ts:51787
 
 ***
 
@@ -150,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:48374
+main.ts:51795
 
 ***
 
@@ -166,7 +168,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:48372
+main.ts:51793
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleImagesLiveAdvancedResultInfo`](../interfaces/ISerpGoogleImagesLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleImagesLiveAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:51808
 
 ***
 
@@ -182,7 +200,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:48370
+main.ts:51791
 
 ***
 
@@ -198,7 +216,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:48392
+main.ts:51815
 
 ***
 
@@ -215,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:48385
+main.ts:51806
 
 ***
 
@@ -231,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:48368
+main.ts:51789
 
 ## Methods
 
@@ -241,7 +259,9 @@ main.ts:48368
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -249,7 +269,7 @@ main.ts:48368
 
 #### Defined in
 
-main.ts:48409
+main.ts:51832
 
 ***
 
@@ -259,7 +279,9 @@ main.ts:48409
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +289,7 @@ main.ts:48409
 
 #### Defined in
 
-main.ts:48445
+main.ts:51869
 
 ***
 
@@ -277,7 +299,9 @@ main.ts:48445
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -285,4 +309,4 @@ main.ts:48445
 
 #### Defined in
 
-main.ts:48438
+main.ts:51862

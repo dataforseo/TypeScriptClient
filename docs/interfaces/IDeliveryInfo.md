@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDeliveryInfo
+[Documentation](../README.md) / IDeliveryInfo
 
 # Interface: IDeliveryInfo
 
@@ -21,7 +21,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:174383
+main.ts:186115
 
 ***
 
@@ -35,17 +35,4 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:174387
-
-***
-
-### stores\_count\_info?
-
-> `optional` **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
-
-stores count information
-contains information about the number of stores that offer the same product
-
-#### Defined in
-
-main.ts:174390
+main.ts:186119

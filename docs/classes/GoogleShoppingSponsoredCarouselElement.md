@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleShoppingSponsoredCarouselElement
+[Documentation](../README.md) / GoogleShoppingSponsoredCarouselElement
 
 # Class: GoogleShoppingSponsoredCarouselElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md)
+##### data?
+
+[`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:174836
+main.ts:186565
 
 ## Properties
 
@@ -48,7 +50,7 @@ USD
 
 #### Defined in
 
-main.ts:174820
+main.ts:186549
 
 ***
 
@@ -65,7 +67,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:174832
+main.ts:186561
 
 ***
 
@@ -83,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:174816
+main.ts:186545
 
 ***
 
@@ -100,7 +102,7 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-main.ts:174826
+main.ts:186555
 
 ***
 
@@ -117,7 +119,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:174823
+main.ts:186552
 
 ***
 
@@ -134,7 +136,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:174812
+main.ts:186541
 
 ***
 
@@ -151,7 +153,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:174829
+main.ts:186558
 
 ***
 
@@ -167,7 +169,7 @@ tags assigned to the product
 
 #### Defined in
 
-main.ts:174809
+main.ts:186538
 
 ***
 
@@ -183,7 +185,7 @@ product title
 
 #### Defined in
 
-main.ts:174807
+main.ts:186536
 
 ***
 
@@ -199,7 +201,7 @@ type of element
 
 #### Defined in
 
-main.ts:174803
+main.ts:186532
 
 ***
 
@@ -215,7 +217,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174805
+main.ts:186534
 
 ## Methods
 
@@ -225,7 +227,9 @@ main.ts:174805
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -233,7 +237,7 @@ main.ts:174805
 
 #### Defined in
 
-main.ts:174845
+main.ts:186574
 
 ***
 
@@ -243,7 +247,9 @@ main.ts:174845
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -251,7 +257,7 @@ main.ts:174845
 
 #### Defined in
 
-main.ts:174880
+main.ts:186609
 
 ***
 
@@ -261,7 +267,9 @@ main.ts:174880
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -269,4 +277,4 @@ main.ts:174880
 
 #### Defined in
 
-main.ts:174873
+main.ts:186602

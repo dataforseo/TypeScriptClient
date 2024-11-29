@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITrendsTopicListDataInfo
+[Documentation](../README.md) / ITrendsTopicListDataInfo
 
 # Interface: ITrendsTopicListDataInfo
 
@@ -21,7 +21,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:124909
+main.ts:135160
 
 ***
 
@@ -34,4 +34,4 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:124906
+main.ts:135157

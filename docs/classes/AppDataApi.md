@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataApi
+[Documentation](../README.md) / AppDataApi
 
 # Class: AppDataApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:16322
+main.ts:16878
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:16322
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:16322
 
 #### Defined in
 
-main.ts:16320
+main.ts:16876
 
 ## Methods
 
@@ -62,7 +68,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17420
+main.ts:17976
 
 ***
 
@@ -78,7 +84,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17383
+main.ts:17939
 
 ***
 
@@ -88,7 +94,9 @@ main.ts:17383
 
 #### Parameters
 
-• **body**: [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)[]
+##### body
+
+[`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -100,7 +108,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16373
+main.ts:16929
 
 ***
 
@@ -116,7 +124,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16533
+main.ts:17089
 
 ***
 
@@ -132,7 +140,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16451
+main.ts:17007
 
 ***
 
@@ -142,7 +150,9 @@ main.ts:16451
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -158,7 +168,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16493
+main.ts:17049
 
 ***
 
@@ -168,7 +178,9 @@ main.ts:16493
 
 #### Parameters
 
-• **body**: [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)[]
+##### body
+
+[`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)[]
 
 (optional)
 
@@ -180,7 +192,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16331
+main.ts:16887
 
 ***
 
@@ -196,7 +208,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16649
+main.ts:17205
 
 ***
 
@@ -206,7 +218,9 @@ main.ts:16649
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -220,7 +234,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17661
+main.ts:18217
 
 ***
 
@@ -230,7 +244,9 @@ main.ts:17661
 
 #### Parameters
 
-• **body**: [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)[]
+##### body
+
+[`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -242,7 +258,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17580
+main.ts:18136
 
 ***
 
@@ -258,69 +274,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17621
-
-***
-
-### appleAppListTaskGetAdvanced()
-
-> **appleAppListTaskGetAdvanced**(`id`): `Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
-
-#### Parameters
-
-• **id**: `string`
-
-task identifier
-unique task identifier in our system in the UUID format
-you will be able to use it within 30 days to request the results of the task at any time
-
-#### Returns
-
-`Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:17783
-
-***
-
-### appleAppListTaskPost()
-
-> **appleAppListTaskPost**(`body`): `Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
-
-#### Parameters
-
-• **body**: [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)[]
-
-(optional)
-
-#### Returns
-
-`Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:17702
-
-***
-
-### appleAppListTasksReady()
-
-> **appleAppListTasksReady**(): `Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
-
-#### Returns
-
-`Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:17743
+main.ts:18177
 
 ***
 
@@ -336,7 +290,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17945
+main.ts:18501
 
 ***
 
@@ -346,7 +300,9 @@ main.ts:17945
 
 #### Parameters
 
-• **body**: [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)[]
+##### body
+
+[`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)[]
 
 (optional)
 
@@ -358,7 +314,73 @@ Successful operation
 
 #### Defined in
 
-main.ts:17983
+main.ts:18539
+
+***
+
+### appleAppListTaskGetAdvanced()
+
+> **appleAppListTaskGetAdvanced**(`id`): `Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:18339
+
+***
+
+### appleAppListTaskPost()
+
+> **appleAppListTaskPost**(`body`): `Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:18258
+
+***
+
+### appleAppListTasksReady()
+
+> **appleAppListTasksReady**(): `Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:18299
 
 ***
 
@@ -368,7 +390,9 @@ main.ts:17983
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -382,7 +406,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17905
+main.ts:18461
 
 ***
 
@@ -392,7 +416,9 @@ main.ts:17905
 
 #### Parameters
 
-• **body**: [`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)[]
+##### body
+
+[`AppDataAppleAppReviewsTaskPostRequestInfo`](AppDataAppleAppReviewsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -404,7 +430,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17824
+main.ts:18380
 
 ***
 
@@ -420,7 +446,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17865
+main.ts:18421
 
 ***
 
@@ -430,7 +456,9 @@ main.ts:17865
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -444,7 +472,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17539
+main.ts:18095
 
 ***
 
@@ -454,7 +482,9 @@ main.ts:17539
 
 #### Parameters
 
-• **body**: [`AppDataTaskRequestInfo`](AppDataTaskRequestInfo.md)[]
+##### body
+
+[`AppDataAppleAppSearchesTaskPostRequestInfo`](AppDataAppleAppSearchesTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -466,7 +496,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17458
+main.ts:18014
 
 ***
 
@@ -482,7 +512,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17499
+main.ts:18055
 
 ***
 
@@ -498,7 +528,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17346
+main.ts:17902
 
 ***
 
@@ -508,7 +538,9 @@ main.ts:17346
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -522,7 +554,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17019
+main.ts:17575
 
 ***
 
@@ -532,7 +564,9 @@ main.ts:17019
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -546,7 +580,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17062
+main.ts:17618
 
 ***
 
@@ -556,7 +590,9 @@ main.ts:17062
 
 #### Parameters
 
-• **body**: [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)[]
+##### body
+
+[`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -568,7 +604,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16938
+main.ts:17494
 
 ***
 
@@ -584,93 +620,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16979
-
-***
-
-### googleAppListTaskGetAdvanced()
-
-> **googleAppListTaskGetAdvanced**(`id`): `Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
-
-#### Parameters
-
-• **id**: `string`
-
-task identifier
-unique task identifier in our system in the UUID format
-you will be able to use it within 30 days to request the results of the task at any time
-
-#### Returns
-
-`Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:16854
-
-***
-
-### googleAppListTaskGetHtml()
-
-> **googleAppListTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
-
-#### Parameters
-
-• **id**: `string`
-
-task identifier
-unique task identifier in our system in the UUID format
-you will be able to use it within 7 days to request the results of the task at any time
-
-#### Returns
-
-`Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:16897
-
-***
-
-### googleAppListTaskPost()
-
-> **googleAppListTaskPost**(`body`): `Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
-
-#### Parameters
-
-• **body**: [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)[]
-
-(optional)
-
-#### Returns
-
-`Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:16773
-
-***
-
-### googleAppListTasksReady()
-
-> **googleAppListTasksReady**(): `Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
-
-#### Returns
-
-`Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:16814
+main.ts:17535
 
 ***
 
@@ -686,7 +636,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17267
+main.ts:17823
 
 ***
 
@@ -696,7 +646,9 @@ main.ts:17267
 
 #### Parameters
 
-• **body**: [`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)[]
+##### body
+
+[`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)[]
 
 (optional)
 
@@ -708,7 +660,99 @@ Successful operation
 
 #### Defined in
 
-main.ts:17305
+main.ts:17861
+
+***
+
+### googleAppListTaskGetAdvanced()
+
+> **googleAppListTaskGetAdvanced**(`id`): `Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:17410
+
+***
+
+### googleAppListTaskGetHtml()
+
+> **googleAppListTaskGetHtml**(`id`): `Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 7 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:17453
+
+***
+
+### googleAppListTaskPost()
+
+> **googleAppListTaskPost**(`body`): `Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:17329
+
+***
+
+### googleAppListTasksReady()
+
+> **googleAppListTasksReady**(): `Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:17370
 
 ***
 
@@ -718,7 +762,9 @@ main.ts:17305
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -732,7 +778,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17184
+main.ts:17740
 
 ***
 
@@ -742,7 +788,9 @@ main.ts:17184
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -756,7 +804,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17227
+main.ts:17783
 
 ***
 
@@ -766,7 +814,9 @@ main.ts:17227
 
 #### Parameters
 
-• **body**: [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)[]
+##### body
+
+[`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -778,7 +828,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17103
+main.ts:17659
 
 ***
 
@@ -794,7 +844,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:17144
+main.ts:17700
 
 ***
 
@@ -804,7 +854,9 @@ main.ts:17144
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -818,7 +870,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16689
+main.ts:17245
 
 ***
 
@@ -828,7 +880,9 @@ main.ts:16689
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -842,7 +896,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16732
+main.ts:17288
 
 ***
 
@@ -852,7 +906,9 @@ main.ts:16732
 
 #### Parameters
 
-• **body**: [`AppDataTaskRequestInfo`](AppDataTaskRequestInfo.md)[]
+##### body
+
+[`AppDataGoogleAppSearchesTaskPostRequestInfo`](AppDataGoogleAppSearchesTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -864,7 +920,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16571
+main.ts:17127
 
 ***
 
@@ -880,7 +936,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16612
+main.ts:17168
 
 ***
 
@@ -896,7 +952,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:16414
+main.ts:16970
 
 ***
 
@@ -906,7 +962,9 @@ main.ts:16414
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -914,7 +972,7 @@ main.ts:16414
 
 #### Defined in
 
-main.ts:17436
+main.ts:17992
 
 ***
 
@@ -924,7 +982,9 @@ main.ts:17436
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -932,7 +992,7 @@ main.ts:17436
 
 #### Defined in
 
-main.ts:17399
+main.ts:17955
 
 ***
 
@@ -942,7 +1002,9 @@ main.ts:17399
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -950,7 +1012,7 @@ main.ts:17399
 
 #### Defined in
 
-main.ts:16393
+main.ts:16949
 
 ***
 
@@ -960,7 +1022,9 @@ main.ts:16393
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -968,7 +1032,7 @@ main.ts:16393
 
 #### Defined in
 
-main.ts:16549
+main.ts:17105
 
 ***
 
@@ -978,7 +1042,9 @@ main.ts:16549
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -986,7 +1052,7 @@ main.ts:16549
 
 #### Defined in
 
-main.ts:16467
+main.ts:17023
 
 ***
 
@@ -996,7 +1062,9 @@ main.ts:16467
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1004,7 +1072,7 @@ main.ts:16467
 
 #### Defined in
 
-main.ts:16512
+main.ts:17068
 
 ***
 
@@ -1014,7 +1082,9 @@ main.ts:16512
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1022,7 +1092,7 @@ main.ts:16512
 
 #### Defined in
 
-main.ts:16351
+main.ts:16907
 
 ***
 
@@ -1032,7 +1102,9 @@ main.ts:16351
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1040,7 +1112,7 @@ main.ts:16351
 
 #### Defined in
 
-main.ts:16665
+main.ts:17221
 
 ***
 
@@ -1050,7 +1122,9 @@ main.ts:16665
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1058,7 +1132,7 @@ main.ts:16665
 
 #### Defined in
 
-main.ts:17680
+main.ts:18236
 
 ***
 
@@ -1068,7 +1142,9 @@ main.ts:17680
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1076,7 +1152,7 @@ main.ts:17680
 
 #### Defined in
 
-main.ts:17600
+main.ts:18156
 
 ***
 
@@ -1086,7 +1162,9 @@ main.ts:17600
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1094,61 +1172,7 @@ main.ts:17600
 
 #### Defined in
 
-main.ts:17637
-
-***
-
-### processAppleAppListTaskGetAdvanced()
-
-> `protected` **processAppleAppListTaskGetAdvanced**(`response`): `Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:17802
-
-***
-
-### processAppleAppListTaskPost()
-
-> `protected` **processAppleAppListTaskPost**(`response`): `Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:17722
-
-***
-
-### processAppleAppListTasksReady()
-
-> `protected` **processAppleAppListTasksReady**(`response`): `Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:17759
+main.ts:18193
 
 ***
 
@@ -1158,7 +1182,9 @@ main.ts:17759
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1166,7 +1192,7 @@ main.ts:17759
 
 #### Defined in
 
-main.ts:17961
+main.ts:18517
 
 ***
 
@@ -1176,7 +1202,9 @@ main.ts:17961
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1184,7 +1212,67 @@ main.ts:17961
 
 #### Defined in
 
-main.ts:18003
+main.ts:18559
+
+***
+
+### processAppleAppListTaskGetAdvanced()
+
+> `protected` **processAppleAppListTaskGetAdvanced**(`response`): `Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`AppDataAppleAppListTaskGetAdvancedResponseInfo`](AppDataAppleAppListTaskGetAdvancedResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:18358
+
+***
+
+### processAppleAppListTaskPost()
+
+> `protected` **processAppleAppListTaskPost**(`response`): `Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`AppDataAppleAppListTaskPostResponseInfo`](AppDataAppleAppListTaskPostResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:18278
+
+***
+
+### processAppleAppListTasksReady()
+
+> `protected` **processAppleAppListTasksReady**(`response`): `Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`AppDataAppleAppListTasksReadyResponseInfo`](AppDataAppleAppListTasksReadyResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:18315
 
 ***
 
@@ -1194,7 +1282,9 @@ main.ts:18003
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1202,7 +1292,7 @@ main.ts:18003
 
 #### Defined in
 
-main.ts:17924
+main.ts:18480
 
 ***
 
@@ -1212,7 +1302,9 @@ main.ts:17924
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1220,7 +1312,7 @@ main.ts:17924
 
 #### Defined in
 
-main.ts:17844
+main.ts:18400
 
 ***
 
@@ -1230,7 +1322,9 @@ main.ts:17844
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1238,7 +1332,7 @@ main.ts:17844
 
 #### Defined in
 
-main.ts:17881
+main.ts:18437
 
 ***
 
@@ -1248,7 +1342,9 @@ main.ts:17881
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1256,7 +1352,7 @@ main.ts:17881
 
 #### Defined in
 
-main.ts:17558
+main.ts:18114
 
 ***
 
@@ -1266,7 +1362,9 @@ main.ts:17558
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1274,7 +1372,7 @@ main.ts:17558
 
 #### Defined in
 
-main.ts:17478
+main.ts:18034
 
 ***
 
@@ -1284,7 +1382,9 @@ main.ts:17478
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1292,7 +1392,7 @@ main.ts:17478
 
 #### Defined in
 
-main.ts:17515
+main.ts:18071
 
 ***
 
@@ -1302,7 +1402,9 @@ main.ts:17515
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1310,7 +1412,7 @@ main.ts:17515
 
 #### Defined in
 
-main.ts:17362
+main.ts:17918
 
 ***
 
@@ -1320,7 +1422,9 @@ main.ts:17362
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1328,7 +1432,7 @@ main.ts:17362
 
 #### Defined in
 
-main.ts:17038
+main.ts:17594
 
 ***
 
@@ -1338,7 +1442,9 @@ main.ts:17038
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1346,7 +1452,7 @@ main.ts:17038
 
 #### Defined in
 
-main.ts:17081
+main.ts:17637
 
 ***
 
@@ -1356,7 +1462,9 @@ main.ts:17081
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1364,7 +1472,7 @@ main.ts:17081
 
 #### Defined in
 
-main.ts:16958
+main.ts:17514
 
 ***
 
@@ -1374,7 +1482,9 @@ main.ts:16958
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1382,79 +1492,7 @@ main.ts:16958
 
 #### Defined in
 
-main.ts:16995
-
-***
-
-### processGoogleAppListTaskGetAdvanced()
-
-> `protected` **processGoogleAppListTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16873
-
-***
-
-### processGoogleAppListTaskGetHtml()
-
-> `protected` **processGoogleAppListTaskGetHtml**(`response`): `Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16916
-
-***
-
-### processGoogleAppListTaskPost()
-
-> `protected` **processGoogleAppListTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16793
-
-***
-
-### processGoogleAppListTasksReady()
-
-> `protected` **processGoogleAppListTasksReady**(`response`): `Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16830
+main.ts:17551
 
 ***
 
@@ -1464,7 +1502,9 @@ main.ts:16830
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1472,7 +1512,7 @@ main.ts:16830
 
 #### Defined in
 
-main.ts:17283
+main.ts:17839
 
 ***
 
@@ -1482,7 +1522,9 @@ main.ts:17283
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1490,7 +1532,87 @@ main.ts:17283
 
 #### Defined in
 
-main.ts:17325
+main.ts:17881
+
+***
+
+### processGoogleAppListTaskGetAdvanced()
+
+> `protected` **processGoogleAppListTaskGetAdvanced**(`response`): `Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleAppListTaskGetAdvancedResponseInfo`](AppDataGoogleAppListTaskGetAdvancedResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:17429
+
+***
+
+### processGoogleAppListTaskGetHtml()
+
+> `protected` **processGoogleAppListTaskGetHtml**(`response`): `Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleAppListTaskGetHtmlResponseInfo`](AppDataGoogleAppListTaskGetHtmlResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:17472
+
+***
+
+### processGoogleAppListTaskPost()
+
+> `protected` **processGoogleAppListTaskPost**(`response`): `Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:17349
+
+***
+
+### processGoogleAppListTasksReady()
+
+> `protected` **processGoogleAppListTasksReady**(`response`): `Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleAppListTasksReadyResponseInfo`](AppDataGoogleAppListTasksReadyResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:17386
 
 ***
 
@@ -1500,7 +1622,9 @@ main.ts:17325
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1508,7 +1632,7 @@ main.ts:17325
 
 #### Defined in
 
-main.ts:17203
+main.ts:17759
 
 ***
 
@@ -1518,7 +1642,9 @@ main.ts:17203
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1526,7 +1652,7 @@ main.ts:17203
 
 #### Defined in
 
-main.ts:17246
+main.ts:17802
 
 ***
 
@@ -1536,7 +1662,9 @@ main.ts:17246
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1544,7 +1672,7 @@ main.ts:17246
 
 #### Defined in
 
-main.ts:17123
+main.ts:17679
 
 ***
 
@@ -1554,7 +1682,9 @@ main.ts:17123
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1562,7 +1692,7 @@ main.ts:17123
 
 #### Defined in
 
-main.ts:17160
+main.ts:17716
 
 ***
 
@@ -1572,7 +1702,9 @@ main.ts:17160
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1580,7 +1712,7 @@ main.ts:17160
 
 #### Defined in
 
-main.ts:16708
+main.ts:17264
 
 ***
 
@@ -1590,7 +1722,9 @@ main.ts:16708
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1598,7 +1732,7 @@ main.ts:16708
 
 #### Defined in
 
-main.ts:16751
+main.ts:17307
 
 ***
 
@@ -1608,7 +1742,9 @@ main.ts:16751
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1616,7 +1752,7 @@ main.ts:16751
 
 #### Defined in
 
-main.ts:16591
+main.ts:17147
 
 ***
 
@@ -1626,7 +1762,9 @@ main.ts:16591
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1634,7 +1772,7 @@ main.ts:16591
 
 #### Defined in
 
-main.ts:16628
+main.ts:17184
 
 ***
 
@@ -1644,7 +1782,9 @@ main.ts:16628
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1652,4 +1792,4 @@ main.ts:16628
 
 #### Defined in
 
-main.ts:16430
+main.ts:16986

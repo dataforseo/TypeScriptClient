@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
 # Class: BusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:206633
+main.ts:219988
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:206623
+main.ts:219978
 
 ***
 
@@ -65,7 +67,7 @@ HTML pages
 
 #### Defined in
 
-main.ts:206627
+main.ts:219982
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:206625
+main.ts:219980
 
 ***
 
@@ -100,7 +102,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:206614
+main.ts:219969
 
 ***
 
@@ -116,7 +118,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:206618
+main.ts:219973
 
 ***
 
@@ -132,7 +134,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:206616
+main.ts:219971
 
 ***
 
@@ -146,7 +148,7 @@ main.ts:206616
 
 #### Defined in
 
-main.ts:206629
+main.ts:219984
 
 ***
 
@@ -160,7 +162,7 @@ main.ts:206629
 
 #### Defined in
 
-main.ts:206628
+main.ts:219983
 
 ## Methods
 
@@ -170,7 +172,9 @@ main.ts:206628
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +182,7 @@ main.ts:206628
 
 #### Defined in
 
-main.ts:206642
+main.ts:219997
 
 ***
 
@@ -188,7 +192,9 @@ main.ts:206642
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -196,7 +202,7 @@ main.ts:206642
 
 #### Defined in
 
-main.ts:206670
+main.ts:220025
 
 ***
 
@@ -206,7 +212,9 @@ main.ts:206670
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -214,4 +222,4 @@ main.ts:206670
 
 #### Defined in
 
-main.ts:206663
+main.ts:220018

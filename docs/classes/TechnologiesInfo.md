@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TechnologiesInfo
+[Documentation](../README.md) / TechnologiesInfo
 
 # Class: TechnologiesInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md)
+##### data?
+
+[`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23571
+main.ts:24464
 
 ## Properties
 
@@ -40,7 +42,7 @@ main.ts:23571
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -48,7 +50,7 @@ main.ts:23571
 
 #### Defined in
 
-main.ts:23552
+main.ts:24445
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:23552
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -66,7 +68,7 @@ main.ts:23552
 
 #### Defined in
 
-main.ts:23553
+main.ts:24446
 
 ***
 
@@ -76,7 +78,7 @@ main.ts:23553
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -84,7 +86,7 @@ main.ts:23553
 
 #### Defined in
 
-main.ts:23556
+main.ts:24449
 
 ***
 
@@ -94,7 +96,7 @@ main.ts:23556
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -102,7 +104,7 @@ main.ts:23556
 
 #### Defined in
 
-main.ts:23566
+main.ts:24459
 
 ***
 
@@ -112,7 +114,7 @@ main.ts:23566
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -120,7 +122,7 @@ main.ts:23566
 
 #### Defined in
 
-main.ts:23563
+main.ts:24456
 
 ***
 
@@ -130,7 +132,7 @@ main.ts:23563
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -138,7 +140,7 @@ main.ts:23563
 
 #### Defined in
 
-main.ts:23562
+main.ts:24455
 
 ***
 
@@ -148,7 +150,7 @@ main.ts:23562
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -156,7 +158,7 @@ main.ts:23562
 
 #### Defined in
 
-main.ts:23565
+main.ts:24458
 
 ***
 
@@ -166,7 +168,7 @@ main.ts:23565
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -174,7 +176,7 @@ main.ts:23565
 
 #### Defined in
 
-main.ts:23564
+main.ts:24457
 
 ***
 
@@ -184,7 +186,7 @@ main.ts:23564
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -192,7 +194,7 @@ main.ts:23564
 
 #### Defined in
 
-main.ts:23558
+main.ts:24451
 
 ***
 
@@ -202,7 +204,7 @@ main.ts:23558
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -210,7 +212,7 @@ main.ts:23558
 
 #### Defined in
 
-main.ts:23560
+main.ts:24453
 
 ***
 
@@ -220,7 +222,7 @@ main.ts:23560
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -228,7 +230,7 @@ main.ts:23560
 
 #### Defined in
 
-main.ts:23557
+main.ts:24450
 
 ***
 
@@ -238,7 +240,7 @@ main.ts:23557
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -246,7 +248,7 @@ main.ts:23557
 
 #### Defined in
 
-main.ts:23555
+main.ts:24448
 
 ***
 
@@ -256,7 +258,7 @@ main.ts:23555
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -264,7 +266,7 @@ main.ts:23555
 
 #### Defined in
 
-main.ts:23561
+main.ts:24454
 
 ***
 
@@ -274,7 +276,7 @@ main.ts:23561
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -282,7 +284,7 @@ main.ts:23561
 
 #### Defined in
 
-main.ts:23559
+main.ts:24452
 
 ***
 
@@ -292,7 +294,7 @@ main.ts:23559
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -300,7 +302,7 @@ main.ts:23559
 
 #### Defined in
 
-main.ts:23567
+main.ts:24460
 
 ***
 
@@ -310,7 +312,7 @@ main.ts:23567
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+ \[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
@@ -318,7 +320,7 @@ main.ts:23567
 
 #### Defined in
 
-main.ts:23554
+main.ts:24447
 
 ## Methods
 
@@ -328,7 +330,9 @@ main.ts:23554
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -336,7 +340,7 @@ main.ts:23554
 
 #### Defined in
 
-main.ts:23580
+main.ts:24473
 
 ***
 
@@ -346,7 +350,9 @@ main.ts:23580
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -354,7 +360,7 @@ main.ts:23580
 
 #### Defined in
 
-main.ts:23708
+main.ts:24601
 
 ***
 
@@ -364,7 +370,9 @@ main.ts:23708
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -372,4 +380,4 @@ main.ts:23708
 
 #### Defined in
 
-main.ts:23701
+main.ts:24594

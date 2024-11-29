@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleDatasetInfoTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:55984
+main.ts:59667
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:55989
+main.ts:59672
 
 ***
 
@@ -50,19 +50,19 @@ possible item type: dataset
 
 #### Defined in
 
-main.ts:55996
+main.ts:59681
 
 ***
 
 ### items?
 
-> `optional` **items**: [`SerpGoogleDatasetInfoAdvancedItem`](../classes/SerpGoogleDatasetInfoAdvancedItem.md)[]
+> `optional` **items**: [`SerpGoogleDatasetAdvancedItem`](../classes/SerpGoogleDatasetAdvancedItem.md)[]
 
 elements of search results found in SERP
 
 #### Defined in
 
-main.ts:56002
+main.ts:59687
 
 ***
 
@@ -74,7 +74,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:56000
+main.ts:59685
 
 ***
 
@@ -87,7 +87,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:55977
+main.ts:59660
 
 ***
 
@@ -99,7 +99,19 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:55981
+main.ts:59664
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:59677
 
 ***
 
@@ -111,7 +123,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:55979
+main.ts:59662
 
 ***
 
@@ -123,7 +135,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:55998
+main.ts:59683
 
 ***
 
@@ -136,4 +148,4 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:55992
+main.ts:59675

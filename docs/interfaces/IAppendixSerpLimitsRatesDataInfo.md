@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSerpLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixSerpLimitsRatesDataInfo
 
 # Interface: IAppendixSerpLimitsRatesDataInfo
 
@@ -18,17 +18,17 @@
 
 #### Defined in
 
-main.ts:215661
+main.ts:230604
 
 ***
 
 ### jobs?
 
-> `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **jobs**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
 
 #### Defined in
 
-main.ts:215663
+main.ts:230606
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:215663
 
 #### Defined in
 
-main.ts:215659
+main.ts:230602
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:215659
 
 #### Defined in
 
-main.ts:215660
+main.ts:230603
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:215660
 
 #### Defined in
 
-main.ts:215658
+main.ts:230601
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:215658
 
 #### Defined in
 
-main.ts:215664
+main.ts:230607
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:215664
 
 #### Defined in
 
-main.ts:215656
+main.ts:230599
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:215656
 
 #### Defined in
 
-main.ts:215655
+main.ts:230598
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:215655
 
 #### Defined in
 
-main.ts:215662
+main.ts:230605
 
 ***
 
@@ -108,4 +108,4 @@ main.ts:215662
 
 #### Defined in
 
-main.ts:215657
+main.ts:230600

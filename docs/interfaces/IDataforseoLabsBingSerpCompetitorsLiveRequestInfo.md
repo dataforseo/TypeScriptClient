@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
@@ -33,7 +33,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:110681
+main.ts:120013
 
 ***
 
@@ -48,7 +48,7 @@ default value: true
 
 #### Defined in
 
-main.ts:110648
+main.ts:119980
 
 ***
 
@@ -66,7 +66,7 @@ default value:
 
 #### Defined in
 
-main.ts:110656
+main.ts:119988
 
 ***
 
@@ -79,12 +79,12 @@ required field
 the results will be based on the keywords you specify in this array
 UTF-8 encoding;
 the keywords will be converted to lowercase format;
-a keyword should be at least 3 characters long;
 you can specify the maximum of 200 keywords
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:110609
+main.ts:119941
 
 ***
 
@@ -102,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:110643
+main.ts:119975
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Defined in
 
-main.ts:110635
+main.ts:119967
 
 ***
 
@@ -135,7 +135,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:110661
+main.ts:119993
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:110627
+main.ts:119959
 
 ***
 
@@ -173,7 +173,7 @@ United States
 
 #### Defined in
 
-main.ts:110618
+main.ts:119950
 
 ***
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:110666
+main.ts:119998
 
 ***
 
@@ -214,7 +214,7 @@ example:
 
 #### Defined in
 
-main.ts:110697
+main.ts:120029
 
 ***
 
@@ -230,4 +230,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:110703
+main.ts:120035

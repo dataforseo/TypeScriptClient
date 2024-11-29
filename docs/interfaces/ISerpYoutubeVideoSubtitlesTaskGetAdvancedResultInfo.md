@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:64217
+main.ts:72427
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:64196
+main.ts:72403
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:64201
+main.ts:72408
 
 ***
 
@@ -63,7 +63,7 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:64209
+main.ts:72419
 
 ***
 
@@ -75,7 +75,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:64225
+main.ts:72435
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:64223
+main.ts:72433
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:64193
+main.ts:72400
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:64191
+main.ts:72398
 
 ***
 
@@ -123,7 +123,20 @@ language code of original text
 
 #### Defined in
 
-main.ts:64215
+main.ts:72425
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:72414
 
 ***
 
@@ -135,7 +148,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:64189
+main.ts:72396
 
 ***
 
@@ -148,7 +161,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:64204
+main.ts:72411
 
 ***
 
@@ -160,7 +173,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:64219
+main.ts:72429
 
 ***
 
@@ -172,7 +185,7 @@ title of the video
 
 #### Defined in
 
-main.ts:64221
+main.ts:72431
 
 ***
 
@@ -184,7 +197,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:64213
+main.ts:72423
 
 ***
 
@@ -196,7 +209,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:64211
+main.ts:72421
 
 ***
 
@@ -208,4 +221,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:64187
+main.ts:72394

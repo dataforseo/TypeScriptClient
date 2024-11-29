@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MathSolverExpandedElement
+[Documentation](../README.md) / MathSolverExpandedElement
 
 # Class: MathSolverExpandedElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md)
+##### data?
+
+[`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:34693
+main.ts:36178
 
 ## Properties
 
@@ -47,7 +49,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Defined in
 
-main.ts:34689
+main.ts:36174
 
 ***
 
@@ -63,7 +65,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:34686
+main.ts:36171
 
 ***
 
@@ -79,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:34684
+main.ts:36169
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:34684
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:34684
 
 #### Defined in
 
-main.ts:34702
+main.ts:36187
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:34702
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:34702
 
 #### Defined in
 
-main.ts:34725
+main.ts:36210
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:34725
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:34725
 
 #### Defined in
 
-main.ts:34718
+main.ts:36203

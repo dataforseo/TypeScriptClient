@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAnswerBoxDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IAnswerBoxDataforseoLabsSerpElementItem
 
 # Interface: IAnswerBoxDataforseoLabsSerpElementItem
 
@@ -26,7 +26,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97052
+main.ts:106914
 
 ***
 
@@ -44,7 +44,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -61,7 +61,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -78,7 +78,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -91,7 +91,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:97048
+main.ts:106910
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -123,4 +123,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGraphElement
+[Documentation](../README.md) / IGraphElement
 
 # Interface: IGraphElement
 
@@ -20,7 +20,7 @@ the posting date
 
 #### Defined in
 
-main.ts:33459
+main.ts:35012
 
 ***
 
@@ -32,7 +32,7 @@ type of element
 
 #### Defined in
 
-main.ts:33457
+main.ts:35010
 
 ***
 
@@ -44,4 +44,4 @@ the value of the rating
 
 #### Defined in
 
-main.ts:33461
+main.ts:35014

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleAppIntersectionLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleAppIntersectionLiveItem
 
 # Interface: IDataforseoLabsGoogleAppIntersectionLiveItem
 
@@ -26,19 +26,19 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Defined in
 
-main.ts:113559
+main.ts:122891
 
 ***
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:113555
+main.ts:122887
 
 ***
 
@@ -50,4 +50,4 @@ search engine type
 
 #### Defined in
 
-main.ts:113553
+main.ts:122885

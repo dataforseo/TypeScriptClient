@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageKeywordDensityRequestInfo
+[Documentation](../README.md) / IOnPageKeywordDensityRequestInfo
 
 # Interface: IOnPageKeywordDensityRequestInfo
 
@@ -35,7 +35,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:159562
+main.ts:171197
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:159529
+main.ts:171164
 
 ***
 
@@ -66,7 +66,7 @@ possible values:
 
 #### Defined in
 
-main.ts:159534
+main.ts:171169
 
 ***
 
@@ -81,7 +81,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:159545
+main.ts:171180
 
 ***
 
@@ -105,7 +105,7 @@ example:
 
 #### Defined in
 
-main.ts:159576
+main.ts:171211
 
 ***
 
@@ -121,7 +121,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159582
+main.ts:171217
 
 ***
 
@@ -137,4 +137,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:159540
+main.ts:171175

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleAppCompetitorsLiveItem
+[Documentation](../README.md) / IDataforseoLabsAppleAppCompetitorsLiveItem
 
 # Interface: IDataforseoLabsAppleAppCompetitorsLiveItem
 
@@ -20,7 +20,7 @@ id of the competitor app
 
 #### Defined in
 
-main.ts:115232
+main.ts:124404
 
 ***
 
@@ -34,7 +34,7 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:115236
+main.ts:124408
 
 ***
 
@@ -48,7 +48,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Defined in
 
-main.ts:115246
+main.ts:124418
 
 ***
 
@@ -61,7 +61,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 #### Defined in
 
-main.ts:115249
+main.ts:124421
 
 ***
 
@@ -73,7 +73,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:115242
+main.ts:124414
 
 ***
 
@@ -85,7 +85,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115230
+main.ts:124402
 
 ***
 
@@ -99,4 +99,4 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:115240
+main.ts:124412

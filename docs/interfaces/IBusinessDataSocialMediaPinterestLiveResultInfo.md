@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
+[Documentation](../README.md) / IBusinessDataSocialMediaPinterestLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaPinterestLiveResultInfo
 
@@ -21,7 +21,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:214764
+main.ts:229707
 
 ***
 
@@ -35,7 +35,7 @@ this field shows the number of content saves made from the related page_url usin
 
 #### Defined in
 
-main.ts:214768
+main.ts:229711
 
 ***
 
@@ -47,4 +47,4 @@ type of element
 
 #### Defined in
 
-main.ts:214761
+main.ts:229704

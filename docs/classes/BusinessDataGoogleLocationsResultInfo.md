@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleLocationsResultInfo
+[Documentation](../README.md) / BusinessDataGoogleLocationsResultInfo
 
 # Class: BusinessDataGoogleLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:200038
+main.ts:212388
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:200032
+main.ts:212382
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:200022
+main.ts:212372
 
 ***
 
@@ -78,7 +80,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:200024
+main.ts:212374
 
 ***
 
@@ -98,7 +100,7 @@ example:
 
 #### Defined in
 
-main.ts:200030
+main.ts:212380
 
 ***
 
@@ -114,7 +116,7 @@ location type
 
 #### Defined in
 
-main.ts:200034
+main.ts:212384
 
 ## Methods
 
@@ -124,7 +126,9 @@ main.ts:200034
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +136,7 @@ main.ts:200034
 
 #### Defined in
 
-main.ts:200047
+main.ts:212397
 
 ***
 
@@ -142,7 +146,9 @@ main.ts:200047
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +156,7 @@ main.ts:200047
 
 #### Defined in
 
-main.ts:200068
+main.ts:212418
 
 ***
 
@@ -160,7 +166,9 @@ main.ts:200068
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +176,4 @@ main.ts:200068
 
 #### Defined in
 
-main.ts:200061
+main.ts:212411

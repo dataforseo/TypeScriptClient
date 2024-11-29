@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
@@ -18,4 +18,4 @@
 
 #### Defined in
 
-main.ts:216356
+main.ts:231315

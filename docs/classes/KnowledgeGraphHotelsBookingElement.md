@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphHotelsBookingElement
+[Documentation](../README.md) / KnowledgeGraphHotelsBookingElement
 
 # Class: KnowledgeGraphHotelsBookingElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md)
+##### data?
+
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:29019
+main.ts:30578
 
 ## Properties
 
@@ -46,7 +48,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29006
+main.ts:30565
 
 ***
 
@@ -62,7 +64,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29010
+main.ts:30569
 
 ***
 
@@ -78,7 +80,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:29015
+main.ts:30574
 
 ***
 
@@ -95,7 +97,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:29013
+main.ts:30572
 
 ***
 
@@ -111,7 +113,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:29004
+main.ts:30563
 
 ***
 
@@ -127,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:29002
+main.ts:30561
 
 ***
 
@@ -143,7 +145,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:29008
+main.ts:30567
 
 ## Methods
 
@@ -153,7 +155,9 @@ main.ts:29008
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -161,7 +165,7 @@ main.ts:29008
 
 #### Defined in
 
-main.ts:29028
+main.ts:30587
 
 ***
 
@@ -171,7 +175,9 @@ main.ts:29028
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +185,7 @@ main.ts:29028
 
 #### Defined in
 
-main.ts:29051
+main.ts:30610
 
 ***
 
@@ -189,7 +195,9 @@ main.ts:29051
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -197,4 +205,4 @@ main.ts:29051
 
 #### Defined in
 
-main.ts:29044
+main.ts:30603

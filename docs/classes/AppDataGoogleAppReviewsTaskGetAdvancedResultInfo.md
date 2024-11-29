@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:191232
+main.ts:203568
 
 ## Properties
 
@@ -46,7 +48,7 @@ application id received in a POST array
 
 #### Defined in
 
-main.ts:191198
+main.ts:203534
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:191209
+main.ts:203545
 
 ***
 
@@ -82,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:191214
+main.ts:203550
 
 ***
 
@@ -99,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:191228
+main.ts:203564
 
 ***
 
@@ -116,7 +118,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:191225
+main.ts:203561
 
 ***
 
@@ -132,7 +134,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:191206
+main.ts:203542
 
 ***
 
@@ -148,7 +150,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:191204
+main.ts:203540
 
 ***
 
@@ -165,7 +167,7 @@ rating of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:191220
+main.ts:203556
 
 ***
 
@@ -181,7 +183,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:191222
+main.ts:203558
 
 ***
 
@@ -197,7 +199,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:191202
+main.ts:203538
 
 ***
 
@@ -214,7 +216,7 @@ title of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:191217
+main.ts:203553
 
 ***
 
@@ -230,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:191200
+main.ts:203536
 
 ## Methods
 
@@ -240,7 +242,9 @@ main.ts:191200
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -248,7 +252,7 @@ main.ts:191200
 
 #### Defined in
 
-main.ts:191241
+main.ts:203577
 
 ***
 
@@ -258,7 +262,9 @@ main.ts:191241
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +272,7 @@ main.ts:191241
 
 #### Defined in
 
-main.ts:191273
+main.ts:203609
 
 ***
 
@@ -276,7 +282,9 @@ main.ts:191273
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -284,4 +292,4 @@ main.ts:191273
 
 #### Defined in
 
-main.ts:191266
+main.ts:203602

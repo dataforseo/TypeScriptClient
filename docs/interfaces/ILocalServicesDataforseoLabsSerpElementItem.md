@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalServicesDataforseoLabsSerpElementItem
+[Documentation](../README.md) / ILocalServicesDataforseoLabsSerpElementItem
 
 # Interface: ILocalServicesDataforseoLabsSerpElementItem
 
@@ -20,11 +20,11 @@
 
 > `optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Defined in
 
-main.ts:99458
+main.ts:109194
 
 ***
 
@@ -36,7 +36,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:99460
+main.ts:109196
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -88,7 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -100,7 +100,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:99454
+main.ts:109190
 
 ***
 
@@ -116,7 +116,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -128,7 +128,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:99456
+main.ts:109192
 
 ***
 
@@ -144,4 +144,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

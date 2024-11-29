@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsSearchVolumeTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:117601
+main.ts:127073
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:117593
+main.ts:127065
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:117597
+main.ts:127069
 
 ***
 
@@ -78,7 +80,7 @@ type of the task
 
 #### Defined in
 
-main.ts:117591
+main.ts:127063
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:117587
+main.ts:127059
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:117589
+main.ts:127061
 
 ***
 
@@ -127,7 +129,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:117595
+main.ts:127067
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:117595
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:117595
 
 #### Defined in
 
-main.ts:117610
+main.ts:127082
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:117610
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:117610
 
 #### Defined in
 
-main.ts:117632
+main.ts:127104
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:117632
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:117632
 
 #### Defined in
 
-main.ts:117625
+main.ts:127097

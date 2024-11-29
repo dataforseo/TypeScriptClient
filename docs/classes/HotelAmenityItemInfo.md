@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelAmenityItemInfo
+[Documentation](../README.md) / HotelAmenityItemInfo
 
 # Class: HotelAmenityItemInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md)
+##### data?
+
+[`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:205585
+main.ts:218940
 
 ## Properties
 
@@ -46,7 +48,7 @@ standardised amenity name
 
 #### Defined in
 
-main.ts:205575
+main.ts:218930
 
 ***
 
@@ -62,7 +64,7 @@ displayed amenity name
 
 #### Defined in
 
-main.ts:205577
+main.ts:218932
 
 ***
 
@@ -78,7 +80,7 @@ standardised details about the amenity
 
 #### Defined in
 
-main.ts:205579
+main.ts:218934
 
 ***
 
@@ -94,7 +96,7 @@ displayed details about the amenity
 
 #### Defined in
 
-main.ts:205581
+main.ts:218936
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:205581
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:205581
 
 #### Defined in
 
-main.ts:205594
+main.ts:218949
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:205594
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:205594
 
 #### Defined in
 
-main.ts:205614
+main.ts:218969
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:205614
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:205614
 
 #### Defined in
 
-main.ts:205607
+main.ts:218962

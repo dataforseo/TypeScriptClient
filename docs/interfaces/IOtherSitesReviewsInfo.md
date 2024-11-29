@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOtherSitesReviewsInfo
+[Documentation](../README.md) / IOtherSitesReviewsInfo
 
 # Interface: IOtherSitesReviewsInfo
 
@@ -21,7 +21,7 @@ information about the rating enclosed in the review on a third-party site
 
 #### Defined in
 
-main.ts:206210
+main.ts:219565
 
 ***
 
@@ -34,7 +34,7 @@ text of the review
 
 #### Defined in
 
-main.ts:206207
+main.ts:219562
 
 ***
 
@@ -47,7 +47,7 @@ contains a name of the third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:206201
+main.ts:219556
 
 ***
 
@@ -60,4 +60,4 @@ URL to the a third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:206204
+main.ts:219559

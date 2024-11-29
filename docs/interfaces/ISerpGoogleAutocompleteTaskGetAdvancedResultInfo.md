@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleAutocompleteTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:52519
+main.ts:56232
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:52524
+main.ts:56237
 
 ***
 
@@ -51,19 +51,19 @@ autocomplete
 
 #### Defined in
 
-main.ts:52532
+main.ts:56247
 
 ***
 
 ### items?
 
-> `optional` **items**: [`SerpGoogleAutocompleteeAdvancedItem`](../classes/SerpGoogleAutocompleteeAdvancedItem.md)[]
+> `optional` **items**: [`SerpGoogleAutocompleteAdvancedItem`](../classes/SerpGoogleAutocompleteAdvancedItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:52538
+main.ts:56253
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:52536
+main.ts:56251
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:52508
+main.ts:56221
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:52516
+main.ts:56229
 
 ***
 
@@ -112,7 +112,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:52514
+main.ts:56227
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:56242
 
 ***
 
@@ -124,7 +136,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:52512
+main.ts:56225
 
 ***
 
@@ -136,7 +148,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:52534
+main.ts:56249
 
 ***
 
@@ -149,7 +161,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:52527
+main.ts:56240
 
 ***
 
@@ -161,4 +173,4 @@ type of element
 
 #### Defined in
 
-main.ts:52510
+main.ts:56223

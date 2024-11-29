@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:106130
+main.ts:115768
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBBulkTrafficEstimationLiveItem`](DataforseoLabsBBulkTrafficEstimationLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
 array of items with relevant traffic estimation data
 
@@ -46,7 +48,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:106126
+main.ts:115764
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:106124
+main.ts:115762
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:106120
+main.ts:115758
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:106117
+main.ts:115755
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:106114
+main.ts:115752
 
 ***
 
@@ -128,7 +130,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:106122
+main.ts:115760
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:106122
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:106122
 
 #### Defined in
 
-main.ts:106139
+main.ts:115777
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:106139
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:106139
 
 #### Defined in
 
-main.ts:106165
+main.ts:115803
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:106165
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:106165
 
 #### Defined in
 
-main.ts:106158
+main.ts:115796

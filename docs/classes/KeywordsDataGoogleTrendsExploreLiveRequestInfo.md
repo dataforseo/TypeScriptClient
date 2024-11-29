@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsExploreLiveRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:124426
+main.ts:134676
 
 ## Properties
 
@@ -49,7 +51,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-main.ts:124382
+main.ts:134632
 
 ***
 
@@ -72,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:124391
+main.ts:134641
 
 ***
 
@@ -93,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:124398
+main.ts:134648
 
 ***
 
@@ -115,7 +117,7 @@ default value:
 
 #### Defined in
 
-main.ts:124416
+main.ts:134666
 
 ***
 
@@ -127,7 +129,8 @@ keywords
 optional field
 if keywords are not specified, the results will not contain keyword-related data;
 The maximum number of keywords you can specify: 5
-Note: comma symbols (,) in the specified keywords will be unset and ignored
+Note: the comma characters (,) in the specified keywords will be unset and ignored
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -135,7 +138,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Defined in
 
-main.ts:124343
+main.ts:134593
 
 ***
 
@@ -157,7 +160,7 @@ en
 
 #### Defined in
 
-main.ts:124375
+main.ts:134625
 
 ***
 
@@ -179,7 +182,7 @@ English
 
 #### Defined in
 
-main.ts:124367
+main.ts:134617
 
 ***
 
@@ -201,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:124359
+main.ts:134609
 
 ***
 
@@ -223,7 +226,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:124351
+main.ts:134601
 
 ***
 
@@ -243,7 +246,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:124422
+main.ts:134672
 
 ***
 
@@ -267,7 +270,7 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-main.ts:124408
+main.ts:134658
 
 ***
 
@@ -283,7 +286,7 @@ type of element
 
 #### Defined in
 
-main.ts:124377
+main.ts:134627
 
 ## Methods
 
@@ -293,7 +296,9 @@ main.ts:124377
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -301,7 +306,7 @@ main.ts:124377
 
 #### Defined in
 
-main.ts:124435
+main.ts:134685
 
 ***
 
@@ -311,7 +316,9 @@ main.ts:124435
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -319,7 +326,7 @@ main.ts:124435
 
 #### Defined in
 
-main.ts:124471
+main.ts:134721
 
 ***
 
@@ -329,7 +336,9 @@ main.ts:124471
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -337,4 +346,4 @@ main.ts:124471
 
 #### Defined in
 
-main.ts:124464
+main.ts:134714

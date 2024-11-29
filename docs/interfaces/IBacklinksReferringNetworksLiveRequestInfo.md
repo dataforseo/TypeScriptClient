@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksReferringNetworksLiveRequestInfo
+[Documentation](../README.md) / IBacklinksReferringNetworksLiveRequestInfo
 
 # Interface: IBacklinksReferringNetworksLiveRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:145042
+main.ts:156247
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Defined in
 
-main.ts:145003
+main.ts:156208
 
 ***
 
@@ -60,7 +60,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145058
+main.ts:156263
 
 ***
 
@@ -87,7 +87,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:145020
+main.ts:156225
 
 ***
 
@@ -103,7 +103,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145053
+main.ts:156258
 
 ***
 
@@ -118,7 +118,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145047
+main.ts:156252
 
 ***
 
@@ -139,7 +139,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:144994
+main.ts:156199
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:144978
+main.ts:156183
 
 ***
 
@@ -169,7 +169,7 @@ default value: ip
 
 #### Defined in
 
-main.ts:144973
+main.ts:156178
 
 ***
 
@@ -184,7 +184,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:144983
+main.ts:156188
 
 ***
 
@@ -208,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:145034
+main.ts:156239
 
 ***
 
@@ -224,7 +224,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:145064
+main.ts:156269
 
 ***
 
@@ -239,4 +239,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:144968
+main.ts:156173

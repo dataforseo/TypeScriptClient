@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTaskGetHtmlResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:206706
+main.ts:220061
 
 ***
 
@@ -35,7 +35,7 @@ HTML pages
 
 #### Defined in
 
-main.ts:206710
+main.ts:220065
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:206708
+main.ts:220063
 
 ***
 
@@ -62,7 +62,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:206697
+main.ts:220052
 
 ***
 
@@ -74,7 +74,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:206701
+main.ts:220056
 
 ***
 
@@ -86,7 +86,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:206699
+main.ts:220054
 
 ***
 
@@ -96,7 +96,7 @@ main.ts:206699
 
 #### Defined in
 
-main.ts:206712
+main.ts:220067
 
 ***
 
@@ -106,4 +106,4 @@ main.ts:206712
 
 #### Defined in
 
-main.ts:206711
+main.ts:220066

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateTagsItem
+[Documentation](../README.md) / OnPageDuplicateTagsItem
 
 # Class: OnPageDuplicateTagsItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md)
+##### data?
+
+[`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:156889
+main.ts:168524
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains the value of duplicated tag
 
 #### Defined in
 
-main.ts:156881
+main.ts:168516
 
 ***
 
@@ -62,7 +64,7 @@ pages with duplicate tags
 
 #### Defined in
 
-main.ts:156885
+main.ts:168520
 
 ***
 
@@ -78,7 +80,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:156883
+main.ts:168518
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:156883
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:156883
 
 #### Defined in
 
-main.ts:156898
+main.ts:168533
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:156898
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:156898
 
 #### Defined in
 
-main.ts:156921
+main.ts:168556
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:156921
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:156921
 
 #### Defined in
 
-main.ts:156914
+main.ts:168549

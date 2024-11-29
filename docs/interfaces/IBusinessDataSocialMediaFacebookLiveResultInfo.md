@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataSocialMediaFacebookLiveResultInfo
+[Documentation](../README.md) / IBusinessDataSocialMediaFacebookLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaFacebookLiveResultInfo
 
@@ -21,7 +21,7 @@ this field shows the number of likes a page received through the Facebook Like B
 
 #### Defined in
 
-main.ts:215026
+main.ts:229969
 
 ***
 
@@ -34,7 +34,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:215023
+main.ts:229966
 
 ***
 
@@ -46,4 +46,4 @@ type of element
 
 #### Defined in
 
-main.ts:215020
+main.ts:229963

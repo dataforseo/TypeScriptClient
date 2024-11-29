@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
 
 # Class: BusinessDataTripadvisorSearchTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:213301
+main.ts:228240
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:213281
+main.ts:228220
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:213286
+main.ts:228225
 
 ***
 
@@ -83,7 +85,7 @@ possible item types: tripadvisor_search_organic
 
 #### Defined in
 
-main.ts:213289
+main.ts:228228
 
 ***
 
@@ -100,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:213297
+main.ts:228236
 
 ***
 
@@ -117,7 +119,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:213294
+main.ts:228233
 
 ***
 
@@ -134,7 +136,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-main.ts:213272
+main.ts:228211
 
 ***
 
@@ -150,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:213278
+main.ts:228217
 
 ***
 
@@ -166,7 +168,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:213276
+main.ts:228215
 
 ***
 
@@ -182,7 +184,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:213274
+main.ts:228213
 
 ***
 
@@ -198,7 +200,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:213291
+main.ts:228230
 
 ## Methods
 
@@ -208,7 +210,9 @@ main.ts:213291
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +220,7 @@ main.ts:213291
 
 #### Defined in
 
-main.ts:213310
+main.ts:228249
 
 ***
 
@@ -226,7 +230,9 @@ main.ts:213310
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +240,7 @@ main.ts:213310
 
 #### Defined in
 
-main.ts:213344
+main.ts:228283
 
 ***
 
@@ -244,7 +250,9 @@ main.ts:213344
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -252,4 +260,4 @@ main.ts:213344
 
 #### Defined in
 
-main.ts:213337
+main.ts:228276

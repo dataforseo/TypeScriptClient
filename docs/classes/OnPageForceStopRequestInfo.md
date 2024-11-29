@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageForceStopRequestInfo
+[Documentation](../README.md) / OnPageForceStopRequestInfo
 
 # Class: OnPageForceStopRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md)
+##### data?
+
+[`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:152422
+main.ts:163627
 
 ## Properties
 
@@ -51,7 +53,7 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Defined in
 
-main.ts:152418
+main.ts:163623
 
 ## Methods
 
@@ -61,7 +63,9 @@ main.ts:152418
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -69,7 +73,7 @@ main.ts:152418
 
 #### Defined in
 
-main.ts:152431
+main.ts:163636
 
 ***
 
@@ -79,7 +83,9 @@ main.ts:152431
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -87,7 +93,7 @@ main.ts:152431
 
 #### Defined in
 
-main.ts:152448
+main.ts:163653
 
 ***
 
@@ -97,7 +103,9 @@ main.ts:152448
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -105,4 +113,4 @@ main.ts:152448
 
 #### Defined in
 
-main.ts:152441
+main.ts:163646

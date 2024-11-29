@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
 
 # Class: KeywordsDataGoogleTrendsLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:122671
+main.ts:132914
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:122667
+main.ts:132910
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:122665
+main.ts:132908
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:122665
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:122665
 
 #### Defined in
 
-main.ts:122680
+main.ts:132923
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:122680
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:122680
 
 #### Defined in
 
-main.ts:122698
+main.ts:132941
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:122698
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:122698
 
 #### Defined in
 
-main.ts:122691
+main.ts:132934

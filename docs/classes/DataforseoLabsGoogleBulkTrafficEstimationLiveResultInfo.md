@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:101168
+main.ts:110906
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBBulkTrafficEstimationLiveItem`](DataforseoLabsBBulkTrafficEstimationLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
 
 array of items with relevant traffic estimation data
 
@@ -46,7 +48,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:101164
+main.ts:110902
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:101162
+main.ts:110900
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:101158
+main.ts:110896
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:101155
+main.ts:110893
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101152
+main.ts:110890
 
 ***
 
@@ -128,7 +130,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:101160
+main.ts:110898
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:101160
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:101160
 
 #### Defined in
 
-main.ts:101177
+main.ts:110915
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:101177
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:101177
 
 #### Defined in
 
-main.ts:101203
+main.ts:110941
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:101203
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:101203
 
 #### Defined in
 
-main.ts:101196
+main.ts:110934

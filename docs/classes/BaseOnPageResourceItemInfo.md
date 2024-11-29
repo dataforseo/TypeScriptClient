@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseOnPageResourceItemInfo
+[Documentation](../README.md) / BaseOnPageResourceItemInfo
 
 # Class: BaseOnPageResourceItemInfo
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseOnPageResourceItemInfo`](../interfaces/IBaseOnPageResourceItemInfo.md)
+##### data?
+
+[`IBaseOnPageResourceItemInfo`](../interfaces/IBaseOnPageResourceItemInfo.md)
 
 #### Returns
 
@@ -34,7 +36,7 @@
 
 #### Defined in
 
-main.ts:21443
+main.ts:22341
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:21443
 
 #### Defined in
 
-main.ts:21441
+main.ts:22339
 
 ***
 
@@ -60,7 +62,7 @@ instructions for caching
 
 #### Defined in
 
-main.ts:21427
+main.ts:22325
 
 ***
 
@@ -81,7 +83,7 @@ on-page check-ups related to the page
 
 #### Defined in
 
-main.ts:21430
+main.ts:22328
 
 ***
 
@@ -97,7 +99,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:21432
+main.ts:22330
 
 ***
 
@@ -114,7 +116,7 @@ indicates the size of the encoded page measured in bytes
 
 #### Defined in
 
-main.ts:21417
+main.ts:22315
 
 ***
 
@@ -133,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:21425
+main.ts:22323
 
 ***
 
@@ -150,7 +152,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:21439
+main.ts:22337
 
 ***
 
@@ -167,7 +169,7 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-main.ts:21407
+main.ts:22305
 
 ***
 
@@ -183,7 +185,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:21434
+main.ts:22332
 
 ***
 
@@ -199,7 +201,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:21411
+main.ts:22309
 
 ***
 
@@ -215,7 +217,7 @@ type of the returned resource
 
 #### Defined in
 
-main.ts:21402
+main.ts:22300
 
 ***
 
@@ -231,7 +233,7 @@ server version
 
 #### Defined in
 
-main.ts:21436
+main.ts:22334
 
 ***
 
@@ -248,7 +250,7 @@ indicates the size of a given page measured in bytes
 
 #### Defined in
 
-main.ts:21414
+main.ts:22312
 
 ***
 
@@ -264,7 +266,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:21404
+main.ts:22302
 
 ***
 
@@ -281,7 +283,7 @@ indicates the compressed size of a given page
 
 #### Defined in
 
-main.ts:21420
+main.ts:22318
 
 ***
 
@@ -297,7 +299,7 @@ page URL
 
 #### Defined in
 
-main.ts:21409
+main.ts:22307
 
 ## Methods
 
@@ -307,7 +309,9 @@ main.ts:21409
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -315,7 +319,7 @@ main.ts:21409
 
 #### Defined in
 
-main.ts:21453
+main.ts:22351
 
 ***
 
@@ -325,7 +329,9 @@ main.ts:21453
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -333,7 +339,7 @@ main.ts:21453
 
 #### Defined in
 
-main.ts:21511
+main.ts:22409
 
 ***
 
@@ -343,7 +349,9 @@ main.ts:21511
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -351,4 +359,4 @@ main.ts:21511
 
 #### Defined in
 
-main.ts:21479
+main.ts:22377

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHistoricalMetricsBundleInfo
+[Documentation](../README.md) / IHistoricalMetricsBundleInfo
 
 # Interface: IHistoricalMetricsBundleInfo
 
@@ -20,7 +20,7 @@ traffic data from the local pack results in SERP
 
 #### Defined in
 
-main.ts:101755
+main.ts:111493
 
 ***
 
@@ -32,7 +32,7 @@ traffic data from the featured snippet results in Google SERP
 
 #### Defined in
 
-main.ts:101753
+main.ts:111491
 
 ***
 
@@ -44,7 +44,7 @@ traffic data from organic search
 
 #### Defined in
 
-main.ts:101749
+main.ts:111487
 
 ***
 
@@ -56,4 +56,4 @@ traffic data from paid search
 
 #### Defined in
 
-main.ts:101751
+main.ts:111489

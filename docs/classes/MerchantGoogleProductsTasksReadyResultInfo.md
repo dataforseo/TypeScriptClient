@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleProductsTasksReadyResultInfo
+[Documentation](../README.md) / MerchantGoogleProductsTasksReadyResultInfo
 
 # Class: MerchantGoogleProductsTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md)
+##### data?
+
+[`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:173947
+main.ts:185684
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:173937
+main.ts:185674
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of Google Shopping Products Advanced task
 
 #### Defined in
 
-main.ts:173941
+main.ts:185678
 
 ***
 
@@ -78,7 +80,7 @@ URL for collecting the results of Google Shopping Products HTML task
 
 #### Defined in
 
-main.ts:173943
+main.ts:185680
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:173930
+main.ts:185667
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:173932
+main.ts:185669
 
 ***
 
@@ -128,7 +130,7 @@ example: products
 
 #### Defined in
 
-main.ts:173935
+main.ts:185672
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:173939
+main.ts:185676
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:173939
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:173939
 
 #### Defined in
 
-main.ts:173956
+main.ts:185693
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:173956
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:173956
 
 #### Defined in
 
-main.ts:173979
+main.ts:185716
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:173979
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:173979
 
 #### Defined in
 
-main.ts:173972
+main.ts:185709

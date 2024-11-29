@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseYoutubeSerpElementItem
+[Documentation](../README.md) / IBaseYoutubeSerpElementItem
 
 # Interface: IBaseYoutubeSerpElementItem
 
@@ -23,7 +23,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62349
+main.ts:70531
 
 ***
 
@@ -37,7 +37,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62346
+main.ts:70528
 
 ***
 
@@ -49,4 +49,4 @@ type of element
 
 #### Defined in
 
-main.ts:62342
+main.ts:70524

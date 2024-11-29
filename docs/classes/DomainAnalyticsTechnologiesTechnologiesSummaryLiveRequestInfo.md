@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:76866
+main.ts:86573
 
 ## Properties
 
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:76813
+main.ts:86519
 
 ***
 
@@ -79,7 +81,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:76848
+main.ts:86555
 
 ***
 
@@ -100,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:76806
+main.ts:86512
 
 ***
 
@@ -122,7 +124,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76856
+main.ts:86563
 
 ***
 
@@ -136,6 +138,7 @@ you can specify the maximum of 10 keywords;
 UTF-8 encoding;
 example:
 ["seo","software"]
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -143,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:76827
+main.ts:86534
 
 ***
 
@@ -164,7 +167,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:76834
+main.ts:86541
 
 ***
 
@@ -184,7 +187,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:76862
+main.ts:86569
 
 ***
 
@@ -205,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:76820
+main.ts:86526
 
 ***
 
@@ -228,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:76799
+main.ts:86505
 
 ## Methods
 
@@ -238,7 +241,9 @@ main.ts:76799
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -246,7 +251,7 @@ main.ts:76799
 
 #### Defined in
 
-main.ts:76875
+main.ts:86582
 
 ***
 
@@ -256,7 +261,9 @@ main.ts:76875
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -264,7 +271,7 @@ main.ts:76875
 
 #### Defined in
 
-main.ts:76924
+main.ts:86631
 
 ***
 
@@ -274,7 +281,9 @@ main.ts:76924
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -282,4 +291,4 @@ main.ts:76924
 
 #### Defined in
 
-main.ts:76917
+main.ts:86624

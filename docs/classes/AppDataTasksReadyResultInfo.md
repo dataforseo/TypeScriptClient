@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataTasksReadyResultInfo
+[Documentation](../README.md) / AppDataTasksReadyResultInfo
 
 # Class: AppDataTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:187440
+main.ts:199776
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:187429
+main.ts:199765
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Apple App Reviews task
 
 #### Defined in
 
-main.ts:187433
+main.ts:199769
 
 ***
 
@@ -79,7 +81,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:187436
+main.ts:199772
 
 ***
 
@@ -96,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:187423
+main.ts:199759
 
 ***
 
@@ -112,7 +114,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:187425
+main.ts:199761
 
 ***
 
@@ -128,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:187427
+main.ts:199763
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:187431
+main.ts:199767
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:187431
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:187431
 
 #### Defined in
 
-main.ts:187449
+main.ts:199785
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:187449
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:187449
 
 #### Defined in
 
-main.ts:187472
+main.ts:199808
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:187472
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:187472
 
 #### Defined in
 
-main.ts:187465
+main.ts:199801

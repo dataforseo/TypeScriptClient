@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationCheckGrammarLiveResultInfo
+[Documentation](../README.md) / IContentGenerationCheckGrammarLiveResultInfo
 
 # Interface: IContentGenerationCheckGrammarLiveResultInfo
 
@@ -20,7 +20,7 @@ initial text in the POST request
 
 #### Defined in
 
-main.ts:171370
+main.ts:182959
 
 ***
 
@@ -32,7 +32,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:171364
+main.ts:182953
 
 ***
 
@@ -44,7 +44,7 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-main.ts:171376
+main.ts:182965
 
 ***
 
@@ -56,7 +56,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:171374
+main.ts:182963
 
 ***
 
@@ -68,7 +68,7 @@ language code in the POST request
 
 #### Defined in
 
-main.ts:171372
+main.ts:182961
 
 ***
 
@@ -80,7 +80,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:171368
+main.ts:182957
 
 ***
 
@@ -92,4 +92,4 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:171366
+main.ts:182955

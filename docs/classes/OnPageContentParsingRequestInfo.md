@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageContentParsingRequestInfo
+[Documentation](../README.md) / OnPageContentParsingRequestInfo
 
 # Class: OnPageContentParsingRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md)
+##### data?
+
+[`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161184
+main.ts:172797
 
 ## Properties
 
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:161180
+main.ts:172793
 
 ***
 
@@ -71,7 +73,7 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 #### Defined in
 
-main.ts:161173
+main.ts:172786
 
 ## Methods
 
@@ -81,7 +83,9 @@ main.ts:161173
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -89,7 +93,7 @@ main.ts:161173
 
 #### Defined in
 
-main.ts:161193
+main.ts:172806
 
 ***
 
@@ -99,7 +103,9 @@ main.ts:161193
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -107,7 +113,7 @@ main.ts:161193
 
 #### Defined in
 
-main.ts:161211
+main.ts:172824
 
 ***
 
@@ -117,7 +123,9 @@ main.ts:161211
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -125,4 +133,4 @@ main.ts:161211
 
 #### Defined in
 
-main.ts:161204
+main.ts:172817

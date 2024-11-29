@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForAppLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForAppLiveItem
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveItem.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:112332
+main.ts:121664
 
 ## Properties
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -46,7 +48,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:112326
+main.ts:121658
 
 ***
 
@@ -62,7 +64,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:112328
+main.ts:121660
 
 ***
 
@@ -78,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:112324
+main.ts:121656
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:112324
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:112324
 
 #### Defined in
 
-main.ts:112341
+main.ts:121673
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:112341
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:112341
 
 #### Defined in
 
-main.ts:112360
+main.ts:121692
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:112360
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:112360
 
 #### Defined in
 
-main.ts:112353
+main.ts:121685

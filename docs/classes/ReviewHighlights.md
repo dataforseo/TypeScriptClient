@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ReviewHighlights
+[Documentation](../README.md) / ReviewHighlights
 
 # Class: ReviewHighlights
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IReviewHighlights`](../interfaces/IReviewHighlights.md)
+##### data?
+
+[`IReviewHighlights`](../interfaces/IReviewHighlights.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:208466
+main.ts:222010
 
 ## Properties
 
@@ -46,7 +48,7 @@ feature assessment
 
 #### Defined in
 
-main.ts:208462
+main.ts:222006
 
 ***
 
@@ -62,7 +64,7 @@ reviewed feature
 
 #### Defined in
 
-main.ts:208460
+main.ts:222004
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:208460
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:208460
 
 #### Defined in
 
-main.ts:208475
+main.ts:222019
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:208475
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:208475
 
 #### Defined in
 
-main.ts:208493
+main.ts:222037
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:208493
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:208493
 
 #### Defined in
 
-main.ts:208486
+main.ts:222030

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:216318
+main.ts:231277
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:216318
 
 #### Defined in
 
-main.ts:216314
+main.ts:231273
 
 ## Methods
 
@@ -54,7 +56,9 @@ main.ts:216314
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -62,7 +66,7 @@ main.ts:216314
 
 #### Defined in
 
-main.ts:216327
+main.ts:231286
 
 ***
 
@@ -72,7 +76,9 @@ main.ts:216327
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +86,7 @@ main.ts:216327
 
 #### Defined in
 
-main.ts:216344
+main.ts:231303
 
 ***
 
@@ -90,7 +96,9 @@ main.ts:216344
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -98,4 +106,4 @@ main.ts:216344
 
 #### Defined in
 
-main.ts:216337
+main.ts:231296

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoTrendsDemographyElementItem
+[Documentation](../README.md) / IDataforseoTrendsDemographyElementItem
 
 # Interface: IDataforseoTrendsDemographyElementItem
 
@@ -25,7 +25,7 @@ conains keyword popularity data by age and gender
 
 #### Defined in
 
-main.ts:127621
+main.ts:137880
 
 ***
 
@@ -35,7 +35,7 @@ main.ts:127621
 
 #### Defined in
 
-main.ts:127622
+main.ts:137881
 
 ***
 
@@ -52,7 +52,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21967
+main.ts:22865
 
 ***
 
@@ -69,7 +69,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21964
+main.ts:22862
 
 ***
 
@@ -85,4 +85,4 @@ type of element
 
 #### Defined in
 
-main.ts:21961
+main.ts:22859

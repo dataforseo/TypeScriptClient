@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMathSolverDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IMathSolverDataforseoLabsSerpElementItem
 
 # Interface: IMathSolverDataforseoLabsSerpElementItem
 
@@ -24,7 +24,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:97136
+main.ts:106998
 
 ***
 
@@ -38,7 +38,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97140
+main.ts:107002
 
 ***
 
@@ -56,7 +56,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -73,7 +73,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -103,7 +103,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:97134
+main.ts:106996
 
 ***
 
@@ -115,7 +115,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97131
+main.ts:106993
 
 ***
 
@@ -131,7 +131,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -147,4 +147,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
+[Documentation](../README.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveItem
 
@@ -14,13 +14,13 @@
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:103693
+main.ts:113331
 
 ***
 
@@ -32,7 +32,7 @@ contains data on the products’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:103695
+main.ts:113333
 
 ***
 
@@ -44,4 +44,4 @@ search engine type
 
 #### Defined in
 
-main.ts:103691
+main.ts:113329

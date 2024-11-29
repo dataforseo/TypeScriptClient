@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleFlightsElement
+[Documentation](../README.md) / IGoogleFlightsElement
 
 # Interface: IGoogleFlightsElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:32039
+main.ts:33592
 
 ***
 
@@ -32,7 +32,7 @@ type of element
 
 #### Defined in
 
-main.ts:32037
+main.ts:33590
 
 ***
 
@@ -44,4 +44,4 @@ URL
 
 #### Defined in
 
-main.ts:32041
+main.ts:33594

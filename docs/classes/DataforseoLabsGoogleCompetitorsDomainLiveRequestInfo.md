@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:92837
+main.ts:102555
 
 ## Properties
 
@@ -66,7 +68,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:92821
+main.ts:102539
 
 ***
 
@@ -94,7 +96,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:92767
+main.ts:102485
 
 ***
 
@@ -115,7 +117,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:92753
+main.ts:102471
 
 ***
 
@@ -135,7 +137,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:92827
+main.ts:102545
 
 ***
 
@@ -158,7 +160,7 @@ default value:
 
 #### Defined in
 
-main.ts:92746
+main.ts:102464
 
 ***
 
@@ -180,7 +182,7 @@ en
 
 #### Defined in
 
-main.ts:92737
+main.ts:102455
 
 ***
 
@@ -202,7 +204,7 @@ English
 
 #### Defined in
 
-main.ts:92729
+main.ts:102447
 
 ***
 
@@ -221,7 +223,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:92789
+main.ts:102507
 
 ***
 
@@ -243,7 +245,7 @@ example:
 
 #### Defined in
 
-main.ts:92721
+main.ts:102439
 
 ***
 
@@ -265,7 +267,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:92713
+main.ts:102431
 
 ***
 
@@ -284,7 +286,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Defined in
 
-main.ts:92799
+main.ts:102517
 
 ***
 
@@ -303,7 +305,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:92794
+main.ts:102512
 
 ***
 
@@ -334,7 +336,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:92784
+main.ts:102502
 
 ***
 
@@ -354,7 +356,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:92833
+main.ts:102551
 
 ***
 
@@ -373,7 +375,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:92705
+main.ts:102423
 
 ## Methods
 
@@ -383,7 +385,9 @@ main.ts:92705
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -391,7 +395,7 @@ main.ts:92705
 
 #### Defined in
 
-main.ts:92846
+main.ts:102564
 
 ***
 
@@ -401,7 +405,9 @@ main.ts:92846
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -409,7 +415,7 @@ main.ts:92846
 
 #### Defined in
 
-main.ts:92893
+main.ts:102611
 
 ***
 
@@ -419,7 +425,9 @@ main.ts:92893
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -427,4 +435,4 @@ main.ts:92893
 
 #### Defined in
 
-main.ts:92886
+main.ts:102604

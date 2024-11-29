@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBacklinksLiveResultInfo
+[Documentation](../README.md) / IBacklinksBacklinksLiveResultInfo
 
 # Interface: IBacklinksBacklinksLiveResultInfo
 
@@ -24,7 +24,7 @@ custom mode specified in a POST array
 
 #### Defined in
 
-main.ts:141144
+main.ts:152349
 
 ***
 
@@ -36,7 +36,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:141150
+main.ts:152355
 
 ***
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:141148
+main.ts:152353
 
 ***
 
@@ -60,7 +60,7 @@ mode specified in a POST array
 
 #### Defined in
 
-main.ts:141142
+main.ts:152347
 
 ***
 
@@ -74,7 +74,7 @@ search_after_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:141154
+main.ts:152359
 
 ***
 
@@ -86,7 +86,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:141140
+main.ts:152345
 
 ***
 
@@ -98,4 +98,4 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:141146
+main.ts:152351

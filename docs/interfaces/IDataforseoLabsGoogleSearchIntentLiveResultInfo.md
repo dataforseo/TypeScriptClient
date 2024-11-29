@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleSearchIntentLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveResultInfo
 
@@ -20,7 +20,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:86979
+main.ts:96697
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:86977
+main.ts:96695
 
 ***
 
@@ -45,4 +45,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:86975
+main.ts:96693

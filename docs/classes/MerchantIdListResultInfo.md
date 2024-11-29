@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantIdListResultInfo
+[Documentation](../README.md) / MerchantIdListResultInfo
 
 # Class: MerchantIdListResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md)
+##### data?
+
+[`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:172501
+main.ts:184090
 
 ## Properties
 
@@ -46,7 +48,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:172495
+main.ts:184084
 
 ***
 
@@ -65,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:172490
+main.ts:184079
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:172485
+main.ts:184074
 
 ***
 
@@ -100,7 +102,7 @@ id of the task
 
 #### Defined in
 
-main.ts:172477
+main.ts:184066
 
 ***
 
@@ -120,7 +122,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:172497
+main.ts:184086
 
 ***
 
@@ -137,7 +139,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:172493
+main.ts:184082
 
 ***
 
@@ -154,7 +156,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:172480
+main.ts:184069
 
 ## Methods
 
@@ -164,7 +166,9 @@ main.ts:172480
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -172,7 +176,7 @@ main.ts:172480
 
 #### Defined in
 
-main.ts:172510
+main.ts:184099
 
 ***
 
@@ -182,7 +186,9 @@ main.ts:172510
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -190,7 +196,7 @@ main.ts:172510
 
 #### Defined in
 
-main.ts:172539
+main.ts:184128
 
 ***
 
@@ -200,7 +206,9 @@ main.ts:172539
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -208,4 +216,4 @@ main.ts:172539
 
 #### Defined in
 
-main.ts:172532
+main.ts:184121

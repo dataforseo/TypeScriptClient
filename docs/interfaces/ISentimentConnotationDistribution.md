@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISentimentConnotationDistribution
+[Documentation](../README.md) / ISentimentConnotationDistribution
 
 # Interface: ISentimentConnotationDistribution
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:167661
+main.ts:179250
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:167661
 
 #### Defined in
 
-main.ts:167666
+main.ts:179255
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:167666
 
 #### Defined in
 
-main.ts:167662
+main.ts:179251
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:167662
 
 #### Defined in
 
-main.ts:167663
+main.ts:179252
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:167663
 
 #### Defined in
 
-main.ts:167664
+main.ts:179253
 
 ***
 
@@ -68,4 +68,4 @@ main.ts:167664
 
 #### Defined in
 
-main.ts:167665
+main.ts:179254

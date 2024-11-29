@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRedirectChainsResultInfo
+[Documentation](../README.md) / OnPageRedirectChainsResultInfo
 
 # Class: OnPageRedirectChainsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md)
+##### data?
+
+[`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:158430
+main.ts:170065
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:158418
+main.ts:170053
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:158420
+main.ts:170055
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:158426
+main.ts:170061
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:158424
+main.ts:170059
 
 ***
 
@@ -111,7 +113,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:158422
+main.ts:170057
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:158422
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:158422
 
 #### Defined in
 
-main.ts:158439
+main.ts:170074
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:158439
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:158439
 
 #### Defined in
 
-main.ts:158464
+main.ts:170099
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:158464
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:158464
 
 #### Defined in
 
-main.ts:158457
+main.ts:170092

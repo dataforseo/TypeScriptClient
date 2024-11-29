@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ConceptInfo
+[Documentation](../README.md) / ConceptInfo
 
 # Class: ConceptInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IConceptInfo`](../interfaces/IConceptInfo.md)
+##### data?
+
+[`IConceptInfo`](../interfaces/IConceptInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:118976
+main.ts:128708
 
 ## Properties
 
@@ -46,7 +48,7 @@ the concept group of the concept details
 
 #### Defined in
 
-main.ts:118972
+main.ts:128704
 
 ***
 
@@ -62,7 +64,7 @@ the concept name for the keyword in the concept_group
 
 #### Defined in
 
-main.ts:118970
+main.ts:128702
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:118970
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:118970
 
 #### Defined in
 
-main.ts:118985
+main.ts:128717
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:118985
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:118985
 
 #### Defined in
 
-main.ts:119003
+main.ts:128735
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:119003
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:119003
 
 #### Defined in
 
-main.ts:118996
+main.ts:128728

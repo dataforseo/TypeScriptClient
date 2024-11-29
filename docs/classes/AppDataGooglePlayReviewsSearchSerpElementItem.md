@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGooglePlayReviewsSearchSerpElementItem
+[Documentation](../README.md) / AppDataGooglePlayReviewsSearchSerpElementItem
 
 # Class: AppDataGooglePlayReviewsSearchSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md)
+##### data?
+
+[`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:191117
+main.ts:203453
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:191117
 
 #### Defined in
 
-main.ts:21988
+main.ts:22886
 
 ***
 
@@ -69,7 +71,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Defined in
 
-main.ts:191107
+main.ts:203443
 
 ***
 
@@ -85,7 +87,7 @@ id of the review
 
 #### Defined in
 
-main.ts:191104
+main.ts:203440
 
 ***
 
@@ -107,7 +109,7 @@ left, right
 
 #### Defined in
 
-main.ts:21982
+main.ts:22880
 
 ***
 
@@ -128,7 +130,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21978
+main.ts:22876
 
 ***
 
@@ -149,7 +151,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21975
+main.ts:22873
 
 ***
 
@@ -169,7 +171,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21986
+main.ts:22884
 
 ***
 
@@ -185,7 +187,7 @@ response from the developer
 
 #### Defined in
 
-main.ts:191113
+main.ts:203449
 
 ***
 
@@ -201,7 +203,7 @@ content of the review
 
 #### Defined in
 
-main.ts:191109
+main.ts:203445
 
 ***
 
@@ -220,7 +222,7 @@ example:
 
 #### Defined in
 
-main.ts:191102
+main.ts:203438
 
 ***
 
@@ -240,7 +242,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21984
+main.ts:22882
 
 ***
 
@@ -260,7 +262,7 @@ type of element
 
 #### Defined in
 
-main.ts:21972
+main.ts:22870
 
 ***
 
@@ -276,7 +278,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:191111
+main.ts:203447
 
 ***
 
@@ -293,7 +295,7 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:191097
+main.ts:203433
 
 ## Methods
 
@@ -303,7 +305,9 @@ main.ts:191097
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -315,7 +319,7 @@ main.ts:191097
 
 #### Defined in
 
-main.ts:191122
+main.ts:203458
 
 ***
 
@@ -325,7 +329,9 @@ main.ts:191122
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -337,7 +343,7 @@ main.ts:191122
 
 #### Defined in
 
-main.ts:191150
+main.ts:203486
 
 ***
 
@@ -347,7 +353,9 @@ main.ts:191150
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -359,4 +367,4 @@ main.ts:191150
 
 #### Defined in
 
-main.ts:191143
+main.ts:203479

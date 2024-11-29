@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageSummaryResultInfo
+[Documentation](../README.md) / OnPageSummaryResultInfo
 
 # Class: OnPageSummaryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md)
+##### data?
+
+[`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:153982
+main.ts:165609
 
 ## Properties
 
@@ -48,7 +50,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:153964
+main.ts:165591
 
 ***
 
@@ -65,7 +67,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:153958
+main.ts:165585
 
 ***
 
@@ -81,7 +83,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:153960
+main.ts:165587
 
 ***
 
@@ -103,7 +105,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Defined in
 
-main.ts:153972
+main.ts:165599
 
 ***
 
@@ -120,7 +122,7 @@ on-page information about the target domain and crawling process
 
 #### Defined in
 
-main.ts:153975
+main.ts:165602
 
 ***
 
@@ -137,7 +139,7 @@ metrics information on the target website pages
 
 #### Defined in
 
-main.ts:153978
+main.ts:165605
 
 ## Methods
 
@@ -147,7 +149,9 @@ main.ts:153978
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -155,7 +159,7 @@ main.ts:153978
 
 #### Defined in
 
-main.ts:153991
+main.ts:165618
 
 ***
 
@@ -165,7 +169,9 @@ main.ts:153991
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -173,7 +179,7 @@ main.ts:153991
 
 #### Defined in
 
-main.ts:154013
+main.ts:165640
 
 ***
 
@@ -183,7 +189,9 @@ main.ts:154013
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -191,4 +199,4 @@ main.ts:154013
 
 #### Defined in
 
-main.ts:154006
+main.ts:165633

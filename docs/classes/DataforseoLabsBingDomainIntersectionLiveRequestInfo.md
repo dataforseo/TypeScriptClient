@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingDomainIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingDomainIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsBingDomainIntersectionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:106996
+main.ts:116634
 
 ## Properties
 
@@ -61,7 +63,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:106970
+main.ts:116608
 
 ***
 
@@ -80,7 +82,7 @@ default value: false
 
 #### Defined in
 
-main.ts:106943
+main.ts:116581
 
 ***
 
@@ -102,7 +104,7 @@ default value: true
 
 #### Defined in
 
-main.ts:106930
+main.ts:116568
 
 ***
 
@@ -124,7 +126,7 @@ default value:
 
 #### Defined in
 
-main.ts:106938
+main.ts:116576
 
 ***
 
@@ -146,7 +148,7 @@ en
 
 #### Defined in
 
-main.ts:106922
+main.ts:116560
 
 ***
 
@@ -168,7 +170,7 @@ English
 
 #### Defined in
 
-main.ts:106914
+main.ts:116552
 
 ***
 
@@ -187,7 +189,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:106948
+main.ts:116586
 
 ***
 
@@ -210,7 +212,7 @@ example:
 
 #### Defined in
 
-main.ts:106906
+main.ts:116544
 
 ***
 
@@ -233,7 +235,7 @@ United States
 
 #### Defined in
 
-main.ts:106897
+main.ts:116535
 
 ***
 
@@ -252,7 +254,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:106953
+main.ts:116591
 
 ***
 
@@ -282,7 +284,7 @@ example:
 
 #### Defined in
 
-main.ts:106986
+main.ts:116624
 
 ***
 
@@ -302,7 +304,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106992
+main.ts:116630
 
 ***
 
@@ -321,7 +323,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:106883
+main.ts:116521
 
 ***
 
@@ -340,7 +342,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:106888
+main.ts:116526
 
 ## Methods
 
@@ -350,7 +352,9 @@ main.ts:106888
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -358,7 +362,7 @@ main.ts:106888
 
 #### Defined in
 
-main.ts:107005
+main.ts:116643
 
 ***
 
@@ -368,7 +372,9 @@ main.ts:107005
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -376,7 +382,7 @@ main.ts:107005
 
 #### Defined in
 
-main.ts:107047
+main.ts:116685
 
 ***
 
@@ -386,7 +392,9 @@ main.ts:107047
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -394,4 +402,4 @@ main.ts:107047
 
 #### Defined in
 
-main.ts:107040
+main.ts:116678

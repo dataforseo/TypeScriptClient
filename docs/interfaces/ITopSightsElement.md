@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopSightsElement
+[Documentation](../README.md) / ITopSightsElement
 
 # Interface: ITopSightsElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:32858
+main.ts:34411
 
 ***
 
@@ -33,7 +33,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32861
+main.ts:34414
 
 ***
 
@@ -45,7 +45,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32854
+main.ts:34407
 
 ***
 
@@ -57,7 +57,7 @@ type of element
 
 #### Defined in
 
-main.ts:32852
+main.ts:34405
 
 ***
 
@@ -69,4 +69,4 @@ URL
 
 #### Defined in
 
-main.ts:32856
+main.ts:34409

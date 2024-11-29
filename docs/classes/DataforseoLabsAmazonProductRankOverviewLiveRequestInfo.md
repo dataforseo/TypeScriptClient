@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:103957
+main.ts:113595
 
 ## Properties
 
@@ -53,7 +55,7 @@ B01LW2SL7R
 
 #### Defined in
 
-main.ts:103917
+main.ts:113555
 
 ***
 
@@ -74,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:103947
+main.ts:113585
 
 ***
 
@@ -95,7 +97,7 @@ English
 
 #### Defined in
 
-main.ts:103940
+main.ts:113578
 
 ***
 
@@ -117,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:103933
+main.ts:113571
 
 ***
 
@@ -139,7 +141,7 @@ United States
 
 #### Defined in
 
-main.ts:103925
+main.ts:113563
 
 ***
 
@@ -159,7 +161,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:103953
+main.ts:113591
 
 ## Methods
 
@@ -169,7 +171,9 @@ main.ts:103953
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -177,7 +181,7 @@ main.ts:103953
 
 #### Defined in
 
-main.ts:103966
+main.ts:113604
 
 ***
 
@@ -187,7 +191,9 @@ main.ts:103966
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +201,7 @@ main.ts:103966
 
 #### Defined in
 
-main.ts:103992
+main.ts:113630
 
 ***
 
@@ -205,7 +211,9 @@ main.ts:103992
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -213,4 +221,4 @@ main.ts:103992
 
 #### Defined in
 
-main.ts:103985
+main.ts:113623

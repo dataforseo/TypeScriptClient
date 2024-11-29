@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonAsinTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantAmazonAsinTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonAsinTaskGetAdvancedResultInfo
 
@@ -22,7 +22,7 @@ learn more about the identified in this help center guide
 
 #### Defined in
 
-main.ts:182640
+main.ts:194788
 
 ***
 
@@ -35,7 +35,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:182651
+main.ts:194799
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:182656
+main.ts:194804
 
 ***
 
@@ -65,7 +65,7 @@ amazon_product_info
 
 #### Defined in
 
-main.ts:182661
+main.ts:194809
 
 ***
 
@@ -77,7 +77,7 @@ Amazon product info items
 
 #### Defined in
 
-main.ts:182665
+main.ts:194813
 
 ***
 
@@ -89,7 +89,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:182663
+main.ts:194811
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:182648
+main.ts:194796
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:182646
+main.ts:194794
 
 ***
 
@@ -125,7 +125,7 @@ Amazon domain in a POST array
 
 #### Defined in
 
-main.ts:182644
+main.ts:194792
 
 ***
 
@@ -137,4 +137,4 @@ type of element
 
 #### Defined in
 
-main.ts:182642
+main.ts:194790

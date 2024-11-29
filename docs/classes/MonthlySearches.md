@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MonthlySearches
+[Documentation](../README.md) / MonthlySearches
 
 # Class: MonthlySearches
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMonthlySearches`](../interfaces/IMonthlySearches.md)
+##### data?
+
+[`IMonthlySearches`](../interfaces/IMonthlySearches.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:82612
+main.ts:92324
 
 ## Properties
 
@@ -46,7 +48,7 @@ month
 
 #### Defined in
 
-main.ts:82606
+main.ts:92318
 
 ***
 
@@ -62,7 +64,7 @@ monthly average search volume rate
 
 #### Defined in
 
-main.ts:82608
+main.ts:92320
 
 ***
 
@@ -78,7 +80,7 @@ year
 
 #### Defined in
 
-main.ts:82604
+main.ts:92316
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:82604
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:82604
 
 #### Defined in
 
-main.ts:82621
+main.ts:92333
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:82621
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:82621
 
 #### Defined in
 
-main.ts:82640
+main.ts:92352
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:82640
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:82640
 
 #### Defined in
 
-main.ts:82633
+main.ts:92345

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Interests
+[Documentation](../README.md) / Interests
 
 # Class: Interests
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IInterests`](../interfaces/IInterests.md)
+##### data?
+
+[`IInterests`](../interfaces/IInterests.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:126188
+main.ts:136443
 
 ## Properties
 
@@ -47,7 +49,7 @@ the data included in the values element is based on this keyword
 
 #### Defined in
 
-main.ts:126182
+main.ts:136437
 
 ***
 
@@ -63,7 +65,7 @@ contains data on relative keyword popularity by country or region
 
 #### Defined in
 
-main.ts:126184
+main.ts:136439
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:126184
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:126184
 
 #### Defined in
 
-main.ts:126197
+main.ts:136452
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:126197
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:126197
 
 #### Defined in
 
-main.ts:126219
+main.ts:136474
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:126219
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:126219
 
 #### Defined in
 
-main.ts:126212
+main.ts:136467

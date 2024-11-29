@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppInfoTasksReadyResultInfo
+[Documentation](../README.md) / AppDataGoogleAppInfoTasksReadyResultInfo
 
 # Class: AppDataGoogleAppInfoTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppInfoTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppInfoTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppInfoTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppInfoTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:189416
+main.ts:201752
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:189405
+main.ts:201741
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Google App Info task
 
 #### Defined in
 
-main.ts:189409
+main.ts:201745
 
 ***
 
@@ -79,7 +81,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:189412
+main.ts:201748
 
 ***
 
@@ -96,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:189399
+main.ts:201735
 
 ***
 
@@ -112,7 +114,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:189401
+main.ts:201737
 
 ***
 
@@ -128,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:189403
+main.ts:201739
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:189407
+main.ts:201743
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:189407
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:189407
 
 #### Defined in
 
-main.ts:189425
+main.ts:201761
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:189425
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:189425
 
 #### Defined in
 
-main.ts:189448
+main.ts:201784
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:189448
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:189448
 
 #### Defined in
 
-main.ts:189441
+main.ts:201777

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesAvailableFiltersResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:75332
+main.ts:85036
 
 ## Properties
 
@@ -48,7 +50,7 @@ main.ts:75332
 
 #### Defined in
 
-main.ts:75326
+main.ts:85030
 
 ***
 
@@ -66,7 +68,7 @@ main.ts:75326
 
 #### Defined in
 
-main.ts:75328
+main.ts:85032
 
 ***
 
@@ -84,7 +86,7 @@ main.ts:75328
 
 #### Defined in
 
-main.ts:75325
+main.ts:85029
 
 ***
 
@@ -102,7 +104,7 @@ main.ts:75325
 
 #### Defined in
 
-main.ts:75327
+main.ts:85031
 
 ## Methods
 
@@ -112,7 +114,9 @@ main.ts:75327
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -120,7 +124,7 @@ main.ts:75327
 
 #### Defined in
 
-main.ts:75341
+main.ts:85045
 
 ***
 
@@ -130,7 +134,9 @@ main.ts:75341
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -138,7 +144,7 @@ main.ts:75341
 
 #### Defined in
 
-main.ts:75385
+main.ts:85089
 
 ***
 
@@ -148,7 +154,9 @@ main.ts:75385
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -156,4 +164,4 @@ main.ts:75385
 
 #### Defined in
 
-main.ts:75378
+main.ts:85082

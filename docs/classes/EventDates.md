@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / EventDates
+[Documentation](../README.md) / EventDates
 
 # Class: EventDates
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IEventDates`](../interfaces/IEventDates.md)
+##### data?
+
+[`IEventDates`](../interfaces/IEventDates.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:45954
+main.ts:48771
 
 ## Properties
 
@@ -46,7 +48,7 @@ date or date range as it is displayed in SERP
 
 #### Defined in
 
-main.ts:45950
+main.ts:48767
 
 ***
 
@@ -70,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:45948
+main.ts:48765
 
 ***
 
@@ -94,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:45938
+main.ts:48755
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:45938
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:45938
 
 #### Defined in
 
-main.ts:45963
+main.ts:48780
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:45963
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:45963
 
 #### Defined in
 
-main.ts:45982
+main.ts:48799
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:45982
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:45982
 
 #### Defined in
 
-main.ts:45975
+main.ts:48792

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
@@ -25,7 +25,7 @@ max value: 4490
 
 #### Defined in
 
-main.ts:213790
+main.ts:228731
 
 ***
 
@@ -36,13 +36,13 @@ main.ts:213790
 keyword
 required field if you do not specify url_path
 the keyword you specify should indicate a name of an existing business or prominent place on Tripadvisor;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
 
 #### Defined in
 
-main.ts:213745
+main.ts:228686
 
 ***
 
@@ -61,7 +61,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213783
+main.ts:228724
 
 ***
 
@@ -80,7 +80,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213774
+main.ts:228715
 
 ***
 
@@ -96,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:213757
+main.ts:228698
 
 ***
 
@@ -112,7 +112,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:213751
+main.ts:228692
 
 ***
 
@@ -127,7 +127,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213806
+main.ts:228747
 
 ***
 
@@ -142,12 +142,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:213850
+main.ts:228793
 
 ***
 
@@ -162,12 +163,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:213840
+main.ts:228782
 
 ***
 
@@ -185,7 +187,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213765
+main.ts:228706
 
 ***
 
@@ -201,7 +203,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213796
+main.ts:228737
 
 ***
 
@@ -215,7 +217,7 @@ dessert
 
 #### Defined in
 
-main.ts:213810
+main.ts:228751
 
 ***
 
@@ -232,7 +234,7 @@ detailed_reviews
 
 #### Defined in
 
-main.ts:213817
+main.ts:228758
 
 ***
 
@@ -248,7 +250,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:213830
+main.ts:228771
 
 ***
 
@@ -265,7 +267,7 @@ you can learn more about how reviews are translated in this Help Center article
 
 #### Defined in
 
-main.ts:213824
+main.ts:228765
 
 ***
 
@@ -282,7 +284,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-main.ts:213738
+main.ts:228679
 
 ***
 
@@ -297,4 +299,4 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213801
+main.ts:228742

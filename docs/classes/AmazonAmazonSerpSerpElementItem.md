@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonAmazonSerpSerpElementItem
+[Documentation](../README.md) / AmazonAmazonSerpSerpElementItem
 
 # Class: AmazonAmazonSerpSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonAmazonSerpSerpElementItem`](../interfaces/IAmazonAmazonSerpSerpElementItem.md)
+##### data?
+
+[`IAmazonAmazonSerpSerpElementItem`](../interfaces/IAmazonAmazonSerpSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:103387
+main.ts:113025
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:103387
 
 #### Defined in
 
-main.ts:22320
+main.ts:23218
 
 ***
 
@@ -69,7 +71,7 @@ learn more about ASIN in this help center guide
 
 #### Defined in
 
-main.ts:103345
+main.ts:112983
 
 ***
 
@@ -85,7 +87,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:103376
+main.ts:113014
 
 ***
 
@@ -103,7 +105,7 @@ USD
 
 #### Defined in
 
-main.ts:103359
+main.ts:112997
 
 ***
 
@@ -122,7 +124,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:103383
+main.ts:113021
 
 ***
 
@@ -139,7 +141,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:103374
+main.ts:113012
 
 ***
 
@@ -155,7 +157,7 @@ description of the product
 
 #### Defined in
 
-main.ts:103378
+main.ts:113016
 
 ***
 
@@ -171,7 +173,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:103338
+main.ts:112976
 
 ***
 
@@ -187,7 +189,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:103347
+main.ts:112985
 
 ***
 
@@ -204,7 +206,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:103368
+main.ts:113006
 
 ***
 
@@ -221,7 +223,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:103365
+main.ts:113003
 
 ***
 
@@ -239,7 +241,7 @@ left, right
 
 #### Defined in
 
-main.ts:103336
+main.ts:112974
 
 ***
 
@@ -257,7 +259,7 @@ example:
 
 #### Defined in
 
-main.ts:103351
+main.ts:112989
 
 ***
 
@@ -275,7 +277,7 @@ example:
 
 #### Defined in
 
-main.ts:103355
+main.ts:112993
 
 ***
 
@@ -296,7 +298,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22316
+main.ts:23214
 
 ***
 
@@ -317,7 +319,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22313
+main.ts:23211
 
 ***
 
@@ -334,7 +336,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:103371
+main.ts:113009
 
 ***
 
@@ -350,7 +352,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103332
+main.ts:112970
 
 ***
 
@@ -367,7 +369,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:103362
+main.ts:113000
 
 ***
 
@@ -383,7 +385,7 @@ product title
 
 #### Defined in
 
-main.ts:103340
+main.ts:112978
 
 ***
 
@@ -403,7 +405,7 @@ type of element
 
 #### Defined in
 
-main.ts:22310
+main.ts:23208
 
 ***
 
@@ -419,7 +421,7 @@ URL of the product page
 
 #### Defined in
 
-main.ts:103342
+main.ts:112980
 
 ***
 
@@ -439,7 +441,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22318
+main.ts:23216
 
 ## Methods
 
@@ -449,7 +451,9 @@ main.ts:22318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -461,7 +465,7 @@ main.ts:22318
 
 #### Defined in
 
-main.ts:103392
+main.ts:113030
 
 ***
 
@@ -471,7 +475,9 @@ main.ts:103392
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -483,7 +489,7 @@ main.ts:103392
 
 #### Defined in
 
-main.ts:103431
+main.ts:113069
 
 ***
 
@@ -493,7 +499,9 @@ main.ts:103431
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -505,4 +513,4 @@ main.ts:103431
 
 #### Defined in
 
-main.ts:103424
+main.ts:113062

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseResponseTaskInfo
+[Documentation](../README.md) / IBaseResponseTaskInfo
 
 # Interface: IBaseResponseTaskInfo
 
@@ -80,6 +80,14 @@
 - [`ISerpGoogleDatasetInfoTasksFixedTaskInfo`](ISerpGoogleDatasetInfoTasksFixedTaskInfo.md)
 - [`ISerpGoogleDatasetInfoTaskGetAdvancedTaskInfo`](ISerpGoogleDatasetInfoTaskGetAdvancedTaskInfo.md)
 - [`ISerpGoogleDatasetInfoLiveAdvancedTaskInfo`](ISerpGoogleDatasetInfoLiveAdvancedTaskInfo.md)
+- [`ISerpGoogleAdsAdvertisersLocationsTaskInfo`](ISerpGoogleAdsAdvertisersLocationsTaskInfo.md)
+- [`ISerpGoogleAdsAdvertisersTaskPostTaskInfo`](ISerpGoogleAdsAdvertisersTaskPostTaskInfo.md)
+- [`ISerpGoogleAdsAdvertisersTasksReadyTaskInfo`](ISerpGoogleAdsAdvertisersTasksReadyTaskInfo.md)
+- [`ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo`](ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo.md)
+- [`ISerpGoogleAdsSearchLocationsTaskInfo`](ISerpGoogleAdsSearchLocationsTaskInfo.md)
+- [`ISerpGoogleAdsSearchTaskPostTaskInfo`](ISerpGoogleAdsSearchTaskPostTaskInfo.md)
+- [`ISerpGoogleAdsSearchTasksReadyTaskInfo`](ISerpGoogleAdsSearchTasksReadyTaskInfo.md)
+- [`ISerpGoogleAdsSearchTaskGetAdvancedTaskInfo`](ISerpGoogleAdsSearchTaskGetAdvancedTaskInfo.md)
 - [`ISerpBingLocationsTaskInfo`](ISerpBingLocationsTaskInfo.md)
 - [`ISerpBingLocationsCountryTaskInfo`](ISerpBingLocationsCountryTaskInfo.md)
 - [`ISerpBingLanguagesTaskInfo`](ISerpBingLanguagesTaskInfo.md)
@@ -267,6 +275,12 @@
 - [`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
 - [`IKeywordsDataBingSearchVolumeTaskGetTaskInfo`](IKeywordsDataBingSearchVolumeTaskGetTaskInfo.md)
 - [`IKeywordsDataBingSearchVolumeLiveTaskInfo`](IKeywordsDataBingSearchVolumeLiveTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationJobFunctionsTaskInfo`](IKeywordsDataBingAudienceEstimationJobFunctionsTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationIndustriesTaskInfo`](IKeywordsDataBingAudienceEstimationIndustriesTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTaskPostTaskInfo`](IKeywordsDataBingAudienceEstimationTaskPostTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTasksReadyTaskInfo`](IKeywordsDataBingAudienceEstimationTasksReadyTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTaskGetTaskInfo`](IKeywordsDataBingAudienceEstimationTaskGetTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationLiveTaskInfo`](IKeywordsDataBingAudienceEstimationLiveTaskInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTaskPostTaskInfo`](IKeywordsDataBingKeywordsForSiteTaskPostTaskInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo`](IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTaskGetTaskInfo`](IKeywordsDataBingKeywordsForSiteTaskGetTaskInfo.md)
@@ -478,6 +492,9 @@
 - [`IBusinessDataGoogleReviewsTaskPostTaskInfo`](IBusinessDataGoogleReviewsTaskPostTaskInfo.md)
 - [`IBusinessDataGoogleReviewsTasksReadyTaskInfo`](IBusinessDataGoogleReviewsTasksReadyTaskInfo.md)
 - [`IBusinessDataGoogleReviewsTaskGetTaskInfo`](IBusinessDataGoogleReviewsTaskGetTaskInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTaskPostTaskInfo`](IBusinessDataGoogleExtendedReviewsTaskPostTaskInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTasksReadyTaskInfo`](IBusinessDataGoogleExtendedReviewsTasksReadyTaskInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTaskGetTaskInfo`](IBusinessDataGoogleExtendedReviewsTaskGetTaskInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTaskPostTaskInfo`](IBusinessDataGoogleQuestionsAndAnswersTaskPostTaskInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTasksReadyTaskInfo`](IBusinessDataGoogleQuestionsAndAnswersTasksReadyTaskInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo`](IBusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo.md)
@@ -519,7 +536,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24339
+main.ts:25404
 
 ***
 
@@ -535,7 +552,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:24345
+main.ts:25410
 
 ***
 
@@ -548,7 +565,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:24328
+main.ts:25393
 
 ***
 
@@ -560,7 +577,7 @@ URL path
 
 #### Defined in
 
-main.ts:24343
+main.ts:25408
 
 ***
 
@@ -572,7 +589,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:24341
+main.ts:25406
 
 ***
 
@@ -586,7 +603,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24332
+main.ts:25397
 
 ***
 
@@ -599,7 +616,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24335
+main.ts:25400
 
 ***
 
@@ -611,4 +628,4 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:24337
+main.ts:25402

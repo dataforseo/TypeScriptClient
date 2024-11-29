@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:56362
+main.ts:59839
 
 ## Properties
 
@@ -50,7 +52,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-main.ts:56331
+main.ts:59808
 
 ***
 
@@ -68,7 +70,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:56347
+main.ts:59824
 
 ***
 
@@ -88,7 +90,7 @@ en
 
 #### Defined in
 
-main.ts:56343
+main.ts:59820
 
 ***
 
@@ -108,7 +110,7 @@ English
 
 #### Defined in
 
-main.ts:56337
+main.ts:59814
 
 ***
 
@@ -127,7 +129,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:56352
+main.ts:59829
 
 ***
 
@@ -147,7 +149,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:56358
+main.ts:59835
 
 ## Methods
 
@@ -157,7 +159,9 @@ main.ts:56358
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +169,7 @@ main.ts:56358
 
 #### Defined in
 
-main.ts:56371
+main.ts:59848
 
 ***
 
@@ -175,7 +179,9 @@ main.ts:56371
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -183,7 +189,7 @@ main.ts:56371
 
 #### Defined in
 
-main.ts:56393
+main.ts:59870
 
 ***
 
@@ -193,7 +199,9 @@ main.ts:56393
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -201,4 +209,4 @@ main.ts:56393
 
 #### Defined in
 
-main.ts:56386
+main.ts:59863

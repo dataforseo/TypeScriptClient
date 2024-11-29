@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Class: TrustpilotSearchOrganicBusinessDataSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md)
+##### data?
+
+[`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:210957
+main.ts:225886
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:210957
 
 #### Defined in
 
-main.ts:21313
+main.ts:22211
 
 ***
 
@@ -68,7 +70,7 @@ domain of the establishment
 
 #### Defined in
 
-main.ts:210947
+main.ts:225876
 
 ***
 
@@ -88,7 +90,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21311
+main.ts:22209
 
 ***
 
@@ -109,7 +111,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21309
+main.ts:22207
 
 ***
 
@@ -125,7 +127,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-main.ts:210953
+main.ts:225882
 
 ***
 
@@ -141,7 +143,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:210951
+main.ts:225880
 
 ***
 
@@ -157,7 +159,7 @@ title of the establishment
 
 #### Defined in
 
-main.ts:210945
+main.ts:225874
 
 ***
 
@@ -177,7 +179,7 @@ type of element
 
 #### Defined in
 
-main.ts:21306
+main.ts:22204
 
 ***
 
@@ -193,7 +195,7 @@ URL to the establishment
 
 #### Defined in
 
-main.ts:210949
+main.ts:225878
 
 ## Methods
 
@@ -203,7 +205,9 @@ main.ts:210949
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -215,7 +219,7 @@ main.ts:210949
 
 #### Defined in
 
-main.ts:210962
+main.ts:225891
 
 ***
 
@@ -225,7 +229,9 @@ main.ts:210962
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -237,7 +243,7 @@ main.ts:210962
 
 #### Defined in
 
-main.ts:210984
+main.ts:225913
 
 ***
 
@@ -247,7 +253,9 @@ main.ts:210984
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -259,4 +267,4 @@ main.ts:210984
 
 #### Defined in
 
-main.ts:210977
+main.ts:225906

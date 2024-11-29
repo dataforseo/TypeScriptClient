@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeTaskGetResultInfo
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeTaskGetResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTaskGetResultInfo
 
@@ -21,7 +21,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Defined in
 
-main.ts:128930
+main.ts:139195
 
 ***
 
@@ -39,7 +39,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:128918
+main.ts:139183
 
 ***
 
@@ -53,7 +53,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128922
+main.ts:139187
 
 ***
 
@@ -66,7 +66,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:128910
+main.ts:139175
 
 ***
 
@@ -78,7 +78,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:128901
+main.ts:139166
 
 ***
 
@@ -90,7 +90,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:128905
+main.ts:139170
 
 ***
 
@@ -102,7 +102,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:128903
+main.ts:139168
 
 ***
 
@@ -116,7 +116,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128934
+main.ts:139199
 
 ***
 
@@ -128,7 +128,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:128907
+main.ts:139172
 
 ***
 
@@ -143,4 +143,4 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128927
+main.ts:139192

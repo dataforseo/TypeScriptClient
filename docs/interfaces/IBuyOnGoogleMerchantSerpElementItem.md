@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBuyOnGoogleMerchantSerpElementItem
+[Documentation](../README.md) / IBuyOnGoogleMerchantSerpElementItem
 
 # Interface: IBuyOnGoogleMerchantSerpElementItem
 
@@ -24,7 +24,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:176413
+main.ts:188146
 
 ***
 
@@ -38,7 +38,7 @@ USD
 
 #### Defined in
 
-main.ts:176424
+main.ts:188157
 
 ***
 
@@ -51,7 +51,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:176411
+main.ts:188144
 
 ***
 
@@ -63,7 +63,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:176404
+main.ts:188137
 
 ***
 
@@ -81,7 +81,7 @@ left, right
 
 #### Defined in
 
-main.ts:21135
+main.ts:21813
 
 ***
 
@@ -98,7 +98,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21131
+main.ts:21809
 
 ***
 
@@ -115,7 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21128
+main.ts:21806
 
 ***
 
@@ -128,7 +128,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:176430
+main.ts:188163
 
 ***
 
@@ -141,7 +141,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:176427
+main.ts:188160
 
 ***
 
@@ -153,7 +153,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:176418
+main.ts:188151
 
 ***
 
@@ -167,7 +167,7 @@ in this case, the value equals null
 
 #### Defined in
 
-main.ts:176434
+main.ts:188167
 
 ***
 
@@ -180,7 +180,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:176416
+main.ts:188149
 
 ***
 
@@ -192,7 +192,7 @@ product title
 
 #### Defined in
 
-main.ts:176406
+main.ts:188139
 
 ***
 
@@ -204,7 +204,7 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:176420
+main.ts:188153
 
 ***
 
@@ -220,7 +220,7 @@ type of element
 
 #### Defined in
 
-main.ts:21125
+main.ts:21803
 
 ***
 
@@ -232,7 +232,7 @@ Google Shopping URL forwarding to the product page
 
 #### Defined in
 
-main.ts:176408
+main.ts:188141
 
 ***
 
@@ -244,4 +244,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:176402
+main.ts:188135

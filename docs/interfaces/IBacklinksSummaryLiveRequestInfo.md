@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksSummaryLiveRequestInfo
+[Documentation](../README.md) / IBacklinksSummaryLiveRequestInfo
 
 # Interface: IBacklinksSummaryLiveRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:138910
+main.ts:150115
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Defined in
 
-main.ts:138902
+main.ts:150107
 
 ***
 
@@ -61,7 +61,7 @@ default value: true
 
 #### Defined in
 
-main.ts:138882
+main.ts:150087
 
 ***
 
@@ -77,7 +77,7 @@ default value: true
 
 #### Defined in
 
-main.ts:138876
+main.ts:150081
 
 ***
 
@@ -92,7 +92,7 @@ default value: true
 
 #### Defined in
 
-main.ts:138870
+main.ts:150075
 
 ***
 
@@ -113,7 +113,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:138893
+main.ts:150098
 
 ***
 
@@ -129,7 +129,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:138916
+main.ts:150121
 
 ***
 
@@ -144,4 +144,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:138865
+main.ts:150070

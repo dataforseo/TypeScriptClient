@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSearchIntentLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSearchIntentLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:86923
+main.ts:96641
 
 ## Properties
 
@@ -46,7 +48,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:86919
+main.ts:96637
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:86917
+main.ts:96635
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:86915
+main.ts:96633
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:86915
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:86915
 
 #### Defined in
 
-main.ts:86932
+main.ts:96650
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:86932
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:86932
 
 #### Defined in
 
-main.ts:86955
+main.ts:96673
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:86955
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:86955
 
 #### Defined in
 
-main.ts:86948
+main.ts:96666

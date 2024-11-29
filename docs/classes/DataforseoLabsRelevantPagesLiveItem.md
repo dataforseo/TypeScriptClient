@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsRelevantPagesLiveItem
+[Documentation](../README.md) / DataforseoLabsRelevantPagesLiveItem
 
 # Class: DataforseoLabsRelevantPagesLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md)
+##### data?
+
+[`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:94968
+main.ts:104686
 
 ## Properties
 
@@ -50,7 +52,7 @@ rankings and traffic metrics for the relevant page
 
 #### Defined in
 
-main.ts:94964
+main.ts:104682
 
 ***
 
@@ -66,7 +68,7 @@ absolute URL of the relevant page
 
 #### Defined in
 
-main.ts:94962
+main.ts:104680
 
 ***
 
@@ -82,7 +84,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94960
+main.ts:104678
 
 ## Methods
 
@@ -92,7 +94,9 @@ main.ts:94960
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +104,7 @@ main.ts:94960
 
 #### Defined in
 
-main.ts:94977
+main.ts:104695
 
 ***
 
@@ -110,7 +114,9 @@ main.ts:94977
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +124,7 @@ main.ts:94977
 
 #### Defined in
 
-main.ts:95002
+main.ts:104720
 
 ***
 
@@ -128,7 +134,9 @@ main.ts:95002
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -136,4 +144,4 @@ main.ts:95002
 
 #### Defined in
 
-main.ts:94995
+main.ts:104713

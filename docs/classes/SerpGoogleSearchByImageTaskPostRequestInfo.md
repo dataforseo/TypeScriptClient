@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleSearchByImageTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleSearchByImageTaskPostRequestInfo
 
 # Class: SerpGoogleSearchByImageTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleSearchByImageTaskPostRequestInfo`](../interfaces/ISerpGoogleSearchByImageTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:48972
+main.ts:52657
 
 ## Properties
 
@@ -50,7 +52,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:48926
+main.ts:52609
 
 ***
 
@@ -70,7 +72,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:48932
+main.ts:52615
 
 ***
 
@@ -90,7 +92,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:48920
+main.ts:52603
 
 ***
 
@@ -111,7 +113,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:48914
+main.ts:52597
 
 ***
 
@@ -131,7 +133,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Defined in
 
-main.ts:48847
+main.ts:52530
 
 ***
 
@@ -152,7 +154,7 @@ en
 
 #### Defined in
 
-main.ts:48900
+main.ts:52583
 
 ***
 
@@ -173,7 +175,7 @@ English
 
 #### Defined in
 
-main.ts:48893
+main.ts:52576
 
 ***
 
@@ -194,7 +196,7 @@ example:
 
 #### Defined in
 
-main.ts:48876
+main.ts:52559
 
 ***
 
@@ -218,7 +220,7 @@ example:
 
 #### Defined in
 
-main.ts:48886
+main.ts:52569
 
 ***
 
@@ -239,7 +241,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:48869
+main.ts:52552
 
 ***
 
@@ -260,7 +262,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:48862
+main.ts:52545
 
 ***
 
@@ -275,8 +277,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -284,7 +287,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:48968
+main.ts:52653
 
 ***
 
@@ -304,7 +307,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:48958
+main.ts:52642
 
 ***
 
@@ -319,8 +322,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -328,7 +332,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:48952
+main.ts:52636
 
 ***
 
@@ -350,7 +354,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:48855
+main.ts:52538
 
 ***
 
@@ -371,7 +375,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:48907
+main.ts:52590
 
 ***
 
@@ -389,7 +393,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:48936
+main.ts:52619
 
 ***
 
@@ -409,7 +413,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:48942
+main.ts:52625
 
 ## Methods
 
@@ -419,7 +423,9 @@ main.ts:48942
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -427,7 +433,7 @@ main.ts:48942
 
 #### Defined in
 
-main.ts:48981
+main.ts:52666
 
 ***
 
@@ -437,7 +443,9 @@ main.ts:48981
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -445,7 +453,7 @@ main.ts:48981
 
 #### Defined in
 
-main.ts:49015
+main.ts:52700
 
 ***
 
@@ -455,7 +463,9 @@ main.ts:49015
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -463,4 +473,4 @@ main.ts:49015
 
 #### Defined in
 
-main.ts:49008
+main.ts:52693

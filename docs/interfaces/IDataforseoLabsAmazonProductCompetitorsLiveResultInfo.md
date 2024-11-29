@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
@@ -20,7 +20,7 @@ ASIN in a POST array
 
 #### Defined in
 
-main.ts:104887
+main.ts:114525
 
 ***
 
@@ -32,7 +32,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:104899
+main.ts:114537
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:104897
+main.ts:114535
 
 ***
 
@@ -57,7 +57,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:104893
+main.ts:114531
 
 ***
 
@@ -70,7 +70,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:104890
+main.ts:114528
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:104885
+main.ts:114523
 
 ***
 
@@ -94,4 +94,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:104895
+main.ts:114533

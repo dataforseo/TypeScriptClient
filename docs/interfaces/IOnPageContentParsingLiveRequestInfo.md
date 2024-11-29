@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageContentParsingLiveRequestInfo
+[Documentation](../README.md) / IOnPageContentParsingLiveRequestInfo
 
 # Interface: IOnPageContentParsingLiveRequestInfo
 
@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:162411
+main.ts:173998
 
 ***
 
@@ -52,7 +52,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-main.ts:162371
+main.ts:173958
 
 ***
 
@@ -70,7 +70,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162387
+main.ts:173974
 
 ***
 
@@ -88,7 +88,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:162395
+main.ts:173982
 
 ***
 
@@ -106,29 +106,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162379
-
-***
-
-### custom\_js?
-
-> `optional` **custom\_js**: `string`
-
-custom javascript
-optional field
-Note that the execution time for the script you enter here should be 700 ms maximum, for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) {\r\n if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
-as a response you will receive the following data:
-"custom_js_response": {
-"url": "https://dataforseo.com/",
-"test": "test"
-}
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
-
-#### Defined in
-
-main.ts:162352
+main.ts:173966
 
 ***
 
@@ -145,7 +123,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:162340
+main.ts:173939
 
 ***
 
@@ -161,7 +139,7 @@ false
 
 #### Defined in
 
-main.ts:162406
+main.ts:173993
 
 ***
 
@@ -180,7 +158,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162426
+main.ts:174013
 
 ***
 
@@ -196,7 +174,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162417
+main.ts:174004
 
 ***
 
@@ -213,7 +191,7 @@ if you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-main.ts:162433
+main.ts:174020
 
 ***
 
@@ -229,7 +207,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:162444
+main.ts:174031
 
 ***
 
@@ -244,7 +222,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162400
+main.ts:173987
 
 ***
 
@@ -259,7 +237,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:162438
+main.ts:174025
 
 ***
 
@@ -275,4 +253,4 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-main.ts:162333
+main.ts:173932

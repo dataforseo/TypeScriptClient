@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:105750
+main.ts:115388
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBulkKeywordDifficultyLiveItem`](DataforseoLabsBulkKeywordDifficultyLiveItem.md)[]
 
 contains keywords and related keyword difficulty scores
 
@@ -46,7 +48,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:105746
+main.ts:115384
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:105744
+main.ts:115382
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:105740
+main.ts:115378
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:105737
+main.ts:115375
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105734
+main.ts:115372
 
 ***
 
@@ -128,7 +130,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:105742
+main.ts:115380
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:105742
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:105742
 
 #### Defined in
 
-main.ts:105759
+main.ts:115397
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:105759
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:105759
 
 #### Defined in
 
-main.ts:105785
+main.ts:115423
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:105785
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:105785
 
 #### Defined in
 
-main.ts:105778
+main.ts:115416

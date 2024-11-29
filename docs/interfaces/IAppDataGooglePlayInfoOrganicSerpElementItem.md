@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGooglePlayInfoOrganicSerpElementItem
+[Documentation](../README.md) / IAppDataGooglePlayInfoOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlayInfoOrganicSerpElementItem
 
@@ -24,7 +24,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:189872
+main.ts:202208
 
 ***
 
@@ -36,7 +36,7 @@ description of the app
 
 #### Defined in
 
-main.ts:189878
+main.ts:202214
 
 ***
 
@@ -48,7 +48,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:189894
+main.ts:202230
 
 ***
 
@@ -60,7 +60,7 @@ physical address of the developer
 
 #### Defined in
 
-main.ts:189902
+main.ts:202238
 
 ***
 
@@ -72,7 +72,7 @@ email address of the developer
 
 #### Defined in
 
-main.ts:189900
+main.ts:202236
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:189896
+main.ts:202232
 
 ***
 
@@ -96,7 +96,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:189898
+main.ts:202234
 
 ***
 
@@ -108,7 +108,7 @@ official website of the developer
 
 #### Defined in
 
-main.ts:189904
+main.ts:202240
 
 ***
 
@@ -121,7 +121,7 @@ contains relevant app categories
 
 #### Defined in
 
-main.ts:189938
+main.ts:202274
 
 ***
 
@@ -133,7 +133,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:189876
+main.ts:202212
 
 ***
 
@@ -146,7 +146,7 @@ contains URLs to the images published on the app page on Google Play
 
 #### Defined in
 
-main.ts:189926
+main.ts:202262
 
 ***
 
@@ -159,7 +159,7 @@ approximate number of installs as displayed on the app page
 
 #### Defined in
 
-main.ts:189889
+main.ts:202225
 
 ***
 
@@ -172,7 +172,7 @@ the exact number of installs of the app
 
 #### Defined in
 
-main.ts:189892
+main.ts:202228
 
 ***
 
@@ -184,7 +184,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:189884
+main.ts:202220
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:189920
+main.ts:202256
 
 ***
 
@@ -211,7 +211,7 @@ main category of the app
 
 #### Defined in
 
-main.ts:189886
+main.ts:202222
 
 ***
 
@@ -223,7 +223,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:189908
+main.ts:202244
 
 ***
 
@@ -236,7 +236,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:189935
+main.ts:202271
 
 ***
 
@@ -254,19 +254,19 @@ left, right
 
 #### Defined in
 
-main.ts:22073
+main.ts:22971
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of the app
 
 #### Defined in
 
-main.ts:189882
+main.ts:202218
 
 ***
 
@@ -283,7 +283,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22069
+main.ts:22967
 
 ***
 
@@ -300,7 +300,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22066
+main.ts:22964
 
 ***
 
@@ -316,7 +316,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:22077
+main.ts:22975
 
 ***
 
@@ -331,7 +331,7 @@ example:
 
 #### Defined in
 
-main.ts:189915
+main.ts:202251
 
 ***
 
@@ -343,7 +343,7 @@ the total number of reviews the app has
 
 #### Defined in
 
-main.ts:189880
+main.ts:202216
 
 ***
 
@@ -356,7 +356,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:189932
+main.ts:202268
 
 ***
 
@@ -368,7 +368,7 @@ size of the app
 
 #### Defined in
 
-main.ts:189910
+main.ts:202246
 
 ***
 
@@ -381,7 +381,7 @@ contains relevant app tags
 
 #### Defined in
 
-main.ts:189941
+main.ts:202277
 
 ***
 
@@ -397,7 +397,7 @@ title of the app
 
 #### Defined in
 
-main.ts:22075
+main.ts:22973
 
 ***
 
@@ -413,7 +413,7 @@ type of element
 
 #### Defined in
 
-main.ts:22063
+main.ts:22961
 
 ***
 
@@ -426,7 +426,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:189923
+main.ts:202259
 
 ***
 
@@ -438,7 +438,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:189874
+main.ts:202210
 
 ***
 
@@ -450,7 +450,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:189906
+main.ts:202242
 
 ***
 
@@ -463,4 +463,4 @@ contains URLs to the video published on the app page on Google Play
 
 #### Defined in
 
-main.ts:189929
+main.ts:202265

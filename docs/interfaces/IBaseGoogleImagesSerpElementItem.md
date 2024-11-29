@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseGoogleImagesSerpElementItem
+[Documentation](../README.md) / IBaseGoogleImagesSerpElementItem
 
 # Interface: IBaseGoogleImagesSerpElementItem
 
@@ -23,7 +23,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47644
+main.ts:50805
 
 ***
 
@@ -37,7 +37,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47641
+main.ts:50802
 
 ***
 
@@ -49,7 +49,7 @@ type of element
 
 #### Defined in
 
-main.ts:47637
+main.ts:50798
 
 ***
 
@@ -61,4 +61,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47646
+main.ts:50807

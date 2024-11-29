@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ScoreByCategories
+[Documentation](../README.md) / ScoreByCategories
 
 # Class: ScoreByCategories
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IScoreByCategories`](../interfaces/IScoreByCategories.md)
+##### data?
+
+[`IScoreByCategories`](../interfaces/IScoreByCategories.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:207100
+main.ts:220455
 
 ## Properties
 
@@ -48,7 +50,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 #### Defined in
 
-main.ts:207096
+main.ts:220451
 
 ***
 
@@ -67,7 +69,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:207080
+main.ts:220435
 
 ***
 
@@ -85,7 +87,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 #### Defined in
 
-main.ts:207088
+main.ts:220443
 
 ***
 
@@ -103,7 +105,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 #### Defined in
 
-main.ts:207084
+main.ts:220439
 
 ***
 
@@ -121,7 +123,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Defined in
 
-main.ts:207092
+main.ts:220447
 
 ## Methods
 
@@ -131,7 +133,9 @@ main.ts:207092
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -139,7 +143,7 @@ main.ts:207092
 
 #### Defined in
 
-main.ts:207109
+main.ts:220464
 
 ***
 
@@ -149,7 +153,9 @@ main.ts:207109
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -157,7 +163,7 @@ main.ts:207109
 
 #### Defined in
 
-main.ts:207130
+main.ts:220485
 
 ***
 
@@ -167,7 +173,9 @@ main.ts:207130
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -175,4 +183,4 @@ main.ts:207130
 
 #### Defined in
 
-main.ts:207123
+main.ts:220478

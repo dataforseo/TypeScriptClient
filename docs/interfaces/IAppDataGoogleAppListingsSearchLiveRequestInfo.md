@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
+[Documentation](../README.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveRequestInfo
 
@@ -24,7 +24,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:191980
+main.ts:204316
 
 ***
 
@@ -35,11 +35,11 @@ main.ts:191980
 keyword in the app’s description
 optional field
 keywords that occur in the description of the app;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Defined in
 
-main.ts:191985
+main.ts:204321
 
 ***
 
@@ -60,7 +60,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:192001
+main.ts:204337
 
 ***
 
@@ -75,7 +75,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:192020
+main.ts:204356
 
 ***
 
@@ -90,7 +90,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:192025
+main.ts:204361
 
 ***
 
@@ -108,7 +108,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:192033
+main.ts:204369
 
 ***
 
@@ -132,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:192015
+main.ts:204351
 
 ***
 
@@ -148,7 +148,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:192039
+main.ts:204375
 
 ***
 
@@ -159,8 +159,8 @@ main.ts:192039
 keyword in the app’s title
 optional field
 keywords that occur in the title of the app;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Defined in
 
-main.ts:191990
+main.ts:204326

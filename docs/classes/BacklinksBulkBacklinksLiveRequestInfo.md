@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkBacklinksLiveRequestInfo
+[Documentation](../README.md) / BacklinksBulkBacklinksLiveRequestInfo
 
 # Class: BacklinksBulkBacklinksLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBulkBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:149364
+main.ts:160569
 
 ## Properties
 
@@ -50,7 +52,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:149360
+main.ts:160565
 
 ***
 
@@ -83,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:149354
+main.ts:160559
 
 ## Methods
 
@@ -93,7 +95,9 @@ main.ts:149354
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -101,7 +105,7 @@ main.ts:149354
 
 #### Defined in
 
-main.ts:149373
+main.ts:160578
 
 ***
 
@@ -111,7 +115,9 @@ main.ts:149373
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -119,7 +125,7 @@ main.ts:149373
 
 #### Defined in
 
-main.ts:149395
+main.ts:160600
 
 ***
 
@@ -129,7 +135,9 @@ main.ts:149395
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -137,4 +145,4 @@ main.ts:149395
 
 #### Defined in
 
-main.ts:149388
+main.ts:160593

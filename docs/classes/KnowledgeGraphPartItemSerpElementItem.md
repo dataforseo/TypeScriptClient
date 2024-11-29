@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphPartItemSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphPartItemSerpElementItem
 
 # Class: KnowledgeGraphPartItemSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphPartItemSerpElementItem`](../interfaces/IKnowledgeGraphPartItemSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphPartItemSerpElementItem`](../interfaces/IKnowledgeGraphPartItemSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:28735
+main.ts:30294
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:28735
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -70,7 +72,7 @@ kc:/local:place qa
 
 #### Defined in
 
-main.ts:28720
+main.ts:30279
 
 ***
 
@@ -88,7 +90,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28727
+main.ts:30286
 
 ***
 
@@ -110,7 +112,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -131,7 +133,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -153,7 +155,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -171,7 +173,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28731
+main.ts:30290
 
 ***
 
@@ -188,7 +190,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 #### Defined in
 
-main.ts:28723
+main.ts:30282
 
 ***
 
@@ -204,7 +206,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28716
+main.ts:30275
 
 ***
 
@@ -224,7 +226,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -244,7 +246,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -254,7 +256,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +270,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28740
+main.ts:30299
 
 ***
 
@@ -276,7 +280,9 @@ main.ts:28740
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -288,7 +294,7 @@ main.ts:28740
 
 #### Defined in
 
-main.ts:28766
+main.ts:30325
 
 ***
 
@@ -298,7 +304,9 @@ main.ts:28766
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -310,4 +318,4 @@ main.ts:28766
 
 #### Defined in
 
-main.ts:28759
+main.ts:30318

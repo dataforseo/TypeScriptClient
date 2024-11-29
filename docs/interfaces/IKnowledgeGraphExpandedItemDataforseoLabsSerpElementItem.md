@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 
@@ -22,11 +22,11 @@
 
 google defined data attribute ID
 example:
-kc:/local:place qa
+action:listen_artist
 
 #### Defined in
 
-main.ts:97922
+main.ts:107740
 
 ***
 
@@ -38,7 +38,7 @@ expanded element
 
 #### Defined in
 
-main.ts:97924
+main.ts:107742
 
 ***
 
@@ -56,7 +56,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -73,7 +73,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -102,7 +102,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:97918
+main.ts:107736
 
 ***
 
@@ -118,7 +118,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -134,4 +134,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

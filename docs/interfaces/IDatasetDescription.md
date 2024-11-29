@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDatasetDescription
+[Documentation](../README.md) / IDatasetDescription
 
 # Interface: IDatasetDescription
 
@@ -20,7 +20,7 @@ links featured in the ‘dataset_description’
 
 #### Defined in
 
-main.ts:54188
+main.ts:57849
 
 ***
 
@@ -32,4 +32,4 @@ text of the description
 
 #### Defined in
 
-main.ts:54186
+main.ts:57847

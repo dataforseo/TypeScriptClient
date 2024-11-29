@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSummaryInfo
+[Documentation](../README.md) / ContentAnalysisSummaryInfo
 
 # Class: ContentAnalysisSummaryInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md)
+##### data?
+
+[`IContentAnalysisSummaryInfo`](../interfaces/IContentAnalysisSummaryInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:167016
+main.ts:178605
 
 ## Properties
 
@@ -52,7 +54,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:166993
+main.ts:178582
 
 ***
 
@@ -74,7 +76,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:167008
+main.ts:178597
 
 ***
 
@@ -96,7 +98,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:167012
+main.ts:178601
 
 ***
 
@@ -114,7 +116,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:167001
+main.ts:178590
 
 ***
 
@@ -135,7 +137,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:167004
+main.ts:178593
 
 ***
 
@@ -152,7 +154,7 @@ normalized sum of ranks of all URLs citing the target keyword
 
 #### Defined in
 
-main.ts:166982
+main.ts:178571
 
 ***
 
@@ -174,7 +176,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:166989
+main.ts:178578
 
 ***
 
@@ -192,7 +194,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166997
+main.ts:178586
 
 ***
 
@@ -209,7 +211,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 #### Defined in
 
-main.ts:166985
+main.ts:178574
 
 ***
 
@@ -225,7 +227,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:166979
+main.ts:178568
 
 ***
 
@@ -241,7 +243,7 @@ type of element
 
 #### Defined in
 
-main.ts:166977
+main.ts:178566
 
 ## Methods
 
@@ -251,7 +253,9 @@ main.ts:166977
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -259,7 +263,7 @@ main.ts:166977
 
 #### Defined in
 
-main.ts:167025
+main.ts:178614
 
 ***
 
@@ -269,7 +273,9 @@ main.ts:167025
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -277,7 +283,7 @@ main.ts:167025
 
 #### Defined in
 
-main.ts:167094
+main.ts:178683
 
 ***
 
@@ -287,7 +293,9 @@ main.ts:167094
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -295,4 +303,4 @@ main.ts:167094
 
 #### Defined in
 
-main.ts:167087
+main.ts:178676

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
@@ -20,7 +20,7 @@ domain found for the specified category
 
 #### Defined in
 
-main.ts:89548
+main.ts:99266
 
 ***
 
@@ -32,7 +32,7 @@ primary domain
 
 #### Defined in
 
-main.ts:89550
+main.ts:99268
 
 ***
 
@@ -49,7 +49,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Defined in
 
-main.ts:89555
+main.ts:99273
 
 ***
 
@@ -65,7 +65,7 @@ historical ranking and traffic data of the domain
 
 #### Defined in
 
-main.ts:89552
+main.ts:99270
 
 ***
 
@@ -77,7 +77,7 @@ current total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:89540
+main.ts:99258
 
 ***
 
@@ -89,7 +89,7 @@ current organic ETV of the domain
 
 #### Defined in
 
-main.ts:89538
+main.ts:99256
 
 ***
 
@@ -102,7 +102,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Defined in
 
-main.ts:89543
+main.ts:99261
 
 ***
 
@@ -115,7 +115,7 @@ indicates how many new ranked elements were found for the domain
 
 #### Defined in
 
-main.ts:89546
+main.ts:99264
 
 ***
 
@@ -127,7 +127,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89534
+main.ts:99252
 
 ***
 
@@ -139,4 +139,4 @@ categories for which domains are collected
 
 #### Defined in
 
-main.ts:89536
+main.ts:99254

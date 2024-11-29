@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AvgBacklinksInfo
+[Documentation](../README.md) / AvgBacklinksInfo
 
 # Class: AvgBacklinksInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md)
+##### data?
+
+[`IAvgBacklinksInfo`](../interfaces/IAvgBacklinksInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:83339
+main.ts:93051
 
 ## Properties
 
@@ -46,7 +48,7 @@ average number of backlinks
 
 #### Defined in
 
-main.ts:83316
+main.ts:93028
 
 ***
 
@@ -62,7 +64,7 @@ average number of dofollow links
 
 #### Defined in
 
-main.ts:83318
+main.ts:93030
 
 ***
 
@@ -81,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:83335
+main.ts:93047
 
 ***
 
@@ -98,7 +100,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:83330
+main.ts:93042
 
 ***
 
@@ -115,7 +117,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:83327
+main.ts:93039
 
 ***
 
@@ -131,7 +133,7 @@ average number of referring domains
 
 #### Defined in
 
-main.ts:83322
+main.ts:93034
 
 ***
 
@@ -147,7 +149,7 @@ average number of referring main domains
 
 #### Defined in
 
-main.ts:83324
+main.ts:93036
 
 ***
 
@@ -163,7 +165,7 @@ average number of referring pages
 
 #### Defined in
 
-main.ts:83320
+main.ts:93032
 
 ***
 
@@ -179,7 +181,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83314
+main.ts:93026
 
 ## Methods
 
@@ -189,7 +191,9 @@ main.ts:83314
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +201,7 @@ main.ts:83314
 
 #### Defined in
 
-main.ts:83348
+main.ts:93060
 
 ***
 
@@ -207,7 +211,9 @@ main.ts:83348
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -215,7 +221,7 @@ main.ts:83348
 
 #### Defined in
 
-main.ts:83373
+main.ts:93085
 
 ***
 
@@ -225,7 +231,9 @@ main.ts:83373
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -233,4 +241,4 @@ main.ts:83373
 
 #### Defined in
 
-main.ts:83366
+main.ts:93078

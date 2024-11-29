@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixStatusResultInfo
+[Documentation](../README.md) / AppendixStatusResultInfo
 
 # Class: AppendixStatusResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md)
+##### data?
+
+[`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:224282
+main.ts:239469
 
 ## Properties
 
@@ -59,7 +61,7 @@ content_generation
 
 #### Defined in
 
-main.ts:224266
+main.ts:239453
 
 ***
 
@@ -75,7 +77,7 @@ array of objects that contain status information for API endpoints
 
 #### Defined in
 
-main.ts:224278
+main.ts:239465
 
 ***
 
@@ -99,7 +101,7 @@ send_delay
 
 #### Defined in
 
-main.ts:224276
+main.ts:239463
 
 ## Methods
 
@@ -109,7 +111,9 @@ main.ts:224276
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -117,7 +121,7 @@ main.ts:224276
 
 #### Defined in
 
-main.ts:224291
+main.ts:239478
 
 ***
 
@@ -127,7 +131,9 @@ main.ts:224291
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -135,7 +141,7 @@ main.ts:224291
 
 #### Defined in
 
-main.ts:224314
+main.ts:239501
 
 ***
 
@@ -145,7 +151,9 @@ main.ts:224314
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -153,4 +161,4 @@ main.ts:224314
 
 #### Defined in
 
-main.ts:224307
+main.ts:239494

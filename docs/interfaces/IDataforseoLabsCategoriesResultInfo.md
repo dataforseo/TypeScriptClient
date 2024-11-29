@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsCategoriesResultInfo
+[Documentation](../README.md) / IDataforseoLabsCategoriesResultInfo
 
 # Interface: IDataforseoLabsCategoriesResultInfo
 
@@ -20,7 +20,7 @@ category code
 
 #### Defined in
 
-main.ts:81982
+main.ts:91694
 
 ***
 
@@ -41,7 +41,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:81995
+main.ts:91707
 
 ***
 
@@ -53,4 +53,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:81984
+main.ts:91696

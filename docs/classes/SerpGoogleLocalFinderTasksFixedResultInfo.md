@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderTasksFixedResultInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderTasksFixedResultInfo
 
 # Class: SerpGoogleLocalFinderTasksFixedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderTasksFixedResultInfo`](../interfaces/ISerpGoogleLocalFinderTasksFixedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:41683
+main.ts:43520
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:41668
+main.ts:43505
 
 ***
 
@@ -63,7 +65,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:41676
+main.ts:43513
 
 ***
 
@@ -80,7 +82,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:41679
+main.ts:43516
 
 ***
 
@@ -97,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:41673
+main.ts:43510
 
 ***
 
@@ -114,7 +116,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:41661
+main.ts:43498
 
 ***
 
@@ -130,7 +132,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:41663
+main.ts:43500
 
 ***
 
@@ -147,7 +149,7 @@ can take the following values: local_finder
 
 #### Defined in
 
-main.ts:41666
+main.ts:43503
 
 ***
 
@@ -163,7 +165,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:41670
+main.ts:43507
 
 ## Methods
 
@@ -173,7 +175,9 @@ main.ts:41670
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +185,7 @@ main.ts:41670
 
 #### Defined in
 
-main.ts:41692
+main.ts:43529
 
 ***
 
@@ -191,7 +195,9 @@ main.ts:41692
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -199,7 +205,7 @@ main.ts:41692
 
 #### Defined in
 
-main.ts:41716
+main.ts:43553
 
 ***
 
@@ -209,7 +215,9 @@ main.ts:41716
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -217,4 +225,4 @@ main.ts:41716
 
 #### Defined in
 
-main.ts:41709
+main.ts:43546

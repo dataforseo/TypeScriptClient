@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpIdListRequestInfo
+[Documentation](../README.md) / SerpIdListRequestInfo
 
 # Class: SerpIdListRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpIdListRequestInfo`](../interfaces/ISerpIdListRequestInfo.md)
+##### data?
+
+[`ISerpIdListRequestInfo`](../interfaces/ISerpIdListRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:24388
+main.ts:25453
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:24358
+main.ts:25423
 
 ***
 
@@ -73,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:24365
+main.ts:25430
 
 ***
 
@@ -91,7 +93,7 @@ default value: false
 
 #### Defined in
 
-main.ts:24384
+main.ts:25449
 
 ***
 
@@ -110,7 +112,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:24370
+main.ts:25435
 
 ***
 
@@ -129,7 +131,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:24375
+main.ts:25440
 
 ***
 
@@ -148,7 +150,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:24380
+main.ts:25445
 
 ## Methods
 
@@ -158,7 +160,9 @@ main.ts:24380
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +170,7 @@ main.ts:24380
 
 #### Defined in
 
-main.ts:24397
+main.ts:25462
 
 ***
 
@@ -176,7 +180,9 @@ main.ts:24397
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -184,7 +190,7 @@ main.ts:24397
 
 #### Defined in
 
-main.ts:24419
+main.ts:25484
 
 ***
 
@@ -194,7 +200,9 @@ main.ts:24419
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -202,4 +210,4 @@ main.ts:24419
 
 #### Defined in
 
-main.ts:24412
+main.ts:25477

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorReviewsTaskPostRequestInfo
+[Documentation](../README.md) / BusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorReviewsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:213638
+main.ts:228579
 
 ## Properties
 
@@ -51,7 +53,7 @@ max value: 4490
 
 #### Defined in
 
-main.ts:213574
+main.ts:228513
 
 ***
 
@@ -62,9 +64,9 @@ main.ts:213574
 keyword
 required field if you do not specify url_path
 the keyword you specify should indicate a name of an existing business or prominent place on Tripadvisor;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
 
 #### Implementation of
 
@@ -72,7 +74,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:213529
+main.ts:228468
 
 ***
 
@@ -95,7 +97,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213567
+main.ts:228506
 
 ***
 
@@ -118,7 +120,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213558
+main.ts:228497
 
 ***
 
@@ -138,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:213541
+main.ts:228480
 
 ***
 
@@ -158,7 +160,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:213535
+main.ts:228474
 
 ***
 
@@ -177,7 +179,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213590
+main.ts:228529
 
 ***
 
@@ -192,8 +194,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -201,7 +204,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:213634
+main.ts:228575
 
 ***
 
@@ -216,8 +219,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -225,7 +229,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:213624
+main.ts:228564
 
 ***
 
@@ -247,7 +251,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213549
+main.ts:228488
 
 ***
 
@@ -267,7 +271,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213580
+main.ts:228519
 
 ***
 
@@ -285,7 +289,7 @@ dessert
 
 #### Defined in
 
-main.ts:213594
+main.ts:228533
 
 ***
 
@@ -306,7 +310,7 @@ detailed_reviews
 
 #### Defined in
 
-main.ts:213601
+main.ts:228540
 
 ***
 
@@ -326,7 +330,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:213614
+main.ts:228553
 
 ***
 
@@ -347,7 +351,7 @@ you can learn more about how reviews are translated in this Help Center article
 
 #### Defined in
 
-main.ts:213608
+main.ts:228547
 
 ***
 
@@ -368,7 +372,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-main.ts:213522
+main.ts:228461
 
 ***
 
@@ -387,7 +391,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213585
+main.ts:228524
 
 ## Methods
 
@@ -397,7 +401,9 @@ main.ts:213585
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -405,7 +411,7 @@ main.ts:213585
 
 #### Defined in
 
-main.ts:213647
+main.ts:228588
 
 ***
 
@@ -415,7 +421,9 @@ main.ts:213647
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -423,7 +431,7 @@ main.ts:213647
 
 #### Defined in
 
-main.ts:213692
+main.ts:228633
 
 ***
 
@@ -433,7 +441,9 @@ main.ts:213692
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -441,4 +451,4 @@ main.ts:213692
 
 #### Defined in
 
-main.ts:213685
+main.ts:228626

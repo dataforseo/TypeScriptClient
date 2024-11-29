@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleImagesLiveAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleImagesLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleImagesLiveAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:48489
+main.ts:51914
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:48494
+main.ts:51919
 
 ***
 
@@ -51,7 +51,7 @@ carousel, images_search, related_searches
 
 #### Defined in
 
-main.ts:48502
+main.ts:51929
 
 ***
 
@@ -59,11 +59,11 @@ main.ts:48502
 
 > `optional` **items**: [`BaseGoogleImagesSerpElementItem`](../classes/BaseGoogleImagesSerpElementItem.md)[]
 
-contains keywords and images related to the specified search term
+elements of search results found in SERP
 
 #### Defined in
 
-main.ts:48508
+main.ts:51935
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:48506
+main.ts:51933
 
 ***
 
@@ -84,11 +84,11 @@ main.ts:48506
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:48478
+main.ts:51903
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:48486
+main.ts:51911
 
 ***
 
@@ -112,7 +112,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:48484
+main.ts:51909
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:51924
 
 ***
 
@@ -124,7 +136,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:48482
+main.ts:51907
 
 ***
 
@@ -136,7 +148,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:48504
+main.ts:51931
 
 ***
 
@@ -149,7 +161,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:48497
+main.ts:51922
 
 ***
 
@@ -161,4 +173,4 @@ type of element
 
 #### Defined in
 
-main.ts:48480
+main.ts:51905

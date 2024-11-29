@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksTimeseriesSummaryLiveResultInfo
+[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveResultInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:148391
+main.ts:159596
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:148396
+main.ts:159601
 
 ***
 
@@ -50,7 +50,7 @@ group_range from a POST array
 
 #### Defined in
 
-main.ts:148398
+main.ts:159603
 
 ***
 
@@ -62,7 +62,7 @@ contains relevant summary data
 
 #### Defined in
 
-main.ts:148402
+main.ts:159607
 
 ***
 
@@ -74,7 +74,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:148400
+main.ts:159605
 
 ***
 
@@ -86,4 +86,4 @@ target from a POST array
 
 #### Defined in
 
-main.ts:148386
+main.ts:159591

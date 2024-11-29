@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonSerpElement
+[Documentation](../README.md) / IAmazonSerpElement
 
 # Interface: IAmazonSerpElement
 
@@ -20,7 +20,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:180574
+main.ts:192662
 
 ***
 
@@ -34,7 +34,7 @@ USD
 
 #### Defined in
 
-main.ts:180586
+main.ts:192674
 
 ***
 
@@ -49,7 +49,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:180594
+main.ts:192682
 
 ***
 
@@ -62,7 +62,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:180605
+main.ts:192693
 
 ***
 
@@ -74,7 +74,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:180566
+main.ts:192654
 
 ***
 
@@ -86,7 +86,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:180572
+main.ts:192660
 
 ***
 
@@ -99,7 +99,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:180599
+main.ts:192687
 
 ***
 
@@ -112,7 +112,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:180602
+main.ts:192690
 
 ***
 
@@ -126,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:180578
+main.ts:192666
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:180582
+main.ts:192670
 
 ***
 
@@ -152,7 +152,7 @@ product rating info
 
 #### Defined in
 
-main.ts:180596
+main.ts:192684
 
 ***
 
@@ -165,7 +165,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:180589
+main.ts:192677
 
 ***
 
@@ -177,7 +177,7 @@ product title
 
 #### Defined in
 
-main.ts:180568
+main.ts:192656
 
 ***
 
@@ -189,7 +189,7 @@ type of element
 
 #### Defined in
 
-main.ts:180562
+main.ts:192650
 
 ***
 
@@ -201,7 +201,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:180570
+main.ts:192658
 
 ***
 
@@ -213,4 +213,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:180564
+main.ts:192652

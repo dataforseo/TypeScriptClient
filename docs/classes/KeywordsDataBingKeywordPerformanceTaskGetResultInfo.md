@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceTaskGetResultInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:133308
+main.ts:145157
 
 ## Properties
 
@@ -46,7 +48,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:133287
+main.ts:145136
 
 ***
 
@@ -63,7 +65,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133304
+main.ts:145153
 
 ***
 
@@ -80,7 +82,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133293
+main.ts:145142
 
 ***
 
@@ -97,7 +99,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133290
+main.ts:145139
 
 ***
 
@@ -115,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:133301
+main.ts:145150
 
 ***
 
@@ -133,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:133297
+main.ts:145146
 
 ## Methods
 
@@ -143,7 +145,9 @@ main.ts:133297
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -151,7 +155,7 @@ main.ts:133297
 
 #### Defined in
 
-main.ts:133317
+main.ts:145166
 
 ***
 
@@ -161,7 +165,9 @@ main.ts:133317
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -169,7 +175,7 @@ main.ts:133317
 
 #### Defined in
 
-main.ts:133339
+main.ts:145188
 
 ***
 
@@ -179,7 +185,9 @@ main.ts:133339
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -187,4 +195,4 @@ main.ts:133339
 
 #### Defined in
 
-main.ts:133332
+main.ts:145181

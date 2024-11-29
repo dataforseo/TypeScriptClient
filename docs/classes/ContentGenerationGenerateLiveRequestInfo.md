@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationGenerateLiveRequestInfo
 
 # Class: ContentGenerationGenerateLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationGenerateLiveRequestInfo`](../interfaces/IContentGenerationGenerateLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:169536
+main.ts:181125
 
 ## Properties
 
@@ -50,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:169514
+main.ts:181103
 
 ***
 
@@ -70,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:169508
+main.ts:181097
 
 ***
 
@@ -92,7 +94,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169471
+main.ts:181060
 
 ***
 
@@ -113,7 +115,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169456
+main.ts:181045
 
 ***
 
@@ -134,7 +136,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169463
+main.ts:181052
 
 ***
 
@@ -154,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:169520
+main.ts:181109
 
 ***
 
@@ -174,7 +176,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:169526
+main.ts:181115
 
 ***
 
@@ -194,7 +196,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:169532
+main.ts:181121
 
 ***
 
@@ -216,7 +218,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169502
+main.ts:181091
 
 ***
 
@@ -236,7 +238,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:169449
+main.ts:181038
 
 ***
 
@@ -256,7 +258,7 @@ default value: 1
 
 #### Defined in
 
-main.ts:169477
+main.ts:181066
 
 ***
 
@@ -278,7 +280,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169485
+main.ts:181074
 
 ***
 
@@ -301,7 +303,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169494
+main.ts:181083
 
 ## Methods
 
@@ -311,7 +313,9 @@ main.ts:169494
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -319,7 +323,7 @@ main.ts:169494
 
 #### Defined in
 
-main.ts:169545
+main.ts:181134
 
 ***
 
@@ -329,7 +333,9 @@ main.ts:169545
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -337,7 +343,7 @@ main.ts:169545
 
 #### Defined in
 
-main.ts:169586
+main.ts:181175
 
 ***
 
@@ -347,7 +353,9 @@ main.ts:169586
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -355,4 +363,4 @@ main.ts:169586
 
 #### Defined in
 
-main.ts:169579
+main.ts:181168

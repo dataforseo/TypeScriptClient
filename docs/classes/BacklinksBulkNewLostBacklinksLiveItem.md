@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostBacklinksLiveItem
+[Documentation](../README.md) / BacklinksBulkNewLostBacklinksLiveItem
 
 # Class: BacklinksBulkNewLostBacklinksLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md)
+##### data?
+
+[`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:150519
+main.ts:161724
 
 ## Properties
 
@@ -47,7 +49,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:150515
+main.ts:161720
 
 ***
 
@@ -64,7 +66,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:150512
+main.ts:161717
 
 ***
 
@@ -80,7 +82,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:150509
+main.ts:161714
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:150509
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:150509
 
 #### Defined in
 
-main.ts:150528
+main.ts:161733
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:150528
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:150528
 
 #### Defined in
 
-main.ts:150547
+main.ts:161752
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:150547
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:150547
 
 #### Defined in
 
-main.ts:150540
+main.ts:161745

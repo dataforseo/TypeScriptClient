@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleFlightsElement
+[Documentation](../README.md) / GoogleFlightsElement
 
 # Class: GoogleFlightsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md)
+##### data?
+
+[`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:31994
+main.ts:33547
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:31988
+main.ts:33541
 
 ***
 
@@ -62,7 +64,7 @@ type of element
 
 #### Defined in
 
-main.ts:31986
+main.ts:33539
 
 ***
 
@@ -78,7 +80,7 @@ URL
 
 #### Defined in
 
-main.ts:31990
+main.ts:33543
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:31990
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:31990
 
 #### Defined in
 
-main.ts:32003
+main.ts:33556
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:32003
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:32003
 
 #### Defined in
 
-main.ts:32022
+main.ts:33575
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:32022
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:32022
 
 #### Defined in
 
-main.ts:32015
+main.ts:33568

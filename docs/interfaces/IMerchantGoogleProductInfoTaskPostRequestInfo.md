@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleProductInfoTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantGoogleProductInfoTaskPostRequestInfo
 
 # Interface: IMerchantGoogleProductInfoTaskPostRequestInfo
 
@@ -25,7 +25,7 @@ en
 
 #### Defined in
 
-main.ts:178275
+main.ts:190014
 
 ***
 
@@ -42,7 +42,7 @@ English
 
 #### Defined in
 
-main.ts:178268
+main.ts:190007
 
 ***
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:178252
+main.ts:189991
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:178261
+main.ts:190000
 
 ***
 
@@ -95,7 +95,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:178245
+main.ts:189984
 
 ***
 
@@ -110,12 +110,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:178314
+main.ts:190055
 
 ***
 
@@ -131,7 +132,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:178304
+main.ts:190044
 
 ***
 
@@ -146,12 +147,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:178298
+main.ts:190038
 
 ***
 
@@ -169,7 +171,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:178238
+main.ts:189977
 
 ***
 
@@ -185,7 +187,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178230
+main.ts:189969
 
 ***
 
@@ -202,7 +204,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:178282
+main.ts:190021
 
 ***
 
@@ -218,4 +220,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:178288
+main.ts:190027

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:65996
+main.ts:74226
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:65986
+main.ts:74216
 
 ***
 
@@ -71,7 +73,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:65972
+main.ts:74202
 
 ***
 
@@ -92,7 +94,7 @@ en
 
 #### Defined in
 
-main.ts:65968
+main.ts:74198
 
 ***
 
@@ -113,7 +115,7 @@ English
 
 #### Defined in
 
-main.ts:65961
+main.ts:74191
 
 ***
 
@@ -134,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:65954
+main.ts:74184
 
 ***
 
@@ -155,7 +157,7 @@ United States
 
 #### Defined in
 
-main.ts:65947
+main.ts:74177
 
 ***
 
@@ -174,7 +176,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:65977
+main.ts:74207
 
 ***
 
@@ -194,7 +196,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:65992
+main.ts:74222
 
 ***
 
@@ -214,7 +216,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:65940
+main.ts:74170
 
 ## Methods
 
@@ -224,7 +226,9 @@ main.ts:65940
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -232,7 +236,7 @@ main.ts:65940
 
 #### Defined in
 
-main.ts:66005
+main.ts:74235
 
 ***
 
@@ -242,7 +246,9 @@ main.ts:66005
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +256,7 @@ main.ts:66005
 
 #### Defined in
 
-main.ts:66030
+main.ts:74260
 
 ***
 
@@ -260,7 +266,9 @@ main.ts:66030
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -268,4 +276,4 @@ main.ts:66030
 
 #### Defined in
 
-main.ts:66023
+main.ts:74253

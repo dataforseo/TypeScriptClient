@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisRatingDistributionLiveRequestInfo
+[Documentation](../README.md) / ContentAnalysisRatingDistributionLiveRequestInfo
 
 # Class: ContentAnalysisRatingDistributionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md)
+##### data?
+
+[`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:167937
+main.ts:179526
 
 ## Properties
 
@@ -61,7 +63,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:167927
+main.ts:179516
 
 ***
 
@@ -86,7 +88,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:167889
+main.ts:179478
 
 ***
 
@@ -97,11 +99,11 @@ main.ts:167889
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -109,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:167860
+main.ts:179449
 
 ***
 
@@ -139,7 +141,7 @@ example:
 
 #### Defined in
 
-main.ts:167872
+main.ts:179461
 
 ***
 
@@ -159,7 +161,7 @@ possible values:
 
 #### Defined in
 
-main.ts:167878
+main.ts:179467
 
 ***
 
@@ -180,7 +182,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:167903
+main.ts:179492
 
 ***
 
@@ -201,7 +203,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:167896
+main.ts:179485
 
 ***
 
@@ -222,7 +224,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:167910
+main.ts:179499
 
 ***
 
@@ -242,7 +244,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:167933
+main.ts:179522
 
 ## Methods
 
@@ -252,7 +254,9 @@ main.ts:167933
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -260,7 +264,7 @@ main.ts:167933
 
 #### Defined in
 
-main.ts:167946
+main.ts:179535
 
 ***
 
@@ -270,7 +274,9 @@ main.ts:167946
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -278,7 +284,7 @@ main.ts:167946
 
 #### Defined in
 
-main.ts:167985
+main.ts:179574
 
 ***
 
@@ -288,7 +294,9 @@ main.ts:167985
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -296,4 +304,4 @@ main.ts:167985
 
 #### Defined in
 
-main.ts:167978
+main.ts:179567

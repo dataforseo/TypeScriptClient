@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentGenerationPriceData
+[Documentation](../README.md) / IAppendixContentGenerationPriceData
 
 # Interface: IAppendixContentGenerationPriceData
 
@@ -18,57 +18,57 @@
 
 #### Defined in
 
-main.ts:223060
+main.ts:238247
 
 ***
 
 ### generate?
 
-> `optional` **generate**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223061
+main.ts:238248
 
 ***
 
 ### generate\_meta\_tags?
 
-> `optional` **generate\_meta\_tags**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_meta\_tags**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223062
+main.ts:238249
 
 ***
 
 ### generate\_sub\_topics?
 
-> `optional` **generate\_sub\_topics**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_sub\_topics**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223063
+main.ts:238250
 
 ***
 
 ### generate\_text?
 
-> `optional` **generate\_text**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_text**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223064
+main.ts:238251
 
 ***
 
 ### paraphrase?
 
-> `optional` **paraphrase**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **paraphrase**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223065
+main.ts:238252
 
 ***
 
@@ -78,4 +78,4 @@ main.ts:223065
 
 #### Defined in
 
-main.ts:223066
+main.ts:238253

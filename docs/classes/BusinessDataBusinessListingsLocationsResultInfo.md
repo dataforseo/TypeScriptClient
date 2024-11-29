@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsLocationsResultInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsLocationsResultInfo
 
 # Class: BusinessDataBusinessListingsLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:197660
+main.ts:210010
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of businesses in this location in our database
 
 #### Defined in
 
-main.ts:197656
+main.ts:210006
 
 ***
 
@@ -62,7 +64,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:197654
+main.ts:210004
 
 ***
 
@@ -78,7 +80,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:197652
+main.ts:210002
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:197652
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:197652
 
 #### Defined in
 
-main.ts:197669
+main.ts:210019
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:197669
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:197669
 
 #### Defined in
 
-main.ts:197688
+main.ts:210038
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:197688
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:197688
 
 #### Defined in
 
-main.ts:197681
+main.ts:210031

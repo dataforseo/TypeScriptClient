@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixDayStatisticsMoneyData
+[Documentation](../README.md) / IAppendixDayStatisticsMoneyData
 
 # Interface: IAppendixDayStatisticsMoneyData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:220776
+main.ts:235783
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:220776
 
 #### Defined in
 
-main.ts:220762
+main.ts:235769
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:220762
 
 #### Defined in
 
-main.ts:220774
+main.ts:235781
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:220774
 
 #### Defined in
 
-main.ts:220772
+main.ts:235779
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:220772
 
 #### Defined in
 
-main.ts:220778
+main.ts:235785
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:220778
 
 #### Defined in
 
-main.ts:220780
+main.ts:235787
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:220780
 
 #### Defined in
 
-main.ts:220764
+main.ts:235771
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:220764
 
 #### Defined in
 
-main.ts:220766
+main.ts:235773
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:220766
 
 #### Defined in
 
-main.ts:220760
+main.ts:235767
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:220760
 
 #### Defined in
 
-main.ts:220768
+main.ts:235775
 
 ***
 
@@ -118,17 +118,17 @@ main.ts:220768
 
 #### Defined in
 
-main.ts:220770
+main.ts:235777
 
 ***
 
 ### reviews?
 
-> `optional` **reviews**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **reviews**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
 
 #### Defined in
 
-main.ts:220788
+main.ts:235795
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:220788
 
 #### Defined in
 
-main.ts:220756
+main.ts:235763
 
 ***
 
@@ -150,7 +150,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:220758
+main.ts:235765
 
 ***
 
@@ -160,7 +160,7 @@ main.ts:220758
 
 #### Defined in
 
-main.ts:220777
+main.ts:235784
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:220777
 
 #### Defined in
 
-main.ts:220763
+main.ts:235770
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:220763
 
 #### Defined in
 
-main.ts:220775
+main.ts:235782
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:220775
 
 #### Defined in
 
-main.ts:220773
+main.ts:235780
 
 ***
 
@@ -200,7 +200,7 @@ main.ts:220773
 
 #### Defined in
 
-main.ts:220779
+main.ts:235786
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:220779
 
 #### Defined in
 
-main.ts:220781
+main.ts:235788
 
 ***
 
@@ -220,7 +220,7 @@ main.ts:220781
 
 #### Defined in
 
-main.ts:220765
+main.ts:235772
 
 ***
 
@@ -230,7 +230,7 @@ main.ts:220765
 
 #### Defined in
 
-main.ts:220767
+main.ts:235774
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:220767
 
 #### Defined in
 
-main.ts:220761
+main.ts:235768
 
 ***
 
@@ -250,7 +250,7 @@ main.ts:220761
 
 #### Defined in
 
-main.ts:220769
+main.ts:235776
 
 ***
 
@@ -260,7 +260,7 @@ main.ts:220769
 
 #### Defined in
 
-main.ts:220771
+main.ts:235778
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:220771
 
 #### Defined in
 
-main.ts:220787
+main.ts:235794
 
 ***
 
@@ -280,7 +280,7 @@ main.ts:220787
 
 #### Defined in
 
-main.ts:220759
+main.ts:235766
 
 ***
 
@@ -290,7 +290,7 @@ main.ts:220759
 
 #### Defined in
 
-main.ts:220786
+main.ts:235793
 
 ***
 
@@ -304,4 +304,4 @@ minute in the yyyy-MM-dd HH:mm format
 
 #### Defined in
 
-main.ts:220785
+main.ts:235792

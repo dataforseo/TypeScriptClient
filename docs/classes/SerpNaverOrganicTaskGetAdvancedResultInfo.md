@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpNaverOrganicTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpNaverOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpNaverOrganicTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:72082
+main.ts:81721
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:72058
+main.ts:81694
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:72063
+main.ts:81699
 
 ***
 
@@ -85,7 +87,7 @@ images, local_pack, map, organic, paid, related_searches, video
 
 #### Defined in
 
-main.ts:72071
+main.ts:81710
 
 ***
 
@@ -102,7 +104,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:72078
+main.ts:81717
 
 ***
 
@@ -118,7 +120,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:72075
+main.ts:81714
 
 ***
 
@@ -135,7 +137,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:72047
+main.ts:81683
 
 ***
 
@@ -151,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:72055
+main.ts:81691
 
 ***
 
@@ -167,7 +169,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:72053
+main.ts:81689
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpNaverOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:81705
 
 ***
 
@@ -183,7 +202,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:72051
+main.ts:81687
 
 ***
 
@@ -199,7 +218,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:72073
+main.ts:81712
 
 ***
 
@@ -216,7 +235,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:72066
+main.ts:81702
 
 ***
 
@@ -232,7 +251,7 @@ type of element
 
 #### Defined in
 
-main.ts:72049
+main.ts:81685
 
 ## Methods
 
@@ -242,7 +261,9 @@ main.ts:72049
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +271,7 @@ main.ts:72049
 
 #### Defined in
 
-main.ts:72091
+main.ts:81730
 
 ***
 
@@ -260,7 +281,9 @@ main.ts:72091
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +291,7 @@ main.ts:72091
 
 #### Defined in
 
-main.ts:72127
+main.ts:81767
 
 ***
 
@@ -278,7 +301,9 @@ main.ts:72127
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +311,4 @@ main.ts:72127
 
 #### Defined in
 
-main.ts:72120
+main.ts:81760

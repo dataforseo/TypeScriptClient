@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInformationDetailsItem
+[Documentation](../README.md) / IProductInformationDetailsItem
 
 # Interface: IProductInformationDetailsItem
 
@@ -28,7 +28,7 @@ contains information specified about the product within the section_name
 
 #### Defined in
 
-main.ts:182023
+main.ts:194141
 
 ***
 
@@ -44,7 +44,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:23413
+main.ts:24311
 
 ***
 
@@ -60,4 +60,4 @@ type of element
 
 #### Defined in
 
-main.ts:23411
+main.ts:24309

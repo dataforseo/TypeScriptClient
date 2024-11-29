@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusyWorkingTimeInfo
+[Documentation](../README.md) / IBusyWorkingTimeInfo
 
 # Interface: IBusyWorkingTimeInfo
 
@@ -22,7 +22,7 @@ higher value corresponds to a busier time of a day
 
 #### Defined in
 
-main.ts:198683
+main.ts:211033
 
 ***
 
@@ -34,4 +34,4 @@ busy hours
 
 #### Defined in
 
-main.ts:198679
+main.ts:211029

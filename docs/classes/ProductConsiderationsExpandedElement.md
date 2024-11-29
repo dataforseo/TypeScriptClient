@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductConsiderationsExpandedElement
+[Documentation](../README.md) / ProductConsiderationsExpandedElement
 
 # Class: ProductConsiderationsExpandedElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md)
+##### data?
+
+[`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:35125
+main.ts:36610
 
 ## Properties
 
@@ -48,7 +50,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:35121
+main.ts:36606
 
 ***
 
@@ -64,7 +66,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:35104
+main.ts:36589
 
 ***
 
@@ -80,7 +82,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:35108
+main.ts:36593
 
 ***
 
@@ -96,7 +98,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:35102
+main.ts:36587
 
 ***
 
@@ -112,7 +114,7 @@ search queries related to the elment
 
 #### Defined in
 
-main.ts:35117
+main.ts:36602
 
 ***
 
@@ -128,7 +130,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:35106
+main.ts:36591
 
 ***
 
@@ -147,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:35115
+main.ts:36600
 
 ***
 
@@ -163,7 +165,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:35100
+main.ts:36585
 
 ***
 
@@ -179,7 +181,7 @@ type of element
 
 #### Defined in
 
-main.ts:35098
+main.ts:36583
 
 ***
 
@@ -195,7 +197,7 @@ URL of element
 
 #### Defined in
 
-main.ts:35110
+main.ts:36595
 
 ## Methods
 
@@ -205,7 +207,9 @@ main.ts:35110
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +217,7 @@ main.ts:35110
 
 #### Defined in
 
-main.ts:35134
+main.ts:36619
 
 ***
 
@@ -223,7 +227,9 @@ main.ts:35134
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -231,7 +237,7 @@ main.ts:35134
 
 #### Defined in
 
-main.ts:35164
+main.ts:36649
 
 ***
 
@@ -241,7 +247,9 @@ main.ts:35164
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -249,4 +257,4 @@ main.ts:35164
 
 #### Defined in
 
-main.ts:35157
+main.ts:36642

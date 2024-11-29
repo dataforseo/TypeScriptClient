@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
@@ -24,7 +24,9 @@ items array
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@ items array
 
 #### Defined in
 
-main.ts:76532
+main.ts:86238
 
 ## Properties
 
@@ -49,7 +51,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:76525
+main.ts:86231
 
 ***
 
@@ -65,7 +67,7 @@ technology category id
 
 #### Defined in
 
-main.ts:76517
+main.ts:86223
 
 ***
 
@@ -81,7 +83,7 @@ technology group id
 
 #### Defined in
 
-main.ts:76515
+main.ts:86221
 
 ***
 
@@ -98,7 +100,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:76522
+main.ts:86228
 
 ***
 
@@ -115,7 +117,7 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Defined in
 
-main.ts:76528
+main.ts:86234
 
 ***
 
@@ -131,7 +133,7 @@ technology name
 
 #### Defined in
 
-main.ts:76519
+main.ts:86225
 
 ***
 
@@ -147,7 +149,7 @@ type of element
 
 #### Defined in
 
-main.ts:76513
+main.ts:86219
 
 ## Methods
 
@@ -157,7 +159,9 @@ main.ts:76513
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +169,7 @@ main.ts:76513
 
 #### Defined in
 
-main.ts:76541
+main.ts:86247
 
 ***
 
@@ -175,7 +179,9 @@ main.ts:76541
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -183,7 +189,7 @@ main.ts:76541
 
 #### Defined in
 
-main.ts:76564
+main.ts:86270
 
 ***
 
@@ -193,7 +199,9 @@ main.ts:76564
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -201,4 +209,4 @@ main.ts:76564
 
 #### Defined in
 
-main.ts:76557
+main.ts:86263

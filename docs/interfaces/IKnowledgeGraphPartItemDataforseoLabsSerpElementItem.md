@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphPartItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphPartItemDataforseoLabsSerpElementItem
 
@@ -22,11 +22,11 @@
 
 google defined data attribute ID
 example:
-kc:/local:place qa
+kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:97848
+main.ts:107666
 
 ***
 
@@ -38,7 +38,7 @@ link of the element
 
 #### Defined in
 
-main.ts:97852
+main.ts:107670
 
 ***
 
@@ -56,7 +56,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -73,7 +73,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -98,11 +98,11 @@ main.ts:21018
 
 > `optional` **text**: `string`
 
-content within the item
+description content
 
 #### Defined in
 
-main.ts:97850
+main.ts:107668
 
 ***
 
@@ -110,11 +110,11 @@ main.ts:97850
 
 > `optional` **title**: `string`
 
-title of a given link element
+title of the element
 
 #### Defined in
 
-main.ts:97844
+main.ts:107662
 
 ***
 
@@ -130,7 +130,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -146,4 +146,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

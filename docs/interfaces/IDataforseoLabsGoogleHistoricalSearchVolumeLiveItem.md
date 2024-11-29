@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
@@ -21,20 +21,20 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:86007
+main.ts:95723
 
 ***
 
 ### clickstream\_keyword\_info?
 
-> `optional` **clickstream\_keyword\_info**: `any`
+> `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](../classes/ClickstreamKeywordInfo.md)
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
 
 #### Defined in
 
-main.ts:85993
+main.ts:95709
 
 ***
 
@@ -50,7 +50,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:86001
+main.ts:95717
 
 ***
 
@@ -59,11 +59,11 @@ main.ts:86001
 > `optional` **keyword**: `string`
 
 keyword
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:85975
+main.ts:95691
 
 ***
 
@@ -75,7 +75,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:85986
+main.ts:95702
 
 ***
 
@@ -87,7 +87,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:85988
+main.ts:95704
 
 ***
 
@@ -99,7 +99,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:85990
+main.ts:95706
 
 ***
 
@@ -111,7 +111,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:85995
+main.ts:95711
 
 ***
 
@@ -123,7 +123,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:85980
+main.ts:95696
 
 ***
 
@@ -136,7 +136,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:85978
+main.ts:95694
 
 ***
 
@@ -148,7 +148,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85972
+main.ts:95688
 
 ***
 
@@ -162,7 +162,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:85984
+main.ts:95700
 
 ***
 
@@ -175,4 +175,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:86004
+main.ts:95720

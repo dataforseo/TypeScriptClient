@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesLiveResultInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesLiveResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:204913
+main.ts:218081
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:204898
+main.ts:218066
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:204903
+main.ts:218071
 
 ***
 
@@ -83,7 +85,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-main.ts:204909
+main.ts:218077
 
 ***
 
@@ -100,7 +102,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:204906
+main.ts:218074
 
 ***
 
@@ -109,7 +111,7 @@ main.ts:204906
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -117,7 +119,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:204891
+main.ts:218059
 
 ***
 
@@ -133,7 +135,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:204895
+main.ts:218063
 
 ***
 
@@ -149,7 +151,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:204893
+main.ts:218061
 
 ## Methods
 
@@ -159,7 +161,9 @@ main.ts:204893
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -167,7 +171,7 @@ main.ts:204893
 
 #### Defined in
 
-main.ts:204922
+main.ts:218090
 
 ***
 
@@ -177,7 +181,9 @@ main.ts:204922
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -185,7 +191,7 @@ main.ts:204922
 
 #### Defined in
 
-main.ts:204949
+main.ts:218117
 
 ***
 
@@ -195,7 +201,9 @@ main.ts:204949
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -203,4 +211,4 @@ main.ts:204949
 
 #### Defined in
 
-main.ts:204942
+main.ts:218110

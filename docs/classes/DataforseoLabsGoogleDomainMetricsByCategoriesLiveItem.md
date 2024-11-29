@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:89445
+main.ts:99163
 
 ## Properties
 
@@ -46,7 +48,7 @@ domain found for the specified category
 
 #### Defined in
 
-main.ts:89434
+main.ts:99152
 
 ***
 
@@ -62,7 +64,7 @@ primary domain
 
 #### Defined in
 
-main.ts:89436
+main.ts:99154
 
 ***
 
@@ -83,7 +85,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Defined in
 
-main.ts:89441
+main.ts:99159
 
 ***
 
@@ -103,7 +105,7 @@ historical ranking and traffic data of the domain
 
 #### Defined in
 
-main.ts:89438
+main.ts:99156
 
 ***
 
@@ -119,7 +121,7 @@ current total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:89426
+main.ts:99144
 
 ***
 
@@ -135,7 +137,7 @@ current organic ETV of the domain
 
 #### Defined in
 
-main.ts:89424
+main.ts:99142
 
 ***
 
@@ -152,7 +154,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Defined in
 
-main.ts:89429
+main.ts:99147
 
 ***
 
@@ -169,7 +171,7 @@ indicates how many new ranked elements were found for the domain
 
 #### Defined in
 
-main.ts:89432
+main.ts:99150
 
 ***
 
@@ -185,7 +187,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89420
+main.ts:99138
 
 ***
 
@@ -201,7 +203,7 @@ categories for which domains are collected
 
 #### Defined in
 
-main.ts:89422
+main.ts:99140
 
 ## Methods
 
@@ -211,7 +213,9 @@ main.ts:89422
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -219,7 +223,7 @@ main.ts:89422
 
 #### Defined in
 
-main.ts:89454
+main.ts:99172
 
 ***
 
@@ -229,7 +233,9 @@ main.ts:89454
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -237,7 +243,7 @@ main.ts:89454
 
 #### Defined in
 
-main.ts:89496
+main.ts:99214
 
 ***
 
@@ -247,7 +253,9 @@ main.ts:89496
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -255,4 +263,4 @@ main.ts:89496
 
 #### Defined in
 
-main.ts:89489
+main.ts:99207

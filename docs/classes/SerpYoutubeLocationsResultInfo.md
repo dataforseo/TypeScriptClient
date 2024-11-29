@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeLocationsResultInfo
+[Documentation](../README.md) / SerpYoutubeLocationsResultInfo
 
 # Class: SerpYoutubeLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeLocationsResultInfo`](../interfaces/ISerpYoutubeLocationsResultInfo.md)
+##### data?
+
+[`ISerpYoutubeLocationsResultInfo`](../interfaces/ISerpYoutubeLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:60768
+main.ts:68946
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:60762
+main.ts:68940
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:60749
+main.ts:68927
 
 ***
 
@@ -85,7 +87,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:60760
+main.ts:68938
 
 ***
 
@@ -101,7 +103,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:60751
+main.ts:68929
 
 ***
 
@@ -117,7 +119,7 @@ location type
 
 #### Defined in
 
-main.ts:60764
+main.ts:68942
 
 ## Methods
 
@@ -127,7 +129,9 @@ main.ts:60764
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -135,7 +139,7 @@ main.ts:60764
 
 #### Defined in
 
-main.ts:60777
+main.ts:68955
 
 ***
 
@@ -145,7 +149,9 @@ main.ts:60777
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -153,7 +159,7 @@ main.ts:60777
 
 #### Defined in
 
-main.ts:60798
+main.ts:68976
 
 ***
 
@@ -163,7 +169,9 @@ main.ts:60798
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -171,4 +179,4 @@ main.ts:60798
 
 #### Defined in
 
-main.ts:60791
+main.ts:68969

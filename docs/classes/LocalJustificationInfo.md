@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalJustificationInfo
+[Documentation](../README.md) / LocalJustificationInfo
 
 # Class: LocalJustificationInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md)
+##### data?
+
+[`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:39762
+main.ts:41571
 
 ## Properties
 
@@ -46,7 +48,7 @@ text snippet of local justification
 
 #### Defined in
 
-main.ts:39758
+main.ts:41567
 
 ***
 
@@ -62,7 +64,7 @@ type of element
 
 #### Defined in
 
-main.ts:39756
+main.ts:41565
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:39756
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:39756
 
 #### Defined in
 
-main.ts:39771
+main.ts:41580
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:39771
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:39771
 
 #### Defined in
 
-main.ts:39789
+main.ts:41598
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:39789
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:39789
 
 #### Defined in
 
-main.ts:39782
+main.ts:41591

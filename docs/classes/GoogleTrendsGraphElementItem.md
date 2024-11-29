@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleTrendsGraphElementItem
+[Documentation](../README.md) / GoogleTrendsGraphElementItem
 
 # Class: GoogleTrendsGraphElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md)
+##### data?
+
+[`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:123709
+main.ts:133958
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:123709
 
 #### Defined in
 
-main.ts:21809
+main.ts:22707
 
 ***
 
@@ -68,7 +70,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:123705
+main.ts:133954
 
 ***
 
@@ -84,7 +86,7 @@ Google Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:123703
+main.ts:133952
 
 ***
 
@@ -105,7 +107,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:21807
+main.ts:22705
 
 ***
 
@@ -126,7 +128,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21802
+main.ts:22700
 
 ***
 
@@ -146,7 +148,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:21804
+main.ts:22702
 
 ***
 
@@ -166,7 +168,7 @@ type of element
 
 #### Defined in
 
-main.ts:21799
+main.ts:22697
 
 ## Methods
 
@@ -176,7 +178,9 @@ main.ts:21799
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -188,7 +192,7 @@ main.ts:21799
 
 #### Defined in
 
-main.ts:123714
+main.ts:133963
 
 ***
 
@@ -198,7 +202,9 @@ main.ts:123714
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -210,7 +216,7 @@ main.ts:123714
 
 #### Defined in
 
-main.ts:123741
+main.ts:133990
 
 ***
 
@@ -220,7 +226,9 @@ main.ts:123741
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -232,4 +240,4 @@ main.ts:123741
 
 #### Defined in
 
-main.ts:123734
+main.ts:133983

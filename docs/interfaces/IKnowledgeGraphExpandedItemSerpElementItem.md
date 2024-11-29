@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphExpandedItemSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphExpandedItemSerpElementItem
 
 # Interface: IKnowledgeGraphExpandedItemSerpElementItem
 
@@ -26,7 +26,7 @@ kc:/local:place qa
 
 #### Defined in
 
-main.ts:28703
+main.ts:30262
 
 ***
 
@@ -38,7 +38,7 @@ link of the element
 
 #### Defined in
 
-main.ts:28705
+main.ts:30264
 
 ***
 
@@ -56,7 +56,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -73,7 +73,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -91,7 +91,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -105,7 +105,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28709
+main.ts:30268
 
 ***
 
@@ -117,7 +117,7 @@ title of the link
 
 #### Defined in
 
-main.ts:28699
+main.ts:30258
 
 ***
 
@@ -133,7 +133,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -149,4 +149,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

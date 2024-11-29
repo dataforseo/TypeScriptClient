@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleAppIntersectionLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleAppIntersectionLiveItem
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:113498
+main.ts:122830
 
 ## Properties
 
@@ -52,13 +54,13 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Defined in
 
-main.ts:113494
+main.ts:122826
 
 ***
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -68,7 +70,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:113490
+main.ts:122822
 
 ***
 
@@ -84,7 +86,7 @@ search engine type
 
 #### Defined in
 
-main.ts:113488
+main.ts:122820
 
 ## Methods
 
@@ -94,7 +96,9 @@ main.ts:113488
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -102,7 +106,7 @@ main.ts:113488
 
 #### Defined in
 
-main.ts:113507
+main.ts:122839
 
 ***
 
@@ -112,7 +116,9 @@ main.ts:113507
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -120,7 +126,7 @@ main.ts:113507
 
 #### Defined in
 
-main.ts:113532
+main.ts:122864
 
 ***
 
@@ -130,7 +136,9 @@ main.ts:113532
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -138,4 +146,4 @@ main.ts:113532
 
 #### Defined in
 
-main.ts:113525
+main.ts:122857

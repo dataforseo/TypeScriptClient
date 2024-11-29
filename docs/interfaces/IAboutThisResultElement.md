@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAboutThisResultElement
+[Documentation](../README.md) / IAboutThisResultElement
 
 # Interface: IAboutThisResultElement
 
@@ -20,7 +20,7 @@ the language of the result
 
 #### Defined in
 
-main.ts:22297
+main.ts:23195
 
 ***
 
@@ -32,7 +32,7 @@ location for which the result is relevant
 
 #### Defined in
 
-main.ts:22299
+main.ts:23197
 
 ***
 
@@ -44,7 +44,7 @@ related search terms that appear in the result
 
 #### Defined in
 
-main.ts:22303
+main.ts:23201
 
 ***
 
@@ -56,7 +56,7 @@ matching search terms that appear in the result
 
 #### Defined in
 
-main.ts:22301
+main.ts:23199
 
 ***
 
@@ -68,7 +68,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:22290
+main.ts:23188
 
 ***
 
@@ -81,7 +81,7 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-main.ts:22293
+main.ts:23191
 
 ***
 
@@ -93,7 +93,7 @@ URL to full information from the 'source'
 
 #### Defined in
 
-main.ts:22295
+main.ts:23193
 
 ***
 
@@ -105,7 +105,7 @@ type of element
 
 #### Defined in
 
-main.ts:22286
+main.ts:23184
 
 ***
 
@@ -117,4 +117,4 @@ result’s URL
 
 #### Defined in
 
-main.ts:22288
+main.ts:23186

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixTechnologiesDomainAnalyticsPriceData
+[Documentation](../README.md) / AppendixTechnologiesDomainAnalyticsPriceData
 
 # Class: AppendixTechnologiesDomainAnalyticsPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md)
+##### data?
+
+[`IAppendixTechnologiesDomainAnalyticsPriceData`](../interfaces/IAppendixTechnologiesDomainAnalyticsPriceData.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:223312
+main.ts:238499
 
 ## Properties
 
 ### aggregation\_technologies?
 
-> `optional` **aggregation\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **aggregation\_technologies**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -44,13 +46,13 @@ main.ts:223312
 
 #### Defined in
 
-main.ts:223303
+main.ts:238490
 
 ***
 
 ### domain\_technologies?
 
-> `optional` **domain\_technologies**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domain\_technologies**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,13 +60,13 @@ main.ts:223303
 
 #### Defined in
 
-main.ts:223306
+main.ts:238493
 
 ***
 
 ### domains\_by\_html\_terms?
 
-> `optional` **domains\_by\_html\_terms**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domains\_by\_html\_terms**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -72,13 +74,13 @@ main.ts:223306
 
 #### Defined in
 
-main.ts:223304
+main.ts:238491
 
 ***
 
 ### domains\_by\_technology?
 
-> `optional` **domains\_by\_technology**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **domains\_by\_technology**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -86,7 +88,7 @@ main.ts:223304
 
 #### Defined in
 
-main.ts:223305
+main.ts:238492
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:223305
 
 #### Defined in
 
-main.ts:223300
+main.ts:238487
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:223300
 
 #### Defined in
 
-main.ts:223301
+main.ts:238488
 
 ***
 
@@ -128,13 +130,13 @@ main.ts:223301
 
 #### Defined in
 
-main.ts:223302
+main.ts:238489
 
 ***
 
 ### technologies\_summary?
 
-> `optional` **technologies\_summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **technologies\_summary**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -142,13 +144,13 @@ main.ts:223302
 
 #### Defined in
 
-main.ts:223307
+main.ts:238494
 
 ***
 
 ### technology\_stats?
 
-> `optional` **technology\_stats**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **technology\_stats**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -156,7 +158,7 @@ main.ts:223307
 
 #### Defined in
 
-main.ts:223308
+main.ts:238495
 
 ## Methods
 
@@ -166,7 +168,9 @@ main.ts:223308
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -174,7 +178,7 @@ main.ts:223308
 
 #### Defined in
 
-main.ts:223321
+main.ts:238508
 
 ***
 
@@ -184,7 +188,9 @@ main.ts:223321
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -192,7 +198,7 @@ main.ts:223321
 
 #### Defined in
 
-main.ts:223346
+main.ts:238533
 
 ***
 
@@ -202,7 +208,9 @@ main.ts:223346
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -210,4 +218,4 @@ main.ts:223346
 
 #### Defined in
 
-main.ts:223339
+main.ts:238526

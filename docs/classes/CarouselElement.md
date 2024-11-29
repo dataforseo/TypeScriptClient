@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CarouselElement
+[Documentation](../README.md) / CarouselElement
 
 # Class: CarouselElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ICarouselElement`](../interfaces/ICarouselElement.md)
+##### data?
+
+[`ICarouselElement`](../interfaces/ICarouselElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:31445
+main.ts:33004
 
 ## Properties
 
@@ -47,7 +49,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:31441
+main.ts:33000
 
 ***
 
@@ -63,7 +65,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:31438
+main.ts:32997
 
 ***
 
@@ -79,7 +81,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31436
+main.ts:32995
 
 ***
 
@@ -95,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:31434
+main.ts:32993
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:31434
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:31434
 
 #### Defined in
 
-main.ts:31454
+main.ts:33013
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:31454
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:31454
 
 #### Defined in
 
-main.ts:31474
+main.ts:33033
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:31474
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:31474
 
 #### Defined in
 
-main.ts:31467
+main.ts:33026

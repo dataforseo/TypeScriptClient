@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
+[Documentation](../README.md) / ISerpGoogleSearchByImageTaskPostRequestInfo
 
 # Interface: ISerpGoogleSearchByImageTaskPostRequestInfo
 
@@ -24,7 +24,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:49128
+main.ts:52813
 
 ***
 
@@ -40,7 +40,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:49134
+main.ts:52819
 
 ***
 
@@ -56,7 +56,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:49122
+main.ts:52807
 
 ***
 
@@ -73,7 +73,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:49116
+main.ts:52801
 
 ***
 
@@ -89,7 +89,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Defined in
 
-main.ts:49049
+main.ts:52734
 
 ***
 
@@ -106,7 +106,7 @@ en
 
 #### Defined in
 
-main.ts:49102
+main.ts:52787
 
 ***
 
@@ -123,7 +123,7 @@ English
 
 #### Defined in
 
-main.ts:49095
+main.ts:52780
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:49078
+main.ts:52763
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:49088
+main.ts:52773
 
 ***
 
@@ -177,7 +177,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:49071
+main.ts:52756
 
 ***
 
@@ -194,7 +194,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:49064
+main.ts:52749
 
 ***
 
@@ -209,12 +209,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:49170
+main.ts:52857
 
 ***
 
@@ -230,7 +231,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:49160
+main.ts:52846
 
 ***
 
@@ -245,12 +246,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:49154
+main.ts:52840
 
 ***
 
@@ -268,7 +270,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:49057
+main.ts:52742
 
 ***
 
@@ -285,7 +287,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:49109
+main.ts:52794
 
 ***
 
@@ -299,7 +301,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:49138
+main.ts:52823
 
 ***
 
@@ -315,4 +317,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:49144
+main.ts:52829

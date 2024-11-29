@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLinksRequestInfo
+[Documentation](../README.md) / OnPageLinksRequestInfo
 
 # Class: OnPageLinksRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md)
+##### data?
+
+[`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:157648
+main.ts:169283
 
 ## Properties
 
@@ -61,7 +63,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:157638
+main.ts:169273
 
 ***
 
@@ -81,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:157601
+main.ts:169236
 
 ***
 
@@ -100,7 +102,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:157616
+main.ts:169251
 
 ***
 
@@ -119,7 +121,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 #### Defined in
 
-main.ts:157621
+main.ts:169256
 
 ***
 
@@ -138,7 +140,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:157606
+main.ts:169241
 
 ***
 
@@ -157,7 +159,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:157611
+main.ts:169246
 
 ***
 
@@ -177,7 +179,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:157644
+main.ts:169279
 
 ## Methods
 
@@ -187,7 +189,9 @@ main.ts:157644
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +199,7 @@ main.ts:157644
 
 #### Defined in
 
-main.ts:157657
+main.ts:169292
 
 ***
 
@@ -205,7 +209,9 @@ main.ts:157657
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +219,7 @@ main.ts:157657
 
 #### Defined in
 
-main.ts:157684
+main.ts:169319
 
 ***
 
@@ -223,7 +229,9 @@ main.ts:157684
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -231,4 +239,4 @@ main.ts:157684
 
 #### Defined in
 
-main.ts:157677
+main.ts:169312

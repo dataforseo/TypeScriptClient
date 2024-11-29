@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPopularProductsElement
+[Documentation](../README.md) / IPopularProductsElement
 
 # Interface: IPopularProductsElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:33165
+main.ts:34718
 
 ***
 
@@ -33,7 +33,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:33170
+main.ts:34723
 
 ***
 
@@ -45,7 +45,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33172
+main.ts:34725
 
 ***
 
@@ -58,7 +58,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33175
+main.ts:34728
 
 ***
 
@@ -70,7 +70,7 @@ seller of the product
 
 #### Defined in
 
-main.ts:33167
+main.ts:34720
 
 ***
 
@@ -82,7 +82,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33163
+main.ts:34716
 
 ***
 
@@ -94,4 +94,4 @@ type of element
 
 #### Defined in
 
-main.ts:33161
+main.ts:34714

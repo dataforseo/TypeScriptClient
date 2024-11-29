@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITrustpilotReviewSearchBusinessDataSerpElementItem
 
@@ -24,7 +24,7 @@ the language of the review
 
 #### Defined in
 
-main.ts:211883
+main.ts:226816
 
 ***
 
@@ -37,7 +37,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:211875
+main.ts:226808
 
 ***
 
@@ -53,7 +53,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21397
+main.ts:22295
 
 ***
 
@@ -70,7 +70,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21395
+main.ts:22293
 
 ***
 
@@ -82,7 +82,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:211879
+main.ts:226812
 
 ***
 
@@ -94,7 +94,7 @@ owner’s response to the submitted review
 
 #### Defined in
 
-main.ts:211900
+main.ts:226833
 
 ***
 
@@ -108,7 +108,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Defined in
 
-main.ts:211896
+main.ts:226829
 
 ***
 
@@ -120,7 +120,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:211892
+main.ts:226825
 
 ***
 
@@ -135,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:211888
+main.ts:226821
 
 ***
 
@@ -147,7 +147,7 @@ the title of the review
 
 #### Defined in
 
-main.ts:211890
+main.ts:226823
 
 ***
 
@@ -163,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:21392
+main.ts:22290
 
 ***
 
@@ -175,7 +175,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:211877
+main.ts:226810
 
 ***
 
@@ -187,7 +187,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:211898
+main.ts:226831
 
 ***
 
@@ -199,4 +199,4 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-main.ts:211881
+main.ts:226814

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksReferringDomainsLiveResultInfo
+[Documentation](../README.md) / IBacklinksReferringDomainsLiveResultInfo
 
 # Interface: IBacklinksReferringDomainsLiveResultInfo
 
@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:144658
+main.ts:155863
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:144656
+main.ts:155861
 
 ***
 
@@ -44,7 +44,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:144650
+main.ts:155855
 
 ***
 
@@ -58,4 +58,4 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Defined in
 
-main.ts:144654
+main.ts:155859

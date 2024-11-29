@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:102290
+main.ts:112028
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains keyword search volume data data
 
 #### Defined in
 
-main.ts:102286
+main.ts:112024
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:102284
+main.ts:112022
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:102280
+main.ts:112018
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:102277
+main.ts:112015
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:102274
+main.ts:112012
 
 ***
 
@@ -128,7 +130,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:102282
+main.ts:112020
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:102282
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:102282
 
 #### Defined in
 
-main.ts:102299
+main.ts:112037
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:102299
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:102299
 
 #### Defined in
 
-main.ts:102325
+main.ts:112063
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:102325
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:102325
 
 #### Defined in
 
-main.ts:102318
+main.ts:112056

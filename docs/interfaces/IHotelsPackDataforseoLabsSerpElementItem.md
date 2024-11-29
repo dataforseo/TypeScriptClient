@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelsPackDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IHotelsPackDataforseoLabsSerpElementItem
 
 # Interface: IHotelsPackDataforseoLabsSerpElementItem
 
@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:97687
+main.ts:107507
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:97692
+main.ts:107512
 
 ***
 
@@ -54,7 +54,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:97694
+main.ts:107514
 
 ***
 
@@ -72,7 +72,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -89,7 +89,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -106,7 +106,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -118,7 +118,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97682
+main.ts:107502
 
 ***
 
@@ -134,7 +134,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -150,4 +150,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

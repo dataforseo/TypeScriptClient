@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingCompetitorsDomainLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
@@ -40,7 +40,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:106657
+main.ts:116295
 
 ***
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:106603
+main.ts:116241
 
 ***
 
@@ -80,7 +80,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:106663
+main.ts:116301
 
 ***
 
@@ -99,7 +99,7 @@ default value:
 
 #### Defined in
 
-main.ts:106589
+main.ts:116227
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Defined in
 
-main.ts:106580
+main.ts:116218
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Defined in
 
-main.ts:106572
+main.ts:116210
 
 ***
 
@@ -150,7 +150,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:106625
+main.ts:116263
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Defined in
 
-main.ts:106564
+main.ts:116202
 
 ***
 
@@ -188,7 +188,7 @@ United States
 
 #### Defined in
 
-main.ts:106555
+main.ts:116193
 
 ***
 
@@ -203,7 +203,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 #### Defined in
 
-main.ts:106635
+main.ts:116273
 
 ***
 
@@ -218,7 +218,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:106630
+main.ts:116268
 
 ***
 
@@ -245,7 +245,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:106620
+main.ts:116258
 
 ***
 
@@ -261,7 +261,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106669
+main.ts:116307
 
 ***
 
@@ -276,4 +276,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:106546
+main.ts:116184

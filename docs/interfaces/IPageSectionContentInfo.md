@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPageSectionContentInfo
+[Documentation](../README.md) / IPageSectionContentInfo
 
 # Interface: IPageSectionContentInfo
 
@@ -21,7 +21,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161449
+main.ts:173062
 
 ***
 
@@ -34,7 +34,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161452
+main.ts:173065
 
 ***
 
@@ -46,4 +46,4 @@ content of the table on the page
 
 #### Defined in
 
-main.ts:161454
+main.ts:173067

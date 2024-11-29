@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleOrganicLiveRegularResultInfo
+[Documentation](../README.md) / SerpGoogleOrganicLiveRegularResultInfo
 
 # Class: SerpGoogleOrganicLiveRegularResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleOrganicLiveRegularResultInfo`](../interfaces/ISerpGoogleOrganicLiveRegularResultInfo.md)
+##### data?
+
+[`ISerpGoogleOrganicLiveRegularResultInfo`](../interfaces/ISerpGoogleOrganicLiveRegularResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:37580
+main.ts:39073
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:37554
+main.ts:39045
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:37559
+main.ts:39050
 
 ***
 
@@ -88,7 +90,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Defined in
 
-main.ts:37570
+main.ts:39063
 
 ***
 
@@ -104,7 +106,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:37576
+main.ts:39069
 
 ***
 
@@ -120,7 +122,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:37574
+main.ts:39067
 
 ***
 
@@ -129,7 +131,7 @@ main.ts:37574
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -137,7 +139,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:37543
+main.ts:39034
 
 ***
 
@@ -153,7 +155,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:37551
+main.ts:39042
 
 ***
 
@@ -169,7 +171,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:37549
+main.ts:39040
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleOrganicLiveRegularResultInfo`](../interfaces/ISerpGoogleOrganicLiveRegularResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleOrganicLiveRegularResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:39055
 
 ***
 
@@ -185,7 +203,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:37547
+main.ts:39038
 
 ***
 
@@ -201,7 +219,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:37572
+main.ts:39065
 
 ***
 
@@ -218,7 +236,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:37562
+main.ts:39053
 
 ***
 
@@ -234,7 +252,7 @@ type of element
 
 #### Defined in
 
-main.ts:37545
+main.ts:39036
 
 ## Methods
 
@@ -244,7 +262,9 @@ main.ts:37545
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -252,7 +272,7 @@ main.ts:37545
 
 #### Defined in
 
-main.ts:37589
+main.ts:39082
 
 ***
 
@@ -262,7 +282,9 @@ main.ts:37589
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -270,7 +292,7 @@ main.ts:37589
 
 #### Defined in
 
-main.ts:37625
+main.ts:39119
 
 ***
 
@@ -280,7 +302,9 @@ main.ts:37625
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -288,4 +312,4 @@ main.ts:37625
 
 #### Defined in
 
-main.ts:37618
+main.ts:39112

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleMapsMapsPaidItemSerpElementItem
+[Documentation](../README.md) / IGoogleMapsMapsPaidItemSerpElementItem
 
 # Interface: IGoogleMapsMapsPaidItemSerpElementItem
 
@@ -20,7 +20,7 @@
 
 > `optional` **domain**: `string`
 
-domain in the SERP element
+domain in SERP
 
 #### Inherited from
 
@@ -28,7 +28,7 @@ domain in the SERP element
 
 #### Defined in
 
-main.ts:39913
+main.ts:41722
 
 ***
 
@@ -45,7 +45,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:39911
+main.ts:41720
 
 ***
 
@@ -63,7 +63,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:39908
+main.ts:41717
 
 ***
 
@@ -80,7 +80,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:39920
+main.ts:41729
 
 ***
 
@@ -101,7 +101,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:39923
+main.ts:41732
 
 ***
 
@@ -109,7 +109,7 @@ main.ts:39923
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Inherited from
 
@@ -117,7 +117,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:39915
+main.ts:41724
 
 ***
 
@@ -133,7 +133,7 @@ type of element
 
 #### Defined in
 
-main.ts:39904
+main.ts:41713
 
 ***
 
@@ -141,7 +141,7 @@ main.ts:39904
 
 > `optional` **url**: `string`
 
-relevant URL in SERP
+search URL with refinement parameters
 
 #### Inherited from
 
@@ -149,4 +149,4 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:39917
+main.ts:41726

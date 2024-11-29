@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonRelatedKeywordsLiveItem
+[Documentation](../README.md) / DataforseoLabsAmazonRelatedKeywordsLiveItem
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAmazonRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:102805
+main.ts:112443
 
 ## Properties
 
@@ -46,7 +48,7 @@ keyword search depth
 
 #### Defined in
 
-main.ts:102798
+main.ts:112436
 
 ***
 
@@ -62,7 +64,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:102796
+main.ts:112434
 
 ***
 
@@ -79,7 +81,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-main.ts:102801
+main.ts:112439
 
 ***
 
@@ -95,7 +97,7 @@ search engine type
 
 #### Defined in
 
-main.ts:102794
+main.ts:112432
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:102794
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:102794
 
 #### Defined in
 
-main.ts:102814
+main.ts:112452
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:102814
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:102814
 
 #### Defined in
 
-main.ts:102838
+main.ts:112476
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:102838
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:102838
 
 #### Defined in
 
-main.ts:102831
+main.ts:112469

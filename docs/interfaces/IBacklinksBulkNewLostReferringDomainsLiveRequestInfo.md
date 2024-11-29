@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
+[Documentation](../README.md) / IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
@@ -31,7 +31,7 @@ example:
 
 #### Defined in
 
-main.ts:150870
+main.ts:162075
 
 ***
 
@@ -47,7 +47,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:150876
+main.ts:162081
 
 ***
 
@@ -76,4 +76,4 @@ example:
 
 #### Defined in
 
-main.ts:150857
+main.ts:162062

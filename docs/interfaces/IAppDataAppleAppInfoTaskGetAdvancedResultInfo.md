@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataAppleAppInfoTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppInfoTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ application id received in a POST request
 
 #### Defined in
 
-main.ts:194489
+main.ts:206831
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:194498
+main.ts:206840
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:194503
+main.ts:206845
 
 ***
 
@@ -60,7 +60,7 @@ found app info
 
 #### Defined in
 
-main.ts:194509
+main.ts:206851
 
 ***
 
@@ -72,7 +72,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:194507
+main.ts:206849
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:194495
+main.ts:206837
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:194493
+main.ts:206835
 
 ***
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:194491
+main.ts:206833
 
 ***
 
@@ -120,4 +120,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:194505
+main.ts:206847

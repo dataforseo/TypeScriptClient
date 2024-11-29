@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalBusinessMenuLink
+[Documentation](../README.md) / ILocalBusinessMenuLink
 
 # Interface: ILocalBusinessMenuLink
 
@@ -25,7 +25,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:24133
+main.ts:25198
 
 ***
 
@@ -41,7 +41,7 @@ type of element
 
 #### Defined in
 
-main.ts:23905
+main.ts:24970
 
 ***
 
@@ -53,4 +53,4 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:24135
+main.ts:25200

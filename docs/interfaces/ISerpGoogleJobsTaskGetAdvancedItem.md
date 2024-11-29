@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleJobsTaskGetAdvancedItem
+[Documentation](../README.md) / ISerpGoogleJobsTaskGetAdvancedItem
 
 # Interface: ISerpGoogleJobsTaskGetAdvancedItem
 
@@ -20,7 +20,7 @@ employment contract type
 
 #### Defined in
 
-main.ts:50953
+main.ts:54650
 
 ***
 
@@ -32,7 +32,7 @@ URL to the image used in the job posting
 
 #### Defined in
 
-main.ts:50942
+main.ts:54639
 
 ***
 
@@ -44,7 +44,7 @@ name of the employer
 
 #### Defined in
 
-main.ts:50938
+main.ts:54635
 
 ***
 
@@ -56,7 +56,7 @@ URL to the employer’s website
 
 #### Defined in
 
-main.ts:50940
+main.ts:54637
 
 ***
 
@@ -68,7 +68,7 @@ ID of the job on Google Jobs
 
 #### Defined in
 
-main.ts:50934
+main.ts:54631
 
 ***
 
@@ -80,7 +80,7 @@ location for which the job vacancy is posted
 
 #### Defined in
 
-main.ts:50944
+main.ts:54641
 
 ***
 
@@ -94,7 +94,7 @@ left, right
 
 #### Defined in
 
-main.ts:50930
+main.ts:54627
 
 ***
 
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:50926
+main.ts:54623
 
 ***
 
@@ -121,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:50923
+main.ts:54620
 
 ***
 
@@ -135,7 +135,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:50964
+main.ts:54661
 
 ***
 
@@ -148,7 +148,7 @@ if the salary isn’t indicated, this field will equal null
 
 #### Defined in
 
-main.ts:50951
+main.ts:54648
 
 ***
 
@@ -160,7 +160,7 @@ original source of the job vacancy
 
 #### Defined in
 
-main.ts:50946
+main.ts:54643
 
 ***
 
@@ -172,7 +172,7 @@ URL to the original source of the job vacancy
 
 #### Defined in
 
-main.ts:50948
+main.ts:54645
 
 ***
 
@@ -184,7 +184,7 @@ indicates how long ago the job vacancy was posted
 
 #### Defined in
 
-main.ts:50960
+main.ts:54657
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:50958
+main.ts:54655
 
 ***
 
@@ -207,11 +207,11 @@ main.ts:50958
 
 > `optional` **title**: `string`
 
-title of the job
+title of the element
 
 #### Defined in
 
-main.ts:50936
+main.ts:54633
 
 ***
 
@@ -223,7 +223,7 @@ type of element
 
 #### Defined in
 
-main.ts:50919
+main.ts:54616
 
 ***
 
@@ -235,4 +235,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:50932
+main.ts:54629

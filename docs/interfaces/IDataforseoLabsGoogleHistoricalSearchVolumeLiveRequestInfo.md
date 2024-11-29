@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
@@ -18,14 +18,14 @@
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:85857
+main.ts:95573
 
 ***
 
@@ -40,7 +40,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85850
+main.ts:95566
 
 ***
 
@@ -56,10 +56,11 @@ The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase format, data will be provided in a separate array
 note that if some of the keywords specified in this array are omitted in the results you receive, then our database doesn’t contain such keywords and cannot return data on them
 you will not be charged for the keywords omitted in the results
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:85813
+main.ts:95529
 
 ***
 
@@ -77,7 +78,7 @@ en
 
 #### Defined in
 
-main.ts:85845
+main.ts:95561
 
 ***
 
@@ -95,7 +96,7 @@ English
 
 #### Defined in
 
-main.ts:85837
+main.ts:95553
 
 ***
 
@@ -113,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:85829
+main.ts:95545
 
 ***
 
@@ -131,7 +132,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:85821
+main.ts:95537
 
 ***
 
@@ -147,4 +148,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85863
+main.ts:95579

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleShoppingPaidMerchantSerpElementItem
+[Documentation](../README.md) / IGoogleShoppingPaidMerchantSerpElementItem
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
 
@@ -24,7 +24,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:174791
+main.ts:186520
 
 ***
 
@@ -36,7 +36,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:174787
+main.ts:186516
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Defined in
 
-main.ts:21135
+main.ts:21813
 
 ***
 
@@ -71,7 +71,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21131
+main.ts:21809
 
 ***
 
@@ -88,7 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21128
+main.ts:21806
 
 ***
 
@@ -101,7 +101,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:174796
+main.ts:186525
 
 ***
 
@@ -113,7 +113,7 @@ product title
 
 #### Defined in
 
-main.ts:174789
+main.ts:186518
 
 ***
 
@@ -129,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:21125
+main.ts:21803
 
 ***
 
@@ -141,7 +141,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:174793
+main.ts:186522
 
 ***
 
@@ -153,4 +153,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174785
+main.ts:186514

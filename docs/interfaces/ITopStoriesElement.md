@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopStoriesElement
+[Documentation](../README.md) / ITopStoriesElement
 
 # Interface: ITopStoriesElement
 
@@ -21,7 +21,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:30111
+main.ts:31670
 
 ***
 
@@ -33,7 +33,7 @@ badges relevant to the element
 
 #### Defined in
 
-main.ts:30123
+main.ts:31682
 
 ***
 
@@ -45,7 +45,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:30108
+main.ts:31667
 
 ***
 
@@ -57,7 +57,7 @@ website domain
 
 #### Defined in
 
-main.ts:30104
+main.ts:31663
 
 ***
 
@@ -70,7 +70,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:30121
+main.ts:31680
 
 ***
 
@@ -83,7 +83,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:30102
+main.ts:31661
 
 ***
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:30116
+main.ts:31675
 
 ***
 
@@ -110,7 +110,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30106
+main.ts:31665
 
 ***
 
@@ -122,7 +122,7 @@ type of element
 
 #### Defined in
 
-main.ts:30099
+main.ts:31658
 
 ***
 
@@ -134,4 +134,4 @@ URL
 
 #### Defined in
 
-main.ts:30118
+main.ts:31677

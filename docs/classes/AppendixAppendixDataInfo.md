@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixAppendixDataInfo
+[Documentation](../README.md) / AppendixAppendixDataInfo
 
 # Class: AppendixAppendixDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md)
+##### data?
+
+[`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:217947
+main.ts:232922
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:217947
 
 #### Defined in
 
-main.ts:217941
+main.ts:232916
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:217941
 
 #### Defined in
 
-main.ts:217942
+main.ts:232917
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:217942
 
 #### Defined in
 
-main.ts:217943
+main.ts:232918
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:217943
 
 #### Defined in
 
-main.ts:217940
+main.ts:232915
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:217940
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:217940
 
 #### Defined in
 
-main.ts:217956
+main.ts:232931
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:217956
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:217956
 
 #### Defined in
 
-main.ts:217976
+main.ts:232951
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:217976
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:217976
 
 #### Defined in
 
-main.ts:217969
+main.ts:232944

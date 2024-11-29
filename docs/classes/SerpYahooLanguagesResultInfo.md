@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooLanguagesResultInfo
+[Documentation](../README.md) / SerpYahooLanguagesResultInfo
 
 # Class: SerpYahooLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md)
+##### data?
+
+[`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:66774
+main.ts:75012
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:66770
+main.ts:75008
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:66768
+main.ts:75006
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:66768
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:66768
 
 #### Defined in
 
-main.ts:66783
+main.ts:75021
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:66783
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:66783
 
 #### Defined in
 
-main.ts:66801
+main.ts:75039
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:66801
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:66801
 
 #### Defined in
 
-main.ts:66794
+main.ts:75032

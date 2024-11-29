@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:66101
+main.ts:74331
 
 ***
 
@@ -41,7 +41,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:66087
+main.ts:74317
 
 ***
 
@@ -58,7 +58,7 @@ en
 
 #### Defined in
 
-main.ts:66083
+main.ts:74313
 
 ***
 
@@ -75,7 +75,7 @@ English
 
 #### Defined in
 
-main.ts:66076
+main.ts:74306
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:66069
+main.ts:74299
 
 ***
 
@@ -109,7 +109,7 @@ United States
 
 #### Defined in
 
-main.ts:66062
+main.ts:74292
 
 ***
 
@@ -124,7 +124,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:66092
+main.ts:74322
 
 ***
 
@@ -140,7 +140,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:66107
+main.ts:74337
 
 ***
 
@@ -156,4 +156,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:66055
+main.ts:74285

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationTextSummaryLiveRequestInfo
+[Documentation](../README.md) / IContentGenerationTextSummaryLiveRequestInfo
 
 # Interface: IContentGenerationTextSummaryLiveRequestInfo
 
@@ -23,7 +23,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:171916
+main.ts:183505
 
 ***
 
@@ -37,7 +37,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:171911
+main.ts:183500
 
 ***
 
@@ -51,7 +51,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:171907
+main.ts:183496
 
 ***
 
@@ -67,7 +67,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:171922
+main.ts:183511
 
 ***
 
@@ -82,4 +82,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:171903
+main.ts:183492

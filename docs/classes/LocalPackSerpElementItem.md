@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalPackSerpElementItem
+[Documentation](../README.md) / LocalPackSerpElementItem
 
 # Class: LocalPackSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md)
+##### data?
+
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:31355
+main.ts:32914
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:31355
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:31347
+main.ts:32906
 
 ***
 
@@ -84,7 +86,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31334
+main.ts:32893
 
 ***
 
@@ -100,7 +102,7 @@ source domain
 
 #### Defined in
 
-main.ts:31336
+main.ts:32895
 
 ***
 
@@ -116,7 +118,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:31342
+main.ts:32901
 
 ***
 
@@ -132,7 +134,7 @@ phone number
 
 #### Defined in
 
-main.ts:31338
+main.ts:32897
 
 ***
 
@@ -154,7 +156,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -175,7 +177,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -197,7 +199,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -214,7 +216,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31345
+main.ts:32904
 
 ***
 
@@ -232,7 +234,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31351
+main.ts:32910
 
 ***
 
@@ -248,7 +250,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31332
+main.ts:32891
 
 ***
 
@@ -268,7 +270,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -284,7 +286,7 @@ source URL
 
 #### Defined in
 
-main.ts:31340
+main.ts:32899
 
 ***
 
@@ -304,7 +306,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -314,7 +316,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -326,7 +330,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:31360
+main.ts:32919
 
 ***
 
@@ -336,7 +340,9 @@ main.ts:31360
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -348,7 +354,7 @@ main.ts:31360
 
 #### Defined in
 
-main.ts:31386
+main.ts:32945
 
 ***
 
@@ -358,7 +364,9 @@ main.ts:31386
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -370,4 +378,4 @@ main.ts:31386
 
 #### Defined in
 
-main.ts:31379
+main.ts:32938

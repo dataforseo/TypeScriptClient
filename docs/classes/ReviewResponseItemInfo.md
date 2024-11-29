@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ReviewResponseItemInfo
+[Documentation](../README.md) / ReviewResponseItemInfo
 
 # Class: ReviewResponseItemInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md)
+##### data?
+
+[`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:21591
+main.ts:22489
 
 ## Properties
 
@@ -46,7 +48,7 @@ the content of response
 
 #### Defined in
 
-main.ts:21585
+main.ts:22483
 
 ***
 
@@ -62,7 +64,7 @@ the time of publication
 
 #### Defined in
 
-main.ts:21587
+main.ts:22485
 
 ***
 
@@ -78,7 +80,7 @@ the title of response
 
 #### Defined in
 
-main.ts:21583
+main.ts:22481
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:21583
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:21583
 
 #### Defined in
 
-main.ts:21600
+main.ts:22498
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:21600
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:21600
 
 #### Defined in
 
-main.ts:21619
+main.ts:22517
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:21619
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:21619
 
 #### Defined in
 
-main.ts:21612
+main.ts:22510

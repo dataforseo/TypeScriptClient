@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ChannelSubscribersCount
+[Documentation](../README.md) / ChannelSubscribersCount
 
 # Class: ChannelSubscribersCount
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IChannelSubscribersCount`](../interfaces/IChannelSubscribersCount.md)
+##### data?
+
+[`IChannelSubscribersCount`](../interfaces/IChannelSubscribersCount.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:62080
+main.ts:70262
 
 ## Properties
 
@@ -46,7 +48,7 @@ subscriber count
 
 #### Defined in
 
-main.ts:62076
+main.ts:70258
 
 ***
 
@@ -63,7 +65,7 @@ subscriber count as displayed on YouTube
 
 #### Defined in
 
-main.ts:62074
+main.ts:70256
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:62074
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:62074
 
 #### Defined in
 
-main.ts:62089
+main.ts:70271
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:62089
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:62089
 
 #### Defined in
 
-main.ts:62107
+main.ts:70289
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:62107
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:62107
 
 #### Defined in
 
-main.ts:62100
+main.ts:70282

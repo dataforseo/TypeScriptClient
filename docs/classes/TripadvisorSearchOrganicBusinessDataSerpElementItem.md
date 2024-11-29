@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Class: TripadvisorSearchOrganicBusinessDataSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md)
+##### data?
+
+[`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:213200
+main.ts:228139
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:213200
 
 #### Defined in
 
-main.ts:21313
+main.ts:22211
 
 ***
 
@@ -68,7 +70,7 @@ place category
 
 #### Defined in
 
-main.ts:213192
+main.ts:228131
 
 ***
 
@@ -85,7 +87,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Defined in
 
-main.ts:213188
+main.ts:228127
 
 ***
 
@@ -101,7 +103,7 @@ average price rate
 
 #### Defined in
 
-main.ts:213194
+main.ts:228133
 
 ***
 
@@ -121,7 +123,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21311
+main.ts:22209
 
 ***
 
@@ -142,7 +144,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21309
+main.ts:22207
 
 ***
 
@@ -158,7 +160,7 @@ the rating score of the establishment submitted by the reviewers
 
 #### Defined in
 
-main.ts:213196
+main.ts:228135
 
 ***
 
@@ -174,7 +176,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:213190
+main.ts:228129
 
 ***
 
@@ -190,7 +192,7 @@ name of the business entity
 
 #### Defined in
 
-main.ts:213181
+main.ts:228120
 
 ***
 
@@ -210,7 +212,7 @@ type of element
 
 #### Defined in
 
-main.ts:21306
+main.ts:22204
 
 ***
 
@@ -228,7 +230,7 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Defined in
 
-main.ts:213185
+main.ts:228124
 
 ## Methods
 
@@ -238,7 +240,9 @@ main.ts:213185
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +254,7 @@ main.ts:213185
 
 #### Defined in
 
-main.ts:213205
+main.ts:228144
 
 ***
 
@@ -260,7 +264,9 @@ main.ts:213205
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -272,7 +278,7 @@ main.ts:213205
 
 #### Defined in
 
-main.ts:213229
+main.ts:228168
 
 ***
 
@@ -282,7 +288,9 @@ main.ts:213229
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -294,4 +302,4 @@ main.ts:213229
 
 #### Defined in
 
-main.ts:213222
+main.ts:228161

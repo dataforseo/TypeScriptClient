@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoTrendsDataInfo
+[Documentation](../README.md) / IDataforseoTrendsDataInfo
 
 # Interface: IDataforseoTrendsDataInfo
 
@@ -20,7 +20,7 @@ relevant keyword for which demographic data is provided
 
 #### Defined in
 
-main.ts:127004
+main.ts:137261
 
 ***
 
@@ -32,4 +32,4 @@ contains age range and corresponding keyword popularity values
 
 #### Defined in
 
-main.ts:127006
+main.ts:137263

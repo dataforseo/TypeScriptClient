@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeHistoryLiveResultInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeHistoryLiveResultInfo
 
 # Class: KeywordsDataBingSearchVolumeHistoryLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeHistoryLiveResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeHistoryLiveResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:135297
+main.ts:147156
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:135297
 
 #### Defined in
 
-main.ts:135286
+main.ts:147145
 
 ***
 
@@ -60,7 +62,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:135279
+main.ts:147138
 
 ***
 
@@ -77,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:135285
+main.ts:147144
 
 ***
 
@@ -94,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:135282
+main.ts:147141
 
 ***
 
@@ -112,7 +114,7 @@ default value monthly
 
 #### Defined in
 
-main.ts:135290
+main.ts:147149
 
 ***
 
@@ -129,7 +131,7 @@ if the device parameter is not specified, the data will be returned for all avai
 
 #### Defined in
 
-main.ts:135293
+main.ts:147152
 
 ## Methods
 
@@ -139,7 +141,9 @@ main.ts:135293
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +151,7 @@ main.ts:135293
 
 #### Defined in
 
-main.ts:135306
+main.ts:147165
 
 ***
 
@@ -157,7 +161,9 @@ main.ts:135306
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +171,7 @@ main.ts:135306
 
 #### Defined in
 
-main.ts:135332
+main.ts:147191
 
 ***
 
@@ -175,7 +181,9 @@ main.ts:135332
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -183,4 +191,4 @@ main.ts:135332
 
 #### Defined in
 
-main.ts:135325
+main.ts:147184

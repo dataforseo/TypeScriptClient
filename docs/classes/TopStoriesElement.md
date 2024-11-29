@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopStoriesElement
+[Documentation](../README.md) / TopStoriesElement
 
 # Class: TopStoriesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md)
+##### data?
+
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:30034
+main.ts:31593
 
 ## Properties
 
@@ -47,7 +49,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:30018
+main.ts:31577
 
 ***
 
@@ -63,7 +65,7 @@ badges relevant to the element
 
 #### Defined in
 
-main.ts:30030
+main.ts:31589
 
 ***
 
@@ -79,7 +81,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:30015
+main.ts:31574
 
 ***
 
@@ -95,7 +97,7 @@ website domain
 
 #### Defined in
 
-main.ts:30011
+main.ts:31570
 
 ***
 
@@ -112,7 +114,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:30028
+main.ts:31587
 
 ***
 
@@ -129,7 +131,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:30009
+main.ts:31568
 
 ***
 
@@ -148,7 +150,7 @@ example:
 
 #### Defined in
 
-main.ts:30023
+main.ts:31582
 
 ***
 
@@ -164,7 +166,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30013
+main.ts:31572
 
 ***
 
@@ -180,7 +182,7 @@ type of element
 
 #### Defined in
 
-main.ts:30006
+main.ts:31565
 
 ***
 
@@ -196,7 +198,7 @@ URL
 
 #### Defined in
 
-main.ts:30025
+main.ts:31584
 
 ## Methods
 
@@ -206,7 +208,9 @@ main.ts:30025
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +218,7 @@ main.ts:30025
 
 #### Defined in
 
-main.ts:30043
+main.ts:31602
 
 ***
 
@@ -224,7 +228,9 @@ main.ts:30043
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -232,7 +238,7 @@ main.ts:30043
 
 #### Defined in
 
-main.ts:30073
+main.ts:31632
 
 ***
 
@@ -242,7 +248,9 @@ main.ts:30073
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -250,4 +258,4 @@ main.ts:30073
 
 #### Defined in
 
-main.ts:30066
+main.ts:31625

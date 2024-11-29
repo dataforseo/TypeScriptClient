@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalBusinessOrderLink
+[Documentation](../README.md) / LocalBusinessOrderLink
 
 # Class: LocalBusinessOrderLink
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocalBusinessOrderLink`](../interfaces/ILocalBusinessOrderLink.md)
+##### data?
+
+[`ILocalBusinessOrderLink`](../interfaces/ILocalBusinessOrderLink.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:23970
+main.ts:25035
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:23970
 
 #### Defined in
 
-main.ts:23855
+main.ts:24920
 
 ***
 
@@ -68,7 +70,7 @@ lists available delivery services
 
 #### Defined in
 
-main.ts:23966
+main.ts:25031
 
 ***
 
@@ -88,7 +90,7 @@ type of element
 
 #### Defined in
 
-main.ts:23853
+main.ts:24918
 
 ## Methods
 
@@ -98,7 +100,9 @@ main.ts:23853
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -110,7 +114,7 @@ main.ts:23853
 
 #### Defined in
 
-main.ts:23975
+main.ts:25040
 
 ***
 
@@ -120,7 +124,9 @@ main.ts:23975
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:23975
 
 #### Defined in
 
-main.ts:23997
+main.ts:25062
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:23997
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -154,4 +162,4 @@ main.ts:23997
 
 #### Defined in
 
-main.ts:23990
+main.ts:25055

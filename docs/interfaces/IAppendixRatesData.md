@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixRatesData
+[Documentation](../README.md) / IAppendixRatesData
 
 # Interface: IAppendixRatesData
 
@@ -20,7 +20,7 @@ rate limits for API calls per a certain period of time
 
 #### Defined in
 
-main.ts:220054
+main.ts:235053
 
 ***
 
@@ -32,4 +32,4 @@ statisctics for API calls
 
 #### Defined in
 
-main.ts:220056
+main.ts:235055

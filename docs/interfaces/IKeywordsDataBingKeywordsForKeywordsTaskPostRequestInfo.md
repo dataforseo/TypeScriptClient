@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo
 
@@ -27,7 +27,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:131157
+main.ts:142996
 
 ***
 
@@ -47,7 +47,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:131167
+main.ts:143006
 
 ***
 
@@ -63,7 +63,7 @@ default value: all
 
 #### Defined in
 
-main.ts:131148
+main.ts:142987
 
 ***
 
@@ -75,10 +75,11 @@ keywords
 required field
 you can specify the maximum of 200 keywords with each keyword containing no more than 100 characters;
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:131097
+main.ts:142936
 
 ***
 
@@ -94,7 +95,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:131142
+main.ts:142981
 
 ***
 
@@ -110,7 +111,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:131131
+main.ts:142970
 
 ***
 
@@ -126,7 +127,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:131125
+main.ts:142964
 
 ***
 
@@ -143,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:131111
+main.ts:142950
 
 ***
 
@@ -161,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:131119
+main.ts:142958
 
 ***
 
@@ -178,7 +179,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:131104
+main.ts:142943
 
 ***
 
@@ -193,12 +194,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:131192
+main.ts:143033
 
 ***
 
@@ -213,12 +215,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:131182
+main.ts:143022
 
 ***
 
@@ -233,7 +236,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:131172
+main.ts:143011
 
 ***
 
@@ -248,7 +251,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:131136
+main.ts:142975
 
 ***
 
@@ -264,4 +267,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:131198
+main.ts:143039

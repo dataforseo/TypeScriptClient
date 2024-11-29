@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseLocalBusinessLink
+[Documentation](../README.md) / BaseLocalBusinessLink
 
 # Class: BaseLocalBusinessLink
 
@@ -24,7 +24,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md)
+##### data?
+
+[`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@
 
 #### Defined in
 
-main.ts:23857
+main.ts:24922
 
 ## Properties
 
@@ -42,7 +44,7 @@ main.ts:23857
 
 #### Defined in
 
-main.ts:23855
+main.ts:24920
 
 ***
 
@@ -58,7 +60,7 @@ type of element
 
 #### Defined in
 
-main.ts:23853
+main.ts:24918
 
 ## Methods
 
@@ -68,7 +70,9 @@ main.ts:23853
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -76,7 +80,7 @@ main.ts:23853
 
 #### Defined in
 
-main.ts:23867
+main.ts:24932
 
 ***
 
@@ -86,7 +90,9 @@ main.ts:23867
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -94,7 +100,7 @@ main.ts:23867
 
 #### Defined in
 
-main.ts:23895
+main.ts:24960
 
 ***
 
@@ -104,7 +110,9 @@ main.ts:23895
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -112,4 +120,4 @@ main.ts:23895
 
 #### Defined in
 
-main.ts:23873
+main.ts:24938

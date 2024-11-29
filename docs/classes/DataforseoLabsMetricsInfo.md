@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsMetricsInfo
+[Documentation](../README.md) / DataforseoLabsMetricsInfo
 
 # Class: DataforseoLabsMetricsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md)
+##### data?
+
+[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:87640
+main.ts:97358
 
 ## Properties
 
@@ -52,7 +54,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87636
+main.ts:97354
 
 ***
 
@@ -71,7 +73,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87628
+main.ts:97346
 
 ***
 
@@ -93,7 +95,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87632
+main.ts:97350
 
 ***
 
@@ -109,7 +111,7 @@ total count of organic SERPs that contain the domain or subdomain
 
 #### Defined in
 
-main.ts:87606
+main.ts:97324
 
 ***
 
@@ -128,7 +130,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87611
+main.ts:97329
 
 ***
 
@@ -147,7 +149,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87599
+main.ts:97317
 
 ***
 
@@ -166,7 +168,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87604
+main.ts:97322
 
 ***
 
@@ -183,7 +185,7 @@ indicates how many ranked elements of the indicated target went down
 
 #### Defined in
 
-main.ts:87620
+main.ts:97338
 
 ***
 
@@ -200,7 +202,7 @@ indicates how many ranked elements of the indicated target were previously prese
 
 #### Defined in
 
-main.ts:87623
+main.ts:97341
 
 ***
 
@@ -217,7 +219,7 @@ indicates how many new ranked elements were found for the indicated target
 
 #### Defined in
 
-main.ts:87614
+main.ts:97332
 
 ***
 
@@ -234,7 +236,7 @@ indicates how many ranked elements of the indicated target went up
 
 #### Defined in
 
-main.ts:87617
+main.ts:97335
 
 ***
 
@@ -250,7 +252,7 @@ number of organic SERPs where the domain or subdomain ranks #1
 
 #### Defined in
 
-main.ts:87572
+main.ts:97290
 
 ***
 
@@ -266,23 +268,7 @@ number of organic SERPs where the domain or subdomain ranks #11-20
 
 #### Defined in
 
-main.ts:87578
-
-***
-
-### pos\_21\_30?
-
-> `optional` **pos\_21\_30**: `number`
-
-number of organic SERPs where the domain or subdomain ranks #21-30
-
-#### Implementation of
-
-[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_21_30`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_21_30)
-
-#### Defined in
-
-main.ts:87580
+main.ts:97296
 
 ***
 
@@ -298,7 +284,23 @@ number of organic SERPs where the domain or subdomain ranks #2-3
 
 #### Defined in
 
-main.ts:87574
+main.ts:97292
+
+***
+
+### pos\_21\_30?
+
+> `optional` **pos\_21\_30**: `number`
+
+number of organic SERPs where the domain or subdomain ranks #21-30
+
+#### Implementation of
+
+[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_21_30`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_21_30)
+
+#### Defined in
+
+main.ts:97298
 
 ***
 
@@ -314,23 +316,7 @@ number of organic SERPs where the domain or subdomain ranks #31-40
 
 #### Defined in
 
-main.ts:87582
-
-***
-
-### pos\_41\_50?
-
-> `optional` **pos\_41\_50**: `number`
-
-number of organic SERPs where the domain or subdomain ranks #41-50
-
-#### Implementation of
-
-[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_41_50`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_41_50)
-
-#### Defined in
-
-main.ts:87584
+main.ts:97300
 
 ***
 
@@ -346,7 +332,23 @@ number of organic SERPs where the domain or subdomain ranks #4-10
 
 #### Defined in
 
-main.ts:87576
+main.ts:97294
+
+***
+
+### pos\_41\_50?
+
+> `optional` **pos\_41\_50**: `number`
+
+number of organic SERPs where the domain or subdomain ranks #41-50
+
+#### Implementation of
+
+[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_41_50`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_41_50)
+
+#### Defined in
+
+main.ts:97302
 
 ***
 
@@ -362,7 +364,7 @@ number of organic SERPs where the domain or subdomain ranks #51-60
 
 #### Defined in
 
-main.ts:87586
+main.ts:97304
 
 ***
 
@@ -378,7 +380,7 @@ number of organic SERPs where the domain or subdomain ranks #61-70
 
 #### Defined in
 
-main.ts:87588
+main.ts:97306
 
 ***
 
@@ -394,7 +396,7 @@ number of organic SERPs where the domain or subdomain ranks #71-80
 
 #### Defined in
 
-main.ts:87590
+main.ts:97308
 
 ***
 
@@ -410,7 +412,7 @@ number of organic SERPs where the domain or subdomain ranks #81-90
 
 #### Defined in
 
-main.ts:87592
+main.ts:97310
 
 ***
 
@@ -426,7 +428,7 @@ number of organic SERPs where the domain or subdomain ranks #91-100
 
 #### Defined in
 
-main.ts:87594
+main.ts:97312
 
 ## Methods
 
@@ -436,7 +438,9 @@ main.ts:87594
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -444,7 +448,7 @@ main.ts:87594
 
 #### Defined in
 
-main.ts:87649
+main.ts:97367
 
 ***
 
@@ -454,7 +458,9 @@ main.ts:87649
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -462,7 +468,7 @@ main.ts:87649
 
 #### Defined in
 
-main.ts:87700
+main.ts:97418
 
 ***
 
@@ -472,7 +478,9 @@ main.ts:87700
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -480,4 +488,4 @@ main.ts:87700
 
 #### Defined in
 
-main.ts:87693
+main.ts:97411

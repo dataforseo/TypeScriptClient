@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / JobsElement
+[Documentation](../README.md) / JobsElement
 
 # Class: JobsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IJobsElement`](../interfaces/IJobsElement.md)
+##### data?
+
+[`IJobsElement`](../interfaces/IJobsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:30969
+main.ts:32528
 
 ## Properties
 
@@ -46,7 +48,7 @@ author
 
 #### Defined in
 
-main.ts:30952
+main.ts:32511
 
 ***
 
@@ -62,7 +64,7 @@ contract type
 
 #### Defined in
 
-main.ts:30961
+main.ts:32520
 
 ***
 
@@ -78,7 +80,7 @@ description
 
 #### Defined in
 
-main.ts:30950
+main.ts:32509
 
 ***
 
@@ -94,7 +96,7 @@ the time when the job was posted
 
 #### Defined in
 
-main.ts:30954
+main.ts:32513
 
 ***
 
@@ -110,7 +112,7 @@ salary
 
 #### Defined in
 
-main.ts:30963
+main.ts:32522
 
 ***
 
@@ -129,7 +131,7 @@ example:
 
 #### Defined in
 
-main.ts:30959
+main.ts:32518
 
 ***
 
@@ -145,7 +147,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30948
+main.ts:32507
 
 ***
 
@@ -161,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:30946
+main.ts:32505
 
 ***
 
@@ -177,7 +179,7 @@ URL
 
 #### Defined in
 
-main.ts:30965
+main.ts:32524
 
 ## Methods
 
@@ -187,7 +189,9 @@ main.ts:30965
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +199,7 @@ main.ts:30965
 
 #### Defined in
 
-main.ts:30978
+main.ts:32537
 
 ***
 
@@ -205,7 +209,9 @@ main.ts:30978
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +219,7 @@ main.ts:30978
 
 #### Defined in
 
-main.ts:31003
+main.ts:32562
 
 ***
 
@@ -223,7 +229,9 @@ main.ts:31003
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -231,4 +239,4 @@ main.ts:31003
 
 #### Defined in
 
-main.ts:30996
+main.ts:32555

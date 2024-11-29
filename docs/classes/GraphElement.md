@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GraphElement
+[Documentation](../README.md) / GraphElement
 
 # Class: GraphElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IGraphElement`](../interfaces/IGraphElement.md)
+##### data?
+
+[`IGraphElement`](../interfaces/IGraphElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:33414
+main.ts:34967
 
 ## Properties
 
@@ -46,7 +48,7 @@ the posting date
 
 #### Defined in
 
-main.ts:33408
+main.ts:34961
 
 ***
 
@@ -62,7 +64,7 @@ type of element
 
 #### Defined in
 
-main.ts:33406
+main.ts:34959
 
 ***
 
@@ -78,7 +80,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:33410
+main.ts:34963
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:33410
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:33410
 
 #### Defined in
 
-main.ts:33423
+main.ts:34976
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:33423
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:33423
 
 #### Defined in
 
-main.ts:33442
+main.ts:34995
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:33442
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:33442
 
 #### Defined in
 
-main.ts:33435
+main.ts:34988

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleMapsTaskPostRequestInfo
+[Documentation](../README.md) / ISerpGoogleMapsTaskPostRequestInfo
 
 # Interface: ISerpGoogleMapsTaskPostRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:39019
+main.ts:40826
 
 ***
 
@@ -43,7 +43,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-main.ts:38996
+main.ts:40803
 
 ***
 
@@ -53,16 +53,17 @@ main.ts:38996
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters  in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:38943
+main.ts:40750
 
 ***
 
@@ -79,7 +80,7 @@ en
 
 #### Defined in
 
-main.ts:38990
+main.ts:40797
 
 ***
 
@@ -96,7 +97,7 @@ English
 
 #### Defined in
 
-main.ts:38983
+main.ts:40790
 
 ***
 
@@ -113,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:38965
+main.ts:40772
 
 ***
 
@@ -134,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:38976
+main.ts:40783
 
 ***
 
@@ -151,7 +152,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:38958
+main.ts:40765
 
 ***
 
@@ -168,7 +169,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:39026
+main.ts:40833
 
 ***
 
@@ -185,7 +186,7 @@ default value: android
 
 #### Defined in
 
-main.ts:39003
+main.ts:40810
 
 ***
 
@@ -200,12 +201,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:39071
+main.ts:40880
 
 ***
 
@@ -221,7 +223,7 @@ advanced
 
 #### Defined in
 
-main.ts:39061
+main.ts:40869
 
 ***
 
@@ -236,12 +238,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:39055
+main.ts:40863
 
 ***
 
@@ -259,7 +262,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:38951
+main.ts:40758
 
 ***
 
@@ -276,7 +279,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:39010
+main.ts:40817
 
 ***
 
@@ -293,7 +296,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-main.ts:39039
+main.ts:40846
 
 ***
 
@@ -309,7 +312,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-main.ts:39032
+main.ts:40839
 
 ***
 
@@ -325,7 +328,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:39045
+main.ts:40852
 
 ***
 
@@ -341,4 +344,4 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-main.ts:38934
+main.ts:40740

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IInformationAndTicketsElement
+[Documentation](../README.md) / IInformationAndTicketsElement
 
 # Interface: IInformationAndTicketsElement
 
@@ -20,7 +20,7 @@ description of the element
 
 #### Defined in
 
-main.ts:46165
+main.ts:48980
 
 ***
 
@@ -32,7 +32,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:46169
+main.ts:48984
 
 ***
 
@@ -44,7 +44,7 @@ title of the element
 
 #### Defined in
 
-main.ts:46163
+main.ts:48978
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:46161
+main.ts:48976
 
 ***
 
@@ -68,4 +68,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:46167
+main.ts:48982

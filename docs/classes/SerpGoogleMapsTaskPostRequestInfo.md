@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleMapsTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleMapsTaskPostRequestInfo
 
 # Class: SerpGoogleMapsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:38855
+main.ts:40661
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:38799
+main.ts:40603
 
 ***
 
@@ -73,7 +75,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-main.ts:38776
+main.ts:40580
 
 ***
 
@@ -83,12 +85,13 @@ main.ts:38776
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters  in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -96,7 +99,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:38723
+main.ts:40527
 
 ***
 
@@ -117,7 +120,7 @@ en
 
 #### Defined in
 
-main.ts:38770
+main.ts:40574
 
 ***
 
@@ -138,7 +141,7 @@ English
 
 #### Defined in
 
-main.ts:38763
+main.ts:40567
 
 ***
 
@@ -159,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:38745
+main.ts:40549
 
 ***
 
@@ -184,7 +187,7 @@ example:
 
 #### Defined in
 
-main.ts:38756
+main.ts:40560
 
 ***
 
@@ -205,7 +208,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:38738
+main.ts:40542
 
 ***
 
@@ -226,7 +229,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:38806
+main.ts:40610
 
 ***
 
@@ -247,7 +250,7 @@ default value: android
 
 #### Defined in
 
-main.ts:38783
+main.ts:40587
 
 ***
 
@@ -262,8 +265,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -271,7 +275,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:38851
+main.ts:40657
 
 ***
 
@@ -291,7 +295,7 @@ advanced
 
 #### Defined in
 
-main.ts:38841
+main.ts:40646
 
 ***
 
@@ -306,8 +310,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -315,7 +320,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:38835
+main.ts:40640
 
 ***
 
@@ -337,7 +342,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:38731
+main.ts:40535
 
 ***
 
@@ -358,7 +363,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:38790
+main.ts:40594
 
 ***
 
@@ -379,7 +384,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-main.ts:38819
+main.ts:40623
 
 ***
 
@@ -399,7 +404,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-main.ts:38812
+main.ts:40616
 
 ***
 
@@ -419,7 +424,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:38825
+main.ts:40629
 
 ***
 
@@ -439,7 +444,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-main.ts:38714
+main.ts:40517
 
 ## Methods
 
@@ -449,7 +454,9 @@ main.ts:38714
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -457,7 +464,7 @@ main.ts:38714
 
 #### Defined in
 
-main.ts:38864
+main.ts:40670
 
 ***
 
@@ -467,7 +474,9 @@ main.ts:38864
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -475,7 +484,7 @@ main.ts:38864
 
 #### Defined in
 
-main.ts:38899
+main.ts:40705
 
 ***
 
@@ -485,7 +494,9 @@ main.ts:38899
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -493,4 +504,4 @@ main.ts:38899
 
 #### Defined in
 
-main.ts:38892
+main.ts:40698

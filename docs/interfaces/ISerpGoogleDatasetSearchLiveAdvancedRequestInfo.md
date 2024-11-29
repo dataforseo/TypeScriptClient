@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:54870
+main.ts:58539
 
 ***
 
@@ -41,7 +41,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:54856
+main.ts:58525
 
 ***
 
@@ -55,7 +55,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:54878
+main.ts:58547
 
 ***
 
@@ -69,7 +69,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:54886
+main.ts:58555
 
 ***
 
@@ -79,14 +79,15 @@ main.ts:54886
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:54840
+main.ts:58509
 
 ***
 
@@ -102,7 +103,7 @@ en
 
 #### Defined in
 
-main.ts:54852
+main.ts:58521
 
 ***
 
@@ -118,7 +119,7 @@ English
 
 #### Defined in
 
-main.ts:54846
+main.ts:58515
 
 ***
 
@@ -132,7 +133,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:54874
+main.ts:58543
 
 ***
 
@@ -147,7 +148,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:54861
+main.ts:58530
 
 ***
 
@@ -163,7 +164,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:54896
+main.ts:58565
 
 ***
 
@@ -177,7 +178,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:54890
+main.ts:58559
 
 ***
 
@@ -191,4 +192,4 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:54882
+main.ts:58551

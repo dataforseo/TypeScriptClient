@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPageContentInfo
+[Documentation](../README.md) / IPageContentInfo
 
 # Interface: IPageContentInfo
 
@@ -20,7 +20,7 @@ parsed content of the footer
 
 #### Defined in
 
-main.ts:161870
+main.ts:173483
 
 ***
 
@@ -32,7 +32,7 @@ content of the header of the table
 
 #### Defined in
 
-main.ts:161868
+main.ts:173481
 
 ***
 
@@ -45,7 +45,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:161873
+main.ts:173486
 
 ***
 
@@ -58,4 +58,4 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:161876
+main.ts:173489

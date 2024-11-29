@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleBusinessAnswerElement
+[Documentation](../README.md) / GoogleBusinessAnswerElement
 
 # Class: GoogleBusinessAnswerElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md)
+##### data?
+
+[`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:209521
+main.ts:224442
 
 ## Properties
 
@@ -46,7 +48,7 @@ ID of the answer
 
 #### Defined in
 
-main.ts:209503
+main.ts:224424
 
 ***
 
@@ -62,7 +64,7 @@ current text of the answer
 
 #### Defined in
 
-main.ts:209511
+main.ts:224432
 
 ***
 
@@ -78,7 +80,7 @@ original text of the answer
 
 #### Defined in
 
-main.ts:209513
+main.ts:224434
 
 ***
 
@@ -94,7 +96,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209505
+main.ts:224426
 
 ***
 
@@ -110,7 +112,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209509
+main.ts:224430
 
 ***
 
@@ -126,7 +128,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209507
+main.ts:224428
 
 ***
 
@@ -142,7 +144,7 @@ estimated time when the answer was posted
 
 #### Defined in
 
-main.ts:209515
+main.ts:224436
 
 ***
 
@@ -158,7 +160,7 @@ exact time when the answer was posted
 
 #### Defined in
 
-main.ts:209517
+main.ts:224438
 
 ***
 
@@ -174,7 +176,7 @@ type of element
 
 #### Defined in
 
-main.ts:209501
+main.ts:224422
 
 ## Methods
 
@@ -184,7 +186,9 @@ main.ts:209501
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -192,7 +196,7 @@ main.ts:209501
 
 #### Defined in
 
-main.ts:209530
+main.ts:224451
 
 ***
 
@@ -202,7 +206,9 @@ main.ts:209530
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -210,7 +216,7 @@ main.ts:209530
 
 #### Defined in
 
-main.ts:209555
+main.ts:224476
 
 ***
 
@@ -220,7 +226,9 @@ main.ts:209555
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -228,4 +236,4 @@ main.ts:209555
 
 #### Defined in
 
-main.ts:209548
+main.ts:224469

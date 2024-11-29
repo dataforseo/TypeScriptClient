@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSerpsLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:96527
+main.ts:106171
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:96498
+main.ts:106142
 
 ***
 
@@ -66,7 +68,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:96523
+main.ts:106167
 
 ***
 
@@ -85,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:96503
+main.ts:106147
 
 ***
 
@@ -104,7 +106,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 #### Defined in
 
-main.ts:96511
+main.ts:106155
 
 ***
 
@@ -121,7 +123,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96518
+main.ts:106162
 
 ***
 
@@ -137,7 +139,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96515
+main.ts:106159
 
 ***
 
@@ -154,7 +156,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:96487
+main.ts:106131
 
 ***
 
@@ -170,7 +172,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96495
+main.ts:106139
 
 ***
 
@@ -186,7 +188,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96493
+main.ts:106137
 
 ***
 
@@ -202,7 +204,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:96491
+main.ts:106135
 
 ***
 
@@ -218,7 +220,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:96513
+main.ts:106157
 
 ***
 
@@ -234,7 +236,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96484
+main.ts:106128
 
 ***
 
@@ -251,7 +253,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:96506
+main.ts:106150
 
 ***
 
@@ -267,7 +269,7 @@ type of element
 
 #### Defined in
 
-main.ts:96489
+main.ts:106133
 
 ## Methods
 
@@ -277,7 +279,9 @@ main.ts:96489
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -285,7 +289,7 @@ main.ts:96489
 
 #### Defined in
 
-main.ts:96536
+main.ts:106180
 
 ***
 
@@ -295,7 +299,9 @@ main.ts:96536
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -303,7 +309,7 @@ main.ts:96536
 
 #### Defined in
 
-main.ts:96574
+main.ts:106218
 
 ***
 
@@ -313,7 +319,9 @@ main.ts:96574
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -321,4 +329,4 @@ main.ts:96574
 
 #### Defined in
 
-main.ts:96567
+main.ts:106211

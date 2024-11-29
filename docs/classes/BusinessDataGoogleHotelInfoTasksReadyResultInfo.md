@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelInfoTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelInfoTasksReadyResultInfo
 
 # Class: BusinessDataGoogleHotelInfoTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelInfoTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:205393
+main.ts:218748
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:205383
+main.ts:218738
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:205387
+main.ts:218742
 
 ***
 
@@ -78,7 +80,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:205389
+main.ts:218744
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:205376
+main.ts:218731
 
 ***
 
@@ -112,7 +114,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:205379
+main.ts:218734
 
 ***
 
@@ -128,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:205381
+main.ts:218736
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:205385
+main.ts:218740
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:205385
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:205385
 
 #### Defined in
 
-main.ts:205402
+main.ts:218757
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:205402
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:205402
 
 #### Defined in
 
-main.ts:205425
+main.ts:218780
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:205425
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:205425
 
 #### Defined in
 
-main.ts:205418
+main.ts:218773

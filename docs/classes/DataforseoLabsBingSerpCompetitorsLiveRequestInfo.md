@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingSerpCompetitorsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:110510
+main.ts:119842
 
 ## Properties
 
@@ -59,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:110484
+main.ts:119816
 
 ***
 
@@ -78,7 +80,7 @@ default value: true
 
 #### Defined in
 
-main.ts:110451
+main.ts:119783
 
 ***
 
@@ -100,7 +102,7 @@ default value:
 
 #### Defined in
 
-main.ts:110459
+main.ts:119791
 
 ***
 
@@ -113,8 +115,8 @@ required field
 the results will be based on the keywords you specify in this array
 UTF-8 encoding;
 the keywords will be converted to lowercase format;
-a keyword should be at least 3 characters long;
 you can specify the maximum of 200 keywords
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -122,7 +124,7 @@ you can specify the maximum of 200 keywords
 
 #### Defined in
 
-main.ts:110412
+main.ts:119744
 
 ***
 
@@ -144,7 +146,7 @@ en
 
 #### Defined in
 
-main.ts:110446
+main.ts:119778
 
 ***
 
@@ -166,7 +168,7 @@ English
 
 #### Defined in
 
-main.ts:110438
+main.ts:119770
 
 ***
 
@@ -185,7 +187,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:110464
+main.ts:119796
 
 ***
 
@@ -208,7 +210,7 @@ example:
 
 #### Defined in
 
-main.ts:110430
+main.ts:119762
 
 ***
 
@@ -231,7 +233,7 @@ United States
 
 #### Defined in
 
-main.ts:110421
+main.ts:119753
 
 ***
 
@@ -250,7 +252,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:110469
+main.ts:119801
 
 ***
 
@@ -280,7 +282,7 @@ example:
 
 #### Defined in
 
-main.ts:110500
+main.ts:119832
 
 ***
 
@@ -300,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:110506
+main.ts:119838
 
 ## Methods
 
@@ -310,7 +312,9 @@ main.ts:110506
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -318,7 +322,7 @@ main.ts:110506
 
 #### Defined in
 
-main.ts:110519
+main.ts:119851
 
 ***
 
@@ -328,7 +332,9 @@ main.ts:110519
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -336,7 +342,7 @@ main.ts:110519
 
 #### Defined in
 
-main.ts:110563
+main.ts:119895
 
 ***
 
@@ -346,7 +352,9 @@ main.ts:110563
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -354,4 +362,4 @@ main.ts:110563
 
 #### Defined in
 
-main.ts:110556
+main.ts:119888

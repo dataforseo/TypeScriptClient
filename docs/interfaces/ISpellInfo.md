@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISpellInfo
+[Documentation](../README.md) / ISpellInfo
 
 # Interface: ISpellInfo
 
@@ -21,7 +21,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:23540
+main.ts:24433
 
 ***
 
@@ -37,4 +37,4 @@ including_results_for
 
 #### Defined in
 
-main.ts:23546
+main.ts:24439

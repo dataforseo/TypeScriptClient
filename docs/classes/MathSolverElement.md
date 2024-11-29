@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MathSolverElement
+[Documentation](../README.md) / MathSolverElement
 
 # Class: MathSolverElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMathSolverElement`](../interfaces/IMathSolverElement.md)
+##### data?
+
+[`IMathSolverElement`](../interfaces/IMathSolverElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:34764
+main.ts:36249
 
 ## Properties
 
@@ -46,7 +48,7 @@ expanded element
 
 #### Defined in
 
-main.ts:34760
+main.ts:36245
 
 ***
 
@@ -62,7 +64,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34758
+main.ts:36243
 
 ***
 
@@ -78,7 +80,7 @@ type of element
 
 #### Defined in
 
-main.ts:34756
+main.ts:36241
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:34756
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:34756
 
 #### Defined in
 
-main.ts:34773
+main.ts:36258
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:34773
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:34773
 
 #### Defined in
 
-main.ts:34796
+main.ts:36281
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:34796
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:34796
 
 #### Defined in
 
-main.ts:34789
+main.ts:36274

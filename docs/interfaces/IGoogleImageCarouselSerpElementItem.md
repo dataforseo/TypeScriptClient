@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleImageCarouselSerpElementItem
+[Documentation](../README.md) / IGoogleImageCarouselSerpElementItem
 
 # Interface: IGoogleImageCarouselSerpElementItem
 
@@ -20,11 +20,11 @@
 
 > `optional` **items**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:47722
+main.ts:50883
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Defined in
 
-main.ts:47718
+main.ts:50879
 
 ***
 
@@ -55,7 +55,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47644
+main.ts:50805
 
 ***
 
@@ -73,7 +73,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47641
+main.ts:50802
 
 ***
 
@@ -87,7 +87,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:47726
+main.ts:50887
 
 ***
 
@@ -95,11 +95,11 @@ main.ts:47726
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Defined in
 
-main.ts:47720
+main.ts:50881
 
 ***
 
@@ -115,7 +115,7 @@ type of element
 
 #### Defined in
 
-main.ts:47637
+main.ts:50798
 
 ***
 
@@ -131,4 +131,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47646
+main.ts:50807

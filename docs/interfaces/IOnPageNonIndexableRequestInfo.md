@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageNonIndexableRequestInfo
+[Documentation](../README.md) / IOnPageNonIndexableRequestInfo
 
 # Interface: IOnPageNonIndexableRequestInfo
 
@@ -34,7 +34,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:158728
+main.ts:170363
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:158702
+main.ts:170337
 
 ***
 
@@ -65,7 +65,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:158707
+main.ts:170342
 
 ***
 
@@ -80,4 +80,4 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:158712
+main.ts:170347

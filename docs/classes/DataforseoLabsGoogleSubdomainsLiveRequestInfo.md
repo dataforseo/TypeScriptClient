@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:94157
+main.ts:103875
 
 ## Properties
 
@@ -58,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:94120
+main.ts:103838
 
 ***
 
@@ -81,7 +83,7 @@ default value: live
 
 #### Defined in
 
-main.ts:94106
+main.ts:103824
 
 ***
 
@@ -102,7 +104,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:94097
+main.ts:103815
 
 ***
 
@@ -125,7 +127,7 @@ default value:
 
 #### Defined in
 
-main.ts:94090
+main.ts:103808
 
 ***
 
@@ -148,7 +150,7 @@ en
 
 #### Defined in
 
-main.ts:94081
+main.ts:103799
 
 ***
 
@@ -171,7 +173,7 @@ English
 
 #### Defined in
 
-main.ts:94072
+main.ts:103790
 
 ***
 
@@ -190,7 +192,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:94142
+main.ts:103860
 
 ***
 
@@ -213,7 +215,7 @@ example:
 
 #### Defined in
 
-main.ts:94063
+main.ts:103781
 
 ***
 
@@ -236,7 +238,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:94054
+main.ts:103772
 
 ***
 
@@ -255,7 +257,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:94147
+main.ts:103865
 
 ***
 
@@ -286,7 +288,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:94137
+main.ts:103855
 
 ***
 
@@ -306,7 +308,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:94153
+main.ts:103871
 
 ***
 
@@ -325,7 +327,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:94045
+main.ts:103763
 
 ## Methods
 
@@ -335,7 +337,9 @@ main.ts:94045
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -343,7 +347,7 @@ main.ts:94045
 
 #### Defined in
 
-main.ts:94166
+main.ts:103884
 
 ***
 
@@ -353,7 +357,9 @@ main.ts:94166
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -361,7 +367,7 @@ main.ts:94166
 
 #### Defined in
 
-main.ts:94207
+main.ts:103925
 
 ***
 
@@ -371,7 +377,9 @@ main.ts:94207
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -379,4 +387,4 @@ main.ts:94207
 
 #### Defined in
 
-main.ts:94200
+main.ts:103918

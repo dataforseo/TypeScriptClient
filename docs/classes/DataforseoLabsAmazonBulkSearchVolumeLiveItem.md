@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
+[Documentation](../README.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:102219
+main.ts:111957
 
 ## Properties
 
@@ -46,7 +48,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:102212
+main.ts:111950
 
 ***
 
@@ -62,7 +64,7 @@ search engine type
 
 #### Defined in
 
-main.ts:102210
+main.ts:111948
 
 ***
 
@@ -79,7 +81,7 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 #### Defined in
 
-main.ts:102215
+main.ts:111953
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:102215
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:102215
 
 #### Defined in
 
-main.ts:102228
+main.ts:111966
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:102228
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:102228
 
 #### Defined in
 
-main.ts:102247
+main.ts:111985
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:102247
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:102247
 
 #### Defined in
 
-main.ts:102240
+main.ts:111978

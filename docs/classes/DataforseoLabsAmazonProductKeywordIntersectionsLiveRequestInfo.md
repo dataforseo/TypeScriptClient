@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:105108
+main.ts:114746
 
 ## Properties
 
@@ -59,7 +61,7 @@ learn more about the parameter on this help center page
 
 #### Defined in
 
-main.ts:105025
+main.ts:114663
 
 ***
 
@@ -84,7 +86,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:105077
+main.ts:114715
 
 ***
 
@@ -104,7 +106,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:105066
+main.ts:114704
 
 ***
 
@@ -125,7 +127,7 @@ en
 
 #### Defined in
 
-main.ts:105055
+main.ts:114693
 
 ***
 
@@ -146,7 +148,7 @@ English
 
 #### Defined in
 
-main.ts:105048
+main.ts:114686
 
 ***
 
@@ -165,7 +167,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:105060
+main.ts:114698
 
 ***
 
@@ -187,7 +189,7 @@ example:
 
 #### Defined in
 
-main.ts:105041
+main.ts:114679
 
 ***
 
@@ -209,7 +211,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:105033
+main.ts:114671
 
 ***
 
@@ -228,7 +230,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:105098
+main.ts:114736
 
 ***
 
@@ -258,7 +260,7 @@ default rule:
 
 #### Defined in
 
-main.ts:105093
+main.ts:114731
 
 ***
 
@@ -278,7 +280,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:105104
+main.ts:114742
 
 ## Methods
 
@@ -288,7 +290,9 @@ main.ts:105104
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -296,7 +300,7 @@ main.ts:105104
 
 #### Defined in
 
-main.ts:105117
+main.ts:114755
 
 ***
 
@@ -306,7 +310,9 @@ main.ts:105117
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -314,7 +320,7 @@ main.ts:105117
 
 #### Defined in
 
-main.ts:105158
+main.ts:114796
 
 ***
 
@@ -324,7 +330,9 @@ main.ts:105158
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -332,4 +340,4 @@ main.ts:105158
 
 #### Defined in
 
-main.ts:105151
+main.ts:114789

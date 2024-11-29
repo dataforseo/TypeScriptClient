@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductInformationTextRow
+[Documentation](../README.md) / ProductInformationTextRow
 
 # Class: ProductInformationTextRow
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductInformationTextRow`](../interfaces/IProductInformationTextRow.md)
+##### data?
+
+[`IProductInformationTextRow`](../interfaces/IProductInformationTextRow.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:182136
+main.ts:194254
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:182136
 
 #### Defined in
 
-main.ts:23422
+main.ts:24320
 
 ***
 
@@ -68,7 +70,7 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:182132
+main.ts:194250
 
 ***
 
@@ -88,7 +90,7 @@ type of element
 
 #### Defined in
 
-main.ts:23418
+main.ts:24316
 
 ## Methods
 
@@ -98,7 +100,9 @@ main.ts:23418
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -110,7 +114,7 @@ main.ts:23418
 
 #### Defined in
 
-main.ts:182141
+main.ts:194259
 
 ***
 
@@ -120,7 +124,9 @@ main.ts:182141
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:182141
 
 #### Defined in
 
-main.ts:182159
+main.ts:194277
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:182159
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -154,4 +162,4 @@ main.ts:182159
 
 #### Defined in
 
-main.ts:182152
+main.ts:194270

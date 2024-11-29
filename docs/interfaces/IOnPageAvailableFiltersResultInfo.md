@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageAvailableFiltersResultInfo
+[Documentation](../README.md) / IOnPageAvailableFiltersResultInfo
 
 # Interface: IOnPageAvailableFiltersResultInfo
 
@@ -22,7 +22,7 @@
 
 #### Defined in
 
-main.ts:152724
+main.ts:163929
 
 ***
 
@@ -36,7 +36,7 @@ main.ts:152724
 
 #### Defined in
 
-main.ts:152721
+main.ts:163926
 
 ***
 
@@ -50,7 +50,7 @@ main.ts:152721
 
 #### Defined in
 
-main.ts:152720
+main.ts:163925
 
 ***
 
@@ -64,7 +64,7 @@ main.ts:152720
 
 #### Defined in
 
-main.ts:152719
+main.ts:163924
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:152719
 
 #### Defined in
 
-main.ts:152722
+main.ts:163927
 
 ***
 
@@ -92,7 +92,7 @@ main.ts:152722
 
 #### Defined in
 
-main.ts:152723
+main.ts:163928
 
 ***
 
@@ -106,4 +106,4 @@ main.ts:152723
 
 #### Defined in
 
-main.ts:152718
+main.ts:163923

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
+[Documentation](../README.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
 
@@ -25,7 +25,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Defined in
 
-main.ts:191185
+main.ts:203521
 
 ***
 
@@ -37,7 +37,7 @@ id of the review
 
 #### Defined in
 
-main.ts:191182
+main.ts:203518
 
 ***
 
@@ -55,7 +55,7 @@ left, right
 
 #### Defined in
 
-main.ts:22073
+main.ts:22971
 
 ***
 
@@ -72,7 +72,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22069
+main.ts:22967
 
 ***
 
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22066
+main.ts:22964
 
 ***
 
@@ -105,7 +105,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:22077
+main.ts:22975
 
 ***
 
@@ -117,7 +117,7 @@ response from the developer
 
 #### Defined in
 
-main.ts:191191
+main.ts:203527
 
 ***
 
@@ -129,7 +129,7 @@ content of the review
 
 #### Defined in
 
-main.ts:191187
+main.ts:203523
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:191180
+main.ts:203516
 
 ***
 
@@ -160,7 +160,7 @@ title of the app
 
 #### Defined in
 
-main.ts:22075
+main.ts:22973
 
 ***
 
@@ -176,7 +176,7 @@ type of element
 
 #### Defined in
 
-main.ts:22063
+main.ts:22961
 
 ***
 
@@ -188,7 +188,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:191189
+main.ts:203525
 
 ***
 
@@ -201,4 +201,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:191175
+main.ts:203511

@@ -1,14 +1,10 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
-
-## Extends
-
-- [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md)
 
 ## Indexable
 
@@ -31,7 +27,7 @@ if the specified depth is higher than the number of questions in the response, t
 
 #### Defined in
 
-main.ts:209070
+main.ts:223963
 
 ***
 
@@ -42,9 +38,9 @@ main.ts:209070
 keyword
 required field
 the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”; 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -54,14 +50,11 @@ cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
 spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
-
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`keyword`](IBusinessDataTaskRequestInfo.md#keyword)
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:193027
+main.ts:223908
 
 ***
 
@@ -76,13 +69,9 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`language_code`](IBusinessDataTaskRequestInfo.md#language_code)
-
 #### Defined in
 
-main.ts:193073
+main.ts:223954
 
 ***
 
@@ -97,13 +86,9 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`language_name`](IBusinessDataTaskRequestInfo.md#language_name)
-
 #### Defined in
 
-main.ts:193066
+main.ts:223947
 
 ***
 
@@ -118,13 +103,9 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_code`](IBusinessDataTaskRequestInfo.md#location_code)
-
 #### Defined in
 
-main.ts:193049
+main.ts:223930
 
 ***
 
@@ -142,13 +123,9 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_coordinate`](IBusinessDataTaskRequestInfo.md#location_coordinate)
-
 #### Defined in
 
-main.ts:193059
+main.ts:223940
 
 ***
 
@@ -163,13 +140,9 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_name`](IBusinessDataTaskRequestInfo.md#location_name)
-
 #### Defined in
 
-main.ts:193042
+main.ts:223923
 
 ***
 
@@ -184,16 +157,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`pingback_url`](IBusinessDataTaskRequestInfo.md#pingback_url)
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:193099
+main.ts:223991
 
 ***
 
@@ -208,16 +178,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`postback_url`](IBusinessDataTaskRequestInfo.md#postback_url)
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:193089
+main.ts:223980
 
 ***
 
@@ -233,13 +200,9 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`priority`](IBusinessDataTaskRequestInfo.md#priority)
-
 #### Defined in
 
-main.ts:193035
+main.ts:223916
 
 ***
 
@@ -253,10 +216,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Inherited from
-
-[`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`tag`](IBusinessDataTaskRequestInfo.md#tag)
-
 #### Defined in
 
-main.ts:193079
+main.ts:223969

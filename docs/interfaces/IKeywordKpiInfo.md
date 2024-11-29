@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordKpiInfo
+[Documentation](../README.md) / IKeywordKpiInfo
 
 # Interface: IKeywordKpiInfo
 
@@ -35,7 +35,7 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 #### Defined in
 
-main.ts:133171
+main.ts:145020
 
 ***
 
@@ -47,7 +47,7 @@ average bid of the keyword
 
 #### Defined in
 
-main.ts:133188
+main.ts:145037
 
 ***
 
@@ -60,7 +60,7 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 #### Defined in
 
-main.ts:133180
+main.ts:145029
 
 ***
 
@@ -73,7 +73,7 @@ the number of clicks that the keyword and match type generated during the last m
 
 #### Defined in
 
-main.ts:133174
+main.ts:145023
 
 ***
 
@@ -86,7 +86,7 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 #### Defined in
 
-main.ts:133183
+main.ts:145032
 
 ***
 
@@ -99,7 +99,7 @@ the number of impressions that the keyword and match type generated during the l
 
 #### Defined in
 
-main.ts:133177
+main.ts:145026
 
 ***
 
@@ -112,4 +112,4 @@ the cost of using the specified keyword and match type during the last month
 
 #### Defined in
 
-main.ts:133186
+main.ts:145035

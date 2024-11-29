@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksIndexResultInfo
+[Documentation](../README.md) / BacklinksIndexResultInfo
 
 # Class: BacklinksIndexResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md)
+##### data?
+
+[`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:138567
+main.ts:149772
 
 ## Properties
 
@@ -46,7 +48,7 @@ index volume data for the past 12 months
 
 #### Defined in
 
-main.ts:138563
+main.ts:149768
 
 ***
 
@@ -62,7 +64,7 @@ total number of backlinks our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:138557
+main.ts:149762
 
 ***
 
@@ -78,7 +80,7 @@ total number of domains our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:138561
+main.ts:149766
 
 ***
 
@@ -94,7 +96,7 @@ total number of pages our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:138559
+main.ts:149764
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:138559
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:138559
 
 #### Defined in
 
-main.ts:138576
+main.ts:149781
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:138576
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:138576
 
 #### Defined in
 
-main.ts:138600
+main.ts:149805
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:138600
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:138600
 
 #### Defined in
 
-main.ts:138593
+main.ts:149798

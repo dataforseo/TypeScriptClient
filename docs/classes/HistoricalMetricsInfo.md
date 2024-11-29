@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HistoricalMetricsInfo
+[Documentation](../README.md) / HistoricalMetricsInfo
 
 # Class: HistoricalMetricsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md)
+##### data?
+
+[`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:101594
+main.ts:111332
 
 ## Properties
 
@@ -49,7 +51,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:101590
+main.ts:111328
 
 ***
 
@@ -65,7 +67,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:101585
+main.ts:111323
 
 ***
 
@@ -84,7 +86,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:101583
+main.ts:111321
 
 ***
 
@@ -100,7 +102,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:101578
+main.ts:111316
 
 ***
 
@@ -116,7 +118,7 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:101576
+main.ts:111314
 
 ## Methods
 
@@ -126,7 +128,9 @@ main.ts:101576
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +138,7 @@ main.ts:101576
 
 #### Defined in
 
-main.ts:101603
+main.ts:111341
 
 ***
 
@@ -144,7 +148,9 @@ main.ts:101603
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -152,7 +158,7 @@ main.ts:101603
 
 #### Defined in
 
-main.ts:101624
+main.ts:111362
 
 ***
 
@@ -162,7 +168,9 @@ main.ts:101624
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -170,4 +178,4 @@ main.ts:101624
 
 #### Defined in
 
-main.ts:101617
+main.ts:111355

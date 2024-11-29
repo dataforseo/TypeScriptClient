@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PeopleAlsoAskExpandedElement
+[Documentation](../README.md) / PeopleAlsoAskExpandedElement
 
 # Class: PeopleAlsoAskExpandedElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md)
+##### data?
+
+[`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:30225
+main.ts:31784
 
 ## Properties
 
@@ -46,7 +48,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:30212
+main.ts:31771
 
 ***
 
@@ -62,7 +64,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:30208
+main.ts:31767
 
 ***
 
@@ -78,7 +80,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:30204
+main.ts:31763
 
 ***
 
@@ -94,7 +96,7 @@ images of the element
 
 #### Defined in
 
-main.ts:30214
+main.ts:31773
 
 ***
 
@@ -110,7 +112,7 @@ table element
 
 #### Defined in
 
-main.ts:30221
+main.ts:31780
 
 ***
 
@@ -129,7 +131,7 @@ example:
 
 #### Defined in
 
-main.ts:30219
+main.ts:31778
 
 ***
 
@@ -145,7 +147,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:30210
+main.ts:31769
 
 ***
 
@@ -161,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:30202
+main.ts:31761
 
 ***
 
@@ -177,7 +179,7 @@ URL of element
 
 #### Defined in
 
-main.ts:30206
+main.ts:31765
 
 ## Methods
 
@@ -187,7 +189,9 @@ main.ts:30206
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +199,7 @@ main.ts:30206
 
 #### Defined in
 
-main.ts:30234
+main.ts:31793
 
 ***
 
@@ -205,7 +209,9 @@ main.ts:30234
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +219,7 @@ main.ts:30234
 
 #### Defined in
 
-main.ts:30263
+main.ts:31822
 
 ***
 
@@ -223,7 +229,9 @@ main.ts:30263
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -231,4 +239,4 @@ main.ts:30263
 
 #### Defined in
 
-main.ts:30256
+main.ts:31815

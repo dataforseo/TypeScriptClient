@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppReviewsTaskGetHtmlResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppReviewsTaskGetHtmlResultInfo
 
 # Interface: IAppDataGoogleAppReviewsTaskGetHtmlResultInfo
 
@@ -20,7 +20,7 @@ app id received in a POST array
 
 #### Defined in
 
-main.ts:191530
+main.ts:203866
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:191543
+main.ts:203879
 
 ***
 
@@ -47,7 +47,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:191547
+main.ts:203883
 
 ***
 
@@ -59,7 +59,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:191545
+main.ts:203881
 
 ***
 
@@ -71,7 +71,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:191538
+main.ts:203874
 
 ***
 
@@ -83,7 +83,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:191536
+main.ts:203872
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:191534
+main.ts:203870
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:191532
+main.ts:203868

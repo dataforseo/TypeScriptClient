@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFaqBox
+[Documentation](../README.md) / IFaqBox
 
 # Interface: IFaqBox
 
@@ -21,7 +21,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29797
+main.ts:31356
 
 ***
 
@@ -33,4 +33,4 @@ type of element
 
 #### Defined in
 
-main.ts:29794
+main.ts:31353

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:217000
+main.ts:231963
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:217000
 
 #### Defined in
 
-main.ts:216994
+main.ts:231957
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:216994
 
 #### Defined in
 
-main.ts:216995
+main.ts:231958
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:216995
 
 #### Defined in
 
-main.ts:216996
+main.ts:231959
 
 ## Methods
 
@@ -82,7 +84,9 @@ main.ts:216996
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -90,7 +94,7 @@ main.ts:216996
 
 #### Defined in
 
-main.ts:217009
+main.ts:231972
 
 ***
 
@@ -100,7 +104,9 @@ main.ts:217009
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +114,7 @@ main.ts:217009
 
 #### Defined in
 
-main.ts:217028
+main.ts:231991
 
 ***
 
@@ -118,7 +124,9 @@ main.ts:217028
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -126,4 +134,4 @@ main.ts:217028
 
 #### Defined in
 
-main.ts:217021
+main.ts:231984

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IIndexHistory
+[Documentation](../README.md) / IIndexHistory
 
 # Interface: IIndexHistory
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:138544
+main.ts:149749
 
 ***
 
@@ -35,7 +35,7 @@ total number of backlinks our database contained on the given date
 
 #### Defined in
 
-main.ts:138546
+main.ts:149751
 
 ***
 
@@ -47,7 +47,7 @@ total number of domains our database contained on the given date
 
 #### Defined in
 
-main.ts:138550
+main.ts:149755
 
 ***
 
@@ -59,4 +59,4 @@ total number of pages our database contained on the given date
 
 #### Defined in
 
-main.ts:138548
+main.ts:149753

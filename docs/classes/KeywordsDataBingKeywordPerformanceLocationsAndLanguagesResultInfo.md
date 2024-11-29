@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:132364
+main.ts:144207
 
 ## Properties
 
@@ -47,7 +49,7 @@ contains locations supported in combination with a specific language
 
 #### Defined in
 
-main.ts:132360
+main.ts:144203
 
 ***
 
@@ -63,7 +65,7 @@ language code
 
 #### Defined in
 
-main.ts:132357
+main.ts:144200
 
 ***
 
@@ -79,7 +81,7 @@ language name
 
 #### Defined in
 
-main.ts:132355
+main.ts:144198
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:132355
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:132355
 
 #### Defined in
 
-main.ts:132373
+main.ts:144216
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:132373
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:132373
 
 #### Defined in
 
-main.ts:132396
+main.ts:144239
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:132396
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:132396
 
 #### Defined in
 
-main.ts:132389
+main.ts:144232

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAuthorsElement
+[Documentation](../README.md) / IAuthorsElement
 
 # Interface: IAuthorsElement
 
@@ -20,7 +20,7 @@ author’s link domain
 
 #### Defined in
 
-main.ts:54046
+main.ts:24807
 
 ***
 
@@ -32,7 +32,7 @@ name of the dataset author
 
 #### Defined in
 
-main.ts:54042
+main.ts:24803
 
 ***
 
@@ -44,7 +44,7 @@ type of element
 
 #### Defined in
 
-main.ts:54040
+main.ts:24801
 
 ***
 
@@ -56,4 +56,4 @@ author’s link URL
 
 #### Defined in
 
-main.ts:54044
+main.ts:24805

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkReferringDomainsLiveItem
+[Documentation](../README.md) / BacklinksBulkReferringDomainsLiveItem
 
 # Class: BacklinksBulkReferringDomainsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkReferringDomainsLiveItem`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md)
+##### data?
+
+[`IBacklinksBulkReferringDomainsLiveItem`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:150137
+main.ts:161342
 
 ## Properties
 
@@ -47,7 +49,7 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 #### Defined in
 
-main.ts:150126
+main.ts:161331
 
 ***
 
@@ -63,7 +65,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:150128
+main.ts:161333
 
 ***
 
@@ -80,7 +82,7 @@ the number of primary (root) domains referring to your target
 
 #### Defined in
 
-main.ts:150131
+main.ts:161336
 
 ***
 
@@ -96,7 +98,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:150133
+main.ts:161338
 
 ***
 
@@ -112,7 +114,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:150123
+main.ts:161328
 
 ## Methods
 
@@ -122,7 +124,9 @@ main.ts:150123
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +134,7 @@ main.ts:150123
 
 #### Defined in
 
-main.ts:150146
+main.ts:161351
 
 ***
 
@@ -140,7 +144,9 @@ main.ts:150146
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +154,7 @@ main.ts:150146
 
 #### Defined in
 
-main.ts:150167
+main.ts:161372
 
 ***
 
@@ -158,7 +164,9 @@ main.ts:150167
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -166,4 +174,4 @@ main.ts:150167
 
 #### Defined in
 
-main.ts:150160
+main.ts:161365

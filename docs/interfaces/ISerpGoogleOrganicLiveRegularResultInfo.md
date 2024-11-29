@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleOrganicLiveRegularResultInfo
+[Documentation](../README.md) / ISerpGoogleOrganicLiveRegularResultInfo
 
 # Interface: ISerpGoogleOrganicLiveRegularResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:37669
+main.ts:39164
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:37674
+main.ts:39169
 
 ***
 
@@ -54,7 +54,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Defined in
 
-main.ts:37685
+main.ts:39182
 
 ***
 
@@ -66,7 +66,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:37691
+main.ts:39188
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:37689
+main.ts:39186
 
 ***
 
@@ -87,11 +87,11 @@ main.ts:37689
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:37658
+main.ts:39153
 
 ***
 
@@ -103,7 +103,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:37666
+main.ts:39161
 
 ***
 
@@ -115,7 +115,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:37664
+main.ts:39159
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:39174
 
 ***
 
@@ -127,7 +139,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:37662
+main.ts:39157
 
 ***
 
@@ -139,7 +151,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:37687
+main.ts:39184
 
 ***
 
@@ -152,7 +164,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:37677
+main.ts:39172
 
 ***
 
@@ -164,4 +176,4 @@ type of element
 
 #### Defined in
 
-main.ts:37660
+main.ts:39155

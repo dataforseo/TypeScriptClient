@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:87372
+main.ts:97090
 
 ## Properties
 
@@ -60,7 +62,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:87335
+main.ts:97053
 
 ***
 
@@ -81,7 +83,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:87310
+main.ts:97028
 
 ***
 
@@ -101,7 +103,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:87303
+main.ts:97021
 
 ***
 
@@ -124,7 +126,7 @@ default value:
 
 #### Defined in
 
-main.ts:87319
+main.ts:97037
 
 ***
 
@@ -146,7 +148,7 @@ en
 
 #### Defined in
 
-main.ts:87297
+main.ts:97015
 
 ***
 
@@ -168,7 +170,7 @@ English
 
 #### Defined in
 
-main.ts:87289
+main.ts:97007
 
 ***
 
@@ -187,7 +189,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:87357
+main.ts:97075
 
 ***
 
@@ -209,7 +211,7 @@ example:
 
 #### Defined in
 
-main.ts:87281
+main.ts:96999
 
 ***
 
@@ -231,7 +233,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:87273
+main.ts:96991
 
 ***
 
@@ -250,7 +252,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Defined in
 
-main.ts:87362
+main.ts:97080
 
 ***
 
@@ -281,7 +283,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Defined in
 
-main.ts:87352
+main.ts:97070
 
 ***
 
@@ -301,7 +303,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:87368
+main.ts:97086
 
 ***
 
@@ -320,7 +322,7 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:87265
+main.ts:96983
 
 ## Methods
 
@@ -330,7 +332,9 @@ main.ts:87265
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -338,7 +342,7 @@ main.ts:87265
 
 #### Defined in
 
-main.ts:87381
+main.ts:97099
 
 ***
 
@@ -348,7 +352,9 @@ main.ts:87381
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -356,7 +362,7 @@ main.ts:87381
 
 #### Defined in
 
-main.ts:87422
+main.ts:97140
 
 ***
 
@@ -366,7 +372,9 @@ main.ts:87422
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -374,4 +382,4 @@ main.ts:87422
 
 #### Defined in
 
-main.ts:87415
+main.ts:97133

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessListingAggregationInfo
+[Documentation](../README.md) / IBusinessListingAggregationInfo
 
 # Interface: IBusinessListingAggregationInfo
 
@@ -20,7 +20,7 @@ number of unique entities
 
 #### Defined in
 
-main.ts:199735
+main.ts:212085
 
 ***
 
@@ -37,7 +37,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Defined in
 
-main.ts:199738
+main.ts:212088
 
 ***
 
@@ -54,7 +54,7 @@ top categories displayed with the number of businesses in each category
 
 #### Defined in
 
-main.ts:199728
+main.ts:212078
 
 ***
 
@@ -71,7 +71,7 @@ country codes with the biggest number of businesses in the category
 
 #### Defined in
 
-main.ts:199731
+main.ts:212081
 
 ***
 
@@ -88,7 +88,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Defined in
 
-main.ts:199741
+main.ts:212091
 
 ***
 
@@ -100,4 +100,4 @@ number of unique websites
 
 #### Defined in
 
-main.ts:199733
+main.ts:212083

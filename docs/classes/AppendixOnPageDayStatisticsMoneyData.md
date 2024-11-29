@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixOnPageDayStatisticsMoneyData
+[Documentation](../README.md) / AppendixOnPageDayStatisticsMoneyData
 
 # Class: AppendixOnPageDayStatisticsMoneyData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md)
+##### data?
+
+[`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:220346
+main.ts:235353
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:220346
 
 #### Defined in
 
-main.ts:220340
+main.ts:235347
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:220340
 
 #### Defined in
 
-main.ts:220341
+main.ts:235348
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:220341
 
 #### Defined in
 
-main.ts:220333
+main.ts:235340
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:220333
 
 #### Defined in
 
-main.ts:220328
+main.ts:235335
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:220328
 
 #### Defined in
 
-main.ts:220331
+main.ts:235338
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:220331
 
 #### Defined in
 
-main.ts:220335
+main.ts:235342
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:220335
 
 #### Defined in
 
-main.ts:220338
+main.ts:235345
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:220338
 
 #### Defined in
 
-main.ts:220337
+main.ts:235344
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:220337
 
 #### Defined in
 
-main.ts:220329
+main.ts:235336
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:220329
 
 #### Defined in
 
-main.ts:220327
+main.ts:235334
 
 ***
 
@@ -184,7 +186,7 @@ main.ts:220327
 
 #### Defined in
 
-main.ts:220339
+main.ts:235346
 
 ***
 
@@ -198,7 +200,7 @@ main.ts:220339
 
 #### Defined in
 
-main.ts:220326
+main.ts:235333
 
 ***
 
@@ -212,7 +214,7 @@ main.ts:220326
 
 #### Defined in
 
-main.ts:220332
+main.ts:235339
 
 ***
 
@@ -226,7 +228,7 @@ main.ts:220332
 
 #### Defined in
 
-main.ts:220334
+main.ts:235341
 
 ***
 
@@ -240,7 +242,7 @@ main.ts:220334
 
 #### Defined in
 
-main.ts:220336
+main.ts:235343
 
 ***
 
@@ -254,7 +256,7 @@ main.ts:220336
 
 #### Defined in
 
-main.ts:220342
+main.ts:235349
 
 ***
 
@@ -268,7 +270,7 @@ main.ts:220342
 
 #### Defined in
 
-main.ts:220325
+main.ts:235332
 
 ***
 
@@ -282,7 +284,7 @@ main.ts:220325
 
 #### Defined in
 
-main.ts:220324
+main.ts:235331
 
 ***
 
@@ -296,7 +298,7 @@ main.ts:220324
 
 #### Defined in
 
-main.ts:220322
+main.ts:235329
 
 ***
 
@@ -310,7 +312,7 @@ main.ts:220322
 
 #### Defined in
 
-main.ts:220323
+main.ts:235330
 
 ***
 
@@ -324,7 +326,7 @@ main.ts:220323
 
 #### Defined in
 
-main.ts:220330
+main.ts:235337
 
 ## Methods
 
@@ -334,7 +336,9 @@ main.ts:220330
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -342,7 +346,7 @@ main.ts:220330
 
 #### Defined in
 
-main.ts:220355
+main.ts:235362
 
 ***
 
@@ -352,7 +356,9 @@ main.ts:220355
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -360,7 +366,7 @@ main.ts:220355
 
 #### Defined in
 
-main.ts:220392
+main.ts:235399
 
 ***
 
@@ -370,7 +376,9 @@ main.ts:220392
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -378,4 +386,4 @@ main.ts:220392
 
 #### Defined in
 
-main.ts:220385
+main.ts:235392

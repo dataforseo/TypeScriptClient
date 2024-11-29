@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TargetInfo
+[Documentation](../README.md) / TargetInfo
 
 # Class: TargetInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITargetInfo`](../interfaces/ITargetInfo.md)
+##### data?
+
+[`ITargetInfo`](../interfaces/ITargetInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:138942
+main.ts:150147
 
 ## Properties
 
@@ -46,7 +48,7 @@ content management system
 
 #### Defined in
 
-main.ts:138925
+main.ts:150130
 
 ***
 
@@ -62,7 +64,7 @@ country code that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:138931
+main.ts:150136
 
 ***
 
@@ -78,7 +80,7 @@ IP address of the target
 
 #### Defined in
 
-main.ts:138929
+main.ts:150134
 
 ***
 
@@ -95,7 +97,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 #### Defined in
 
-main.ts:138934
+main.ts:150139
 
 ***
 
@@ -111,7 +113,7 @@ platform type
 
 #### Defined in
 
-main.ts:138927
+main.ts:150132
 
 ***
 
@@ -127,7 +129,7 @@ server
 
 #### Defined in
 
-main.ts:138923
+main.ts:150128
 
 ***
 
@@ -145,7 +147,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:138938
+main.ts:150143
 
 ## Methods
 
@@ -155,7 +157,9 @@ main.ts:138938
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +167,7 @@ main.ts:138938
 
 #### Defined in
 
-main.ts:138951
+main.ts:150156
 
 ***
 
@@ -173,7 +177,9 @@ main.ts:138951
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +187,7 @@ main.ts:138951
 
 #### Defined in
 
-main.ts:138978
+main.ts:150183
 
 ***
 
@@ -191,7 +197,9 @@ main.ts:138978
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -199,4 +207,4 @@ main.ts:138978
 
 #### Defined in
 
-main.ts:138971
+main.ts:150176

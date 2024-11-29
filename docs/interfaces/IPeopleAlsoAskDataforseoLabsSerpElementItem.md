@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPeopleAlsoAskDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IPeopleAlsoAskDataforseoLabsSerpElementItem
 
 # Interface: IPeopleAlsoAskDataforseoLabsSerpElementItem
 
@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:95939
+main.ts:105657
 
 ***
 
@@ -42,7 +42,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -88,7 +88,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95937
+main.ts:105655
 
 ***
 
@@ -104,7 +104,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -120,4 +120,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

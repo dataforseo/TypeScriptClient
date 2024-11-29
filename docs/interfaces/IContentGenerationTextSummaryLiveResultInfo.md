@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationTextSummaryLiveResultInfo
+[Documentation](../README.md) / IContentGenerationTextSummaryLiveResultInfo
 
 # Interface: IContentGenerationTextSummaryLiveResultInfo
 
@@ -20,7 +20,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:172060
+main.ts:183649
 
 ***
 
@@ -32,7 +32,7 @@ average number of characters per word in the target text
 
 #### Defined in
 
-main.ts:172053
+main.ts:183642
 
 ***
 
@@ -44,7 +44,7 @@ number of characters with spaces found in the target text
 
 #### Defined in
 
-main.ts:172049
+main.ts:183638
 
 ***
 
@@ -56,7 +56,7 @@ number of characters without spaces found in the target text
 
 #### Defined in
 
-main.ts:172047
+main.ts:183636
 
 ***
 
@@ -68,7 +68,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:172062
+main.ts:183651
 
 ***
 
@@ -80,7 +80,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:172064
+main.ts:183653
 
 ***
 
@@ -92,7 +92,7 @@ number of grammar errors found in the target text
 
 #### Defined in
 
-main.ts:172070
+main.ts:183659
 
 ***
 
@@ -109,7 +109,7 @@ contains most common words and their count
 
 #### Defined in
 
-main.ts:172058
+main.ts:183647
 
 ***
 
@@ -121,7 +121,7 @@ number of paragraphs found in the target text
 
 #### Defined in
 
-main.ts:172043
+main.ts:183632
 
 ***
 
@@ -133,7 +133,7 @@ number of sentences found in the target text
 
 #### Defined in
 
-main.ts:172041
+main.ts:183630
 
 ***
 
@@ -145,7 +145,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:172066
+main.ts:183655
 
 ***
 
@@ -157,7 +157,7 @@ number of spelling errors found in the target text
 
 #### Defined in
 
-main.ts:172068
+main.ts:183657
 
 ***
 
@@ -169,7 +169,7 @@ vocabulary density of the target text
 
 #### Defined in
 
-main.ts:172055
+main.ts:183644
 
 ***
 
@@ -181,7 +181,7 @@ number of words found in the target text
 
 #### Defined in
 
-main.ts:172045
+main.ts:183634
 
 ***
 
@@ -193,4 +193,4 @@ average number of words per sentence in the target text
 
 #### Defined in
 
-main.ts:172051
+main.ts:183640

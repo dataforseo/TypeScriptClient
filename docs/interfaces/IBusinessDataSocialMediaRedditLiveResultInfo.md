@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataSocialMediaRedditLiveResultInfo
+[Documentation](../README.md) / IBusinessDataSocialMediaRedditLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaRedditLiveResultInfo
 
@@ -21,7 +21,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:215364
+main.ts:230307
 
 ***
 
@@ -33,7 +33,7 @@ reddit reviews for the page_url
 
 #### Defined in
 
-main.ts:215366
+main.ts:230309
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Defined in
 
-main.ts:215361
+main.ts:230304

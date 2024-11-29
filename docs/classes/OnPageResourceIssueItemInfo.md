@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageResourceIssueItemInfo
+[Documentation](../README.md) / OnPageResourceIssueItemInfo
 
 # Class: OnPageResourceIssueItemInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md)
+##### data?
+
+[`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:154885
+main.ts:166512
 
 ## Properties
 
@@ -46,7 +48,7 @@ column where the error was found
 
 #### Defined in
 
-main.ts:154867
+main.ts:166494
 
 ***
 
@@ -62,7 +64,7 @@ line where the error was found
 
 #### Defined in
 
-main.ts:154865
+main.ts:166492
 
 ***
 
@@ -79,7 +81,7 @@ the full list of possible HTML errors can be found here
 
 #### Defined in
 
-main.ts:154870
+main.ts:166497
 
 ***
 
@@ -104,7 +106,7 @@ possible values:
 
 #### Defined in
 
-main.ts:154881
+main.ts:166508
 
 ## Methods
 
@@ -114,7 +116,9 @@ main.ts:154881
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +126,7 @@ main.ts:154881
 
 #### Defined in
 
-main.ts:154894
+main.ts:166521
 
 ***
 
@@ -132,7 +136,9 @@ main.ts:154894
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -140,7 +146,7 @@ main.ts:154894
 
 #### Defined in
 
-main.ts:154914
+main.ts:166541
 
 ***
 
@@ -150,7 +156,9 @@ main.ts:154914
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -158,4 +166,4 @@ main.ts:154914
 
 #### Defined in
 
-main.ts:154907
+main.ts:166534

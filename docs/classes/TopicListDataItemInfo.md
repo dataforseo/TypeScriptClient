@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopicListDataItemInfo
+[Documentation](../README.md) / TopicListDataItemInfo
 
 # Class: TopicListDataItemInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md)
+##### data?
+
+[`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:124780
+main.ts:135031
 
 ## Properties
 
@@ -46,7 +48,7 @@ unique topic identifier in Google Trends
 
 #### Defined in
 
-main.ts:124768
+main.ts:135019
 
 ***
 
@@ -62,7 +64,7 @@ title of the topic
 
 #### Defined in
 
-main.ts:124770
+main.ts:135021
 
 ***
 
@@ -79,7 +81,7 @@ represents the general type of the topic
 
 #### Defined in
 
-main.ts:124773
+main.ts:135024
 
 ***
 
@@ -96,7 +98,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:124776
+main.ts:135027
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:124776
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:124776
 
 #### Defined in
 
-main.ts:124789
+main.ts:135040
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:124789
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:124789
 
 #### Defined in
 
-main.ts:124809
+main.ts:135060
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:124809
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:124809
 
 #### Defined in
 
-main.ts:124802
+main.ts:135053

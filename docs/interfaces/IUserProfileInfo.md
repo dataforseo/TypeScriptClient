@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IUserProfileInfo
+[Documentation](../README.md) / IUserProfileInfo
 
 # Interface: IUserProfileInfo
 
@@ -20,7 +20,7 @@ URL to the profile picture of the reviewer
 
 #### Defined in
 
-main.ts:185049
+main.ts:194936
 
 ***
 
@@ -32,7 +32,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:185055
+main.ts:194942
 
 ***
 
@@ -44,7 +44,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:185047
+main.ts:194934
 
 ***
 
@@ -56,7 +56,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:185053
+main.ts:194940
 
 ***
 
@@ -64,8 +64,8 @@ main.ts:185053
 
 > `optional` **url**: `string`
 
-URL to the reviewer’s profile
+URL of the video
 
 #### Defined in
 
-main.ts:185051
+main.ts:194938

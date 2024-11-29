@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMoneyData
+[Documentation](../README.md) / IAppendixMoneyData
 
 # Interface: IAppendixMoneyData
 
@@ -20,7 +20,7 @@ amount of money left in your account
 
 #### Defined in
 
-main.ts:220904
+main.ts:236067
 
 ***
 
@@ -32,7 +32,7 @@ cost limits
 
 #### Defined in
 
-main.ts:220906
+main.ts:236069
 
 ***
 
@@ -44,7 +44,7 @@ statistics of your spending
 
 #### Defined in
 
-main.ts:220908
+main.ts:236071
 
 ***
 
@@ -56,4 +56,4 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:220902
+main.ts:236065

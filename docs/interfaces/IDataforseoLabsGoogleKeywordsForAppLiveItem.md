@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForAppLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForAppLiveItem
 
 # Interface: IDataforseoLabsGoogleKeywordsForAppLiveItem
 
@@ -14,13 +14,13 @@
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:112377
+main.ts:121709
 
 ***
 
@@ -32,7 +32,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:112379
+main.ts:121711
 
 ***
 
@@ -44,4 +44,4 @@ search engine type
 
 #### Defined in
 
-main.ts:112375
+main.ts:121707

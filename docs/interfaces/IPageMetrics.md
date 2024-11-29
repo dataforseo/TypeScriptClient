@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPageMetrics
+[Documentation](../README.md) / IPageMetrics
 
 # Interface: IPageMetrics
 
@@ -21,7 +21,7 @@ number of broken links across all crawled pages on a target website
 
 #### Defined in
 
-main.ts:153929
+main.ts:165556
 
 ***
 
@@ -34,7 +34,7 @@ the number of images and other resources with broken links
 
 #### Defined in
 
-main.ts:153932
+main.ts:165559
 
 ***
 
@@ -50,7 +50,7 @@ page-specific on-page check-ups
 
 #### Defined in
 
-main.ts:153950
+main.ts:165577
 
 ***
 
@@ -62,7 +62,7 @@ number of pages with duplicate content
 
 #### Defined in
 
-main.ts:153926
+main.ts:165553
 
 ***
 
@@ -74,7 +74,7 @@ number of pages with duplicate descriptions
 
 #### Defined in
 
-main.ts:153924
+main.ts:165551
 
 ***
 
@@ -86,7 +86,7 @@ number of pages with duplicate titles
 
 #### Defined in
 
-main.ts:153922
+main.ts:165549
 
 ***
 
@@ -99,7 +99,7 @@ the number of links pointing to other websites
 
 #### Defined in
 
-main.ts:153917
+main.ts:165544
 
 ***
 
@@ -112,7 +112,7 @@ the number of links pointing to other pages within the target website
 
 #### Defined in
 
-main.ts:153920
+main.ts:165547
 
 ***
 
@@ -125,7 +125,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Defined in
 
-main.ts:153935
+main.ts:165562
 
 ***
 
@@ -139,7 +139,7 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Defined in
 
-main.ts:153948
+main.ts:165575
 
 ***
 
@@ -155,7 +155,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:153944
+main.ts:165571
 
 ***
 
@@ -168,4 +168,4 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-main.ts:153938
+main.ts:165565

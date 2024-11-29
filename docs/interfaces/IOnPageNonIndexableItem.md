@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageNonIndexableItem
+[Documentation](../README.md) / IOnPageNonIndexableItem
 
 # Interface: IOnPageNonIndexableItem
 
@@ -21,7 +21,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 #### Defined in
 
-main.ts:158784
+main.ts:170419
 
 ***
 
@@ -33,4 +33,4 @@ url of the non-indexable page
 
 #### Defined in
 
-main.ts:158786
+main.ts:170421

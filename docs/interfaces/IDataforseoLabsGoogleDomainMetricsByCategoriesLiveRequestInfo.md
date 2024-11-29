@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:89280
+main.ts:98998
 
 ***
 
@@ -40,7 +40,7 @@ Note: we do not recommend setting correlate to false
 
 #### Defined in
 
-main.ts:89371
+main.ts:99089
 
 ***
 
@@ -54,7 +54,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Defined in
 
-main.ts:89364
+main.ts:99082
 
 ***
 
@@ -68,7 +68,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Defined in
 
-main.ts:89360
+main.ts:99078
 
 ***
 
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:89392
+main.ts:99110
 
 ***
 
@@ -110,7 +110,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:89291
+main.ts:99009
 
 ***
 
@@ -126,7 +126,7 @@ default value: true
 
 #### Defined in
 
-main.ts:89356
+main.ts:99074
 
 ***
 
@@ -145,7 +145,7 @@ default value:
 
 #### Defined in
 
-main.ts:89342
+main.ts:99060
 
 ***
 
@@ -162,7 +162,7 @@ en
 
 #### Defined in
 
-main.ts:89333
+main.ts:99051
 
 ***
 
@@ -180,7 +180,7 @@ English
 
 #### Defined in
 
-main.ts:89326
+main.ts:99044
 
 ***
 
@@ -195,7 +195,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:89376
+main.ts:99094
 
 ***
 
@@ -213,7 +213,7 @@ example:
 
 #### Defined in
 
-main.ts:89318
+main.ts:99036
 
 ***
 
@@ -231,7 +231,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:89310
+main.ts:99028
 
 ***
 
@@ -246,7 +246,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:89381
+main.ts:99099
 
 ***
 
@@ -271,7 +271,7 @@ example:
 
 #### Defined in
 
-main.ts:89407
+main.ts:99125
 
 ***
 
@@ -292,7 +292,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:89302
+main.ts:99020
 
 ***
 
@@ -308,7 +308,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:89413
+main.ts:99131
 
 ***
 
@@ -326,4 +326,4 @@ maximum value: 5
 
 #### Defined in
 
-main.ts:89350
+main.ts:99068

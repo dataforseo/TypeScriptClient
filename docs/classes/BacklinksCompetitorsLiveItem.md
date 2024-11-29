@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksCompetitorsLiveItem
+[Documentation](../README.md) / BacklinksCompetitorsLiveItem
 
 # Class: BacklinksCompetitorsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksCompetitorsLiveItem`](../interfaces/IBacklinksCompetitorsLiveItem.md)
+##### data?
+
+[`IBacklinksCompetitorsLiveItem`](../interfaces/IBacklinksCompetitorsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:145776
+main.ts:156981
 
 ## Properties
 
@@ -46,7 +48,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 #### Defined in
 
-main.ts:145772
+main.ts:156977
 
 ***
 
@@ -65,7 +67,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:145770
+main.ts:156975
 
 ***
 
@@ -81,7 +83,7 @@ competitor domain
 
 #### Defined in
 
-main.ts:145765
+main.ts:156970
 
 ***
 
@@ -97,7 +99,7 @@ type of element
 
 #### Defined in
 
-main.ts:145763
+main.ts:156968
 
 ## Methods
 
@@ -107,7 +109,9 @@ main.ts:145763
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +119,7 @@ main.ts:145763
 
 #### Defined in
 
-main.ts:145785
+main.ts:156990
 
 ***
 
@@ -125,7 +129,9 @@ main.ts:145785
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -133,7 +139,7 @@ main.ts:145785
 
 #### Defined in
 
-main.ts:145805
+main.ts:157010
 
 ***
 
@@ -143,7 +149,9 @@ main.ts:145805
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -151,4 +159,4 @@ main.ts:145805
 
 #### Defined in
 
-main.ts:145798
+main.ts:157003

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IEventItemSerpElementItem
+[Documentation](../README.md) / IEventItemSerpElementItem
 
 # Interface: IEventItemSerpElementItem
 
@@ -24,7 +24,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:46254
+main.ts:49067
 
 ***
 
@@ -37,7 +37,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:46261
+main.ts:49074
 
 ***
 
@@ -49,7 +49,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:46258
+main.ts:49071
 
 ***
 
@@ -58,11 +58,10 @@ main.ts:46258
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](../classes/InformationAndTicketsElement.md)[]
 
 additional information and ticket purchase options
-if there is none, equals null
 
 #### Defined in
 
-main.ts:46267
+main.ts:49078
 
 ***
 
@@ -71,11 +70,10 @@ main.ts:46267
 > `optional` **location\_info**: [`LocationInfo`](../classes/LocationInfo.md)
 
 information about the event’s venue
-if there is none, equals null
 
 #### Defined in
 
-main.ts:46264
+main.ts:49076
 
 ***
 
@@ -93,7 +91,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -110,7 +108,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -128,7 +126,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -136,11 +134,11 @@ main.ts:20719
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Defined in
 
-main.ts:46252
+main.ts:49065
 
 ***
 
@@ -156,7 +154,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -164,11 +162,11 @@ main.ts:20715
 
 > `optional` **url**: `string`
 
-relevant URL
+search URL with refinement parameters
 
 #### Defined in
 
-main.ts:46256
+main.ts:49069
 
 ***
 
@@ -184,4 +182,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

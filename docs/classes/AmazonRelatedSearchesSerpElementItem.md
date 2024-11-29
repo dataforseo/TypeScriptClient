@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonRelatedSearchesSerpElementItem
+[Documentation](../README.md) / AmazonRelatedSearchesSerpElementItem
 
 # Class: AmazonRelatedSearchesSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md)
+##### data?
+
+[`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:180686
+main.ts:192774
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:180686
 
 #### Defined in
 
-main.ts:22320
+main.ts:23218
 
 ***
 
@@ -68,7 +70,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:180682
+main.ts:192770
 
 ***
 
@@ -86,7 +88,7 @@ left, right
 
 #### Defined in
 
-main.ts:180680
+main.ts:192768
 
 ***
 
@@ -107,7 +109,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22316
+main.ts:23214
 
 ***
 
@@ -128,7 +130,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22313
+main.ts:23211
 
 ***
 
@@ -148,7 +150,7 @@ type of element
 
 #### Defined in
 
-main.ts:22310
+main.ts:23208
 
 ***
 
@@ -168,7 +170,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22318
+main.ts:23216
 
 ## Methods
 
@@ -178,7 +180,9 @@ main.ts:22318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -190,7 +194,7 @@ main.ts:22318
 
 #### Defined in
 
-main.ts:180691
+main.ts:192779
 
 ***
 
@@ -200,7 +204,9 @@ main.ts:180691
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -212,7 +218,7 @@ main.ts:180691
 
 #### Defined in
 
-main.ts:180714
+main.ts:192802
 
 ***
 
@@ -222,7 +228,9 @@ main.ts:180714
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -234,4 +242,4 @@ main.ts:180714
 
 #### Defined in
 
-main.ts:180707
+main.ts:192795

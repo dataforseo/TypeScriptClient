@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISearchVolumeHistoryItemInfo
+[Documentation](../README.md) / ISearchVolumeHistoryItemInfo
 
 # Interface: ISearchVolumeHistoryItemInfo
 
@@ -22,7 +22,7 @@ day of the month
 
 #### Defined in
 
-main.ts:134712
+main.ts:146569
 
 ***
 
@@ -34,7 +34,7 @@ month
 
 #### Defined in
 
-main.ts:134710
+main.ts:146567
 
 ***
 
@@ -46,7 +46,7 @@ search volume rate
 
 #### Defined in
 
-main.ts:134714
+main.ts:146571
 
 ***
 
@@ -58,4 +58,4 @@ year
 
 #### Defined in
 
-main.ts:134708
+main.ts:146565

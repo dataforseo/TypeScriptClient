@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ application id received in a POST array
 
 #### Defined in
 
-main.ts:196145
+main.ts:208495
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:196156
+main.ts:208506
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:196161
+main.ts:208511
 
 ***
 
@@ -60,7 +60,7 @@ found reviews
 
 #### Defined in
 
-main.ts:196175
+main.ts:208525
 
 ***
 
@@ -73,7 +73,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:196173
+main.ts:208523
 
 ***
 
@@ -85,7 +85,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:196153
+main.ts:208503
 
 ***
 
@@ -97,7 +97,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:196151
+main.ts:208501
 
 ***
 
@@ -110,7 +110,7 @@ rating of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:196167
+main.ts:208517
 
 ***
 
@@ -123,7 +123,7 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 #### Defined in
 
-main.ts:196170
+main.ts:208520
 
 ***
 
@@ -135,7 +135,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:196149
+main.ts:208499
 
 ***
 
@@ -148,7 +148,7 @@ title of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:196164
+main.ts:208514
 
 ***
 
@@ -160,4 +160,4 @@ type of element
 
 #### Defined in
 
-main.ts:196147
+main.ts:208497

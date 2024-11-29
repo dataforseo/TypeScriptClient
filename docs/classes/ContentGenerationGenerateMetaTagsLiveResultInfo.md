@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
+[Documentation](../README.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Class: ContentGenerationGenerateMetaTagsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:170371
+main.ts:181960
 
 ## Properties
 
@@ -46,7 +48,7 @@ generated description
 
 #### Defined in
 
-main.ts:170367
+main.ts:181956
 
 ***
 
@@ -62,7 +64,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:170359
+main.ts:181948
 
 ***
 
@@ -78,7 +80,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:170363
+main.ts:181952
 
 ***
 
@@ -94,7 +96,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:170361
+main.ts:181950
 
 ***
 
@@ -110,7 +112,7 @@ generated title
 
 #### Defined in
 
-main.ts:170365
+main.ts:181954
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:170365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:170365
 
 #### Defined in
 
-main.ts:170380
+main.ts:181969
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:170380
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:170380
 
 #### Defined in
 
-main.ts:170401
+main.ts:181990
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:170401
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:170401
 
 #### Defined in
 
-main.ts:170394
+main.ts:181983

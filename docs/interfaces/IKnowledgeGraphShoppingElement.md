@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphShoppingElement
+[Documentation](../README.md) / IKnowledgeGraphShoppingElement
 
 # Interface: IKnowledgeGraphShoppingElement
 
@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:28896
+main.ts:30455
 
 ***
 
@@ -35,7 +35,7 @@ by Google
 
 #### Defined in
 
-main.ts:28908
+main.ts:30467
 
 ***
 
@@ -48,7 +48,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Defined in
 
-main.ts:28911
+main.ts:30470
 
 ***
 
@@ -61,7 +61,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:28899
+main.ts:30458
 
 ***
 
@@ -73,7 +73,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28903
+main.ts:30462
 
 ***
 
@@ -85,7 +85,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:28901
+main.ts:30460
 
 ***
 
@@ -97,7 +97,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28892
+main.ts:30451
 
 ***
 
@@ -109,7 +109,7 @@ type of element
 
 #### Defined in
 
-main.ts:28890
+main.ts:30449
 
 ***
 
@@ -121,4 +121,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:28894
+main.ts:30453

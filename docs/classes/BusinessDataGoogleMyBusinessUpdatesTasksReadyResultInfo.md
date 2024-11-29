@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:202471
+main.ts:215446
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:202463
+main.ts:215438
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:202467
+main.ts:215442
 
 ***
 
@@ -79,7 +81,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:202456
+main.ts:215431
 
 ***
 
@@ -96,7 +98,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:202459
+main.ts:215434
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:202461
+main.ts:215436
 
 ***
 
@@ -128,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:202465
+main.ts:215440
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:202465
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:202465
 
 #### Defined in
 
-main.ts:202480
+main.ts:215455
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:202480
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:202480
 
 #### Defined in
 
-main.ts:202502
+main.ts:215477
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:202502
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:202502
 
 #### Defined in
 
-main.ts:202495
+main.ts:215470

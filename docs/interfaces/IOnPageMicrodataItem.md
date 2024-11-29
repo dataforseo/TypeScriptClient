@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageMicrodataItem
+[Documentation](../README.md) / IOnPageMicrodataItem
 
 # Interface: IOnPageMicrodataItem
 
@@ -20,7 +20,7 @@ information related to microdata validation
 
 #### Defined in
 
-main.ts:160222
+main.ts:171865
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Defined in
 
-main.ts:160220
+main.ts:171863

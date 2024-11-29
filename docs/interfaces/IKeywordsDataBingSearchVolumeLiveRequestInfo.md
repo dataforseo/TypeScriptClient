@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeLiveRequestInfo
 
 # Interface: IKeywordsDataBingSearchVolumeLiveRequestInfo
 
@@ -27,7 +27,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129262
+main.ts:139529
 
 ***
 
@@ -48,7 +48,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129273
+main.ts:139540
 
 ***
 
@@ -64,7 +64,7 @@ default value: all
 
 #### Defined in
 
-main.ts:129248
+main.ts:139515
 
 ***
 
@@ -77,10 +77,11 @@ required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:129208
+main.ts:139475
 
 ***
 
@@ -96,7 +97,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:129242
+main.ts:139509
 
 ***
 
@@ -112,7 +113,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:129236
+main.ts:139503
 
 ***
 
@@ -129,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:129222
+main.ts:139489
 
 ***
 
@@ -147,7 +148,7 @@ example:
 
 #### Defined in
 
-main.ts:129230
+main.ts:139497
 
 ***
 
@@ -164,7 +165,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:129215
+main.ts:139482
 
 ***
 
@@ -179,7 +180,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:129278
+main.ts:139545
 
 ***
 
@@ -194,7 +195,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:129253
+main.ts:139520
 
 ***
 
@@ -210,4 +211,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129284
+main.ts:139551

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
+[Documentation](../README.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Interface: IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
@@ -24,7 +24,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:175008
+main.ts:186737
 
 ***
 
@@ -42,7 +42,7 @@ left, right
 
 #### Defined in
 
-main.ts:21135
+main.ts:21813
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21131
+main.ts:21809
 
 ***
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21128
+main.ts:21806
 
 ***
 
@@ -88,7 +88,7 @@ product title
 
 #### Defined in
 
-main.ts:175006
+main.ts:186735
 
 ***
 
@@ -104,7 +104,7 @@ type of element
 
 #### Defined in
 
-main.ts:21125
+main.ts:21803
 
 ***
 
@@ -116,4 +116,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:175004
+main.ts:186733

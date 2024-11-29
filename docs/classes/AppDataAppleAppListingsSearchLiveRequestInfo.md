@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListingsSearchLiveRequestInfo
+[Documentation](../README.md) / AppDataAppleAppListingsSearchLiveRequestInfo
 
 # Class: AppDataAppleAppListingsSearchLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md)
+##### data?
+
+[`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:196525
+main.ts:208875
 
 ## Properties
 
@@ -50,7 +52,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:196462
+main.ts:208812
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:196462
 keyword in the app’s description
 optional field
 keywords that occur in the description of the app;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
@@ -69,7 +71,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:196467
+main.ts:208817
 
 ***
 
@@ -94,7 +96,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:196483
+main.ts:208833
 
 ***
 
@@ -113,7 +115,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:196502
+main.ts:208852
 
 ***
 
@@ -132,7 +134,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:196507
+main.ts:208857
 
 ***
 
@@ -154,7 +156,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:196515
+main.ts:208865
 
 ***
 
@@ -182,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:196497
+main.ts:208847
 
 ***
 
@@ -202,7 +204,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:196521
+main.ts:208871
 
 ***
 
@@ -213,7 +215,7 @@ main.ts:196521
 keyword in the app’s title
 optional field
 keywords that occur in the title of the app;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
@@ -221,7 +223,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:196472
+main.ts:208822
 
 ## Methods
 
@@ -231,7 +233,9 @@ main.ts:196472
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -239,7 +243,7 @@ main.ts:196472
 
 #### Defined in
 
-main.ts:196534
+main.ts:208884
 
 ***
 
@@ -249,7 +253,9 @@ main.ts:196534
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -257,7 +263,7 @@ main.ts:196534
 
 #### Defined in
 
-main.ts:196571
+main.ts:208921
 
 ***
 
@@ -267,7 +273,9 @@ main.ts:196571
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -275,4 +283,4 @@ main.ts:196571
 
 #### Defined in
 
-main.ts:196564
+main.ts:208914

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseLanguagesResultInfo
+[Documentation](../README.md) / OnPageLighthouseLanguagesResultInfo
 
 # Class: OnPageLighthouseLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseLanguagesResultInfo`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md)
+##### data?
+
+[`IOnPageLighthouseLanguagesResultInfo`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:163209
+main.ts:174798
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:163205
+main.ts:174794
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:163203
+main.ts:174792
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:163203
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:163203
 
 #### Defined in
 
-main.ts:163218
+main.ts:174807
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:163218
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:163218
 
 #### Defined in
 
-main.ts:163236
+main.ts:174825
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:163236
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:163236
 
 #### Defined in
 
-main.ts:163229
+main.ts:174818

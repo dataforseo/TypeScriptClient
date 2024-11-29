@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleReviewsSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / IGoogleReviewsSearchBusinessDataSerpElementItem
 
 # Interface: IGoogleReviewsSearchBusinessDataSerpElementItem
 
@@ -24,7 +24,7 @@ images submitted by the reviewer
 
 #### Defined in
 
-main.ts:208720
+main.ts:222264
 
 ***
 
@@ -36,7 +36,7 @@ indicates whether the reviewer has a ‘local guide’ status
 
 #### Defined in
 
-main.ts:208692
+main.ts:222236
 
 ***
 
@@ -49,7 +49,7 @@ the original response to the review, no auto-translate applied
 
 #### Defined in
 
-main.ts:208706
+main.ts:222250
 
 ***
 
@@ -62,7 +62,7 @@ the original content of the review, no auto-translate applied
 
 #### Defined in
 
-main.ts:208676
+main.ts:222220
 
 ***
 
@@ -75,7 +75,7 @@ the owner’s response to the review
 
 #### Defined in
 
-main.ts:208703
+main.ts:222247
 
 ***
 
@@ -88,7 +88,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 #### Defined in
 
-main.ts:208709
+main.ts:222253
 
 ***
 
@@ -103,7 +103,7 @@ example:
 
 #### Defined in
 
-main.ts:208714
+main.ts:222258
 
 ***
 
@@ -115,7 +115,7 @@ total number of photos submitted by the reviewer
 
 #### Defined in
 
-main.ts:208690
+main.ts:222234
 
 ***
 
@@ -128,7 +128,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:208669
+main.ts:222213
 
 ***
 
@@ -140,7 +140,7 @@ URL of the reviewer’s profile image
 
 #### Defined in
 
-main.ts:208700
+main.ts:222244
 
 ***
 
@@ -152,7 +152,7 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:208694
+main.ts:222238
 
 ***
 
@@ -164,7 +164,7 @@ URL of the reviewer’s profile
 
 #### Defined in
 
-main.ts:208696
+main.ts:222240
 
 ***
 
@@ -180,7 +180,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21397
+main.ts:22295
 
 ***
 
@@ -197,7 +197,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21395
+main.ts:22293
 
 ***
 
@@ -209,7 +209,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:208686
+main.ts:222230
 
 ***
 
@@ -222,7 +222,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:208723
+main.ts:222267
 
 ***
 
@@ -236,7 +236,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 #### Defined in
 
-main.ts:208718
+main.ts:222262
 
 ***
 
@@ -248,7 +248,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:208673
+main.ts:222217
 
 ***
 
@@ -260,7 +260,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:208698
+main.ts:222242
 
 ***
 
@@ -272,7 +272,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:208688
+main.ts:222232
 
 ***
 
@@ -285,7 +285,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 #### Defined in
 
-main.ts:208679
+main.ts:222223
 
 ***
 
@@ -300,7 +300,7 @@ example:
 
 #### Defined in
 
-main.ts:208684
+main.ts:222228
 
 ***
 
@@ -316,7 +316,7 @@ type of element
 
 #### Defined in
 
-main.ts:21392
+main.ts:22290
 
 ***
 
@@ -328,4 +328,4 @@ the XPath of the review
 
 #### Defined in
 
-main.ts:208671
+main.ts:222215

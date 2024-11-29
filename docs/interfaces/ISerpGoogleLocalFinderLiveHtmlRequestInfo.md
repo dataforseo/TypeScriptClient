@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLocalFinderLiveHtmlRequestInfo
+[Documentation](../README.md) / ISerpGoogleLocalFinderLiveHtmlRequestInfo
 
 # Interface: ISerpGoogleLocalFinderLiveHtmlRequestInfo
 
@@ -29,7 +29,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:43107
+main.ts:44958
 
 ***
 
@@ -44,7 +44,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:43089
+main.ts:44940
 
 ***
 
@@ -54,14 +54,14 @@ main.ts:43089
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
 
 #### Defined in
 
-main.ts:43038
+main.ts:44889
 
 ***
 
@@ -77,7 +77,7 @@ example:en
 
 #### Defined in
 
-main.ts:43084
+main.ts:44935
 
 ***
 
@@ -94,7 +94,7 @@ English
 
 #### Defined in
 
-main.ts:43078
+main.ts:44929
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:43060
+main.ts:44911
 
 ***
 
@@ -132,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:43071
+main.ts:44922
 
 ***
 
@@ -149,7 +149,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:43053
+main.ts:44904
 
 ***
 
@@ -164,7 +164,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:43112
+main.ts:44963
 
 ***
 
@@ -181,7 +181,7 @@ default value: android
 
 #### Defined in
 
-main.ts:43096
+main.ts:44947
 
 ***
 
@@ -199,7 +199,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:43046
+main.ts:44897
 
 ***
 
@@ -215,7 +215,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:43127
+main.ts:44978
 
 ***
 
@@ -234,4 +234,4 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:43121
+main.ts:44972

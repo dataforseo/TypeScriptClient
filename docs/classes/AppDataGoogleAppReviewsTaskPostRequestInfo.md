@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
+[Documentation](../README.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataGoogleAppReviewsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md)
+##### data?
+
+[`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:190491
+main.ts:202827
 
 ## Properties
 
@@ -51,7 +53,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 #### Defined in
 
-main.ts:190393
+main.ts:202729
 
 ***
 
@@ -72,7 +74,7 @@ maximum value: 100000
 
 #### Defined in
 
-main.ts:190436
+main.ts:202772
 
 ***
 
@@ -81,7 +83,7 @@ main.ts:190436
 > `optional` **language\_code**: `string`
 
 search engine language code
-optional field
+required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -93,7 +95,7 @@ en
 
 #### Defined in
 
-main.ts:190421
+main.ts:202757
 
 ***
 
@@ -102,7 +104,7 @@ main.ts:190421
 > `optional` **language\_name**: `string`
 
 full name of search engine language
-optional field
+required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -114,7 +116,7 @@ English
 
 #### Defined in
 
-main.ts:190414
+main.ts:202750
 
 ***
 
@@ -135,7 +137,7 @@ example:
 
 #### Defined in
 
-main.ts:190407
+main.ts:202743
 
 ***
 
@@ -156,7 +158,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:190400
+main.ts:202736
 
 ***
 
@@ -171,8 +173,8 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
@@ -180,7 +182,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:190487
+main.ts:202823
 
 ***
 
@@ -200,7 +202,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:190477
+main.ts:202813
 
 ***
 
@@ -215,8 +217,8 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
@@ -224,7 +226,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:190471
+main.ts:202807
 
 ***
 
@@ -246,7 +248,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:190429
+main.ts:202765
 
 ***
 
@@ -271,7 +273,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 #### Defined in
 
-main.ts:190447
+main.ts:202783
 
 ***
 
@@ -293,7 +295,7 @@ default rule: most_relevant
 
 #### Defined in
 
-main.ts:190455
+main.ts:202791
 
 ***
 
@@ -313,7 +315,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:190461
+main.ts:202797
 
 ## Methods
 
@@ -323,7 +325,9 @@ main.ts:190461
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -331,7 +335,7 @@ main.ts:190461
 
 #### Defined in
 
-main.ts:190500
+main.ts:202836
 
 ***
 
@@ -341,7 +345,9 @@ main.ts:190500
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -349,7 +355,7 @@ main.ts:190500
 
 #### Defined in
 
-main.ts:190529
+main.ts:202865
 
 ***
 
@@ -359,7 +365,9 @@ main.ts:190529
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -367,4 +375,4 @@ main.ts:190529
 
 #### Defined in
 
-main.ts:190522
+main.ts:202858

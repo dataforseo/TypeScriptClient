@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / YoutubeSubtitlesSerpElementItem
+[Documentation](../README.md) / YoutubeSubtitlesSerpElementItem
 
 # Class: YoutubeSubtitlesSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md)
+##### data?
+
+[`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:64004
+main.ts:72206
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:64004
 
 #### Defined in
 
-main.ts:62288
+main.ts:70470
 
 ***
 
@@ -68,7 +70,7 @@ duration of subtitles in seconds
 
 #### Defined in
 
-main.ts:64000
+main.ts:72202
 
 ***
 
@@ -84,7 +86,7 @@ the second subtitled text ends
 
 #### Defined in
 
-main.ts:63998
+main.ts:72200
 
 ***
 
@@ -105,7 +107,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62286
+main.ts:70468
 
 ***
 
@@ -127,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62283
+main.ts:70465
 
 ***
 
@@ -143,7 +145,7 @@ the second subtitled text starts
 
 #### Defined in
 
-main.ts:63996
+main.ts:72198
 
 ***
 
@@ -159,7 +161,7 @@ text translated in subtitles
 
 #### Defined in
 
-main.ts:63994
+main.ts:72196
 
 ***
 
@@ -179,7 +181,7 @@ type of element
 
 #### Defined in
 
-main.ts:62279
+main.ts:70461
 
 ## Methods
 
@@ -189,7 +191,9 @@ main.ts:62279
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -201,7 +205,7 @@ main.ts:62279
 
 #### Defined in
 
-main.ts:64009
+main.ts:72211
 
 ***
 
@@ -211,7 +215,9 @@ main.ts:64009
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -223,7 +229,7 @@ main.ts:64009
 
 #### Defined in
 
-main.ts:64030
+main.ts:72232
 
 ***
 
@@ -233,7 +239,9 @@ main.ts:64030
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -245,4 +253,4 @@ main.ts:64030
 
 #### Defined in
 
-main.ts:64023
+main.ts:72225

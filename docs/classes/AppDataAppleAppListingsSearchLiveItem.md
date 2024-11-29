@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListingsSearchLiveItem
+[Documentation](../README.md) / AppDataAppleAppListingsSearchLiveItem
 
 # Class: AppDataAppleAppListingsSearchLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md)
+##### data?
+
+[`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:196694
+main.ts:209044
 
 ## Properties
 
@@ -46,7 +48,7 @@ ID of the returned app
 
 #### Defined in
 
-main.ts:196674
+main.ts:209024
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:196683
+main.ts:209033
 
 ***
 
@@ -79,7 +81,7 @@ detailed information about the app
 
 #### Defined in
 
-main.ts:196690
+main.ts:209040
 
 ***
 
@@ -95,7 +97,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:196680
+main.ts:209030
 
 ***
 
@@ -111,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:196678
+main.ts:209028
 
 ***
 
@@ -127,7 +129,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:196676
+main.ts:209026
 
 ***
 
@@ -146,7 +148,7 @@ example:
 
 #### Defined in
 
-main.ts:196688
+main.ts:209038
 
 ## Methods
 
@@ -156,7 +158,9 @@ main.ts:196688
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +168,7 @@ main.ts:196688
 
 #### Defined in
 
-main.ts:196703
+main.ts:209053
 
 ***
 
@@ -174,7 +178,9 @@ main.ts:196703
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -182,7 +188,7 @@ main.ts:196703
 
 #### Defined in
 
-main.ts:196726
+main.ts:209076
 
 ***
 
@@ -192,7 +198,9 @@ main.ts:196726
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -200,4 +208,4 @@ main.ts:196726
 
 #### Defined in
 
-main.ts:196719
+main.ts:209069

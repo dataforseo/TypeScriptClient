@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixKeywordsDataPriceDataInfo
+[Documentation](../README.md) / IAppendixKeywordsDataPriceDataInfo
 
 # Interface: IAppendixKeywordsDataPriceDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:221101
+main.ts:236264
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:221101
 
 #### Defined in
 
-main.ts:221102
+main.ts:236265

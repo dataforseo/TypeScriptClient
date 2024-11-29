@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleSellersTasksReadyResultInfo
+[Documentation](../README.md) / MerchantGoogleSellersTasksReadyResultInfo
 
 # Class: MerchantGoogleSellersTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleSellersTasksReadyResultInfo`](../interfaces/IMerchantGoogleSellersTasksReadyResultInfo.md)
+##### data?
+
+[`IMerchantGoogleSellersTasksReadyResultInfo`](../interfaces/IMerchantGoogleSellersTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:175969
+main.ts:187702
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:175959
+main.ts:187692
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of Google Shopping Sellers Advanced task
 
 #### Defined in
 
-main.ts:175963
+main.ts:187696
 
 ***
 
@@ -78,7 +80,7 @@ URL for collecting the results of Google Shopping Sellers HTML task
 
 #### Defined in
 
-main.ts:175965
+main.ts:187698
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:175952
+main.ts:187685
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:175954
+main.ts:187687
 
 ***
 
@@ -128,7 +130,7 @@ can take the following values: shopping
 
 #### Defined in
 
-main.ts:175957
+main.ts:187690
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:175961
+main.ts:187694
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:175961
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:175961
 
 #### Defined in
 
-main.ts:175978
+main.ts:187711
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:175978
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:175978
 
 #### Defined in
 
-main.ts:176001
+main.ts:187734
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:176001
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:176001
 
 #### Defined in
 
-main.ts:175994
+main.ts:187727

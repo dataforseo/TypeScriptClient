@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppInfoTaskGetAdvancedResultInfo
 
 # Interface: IAppDataGoogleAppInfoTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ application id received in a POST request
 
 #### Defined in
 
-main.ts:190035
+main.ts:202371
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:190044
+main.ts:202380
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:190049
+main.ts:202385
 
 ***
 
@@ -60,7 +60,7 @@ found app info
 
 #### Defined in
 
-main.ts:190055
+main.ts:202391
 
 ***
 
@@ -72,7 +72,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:190053
+main.ts:202389
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:190041
+main.ts:202377
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:190039
+main.ts:202375
 
 ***
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:190037
+main.ts:202373
 
 ***
 
@@ -120,4 +120,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:190051
+main.ts:202387

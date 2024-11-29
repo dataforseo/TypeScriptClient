@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksHistoryLiveResultInfo
+[Documentation](../README.md) / BacklinksHistoryLiveResultInfo
 
 # Class: BacklinksHistoryLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md)
+##### data?
+
+[`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:139941
+main.ts:151146
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:139926
+main.ts:151131
 
 ***
 
@@ -68,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:139931
+main.ts:151136
 
 ***
 
@@ -86,7 +88,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Defined in
 
-main.ts:139937
+main.ts:151142
 
 ***
 
@@ -102,7 +104,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:139933
+main.ts:151138
 
 ***
 
@@ -118,7 +120,7 @@ target from the POST array
 
 #### Defined in
 
-main.ts:139921
+main.ts:151126
 
 ## Methods
 
@@ -128,7 +130,9 @@ main.ts:139921
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +140,7 @@ main.ts:139921
 
 #### Defined in
 
-main.ts:139950
+main.ts:151155
 
 ***
 
@@ -146,7 +150,9 @@ main.ts:139950
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -154,7 +160,7 @@ main.ts:139950
 
 #### Defined in
 
-main.ts:139975
+main.ts:151180
 
 ***
 
@@ -164,7 +170,9 @@ main.ts:139975
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -172,4 +180,4 @@ main.ts:139975
 
 #### Defined in
 
-main.ts:139968
+main.ts:151173

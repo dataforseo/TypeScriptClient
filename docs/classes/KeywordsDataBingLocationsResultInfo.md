@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingLocationsResultInfo
+[Documentation](../README.md) / KeywordsDataBingLocationsResultInfo
 
 # Class: KeywordsDataBingLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:127869
+main.ts:138128
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:127863
+main.ts:138122
 
 ***
 
@@ -62,7 +64,7 @@ location code
 
 #### Defined in
 
-main.ts:127851
+main.ts:138110
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:127861
+main.ts:138120
 
 ***
 
@@ -100,7 +102,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:127853
+main.ts:138112
 
 ***
 
@@ -116,7 +118,7 @@ location type
 
 #### Defined in
 
-main.ts:127865
+main.ts:138124
 
 ## Methods
 
@@ -126,7 +128,9 @@ main.ts:127865
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +138,7 @@ main.ts:127865
 
 #### Defined in
 
-main.ts:127878
+main.ts:138137
 
 ***
 
@@ -144,7 +148,9 @@ main.ts:127878
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -152,7 +158,7 @@ main.ts:127878
 
 #### Defined in
 
-main.ts:127899
+main.ts:138158
 
 ***
 
@@ -162,7 +168,9 @@ main.ts:127899
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -170,4 +178,4 @@ main.ts:127899
 
 #### Defined in
 
-main.ts:127892
+main.ts:138151

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalServicesSerpElementItem
+[Documentation](../README.md) / LocalServicesSerpElementItem
 
 # Class: LocalServicesSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md)
+##### data?
+
+[`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:34540
+main.ts:36025
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:34540
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ source domain
 
 #### Defined in
 
-main.ts:34530
+main.ts:36015
 
 ***
 
@@ -84,7 +86,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:34532
+main.ts:36017
 
 ***
 
@@ -106,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -127,7 +129,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -149,7 +151,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -167,7 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34536
+main.ts:36021
 
 ***
 
@@ -183,7 +185,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34526
+main.ts:36011
 
 ***
 
@@ -203,7 +205,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -219,7 +221,7 @@ source URL
 
 #### Defined in
 
-main.ts:34528
+main.ts:36013
 
 ***
 
@@ -239,7 +241,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -249,7 +251,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -261,7 +265,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:34545
+main.ts:36030
 
 ***
 
@@ -271,7 +275,9 @@ main.ts:34545
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -283,7 +289,7 @@ main.ts:34545
 
 #### Defined in
 
-main.ts:34571
+main.ts:36056
 
 ***
 
@@ -293,7 +299,9 @@ main.ts:34571
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -305,4 +313,4 @@ main.ts:34571
 
 #### Defined in
 
-main.ts:34564
+main.ts:36049

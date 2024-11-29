@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
 # Class: BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:206375
+main.ts:219730
 
 ## Properties
 
@@ -46,7 +48,7 @@ information about the hotel
 
 #### Defined in
 
-main.ts:206359
+main.ts:219714
 
 ***
 
@@ -63,7 +65,7 @@ physical address of the hotel
 
 #### Defined in
 
-main.ts:206354
+main.ts:219709
 
 ***
 
@@ -80,7 +82,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:206337
+main.ts:219692
 
 ***
 
@@ -99,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:206342
+main.ts:219697
 
 ***
 
@@ -118,7 +120,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:206330
+main.ts:219685
 
 ***
 
@@ -134,7 +136,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:206334
+main.ts:219689
 
 ***
 
@@ -151,7 +153,7 @@ information about the location where the hotel is located
 
 #### Defined in
 
-main.ts:206362
+main.ts:219717
 
 ***
 
@@ -167,7 +169,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:206332
+main.ts:219687
 
 ***
 
@@ -184,7 +186,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-main.ts:206368
+main.ts:219723
 
 ***
 
@@ -201,7 +203,7 @@ contact phone number of the hotel
 
 #### Defined in
 
-main.ts:206357
+main.ts:219712
 
 ***
 
@@ -218,7 +220,7 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-main.ts:206371
+main.ts:219726
 
 ***
 
@@ -235,7 +237,7 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-main.ts:206365
+main.ts:219720
 
 ***
 
@@ -252,7 +254,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:206348
+main.ts:219703
 
 ***
 
@@ -269,7 +271,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:206351
+main.ts:219706
 
 ***
 
@@ -286,7 +288,7 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:206345
+main.ts:219700
 
 ## Methods
 
@@ -296,7 +298,9 @@ main.ts:206345
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -304,7 +308,7 @@ main.ts:206345
 
 #### Defined in
 
-main.ts:206384
+main.ts:219739
 
 ***
 
@@ -314,7 +318,9 @@ main.ts:206384
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -322,7 +328,7 @@ main.ts:206384
 
 #### Defined in
 
-main.ts:206419
+main.ts:219774
 
 ***
 
@@ -332,7 +338,9 @@ main.ts:206419
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -340,4 +348,4 @@ main.ts:206419
 
 #### Defined in
 
-main.ts:206412
+main.ts:219767

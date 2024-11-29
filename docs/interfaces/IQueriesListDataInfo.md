@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IQueriesListDataInfo
+[Documentation](../README.md) / IQueriesListDataInfo
 
 # Interface: IQueriesListDataInfo
 
@@ -21,7 +21,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:124229
+main.ts:134478
 
 ***
 
@@ -34,4 +34,4 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:124226
+main.ts:134475

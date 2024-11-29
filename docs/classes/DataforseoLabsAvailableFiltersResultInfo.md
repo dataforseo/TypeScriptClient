@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAvailableFiltersResultInfo
+[Documentation](../README.md) / DataforseoLabsAvailableFiltersResultInfo
 
 # Class: DataforseoLabsAvailableFiltersResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:81152
+main.ts:90864
 
 ## Properties
 
@@ -48,7 +50,7 @@ main.ts:81152
 
 #### Defined in
 
-main.ts:81146
+main.ts:90858
 
 ***
 
@@ -66,7 +68,7 @@ main.ts:81146
 
 #### Defined in
 
-main.ts:81145
+main.ts:90857
 
 ***
 
@@ -84,7 +86,7 @@ main.ts:81145
 
 #### Defined in
 
-main.ts:81135
+main.ts:90847
 
 ***
 
@@ -102,7 +104,7 @@ main.ts:81135
 
 #### Defined in
 
-main.ts:81134
+main.ts:90846
 
 ***
 
@@ -120,7 +122,7 @@ main.ts:81134
 
 #### Defined in
 
-main.ts:81148
+main.ts:90860
 
 ***
 
@@ -138,7 +140,7 @@ main.ts:81148
 
 #### Defined in
 
-main.ts:81137
+main.ts:90849
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:81137
 
 #### Defined in
 
-main.ts:81141
+main.ts:90853
 
 ***
 
@@ -174,7 +176,7 @@ main.ts:81141
 
 #### Defined in
 
-main.ts:81139
+main.ts:90851
 
 ***
 
@@ -192,7 +194,7 @@ main.ts:81139
 
 #### Defined in
 
-main.ts:81130
+main.ts:90842
 
 ***
 
@@ -210,7 +212,7 @@ main.ts:81130
 
 #### Defined in
 
-main.ts:81128
+main.ts:90840
 
 ***
 
@@ -228,7 +230,7 @@ main.ts:81128
 
 #### Defined in
 
-main.ts:81147
+main.ts:90859
 
 ***
 
@@ -246,7 +248,7 @@ main.ts:81147
 
 #### Defined in
 
-main.ts:81136
+main.ts:90848
 
 ***
 
@@ -264,7 +266,7 @@ main.ts:81136
 
 #### Defined in
 
-main.ts:81142
+main.ts:90854
 
 ***
 
@@ -282,7 +284,7 @@ main.ts:81142
 
 #### Defined in
 
-main.ts:81138
+main.ts:90850
 
 ***
 
@@ -300,7 +302,7 @@ main.ts:81138
 
 #### Defined in
 
-main.ts:81143
+main.ts:90855
 
 ***
 
@@ -318,7 +320,7 @@ main.ts:81143
 
 #### Defined in
 
-main.ts:81144
+main.ts:90856
 
 ***
 
@@ -336,7 +338,7 @@ main.ts:81144
 
 #### Defined in
 
-main.ts:81129
+main.ts:90841
 
 ***
 
@@ -354,7 +356,7 @@ main.ts:81129
 
 #### Defined in
 
-main.ts:81127
+main.ts:90839
 
 ***
 
@@ -372,7 +374,7 @@ main.ts:81127
 
 #### Defined in
 
-main.ts:81132
+main.ts:90844
 
 ***
 
@@ -390,7 +392,7 @@ main.ts:81132
 
 #### Defined in
 
-main.ts:81131
+main.ts:90843
 
 ***
 
@@ -408,7 +410,7 @@ main.ts:81131
 
 #### Defined in
 
-main.ts:81133
+main.ts:90845
 
 ***
 
@@ -426,7 +428,7 @@ main.ts:81133
 
 #### Defined in
 
-main.ts:81140
+main.ts:90852
 
 ## Methods
 
@@ -436,7 +438,9 @@ main.ts:81140
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -444,7 +448,7 @@ main.ts:81140
 
 #### Defined in
 
-main.ts:81161
+main.ts:90873
 
 ***
 
@@ -454,7 +458,9 @@ main.ts:81161
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -462,7 +468,7 @@ main.ts:81161
 
 #### Defined in
 
-main.ts:81331
+main.ts:91043
 
 ***
 
@@ -472,7 +478,9 @@ main.ts:81331
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -480,4 +488,4 @@ main.ts:81331
 
 #### Defined in
 
-main.ts:81324
+main.ts:91036

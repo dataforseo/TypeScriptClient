@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkBacklinksLiveItem
+[Documentation](../README.md) / IBacklinksBulkBacklinksLiveItem
 
 # Interface: IBacklinksBulkBacklinksLiveItem
 
@@ -20,7 +20,7 @@ number of backlinks pointing to the target
 
 #### Defined in
 
-main.ts:149492
+main.ts:160697
 
 ***
 
@@ -32,4 +32,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:149490
+main.ts:160695

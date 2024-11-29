@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMetricsInfo
+[Documentation](../README.md) / IMetricsInfo
 
 # Interface: IMetricsInfo
 
@@ -20,7 +20,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:79694
+main.ts:89406
 
 ***
 
@@ -35,7 +35,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79699
+main.ts:89411
 
 ***
 
@@ -50,7 +50,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79687
+main.ts:89399
 
 ***
 
@@ -65,7 +65,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79692
+main.ts:89404
 
 ***
 
@@ -78,7 +78,7 @@ indicates how many ranked elements of this domain went down in Google Search
 
 #### Defined in
 
-main.ts:79708
+main.ts:89420
 
 ***
 
@@ -91,7 +91,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:79711
+main.ts:89423
 
 ***
 
@@ -104,7 +104,7 @@ indicates how many new ranked elements were found for this domain
 
 #### Defined in
 
-main.ts:79702
+main.ts:89414
 
 ***
 
@@ -117,7 +117,7 @@ indicates how many ranked elements of this domain went up in Google Search
 
 #### Defined in
 
-main.ts:79705
+main.ts:89417
 
 ***
 
@@ -129,7 +129,7 @@ number of organic SERPs where the domain ranks #1
 
 #### Defined in
 
-main.ts:79660
+main.ts:89372
 
 ***
 
@@ -141,19 +141,7 @@ number of organic SERPs where the domain ranks #11-20
 
 #### Defined in
 
-main.ts:79666
-
-***
-
-### pos\_21\_30?
-
-> `optional` **pos\_21\_30**: `number`
-
-number of organic SERPs where the domain ranks #21-30
-
-#### Defined in
-
-main.ts:79668
+main.ts:89378
 
 ***
 
@@ -165,7 +153,19 @@ number of organic SERPs where the domain ranks #2-3
 
 #### Defined in
 
-main.ts:79662
+main.ts:89374
+
+***
+
+### pos\_21\_30?
+
+> `optional` **pos\_21\_30**: `number`
+
+number of organic SERPs where the domain ranks #21-30
+
+#### Defined in
+
+main.ts:89380
 
 ***
 
@@ -177,19 +177,7 @@ number of organic SERPs where the domain ranks #31-40
 
 #### Defined in
 
-main.ts:79670
-
-***
-
-### pos\_41\_50?
-
-> `optional` **pos\_41\_50**: `number`
-
-number of organic SERPs where the domain ranks #41-50
-
-#### Defined in
-
-main.ts:79672
+main.ts:89382
 
 ***
 
@@ -201,7 +189,19 @@ number of organic SERPs where the domain ranks #4-10
 
 #### Defined in
 
-main.ts:79664
+main.ts:89376
+
+***
+
+### pos\_41\_50?
+
+> `optional` **pos\_41\_50**: `number`
+
+number of organic SERPs where the domain ranks #41-50
+
+#### Defined in
+
+main.ts:89384
 
 ***
 
@@ -213,7 +213,7 @@ number of organic SERPs where the domain ranks #51-60
 
 #### Defined in
 
-main.ts:79674
+main.ts:89386
 
 ***
 
@@ -225,7 +225,7 @@ number of organic SERPs where the domain ranks #61-70
 
 #### Defined in
 
-main.ts:79676
+main.ts:89388
 
 ***
 
@@ -237,7 +237,7 @@ number of organic SERPs where the domain ranks #71-80
 
 #### Defined in
 
-main.ts:79678
+main.ts:89390
 
 ***
 
@@ -249,7 +249,7 @@ number of organic SERPs where the domain ranks #81-90
 
 #### Defined in
 
-main.ts:79680
+main.ts:89392
 
 ***
 
@@ -261,4 +261,4 @@ number of organic SERPs where the domain ranks #91-100
 
 #### Defined in
 
-main.ts:79682
+main.ts:89394

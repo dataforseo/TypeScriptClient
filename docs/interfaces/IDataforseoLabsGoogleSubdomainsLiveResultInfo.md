@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleSubdomainsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleSubdomainsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSubdomainsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains subdomains and related data
 
 #### Defined in
 
-main.ts:94523
+main.ts:104241
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:94521
+main.ts:104239
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:94517
+main.ts:104235
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:94515
+main.ts:104233
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94511
+main.ts:104229
 
 ***
 
@@ -80,7 +80,7 @@ domain in a POST array
 
 #### Defined in
 
-main.ts:94513
+main.ts:104231
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:94519
+main.ts:104237

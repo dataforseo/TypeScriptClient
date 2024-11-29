@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageResourceIssueInfo
+[Documentation](../README.md) / IOnPageResourceIssueInfo
 
 # Interface: IOnPageResourceIssueInfo
 
@@ -22,7 +22,7 @@ resource errors
 
 #### Defined in
 
-main.ts:155018
+main.ts:166645
 
 ***
 
@@ -34,4 +34,4 @@ resource warnings
 
 #### Defined in
 
-main.ts:155020
+main.ts:166647

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixUserDataResultInfo
+[Documentation](../README.md) / IAppendixUserDataResultInfo
 
 # Interface: IAppendixUserDataResultInfo
 
@@ -20,7 +20,7 @@ your login
 
 #### Defined in
 
-main.ts:223717
+main.ts:238904
 
 ***
 
@@ -32,7 +32,7 @@ section of your spending, USD
 
 #### Defined in
 
-main.ts:223724
+main.ts:238911
 
 ***
 
@@ -44,7 +44,7 @@ pricing
 
 #### Defined in
 
-main.ts:223726
+main.ts:238913
 
 ***
 
@@ -56,7 +56,7 @@ your API rates
 
 #### Defined in
 
-main.ts:223722
+main.ts:238909
 
 ***
 
@@ -69,4 +69,4 @@ can be set in your profile settings
 
 #### Defined in
 
-main.ts:223720
+main.ts:238907

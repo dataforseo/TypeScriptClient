@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
@@ -25,7 +25,7 @@ we recommend always setting correlate to true
 
 #### Defined in
 
-main.ts:99771
+main.ts:109508
 
 ***
 
@@ -41,7 +41,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:99757
+main.ts:109494
 
 ***
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:99764
+main.ts:109501
 
 ***
 
@@ -73,7 +73,7 @@ default value: false
 
 #### Defined in
 
-main.ts:99776
+main.ts:109513
 
 ***
 
@@ -83,14 +83,15 @@ main.ts:99776
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
-default value: false
-with this parameter enabled, you will be charged double the price for the request
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response;
+default value: false;
+Note: historical clickstream data is available from 2024/05 (May, 2024);
+with this parameter enabled, you will be charged double the price for the request;
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:99783
+main.ts:109521
 
 ***
 
@@ -108,7 +109,7 @@ en
 
 #### Defined in
 
-main.ts:99751
+main.ts:109488
 
 ***
 
@@ -126,7 +127,7 @@ English
 
 #### Defined in
 
-main.ts:99743
+main.ts:109480
 
 ***
 
@@ -144,7 +145,7 @@ example:
 
 #### Defined in
 
-main.ts:99735
+main.ts:109472
 
 ***
 
@@ -162,7 +163,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:99727
+main.ts:109464
 
 ***
 
@@ -178,7 +179,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:99789
+main.ts:109527
 
 ***
 
@@ -193,4 +194,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:99719
+main.ts:109456

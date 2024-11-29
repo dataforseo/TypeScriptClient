@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Pages
+[Documentation](../README.md) / Pages
 
 # Class: Pages
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPages`](../interfaces/IPages.md)
+##### data?
+
+[`IPages`](../interfaces/IPages.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:157279
+main.ts:168914
 
 ## Properties
 
@@ -46,7 +48,7 @@ information about the page with duplicate content
 
 #### Defined in
 
-main.ts:157275
+main.ts:168910
 
 ***
 
@@ -64,7 +66,7 @@ can take values from 0 to 10
 
 #### Defined in
 
-main.ts:157273
+main.ts:168908
 
 ## Methods
 
@@ -74,7 +76,9 @@ main.ts:157273
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +86,7 @@ main.ts:157273
 
 #### Defined in
 
-main.ts:157288
+main.ts:168923
 
 ***
 
@@ -92,7 +96,9 @@ main.ts:157288
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +106,7 @@ main.ts:157288
 
 #### Defined in
 
-main.ts:157310
+main.ts:168945
 
 ***
 
@@ -110,7 +116,9 @@ main.ts:157310
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -118,4 +126,4 @@ main.ts:157310
 
 #### Defined in
 
-main.ts:157303
+main.ts:168938

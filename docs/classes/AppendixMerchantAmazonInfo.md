@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMerchantAmazonInfo
+[Documentation](../README.md) / AppendixMerchantAmazonInfo
 
 # Class: AppendixMerchantAmazonInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md)
+##### data?
+
+[`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:216628
+main.ts:231587
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:216628
 
 #### Defined in
 
-main.ts:216622
+main.ts:231581
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:216622
 
 #### Defined in
 
-main.ts:216623
+main.ts:231582
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:216623
 
 #### Defined in
 
-main.ts:216624
+main.ts:231583
 
 ## Methods
 
@@ -82,7 +84,9 @@ main.ts:216624
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -90,7 +94,7 @@ main.ts:216624
 
 #### Defined in
 
-main.ts:216637
+main.ts:231596
 
 ***
 
@@ -100,7 +104,9 @@ main.ts:216637
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +114,7 @@ main.ts:216637
 
 #### Defined in
 
-main.ts:216656
+main.ts:231615
 
 ***
 
@@ -118,7 +124,9 @@ main.ts:216656
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -126,4 +134,4 @@ main.ts:216656
 
 #### Defined in
 
-main.ts:216649
+main.ts:231608

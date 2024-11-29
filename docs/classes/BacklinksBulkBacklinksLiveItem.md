@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkBacklinksLiveItem
+[Documentation](../README.md) / BacklinksBulkBacklinksLiveItem
 
 # Class: BacklinksBulkBacklinksLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkBacklinksLiveItem`](../interfaces/IBacklinksBulkBacklinksLiveItem.md)
+##### data?
+
+[`IBacklinksBulkBacklinksLiveItem`](../interfaces/IBacklinksBulkBacklinksLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:149449
+main.ts:160654
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of backlinks pointing to the target
 
 #### Defined in
 
-main.ts:149445
+main.ts:160650
 
 ***
 
@@ -62,7 +64,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:149443
+main.ts:160648
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:149443
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:149443
 
 #### Defined in
 
-main.ts:149458
+main.ts:160663
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:149458
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:149458
 
 #### Defined in
 
-main.ts:149476
+main.ts:160681
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:149476
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:149476
 
 #### Defined in
 
-main.ts:149469
+main.ts:160674

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixKeywordsDatasRatesDataInfo
+[Documentation](../README.md) / AppendixKeywordsDatasRatesDataInfo
 
 # Class: AppendixKeywordsDatasRatesDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixKeywordsDatasRatesDataInfo`](../interfaces/IAppendixKeywordsDatasRatesDataInfo.md)
+##### data?
+
+[`IAppendixKeywordsDatasRatesDataInfo`](../interfaces/IAppendixKeywordsDatasRatesDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:215993
+main.ts:230946
 
 ## Properties
 
@@ -44,7 +46,21 @@ main.ts:215993
 
 #### Defined in
 
-main.ts:215977
+main.ts:230928
+
+***
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixKeywordsDatasRatesDataInfo`](../interfaces/IAppendixKeywordsDatasRatesDataInfo.md).[`audience_estimation`](../interfaces/IAppendixKeywordsDatasRatesDataInfo.md#audience_estimation)
+
+#### Defined in
+
+main.ts:230941
 
 ***
 
@@ -58,7 +74,7 @@ main.ts:215977
 
 #### Defined in
 
-main.ts:215984
+main.ts:230935
 
 ***
 
@@ -72,7 +88,7 @@ main.ts:215984
 
 #### Defined in
 
-main.ts:215982
+main.ts:230933
 
 ***
 
@@ -86,7 +102,7 @@ main.ts:215982
 
 #### Defined in
 
-main.ts:215989
+main.ts:230940
 
 ***
 
@@ -100,7 +116,7 @@ main.ts:215989
 
 #### Defined in
 
-main.ts:215988
+main.ts:230939
 
 ***
 
@@ -114,7 +130,7 @@ main.ts:215988
 
 #### Defined in
 
-main.ts:215983
+main.ts:230934
 
 ***
 
@@ -128,7 +144,7 @@ main.ts:215983
 
 #### Defined in
 
-main.ts:215981
+main.ts:230932
 
 ***
 
@@ -142,7 +158,7 @@ main.ts:215981
 
 #### Defined in
 
-main.ts:215987
+main.ts:230938
 
 ***
 
@@ -156,7 +172,21 @@ main.ts:215987
 
 #### Defined in
 
-main.ts:215985
+main.ts:230936
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixKeywordsDatasRatesDataInfo`](../interfaces/IAppendixKeywordsDatasRatesDataInfo.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixKeywordsDatasRatesDataInfo.md#keyword_suggestions_for_url)
+
+#### Defined in
+
+main.ts:230942
 
 ***
 
@@ -170,7 +200,7 @@ main.ts:215985
 
 #### Defined in
 
-main.ts:215974
+main.ts:230925
 
 ***
 
@@ -184,7 +214,7 @@ main.ts:215974
 
 #### Defined in
 
-main.ts:215975
+main.ts:230926
 
 ***
 
@@ -198,7 +228,7 @@ main.ts:215975
 
 #### Defined in
 
-main.ts:215978
+main.ts:230929
 
 ***
 
@@ -212,7 +242,7 @@ main.ts:215978
 
 #### Defined in
 
-main.ts:215979
+main.ts:230930
 
 ***
 
@@ -226,7 +256,7 @@ main.ts:215979
 
 #### Defined in
 
-main.ts:215986
+main.ts:230937
 
 ***
 
@@ -240,7 +270,7 @@ main.ts:215986
 
 #### Defined in
 
-main.ts:215976
+main.ts:230927
 
 ***
 
@@ -254,7 +284,7 @@ main.ts:215976
 
 #### Defined in
 
-main.ts:215980
+main.ts:230931
 
 ## Methods
 
@@ -264,7 +294,9 @@ main.ts:215980
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -272,7 +304,7 @@ main.ts:215980
 
 #### Defined in
 
-main.ts:216002
+main.ts:230955
 
 ***
 
@@ -282,7 +314,9 @@ main.ts:216002
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -290,7 +324,7 @@ main.ts:216002
 
 #### Defined in
 
-main.ts:216034
+main.ts:230989
 
 ***
 
@@ -300,7 +334,9 @@ main.ts:216034
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -308,4 +344,4 @@ main.ts:216034
 
 #### Defined in
 
-main.ts:216027
+main.ts:230982

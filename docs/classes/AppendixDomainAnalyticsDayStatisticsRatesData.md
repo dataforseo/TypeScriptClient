@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDomainAnalyticsDayStatisticsRatesData
+[Documentation](../README.md) / AppendixDomainAnalyticsDayStatisticsRatesData
 
 # Class: AppendixDomainAnalyticsDayStatisticsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixDomainAnalyticsDayStatisticsRatesData`](../interfaces/IAppendixDomainAnalyticsDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixDomainAnalyticsDayStatisticsRatesData`](../interfaces/IAppendixDomainAnalyticsDayStatisticsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:218783
+main.ts:233782
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:218783
 
 #### Defined in
 
-main.ts:218778
+main.ts:233778
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:218778
 
 #### Defined in
 
-main.ts:218775
+main.ts:233774
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:218775
 
 #### Defined in
 
-main.ts:218779
+main.ts:233777
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:218779
 
 #### Defined in
 
-main.ts:218774
+main.ts:233773
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:218774
 
 #### Defined in
 
-main.ts:218777
+main.ts:233776
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:218777
 
 #### Defined in
 
-main.ts:218776
+main.ts:233775
 
 ## Methods
 
@@ -124,7 +126,9 @@ main.ts:218776
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +136,7 @@ main.ts:218776
 
 #### Defined in
 
-main.ts:218792
+main.ts:233791
 
 ***
 
@@ -142,7 +146,9 @@ main.ts:218792
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +156,7 @@ main.ts:218792
 
 #### Defined in
 
-main.ts:218814
+main.ts:233813
 
 ***
 
@@ -160,7 +166,9 @@ main.ts:218814
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +176,4 @@ main.ts:218814
 
 #### Defined in
 
-main.ts:218807
+main.ts:233806

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelSearchesItem
+[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesItem
 
 # Interface: IBusinessDataGoogleHotelSearchesItem
 
@@ -22,7 +22,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:204188
+main.ts:217354
 
 ***
 
@@ -36,7 +36,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:204197
+main.ts:217363
 
 ***
 
@@ -48,7 +48,7 @@ GPS coordinates of the hotel’s location
 
 #### Defined in
 
-main.ts:204199
+main.ts:217365
 
 ***
 
@@ -60,7 +60,7 @@ featured images for a hotel
 
 #### Defined in
 
-main.ts:204203
+main.ts:217369
 
 ***
 
@@ -72,7 +72,7 @@ hotel price
 
 #### Defined in
 
-main.ts:204205
+main.ts:217371
 
 ***
 
@@ -84,7 +84,7 @@ hotel reviews and rating information
 
 #### Defined in
 
-main.ts:204201
+main.ts:217367
 
 ***
 
@@ -97,7 +97,7 @@ class rating that ranges between 1-5 stars
 
 #### Defined in
 
-main.ts:204193
+main.ts:217359
 
 ***
 
@@ -109,7 +109,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:204190
+main.ts:217356
 
 ***
 
@@ -121,4 +121,4 @@ type of element
 
 #### Defined in
 
-main.ts:204184
+main.ts:217350

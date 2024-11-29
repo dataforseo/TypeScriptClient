@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksReferringNetworksLiveRequestInfo
+[Documentation](../README.md) / BacklinksReferringNetworksLiveRequestInfo
 
 # Class: BacklinksReferringNetworksLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:144878
+main.ts:156083
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:144852
+main.ts:156057
 
 ***
 
@@ -75,7 +77,7 @@ default value: live
 
 #### Defined in
 
-main.ts:144813
+main.ts:156018
 
 ***
 
@@ -94,7 +96,7 @@ default value: true
 
 #### Defined in
 
-main.ts:144868
+main.ts:156073
 
 ***
 
@@ -125,7 +127,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:144830
+main.ts:156035
 
 ***
 
@@ -145,7 +147,7 @@ default value: true
 
 #### Defined in
 
-main.ts:144863
+main.ts:156068
 
 ***
 
@@ -164,7 +166,7 @@ default value: true
 
 #### Defined in
 
-main.ts:144857
+main.ts:156062
 
 ***
 
@@ -189,7 +191,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:144804
+main.ts:156009
 
 ***
 
@@ -208,7 +210,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:144788
+main.ts:155993
 
 ***
 
@@ -227,7 +229,7 @@ default value: ip
 
 #### Defined in
 
-main.ts:144783
+main.ts:155988
 
 ***
 
@@ -246,7 +248,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:144793
+main.ts:155998
 
 ***
 
@@ -274,7 +276,7 @@ example:
 
 #### Defined in
 
-main.ts:144844
+main.ts:156049
 
 ***
 
@@ -294,7 +296,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:144874
+main.ts:156079
 
 ***
 
@@ -313,7 +315,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:144778
+main.ts:155983
 
 ## Methods
 
@@ -323,7 +325,9 @@ main.ts:144778
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -331,7 +335,7 @@ main.ts:144778
 
 #### Defined in
 
-main.ts:144887
+main.ts:156092
 
 ***
 
@@ -341,7 +345,9 @@ main.ts:144887
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -349,7 +355,7 @@ main.ts:144887
 
 #### Defined in
 
-main.ts:144928
+main.ts:156133
 
 ***
 
@@ -359,7 +365,9 @@ main.ts:144928
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -367,4 +375,4 @@ main.ts:144928
 
 #### Defined in
 
-main.ts:144921
+main.ts:156126

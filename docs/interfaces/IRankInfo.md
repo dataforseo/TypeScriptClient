@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRankInfo
+[Documentation](../README.md) / IRankInfo
 
 # Interface: IRankInfo
 
@@ -22,7 +22,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:91327
+main.ts:101037
 
 ***
 
@@ -36,4 +36,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:91323
+main.ts:101033

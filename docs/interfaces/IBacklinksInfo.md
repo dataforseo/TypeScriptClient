@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksInfo
+[Documentation](../README.md) / IBacklinksInfo
 
 # Interface: IBacklinksInfo
 
@@ -21,7 +21,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Defined in
 
-main.ts:79850
+main.ts:89562
 
 ***
 
@@ -33,7 +33,7 @@ number of dofollow links
 
 #### Defined in
 
-main.ts:79847
+main.ts:89559
 
 ***
 
@@ -45,7 +45,7 @@ number of referring domains
 
 #### Defined in
 
-main.ts:79841
+main.ts:89553
 
 ***
 
@@ -57,7 +57,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:79843
+main.ts:89555
 
 ***
 
@@ -69,7 +69,7 @@ number of referring pages
 
 #### Defined in
 
-main.ts:79845
+main.ts:89557
 
 ***
 
@@ -84,4 +84,4 @@ example:
 
 #### Defined in
 
-main.ts:79855
+main.ts:89567

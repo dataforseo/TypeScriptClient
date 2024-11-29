@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonProductNewerModelInfo
+[Documentation](../README.md) / AmazonProductNewerModelInfo
 
 # Class: AmazonProductNewerModelInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md)
+##### data?
+
+[`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:181862
+main.ts:193980
 
 ## Properties
 
@@ -46,7 +48,7 @@ ASIN of the newer product model
 
 #### Defined in
 
-main.ts:181858
+main.ts:193976
 
 ***
 
@@ -62,7 +64,7 @@ product title
 
 #### Defined in
 
-main.ts:181856
+main.ts:193974
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:181856
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:181856
 
 #### Defined in
 
-main.ts:181871
+main.ts:193989
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:181871
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:181871
 
 #### Defined in
 
-main.ts:181889
+main.ts:194007
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:181889
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:181889
 
 #### Defined in
 
-main.ts:181882
+main.ts:194000

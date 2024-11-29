@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingCompetitorsDomainLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingCompetitorsDomainLiveResultInfo
 
 # Interface: IDataforseoLabsBingCompetitorsDomainLiveResultInfo
 
@@ -20,7 +20,7 @@ contains data related to the target and competitor domains
 
 #### Defined in
 
-main.ts:106763
+main.ts:116401
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:106761
+main.ts:116399
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:106757
+main.ts:116395
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:106755
+main.ts:116393
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:106751
+main.ts:116389
 
 ***
 
@@ -80,7 +80,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:106753
+main.ts:116391
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:106759
+main.ts:116397

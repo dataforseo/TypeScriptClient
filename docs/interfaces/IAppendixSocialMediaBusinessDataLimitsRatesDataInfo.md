@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:217042
+main.ts:232005
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:217042
 
 #### Defined in
 
-main.ts:217043
+main.ts:232006
 
 ***
 
@@ -38,4 +38,4 @@ main.ts:217043
 
 #### Defined in
 
-main.ts:217044
+main.ts:232007

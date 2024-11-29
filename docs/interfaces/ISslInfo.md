@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISslInfo
+[Documentation](../README.md) / ISslInfo
 
 # Interface: ISslInfo
 
@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:153580
+main.ts:165207
 
 ***
 
@@ -37,7 +37,7 @@ the version of the ssl certificate’s hash function
 
 #### Defined in
 
-main.ts:153574
+main.ts:165201
 
 ***
 
@@ -50,7 +50,7 @@ the entity that issued the detected ssl certificate
 
 #### Defined in
 
-main.ts:153565
+main.ts:165192
 
 ***
 
@@ -63,7 +63,7 @@ the entity associated with the public key
 
 #### Defined in
 
-main.ts:153568
+main.ts:165195
 
 ***
 
@@ -76,7 +76,7 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Defined in
 
-main.ts:153571
+main.ts:165198
 
 ***
 
@@ -89,4 +89,4 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-main.ts:153562
+main.ts:165189

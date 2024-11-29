@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:65798
+main.ts:74025
 
 ***
 
@@ -33,7 +33,7 @@ number of comments on the video
 
 #### Defined in
 
-main.ts:65815
+main.ts:74045
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:65803
+main.ts:74030
 
 ***
 
@@ -63,7 +63,7 @@ youtube_comment
 
 #### Defined in
 
-main.ts:65811
+main.ts:74041
 
 ***
 
@@ -75,7 +75,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:65819
+main.ts:74049
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:65817
+main.ts:74047
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:65795
+main.ts:74022
 
 ***
 
@@ -111,7 +111,20 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:65793
+main.ts:74020
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:74036
 
 ***
 
@@ -123,7 +136,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:65791
+main.ts:74018
 
 ***
 
@@ -136,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:65806
+main.ts:74033
 
 ***
 
@@ -148,7 +161,7 @@ title of the video
 
 #### Defined in
 
-main.ts:65813
+main.ts:74043
 
 ***
 
@@ -160,4 +173,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:65789
+main.ts:74016

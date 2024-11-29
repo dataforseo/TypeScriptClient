@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoTrendsSubregionInterestsElementItem
+[Documentation](../README.md) / DataforseoTrendsSubregionInterestsElementItem
 
 # Class: DataforseoTrendsSubregionInterestsElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md)
+##### data?
+
+[`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:126428
+main.ts:136683
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:126428
 
 #### Defined in
 
-main.ts:21899
+main.ts:22797
 
 ***
 
@@ -68,7 +70,7 @@ subregional keyword popuarity data for each specified term
 
 #### Defined in
 
-main.ts:126421
+main.ts:136676
 
 ***
 
@@ -85,7 +87,7 @@ if you specified a single keyword, the value will be null
 
 #### Defined in
 
-main.ts:126424
+main.ts:136679
 
 ***
 
@@ -106,7 +108,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21897
+main.ts:22795
 
 ***
 
@@ -127,7 +129,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21894
+main.ts:22792
 
 ***
 
@@ -147,7 +149,7 @@ type of element
 
 #### Defined in
 
-main.ts:21891
+main.ts:22789
 
 ## Methods
 
@@ -157,7 +159,9 @@ main.ts:21891
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -169,7 +173,7 @@ main.ts:21891
 
 #### Defined in
 
-main.ts:126433
+main.ts:136688
 
 ***
 
@@ -179,7 +183,9 @@ main.ts:126433
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -191,7 +197,7 @@ main.ts:126433
 
 #### Defined in
 
-main.ts:126456
+main.ts:136711
 
 ***
 
@@ -201,7 +207,9 @@ main.ts:126456
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -213,4 +221,4 @@ main.ts:126456
 
 #### Defined in
 
-main.ts:126449
+main.ts:136704

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / IAppDataAppleAppListingsSearchLiveResultInfo
 
 # Interface: IAppDataAppleAppListingsSearchLiveResultInfo
 
@@ -20,7 +20,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:196838
+main.ts:209188
 
 ***
 
@@ -32,7 +32,7 @@ array of apps and related data
 
 #### Defined in
 
-main.ts:196845
+main.ts:209195
 
 ***
 
@@ -44,7 +44,7 @@ offset in the results array of returned apps
 
 #### Defined in
 
-main.ts:196840
+main.ts:209190
 
 ***
 
@@ -57,7 +57,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Defined in
 
-main.ts:196843
+main.ts:209193
 
 ***
 
@@ -69,4 +69,4 @@ the total number of relevant results in the database
 
 #### Defined in
 
-main.ts:196836
+main.ts:209186

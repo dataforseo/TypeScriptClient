@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:108744
+main.ts:118220
 
 ## Properties
 
@@ -64,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:108718
+main.ts:118194
 
 ***
 
@@ -87,7 +89,7 @@ default value: live
 
 #### Defined in
 
-main.ts:108698
+main.ts:118174
 
 ***
 
@@ -106,7 +108,7 @@ default value: false
 
 #### Defined in
 
-main.ts:108674
+main.ts:118150
 
 ***
 
@@ -129,7 +131,7 @@ default value:
 
 #### Defined in
 
-main.ts:108669
+main.ts:118145
 
 ***
 
@@ -152,7 +154,7 @@ en
 
 #### Defined in
 
-main.ts:108660
+main.ts:118136
 
 ***
 
@@ -175,7 +177,7 @@ English
 
 #### Defined in
 
-main.ts:108651
+main.ts:118127
 
 ***
 
@@ -194,7 +196,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:108679
+main.ts:118155
 
 ***
 
@@ -213,7 +215,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:108689
+main.ts:118165
 
 ***
 
@@ -237,7 +239,7 @@ example:
 
 #### Defined in
 
-main.ts:108642
+main.ts:118118
 
 ***
 
@@ -261,7 +263,7 @@ United States
 
 #### Defined in
 
-main.ts:108632
+main.ts:118108
 
 ***
 
@@ -280,7 +282,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:108684
+main.ts:118160
 
 ***
 
@@ -310,7 +312,7 @@ example:
 
 #### Defined in
 
-main.ts:108734
+main.ts:118210
 
 ***
 
@@ -330,7 +332,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:108740
+main.ts:118216
 
 ***
 
@@ -338,15 +340,11 @@ main.ts:108740
 
 > `optional` **target**: `string`
 
-domain
+domain name or page url
 required field
-the domain name of the target website
-the domain should be specified without https:// or www.
-if you want to get the keywords a particular webpage ranks for, specify the filter by the
-ranked_serp_element.serp_item.relative_url parameter
-example:
-"filters":[
-"ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
+the domain name of the target website or URL of the target webpage;
+the domain name must be specified without https:// or www.;
+the webpage URL must be specified with https:// or www.
 
 #### Implementation of
 
@@ -354,7 +352,7 @@ example:
 
 #### Defined in
 
-main.ts:108622
+main.ts:118098
 
 ## Methods
 
@@ -364,7 +362,9 @@ main.ts:108622
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -372,7 +372,7 @@ main.ts:108622
 
 #### Defined in
 
-main.ts:108753
+main.ts:118229
 
 ***
 
@@ -382,7 +382,9 @@ main.ts:108753
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -390,7 +392,7 @@ main.ts:108753
 
 #### Defined in
 
-main.ts:108795
+main.ts:118271
 
 ***
 
@@ -400,7 +402,9 @@ main.ts:108795
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -408,4 +412,4 @@ main.ts:108795
 
 #### Defined in
 
-main.ts:108788
+main.ts:118264

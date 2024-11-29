@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
+[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
@@ -22,7 +22,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:63422
+main.ts:71622
 
 ***
 
@@ -39,7 +39,7 @@ en
 
 #### Defined in
 
-main.ts:63418
+main.ts:71618
 
 ***
 
@@ -56,7 +56,7 @@ English
 
 #### Defined in
 
-main.ts:63411
+main.ts:71611
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:63404
+main.ts:71604
 
 ***
 
@@ -90,7 +90,7 @@ United States
 
 #### Defined in
 
-main.ts:63397
+main.ts:71597
 
 ***
 
@@ -105,7 +105,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:63427
+main.ts:71627
 
 ***
 
@@ -120,12 +120,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:63459
+main.ts:71661
 
 ***
 
@@ -141,7 +142,7 @@ advanced
 
 #### Defined in
 
-main.ts:63449
+main.ts:71650
 
 ***
 
@@ -156,12 +157,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:63443
+main.ts:71644
 
 ***
 
@@ -179,7 +181,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:63383
+main.ts:71583
 
 ***
 
@@ -192,7 +194,7 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-main.ts:63386
+main.ts:71586
 
 ***
 
@@ -206,7 +208,7 @@ possible values:
 
 #### Defined in
 
-main.ts:63390
+main.ts:71590
 
 ***
 
@@ -222,7 +224,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:63433
+main.ts:71633
 
 ***
 
@@ -238,4 +240,4 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-main.ts:63375
+main.ts:71575

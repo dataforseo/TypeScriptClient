@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleBusinessPostBusinessDataSerpElementItem
+[Documentation](../README.md) / IGoogleBusinessPostBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
 
@@ -24,7 +24,7 @@ author of the post
 
 #### Defined in
 
-main.ts:202745
+main.ts:215720
 
 ***
 
@@ -36,7 +36,7 @@ url of an image included in the post
 
 #### Defined in
 
-main.ts:202753
+main.ts:215728
 
 ***
 
@@ -48,7 +48,7 @@ links included in the post
 
 #### Defined in
 
-main.ts:202764
+main.ts:215739
 
 ***
 
@@ -61,7 +61,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:202741
+main.ts:215716
 
 ***
 
@@ -75,7 +75,7 @@ in the following format:
 
 #### Defined in
 
-main.ts:202757
+main.ts:215732
 
 ***
 
@@ -87,7 +87,7 @@ main content of a post
 
 #### Defined in
 
-main.ts:202749
+main.ts:215724
 
 ***
 
@@ -103,7 +103,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21397
+main.ts:22295
 
 ***
 
@@ -120,7 +120,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21395
+main.ts:22293
 
 ***
 
@@ -132,7 +132,7 @@ additional content of a post
 
 #### Defined in
 
-main.ts:202747
+main.ts:215722
 
 ***
 
@@ -147,7 +147,7 @@ example:
 
 #### Defined in
 
-main.ts:202762
+main.ts:215737
 
 ***
 
@@ -163,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:21392
+main.ts:22290
 
 ***
 
@@ -175,7 +175,7 @@ url of a post
 
 #### Defined in
 
-main.ts:202751
+main.ts:215726
 
 ***
 
@@ -187,4 +187,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:202743
+main.ts:215718

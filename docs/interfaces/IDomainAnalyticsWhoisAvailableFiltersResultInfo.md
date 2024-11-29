@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
+[Documentation](../README.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
@@ -22,4 +22,4 @@
 
 #### Defined in
 
-main.ts:79251
+main.ts:88963

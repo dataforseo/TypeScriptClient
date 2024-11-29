@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalBusinessReservationLink
+[Documentation](../README.md) / ILocalBusinessReservationLink
 
 # Interface: ILocalBusinessReservationLink
 
@@ -25,7 +25,7 @@ domain of the reservation software
 
 #### Defined in
 
-main.ts:23957
+main.ts:25022
 
 ***
 
@@ -41,7 +41,7 @@ type of element
 
 #### Defined in
 
-main.ts:23905
+main.ts:24970
 
 ***
 
@@ -53,4 +53,4 @@ URL to make a reservation
 
 #### Defined in
 
-main.ts:23959
+main.ts:25024

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDayStatisticsRatesData
+[Documentation](../README.md) / AppendixDayStatisticsRatesData
 
 # Class: AppendixDayStatisticsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixDayStatisticsRatesData`](../interfaces/IAppendixDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixDayStatisticsRatesData`](../interfaces/IAppendixDayStatisticsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:219666
+main.ts:234665
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:219666
 
 #### Defined in
 
-main.ts:219650
+main.ts:234649
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:219650
 
 #### Defined in
 
-main.ts:219636
+main.ts:234635
 
 ***
 
@@ -72,13 +74,13 @@ main.ts:219636
 
 #### Defined in
 
-main.ts:219648
+main.ts:234647
 
 ***
 
 ### business\_data?
 
-> `optional` **business\_data**: [`AppendixBusinessDataDayStatisticsRatesData`](AppendixBusinessDataDayStatisticsRatesData.md)
+> `optional` **business\_data**: [`AppendixBusinessDataStatisticsRatesDataInfo`](AppendixBusinessDataStatisticsRatesDataInfo.md)
 
 #### Implementation of
 
@@ -86,7 +88,7 @@ main.ts:219648
 
 #### Defined in
 
-main.ts:219646
+main.ts:234645
 
 ***
 
@@ -100,13 +102,13 @@ main.ts:219646
 
 #### Defined in
 
-main.ts:219652
+main.ts:234651
 
 ***
 
 ### content\_generation?
 
-> `optional` **content\_generation**: [`AppendixContentGenerationDayStatisticsRatesData`](AppendixContentGenerationDayStatisticsRatesData.md)
+> `optional` **content\_generation**: [`AppendixContentGenerationStatisticsRatesDataInfo`](AppendixContentGenerationStatisticsRatesDataInfo.md)
 
 #### Implementation of
 
@@ -114,7 +116,7 @@ main.ts:219652
 
 #### Defined in
 
-main.ts:219654
+main.ts:234653
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:219654
 
 #### Defined in
 
-main.ts:219638
+main.ts:234637
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:219638
 
 #### Defined in
 
-main.ts:219640
+main.ts:234639
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:219640
 
 #### Defined in
 
-main.ts:219634
+main.ts:234633
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:219634
 
 #### Defined in
 
-main.ts:219642
+main.ts:234641
 
 ***
 
@@ -184,7 +186,7 @@ main.ts:219642
 
 #### Defined in
 
-main.ts:219644
+main.ts:234643
 
 ***
 
@@ -198,7 +200,7 @@ main.ts:219644
 
 #### Defined in
 
-main.ts:219662
+main.ts:234661
 
 ***
 
@@ -212,7 +214,7 @@ main.ts:219662
 
 #### Defined in
 
-main.ts:219630
+main.ts:234629
 
 ***
 
@@ -228,7 +230,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:219632
+main.ts:234631
 
 ***
 
@@ -242,7 +244,7 @@ main.ts:219632
 
 #### Defined in
 
-main.ts:219651
+main.ts:234650
 
 ***
 
@@ -256,7 +258,7 @@ main.ts:219651
 
 #### Defined in
 
-main.ts:219637
+main.ts:234636
 
 ***
 
@@ -270,7 +272,7 @@ main.ts:219637
 
 #### Defined in
 
-main.ts:219649
+main.ts:234648
 
 ***
 
@@ -284,7 +286,7 @@ main.ts:219649
 
 #### Defined in
 
-main.ts:219647
+main.ts:234646
 
 ***
 
@@ -298,7 +300,7 @@ main.ts:219647
 
 #### Defined in
 
-main.ts:219653
+main.ts:234652
 
 ***
 
@@ -312,7 +314,7 @@ main.ts:219653
 
 #### Defined in
 
-main.ts:219655
+main.ts:234654
 
 ***
 
@@ -326,7 +328,7 @@ main.ts:219655
 
 #### Defined in
 
-main.ts:219639
+main.ts:234638
 
 ***
 
@@ -340,7 +342,7 @@ main.ts:219639
 
 #### Defined in
 
-main.ts:219641
+main.ts:234640
 
 ***
 
@@ -354,7 +356,7 @@ main.ts:219641
 
 #### Defined in
 
-main.ts:219635
+main.ts:234634
 
 ***
 
@@ -368,7 +370,7 @@ main.ts:219635
 
 #### Defined in
 
-main.ts:219643
+main.ts:234642
 
 ***
 
@@ -382,7 +384,7 @@ main.ts:219643
 
 #### Defined in
 
-main.ts:219645
+main.ts:234644
 
 ***
 
@@ -396,7 +398,7 @@ main.ts:219645
 
 #### Defined in
 
-main.ts:219661
+main.ts:234660
 
 ***
 
@@ -410,7 +412,7 @@ main.ts:219661
 
 #### Defined in
 
-main.ts:219633
+main.ts:234632
 
 ***
 
@@ -424,7 +426,7 @@ main.ts:219633
 
 #### Defined in
 
-main.ts:219660
+main.ts:234659
 
 ***
 
@@ -442,7 +444,7 @@ minute in the yyyy-MM-dd HH:mm format
 
 #### Defined in
 
-main.ts:219659
+main.ts:234658
 
 ## Methods
 
@@ -452,7 +454,9 @@ main.ts:219659
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -460,7 +464,7 @@ main.ts:219659
 
 #### Defined in
 
-main.ts:219675
+main.ts:234674
 
 ***
 
@@ -470,7 +474,9 @@ main.ts:219675
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -478,7 +484,7 @@ main.ts:219675
 
 #### Defined in
 
-main.ts:219720
+main.ts:234719
 
 ***
 
@@ -488,7 +494,9 @@ main.ts:219720
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -496,4 +504,4 @@ main.ts:219720
 
 #### Defined in
 
-main.ts:219713
+main.ts:234712

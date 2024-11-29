@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageDuplicateTagsItem
+[Documentation](../README.md) / IOnPageDuplicateTagsItem
 
 # Interface: IOnPageDuplicateTagsItem
 
@@ -20,7 +20,7 @@ contains the value of duplicated tag
 
 #### Defined in
 
-main.ts:156940
+main.ts:168575
 
 ***
 
@@ -32,7 +32,7 @@ pages with duplicate tags
 
 #### Defined in
 
-main.ts:156944
+main.ts:168579
 
 ***
 
@@ -44,4 +44,4 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:156942
+main.ts:168577

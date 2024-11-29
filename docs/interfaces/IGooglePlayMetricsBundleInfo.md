@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGooglePlayMetricsBundleInfo
+[Documentation](../README.md) / IGooglePlayMetricsBundleInfo
 
 # Interface: IGooglePlayMetricsBundleInfo
 
@@ -20,4 +20,4 @@ ranking data from Google Play organic search
 
 #### Defined in
 
-main.ts:112895
+main.ts:122227

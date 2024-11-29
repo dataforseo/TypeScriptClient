@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordInfoNormalizedWithInfo
+[Documentation](../README.md) / KeywordInfoNormalizedWithInfo
 
 # Class: KeywordInfoNormalizedWithInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordInfoNormalizedWithInfo`](../interfaces/IKeywordInfoNormalizedWithInfo.md)
+##### data?
+
+[`IKeywordInfoNormalizedWithInfo`](../interfaces/IKeywordInfoNormalizedWithInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:82828
+main.ts:92540
 
 ## Properties
 
@@ -47,7 +49,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 #### Defined in
 
-main.ts:82819
+main.ts:92531
 
 ***
 
@@ -64,7 +66,7 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 #### Defined in
 
-main.ts:82824
+main.ts:92536
 
 ***
 
@@ -80,7 +82,7 @@ monthly average clickstream search volume rate
 
 #### Defined in
 
-main.ts:82821
+main.ts:92533
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:82821
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:82821
 
 #### Defined in
 
-main.ts:82837
+main.ts:92549
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:82837
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:82837
 
 #### Defined in
 
-main.ts:82860
+main.ts:92572
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:82860
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:82860
 
 #### Defined in
 
-main.ts:82853
+main.ts:92565

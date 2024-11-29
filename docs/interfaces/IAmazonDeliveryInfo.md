@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonDeliveryInfo
+[Documentation](../README.md) / IAmazonDeliveryInfo
 
 # Interface: IAmazonDeliveryInfo
 
@@ -20,7 +20,7 @@ the earliest date when the product can be shipped
 
 #### Defined in
 
-main.ts:22782
+main.ts:23680
 
 ***
 
@@ -32,7 +32,7 @@ the latest date when the product can be delivered
 
 #### Defined in
 
-main.ts:22784
+main.ts:23682
 
 ***
 
@@ -44,7 +44,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:22780
+main.ts:23678
 
 ***
 
@@ -58,7 +58,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:22792
+main.ts:23690
 
 ***
 
@@ -70,7 +70,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:22786
+main.ts:23684
 
 ***
 
@@ -82,4 +82,4 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:22788
+main.ts:23686

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksSummaryLiveResultInfo
+[Documentation](../README.md) / BacklinksSummaryLiveResultInfo
 
 # Class: BacklinksSummaryLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md)
+##### data?
+
+[`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:139109
+main.ts:150314
 
 ## Properties
 
@@ -46,7 +48,7 @@ indicates the number of backlinks
 
 #### Defined in
 
-main.ts:139039
+main.ts:150244
 
 ***
 
@@ -64,7 +66,7 @@ to learn more about how the metric is calculated, refer to this Help Center page
 
 #### Defined in
 
-main.ts:139043
+main.ts:150248
 
 ***
 
@@ -81,7 +83,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139056
+main.ts:150261
 
 ***
 
@@ -99,7 +101,7 @@ note that the number of broken pages includes pages on the target discovered by 
 
 #### Defined in
 
-main.ts:139060
+main.ts:150265
 
 ***
 
@@ -115,7 +117,7 @@ number of crawled pages for the target
 
 #### Defined in
 
-main.ts:139045
+main.ts:150250
 
 ***
 
@@ -132,7 +134,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139053
+main.ts:150258
 
 ***
 
@@ -151,7 +153,7 @@ example:
 
 #### Defined in
 
-main.ts:139028
+main.ts:150233
 
 ***
 
@@ -167,7 +169,7 @@ information about the target
 
 #### Defined in
 
-main.ts:139047
+main.ts:150252
 
 ***
 
@@ -184,7 +186,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139050
+main.ts:150255
 
 ***
 
@@ -204,7 +206,7 @@ example:
 
 #### Defined in
 
-main.ts:139034
+main.ts:150239
 
 ***
 
@@ -221,7 +223,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:139037
+main.ts:150242
 
 ***
 
@@ -238,7 +240,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:139063
+main.ts:150268
 
 ***
 
@@ -254,7 +256,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139065
+main.ts:150270
 
 ***
 
@@ -271,7 +273,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:139072
+main.ts:150277
 
 ***
 
@@ -294,7 +296,7 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 #### Defined in
 
-main.ts:139089
+main.ts:150294
 
 ***
 
@@ -315,7 +317,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:139103
+main.ts:150308
 
 ***
 
@@ -338,7 +340,7 @@ cms, blogs, unknown, ecommerce, message-boards
 
 #### Defined in
 
-main.ts:139094
+main.ts:150299
 
 ***
 
@@ -362,7 +364,7 @@ article, section, summary, ""
 
 #### Defined in
 
-main.ts:139100
+main.ts:150305
 
 ***
 
@@ -383,7 +385,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:139079
+main.ts:150284
 
 ***
 
@@ -406,7 +408,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:139084
+main.ts:150289
 
 ***
 
@@ -422,7 +424,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:139067
+main.ts:150272
 
 ***
 
@@ -438,7 +440,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139069
+main.ts:150274
 
 ***
 
@@ -454,7 +456,7 @@ indicates the number of pages pointing to the target
 
 #### Defined in
 
-main.ts:139076
+main.ts:150281
 
 ***
 
@@ -470,7 +472,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139105
+main.ts:150310
 
 ***
 
@@ -486,7 +488,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:139074
+main.ts:150279
 
 ***
 
@@ -502,7 +504,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:139023
+main.ts:150228
 
 ## Methods
 
@@ -512,7 +514,9 @@ main.ts:139023
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -520,7 +524,7 @@ main.ts:139023
 
 #### Defined in
 
-main.ts:139118
+main.ts:150323
 
 ***
 
@@ -530,7 +534,9 @@ main.ts:139118
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -538,7 +544,7 @@ main.ts:139118
 
 #### Defined in
 
-main.ts:139196
+main.ts:150401
 
 ***
 
@@ -548,7 +554,9 @@ main.ts:139196
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -556,4 +564,4 @@ main.ts:139196
 
 #### Defined in
 
-main.ts:139189
+main.ts:150394

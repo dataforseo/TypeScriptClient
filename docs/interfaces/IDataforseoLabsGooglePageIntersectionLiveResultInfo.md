@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGooglePageIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
@@ -20,19 +20,19 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:100695
+main.ts:110433
 
 ***
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsGooglePageIntersectionLiveItem`](../classes/DataforseoLabsGooglePageIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:100705
+main.ts:110443
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:100703
+main.ts:110441
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:100699
+main.ts:110437
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:100697
+main.ts:110435
 
 ***
 
@@ -84,7 +84,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:100693
+main.ts:110431
 
 ***
 
@@ -96,7 +96,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100691
+main.ts:110429
 
 ***
 
@@ -108,4 +108,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:100701
+main.ts:110439

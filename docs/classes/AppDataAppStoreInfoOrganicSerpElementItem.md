@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppStoreInfoOrganicSerpElementItem
+[Documentation](../README.md) / AppDataAppStoreInfoOrganicSerpElementItem
 
 # Class: AppDataAppStoreInfoOrganicSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md)
+##### data?
+
+[`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:194212
+main.ts:206554
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:194212
 
 #### Defined in
 
-main.ts:21988
+main.ts:22886
 
 ***
 
@@ -68,7 +70,7 @@ age rating and age-based content advisories
 
 #### Defined in
 
-main.ts:194174
+main.ts:206516
 
 ***
 
@@ -84,7 +86,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:194154
+main.ts:206496
 
 ***
 
@@ -100,7 +102,7 @@ all relevant categories/genres of the app
 
 #### Defined in
 
-main.ts:194170
+main.ts:206512
 
 ***
 
@@ -116,7 +118,7 @@ description of the app
 
 #### Defined in
 
-main.ts:194160
+main.ts:206502
 
 ***
 
@@ -132,7 +134,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:194176
+main.ts:206518
 
 ***
 
@@ -148,7 +150,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:194178
+main.ts:206520
 
 ***
 
@@ -164,7 +166,7 @@ URL to the developer page on App Store
 
 #### Defined in
 
-main.ts:194180
+main.ts:206522
 
 ***
 
@@ -180,7 +182,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:194158
+main.ts:206500
 
 ***
 
@@ -197,7 +199,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Defined in
 
-main.ts:194202
+main.ts:206544
 
 ***
 
@@ -213,7 +215,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:194166
+main.ts:206508
 
 ***
 
@@ -229,7 +231,7 @@ languages supported in the app
 
 #### Defined in
 
-main.ts:194172
+main.ts:206514
 
 ***
 
@@ -248,7 +250,7 @@ example:
 
 #### Defined in
 
-main.ts:194196
+main.ts:206538
 
 ***
 
@@ -264,7 +266,7 @@ main category/genre of the app
 
 #### Defined in
 
-main.ts:194168
+main.ts:206510
 
 ***
 
@@ -280,7 +282,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:194184
+main.ts:206526
 
 ***
 
@@ -297,7 +299,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:194208
+main.ts:206550
 
 ***
 
@@ -319,13 +321,13 @@ left, right
 
 #### Defined in
 
-main.ts:21982
+main.ts:22880
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price of the app
 
@@ -335,7 +337,7 @@ price of the app
 
 #### Defined in
 
-main.ts:194164
+main.ts:206506
 
 ***
 
@@ -356,7 +358,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21978
+main.ts:22876
 
 ***
 
@@ -377,7 +379,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21975
+main.ts:22873
 
 ***
 
@@ -397,7 +399,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21986
+main.ts:22884
 
 ***
 
@@ -416,7 +418,7 @@ example:
 
 #### Defined in
 
-main.ts:194191
+main.ts:206533
 
 ***
 
@@ -432,7 +434,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:194162
+main.ts:206504
 
 ***
 
@@ -449,7 +451,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:194205
+main.ts:206547
 
 ***
 
@@ -465,7 +467,7 @@ size of the app
 
 #### Defined in
 
-main.ts:194186
+main.ts:206528
 
 ***
 
@@ -485,7 +487,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21984
+main.ts:22882
 
 ***
 
@@ -505,7 +507,7 @@ type of element
 
 #### Defined in
 
-main.ts:21972
+main.ts:22870
 
 ***
 
@@ -522,7 +524,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:194199
+main.ts:206541
 
 ***
 
@@ -538,7 +540,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:194156
+main.ts:206498
 
 ***
 
@@ -554,7 +556,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:194182
+main.ts:206524
 
 ## Methods
 
@@ -564,7 +566,9 @@ main.ts:194182
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -576,7 +580,7 @@ main.ts:194182
 
 #### Defined in
 
-main.ts:194217
+main.ts:206559
 
 ***
 
@@ -586,7 +590,9 @@ main.ts:194217
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -598,7 +604,7 @@ main.ts:194217
 
 #### Defined in
 
-main.ts:194281
+main.ts:206623
 
 ***
 
@@ -608,7 +614,9 @@ main.ts:194281
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -620,4 +628,4 @@ main.ts:194281
 
 #### Defined in
 
-main.ts:194274
+main.ts:206616

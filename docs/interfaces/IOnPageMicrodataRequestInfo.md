@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageMicrodataRequestInfo
+[Documentation](../README.md) / IOnPageMicrodataRequestInfo
 
 # Interface: IOnPageMicrodataRequestInfo
 
@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:159918
+main.ts:171553
 
 ***
 
@@ -40,7 +40,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159930
+main.ts:171565
 
 ***
 
@@ -56,4 +56,4 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-main.ts:159924
+main.ts:171559

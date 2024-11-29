@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:216433
+main.ts:231392
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:216433
 
 #### Defined in
 
-main.ts:216428
+main.ts:231387
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:216428
 
 #### Defined in
 
-main.ts:216435
+main.ts:231394
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:216435
 
 #### Defined in
 
-main.ts:216429
+main.ts:231388
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:216429
 
 #### Defined in
 
-main.ts:216430
+main.ts:231389
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:216430
 
 #### Defined in
 
-main.ts:216431
+main.ts:231390
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:216431
 
 #### Defined in
 
-main.ts:216432
+main.ts:231391
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:216432
 
 #### Defined in
 
-main.ts:216434
+main.ts:231393
 
 ***
 
@@ -98,4 +98,4 @@ main.ts:216434
 
 #### Defined in
 
-main.ts:216436
+main.ts:231395

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+[Documentation](../README.md) / AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Class: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
+##### data?
+
+[`IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:220924
+main.ts:236087
 
 ## Properties
 
@@ -46,7 +48,7 @@ cost, USD
 
 #### Defined in
 
-main.ts:220920
+main.ts:236083
 
 ***
 
@@ -65,7 +67,7 @@ per_request – charge for a GET or POST request
 
 #### Defined in
 
-main.ts:220918
+main.ts:236081
 
 ## Methods
 
@@ -75,7 +77,9 @@ main.ts:220918
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -83,7 +87,7 @@ main.ts:220918
 
 #### Defined in
 
-main.ts:220933
+main.ts:236096
 
 ***
 
@@ -93,7 +97,9 @@ main.ts:220933
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -101,7 +107,7 @@ main.ts:220933
 
 #### Defined in
 
-main.ts:220951
+main.ts:236114
 
 ***
 
@@ -111,7 +117,9 @@ main.ts:220951
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -119,4 +127,4 @@ main.ts:220951
 
 #### Defined in
 
-main.ts:220944
+main.ts:236107

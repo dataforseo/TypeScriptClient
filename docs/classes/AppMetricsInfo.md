@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppMetricsInfo
+[Documentation](../README.md) / AppMetricsInfo
 
 # Class: AppMetricsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppMetricsInfo`](../interfaces/IAppMetricsInfo.md)
+##### data?
+
+[`IAppMetricsInfo`](../interfaces/IAppMetricsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:104078
+main.ts:113716
 
 ## Properties
 
@@ -46,7 +48,7 @@ total count of Amazon organic SERPs that contain the product
 
 #### Defined in
 
-main.ts:104072
+main.ts:113710
 
 ***
 
@@ -62,7 +64,7 @@ number of organic SERPs where the product ranks #1
 
 #### Defined in
 
-main.ts:104064
+main.ts:113702
 
 ***
 
@@ -78,7 +80,7 @@ number of organic SERPs where the product ranks #11-100
 
 #### Defined in
 
-main.ts:104070
+main.ts:113708
 
 ***
 
@@ -94,7 +96,7 @@ number of organic SERPs where the product ranks #2-3
 
 #### Defined in
 
-main.ts:104066
+main.ts:113704
 
 ***
 
@@ -110,7 +112,7 @@ number of organic SERPs where the product ranks #4-10
 
 #### Defined in
 
-main.ts:104068
+main.ts:113706
 
 ***
 
@@ -126,7 +128,7 @@ total search volume of the product’s ranking keywords in organic SERP
 
 #### Defined in
 
-main.ts:104074
+main.ts:113712
 
 ## Methods
 
@@ -136,7 +138,9 @@ main.ts:104074
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -144,7 +148,7 @@ main.ts:104074
 
 #### Defined in
 
-main.ts:104087
+main.ts:113725
 
 ***
 
@@ -154,7 +158,9 @@ main.ts:104087
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +168,7 @@ main.ts:104087
 
 #### Defined in
 
-main.ts:104109
+main.ts:113747
 
 ***
 
@@ -172,7 +178,9 @@ main.ts:104109
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -180,4 +188,4 @@ main.ts:104109
 
 #### Defined in
 
-main.ts:104102
+main.ts:113740

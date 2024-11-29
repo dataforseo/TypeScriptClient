@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersItem
+[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersItem
 
 # Class: BusinessDataGoogleQuestionsAndAnswersItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md)
+##### data?
+
+[`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:209629
+main.ts:224550
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible item types: google_business_question_item
 
 #### Defined in
 
-main.ts:209625
+main.ts:224546
 
 ***
 
@@ -63,7 +65,7 @@ original text of the question
 
 #### Defined in
 
-main.ts:209618
+main.ts:224539
 
 ***
 
@@ -79,7 +81,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209610
+main.ts:224531
 
 ***
 
@@ -95,7 +97,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209614
+main.ts:224535
 
 ***
 
@@ -111,7 +113,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209612
+main.ts:224533
 
 ***
 
@@ -127,7 +129,7 @@ ID of the question
 
 #### Defined in
 
-main.ts:209606
+main.ts:224527
 
 ***
 
@@ -143,7 +145,7 @@ current text of the question
 
 #### Defined in
 
-main.ts:209616
+main.ts:224537
 
 ***
 
@@ -159,7 +161,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:209604
+main.ts:224525
 
 ***
 
@@ -176,7 +178,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:209602
+main.ts:224523
 
 ***
 
@@ -192,7 +194,7 @@ estimated time when the question was posted
 
 #### Defined in
 
-main.ts:209620
+main.ts:224541
 
 ***
 
@@ -208,7 +210,7 @@ exact time when the question was posted
 
 #### Defined in
 
-main.ts:209622
+main.ts:224543
 
 ***
 
@@ -224,7 +226,7 @@ type of element
 
 #### Defined in
 
-main.ts:209599
+main.ts:224520
 
 ***
 
@@ -240,7 +242,7 @@ URL of the question
 
 #### Defined in
 
-main.ts:209608
+main.ts:224529
 
 ## Methods
 
@@ -250,7 +252,9 @@ main.ts:209608
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -258,7 +262,7 @@ main.ts:209608
 
 #### Defined in
 
-main.ts:209638
+main.ts:224559
 
 ***
 
@@ -268,7 +272,9 @@ main.ts:209638
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -276,7 +282,7 @@ main.ts:209638
 
 #### Defined in
 
-main.ts:209671
+main.ts:224592
 
 ***
 
@@ -286,7 +292,9 @@ main.ts:209671
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -294,4 +302,4 @@ main.ts:209671
 
 #### Defined in
 
-main.ts:209664
+main.ts:224585

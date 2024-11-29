@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataContactInfo
+[Documentation](../README.md) / IBusinessDataContactInfo
 
 # Interface: IBusinessDataContactInfo
 
@@ -20,7 +20,7 @@ data source
 
 #### Defined in
 
-main.ts:198813
+main.ts:211163
 
 ***
 
@@ -32,7 +32,7 @@ type of element
 
 #### Defined in
 
-main.ts:198807
+main.ts:211157
 
 ***
 
@@ -46,4 +46,4 @@ example:
 
 #### Defined in
 
-main.ts:198811
+main.ts:211161

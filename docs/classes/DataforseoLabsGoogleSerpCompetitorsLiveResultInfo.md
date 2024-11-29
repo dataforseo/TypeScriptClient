@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:92503
+main.ts:102221
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-main.ts:92499
+main.ts:102217
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:92497
+main.ts:102215
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:92493
+main.ts:102211
 
 ***
 
@@ -96,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:92490
+main.ts:102208
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92484
+main.ts:102202
 
 ***
 
@@ -121,7 +123,7 @@ main.ts:92484
 > `optional` **seed\_keywords**: `string`[]
 
 keywords specified in the request
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -129,7 +131,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:92487
+main.ts:102205
 
 ***
 
@@ -145,7 +147,7 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:92495
+main.ts:102213
 
 ## Methods
 
@@ -155,7 +157,9 @@ main.ts:92495
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +167,7 @@ main.ts:92495
 
 #### Defined in
 
-main.ts:92512
+main.ts:102230
 
 ***
 
@@ -173,7 +177,9 @@ main.ts:92512
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +187,7 @@ main.ts:92512
 
 #### Defined in
 
-main.ts:92543
+main.ts:102261
 
 ***
 
@@ -191,7 +197,9 @@ main.ts:92543
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -199,4 +207,4 @@ main.ts:92543
 
 #### Defined in
 
-main.ts:92536
+main.ts:102254

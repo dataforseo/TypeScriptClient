@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetSearchLiveAdvancedTaskInfo
+[Documentation](../README.md) / ISerpGoogleDatasetSearchLiveAdvancedTaskInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedTaskInfo
 
@@ -28,7 +28,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24339
+main.ts:25404
 
 ***
 
@@ -48,7 +48,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:24345
+main.ts:25410
 
 ***
 
@@ -65,7 +65,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:24328
+main.ts:25393
 
 ***
 
@@ -81,7 +81,7 @@ URL path
 
 #### Defined in
 
-main.ts:24343
+main.ts:25408
 
 ***
 
@@ -93,7 +93,7 @@ array of results
 
 #### Defined in
 
-main.ts:55087
+main.ts:58762
 
 ***
 
@@ -109,7 +109,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:24341
+main.ts:25406
 
 ***
 
@@ -127,7 +127,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24332
+main.ts:25397
 
 ***
 
@@ -144,7 +144,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24335
+main.ts:25400
 
 ***
 
@@ -160,4 +160,4 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:24337
+main.ts:25402

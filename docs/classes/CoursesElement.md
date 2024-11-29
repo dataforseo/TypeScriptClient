@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CoursesElement
+[Documentation](../README.md) / CoursesElement
 
 # Class: CoursesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ICoursesElement`](../interfaces/ICoursesElement.md)
+##### data?
+
+[`ICoursesElement`](../interfaces/ICoursesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:36425
+main.ts:37910
 
 ## Properties
 
@@ -46,7 +48,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:36415
+main.ts:37900
 
 ***
 
@@ -62,7 +64,7 @@ description
 
 #### Defined in
 
-main.ts:36413
+main.ts:37898
 
 ***
 
@@ -78,7 +80,7 @@ website domain
 
 #### Defined in
 
-main.ts:36408
+main.ts:37893
 
 ***
 
@@ -95,7 +97,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:36418
+main.ts:37903
 
 ***
 
@@ -112,7 +114,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:36421
+main.ts:37906
 
 ***
 
@@ -129,7 +131,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36411
+main.ts:37896
 
 ***
 
@@ -145,7 +147,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36404
+main.ts:37889
 
 ***
 
@@ -161,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:36402
+main.ts:37887
 
 ***
 
@@ -177,7 +179,7 @@ URL
 
 #### Defined in
 
-main.ts:36406
+main.ts:37891
 
 ## Methods
 
@@ -187,7 +189,9 @@ main.ts:36406
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +199,7 @@ main.ts:36406
 
 #### Defined in
 
-main.ts:36434
+main.ts:37919
 
 ***
 
@@ -205,7 +209,9 @@ main.ts:36434
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +219,7 @@ main.ts:36434
 
 #### Defined in
 
-main.ts:36459
+main.ts:37944
 
 ***
 
@@ -223,7 +229,9 @@ main.ts:36459
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -231,4 +239,4 @@ main.ts:36459
 
 #### Defined in
 
-main.ts:36452
+main.ts:37937

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateMetaTagsLiveRequestInfo
+[Documentation](../README.md) / IContentGenerationGenerateMetaTagsLiveRequestInfo
 
 # Interface: IContentGenerationGenerateMetaTagsLiveRequestInfo
 
@@ -25,7 +25,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:170346
+main.ts:181935
 
 ***
 
@@ -41,7 +41,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:170352
+main.ts:181941
 
 ***
 
@@ -57,4 +57,4 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:170339
+main.ts:181928

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
@@ -20,12 +20,12 @@ target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
-each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:102150
+main.ts:111888
 
 ***
 
@@ -42,7 +42,7 @@ en
 
 #### Defined in
 
-main.ts:102197
+main.ts:111935
 
 ***
 
@@ -59,7 +59,7 @@ English
 
 #### Defined in
 
-main.ts:102190
+main.ts:111928
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:102183
+main.ts:111921
 
 ***
 
@@ -112,7 +112,7 @@ United States
 
 #### Defined in
 
-main.ts:102175
+main.ts:111913
 
 ***
 
@@ -128,4 +128,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:102203
+main.ts:111941

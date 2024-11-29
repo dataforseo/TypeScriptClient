@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGooglePageIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGooglePageIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGooglePageIntersectionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGooglePageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:100238
+main.ts:109976
 
 ## Properties
 
@@ -57,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:100112
+main.ts:109850
 
 ***
 
@@ -91,7 +93,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:100212
+main.ts:109950
 
 ***
 
@@ -110,7 +112,7 @@ default value: false
 
 #### Defined in
 
-main.ts:100192
+main.ts:109930
 
 ***
 
@@ -120,7 +122,7 @@ main.ts:100192
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -131,7 +133,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:100187
+main.ts:109925
 
 ***
 
@@ -150,7 +152,7 @@ default value: false
 
 #### Defined in
 
-main.ts:100180
+main.ts:109918
 
 ***
 
@@ -169,7 +171,7 @@ default value: true
 
 #### Defined in
 
-main.ts:100167
+main.ts:109905
 
 ***
 
@@ -191,7 +193,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:100175
+main.ts:109913
 
 ***
 
@@ -213,7 +215,7 @@ default value:
 
 #### Defined in
 
-main.ts:100152
+main.ts:109890
 
 ***
 
@@ -235,7 +237,7 @@ en
 
 #### Defined in
 
-main.ts:100144
+main.ts:109882
 
 ***
 
@@ -257,7 +259,7 @@ English
 
 #### Defined in
 
-main.ts:100136
+main.ts:109874
 
 ***
 
@@ -276,7 +278,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:100157
+main.ts:109895
 
 ***
 
@@ -298,7 +300,7 @@ example:
 
 #### Defined in
 
-main.ts:100128
+main.ts:109866
 
 ***
 
@@ -320,7 +322,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:100120
+main.ts:109858
 
 ***
 
@@ -339,7 +341,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:100162
+main.ts:109900
 
 ***
 
@@ -369,7 +371,7 @@ example:
 
 #### Defined in
 
-main.ts:100228
+main.ts:109966
 
 ***
 
@@ -408,7 +410,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:100099
+main.ts:109837
 
 ***
 
@@ -428,7 +430,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:100234
+main.ts:109972
 
 ## Methods
 
@@ -438,7 +440,9 @@ main.ts:100234
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -446,7 +450,7 @@ main.ts:100234
 
 #### Defined in
 
-main.ts:100247
+main.ts:109985
 
 ***
 
@@ -456,7 +460,9 @@ main.ts:100247
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -464,7 +470,7 @@ main.ts:100247
 
 #### Defined in
 
-main.ts:100302
+main.ts:110040
 
 ***
 
@@ -474,7 +480,9 @@ main.ts:100302
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -482,4 +490,4 @@ main.ts:100302
 
 #### Defined in
 
-main.ts:100295
+main.ts:110033

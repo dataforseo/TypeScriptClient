@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetInfoTasksReadyResultInfo
+[Documentation](../README.md) / SerpGoogleDatasetInfoTasksReadyResultInfo
 
 # Class: SerpGoogleDatasetInfoTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetInfoTasksReadyResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:55472
+main.ts:59151
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:55457
+main.ts:59136
 
 ***
 
@@ -63,7 +65,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:55465
+main.ts:59144
 
 ***
 
@@ -80,7 +82,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:55468
+main.ts:59147
 
 ***
 
@@ -97,7 +99,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:55462
+main.ts:59141
 
 ***
 
@@ -114,7 +116,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:55450
+main.ts:59129
 
 ***
 
@@ -130,7 +132,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:55452
+main.ts:59131
 
 ***
 
@@ -147,7 +149,7 @@ example: dataset_info
 
 #### Defined in
 
-main.ts:55455
+main.ts:59134
 
 ***
 
@@ -163,7 +165,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:55459
+main.ts:59138
 
 ## Methods
 
@@ -173,7 +175,9 @@ main.ts:55459
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +185,7 @@ main.ts:55459
 
 #### Defined in
 
-main.ts:55481
+main.ts:59160
 
 ***
 
@@ -191,7 +195,9 @@ main.ts:55481
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -199,7 +205,7 @@ main.ts:55481
 
 #### Defined in
 
-main.ts:55505
+main.ts:59184
 
 ***
 
@@ -209,7 +215,9 @@ main.ts:55505
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -217,4 +225,4 @@ main.ts:55505
 
 #### Defined in
 
-main.ts:55498
+main.ts:59177

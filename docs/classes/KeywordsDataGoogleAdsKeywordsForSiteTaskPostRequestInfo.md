@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:118439
+main.ts:128169
 
 ## Properties
 
@@ -52,7 +54,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:118390
+main.ts:128118
 
 ***
 
@@ -74,7 +76,7 @@ example:
 
 #### Defined in
 
-main.ts:118398
+main.ts:128126
 
 ***
 
@@ -94,7 +96,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:118404
+main.ts:128132
 
 ***
 
@@ -114,7 +116,7 @@ en
 
 #### Defined in
 
-main.ts:118377
+main.ts:128105
 
 ***
 
@@ -134,7 +136,7 @@ English
 
 #### Defined in
 
-main.ts:118371
+main.ts:128099
 
 ***
 
@@ -156,7 +158,7 @@ example:
 
 #### Defined in
 
-main.ts:118356
+main.ts:128084
 
 ***
 
@@ -179,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:118365
+main.ts:128093
 
 ***
 
@@ -201,7 +203,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:118348
+main.ts:128076
 
 ***
 
@@ -216,8 +218,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -225,7 +228,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:118429
+main.ts:128159
 
 ***
 
@@ -240,8 +243,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -249,7 +253,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:118419
+main.ts:128148
 
 ***
 
@@ -268,7 +272,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:118382
+main.ts:128110
 
 ***
 
@@ -287,7 +291,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:118409
+main.ts:128137
 
 ***
 
@@ -307,7 +311,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:118435
+main.ts:128165
 
 ***
 
@@ -326,7 +330,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:118333
+main.ts:128061
 
 ***
 
@@ -347,7 +351,7 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:118340
+main.ts:128068
 
 ## Methods
 
@@ -357,7 +361,9 @@ main.ts:118340
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -365,7 +371,7 @@ main.ts:118340
 
 #### Defined in
 
-main.ts:118448
+main.ts:128178
 
 ***
 
@@ -375,7 +381,9 @@ main.ts:118448
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -383,7 +391,7 @@ main.ts:118448
 
 #### Defined in
 
-main.ts:118479
+main.ts:128209
 
 ***
 
@@ -393,7 +401,9 @@ main.ts:118479
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -401,4 +411,4 @@ main.ts:118479
 
 #### Defined in
 
-main.ts:118472
+main.ts:128202

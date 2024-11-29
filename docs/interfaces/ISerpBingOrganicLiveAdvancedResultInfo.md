@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingOrganicLiveAdvancedResultInfo
+[Documentation](../README.md) / ISerpBingOrganicLiveAdvancedResultInfo
 
 # Interface: ISerpBingOrganicLiveAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:58910
+main.ts:66028
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:58915
+main.ts:66033
 
 ***
 
@@ -51,7 +51,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 #### Defined in
 
-main.ts:58923
+main.ts:66044
 
 ***
 
@@ -59,12 +59,11 @@ main.ts:58923
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+items featured in the faq_box
 
 #### Defined in
 
-main.ts:58930
+main.ts:66050
 
 ***
 
@@ -76,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:58927
+main.ts:66048
 
 ***
 
@@ -85,11 +84,11 @@ main.ts:58927
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:58899
+main.ts:66017
 
 ***
 
@@ -101,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:58907
+main.ts:66025
 
 ***
 
@@ -113,7 +112,20 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:58905
+main.ts:66023
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:66039
 
 ***
 
@@ -125,7 +137,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:58903
+main.ts:66021
 
 ***
 
@@ -137,7 +149,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:58925
+main.ts:66046
 
 ***
 
@@ -150,7 +162,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:58918
+main.ts:66036
 
 ***
 
@@ -162,4 +174,4 @@ type of element
 
 #### Defined in
 
-main.ts:58901
+main.ts:66019

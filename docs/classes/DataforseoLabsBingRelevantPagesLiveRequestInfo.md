@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingRelevantPagesLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingRelevantPagesLiveRequestInfo
 
 # Class: DataforseoLabsBingRelevantPagesLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsBingRelevantPagesLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:110000
+main.ts:119332
 
 ## Properties
 
@@ -58,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:109973
+main.ts:119305
 
 ***
 
@@ -81,7 +83,7 @@ default value: live
 
 #### Defined in
 
-main.ts:109959
+main.ts:119291
 
 ***
 
@@ -104,7 +106,7 @@ default value:
 
 #### Defined in
 
-main.ts:109940
+main.ts:119272
 
 ***
 
@@ -127,7 +129,7 @@ en
 
 #### Defined in
 
-main.ts:109931
+main.ts:119263
 
 ***
 
@@ -150,7 +152,7 @@ English
 
 #### Defined in
 
-main.ts:109922
+main.ts:119254
 
 ***
 
@@ -169,7 +171,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:109945
+main.ts:119277
 
 ***
 
@@ -193,7 +195,7 @@ example:
 
 #### Defined in
 
-main.ts:109913
+main.ts:119245
 
 ***
 
@@ -217,7 +219,7 @@ United States
 
 #### Defined in
 
-main.ts:109903
+main.ts:119235
 
 ***
 
@@ -236,7 +238,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:109950
+main.ts:119282
 
 ***
 
@@ -267,7 +269,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:109990
+main.ts:119322
 
 ***
 
@@ -287,7 +289,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:109996
+main.ts:119328
 
 ***
 
@@ -306,7 +308,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:109893
+main.ts:119225
 
 ## Methods
 
@@ -316,7 +318,9 @@ main.ts:109893
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -324,7 +328,7 @@ main.ts:109893
 
 #### Defined in
 
-main.ts:110009
+main.ts:119341
 
 ***
 
@@ -334,7 +338,9 @@ main.ts:110009
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -342,7 +348,7 @@ main.ts:110009
 
 #### Defined in
 
-main.ts:110049
+main.ts:119381
 
 ***
 
@@ -352,7 +358,9 @@ main.ts:110049
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -360,4 +368,4 @@ main.ts:110049
 
 #### Defined in
 
-main.ts:110042
+main.ts:119374

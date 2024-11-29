@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
 # Interface: IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
@@ -14,13 +14,13 @@
 
 ### items?
 
-> `optional` **items**: [`KeywordsDataClickstreamDataBulkSearchVolumeLiveItem`](../classes/KeywordsDataClickstreamDataBulkSearchVolumeLiveItem.md)[]
+> `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](../classes/KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
 contains keywords and related data
 
 #### Defined in
 
-main.ts:137368
+main.ts:148573
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:137366
+main.ts:148571
 
 ***
 
@@ -44,4 +44,4 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:137364
+main.ts:148569

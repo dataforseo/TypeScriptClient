@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:96307
+main.ts:105951
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:96307
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -70,7 +72,7 @@ ss:/webfacts:net_worth
 
 #### Defined in
 
-main.ts:96298
+main.ts:105942
 
 ***
 
@@ -87,7 +89,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96303
+main.ts:105947
 
 ***
 
@@ -103,7 +105,7 @@ link of the element
 
 #### Defined in
 
-main.ts:96300
+main.ts:105944
 
 ***
 
@@ -125,7 +127,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -146,7 +148,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -167,7 +169,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -183,7 +185,7 @@ title of the link
 
 #### Defined in
 
-main.ts:96294
+main.ts:105938
 
 ***
 
@@ -203,7 +205,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -223,7 +225,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -233,7 +235,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -245,7 +249,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:96312
+main.ts:105956
 
 ***
 
@@ -255,7 +259,9 @@ main.ts:96312
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +273,7 @@ main.ts:96312
 
 #### Defined in
 
-main.ts:96337
+main.ts:105981
 
 ***
 
@@ -277,7 +283,9 @@ main.ts:96337
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -289,4 +297,4 @@ main.ts:96337
 
 #### Defined in
 
-main.ts:96330
+main.ts:105974

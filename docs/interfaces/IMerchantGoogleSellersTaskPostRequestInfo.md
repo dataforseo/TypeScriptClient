@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleSellersTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantGoogleSellersTaskPostRequestInfo
 
 # Interface: IMerchantGoogleSellersTaskPostRequestInfo
 
@@ -29,7 +29,7 @@ example:
 
 #### Defined in
 
-main.ts:175808
+main.ts:187539
 
 ***
 
@@ -44,7 +44,7 @@ Note: if set to true, the cost of a task will be doubled
 
 #### Defined in
 
-main.ts:175801
+main.ts:187532
 
 ***
 
@@ -61,7 +61,7 @@ en
 
 #### Defined in
 
-main.ts:175789
+main.ts:187520
 
 ***
 
@@ -78,7 +78,7 @@ English
 
 #### Defined in
 
-main.ts:175782
+main.ts:187513
 
 ***
 
@@ -95,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:175766
+main.ts:187497
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:175775
+main.ts:187506
 
 ***
 
@@ -131,7 +131,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:175759
+main.ts:187490
 
 ***
 
@@ -146,12 +146,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:175840
+main.ts:187573
 
 ***
 
@@ -167,7 +168,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:175830
+main.ts:187562
 
 ***
 
@@ -182,12 +183,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:175824
+main.ts:187556
 
 ***
 
@@ -205,7 +207,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:175752
+main.ts:187483
 
 ***
 
@@ -223,7 +225,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:175744
+main.ts:187475
 
 ***
 
@@ -240,7 +242,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:175796
+main.ts:187527
 
 ***
 
@@ -256,4 +258,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:175814
+main.ts:187545

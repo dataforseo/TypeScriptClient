@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphSerpElementItem
 
 # Class: KnowledgeGraphSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:29489
+main.ts:31048
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:29489
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ card id
 
 #### Defined in
 
-main.ts:29468
+main.ts:31027
 
 ***
 
@@ -86,7 +88,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:29479
+main.ts:31038
 
 ***
 
@@ -102,7 +104,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29466
+main.ts:31025
 
 ***
 
@@ -119,7 +121,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:29473
+main.ts:31032
 
 ***
 
@@ -135,7 +137,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:29481
+main.ts:31040
 
 ***
 
@@ -151,7 +153,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:29475
+main.ts:31034
 
 ***
 
@@ -173,7 +175,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -194,7 +196,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -216,7 +218,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -234,7 +236,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29485
+main.ts:31044
 
 ***
 
@@ -250,7 +252,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:29464
+main.ts:31023
 
 ***
 
@@ -266,7 +268,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:29462
+main.ts:31021
 
 ***
 
@@ -286,7 +288,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -302,7 +304,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:29470
+main.ts:31029
 
 ***
 
@@ -322,7 +324,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -332,7 +334,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -344,7 +348,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:29494
+main.ts:31053
 
 ***
 
@@ -354,7 +358,9 @@ main.ts:29494
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -366,7 +372,7 @@ main.ts:29494
 
 #### Defined in
 
-main.ts:29525
+main.ts:31084
 
 ***
 
@@ -376,7 +382,9 @@ main.ts:29525
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -388,4 +396,4 @@ main.ts:29525
 
 #### Defined in
 
-main.ts:29518
+main.ts:31077

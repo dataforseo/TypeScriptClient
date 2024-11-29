@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RankedKeywordsInfo
+[Documentation](../README.md) / RankedKeywordsInfo
 
 # Class: RankedKeywordsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md)
+##### data?
+
+[`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:140477
+main.ts:151682
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 #### Defined in
 
-main.ts:140471
+main.ts:151676
 
 ***
 
@@ -62,7 +64,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 #### Defined in
 
-main.ts:140473
+main.ts:151678
 
 ***
 
@@ -78,7 +80,7 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Defined in
 
-main.ts:140469
+main.ts:151674
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:140469
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:140469
 
 #### Defined in
 
-main.ts:140486
+main.ts:151691
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:140486
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:140486
 
 #### Defined in
 
-main.ts:140505
+main.ts:151710
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:140505
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:140505
 
 #### Defined in
 
-main.ts:140498
+main.ts:151703

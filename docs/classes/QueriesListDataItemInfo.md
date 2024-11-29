@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / QueriesListDataItemInfo
+[Documentation](../README.md) / QueriesListDataItemInfo
 
 # Class: QueriesListDataItemInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md)
+##### data?
+
+[`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:124109
+main.ts:134358
 
 ## Properties
 
@@ -46,7 +48,7 @@ related query
 
 #### Defined in
 
-main.ts:124102
+main.ts:134351
 
 ***
 
@@ -63,7 +65,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:124105
+main.ts:134354
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:124105
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:124105
 
 #### Defined in
 
-main.ts:124118
+main.ts:134367
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:124118
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:124118
 
 #### Defined in
 
-main.ts:124136
+main.ts:134385
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:124136
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:124136
 
 #### Defined in
 
-main.ts:124129
+main.ts:134378

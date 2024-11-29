@@ -1,14 +1,10 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo
-
-## Extends
-
-- [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md)
 
 ## Indexable
 
@@ -28,13 +24,9 @@ by default, data is returned for the past 12 months;
 Note: the indicated date cannot be greater than that specified in date_to and/or yesterday’s date;if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`date_from`](IKeywordsDataTaskRequestInfo.md#date_from)
-
 #### Defined in
 
-main.ts:73310
+main.ts:129874
 
 ***
 
@@ -44,19 +36,15 @@ main.ts:73310
 
 ending date of the time range
 optional field
-Note: the indicated date cannot be greater than the past month, Google Ads does not return data on the current month;
+Note: the indicated date cannot be greater than yesterday’s date;
 if you don’t specify this field, yesterday’s date will be used by default
 date format: "yyyy-mm-dd"
 example:
 "2022-11-30"
 
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`date_to`](IKeywordsDataTaskRequestInfo.md#date_to)
-
 #### Defined in
 
-main.ts:73318
+main.ts:129882
 
 ***
 
@@ -66,17 +54,13 @@ main.ts:73318
 
 include keywords associated with adult content
 optional field
-if set to true, adult keywords will be included in the response
-default value: false
-note that the API may return no data for such keywords due to Google Ads restrictions
-
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`include_adult_keywords`](IKeywordsDataTaskRequestInfo.md#include_adult_keywords)
+if set to true, adult keywords will be included in the response
+default value: false
+note that the API may return no data for such keywords due to Google Ads restrictions
 
 #### Defined in
 
-main.ts:73324
+main.ts:129893
 
 ***
 
@@ -86,23 +70,18 @@ main.ts:73324
 
 keywords
 required field
-The maximum number of keywords you can specify: 1000
+The maximum number of keywords you can specify: 20
 The maximum number of characters for each keyword: 80
-The maximum number of words for each keyword phrase: 10
 the keywords you specify will be converted to a lowercase format
-Note #1: Google Ads may return no data for certain groups of keywords;
-Note #2: Google Ads provides combined search volume values for groups of similar keywords
-to obtain search volume for similar keywords, we recommend submitting such keywords in separate requests;
-Note #3: Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
-to learn more about which symbols can be used, please refer to this article
-
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`keywords`](IKeywordsDataTaskRequestInfo.md#keywords)
+Note: Google Ads may return no data for certain groups of keywords
+visit our Help Center to learn more
+Also note that Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:73260
+main.ts:129819
 
 ***
 
@@ -116,13 +95,9 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`language_code`](IKeywordsDataTaskRequestInfo.md#language_code)
-
 #### Defined in
 
-main.ts:73297
+main.ts:129861
 
 ***
 
@@ -136,13 +111,9 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`language_name`](IKeywordsDataTaskRequestInfo.md#language_name)
-
 #### Defined in
 
-main.ts:73291
+main.ts:129855
 
 ***
 
@@ -158,13 +129,9 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_code`](IKeywordsDataTaskRequestInfo.md#location_code)
-
 #### Defined in
 
-main.ts:73276
+main.ts:129840
 
 ***
 
@@ -181,13 +148,9 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_coordinate`](IKeywordsDataTaskRequestInfo.md#location_coordinate)
-
 #### Defined in
 
-main.ts:73285
+main.ts:129849
 
 ***
 
@@ -203,13 +166,9 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_name`](IKeywordsDataTaskRequestInfo.md#location_name)
-
 #### Defined in
 
-main.ts:73268
+main.ts:129832
 
 ***
 
@@ -224,16 +183,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`pingback_url`](IKeywordsDataTaskRequestInfo.md#pingback_url)
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:73349
+main.ts:129915
 
 ***
 
@@ -248,16 +204,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`postback_url`](IKeywordsDataTaskRequestInfo.md#postback_url)
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:73339
+main.ts:129904
 
 ***
 
@@ -270,13 +223,9 @@ optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
 
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`search_partners`](IKeywordsDataTaskRequestInfo.md#search_partners)
-
 #### Defined in
 
-main.ts:73302
+main.ts:129866
 
 ***
 
@@ -286,16 +235,12 @@ main.ts:73302
 
 results sorting parameters
 optional field
-use these parameters to sort the results by relevance, search_volume, competition_index, low_top_of_page_bid, or high_top_of_page_bid in the descending order
+Use these parameters to sort the results by relevance, search_volume, competition_index, low_top_of_page_bid, or high_top_of_page_bid in descending order
 default value: relevance
-
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`sort_by`](IKeywordsDataTaskRequestInfo.md#sort_by)
 
 #### Defined in
 
-main.ts:73329
+main.ts:129887
 
 ***
 
@@ -307,15 +252,11 @@ user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
-you will find the specified tag value in the data array of the response
-
-#### Inherited from
-
-[`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`tag`](IKeywordsDataTaskRequestInfo.md#tag)
+you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:73355
+main.ts:129921
 
 ***
 
@@ -330,4 +271,4 @@ Note: if a website url is specified, you will still get keywords relevant for th
 
 #### Defined in
 
-main.ts:119934
+main.ts:129824

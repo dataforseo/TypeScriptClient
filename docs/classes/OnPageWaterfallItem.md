@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageWaterfallItem
+[Documentation](../README.md) / OnPageWaterfallItem
 
 # Class: OnPageWaterfallItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md)
+##### data?
+
+[`IOnPageWaterfallItem`](../interfaces/IOnPageWaterfallItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:159103
+main.ts:170738
 
 ## Properties
 
@@ -47,7 +49,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:159078
+main.ts:170713
 
 ***
 
@@ -64,7 +66,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:159075
+main.ts:170710
 
 ***
 
@@ -80,7 +82,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:159088
+main.ts:170723
 
 ***
 
@@ -96,7 +98,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:159090
+main.ts:170725
 
 ***
 
@@ -113,7 +115,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:159096
+main.ts:170731
 
 ***
 
@@ -130,7 +132,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:159093
+main.ts:170728
 
 ***
 
@@ -146,7 +148,7 @@ URL of the page
 
 #### Defined in
 
-main.ts:159069
+main.ts:170704
 
 ***
 
@@ -163,7 +165,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:159084
+main.ts:170719
 
 ***
 
@@ -180,7 +182,7 @@ contains separate arrays with timing for each resource found on the page
 
 #### Defined in
 
-main.ts:159099
+main.ts:170734
 
 ***
 
@@ -197,7 +199,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:159072
+main.ts:170707
 
 ***
 
@@ -214,7 +216,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:159081
+main.ts:170716
 
 ***
 
@@ -230,7 +232,7 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:159086
+main.ts:170721
 
 ## Methods
 
@@ -240,7 +242,9 @@ main.ts:159086
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -248,7 +252,7 @@ main.ts:159086
 
 #### Defined in
 
-main.ts:159112
+main.ts:170747
 
 ***
 
@@ -258,7 +262,9 @@ main.ts:159112
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +272,7 @@ main.ts:159112
 
 #### Defined in
 
-main.ts:159144
+main.ts:170779
 
 ***
 
@@ -276,7 +282,9 @@ main.ts:159144
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -284,4 +292,4 @@ main.ts:159144
 
 #### Defined in
 
-main.ts:159137
+main.ts:170772

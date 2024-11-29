@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IWorkDayInfo
+[Documentation](../README.md) / IWorkDayInfo
 
 # Interface: IWorkDayInfo
 
@@ -20,7 +20,7 @@ closing time
 
 #### Defined in
 
-main.ts:22131
+main.ts:23029
 
 ***
 
@@ -32,4 +32,4 @@ opening time
 
 #### Defined in
 
-main.ts:22129
+main.ts:23027

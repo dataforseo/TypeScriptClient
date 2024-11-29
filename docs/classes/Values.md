@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Values
+[Documentation](../README.md) / Values
 
 # Class: Values
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IValues`](../interfaces/IValues.md)
+##### data?
+
+[`IValues`](../interfaces/IValues.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:126113
+main.ts:136368
 
 ## Properties
 
@@ -50,7 +52,7 @@ US-NY
 
 #### Defined in
 
-main.ts:126095
+main.ts:136350
 
 ***
 
@@ -70,7 +72,7 @@ Andorra
 
 #### Defined in
 
-main.ts:126101
+main.ts:136356
 
 ***
 
@@ -92,7 +94,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:126109
+main.ts:136364
 
 ## Methods
 
@@ -102,7 +104,9 @@ main.ts:126109
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -110,7 +114,7 @@ main.ts:126109
 
 #### Defined in
 
-main.ts:126122
+main.ts:136377
 
 ***
 
@@ -120,7 +124,9 @@ main.ts:126122
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +134,7 @@ main.ts:126122
 
 #### Defined in
 
-main.ts:126141
+main.ts:136396
 
 ***
 
@@ -138,7 +144,9 @@ main.ts:126141
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -146,4 +154,4 @@ main.ts:126141
 
 #### Defined in
 
-main.ts:126134
+main.ts:136389

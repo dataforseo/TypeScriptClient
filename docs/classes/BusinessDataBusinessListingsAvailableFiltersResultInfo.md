@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Class: BusinessDataBusinessListingsAvailableFiltersResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:197994
+main.ts:210344
 
 ## Properties
 
@@ -48,7 +50,7 @@ main.ts:197994
 
 #### Defined in
 
-main.ts:197990
+main.ts:210340
 
 ***
 
@@ -66,7 +68,7 @@ main.ts:197990
 
 #### Defined in
 
-main.ts:197989
+main.ts:210339
 
 ## Methods
 
@@ -76,7 +78,9 @@ main.ts:197989
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -84,7 +88,7 @@ main.ts:197989
 
 #### Defined in
 
-main.ts:198003
+main.ts:210353
 
 ***
 
@@ -94,7 +98,9 @@ main.ts:198003
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -102,7 +108,7 @@ main.ts:198003
 
 #### Defined in
 
-main.ts:198033
+main.ts:210383
 
 ***
 
@@ -112,7 +118,9 @@ main.ts:198033
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -120,4 +128,4 @@ main.ts:198033
 
 #### Defined in
 
-main.ts:198026
+main.ts:210376

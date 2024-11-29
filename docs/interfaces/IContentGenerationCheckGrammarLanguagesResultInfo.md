@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationCheckGrammarLanguagesResultInfo
+[Documentation](../README.md) / IContentGenerationCheckGrammarLanguagesResultInfo
 
 # Interface: IContentGenerationCheckGrammarLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:171542
+main.ts:183131
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:171540
+main.ts:183129

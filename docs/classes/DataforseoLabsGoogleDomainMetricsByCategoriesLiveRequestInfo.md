@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:89172
+main.ts:98890
 
 ## Properties
 
@@ -49,7 +51,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:89035
+main.ts:98753
 
 ***
 
@@ -70,7 +72,7 @@ Note: we do not recommend setting correlate to false
 
 #### Defined in
 
-main.ts:89126
+main.ts:98844
 
 ***
 
@@ -88,7 +90,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Defined in
 
-main.ts:89119
+main.ts:98837
 
 ***
 
@@ -106,7 +108,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Defined in
 
-main.ts:89115
+main.ts:98833
 
 ***
 
@@ -131,7 +133,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:89147
+main.ts:98865
 
 ***
 
@@ -156,7 +158,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:89046
+main.ts:98764
 
 ***
 
@@ -176,7 +178,7 @@ default value: true
 
 #### Defined in
 
-main.ts:89111
+main.ts:98829
 
 ***
 
@@ -199,7 +201,7 @@ default value:
 
 #### Defined in
 
-main.ts:89097
+main.ts:98815
 
 ***
 
@@ -220,7 +222,7 @@ en
 
 #### Defined in
 
-main.ts:89088
+main.ts:98806
 
 ***
 
@@ -242,7 +244,7 @@ English
 
 #### Defined in
 
-main.ts:89081
+main.ts:98799
 
 ***
 
@@ -261,7 +263,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:89131
+main.ts:98849
 
 ***
 
@@ -283,7 +285,7 @@ example:
 
 #### Defined in
 
-main.ts:89073
+main.ts:98791
 
 ***
 
@@ -305,7 +307,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:89065
+main.ts:98783
 
 ***
 
@@ -324,7 +326,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:89136
+main.ts:98854
 
 ***
 
@@ -353,7 +355,7 @@ example:
 
 #### Defined in
 
-main.ts:89162
+main.ts:98880
 
 ***
 
@@ -378,7 +380,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:89057
+main.ts:98775
 
 ***
 
@@ -398,7 +400,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:89168
+main.ts:98886
 
 ***
 
@@ -420,7 +422,7 @@ maximum value: 5
 
 #### Defined in
 
-main.ts:89105
+main.ts:98823
 
 ## Methods
 
@@ -430,7 +432,9 @@ main.ts:89105
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -438,7 +442,7 @@ main.ts:89105
 
 #### Defined in
 
-main.ts:89181
+main.ts:98899
 
 ***
 
@@ -448,7 +452,9 @@ main.ts:89181
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -456,7 +462,7 @@ main.ts:89181
 
 #### Defined in
 
-main.ts:89231
+main.ts:98949
 
 ***
 
@@ -466,7 +472,9 @@ main.ts:89231
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -474,4 +482,4 @@ main.ts:89231
 
 #### Defined in
 
-main.ts:89224
+main.ts:98942

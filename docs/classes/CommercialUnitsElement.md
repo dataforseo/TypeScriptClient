@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CommercialUnitsElement
+[Documentation](../README.md) / CommercialUnitsElement
 
 # Class: CommercialUnitsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md)
+##### data?
+
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:34294
+main.ts:35779
 
 ## Properties
 
@@ -46,7 +48,7 @@ website domain
 
 #### Defined in
 
-main.ts:34282
+main.ts:35767
 
 ***
 
@@ -62,7 +64,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:34284
+main.ts:35769
 
 ***
 
@@ -79,7 +81,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:34290
+main.ts:35775
 
 ***
 
@@ -96,7 +98,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:34287
+main.ts:35772
 
 ***
 
@@ -112,7 +114,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34278
+main.ts:35763
 
 ***
 
@@ -128,7 +130,7 @@ type of element
 
 #### Defined in
 
-main.ts:34276
+main.ts:35761
 
 ***
 
@@ -144,7 +146,7 @@ URL
 
 #### Defined in
 
-main.ts:34280
+main.ts:35765
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:34280
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:34280
 
 #### Defined in
 
-main.ts:34303
+main.ts:35788
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:34303
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:34303
 
 #### Defined in
 
-main.ts:34326
+main.ts:35811
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:34326
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:34326
 
 #### Defined in
 
-main.ts:34319
+main.ts:35804

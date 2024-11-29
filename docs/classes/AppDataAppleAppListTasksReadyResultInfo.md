@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListTasksReadyResultInfo
+[Documentation](../README.md) / AppDataAppleAppListTasksReadyResultInfo
 
 # Class: AppDataAppleAppListTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:194998
+main.ts:207344
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:194987
+main.ts:207333
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Apple App List task
 
 #### Defined in
 
-main.ts:194991
+main.ts:207337
 
 ***
 
@@ -79,7 +81,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:194994
+main.ts:207340
 
 ***
 
@@ -96,7 +98,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:194981
+main.ts:207327
 
 ***
 
@@ -112,7 +114,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:194983
+main.ts:207329
 
 ***
 
@@ -128,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:194985
+main.ts:207331
 
 ***
 
@@ -144,7 +146,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:194989
+main.ts:207335
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:194989
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:194989
 
 #### Defined in
 
-main.ts:195007
+main.ts:207353
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:195007
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:195007
 
 #### Defined in
 
-main.ts:195030
+main.ts:207376
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:195030
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:195030
 
 #### Defined in
 
-main.ts:195023
+main.ts:207369

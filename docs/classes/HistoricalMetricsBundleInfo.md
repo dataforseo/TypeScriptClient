@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HistoricalMetricsBundleInfo
+[Documentation](../README.md) / HistoricalMetricsBundleInfo
 
 # Class: HistoricalMetricsBundleInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHistoricalMetricsBundleInfo`](../interfaces/IHistoricalMetricsBundleInfo.md)
+##### data?
+
+[`IHistoricalMetricsBundleInfo`](../interfaces/IHistoricalMetricsBundleInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:101672
+main.ts:111410
 
 ## Properties
 
@@ -46,7 +48,7 @@ traffic data from the local pack results in SERP
 
 #### Defined in
 
-main.ts:101668
+main.ts:111406
 
 ***
 
@@ -62,7 +64,7 @@ traffic data from the featured snippet results in Google SERP
 
 #### Defined in
 
-main.ts:101666
+main.ts:111404
 
 ***
 
@@ -78,7 +80,7 @@ traffic data from organic search
 
 #### Defined in
 
-main.ts:101662
+main.ts:111400
 
 ***
 
@@ -94,7 +96,7 @@ traffic data from paid search
 
 #### Defined in
 
-main.ts:101664
+main.ts:111402
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:101664
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:101664
 
 #### Defined in
 
-main.ts:101681
+main.ts:111419
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:101681
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:101681
 
 #### Defined in
 
-main.ts:101717
+main.ts:111455
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:101717
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:101717
 
 #### Defined in
 
-main.ts:101710
+main.ts:111448

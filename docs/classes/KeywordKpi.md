@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordKpi
+[Documentation](../README.md) / KeywordKpi
 
 # Class: KeywordKpi
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordKpi`](../interfaces/IKeywordKpi.md)
+##### data?
+
+[`IKeywordKpi`](../interfaces/IKeywordKpi.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:133206
+main.ts:145055
 
 ## Properties
 
@@ -47,7 +49,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133196
+main.ts:145045
 
 ***
 
@@ -64,7 +66,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133199
+main.ts:145048
 
 ***
 
@@ -81,7 +83,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133202
+main.ts:145051
 
 ## Methods
 
@@ -91,7 +93,9 @@ main.ts:133202
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +103,7 @@ main.ts:133202
 
 #### Defined in
 
-main.ts:133215
+main.ts:145064
 
 ***
 
@@ -109,7 +113,9 @@ main.ts:133215
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -117,7 +123,7 @@ main.ts:133215
 
 #### Defined in
 
-main.ts:133246
+main.ts:145095
 
 ***
 
@@ -127,7 +133,9 @@ main.ts:133246
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -135,4 +143,4 @@ main.ts:133246
 
 #### Defined in
 
-main.ts:133239
+main.ts:145088

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpAiSummaryRequestInfo
+[Documentation](../README.md) / SerpAiSummaryRequestInfo
 
 # Class: SerpAiSummaryRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpAiSummaryRequestInfo`](../interfaces/ISerpAiSummaryRequestInfo.md)
+##### data?
+
+[`ISerpAiSummaryRequestInfo`](../interfaces/ISerpAiSummaryRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:25399
+main.ts:26464
 
 ## Properties
 
@@ -49,7 +51,7 @@ default value: false
 
 #### Defined in
 
-main.ts:25390
+main.ts:26455
 
 ***
 
@@ -68,7 +70,7 @@ default value: false
 
 #### Defined in
 
-main.ts:25395
+main.ts:26460
 
 ***
 
@@ -89,7 +91,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Defined in
 
-main.ts:25380
+main.ts:26445
 
 ***
 
@@ -108,7 +110,7 @@ default value: true
 
 #### Defined in
 
-main.ts:25385
+main.ts:26450
 
 ***
 
@@ -127,7 +129,7 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-main.ts:25373
+main.ts:26438
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:25373
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:25373
 
 #### Defined in
 
-main.ts:25408
+main.ts:26473
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:25408
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:25408
 
 #### Defined in
 
-main.ts:25429
+main.ts:26494
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:25429
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:25429
 
 #### Defined in
 
-main.ts:25422
+main.ts:26487

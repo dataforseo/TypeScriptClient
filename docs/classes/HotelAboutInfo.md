@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelAboutInfo
+[Documentation](../README.md) / HotelAboutInfo
 
 # Class: HotelAboutInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md)
+##### data?
+
+[`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:205742
+main.ts:219097
 
 ## Properties
 
@@ -47,7 +49,7 @@ information about hotel amenities
 
 #### Defined in
 
-main.ts:205735
+main.ts:219090
 
 ***
 
@@ -64,7 +66,7 @@ check-in time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:205720
+main.ts:219075
 
 ***
 
@@ -81,7 +83,7 @@ check-out time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:205723
+main.ts:219078
 
 ***
 
@@ -98,7 +100,7 @@ the description of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:205714
+main.ts:219069
 
 ***
 
@@ -115,7 +117,7 @@ domain of the hotel’s website
 
 #### Defined in
 
-main.ts:205729
+main.ts:219084
 
 ***
 
@@ -132,7 +134,7 @@ address of the hotel indicated in the standardised format
 
 #### Defined in
 
-main.ts:205726
+main.ts:219081
 
 ***
 
@@ -149,7 +151,7 @@ information about hotel amenities labelled as “popular”
 
 #### Defined in
 
-main.ts:205738
+main.ts:219093
 
 ***
 
@@ -166,7 +168,7 @@ details about the hotel provided in addition to the description
 
 #### Defined in
 
-main.ts:205717
+main.ts:219072
 
 ***
 
@@ -183,7 +185,7 @@ URL to the hotel’s website indicated in the listing
 
 #### Defined in
 
-main.ts:205732
+main.ts:219087
 
 ## Methods
 
@@ -193,7 +195,9 @@ main.ts:205732
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -201,7 +205,7 @@ main.ts:205732
 
 #### Defined in
 
-main.ts:205751
+main.ts:219106
 
 ***
 
@@ -211,7 +215,9 @@ main.ts:205751
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -219,7 +225,7 @@ main.ts:205751
 
 #### Defined in
 
-main.ts:205788
+main.ts:219143
 
 ***
 
@@ -229,7 +235,9 @@ main.ts:205788
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -237,4 +245,4 @@ main.ts:205788
 
 #### Defined in
 
-main.ts:205781
+main.ts:219136

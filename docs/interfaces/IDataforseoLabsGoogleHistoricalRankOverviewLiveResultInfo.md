@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
@@ -20,7 +20,7 @@ contains historical ranking and traffic data
 
 #### Defined in
 
-main.ts:99963
+main.ts:109701
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:99961
+main.ts:109699
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:99957
+main.ts:109695
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:99955
+main.ts:109693
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99951
+main.ts:109689
 
 ***
 
@@ -80,7 +80,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:99953
+main.ts:109691
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:99959
+main.ts:109697

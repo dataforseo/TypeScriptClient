@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DeliveryInfo
+[Documentation](../README.md) / DeliveryInfo
 
 # Class: DeliveryInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDeliveryInfo`](../interfaces/IDeliveryInfo.md)
+##### data?
+
+[`IDeliveryInfo`](../interfaces/IDeliveryInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:174339
+main.ts:186073
 
 ## Properties
 
@@ -47,7 +49,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:174328
+main.ts:186065
 
 ***
 
@@ -65,24 +67,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:174332
-
-***
-
-### stores\_count\_info?
-
-> `optional` **stores\_count\_info**: [`StoresCountInfo`](StoresCountInfo.md)
-
-stores count information
-contains information about the number of stores that offer the same product
-
-#### Implementation of
-
-[`IDeliveryInfo`](../interfaces/IDeliveryInfo.md).[`stores_count_info`](../interfaces/IDeliveryInfo.md#stores_count_info)
-
-#### Defined in
-
-main.ts:174335
+main.ts:186069
 
 ## Methods
 
@@ -92,7 +77,9 @@ main.ts:174335
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +87,7 @@ main.ts:174335
 
 #### Defined in
 
-main.ts:174348
+main.ts:186082
 
 ***
 
@@ -110,7 +97,9 @@ main.ts:174348
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +107,7 @@ main.ts:174348
 
 #### Defined in
 
-main.ts:174367
+main.ts:186100
 
 ***
 
@@ -128,7 +117,9 @@ main.ts:174367
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -136,4 +127,4 @@ main.ts:174367
 
 #### Defined in
 
-main.ts:174360
+main.ts:186093

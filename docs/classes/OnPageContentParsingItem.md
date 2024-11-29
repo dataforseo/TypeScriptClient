@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageContentParsingItem
+[Documentation](../README.md) / OnPageContentParsingItem
 
 # Class: OnPageContentParsingItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md)
+##### data?
+
+[`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161895
+main.ts:173508
 
 ## Properties
 
@@ -48,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:161887
+main.ts:173500
 
 ***
 
@@ -64,7 +66,7 @@ parsed content of the page
 
 #### Defined in
 
-main.ts:161891
+main.ts:173504
 
 ***
 
@@ -80,7 +82,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:161889
+main.ts:173502
 
 ***
 
@@ -96,7 +98,7 @@ type of element
 
 #### Defined in
 
-main.ts:161883
+main.ts:173496
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:161883
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:161883
 
 #### Defined in
 
-main.ts:161904
+main.ts:173517
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:161904
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:161904
 
 #### Defined in
 
-main.ts:161924
+main.ts:173537
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:161924
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:161924
 
 #### Defined in
 
-main.ts:161917
+main.ts:173530

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoTrendsSubregionInterestsElementItem
+[Documentation](../README.md) / IDataforseoTrendsSubregionInterestsElementItem
 
 # Interface: IDataforseoTrendsSubregionInterestsElementItem
 
@@ -24,7 +24,7 @@ subregional keyword popuarity data for each specified term
 
 #### Defined in
 
-main.ts:126475
+main.ts:136730
 
 ***
 
@@ -37,7 +37,7 @@ if you specified a single keyword, the value will be null
 
 #### Defined in
 
-main.ts:126478
+main.ts:136733
 
 ***
 
@@ -54,7 +54,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21967
+main.ts:22865
 
 ***
 
@@ -71,7 +71,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21964
+main.ts:22862
 
 ***
 
@@ -87,4 +87,4 @@ type of element
 
 #### Defined in
 
-main.ts:21961
+main.ts:22859

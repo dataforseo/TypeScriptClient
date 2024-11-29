@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
@@ -24,7 +24,7 @@ domain of the establishment
 
 #### Defined in
 
-main.ts:211004
+main.ts:225933
 
 ***
 
@@ -40,7 +40,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21397
+main.ts:22295
 
 ***
 
@@ -57,7 +57,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21395
+main.ts:22293
 
 ***
 
@@ -69,7 +69,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-main.ts:211010
+main.ts:225939
 
 ***
 
@@ -81,7 +81,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:211008
+main.ts:225937
 
 ***
 
@@ -93,7 +93,7 @@ title of the establishment
 
 #### Defined in
 
-main.ts:211002
+main.ts:225931
 
 ***
 
@@ -109,7 +109,7 @@ type of element
 
 #### Defined in
 
-main.ts:21392
+main.ts:22290
 
 ***
 
@@ -121,4 +121,4 @@ URL to the establishment
 
 #### Defined in
 
-main.ts:211006
+main.ts:225935

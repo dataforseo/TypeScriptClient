@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
@@ -24,7 +24,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:95834
+main.ts:105552
 
 ***
 
@@ -41,7 +41,7 @@ example:
 
 #### Defined in
 
-main.ts:95841
+main.ts:105559
 
 ***
 
@@ -51,14 +51,14 @@ main.ts:95841
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
 
 #### Defined in
 
-main.ts:95828
+main.ts:105546
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:95871
+main.ts:105589
 
 ***
 
@@ -94,7 +94,7 @@ English
 
 #### Defined in
 
-main.ts:95863
+main.ts:105581
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:95855
+main.ts:105573
 
 ***
 
@@ -128,7 +128,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:95848
+main.ts:105566
 
 ***
 
@@ -144,4 +144,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:95877
+main.ts:105595

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IVideoElement
+[Documentation](../README.md) / IVideoElement
 
 # Interface: IVideoElement
 
@@ -11,18 +11,6 @@
  \[`key`: `string`\]: `any`
 
 ## Properties
-
-### preview?
-
-> `optional` **preview**: `string`
-
-URL to the video preview image
-
-#### Defined in
-
-main.ts:31657
-
-***
 
 ### source?
 
@@ -33,7 +21,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:31646
+main.ts:33201
 
 ***
 
@@ -48,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:31653
+main.ts:33208
 
 ***
 
@@ -60,7 +48,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31648
+main.ts:33203
 
 ***
 
@@ -72,7 +60,7 @@ type of element
 
 #### Defined in
 
-main.ts:31643
+main.ts:33198
 
 ***
 
@@ -84,4 +72,4 @@ URL
 
 #### Defined in
 
-main.ts:31655
+main.ts:33210

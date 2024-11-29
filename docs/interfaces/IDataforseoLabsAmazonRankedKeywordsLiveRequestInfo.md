@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveRequestInfo
 
@@ -23,7 +23,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:103247
+main.ts:112885
 
 ***
 
@@ -44,7 +44,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:103298
+main.ts:112936
 
 ***
 
@@ -59,7 +59,7 @@ default value: false
 
 #### Defined in
 
-main.ts:103287
+main.ts:112925
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:103277
+main.ts:112915
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Defined in
 
-main.ts:103270
+main.ts:112908
 
 ***
 
@@ -108,7 +108,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:103282
+main.ts:112920
 
 ***
 
@@ -126,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:103263
+main.ts:112901
 
 ***
 
@@ -144,7 +144,7 @@ United States
 
 #### Defined in
 
-main.ts:103255
+main.ts:112893
 
 ***
 
@@ -159,7 +159,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:103319
+main.ts:112957
 
 ***
 
@@ -185,7 +185,7 @@ example:
 
 #### Defined in
 
-main.ts:103314
+main.ts:112952
 
 ***
 
@@ -201,4 +201,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:103325
+main.ts:112963

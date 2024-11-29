@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksCompetitorsLiveRequestInfo
+[Documentation](../README.md) / IBacklinksCompetitorsLiveRequestInfo
 
 # Interface: IBacklinksCompetitorsLiveRequestInfo
 
@@ -24,7 +24,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145750
+main.ts:156955
 
 ***
 
@@ -39,7 +39,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145744
+main.ts:156949
 
 ***
 
@@ -63,7 +63,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:145720
+main.ts:156925
 
 ***
 
@@ -78,7 +78,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:145701
+main.ts:156906
 
 ***
 
@@ -93,7 +93,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145739
+main.ts:156944
 
 ***
 
@@ -108,7 +108,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:145706
+main.ts:156911
 
 ***
 
@@ -132,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:145734
+main.ts:156939
 
 ***
 
@@ -148,7 +148,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:145756
+main.ts:156961
 
 ***
 
@@ -163,4 +163,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:145696
+main.ts:156901

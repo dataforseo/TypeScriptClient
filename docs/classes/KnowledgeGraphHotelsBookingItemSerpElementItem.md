@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Class: KnowledgeGraphHotelsBookingItemSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:29115
+main.ts:30674
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:29115
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -70,7 +72,7 @@ kc:/local:hotel booking
 
 #### Defined in
 
-main.ts:29104
+main.ts:30663
 
 ***
 
@@ -89,7 +91,7 @@ example:
 
 #### Defined in
 
-main.ts:29095
+main.ts:30654
 
 ***
 
@@ -108,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:29100
+main.ts:30659
 
 ***
 
@@ -125,7 +127,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29107
+main.ts:30666
 
 ***
 
@@ -147,7 +149,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -168,7 +170,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -190,7 +192,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -208,7 +210,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29111
+main.ts:30670
 
 ***
 
@@ -224,7 +226,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29090
+main.ts:30649
 
 ***
 
@@ -244,7 +246,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -264,7 +266,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -274,7 +276,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -286,7 +290,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:29120
+main.ts:30679
 
 ***
 
@@ -296,7 +300,9 @@ main.ts:29120
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -308,7 +314,7 @@ main.ts:29120
 
 #### Defined in
 
-main.ts:29147
+main.ts:30706
 
 ***
 
@@ -318,7 +324,9 @@ main.ts:29147
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -330,4 +338,4 @@ main.ts:29147
 
 #### Defined in
 
-main.ts:29140
+main.ts:30699

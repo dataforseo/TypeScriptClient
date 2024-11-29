@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksIdListResultInfo
+[Documentation](../README.md) / BacklinksIdListResultInfo
 
 # Class: BacklinksIdListResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md)
+##### data?
+
+[`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:137633
+main.ts:148838
 
 ## Properties
 
@@ -46,7 +48,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:137627
+main.ts:148832
 
 ***
 
@@ -65,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:137622
+main.ts:148827
 
 ***
 
@@ -84,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:137617
+main.ts:148822
 
 ***
 
@@ -100,7 +102,7 @@ id of the task
 
 #### Defined in
 
-main.ts:137609
+main.ts:148814
 
 ***
 
@@ -120,7 +122,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:137629
+main.ts:148834
 
 ***
 
@@ -137,7 +139,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:137625
+main.ts:148830
 
 ***
 
@@ -154,7 +156,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:137612
+main.ts:148817
 
 ## Methods
 
@@ -164,7 +166,9 @@ main.ts:137612
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -172,7 +176,7 @@ main.ts:137612
 
 #### Defined in
 
-main.ts:137642
+main.ts:148847
 
 ***
 
@@ -182,7 +186,9 @@ main.ts:137642
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -190,7 +196,7 @@ main.ts:137642
 
 #### Defined in
 
-main.ts:137671
+main.ts:148876
 
 ***
 
@@ -200,7 +206,9 @@ main.ts:137671
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -208,4 +216,4 @@ main.ts:137671
 
 #### Defined in
 
-main.ts:137664
+main.ts:148869

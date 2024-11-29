@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
@@ -23,7 +23,7 @@ default value: all
 
 #### Defined in
 
-main.ts:133627
+main.ts:145478
 
 ***
 
@@ -37,10 +37,11 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 80
 The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:133622
+main.ts:145473
 
 ***
 
@@ -56,7 +57,7 @@ example:
 
 #### Defined in
 
-main.ts:133670
+main.ts:145521
 
 ***
 
@@ -73,7 +74,7 @@ English
 
 #### Defined in
 
-main.ts:133664
+main.ts:145515
 
 ***
 
@@ -90,7 +91,7 @@ example:
 
 #### Defined in
 
-main.ts:133649
+main.ts:145500
 
 ***
 
@@ -108,7 +109,7 @@ example:
 
 #### Defined in
 
-main.ts:133657
+main.ts:145508
 
 ***
 
@@ -125,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:133642
+main.ts:145493
 
 ***
 
@@ -143,7 +144,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-main.ts:133635
+main.ts:145486
 
 ***
 
@@ -159,4 +160,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:133676
+main.ts:145527

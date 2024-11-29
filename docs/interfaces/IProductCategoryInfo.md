@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductCategoryInfo
+[Documentation](../README.md) / IProductCategoryInfo
 
 # Interface: IProductCategoryInfo
 
@@ -20,7 +20,7 @@ product category name
 
 #### Defined in
 
-main.ts:181960
+main.ts:194078
 
 ***
 
@@ -33,4 +33,4 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Defined in
 
-main.ts:181963
+main.ts:194081

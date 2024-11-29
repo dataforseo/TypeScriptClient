@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:49835
+main.ts:53525
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:49840
+main.ts:53530
 
 ***
 
@@ -48,7 +48,7 @@ URL specified in a POST array
 
 #### Defined in
 
-main.ts:49822
+main.ts:53512
 
 ***
 
@@ -64,7 +64,7 @@ images
 
 #### Defined in
 
-main.ts:49849
+main.ts:53541
 
 ***
 
@@ -72,12 +72,11 @@ main.ts:49849
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+items featured in the faq_box
 
 #### Defined in
 
-main.ts:49856
+main.ts:53547
 
 ***
 
@@ -89,7 +88,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:49853
+main.ts:53545
 
 ***
 
@@ -101,7 +100,7 @@ keyword Google associated with the specified image
 
 #### Defined in
 
-main.ts:49824
+main.ts:53514
 
 ***
 
@@ -113,7 +112,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:49832
+main.ts:53522
 
 ***
 
@@ -125,7 +124,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:49830
+main.ts:53520
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:53535
 
 ***
 
@@ -137,7 +148,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:49828
+main.ts:53518
 
 ***
 
@@ -149,7 +160,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:49851
+main.ts:53543
 
 ***
 
@@ -162,7 +173,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:49843
+main.ts:53533
 
 ***
 
@@ -174,4 +185,4 @@ type of element
 
 #### Defined in
 
-main.ts:49826
+main.ts:53516

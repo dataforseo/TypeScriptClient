@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksHistoryLiveItem
+[Documentation](../README.md) / IBacklinksHistoryLiveItem
 
 # Interface: IBacklinksHistoryLiveItem
 
@@ -20,7 +20,7 @@ number of backlinks
 
 #### Defined in
 
-main.ts:139837
+main.ts:151042
 
 ***
 
@@ -33,7 +33,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139870
+main.ts:151075
 
 ***
 
@@ -46,7 +46,7 @@ number of pages that receive backlinks but respond with 4xx or 5xx status codes
 
 #### Defined in
 
-main.ts:139873
+main.ts:151078
 
 ***
 
@@ -58,7 +58,7 @@ number of crawled pages for the target
 
 #### Defined in
 
-main.ts:139859
+main.ts:151064
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:139832
+main.ts:151037
 
 ***
 
@@ -86,7 +86,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139867
+main.ts:151072
 
 ***
 
@@ -98,7 +98,7 @@ information about the target
 
 #### Defined in
 
-main.ts:139861
+main.ts:151066
 
 ***
 
@@ -111,7 +111,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139864
+main.ts:151069
 
 ***
 
@@ -126,7 +126,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139847
+main.ts:151052
 
 ***
 
@@ -141,7 +141,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139857
+main.ts:151062
 
 ***
 
@@ -156,7 +156,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139842
+main.ts:151047
 
 ***
 
@@ -171,7 +171,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139852
+main.ts:151057
 
 ***
 
@@ -184,7 +184,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:139835
+main.ts:151040
 
 ***
 
@@ -197,7 +197,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:139876
+main.ts:151081
 
 ***
 
@@ -209,7 +209,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139878
+main.ts:151083
 
 ***
 
@@ -222,7 +222,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:139885
+main.ts:151090
 
 ***
 
@@ -239,7 +239,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:139902
+main.ts:151107
 
 ***
 
@@ -256,7 +256,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:139914
+main.ts:151119
 
 ***
 
@@ -273,7 +273,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:139905
+main.ts:151110
 
 ***
 
@@ -293,7 +293,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:139911
+main.ts:151116
 
 ***
 
@@ -310,7 +310,7 @@ contains top-level domains and referring link count per each
 
 #### Defined in
 
-main.ts:139894
+main.ts:151099
 
 ***
 
@@ -329,7 +329,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:139899
+main.ts:151104
 
 ***
 
@@ -341,7 +341,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:139880
+main.ts:151085
 
 ***
 
@@ -353,7 +353,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139882
+main.ts:151087
 
 ***
 
@@ -365,7 +365,7 @@ number of pages pointing to the target
 
 #### Defined in
 
-main.ts:139889
+main.ts:151094
 
 ***
 
@@ -377,7 +377,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139891
+main.ts:151096
 
 ***
 
@@ -389,7 +389,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:139887
+main.ts:151092
 
 ***
 
@@ -401,4 +401,4 @@ type of element
 
 #### Defined in
 
-main.ts:139827
+main.ts:151032

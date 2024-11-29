@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsCategoriesResultInfo
+[Documentation](../README.md) / DataforseoLabsCategoriesResultInfo
 
 # Class: DataforseoLabsCategoriesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md)
+##### data?
+
+[`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:81939
+main.ts:91651
 
 ## Properties
 
@@ -46,7 +48,7 @@ category code
 
 #### Defined in
 
-main.ts:81922
+main.ts:91634
 
 ***
 
@@ -71,7 +73,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:81935
+main.ts:91647
 
 ***
 
@@ -87,7 +89,7 @@ full name of the category
 
 #### Defined in
 
-main.ts:81924
+main.ts:91636
 
 ## Methods
 
@@ -97,7 +99,9 @@ main.ts:81924
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -105,7 +109,7 @@ main.ts:81924
 
 #### Defined in
 
-main.ts:81948
+main.ts:91660
 
 ***
 
@@ -115,7 +119,9 @@ main.ts:81948
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -123,7 +129,7 @@ main.ts:81948
 
 #### Defined in
 
-main.ts:81967
+main.ts:91679
 
 ***
 
@@ -133,7 +139,9 @@ main.ts:81967
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -141,4 +149,4 @@ main.ts:81967
 
 #### Defined in
 
-main.ts:81960
+main.ts:91672

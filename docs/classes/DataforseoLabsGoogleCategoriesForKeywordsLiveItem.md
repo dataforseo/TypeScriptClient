@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:88227
+main.ts:97945
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:88223
+main.ts:97941
 
 ***
 
@@ -63,7 +65,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:88220
+main.ts:97938
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:88220
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:88220
 
 #### Defined in
 
-main.ts:88236
+main.ts:97954
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:88236
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:88236
 
 #### Defined in
 
-main.ts:88258
+main.ts:97976
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:88258
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:88258
 
 #### Defined in
 
-main.ts:88251
+main.ts:97969

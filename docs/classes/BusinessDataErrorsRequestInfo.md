@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataErrorsRequestInfo
+[Documentation](../README.md) / BusinessDataErrorsRequestInfo
 
 # Class: BusinessDataErrorsRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md)
+##### data?
+
+[`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:197342
+main.ts:209692
 
 ## Properties
 
@@ -40,7 +42,7 @@ main.ts:197342
 
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:197331
+main.ts:209681
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:197331
 
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -72,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:197338
+main.ts:209688
 
 ***
 
@@ -92,7 +94,7 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:197324
+main.ts:209674
 
 ***
 
@@ -111,7 +113,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:197313
+main.ts:209663
 
 ***
 
@@ -130,7 +132,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:197318
+main.ts:209668
 
 ## Methods
 
@@ -140,7 +142,9 @@ main.ts:197318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +152,7 @@ main.ts:197318
 
 #### Defined in
 
-main.ts:197351
+main.ts:209701
 
 ***
 
@@ -158,7 +162,9 @@ main.ts:197351
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +172,7 @@ main.ts:197351
 
 #### Defined in
 
-main.ts:197372
+main.ts:209722
 
 ***
 
@@ -176,7 +182,9 @@ main.ts:197372
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +192,4 @@ main.ts:197372
 
 #### Defined in
 
-main.ts:197365
+main.ts:209715

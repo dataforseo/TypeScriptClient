@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:101427
+main.ts:111165
 
 ## Properties
 
@@ -50,7 +52,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:101396
+main.ts:111134
 
 ***
 
@@ -71,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:101403
+main.ts:111141
 
 ***
 
@@ -90,7 +92,7 @@ default value: false
 
 #### Defined in
 
-main.ts:101408
+main.ts:111146
 
 ***
 
@@ -113,7 +115,7 @@ default value:
 
 #### Defined in
 
-main.ts:101417
+main.ts:111155
 
 ***
 
@@ -135,7 +137,7 @@ en
 
 #### Defined in
 
-main.ts:101390
+main.ts:111128
 
 ***
 
@@ -157,7 +159,7 @@ English
 
 #### Defined in
 
-main.ts:101382
+main.ts:111120
 
 ***
 
@@ -179,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:101374
+main.ts:111112
 
 ***
 
@@ -201,7 +203,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:101366
+main.ts:111104
 
 ***
 
@@ -221,7 +223,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:101423
+main.ts:111161
 
 ***
 
@@ -241,7 +243,7 @@ you can set up to 1000 domains or subdomains
 
 #### Defined in
 
-main.ts:101358
+main.ts:111096
 
 ## Methods
 
@@ -251,7 +253,9 @@ main.ts:101358
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -259,7 +263,7 @@ main.ts:101358
 
 #### Defined in
 
-main.ts:101436
+main.ts:111174
 
 ***
 
@@ -269,7 +273,9 @@ main.ts:101436
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -277,7 +283,7 @@ main.ts:101436
 
 #### Defined in
 
-main.ts:101470
+main.ts:111208
 
 ***
 
@@ -287,7 +293,9 @@ main.ts:101470
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -295,4 +303,4 @@ main.ts:101470
 
 #### Defined in
 
-main.ts:101463
+main.ts:111201

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksSummaryLiveRequestInfo
+[Documentation](../README.md) / BacklinksSummaryLiveRequestInfo
 
 # Class: BacklinksSummaryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksSummaryLiveRequestInfo`](../interfaces/IBacklinksSummaryLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksSummaryLiveRequestInfo`](../interfaces/IBacklinksSummaryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:138801
+main.ts:150006
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:138791
+main.ts:149996
 
 ***
 
@@ -75,7 +77,7 @@ default value: live
 
 #### Defined in
 
-main.ts:138783
+main.ts:149988
 
 ***
 
@@ -95,7 +97,7 @@ default value: true
 
 #### Defined in
 
-main.ts:138763
+main.ts:149968
 
 ***
 
@@ -115,7 +117,7 @@ default value: true
 
 #### Defined in
 
-main.ts:138757
+main.ts:149962
 
 ***
 
@@ -134,7 +136,7 @@ default value: true
 
 #### Defined in
 
-main.ts:138751
+main.ts:149956
 
 ***
 
@@ -159,7 +161,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:138774
+main.ts:149979
 
 ***
 
@@ -179,7 +181,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:138797
+main.ts:150002
 
 ***
 
@@ -198,7 +200,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:138746
+main.ts:149951
 
 ## Methods
 
@@ -208,7 +210,9 @@ main.ts:138746
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +220,7 @@ main.ts:138746
 
 #### Defined in
 
-main.ts:138810
+main.ts:150015
 
 ***
 
@@ -226,7 +230,9 @@ main.ts:138810
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +240,7 @@ main.ts:138810
 
 #### Defined in
 
-main.ts:138838
+main.ts:150043
 
 ***
 
@@ -244,7 +250,9 @@ main.ts:138838
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -252,4 +260,4 @@ main.ts:138838
 
 #### Defined in
 
-main.ts:138831
+main.ts:150036

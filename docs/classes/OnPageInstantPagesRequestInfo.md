@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageInstantPagesRequestInfo
+[Documentation](../README.md) / OnPageInstantPagesRequestInfo
 
 # Class: OnPageInstantPagesRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md)
+##### data?
+
+[`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:162775
+main.ts:174363
 
 ## Properties
 
@@ -49,7 +51,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:162696
+main.ts:174283
 
 ***
 
@@ -80,7 +82,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-main.ts:162668
+main.ts:174255
 
 ***
 
@@ -100,7 +102,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162680
+main.ts:174267
 
 ***
 
@@ -120,7 +122,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:162686
+main.ts:174273
 
 ***
 
@@ -140,7 +142,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162674
+main.ts:174261
 
 ***
 
@@ -159,7 +161,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162755
+main.ts:174343
 
 ***
 
@@ -182,7 +184,7 @@ Note: only integer threshold values can be modified;
 
 #### Defined in
 
-main.ts:162760
+main.ts:174348
 
 ***
 
@@ -191,7 +193,8 @@ main.ts:162760
 > `optional` **custom\_js**: `string`
 
 custom javascript
-optional fieldNote that the execution time for the script you enter here should be 700 ms maximumfor example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
+optional fieldNote that the execution time for the script you enter here should be 700 ms maximum;
+for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
 let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) {\r\n if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
 meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
 as a response you will receive the following data:
@@ -207,7 +210,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162745
+main.ts:174333
 
 ***
 
@@ -228,7 +231,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:162651
+main.ts:174238
 
 ***
 
@@ -248,7 +251,7 @@ false
 
 #### Defined in
 
-main.ts:162723
+main.ts:174310
 
 ***
 
@@ -271,7 +274,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162717
+main.ts:174304
 
 ***
 
@@ -291,7 +294,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162708
+main.ts:174295
 
 ***
 
@@ -311,7 +314,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-main.ts:162734
+main.ts:174321
 
 ***
 
@@ -331,7 +334,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:162771
+main.ts:174359
 
 ***
 
@@ -351,7 +354,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162702
+main.ts:174289
 
 ***
 
@@ -370,7 +373,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162728
+main.ts:174315
 
 ***
 
@@ -389,7 +392,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162691
+main.ts:174278
 
 ***
 
@@ -408,7 +411,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:162765
+main.ts:174353
 
 ***
 
@@ -429,7 +432,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Defined in
 
-main.ts:162644
+main.ts:174231
 
 ***
 
@@ -448,7 +451,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162750
+main.ts:174338
 
 ## Methods
 
@@ -458,7 +461,9 @@ main.ts:162750
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -466,7 +471,7 @@ main.ts:162750
 
 #### Defined in
 
-main.ts:162784
+main.ts:174372
 
 ***
 
@@ -476,7 +481,9 @@ main.ts:162784
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -484,7 +491,7 @@ main.ts:162784
 
 #### Defined in
 
-main.ts:162826
+main.ts:174414
 
 ***
 
@@ -494,7 +501,9 @@ main.ts:162826
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -502,4 +511,4 @@ main.ts:162826
 
 #### Defined in
 
-main.ts:162819
+main.ts:174407

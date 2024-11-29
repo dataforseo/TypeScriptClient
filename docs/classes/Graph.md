@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Graph
+[Documentation](../README.md) / Graph
 
 # Class: Graph
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IGraph`](../interfaces/IGraph.md)
+##### data?
+
+[`IGraph`](../interfaces/IGraph.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:33475
+main.ts:35028
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains arrays of elements available in the list
 
 #### Defined in
 
-main.ts:33468
+main.ts:35021
 
 ***
 
@@ -63,7 +65,7 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-main.ts:33471
+main.ts:35024
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:33471
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:33471
 
 #### Defined in
 
-main.ts:33484
+main.ts:35037
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:33484
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:33484
 
 #### Defined in
 
-main.ts:33510
+main.ts:35063
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:33510
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:33510
 
 #### Defined in
 
-main.ts:33503
+main.ts:35056

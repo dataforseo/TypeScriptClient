@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductInformationImageRow
+[Documentation](../README.md) / ProductInformationImageRow
 
 # Class: ProductInformationImageRow
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductInformationImageRow`](../interfaces/IProductInformationImageRow.md)
+##### data?
+
+[`IProductInformationImageRow`](../interfaces/IProductInformationImageRow.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:182084
+main.ts:194202
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:182084
 
 #### Defined in
 
-main.ts:23422
+main.ts:24320
 
 ***
 
@@ -68,7 +70,7 @@ alternative text of the related product image
 
 #### Defined in
 
-main.ts:182078
+main.ts:194196
 
 ***
 
@@ -88,7 +90,7 @@ type of element
 
 #### Defined in
 
-main.ts:23418
+main.ts:24316
 
 ***
 
@@ -104,7 +106,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:182080
+main.ts:194198
 
 ## Methods
 
@@ -114,7 +116,9 @@ main.ts:182080
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -126,7 +130,7 @@ main.ts:182080
 
 #### Defined in
 
-main.ts:182089
+main.ts:194207
 
 ***
 
@@ -136,7 +140,9 @@ main.ts:182089
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +154,7 @@ main.ts:182089
 
 #### Defined in
 
-main.ts:182108
+main.ts:194226
 
 ***
 
@@ -158,7 +164,9 @@ main.ts:182108
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -170,4 +178,4 @@ main.ts:182108
 
 #### Defined in
 
-main.ts:182101
+main.ts:194219

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:102891
+main.ts:112529
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains objects with keywords and related data
 
 #### Defined in
 
-main.ts:102887
+main.ts:112525
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:102885
+main.ts:112523
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:102881
+main.ts:112519
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:102879
+main.ts:112517
 
 ***
 
@@ -110,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:102872
+main.ts:112510
 
 ***
 
@@ -126,7 +128,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:102874
+main.ts:112512
 
 ***
 
@@ -143,7 +145,7 @@ fields in the object are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:102877
+main.ts:112515
 
 ***
 
@@ -159,7 +161,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:102883
+main.ts:112521
 
 ## Methods
 
@@ -169,7 +171,9 @@ main.ts:102883
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -177,7 +181,7 @@ main.ts:102883
 
 #### Defined in
 
-main.ts:102900
+main.ts:112538
 
 ***
 
@@ -187,7 +191,9 @@ main.ts:102900
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +201,7 @@ main.ts:102900
 
 #### Defined in
 
-main.ts:102928
+main.ts:112566
 
 ***
 
@@ -205,7 +211,9 @@ main.ts:102928
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -213,4 +221,4 @@ main.ts:102928
 
 #### Defined in
 
-main.ts:102921
+main.ts:112559

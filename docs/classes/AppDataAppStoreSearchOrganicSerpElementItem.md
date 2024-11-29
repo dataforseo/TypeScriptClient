@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppStoreSearchOrganicSerpElementItem
+[Documentation](../README.md) / AppDataAppStoreSearchOrganicSerpElementItem
 
 # Class: AppDataAppStoreSearchOrganicSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md)
+##### data?
+
+[`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:114416
+main.ts:123748
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:114416
 
 #### Defined in
 
-main.ts:21988
+main.ts:22886
 
 ***
 
@@ -68,7 +70,7 @@ id of the app
 
 #### Defined in
 
-main.ts:114402
+main.ts:123734
 
 ***
 
@@ -84,7 +86,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:114406
+main.ts:123738
 
 ***
 
@@ -100,7 +102,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:114410
+main.ts:123742
 
 ***
 
@@ -122,13 +124,13 @@ left, right
 
 #### Defined in
 
-main.ts:21982
+main.ts:22880
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price of the app
 
@@ -138,7 +140,7 @@ price of the app
 
 #### Defined in
 
-main.ts:114412
+main.ts:123744
 
 ***
 
@@ -159,7 +161,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21978
+main.ts:22876
 
 ***
 
@@ -180,7 +182,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21975
+main.ts:22873
 
 ***
 
@@ -200,7 +202,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21986
+main.ts:22884
 
 ***
 
@@ -216,7 +218,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:114408
+main.ts:123740
 
 ***
 
@@ -236,7 +238,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21984
+main.ts:22882
 
 ***
 
@@ -256,7 +258,7 @@ type of element
 
 #### Defined in
 
-main.ts:21972
+main.ts:22870
 
 ***
 
@@ -272,7 +274,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:114404
+main.ts:123736
 
 ## Methods
 
@@ -282,7 +284,9 @@ main.ts:114404
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -294,7 +298,7 @@ main.ts:114404
 
 #### Defined in
 
-main.ts:114421
+main.ts:123753
 
 ***
 
@@ -304,7 +308,9 @@ main.ts:114421
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -316,7 +322,7 @@ main.ts:114421
 
 #### Defined in
 
-main.ts:114444
+main.ts:123776
 
 ***
 
@@ -326,7 +332,9 @@ main.ts:114444
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -338,4 +346,4 @@ main.ts:114444
 
 #### Defined in
 
-main.ts:114437
+main.ts:123769

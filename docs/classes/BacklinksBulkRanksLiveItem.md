@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkRanksLiveItem
+[Documentation](../README.md) / BacklinksBulkRanksLiveItem
 
 # Class: BacklinksBulkRanksLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md)
+##### data?
+
+[`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:149110
+main.ts:160315
 
 ## Properties
 
@@ -49,7 +51,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:149106
+main.ts:160311
 
 ***
 
@@ -65,7 +67,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:149101
+main.ts:160306
 
 ## Methods
 
@@ -75,7 +77,9 @@ main.ts:149101
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -83,7 +87,7 @@ main.ts:149101
 
 #### Defined in
 
-main.ts:149119
+main.ts:160324
 
 ***
 
@@ -93,7 +97,9 @@ main.ts:149119
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -101,7 +107,7 @@ main.ts:149119
 
 #### Defined in
 
-main.ts:149137
+main.ts:160342
 
 ***
 
@@ -111,7 +117,9 @@ main.ts:149137
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -119,4 +127,4 @@ main.ts:149137
 
 #### Defined in
 
-main.ts:149130
+main.ts:160335

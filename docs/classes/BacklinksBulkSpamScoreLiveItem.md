@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkSpamScoreLiveItem
+[Documentation](../README.md) / BacklinksBulkSpamScoreLiveItem
 
 # Class: BacklinksBulkSpamScoreLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md)
+##### data?
+
+[`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:149788
+main.ts:160993
 
 ## Properties
 
@@ -47,7 +49,7 @@ learn more about how the metric is calculated
 
 #### Defined in
 
-main.ts:149784
+main.ts:160989
 
 ***
 
@@ -63,7 +65,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:149781
+main.ts:160986
 
 ***
 
@@ -79,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:149779
+main.ts:160984
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:149779
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:149779
 
 #### Defined in
 
-main.ts:149797
+main.ts:161002
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:149797
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:149797
 
 #### Defined in
 
-main.ts:149816
+main.ts:161021
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:149816
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:149816
 
 #### Defined in
 
-main.ts:149809
+main.ts:161014

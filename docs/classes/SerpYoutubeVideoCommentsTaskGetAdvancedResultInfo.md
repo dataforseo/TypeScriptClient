@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoCommentsTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:65712
+main.ts:73937
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:65687
+main.ts:73909
 
 ***
 
@@ -63,7 +65,7 @@ number of comments on the video
 
 #### Defined in
 
-main.ts:65704
+main.ts:73929
 
 ***
 
@@ -82,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:65692
+main.ts:73914
 
 ***
 
@@ -101,7 +103,7 @@ youtube_comment
 
 #### Defined in
 
-main.ts:65700
+main.ts:73925
 
 ***
 
@@ -117,7 +119,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:65708
+main.ts:73933
 
 ***
 
@@ -133,7 +135,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:65706
+main.ts:73931
 
 ***
 
@@ -149,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:65684
+main.ts:73906
 
 ***
 
@@ -165,7 +167,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:65682
+main.ts:73904
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpYoutubeVideoCommentsTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:73920
 
 ***
 
@@ -181,7 +200,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:65680
+main.ts:73902
 
 ***
 
@@ -198,7 +217,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:65695
+main.ts:73917
 
 ***
 
@@ -214,7 +233,7 @@ title of the video
 
 #### Defined in
 
-main.ts:65702
+main.ts:73927
 
 ***
 
@@ -230,7 +249,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:65678
+main.ts:73900
 
 ## Methods
 
@@ -240,7 +259,9 @@ main.ts:65678
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -248,7 +269,7 @@ main.ts:65678
 
 #### Defined in
 
-main.ts:65721
+main.ts:73946
 
 ***
 
@@ -258,7 +279,9 @@ main.ts:65721
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +289,7 @@ main.ts:65721
 
 #### Defined in
 
-main.ts:65757
+main.ts:73983
 
 ***
 
@@ -276,7 +299,9 @@ main.ts:65757
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -284,4 +309,4 @@ main.ts:65757
 
 #### Defined in
 
-main.ts:65750
+main.ts:73976

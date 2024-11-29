@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveResultInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:192153
+main.ts:204489
 
 ## Properties
 
@@ -46,7 +48,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:192142
+main.ts:204478
 
 ***
 
@@ -62,7 +64,7 @@ array of apps and related data
 
 #### Defined in
 
-main.ts:192149
+main.ts:204485
 
 ***
 
@@ -78,7 +80,7 @@ offset in the results array of returned apps
 
 #### Defined in
 
-main.ts:192144
+main.ts:204480
 
 ***
 
@@ -95,7 +97,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Defined in
 
-main.ts:192147
+main.ts:204483
 
 ***
 
@@ -111,7 +113,7 @@ the total number of relevant results in the database
 
 #### Defined in
 
-main.ts:192140
+main.ts:204476
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:192140
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:192140
 
 #### Defined in
 
-main.ts:192162
+main.ts:204498
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:192162
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:192162
 
 #### Defined in
 
-main.ts:192187
+main.ts:204523
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:192187
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:192187
 
 #### Defined in
 
-main.ts:192180
+main.ts:204516

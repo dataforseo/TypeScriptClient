@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PaidSerpElementItem
+[Documentation](../README.md) / PaidSerpElementItem
 
 # Class: PaidSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md)
+##### data?
+
+[`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:27044
+main.ts:28597
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:27044
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:27010
+main.ts:28563
 
 ***
 
@@ -84,7 +86,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27024
+main.ts:28577
 
 ***
 
@@ -101,7 +103,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:27027
+main.ts:28580
 
 ***
 
@@ -117,7 +119,7 @@ domain name of the reference
 
 #### Defined in
 
-main.ts:27008
+main.ts:28561
 
 ***
 
@@ -137,7 +139,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:27022
+main.ts:28575
 
 ***
 
@@ -153,7 +155,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:27020
+main.ts:28573
 
 ***
 
@@ -169,7 +171,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27016
+main.ts:28569
 
 ***
 
@@ -185,7 +187,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:27012
+main.ts:28565
 
 ***
 
@@ -201,7 +203,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:27014
+main.ts:28567
 
 ***
 
@@ -219,7 +221,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27031
+main.ts:28584
 
 ***
 
@@ -241,7 +243,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -258,7 +260,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27034
+main.ts:28587
 
 ***
 
@@ -279,7 +281,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -301,7 +303,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -319,7 +321,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27038
+main.ts:28591
 
 ***
 
@@ -335,7 +337,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27006
+main.ts:28559
 
 ***
 
@@ -355,7 +357,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -371,7 +373,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:27018
+main.ts:28571
 
 ***
 
@@ -387,7 +389,7 @@ website name in SERP
 
 #### Defined in
 
-main.ts:27040
+main.ts:28593
 
 ***
 
@@ -407,7 +409,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -417,7 +419,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -429,7 +433,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:27049
+main.ts:28602
 
 ***
 
@@ -439,7 +443,9 @@ main.ts:27049
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -451,7 +457,7 @@ main.ts:27049
 
 #### Defined in
 
-main.ts:27103
+main.ts:28656
 
 ***
 
@@ -461,7 +467,9 @@ main.ts:27103
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -473,4 +481,4 @@ main.ts:27103
 
 #### Defined in
 
-main.ts:27096
+main.ts:28649

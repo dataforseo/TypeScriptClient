@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Table
+[Documentation](../README.md) / Table
 
 # Class: Table
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITable`](../interfaces/ITable.md)
+##### data?
+
+[`ITable`](../interfaces/ITable.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22810
+main.ts:23708
 
 ## Properties
 
@@ -47,7 +49,7 @@ one line of the table in this element of the array
 
 #### Defined in
 
-main.ts:22806
+main.ts:23704
 
 ***
 
@@ -65,7 +67,7 @@ table_element
 
 #### Defined in
 
-main.ts:22801
+main.ts:23699
 
 ***
 
@@ -81,7 +83,7 @@ column names
 
 #### Defined in
 
-main.ts:22803
+main.ts:23701
 
 ## Methods
 
@@ -91,7 +93,9 @@ main.ts:22803
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +103,7 @@ main.ts:22803
 
 #### Defined in
 
-main.ts:22819
+main.ts:23717
 
 ***
 
@@ -109,7 +113,9 @@ main.ts:22819
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -117,7 +123,7 @@ main.ts:22819
 
 #### Defined in
 
-main.ts:22846
+main.ts:23744
 
 ***
 
@@ -127,7 +133,9 @@ main.ts:22846
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -135,4 +143,4 @@ main.ts:22846
 
 #### Defined in
 
-main.ts:22839
+main.ts:23737

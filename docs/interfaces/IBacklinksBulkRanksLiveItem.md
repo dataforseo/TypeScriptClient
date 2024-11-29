@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkRanksLiveItem
+[Documentation](../README.md) / IBacklinksBulkRanksLiveItem
 
 # Interface: IBacklinksBulkRanksLiveItem
 
@@ -23,7 +23,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:149156
+main.ts:160361
 
 ***
 
@@ -35,4 +35,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:149151
+main.ts:160356

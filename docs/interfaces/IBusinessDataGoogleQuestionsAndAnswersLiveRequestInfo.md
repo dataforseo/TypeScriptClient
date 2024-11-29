@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
+[Documentation](../README.md) / IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:210200
+main.ts:225123
 
 ***
 
@@ -38,9 +38,9 @@ main.ts:210200
 keyword
 required field
 the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”; 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -50,10 +50,11 @@ cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
 spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:210153
+main.ts:225076
 
 ***
 
@@ -70,7 +71,7 @@ en
 
 #### Defined in
 
-main.ts:210191
+main.ts:225114
 
 ***
 
@@ -87,7 +88,7 @@ English
 
 #### Defined in
 
-main.ts:210184
+main.ts:225107
 
 ***
 
@@ -104,7 +105,7 @@ example:
 
 #### Defined in
 
-main.ts:210167
+main.ts:225090
 
 ***
 
@@ -124,7 +125,7 @@ example:
 
 #### Defined in
 
-main.ts:210177
+main.ts:225100
 
 ***
 
@@ -141,7 +142,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:210160
+main.ts:225083
 
 ***
 
@@ -157,4 +158,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:210206
+main.ts:225129

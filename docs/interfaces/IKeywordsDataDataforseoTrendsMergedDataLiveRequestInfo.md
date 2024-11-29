@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
 
 # Interface: IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
 
@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:127549
+main.ts:137808
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Defined in
 
-main.ts:127556
+main.ts:137815
 
 ***
 
@@ -57,10 +57,11 @@ required field
 the maximum number of keywords you can specify: 5
 avoid symbols and special characters (e.g., UTF symbols, emojis);
 specifying non-Latin characters, you’ll get data for the countries where they are used
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:127520
+main.ts:137779
 
 ***
 
@@ -79,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:127538
+main.ts:137797
 
 ***
 
@@ -98,7 +99,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:127529
+main.ts:137788
 
 ***
 
@@ -114,7 +115,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:127568
+main.ts:137827
 
 ***
 
@@ -130,7 +131,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Defined in
 
-main.ts:127562
+main.ts:137821
 
 ***
 
@@ -142,4 +143,4 @@ type of element
 
 #### Defined in
 
-main.ts:127540
+main.ts:137799

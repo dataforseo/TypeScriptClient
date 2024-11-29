@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PositiveConnotationDistribution
+[Documentation](../README.md) / PositiveConnotationDistribution
 
 # Class: PositiveConnotationDistribution
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md)
+##### data?
+
+[`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:167554
+main.ts:179143
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:167554
 
 #### Defined in
 
-main.ts:167549
+main.ts:179138
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:167549
 
 #### Defined in
 
-main.ts:167550
+main.ts:179139
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:167550
 
 #### Defined in
 
-main.ts:167548
+main.ts:179137
 
 ## Methods
 
@@ -82,7 +84,9 @@ main.ts:167548
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -90,7 +94,7 @@ main.ts:167548
 
 #### Defined in
 
-main.ts:167563
+main.ts:179152
 
 ***
 
@@ -100,7 +104,9 @@ main.ts:167563
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +114,7 @@ main.ts:167563
 
 #### Defined in
 
-main.ts:167582
+main.ts:179171
 
 ***
 
@@ -118,7 +124,9 @@ main.ts:167582
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -126,4 +134,4 @@ main.ts:167582
 
 #### Defined in
 
-main.ts:167575
+main.ts:179164

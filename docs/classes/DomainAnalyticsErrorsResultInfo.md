@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsErrorsResultInfo
+[Documentation](../README.md) / DomainAnalyticsErrorsResultInfo
 
 # Class: DomainAnalyticsErrorsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsErrorsResultInfo`](../interfaces/IDomainAnalyticsErrorsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:75127
+main.ts:84831
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:75103
+main.ts:84807
 
 ***
 
@@ -65,7 +67,7 @@ error code
 
 #### Defined in
 
-main.ts:75107
+main.ts:84811
 
 ***
 
@@ -82,7 +84,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:75110
+main.ts:84814
 
 ***
 
@@ -98,7 +100,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:75105
+main.ts:84809
 
 ***
 
@@ -114,7 +116,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:75117
+main.ts:84821
 
 ***
 
@@ -130,7 +132,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:75115
+main.ts:84819
 
 ***
 
@@ -147,7 +149,7 @@ server response
 
 #### Defined in
 
-main.ts:75123
+main.ts:84827
 
 ***
 
@@ -164,7 +166,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:75120
+main.ts:84824
 
 ***
 
@@ -181,7 +183,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:75113
+main.ts:84817
 
 ***
 
@@ -197,7 +199,7 @@ id of the task
 
 #### Defined in
 
-main.ts:75098
+main.ts:84802
 
 ## Methods
 
@@ -207,7 +209,9 @@ main.ts:75098
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -215,7 +219,7 @@ main.ts:75098
 
 #### Defined in
 
-main.ts:75136
+main.ts:84840
 
 ***
 
@@ -225,7 +229,9 @@ main.ts:75136
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -233,7 +239,7 @@ main.ts:75136
 
 #### Defined in
 
-main.ts:75162
+main.ts:84866
 
 ***
 
@@ -243,7 +249,9 @@ main.ts:75162
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -251,4 +259,4 @@ main.ts:75162
 
 #### Defined in
 
-main.ts:75155
+main.ts:84859

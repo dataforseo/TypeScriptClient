@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FeaturedSnippetDataforseoLabsSerpElementItem
+[Documentation](../README.md) / FeaturedSnippetDataforseoLabsSerpElementItem
 
 # Class: FeaturedSnippetDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:97356
+main.ts:107162
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:97356
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -68,7 +70,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:97350
+main.ts:107156
 
 ***
 
@@ -84,7 +86,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:97325
+main.ts:107131
 
 ***
 
@@ -92,7 +94,7 @@ main.ts:97325
 
 > `optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Implementation of
 
@@ -100,7 +102,7 @@ website domain
 
 #### Defined in
 
-main.ts:97319
+main.ts:107125
 
 ***
 
@@ -118,7 +120,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97345
+main.ts:107151
 
 ***
 
@@ -137,7 +139,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97341
+main.ts:107147
 
 ***
 
@@ -153,7 +155,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:97323
+main.ts:107129
 
 ***
 
@@ -169,7 +171,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:97334
+main.ts:107140
 
 ***
 
@@ -191,7 +193,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -212,7 +214,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -229,7 +231,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:97348
+main.ts:107154
 
 ***
 
@@ -250,7 +252,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -266,7 +268,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:97352
+main.ts:107158
 
 ***
 
@@ -282,7 +284,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:97336
+main.ts:107142
 
 ***
 
@@ -298,7 +300,7 @@ search engine type
 
 #### Defined in
 
-main.ts:97332
+main.ts:107138
 
 ***
 
@@ -315,7 +317,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97330
+main.ts:107136
 
 ***
 
@@ -331,7 +333,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97321
+main.ts:107127
 
 ***
 
@@ -351,7 +353,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -367,7 +369,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:97327
+main.ts:107133
 
 ***
 
@@ -387,7 +389,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -397,7 +399,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -409,7 +413,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:97361
+main.ts:107167
 
 ***
 
@@ -419,7 +423,9 @@ main.ts:97361
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -431,7 +437,7 @@ main.ts:97361
 
 #### Defined in
 
-main.ts:97392
+main.ts:107198
 
 ***
 
@@ -441,7 +447,9 @@ main.ts:97392
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -453,4 +461,4 @@ main.ts:97392
 
 #### Defined in
 
-main.ts:97385
+main.ts:107191

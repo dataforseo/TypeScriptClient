@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksReferringDomainsLiveResultInfo
+[Documentation](../README.md) / BacklinksReferringDomainsLiveResultInfo
 
 # Class: BacklinksReferringDomainsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md)
+##### data?
+
+[`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:144597
+main.ts:155802
 
 ## Properties
 
@@ -46,7 +48,7 @@ items array
 
 #### Defined in
 
-main.ts:144593
+main.ts:155798
 
 ***
 
@@ -62,7 +64,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:144591
+main.ts:155796
 
 ***
 
@@ -78,7 +80,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:144585
+main.ts:155790
 
 ***
 
@@ -96,7 +98,7 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Defined in
 
-main.ts:144589
+main.ts:155794
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:144589
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:144589
 
 #### Defined in
 
-main.ts:144606
+main.ts:155811
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:144606
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:144606
 
 #### Defined in
 
-main.ts:144630
+main.ts:155835
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:144630
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:144630
 
 #### Defined in
 
-main.ts:144623
+main.ts:155828

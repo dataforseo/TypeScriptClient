@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Class: DomainAnalyticsTechnologiesLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:75712
+main.ts:85416
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:75708
+main.ts:85412
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:75706
+main.ts:85410
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:75706
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:75706
 
 #### Defined in
 
-main.ts:75721
+main.ts:85425
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:75721
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:75721
 
 #### Defined in
 
-main.ts:75739
+main.ts:85443
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:75739
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:75739
 
 #### Defined in
 
-main.ts:75732
+main.ts:85436

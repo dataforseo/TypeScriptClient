@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkBacklinksLiveResultInfo
+[Documentation](../README.md) / IBacklinksBulkBacklinksLiveResultInfo
 
 # Interface: IBacklinksBulkBacklinksLiveResultInfo
 
@@ -20,7 +20,7 @@ contains relevant backlink data
 
 #### Defined in
 
-main.ts:149556
+main.ts:160761
 
 ***
 
@@ -32,4 +32,4 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:149554
+main.ts:160759

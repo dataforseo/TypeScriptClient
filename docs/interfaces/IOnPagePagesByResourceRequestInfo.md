@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPagePagesByResourceRequestInfo
+[Documentation](../README.md) / IOnPagePagesByResourceRequestInfo
 
 # Interface: IOnPagePagesByResourceRequestInfo
 
@@ -32,7 +32,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:155664
+main.ts:167299
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:155634
+main.ts:167269
 
 ***
 
@@ -63,7 +63,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:155645
+main.ts:167280
 
 ***
 
@@ -78,7 +78,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:155650
+main.ts:167285
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:155678
+main.ts:167313
 
 ***
 
@@ -118,7 +118,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:155684
+main.ts:167319
 
 ***
 
@@ -134,4 +134,4 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Defined in
 
-main.ts:155640
+main.ts:167275

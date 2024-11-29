@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRelatedResult
+[Documentation](../README.md) / IRelatedResult
 
 # Interface: IRelatedResult
 
@@ -22,7 +22,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:29994
+main.ts:31553
 
 ***
 
@@ -35,7 +35,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:29983
+main.ts:31542
 
 ***
 
@@ -47,7 +47,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:29966
+main.ts:31525
 
 ***
 
@@ -59,7 +59,7 @@ cached version of the page
 
 #### Defined in
 
-main.ts:29961
+main.ts:31520
 
 ***
 
@@ -71,7 +71,7 @@ description of the hotel booking element
 
 #### Defined in
 
-main.ts:29974
+main.ts:31533
 
 ***
 
@@ -83,7 +83,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29955
+main.ts:31514
 
 ***
 
@@ -95,7 +95,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:29978
+main.ts:31537
 
 ***
 
@@ -107,7 +107,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:29990
+main.ts:31549
 
 ***
 
@@ -119,7 +119,7 @@ images of the element
 
 #### Defined in
 
-main.ts:29980
+main.ts:31539
 
 ***
 
@@ -131,7 +131,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:29970
+main.ts:31529
 
 ***
 
@@ -143,7 +143,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:29972
+main.ts:31531
 
 ***
 
@@ -155,7 +155,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:29976
+main.ts:31535
 
 ***
 
@@ -167,7 +167,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:29988
+main.ts:31547
 
 ***
 
@@ -180,7 +180,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:29986
+main.ts:31545
 
 ***
 
@@ -193,7 +193,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-main.ts:29964
+main.ts:31523
 
 ***
 
@@ -208,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:29999
+main.ts:31558
 
 ***
 
@@ -220,7 +220,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29957
+main.ts:31516
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:29951
+main.ts:31510
 
 ***
 
@@ -244,7 +244,7 @@ reference page URL
 
 #### Defined in
 
-main.ts:29959
+main.ts:31518
 
 ***
 
@@ -256,7 +256,7 @@ name of the website in SERP
 
 #### Defined in
 
-main.ts:29968
+main.ts:31527
 
 ***
 
@@ -268,4 +268,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:29953
+main.ts:31512

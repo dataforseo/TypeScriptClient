@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleOrganicLiveRegularRequestInfo
+[Documentation](../README.md) / SerpGoogleOrganicLiveRegularRequestInfo
 
 # Class: SerpGoogleOrganicLiveRegularRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md)
+##### data?
+
+[`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:37351
+main.ts:38842
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:37311
+main.ts:38802
 
 ***
 
@@ -72,7 +74,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:37288
+main.ts:38779
 
 ***
 
@@ -92,7 +94,7 @@ default value: true
 
 #### Defined in
 
-main.ts:37330
+main.ts:38821
 
 ***
 
@@ -102,11 +104,11 @@ main.ts:37330
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 
 #### Implementation of
@@ -115,7 +117,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:37245
+main.ts:38736
 
 ***
 
@@ -136,7 +138,7 @@ en
 
 #### Defined in
 
-main.ts:37283
+main.ts:38774
 
 ***
 
@@ -157,7 +159,7 @@ English
 
 #### Defined in
 
-main.ts:37276
+main.ts:38767
 
 ***
 
@@ -178,7 +180,7 @@ example:
 
 #### Defined in
 
-main.ts:37259
+main.ts:38750
 
 ***
 
@@ -202,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:37269
+main.ts:38760
 
 ***
 
@@ -223,7 +225,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:37252
+main.ts:38743
 
 ***
 
@@ -244,7 +246,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:37337
+main.ts:38828
 
 ***
 
@@ -265,7 +267,7 @@ default value: android
 
 #### Defined in
 
-main.ts:37295
+main.ts:38786
 
 ***
 
@@ -286,7 +288,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:37302
+main.ts:38793
 
 ***
 
@@ -304,7 +306,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:37341
+main.ts:38832
 
 ***
 
@@ -324,7 +326,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:37347
+main.ts:38838
 
 ***
 
@@ -351,7 +353,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Defined in
 
-main.ts:37324
+main.ts:38815
 
 ***
 
@@ -371,7 +373,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-main.ts:37236
+main.ts:38727
 
 ## Methods
 
@@ -381,7 +383,9 @@ main.ts:37236
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -389,7 +393,7 @@ main.ts:37236
 
 #### Defined in
 
-main.ts:37360
+main.ts:38851
 
 ***
 
@@ -399,7 +403,9 @@ main.ts:37360
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -407,7 +413,7 @@ main.ts:37360
 
 #### Defined in
 
-main.ts:37392
+main.ts:38883
 
 ***
 
@@ -417,7 +423,9 @@ main.ts:37392
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -425,4 +433,4 @@ main.ts:37392
 
 #### Defined in
 
-main.ts:37385
+main.ts:38876

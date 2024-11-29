@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkSpamScoreLiveResultInfo
+[Documentation](../README.md) / BacklinksBulkSpamScoreLiveResultInfo
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:149849
+main.ts:161054
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:149845
+main.ts:161050
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:149843
+main.ts:161048
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:149843
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:149843
 
 #### Defined in
 
-main.ts:149858
+main.ts:161063
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:149858
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:149858
 
 #### Defined in
 
-main.ts:149880
+main.ts:161085
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:149880
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:149880
 
 #### Defined in
 
-main.ts:149873
+main.ts:161078

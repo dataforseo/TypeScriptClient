@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
@@ -23,7 +23,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-main.ts:124546
+main.ts:134797
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:124555
+main.ts:134806
 
 ***
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:124562
+main.ts:134813
 
 ***
 
@@ -77,7 +77,7 @@ default value:
 
 #### Defined in
 
-main.ts:124580
+main.ts:134831
 
 ***
 
@@ -89,11 +89,12 @@ keywords
 optional field
 if keywords are not specified, the results will not contain keyword-related data;
 The maximum number of keywords you can specify: 5
-Note: comma symbols (,) in the specified keywords will be unset and ignored
+Note: the comma characters (,) in the specified keywords will be unset and ignored
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:124507
+main.ts:134758
 
 ***
 
@@ -111,7 +112,7 @@ en
 
 #### Defined in
 
-main.ts:124539
+main.ts:134790
 
 ***
 
@@ -129,7 +130,7 @@ English
 
 #### Defined in
 
-main.ts:124531
+main.ts:134782
 
 ***
 
@@ -147,7 +148,7 @@ example:
 
 #### Defined in
 
-main.ts:124523
+main.ts:134774
 
 ***
 
@@ -165,7 +166,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:124515
+main.ts:134766
 
 ***
 
@@ -181,7 +182,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:124586
+main.ts:134837
 
 ***
 
@@ -201,7 +202,7 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-main.ts:124572
+main.ts:134823
 
 ***
 
@@ -213,4 +214,4 @@ type of element
 
 #### Defined in
 
-main.ts:124541
+main.ts:134792

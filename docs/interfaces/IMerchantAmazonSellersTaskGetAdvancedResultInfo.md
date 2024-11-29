@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ learn more about ASINs in this help center guide
 
 #### Defined in
 
-main.ts:183940
+main.ts:196252
 
 ***
 
@@ -34,7 +34,7 @@ you can use it to make sure the provided results are accurate
 
 #### Defined in
 
-main.ts:183951
+main.ts:196263
 
 ***
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:183956
+main.ts:196268
 
 ***
 
@@ -62,7 +62,7 @@ image URL of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:183962
+main.ts:196274
 
 ***
 
@@ -77,7 +77,7 @@ amazon_seller_main_item, amazon_seller_item
 
 #### Defined in
 
-main.ts:183967
+main.ts:196279
 
 ***
 
@@ -89,7 +89,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:183971
+main.ts:196283
 
 ***
 
@@ -101,7 +101,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:183969
+main.ts:196281
 
 ***
 
@@ -113,7 +113,7 @@ language code received in a POST array
 
 #### Defined in
 
-main.ts:183948
+main.ts:196260
 
 ***
 
@@ -125,7 +125,7 @@ location code received in a POST array
 
 #### Defined in
 
-main.ts:183946
+main.ts:196258
 
 ***
 
@@ -137,7 +137,7 @@ search engine domain received in a POST array
 
 #### Defined in
 
-main.ts:183944
+main.ts:196256
 
 ***
 
@@ -150,7 +150,7 @@ title of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:183959
+main.ts:196271
 
 ***
 
@@ -162,4 +162,4 @@ type of element
 
 #### Defined in
 
-main.ts:183942
+main.ts:196254

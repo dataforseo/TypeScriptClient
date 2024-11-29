@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleNewsNewsSearchSerpElementItem
+[Documentation](../README.md) / GoogleNewsNewsSearchSerpElementItem
 
 # Class: GoogleNewsNewsSearchSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleNewsNewsSearchSerpElementItem`](../interfaces/IGoogleNewsNewsSearchSerpElementItem.md)
+##### data?
+
+[`IGoogleNewsNewsSearchSerpElementItem`](../interfaces/IGoogleNewsNewsSearchSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:43990
+main.ts:46235
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:43990
 
 #### Defined in
 
-main.ts:43897
+main.ts:46142
 
 ***
 
@@ -60,7 +62,7 @@ main.ts:43897
 
 > `optional` **domain**: `string`
 
-domain name of the result in SERP
+domain in SERP
 
 #### Implementation of
 
@@ -68,7 +70,7 @@ domain name of the result in SERP
 
 #### Defined in
 
-main.ts:43972
+main.ts:46217
 
 ***
 
@@ -85,7 +87,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:43977
+main.ts:46222
 
 ***
 
@@ -106,7 +108,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:43887
+main.ts:46132
 
 ***
 
@@ -128,7 +130,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:43884
+main.ts:46129
 
 ***
 
@@ -150,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:43895
+main.ts:46140
 
 ***
 
@@ -166,7 +168,7 @@ snippet of the result in SERP
 
 #### Defined in
 
-main.ts:43979
+main.ts:46224
 
 ***
 
@@ -182,7 +184,7 @@ indicates the time the result was published
 
 #### Defined in
 
-main.ts:43981
+main.ts:46226
 
 ***
 
@@ -201,7 +203,7 @@ example:
 
 #### Defined in
 
-main.ts:43986
+main.ts:46231
 
 ***
 
@@ -209,7 +211,7 @@ main.ts:43986
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Implementation of
 
@@ -221,7 +223,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:43891
+main.ts:46136
 
 ***
 
@@ -241,7 +243,7 @@ type of element
 
 #### Defined in
 
-main.ts:43880
+main.ts:46125
 
 ***
 
@@ -249,7 +251,7 @@ main.ts:43880
 
 > `optional` **url**: `string`
 
-URL of the result in SERP
+search URL with refinement parameters
 
 #### Implementation of
 
@@ -257,7 +259,7 @@ URL of the result in SERP
 
 #### Defined in
 
-main.ts:43974
+main.ts:46219
 
 ***
 
@@ -277,7 +279,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:43889
+main.ts:46134
 
 ## Methods
 
@@ -287,7 +289,9 @@ main.ts:43889
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -299,7 +303,7 @@ main.ts:43889
 
 #### Defined in
 
-main.ts:43995
+main.ts:46240
 
 ***
 
@@ -309,7 +313,9 @@ main.ts:43995
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -321,7 +327,7 @@ main.ts:43995
 
 #### Defined in
 
-main.ts:44018
+main.ts:46263
 
 ***
 
@@ -331,7 +337,9 @@ main.ts:44018
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -343,4 +351,4 @@ main.ts:44018
 
 #### Defined in
 
-main.ts:44011
+main.ts:46256

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsStatusResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsStatusResultInfo
 
 # Class: KeywordsDataGoogleAdsStatusResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:116742
+main.ts:125914
 
 ## Properties
 
@@ -49,7 +51,7 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Defined in
 
-main.ts:116729
+main.ts:125901
 
 ***
 
@@ -68,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:116734
+main.ts:125906
 
 ***
 
@@ -84,7 +86,7 @@ the latest month for which search volume data is available
 
 #### Defined in
 
-main.ts:116738
+main.ts:125910
 
 ***
 
@@ -100,7 +102,7 @@ the latest year for which search volume data is available
 
 #### Defined in
 
-main.ts:116736
+main.ts:125908
 
 ## Methods
 
@@ -110,7 +112,9 @@ main.ts:116736
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +122,7 @@ main.ts:116736
 
 #### Defined in
 
-main.ts:116751
+main.ts:125923
 
 ***
 
@@ -128,7 +132,9 @@ main.ts:116751
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +142,7 @@ main.ts:116751
 
 #### Defined in
 
-main.ts:116771
+main.ts:125943
 
 ***
 
@@ -146,7 +152,9 @@ main.ts:116771
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -154,4 +162,4 @@ main.ts:116771
 
 #### Defined in
 
-main.ts:116764
+main.ts:125936

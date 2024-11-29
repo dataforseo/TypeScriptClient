@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksCompetitorsLiveResultInfo
+[Documentation](../README.md) / IBacklinksCompetitorsLiveResultInfo
 
 # Interface: IBacklinksCompetitorsLiveResultInfo
 
@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:145900
+main.ts:157105
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:145898
+main.ts:157103
 
 ***
 
@@ -44,4 +44,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:145896
+main.ts:157101

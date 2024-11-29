@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ScholarlyArticlesElement
+[Documentation](../README.md) / ScholarlyArticlesElement
 
 # Class: ScholarlyArticlesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md)
+##### data?
+
+[`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:32952
+main.ts:34505
 
 ## Properties
 
@@ -46,7 +48,7 @@ author
 
 #### Defined in
 
-main.ts:32946
+main.ts:34499
 
 ***
 
@@ -62,7 +64,7 @@ description
 
 #### Defined in
 
-main.ts:32948
+main.ts:34501
 
 ***
 
@@ -78,7 +80,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32942
+main.ts:34495
 
 ***
 
@@ -94,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:32940
+main.ts:34493
 
 ***
 
@@ -110,7 +112,7 @@ URL
 
 #### Defined in
 
-main.ts:32944
+main.ts:34497
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:32944
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:32944
 
 #### Defined in
 
-main.ts:32961
+main.ts:34514
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:32961
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:32961
 
 #### Defined in
 
-main.ts:32982
+main.ts:34535
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:32982
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:32982
 
 #### Defined in
 
-main.ts:32975
+main.ts:34528

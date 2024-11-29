@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordIntentInfo
+[Documentation](../README.md) / KeywordIntentInfo
 
 # Class: KeywordIntentInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md)
+##### data?
+
+[`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:86792
+main.ts:96510
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:86785
+main.ts:96503
 
 ***
 
@@ -64,7 +66,7 @@ search intent probability
 
 #### Defined in
 
-main.ts:86788
+main.ts:96506
 
 ## Methods
 
@@ -74,7 +76,9 @@ main.ts:86788
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +86,7 @@ main.ts:86788
 
 #### Defined in
 
-main.ts:86801
+main.ts:96519
 
 ***
 
@@ -92,7 +96,9 @@ main.ts:86801
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +106,7 @@ main.ts:86801
 
 #### Defined in
 
-main.ts:86819
+main.ts:96537
 
 ***
 
@@ -110,7 +116,9 @@ main.ts:86819
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -118,4 +126,4 @@ main.ts:86819
 
 #### Defined in
 
-main.ts:86812
+main.ts:96530

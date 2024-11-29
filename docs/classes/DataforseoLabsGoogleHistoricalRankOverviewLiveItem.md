@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:99806
+main.ts:109544
 
 ## Properties
 
@@ -50,7 +52,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:99802
+main.ts:109540
 
 ***
 
@@ -66,7 +68,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:99800
+main.ts:109538
 
 ***
 
@@ -82,7 +84,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99796
+main.ts:109534
 
 ***
 
@@ -98,7 +100,7 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:99798
+main.ts:109536
 
 ## Methods
 
@@ -108,7 +110,9 @@ main.ts:99798
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +120,7 @@ main.ts:99798
 
 #### Defined in
 
-main.ts:99815
+main.ts:109553
 
 ***
 
@@ -126,7 +130,9 @@ main.ts:99815
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +140,7 @@ main.ts:99815
 
 #### Defined in
 
-main.ts:99841
+main.ts:109579
 
 ***
 
@@ -144,7 +150,9 @@ main.ts:99841
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -152,4 +160,4 @@ main.ts:99841
 
 #### Defined in
 
-main.ts:99834
+main.ts:109572

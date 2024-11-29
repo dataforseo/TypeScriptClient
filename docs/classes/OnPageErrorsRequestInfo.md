@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageErrorsRequestInfo
+[Documentation](../README.md) / OnPageErrorsRequestInfo
 
 # Class: OnPageErrorsRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md)
+##### data?
+
+[`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:152103
+main.ts:163308
 
 ## Properties
 
@@ -40,7 +42,7 @@ main.ts:152103
 
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:152092
+main.ts:163297
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:152092
 
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -72,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:152099
+main.ts:163304
 
 ***
 
@@ -92,7 +94,7 @@ example: on_page/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:152085
+main.ts:163290
 
 ***
 
@@ -111,7 +113,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:152074
+main.ts:163279
 
 ***
 
@@ -130,7 +132,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:152079
+main.ts:163284
 
 ## Methods
 
@@ -140,7 +142,9 @@ main.ts:152079
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +152,7 @@ main.ts:152079
 
 #### Defined in
 
-main.ts:152112
+main.ts:163317
 
 ***
 
@@ -158,7 +162,9 @@ main.ts:152112
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +172,7 @@ main.ts:152112
 
 #### Defined in
 
-main.ts:152133
+main.ts:163338
 
 ***
 
@@ -176,7 +182,9 @@ main.ts:152133
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +192,4 @@ main.ts:152133
 
 #### Defined in
 
-main.ts:152126
+main.ts:163331

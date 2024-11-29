@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonProductsTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:180847
+main.ts:192935
 
 ## Properties
 
@@ -46,7 +48,7 @@ amazon product departments and subcategories
 
 #### Defined in
 
-main.ts:180839
+main.ts:192927
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:180822
+main.ts:192910
 
 ***
 
@@ -82,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:180827
+main.ts:192915
 
 ***
 
@@ -101,7 +103,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:180835
+main.ts:192923
 
 ***
 
@@ -117,7 +119,7 @@ Amazon product items within the editorial_recommendations element
 
 #### Defined in
 
-main.ts:180843
+main.ts:192931
 
 ***
 
@@ -133,7 +135,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:180841
+main.ts:192929
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:180841
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -150,7 +152,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:180811
+main.ts:192899
 
 ***
 
@@ -166,7 +168,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:180819
+main.ts:192907
 
 ***
 
@@ -182,7 +184,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:180817
+main.ts:192905
 
 ***
 
@@ -198,7 +200,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:180815
+main.ts:192903
 
 ***
 
@@ -214,7 +216,7 @@ search engine results count
 
 #### Defined in
 
-main.ts:180837
+main.ts:192925
 
 ***
 
@@ -231,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:180830
+main.ts:192918
 
 ***
 
@@ -247,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:180813
+main.ts:192901
 
 ## Methods
 
@@ -257,7 +259,9 @@ main.ts:180813
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -265,7 +269,7 @@ main.ts:180813
 
 #### Defined in
 
-main.ts:180856
+main.ts:192944
 
 ***
 
@@ -275,7 +279,9 @@ main.ts:180856
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -283,7 +289,7 @@ main.ts:180856
 
 #### Defined in
 
-main.ts:180897
+main.ts:192985
 
 ***
 
@@ -293,7 +299,9 @@ main.ts:180897
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -301,4 +309,4 @@ main.ts:180897
 
 #### Defined in
 
-main.ts:180890
+main.ts:192978

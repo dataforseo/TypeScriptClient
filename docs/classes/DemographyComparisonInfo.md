@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DemographyComparisonInfo
+[Documentation](../README.md) / DemographyComparisonInfo
 
 # Class: DemographyComparisonInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDemographyComparisonInfo`](../interfaces/IDemographyComparisonInfo.md)
+##### data?
+
+[`IDemographyComparisonInfo`](../interfaces/IDemographyComparisonInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:21146
+main.ts:21824
 
 ## Properties
 
@@ -42,7 +44,7 @@ type of element
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: `number`[]
 
 #### Implementation of
 
@@ -50,7 +52,7 @@ type of element
 
 #### Defined in
 
-main.ts:21140
+main.ts:21818
 
 ***
 
@@ -62,7 +64,7 @@ type of element
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: `number`[]
 
 #### Implementation of
 
@@ -70,7 +72,7 @@ type of element
 
 #### Defined in
 
-main.ts:21142
+main.ts:21820
 
 ## Methods
 
@@ -80,7 +82,9 @@ main.ts:21142
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -88,7 +92,7 @@ main.ts:21142
 
 #### Defined in
 
-main.ts:21155
+main.ts:21833
 
 ***
 
@@ -98,7 +102,9 @@ main.ts:21155
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -106,7 +112,7 @@ main.ts:21155
 
 #### Defined in
 
-main.ts:21185
+main.ts:21863
 
 ***
 
@@ -116,7 +122,9 @@ main.ts:21185
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -124,4 +132,4 @@ main.ts:21185
 
 #### Defined in
 
-main.ts:21178
+main.ts:21856

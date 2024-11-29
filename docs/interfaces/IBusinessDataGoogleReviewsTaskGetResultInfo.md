@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleReviewsTaskGetResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:208867
+main.ts:222411
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208891
+main.ts:222435
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:208872
+main.ts:222416
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208884
+main.ts:222428
 
 ***
 
@@ -76,7 +76,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:208899
+main.ts:222443
 
 ***
 
@@ -89,7 +89,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:208896
+main.ts:222440
 
 ***
 
@@ -98,11 +98,11 @@ main.ts:208896
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:208856
+main.ts:222400
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:208864
+main.ts:222408
 
 ***
 
@@ -126,7 +126,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:208862
+main.ts:222406
 
 ***
 
@@ -139,7 +139,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208887
+main.ts:222431
 
 ***
 
@@ -152,7 +152,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:208881
+main.ts:222425
 
 ***
 
@@ -164,7 +164,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:208893
+main.ts:222437
 
 ***
 
@@ -176,7 +176,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:208860
+main.ts:222404
 
 ***
 
@@ -189,7 +189,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Defined in
 
-main.ts:208878
+main.ts:222422
 
 ***
 
@@ -202,7 +202,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:208875
+main.ts:222419
 
 ***
 
@@ -214,4 +214,4 @@ type of element
 
 #### Defined in
 
-main.ts:208858
+main.ts:222402

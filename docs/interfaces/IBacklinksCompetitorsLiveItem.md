@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksCompetitorsLiveItem
+[Documentation](../README.md) / IBacklinksCompetitorsLiveItem
 
 # Interface: IBacklinksCompetitorsLiveItem
 
@@ -20,7 +20,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 #### Defined in
 
-main.ts:145830
+main.ts:157035
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:145828
+main.ts:157033
 
 ***
 
@@ -47,7 +47,7 @@ competitor domain
 
 #### Defined in
 
-main.ts:145823
+main.ts:157028
 
 ***
 
@@ -59,4 +59,4 @@ type of element
 
 #### Defined in
 
-main.ts:145821
+main.ts:157026

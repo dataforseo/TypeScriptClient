@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksPageMeta
+[Documentation](../README.md) / IBacklinksPageMeta
 
 # Interface: IBacklinksPageMeta
 
@@ -20,7 +20,7 @@ canonical page
 
 #### Defined in
 
-main.ts:142510
+main.ts:153715
 
 ***
 
@@ -34,7 +34,7 @@ utf-8
 
 #### Defined in
 
-main.ts:142546
+main.ts:153751
 
 ***
 
@@ -46,7 +46,7 @@ number of external links on the page
 
 #### Defined in
 
-main.ts:142514
+main.ts:153719
 
 ***
 
@@ -59,7 +59,7 @@ content of h1 tags
 
 #### Defined in
 
-main.ts:142528
+main.ts:153733
 
 ***
 
@@ -72,7 +72,7 @@ content of h2 tags
 
 #### Defined in
 
-main.ts:142531
+main.ts:153736
 
 ***
 
@@ -85,7 +85,7 @@ content of h3 tags
 
 #### Defined in
 
-main.ts:142534
+main.ts:153739
 
 ***
 
@@ -97,7 +97,7 @@ content of alt tags
 
 #### Defined in
 
-main.ts:142536
+main.ts:153741
 
 ***
 
@@ -109,7 +109,7 @@ number of images on the page
 
 #### Defined in
 
-main.ts:142516
+main.ts:153721
 
 ***
 
@@ -121,7 +121,7 @@ number of internal links on the page
 
 #### Defined in
 
-main.ts:142512
+main.ts:153717
 
 ***
 
@@ -135,7 +135,7 @@ en
 
 #### Defined in
 
-main.ts:142542
+main.ts:153747
 
 ***
 
@@ -148,7 +148,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:142521
+main.ts:153726
 
 ***
 
@@ -160,7 +160,7 @@ type of a platform
 
 #### Defined in
 
-main.ts:142548
+main.ts:153753
 
 ***
 
@@ -172,7 +172,7 @@ CMS details
 
 #### Defined in
 
-main.ts:142538
+main.ts:153743
 
 ***
 
@@ -190,7 +190,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-main.ts:142525
+main.ts:153730
 
 ***
 
@@ -206,7 +206,7 @@ website technologies
 
 #### Defined in
 
-main.ts:142550
+main.ts:153755
 
 ***
 
@@ -218,7 +218,7 @@ page title
 
 #### Defined in
 
-main.ts:142508
+main.ts:153713
 
 ***
 
@@ -230,4 +230,4 @@ number of words on the page
 
 #### Defined in
 
-main.ts:142518
+main.ts:153723

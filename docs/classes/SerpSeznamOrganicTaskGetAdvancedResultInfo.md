@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpSeznamOrganicTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpSeznamOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpSeznamOrganicTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:74192
+main.ts:83891
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:74168
+main.ts:83864
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:74173
+main.ts:83869
 
 ***
 
@@ -85,7 +87,7 @@ images, local_pack, organic, related_searches, top_stories, featured_snippet, vi
 
 #### Defined in
 
-main.ts:74181
+main.ts:83880
 
 ***
 
@@ -102,7 +104,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:74188
+main.ts:83887
 
 ***
 
@@ -118,7 +120,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:74185
+main.ts:83884
 
 ***
 
@@ -135,7 +137,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:74157
+main.ts:83853
 
 ***
 
@@ -151,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:74165
+main.ts:83861
 
 ***
 
@@ -167,7 +169,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:74163
+main.ts:83859
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpSeznamOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpSeznamOrganicTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:83875
 
 ***
 
@@ -183,7 +202,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:74161
+main.ts:83857
 
 ***
 
@@ -199,7 +218,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:74183
+main.ts:83882
 
 ***
 
@@ -216,7 +235,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:74176
+main.ts:83872
 
 ***
 
@@ -232,7 +251,7 @@ type of element
 
 #### Defined in
 
-main.ts:74159
+main.ts:83855
 
 ## Methods
 
@@ -242,7 +261,9 @@ main.ts:74159
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +271,7 @@ main.ts:74159
 
 #### Defined in
 
-main.ts:74201
+main.ts:83900
 
 ***
 
@@ -260,7 +281,9 @@ main.ts:74201
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +291,7 @@ main.ts:74201
 
 #### Defined in
 
-main.ts:74237
+main.ts:83937
 
 ***
 
@@ -278,7 +301,9 @@ main.ts:74237
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +311,4 @@ main.ts:74237
 
 #### Defined in
 
-main.ts:74230
+main.ts:83930

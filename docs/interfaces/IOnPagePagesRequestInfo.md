@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPagePagesRequestInfo
+[Documentation](../README.md) / IOnPagePagesRequestInfo
 
 # Interface: IOnPagePagesRequestInfo
 
@@ -29,7 +29,7 @@ example:
 
 #### Defined in
 
-main.ts:154308
+main.ts:165935
 
 ***
 
@@ -45,7 +45,7 @@ example:
 
 #### Defined in
 
-main.ts:154287
+main.ts:165914
 
 ***
 
@@ -60,7 +60,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:154292
+main.ts:165919
 
 ***
 
@@ -75,7 +75,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:154297
+main.ts:165924
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:154322
+main.ts:165949
 
 ***
 
@@ -115,4 +115,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:154328
+main.ts:165955

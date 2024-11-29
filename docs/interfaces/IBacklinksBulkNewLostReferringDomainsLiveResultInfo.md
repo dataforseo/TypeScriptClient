@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkNewLostReferringDomainsLiveResultInfo
+[Documentation](../README.md) / IBacklinksBulkNewLostReferringDomainsLiveResultInfo
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:151018
+main.ts:162223
 
 ***
 
@@ -32,4 +32,4 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:151016
+main.ts:162221

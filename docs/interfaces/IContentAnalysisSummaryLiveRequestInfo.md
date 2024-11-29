@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisSummaryLiveRequestInfo
+[Documentation](../README.md) / IContentAnalysisSummaryLiveRequestInfo
 
 # Interface: IContentAnalysisSummaryLiveRequestInfo
 
@@ -35,7 +35,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:166964
+main.ts:178553
 
 ***
 
@@ -56,7 +56,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:166932
+main.ts:178521
 
 ***
 
@@ -67,15 +67,15 @@ main.ts:166932
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:166903
+main.ts:178492
 
 ***
 
@@ -101,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:166915
+main.ts:178504
 
 ***
 
@@ -117,7 +117,7 @@ possible values:
 
 #### Defined in
 
-main.ts:166921
+main.ts:178510
 
 ***
 
@@ -134,7 +134,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:166939
+main.ts:178528
 
 ***
 
@@ -152,7 +152,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:166947
+main.ts:178536
 
 ***
 
@@ -168,4 +168,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:166970
+main.ts:178559

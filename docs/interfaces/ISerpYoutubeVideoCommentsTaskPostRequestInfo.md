@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:65015
+main.ts:73235
 
 ***
 
@@ -41,7 +41,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:65001
+main.ts:73221
 
 ***
 
@@ -58,7 +58,7 @@ en
 
 #### Defined in
 
-main.ts:64997
+main.ts:73217
 
 ***
 
@@ -75,7 +75,7 @@ English
 
 #### Defined in
 
-main.ts:64990
+main.ts:73210
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:64983
+main.ts:73203
 
 ***
 
@@ -109,7 +109,7 @@ United States
 
 #### Defined in
 
-main.ts:64976
+main.ts:73196
 
 ***
 
@@ -124,7 +124,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:65006
+main.ts:73226
 
 ***
 
@@ -139,12 +139,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:65047
+main.ts:73269
 
 ***
 
@@ -160,7 +161,7 @@ advanced
 
 #### Defined in
 
-main.ts:65037
+main.ts:73258
 
 ***
 
@@ -175,12 +176,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:65031
+main.ts:73252
 
 ***
 
@@ -198,7 +200,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:64969
+main.ts:73189
 
 ***
 
@@ -214,7 +216,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:65021
+main.ts:73241
 
 ***
 
@@ -230,4 +232,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:64961
+main.ts:73181

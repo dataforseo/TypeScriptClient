@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / InterestsComparison
+[Documentation](../README.md) / InterestsComparison
 
 # Class: InterestsComparison
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IInterestsComparison`](../interfaces/IInterestsComparison.md)
+##### data?
+
+[`IInterestsComparison`](../interfaces/IInterestsComparison.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:126354
+main.ts:136609
 
 ## Properties
 
@@ -47,7 +49,7 @@ values in this array represent percentages relative to the maximum value across 
 
 #### Defined in
 
-main.ts:126350
+main.ts:136605
 
 ***
 
@@ -63,7 +65,7 @@ contains keyword popularity and related data
 
 #### Defined in
 
-main.ts:126347
+main.ts:136602
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:126347
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:126347
 
 #### Defined in
 
-main.ts:126363
+main.ts:136618
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:126363
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:126363
 
 #### Defined in
 
-main.ts:126389
+main.ts:136644
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:126389
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:126389
 
 #### Defined in
 
-main.ts:126382
+main.ts:136637

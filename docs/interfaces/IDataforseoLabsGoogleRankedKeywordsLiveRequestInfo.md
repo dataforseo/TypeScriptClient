@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
@@ -38,7 +38,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:91163
+main.ts:100873
 
 ***
 
@@ -57,7 +57,7 @@ default value: live
 
 #### Defined in
 
-main.ts:91143
+main.ts:100853
 
 ***
 
@@ -72,7 +72,7 @@ default value: false
 
 #### Defined in
 
-main.ts:91103
+main.ts:100813
 
 ***
 
@@ -82,14 +82,14 @@ main.ts:91103
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, clickstream_age_distribution, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:91119
+main.ts:100829
 
 ***
 
@@ -108,7 +108,7 @@ default value:
 
 #### Defined in
 
-main.ts:91112
+main.ts:100822
 
 ***
 
@@ -127,7 +127,7 @@ en
 
 #### Defined in
 
-main.ts:91098
+main.ts:100808
 
 ***
 
@@ -146,7 +146,7 @@ English
 
 #### Defined in
 
-main.ts:91089
+main.ts:100799
 
 ***
 
@@ -161,7 +161,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:91124
+main.ts:100834
 
 ***
 
@@ -176,7 +176,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:91134
+main.ts:100844
 
 ***
 
@@ -195,7 +195,7 @@ example:
 
 #### Defined in
 
-main.ts:91080
+main.ts:100790
 
 ***
 
@@ -214,7 +214,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:91071
+main.ts:100781
 
 ***
 
@@ -229,7 +229,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:91129
+main.ts:100839
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Defined in
 
-main.ts:91179
+main.ts:100889
 
 ***
 
@@ -271,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:91185
+main.ts:100895
 
 ***
 
@@ -279,16 +279,12 @@ main.ts:91185
 
 > `optional` **target**: `string`
 
-domain
+domain name or page url
 required field
-the domain name of the target website
-the domain should be specified without https:// or www.
-if you want to get the keywords a particular webpage ranks for, specify the filter by the
-ranked_serp_element.serp_item.relative_url parameter
-example:
-"filters":[
-"ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
+the domain name of the target website or URL of the target webpage;
+the domain name must be specified without https:// or www.;
+the webpage URL must be specified with https:// or www.
 
 #### Defined in
 
-main.ts:91062
+main.ts:100772

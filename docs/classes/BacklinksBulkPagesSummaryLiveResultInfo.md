@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkPagesSummaryLiveResultInfo
+[Documentation](../README.md) / BacklinksBulkPagesSummaryLiveResultInfo
 
 # Class: BacklinksBulkPagesSummaryLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:151551
+main.ts:162756
 
 ## Properties
 
@@ -46,7 +48,7 @@ items array
 
 #### Defined in
 
-main.ts:151547
+main.ts:162752
 
 ***
 
@@ -62,7 +64,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:151545
+main.ts:162750
 
 ***
 
@@ -78,7 +80,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:151543
+main.ts:162748
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:151543
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:151543
 
 #### Defined in
 
-main.ts:151560
+main.ts:162765
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:151560
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:151560
 
 #### Defined in
 
-main.ts:151583
+main.ts:162788
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:151583
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:151583
 
 #### Defined in
 
-main.ts:151576
+main.ts:162781

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixDayStatisticsRatesData
 
 # Interface: IAppendixDayStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:219780
+main.ts:234779
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:219780
 
 #### Defined in
 
-main.ts:219766
+main.ts:234765
 
 ***
 
@@ -38,17 +38,17 @@ main.ts:219766
 
 #### Defined in
 
-main.ts:219778
+main.ts:234777
 
 ***
 
 ### business\_data?
 
-> `optional` **business\_data**: [`AppendixBusinessDataDayStatisticsRatesData`](../classes/AppendixBusinessDataDayStatisticsRatesData.md)
+> `optional` **business\_data**: [`AppendixBusinessDataStatisticsRatesDataInfo`](../classes/AppendixBusinessDataStatisticsRatesDataInfo.md)
 
 #### Defined in
 
-main.ts:219776
+main.ts:234775
 
 ***
 
@@ -58,17 +58,17 @@ main.ts:219776
 
 #### Defined in
 
-main.ts:219782
+main.ts:234781
 
 ***
 
 ### content\_generation?
 
-> `optional` **content\_generation**: [`AppendixContentGenerationDayStatisticsRatesData`](../classes/AppendixContentGenerationDayStatisticsRatesData.md)
+> `optional` **content\_generation**: [`AppendixContentGenerationStatisticsRatesDataInfo`](../classes/AppendixContentGenerationStatisticsRatesDataInfo.md)
 
 #### Defined in
 
-main.ts:219784
+main.ts:234783
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:219784
 
 #### Defined in
 
-main.ts:219768
+main.ts:234767
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:219768
 
 #### Defined in
 
-main.ts:219770
+main.ts:234769
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:219770
 
 #### Defined in
 
-main.ts:219764
+main.ts:234763
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:219764
 
 #### Defined in
 
-main.ts:219772
+main.ts:234771
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:219772
 
 #### Defined in
 
-main.ts:219774
+main.ts:234773
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:219774
 
 #### Defined in
 
-main.ts:219792
+main.ts:234791
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:219792
 
 #### Defined in
 
-main.ts:219760
+main.ts:234759
 
 ***
 
@@ -150,7 +150,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:219762
+main.ts:234761
 
 ***
 
@@ -160,7 +160,7 @@ main.ts:219762
 
 #### Defined in
 
-main.ts:219781
+main.ts:234780
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:219781
 
 #### Defined in
 
-main.ts:219767
+main.ts:234766
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:219767
 
 #### Defined in
 
-main.ts:219779
+main.ts:234778
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:219779
 
 #### Defined in
 
-main.ts:219777
+main.ts:234776
 
 ***
 
@@ -200,7 +200,7 @@ main.ts:219777
 
 #### Defined in
 
-main.ts:219783
+main.ts:234782
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:219783
 
 #### Defined in
 
-main.ts:219785
+main.ts:234784
 
 ***
 
@@ -220,7 +220,7 @@ main.ts:219785
 
 #### Defined in
 
-main.ts:219769
+main.ts:234768
 
 ***
 
@@ -230,7 +230,7 @@ main.ts:219769
 
 #### Defined in
 
-main.ts:219771
+main.ts:234770
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:219771
 
 #### Defined in
 
-main.ts:219765
+main.ts:234764
 
 ***
 
@@ -250,7 +250,7 @@ main.ts:219765
 
 #### Defined in
 
-main.ts:219773
+main.ts:234772
 
 ***
 
@@ -260,7 +260,7 @@ main.ts:219773
 
 #### Defined in
 
-main.ts:219775
+main.ts:234774
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:219775
 
 #### Defined in
 
-main.ts:219791
+main.ts:234790
 
 ***
 
@@ -280,7 +280,7 @@ main.ts:219791
 
 #### Defined in
 
-main.ts:219763
+main.ts:234762
 
 ***
 
@@ -290,7 +290,7 @@ main.ts:219763
 
 #### Defined in
 
-main.ts:219790
+main.ts:234789
 
 ***
 
@@ -304,4 +304,4 @@ minute in the yyyy-MM-dd HH:mm format
 
 #### Defined in
 
-main.ts:219789
+main.ts:234788

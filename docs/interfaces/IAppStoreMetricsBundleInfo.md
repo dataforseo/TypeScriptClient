@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppStoreMetricsBundleInfo
+[Documentation](../README.md) / IAppStoreMetricsBundleInfo
 
 # Interface: IAppStoreMetricsBundleInfo
 
@@ -20,4 +20,4 @@ ranking data from App Store organic search
 
 #### Defined in
 
-main.ts:115149
+main.ts:124321

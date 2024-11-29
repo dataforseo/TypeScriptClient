@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:88351
+main.ts:98069
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:88349
+main.ts:98067
 
 ***
 
@@ -45,4 +45,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:88347
+main.ts:98065

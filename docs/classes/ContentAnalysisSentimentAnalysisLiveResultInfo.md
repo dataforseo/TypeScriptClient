@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
+[Documentation](../README.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Class: ContentAnalysisSentimentAnalysisLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md)
+##### data?
+
+[`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:167685
+main.ts:179274
 
 ## Properties
 
@@ -48,7 +50,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:167677
+main.ts:179266
 
 ***
 
@@ -66,7 +68,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Defined in
 
-main.ts:167681
+main.ts:179270
 
 ***
 
@@ -82,7 +84,7 @@ type of element
 
 #### Defined in
 
-main.ts:167673
+main.ts:179262
 
 ## Methods
 
@@ -92,7 +94,9 @@ main.ts:167673
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +104,7 @@ main.ts:167673
 
 #### Defined in
 
-main.ts:167694
+main.ts:179283
 
 ***
 
@@ -110,7 +114,9 @@ main.ts:167694
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +124,7 @@ main.ts:167694
 
 #### Defined in
 
-main.ts:167713
+main.ts:179302
 
 ***
 
@@ -128,7 +134,9 @@ main.ts:167713
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -136,4 +144,4 @@ main.ts:167713
 
 #### Defined in
 
-main.ts:167706
+main.ts:179295

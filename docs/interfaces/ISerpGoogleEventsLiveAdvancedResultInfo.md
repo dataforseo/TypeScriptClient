@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleEventsLiveAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleEventsLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleEventsLiveAdvancedResultInfo
 
@@ -20,7 +20,7 @@ direct URL to search engine results
 
 #### Defined in
 
-main.ts:46905
+main.ts:49728
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:46910
+main.ts:49733
 
 ***
 
@@ -49,7 +49,7 @@ event_item
 
 #### Defined in
 
-main.ts:46917
+main.ts:49742
 
 ***
 
@@ -57,11 +57,11 @@ main.ts:46917
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-items in SERP
+items of the element
 
 #### Defined in
 
-main.ts:46925
+main.ts:49750
 
 ***
 
@@ -73,7 +73,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:46923
+main.ts:49748
 
 ***
 
@@ -82,11 +82,11 @@ main.ts:46923
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:46894
+main.ts:49717
 
 ***
 
@@ -99,7 +99,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:46903
+main.ts:49726
 
 ***
 
@@ -111,7 +111,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:46900
+main.ts:49723
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:49738
 
 ***
 
@@ -123,7 +135,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:46898
+main.ts:49721
 
 ***
 
@@ -137,7 +149,7 @@ this search engine does not indicate the total number of results
 
 #### Defined in
 
-main.ts:46921
+main.ts:49746
 
 ***
 
@@ -150,7 +162,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:46913
+main.ts:49736
 
 ***
 
@@ -162,4 +174,4 @@ type of element
 
 #### Defined in
 
-main.ts:46896
+main.ts:49719

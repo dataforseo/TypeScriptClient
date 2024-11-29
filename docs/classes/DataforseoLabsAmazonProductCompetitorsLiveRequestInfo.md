@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:104548
+main.ts:114186
 
 ## Properties
 
@@ -49,7 +51,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:104471
+main.ts:114109
 
 ***
 
@@ -74,7 +76,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:104517
+main.ts:114155
 
 ***
 
@@ -95,7 +97,7 @@ en
 
 #### Defined in
 
-main.ts:104501
+main.ts:114139
 
 ***
 
@@ -116,7 +118,7 @@ English
 
 #### Defined in
 
-main.ts:104494
+main.ts:114132
 
 ***
 
@@ -135,7 +137,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:104506
+main.ts:114144
 
 ***
 
@@ -157,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:104487
+main.ts:114125
 
 ***
 
@@ -179,7 +181,7 @@ United States
 
 #### Defined in
 
-main.ts:104479
+main.ts:114117
 
 ***
 
@@ -198,7 +200,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 #### Defined in
 
-main.ts:104538
+main.ts:114176
 
 ***
 
@@ -228,7 +230,7 @@ default rule:
 
 #### Defined in
 
-main.ts:104533
+main.ts:114171
 
 ***
 
@@ -248,7 +250,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:104544
+main.ts:114182
 
 ## Methods
 
@@ -258,7 +260,9 @@ main.ts:104544
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -266,7 +270,7 @@ main.ts:104544
 
 #### Defined in
 
-main.ts:104557
+main.ts:114195
 
 ***
 
@@ -276,7 +280,9 @@ main.ts:104557
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -284,7 +290,7 @@ main.ts:104557
 
 #### Defined in
 
-main.ts:104591
+main.ts:114229
 
 ***
 
@@ -294,7 +300,9 @@ main.ts:104591
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -302,4 +310,4 @@ main.ts:104591
 
 #### Defined in
 
-main.ts:104584
+main.ts:114222

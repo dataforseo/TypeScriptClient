@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksCompetitorsLiveRequestInfo
+[Documentation](../README.md) / BacklinksCompetitorsLiveRequestInfo
 
 # Class: BacklinksCompetitorsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:145622
+main.ts:156827
 
 ## Properties
 
@@ -50,7 +52,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145612
+main.ts:156817
 
 ***
 
@@ -69,7 +71,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145606
+main.ts:156811
 
 ***
 
@@ -97,7 +99,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:145582
+main.ts:156787
 
 ***
 
@@ -116,7 +118,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:145563
+main.ts:156768
 
 ***
 
@@ -135,7 +137,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145601
+main.ts:156806
 
 ***
 
@@ -154,7 +156,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:145568
+main.ts:156773
 
 ***
 
@@ -182,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:145596
+main.ts:156801
 
 ***
 
@@ -202,7 +204,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:145618
+main.ts:156823
 
 ***
 
@@ -221,7 +223,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:145558
+main.ts:156763
 
 ## Methods
 
@@ -231,7 +233,9 @@ main.ts:145558
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -239,7 +243,7 @@ main.ts:145558
 
 #### Defined in
 
-main.ts:145631
+main.ts:156836
 
 ***
 
@@ -249,7 +253,9 @@ main.ts:145631
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -257,7 +263,7 @@ main.ts:145631
 
 #### Defined in
 
-main.ts:145664
+main.ts:156869
 
 ***
 
@@ -267,7 +273,9 @@ main.ts:145664
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -275,4 +283,4 @@ main.ts:145664
 
 #### Defined in
 
-main.ts:145657
+main.ts:156862

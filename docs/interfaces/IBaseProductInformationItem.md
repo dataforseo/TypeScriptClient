@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseProductInformationItem
+[Documentation](../README.md) / IBaseProductInformationItem
 
 # Interface: IBaseProductInformationItem
 
@@ -22,7 +22,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:23413
+main.ts:24311
 
 ***
 
@@ -34,4 +34,4 @@ type of element
 
 #### Defined in
 
-main.ts:23411
+main.ts:24309

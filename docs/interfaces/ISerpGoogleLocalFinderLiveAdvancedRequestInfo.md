@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLocalFinderLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleLocalFinderLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleLocalFinderLiveAdvancedRequestInfo
 
@@ -29,7 +29,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:42585
+main.ts:44430
 
 ***
 
@@ -44,7 +44,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:42567
+main.ts:44412
 
 ***
 
@@ -54,14 +54,15 @@ main.ts:42567
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:42516
+main.ts:44361
 
 ***
 
@@ -77,7 +78,7 @@ example:en
 
 #### Defined in
 
-main.ts:42562
+main.ts:44407
 
 ***
 
@@ -94,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:42556
+main.ts:44401
 
 ***
 
@@ -111,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:42538
+main.ts:44383
 
 ***
 
@@ -132,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:42549
+main.ts:44394
 
 ***
 
@@ -149,7 +150,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:42531
+main.ts:44376
 
 ***
 
@@ -164,7 +165,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:42590
+main.ts:44435
 
 ***
 
@@ -181,7 +182,7 @@ default value: android
 
 #### Defined in
 
-main.ts:42574
+main.ts:44419
 
 ***
 
@@ -199,7 +200,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:42524
+main.ts:44369
 
 ***
 
@@ -215,7 +216,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:42605
+main.ts:44450
 
 ***
 
@@ -234,4 +235,4 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:42599
+main.ts:44444

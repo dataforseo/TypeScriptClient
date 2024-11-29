@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBusinessDataGoogleInfo
+[Documentation](../README.md) / AppendixBusinessDataGoogleInfo
 
 # Class: AppendixBusinessDataGoogleInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md)
+##### data?
+
+[`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md)
 
 #### Returns
 
@@ -30,9 +32,23 @@
 
 #### Defined in
 
-main.ts:216883
+main.ts:231843
 
 ## Properties
+
+### extended\_reviews?
+
+> `optional` **extended\_reviews**: [`AppendixInfo`](AppendixInfo.md)
+
+#### Implementation of
+
+[`IAppendixBusinessDataGoogleInfo`](../interfaces/IAppendixBusinessDataGoogleInfo.md).[`extended_reviews`](../interfaces/IAppendixBusinessDataGoogleInfo.md#extended_reviews)
+
+#### Defined in
+
+main.ts:231839
+
+***
 
 ### hotel\_info?
 
@@ -44,7 +60,7 @@ main.ts:216883
 
 #### Defined in
 
-main.ts:216876
+main.ts:231835
 
 ***
 
@@ -58,7 +74,7 @@ main.ts:216876
 
 #### Defined in
 
-main.ts:216877
+main.ts:231836
 
 ***
 
@@ -72,7 +88,7 @@ main.ts:216877
 
 #### Defined in
 
-main.ts:216874
+main.ts:231833
 
 ***
 
@@ -86,7 +102,7 @@ main.ts:216874
 
 #### Defined in
 
-main.ts:216875
+main.ts:231834
 
 ***
 
@@ -100,7 +116,7 @@ main.ts:216875
 
 #### Defined in
 
-main.ts:216879
+main.ts:231838
 
 ***
 
@@ -114,7 +130,7 @@ main.ts:216879
 
 #### Defined in
 
-main.ts:216878
+main.ts:231837
 
 ## Methods
 
@@ -124,7 +140,9 @@ main.ts:216878
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +150,7 @@ main.ts:216878
 
 #### Defined in
 
-main.ts:216892
+main.ts:231852
 
 ***
 
@@ -142,7 +160,9 @@ main.ts:216892
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +170,7 @@ main.ts:216892
 
 #### Defined in
 
-main.ts:216914
+main.ts:231875
 
 ***
 
@@ -160,7 +180,9 @@ main.ts:216914
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +190,4 @@ main.ts:216914
 
 #### Defined in
 
-main.ts:216907
+main.ts:231868

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleMapsMapsSearchSerpElementItem
+[Documentation](../README.md) / GoogleMapsMapsSearchSerpElementItem
 
 # Class: GoogleMapsMapsSearchSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleMapsMapsSearchSerpElementItem`](../interfaces/IGoogleMapsMapsSearchSerpElementItem.md)
+##### data?
+
+[`IGoogleMapsMapsSearchSerpElementItem`](../interfaces/IGoogleMapsMapsSearchSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:39993
+main.ts:41805
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:39993
 
 #### Defined in
 
-main.ts:39833
+main.ts:41642
 
 ***
 
@@ -69,7 +71,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:39962
+main.ts:41774
 
 ***
 
@@ -86,7 +88,7 @@ address of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:39944
+main.ts:41756
 
 ***
 
@@ -102,7 +104,24 @@ object containing address components of the local establishment
 
 #### Defined in
 
-main.ts:39946
+main.ts:41758
+
+***
+
+### book\_online\_url?
+
+> `optional` **book\_online\_url**: `string`
+
+URL in the ‘book online’ button of the element
+URL directing users to the online booking or order page of the business entity
+
+#### Implementation of
+
+[`IGoogleMapsMapsSearchSerpElementItem`](../interfaces/IGoogleMapsMapsSearchSerpElementItem.md).[`book_online_url`](../interfaces/IGoogleMapsMapsSearchSerpElementItem.md#book_online_url)
+
+#### Defined in
+
+main.ts:41742
 
 ***
 
@@ -119,7 +138,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:39959
+main.ts:41771
 
 ***
 
@@ -136,7 +155,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:39965
+main.ts:41777
 
 ***
 
@@ -154,7 +173,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:39974
+main.ts:41786
 
 ***
 
@@ -170,7 +189,7 @@ URL of the preferred contact page
 
 #### Defined in
 
-main.ts:39928
+main.ts:41737
 
 ***
 
@@ -186,7 +205,7 @@ URL of the user’s or entity’s Local Guides profile, if available
 
 #### Defined in
 
-main.ts:39930
+main.ts:41739
 
 ***
 
@@ -194,7 +213,7 @@ main.ts:39930
 
 > `optional` **domain**: `string`
 
-domain in the SERP element
+domain in SERP
 
 #### Implementation of
 
@@ -206,7 +225,7 @@ domain in the SERP element
 
 #### Defined in
 
-main.ts:39821
+main.ts:41630
 
 ***
 
@@ -222,7 +241,7 @@ the unique identifier of the element in SERP
 
 #### Defined in
 
-main.ts:39970
+main.ts:41782
 
 ***
 
@@ -240,7 +259,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:39934
+main.ts:41746
 
 ***
 
@@ -256,7 +275,7 @@ indicates whether ownership of this local establishment is claimed
 
 #### Defined in
 
-main.ts:39984
+main.ts:41796
 
 ***
 
@@ -272,7 +291,7 @@ indicates whether this local establishment is a directory
 
 #### Defined in
 
-main.ts:39989
+main.ts:41801
 
 ***
 
@@ -290,7 +309,7 @@ example:
 
 #### Defined in
 
-main.ts:39978
+main.ts:41790
 
 ***
 
@@ -307,7 +326,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Defined in
 
-main.ts:39987
+main.ts:41799
 
 ***
 
@@ -325,7 +344,7 @@ example:
 
 #### Defined in
 
-main.ts:39982
+main.ts:41794
 
 ***
 
@@ -341,7 +360,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:39954
+main.ts:41766
 
 ***
 
@@ -358,7 +377,7 @@ phone number of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:39952
+main.ts:41764
 
 ***
 
@@ -375,7 +394,7 @@ place id of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:39949
+main.ts:41761
 
 ***
 
@@ -393,7 +412,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:39938
+main.ts:41750
 
 ***
 
@@ -414,7 +433,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:39819
+main.ts:41628
 
 ***
 
@@ -436,7 +455,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:39816
+main.ts:41625
 
 ***
 
@@ -457,7 +476,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:39828
+main.ts:41637
 
 ***
 
@@ -482,7 +501,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:39831
+main.ts:41640
 
 ***
 
@@ -499,7 +518,7 @@ contains the address and other information about the local establishment feature
 
 #### Defined in
 
-main.ts:39941
+main.ts:41753
 
 ***
 
@@ -507,7 +526,7 @@ main.ts:39941
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Implementation of
 
@@ -519,7 +538,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:39823
+main.ts:41632
 
 ***
 
@@ -535,7 +554,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:39956
+main.ts:41768
 
 ***
 
@@ -555,7 +574,7 @@ type of element
 
 #### Defined in
 
-main.ts:39812
+main.ts:41621
 
 ***
 
@@ -563,7 +582,7 @@ main.ts:39812
 
 > `optional` **url**: `string`
 
-relevant URL in SERP
+search URL with refinement parameters
 
 #### Implementation of
 
@@ -575,7 +594,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:39825
+main.ts:41634
 
 ***
 
@@ -592,7 +611,7 @@ information about work hours of the local establishment
 
 #### Defined in
 
-main.ts:39968
+main.ts:41780
 
 ## Methods
 
@@ -602,7 +621,9 @@ main.ts:39968
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -614,7 +635,7 @@ main.ts:39968
 
 #### Defined in
 
-main.ts:39998
+main.ts:41810
 
 ***
 
@@ -624,7 +645,9 @@ main.ts:39998
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -636,7 +659,7 @@ main.ts:39998
 
 #### Defined in
 
-main.ts:40049
+main.ts:41862
 
 ***
 
@@ -646,7 +669,9 @@ main.ts:40049
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -658,4 +683,4 @@ main.ts:40049
 
 #### Defined in
 
-main.ts:40042
+main.ts:41855

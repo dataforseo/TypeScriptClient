@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / SerpGoogleOrganicTaskGetRegularResultInfo
 
 # Class: SerpGoogleOrganicTaskGetRegularResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md)
+##### data?
+
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:27636
+main.ts:29191
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:27610
+main.ts:29163
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:27615
+main.ts:29168
 
 ***
 
@@ -80,7 +82,7 @@ possible item types:
 answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, images, jobs, knowledge_graph, local_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, ai_overview
 note that this array contains all types of search results found in the returned SERP;
 however, this endpoint provides data for featured_snippet, organic and paid types only;
-to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Google Organiс Advanced SERP endpoint
+to get all items (including SERP features and rich snippets) found in the returned SERP, please refer to the Google Organiс Advanced SERP endpoint
 
 #### Implementation of
 
@@ -88,7 +90,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Defined in
 
-main.ts:27626
+main.ts:29181
 
 ***
 
@@ -104,7 +106,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:27632
+main.ts:29187
 
 ***
 
@@ -120,7 +122,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:27630
+main.ts:29185
 
 ***
 
@@ -137,7 +139,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:27599
+main.ts:29152
 
 ***
 
@@ -153,7 +155,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:27607
+main.ts:29160
 
 ***
 
@@ -169,7 +171,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:27605
+main.ts:29158
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleOrganicTaskGetRegularResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleOrganicTaskGetRegularResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:29173
 
 ***
 
@@ -185,7 +203,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:27603
+main.ts:29156
 
 ***
 
@@ -201,7 +219,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:27628
+main.ts:29183
 
 ***
 
@@ -218,7 +236,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:27618
+main.ts:29171
 
 ***
 
@@ -234,7 +252,7 @@ type of element
 
 #### Defined in
 
-main.ts:27601
+main.ts:29154
 
 ## Methods
 
@@ -244,7 +262,9 @@ main.ts:27601
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -252,7 +272,7 @@ main.ts:27601
 
 #### Defined in
 
-main.ts:27645
+main.ts:29200
 
 ***
 
@@ -262,7 +282,9 @@ main.ts:27645
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -270,7 +292,7 @@ main.ts:27645
 
 #### Defined in
 
-main.ts:27681
+main.ts:29237
 
 ***
 
@@ -280,7 +302,9 @@ main.ts:27681
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -288,4 +312,4 @@ main.ts:27681
 
 #### Defined in
 
-main.ts:27674
+main.ts:29230

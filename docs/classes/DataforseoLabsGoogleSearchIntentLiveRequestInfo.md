@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:86675
+main.ts:96392
 
 ## Properties
 
@@ -43,6 +45,7 @@ required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -50,7 +53,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:86626
+main.ts:96343
 
 ***
 
@@ -71,7 +74,7 @@ en
 
 #### Defined in
 
-main.ts:86665
+main.ts:96382
 
 ***
 
@@ -117,7 +120,7 @@ English
 
 #### Defined in
 
-main.ts:86658
+main.ts:96375
 
 ***
 
@@ -137,7 +140,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:86671
+main.ts:96388
 
 ## Methods
 
@@ -147,7 +150,9 @@ main.ts:86671
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -155,7 +160,7 @@ main.ts:86671
 
 #### Defined in
 
-main.ts:86684
+main.ts:96401
 
 ***
 
@@ -165,7 +170,9 @@ main.ts:86684
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -173,7 +180,7 @@ main.ts:86684
 
 #### Defined in
 
-main.ts:86708
+main.ts:96425
 
 ***
 
@@ -183,7 +190,9 @@ main.ts:86708
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -191,4 +200,4 @@ main.ts:86708
 
 #### Defined in
 
-main.ts:86701
+main.ts:96418

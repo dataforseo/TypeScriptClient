@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateLiveRequestInfo
+[Documentation](../README.md) / IContentGenerationGenerateLiveRequestInfo
 
 # Interface: IContentGenerationGenerateLiveRequestInfo
 
@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:169692
+main.ts:181281
 
 ***
 
@@ -40,7 +40,7 @@ example:
 
 #### Defined in
 
-main.ts:169686
+main.ts:181275
 
 ***
 
@@ -58,7 +58,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169649
+main.ts:181238
 
 ***
 
@@ -75,7 +75,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169634
+main.ts:181223
 
 ***
 
@@ -92,7 +92,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169641
+main.ts:181230
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Defined in
 
-main.ts:169698
+main.ts:181287
 
 ***
 
@@ -124,7 +124,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:169704
+main.ts:181293
 
 ***
 
@@ -140,7 +140,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:169710
+main.ts:181299
 
 ***
 
@@ -158,7 +158,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169680
+main.ts:181269
 
 ***
 
@@ -174,7 +174,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:169627
+main.ts:181216
 
 ***
 
@@ -190,7 +190,7 @@ default value: 1
 
 #### Defined in
 
-main.ts:169655
+main.ts:181244
 
 ***
 
@@ -208,7 +208,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169663
+main.ts:181252
 
 ***
 
@@ -227,4 +227,4 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:169672
+main.ts:181261

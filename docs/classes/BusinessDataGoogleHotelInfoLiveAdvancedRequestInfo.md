@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:206917
+main.ts:220272
 
 ## Properties
 
@@ -50,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:206899
+main.ts:220254
 
 ***
 
@@ -72,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:206879
+main.ts:220234
 
 ***
 
@@ -95,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:206888
+main.ts:220243
 
 ***
 
@@ -117,7 +119,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:206907
+main.ts:220262
 
 ***
 
@@ -136,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:206893
+main.ts:220248
 
 ***
 
@@ -157,7 +159,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:206834
+main.ts:220189
 
 ***
 
@@ -178,7 +180,7 @@ en
 
 #### Defined in
 
-main.ts:206871
+main.ts:220226
 
 ***
 
@@ -199,7 +201,7 @@ English
 
 #### Defined in
 
-main.ts:206864
+main.ts:220219
 
 ***
 
@@ -220,7 +222,7 @@ example:
 
 #### Defined in
 
-main.ts:206848
+main.ts:220203
 
 ***
 
@@ -243,7 +245,7 @@ example:
 
 #### Defined in
 
-main.ts:206857
+main.ts:220212
 
 ***
 
@@ -264,7 +266,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:206841
+main.ts:220196
 
 ***
 
@@ -284,7 +286,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:206913
+main.ts:220268
 
 ## Methods
 
@@ -294,7 +296,9 @@ main.ts:206913
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -302,7 +306,7 @@ main.ts:206913
 
 #### Defined in
 
-main.ts:206926
+main.ts:220281
 
 ***
 
@@ -312,7 +316,9 @@ main.ts:206926
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -320,7 +326,7 @@ main.ts:206926
 
 #### Defined in
 
-main.ts:206958
+main.ts:220313
 
 ***
 
@@ -330,7 +336,9 @@ main.ts:206958
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -338,4 +346,4 @@ main.ts:206958
 
 #### Defined in
 
-main.ts:206951
+main.ts:220306

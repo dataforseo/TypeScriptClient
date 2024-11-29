@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:88683
+main.ts:98401
 
 ***
 
@@ -39,7 +39,7 @@ default value: true
 
 #### Defined in
 
-main.ts:88721
+main.ts:98439
 
 ***
 
@@ -68,7 +68,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:88775
+main.ts:98493
 
 ***
 
@@ -83,7 +83,7 @@ default value: false
 
 #### Defined in
 
-main.ts:88738
+main.ts:98456
 
 ***
 
@@ -93,14 +93,14 @@ main.ts:88738
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:88733
+main.ts:98451
 
 ***
 
@@ -115,7 +115,7 @@ default value: false
 
 #### Defined in
 
-main.ts:88726
+main.ts:98444
 
 ***
 
@@ -133,7 +133,7 @@ en
 
 #### Defined in
 
-main.ts:88715
+main.ts:98433
 
 ***
 
@@ -151,7 +151,7 @@ English
 
 #### Defined in
 
-main.ts:88707
+main.ts:98425
 
 ***
 
@@ -166,7 +166,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:88743
+main.ts:98461
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:88699
+main.ts:98417
 
 ***
 
@@ -202,7 +202,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:88691
+main.ts:98409
 
 ***
 
@@ -217,7 +217,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:88748
+main.ts:98466
 
 ***
 
@@ -235,7 +235,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:88756
+main.ts:98474
 
 ***
 
@@ -261,7 +261,7 @@ example:
 
 #### Defined in
 
-main.ts:88791
+main.ts:98509
 
 ***
 
@@ -277,4 +277,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:88797
+main.ts:98515

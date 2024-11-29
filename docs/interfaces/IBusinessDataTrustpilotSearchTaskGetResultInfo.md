@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTrustpilotSearchTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskGetResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:211099
+main.ts:226028
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:211104
+main.ts:226033
 
 ***
 
@@ -49,7 +49,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:211110
+main.ts:226039
 
 ***
 
@@ -62,7 +62,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:211107
+main.ts:226036
 
 ***
 
@@ -74,7 +74,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:211094
+main.ts:226023
 
 ***
 
@@ -86,4 +86,4 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:211096
+main.ts:226025

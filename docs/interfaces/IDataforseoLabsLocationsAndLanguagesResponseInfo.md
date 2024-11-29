@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsLocationsAndLanguagesResponseInfo
+[Documentation](../README.md) / IDataforseoLabsLocationsAndLanguagesResponseInfo
 
 # Interface: IDataforseoLabsLocationsAndLanguagesResponseInfo
 
@@ -28,7 +28,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24221
+main.ts:25286
 
 ***
 
@@ -45,7 +45,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24214
+main.ts:25279
 
 ***
 
@@ -62,7 +62,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24217
+main.ts:25282
 
 ***
 
@@ -74,7 +74,7 @@ array of tasks
 
 #### Defined in
 
-main.ts:81915
+main.ts:91627
 
 ***
 
@@ -90,7 +90,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:24223
+main.ts:25288
 
 ***
 
@@ -106,7 +106,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:24225
+main.ts:25290
 
 ***
 
@@ -122,7 +122,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:24219
+main.ts:25284
 
 ***
 
@@ -138,4 +138,4 @@ the current version of the API
 
 #### Defined in
 
-main.ts:24211
+main.ts:25276

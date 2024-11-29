@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataErrorsRequestInfo
+[Documentation](../README.md) / KeywordsDataErrorsRequestInfo
 
 # Class: KeywordsDataErrorsRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md)
+##### data?
+
+[`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:116416
+main.ts:125588
 
 ## Properties
 
@@ -40,7 +42,7 @@ main.ts:116416
 
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:116405
+main.ts:125577
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:116405
 
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -72,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:116412
+main.ts:125584
 
 ***
 
@@ -92,7 +94,7 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:116398
+main.ts:125570
 
 ***
 
@@ -111,7 +113,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:116387
+main.ts:125559
 
 ***
 
@@ -130,7 +132,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:116392
+main.ts:125564
 
 ## Methods
 
@@ -140,7 +142,9 @@ main.ts:116392
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +152,7 @@ main.ts:116392
 
 #### Defined in
 
-main.ts:116425
+main.ts:125597
 
 ***
 
@@ -158,7 +162,9 @@ main.ts:116425
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +172,7 @@ main.ts:116425
 
 #### Defined in
 
-main.ts:116446
+main.ts:125618
 
 ***
 
@@ -176,7 +182,9 @@ main.ts:116446
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +192,4 @@ main.ts:116446
 
 #### Defined in
 
-main.ts:116439
+main.ts:125611

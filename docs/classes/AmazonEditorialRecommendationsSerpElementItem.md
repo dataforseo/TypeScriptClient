@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonEditorialRecommendationsSerpElementItem
+[Documentation](../README.md) / AmazonEditorialRecommendationsSerpElementItem
 
 # Class: AmazonEditorialRecommendationsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md)
+##### data?
+
+[`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:180620
+main.ts:192708
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:180620
 
 #### Defined in
 
-main.ts:22320
+main.ts:23218
 
 ***
 
@@ -68,7 +70,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:180616
+main.ts:192704
 
 ***
 
@@ -86,7 +88,7 @@ left, right
 
 #### Defined in
 
-main.ts:180614
+main.ts:192702
 
 ***
 
@@ -107,7 +109,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22316
+main.ts:23214
 
 ***
 
@@ -128,7 +130,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22313
+main.ts:23211
 
 ***
 
@@ -148,7 +150,7 @@ type of element
 
 #### Defined in
 
-main.ts:22310
+main.ts:23208
 
 ***
 
@@ -168,7 +170,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22318
+main.ts:23216
 
 ## Methods
 
@@ -178,7 +180,9 @@ main.ts:22318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -190,7 +194,7 @@ main.ts:22318
 
 #### Defined in
 
-main.ts:180625
+main.ts:192713
 
 ***
 
@@ -200,7 +204,9 @@ main.ts:180625
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -212,7 +218,7 @@ main.ts:180625
 
 #### Defined in
 
-main.ts:180648
+main.ts:192736
 
 ***
 
@@ -222,7 +228,9 @@ main.ts:180648
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -234,4 +242,4 @@ main.ts:180648
 
 #### Defined in
 
-main.ts:180641
+main.ts:192729

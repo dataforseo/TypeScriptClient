@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphDataforseoLabsSerpElementItem
 
@@ -24,7 +24,7 @@ card id
 
 #### Defined in
 
-main.ts:96467
+main.ts:106111
 
 ***
 
@@ -36,7 +36,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:96475
+main.ts:106119
 
 ***
 
@@ -48,7 +48,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:96465
+main.ts:106109
 
 ***
 
@@ -60,7 +60,7 @@ URL of the image from knowledge graph
 
 #### Defined in
 
-main.ts:96471
+main.ts:106115
 
 ***
 
@@ -72,7 +72,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:96477
+main.ts:106121
 
 ***
 
@@ -84,7 +84,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:96473
+main.ts:106117
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -119,7 +119,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -136,7 +136,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -148,7 +148,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96459
+main.ts:106103
 
 ***
 
@@ -160,7 +160,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:96463
+main.ts:106107
 
 ***
 
@@ -172,7 +172,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:96461
+main.ts:106105
 
 ***
 
@@ -188,7 +188,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -200,7 +200,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:96469
+main.ts:106113
 
 ***
 
@@ -216,4 +216,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

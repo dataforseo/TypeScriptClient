@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBaiduLanguagesResultInfo
+[Documentation](../README.md) / SerpBaiduLanguagesResultInfo
 
 # Class: SerpBaiduLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBaiduLanguagesResultInfo`](../interfaces/ISerpBaiduLanguagesResultInfo.md)
+##### data?
+
+[`ISerpBaiduLanguagesResultInfo`](../interfaces/ISerpBaiduLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:69326
+main.ts:78738
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:69322
+main.ts:78734
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:69320
+main.ts:78732
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:69320
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:69320
 
 #### Defined in
 
-main.ts:69335
+main.ts:78747
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:69335
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:69335
 
 #### Defined in
 
-main.ts:69353
+main.ts:78765
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:69353
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:69353
 
 #### Defined in
 
-main.ts:69346
+main.ts:78758

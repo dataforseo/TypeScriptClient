@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordIntentInfo
+[Documentation](../README.md) / IKeywordIntentInfo
 
 # Interface: IKeywordIntentInfo
 
@@ -21,7 +21,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:86834
+main.ts:96552
 
 ***
 
@@ -34,4 +34,4 @@ search intent probability
 
 #### Defined in
 
-main.ts:86837
+main.ts:96555

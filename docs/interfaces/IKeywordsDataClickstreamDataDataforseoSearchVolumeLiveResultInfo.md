@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
 # Interface: IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
@@ -14,14 +14,14 @@
 
 ### items?
 
-> `optional` **items**: [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveItem`](../classes/KeywordsDataClickstreamDataDataforseoSearchVolumeLiveItem.md)[]
+> `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](../classes/KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
 
 array of keywords
 contains keywords and their search volume rates
 
 #### Defined in
 
-main.ts:136010
+main.ts:147867
 
 ***
 
@@ -33,7 +33,7 @@ ithe number of results returned in the items array
 
 #### Defined in
 
-main.ts:136007
+main.ts:147864
 
 ***
 
@@ -48,7 +48,7 @@ we use the functionality of Google Ads API to check and validate the spelling of
 
 #### Defined in
 
-main.ts:136002
+main.ts:147859
 
 ***
 
@@ -61,7 +61,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:135997
+main.ts:147854
 
 ***
 
@@ -74,4 +74,4 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:136005
+main.ts:147862

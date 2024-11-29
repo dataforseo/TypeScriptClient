@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixLighthouseOnPageDayStatisticsRatesData
+[Documentation](../README.md) / AppendixLighthouseOnPageDayStatisticsRatesData
 
 # Class: AppendixLighthouseOnPageDayStatisticsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:218928
+main.ts:233927
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:218928
 
 #### Defined in
 
-main.ts:218922
+main.ts:233921
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:218922
 
 #### Defined in
 
-main.ts:218923
+main.ts:233922
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:218923
 
 #### Defined in
 
-main.ts:218921
+main.ts:233920
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:218921
 
 #### Defined in
 
-main.ts:218920
+main.ts:233919
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:218920
 
 #### Defined in
 
-main.ts:218918
+main.ts:233917
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:218918
 
 #### Defined in
 
-main.ts:218919
+main.ts:233918
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:218919
 
 #### Defined in
 
-main.ts:218924
+main.ts:233923
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:218924
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:218924
 
 #### Defined in
 
-main.ts:218937
+main.ts:233936
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:218937
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:218937
 
 #### Defined in
 
-main.ts:218960
+main.ts:233959
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:218960
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:218960
 
 #### Defined in
 
-main.ts:218953
+main.ts:233952

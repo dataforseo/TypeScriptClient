@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / YoutubeCommentSerpElementItem
+[Documentation](../README.md) / YoutubeCommentSerpElementItem
 
 # Class: YoutubeCommentSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md)
+##### data?
+
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:65603
+main.ts:73825
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:65603
 
 #### Defined in
 
-main.ts:62288
+main.ts:70470
 
 ***
 
@@ -68,7 +70,7 @@ name of the author of the comment
 
 #### Defined in
 
-main.ts:65582
+main.ts:73804
 
 ***
 
@@ -84,7 +86,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-main.ts:65584
+main.ts:73806
 
 ***
 
@@ -100,7 +102,7 @@ URL of the author’s channel
 
 #### Defined in
 
-main.ts:65586
+main.ts:73808
 
 ***
 
@@ -116,7 +118,7 @@ number of likes on the comment
 
 #### Defined in
 
-main.ts:65597
+main.ts:73819
 
 ***
 
@@ -132,7 +134,7 @@ displayed publication date
 
 #### Defined in
 
-main.ts:65590
+main.ts:73812
 
 ***
 
@@ -153,7 +155,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62286
+main.ts:70468
 
 ***
 
@@ -175,7 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62283
+main.ts:70465
 
 ***
 
@@ -191,7 +193,7 @@ number of replies on the comment
 
 #### Defined in
 
-main.ts:65599
+main.ts:73821
 
 ***
 
@@ -207,7 +209,7 @@ text of the comment
 
 #### Defined in
 
-main.ts:65588
+main.ts:73810
 
 ***
 
@@ -226,7 +228,7 @@ example:
 
 #### Defined in
 
-main.ts:65595
+main.ts:73817
 
 ***
 
@@ -246,7 +248,7 @@ type of element
 
 #### Defined in
 
-main.ts:62279
+main.ts:70461
 
 ## Methods
 
@@ -256,7 +258,9 @@ main.ts:62279
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +272,7 @@ main.ts:62279
 
 #### Defined in
 
-main.ts:65608
+main.ts:73830
 
 ***
 
@@ -278,7 +282,9 @@ main.ts:65608
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -290,7 +296,7 @@ main.ts:65608
 
 #### Defined in
 
-main.ts:65633
+main.ts:73855
 
 ***
 
@@ -300,7 +306,9 @@ main.ts:65633
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -312,4 +320,4 @@ main.ts:65633
 
 #### Defined in
 
-main.ts:65626
+main.ts:73848

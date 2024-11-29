@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleImageImagesSearchSerpElementItem
+[Documentation](../README.md) / GoogleImageImagesSearchSerpElementItem
 
 # Class: GoogleImageImagesSearchSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md)
+##### data?
+
+[`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:47747
+main.ts:50908
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:47747
 
 #### Defined in
 
-main.ts:47581
+main.ts:50742
 
 ***
 
@@ -68,7 +70,7 @@ the alt tag of the image
 
 #### Defined in
 
-main.ts:47737
+main.ts:50898
 
 ***
 
@@ -84,7 +86,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Defined in
 
-main.ts:47743
+main.ts:50904
 
 ***
 
@@ -105,7 +107,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47577
+main.ts:50738
 
 ***
 
@@ -127,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47574
+main.ts:50735
 
 ***
 
@@ -143,7 +145,7 @@ the URL of the source image
 
 #### Defined in
 
-main.ts:47741
+main.ts:50902
 
 ***
 
@@ -159,7 +161,7 @@ subtitle of the result in SERP
 
 #### Defined in
 
-main.ts:47735
+main.ts:50896
 
 ***
 
@@ -175,7 +177,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:47733
+main.ts:50894
 
 ***
 
@@ -195,7 +197,7 @@ type of element
 
 #### Defined in
 
-main.ts:47570
+main.ts:50731
 
 ***
 
@@ -203,7 +205,7 @@ main.ts:47570
 
 > `optional` **url**: `string`
 
-the URL of the page where the image is hosted
+search URL with refinement parameters
 
 #### Implementation of
 
@@ -211,7 +213,7 @@ the URL of the page where the image is hosted
 
 #### Defined in
 
-main.ts:47739
+main.ts:50900
 
 ***
 
@@ -231,7 +233,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47579
+main.ts:50740
 
 ## Methods
 
@@ -241,7 +243,9 @@ main.ts:47579
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -253,7 +257,7 @@ main.ts:47579
 
 #### Defined in
 
-main.ts:47752
+main.ts:50913
 
 ***
 
@@ -263,7 +267,9 @@ main.ts:47752
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -275,7 +281,7 @@ main.ts:47752
 
 #### Defined in
 
-main.ts:47775
+main.ts:50936
 
 ***
 
@@ -285,7 +291,9 @@ main.ts:47775
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -297,4 +305,4 @@ main.ts:47775
 
 #### Defined in
 
-main.ts:47768
+main.ts:50929

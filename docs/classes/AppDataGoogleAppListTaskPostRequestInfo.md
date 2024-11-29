@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListTaskPostRequestInfo
+[Documentation](../README.md) / AppDataGoogleAppListTaskPostRequestInfo
 
 # Class: AppDataGoogleAppListTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:188164
+main.ts:200500
 
 ## Properties
 
@@ -54,7 +56,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 #### Defined in
 
-main.ts:188128
+main.ts:200464
 
 ***
 
@@ -76,7 +78,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 #### Defined in
 
-main.ts:188118
+main.ts:200454
 
 ***
 
@@ -97,7 +99,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 #### Defined in
 
-main.ts:188067
+main.ts:200403
 
 ***
 
@@ -118,7 +120,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:188110
+main.ts:200446
 
 ***
 
@@ -127,7 +129,7 @@ main.ts:188110
 > `optional` **language\_code**: `string`
 
 search engine language code
-optional field
+required field if language_name is not specified
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -139,7 +141,7 @@ en
 
 #### Defined in
 
-main.ts:188095
+main.ts:200431
 
 ***
 
@@ -148,7 +150,7 @@ main.ts:188095
 > `optional` **language\_name**: `string`
 
 full name of search engine language
-optional field
+required field if language_code is not specified
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -160,7 +162,7 @@ English
 
 #### Defined in
 
-main.ts:188088
+main.ts:200424
 
 ***
 
@@ -181,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:188081
+main.ts:200417
 
 ***
 
@@ -202,7 +204,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:188074
+main.ts:200410
 
 ***
 
@@ -217,8 +219,8 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
@@ -226,7 +228,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:188160
+main.ts:200496
 
 ***
 
@@ -246,7 +248,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:188150
+main.ts:200486
 
 ***
 
@@ -261,8 +263,8 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
@@ -270,7 +272,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:188144
+main.ts:200480
 
 ***
 
@@ -292,7 +294,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:188103
+main.ts:200439
 
 ***
 
@@ -312,7 +314,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:188134
+main.ts:200470
 
 ## Methods
 
@@ -322,7 +324,9 @@ main.ts:188134
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -330,7 +334,7 @@ main.ts:188134
 
 #### Defined in
 
-main.ts:188173
+main.ts:200509
 
 ***
 
@@ -340,7 +344,9 @@ main.ts:188173
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -348,7 +354,7 @@ main.ts:188173
 
 #### Defined in
 
-main.ts:188202
+main.ts:200538
 
 ***
 
@@ -358,7 +364,9 @@ main.ts:188202
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -366,4 +374,4 @@ main.ts:188202
 
 #### Defined in
 
-main.ts:188195
+main.ts:200531

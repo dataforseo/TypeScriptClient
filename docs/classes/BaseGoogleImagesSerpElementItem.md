@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseGoogleImagesSerpElementItem
+[Documentation](../README.md) / BaseGoogleImagesSerpElementItem
 
 # Class: BaseGoogleImagesSerpElementItem
 
@@ -24,7 +24,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseGoogleImagesSerpElementItem`](../interfaces/IBaseGoogleImagesSerpElementItem.md)
+##### data?
+
+[`IBaseGoogleImagesSerpElementItem`](../interfaces/IBaseGoogleImagesSerpElementItem.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@
 
 #### Defined in
 
-main.ts:47583
+main.ts:50744
 
 ## Properties
 
@@ -42,7 +44,7 @@ main.ts:47583
 
 #### Defined in
 
-main.ts:47581
+main.ts:50742
 
 ***
 
@@ -59,7 +61,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47577
+main.ts:50738
 
 ***
 
@@ -77,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47574
+main.ts:50735
 
 ***
 
@@ -93,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:47570
+main.ts:50731
 
 ***
 
@@ -109,7 +111,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47579
+main.ts:50740
 
 ## Methods
 
@@ -119,7 +121,9 @@ main.ts:47579
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -127,7 +131,7 @@ main.ts:47579
 
 #### Defined in
 
-main.ts:47593
+main.ts:50754
 
 ***
 
@@ -137,7 +141,9 @@ main.ts:47593
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +151,7 @@ main.ts:47593
 
 #### Defined in
 
-main.ts:47624
+main.ts:50785
 
 ***
 
@@ -155,7 +161,9 @@ main.ts:47624
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -163,4 +171,4 @@ main.ts:47624
 
 #### Defined in
 
-main.ts:47602
+main.ts:50763

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleLocalFinderTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:41907
+main.ts:43746
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:41884
+main.ts:43721
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:41889
+main.ts:43726
 
 ***
 
@@ -85,7 +87,7 @@ local_pack
 
 #### Defined in
 
-main.ts:41897
+main.ts:43736
 
 ***
 
@@ -93,7 +95,7 @@ main.ts:41897
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Implementation of
 
@@ -101,7 +103,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:41903
+main.ts:43742
 
 ***
 
@@ -117,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:41901
+main.ts:43740
 
 ***
 
@@ -134,7 +136,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:41873
+main.ts:43710
 
 ***
 
@@ -150,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:41881
+main.ts:43718
 
 ***
 
@@ -166,7 +168,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:41879
+main.ts:43716
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:43731
 
 ***
 
@@ -182,7 +200,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:41877
+main.ts:43714
 
 ***
 
@@ -198,7 +216,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:41899
+main.ts:43738
 
 ***
 
@@ -215,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:41892
+main.ts:43729
 
 ***
 
@@ -231,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:41875
+main.ts:43712
 
 ## Methods
 
@@ -241,7 +259,9 @@ main.ts:41875
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -249,7 +269,7 @@ main.ts:41875
 
 #### Defined in
 
-main.ts:41916
+main.ts:43755
 
 ***
 
@@ -259,7 +279,9 @@ main.ts:41916
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +289,7 @@ main.ts:41916
 
 #### Defined in
 
-main.ts:41952
+main.ts:43792
 
 ***
 
@@ -277,7 +299,9 @@ main.ts:41952
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -285,4 +309,4 @@ main.ts:41952
 
 #### Defined in
 
-main.ts:41945
+main.ts:43785

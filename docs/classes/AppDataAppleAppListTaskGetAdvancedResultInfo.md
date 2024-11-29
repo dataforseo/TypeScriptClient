@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataAppleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppListTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:195206
+main.ts:207552
 
 ## Properties
 
@@ -47,7 +49,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:195189
+main.ts:207535
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:195194
+main.ts:207540
 
 ***
 
@@ -83,7 +85,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:195202
+main.ts:207548
 
 ***
 
@@ -100,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:195199
+main.ts:207545
 
 ***
 
@@ -116,7 +118,7 @@ app collection received in a POST array
 
 #### Defined in
 
-main.ts:195180
+main.ts:207526
 
 ***
 
@@ -132,7 +134,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:195186
+main.ts:207532
 
 ***
 
@@ -148,7 +150,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:195184
+main.ts:207530
 
 ***
 
@@ -164,7 +166,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:195182
+main.ts:207528
 
 ***
 
@@ -180,7 +182,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:195196
+main.ts:207542
 
 ## Methods
 
@@ -190,7 +192,9 @@ main.ts:195196
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +202,7 @@ main.ts:195196
 
 #### Defined in
 
-main.ts:195215
+main.ts:207561
 
 ***
 
@@ -208,7 +212,9 @@ main.ts:195215
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +222,7 @@ main.ts:195215
 
 #### Defined in
 
-main.ts:195244
+main.ts:207590
 
 ***
 
@@ -226,7 +232,9 @@ main.ts:195244
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -234,4 +242,4 @@ main.ts:195244
 
 #### Defined in
 
-main.ts:195237
+main.ts:207583

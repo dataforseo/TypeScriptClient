@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleMapsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleMapsTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleMapsTaskGetAdvancedResultInfo
 
@@ -22,7 +22,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Defined in
 
-main.ts:40332
+main.ts:42153
 
 ***
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:40337
+main.ts:42158
 
 ***
 
@@ -52,7 +52,7 @@ maps_search, maps_paid_item
 
 #### Defined in
 
-main.ts:40345
+main.ts:42168
 
 ***
 
@@ -60,11 +60,11 @@ main.ts:40345
 
 > `optional` **items**: [`BaseGoogleMapsSerpElementItem`](../classes/BaseGoogleMapsSerpElementItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:40351
+main.ts:42174
 
 ***
 
@@ -76,7 +76,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:40349
+main.ts:42172
 
 ***
 
@@ -89,7 +89,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:40320
+main.ts:42141
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:40328
+main.ts:42149
 
 ***
 
@@ -113,7 +113,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:40326
+main.ts:42147
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:42163
 
 ***
 
@@ -125,7 +137,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:40324
+main.ts:42145
 
 ***
 
@@ -137,7 +149,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:40347
+main.ts:42170
 
 ***
 
@@ -150,7 +162,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:40340
+main.ts:42161
 
 ***
 
@@ -162,4 +174,4 @@ type of element
 
 #### Defined in
 
-main.ts:40322
+main.ts:42143

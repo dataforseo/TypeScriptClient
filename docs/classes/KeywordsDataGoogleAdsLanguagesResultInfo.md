@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsLanguagesResultInfo
 
 # Class: KeywordsDataGoogleAdsLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:117322
+main.ts:126494
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:117318
+main.ts:126490
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:117316
+main.ts:126488
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:117316
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:117316
 
 #### Defined in
 
-main.ts:117331
+main.ts:126503
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:117331
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:117331
 
 #### Defined in
 
-main.ts:117349
+main.ts:126521
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:117349
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:117349
 
 #### Defined in
 
-main.ts:117342
+main.ts:126514

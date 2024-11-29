@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalServicesElement
+[Documentation](../README.md) / ILocalServicesElement
 
 # Interface: ILocalServicesElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:34514
+main.ts:35999
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:34512
+main.ts:35997
 
 ***
 
@@ -44,7 +44,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:34519
+main.ts:36004
 
 ***
 
@@ -57,7 +57,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:34517
+main.ts:36002
 
 ***
 
@@ -69,7 +69,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34508
+main.ts:35993
 
 ***
 
@@ -81,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:34506
+main.ts:35991
 
 ***
 
@@ -93,4 +93,4 @@ URL
 
 #### Defined in
 
-main.ts:34510
+main.ts:35995

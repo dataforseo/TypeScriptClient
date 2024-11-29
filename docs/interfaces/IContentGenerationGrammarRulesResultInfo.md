@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGrammarRulesResultInfo
+[Documentation](../README.md) / IContentGenerationGrammarRulesResultInfo
 
 # Interface: IContentGenerationGrammarRulesResultInfo
 
@@ -20,4 +20,4 @@ array of rules
 
 #### Defined in
 
-main.ts:171710
+main.ts:183299

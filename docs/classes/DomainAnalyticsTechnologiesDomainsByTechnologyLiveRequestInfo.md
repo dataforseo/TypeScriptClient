@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:77806
+main.ts:87515
 
 ## Properties
 
@@ -51,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:77726
+main.ts:87434
 
 ***
 
@@ -82,7 +84,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:77765
+main.ts:87474
 
 ***
 
@@ -103,7 +105,7 @@ example:
 
 #### Defined in
 
-main.ts:77719
+main.ts:87427
 
 ***
 
@@ -118,6 +120,7 @@ you can specify the maximum of 10 keywords;
 UTF-8 encoding;
 example:
 ["seo","software"]
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -125,7 +128,7 @@ example:
 
 #### Defined in
 
-main.ts:77741
+main.ts:87450
 
 ***
 
@@ -144,7 +147,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77787
+main.ts:87496
 
 ***
 
@@ -165,7 +168,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:77748
+main.ts:87457
 
 ***
 
@@ -186,7 +189,7 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-main.ts:77794
+main.ts:87503
 
 ***
 
@@ -208,7 +211,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:77802
+main.ts:87511
 
 ***
 
@@ -239,7 +242,7 @@ example:
 
 #### Defined in
 
-main.ts:77782
+main.ts:87491
 
 ***
 
@@ -260,7 +263,7 @@ example:
 
 #### Defined in
 
-main.ts:77733
+main.ts:87441
 
 ***
 
@@ -284,7 +287,7 @@ example:
 
 #### Defined in
 
-main.ts:77712
+main.ts:87420
 
 ## Methods
 
@@ -294,7 +297,9 @@ main.ts:77712
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -302,7 +307,7 @@ main.ts:77712
 
 #### Defined in
 
-main.ts:77815
+main.ts:87524
 
 ***
 
@@ -312,7 +317,9 @@ main.ts:77815
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -320,7 +327,7 @@ main.ts:77815
 
 #### Defined in
 
-main.ts:77870
+main.ts:87579
 
 ***
 
@@ -330,7 +337,9 @@ main.ts:77870
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -338,4 +347,4 @@ main.ts:77870
 
 #### Defined in
 
-main.ts:77863
+main.ts:87572

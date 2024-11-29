@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:90652
+main.ts:100370
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:90648
+main.ts:100366
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:90646
+main.ts:100364
 
 ***
 
@@ -78,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:90642
+main.ts:100360
 
 ***
 
@@ -94,7 +96,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:90644
+main.ts:100362
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:90644
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:90644
 
 #### Defined in
 
-main.ts:90661
+main.ts:100379
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:90661
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:90661
 
 #### Defined in
 
-main.ts:90685
+main.ts:100403
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:90685
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:90685
 
 #### Defined in
 
-main.ts:90678
+main.ts:100396

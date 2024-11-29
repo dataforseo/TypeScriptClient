@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleHotelsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / GoogleHotelsDataforseoLabsSerpElementItem
 
 # Class: GoogleHotelsDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleHotelsDataforseoLabsSerpElementItem`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IGoogleHotelsDataforseoLabsSerpElementItem`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:99475
+main.ts:109211
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:99475
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -70,7 +72,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:99469
+main.ts:109205
 
 ***
 
@@ -92,7 +94,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -113,7 +115,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -134,7 +136,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -154,7 +156,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -170,7 +172,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:99471
+main.ts:109207
 
 ***
 
@@ -190,7 +192,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -200,7 +202,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -212,7 +216,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:99480
+main.ts:109216
 
 ***
 
@@ -222,7 +226,9 @@ main.ts:99480
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +240,7 @@ main.ts:99480
 
 #### Defined in
 
-main.ts:99499
+main.ts:109235
 
 ***
 
@@ -244,7 +250,9 @@ main.ts:99499
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -256,4 +264,4 @@ main.ts:99499
 
 #### Defined in
 
-main.ts:99492
+main.ts:109228

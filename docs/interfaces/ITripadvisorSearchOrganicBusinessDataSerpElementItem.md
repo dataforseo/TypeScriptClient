@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITripadvisorSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITripadvisorSearchOrganicBusinessDataSerpElementItem
 
@@ -24,7 +24,7 @@ place category
 
 #### Defined in
 
-main.ts:213260
+main.ts:228199
 
 ***
 
@@ -37,7 +37,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Defined in
 
-main.ts:213256
+main.ts:228195
 
 ***
 
@@ -49,7 +49,7 @@ average price rate
 
 #### Defined in
 
-main.ts:213262
+main.ts:228201
 
 ***
 
@@ -65,7 +65,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21397
+main.ts:22295
 
 ***
 
@@ -82,7 +82,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21395
+main.ts:22293
 
 ***
 
@@ -94,7 +94,7 @@ the rating score of the establishment submitted by the reviewers
 
 #### Defined in
 
-main.ts:213264
+main.ts:228203
 
 ***
 
@@ -106,7 +106,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:213258
+main.ts:228197
 
 ***
 
@@ -118,7 +118,7 @@ name of the business entity
 
 #### Defined in
 
-main.ts:213249
+main.ts:228188
 
 ***
 
@@ -134,7 +134,7 @@ type of element
 
 #### Defined in
 
-main.ts:21392
+main.ts:22290
 
 ***
 
@@ -148,4 +148,4 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Defined in
 
-main.ts:213253
+main.ts:228192

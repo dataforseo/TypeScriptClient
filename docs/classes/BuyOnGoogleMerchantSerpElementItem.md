@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BuyOnGoogleMerchantSerpElementItem
+[Documentation](../README.md) / BuyOnGoogleMerchantSerpElementItem
 
 # Class: BuyOnGoogleMerchantSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md)
+##### data?
+
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:176341
+main.ts:188074
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:176341
 
 #### Defined in
 
-main.ts:21044
+main.ts:21722
 
 ***
 
@@ -68,7 +70,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:176316
+main.ts:188049
 
 ***
 
@@ -86,7 +88,7 @@ USD
 
 #### Defined in
 
-main.ts:176327
+main.ts:188060
 
 ***
 
@@ -103,7 +105,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:176314
+main.ts:188047
 
 ***
 
@@ -119,7 +121,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:176307
+main.ts:188040
 
 ***
 
@@ -141,7 +143,7 @@ left, right
 
 #### Defined in
 
-main.ts:21042
+main.ts:21720
 
 ***
 
@@ -162,7 +164,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21038
+main.ts:21716
 
 ***
 
@@ -183,7 +185,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21035
+main.ts:21713
 
 ***
 
@@ -200,7 +202,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:176333
+main.ts:188066
 
 ***
 
@@ -217,7 +219,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:176330
+main.ts:188063
 
 ***
 
@@ -233,7 +235,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:176321
+main.ts:188054
 
 ***
 
@@ -251,7 +253,7 @@ in this case, the value equals null
 
 #### Defined in
 
-main.ts:176337
+main.ts:188070
 
 ***
 
@@ -268,7 +270,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:176319
+main.ts:188052
 
 ***
 
@@ -284,7 +286,7 @@ product title
 
 #### Defined in
 
-main.ts:176309
+main.ts:188042
 
 ***
 
@@ -300,7 +302,7 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:176323
+main.ts:188056
 
 ***
 
@@ -320,7 +322,7 @@ type of element
 
 #### Defined in
 
-main.ts:21032
+main.ts:21710
 
 ***
 
@@ -336,7 +338,7 @@ Google Shopping URL forwarding to the product page
 
 #### Defined in
 
-main.ts:176311
+main.ts:188044
 
 ***
 
@@ -352,7 +354,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:176305
+main.ts:188038
 
 ## Methods
 
@@ -362,7 +364,9 @@ main.ts:176305
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -374,7 +378,7 @@ main.ts:176305
 
 #### Defined in
 
-main.ts:176346
+main.ts:188079
 
 ***
 
@@ -384,7 +388,9 @@ main.ts:176346
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -396,7 +402,7 @@ main.ts:176346
 
 #### Defined in
 
-main.ts:176376
+main.ts:188109
 
 ***
 
@@ -406,7 +412,9 @@ main.ts:176376
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -418,4 +426,4 @@ main.ts:176376
 
 #### Defined in
 
-main.ts:176369
+main.ts:188102

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IntersectionSummaryInfo
+[Documentation](../README.md) / IntersectionSummaryInfo
 
 # Class: IntersectionSummaryInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md)
+##### data?
+
+[`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:146671
+main.ts:157876
 
 ## Properties
 
@@ -46,7 +48,7 @@ total number of intersections
 
 #### Defined in
 
-main.ts:146667
+main.ts:157872
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:146667
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:146667
 
 #### Defined in
 
-main.ts:146680
+main.ts:157885
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:146680
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:146680
 
 #### Defined in
 
-main.ts:146697
+main.ts:157902
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:146697
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:146697
 
 #### Defined in
 
-main.ts:146690
+main.ts:157895

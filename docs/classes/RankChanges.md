@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RankChanges
+[Documentation](../README.md) / RankChanges
 
 # Class: RankChanges
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRankChanges`](../interfaces/IRankChanges.md)
+##### data?
+
+[`IRankChanges`](../interfaces/IRankChanges.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:91207
+main.ts:100917
 
 ## Properties
 
@@ -47,7 +49,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Defined in
 
-main.ts:91203
+main.ts:100913
 
 ***
 
@@ -64,7 +66,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Defined in
 
-main.ts:91197
+main.ts:100907
 
 ***
 
@@ -81,7 +83,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Defined in
 
-main.ts:91200
+main.ts:100910
 
 ***
 
@@ -99,7 +101,7 @@ if this element is new, the value will be null
 
 #### Defined in
 
-main.ts:91194
+main.ts:100904
 
 ## Methods
 
@@ -109,7 +111,9 @@ main.ts:91194
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -117,7 +121,7 @@ main.ts:91194
 
 #### Defined in
 
-main.ts:91216
+main.ts:100926
 
 ***
 
@@ -127,7 +131,9 @@ main.ts:91216
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -135,7 +141,7 @@ main.ts:91216
 
 #### Defined in
 
-main.ts:91236
+main.ts:100946
 
 ***
 
@@ -145,7 +151,9 @@ main.ts:91236
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -153,4 +161,4 @@ main.ts:91236
 
 #### Defined in
 
-main.ts:91229
+main.ts:100939

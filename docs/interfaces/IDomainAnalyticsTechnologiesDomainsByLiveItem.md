@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByLiveItem
 
@@ -23,7 +23,7 @@ code of the language that content on the target domain is written with
 
 #### Defined in
 
-main.ts:78192
+main.ts:87902
 
 ***
 
@@ -36,7 +36,7 @@ ISO code of the country that target domain is determined to belong to
 
 #### Defined in
 
-main.ts:78186
+main.ts:87896
 
 ***
 
@@ -48,7 +48,7 @@ domain meta description
 
 #### Defined in
 
-main.ts:78173
+main.ts:87883
 
 ***
 
@@ -60,7 +60,7 @@ specified domain name
 
 #### Defined in
 
-main.ts:78169
+main.ts:87879
 
 ***
 
@@ -73,7 +73,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:78178
+main.ts:87888
 
 ***
 
@@ -86,7 +86,7 @@ emails indicated on the target website
 
 #### Defined in
 
-main.ts:78198
+main.ts:87908
 
 ***
 
@@ -99,7 +99,7 @@ code of the language that target domain is determined to be associated with
 
 #### Defined in
 
-main.ts:78189
+main.ts:87899
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:78183
+main.ts:87893
 
 ***
 
@@ -126,7 +126,7 @@ domain meta keywords
 
 #### Defined in
 
-main.ts:78175
+main.ts:87885
 
 ***
 
@@ -139,7 +139,7 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-main.ts:78195
+main.ts:87905
 
 ***
 
@@ -152,7 +152,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-main.ts:78201
+main.ts:87911
 
 ***
 
@@ -166,7 +166,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 #### Defined in
 
-main.ts:78205
+main.ts:87915
 
 ***
 
@@ -178,7 +178,7 @@ domain meta title
 
 #### Defined in
 
-main.ts:78171
+main.ts:87881
 
 ***
 
@@ -190,4 +190,4 @@ type of element
 
 #### Defined in
 
-main.ts:78167
+main.ts:87877

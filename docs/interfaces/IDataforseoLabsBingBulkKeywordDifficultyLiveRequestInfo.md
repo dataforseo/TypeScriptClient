@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
@@ -20,12 +20,12 @@ target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000
-each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:105691
+main.ts:115329
 
 ***
 
@@ -42,7 +42,7 @@ en
 
 #### Defined in
 
-main.ts:105721
+main.ts:115359
 
 ***
 
@@ -59,7 +59,7 @@ English
 
 #### Defined in
 
-main.ts:105714
+main.ts:115352
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:105707
+main.ts:115345
 
 ***
 
@@ -95,7 +95,7 @@ United States
 
 #### Defined in
 
-main.ts:105699
+main.ts:115337
 
 ***
 
@@ -111,4 +111,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:105727
+main.ts:115365

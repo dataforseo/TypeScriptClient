@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:102661
+main.ts:112399
 
 ***
 
@@ -45,7 +45,7 @@ default value: false
 
 #### Defined in
 
-main.ts:102671
+main.ts:112409
 
 ***
 
@@ -60,7 +60,7 @@ default value: false
 
 #### Defined in
 
-main.ts:102666
+main.ts:112404
 
 ***
 
@@ -71,12 +71,12 @@ main.ts:102666
 keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords should be specified in the lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:102617
+main.ts:112355
 
 ***
 
@@ -93,7 +93,7 @@ en
 
 #### Defined in
 
-main.ts:102649
+main.ts:112387
 
 ***
 
@@ -110,7 +110,7 @@ English
 
 #### Defined in
 
-main.ts:102642
+main.ts:112380
 
 ***
 
@@ -125,7 +125,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:102676
+main.ts:112414
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:102635
+main.ts:112373
 
 ***
 
@@ -163,7 +163,7 @@ United States
 
 #### Defined in
 
-main.ts:102626
+main.ts:112364
 
 ***
 
@@ -178,7 +178,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:102681
+main.ts:112419
 
 ***
 
@@ -194,4 +194,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:102687
+main.ts:112425

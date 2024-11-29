@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleRelevantPagesLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleRelevantPagesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleRelevantPagesLiveResultInfo
 
@@ -20,7 +20,7 @@ relevant pages and related data
 
 #### Defined in
 
-main.ts:95125
+main.ts:104843
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:95123
+main.ts:104841
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:95119
+main.ts:104837
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:95116
+main.ts:104834
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95111
+main.ts:104829
 
 ***
 
@@ -82,7 +82,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:95113
+main.ts:104831
 
 ***
 
@@ -94,4 +94,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:95121
+main.ts:104839

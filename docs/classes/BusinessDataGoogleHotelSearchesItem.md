@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesItem
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesItem
 
 # Class: BusinessDataGoogleHotelSearchesItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md)
+##### data?
+
+[`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:204121
+main.ts:217287
 
 ## Properties
 
@@ -48,7 +50,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:204100
+main.ts:217266
 
 ***
 
@@ -66,7 +68,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:204109
+main.ts:217275
 
 ***
 
@@ -82,7 +84,7 @@ GPS coordinates of the hotel’s location
 
 #### Defined in
 
-main.ts:204111
+main.ts:217277
 
 ***
 
@@ -98,7 +100,7 @@ featured images for a hotel
 
 #### Defined in
 
-main.ts:204115
+main.ts:217281
 
 ***
 
@@ -114,7 +116,7 @@ hotel price
 
 #### Defined in
 
-main.ts:204117
+main.ts:217283
 
 ***
 
@@ -130,7 +132,7 @@ hotel reviews and rating information
 
 #### Defined in
 
-main.ts:204113
+main.ts:217279
 
 ***
 
@@ -147,7 +149,7 @@ class rating that ranges between 1-5 stars
 
 #### Defined in
 
-main.ts:204105
+main.ts:217271
 
 ***
 
@@ -163,7 +165,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:204102
+main.ts:217268
 
 ***
 
@@ -179,7 +181,7 @@ type of element
 
 #### Defined in
 
-main.ts:204096
+main.ts:217262
 
 ## Methods
 
@@ -189,7 +191,9 @@ main.ts:204096
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +201,7 @@ main.ts:204096
 
 #### Defined in
 
-main.ts:204130
+main.ts:217296
 
 ***
 
@@ -207,7 +211,9 @@ main.ts:204130
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -215,7 +221,7 @@ main.ts:204130
 
 #### Defined in
 
-main.ts:204159
+main.ts:217325
 
 ***
 
@@ -225,7 +231,9 @@ main.ts:204159
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -233,4 +241,4 @@ main.ts:204159
 
 #### Defined in
 
-main.ts:204152
+main.ts:217318

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateContentResultInfo
+[Documentation](../README.md) / OnPageDuplicateContentResultInfo
 
 # Class: OnPageDuplicateContentResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateContentResultInfo`](../interfaces/IOnPageDuplicateContentResultInfo.md)
+##### data?
+
+[`IOnPageDuplicateContentResultInfo`](../interfaces/IOnPageDuplicateContentResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:157420
+main.ts:169055
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:157410
+main.ts:169045
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:157412
+main.ts:169047
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:157416
+main.ts:169051
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:157414
+main.ts:169049
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:157414
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:157414
 
 #### Defined in
 
-main.ts:157429
+main.ts:169064
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:157429
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:157429
 
 #### Defined in
 
-main.ts:157453
+main.ts:169088
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:157453
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:157453
 
 #### Defined in
 
-main.ts:157446
+main.ts:169081

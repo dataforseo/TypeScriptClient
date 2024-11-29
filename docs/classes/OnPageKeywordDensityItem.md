@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageKeywordDensityItem
+[Documentation](../README.md) / OnPageKeywordDensityItem
 
 # Class: OnPageKeywordDensityItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md)
+##### data?
+
+[`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:159599
+main.ts:171234
 
 ## Properties
 
@@ -47,7 +49,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 #### Defined in
 
-main.ts:159595
+main.ts:171230
 
 ***
 
@@ -64,7 +66,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 #### Defined in
 
-main.ts:159592
+main.ts:171227
 
 ***
 
@@ -80,7 +82,7 @@ returned keyword
 
 #### Defined in
 
-main.ts:159589
+main.ts:171224
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:159589
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:159589
 
 #### Defined in
 
-main.ts:159608
+main.ts:171243
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:159608
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:159608
 
 #### Defined in
 
-main.ts:159627
+main.ts:171262
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:159627
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:159627
 
 #### Defined in
 
-main.ts:159620
+main.ts:171255

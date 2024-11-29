@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IStocksBoxDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IStocksBoxDataforseoLabsSerpElementItem
 
 # Interface: IStocksBoxDataforseoLabsSerpElementItem
 
@@ -20,11 +20,11 @@
 
 > `optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Defined in
 
-main.ts:99263
+main.ts:108999
 
 ***
 
@@ -36,7 +36,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:99268
+main.ts:109004
 
 ***
 
@@ -54,19 +54,19 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of the shopping element
 
 #### Defined in
 
-main.ts:99259
+main.ts:108995
 
 ***
 
@@ -83,7 +83,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -100,7 +100,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -112,7 +112,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:99257
+main.ts:108993
 
 ***
 
@@ -125,7 +125,7 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-main.ts:99255
+main.ts:108991
 
 ***
 
@@ -138,7 +138,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:99266
+main.ts:109002
 
 ***
 
@@ -150,7 +150,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:99252
+main.ts:108988
 
 ***
 
@@ -166,7 +166,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -178,7 +178,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:99261
+main.ts:108997
 
 ***
 
@@ -194,4 +194,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

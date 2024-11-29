@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageSummaryResultInfo
+[Documentation](../README.md) / IOnPageSummaryResultInfo
 
 # Interface: IOnPageSummaryResultInfo
 
@@ -22,7 +22,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:154038
+main.ts:165665
 
 ***
 
@@ -35,7 +35,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:154032
+main.ts:165659
 
 ***
 
@@ -47,7 +47,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:154034
+main.ts:165661
 
 ***
 
@@ -65,7 +65,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Defined in
 
-main.ts:154046
+main.ts:165673
 
 ***
 
@@ -78,7 +78,7 @@ on-page information about the target domain and crawling process
 
 #### Defined in
 
-main.ts:154049
+main.ts:165676
 
 ***
 
@@ -91,4 +91,4 @@ metrics information on the target website pages
 
 #### Defined in
 
-main.ts:154052
+main.ts:165679

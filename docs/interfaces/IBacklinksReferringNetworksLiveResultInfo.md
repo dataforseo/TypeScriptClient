@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksReferringNetworksLiveResultInfo
+[Documentation](../README.md) / IBacklinksReferringNetworksLiveResultInfo
 
 # Interface: IBacklinksReferringNetworksLiveResultInfo
 
@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:145438
+main.ts:156643
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:145436
+main.ts:156641
 
 ***
 
@@ -44,7 +44,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:145432
+main.ts:156637
 
 ***
 
@@ -56,4 +56,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:145434
+main.ts:156639

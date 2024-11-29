@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphDescriptionItemSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphDescriptionItemSerpElementItem
 
 # Class: KnowledgeGraphDescriptionItemSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphDescriptionItemSerpElementItem`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphDescriptionItemSerpElementItem`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:28052
+main.ts:29611
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:28052
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -70,7 +72,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28044
+main.ts:29603
 
 ***
 
@@ -92,7 +94,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -113,7 +115,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -135,7 +137,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -153,7 +155,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28048
+main.ts:29607
 
 ***
 
@@ -169,7 +171,7 @@ text or description of the element in SERP
 
 #### Defined in
 
-main.ts:28040
+main.ts:29599
 
 ***
 
@@ -189,7 +191,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -209,7 +211,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -219,7 +221,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -231,7 +235,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28057
+main.ts:29616
 
 ***
 
@@ -241,7 +245,9 @@ main.ts:28057
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -253,7 +259,7 @@ main.ts:28057
 
 #### Defined in
 
-main.ts:28081
+main.ts:29640
 
 ***
 
@@ -263,7 +269,9 @@ main.ts:28081
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -275,4 +283,4 @@ main.ts:28081
 
 #### Defined in
 
-main.ts:28074
+main.ts:29633

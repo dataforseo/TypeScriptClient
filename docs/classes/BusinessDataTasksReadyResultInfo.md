@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataTasksReadyResultInfo
 
 # Class: BusinessDataTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:200886
+main.ts:213482
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:200878
+main.ts:213474
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:200882
+main.ts:213478
 
 ***
 
@@ -79,7 +81,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:200871
+main.ts:213467
 
 ***
 
@@ -96,7 +98,7 @@ can take the following values: tripadvisor
 
 #### Defined in
 
-main.ts:200874
+main.ts:213470
 
 ***
 
@@ -112,7 +114,7 @@ search engine type
 
 #### Defined in
 
-main.ts:200876
+main.ts:213472
 
 ***
 
@@ -128,7 +130,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:200880
+main.ts:213476
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:200880
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:200880
 
 #### Defined in
 
-main.ts:200895
+main.ts:213491
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:200895
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:200895
 
 #### Defined in
 
-main.ts:200917
+main.ts:213513
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:200917
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:200917
 
 #### Defined in
 
-main.ts:200910
+main.ts:213506

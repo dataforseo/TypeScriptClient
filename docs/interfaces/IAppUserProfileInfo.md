@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppUserProfileInfo
+[Documentation](../README.md) / IAppUserProfileInfo
 
 # Interface: IAppUserProfileInfo
 
@@ -20,7 +20,7 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-main.ts:191013
+main.ts:203349
 
 ***
 
@@ -32,4 +32,4 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:191011
+main.ts:203347

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleEventsLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleEventsLiveAdvancedResultInfo
 
 # Class: SerpGoogleEventsLiveAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:46816
+main.ts:49637
 
 ## Properties
 
@@ -46,7 +48,7 @@ direct URL to search engine results
 
 #### Defined in
 
-main.ts:46792
+main.ts:49611
 
 ***
 
@@ -65,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:46797
+main.ts:49616
 
 ***
 
@@ -83,7 +85,7 @@ event_item
 
 #### Defined in
 
-main.ts:46804
+main.ts:49625
 
 ***
 
@@ -91,7 +93,7 @@ main.ts:46804
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-items in SERP
+items of the element
 
 #### Implementation of
 
@@ -99,7 +101,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:46812
+main.ts:49633
 
 ***
 
@@ -115,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:46810
+main.ts:49631
 
 ***
 
@@ -124,7 +126,7 @@ main.ts:46810
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -132,7 +134,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:46781
+main.ts:49600
 
 ***
 
@@ -149,7 +151,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:46790
+main.ts:49609
 
 ***
 
@@ -165,7 +167,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:46787
+main.ts:49606
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:49621
 
 ***
 
@@ -181,7 +199,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:46785
+main.ts:49604
 
 ***
 
@@ -199,7 +217,7 @@ this search engine does not indicate the total number of results
 
 #### Defined in
 
-main.ts:46808
+main.ts:49629
 
 ***
 
@@ -216,7 +234,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:46800
+main.ts:49619
 
 ***
 
@@ -232,7 +250,7 @@ type of element
 
 #### Defined in
 
-main.ts:46783
+main.ts:49602
 
 ## Methods
 
@@ -242,7 +260,9 @@ main.ts:46783
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +270,7 @@ main.ts:46783
 
 #### Defined in
 
-main.ts:46825
+main.ts:49646
 
 ***
 
@@ -260,7 +280,9 @@ main.ts:46825
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +290,7 @@ main.ts:46825
 
 #### Defined in
 
-main.ts:46861
+main.ts:49683
 
 ***
 
@@ -278,7 +300,9 @@ main.ts:46861
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +310,4 @@ main.ts:46861
 
 #### Defined in
 
-main.ts:46854
+main.ts:49676

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksTimeseriesSummaryLiveRequestInfo
+[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveRequestInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveRequestInfo
 
@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:148135
+main.ts:159340
 
 ***
 
@@ -46,7 +46,7 @@ example:
 
 #### Defined in
 
-main.ts:148144
+main.ts:159349
 
 ***
 
@@ -69,7 +69,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-main.ts:148157
+main.ts:159362
 
 ***
 
@@ -84,7 +84,7 @@ default value: true
 
 #### Defined in
 
-main.ts:148162
+main.ts:159367
 
 ***
 
@@ -100,7 +100,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:148168
+main.ts:159373
 
 ***
 
@@ -116,4 +116,4 @@ example:
 
 #### Defined in
 
-main.ts:148126
+main.ts:159331

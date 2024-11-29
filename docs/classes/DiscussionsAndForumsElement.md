@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DiscussionsAndForumsElement
+[Documentation](../README.md) / DiscussionsAndForumsElement
 
 # Class: DiscussionsAndForumsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md)
+##### data?
+
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:36096
+main.ts:37581
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:36085
+main.ts:37570
 
 ***
 
@@ -62,7 +64,7 @@ website domain
 
 #### Defined in
 
-main.ts:36080
+main.ts:37565
 
 ***
 
@@ -78,7 +80,7 @@ number of posts from the discussion on the related source
 
 #### Defined in
 
-main.ts:36092
+main.ts:37577
 
 ***
 
@@ -95,7 +97,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36083
+main.ts:37568
 
 ***
 
@@ -114,7 +116,7 @@ example:
 
 #### Defined in
 
-main.ts:36090
+main.ts:37575
 
 ***
 
@@ -130,7 +132,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36076
+main.ts:37561
 
 ***
 
@@ -146,7 +148,7 @@ type of element
 
 #### Defined in
 
-main.ts:36074
+main.ts:37559
 
 ***
 
@@ -162,7 +164,7 @@ URL
 
 #### Defined in
 
-main.ts:36078
+main.ts:37563
 
 ## Methods
 
@@ -172,7 +174,9 @@ main.ts:36078
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +184,7 @@ main.ts:36078
 
 #### Defined in
 
-main.ts:36105
+main.ts:37590
 
 ***
 
@@ -190,7 +194,9 @@ main.ts:36105
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +204,7 @@ main.ts:36105
 
 #### Defined in
 
-main.ts:36129
+main.ts:37614
 
 ***
 
@@ -208,7 +214,9 @@ main.ts:36129
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:36129
 
 #### Defined in
 
-main.ts:36122
+main.ts:37607

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleProductSpecTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantGoogleProductSpecTaskPostRequestInfo
 
 # Interface: IMerchantGoogleProductSpecTaskPostRequestInfo
 
@@ -29,7 +29,7 @@ example:
 
 #### Defined in
 
-main.ts:177166
+main.ts:188901
 
 ***
 
@@ -46,7 +46,7 @@ en
 
 #### Defined in
 
-main.ts:177152
+main.ts:188887
 
 ***
 
@@ -63,7 +63,7 @@ English
 
 #### Defined in
 
-main.ts:177145
+main.ts:188880
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:177129
+main.ts:188864
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:177138
+main.ts:188873
 
 ***
 
@@ -116,7 +116,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:177122
+main.ts:188857
 
 ***
 
@@ -131,12 +131,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:177198
+main.ts:188935
 
 ***
 
@@ -152,7 +153,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:177188
+main.ts:188924
 
 ***
 
@@ -167,12 +168,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:177182
+main.ts:188918
 
 ***
 
@@ -190,7 +192,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:177115
+main.ts:188850
 
 ***
 
@@ -206,7 +208,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:177107
+main.ts:188842
 
 ***
 
@@ -223,7 +225,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:177159
+main.ts:188894
 
 ***
 
@@ -239,4 +241,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:177172
+main.ts:188907

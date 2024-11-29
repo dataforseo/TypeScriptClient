@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpNaverOrganicTaskPostTaskInfo
+[Documentation](../README.md) / SerpNaverOrganicTaskPostTaskInfo
 
 # Class: SerpNaverOrganicTaskPostTaskInfo
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpNaverOrganicTaskPostTaskInfo`](../interfaces/ISerpNaverOrganicTaskPostTaskInfo.md)
+##### data?
+
+[`ISerpNaverOrganicTaskPostTaskInfo`](../interfaces/ISerpNaverOrganicTaskPostTaskInfo.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:71189
+main.ts:80885
 
 ## Properties
 
@@ -58,7 +60,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24244
+main.ts:25309
 
 ***
 
@@ -82,7 +84,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:24250
+main.ts:25315
 
 ***
 
@@ -103,7 +105,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:24233
+main.ts:25298
 
 ***
 
@@ -123,7 +125,7 @@ URL path
 
 #### Defined in
 
-main.ts:24248
+main.ts:25313
 
 ***
 
@@ -140,7 +142,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:71185
+main.ts:80881
 
 ***
 
@@ -160,7 +162,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:24246
+main.ts:25311
 
 ***
 
@@ -182,7 +184,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24237
+main.ts:25302
 
 ***
 
@@ -203,7 +205,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24240
+main.ts:25305
 
 ***
 
@@ -223,7 +225,7 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:24242
+main.ts:25307
 
 ## Methods
 
@@ -233,7 +235,9 @@ main.ts:24242
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -245,7 +249,7 @@ main.ts:24242
 
 #### Defined in
 
-main.ts:71193
+main.ts:80889
 
 ***
 
@@ -255,7 +259,9 @@ main.ts:71193
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +273,7 @@ main.ts:71193
 
 #### Defined in
 
-main.ts:71211
+main.ts:80907
 
 ***
 
@@ -277,7 +283,9 @@ main.ts:71211
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -289,4 +297,4 @@ main.ts:71211
 
 #### Defined in
 
-main.ts:71204
+main.ts:80900

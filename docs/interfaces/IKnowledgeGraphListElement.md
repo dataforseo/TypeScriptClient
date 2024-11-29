@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphListElement
+[Documentation](../README.md) / IKnowledgeGraphListElement
 
 # Interface: IKnowledgeGraphListElement
 
@@ -20,7 +20,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:27940
+main.ts:29499
 
 ***
 
@@ -33,7 +33,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:27943
+main.ts:29502
 
 ***
 
@@ -45,7 +45,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:27936
+main.ts:29495
 
 ***
 
@@ -57,7 +57,7 @@ link anchor text
 
 #### Defined in
 
-main.ts:27934
+main.ts:29493
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:27932
+main.ts:29491
 
 ***
 
@@ -81,7 +81,7 @@ sitelink URL
 
 #### Defined in
 
-main.ts:27938
+main.ts:29497
 
 ***
 
@@ -93,4 +93,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:27945
+main.ts:29504

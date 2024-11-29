@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelPriceInfo
+[Documentation](../README.md) / HotelPriceInfo
 
 # Class: HotelPriceInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md)
+##### data?
+
+[`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:204005
+main.ts:217171
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:203990
+main.ts:217156
 
 ***
 
@@ -68,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:203995
+main.ts:217161
 
 ***
 
@@ -85,7 +87,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:203983
+main.ts:217149
 
 ***
 
@@ -101,7 +103,7 @@ text about a discount applied
 
 #### Defined in
 
-main.ts:203985
+main.ts:217151
 
 ***
 
@@ -119,7 +121,7 @@ possible item types: hotel_search_item
 
 #### Defined in
 
-main.ts:204001
+main.ts:217167
 
 ***
 
@@ -135,7 +137,7 @@ price per night
 
 #### Defined in
 
-main.ts:203978
+main.ts:217144
 
 ***
 
@@ -151,7 +153,7 @@ full price per night without a discount applied
 
 #### Defined in
 
-main.ts:203980
+main.ts:217146
 
 ***
 
@@ -167,7 +169,7 @@ number of hotel visitors for this price
 
 #### Defined in
 
-main.ts:203997
+main.ts:217163
 
 ## Methods
 
@@ -177,7 +179,9 @@ main.ts:203997
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -185,7 +189,7 @@ main.ts:203997
 
 #### Defined in
 
-main.ts:204014
+main.ts:217180
 
 ***
 
@@ -195,7 +199,9 @@ main.ts:204014
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -203,7 +209,7 @@ main.ts:204014
 
 #### Defined in
 
-main.ts:204042
+main.ts:217208
 
 ***
 
@@ -213,7 +219,9 @@ main.ts:204042
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -221,4 +229,4 @@ main.ts:204042
 
 #### Defined in
 
-main.ts:204035
+main.ts:217201

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSearchIntentLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveItem
 
 # Class: DataforseoLabsGoogleSearchIntentLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:86852
+main.ts:96570
 
 ## Properties
 
@@ -46,7 +48,7 @@ target keyword in a POST array
 
 #### Defined in
 
-main.ts:86844
+main.ts:96562
 
 ***
 
@@ -62,7 +64,7 @@ search intent data relevant for the specified keyword
 
 #### Defined in
 
-main.ts:86846
+main.ts:96564
 
 ***
 
@@ -78,7 +80,7 @@ contains objects with other possible search intents for the specified keyword
 
 #### Defined in
 
-main.ts:86848
+main.ts:96566
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:86848
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:86848
 
 #### Defined in
 
-main.ts:86861
+main.ts:96579
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:86861
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:86861
 
 #### Defined in
 
-main.ts:86884
+main.ts:96602
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:86884
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:86884
 
 #### Defined in
 
-main.ts:86877
+main.ts:96595

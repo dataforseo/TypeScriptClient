@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixStatusResultInfo
+[Documentation](../README.md) / IAppendixStatusResultInfo
 
 # Interface: IAppendixStatusResultInfo
 
@@ -33,7 +33,7 @@ content_generation
 
 #### Defined in
 
-main.ts:224346
+main.ts:239533
 
 ***
 
@@ -45,7 +45,7 @@ array of objects that contain status information for API endpoints
 
 #### Defined in
 
-main.ts:224358
+main.ts:239545
 
 ***
 
@@ -65,4 +65,4 @@ send_delay
 
 #### Defined in
 
-main.ts:224356
+main.ts:239543

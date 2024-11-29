@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixFunctionTypeInfo
+[Documentation](../README.md) / AppendixFunctionTypeInfo
 
 # Class: AppendixFunctionTypeInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md)
+##### data?
+
+[`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:215488
+main.ts:230431
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:215488
 
 #### Defined in
 
-main.ts:215483
+main.ts:230426
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:215483
 
 #### Defined in
 
-main.ts:215484
+main.ts:230427
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:215484
 
 #### Defined in
 
-main.ts:215482
+main.ts:230425
 
 ## Methods
 
@@ -82,7 +84,9 @@ main.ts:215482
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -90,7 +94,7 @@ main.ts:215482
 
 #### Defined in
 
-main.ts:215497
+main.ts:230440
 
 ***
 
@@ -100,7 +104,9 @@ main.ts:215497
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +114,7 @@ main.ts:215497
 
 #### Defined in
 
-main.ts:215516
+main.ts:230459
 
 ***
 
@@ -118,7 +124,9 @@ main.ts:215516
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -126,4 +134,4 @@ main.ts:215516
 
 #### Defined in
 
-main.ts:215509
+main.ts:230452

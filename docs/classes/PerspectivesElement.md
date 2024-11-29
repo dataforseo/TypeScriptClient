@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PerspectivesElement
+[Documentation](../README.md) / PerspectivesElement
 
 # Class: PerspectivesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md)
+##### data?
+
+[`IPerspectivesElement`](../interfaces/IPerspectivesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:35924
+main.ts:37409
 
 ## Properties
 
@@ -46,7 +48,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:35912
+main.ts:37397
 
 ***
 
@@ -62,7 +64,7 @@ description
 
 #### Defined in
 
-main.ts:35906
+main.ts:37391
 
 ***
 
@@ -78,7 +80,7 @@ website domain
 
 #### Defined in
 
-main.ts:35910
+main.ts:37395
 
 ***
 
@@ -95,7 +97,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:35915
+main.ts:37400
 
 ***
 
@@ -114,7 +116,7 @@ example:
 
 #### Defined in
 
-main.ts:35920
+main.ts:37405
 
 ***
 
@@ -130,7 +132,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35904
+main.ts:37389
 
 ***
 
@@ -146,7 +148,7 @@ type of element
 
 #### Defined in
 
-main.ts:35902
+main.ts:37387
 
 ***
 
@@ -162,7 +164,7 @@ URL
 
 #### Defined in
 
-main.ts:35908
+main.ts:37393
 
 ## Methods
 
@@ -172,7 +174,9 @@ main.ts:35908
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +184,7 @@ main.ts:35908
 
 #### Defined in
 
-main.ts:35933
+main.ts:37418
 
 ***
 
@@ -190,7 +194,9 @@ main.ts:35933
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +204,7 @@ main.ts:35933
 
 #### Defined in
 
-main.ts:35957
+main.ts:37442
 
 ***
 
@@ -208,7 +214,9 @@ main.ts:35957
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:35957
 
 #### Defined in
 
-main.ts:35950
+main.ts:37435

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPositiveConnotationDistribution
+[Documentation](../README.md) / IPositiveConnotationDistribution
 
 # Interface: IPositiveConnotationDistribution
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:167597
+main.ts:179186
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:167597
 
 #### Defined in
 
-main.ts:167598
+main.ts:179187
 
 ***
 
@@ -38,4 +38,4 @@ main.ts:167598
 
 #### Defined in
 
-main.ts:167596
+main.ts:179185

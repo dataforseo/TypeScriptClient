@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseProductInformationItem
+[Documentation](../README.md) / BaseProductInformationItem
 
 # Class: BaseProductInformationItem
 
@@ -24,7 +24,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md)
+##### data?
+
+[`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@
 
 #### Defined in
 
-main.ts:23361
+main.ts:24259
 
 ## Properties
 
@@ -42,7 +44,7 @@ main.ts:23361
 
 #### Defined in
 
-main.ts:23359
+main.ts:24257
 
 ***
 
@@ -58,7 +60,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:23357
+main.ts:24255
 
 ***
 
@@ -74,7 +76,7 @@ type of element
 
 #### Defined in
 
-main.ts:23355
+main.ts:24253
 
 ## Methods
 
@@ -84,7 +86,9 @@ main.ts:23355
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -92,7 +96,7 @@ main.ts:23355
 
 #### Defined in
 
-main.ts:23371
+main.ts:24269
 
 ***
 
@@ -102,7 +106,9 @@ main.ts:23371
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -110,7 +116,7 @@ main.ts:23371
 
 #### Defined in
 
-main.ts:23400
+main.ts:24298
 
 ***
 
@@ -120,7 +126,9 @@ main.ts:23400
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -128,4 +136,4 @@ main.ts:23400
 
 #### Defined in
 
-main.ts:23378
+main.ts:24276

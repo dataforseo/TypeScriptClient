@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBulkMetricsInfo
+[Documentation](../README.md) / IBulkMetricsInfo
 
 # Interface: IBulkMetricsInfo
 
@@ -23,7 +23,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:101071
+main.ts:110809
 
 ***
 
@@ -35,7 +35,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:101066
+main.ts:110804
 
 ***
 
@@ -50,4 +50,4 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:101064
+main.ts:110802

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IStocksBoxSerpElementItem
+[Documentation](../README.md) / IStocksBoxSerpElementItem
 
 # Interface: IStocksBoxSerpElementItem
 
@@ -24,7 +24,7 @@ source domain
 
 #### Defined in
 
-main.ts:33630
+main.ts:35183
 
 ***
 
@@ -36,7 +36,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:33639
+main.ts:35192
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -66,7 +66,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33626
+main.ts:35179
 
 ***
 
@@ -83,7 +83,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -115,7 +115,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33634
+main.ts:35187
 
 ***
 
@@ -127,7 +127,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:33624
+main.ts:35177
 
 ***
 
@@ -140,7 +140,7 @@ indicates the source of the video
 
 #### Defined in
 
-main.ts:33622
+main.ts:35175
 
 ***
 
@@ -153,7 +153,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33637
+main.ts:35190
 
 ***
 
@@ -165,7 +165,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33619
+main.ts:35172
 
 ***
 
@@ -181,7 +181,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -193,7 +193,7 @@ source URL
 
 #### Defined in
 
-main.ts:33628
+main.ts:35181
 
 ***
 
@@ -209,4 +209,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

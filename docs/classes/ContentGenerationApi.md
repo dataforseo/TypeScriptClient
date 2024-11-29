@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationApi
+[Documentation](../README.md) / ContentGenerationApi
 
 # Class: ContentGenerationApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:14217
+main.ts:14773
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:14217
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:14217
 
 #### Defined in
 
-main.ts:14215
+main.ts:14771
 
 ## Methods
 
@@ -56,7 +62,9 @@ main.ts:14215
 
 #### Parameters
 
-• **body**: [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)[]
 
 (optional)
 
@@ -68,7 +76,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14436
+main.ts:14992
 
 ***
 
@@ -84,7 +92,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14477
+main.ts:15033
 
 ***
 
@@ -100,7 +108,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14593
+main.ts:15149
 
 ***
 
@@ -110,7 +118,9 @@ main.ts:14593
 
 #### Parameters
 
-• **body**: [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)[]
 
 (optional)
 
@@ -122,7 +132,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14226
+main.ts:14782
 
 ***
 
@@ -132,7 +142,9 @@ main.ts:14226
 
 #### Parameters
 
-• **body**: [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -144,7 +156,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14310
+main.ts:14866
 
 ***
 
@@ -154,7 +166,9 @@ main.ts:14310
 
 #### Parameters
 
-• **body**: [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -166,7 +180,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14352
+main.ts:14908
 
 ***
 
@@ -176,7 +190,9 @@ main.ts:14352
 
 #### Parameters
 
-• **body**: [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)[]
 
 (optional)
 
@@ -188,7 +204,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14268
+main.ts:14824
 
 ***
 
@@ -204,7 +220,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14514
+main.ts:15070
 
 ***
 
@@ -214,7 +230,9 @@ main.ts:14514
 
 #### Parameters
 
-• **body**: [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)[]
 
 (optional)
 
@@ -226,7 +244,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14394
+main.ts:14950
 
 ***
 
@@ -236,7 +254,9 @@ main.ts:14394
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -244,7 +264,7 @@ main.ts:14394
 
 #### Defined in
 
-main.ts:14456
+main.ts:15012
 
 ***
 
@@ -254,7 +274,9 @@ main.ts:14456
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -262,7 +284,7 @@ main.ts:14456
 
 #### Defined in
 
-main.ts:14493
+main.ts:15049
 
 ***
 
@@ -272,7 +294,9 @@ main.ts:14493
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -280,7 +304,7 @@ main.ts:14493
 
 #### Defined in
 
-main.ts:14609
+main.ts:15165
 
 ***
 
@@ -290,7 +314,9 @@ main.ts:14609
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -298,7 +324,7 @@ main.ts:14609
 
 #### Defined in
 
-main.ts:14246
+main.ts:14802
 
 ***
 
@@ -308,7 +334,9 @@ main.ts:14246
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -316,7 +344,7 @@ main.ts:14246
 
 #### Defined in
 
-main.ts:14330
+main.ts:14886
 
 ***
 
@@ -326,7 +354,9 @@ main.ts:14330
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -334,7 +364,7 @@ main.ts:14330
 
 #### Defined in
 
-main.ts:14372
+main.ts:14928
 
 ***
 
@@ -344,7 +374,9 @@ main.ts:14372
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -352,7 +384,7 @@ main.ts:14372
 
 #### Defined in
 
-main.ts:14288
+main.ts:14844
 
 ***
 
@@ -362,7 +394,9 @@ main.ts:14288
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -370,7 +404,7 @@ main.ts:14288
 
 #### Defined in
 
-main.ts:14530
+main.ts:15086
 
 ***
 
@@ -380,7 +414,9 @@ main.ts:14530
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -388,7 +424,7 @@ main.ts:14530
 
 #### Defined in
 
-main.ts:14414
+main.ts:14970
 
 ***
 
@@ -398,7 +434,9 @@ main.ts:14414
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -406,7 +444,7 @@ main.ts:14414
 
 #### Defined in
 
-main.ts:14572
+main.ts:15128
 
 ***
 
@@ -416,7 +454,9 @@ main.ts:14572
 
 #### Parameters
 
-• **body**: [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -428,4 +468,4 @@ Successful operation
 
 #### Defined in
 
-main.ts:14552
+main.ts:15108

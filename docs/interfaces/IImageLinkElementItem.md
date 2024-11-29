@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IImageLinkElementItem
+[Documentation](../README.md) / IImageLinkElementItem
 
 # Interface: IImageLinkElementItem
 
@@ -29,7 +29,7 @@ possible values: internal, external
 
 #### Defined in
 
-main.ts:21788
+main.ts:22686
 
 ***
 
@@ -46,7 +46,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-main.ts:21781
+main.ts:22679
 
 ***
 
@@ -63,7 +63,7 @@ the link was found on this domain
 
 #### Defined in
 
-main.ts:21763
+main.ts:22661
 
 ***
 
@@ -80,7 +80,7 @@ the link is pointing to this domain
 
 #### Defined in
 
-main.ts:21766
+main.ts:22664
 
 ***
 
@@ -92,7 +92,7 @@ alternative text for the image
 
 #### Defined in
 
-main.ts:158052
+main.ts:169687
 
 ***
 
@@ -104,7 +104,7 @@ url of the image
 
 #### Defined in
 
-main.ts:158054
+main.ts:169689
 
 ***
 
@@ -121,7 +121,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-main.ts:21791
+main.ts:22689
 
 ***
 
@@ -138,7 +138,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Defined in
 
-main.ts:21794
+main.ts:22692
 
 ***
 
@@ -153,7 +153,7 @@ example:
 
 #### Defined in
 
-main.ts:158048
+main.ts:169683
 
 ***
 
@@ -170,7 +170,7 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21775
+main.ts:22673
 
 ***
 
@@ -187,7 +187,7 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21778
+main.ts:22676
 
 ***
 
@@ -204,7 +204,7 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21769
+main.ts:22667
 
 ***
 
@@ -220,7 +220,7 @@ url scheme of the referring page
 
 #### Defined in
 
-main.ts:21783
+main.ts:22681
 
 ***
 
@@ -237,7 +237,7 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21772
+main.ts:22670
 
 ***
 
@@ -253,7 +253,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-main.ts:21785
+main.ts:22683
 
 ***
 
@@ -266,7 +266,7 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:158057
+main.ts:169692
 
 ***
 
@@ -278,7 +278,7 @@ anchor text
 
 #### Defined in
 
-main.ts:158050
+main.ts:169685
 
 ***
 
@@ -294,4 +294,4 @@ type of element
 
 #### Defined in
 
-main.ts:21760
+main.ts:22658

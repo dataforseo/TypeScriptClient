@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleShoppingPaidMerchantSerpElementItem
+[Documentation](../README.md) / GoogleShoppingPaidMerchantSerpElementItem
 
 # Class: GoogleShoppingPaidMerchantSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md)
+##### data?
+
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:174738
+main.ts:186467
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:174738
 
 #### Defined in
 
-main.ts:21044
+main.ts:21722
 
 ***
 
@@ -68,7 +70,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:174729
+main.ts:186458
 
 ***
 
@@ -84,7 +86,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:174725
+main.ts:186454
 
 ***
 
@@ -106,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:21042
+main.ts:21720
 
 ***
 
@@ -127,7 +129,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21038
+main.ts:21716
 
 ***
 
@@ -148,7 +150,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21035
+main.ts:21713
 
 ***
 
@@ -165,7 +167,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:174734
+main.ts:186463
 
 ***
 
@@ -181,7 +183,7 @@ product title
 
 #### Defined in
 
-main.ts:174727
+main.ts:186456
 
 ***
 
@@ -201,7 +203,7 @@ type of element
 
 #### Defined in
 
-main.ts:21032
+main.ts:21710
 
 ***
 
@@ -217,7 +219,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:174731
+main.ts:186460
 
 ***
 
@@ -233,7 +235,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174723
+main.ts:186452
 
 ## Methods
 
@@ -243,7 +245,9 @@ main.ts:174723
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -255,7 +259,7 @@ main.ts:174723
 
 #### Defined in
 
-main.ts:174743
+main.ts:186472
 
 ***
 
@@ -265,7 +269,9 @@ main.ts:174743
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -277,7 +283,7 @@ main.ts:174743
 
 #### Defined in
 
-main.ts:174766
+main.ts:186495
 
 ***
 
@@ -287,7 +293,9 @@ main.ts:174766
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -299,4 +307,4 @@ main.ts:174766
 
 #### Defined in
 
-main.ts:174759
+main.ts:186488

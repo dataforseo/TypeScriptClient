@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PriceInfo
+[Documentation](../README.md) / PriceInfo
 
 # Class: PriceInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPriceInfo`](../interfaces/IPriceInfo.md)
+##### data?
+
+[`IPriceInfo`](../interfaces/IPriceInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23045
+main.ts:23943
 
 ## Properties
 
@@ -47,7 +49,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:23035
+main.ts:23933
 
 ***
 
@@ -64,7 +66,7 @@ indicates the current price of the product or service featured in the result
 
 #### Defined in
 
-main.ts:23026
+main.ts:23924
 
 ***
 
@@ -81,7 +83,7 @@ raw price string as provided in the result
 
 #### Defined in
 
-main.ts:23041
+main.ts:23939
 
 ***
 
@@ -98,7 +100,7 @@ indicates whether a price is provided in a range
 
 #### Defined in
 
-main.ts:23038
+main.ts:23936
 
 ***
 
@@ -115,7 +117,7 @@ the maximum price of the product or service as indicated in the result
 
 #### Defined in
 
-main.ts:23032
+main.ts:23930
 
 ***
 
@@ -132,7 +134,7 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Defined in
 
-main.ts:23029
+main.ts:23927
 
 ## Methods
 
@@ -142,7 +144,9 @@ main.ts:23029
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +154,7 @@ main.ts:23029
 
 #### Defined in
 
-main.ts:23054
+main.ts:23952
 
 ***
 
@@ -160,7 +164,9 @@ main.ts:23054
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -168,7 +174,7 @@ main.ts:23054
 
 #### Defined in
 
-main.ts:23076
+main.ts:23974
 
 ***
 
@@ -178,7 +184,9 @@ main.ts:23076
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -186,4 +194,4 @@ main.ts:23076
 
 #### Defined in
 
-main.ts:23069
+main.ts:23967

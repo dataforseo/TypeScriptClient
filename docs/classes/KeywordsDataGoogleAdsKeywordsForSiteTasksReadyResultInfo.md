@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:118737
+main.ts:128469
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:118729
+main.ts:128461
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:118733
+main.ts:128465
 
 ***
 
@@ -78,7 +80,7 @@ type of the task
 
 #### Defined in
 
-main.ts:118727
+main.ts:128459
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:118723
+main.ts:128455
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:118725
+main.ts:128457
 
 ***
 
@@ -127,7 +129,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:118731
+main.ts:128463
 
 ## Methods
 
@@ -137,7 +139,9 @@ main.ts:118731
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -145,7 +149,7 @@ main.ts:118731
 
 #### Defined in
 
-main.ts:118746
+main.ts:128478
 
 ***
 
@@ -155,7 +159,9 @@ main.ts:118746
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +169,7 @@ main.ts:118746
 
 #### Defined in
 
-main.ts:118768
+main.ts:128500
 
 ***
 
@@ -173,7 +179,9 @@ main.ts:118768
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -181,4 +189,4 @@ main.ts:118768
 
 #### Defined in
 
-main.ts:118761
+main.ts:128493

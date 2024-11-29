@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksPageIntersectionLiveResultInfo
+[Documentation](../README.md) / IBacklinksPageIntersectionLiveResultInfo
 
 # Interface: IBacklinksPageIntersectionLiveResultInfo
 
@@ -20,7 +20,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:147906
+main.ts:159111
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:147904
+main.ts:159109
 
 ***
 
@@ -48,7 +48,7 @@ targets from a POST array
 
 #### Defined in
 
-main.ts:147900
+main.ts:159105
 
 ***
 
@@ -60,4 +60,4 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:147902
+main.ts:159107

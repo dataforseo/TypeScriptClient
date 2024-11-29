@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
@@ -22,7 +22,7 @@
 
 #### Defined in
 
-main.ts:75425
+main.ts:85129
 
 ***
 
@@ -36,7 +36,7 @@ main.ts:75425
 
 #### Defined in
 
-main.ts:75427
+main.ts:85131
 
 ***
 
@@ -50,7 +50,7 @@ main.ts:75427
 
 #### Defined in
 
-main.ts:75424
+main.ts:85128
 
 ***
 
@@ -64,4 +64,4 @@ main.ts:75424
 
 #### Defined in
 
-main.ts:75426
+main.ts:85130

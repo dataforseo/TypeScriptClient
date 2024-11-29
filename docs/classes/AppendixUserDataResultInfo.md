@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixUserDataResultInfo
+[Documentation](../README.md) / AppendixUserDataResultInfo
 
 # Class: AppendixUserDataResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md)
+##### data?
+
+[`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:223670
+main.ts:238857
 
 ## Properties
 
@@ -46,7 +48,7 @@ your login
 
 #### Defined in
 
-main.ts:223657
+main.ts:238844
 
 ***
 
@@ -62,7 +64,7 @@ section of your spending, USD
 
 #### Defined in
 
-main.ts:223664
+main.ts:238851
 
 ***
 
@@ -78,7 +80,7 @@ pricing
 
 #### Defined in
 
-main.ts:223666
+main.ts:238853
 
 ***
 
@@ -94,7 +96,7 @@ your API rates
 
 #### Defined in
 
-main.ts:223662
+main.ts:238849
 
 ***
 
@@ -111,7 +113,7 @@ can be set in your profile settings
 
 #### Defined in
 
-main.ts:223660
+main.ts:238847
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:223660
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:223660
 
 #### Defined in
 
-main.ts:223679
+main.ts:238866
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:223679
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:223679
 
 #### Defined in
 
-main.ts:223700
+main.ts:238887
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:223700
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:223700
 
 #### Defined in
 
-main.ts:223693
+main.ts:238880

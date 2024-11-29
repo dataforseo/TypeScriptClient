@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoTrendsDemographyElementItem
+[Documentation](../README.md) / DataforseoTrendsDemographyElementItem
 
 # Class: DataforseoTrendsDemographyElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md)
+##### data?
+
+[`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:127581
+main.ts:137840
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:127581
 
 #### Defined in
 
-main.ts:21899
+main.ts:22797
 
 ***
 
@@ -69,7 +71,7 @@ conains keyword popularity data by age and gender
 
 #### Defined in
 
-main.ts:127576
+main.ts:137835
 
 ***
 
@@ -83,7 +85,7 @@ main.ts:127576
 
 #### Defined in
 
-main.ts:127577
+main.ts:137836
 
 ***
 
@@ -104,7 +106,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21897
+main.ts:22795
 
 ***
 
@@ -125,7 +127,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21894
+main.ts:22792
 
 ***
 
@@ -145,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:21891
+main.ts:22789
 
 ## Methods
 
@@ -155,7 +157,9 @@ main.ts:21891
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -167,7 +171,7 @@ main.ts:21891
 
 #### Defined in
 
-main.ts:127586
+main.ts:137845
 
 ***
 
@@ -177,7 +181,9 @@ main.ts:127586
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -189,7 +195,7 @@ main.ts:127586
 
 #### Defined in
 
-main.ts:127605
+main.ts:137864
 
 ***
 
@@ -199,7 +205,9 @@ main.ts:127605
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -211,4 +219,4 @@ main.ts:127605
 
 #### Defined in
 
-main.ts:127598
+main.ts:137857

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsDomainRankOverviewLiveItem
+[Documentation](../README.md) / DataforseoLabsDomainRankOverviewLiveItem
 
 # Class: DataforseoLabsDomainRankOverviewLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md)
+##### data?
+
+[`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:95438
+main.ts:105156
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:95432
+main.ts:105150
 
 ***
 
@@ -62,7 +64,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:95430
+main.ts:105148
 
 ***
 
@@ -82,7 +84,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:95434
+main.ts:105152
 
 ***
 
@@ -98,7 +100,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95428
+main.ts:105146
 
 ## Methods
 
@@ -108,7 +110,9 @@ main.ts:95428
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +120,7 @@ main.ts:95428
 
 #### Defined in
 
-main.ts:95447
+main.ts:105165
 
 ***
 
@@ -126,7 +130,9 @@ main.ts:95447
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +140,7 @@ main.ts:95447
 
 #### Defined in
 
-main.ts:95473
+main.ts:105191
 
 ***
 
@@ -144,7 +150,9 @@ main.ts:95473
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -152,4 +160,4 @@ main.ts:95473
 
 #### Defined in
 
-main.ts:95466
+main.ts:105184

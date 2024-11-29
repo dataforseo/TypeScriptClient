@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingPageIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingPageIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsBingPageIntersectionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:108029
+main.ts:117591
 
 ## Properties
 
@@ -57,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:107908
+main.ts:117470
 
 ***
 
@@ -91,7 +93,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:108003
+main.ts:117565
 
 ***
 
@@ -110,7 +112,7 @@ default value: false
 
 #### Defined in
 
-main.ts:107955
+main.ts:117517
 
 ***
 
@@ -129,7 +131,7 @@ default value: false
 
 #### Defined in
 
-main.ts:107983
+main.ts:117545
 
 ***
 
@@ -148,7 +150,7 @@ default value: true
 
 #### Defined in
 
-main.ts:107970
+main.ts:117532
 
 ***
 
@@ -170,7 +172,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:107978
+main.ts:117540
 
 ***
 
@@ -192,7 +194,7 @@ default value:
 
 #### Defined in
 
-main.ts:107950
+main.ts:117512
 
 ***
 
@@ -214,7 +216,7 @@ en
 
 #### Defined in
 
-main.ts:107942
+main.ts:117504
 
 ***
 
@@ -236,7 +238,7 @@ English
 
 #### Defined in
 
-main.ts:107934
+main.ts:117496
 
 ***
 
@@ -255,7 +257,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107960
+main.ts:117522
 
 ***
 
@@ -278,7 +280,7 @@ example:
 
 #### Defined in
 
-main.ts:107926
+main.ts:117488
 
 ***
 
@@ -301,7 +303,7 @@ United States
 
 #### Defined in
 
-main.ts:107917
+main.ts:117479
 
 ***
 
@@ -320,7 +322,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:107965
+main.ts:117527
 
 ***
 
@@ -350,7 +352,7 @@ example:
 
 #### Defined in
 
-main.ts:108019
+main.ts:117581
 
 ***
 
@@ -389,7 +391,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:107895
+main.ts:117457
 
 ***
 
@@ -409,7 +411,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:108025
+main.ts:117587
 
 ## Methods
 
@@ -419,7 +421,9 @@ main.ts:108025
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -427,7 +431,7 @@ main.ts:108025
 
 #### Defined in
 
-main.ts:108038
+main.ts:117600
 
 ***
 
@@ -437,7 +441,9 @@ main.ts:108038
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -445,7 +451,7 @@ main.ts:108038
 
 #### Defined in
 
-main.ts:108092
+main.ts:117654
 
 ***
 
@@ -455,7 +461,9 @@ main.ts:108092
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -463,4 +471,4 @@ main.ts:108092
 
 #### Defined in
 
-main.ts:108085
+main.ts:117647

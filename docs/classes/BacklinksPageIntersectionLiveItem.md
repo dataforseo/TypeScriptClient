@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksPageIntersectionLiveItem
+[Documentation](../README.md) / BacklinksPageIntersectionLiveItem
 
 # Class: BacklinksPageIntersectionLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksPageIntersectionLiveItem`](../interfaces/IBacklinksPageIntersectionLiveItem.md)
+##### data?
+
+[`IBacklinksPageIntersectionLiveItem`](../interfaces/IBacklinksPageIntersectionLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:147762
+main.ts:158967
 
 ## Properties
 
@@ -43,7 +45,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md) \| `undefined`)[]
+ \[`key`: `string`\]: [`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md)[]
 
 #### Implementation of
 
@@ -51,7 +53,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 #### Defined in
 
-main.ts:147756
+main.ts:158961
 
 ***
 
@@ -67,7 +69,7 @@ contains the page intersections summary
 
 #### Defined in
 
-main.ts:147758
+main.ts:158963
 
 ## Methods
 
@@ -77,7 +79,9 @@ main.ts:147758
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -85,7 +89,7 @@ main.ts:147758
 
 #### Defined in
 
-main.ts:147771
+main.ts:158976
 
 ***
 
@@ -95,7 +99,9 @@ main.ts:147771
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -103,7 +109,7 @@ main.ts:147771
 
 #### Defined in
 
-main.ts:147795
+main.ts:159000
 
 ***
 
@@ -113,7 +119,9 @@ main.ts:147795
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -121,4 +129,4 @@ main.ts:147795
 
 #### Defined in
 
-main.ts:147788
+main.ts:158993

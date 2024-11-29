@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAiOverviewReference
+[Documentation](../README.md) / IAiOverviewReference
 
 # Interface: IAiOverviewReference
 
@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:29265
+main.ts:30824
 
 ***
 
@@ -32,7 +32,7 @@ reference source name or title
 
 #### Defined in
 
-main.ts:29263
+main.ts:30822
 
 ***
 
@@ -44,7 +44,7 @@ row content
 
 #### Defined in
 
-main.ts:29271
+main.ts:30830
 
 ***
 
@@ -56,7 +56,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29269
+main.ts:30828
 
 ***
 
@@ -68,7 +68,7 @@ type of element
 
 #### Defined in
 
-main.ts:29261
+main.ts:30820
 
 ***
 
@@ -80,4 +80,4 @@ URL
 
 #### Defined in
 
-main.ts:29267
+main.ts:30826

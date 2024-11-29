@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IShopsListMerchantSerpElementItem
+[Documentation](../README.md) / IShopsListMerchantSerpElementItem
 
 # Interface: IShopsListMerchantSerpElementItem
 
@@ -24,7 +24,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:176271
+main.ts:188004
 
 ***
 
@@ -38,7 +38,7 @@ USD
 
 #### Defined in
 
-main.ts:176282
+main.ts:188015
 
 ***
 
@@ -51,7 +51,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:176269
+main.ts:188002
 
 ***
 
@@ -63,7 +63,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:176261
+main.ts:187994
 
 ***
 
@@ -81,7 +81,7 @@ left, right
 
 #### Defined in
 
-main.ts:21135
+main.ts:21813
 
 ***
 
@@ -95,7 +95,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Defined in
 
-main.ts:176298
+main.ts:188031
 
 ***
 
@@ -108,7 +108,7 @@ possible values: Used, Refurbished, New, null
 
 #### Defined in
 
-main.ts:176294
+main.ts:188027
 
 ***
 
@@ -125,7 +125,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21131
+main.ts:21809
 
 ***
 
@@ -142,7 +142,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21128
+main.ts:21806
 
 ***
 
@@ -155,7 +155,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:176288
+main.ts:188021
 
 ***
 
@@ -168,7 +168,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:176285
+main.ts:188018
 
 ***
 
@@ -180,7 +180,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:176276
+main.ts:188009
 
 ***
 
@@ -193,7 +193,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:176291
+main.ts:188024
 
 ***
 
@@ -206,7 +206,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:176274
+main.ts:188007
 
 ***
 
@@ -218,7 +218,7 @@ product title
 
 #### Defined in
 
-main.ts:176263
+main.ts:187996
 
 ***
 
@@ -230,7 +230,7 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:176278
+main.ts:188011
 
 ***
 
@@ -246,7 +246,7 @@ type of element
 
 #### Defined in
 
-main.ts:21125
+main.ts:21803
 
 ***
 
@@ -259,7 +259,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 #### Defined in
 
-main.ts:176266
+main.ts:187999
 
 ***
 
@@ -271,4 +271,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:176259
+main.ts:187992

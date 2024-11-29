@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PeopleAlsoAskElement
+[Documentation](../README.md) / PeopleAlsoAskElement
 
 # Class: PeopleAlsoAskElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPeopleAlsoAskElement`](../interfaces/IPeopleAlsoAskElement.md)
+##### data?
+
+[`IPeopleAlsoAskElement`](../interfaces/IPeopleAlsoAskElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:30326
+main.ts:31885
 
 ## Properties
 
@@ -46,7 +48,7 @@ expanded element
 
 #### Defined in
 
-main.ts:30322
+main.ts:31881
 
 ***
 
@@ -62,7 +64,7 @@ question that triggered additional expanded elements
 
 #### Defined in
 
-main.ts:30318
+main.ts:31877
 
 ***
 
@@ -78,7 +80,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30316
+main.ts:31875
 
 ***
 
@@ -94,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:30314
+main.ts:31873
 
 ***
 
@@ -110,7 +112,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:30320
+main.ts:31879
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:30320
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:30320
 
 #### Defined in
 
-main.ts:30335
+main.ts:31894
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:30335
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:30335
 
 #### Defined in
 
-main.ts:30360
+main.ts:31919
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:30360
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:30360
 
 #### Defined in
 
-main.ts:30353
+main.ts:31912

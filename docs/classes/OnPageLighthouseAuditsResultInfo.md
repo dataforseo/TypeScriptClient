@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseAuditsResultInfo
+[Documentation](../README.md) / OnPageLighthouseAuditsResultInfo
 
 # Class: OnPageLighthouseAuditsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md)
+##### data?
+
+[`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:163375
+main.ts:174964
 
 ## Properties
 
@@ -48,7 +50,7 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Defined in
 
-main.ts:163371
+main.ts:174960
 
 ## Methods
 
@@ -58,7 +60,9 @@ main.ts:163371
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -66,7 +70,7 @@ main.ts:163371
 
 #### Defined in
 
-main.ts:163384
+main.ts:174973
 
 ***
 
@@ -76,7 +80,9 @@ main.ts:163384
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -84,7 +90,7 @@ main.ts:163384
 
 #### Defined in
 
-main.ts:163405
+main.ts:174994
 
 ***
 
@@ -94,7 +100,9 @@ main.ts:163405
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -102,4 +110,4 @@ main.ts:163405
 
 #### Defined in
 
-main.ts:163398
+main.ts:174987

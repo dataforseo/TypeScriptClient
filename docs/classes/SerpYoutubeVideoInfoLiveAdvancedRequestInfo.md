@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:62861
+main.ts:71051
 
 ## Properties
 
@@ -48,7 +50,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:62846
+main.ts:71036
 
 ***
 
@@ -69,7 +71,7 @@ en
 
 #### Defined in
 
-main.ts:62842
+main.ts:71032
 
 ***
 
@@ -90,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:62835
+main.ts:71025
 
 ***
 
@@ -111,7 +113,7 @@ example:
 
 #### Defined in
 
-main.ts:62828
+main.ts:71018
 
 ***
 
@@ -132,7 +134,7 @@ United States
 
 #### Defined in
 
-main.ts:62821
+main.ts:71011
 
 ***
 
@@ -151,7 +153,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:62851
+main.ts:71041
 
 ***
 
@@ -171,7 +173,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:62857
+main.ts:71047
 
 ***
 
@@ -191,7 +193,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:62814
+main.ts:71004
 
 ## Methods
 
@@ -201,7 +203,9 @@ main.ts:62814
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -209,7 +213,7 @@ main.ts:62814
 
 #### Defined in
 
-main.ts:62870
+main.ts:71060
 
 ***
 
@@ -219,7 +223,9 @@ main.ts:62870
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -227,7 +233,7 @@ main.ts:62870
 
 #### Defined in
 
-main.ts:62894
+main.ts:71084
 
 ***
 
@@ -237,7 +243,9 @@ main.ts:62894
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -245,4 +253,4 @@ main.ts:62894
 
 #### Defined in
 
-main.ts:62887
+main.ts:71077

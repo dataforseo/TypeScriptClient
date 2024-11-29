@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsLocationsCountryResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsLocationsCountryResultInfo
 
 # Interface: IKeywordsDataGoogleAdsLocationsCountryResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:117196
+main.ts:126368
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:117183
+main.ts:126355
 
 ***
 
@@ -51,7 +51,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:117194
+main.ts:126366
 
 ***
 
@@ -63,7 +63,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:117185
+main.ts:126357
 
 ***
 
@@ -76,4 +76,4 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:117199
+main.ts:126371

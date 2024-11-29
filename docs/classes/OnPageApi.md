@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageApi
+[Documentation](../README.md) / OnPageApi
 
 # Class: OnPageApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:12517
+main.ts:13073
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:12517
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:12517
 
 #### Defined in
 
-main.ts:12515
+main.ts:13071
 
 ## Methods
 
@@ -56,7 +62,9 @@ main.ts:12515
 
 #### Parameters
 
-• **body**: [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)[]
+##### body
+
+[`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)[]
 
 (optional)
 
@@ -68,7 +76,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13359
+main.ts:13915
 
 ***
 
@@ -78,7 +86,9 @@ main.ts:13359
 
 #### Parameters
 
-• **body**: [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)[]
+##### body
+
+[`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)[]
 
 (optional)
 
@@ -90,7 +100,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13401
+main.ts:13957
 
 ***
 
@@ -100,7 +110,9 @@ main.ts:13401
 
 #### Parameters
 
-• **body**: [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)[]
+##### body
+
+[`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)[]
 
 (optional)
 
@@ -112,7 +124,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12981
+main.ts:13537
 
 ***
 
@@ -122,7 +134,9 @@ main.ts:12981
 
 #### Parameters
 
-• **body**: [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)[]
+##### body
+
+[`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)[]
 
 (optional)
 
@@ -134,7 +148,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12939
+main.ts:13495
 
 ***
 
@@ -144,7 +158,9 @@ main.ts:12939
 
 #### Parameters
 
-• **body**: [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)[]
+##### body
+
+[`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)[]
 
 (optional)
 
@@ -156,7 +172,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12610
+main.ts:13166
 
 ***
 
@@ -166,7 +182,9 @@ main.ts:12610
 
 #### Parameters
 
-• **body**: [`OnPageInstantPagesRequestInfo`](OnPageInstantPagesRequestInfo.md)[]
+##### body
+
+[`OnPageInstantPagesRequestInfo`](OnPageInstantPagesRequestInfo.md)[]
 
 (optional)
 
@@ -178,7 +196,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13443
+main.ts:13999
 
 ***
 
@@ -188,7 +206,9 @@ main.ts:13443
 
 #### Parameters
 
-• **body**: [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)[]
+##### body
+
+[`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)[]
 
 (optional)
 
@@ -200,7 +220,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13191
+main.ts:13747
 
 ***
 
@@ -216,7 +236,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13521
+main.ts:14077
 
 ***
 
@@ -226,7 +246,9 @@ main.ts:13521
 
 #### Parameters
 
-• **body**: [`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)[]
+##### body
+
+[`OnPageLighthouseLiveJsonRequestInfo`](OnPageLighthouseLiveJsonRequestInfo.md)[]
 
 (optional)
 
@@ -238,7 +260,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13720
+main.ts:14276
 
 ***
 
@@ -248,7 +270,9 @@ main.ts:13720
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 required field
@@ -264,7 +288,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13679
+main.ts:14235
 
 ***
 
@@ -274,7 +298,9 @@ main.ts:13679
 
 #### Parameters
 
-• **body**: [`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)[]
+##### body
+
+[`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -286,7 +312,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13596
+main.ts:14152
 
 ***
 
@@ -302,7 +328,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13637
+main.ts:14193
 
 ***
 
@@ -318,7 +344,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13558
+main.ts:14114
 
 ***
 
@@ -328,7 +354,9 @@ main.ts:13558
 
 #### Parameters
 
-• **body**: [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)[]
+##### body
+
+[`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)[]
 
 (optional)
 
@@ -340,7 +368,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13023
+main.ts:13579
 
 ***
 
@@ -350,7 +378,9 @@ main.ts:13023
 
 #### Parameters
 
-• **body**: [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)[]
+##### body
+
+[`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)[]
 
 (optional)
 
@@ -362,7 +392,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13233
+main.ts:13789
 
 ***
 
@@ -372,7 +402,9 @@ main.ts:13233
 
 #### Parameters
 
-• **body**: [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)[]
+##### body
+
+[`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)[]
 
 (optional)
 
@@ -384,7 +416,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13107
+main.ts:13663
 
 ***
 
@@ -400,7 +432,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12651
+main.ts:13207
 
 ***
 
@@ -410,7 +442,9 @@ main.ts:12651
 
 #### Parameters
 
-• **body**: [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)[]
+##### body
+
+[`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -422,7 +456,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12568
+main.ts:13124
 
 ***
 
@@ -432,7 +466,9 @@ main.ts:12568
 
 #### Parameters
 
-• **body**: [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)[]
+##### body
+
+[`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)[]
 
 (optional)
 
@@ -444,7 +480,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12526
+main.ts:13082
 
 ***
 
@@ -460,7 +496,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13484
+main.ts:14040
 
 ***
 
@@ -476,29 +512,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12730
-
-***
-
-### pageScreenshot()
-
-> **pageScreenshot**(`body`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
-
-#### Parameters
-
-• **body**: [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)[]
-
-(optional)
-
-#### Returns
-
-`Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
-
-Successful operation
-
-#### Defined in
-
-main.ts:13317
+main.ts:13286
 
 ***
 
@@ -508,7 +522,9 @@ main.ts:13317
 
 #### Parameters
 
-• **body**: [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)[]
+##### body
+
+[`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)[]
 
 (optional)
 
@@ -520,7 +536,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12813
+main.ts:13369
 
 ***
 
@@ -530,7 +546,9 @@ main.ts:12813
 
 #### Parameters
 
-• **body**: [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)[]
+##### body
+
+[`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)[]
 
 (optional)
 
@@ -542,7 +560,31 @@ Successful operation
 
 #### Defined in
 
-main.ts:12855
+main.ts:13411
+
+***
+
+### pageScreenshot()
+
+> **pageScreenshot**(`body`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:13873
 
 ***
 
@@ -552,7 +594,9 @@ main.ts:12855
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -560,7 +604,7 @@ main.ts:12855
 
 #### Defined in
 
-main.ts:13379
+main.ts:13935
 
 ***
 
@@ -570,7 +614,9 @@ main.ts:13379
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -578,7 +624,7 @@ main.ts:13379
 
 #### Defined in
 
-main.ts:13421
+main.ts:13977
 
 ***
 
@@ -588,7 +634,9 @@ main.ts:13421
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -596,7 +644,7 @@ main.ts:13421
 
 #### Defined in
 
-main.ts:13001
+main.ts:13557
 
 ***
 
@@ -606,7 +654,9 @@ main.ts:13001
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -614,7 +664,7 @@ main.ts:13001
 
 #### Defined in
 
-main.ts:12959
+main.ts:13515
 
 ***
 
@@ -624,7 +674,9 @@ main.ts:12959
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -632,7 +684,7 @@ main.ts:12959
 
 #### Defined in
 
-main.ts:12630
+main.ts:13186
 
 ***
 
@@ -642,7 +694,9 @@ main.ts:12630
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -650,7 +704,7 @@ main.ts:12630
 
 #### Defined in
 
-main.ts:13463
+main.ts:14019
 
 ***
 
@@ -660,7 +714,9 @@ main.ts:13463
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -668,7 +724,7 @@ main.ts:13463
 
 #### Defined in
 
-main.ts:13211
+main.ts:13767
 
 ***
 
@@ -678,7 +734,9 @@ main.ts:13211
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -686,7 +744,7 @@ main.ts:13211
 
 #### Defined in
 
-main.ts:13537
+main.ts:14093
 
 ***
 
@@ -696,7 +754,9 @@ main.ts:13537
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -704,7 +764,7 @@ main.ts:13537
 
 #### Defined in
 
-main.ts:13740
+main.ts:14296
 
 ***
 
@@ -714,7 +774,9 @@ main.ts:13740
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -722,7 +784,7 @@ main.ts:13740
 
 #### Defined in
 
-main.ts:13698
+main.ts:14254
 
 ***
 
@@ -732,7 +794,9 @@ main.ts:13698
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -740,7 +804,7 @@ main.ts:13698
 
 #### Defined in
 
-main.ts:13616
+main.ts:14172
 
 ***
 
@@ -750,7 +814,9 @@ main.ts:13616
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -758,7 +824,7 @@ main.ts:13616
 
 #### Defined in
 
-main.ts:13653
+main.ts:14209
 
 ***
 
@@ -768,7 +834,9 @@ main.ts:13653
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -776,7 +844,7 @@ main.ts:13653
 
 #### Defined in
 
-main.ts:13574
+main.ts:14130
 
 ***
 
@@ -786,7 +854,9 @@ main.ts:13574
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -794,7 +864,7 @@ main.ts:13574
 
 #### Defined in
 
-main.ts:13043
+main.ts:13599
 
 ***
 
@@ -804,7 +874,9 @@ main.ts:13043
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -812,7 +884,7 @@ main.ts:13043
 
 #### Defined in
 
-main.ts:13253
+main.ts:13809
 
 ***
 
@@ -822,7 +894,9 @@ main.ts:13253
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -830,7 +904,7 @@ main.ts:13253
 
 #### Defined in
 
-main.ts:13127
+main.ts:13683
 
 ***
 
@@ -840,7 +914,9 @@ main.ts:13127
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -848,7 +924,7 @@ main.ts:13127
 
 #### Defined in
 
-main.ts:12667
+main.ts:13223
 
 ***
 
@@ -858,7 +934,9 @@ main.ts:12667
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -866,7 +944,7 @@ main.ts:12667
 
 #### Defined in
 
-main.ts:12588
+main.ts:13144
 
 ***
 
@@ -876,7 +954,9 @@ main.ts:12588
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -884,7 +964,7 @@ main.ts:12588
 
 #### Defined in
 
-main.ts:12546
+main.ts:13102
 
 ***
 
@@ -894,7 +974,9 @@ main.ts:12546
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -902,7 +984,7 @@ main.ts:12546
 
 #### Defined in
 
-main.ts:13500
+main.ts:14056
 
 ***
 
@@ -912,7 +994,9 @@ main.ts:13500
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -920,25 +1004,7 @@ main.ts:13500
 
 #### Defined in
 
-main.ts:12746
-
-***
-
-### processPageScreenshot()
-
-> `protected` **processPageScreenshot**(`response`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
-
-#### Parameters
-
-• **response**: `Response`
-
-#### Returns
-
-`Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:13337
+main.ts:13302
 
 ***
 
@@ -948,7 +1014,9 @@ main.ts:13337
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -956,7 +1024,7 @@ main.ts:13337
 
 #### Defined in
 
-main.ts:12833
+main.ts:13389
 
 ***
 
@@ -966,7 +1034,9 @@ main.ts:12833
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -974,7 +1044,27 @@ main.ts:12833
 
 #### Defined in
 
-main.ts:12875
+main.ts:13431
+
+***
+
+### processPageScreenshot()
+
+> `protected` **processPageScreenshot**(`response`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:13893
 
 ***
 
@@ -984,7 +1074,9 @@ main.ts:12875
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -992,7 +1084,7 @@ main.ts:12875
 
 #### Defined in
 
-main.ts:13295
+main.ts:13851
 
 ***
 
@@ -1002,7 +1094,9 @@ main.ts:13295
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1010,7 +1104,7 @@ main.ts:13295
 
 #### Defined in
 
-main.ts:13085
+main.ts:13641
 
 ***
 
@@ -1020,7 +1114,9 @@ main.ts:13085
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1028,7 +1124,7 @@ main.ts:13085
 
 #### Defined in
 
-main.ts:12917
+main.ts:13473
 
 ***
 
@@ -1038,7 +1134,9 @@ main.ts:12917
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1046,7 +1144,7 @@ main.ts:12917
 
 #### Defined in
 
-main.ts:12791
+main.ts:13347
 
 ***
 
@@ -1056,7 +1154,9 @@ main.ts:12791
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1064,7 +1164,7 @@ main.ts:12791
 
 #### Defined in
 
-main.ts:12709
+main.ts:13265
 
 ***
 
@@ -1074,7 +1174,9 @@ main.ts:12709
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1082,7 +1184,7 @@ main.ts:12709
 
 #### Defined in
 
-main.ts:13169
+main.ts:13725
 
 ***
 
@@ -1092,7 +1194,9 @@ main.ts:13169
 
 #### Parameters
 
-• **body**: [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)[]
+##### body
+
+[`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -1104,7 +1208,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13275
+main.ts:13831
 
 ***
 
@@ -1114,7 +1218,9 @@ main.ts:13275
 
 #### Parameters
 
-• **body**: [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)[]
+##### body
+
+[`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)[]
 
 (optional)
 
@@ -1126,7 +1232,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13065
+main.ts:13621
 
 ***
 
@@ -1136,7 +1242,9 @@ main.ts:13065
 
 #### Parameters
 
-• **body**: [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)[]
+##### body
+
+[`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)[]
 
 (optional)
 
@@ -1148,7 +1256,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12897
+main.ts:13453
 
 ***
 
@@ -1158,7 +1266,9 @@ main.ts:12897
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 required field
@@ -1174,7 +1284,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12772
+main.ts:13328
 
 ***
 
@@ -1184,7 +1294,9 @@ main.ts:12772
 
 #### Parameters
 
-• **body**: [`OnPageTaskRequestInfo`](OnPageTaskRequestInfo.md)[]
+##### body
+
+[`OnPageTaskPostRequestInfo`](OnPageTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1196,7 +1308,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:12689
+main.ts:13245
 
 ***
 
@@ -1206,7 +1318,9 @@ main.ts:12689
 
 #### Parameters
 
-• **body**: [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)[]
+##### body
+
+[`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)[]
 
 (optional)
 
@@ -1218,4 +1332,4 @@ Successful operation
 
 #### Defined in
 
-main.ts:13149
+main.ts:13705

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFetchTiming
+[Documentation](../README.md) / IFetchTiming
 
 # Interface: IFetchTiming
 
@@ -20,7 +20,7 @@ indicates how many milliseconds it took to fetch a resource
 
 #### Defined in
 
-main.ts:156240
+main.ts:167875
 
 ***
 
@@ -33,7 +33,7 @@ the amount of time a browser needs to complete downloading a resource
 
 #### Defined in
 
-main.ts:156246
+main.ts:167881
 
 ***
 
@@ -46,4 +46,4 @@ the amount of time a browser needs to start downloading a resource
 
 #### Defined in
 
-main.ts:156243
+main.ts:167878

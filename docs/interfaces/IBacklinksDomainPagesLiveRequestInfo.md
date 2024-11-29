@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksDomainPagesLiveRequestInfo
+[Documentation](../README.md) / IBacklinksDomainPagesLiveRequestInfo
 
 # Interface: IBacklinksDomainPagesLiveRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:142295
+main.ts:153500
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Defined in
 
-main.ts:142256
+main.ts:153461
 
 ***
 
@@ -61,7 +61,7 @@ default value: true
 
 #### Defined in
 
-main.ts:142306
+main.ts:153511
 
 ***
 
@@ -88,7 +88,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:142273
+main.ts:153478
 
 ***
 
@@ -103,7 +103,7 @@ default value: true
 
 #### Defined in
 
-main.ts:142300
+main.ts:153505
 
 ***
 
@@ -124,7 +124,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:142247
+main.ts:153452
 
 ***
 
@@ -139,7 +139,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:142231
+main.ts:153436
 
 ***
 
@@ -154,7 +154,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:142236
+main.ts:153441
 
 ***
 
@@ -178,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:142287
+main.ts:153492
 
 ***
 
@@ -194,7 +194,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:142312
+main.ts:153517
 
 ***
 
@@ -210,4 +210,4 @@ forbes.com
 
 #### Defined in
 
-main.ts:142226
+main.ts:153431

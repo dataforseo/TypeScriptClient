@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageTiming
+[Documentation](../README.md) / PageTiming
 
 # Class: PageTiming
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPageTiming`](../interfaces/IPageTiming.md)
+##### data?
+
+[`IPageTiming`](../interfaces/IPageTiming.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:154766
+main.ts:166393
 
 ## Properties
 
@@ -47,7 +49,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:154744
+main.ts:166371
 
 ***
 
@@ -64,7 +66,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:154735
+main.ts:166362
 
 ***
 
@@ -80,7 +82,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:154754
+main.ts:166381
 
 ***
 
@@ -96,7 +98,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:154756
+main.ts:166383
 
 ***
 
@@ -113,7 +115,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:154762
+main.ts:166389
 
 ***
 
@@ -130,7 +132,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:154759
+main.ts:166386
 
 ***
 
@@ -147,7 +149,7 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 #### Defined in
 
-main.ts:154741
+main.ts:166368
 
 ***
 
@@ -164,7 +166,7 @@ The amount of time (in milliseconds) to render the largest content element visib
 
 #### Defined in
 
-main.ts:154738
+main.ts:166365
 
 ***
 
@@ -181,7 +183,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:154750
+main.ts:166377
 
 ***
 
@@ -198,7 +200,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:154732
+main.ts:166359
 
 ***
 
@@ -215,7 +217,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:154747
+main.ts:166374
 
 ***
 
@@ -231,7 +233,7 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:154752
+main.ts:166379
 
 ## Methods
 
@@ -241,7 +243,9 @@ main.ts:154752
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -249,7 +253,7 @@ main.ts:154752
 
 #### Defined in
 
-main.ts:154775
+main.ts:166402
 
 ***
 
@@ -259,7 +263,9 @@ main.ts:154775
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +273,7 @@ main.ts:154775
 
 #### Defined in
 
-main.ts:154803
+main.ts:166430
 
 ***
 
@@ -277,7 +283,9 @@ main.ts:154803
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -285,4 +293,4 @@ main.ts:154803
 
 #### Defined in
 
-main.ts:154796
+main.ts:166423

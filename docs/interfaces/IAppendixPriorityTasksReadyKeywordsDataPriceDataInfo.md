@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+[Documentation](../README.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Interface: IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
@@ -20,7 +20,7 @@ cost, USD
 
 #### Defined in
 
-main.ts:220970
+main.ts:236133
 
 ***
 
@@ -35,4 +35,4 @@ per_request – charge for a GET or POST request
 
 #### Defined in
 
-main.ts:220968
+main.ts:236131

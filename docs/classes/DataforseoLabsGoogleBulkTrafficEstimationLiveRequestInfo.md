@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:100878
+main.ts:110616
 
 ## Properties
 
@@ -53,7 +55,7 @@ default value:
 
 #### Defined in
 
-main.ts:100868
+main.ts:110606
 
 ***
 
@@ -75,7 +77,7 @@ en
 
 #### Defined in
 
-main.ts:100859
+main.ts:110597
 
 ***
 
@@ -97,7 +99,7 @@ English
 
 #### Defined in
 
-main.ts:100851
+main.ts:110589
 
 ***
 
@@ -119,7 +121,7 @@ example:
 
 #### Defined in
 
-main.ts:100843
+main.ts:110581
 
 ***
 
@@ -141,7 +143,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:100835
+main.ts:110573
 
 ***
 
@@ -161,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:100874
+main.ts:110612
 
 ***
 
@@ -182,7 +184,7 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-main.ts:100827
+main.ts:110565
 
 ## Methods
 
@@ -192,7 +194,9 @@ main.ts:100827
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -200,7 +204,7 @@ main.ts:100827
 
 #### Defined in
 
-main.ts:100887
+main.ts:110625
 
 ***
 
@@ -210,7 +214,9 @@ main.ts:100887
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -218,7 +224,7 @@ main.ts:100887
 
 #### Defined in
 
-main.ts:100918
+main.ts:110656
 
 ***
 
@@ -228,7 +234,9 @@ main.ts:100918
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -236,4 +244,4 @@ main.ts:100918
 
 #### Defined in
 
-main.ts:100911
+main.ts:110649

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleImageRelatedSearchesSerpElementItem
+[Documentation](../README.md) / IGoogleImageRelatedSearchesSerpElementItem
 
 # Interface: IGoogleImageRelatedSearchesSerpElementItem
 
@@ -20,11 +20,11 @@
 
 > `optional` **items**: `string`[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:47876
+main.ts:51037
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Defined in
 
-main.ts:47874
+main.ts:51035
 
 ***
 
@@ -55,7 +55,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47644
+main.ts:50805
 
 ***
 
@@ -73,7 +73,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47641
+main.ts:50802
 
 ***
 
@@ -87,7 +87,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:47880
+main.ts:51041
 
 ***
 
@@ -103,7 +103,7 @@ type of element
 
 #### Defined in
 
-main.ts:47637
+main.ts:50798
 
 ***
 
@@ -119,4 +119,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47646
+main.ts:50807

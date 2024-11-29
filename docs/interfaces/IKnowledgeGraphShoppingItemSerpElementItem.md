@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphShoppingItemSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphShoppingItemSerpElementItem
 
 # Interface: IKnowledgeGraphShoppingItemSerpElementItem
 
@@ -26,7 +26,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:28988
+main.ts:30547
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28991
+main.ts:30550
 
 ***
 
@@ -57,7 +57,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -74,7 +74,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -106,7 +106,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28995
+main.ts:30554
 
 ***
 
@@ -118,7 +118,7 @@ title of the place
 
 #### Defined in
 
-main.ts:28984
+main.ts:30543
 
 ***
 
@@ -134,7 +134,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -150,4 +150,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsSerpCompetitorsLiveItem
+[Documentation](../README.md) / IDataforseoLabsSerpCompetitorsLiveItem
 
 # Interface: IDataforseoLabsSerpCompetitorsLiveItem
 
@@ -21,7 +21,7 @@ the arithmetic mean of values in the keywords_positions array
 
 #### Defined in
 
-main.ts:92451
+main.ts:102169
 
 ***
 
@@ -33,7 +33,7 @@ domain name of the detected SERP competitor
 
 #### Defined in
 
-main.ts:92448
+main.ts:102166
 
 ***
 
@@ -48,7 +48,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92463
+main.ts:102181
 
 ***
 
@@ -60,7 +60,7 @@ the number of specified keywords the domain has positions for in SERPs
 
 #### Defined in
 
-main.ts:92465
+main.ts:102183
 
 ***
 
@@ -73,11 +73,11 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
+ \[`key`: `string`\]: `number`[]
 
 #### Defined in
 
-main.ts:92477
+main.ts:102195
 
 ***
 
@@ -90,7 +90,7 @@ the median of the values in the keywords_positions array
 
 #### Defined in
 
-main.ts:92454
+main.ts:102172
 
 ***
 
@@ -104,7 +104,7 @@ calculated as sum(100-keywords_positions)
 
 #### Defined in
 
-main.ts:92458
+main.ts:102176
 
 ***
 
@@ -117,7 +117,7 @@ represents the number of search results in SERP relevant to the domain for the s
 
 #### Defined in
 
-main.ts:92474
+main.ts:102192
 
 ***
 
@@ -129,7 +129,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92446
+main.ts:102164
 
 ***
 
@@ -145,4 +145,4 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Defined in
 
-main.ts:92471
+main.ts:102189

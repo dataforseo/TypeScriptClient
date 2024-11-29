@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppListTaskPostRequestInfo
+[Documentation](../README.md) / IAppDataAppleAppListTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppListTaskPostRequestInfo
 
@@ -25,7 +25,7 @@ you can review the full list of available categories here or by making a separat
 
 #### Defined in
 
-main.ts:194837
+main.ts:207181
 
 ***
 
@@ -41,7 +41,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 #### Defined in
 
-main.ts:194784
+main.ts:207128
 
 ***
 
@@ -61,7 +61,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:194830
+main.ts:207174
 
 ***
 
@@ -70,7 +70,7 @@ main.ts:194830
 > `optional` **language\_code**: `string`
 
 search engine language code
-optional field
+required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/apple/languages
 example:
@@ -78,7 +78,7 @@ en
 
 #### Defined in
 
-main.ts:194812
+main.ts:207156
 
 ***
 
@@ -87,7 +87,7 @@ main.ts:194812
 > `optional` **language\_name**: `string`
 
 full name of search engine language
-optional field
+required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/apple/languages
 example:
@@ -95,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:194805
+main.ts:207149
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:194798
+main.ts:207142
 
 ***
 
@@ -129,7 +129,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:194791
+main.ts:207135
 
 ***
 
@@ -144,12 +144,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:194869
+main.ts:207215
 
 ***
 
@@ -165,7 +166,7 @@ advanced
 
 #### Defined in
 
-main.ts:194859
+main.ts:207204
 
 ***
 
@@ -180,12 +181,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:194853
+main.ts:207198
 
 ***
 
@@ -203,7 +205,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:194820
+main.ts:207164
 
 ***
 
@@ -219,4 +221,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:194843
+main.ts:207187

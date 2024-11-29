@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:78666
+main.ts:88378
 
 ## Properties
 
@@ -46,7 +48,7 @@ items array
 
 #### Defined in
 
-main.ts:78662
+main.ts:88374
 
 ***
 
@@ -62,7 +64,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:78654
+main.ts:88366
 
 ***
 
@@ -78,7 +80,7 @@ specified offset value
 
 #### Defined in
 
-main.ts:78656
+main.ts:88368
 
 ***
 
@@ -96,7 +98,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:78660
+main.ts:88372
 
 ***
 
@@ -112,7 +114,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:78652
+main.ts:88364
 
 ## Methods
 
@@ -122,7 +124,9 @@ main.ts:78652
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +134,7 @@ main.ts:78652
 
 #### Defined in
 
-main.ts:78675
+main.ts:88387
 
 ***
 
@@ -140,7 +144,9 @@ main.ts:78675
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +154,7 @@ main.ts:78675
 
 #### Defined in
 
-main.ts:78700
+main.ts:88412
 
 ***
 
@@ -158,7 +164,9 @@ main.ts:78700
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -166,4 +174,4 @@ main.ts:78700
 
 #### Defined in
 
-main.ts:78693
+main.ts:88405

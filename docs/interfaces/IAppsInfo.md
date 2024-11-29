@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppsInfo
+[Documentation](../README.md) / IAppsInfo
 
 # Interface: IAppsInfo
 
@@ -20,7 +20,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:189649
+main.ts:201985
 
 ***
 
@@ -32,7 +32,7 @@ title of the app
 
 #### Defined in
 
-main.ts:189651
+main.ts:201987
 
 ***
 
@@ -44,4 +44,4 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:189653
+main.ts:201989

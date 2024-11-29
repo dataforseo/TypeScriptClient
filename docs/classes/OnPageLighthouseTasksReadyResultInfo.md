@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseTasksReadyResultInfo
+[Documentation](../README.md) / OnPageLighthouseTasksReadyResultInfo
 
 # Class: OnPageLighthouseTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md)
+##### data?
+
+[`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:164118
+main.ts:175707
 
 ## Properties
 
@@ -46,7 +48,7 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 #### Defined in
 
-main.ts:164114
+main.ts:175703
 
 ***
 
@@ -63,7 +65,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:164110
+main.ts:175699
 
 ***
 
@@ -79,7 +81,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:164112
+main.ts:175701
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:164112
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:164112
 
 #### Defined in
 
-main.ts:164127
+main.ts:175716
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:164127
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:164127
 
 #### Defined in
 
-main.ts:164146
+main.ts:175735
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:164146
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:164146
 
 #### Defined in
 
-main.ts:164139
+main.ts:175728

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:88295
+main.ts:98013
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:88291
+main.ts:98009
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:88289
+main.ts:98007
 
 ***
 
@@ -79,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:88287
+main.ts:98005
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:88287
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:88287
 
 #### Defined in
 
-main.ts:88304
+main.ts:98022
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:88304
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:88304
 
 #### Defined in
 
-main.ts:88327
+main.ts:98045
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:88327
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:88327
 
 #### Defined in
 
-main.ts:88320
+main.ts:98038

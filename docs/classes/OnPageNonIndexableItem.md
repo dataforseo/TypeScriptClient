@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageNonIndexableItem
+[Documentation](../README.md) / OnPageNonIndexableItem
 
 # Class: OnPageNonIndexableItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md)
+##### data?
+
+[`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:158742
+main.ts:170377
 
 ## Properties
 
@@ -47,7 +49,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 #### Defined in
 
-main.ts:158736
+main.ts:170371
 
 ***
 
@@ -63,7 +65,7 @@ url of the non-indexable page
 
 #### Defined in
 
-main.ts:158738
+main.ts:170373
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:158738
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:158738
 
 #### Defined in
 
-main.ts:158751
+main.ts:170386
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:158751
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:158751
 
 #### Defined in
 
-main.ts:158769
+main.ts:170404
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:158769
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:158769
 
 #### Defined in
 
-main.ts:158762
+main.ts:170397

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonAmazonProductInfoSerpElementItem
+[Documentation](../README.md) / IAmazonAmazonProductInfoSerpElementItem
 
 # Interface: IAmazonAmazonProductInfoSerpElementItem
 
@@ -24,7 +24,7 @@ product brand name
 
 #### Defined in
 
-main.ts:182487
+main.ts:194630
 
 ***
 
@@ -36,7 +36,7 @@ contains related product categories
 
 #### Defined in
 
-main.ts:182516
+main.ts:194659
 
 ***
 
@@ -50,7 +50,7 @@ USD
 
 #### Defined in
 
-main.ts:182505
+main.ts:194648
 
 ***
 
@@ -62,7 +62,7 @@ ASIN of the product received in a POST array
 
 #### Defined in
 
-main.ts:182489
+main.ts:194632
 
 ***
 
@@ -74,7 +74,7 @@ contains description of the product
 
 #### Defined in
 
-main.ts:182524
+main.ts:194667
 
 ***
 
@@ -86,7 +86,7 @@ product specs and other details
 
 #### Defined in
 
-main.ts:182483
+main.ts:194626
 
 ***
 
@@ -98,7 +98,7 @@ the URL of the product image
 
 #### Defined in
 
-main.ts:182485
+main.ts:194628
 
 ***
 
@@ -111,7 +111,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:182508
+main.ts:194651
 
 ***
 
@@ -124,7 +124,7 @@ if the value is true, the product can be ordered
 
 #### Defined in
 
-main.ts:182527
+main.ts:194670
 
 ***
 
@@ -136,7 +136,7 @@ indicates whether the newer model of the product is available
 
 #### Defined in
 
-main.ts:182512
+main.ts:194655
 
 ***
 
@@ -148,7 +148,7 @@ information about the newer model of the product
 
 #### Defined in
 
-main.ts:182514
+main.ts:194657
 
 ***
 
@@ -160,7 +160,7 @@ parent ASIN of the product
 
 #### Defined in
 
-main.ts:182491
+main.ts:194634
 
 ***
 
@@ -174,7 +174,7 @@ left, right
 
 #### Defined in
 
-main.ts:182479
+main.ts:194622
 
 ***
 
@@ -188,7 +188,7 @@ example:
 
 #### Defined in
 
-main.ts:182497
+main.ts:194640
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Defined in
 
-main.ts:182501
+main.ts:194644
 
 ***
 
@@ -214,7 +214,7 @@ ASINs of all found product modifications
 
 #### Defined in
 
-main.ts:182493
+main.ts:194636
 
 ***
 
@@ -226,7 +226,7 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 #### Defined in
 
-main.ts:182520
+main.ts:194663
 
 ***
 
@@ -238,7 +238,7 @@ contains related product information
 
 #### Defined in
 
-main.ts:182518
+main.ts:194661
 
 ***
 
@@ -250,7 +250,7 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 #### Defined in
 
-main.ts:182522
+main.ts:194665
 
 ***
 
@@ -267,7 +267,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22412
+main.ts:23310
 
 ***
 
@@ -284,7 +284,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22409
+main.ts:23307
 
 ***
 
@@ -296,7 +296,7 @@ product rating info
 
 #### Defined in
 
-main.ts:182510
+main.ts:194653
 
 ***
 
@@ -308,7 +308,32 @@ product title
 
 #### Defined in
 
-main.ts:182481
+main.ts:194624
+
+***
+
+### top\_global\_reviews?
+
+> `optional` **top\_global\_reviews**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
+
+array of objects with top reviews from around the world
+
+#### Defined in
+
+main.ts:194675
+
+***
+
+### top\_local\_reviews?
+
+> `optional` **top\_local\_reviews**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
+
+array of objects with top reviews from target location
+to obtain additional local reviews, you can specify the load_more_local_reviews parameter in Task POST
+
+#### Defined in
+
+main.ts:194673
 
 ***
 
@@ -324,7 +349,7 @@ type of element
 
 #### Defined in
 
-main.ts:22406
+main.ts:23304
 
 ***
 
@@ -340,4 +365,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22414
+main.ts:23312

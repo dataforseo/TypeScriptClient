@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITrendsGraphDataInfo
+[Documentation](../README.md) / ITrendsGraphDataInfo
 
 # Interface: ITrendsGraphDataInfo
 
@@ -21,7 +21,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:123683
+main.ts:133932
 
 ***
 
@@ -34,7 +34,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:123686
+main.ts:133935
 
 ***
 
@@ -47,7 +47,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Defined in
 
-main.ts:123691
+main.ts:133940
 
 ***
 
@@ -59,7 +59,7 @@ a point in time in the Unix time format
 
 #### Defined in
 
-main.ts:123688
+main.ts:133937
 
 ***
 
@@ -74,4 +74,4 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Defined in
 
-main.ts:123696
+main.ts:133945

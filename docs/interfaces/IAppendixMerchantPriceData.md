@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMerchantPriceData
+[Documentation](../README.md) / IAppendixMerchantPriceData
 
 # Interface: IAppendixMerchantPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:222013
+main.ts:237192
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:222013
 
 #### Defined in
 
-main.ts:222014
+main.ts:237193
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:222014
 
 #### Defined in
 
-main.ts:222012
+main.ts:237191
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:222012
 
 #### Defined in
 
-main.ts:222015
+main.ts:237194
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:222015
 
 #### Defined in
 
-main.ts:222016
+main.ts:237195
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:222016
 
 #### Defined in
 
-main.ts:222017
+main.ts:237196
 
 ***
 
@@ -78,4 +78,4 @@ main.ts:222017
 
 #### Defined in
 
-main.ts:222018
+main.ts:237197

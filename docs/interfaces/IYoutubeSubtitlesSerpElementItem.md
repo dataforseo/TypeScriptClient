@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IYoutubeSubtitlesSerpElementItem
+[Documentation](../README.md) / IYoutubeSubtitlesSerpElementItem
 
 # Interface: IYoutubeSubtitlesSerpElementItem
 
@@ -24,7 +24,7 @@ duration of subtitles in seconds
 
 #### Defined in
 
-main.ts:64053
+main.ts:72255
 
 ***
 
@@ -36,7 +36,7 @@ the second subtitled text ends
 
 #### Defined in
 
-main.ts:64051
+main.ts:72253
 
 ***
 
@@ -53,7 +53,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62349
+main.ts:70531
 
 ***
 
@@ -71,7 +71,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62346
+main.ts:70528
 
 ***
 
@@ -83,7 +83,7 @@ the second subtitled text starts
 
 #### Defined in
 
-main.ts:64049
+main.ts:72251
 
 ***
 
@@ -95,7 +95,7 @@ text translated in subtitles
 
 #### Defined in
 
-main.ts:64047
+main.ts:72249
 
 ***
 
@@ -111,4 +111,4 @@ type of element
 
 #### Defined in
 
-main.ts:62342
+main.ts:70524

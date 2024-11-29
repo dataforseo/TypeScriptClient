@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FoundOnWebElement
+[Documentation](../README.md) / FoundOnWebElement
 
 # Class: FoundOnWebElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md)
+##### data?
+
+[`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:35372
+main.ts:36857
 
 ## Properties
 
@@ -46,7 +48,7 @@ image of the element
 
 #### Defined in
 
-main.ts:35368
+main.ts:36853
 
 ***
 
@@ -62,7 +64,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:35366
+main.ts:36851
 
 ***
 
@@ -78,7 +80,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35364
+main.ts:36849
 
 ***
 
@@ -94,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:35362
+main.ts:36847
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:35362
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:35362
 
 #### Defined in
 
-main.ts:35381
+main.ts:36866
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:35381
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:35381
 
 #### Defined in
 
-main.ts:35401
+main.ts:36886
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:35401
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:35401
 
 #### Defined in
 
-main.ts:35394
+main.ts:36879

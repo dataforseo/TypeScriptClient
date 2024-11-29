@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IScreenshotItem
+[Documentation](../README.md) / IScreenshotItem
 
 # Interface: IScreenshotItem
 
@@ -22,4 +22,4 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Defined in
 
-main.ts:25189
+main.ts:26254

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksDomainIntersectionLiveItem
+[Documentation](../README.md) / BacklinksDomainIntersectionLiveItem
 
 # Class: BacklinksDomainIntersectionLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksDomainIntersectionLiveItem`](../interfaces/IBacklinksDomainIntersectionLiveItem.md)
+##### data?
+
+[`IBacklinksDomainIntersectionLiveItem`](../interfaces/IBacklinksDomainIntersectionLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:146724
+main.ts:157929
 
 ## Properties
 
@@ -51,7 +53,7 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 #### Defined in
 
-main.ts:146718
+main.ts:157923
 
 ***
 
@@ -67,7 +69,7 @@ contains the domain intersections summary
 
 #### Defined in
 
-main.ts:146720
+main.ts:157925
 
 ## Methods
 
@@ -77,7 +79,9 @@ main.ts:146720
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -85,7 +89,7 @@ main.ts:146720
 
 #### Defined in
 
-main.ts:146733
+main.ts:157938
 
 ***
 
@@ -95,7 +99,9 @@ main.ts:146733
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -103,7 +109,7 @@ main.ts:146733
 
 #### Defined in
 
-main.ts:146757
+main.ts:157962
 
 ***
 
@@ -113,7 +119,9 @@ main.ts:146757
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -121,4 +129,4 @@ main.ts:146757
 
 #### Defined in
 
-main.ts:146750
+main.ts:157955

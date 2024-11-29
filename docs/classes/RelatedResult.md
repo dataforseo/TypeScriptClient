@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RelatedResult
+[Documentation](../README.md) / RelatedResult
 
 # Class: RelatedResult
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IRelatedResult`](../interfaces/IRelatedResult.md)
+##### data?
+
+[`IRelatedResult`](../interfaces/IRelatedResult.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:29856
+main.ts:31415
 
 ## Properties
 
@@ -48,7 +50,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:29847
+main.ts:31406
 
 ***
 
@@ -65,7 +67,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:29836
+main.ts:31395
 
 ***
 
@@ -81,7 +83,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:29819
+main.ts:31378
 
 ***
 
@@ -97,7 +99,7 @@ cached version of the page
 
 #### Defined in
 
-main.ts:29814
+main.ts:31373
 
 ***
 
@@ -113,7 +115,7 @@ description of the hotel booking element
 
 #### Defined in
 
-main.ts:29827
+main.ts:31386
 
 ***
 
@@ -129,7 +131,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29808
+main.ts:31367
 
 ***
 
@@ -145,7 +147,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:29831
+main.ts:31390
 
 ***
 
@@ -161,7 +163,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:29843
+main.ts:31402
 
 ***
 
@@ -177,7 +179,7 @@ images of the element
 
 #### Defined in
 
-main.ts:29833
+main.ts:31392
 
 ***
 
@@ -193,7 +195,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:29823
+main.ts:31382
 
 ***
 
@@ -209,7 +211,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:29825
+main.ts:31384
 
 ***
 
@@ -225,7 +227,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:29829
+main.ts:31388
 
 ***
 
@@ -241,7 +243,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:29841
+main.ts:31400
 
 ***
 
@@ -258,7 +260,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:29839
+main.ts:31398
 
 ***
 
@@ -275,7 +277,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-main.ts:29817
+main.ts:31376
 
 ***
 
@@ -294,7 +296,7 @@ example:
 
 #### Defined in
 
-main.ts:29852
+main.ts:31411
 
 ***
 
@@ -310,7 +312,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29810
+main.ts:31369
 
 ***
 
@@ -326,7 +328,7 @@ type of element
 
 #### Defined in
 
-main.ts:29804
+main.ts:31363
 
 ***
 
@@ -342,7 +344,7 @@ reference page URL
 
 #### Defined in
 
-main.ts:29812
+main.ts:31371
 
 ***
 
@@ -358,7 +360,7 @@ name of the website in SERP
 
 #### Defined in
 
-main.ts:29821
+main.ts:31380
 
 ***
 
@@ -374,7 +376,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:29806
+main.ts:31365
 
 ## Methods
 
@@ -384,7 +386,9 @@ main.ts:29806
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -392,7 +396,7 @@ main.ts:29806
 
 #### Defined in
 
-main.ts:29865
+main.ts:31424
 
 ***
 
@@ -402,7 +406,9 @@ main.ts:29865
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -410,7 +416,7 @@ main.ts:29865
 
 #### Defined in
 
-main.ts:29910
+main.ts:31469
 
 ***
 
@@ -420,7 +426,9 @@ main.ts:29910
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -428,4 +436,4 @@ main.ts:29910
 
 #### Defined in
 
-main.ts:29903
+main.ts:31462

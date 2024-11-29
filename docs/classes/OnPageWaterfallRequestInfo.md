@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageWaterfallRequestInfo
+[Documentation](../README.md) / OnPageWaterfallRequestInfo
 
 # Class: OnPageWaterfallRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md)
+##### data?
+
+[`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:159005
+main.ts:170640
 
 ## Properties
 
@@ -50,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:158991
+main.ts:170626
 
 ***
 
@@ -70,7 +72,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159001
+main.ts:170636
 
 ***
 
@@ -88,7 +90,7 @@ specify the pages you want to receive timing for
 
 #### Defined in
 
-main.ts:158995
+main.ts:170630
 
 ## Methods
 
@@ -98,7 +100,9 @@ main.ts:158995
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -106,7 +110,7 @@ main.ts:158995
 
 #### Defined in
 
-main.ts:159014
+main.ts:170649
 
 ***
 
@@ -116,7 +120,9 @@ main.ts:159014
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -124,7 +130,7 @@ main.ts:159014
 
 #### Defined in
 
-main.ts:159033
+main.ts:170668
 
 ***
 
@@ -134,7 +140,9 @@ main.ts:159033
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -142,4 +150,4 @@ main.ts:159033
 
 #### Defined in
 
-main.ts:159026
+main.ts:170661

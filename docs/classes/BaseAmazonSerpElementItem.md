@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseAmazonSerpElementItem
+[Documentation](../README.md) / BaseAmazonSerpElementItem
 
 # Class: BaseAmazonSerpElementItem
 
@@ -14,9 +14,9 @@
 - [`AmazonRelatedSearchesSerpElementItem`](AmazonRelatedSearchesSerpElementItem.md)
 - [`AmazonTopRatedFromOurBrandsSerpElementItem`](AmazonTopRatedFromOurBrandsSerpElementItem.md)
 - [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
+- [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 - [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
 - [`AmazonAmazonSellerItemSerpElementItem`](AmazonAmazonSellerItemSerpElementItem.md)
-- [`AmazonAmazonReviewItemSerpElementItem`](AmazonAmazonReviewItemSerpElementItem.md)
 
 ## Implements
 
@@ -30,7 +30,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md)
+##### data?
+
+[`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:22322
+main.ts:23220
 
 ## Properties
 
@@ -48,7 +50,7 @@ main.ts:22322
 
 #### Defined in
 
-main.ts:22320
+main.ts:23218
 
 ***
 
@@ -65,7 +67,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22316
+main.ts:23214
 
 ***
 
@@ -82,7 +84,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22313
+main.ts:23211
 
 ***
 
@@ -98,7 +100,7 @@ type of element
 
 #### Defined in
 
-main.ts:22310
+main.ts:23208
 
 ***
 
@@ -114,7 +116,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22318
+main.ts:23216
 
 ## Methods
 
@@ -124,7 +126,9 @@ main.ts:22318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +136,7 @@ main.ts:22318
 
 #### Defined in
 
-main.ts:22332
+main.ts:23230
 
 ***
 
@@ -142,7 +146,9 @@ main.ts:22332
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +156,7 @@ main.ts:22332
 
 #### Defined in
 
-main.ts:22393
+main.ts:23291
 
 ***
 
@@ -160,7 +166,9 @@ main.ts:22393
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +176,4 @@ main.ts:22393
 
 #### Defined in
 
-main.ts:22341
+main.ts:23239

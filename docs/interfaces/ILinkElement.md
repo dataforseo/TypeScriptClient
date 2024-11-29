@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILinkElement
+[Documentation](../README.md) / ILinkElement
 
 # Interface: ILinkElement
 
@@ -20,7 +20,7 @@ description of the results element
 
 #### Defined in
 
-main.ts:22702
+main.ts:23600
 
 ***
 
@@ -32,7 +32,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:22706
+main.ts:23604
 
 ***
 
@@ -44,7 +44,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:22700
+main.ts:23598
 
 ***
 
@@ -56,7 +56,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:22698
+main.ts:23596
 
 ***
 
@@ -68,7 +68,7 @@ type of element
 
 #### Defined in
 
-main.ts:22696
+main.ts:23594
 
 ***
 
@@ -80,7 +80,7 @@ URL
 
 #### Defined in
 
-main.ts:22704
+main.ts:23602
 
 ***
 
@@ -92,4 +92,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22708
+main.ts:23606

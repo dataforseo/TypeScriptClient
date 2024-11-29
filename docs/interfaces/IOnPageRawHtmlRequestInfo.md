@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageRawHtmlRequestInfo
+[Documentation](../README.md) / IOnPageRawHtmlRequestInfo
 
 # Interface: IOnPageRawHtmlRequestInfo
 
@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:160481
+main.ts:172124
 
 ***
 
@@ -39,4 +39,4 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Defined in
 
-main.ts:160486
+main.ts:172129

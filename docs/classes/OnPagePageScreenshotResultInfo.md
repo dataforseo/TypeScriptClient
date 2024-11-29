@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPagePageScreenshotResultInfo
+[Documentation](../README.md) / OnPagePageScreenshotResultInfo
 
 # Class: OnPagePageScreenshotResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md)
+##### data?
+
+[`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160990
+main.ts:172603
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:160978
+main.ts:172591
 
 ***
 
@@ -65,7 +67,7 @@ if no error is encountered, the value will be null
 
 #### Defined in
 
-main.ts:160982
+main.ts:172595
 
 ***
 
@@ -81,7 +83,7 @@ items array
 
 #### Defined in
 
-main.ts:160986
+main.ts:172599
 
 ***
 
@@ -97,7 +99,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:160984
+main.ts:172597
 
 ## Methods
 
@@ -107,7 +109,9 @@ main.ts:160984
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +119,7 @@ main.ts:160984
 
 #### Defined in
 
-main.ts:160999
+main.ts:172612
 
 ***
 
@@ -125,7 +129,9 @@ main.ts:160999
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -133,7 +139,7 @@ main.ts:160999
 
 #### Defined in
 
-main.ts:161023
+main.ts:172636
 
 ***
 
@@ -143,7 +149,9 @@ main.ts:161023
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -151,4 +159,4 @@ main.ts:161023
 
 #### Defined in
 
-main.ts:161016
+main.ts:172629

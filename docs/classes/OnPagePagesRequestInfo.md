@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPagePagesRequestInfo
+[Documentation](../README.md) / OnPagePagesRequestInfo
 
 # Class: OnPagePagesRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md)
+##### data?
+
+[`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:154218
+main.ts:165845
 
 ## Properties
 
@@ -55,7 +57,7 @@ example:
 
 #### Defined in
 
-main.ts:154194
+main.ts:165821
 
 ***
 
@@ -75,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:154173
+main.ts:165800
 
 ***
 
@@ -94,7 +96,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:154178
+main.ts:165805
 
 ***
 
@@ -113,7 +115,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:154183
+main.ts:165810
 
 ***
 
@@ -141,7 +143,7 @@ example:
 
 #### Defined in
 
-main.ts:154208
+main.ts:165835
 
 ***
 
@@ -161,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:154214
+main.ts:165841
 
 ## Methods
 
@@ -171,7 +173,9 @@ main.ts:154214
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +183,7 @@ main.ts:154214
 
 #### Defined in
 
-main.ts:154227
+main.ts:165854
 
 ***
 
@@ -189,7 +193,9 @@ main.ts:154227
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +203,7 @@ main.ts:154227
 
 #### Defined in
 
-main.ts:154257
+main.ts:165884
 
 ***
 
@@ -207,7 +213,9 @@ main.ts:154257
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -215,4 +223,4 @@ main.ts:154257
 
 #### Defined in
 
-main.ts:154250
+main.ts:165877

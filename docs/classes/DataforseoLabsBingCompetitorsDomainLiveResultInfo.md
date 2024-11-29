@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingCompetitorsDomainLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingCompetitorsDomainLiveResultInfo
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:106692
+main.ts:116330
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains data related to the target and competitor domains
 
 #### Defined in
 
-main.ts:106688
+main.ts:116326
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:106686
+main.ts:116324
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:106682
+main.ts:116320
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:106680
+main.ts:116318
 
 ***
 
@@ -110,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:106676
+main.ts:116314
 
 ***
 
@@ -126,7 +128,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:106678
+main.ts:116316
 
 ***
 
@@ -142,7 +144,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:106684
+main.ts:116322
 
 ## Methods
 
@@ -152,7 +154,9 @@ main.ts:106684
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -160,7 +164,7 @@ main.ts:106684
 
 #### Defined in
 
-main.ts:106701
+main.ts:116339
 
 ***
 
@@ -170,7 +174,9 @@ main.ts:106701
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +184,7 @@ main.ts:106701
 
 #### Defined in
 
-main.ts:106728
+main.ts:116366
 
 ***
 
@@ -188,7 +194,9 @@ main.ts:106728
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -196,4 +204,4 @@ main.ts:106728
 
 #### Defined in
 
-main.ts:106721
+main.ts:116359

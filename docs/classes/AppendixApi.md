@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixApi
+[Documentation](../README.md) / AppendixApi
 
 # Class: AppendixApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:20191
+main.ts:20869
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:20191
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:20191
 
 #### Defined in
 
-main.ts:20189
+main.ts:20867
 
 ## Methods
 
@@ -62,7 +68,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:20236
+main.ts:20914
 
 ***
 
@@ -78,7 +84,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:20315
+main.ts:20993
 
 ***
 
@@ -88,7 +94,9 @@ main.ts:20315
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -96,7 +104,7 @@ main.ts:20315
 
 #### Defined in
 
-main.ts:20252
+main.ts:20930
 
 ***
 
@@ -106,7 +114,9 @@ main.ts:20252
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -114,7 +124,7 @@ main.ts:20252
 
 #### Defined in
 
-main.ts:20331
+main.ts:21009
 
 ***
 
@@ -124,7 +134,9 @@ main.ts:20331
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -132,7 +144,7 @@ main.ts:20331
 
 #### Defined in
 
-main.ts:20215
+main.ts:20893
 
 ***
 
@@ -142,7 +154,9 @@ main.ts:20215
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -150,7 +164,7 @@ main.ts:20215
 
 #### Defined in
 
-main.ts:20294
+main.ts:20972
 
 ***
 
@@ -166,7 +180,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:20199
+main.ts:20877
 
 ***
 
@@ -176,7 +190,9 @@ main.ts:20199
 
 #### Parameters
 
-• **body**: [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)[]
+##### body
+
+[`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)[]
 
 (optional)
 
@@ -188,4 +204,4 @@ Successful operation
 
 #### Defined in
 
-main.ts:20274
+main.ts:20952

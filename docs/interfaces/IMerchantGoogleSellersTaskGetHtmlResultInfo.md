@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleSellersTaskGetHtmlResultInfo
+[Documentation](../README.md) / IMerchantGoogleSellersTaskGetHtmlResultInfo
 
 # Interface: IMerchantGoogleSellersTaskGetHtmlResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:176808
+main.ts:188541
 
 ***
 
@@ -35,7 +35,7 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-main.ts:176812
+main.ts:188545
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:176810
+main.ts:188543
 
 ***
 
@@ -59,7 +59,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:176803
+main.ts:188536
 
 ***
 
@@ -71,7 +71,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:176801
+main.ts:188534
 
 ***
 
@@ -83,7 +83,7 @@ product_id received in a POST array
 
 #### Defined in
 
-main.ts:176795
+main.ts:188528
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:176799
+main.ts:188532
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:176797
+main.ts:188530

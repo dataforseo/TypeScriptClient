@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TableContentItemInfo
+[Documentation](../README.md) / TableContentItemInfo
 
 # Class: TableContentItemInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ITableContentItemInfo`](../interfaces/ITableContentItemInfo.md)
+##### data?
+
+[`ITableContentItemInfo`](../interfaces/ITableContentItemInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:161535
+main.ts:173148
 
 ## Properties
 
@@ -46,7 +48,7 @@ content of the row cells of the header
 
 #### Defined in
 
-main.ts:161531
+main.ts:173144
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:161531
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:161531
 
 #### Defined in
 
-main.ts:161544
+main.ts:173157
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:161544
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:161544
 
 #### Defined in
 
-main.ts:161565
+main.ts:173178
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:161565
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:161565
 
 #### Defined in
 
-main.ts:161558
+main.ts:173171

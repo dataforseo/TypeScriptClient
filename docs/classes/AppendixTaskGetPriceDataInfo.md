@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixTaskGetPriceDataInfo
+[Documentation](../README.md) / AppendixTaskGetPriceDataInfo
 
 # Class: AppendixTaskGetPriceDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md)
+##### data?
+
+[`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:221568
+main.ts:236747
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:221568
 
 #### Defined in
 
-main.ts:221564
+main.ts:236743
 
 ## Methods
 
@@ -54,7 +56,9 @@ main.ts:221564
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -62,7 +66,7 @@ main.ts:221564
 
 #### Defined in
 
-main.ts:221577
+main.ts:236756
 
 ***
 
@@ -72,7 +76,9 @@ main.ts:221577
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +86,7 @@ main.ts:221577
 
 #### Defined in
 
-main.ts:221594
+main.ts:236773
 
 ***
 
@@ -90,7 +96,9 @@ main.ts:221594
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -98,4 +106,4 @@ main.ts:221594
 
 #### Defined in
 
-main.ts:221587
+main.ts:236766

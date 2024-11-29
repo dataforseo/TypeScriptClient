@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListTaskGetHtmlResultInfo
+[Documentation](../README.md) / AppDataGoogleAppListTaskGetHtmlResultInfo
 
 # Class: AppDataGoogleAppListTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:188883
+main.ts:201219
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:188875
+main.ts:201211
 
 ***
 
@@ -65,7 +67,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:188879
+main.ts:201215
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:188877
+main.ts:201213
 
 ***
 
@@ -97,7 +99,7 @@ app collection received in a POST array
 
 #### Defined in
 
-main.ts:188862
+main.ts:201198
 
 ***
 
@@ -113,7 +115,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:188870
+main.ts:201206
 
 ***
 
@@ -129,7 +131,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:188868
+main.ts:201204
 
 ***
 
@@ -145,7 +147,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:188866
+main.ts:201202
 
 ***
 
@@ -161,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:188864
+main.ts:201200
 
 ## Methods
 
@@ -171,7 +173,9 @@ main.ts:188864
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +183,7 @@ main.ts:188864
 
 #### Defined in
 
-main.ts:188892
+main.ts:201228
 
 ***
 
@@ -189,7 +193,9 @@ main.ts:188892
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +203,7 @@ main.ts:188892
 
 #### Defined in
 
-main.ts:188920
+main.ts:201256
 
 ***
 
@@ -207,7 +213,9 @@ main.ts:188920
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -215,4 +223,4 @@ main.ts:188920
 
 #### Defined in
 
-main.ts:188913
+main.ts:201249

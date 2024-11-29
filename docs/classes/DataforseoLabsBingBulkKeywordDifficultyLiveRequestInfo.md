@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:105629
+main.ts:115267
 
 ## Properties
 
@@ -42,8 +44,8 @@ target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000
-each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -51,7 +53,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:105589
+main.ts:115227
 
 ***
 
@@ -72,7 +74,7 @@ en
 
 #### Defined in
 
-main.ts:105619
+main.ts:115257
 
 ***
 
@@ -93,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:105612
+main.ts:115250
 
 ***
 
@@ -115,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:105605
+main.ts:115243
 
 ***
 
@@ -137,7 +139,7 @@ United States
 
 #### Defined in
 
-main.ts:105597
+main.ts:115235
 
 ***
 
@@ -157,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:105625
+main.ts:115263
 
 ## Methods
 
@@ -167,7 +169,9 @@ main.ts:105625
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -175,7 +179,7 @@ main.ts:105625
 
 #### Defined in
 
-main.ts:105638
+main.ts:115276
 
 ***
 
@@ -185,7 +189,9 @@ main.ts:105638
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -193,7 +199,7 @@ main.ts:105638
 
 #### Defined in
 
-main.ts:105664
+main.ts:115302
 
 ***
 
@@ -203,7 +209,9 @@ main.ts:105664
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -211,4 +219,4 @@ main.ts:105664
 
 #### Defined in
 
-main.ts:105657
+main.ts:115295

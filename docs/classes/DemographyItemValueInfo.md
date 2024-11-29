@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DemographyItemValueInfo
+[Documentation](../README.md) / DemographyItemValueInfo
 
 # Class: DemographyItemValueInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md)
+##### data?
+
+[`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:126895
+main.ts:137152
 
 ## Properties
 
@@ -46,7 +48,7 @@ type of element
 
 #### Defined in
 
-main.ts:126885
+main.ts:137142
 
 ***
 
@@ -66,7 +68,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:126891
+main.ts:137148
 
 ## Methods
 
@@ -76,7 +78,9 @@ main.ts:126891
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -84,7 +88,7 @@ main.ts:126891
 
 #### Defined in
 
-main.ts:126904
+main.ts:137161
 
 ***
 
@@ -94,7 +98,9 @@ main.ts:126904
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -102,7 +108,7 @@ main.ts:126904
 
 #### Defined in
 
-main.ts:126922
+main.ts:137179
 
 ***
 
@@ -112,7 +118,9 @@ main.ts:126922
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -120,4 +128,4 @@ main.ts:126922
 
 #### Defined in
 
-main.ts:126915
+main.ts:137172

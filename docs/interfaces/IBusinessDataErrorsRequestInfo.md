@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataErrorsRequestInfo
+[Documentation](../README.md) / IBusinessDataErrorsRequestInfo
 
 # Interface: IBusinessDataErrorsRequestInfo
 
@@ -18,14 +18,14 @@
 
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
 
 #### Defined in
 
-main.ts:197410
+main.ts:209760
 
 ***
 
@@ -35,14 +35,14 @@ main.ts:197410
 
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
 
 #### Defined in
 
-main.ts:197417
+main.ts:209767
 
 ***
 
@@ -58,7 +58,7 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:197403
+main.ts:209753
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:197392
+main.ts:209742
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:197397
+main.ts:209747

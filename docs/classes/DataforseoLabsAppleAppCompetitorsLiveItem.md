@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleAppCompetitorsLiveItem
+[Documentation](../README.md) / DataforseoLabsAppleAppCompetitorsLiveItem
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAppleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsAppleAppCompetitorsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:115179
+main.ts:124351
 
 ## Properties
 
@@ -46,7 +48,7 @@ id of the competitor app
 
 #### Defined in
 
-main.ts:115158
+main.ts:124330
 
 ***
 
@@ -64,7 +66,7 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:115162
+main.ts:124334
 
 ***
 
@@ -82,7 +84,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Defined in
 
-main.ts:115172
+main.ts:124344
 
 ***
 
@@ -99,7 +101,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 #### Defined in
 
-main.ts:115175
+main.ts:124347
 
 ***
 
@@ -115,7 +117,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:115168
+main.ts:124340
 
 ***
 
@@ -131,7 +133,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115156
+main.ts:124328
 
 ***
 
@@ -149,7 +151,7 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:115166
+main.ts:124338
 
 ## Methods
 
@@ -159,7 +161,9 @@ main.ts:115166
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -167,7 +171,7 @@ main.ts:115166
 
 #### Defined in
 
-main.ts:115188
+main.ts:124360
 
 ***
 
@@ -177,7 +181,9 @@ main.ts:115188
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -185,7 +191,7 @@ main.ts:115188
 
 #### Defined in
 
-main.ts:115211
+main.ts:124383
 
 ***
 
@@ -195,7 +201,9 @@ main.ts:115211
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -203,4 +211,4 @@ main.ts:115211
 
 #### Defined in
 
-main.ts:115204
+main.ts:124376

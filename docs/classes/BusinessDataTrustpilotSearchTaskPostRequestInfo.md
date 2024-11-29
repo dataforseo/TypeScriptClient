@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
+[Documentation](../README.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotSearchTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:210544
+main.ts:225470
 
 ## Properties
 
@@ -52,7 +54,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Defined in
 
-main.ts:210514
+main.ts:225438
 
 ***
 
@@ -63,9 +65,10 @@ main.ts:210514
 keyword
 required field
 the keyword you specify should indicate a business category or company name;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -73,7 +76,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:210498
+main.ts:225422
 
 ***
 
@@ -88,8 +91,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -97,7 +101,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:210540
+main.ts:225466
 
 ***
 
@@ -112,8 +116,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -121,7 +126,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:210530
+main.ts:225455
 
 ***
 
@@ -143,7 +148,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:210506
+main.ts:225430
 
 ***
 
@@ -163,7 +168,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:210520
+main.ts:225444
 
 ## Methods
 
@@ -173,7 +178,9 @@ main.ts:210520
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +188,7 @@ main.ts:210520
 
 #### Defined in
 
-main.ts:210553
+main.ts:225479
 
 ***
 
@@ -191,7 +198,9 @@ main.ts:210553
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -199,7 +208,7 @@ main.ts:210553
 
 #### Defined in
 
-main.ts:210575
+main.ts:225501
 
 ***
 
@@ -209,7 +218,9 @@ main.ts:210575
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -217,4 +228,4 @@ main.ts:210575
 
 #### Defined in
 
-main.ts:210568
+main.ts:225494

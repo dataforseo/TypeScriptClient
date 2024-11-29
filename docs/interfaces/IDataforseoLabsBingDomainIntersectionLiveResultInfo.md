@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingDomainIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveResultInfo
 
@@ -14,13 +14,13 @@
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingDomainIntersectionLiveItem`](../classes/DataforseoLabsBingDomainIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](../classes/DataforseoLabsDomainIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:107377
+main.ts:116939
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:107375
+main.ts:116937
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:107371
+main.ts:116933
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:107369
+main.ts:116931
 
 ***
 
@@ -70,7 +70,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:107363
+main.ts:116925
 
 ***
 
@@ -82,7 +82,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:107365
+main.ts:116927
 
 ***
 
@@ -94,7 +94,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:107367
+main.ts:116929
 
 ***
 
@@ -106,4 +106,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:107373
+main.ts:116935

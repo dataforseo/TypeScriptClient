@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IReviewHighlights
+[Documentation](../README.md) / IReviewHighlights
 
 # Interface: IReviewHighlights
 
@@ -20,7 +20,7 @@ feature assessment
 
 #### Defined in
 
-main.ts:208509
+main.ts:222053
 
 ***
 
@@ -32,4 +32,4 @@ reviewed feature
 
 #### Defined in
 
-main.ts:208507
+main.ts:222051

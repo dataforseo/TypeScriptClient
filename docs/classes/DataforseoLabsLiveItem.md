@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md)
 
 ***
 
@@ -16,27 +16,29 @@
 
 ## Constructors
 
-### new DataforseoLabsLiveItem(data)
+### new DataforseoLabsLiveItem()
 
 > **new DataforseoLabsLiveItem**(`data`?): [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsLiveItem`](../interfaces/IDataforseoLabsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsLiveItem`](../interfaces/IDataforseoLabsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:110160
+main.ts:101458
 
 ## Properties
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](KeywordDataKeywordDataInfo.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -44,15 +46,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsLiveItem`](../interfaces/IDataforseoLabsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:110154
+main.ts:101452
 
 ***
 
 ### ranked\_serp\_element?
 
-> **`optional`** **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
+> `optional` **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -60,15 +62,15 @@ contains data on the domain’s SERP element found for the returned keyword
 
 [`IDataforseoLabsLiveItem`](../interfaces/IDataforseoLabsLiveItem.md).[`ranked_serp_element`](../interfaces/IDataforseoLabsLiveItem.md#ranked_serp_element)
 
-#### Source
+#### Defined in
 
-main.ts:110156
+main.ts:101454
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -76,9 +78,9 @@ search engine type
 
 [`IDataforseoLabsLiveItem`](../interfaces/IDataforseoLabsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:110152
+main.ts:101450
 
 ## Methods
 
@@ -88,15 +90,17 @@ main.ts:110152
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:110169
+main.ts:101467
 
 ***
 
@@ -106,30 +110,34 @@ main.ts:110169
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:110188
+main.ts:101486
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:110181
+main.ts:101479

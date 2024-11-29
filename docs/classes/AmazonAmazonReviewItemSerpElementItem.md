@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonAmazonReviewItemSerpElementItem
+[Documentation](../README.md) / AmazonAmazonReviewItemSerpElementItem
 
 # Class: AmazonAmazonReviewItemSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md)
+##### data?
+
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:185093
+main.ts:194980
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:185093
 
 #### Defined in
 
-main.ts:22320
+main.ts:23218
 
 ***
 
@@ -69,7 +71,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-main.ts:185070
+main.ts:194957
 
 ***
 
@@ -85,7 +87,7 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:185072
+main.ts:194959
 
 ***
 
@@ -102,7 +104,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:185063
+main.ts:194950
 
 ***
 
@@ -121,7 +123,7 @@ example:
 
 #### Defined in
 
-main.ts:185087
+main.ts:194974
 
 ***
 
@@ -142,7 +144,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22316
+main.ts:23214
 
 ***
 
@@ -163,7 +165,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22313
+main.ts:23211
 
 ***
 
@@ -179,7 +181,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:185089
+main.ts:194976
 
 ***
 
@@ -195,7 +197,7 @@ content of the review
 
 #### Defined in
 
-main.ts:185082
+main.ts:194969
 
 ***
 
@@ -211,7 +213,7 @@ subtitle of the review
 
 #### Defined in
 
-main.ts:185067
+main.ts:194954
 
 ***
 
@@ -227,7 +229,7 @@ title of the review
 
 #### Defined in
 
-main.ts:185078
+main.ts:194965
 
 ***
 
@@ -247,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:22310
+main.ts:23208
 
 ***
 
@@ -255,7 +257,7 @@ main.ts:22310
 
 > `optional` **url**: `string`
 
-URL to the review
+relevant url
 
 #### Implementation of
 
@@ -263,7 +265,7 @@ URL to the review
 
 #### Defined in
 
-main.ts:185080
+main.ts:194967
 
 ***
 
@@ -279,7 +281,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:185076
+main.ts:194963
 
 ***
 
@@ -295,7 +297,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-main.ts:185065
+main.ts:194952
 
 ***
 
@@ -311,7 +313,7 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:185074
+main.ts:194961
 
 ***
 
@@ -331,7 +333,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22318
+main.ts:23216
 
 ## Methods
 
@@ -341,7 +343,9 @@ main.ts:22318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -353,7 +357,7 @@ main.ts:22318
 
 #### Defined in
 
-main.ts:185098
+main.ts:194985
 
 ***
 
@@ -363,7 +367,9 @@ main.ts:185098
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -375,7 +381,7 @@ main.ts:185098
 
 #### Defined in
 
-main.ts:185135
+main.ts:195022
 
 ***
 
@@ -385,7 +391,9 @@ main.ts:185135
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -397,4 +405,4 @@ main.ts:185135
 
 #### Defined in
 
-main.ts:185128
+main.ts:195015

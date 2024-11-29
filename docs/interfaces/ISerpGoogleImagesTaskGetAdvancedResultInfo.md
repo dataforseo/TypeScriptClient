@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleImagesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleImagesTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleImagesTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:48011
+main.ts:51176
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:48016
+main.ts:51181
 
 ***
 
@@ -51,7 +51,7 @@ carousel, images_search, related_searches
 
 #### Defined in
 
-main.ts:48024
+main.ts:51191
 
 ***
 
@@ -59,11 +59,11 @@ main.ts:48024
 
 > `optional` **items**: [`BaseGoogleImagesSerpElementItem`](../classes/BaseGoogleImagesSerpElementItem.md)[]
 
-contains keywords and images related to the specified search term
+elements of search results found in SERP
 
 #### Defined in
 
-main.ts:48030
+main.ts:51197
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:48028
+main.ts:51195
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:48000
+main.ts:51165
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:48008
+main.ts:51173
 
 ***
 
@@ -112,7 +112,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:48006
+main.ts:51171
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:51186
 
 ***
 
@@ -124,7 +136,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:48004
+main.ts:51169
 
 ***
 
@@ -136,7 +148,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:48026
+main.ts:51193
 
 ***
 
@@ -149,7 +161,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:48019
+main.ts:51184
 
 ***
 
@@ -161,4 +173,4 @@ type of element
 
 #### Defined in
 
-main.ts:48002
+main.ts:51167

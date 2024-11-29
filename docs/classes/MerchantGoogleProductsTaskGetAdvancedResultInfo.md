@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleProductsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantGoogleProductsTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductsTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantGoogleProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleProductsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:175114
+main.ts:186843
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:175091
+main.ts:186820
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:175096
+main.ts:186825
 
 ***
 
@@ -85,7 +87,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 #### Defined in
 
-main.ts:175104
+main.ts:186833
 
 ***
 
@@ -103,7 +105,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:175110
+main.ts:186839
 
 ***
 
@@ -119,7 +121,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:175106
+main.ts:186835
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:175106
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -136,7 +138,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:175080
+main.ts:186809
 
 ***
 
@@ -152,7 +154,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:175088
+main.ts:186817
 
 ***
 
@@ -168,7 +170,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:175086
+main.ts:186815
 
 ***
 
@@ -184,7 +186,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:175084
+main.ts:186813
 
 ***
 
@@ -201,7 +203,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:175099
+main.ts:186828
 
 ***
 
@@ -217,7 +219,7 @@ type of element
 
 #### Defined in
 
-main.ts:175082
+main.ts:186811
 
 ## Methods
 
@@ -227,7 +229,9 @@ main.ts:175082
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -235,7 +239,7 @@ main.ts:175082
 
 #### Defined in
 
-main.ts:175123
+main.ts:186852
 
 ***
 
@@ -245,7 +249,9 @@ main.ts:175123
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -253,7 +259,7 @@ main.ts:175123
 
 #### Defined in
 
-main.ts:175158
+main.ts:186887
 
 ***
 
@@ -263,7 +269,9 @@ main.ts:175158
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -271,4 +279,4 @@ main.ts:175158
 
 #### Defined in
 
-main.ts:175151
+main.ts:186880

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleAutocompleteTaskPostRequestInfo
+[Documentation](../README.md) / ISerpGoogleAutocompleteTaskPostRequestInfo
 
 # Interface: ISerpGoogleAutocompleteTaskPostRequestInfo
 
@@ -35,7 +35,7 @@ products-cc — used in google shopping search
 
 #### Defined in
 
-main.ts:51682
+main.ts:55389
 
 ***
 
@@ -48,7 +48,7 @@ optional field
 the horizontal numerical position of the cursor pointer within the keyword in the search bar;
 by modifying the position of the cursor pointer, you will obtain different autocomplete suggestions for the same seed keyword;
 minimal value: 0
-default value: the number of the last symbol of the specified keyword
+default value: the number of the last character of the specified keyword
 example:
 |which query are s – "cursor_pointer": 0
 which query is s| – "cursor_pointer": 16
@@ -56,7 +56,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Defined in
 
-main.ts:51665
+main.ts:55372
 
 ***
 
@@ -66,14 +66,15 @@ main.ts:51665
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:51619
+main.ts:55326
 
 ***
 
@@ -90,7 +91,7 @@ en
 
 #### Defined in
 
-main.ts:51654
+main.ts:55361
 
 ***
 
@@ -107,7 +108,7 @@ English
 
 #### Defined in
 
-main.ts:51647
+main.ts:55354
 
 ***
 
@@ -123,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:51640
+main.ts:55347
 
 ***
 
@@ -140,7 +141,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:51634
+main.ts:55341
 
 ***
 
@@ -155,12 +156,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:51714
+main.ts:55423
 
 ***
 
@@ -176,7 +178,7 @@ advanced
 
 #### Defined in
 
-main.ts:51704
+main.ts:55412
 
 ***
 
@@ -191,12 +193,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be url-encoded;
-i.e., the # symbol will be encoded into %23
+Note: special characters in postback_url will be url-encoded;
+i.e., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:51698
+main.ts:55406
 
 ***
 
@@ -214,7 +217,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:51627
+main.ts:55334
 
 ***
 
@@ -230,4 +233,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:51688
+main.ts:55395

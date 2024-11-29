@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOrganicSerpElementItem
+[Documentation](../README.md) / IOrganicSerpElementItem
 
 # Interface: IOrganicSerpElementItem
 
@@ -26,7 +26,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:27456
+main.ts:29009
 
 ***
 
@@ -39,7 +39,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:27432
+main.ts:28985
 
 ***
 
@@ -51,7 +51,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:27409
+main.ts:28962
 
 ***
 
@@ -63,7 +63,7 @@ cached version of the page
 
 #### Defined in
 
-main.ts:27404
+main.ts:28957
 
 ***
 
@@ -75,7 +75,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27423
+main.ts:28976
 
 ***
 
@@ -87,7 +87,7 @@ domain name of the reference
 
 #### Defined in
 
-main.ts:27398
+main.ts:28951
 
 ***
 
@@ -101,7 +101,7 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 #### Defined in
 
-main.ts:27452
+main.ts:29005
 
 ***
 
@@ -113,7 +113,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:27427
+main.ts:28980
 
 ***
 
@@ -127,7 +127,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27448
+main.ts:29001
 
 ***
 
@@ -139,7 +139,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:27440
+main.ts:28993
 
 ***
 
@@ -151,7 +151,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27429
+main.ts:28982
 
 ***
 
@@ -163,7 +163,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:27417
+main.ts:28970
 
 ***
 
@@ -175,7 +175,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:27413
+main.ts:28966
 
 ***
 
@@ -187,7 +187,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:27419
+main.ts:28972
 
 ***
 
@@ -199,7 +199,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:27415
+main.ts:28968
 
 ***
 
@@ -211,7 +211,7 @@ indicates whether the element is marked as Google web story
 
 #### Defined in
 
-main.ts:27421
+main.ts:28974
 
 ***
 
@@ -225,7 +225,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27444
+main.ts:28997
 
 ***
 
@@ -243,7 +243,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -255,7 +255,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:27425
+main.ts:28978
 
 ***
 
@@ -268,7 +268,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27438
+main.ts:28991
 
 ***
 
@@ -285,7 +285,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -303,7 +303,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -316,7 +316,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:27435
+main.ts:28988
 
 ***
 
@@ -330,7 +330,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27469
+main.ts:29022
 
 ***
 
@@ -344,7 +344,7 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 #### Defined in
 
-main.ts:27460
+main.ts:29013
 
 ***
 
@@ -357,7 +357,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-main.ts:27407
+main.ts:28960
 
 ***
 
@@ -372,7 +372,7 @@ example:
 
 #### Defined in
 
-main.ts:27465
+main.ts:29018
 
 ***
 
@@ -384,7 +384,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27400
+main.ts:28953
 
 ***
 
@@ -400,7 +400,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -412,7 +412,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:27402
+main.ts:28955
 
 ***
 
@@ -424,7 +424,7 @@ name of the website in SERP
 
 #### Defined in
 
-main.ts:27411
+main.ts:28964
 
 ***
 
@@ -440,4 +440,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

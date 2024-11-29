@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICurrencyBoxSerpElementItem
+[Documentation](../README.md) / ICurrencyBoxSerpElementItem
 
 # Interface: ICurrencyBoxSerpElementItem
 
@@ -24,7 +24,7 @@ converted currency
 
 #### Defined in
 
-main.ts:35007
+main.ts:36492
 
 ***
 
@@ -38,7 +38,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-main.ts:35002
+main.ts:36487
 
 ***
 
@@ -51,7 +51,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:35005
+main.ts:36490
 
 ***
 
@@ -63,7 +63,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:35017
+main.ts:36502
 
 ***
 
@@ -81,7 +81,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -98,7 +98,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -116,7 +116,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -130,7 +130,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35021
+main.ts:36506
 
 ***
 
@@ -143,7 +143,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:35015
+main.ts:36500
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Defined in
 
-main.ts:35012
+main.ts:36497
 
 ***
 
@@ -174,7 +174,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -186,7 +186,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:34998
+main.ts:36483
 
 ***
 
@@ -202,4 +202,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

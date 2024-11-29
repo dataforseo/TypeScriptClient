@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TwitterDataforseoLabsSerpElementItem
+[Documentation](../README.md) / TwitterDataforseoLabsSerpElementItem
 
 # Class: TwitterDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:95956
+main.ts:106308
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:95956
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -68,7 +70,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:95952
+main.ts:106304
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -132,7 +134,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -148,7 +150,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95946
+main.ts:106298
 
 ***
 
@@ -164,7 +166,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:95948
+main.ts:106300
 
 ***
 
@@ -184,7 +186,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -200,7 +202,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:95950
+main.ts:106302
 
 ***
 
@@ -220,7 +222,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -230,7 +232,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -242,7 +246,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:95961
+main.ts:106313
 
 ***
 
@@ -252,7 +256,9 @@ main.ts:95961
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -264,7 +270,7 @@ main.ts:95961
 
 #### Defined in
 
-main.ts:95986
+main.ts:106338
 
 ***
 
@@ -274,7 +280,9 @@ main.ts:95986
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +294,4 @@ main.ts:95986
 
 #### Defined in
 
-main.ts:95979
+main.ts:106331

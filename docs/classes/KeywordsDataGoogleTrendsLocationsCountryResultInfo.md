@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
 # Class: KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsCountryResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:122475
+main.ts:132718
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:122462
+main.ts:132705
 
 ***
 
@@ -63,7 +65,7 @@ you can use this field for matching obtained results with the location_code para
 
 #### Defined in
 
-main.ts:122471
+main.ts:132714
 
 ***
 
@@ -80,7 +82,7 @@ you can use this field for matching obtained results with the location_name para
 
 #### Defined in
 
-main.ts:122468
+main.ts:132711
 
 ***
 
@@ -96,7 +98,7 @@ location code
 
 #### Defined in
 
-main.ts:122449
+main.ts:132692
 
 ***
 
@@ -119,7 +121,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:122460
+main.ts:132703
 
 ***
 
@@ -135,7 +137,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:122451
+main.ts:132694
 
 ***
 
@@ -152,7 +154,7 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:122465
+main.ts:132708
 
 ## Methods
 
@@ -162,7 +164,9 @@ main.ts:122465
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -170,7 +174,7 @@ main.ts:122465
 
 #### Defined in
 
-main.ts:122484
+main.ts:132727
 
 ***
 
@@ -180,7 +184,9 @@ main.ts:122484
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -188,7 +194,7 @@ main.ts:122484
 
 #### Defined in
 
-main.ts:122507
+main.ts:132750
 
 ***
 
@@ -198,7 +204,9 @@ main.ts:122507
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -206,4 +214,4 @@ main.ts:122507
 
 #### Defined in
 
-main.ts:122500
+main.ts:132743

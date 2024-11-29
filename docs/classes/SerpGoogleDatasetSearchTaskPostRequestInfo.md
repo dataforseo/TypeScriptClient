@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetSearchTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:53208
+main.ts:56934
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:53133
+main.ts:56857
 
 ***
 
@@ -71,7 +73,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:53148
+main.ts:56872
 
 ***
 
@@ -89,7 +91,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:53161
+main.ts:56885
 
 ***
 
@@ -107,7 +109,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:53169
+main.ts:56893
 
 ***
 
@@ -117,10 +119,11 @@ main.ts:53169
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”.
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”.
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -128,7 +131,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:53116
+main.ts:56840
 
 ***
 
@@ -147,7 +150,7 @@ en
 
 #### Defined in
 
-main.ts:53144
+main.ts:56868
 
 ***
 
@@ -167,7 +170,7 @@ English
 
 #### Defined in
 
-main.ts:53139
+main.ts:56863
 
 ***
 
@@ -185,7 +188,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:53157
+main.ts:56881
 
 ***
 
@@ -204,7 +207,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:53153
+main.ts:56877
 
 ***
 
@@ -219,8 +222,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -228,7 +232,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:53204
+main.ts:56930
 
 ***
 
@@ -247,7 +251,7 @@ only value: advanced
 
 #### Defined in
 
-main.ts:53194
+main.ts:56919
 
 ***
 
@@ -262,8 +266,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -271,7 +276,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:53189
+main.ts:56914
 
 ***
 
@@ -293,7 +298,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:53124
+main.ts:56848
 
 ***
 
@@ -313,7 +318,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:53179
+main.ts:56903
 
 ***
 
@@ -331,7 +336,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:53173
+main.ts:56897
 
 ***
 
@@ -349,7 +354,7 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:53165
+main.ts:56889
 
 ## Methods
 
@@ -359,7 +364,9 @@ main.ts:53165
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -367,7 +374,7 @@ main.ts:53165
 
 #### Defined in
 
-main.ts:53217
+main.ts:56943
 
 ***
 
@@ -377,7 +384,9 @@ main.ts:53217
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -385,7 +394,7 @@ main.ts:53217
 
 #### Defined in
 
-main.ts:53257
+main.ts:56983
 
 ***
 
@@ -395,7 +404,9 @@ main.ts:53257
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -403,4 +414,4 @@ main.ts:53257
 
 #### Defined in
 
-main.ts:53250
+main.ts:56976

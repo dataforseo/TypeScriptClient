@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICountryDistribution
+[Documentation](../README.md) / ICountryDistribution
 
 # Interface: ICountryDistribution
 
@@ -20,7 +20,7 @@ country ISO code
 
 #### Defined in
 
-main.ts:136178
+main.ts:148123
 
 ***
 
@@ -32,7 +32,7 @@ percentage of global search volume
 
 #### Defined in
 
-main.ts:136182
+main.ts:148127
 
 ***
 
@@ -44,4 +44,4 @@ search volume in a given country
 
 #### Defined in
 
-main.ts:136180
+main.ts:148125

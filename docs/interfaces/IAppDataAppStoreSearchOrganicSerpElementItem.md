@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppStoreSearchOrganicSerpElementItem
+[Documentation](../README.md) / IAppDataAppStoreSearchOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreSearchOrganicSerpElementItem
 
@@ -24,7 +24,7 @@ id of the app
 
 #### Defined in
 
-main.ts:114463
+main.ts:123795
 
 ***
 
@@ -36,7 +36,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:114467
+main.ts:123799
 
 ***
 
@@ -48,7 +48,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:114471
+main.ts:123803
 
 ***
 
@@ -66,19 +66,19 @@ left, right
 
 #### Defined in
 
-main.ts:22073
+main.ts:22971
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of the app
 
 #### Defined in
 
-main.ts:114473
+main.ts:123805
 
 ***
 
@@ -95,7 +95,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22069
+main.ts:22967
 
 ***
 
@@ -112,7 +112,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22066
+main.ts:22964
 
 ***
 
@@ -128,7 +128,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:22077
+main.ts:22975
 
 ***
 
@@ -140,7 +140,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:114469
+main.ts:123801
 
 ***
 
@@ -156,7 +156,7 @@ title of the app
 
 #### Defined in
 
-main.ts:22075
+main.ts:22973
 
 ***
 
@@ -172,7 +172,7 @@ type of element
 
 #### Defined in
 
-main.ts:22063
+main.ts:22961
 
 ***
 
@@ -184,4 +184,4 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:114465
+main.ts:123797

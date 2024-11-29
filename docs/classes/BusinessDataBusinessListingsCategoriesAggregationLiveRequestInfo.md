@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:199476
+main.ts:211826
 
 ## Properties
 
@@ -50,7 +52,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:199420
+main.ts:211770
 
 ***
 
@@ -61,7 +63,7 @@ main.ts:199420
 description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
@@ -69,7 +71,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:199425
+main.ts:211775
 
 ***
 
@@ -94,7 +96,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:199453
+main.ts:211803
 
 ***
 
@@ -113,7 +115,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:199458
+main.ts:211808
 
 ***
 
@@ -130,7 +132,7 @@ optional field
 
 #### Defined in
 
-main.ts:199433
+main.ts:211783
 
 ***
 
@@ -149,7 +151,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:199463
+main.ts:211813
 
 ***
 
@@ -172,7 +174,7 @@ example:
 
 #### Defined in
 
-main.ts:199442
+main.ts:211792
 
 ***
 
@@ -189,7 +191,7 @@ optional field
 
 #### Defined in
 
-main.ts:199466
+main.ts:211816
 
 ***
 
@@ -209,7 +211,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:199472
+main.ts:211822
 
 ***
 
@@ -220,7 +222,7 @@ main.ts:199472
 title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
@@ -228,7 +230,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:199430
+main.ts:211780
 
 ## Methods
 
@@ -238,7 +240,9 @@ main.ts:199430
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -246,7 +250,7 @@ main.ts:199430
 
 #### Defined in
 
-main.ts:199485
+main.ts:211835
 
 ***
 
@@ -256,7 +260,9 @@ main.ts:199485
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -264,7 +270,7 @@ main.ts:199485
 
 #### Defined in
 
-main.ts:199519
+main.ts:211869
 
 ***
 
@@ -274,7 +280,9 @@ main.ts:199519
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -282,4 +290,4 @@ main.ts:199519
 
 #### Defined in
 
-main.ts:199512
+main.ts:211862

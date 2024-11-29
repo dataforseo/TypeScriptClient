@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MicrodataInspectionInfo
+[Documentation](../README.md) / MicrodataInspectionInfo
 
 # Class: MicrodataInspectionInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMicrodataInspectionInfo`](../interfaces/IMicrodataInspectionInfo.md)
+##### data?
+
+[`IMicrodataInspectionInfo`](../interfaces/IMicrodataInspectionInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160105
+main.ts:171748
 
 ## Properties
 
@@ -47,7 +49,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:160101
+main.ts:171744
 
 ***
 
@@ -64,7 +66,7 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:160098
+main.ts:171741
 
 ## Methods
 
@@ -74,7 +76,9 @@ main.ts:160098
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +86,7 @@ main.ts:160098
 
 #### Defined in
 
-main.ts:160114
+main.ts:171757
 
 ***
 
@@ -92,7 +96,9 @@ main.ts:160114
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +106,7 @@ main.ts:160114
 
 #### Defined in
 
-main.ts:160140
+main.ts:171783
 
 ***
 
@@ -110,7 +116,9 @@ main.ts:160140
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -118,4 +126,4 @@ main.ts:160140
 
 #### Defined in
 
-main.ts:160133
+main.ts:171776

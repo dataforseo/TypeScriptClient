@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISubtitles
+[Documentation](../README.md) / ISubtitles
 
 # Interface: ISubtitles
 
@@ -20,7 +20,7 @@ defines if subtitles are auto generated
 
 #### Defined in
 
-main.ts:62186
+main.ts:70368
 
 ***
 
@@ -32,7 +32,7 @@ defines if subtitles are translatable
 
 #### Defined in
 
-main.ts:62184
+main.ts:70366
 
 ***
 
@@ -44,4 +44,4 @@ language of subtitles
 
 #### Defined in
 
-main.ts:62182
+main.ts:70364

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBaiduOrganicTaskPostRequestInfo
+[Documentation](../README.md) / SerpBaiduOrganicTaskPostRequestInfo
 
 # Class: SerpBaiduOrganicTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpBaiduOrganicTaskPostRequestInfo`](../interfaces/ISerpBaiduOrganicTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:69609
+main.ts:79024
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:69508
+main.ts:78921
 
 ***
 
@@ -72,7 +74,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:69556
+main.ts:78969
 
 ***
 
@@ -94,7 +96,7 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 #### Defined in
 
-main.ts:69573
+main.ts:78986
 
 ***
 
@@ -104,10 +106,11 @@ main.ts:69573
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -115,7 +118,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:69491
+main.ts:78904
 
 ***
 
@@ -135,7 +138,7 @@ zh_CN
 
 #### Defined in
 
-main.ts:69527
+main.ts:78940
 
 ***
 
@@ -155,7 +158,7 @@ Chinese (Simplified)
 
 #### Defined in
 
-main.ts:69521
+main.ts:78934
 
 ***
 
@@ -176,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:69541
+main.ts:78954
 
 ***
 
@@ -200,7 +203,7 @@ example:
 
 #### Defined in
 
-main.ts:69551
+main.ts:78964
 
 ***
 
@@ -221,7 +224,7 @@ New York,New York,United States
 
 #### Defined in
 
-main.ts:69534
+main.ts:78947
 
 ***
 
@@ -242,7 +245,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:69515
+main.ts:78928
 
 ***
 
@@ -265,7 +268,7 @@ default value: android
 
 #### Defined in
 
-main.ts:69565
+main.ts:78978
 
 ***
 
@@ -280,8 +283,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -289,7 +293,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:69605
+main.ts:79020
 
 ***
 
@@ -309,7 +313,7 @@ regular, html
 
 #### Defined in
 
-main.ts:69595
+main.ts:79009
 
 ***
 
@@ -324,8 +328,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -333,7 +338,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:69589
+main.ts:79003
 
 ***
 
@@ -355,7 +360,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:69499
+main.ts:78912
 
 ***
 
@@ -375,7 +380,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:69579
+main.ts:78992
 
 ## Methods
 
@@ -385,7 +390,9 @@ main.ts:69579
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -393,7 +400,7 @@ main.ts:69579
 
 #### Defined in
 
-main.ts:69618
+main.ts:79033
 
 ***
 
@@ -403,7 +410,9 @@ main.ts:69618
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -411,7 +420,7 @@ main.ts:69618
 
 #### Defined in
 
-main.ts:69650
+main.ts:79065
 
 ***
 
@@ -421,7 +430,9 @@ main.ts:69650
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -429,4 +440,4 @@ main.ts:69650
 
 #### Defined in
 
-main.ts:69643
+main.ts:79058

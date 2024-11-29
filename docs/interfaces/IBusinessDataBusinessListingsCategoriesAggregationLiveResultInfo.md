@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
@@ -21,7 +21,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:199895
+main.ts:212245
 
 ***
 
@@ -35,7 +35,7 @@ possible item types: business_category
 
 #### Defined in
 
-main.ts:199905
+main.ts:212255
 
 ***
 
@@ -47,7 +47,7 @@ offset in the results array of returned categories
 
 #### Defined in
 
-main.ts:199897
+main.ts:212247
 
 ***
 
@@ -61,7 +61,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:199901
+main.ts:212251
 
 ***
 
@@ -73,4 +73,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:199892
+main.ts:212242

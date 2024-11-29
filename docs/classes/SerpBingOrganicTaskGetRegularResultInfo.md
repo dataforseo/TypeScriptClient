@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBingOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / SerpBingOrganicTaskGetRegularResultInfo
 
 # Class: SerpBingOrganicTaskGetRegularResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md)
+##### data?
+
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:57820
+main.ts:64325
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:57797
+main.ts:64299
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:57802
+main.ts:64304
 
 ***
 
@@ -84,7 +86,7 @@ possible item types: organic, paid
 
 #### Defined in
 
-main.ts:57809
+main.ts:64314
 
 ***
 
@@ -101,7 +103,7 @@ array of 8 search queries related to the keyword
 
 #### Defined in
 
-main.ts:57816
+main.ts:64321
 
 ***
 
@@ -117,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:57813
+main.ts:64318
 
 ***
 
@@ -134,7 +136,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:57786
+main.ts:64288
 
 ***
 
@@ -150,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:57794
+main.ts:64296
 
 ***
 
@@ -166,7 +168,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:57792
+main.ts:64294
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpBingOrganicTaskGetRegularResultInfo`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md).[`refinement_chips`](../interfaces/ISerpBingOrganicTaskGetRegularResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:64310
 
 ***
 
@@ -182,7 +201,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:57790
+main.ts:64292
 
 ***
 
@@ -198,7 +217,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:57811
+main.ts:64316
 
 ***
 
@@ -215,7 +234,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:57805
+main.ts:64307
 
 ***
 
@@ -231,7 +250,7 @@ type of element
 
 #### Defined in
 
-main.ts:57788
+main.ts:64290
 
 ## Methods
 
@@ -241,7 +260,9 @@ main.ts:57788
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -249,7 +270,7 @@ main.ts:57788
 
 #### Defined in
 
-main.ts:57829
+main.ts:64334
 
 ***
 
@@ -259,7 +280,9 @@ main.ts:57829
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +290,7 @@ main.ts:57829
 
 #### Defined in
 
-main.ts:57865
+main.ts:64371
 
 ***
 
@@ -277,7 +300,9 @@ main.ts:57865
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -285,4 +310,4 @@ main.ts:57865
 
 #### Defined in
 
-main.ts:57858
+main.ts:64364

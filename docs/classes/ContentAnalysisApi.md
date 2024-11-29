@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisApi
+[Documentation](../README.md) / ContentAnalysisApi
 
 # Class: ContentAnalysisApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:13764
+main.ts:14320
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:13764
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:13764
 
 #### Defined in
 
-main.ts:13762
+main.ts:14318
 
 ## Methods
 
@@ -56,7 +62,9 @@ main.ts:13762
 
 #### Parameters
 
-• **body**: [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)[]
+##### body
+
+[`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -68,7 +76,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14173
+main.ts:14729
 
 ***
 
@@ -84,7 +92,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13814
+main.ts:14370
 
 ***
 
@@ -100,7 +108,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13925
+main.ts:14481
 
 ***
 
@@ -110,7 +118,9 @@ main.ts:13925
 
 #### Parameters
 
-• **body**: [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)[]
+##### body
+
+[`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)[]
 
 (optional)
 
@@ -122,7 +132,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13773
+main.ts:14329
 
 ***
 
@@ -138,7 +148,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13888
+main.ts:14444
 
 ***
 
@@ -154,7 +164,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13851
+main.ts:14407
 
 ***
 
@@ -164,7 +174,9 @@ main.ts:13851
 
 #### Parameters
 
-• **body**: [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)[]
+##### body
+
+[`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -176,7 +188,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14005
+main.ts:14561
 
 ***
 
@@ -186,7 +198,9 @@ main.ts:14005
 
 #### Parameters
 
-• **body**: [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)[]
+##### body
+
+[`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -198,7 +212,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14131
+main.ts:14687
 
 ***
 
@@ -208,7 +222,9 @@ main.ts:14131
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -216,7 +232,7 @@ main.ts:14131
 
 #### Defined in
 
-main.ts:14193
+main.ts:14749
 
 ***
 
@@ -226,7 +242,9 @@ main.ts:14193
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -234,7 +252,7 @@ main.ts:14193
 
 #### Defined in
 
-main.ts:13830
+main.ts:14386
 
 ***
 
@@ -244,7 +262,9 @@ main.ts:13830
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -252,7 +272,7 @@ main.ts:13830
 
 #### Defined in
 
-main.ts:13941
+main.ts:14497
 
 ***
 
@@ -262,7 +282,9 @@ main.ts:13941
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -270,7 +292,7 @@ main.ts:13941
 
 #### Defined in
 
-main.ts:13793
+main.ts:14349
 
 ***
 
@@ -280,7 +302,9 @@ main.ts:13793
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -288,7 +312,7 @@ main.ts:13793
 
 #### Defined in
 
-main.ts:13904
+main.ts:14460
 
 ***
 
@@ -298,7 +322,9 @@ main.ts:13904
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -306,7 +332,7 @@ main.ts:13904
 
 #### Defined in
 
-main.ts:13867
+main.ts:14423
 
 ***
 
@@ -316,7 +342,9 @@ main.ts:13867
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -324,7 +352,7 @@ main.ts:13867
 
 #### Defined in
 
-main.ts:14025
+main.ts:14581
 
 ***
 
@@ -334,7 +362,9 @@ main.ts:14025
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -342,7 +372,7 @@ main.ts:14025
 
 #### Defined in
 
-main.ts:14151
+main.ts:14707
 
 ***
 
@@ -352,7 +382,9 @@ main.ts:14151
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -360,7 +392,7 @@ main.ts:14151
 
 #### Defined in
 
-main.ts:14109
+main.ts:14665
 
 ***
 
@@ -370,7 +402,9 @@ main.ts:14109
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -378,7 +412,7 @@ main.ts:14109
 
 #### Defined in
 
-main.ts:13983
+main.ts:14539
 
 ***
 
@@ -388,7 +422,9 @@ main.ts:13983
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -396,7 +432,7 @@ main.ts:13983
 
 #### Defined in
 
-main.ts:14067
+main.ts:14623
 
 ***
 
@@ -406,7 +442,9 @@ main.ts:14067
 
 #### Parameters
 
-• **body**: [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)[]
+##### body
+
+[`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)[]
 
 (optional)
 
@@ -418,7 +456,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:14089
+main.ts:14645
 
 ***
 
@@ -428,7 +466,9 @@ main.ts:14089
 
 #### Parameters
 
-• **body**: [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)[]
+##### body
+
+[`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)[]
 
 (optional)
 
@@ -440,7 +480,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:13963
+main.ts:14519
 
 ***
 
@@ -450,7 +490,9 @@ main.ts:13963
 
 #### Parameters
 
-• **body**: [`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)[]
+##### body
+
+[`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)[]
 
 (optional)
 
@@ -462,4 +504,4 @@ Successful operation
 
 #### Defined in
 
-main.ts:14047
+main.ts:14603

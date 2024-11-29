@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphImagesItemSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphImagesItemSerpElementItem
 
 # Class: KnowledgeGraphImagesItemSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphImagesItemSerpElementItem`](../interfaces/IKnowledgeGraphImagesItemSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphImagesItemSerpElementItem`](../interfaces/IKnowledgeGraphImagesItemSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:28208
+main.ts:29767
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:28208
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ items featured in the faq_box
 
 #### Defined in
 
-main.ts:28200
+main.ts:29759
 
 ***
 
@@ -84,7 +86,7 @@ link of the element
 
 #### Defined in
 
-main.ts:28198
+main.ts:29757
 
 ***
 
@@ -106,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -127,7 +129,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -149,7 +151,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -167,7 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28204
+main.ts:29763
 
 ***
 
@@ -187,7 +189,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -207,7 +209,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -217,7 +219,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -229,7 +233,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28213
+main.ts:29772
 
 ***
 
@@ -239,7 +243,9 @@ main.ts:28213
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -251,7 +257,7 @@ main.ts:28213
 
 #### Defined in
 
-main.ts:28237
+main.ts:29796
 
 ***
 
@@ -261,7 +267,9 @@ main.ts:28237
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -273,4 +281,4 @@ main.ts:28237
 
 #### Defined in
 
-main.ts:28230
+main.ts:29789

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveItem
+[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveItem
 
 # Class: BacklinksTimeseriesSummaryLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md)
+##### data?
+
+[`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:148209
+main.ts:159414
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of backlinks for the given date
 
 #### Defined in
 
-main.ts:148185
+main.ts:159390
 
 ***
 
@@ -62,7 +64,7 @@ number of nofollow backlinks for the given date
 
 #### Defined in
 
-main.ts:148187
+main.ts:159392
 
 ***
 
@@ -81,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:148180
+main.ts:159385
 
 ***
 
@@ -98,7 +100,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:148183
+main.ts:159388
 
 ***
 
@@ -115,7 +117,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:148194
+main.ts:159399
 
 ***
 
@@ -131,7 +133,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Defined in
 
-main.ts:148196
+main.ts:159401
 
 ***
 
@@ -148,7 +150,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:148203
+main.ts:159408
 
 ***
 
@@ -164,7 +166,7 @@ number of referring main domains for the given date
 
 #### Defined in
 
-main.ts:148198
+main.ts:159403
 
 ***
 
@@ -180,7 +182,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Defined in
 
-main.ts:148200
+main.ts:159405
 
 ***
 
@@ -196,7 +198,7 @@ number of pages pointing to target for the given date
 
 #### Defined in
 
-main.ts:148189
+main.ts:159394
 
 ***
 
@@ -212,7 +214,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 #### Defined in
 
-main.ts:148191
+main.ts:159396
 
 ***
 
@@ -228,7 +230,7 @@ number of referring subnetworks for the given date
 
 #### Defined in
 
-main.ts:148205
+main.ts:159410
 
 ***
 
@@ -244,7 +246,7 @@ type of element
 
 #### Defined in
 
-main.ts:148175
+main.ts:159380
 
 ## Methods
 
@@ -254,7 +256,9 @@ main.ts:148175
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -262,7 +266,7 @@ main.ts:148175
 
 #### Defined in
 
-main.ts:148218
+main.ts:159423
 
 ***
 
@@ -272,7 +276,9 @@ main.ts:148218
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -280,7 +286,7 @@ main.ts:148218
 
 #### Defined in
 
-main.ts:148247
+main.ts:159452
 
 ***
 
@@ -290,7 +296,9 @@ main.ts:148247
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -298,4 +306,4 @@ main.ts:148247
 
 #### Defined in
 
-main.ts:148240
+main.ts:159445

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITrendsMapDataInfo
+[Documentation](../README.md) / ITrendsMapDataInfo
 
 # Interface: ITrendsMapDataInfo
 
@@ -23,7 +23,7 @@ US-NY
 
 #### Defined in
 
-main.ts:124025
+main.ts:134274
 
 ***
 
@@ -36,7 +36,7 @@ you can use this field for matching obtained results with location parameters sp
 
 #### Defined in
 
-main.ts:124028
+main.ts:134277
 
 ***
 
@@ -50,7 +50,7 @@ if you specified only one keyword, the value will be null
 
 #### Defined in
 
-main.ts:124039
+main.ts:134288
 
 ***
 
@@ -67,4 +67,4 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:124035
+main.ts:134284

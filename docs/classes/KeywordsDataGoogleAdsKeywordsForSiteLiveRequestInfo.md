@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:119453
+main.ts:129185
 
 ## Properties
 
@@ -52,7 +54,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:119424
+main.ts:129156
 
 ***
 
@@ -74,7 +76,7 @@ example:
 
 #### Defined in
 
-main.ts:119432
+main.ts:129164
 
 ***
 
@@ -94,7 +96,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:119438
+main.ts:129170
 
 ***
 
@@ -114,7 +116,7 @@ en
 
 #### Defined in
 
-main.ts:119411
+main.ts:129143
 
 ***
 
@@ -134,7 +136,7 @@ English
 
 #### Defined in
 
-main.ts:119405
+main.ts:129137
 
 ***
 
@@ -156,7 +158,7 @@ example:
 
 #### Defined in
 
-main.ts:119390
+main.ts:129122
 
 ***
 
@@ -179,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:119399
+main.ts:129131
 
 ***
 
@@ -201,7 +203,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:119382
+main.ts:129114
 
 ***
 
@@ -220,7 +222,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:119416
+main.ts:129148
 
 ***
 
@@ -239,7 +241,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:119443
+main.ts:129175
 
 ***
 
@@ -259,7 +261,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:119449
+main.ts:129181
 
 ***
 
@@ -278,7 +280,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:119367
+main.ts:129099
 
 ***
 
@@ -299,7 +301,7 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:119374
+main.ts:129106
 
 ## Methods
 
@@ -309,7 +311,9 @@ main.ts:119374
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -317,7 +321,7 @@ main.ts:119374
 
 #### Defined in
 
-main.ts:119462
+main.ts:129194
 
 ***
 
@@ -327,7 +331,9 @@ main.ts:119462
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -335,7 +341,7 @@ main.ts:119462
 
 #### Defined in
 
-main.ts:119491
+main.ts:129223
 
 ***
 
@@ -345,7 +351,9 @@ main.ts:119491
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -353,4 +361,4 @@ main.ts:119491
 
 #### Defined in
 
-main.ts:119484
+main.ts:129216

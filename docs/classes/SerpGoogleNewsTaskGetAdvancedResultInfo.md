@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleNewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleNewsTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleNewsTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:44160
+main.ts:46406
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:44136
+main.ts:46381
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:44141
+main.ts:46386
 
 ***
 
@@ -85,7 +87,7 @@ top_stories, news_search
 
 #### Defined in
 
-main.ts:44149
+main.ts:46396
 
 ***
 
@@ -93,8 +95,7 @@ main.ts:44149
 
 > `optional` **items**: [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -102,7 +103,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:44156
+main.ts:46402
 
 ***
 
@@ -118,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:44153
+main.ts:46400
 
 ***
 
@@ -135,7 +136,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:44125
+main.ts:46370
 
 ***
 
@@ -151,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:44133
+main.ts:46378
 
 ***
 
@@ -167,7 +168,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:44131
+main.ts:46376
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:46391
 
 ***
 
@@ -183,7 +200,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:44129
+main.ts:46374
 
 ***
 
@@ -199,7 +216,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:44151
+main.ts:46398
 
 ***
 
@@ -216,7 +233,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:44144
+main.ts:46389
 
 ***
 
@@ -232,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:44127
+main.ts:46372
 
 ## Methods
 
@@ -242,7 +259,9 @@ main.ts:44127
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +269,7 @@ main.ts:44127
 
 #### Defined in
 
-main.ts:44169
+main.ts:46415
 
 ***
 
@@ -260,7 +279,9 @@ main.ts:44169
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +289,7 @@ main.ts:44169
 
 #### Defined in
 
-main.ts:44205
+main.ts:46452
 
 ***
 
@@ -278,7 +299,9 @@ main.ts:44205
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +309,4 @@ main.ts:44205
 
 #### Defined in
 
-main.ts:44198
+main.ts:46445

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationTextSummaryLiveResultInfo
+[Documentation](../README.md) / ContentGenerationTextSummaryLiveResultInfo
 
 # Class: ContentGenerationTextSummaryLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:171962
+main.ts:183551
 
 ## Properties
 
@@ -46,7 +48,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:171948
+main.ts:183537
 
 ***
 
@@ -62,7 +64,7 @@ average number of characters per word in the target text
 
 #### Defined in
 
-main.ts:171941
+main.ts:183530
 
 ***
 
@@ -78,7 +80,7 @@ number of characters with spaces found in the target text
 
 #### Defined in
 
-main.ts:171937
+main.ts:183526
 
 ***
 
@@ -94,7 +96,7 @@ number of characters without spaces found in the target text
 
 #### Defined in
 
-main.ts:171935
+main.ts:183524
 
 ***
 
@@ -110,7 +112,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:171950
+main.ts:183539
 
 ***
 
@@ -126,7 +128,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:171952
+main.ts:183541
 
 ***
 
@@ -142,7 +144,7 @@ number of grammar errors found in the target text
 
 #### Defined in
 
-main.ts:171958
+main.ts:183547
 
 ***
 
@@ -163,7 +165,7 @@ contains most common words and their count
 
 #### Defined in
 
-main.ts:171946
+main.ts:183535
 
 ***
 
@@ -179,7 +181,7 @@ number of paragraphs found in the target text
 
 #### Defined in
 
-main.ts:171931
+main.ts:183520
 
 ***
 
@@ -195,7 +197,7 @@ number of sentences found in the target text
 
 #### Defined in
 
-main.ts:171929
+main.ts:183518
 
 ***
 
@@ -211,7 +213,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:171954
+main.ts:183543
 
 ***
 
@@ -227,7 +229,7 @@ number of spelling errors found in the target text
 
 #### Defined in
 
-main.ts:171956
+main.ts:183545
 
 ***
 
@@ -243,7 +245,7 @@ vocabulary density of the target text
 
 #### Defined in
 
-main.ts:171943
+main.ts:183532
 
 ***
 
@@ -259,7 +261,7 @@ number of words found in the target text
 
 #### Defined in
 
-main.ts:171933
+main.ts:183522
 
 ***
 
@@ -275,7 +277,7 @@ average number of words per sentence in the target text
 
 #### Defined in
 
-main.ts:171939
+main.ts:183528
 
 ## Methods
 
@@ -285,7 +287,9 @@ main.ts:171939
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -293,7 +297,7 @@ main.ts:171939
 
 #### Defined in
 
-main.ts:171971
+main.ts:183560
 
 ***
 
@@ -303,7 +307,9 @@ main.ts:171971
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -311,7 +317,7 @@ main.ts:171971
 
 #### Defined in
 
-main.ts:172008
+main.ts:183597
 
 ***
 
@@ -321,7 +327,9 @@ main.ts:172008
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -329,4 +337,4 @@ main.ts:172008
 
 #### Defined in
 
-main.ts:172001
+main.ts:183590

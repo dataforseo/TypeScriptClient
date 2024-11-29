@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PeriodCovered
+[Documentation](../README.md) / PeriodCovered
 
 # Class: PeriodCovered
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPeriodCovered`](../interfaces/IPeriodCovered.md)
+##### data?
+
+[`IPeriodCovered`](../interfaces/IPeriodCovered.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:54069
+main.ts:57730
 
 ## Properties
 
@@ -48,7 +50,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 #### Defined in
 
-main.ts:54065
+main.ts:57726
 
 ***
 
@@ -67,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:54061
+main.ts:57722
 
 ***
 
@@ -86,7 +88,7 @@ example:
 
 #### Defined in
 
-main.ts:54056
+main.ts:57717
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:54056
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:54056
 
 #### Defined in
 
-main.ts:54078
+main.ts:57739
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:54078
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:54078
 
 #### Defined in
 
-main.ts:54097
+main.ts:57758
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:54097
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:54097
 
 #### Defined in
 
-main.ts:54090
+main.ts:57751

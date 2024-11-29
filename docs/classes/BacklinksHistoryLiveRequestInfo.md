@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksHistoryLiveRequestInfo
+[Documentation](../README.md) / BacklinksHistoryLiveRequestInfo
 
 # Class: BacklinksHistoryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:139496
+main.ts:150701
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:139479
+main.ts:150684
 
 ***
 
@@ -73,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:139486
+main.ts:150691
 
 ***
 
@@ -93,7 +95,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:139492
+main.ts:150697
 
 ***
 
@@ -111,7 +113,7 @@ a domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:139471
+main.ts:150676
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:139471
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:139471
 
 #### Defined in
 
-main.ts:139505
+main.ts:150710
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:139505
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:139505
 
 #### Defined in
 
-main.ts:139525
+main.ts:150730
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:139525
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:139525
 
 #### Defined in
 
-main.ts:139518
+main.ts:150723

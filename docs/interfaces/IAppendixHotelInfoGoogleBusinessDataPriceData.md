@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixHotelInfoGoogleBusinessDataPriceData
+[Documentation](../README.md) / IAppendixHotelInfoGoogleBusinessDataPriceData
 
 # Interface: IAppendixHotelInfoGoogleBusinessDataPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:222591
+main.ts:237718
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:222591
 
 #### Defined in
 
-main.ts:222592
+main.ts:237719
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:222592
 
 #### Defined in
 
-main.ts:222593
+main.ts:237720
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:222593
 
 #### Defined in
 
-main.ts:222594
+main.ts:237721

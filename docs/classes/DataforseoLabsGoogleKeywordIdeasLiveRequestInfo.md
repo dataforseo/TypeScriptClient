@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordIdeasLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:85233
+main.ts:94947
 
 ## Properties
 
@@ -50,7 +52,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85151
+main.ts:94865
 
 ***
 
@@ -84,7 +86,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:85206
+main.ts:94920
 
 ***
 
@@ -103,7 +105,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85156
+main.ts:94870
 
 ***
 
@@ -113,7 +115,7 @@ main.ts:85156
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -124,7 +126,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:85168
+main.ts:94882
 
 ***
 
@@ -143,7 +145,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85161
+main.ts:94875
 
 ***
 
@@ -155,8 +157,8 @@ keywords
 required field
 UTF-8 encoding
 The maximum number of keywords you can specify: 200.
-The minimum number of characters for each keyword: 3.
 The keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -164,7 +166,7 @@ The keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:85111
+main.ts:94825
 
 ***
 
@@ -187,7 +189,7 @@ en
 
 #### Defined in
 
-main.ts:85145
+main.ts:94859
 
 ***
 
@@ -210,7 +212,7 @@ English
 
 #### Defined in
 
-main.ts:85136
+main.ts:94850
 
 ***
 
@@ -229,7 +231,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:85173
+main.ts:94887
 
 ***
 
@@ -251,7 +253,7 @@ example:
 
 #### Defined in
 
-main.ts:85127
+main.ts:94841
 
 ***
 
@@ -273,7 +275,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:85119
+main.ts:94833
 
 ***
 
@@ -292,7 +294,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:85178
+main.ts:94892
 
 ***
 
@@ -314,7 +316,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:85186
+main.ts:94900
 
 ***
 
@@ -345,7 +347,7 @@ example:
 
 #### Defined in
 
-main.ts:85223
+main.ts:94937
 
 ***
 
@@ -365,7 +367,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85229
+main.ts:94943
 
 ## Methods
 
@@ -375,7 +377,9 @@ main.ts:85229
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -383,7 +387,7 @@ main.ts:85229
 
 #### Defined in
 
-main.ts:85242
+main.ts:94956
 
 ***
 
@@ -393,7 +397,9 @@ main.ts:85242
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -401,7 +407,7 @@ main.ts:85242
 
 #### Defined in
 
-main.ts:85285
+main.ts:94999
 
 ***
 
@@ -411,7 +417,9 @@ main.ts:85285
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -419,4 +427,4 @@ main.ts:85285
 
 #### Defined in
 
-main.ts:85278
+main.ts:94992

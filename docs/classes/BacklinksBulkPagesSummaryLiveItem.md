@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkPagesSummaryLiveItem
+[Documentation](../README.md) / BacklinksBulkPagesSummaryLiveItem
 
 # Class: BacklinksBulkPagesSummaryLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkPagesSummaryLiveItem`](../interfaces/IBacklinksBulkPagesSummaryLiveItem.md)
+##### data?
+
+[`IBacklinksBulkPagesSummaryLiveItem`](../interfaces/IBacklinksBulkPagesSummaryLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:151306
+main.ts:162511
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of backlinks
 
 #### Defined in
 
-main.ts:151242
+main.ts:162447
 
 ***
 
@@ -63,7 +65,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:151256
+main.ts:162461
 
 ***
 
@@ -80,7 +82,7 @@ number of broken backlinks pointing to the page
 
 #### Defined in
 
-main.ts:151259
+main.ts:162464
 
 ***
 
@@ -97,7 +99,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Defined in
 
-main.ts:151262
+main.ts:162467
 
 ***
 
@@ -116,7 +118,7 @@ example:
 
 #### Defined in
 
-main.ts:151247
+main.ts:162452
 
 ***
 
@@ -136,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:151253
+main.ts:162458
 
 ***
 
@@ -154,7 +156,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:151240
+main.ts:162445
 
 ***
 
@@ -173,7 +175,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:151236
+main.ts:162441
 
 ***
 
@@ -189,7 +191,7 @@ indicates the number domains referring to the page
 
 #### Defined in
 
-main.ts:151264
+main.ts:162469
 
 ***
 
@@ -205,7 +207,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:151266
+main.ts:162471
 
 ***
 
@@ -222,7 +224,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:151273
+main.ts:162478
 
 ***
 
@@ -243,7 +245,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:151290
+main.ts:162495
 
 ***
 
@@ -264,7 +266,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:151302
+main.ts:162507
 
 ***
 
@@ -285,7 +287,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:151293
+main.ts:162498
 
 ***
 
@@ -309,7 +311,7 @@ article, section, footer
 
 #### Defined in
 
-main.ts:151299
+main.ts:162504
 
 ***
 
@@ -330,7 +332,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:151282
+main.ts:162487
 
 ***
 
@@ -353,7 +355,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:151287
+main.ts:162492
 
 ***
 
@@ -369,7 +371,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:151268
+main.ts:162473
 
 ***
 
@@ -385,7 +387,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:151270
+main.ts:162475
 
 ***
 
@@ -401,7 +403,7 @@ indicates the number of pages pointing to the relevant url
 
 #### Defined in
 
-main.ts:151277
+main.ts:162482
 
 ***
 
@@ -417,7 +419,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:151279
+main.ts:162484
 
 ***
 
@@ -433,7 +435,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:151275
+main.ts:162480
 
 ***
 
@@ -449,7 +451,7 @@ type of element
 
 #### Defined in
 
-main.ts:151229
+main.ts:162434
 
 ***
 
@@ -465,7 +467,7 @@ page URL
 
 #### Defined in
 
-main.ts:151231
+main.ts:162436
 
 ## Methods
 
@@ -475,7 +477,9 @@ main.ts:151231
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -483,7 +487,7 @@ main.ts:151231
 
 #### Defined in
 
-main.ts:151315
+main.ts:162520
 
 ***
 
@@ -493,7 +497,9 @@ main.ts:151315
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -501,7 +507,7 @@ main.ts:151315
 
 #### Defined in
 
-main.ts:151391
+main.ts:162596
 
 ***
 
@@ -511,7 +517,9 @@ main.ts:151391
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -519,4 +527,4 @@ main.ts:151391
 
 #### Defined in
 
-main.ts:151384
+main.ts:162589

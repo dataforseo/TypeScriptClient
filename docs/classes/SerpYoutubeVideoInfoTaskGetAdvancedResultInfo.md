@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:62594
+main.ts:70779
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:62573
+main.ts:70755
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:62578
+main.ts:70760
 
 ***
 
@@ -85,7 +87,7 @@ youtube_video_info
 
 #### Defined in
 
-main.ts:62586
+main.ts:70771
 
 ***
 
@@ -101,7 +103,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:62590
+main.ts:70775
 
 ***
 
@@ -117,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:62588
+main.ts:70773
 
 ***
 
@@ -133,7 +135,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:62570
+main.ts:70752
 
 ***
 
@@ -149,7 +151,24 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:62568
+main.ts:70750
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:70766
 
 ***
 
@@ -165,7 +184,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:62566
+main.ts:70748
 
 ***
 
@@ -182,7 +201,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:62581
+main.ts:70763
 
 ***
 
@@ -198,7 +217,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:62564
+main.ts:70746
 
 ## Methods
 
@@ -208,7 +227,9 @@ main.ts:62564
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +237,7 @@ main.ts:62564
 
 #### Defined in
 
-main.ts:62603
+main.ts:70788
 
 ***
 
@@ -226,7 +247,9 @@ main.ts:62603
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +257,7 @@ main.ts:62603
 
 #### Defined in
 
-main.ts:62637
+main.ts:70823
 
 ***
 
@@ -244,7 +267,9 @@ main.ts:62637
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -252,4 +277,4 @@ main.ts:62637
 
 #### Defined in
 
-main.ts:62630
+main.ts:70816

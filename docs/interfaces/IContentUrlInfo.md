@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentUrlInfo
+[Documentation](../README.md) / IContentUrlInfo
 
 # Interface: IContentUrlInfo
 
@@ -20,7 +20,7 @@ text of the URL’s anchor
 
 #### Defined in
 
-main.ts:161292
+main.ts:172905
 
 ***
 
@@ -32,4 +32,4 @@ other URL found in the content element
 
 #### Defined in
 
-main.ts:161290
+main.ts:172903

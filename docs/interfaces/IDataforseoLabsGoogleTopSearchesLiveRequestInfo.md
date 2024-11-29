@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleTopSearchesLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleTopSearchesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveRequestInfo
 
@@ -37,7 +37,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:90030
+main.ts:99748
 
 ***
 
@@ -52,7 +52,7 @@ default value: false
 
 #### Defined in
 
-main.ts:90011
+main.ts:99729
 
 ***
 
@@ -62,14 +62,14 @@ main.ts:90011
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:90006
+main.ts:99724
 
 ***
 
@@ -84,7 +84,7 @@ default value: false
 
 #### Defined in
 
-main.ts:89999
+main.ts:99717
 
 ***
 
@@ -102,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:89994
+main.ts:99712
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Defined in
 
-main.ts:89986
+main.ts:99704
 
 ***
 
@@ -136,7 +136,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90058
+main.ts:99776
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:89978
+main.ts:99696
 
 ***
 
@@ -172,7 +172,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:89970
+main.ts:99688
 
 ***
 
@@ -187,7 +187,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:90063
+main.ts:99781
 
 ***
 
@@ -205,7 +205,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:90071
+main.ts:99789
 
 ***
 
@@ -231,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:90046
+main.ts:99764
 
 ***
 
@@ -247,4 +247,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90052
+main.ts:99770

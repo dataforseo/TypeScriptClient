@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IImagesDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IImagesDataforseoLabsSerpElementItem
 
 # Interface: IImagesDataforseoLabsSerpElementItem
 
@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:98501
+main.ts:106506
 
 ***
 
@@ -42,7 +42,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -76,20 +76,32 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
 ### related\_image\_searches?
 
-> `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)[]
+> `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](../classes/RelatedImageSearchesElement.md)
 
 contains keywords and images related to the specified search term
 if there are none, equals null
 
 #### Defined in
 
-main.ts:98504
+main.ts:106509
+
+***
+
+### se\_type?
+
+> `optional` **se\_type**: `string`
+
+search engine type
+
+#### Defined in
+
+main.ts:106500
 
 ***
 
@@ -101,7 +113,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98497
+main.ts:106502
 
 ***
 
@@ -117,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -129,7 +141,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98499
+main.ts:106504
 
 ***
 
@@ -145,4 +157,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

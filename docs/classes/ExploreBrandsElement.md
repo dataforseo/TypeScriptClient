@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ExploreBrandsElement
+[Documentation](../README.md) / ExploreBrandsElement
 
 # Class: ExploreBrandsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md)
+##### data?
+
+[`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:35759
+main.ts:37244
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:35750
+main.ts:37235
 
 ***
 
@@ -62,7 +64,7 @@ website domain
 
 #### Defined in
 
-main.ts:35748
+main.ts:37233
 
 ***
 
@@ -79,7 +81,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:35753
+main.ts:37238
 
 ***
 
@@ -95,7 +97,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35744
+main.ts:37229
 
 ***
 
@@ -111,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:35742
+main.ts:37227
 
 ***
 
@@ -127,7 +129,7 @@ URL
 
 #### Defined in
 
-main.ts:35746
+main.ts:37231
 
 ***
 
@@ -143,7 +145,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35755
+main.ts:37240
 
 ## Methods
 
@@ -153,7 +155,9 @@ main.ts:35755
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -161,7 +165,7 @@ main.ts:35755
 
 #### Defined in
 
-main.ts:35768
+main.ts:37253
 
 ***
 
@@ -171,7 +175,9 @@ main.ts:35768
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +185,7 @@ main.ts:35768
 
 #### Defined in
 
-main.ts:35791
+main.ts:37276
 
 ***
 
@@ -189,7 +195,9 @@ main.ts:35791
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -197,4 +205,4 @@ main.ts:35791
 
 #### Defined in
 
-main.ts:35784
+main.ts:37269

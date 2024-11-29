@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAdLinkElement
+[Documentation](../README.md) / IAdLinkElement
 
 # Interface: IAdLinkElement
 
@@ -20,7 +20,7 @@ the identifier of the ad
 
 #### Defined in
 
-main.ts:29655
+main.ts:31214
 
 ***
 
@@ -32,7 +32,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29649
+main.ts:31208
 
 ***
 
@@ -44,7 +44,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29653
+main.ts:31212
 
 ***
 
@@ -56,7 +56,7 @@ title of the element
 
 #### Defined in
 
-main.ts:29647
+main.ts:31206
 
 ***
 
@@ -68,7 +68,7 @@ type of element
 
 #### Defined in
 
-main.ts:29645
+main.ts:31204
 
 ***
 
@@ -80,4 +80,4 @@ URL of element
 
 #### Defined in
 
-main.ts:29651
+main.ts:31210

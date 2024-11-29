@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDictionarySerpElementItem
+[Documentation](../README.md) / IDictionarySerpElementItem
 
 # Interface: IDictionarySerpElementItem
 
@@ -24,7 +24,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:70683
+main.ts:80109
 
 ***
 
@@ -36,7 +36,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:70681
+main.ts:80107
 
 ***
 
@@ -48,7 +48,7 @@ keyword highlighted in the result
 
 #### Defined in
 
-main.ts:70685
+main.ts:80111
 
 ***
 
@@ -62,7 +62,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:70693
+main.ts:80119
 
 ***
 
@@ -80,7 +80,7 @@ left, right
 
 #### Defined in
 
-main.ts:20726
+main.ts:21404
 
 ***
 
@@ -97,7 +97,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20722
+main.ts:21400
 
 ***
 
@@ -115,7 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20719
+main.ts:21397
 
 ***
 
@@ -129,7 +129,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:70697
+main.ts:80123
 
 ***
 
@@ -141,19 +141,19 @@ snippet of the element
 
 #### Defined in
 
-main.ts:70687
+main.ts:80113
 
 ***
 
 ### text?
 
-> `optional` **text**: `boolean`
+> `optional` **text**: `string`
 
 description of the results element in SERP
 
 #### Defined in
 
-main.ts:70689
+main.ts:80115
 
 ***
 
@@ -165,7 +165,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:70677
+main.ts:80103
 
 ***
 
@@ -181,7 +181,7 @@ type of element
 
 #### Defined in
 
-main.ts:20715
+main.ts:21393
 
 ***
 
@@ -193,7 +193,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:70679
+main.ts:80105
 
 ***
 
@@ -209,4 +209,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20728
+main.ts:21406

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IValues
+[Documentation](../README.md) / IValues
 
 # Interface: IValues
 
@@ -24,7 +24,7 @@ US-NY
 
 #### Defined in
 
-main.ts:126160
+main.ts:136415
 
 ***
 
@@ -40,7 +40,7 @@ Andorra
 
 #### Defined in
 
-main.ts:126166
+main.ts:136421
 
 ***
 
@@ -58,4 +58,4 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:126174
+main.ts:136429

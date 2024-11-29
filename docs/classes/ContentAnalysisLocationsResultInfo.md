@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisLocationsResultInfo
+[Documentation](../README.md) / ContentAnalysisLocationsResultInfo
 
 # Class: ContentAnalysisLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md)
+##### data?
+
+[`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:165219
+main.ts:176808
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:165215
+main.ts:176804
 
 ***
 
@@ -62,7 +64,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:165213
+main.ts:176802
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:165213
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:165213
 
 #### Defined in
 
-main.ts:165228
+main.ts:176817
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:165228
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:165228
 
 #### Defined in
 
-main.ts:165246
+main.ts:176835
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:165246
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:165246
 
 #### Defined in
 
-main.ts:165239
+main.ts:176828

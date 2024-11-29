@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:179058
+main.ts:190799
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:179063
+main.ts:190804
 
 ***
 
@@ -50,7 +50,7 @@ product_info_element
 
 #### Defined in
 
-main.ts:179067
+main.ts:190808
 
 ***
 
@@ -63,7 +63,7 @@ contains all product attributes and related data listed on the product page
 
 #### Defined in
 
-main.ts:179072
+main.ts:190813
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:179069
+main.ts:190810
 
 ***
 
@@ -87,7 +87,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:179055
+main.ts:190796
 
 ***
 
@@ -99,7 +99,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:179053
+main.ts:190794
 
 ***
 
@@ -112,7 +112,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:179047
+main.ts:190788
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:179051
+main.ts:190792
 
 ***
 
@@ -136,4 +136,4 @@ type of element
 
 #### Defined in
 
-main.ts:179049
+main.ts:190790

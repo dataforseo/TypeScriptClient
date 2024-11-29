@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonReviewsTaskGetHtmlResultInfo
+[Documentation](../README.md) / MerchantAmazonReviewsTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonReviewsTaskGetHtmlResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonReviewsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IMerchantAmazonReviewsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetHtmlResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:185507
+main.ts:197605
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:185499
+main.ts:197597
 
 ***
 
@@ -65,7 +67,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:185503
+main.ts:197601
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:185501
+main.ts:197599
 
 ***
 
@@ -97,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185494
+main.ts:197592
 
 ***
 
@@ -113,7 +115,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185492
+main.ts:197590
 
 ***
 
@@ -129,7 +131,7 @@ ASIN received in a POST array
 
 #### Defined in
 
-main.ts:185486
+main.ts:197584
 
 ***
 
@@ -145,7 +147,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185490
+main.ts:197588
 
 ***
 
@@ -161,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:185488
+main.ts:197586
 
 ## Methods
 
@@ -171,7 +173,9 @@ main.ts:185488
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +183,7 @@ main.ts:185488
 
 #### Defined in
 
-main.ts:185516
+main.ts:197614
 
 ***
 
@@ -189,7 +193,9 @@ main.ts:185516
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +203,7 @@ main.ts:185516
 
 #### Defined in
 
-main.ts:185544
+main.ts:197642
 
 ***
 
@@ -207,7 +213,9 @@ main.ts:185544
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -215,4 +223,4 @@ main.ts:185544
 
 #### Defined in
 
-main.ts:185537
+main.ts:197635

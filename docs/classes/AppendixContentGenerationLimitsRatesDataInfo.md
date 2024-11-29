@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentGenerationLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixContentGenerationLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationLimitsRatesDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:217548
+main.ts:232515
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:217548
 
 #### Defined in
 
-main.ts:217542
+main.ts:232509
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:217542
 
 #### Defined in
 
-main.ts:217538
+main.ts:232505
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:217538
 
 #### Defined in
 
-main.ts:217539
+main.ts:232506
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:217539
 
 #### Defined in
 
-main.ts:217544
+main.ts:232511
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:217544
 
 #### Defined in
 
-main.ts:217540
+main.ts:232507
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:217540
 
 #### Defined in
 
-main.ts:217541
+main.ts:232508
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:217541
 
 #### Defined in
 
-main.ts:217543
+main.ts:232510
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:217543
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:217543
 
 #### Defined in
 
-main.ts:217557
+main.ts:232524
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:217557
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:217557
 
 #### Defined in
 
-main.ts:217580
+main.ts:232547
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:217580
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:217580
 
 #### Defined in
 
-main.ts:217573
+main.ts:232540

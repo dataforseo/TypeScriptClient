@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingOrganicTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpBingOrganicTaskGetAdvancedResultInfo
 
 # Interface: ISerpBingOrganicTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:58170
+main.ts:64685
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:58175
+main.ts:64690
 
 ***
 
@@ -51,7 +51,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 #### Defined in
 
-main.ts:58183
+main.ts:64701
 
 ***
 
@@ -64,7 +64,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:58190
+main.ts:64708
 
 ***
 
@@ -76,7 +76,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:58187
+main.ts:64705
 
 ***
 
@@ -89,7 +89,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:58159
+main.ts:64674
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:58167
+main.ts:64682
 
 ***
 
@@ -113,7 +113,20 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:58165
+main.ts:64680
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:64696
 
 ***
 
@@ -125,7 +138,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:58163
+main.ts:64678
 
 ***
 
@@ -137,7 +150,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:58185
+main.ts:64703
 
 ***
 
@@ -150,7 +163,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:58178
+main.ts:64693
 
 ***
 
@@ -162,4 +175,4 @@ type of element
 
 #### Defined in
 
-main.ts:58161
+main.ts:64676

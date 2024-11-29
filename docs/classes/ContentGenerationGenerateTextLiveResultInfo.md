@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateTextLiveResultInfo
+[Documentation](../README.md) / ContentGenerationGenerateTextLiveResultInfo
 
 # Class: ContentGenerationGenerateTextLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationGenerateTextLiveResultInfo`](../interfaces/IContentGenerationGenerateTextLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:170097
+main.ts:181686
 
 ## Properties
 
@@ -46,7 +48,7 @@ resulting text
 
 #### Defined in
 
-main.ts:170089
+main.ts:181678
 
 ***
 
@@ -62,7 +64,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:170083
+main.ts:181672
 
 ***
 
@@ -78,7 +80,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:170087
+main.ts:181676
 
 ***
 
@@ -94,7 +96,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:170085
+main.ts:181674
 
 ***
 
@@ -112,7 +114,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:170093
+main.ts:181682
 
 ## Methods
 
@@ -122,7 +124,9 @@ main.ts:170093
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +134,7 @@ main.ts:170093
 
 #### Defined in
 
-main.ts:170106
+main.ts:181695
 
 ***
 
@@ -140,7 +144,9 @@ main.ts:170106
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +154,7 @@ main.ts:170106
 
 #### Defined in
 
-main.ts:170127
+main.ts:181716
 
 ***
 
@@ -158,7 +164,9 @@ main.ts:170127
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -166,4 +174,4 @@ main.ts:170127
 
 #### Defined in
 
-main.ts:170120
+main.ts:181709

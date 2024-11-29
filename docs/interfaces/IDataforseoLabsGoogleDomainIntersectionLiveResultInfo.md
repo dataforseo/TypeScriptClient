@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
@@ -14,13 +14,13 @@
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsGoogleDomainIntersectionLiveItem`](../classes/DataforseoLabsGoogleDomainIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](../classes/DataforseoLabsDomainIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:93925
+main.ts:103643
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:93923
+main.ts:103641
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:93919
+main.ts:103637
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:93917
+main.ts:103635
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93911
+main.ts:103629
 
 ***
 
@@ -80,7 +80,7 @@ the first target domain in a POST array
 
 #### Defined in
 
-main.ts:93913
+main.ts:103631
 
 ***
 
@@ -92,7 +92,7 @@ the second target domain in a POST array
 
 #### Defined in
 
-main.ts:93915
+main.ts:103633
 
 ***
 
@@ -104,4 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:93921
+main.ts:103639

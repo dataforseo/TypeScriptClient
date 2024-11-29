@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksDomainPagesSummaryLiveRequestInfo
+[Documentation](../README.md) / BacklinksDomainPagesSummaryLiveRequestInfo
 
 # Class: BacklinksDomainPagesSummaryLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:143317
+main.ts:154522
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:143291
+main.ts:154496
 
 ***
 
@@ -75,7 +77,7 @@ default value: live
 
 #### Defined in
 
-main.ts:143252
+main.ts:154457
 
 ***
 
@@ -94,7 +96,7 @@ default value: true
 
 #### Defined in
 
-main.ts:143307
+main.ts:154512
 
 ***
 
@@ -125,7 +127,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:143269
+main.ts:154474
 
 ***
 
@@ -145,7 +147,7 @@ default value: true
 
 #### Defined in
 
-main.ts:143302
+main.ts:154507
 
 ***
 
@@ -164,7 +166,7 @@ default value: true
 
 #### Defined in
 
-main.ts:143296
+main.ts:154501
 
 ***
 
@@ -189,7 +191,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:143243
+main.ts:154448
 
 ***
 
@@ -208,7 +210,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:143227
+main.ts:154432
 
 ***
 
@@ -227,7 +229,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 #### Defined in
 
-main.ts:143232
+main.ts:154437
 
 ***
 
@@ -255,7 +257,7 @@ example:
 
 #### Defined in
 
-main.ts:143283
+main.ts:154488
 
 ***
 
@@ -275,7 +277,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:143313
+main.ts:154518
 
 ***
 
@@ -294,7 +296,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:143222
+main.ts:154427
 
 ## Methods
 
@@ -304,7 +306,9 @@ main.ts:143222
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -312,7 +316,7 @@ main.ts:143222
 
 #### Defined in
 
-main.ts:143326
+main.ts:154531
 
 ***
 
@@ -322,7 +326,9 @@ main.ts:143326
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -330,7 +336,7 @@ main.ts:143326
 
 #### Defined in
 
-main.ts:143366
+main.ts:154571
 
 ***
 
@@ -340,7 +346,9 @@ main.ts:143366
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -348,4 +356,4 @@ main.ts:143366
 
 #### Defined in
 
-main.ts:143359
+main.ts:154564

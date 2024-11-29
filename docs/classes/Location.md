@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Location
+[Documentation](../README.md) / Location
 
 # Class: Location
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocation`](../interfaces/ILocation.md)
+##### data?
+
+[`ILocation`](../interfaces/ILocation.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:207202
+main.ts:220557
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:207190
+main.ts:220545
 
 ***
 
@@ -66,7 +68,7 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-main.ts:207198
+main.ts:220553
 
 ***
 
@@ -85,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:207195
+main.ts:220550
 
 ***
 
@@ -101,7 +103,7 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-main.ts:207177
+main.ts:220532
 
 ***
 
@@ -117,7 +119,7 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:207173
+main.ts:220528
 
 ***
 
@@ -133,7 +135,7 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:207175
+main.ts:220530
 
 ***
 
@@ -152,7 +154,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:207182
+main.ts:220537
 
 ***
 
@@ -169,7 +171,7 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-main.ts:207185
+main.ts:220540
 
 ## Methods
 
@@ -179,7 +181,9 @@ main.ts:207185
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -187,7 +191,7 @@ main.ts:207185
 
 #### Defined in
 
-main.ts:207211
+main.ts:220566
 
 ***
 
@@ -197,7 +201,9 @@ main.ts:207211
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -205,7 +211,7 @@ main.ts:207211
 
 #### Defined in
 
-main.ts:207239
+main.ts:220594
 
 ***
 
@@ -215,7 +221,9 @@ main.ts:207239
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -223,4 +231,4 @@ main.ts:207239
 
 #### Defined in
 
-main.ts:207232
+main.ts:220587

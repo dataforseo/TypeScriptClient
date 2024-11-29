@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICarouselElement
+[Documentation](../README.md) / ICarouselElement
 
 # Interface: ICarouselElement
 
@@ -21,7 +21,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:31497
+main.ts:33056
 
 ***
 
@@ -33,7 +33,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:31494
+main.ts:33053
 
 ***
 
@@ -45,7 +45,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31492
+main.ts:33051
 
 ***
 
@@ -57,4 +57,4 @@ type of element
 
 #### Defined in
 
-main.ts:31490
+main.ts:33049

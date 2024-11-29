@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAnalysisContentInfo
+[Documentation](../README.md) / IAnalysisContentInfo
 
 # Interface: IAnalysisContentInfo
 
@@ -20,7 +20,7 @@ author of the content
 
 #### Defined in
 
-main.ts:166284
+main.ts:177873
 
 ***
 
@@ -38,7 +38,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:166304
+main.ts:177893
 
 ***
 
@@ -51,7 +51,7 @@ this value is calculated based on the number of words, sentences and characters 
 
 #### Defined in
 
-main.ts:166315
+main.ts:177904
 
 ***
 
@@ -65,7 +65,7 @@ page_content, comment
 
 #### Defined in
 
-main.ts:166273
+main.ts:177862
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:166312
+main.ts:177901
 
 ***
 
@@ -97,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:166330
+main.ts:177919
 
 ***
 
@@ -109,7 +109,7 @@ highlighted text from the snippet
 
 #### Defined in
 
-main.ts:166293
+main.ts:177882
 
 ***
 
@@ -122,7 +122,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:166296
+main.ts:177885
 
 ***
 
@@ -135,7 +135,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Defined in
 
-main.ts:166282
+main.ts:177871
 
 ***
 
@@ -147,7 +147,7 @@ page title
 
 #### Defined in
 
-main.ts:166277
+main.ts:177866
 
 ***
 
@@ -159,7 +159,7 @@ title of the previous content block
 
 #### Defined in
 
-main.ts:166279
+main.ts:177868
 
 ***
 
@@ -172,7 +172,7 @@ rating related to content_info
 
 #### Defined in
 
-main.ts:166323
+main.ts:177912
 
 ***
 
@@ -187,7 +187,7 @@ article, header
 
 #### Defined in
 
-main.ts:166320
+main.ts:177909
 
 ***
 
@@ -205,7 +205,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:166300
+main.ts:177889
 
 ***
 
@@ -217,7 +217,7 @@ content snippet
 
 #### Defined in
 
-main.ts:166286
+main.ts:177875
 
 ***
 
@@ -229,7 +229,7 @@ character length of the snippet
 
 #### Defined in
 
-main.ts:166288
+main.ts:177877
 
 ***
 
@@ -242,7 +242,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:166291
+main.ts:177880
 
 ***
 
@@ -255,7 +255,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166307
+main.ts:177896
 
 ***
 
@@ -267,4 +267,4 @@ title of the result
 
 #### Defined in
 
-main.ts:166275
+main.ts:177864

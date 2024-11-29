@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsleBulkAppMetricsLiveItem
+[Documentation](../README.md) / IDataforseoLabsleBulkAppMetricsLiveItem
 
 # Interface: IDataforseoLabsleBulkAppMetricsLiveItem
 
@@ -20,7 +20,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:111672
+main.ts:121004
 
 ***
 
@@ -37,7 +37,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Defined in
 
-main.ts:111675
+main.ts:121007
 
 ***
 
@@ -49,4 +49,4 @@ search engine type
 
 #### Defined in
 
-main.ts:111670
+main.ts:121002

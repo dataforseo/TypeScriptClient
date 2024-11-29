@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixAppendixDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixAppendixDayStatisticsRatesData
 
 # Interface: IAppendixAppendixDayStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:218550
+main.ts:233549
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:218550
 
 #### Defined in
 
-main.ts:218552
+main.ts:233550
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:218552
 
 #### Defined in
 
-main.ts:218549
+main.ts:233548
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:218549
 
 #### Defined in
 
-main.ts:218551
+main.ts:233551

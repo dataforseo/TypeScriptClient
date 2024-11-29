@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksDomainIntersectionLiveRequestInfo
+[Documentation](../README.md) / BacklinksDomainIntersectionLiveRequestInfo
 
 # Class: BacklinksDomainIntersectionLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksDomainIntersectionLiveRequestInfo`](../interfaces/IBacklinksDomainIntersectionLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:146139
+main.ts:157344
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:146105
+main.ts:157310
 
 ***
 
@@ -75,7 +77,7 @@ default value: live
 
 #### Defined in
 
-main.ts:146097
+main.ts:157302
 
 ***
 
@@ -94,7 +96,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146121
+main.ts:157326
 
 ***
 
@@ -118,7 +120,7 @@ example:
 
 #### Defined in
 
-main.ts:146036
+main.ts:157241
 
 ***
 
@@ -149,7 +151,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:146053
+main.ts:157258
 
 ***
 
@@ -169,7 +171,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146116
+main.ts:157321
 
 ***
 
@@ -188,7 +190,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146110
+main.ts:157315
 
 ***
 
@@ -213,7 +215,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146088
+main.ts:157293
 
 ***
 
@@ -235,7 +237,7 @@ default value: all
 
 #### Defined in
 
-main.ts:146129
+main.ts:157334
 
 ***
 
@@ -254,7 +256,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146077
+main.ts:157282
 
 ***
 
@@ -273,7 +275,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Defined in
 
-main.ts:146072
+main.ts:157277
 
 ***
 
@@ -301,7 +303,7 @@ example:
 
 #### Defined in
 
-main.ts:146067
+main.ts:157272
 
 ***
 
@@ -321,7 +323,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:146135
+main.ts:157340
 
 ***
 
@@ -350,7 +352,7 @@ example:
 
 #### Defined in
 
-main.ts:146026
+main.ts:157231
 
 ## Methods
 
@@ -360,7 +362,9 @@ main.ts:146026
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -368,7 +372,7 @@ main.ts:146026
 
 #### Defined in
 
-main.ts:146148
+main.ts:157353
 
 ***
 
@@ -378,7 +382,9 @@ main.ts:146148
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -386,7 +392,7 @@ main.ts:146148
 
 #### Defined in
 
-main.ts:146200
+main.ts:157405
 
 ***
 
@@ -396,7 +402,9 @@ main.ts:146200
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -404,4 +412,4 @@ main.ts:146200
 
 #### Defined in
 
-main.ts:146193
+main.ts:157398

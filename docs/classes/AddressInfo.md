@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AddressInfo
+[Documentation](../README.md) / AddressInfo
 
 # Class: AddressInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAddressInfo`](../interfaces/IAddressInfo.md)
+##### data?
+
+[`IAddressInfo`](../interfaces/IAddressInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:39620
+main.ts:41429
 
 ## Properties
 
@@ -46,7 +48,7 @@ street address of the local establishment
 
 #### Defined in
 
-main.ts:39608
+main.ts:41417
 
 ***
 
@@ -62,7 +64,7 @@ administrative unit or district the local establishment belongs to
 
 #### Defined in
 
-main.ts:39606
+main.ts:41415
 
 ***
 
@@ -78,7 +80,7 @@ name of the city where the local establishment is located
 
 #### Defined in
 
-main.ts:39610
+main.ts:41419
 
 ***
 
@@ -94,7 +96,7 @@ ISO country code of the local establishment
 
 #### Defined in
 
-main.ts:39616
+main.ts:41425
 
 ***
 
@@ -110,7 +112,7 @@ DMA region the local establishment belongs to
 
 #### Defined in
 
-main.ts:39614
+main.ts:41423
 
 ***
 
@@ -126,7 +128,7 @@ ZIP code of the local establishment
 
 #### Defined in
 
-main.ts:39612
+main.ts:41421
 
 ## Methods
 
@@ -136,7 +138,9 @@ main.ts:39612
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -144,7 +148,7 @@ main.ts:39612
 
 #### Defined in
 
-main.ts:39629
+main.ts:41438
 
 ***
 
@@ -154,7 +158,9 @@ main.ts:39629
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +168,7 @@ main.ts:39629
 
 #### Defined in
 
-main.ts:39651
+main.ts:41460
 
 ***
 
@@ -172,7 +178,9 @@ main.ts:39651
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -180,4 +188,4 @@ main.ts:39651
 
 #### Defined in
 
-main.ts:39644
+main.ts:41453

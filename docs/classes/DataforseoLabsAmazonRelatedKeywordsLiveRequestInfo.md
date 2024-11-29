@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:102554
+main.ts:112292
 
 ## Properties
 
@@ -56,7 +58,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:102524
+main.ts:112262
 
 ***
 
@@ -75,7 +77,7 @@ default value: false
 
 #### Defined in
 
-main.ts:102534
+main.ts:112272
 
 ***
 
@@ -94,7 +96,7 @@ default value: false
 
 #### Defined in
 
-main.ts:102529
+main.ts:112267
 
 ***
 
@@ -105,8 +107,8 @@ main.ts:102529
 keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords should be specified in the lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -114,7 +116,7 @@ the keywords should be specified in the lowercase format
 
 #### Defined in
 
-main.ts:102480
+main.ts:112218
 
 ***
 
@@ -135,7 +137,7 @@ en
 
 #### Defined in
 
-main.ts:102512
+main.ts:112250
 
 ***
 
@@ -156,7 +158,7 @@ English
 
 #### Defined in
 
-main.ts:102505
+main.ts:112243
 
 ***
 
@@ -175,7 +177,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:102539
+main.ts:112277
 
 ***
 
@@ -198,7 +200,7 @@ example:
 
 #### Defined in
 
-main.ts:102498
+main.ts:112236
 
 ***
 
@@ -221,7 +223,7 @@ United States
 
 #### Defined in
 
-main.ts:102489
+main.ts:112227
 
 ***
 
@@ -240,7 +242,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:102544
+main.ts:112282
 
 ***
 
@@ -260,7 +262,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:102550
+main.ts:112288
 
 ## Methods
 
@@ -270,7 +272,9 @@ main.ts:102550
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -278,7 +282,7 @@ main.ts:102550
 
 #### Defined in
 
-main.ts:102563
+main.ts:112301
 
 ***
 
@@ -288,7 +292,9 @@ main.ts:102563
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -296,7 +302,7 @@ main.ts:102563
 
 #### Defined in
 
-main.ts:102590
+main.ts:112328
 
 ***
 
@@ -306,7 +312,9 @@ main.ts:102590
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -314,4 +322,4 @@ main.ts:102590
 
 #### Defined in
 
-main.ts:102583
+main.ts:112321

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / IBacklinksDomainIntersectionLiveResultInfo
 
 # Interface: IBacklinksDomainIntersectionLiveResultInfo
 
@@ -20,7 +20,7 @@ contains domain that link to all targets from the POST array
 
 #### Defined in
 
-main.ts:146868
+main.ts:158073
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:146866
+main.ts:158071
 
 ***
 
@@ -48,7 +48,7 @@ target domains, subdomains or webpages in a POST array
 
 #### Defined in
 
-main.ts:146862
+main.ts:158067
 
 ***
 
@@ -60,4 +60,4 @@ total amount of results relevant to your request
 
 #### Defined in
 
-main.ts:146864
+main.ts:158069

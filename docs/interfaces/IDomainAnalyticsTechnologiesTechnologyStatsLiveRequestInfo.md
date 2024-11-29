@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:77366
+main.ts:87074
 
 ***
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:77373
+main.ts:87081
 
 ***
 
@@ -59,7 +59,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:77379
+main.ts:87087
 
 ***
 
@@ -75,4 +75,4 @@ example:
 
 #### Defined in
 
-main.ts:77358
+main.ts:87066

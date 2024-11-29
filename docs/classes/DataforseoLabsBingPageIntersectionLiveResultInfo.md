@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingPageIntersectionLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Class: DataforseoLabsBingPageIntersectionLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:108400
+main.ts:117880
 
 ## Properties
 
@@ -46,13 +48,13 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:108386
+main.ts:117866
 
 ***
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingPageIntersectionLiveItem`](DataforseoLabsBingPageIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
@@ -62,7 +64,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:108396
+main.ts:117876
 
 ***
 
@@ -78,7 +80,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:108394
+main.ts:117874
 
 ***
 
@@ -94,7 +96,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:108390
+main.ts:117870
 
 ***
 
@@ -110,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:108388
+main.ts:117868
 
 ***
 
@@ -130,7 +132,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:108384
+main.ts:117864
 
 ***
 
@@ -148,7 +150,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:108382
+main.ts:117862
 
 ***
 
@@ -164,7 +166,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:108392
+main.ts:117872
 
 ## Methods
 
@@ -174,7 +176,9 @@ main.ts:108392
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -182,7 +186,7 @@ main.ts:108392
 
 #### Defined in
 
-main.ts:108409
+main.ts:117889
 
 ***
 
@@ -192,7 +196,9 @@ main.ts:108409
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -200,7 +206,7 @@ main.ts:108409
 
 #### Defined in
 
-main.ts:108447
+main.ts:117927
 
 ***
 
@@ -210,7 +216,9 @@ main.ts:108447
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -218,4 +226,4 @@ main.ts:108447
 
 #### Defined in
 
-main.ts:108440
+main.ts:117920

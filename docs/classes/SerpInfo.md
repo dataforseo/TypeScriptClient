@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpInfo
+[Documentation](../README.md) / SerpInfo
 
 # Class: SerpInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpInfo`](../interfaces/ISerpInfo.md)
+##### data?
+
+[`ISerpInfo`](../interfaces/ISerpInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:83229
+main.ts:92941
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:83207
+main.ts:92919
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:83220
+main.ts:92932
 
 ***
 
@@ -85,13 +87,13 @@ example:
 
 #### Defined in
 
-main.ts:83225
+main.ts:92937
 
 ***
 
 ### se\_results\_count?
 
-> `optional` **se\_results\_count**: `string`
+> `optional` **se\_results\_count**: `number`
 
 number of search results for the returned keyword
 
@@ -101,7 +103,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:83215
+main.ts:92927
 
 ***
 
@@ -117,7 +119,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83204
+main.ts:92916
 
 ***
 
@@ -137,7 +139,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:83213
+main.ts:92925
 
 ## Methods
 
@@ -147,7 +149,9 @@ main.ts:83213
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -155,7 +159,7 @@ main.ts:83213
 
 #### Defined in
 
-main.ts:83238
+main.ts:92950
 
 ***
 
@@ -165,7 +169,9 @@ main.ts:83238
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -173,7 +179,7 @@ main.ts:83238
 
 #### Defined in
 
-main.ts:83264
+main.ts:92976
 
 ***
 
@@ -183,7 +189,9 @@ main.ts:83264
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -191,4 +199,4 @@ main.ts:83264
 
 #### Defined in
 
-main.ts:83257
+main.ts:92969

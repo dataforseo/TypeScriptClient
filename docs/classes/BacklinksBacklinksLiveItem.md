@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBacklinksLiveItem
+[Documentation](../README.md) / BacklinksBacklinksLiveItem
 
 # Class: BacklinksBacklinksLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md)
+##### data?
+
+[`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:140743
+main.ts:151948
 
 ## Properties
 
@@ -47,7 +49,7 @@ this field will be null if backlink type is not image
 
 #### Defined in
 
-main.ts:140697
+main.ts:151902
 
 ***
 
@@ -63,7 +65,7 @@ anchor text of the backlink
 
 #### Defined in
 
-main.ts:140702
+main.ts:151907
 
 ***
 
@@ -81,7 +83,7 @@ nofollow
 
 #### Defined in
 
-main.ts:140689
+main.ts:151894
 
 ***
 
@@ -98,7 +100,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:140618
+main.ts:151823
 
 ***
 
@@ -115,7 +117,7 @@ if false, the backlink is nofollow
 
 #### Defined in
 
-main.ts:140692
+main.ts:151897
 
 ***
 
@@ -131,7 +133,7 @@ domain referring to the target domain or webpage
 
 #### Defined in
 
-main.ts:140595
+main.ts:151800
 
 ***
 
@@ -147,7 +149,7 @@ ISO country code of the referring domain
 
 #### Defined in
 
-main.ts:140643
+main.ts:151848
 
 ***
 
@@ -163,7 +165,7 @@ IP address of the referring domain
 
 #### Defined in
 
-main.ts:140641
+main.ts:151846
 
 ***
 
@@ -180,7 +182,7 @@ if true, the domain functions as an IP address and does not have a domain name
 
 #### Defined in
 
-main.ts:140639
+main.ts:151844
 
 ***
 
@@ -199,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:140636
+main.ts:151841
 
 ***
 
@@ -217,7 +219,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:140631
+main.ts:151836
 
 ***
 
@@ -233,7 +235,7 @@ domain the backlink is pointing to
 
 #### Defined in
 
-main.ts:140602
+main.ts:151807
 
 ***
 
@@ -252,7 +254,7 @@ example:
 
 #### Defined in
 
-main.ts:140671
+main.ts:151876
 
 ***
 
@@ -269,7 +271,7 @@ for example, if mode is set to one_per_domain, this field will indicate the tota
 
 #### Defined in
 
-main.ts:140716
+main.ts:151921
 
 ***
 
@@ -286,7 +288,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:140700
+main.ts:151905
 
 ***
 
@@ -303,7 +305,7 @@ indicates a URL or a sequence of URLs that lead to url_to
 
 #### Defined in
 
-main.ts:140739
+main.ts:151944
 
 ***
 
@@ -320,7 +322,7 @@ if true, the backlink is pointing to a page responding with a 4xx or 5xx status 
 
 #### Defined in
 
-main.ts:140719
+main.ts:151924
 
 ***
 
@@ -337,7 +339,7 @@ if true, the backlink is an indirect link pointing to a page that either redirec
 
 #### Defined in
 
-main.ts:140736
+main.ts:151941
 
 ***
 
@@ -354,7 +356,7 @@ if true, the backlink or the entire page was removed
 
 #### Defined in
 
-main.ts:140615
+main.ts:151820
 
 ***
 
@@ -371,7 +373,7 @@ if true, the backlink was found on the page last time our crawler visited it
 
 #### Defined in
 
-main.ts:140612
+main.ts:151817
 
 ***
 
@@ -389,7 +391,7 @@ anchor, image, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:140685
+main.ts:151890
 
 ***
 
@@ -408,7 +410,7 @@ example:
 
 #### Defined in
 
-main.ts:140681
+main.ts:151886
 
 ***
 
@@ -424,7 +426,7 @@ number of identical backlinks found on the referring page
 
 #### Defined in
 
-main.ts:140713
+main.ts:151918
 
 ***
 
@@ -440,7 +442,7 @@ indicates whether the backlink was present on the referring page when our crawle
 
 #### Defined in
 
-main.ts:140694
+main.ts:151899
 
 ***
 
@@ -458,7 +460,7 @@ utf-8
 
 #### Defined in
 
-main.ts:140655
+main.ts:151860
 
 ***
 
@@ -474,7 +476,7 @@ number of external links found on the referring page
 
 #### Defined in
 
-main.ts:140645
+main.ts:151850
 
 ***
 
@@ -490,7 +492,7 @@ number of internal links found on the referring page
 
 #### Defined in
 
-main.ts:140647
+main.ts:151852
 
 ***
 
@@ -509,7 +511,7 @@ en
 
 #### Defined in
 
-main.ts:140660
+main.ts:151865
 
 ***
 
@@ -527,7 +529,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:140627
+main.ts:151832
 
 ***
 
@@ -545,7 +547,7 @@ example:
 
 #### Defined in
 
-main.ts:140651
+main.ts:151856
 
 ***
 
@@ -563,7 +565,7 @@ example:
 
 #### Defined in
 
-main.ts:140666
+main.ts:151871
 
 ***
 
@@ -579,7 +581,7 @@ title of the referring page
 
 #### Defined in
 
-main.ts:140662
+main.ts:151867
 
 ***
 
@@ -598,7 +600,7 @@ example:
 
 #### Defined in
 
-main.ts:140676
+main.ts:151881
 
 ***
 
@@ -617,7 +619,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:140623
+main.ts:151828
 
 ***
 
@@ -633,7 +635,7 @@ number of keywords for which the page is ranked in top search results
 
 #### Defined in
 
-main.ts:140733
+main.ts:151938
 
 ***
 
@@ -652,7 +654,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:140711
+main.ts:151916
 
 ***
 
@@ -668,7 +670,7 @@ snippet after the anchor text
 
 #### Defined in
 
-main.ts:140706
+main.ts:151911
 
 ***
 
@@ -684,7 +686,7 @@ snippet before the anchor text
 
 #### Defined in
 
-main.ts:140704
+main.ts:151909
 
 ***
 
@@ -700,7 +702,7 @@ top-level domain of the referring URL
 
 #### Defined in
 
-main.ts:140609
+main.ts:151814
 
 ***
 
@@ -716,7 +718,7 @@ type of element
 
 #### Defined in
 
-main.ts:140593
+main.ts:151798
 
 ***
 
@@ -732,7 +734,7 @@ URL of the page where the backlink is found
 
 #### Defined in
 
-main.ts:140597
+main.ts:151802
 
 ***
 
@@ -749,7 +751,7 @@ if true, the referring URL is secured with HTTPS
 
 #### Defined in
 
-main.ts:140600
+main.ts:151805
 
 ***
 
@@ -765,7 +767,7 @@ URL the backlink is pointing to
 
 #### Defined in
 
-main.ts:140604
+main.ts:151809
 
 ***
 
@@ -782,7 +784,7 @@ if true, the URL is secured with HTTPS
 
 #### Defined in
 
-main.ts:140607
+main.ts:151812
 
 ***
 
@@ -799,7 +801,7 @@ target page the redirect is pointing to
 
 #### Defined in
 
-main.ts:140731
+main.ts:151936
 
 ***
 
@@ -817,7 +819,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:140728
+main.ts:151933
 
 ***
 
@@ -836,7 +838,7 @@ example:
 
 #### Defined in
 
-main.ts:140724
+main.ts:151929
 
 ## Methods
 
@@ -846,7 +848,9 @@ main.ts:140724
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -854,7 +858,7 @@ main.ts:140724
 
 #### Defined in
 
-main.ts:140752
+main.ts:151957
 
 ***
 
@@ -864,7 +868,9 @@ main.ts:140752
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -872,7 +878,7 @@ main.ts:140752
 
 #### Defined in
 
-main.ts:140827
+main.ts:152032
 
 ***
 
@@ -882,7 +888,9 @@ main.ts:140827
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -890,4 +898,4 @@ main.ts:140827
 
 #### Defined in
 
-main.ts:140820
+main.ts:152025

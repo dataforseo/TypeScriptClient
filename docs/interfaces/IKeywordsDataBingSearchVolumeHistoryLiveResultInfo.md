@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeHistoryLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeHistoryLiveResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLiveResultInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:135361
+main.ts:147220
 
 ***
 
@@ -30,7 +30,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:135354
+main.ts:147213
 
 ***
 
@@ -43,7 +43,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:135360
+main.ts:147219
 
 ***
 
@@ -56,7 +56,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:135357
+main.ts:147216
 
 ***
 
@@ -70,7 +70,7 @@ default value monthly
 
 #### Defined in
 
-main.ts:135365
+main.ts:147224
 
 ***
 
@@ -83,4 +83,4 @@ if the device parameter is not specified, the data will be returned for all avai
 
 #### Defined in
 
-main.ts:135368
+main.ts:147227

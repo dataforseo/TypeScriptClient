@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageTasksReadyResultInfo
+[Documentation](../README.md) / IOnPageTasksReadyResultInfo
 
 # Interface: IOnPageTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:153370
+main.ts:164997
 
 ***
 
@@ -33,7 +33,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:153366
+main.ts:164993
 
 ***
 
@@ -45,7 +45,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:153372
+main.ts:164999
 
 ***
 
@@ -57,4 +57,4 @@ target website specified when setting a task
 
 #### Defined in
 
-main.ts:153368
+main.ts:164995

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordsForSiteLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordsForSiteLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordsForSiteLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:130489
+main.ts:142324
 
 ## Properties
 
@@ -52,7 +54,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:130458
+main.ts:142293
 
 ***
 
@@ -77,7 +79,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:130469
+main.ts:142304
 
 ***
 
@@ -96,7 +98,7 @@ default value: all
 
 #### Defined in
 
-main.ts:130450
+main.ts:142285
 
 ***
 
@@ -116,7 +118,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:130445
+main.ts:142280
 
 ***
 
@@ -136,7 +138,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:130439
+main.ts:142274
 
 ***
 
@@ -156,7 +158,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:130433
+main.ts:142268
 
 ***
 
@@ -177,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:130419
+main.ts:142254
 
 ***
 
@@ -199,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:130427
+main.ts:142262
 
 ***
 
@@ -220,7 +222,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:130412
+main.ts:142247
 
 ***
 
@@ -239,7 +241,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:130479
+main.ts:142314
 
 ***
 
@@ -258,7 +260,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:130474
+main.ts:142309
 
 ***
 
@@ -278,7 +280,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:130485
+main.ts:142320
 
 ***
 
@@ -296,7 +298,7 @@ the domain name or URL of the target website
 
 #### Defined in
 
-main.ts:130405
+main.ts:142240
 
 ## Methods
 
@@ -306,7 +308,9 @@ main.ts:130405
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -314,7 +318,7 @@ main.ts:130405
 
 #### Defined in
 
-main.ts:130498
+main.ts:142333
 
 ***
 
@@ -324,7 +328,9 @@ main.ts:130498
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -332,7 +338,7 @@ main.ts:130498
 
 #### Defined in
 
-main.ts:130531
+main.ts:142366
 
 ***
 
@@ -342,7 +348,9 @@ main.ts:130531
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -350,4 +358,4 @@ main.ts:130531
 
 #### Defined in
 
-main.ts:130524
+main.ts:142359

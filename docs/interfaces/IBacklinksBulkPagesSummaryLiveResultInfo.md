@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkPagesSummaryLiveResultInfo
+[Documentation](../README.md) / IBacklinksBulkPagesSummaryLiveResultInfo
 
 # Interface: IBacklinksBulkPagesSummaryLiveResultInfo
 
@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:151606
+main.ts:162811
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:151604
+main.ts:162809
 
 ***
 
@@ -44,4 +44,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:151602
+main.ts:162807

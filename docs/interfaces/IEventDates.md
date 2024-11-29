@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IEventDates
+[Documentation](../README.md) / IEventDates
 
 # Interface: IEventDates
 
@@ -20,7 +20,7 @@ date or date range as it is displayed in SERP
 
 #### Defined in
 
-main.ts:46017
+main.ts:48834
 
 ***
 
@@ -40,7 +40,7 @@ example:
 
 #### Defined in
 
-main.ts:46015
+main.ts:48832
 
 ***
 
@@ -60,4 +60,4 @@ example:
 
 #### Defined in
 
-main.ts:46005
+main.ts:48822

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseDataforseoTrendsItem
+[Documentation](../README.md) / BaseDataforseoTrendsItem
 
 # Class: BaseDataforseoTrendsItem
 
@@ -24,7 +24,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md)
+##### data?
+
+[`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md)
 
 #### Returns
 
@@ -32,7 +34,7 @@
 
 #### Defined in
 
-main.ts:21901
+main.ts:22799
 
 ## Properties
 
@@ -42,7 +44,7 @@ main.ts:21901
 
 #### Defined in
 
-main.ts:21899
+main.ts:22797
 
 ***
 
@@ -59,7 +61,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21897
+main.ts:22795
 
 ***
 
@@ -76,7 +78,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21894
+main.ts:22792
 
 ***
 
@@ -92,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:21891
+main.ts:22789
 
 ## Methods
 
@@ -102,7 +104,9 @@ main.ts:21891
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -110,7 +114,7 @@ main.ts:21891
 
 #### Defined in
 
-main.ts:21911
+main.ts:22809
 
 ***
 
@@ -120,7 +124,9 @@ main.ts:21911
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +134,7 @@ main.ts:21911
 
 #### Defined in
 
-main.ts:21945
+main.ts:22843
 
 ***
 
@@ -138,7 +144,9 @@ main.ts:21945
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -146,4 +154,4 @@ main.ts:21945
 
 #### Defined in
 
-main.ts:21923
+main.ts:22821

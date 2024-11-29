@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleEventsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleEventsTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleEventsTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ direct URL to search engine results
 
 #### Defined in
 
-main.ts:46399
+main.ts:49214
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:46404
+main.ts:49219
 
 ***
 
@@ -49,7 +49,7 @@ event_item
 
 #### Defined in
 
-main.ts:46411
+main.ts:49228
 
 ***
 
@@ -57,11 +57,11 @@ main.ts:46411
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-items in SERP
+items of the element
 
 #### Defined in
 
-main.ts:46419
+main.ts:49236
 
 ***
 
@@ -73,7 +73,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:46417
+main.ts:49234
 
 ***
 
@@ -86,7 +86,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:46388
+main.ts:49203
 
 ***
 
@@ -99,7 +99,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:46397
+main.ts:49212
 
 ***
 
@@ -111,7 +111,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:46394
+main.ts:49209
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:49224
 
 ***
 
@@ -123,7 +135,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:46392
+main.ts:49207
 
 ***
 
@@ -137,7 +149,7 @@ this search engine does not indicate the total number of results
 
 #### Defined in
 
-main.ts:46415
+main.ts:49232
 
 ***
 
@@ -150,7 +162,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:46407
+main.ts:49222
 
 ***
 
@@ -162,4 +174,4 @@ type of element
 
 #### Defined in
 
-main.ts:46390
+main.ts:49205

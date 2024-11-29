@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageNonIndexableRequestInfo
+[Documentation](../README.md) / OnPageNonIndexableRequestInfo
 
 # Class: OnPageNonIndexableRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md)
+##### data?
+
+[`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:158645
+main.ts:170280
 
 ## Properties
 
@@ -60,7 +62,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:158641
+main.ts:170276
 
 ***
 
@@ -80,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:158615
+main.ts:170250
 
 ***
 
@@ -99,7 +101,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:158620
+main.ts:170255
 
 ***
 
@@ -118,7 +120,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:158625
+main.ts:170260
 
 ## Methods
 
@@ -128,7 +130,9 @@ main.ts:158625
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +140,7 @@ main.ts:158625
 
 #### Defined in
 
-main.ts:158654
+main.ts:170289
 
 ***
 
@@ -146,7 +150,9 @@ main.ts:158654
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -154,7 +160,7 @@ main.ts:158654
 
 #### Defined in
 
-main.ts:158678
+main.ts:170313
 
 ***
 
@@ -164,7 +170,9 @@ main.ts:158678
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -172,4 +180,4 @@ main.ts:158678
 
 #### Defined in
 
-main.ts:158671
+main.ts:170306

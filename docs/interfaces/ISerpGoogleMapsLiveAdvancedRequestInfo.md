@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleMapsLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleMapsLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleMapsLiveAdvancedRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:40729
+main.ts:42554
 
 ***
 
@@ -43,7 +43,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-main.ts:40706
+main.ts:42531
 
 ***
 
@@ -53,16 +53,17 @@ main.ts:40706
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:40661
+main.ts:42486
 
 ***
 
@@ -79,7 +80,7 @@ en
 
 #### Defined in
 
-main.ts:40700
+main.ts:42525
 
 ***
 
@@ -96,7 +97,7 @@ English
 
 #### Defined in
 
-main.ts:40693
+main.ts:42518
 
 ***
 
@@ -113,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:40675
+main.ts:42500
 
 ***
 
@@ -134,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:40686
+main.ts:42511
 
 ***
 
@@ -151,7 +152,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:40668
+main.ts:42493
 
 ***
 
@@ -168,7 +169,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:40736
+main.ts:42561
 
 ***
 
@@ -185,7 +186,7 @@ default value: android
 
 #### Defined in
 
-main.ts:40713
+main.ts:42538
 
 ***
 
@@ -202,7 +203,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:40720
+main.ts:42545
 
 ***
 
@@ -220,7 +221,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-main.ts:40751
+main.ts:42576
 
 ***
 
@@ -237,7 +238,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-main.ts:40743
+main.ts:42568
 
 ***
 
@@ -253,7 +254,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:40757
+main.ts:42582
 
 ***
 
@@ -269,4 +270,4 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-main.ts:40652
+main.ts:42476

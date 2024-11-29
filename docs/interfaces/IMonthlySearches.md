@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMonthlySearches
+[Documentation](../README.md) / IMonthlySearches
 
 # Interface: IMonthlySearches
 
@@ -20,7 +20,7 @@ month
 
 #### Defined in
 
-main.ts:82657
+main.ts:92369
 
 ***
 
@@ -32,7 +32,7 @@ monthly average search volume rate
 
 #### Defined in
 
-main.ts:82659
+main.ts:92371
 
 ***
 
@@ -44,4 +44,4 @@ year
 
 #### Defined in
 
-main.ts:82655
+main.ts:92367

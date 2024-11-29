@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ApiException
+[Documentation](../README.md) / ApiException
 
 # Class: ApiException
 
@@ -18,15 +18,23 @@
 
 #### Parameters
 
-• **message**: `string`
+##### message
 
-• **status**: `number`
+`string`
 
-• **response**: `string`
+##### status
 
-• **headers**
+`number`
 
-• **result**: `any`
+##### response
+
+`string`
+
+##### headers
+
+##### result
+
+`any`
 
 #### Returns
 
@@ -38,7 +46,7 @@
 
 #### Defined in
 
-main.ts:224962
+main.ts:239711
 
 ## Properties
 
@@ -52,7 +60,7 @@ main.ts:224962
 
 #### Defined in
 
-main.ts:224959
+main.ts:239708
 
 ***
 
@@ -62,7 +70,7 @@ main.ts:224959
 
 #### Defined in
 
-main.ts:224972
+main.ts:239721
 
 ***
 
@@ -76,7 +84,7 @@ main.ts:224972
 
 #### Defined in
 
-main.ts:224956
+main.ts:239705
 
 ***
 
@@ -90,7 +98,7 @@ main.ts:224956
 
 #### Defined in
 
-C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescript/lib/lib.es5.d.ts:1076
+node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 ***
 
@@ -100,7 +108,7 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 #### Defined in
 
-main.ts:224958
+main.ts:239707
 
 ***
 
@@ -110,7 +118,7 @@ main.ts:224958
 
 #### Defined in
 
-main.ts:224960
+main.ts:239709
 
 ***
 
@@ -124,7 +132,7 @@ main.ts:224960
 
 #### Defined in
 
-C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescript/lib/lib.es5.d.ts:1078
+node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 ***
 
@@ -134,7 +142,7 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 #### Defined in
 
-main.ts:224957
+main.ts:239706
 
 ## Methods
 
@@ -144,7 +152,9 @@ main.ts:224957
 
 #### Parameters
 
-• **obj**: `any`
+##### obj
+
+`any`
 
 #### Returns
 
@@ -152,4 +162,4 @@ main.ts:224957
 
 #### Defined in
 
-main.ts:224974
+main.ts:239723

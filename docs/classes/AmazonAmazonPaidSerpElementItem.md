@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonAmazonPaidSerpElementItem
+[Documentation](../README.md) / AmazonAmazonPaidSerpElementItem
 
 # Class: AmazonAmazonPaidSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md)
+##### data?
+
+[`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:180321
+main.ts:192409
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:180321
 
 #### Defined in
 
-main.ts:22320
+main.ts:23218
 
 ***
 
@@ -68,7 +70,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:180286
+main.ts:192374
 
 ***
 
@@ -86,7 +88,7 @@ USD
 
 #### Defined in
 
-main.ts:180298
+main.ts:192386
 
 ***
 
@@ -105,7 +107,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:180306
+main.ts:192394
 
 ***
 
@@ -122,7 +124,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:180317
+main.ts:192405
 
 ***
 
@@ -138,7 +140,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:180278
+main.ts:192366
 
 ***
 
@@ -154,7 +156,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:180284
+main.ts:192372
 
 ***
 
@@ -171,7 +173,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:180311
+main.ts:192399
 
 ***
 
@@ -188,7 +190,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:180314
+main.ts:192402
 
 ***
 
@@ -206,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:180290
+main.ts:192378
 
 ***
 
@@ -224,7 +226,7 @@ example:
 
 #### Defined in
 
-main.ts:180294
+main.ts:192382
 
 ***
 
@@ -245,7 +247,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22316
+main.ts:23214
 
 ***
 
@@ -266,7 +268,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22313
+main.ts:23211
 
 ***
 
@@ -282,7 +284,7 @@ product rating info
 
 #### Defined in
 
-main.ts:180308
+main.ts:192396
 
 ***
 
@@ -299,7 +301,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:180301
+main.ts:192389
 
 ***
 
@@ -315,7 +317,7 @@ product title
 
 #### Defined in
 
-main.ts:180280
+main.ts:192368
 
 ***
 
@@ -335,7 +337,7 @@ type of element
 
 #### Defined in
 
-main.ts:22310
+main.ts:23208
 
 ***
 
@@ -351,7 +353,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:180282
+main.ts:192370
 
 ***
 
@@ -371,7 +373,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22318
+main.ts:23216
 
 ## Methods
 
@@ -381,7 +383,9 @@ main.ts:22318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -393,7 +397,7 @@ main.ts:22318
 
 #### Defined in
 
-main.ts:180326
+main.ts:192414
 
 ***
 
@@ -403,7 +407,9 @@ main.ts:180326
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -415,7 +421,7 @@ main.ts:180326
 
 #### Defined in
 
-main.ts:180361
+main.ts:192449
 
 ***
 
@@ -425,7 +431,9 @@ main.ts:180361
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -437,4 +445,4 @@ main.ts:180361
 
 #### Defined in
 
-main.ts:180354
+main.ts:192442

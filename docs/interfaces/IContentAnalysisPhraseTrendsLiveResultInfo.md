@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisPhraseTrendsLiveResultInfo
+[Documentation](../README.md) / IContentAnalysisPhraseTrendsLiveResultInfo
 
 # Interface: IContentAnalysisPhraseTrendsLiveResultInfo
 
@@ -26,7 +26,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Defined in
 
-main.ts:168753
+main.ts:180342
 
 ***
 
@@ -44,7 +44,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:168768
+main.ts:180357
 
 ***
 
@@ -56,7 +56,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:168737
+main.ts:180326
 
 ***
 
@@ -74,7 +74,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:168772
+main.ts:180361
 
 ***
 
@@ -88,7 +88,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:168761
+main.ts:180350
 
 ***
 
@@ -105,7 +105,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:168764
+main.ts:180353
 
 ***
 
@@ -118,7 +118,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Defined in
 
-main.ts:168742
+main.ts:180331
 
 ***
 
@@ -136,7 +136,7 @@ possible connotations: "anger", "happiness", "love", "sadness", "share", "fun"
 
 #### Defined in
 
-main.ts:168749
+main.ts:180338
 
 ***
 
@@ -150,7 +150,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:168757
+main.ts:180346
 
 ***
 
@@ -163,7 +163,7 @@ contains objects with top domains citing the target keyword and citation count p
 
 #### Defined in
 
-main.ts:168745
+main.ts:180334
 
 ***
 
@@ -175,7 +175,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:168739
+main.ts:180328
 
 ***
 
@@ -187,4 +187,4 @@ type of element
 
 #### Defined in
 
-main.ts:168735
+main.ts:180324

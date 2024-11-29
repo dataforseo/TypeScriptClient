@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDemography
+[Documentation](../README.md) / IDemography
 
 # Interface: IDemography
 
@@ -20,7 +20,7 @@ distribution of keyword popularity by age
 
 #### Defined in
 
-main.ts:127076
+main.ts:137333
 
 ***
 
@@ -32,4 +32,4 @@ distribution of keyword popularity by gender
 
 #### Defined in
 
-main.ts:127078
+main.ts:137335

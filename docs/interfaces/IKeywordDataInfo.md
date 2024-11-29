@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordDataInfo
+[Documentation](../README.md) / IKeywordDataInfo
 
 # Interface: IKeywordDataInfo
 
@@ -21,20 +21,20 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:83638
+main.ts:93350
 
 ***
 
 ### clickstream\_keyword\_info?
 
-> `optional` **clickstream\_keyword\_info**: `any`
+> `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](../classes/ClickstreamKeywordInfo.md)
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
 
 #### Defined in
 
-main.ts:83624
+main.ts:93336
 
 ***
 
@@ -50,7 +50,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:83632
+main.ts:93344
 
 ***
 
@@ -62,7 +62,7 @@ returned keyword idea
 
 #### Defined in
 
-main.ts:83611
+main.ts:93323
 
 ***
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:83617
+main.ts:93329
 
 ***
 
@@ -86,7 +86,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:83619
+main.ts:93331
 
 ***
 
@@ -98,7 +98,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:83621
+main.ts:93333
 
 ***
 
@@ -110,7 +110,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:83626
+main.ts:93338
 
 ***
 
@@ -122,7 +122,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:83615
+main.ts:93327
 
 ***
 
@@ -134,7 +134,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:83613
+main.ts:93325
 
 ***
 
@@ -146,7 +146,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83609
+main.ts:93321
 
 ***
 
@@ -159,7 +159,7 @@ learn about search intent in this help center article
 
 #### Defined in
 
-main.ts:83641
+main.ts:93353
 
 ***
 
@@ -172,4 +172,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:83635
+main.ts:93347

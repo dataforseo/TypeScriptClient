@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixOnPageDayStatisticsRatesData
+[Documentation](../README.md) / AppendixOnPageDayStatisticsRatesData
 
 # Class: AppendixOnPageDayStatisticsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:219017
+main.ts:234016
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:219017
 
 #### Defined in
 
-main.ts:219013
+main.ts:234009
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:219013
 
 #### Defined in
 
-main.ts:219008
+main.ts:234007
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:219008
 
 #### Defined in
 
-main.ts:219009
+main.ts:234008
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:219009
 
 #### Defined in
 
-main.ts:219001
+main.ts:234000
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:219001
 
 #### Defined in
 
-main.ts:218996
+main.ts:233995
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:218996
 
 #### Defined in
 
-main.ts:218999
+main.ts:233998
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:218999
 
 #### Defined in
 
-main.ts:219011
+main.ts:234010
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:219011
 
 #### Defined in
 
-main.ts:219012
+main.ts:234012
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:219012
 
 #### Defined in
 
-main.ts:219003
+main.ts:234002
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:219003
 
 #### Defined in
 
-main.ts:219006
+main.ts:234005
 
 ***
 
@@ -184,7 +186,7 @@ main.ts:219006
 
 #### Defined in
 
-main.ts:219005
+main.ts:234004
 
 ***
 
@@ -198,7 +200,7 @@ main.ts:219005
 
 #### Defined in
 
-main.ts:218997
+main.ts:233996
 
 ***
 
@@ -212,7 +214,7 @@ main.ts:218997
 
 #### Defined in
 
-main.ts:219010
+main.ts:234011
 
 ***
 
@@ -226,7 +228,7 @@ main.ts:219010
 
 #### Defined in
 
-main.ts:218995
+main.ts:233994
 
 ***
 
@@ -240,7 +242,7 @@ main.ts:218995
 
 #### Defined in
 
-main.ts:219007
+main.ts:234006
 
 ***
 
@@ -254,7 +256,7 @@ main.ts:219007
 
 #### Defined in
 
-main.ts:218994
+main.ts:233993
 
 ***
 
@@ -268,7 +270,7 @@ main.ts:218994
 
 #### Defined in
 
-main.ts:219000
+main.ts:233999
 
 ***
 
@@ -282,7 +284,7 @@ main.ts:219000
 
 #### Defined in
 
-main.ts:219002
+main.ts:234001
 
 ***
 
@@ -296,7 +298,7 @@ main.ts:219002
 
 #### Defined in
 
-main.ts:219004
+main.ts:234003
 
 ***
 
@@ -310,7 +312,7 @@ main.ts:219004
 
 #### Defined in
 
-main.ts:218993
+main.ts:233992
 
 ***
 
@@ -324,7 +326,7 @@ main.ts:218993
 
 #### Defined in
 
-main.ts:218992
+main.ts:233991
 
 ***
 
@@ -338,7 +340,7 @@ main.ts:218992
 
 #### Defined in
 
-main.ts:218990
+main.ts:233989
 
 ***
 
@@ -352,7 +354,7 @@ main.ts:218990
 
 #### Defined in
 
-main.ts:218991
+main.ts:233990
 
 ***
 
@@ -366,7 +368,7 @@ main.ts:218991
 
 #### Defined in
 
-main.ts:218998
+main.ts:233997
 
 ## Methods
 
@@ -376,7 +378,9 @@ main.ts:218998
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -384,7 +388,7 @@ main.ts:218998
 
 #### Defined in
 
-main.ts:219026
+main.ts:234025
 
 ***
 
@@ -394,7 +398,9 @@ main.ts:219026
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -402,7 +408,7 @@ main.ts:219026
 
 #### Defined in
 
-main.ts:219066
+main.ts:234065
 
 ***
 
@@ -412,7 +418,9 @@ main.ts:219066
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -420,4 +428,4 @@ main.ts:219066
 
 #### Defined in
 
-main.ts:219059
+main.ts:234058

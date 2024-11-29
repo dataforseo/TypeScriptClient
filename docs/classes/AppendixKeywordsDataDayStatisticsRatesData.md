@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixKeywordsDataDayStatisticsRatesData
+[Documentation](../README.md) / AppendixKeywordsDataDayStatisticsRatesData
 
 # Class: AppendixKeywordsDataDayStatisticsRatesData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:218400
+main.ts:233387
 
 ## Properties
 
@@ -44,7 +46,21 @@ main.ts:218400
 
 #### Defined in
 
-main.ts:218381
+main.ts:233364
+
+***
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`audience_estimation`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#audience_estimation)
+
+#### Defined in
+
+main.ts:233377
 
 ***
 
@@ -58,7 +74,7 @@ main.ts:218381
 
 #### Defined in
 
-main.ts:218388
+main.ts:233371
 
 ***
 
@@ -72,7 +88,7 @@ main.ts:218388
 
 #### Defined in
 
-main.ts:218386
+main.ts:233369
 
 ***
 
@@ -86,7 +102,7 @@ main.ts:218386
 
 #### Defined in
 
-main.ts:218393
+main.ts:233376
 
 ***
 
@@ -100,7 +116,7 @@ main.ts:218393
 
 #### Defined in
 
-main.ts:218392
+main.ts:233375
 
 ***
 
@@ -114,7 +130,7 @@ main.ts:218392
 
 #### Defined in
 
-main.ts:218387
+main.ts:233370
 
 ***
 
@@ -128,7 +144,7 @@ main.ts:218387
 
 #### Defined in
 
-main.ts:218385
+main.ts:233368
 
 ***
 
@@ -142,7 +158,7 @@ main.ts:218385
 
 #### Defined in
 
-main.ts:218394
+main.ts:233382
 
 ***
 
@@ -156,7 +172,7 @@ main.ts:218394
 
 #### Defined in
 
-main.ts:218391
+main.ts:233374
 
 ***
 
@@ -170,7 +186,35 @@ main.ts:218391
 
 #### Defined in
 
-main.ts:218395
+main.ts:233379
+
+***
+
+### industries?
+
+> `optional` **industries**: `number`
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`industries`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#industries)
+
+#### Defined in
+
+main.ts:233380
+
+***
+
+### job\_functions?
+
+> `optional` **job\_functions**: `number`
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`job_functions`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#job_functions)
+
+#### Defined in
+
+main.ts:233383
 
 ***
 
@@ -184,7 +228,21 @@ main.ts:218395
 
 #### Defined in
 
-main.ts:218389
+main.ts:233372
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#keyword_suggestions_for_url)
+
+#### Defined in
+
+main.ts:233378
 
 ***
 
@@ -198,7 +256,7 @@ main.ts:218389
 
 #### Defined in
 
-main.ts:218378
+main.ts:233361
 
 ***
 
@@ -212,7 +270,7 @@ main.ts:218378
 
 #### Defined in
 
-main.ts:218379
+main.ts:233362
 
 ***
 
@@ -226,7 +284,7 @@ main.ts:218379
 
 #### Defined in
 
-main.ts:218382
+main.ts:233365
 
 ***
 
@@ -240,7 +298,7 @@ main.ts:218382
 
 #### Defined in
 
-main.ts:218383
+main.ts:233366
 
 ***
 
@@ -254,7 +312,7 @@ main.ts:218383
 
 #### Defined in
 
-main.ts:218390
+main.ts:233373
 
 ***
 
@@ -268,7 +326,7 @@ main.ts:218390
 
 #### Defined in
 
-main.ts:218380
+main.ts:233363
 
 ***
 
@@ -282,7 +340,7 @@ main.ts:218380
 
 #### Defined in
 
-main.ts:218396
+main.ts:233381
 
 ***
 
@@ -296,7 +354,7 @@ main.ts:218396
 
 #### Defined in
 
-main.ts:218384
+main.ts:233367
 
 ## Methods
 
@@ -306,7 +364,9 @@ main.ts:218384
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -314,7 +374,7 @@ main.ts:218384
 
 #### Defined in
 
-main.ts:218409
+main.ts:233396
 
 ***
 
@@ -324,7 +384,9 @@ main.ts:218409
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -332,7 +394,7 @@ main.ts:218409
 
 #### Defined in
 
-main.ts:218444
+main.ts:233435
 
 ***
 
@@ -342,7 +404,9 @@ main.ts:218444
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -350,4 +414,4 @@ main.ts:218444
 
 #### Defined in
 
-main.ts:218437
+main.ts:233428

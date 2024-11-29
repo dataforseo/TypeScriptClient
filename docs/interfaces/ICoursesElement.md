@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICoursesElement
+[Documentation](../README.md) / ICoursesElement
 
 # Interface: ICoursesElement
 
@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:36493
+main.ts:37978
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Defined in
 
-main.ts:36491
+main.ts:37976
 
 ***
 
@@ -44,7 +44,7 @@ website domain
 
 #### Defined in
 
-main.ts:36486
+main.ts:37971
 
 ***
 
@@ -57,7 +57,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:36496
+main.ts:37981
 
 ***
 
@@ -70,7 +70,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:36499
+main.ts:37984
 
 ***
 
@@ -83,7 +83,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36489
+main.ts:37974
 
 ***
 
@@ -95,7 +95,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36482
+main.ts:37967
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Defined in
 
-main.ts:36480
+main.ts:37965
 
 ***
 
@@ -119,4 +119,4 @@ URL
 
 #### Defined in
 
-main.ts:36484
+main.ts:37969

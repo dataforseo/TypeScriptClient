@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFeaturedSnippetDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IFeaturedSnippetDataforseoLabsSerpElementItem
 
 # Interface: IFeaturedSnippetDataforseoLabsSerpElementItem
 
@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:97450
+main.ts:107256
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:97425
+main.ts:107231
 
 ***
 
@@ -44,11 +44,11 @@ main.ts:97425
 
 > `optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Defined in
 
-main.ts:97419
+main.ts:107225
 
 ***
 
@@ -62,7 +62,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97445
+main.ts:107251
 
 ***
 
@@ -77,7 +77,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97441
+main.ts:107247
 
 ***
 
@@ -89,7 +89,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:97423
+main.ts:107229
 
 ***
 
@@ -101,7 +101,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:97434
+main.ts:107240
 
 ***
 
@@ -119,7 +119,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -136,7 +136,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -149,7 +149,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:97448
+main.ts:107254
 
 ***
 
@@ -166,7 +166,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -178,7 +178,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:97452
+main.ts:107258
 
 ***
 
@@ -190,7 +190,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:97436
+main.ts:107242
 
 ***
 
@@ -202,7 +202,7 @@ search engine type
 
 #### Defined in
 
-main.ts:97432
+main.ts:107238
 
 ***
 
@@ -215,7 +215,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97430
+main.ts:107236
 
 ***
 
@@ -227,7 +227,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97421
+main.ts:107227
 
 ***
 
@@ -243,7 +243,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -255,7 +255,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:97427
+main.ts:107233
 
 ***
 
@@ -271,4 +271,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

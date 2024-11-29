@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataApi
+[Documentation](../README.md) / BusinessDataApi
 
 # Class: BusinessDataApi
 
@@ -14,11 +14,13 @@
 
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### http.fetch
 
 #### Returns
 
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-main.ts:18027
+main.ts:18583
 
 ## Properties
 
@@ -36,9 +38,13 @@ main.ts:18027
 
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
@@ -46,7 +52,7 @@ main.ts:18027
 
 #### Defined in
 
-main.ts:18025
+main.ts:18581
 
 ## Methods
 
@@ -62,7 +68,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18119
+main.ts:18675
 
 ***
 
@@ -72,7 +78,9 @@ main.ts:18119
 
 #### Parameters
 
-• **body**: [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)[]
+##### body
+
+[`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -84,7 +92,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18078
+main.ts:18634
 
 ***
 
@@ -100,7 +108,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18396
+main.ts:18952
 
 ***
 
@@ -116,7 +124,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18314
+main.ts:18870
 
 ***
 
@@ -126,7 +134,9 @@ main.ts:18314
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -142,7 +152,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18356
+main.ts:18912
 
 ***
 
@@ -152,7 +162,9 @@ main.ts:18356
 
 #### Parameters
 
-• **body**: [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)[]
+##### body
+
+[`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)[]
 
 (optional)
 
@@ -164,7 +176,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18036
+main.ts:18592
 
 ***
 
@@ -180,7 +192,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18512
+main.ts:19068
 
 ***
 
@@ -196,7 +208,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19781
+main.ts:20459
 
 ***
 
@@ -212,7 +224,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19699
+main.ts:20377
 
 ***
 
@@ -222,7 +234,9 @@ main.ts:19699
 
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -238,7 +252,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19741
+main.ts:20419
 
 ***
 
@@ -254,7 +268,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18193
+main.ts:18749
 
 ***
 
@@ -270,7 +284,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18156
+main.ts:18712
 
 ***
 
@@ -280,7 +294,9 @@ main.ts:18156
 
 #### Parameters
 
-• **body**: [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)[]
+##### body
+
+[`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)[]
 
 (optional)
 
@@ -292,7 +308,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18273
+main.ts:18829
 
 ***
 
@@ -302,7 +318,9 @@ main.ts:18273
 
 #### Parameters
 
-• **body**: [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)[]
+##### body
+
+[`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)[]
 
 (optional)
 
@@ -314,7 +332,73 @@ Successful operation
 
 #### Defined in
 
-main.ts:18231
+main.ts:18787
+
+***
+
+### googleExtendedReviewsTaskGet()
+
+> **googleExtendedReviewsTaskGet**(`id`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTaskGetResponseInfo`](BusinessDataGoogleExtendedReviewsTaskGetResponseInfo.md)\>
+
+#### Parameters
+
+##### id
+
+`string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleExtendedReviewsTaskGetResponseInfo`](BusinessDataGoogleExtendedReviewsTaskGetResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:19929
+
+***
+
+### googleExtendedReviewsTaskPost()
+
+> **googleExtendedReviewsTaskPost**(`body`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### body
+
+[`BusinessDataGoogleExtendedReviewsTaskPostRequestInfo`](BusinessDataGoogleExtendedReviewsTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:19848
+
+***
+
+### googleExtendedReviewsTasksReady()
+
+> **googleExtendedReviewsTasksReady**(): `Promise`\<[`BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:19889
 
 ***
 
@@ -324,7 +408,9 @@ main.ts:18231
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)[]
 
 (optional)
 
@@ -336,7 +422,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19086
+main.ts:19642
 
 ***
 
@@ -346,7 +432,9 @@ main.ts:19086
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleHotelInfoLiveHtmlRequestInfo`](BusinessDataGoogleHotelInfoLiveHtmlRequestInfo.md)[]
 
 (optional)
 
@@ -358,7 +446,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19128
+main.ts:19684
 
 ***
 
@@ -368,7 +456,9 @@ main.ts:19128
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -382,7 +472,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19002
+main.ts:19558
 
 ***
 
@@ -392,7 +482,9 @@ main.ts:19002
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -406,7 +498,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19045
+main.ts:19601
 
 ***
 
@@ -416,7 +508,9 @@ main.ts:19045
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleHotelInfoTaskPostRequestInfo`](BusinessDataGoogleHotelInfoTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleHotelInfoTaskPostRequestInfo`](BusinessDataGoogleHotelInfoTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -428,7 +522,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18921
+main.ts:19477
 
 ***
 
@@ -444,7 +538,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18962
+main.ts:19518
 
 ***
 
@@ -454,7 +548,9 @@ main.ts:18962
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)[]
 
 (optional)
 
@@ -466,7 +562,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18879
+main.ts:19435
 
 ***
 
@@ -476,7 +572,9 @@ main.ts:18879
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -490,7 +588,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18838
+main.ts:19394
 
 ***
 
@@ -500,7 +598,9 @@ main.ts:18838
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -512,7 +612,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18757
+main.ts:19313
 
 ***
 
@@ -528,7 +628,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18798
+main.ts:19354
 
 ***
 
@@ -538,7 +638,9 @@ main.ts:18798
 
 #### Parameters
 
-• **body**: [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleMyBusinessInfoLiveRequestInfo`](BusinessDataGoogleMyBusinessInfoLiveRequestInfo.md)[]
 
 (optional)
 
@@ -550,7 +652,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18593
+main.ts:19149
 
 ***
 
@@ -560,7 +662,9 @@ main.ts:18593
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -574,7 +678,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18552
+main.ts:19108
 
 ***
 
@@ -584,7 +688,9 @@ main.ts:18552
 
 #### Parameters
 
-• **body**: [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo`](BusinessDataGoogleMyBusinessInfoTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -596,7 +702,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18434
+main.ts:18990
 
 ***
 
@@ -612,7 +718,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18475
+main.ts:19031
 
 ***
 
@@ -622,7 +728,9 @@ main.ts:18475
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -636,7 +744,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18716
+main.ts:19272
 
 ***
 
@@ -646,7 +754,9 @@ main.ts:18716
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -658,7 +768,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18635
+main.ts:19191
 
 ***
 
@@ -674,7 +784,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:18676
+main.ts:19232
 
 ***
 
@@ -684,7 +794,9 @@ main.ts:18676
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)[]
 
 (optional)
 
@@ -696,7 +808,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19414
+main.ts:20092
 
 ***
 
@@ -706,7 +818,9 @@ main.ts:19414
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -720,7 +834,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19373
+main.ts:20051
 
 ***
 
@@ -730,7 +844,9 @@ main.ts:19373
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -742,7 +858,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19292
+main.ts:19970
 
 ***
 
@@ -758,7 +874,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19333
+main.ts:20011
 
 ***
 
@@ -768,7 +884,9 @@ main.ts:19333
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -782,7 +900,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19251
+main.ts:19807
 
 ***
 
@@ -792,7 +910,9 @@ main.ts:19251
 
 #### Parameters
 
-• **body**: [`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataGoogleReviewsTaskPostRequestInfo`](BusinessDataGoogleReviewsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -804,7 +924,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19170
+main.ts:19726
 
 ***
 
@@ -820,7 +940,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19211
+main.ts:19767
 
 ***
 
@@ -830,7 +950,9 @@ main.ts:19211
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -838,7 +960,7 @@ main.ts:19211
 
 #### Defined in
 
-main.ts:18135
+main.ts:18691
 
 ***
 
@@ -848,7 +970,9 @@ main.ts:18135
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -856,7 +980,7 @@ main.ts:18135
 
 #### Defined in
 
-main.ts:18098
+main.ts:18654
 
 ***
 
@@ -866,7 +990,9 @@ main.ts:18098
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -874,7 +1000,7 @@ main.ts:18098
 
 #### Defined in
 
-main.ts:18412
+main.ts:18968
 
 ***
 
@@ -884,7 +1010,9 @@ main.ts:18412
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -892,7 +1020,7 @@ main.ts:18412
 
 #### Defined in
 
-main.ts:18330
+main.ts:18886
 
 ***
 
@@ -902,7 +1030,9 @@ main.ts:18330
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -910,7 +1040,7 @@ main.ts:18330
 
 #### Defined in
 
-main.ts:18375
+main.ts:18931
 
 ***
 
@@ -920,7 +1050,9 @@ main.ts:18375
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -928,7 +1060,7 @@ main.ts:18375
 
 #### Defined in
 
-main.ts:18056
+main.ts:18612
 
 ***
 
@@ -938,7 +1070,9 @@ main.ts:18056
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -946,7 +1080,7 @@ main.ts:18056
 
 #### Defined in
 
-main.ts:18528
+main.ts:19084
 
 ***
 
@@ -956,7 +1090,9 @@ main.ts:18528
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -964,7 +1100,7 @@ main.ts:18528
 
 #### Defined in
 
-main.ts:19797
+main.ts:20475
 
 ***
 
@@ -974,7 +1110,9 @@ main.ts:19797
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -982,7 +1120,7 @@ main.ts:19797
 
 #### Defined in
 
-main.ts:19715
+main.ts:20393
 
 ***
 
@@ -992,7 +1130,9 @@ main.ts:19715
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1000,7 +1140,7 @@ main.ts:19715
 
 #### Defined in
 
-main.ts:19760
+main.ts:20438
 
 ***
 
@@ -1010,7 +1150,9 @@ main.ts:19760
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1018,7 +1160,7 @@ main.ts:19760
 
 #### Defined in
 
-main.ts:18209
+main.ts:18765
 
 ***
 
@@ -1028,7 +1170,9 @@ main.ts:18209
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1036,7 +1180,7 @@ main.ts:18209
 
 #### Defined in
 
-main.ts:18172
+main.ts:18728
 
 ***
 
@@ -1046,7 +1190,9 @@ main.ts:18172
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1054,7 +1200,7 @@ main.ts:18172
 
 #### Defined in
 
-main.ts:18293
+main.ts:18849
 
 ***
 
@@ -1064,7 +1210,9 @@ main.ts:18293
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1072,7 +1220,67 @@ main.ts:18293
 
 #### Defined in
 
-main.ts:18251
+main.ts:18807
+
+***
+
+### processGoogleExtendedReviewsTaskGet()
+
+> `protected` **processGoogleExtendedReviewsTaskGet**(`response`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTaskGetResponseInfo`](BusinessDataGoogleExtendedReviewsTaskGetResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleExtendedReviewsTaskGetResponseInfo`](BusinessDataGoogleExtendedReviewsTaskGetResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:19948
+
+***
+
+### processGoogleExtendedReviewsTaskPost()
+
+> `protected` **processGoogleExtendedReviewsTaskPost**(`response`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](BusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:19868
+
+***
+
+### processGoogleExtendedReviewsTasksReady()
+
+> `protected` **processGoogleExtendedReviewsTasksReady**(`response`): `Promise`\<[`BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+##### response
+
+`Response`
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo`](BusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:19905
 
 ***
 
@@ -1082,7 +1290,9 @@ main.ts:18251
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1090,7 +1300,7 @@ main.ts:18251
 
 #### Defined in
 
-main.ts:19106
+main.ts:19662
 
 ***
 
@@ -1100,7 +1310,9 @@ main.ts:19106
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1108,7 +1320,7 @@ main.ts:19106
 
 #### Defined in
 
-main.ts:19148
+main.ts:19704
 
 ***
 
@@ -1118,7 +1330,9 @@ main.ts:19148
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1126,7 +1340,7 @@ main.ts:19148
 
 #### Defined in
 
-main.ts:19021
+main.ts:19577
 
 ***
 
@@ -1136,7 +1350,9 @@ main.ts:19021
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1144,7 +1360,7 @@ main.ts:19021
 
 #### Defined in
 
-main.ts:19064
+main.ts:19620
 
 ***
 
@@ -1154,7 +1370,9 @@ main.ts:19064
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1162,7 +1380,7 @@ main.ts:19064
 
 #### Defined in
 
-main.ts:18941
+main.ts:19497
 
 ***
 
@@ -1172,7 +1390,9 @@ main.ts:18941
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1180,7 +1400,7 @@ main.ts:18941
 
 #### Defined in
 
-main.ts:18978
+main.ts:19534
 
 ***
 
@@ -1190,7 +1410,9 @@ main.ts:18978
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1198,7 +1420,7 @@ main.ts:18978
 
 #### Defined in
 
-main.ts:18899
+main.ts:19455
 
 ***
 
@@ -1208,7 +1430,9 @@ main.ts:18899
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1216,7 +1440,7 @@ main.ts:18899
 
 #### Defined in
 
-main.ts:18857
+main.ts:19413
 
 ***
 
@@ -1226,7 +1450,9 @@ main.ts:18857
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1234,7 +1460,7 @@ main.ts:18857
 
 #### Defined in
 
-main.ts:18777
+main.ts:19333
 
 ***
 
@@ -1244,7 +1470,9 @@ main.ts:18777
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1252,7 +1480,7 @@ main.ts:18777
 
 #### Defined in
 
-main.ts:18814
+main.ts:19370
 
 ***
 
@@ -1262,7 +1490,9 @@ main.ts:18814
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1270,7 +1500,7 @@ main.ts:18814
 
 #### Defined in
 
-main.ts:18613
+main.ts:19169
 
 ***
 
@@ -1280,7 +1510,9 @@ main.ts:18613
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1288,7 +1520,7 @@ main.ts:18613
 
 #### Defined in
 
-main.ts:18571
+main.ts:19127
 
 ***
 
@@ -1298,7 +1530,9 @@ main.ts:18571
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1306,7 +1540,7 @@ main.ts:18571
 
 #### Defined in
 
-main.ts:18454
+main.ts:19010
 
 ***
 
@@ -1316,7 +1550,9 @@ main.ts:18454
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1324,7 +1560,7 @@ main.ts:18454
 
 #### Defined in
 
-main.ts:18491
+main.ts:19047
 
 ***
 
@@ -1334,7 +1570,9 @@ main.ts:18491
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1342,7 +1580,7 @@ main.ts:18491
 
 #### Defined in
 
-main.ts:18735
+main.ts:19291
 
 ***
 
@@ -1352,7 +1590,9 @@ main.ts:18735
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1360,7 +1600,7 @@ main.ts:18735
 
 #### Defined in
 
-main.ts:18655
+main.ts:19211
 
 ***
 
@@ -1370,7 +1610,9 @@ main.ts:18655
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1378,7 +1620,7 @@ main.ts:18655
 
 #### Defined in
 
-main.ts:18692
+main.ts:19248
 
 ***
 
@@ -1388,7 +1630,9 @@ main.ts:18692
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1396,7 +1640,7 @@ main.ts:18692
 
 #### Defined in
 
-main.ts:19434
+main.ts:20112
 
 ***
 
@@ -1406,7 +1650,9 @@ main.ts:19434
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1414,7 +1660,7 @@ main.ts:19434
 
 #### Defined in
 
-main.ts:19392
+main.ts:20070
 
 ***
 
@@ -1424,7 +1670,9 @@ main.ts:19392
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1432,7 +1680,7 @@ main.ts:19392
 
 #### Defined in
 
-main.ts:19312
+main.ts:19990
 
 ***
 
@@ -1442,7 +1690,9 @@ main.ts:19312
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1450,7 +1700,7 @@ main.ts:19312
 
 #### Defined in
 
-main.ts:19349
+main.ts:20027
 
 ***
 
@@ -1460,7 +1710,9 @@ main.ts:19349
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1468,7 +1720,7 @@ main.ts:19349
 
 #### Defined in
 
-main.ts:19270
+main.ts:19826
 
 ***
 
@@ -1478,7 +1730,9 @@ main.ts:19270
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1486,7 +1740,7 @@ main.ts:19270
 
 #### Defined in
 
-main.ts:19190
+main.ts:19746
 
 ***
 
@@ -1496,7 +1750,9 @@ main.ts:19190
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1504,7 +1760,7 @@ main.ts:19190
 
 #### Defined in
 
-main.ts:19227
+main.ts:19783
 
 ***
 
@@ -1514,7 +1770,9 @@ main.ts:19227
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1522,7 +1780,7 @@ main.ts:19227
 
 #### Defined in
 
-main.ts:20125
+main.ts:20803
 
 ***
 
@@ -1532,7 +1790,9 @@ main.ts:20125
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1540,7 +1800,7 @@ main.ts:20125
 
 #### Defined in
 
-main.ts:20083
+main.ts:20761
 
 ***
 
@@ -1550,7 +1810,9 @@ main.ts:20083
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1558,7 +1820,7 @@ main.ts:20083
 
 #### Defined in
 
-main.ts:20167
+main.ts:20845
 
 ***
 
@@ -1568,7 +1830,9 @@ main.ts:20167
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1576,7 +1840,7 @@ main.ts:20167
 
 #### Defined in
 
-main.ts:20041
+main.ts:20719
 
 ***
 
@@ -1586,7 +1850,9 @@ main.ts:20041
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1594,7 +1860,7 @@ main.ts:20041
 
 #### Defined in
 
-main.ts:19961
+main.ts:20639
 
 ***
 
@@ -1604,7 +1870,9 @@ main.ts:19961
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1612,7 +1880,7 @@ main.ts:19961
 
 #### Defined in
 
-main.ts:19998
+main.ts:20676
 
 ***
 
@@ -1622,7 +1890,9 @@ main.ts:19998
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1630,7 +1900,7 @@ main.ts:19998
 
 #### Defined in
 
-main.ts:19919
+main.ts:20597
 
 ***
 
@@ -1640,7 +1910,9 @@ main.ts:19919
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1648,7 +1920,7 @@ main.ts:19919
 
 #### Defined in
 
-main.ts:19839
+main.ts:20517
 
 ***
 
@@ -1658,7 +1930,9 @@ main.ts:19839
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1666,7 +1940,7 @@ main.ts:19839
 
 #### Defined in
 
-main.ts:19876
+main.ts:20554
 
 ***
 
@@ -1676,7 +1950,9 @@ main.ts:19876
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1684,7 +1960,7 @@ main.ts:19876
 
 #### Defined in
 
-main.ts:19678
+main.ts:20356
 
 ***
 
@@ -1694,7 +1970,9 @@ main.ts:19678
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1702,7 +1980,7 @@ main.ts:19678
 
 #### Defined in
 
-main.ts:19598
+main.ts:20276
 
 ***
 
@@ -1712,7 +1990,9 @@ main.ts:19598
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1720,7 +2000,7 @@ main.ts:19598
 
 #### Defined in
 
-main.ts:19635
+main.ts:20313
 
 ***
 
@@ -1730,7 +2010,9 @@ main.ts:19635
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1738,7 +2020,7 @@ main.ts:19635
 
 #### Defined in
 
-main.ts:19556
+main.ts:20234
 
 ***
 
@@ -1748,7 +2030,9 @@ main.ts:19556
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1756,7 +2040,7 @@ main.ts:19556
 
 #### Defined in
 
-main.ts:19476
+main.ts:20154
 
 ***
 
@@ -1766,7 +2050,9 @@ main.ts:19476
 
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
@@ -1774,7 +2060,7 @@ main.ts:19476
 
 #### Defined in
 
-main.ts:19513
+main.ts:20191
 
 ***
 
@@ -1784,7 +2070,9 @@ main.ts:19513
 
 #### Parameters
 
-• **body**: [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)[]
+##### body
+
+[`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1796,7 +2084,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:20105
+main.ts:20783
 
 ***
 
@@ -1806,7 +2094,9 @@ main.ts:20105
 
 #### Parameters
 
-• **body**: [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)[]
+##### body
+
+[`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1818,7 +2108,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:20063
+main.ts:20741
 
 ***
 
@@ -1828,7 +2118,9 @@ main.ts:20063
 
 #### Parameters
 
-• **body**: [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)[]
+##### body
+
+[`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)[]
 
 (optional)
 
@@ -1840,7 +2132,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:20147
+main.ts:20825
 
 ***
 
@@ -1850,7 +2142,9 @@ main.ts:20147
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1864,7 +2158,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:20022
+main.ts:20700
 
 ***
 
@@ -1874,7 +2168,9 @@ main.ts:20022
 
 #### Parameters
 
-• **body**: [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1886,7 +2182,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19941
+main.ts:20619
 
 ***
 
@@ -1902,7 +2198,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19982
+main.ts:20660
 
 ***
 
@@ -1912,7 +2208,9 @@ main.ts:19982
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1926,7 +2224,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19900
+main.ts:20578
 
 ***
 
@@ -1936,7 +2234,9 @@ main.ts:19900
 
 #### Parameters
 
-• **body**: [`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataTripadvisorSearchTaskPostRequestInfo`](BusinessDataTripadvisorSearchTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -1948,7 +2248,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19819
+main.ts:20497
 
 ***
 
@@ -1964,7 +2264,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19860
+main.ts:20538
 
 ***
 
@@ -1974,7 +2274,9 @@ main.ts:19860
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -1988,7 +2290,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19659
+main.ts:20337
 
 ***
 
@@ -1998,7 +2300,9 @@ main.ts:19659
 
 #### Parameters
 
-• **body**: [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -2010,7 +2314,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19578
+main.ts:20256
 
 ***
 
@@ -2026,7 +2330,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19619
+main.ts:20297
 
 ***
 
@@ -2036,7 +2340,9 @@ main.ts:19619
 
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -2050,7 +2356,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19537
+main.ts:20215
 
 ***
 
@@ -2060,7 +2366,9 @@ main.ts:19537
 
 #### Parameters
 
-• **body**: [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)[]
+##### body
+
+[`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -2072,7 +2380,7 @@ Successful operation
 
 #### Defined in
 
-main.ts:19456
+main.ts:20134
 
 ***
 
@@ -2088,4 +2396,4 @@ Successful operation
 
 #### Defined in
 
-main.ts:19497
+main.ts:20175

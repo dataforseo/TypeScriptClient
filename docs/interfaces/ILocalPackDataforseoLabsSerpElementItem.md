@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalPackDataforseoLabsSerpElementItem
+[Documentation](../README.md) / ILocalPackDataforseoLabsSerpElementItem
 
 # Interface: ILocalPackDataforseoLabsSerpElementItem
 
@@ -16,6 +16,16 @@
 
 ## Properties
 
+### backlinks\_info?
+
+> `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
+
+#### Defined in
+
+main.ts:107427
+
+***
+
 ### clickstream\_etv?
 
 > `optional` **clickstream\_etv**: `number`
@@ -27,7 +37,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:97608
+main.ts:107424
 
 ***
 
@@ -39,7 +49,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:97569
+main.ts:107385
 
 ***
 
@@ -47,11 +57,11 @@ main.ts:97569
 
 > `optional` **domain**: `string`
 
-website domain
+domain where a link points
 
 #### Defined in
 
-main.ts:97571
+main.ts:107387
 
 ***
 
@@ -66,7 +76,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97599
+main.ts:107415
 
 ***
 
@@ -81,7 +91,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97589
+main.ts:107405
 
 ***
 
@@ -96,7 +106,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97594
+main.ts:107410
 
 ***
 
@@ -108,7 +118,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:97577
+main.ts:107393
 
 ***
 
@@ -120,7 +130,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:97582
+main.ts:107398
 
 ***
 
@@ -132,7 +142,7 @@ phone number
 
 #### Defined in
 
-main.ts:97573
+main.ts:107389
 
 ***
 
@@ -150,7 +160,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -167,7 +177,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -181,7 +191,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:97603
+main.ts:107419
 
 ***
 
@@ -198,7 +208,17 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
+
+***
+
+### rank\_info?
+
+> `optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
+
+#### Defined in
+
+main.ts:107428
 
 ***
 
@@ -211,7 +231,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:97580
+main.ts:107396
 
 ***
 
@@ -223,7 +243,19 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:97584
+main.ts:107400
+
+***
+
+### se\_type?
+
+> `optional` **se\_type**: `string`
+
+search engine type
+
+#### Defined in
+
+main.ts:107426
 
 ***
 
@@ -235,7 +267,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97567
+main.ts:107383
 
 ***
 
@@ -251,7 +283,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -263,7 +295,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:97575
+main.ts:107391
 
 ***
 
@@ -279,4 +311,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

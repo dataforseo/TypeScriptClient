@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixClickstreamDataKeywordsDataPriceData
+[Documentation](../README.md) / AppendixClickstreamDataKeywordsDataPriceData
 
 # Class: AppendixClickstreamDataKeywordsDataPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixClickstreamDataKeywordsDataPriceData`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md)
+##### data?
+
+[`IAppendixClickstreamDataKeywordsDataPriceData`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:221223
+main.ts:236394
 
 ## Properties
 
 ### bulk\_search\_volume?
 
-> `optional` **bulk\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -44,13 +46,13 @@ main.ts:221223
 
 #### Defined in
 
-main.ts:221216
+main.ts:236387
 
 ***
 
 ### dataforseo\_search\_volume?
 
-> `optional` **dataforseo\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **dataforseo\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,13 +60,13 @@ main.ts:221216
 
 #### Defined in
 
-main.ts:221217
+main.ts:236388
 
 ***
 
 ### global\_search\_volume?
 
-> `optional` **global\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **global\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -72,7 +74,7 @@ main.ts:221217
 
 #### Defined in
 
-main.ts:221218
+main.ts:236389
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:221218
 
 #### Defined in
 
-main.ts:221219
+main.ts:236390
 
 ## Methods
 
@@ -96,7 +98,9 @@ main.ts:221219
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -104,7 +108,7 @@ main.ts:221219
 
 #### Defined in
 
-main.ts:221232
+main.ts:236403
 
 ***
 
@@ -114,7 +118,9 @@ main.ts:221232
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -122,7 +128,7 @@ main.ts:221232
 
 #### Defined in
 
-main.ts:221252
+main.ts:236423
 
 ***
 
@@ -132,7 +138,9 @@ main.ts:221252
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -140,4 +148,4 @@ main.ts:221252
 
 #### Defined in
 
-main.ts:221245
+main.ts:236416

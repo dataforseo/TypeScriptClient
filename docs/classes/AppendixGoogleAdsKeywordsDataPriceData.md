@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixGoogleAdsKeywordsDataPriceData
+[Documentation](../README.md) / AppendixGoogleAdsKeywordsDataPriceData
 
 # Class: AppendixGoogleAdsKeywordsDataPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md)
+##### data?
+
+[`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:221284
+main.ts:236455
 
 ## Properties
 
 ### ad\_traffic\_by\_keywords?
 
-> `optional` **ad\_traffic\_by\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **ad\_traffic\_by\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -44,13 +46,13 @@ main.ts:221284
 
 #### Defined in
 
-main.ts:221276
+main.ts:236447
 
 ***
 
 ### keywords\_for\_keywords?
 
-> `optional` **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,13 +60,13 @@ main.ts:221276
 
 #### Defined in
 
-main.ts:221277
+main.ts:236448
 
 ***
 
 ### keywords\_for\_site?
 
-> `optional` **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -72,13 +74,13 @@ main.ts:221277
 
 #### Defined in
 
-main.ts:221278
+main.ts:236449
 
 ***
 
 ### search\_volume?
 
-> `optional` **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -86,7 +88,7 @@ main.ts:221278
 
 #### Defined in
 
-main.ts:221279
+main.ts:236450
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:221279
 
 #### Defined in
 
-main.ts:221280
+main.ts:236451
 
 ## Methods
 
@@ -110,7 +112,9 @@ main.ts:221280
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +122,7 @@ main.ts:221280
 
 #### Defined in
 
-main.ts:221293
+main.ts:236464
 
 ***
 
@@ -128,7 +132,9 @@ main.ts:221293
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -136,7 +142,7 @@ main.ts:221293
 
 #### Defined in
 
-main.ts:221314
+main.ts:236485
 
 ***
 
@@ -146,7 +152,9 @@ main.ts:221314
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -154,4 +162,4 @@ main.ts:221314
 
 #### Defined in
 
-main.ts:221307
+main.ts:236478

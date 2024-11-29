@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
+##### data?
+
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:199757
+main.ts:212107
 
 ## Properties
 
@@ -46,7 +48,7 @@ aggregation of the category
 
 #### Defined in
 
-main.ts:199753
+main.ts:212103
 
 ***
 
@@ -63,7 +65,7 @@ Google My Business general category that best describes the cluster of related c
 
 #### Defined in
 
-main.ts:199751
+main.ts:212101
 
 ***
 
@@ -79,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:199748
+main.ts:212098
 
 ## Methods
 
@@ -89,7 +91,9 @@ main.ts:199748
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -97,7 +101,7 @@ main.ts:199748
 
 #### Defined in
 
-main.ts:199766
+main.ts:212116
 
 ***
 
@@ -107,7 +111,9 @@ main.ts:199766
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +121,7 @@ main.ts:199766
 
 #### Defined in
 
-main.ts:199789
+main.ts:212139
 
 ***
 
@@ -125,7 +131,9 @@ main.ts:199789
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -133,4 +141,4 @@ main.ts:199789
 
 #### Defined in
 
-main.ts:199782
+main.ts:212132

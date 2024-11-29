@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
+[Documentation](../README.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataSocialMediaPinterestLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataSocialMediaPinterestLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:214640
+main.ts:229583
 
 ## Properties
 
@@ -50,7 +52,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:214636
+main.ts:229579
 
 ***
 
@@ -71,7 +73,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:214630
+main.ts:229573
 
 ## Methods
 
@@ -81,7 +83,9 @@ main.ts:214630
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -89,7 +93,7 @@ main.ts:214630
 
 #### Defined in
 
-main.ts:214649
+main.ts:229592
 
 ***
 
@@ -99,7 +103,9 @@ main.ts:214649
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -107,7 +113,7 @@ main.ts:214649
 
 #### Defined in
 
-main.ts:214671
+main.ts:229614
 
 ***
 
@@ -117,7 +123,9 @@ main.ts:214671
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -125,4 +133,4 @@ main.ts:214671
 
 #### Defined in
 
-main.ts:214664
+main.ts:229607

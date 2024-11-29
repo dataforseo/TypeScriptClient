@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonSerpElement
+[Documentation](../README.md) / AmazonSerpElement
 
 # Class: AmazonSerpElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md)
+##### data?
+
+[`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:180485
+main.ts:192573
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:180450
+main.ts:192538
 
 ***
 
@@ -64,7 +66,7 @@ USD
 
 #### Defined in
 
-main.ts:180462
+main.ts:192550
 
 ***
 
@@ -83,7 +85,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:180470
+main.ts:192558
 
 ***
 
@@ -100,7 +102,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:180481
+main.ts:192569
 
 ***
 
@@ -116,7 +118,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:180442
+main.ts:192530
 
 ***
 
@@ -132,7 +134,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:180448
+main.ts:192536
 
 ***
 
@@ -149,7 +151,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:180475
+main.ts:192563
 
 ***
 
@@ -166,7 +168,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:180478
+main.ts:192566
 
 ***
 
@@ -184,7 +186,7 @@ example:
 
 #### Defined in
 
-main.ts:180454
+main.ts:192542
 
 ***
 
@@ -202,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:180458
+main.ts:192546
 
 ***
 
@@ -218,7 +220,7 @@ product rating info
 
 #### Defined in
 
-main.ts:180472
+main.ts:192560
 
 ***
 
@@ -235,7 +237,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:180465
+main.ts:192553
 
 ***
 
@@ -251,7 +253,7 @@ product title
 
 #### Defined in
 
-main.ts:180444
+main.ts:192532
 
 ***
 
@@ -267,7 +269,7 @@ type of element
 
 #### Defined in
 
-main.ts:180438
+main.ts:192526
 
 ***
 
@@ -283,7 +285,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:180446
+main.ts:192534
 
 ***
 
@@ -299,7 +301,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:180440
+main.ts:192528
 
 ## Methods
 
@@ -309,7 +311,9 @@ main.ts:180440
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -317,7 +321,7 @@ main.ts:180440
 
 #### Defined in
 
-main.ts:180494
+main.ts:192582
 
 ***
 
@@ -327,7 +331,9 @@ main.ts:180494
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -335,7 +341,7 @@ main.ts:180494
 
 #### Defined in
 
-main.ts:180530
+main.ts:192618
 
 ***
 
@@ -345,7 +351,9 @@ main.ts:180530
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -353,4 +361,4 @@ main.ts:180530
 
 #### Defined in
 
-main.ts:180523
+main.ts:192611

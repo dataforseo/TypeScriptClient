@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AiOverviewReference
+[Documentation](../README.md) / AiOverviewReference
 
 # Class: AiOverviewReference
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAiOverviewReference`](../interfaces/IAiOverviewReference.md)
+##### data?
+
+[`IAiOverviewReference`](../interfaces/IAiOverviewReference.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:29212
+main.ts:30771
 
 ## Properties
 
@@ -46,7 +48,7 @@ website domain
 
 #### Defined in
 
-main.ts:29202
+main.ts:30761
 
 ***
 
@@ -62,7 +64,7 @@ reference source name or title
 
 #### Defined in
 
-main.ts:29200
+main.ts:30759
 
 ***
 
@@ -78,7 +80,7 @@ row content
 
 #### Defined in
 
-main.ts:29208
+main.ts:30767
 
 ***
 
@@ -94,7 +96,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29206
+main.ts:30765
 
 ***
 
@@ -110,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:29198
+main.ts:30757
 
 ***
 
@@ -126,7 +128,7 @@ URL
 
 #### Defined in
 
-main.ts:29204
+main.ts:30763
 
 ## Methods
 
@@ -136,7 +138,9 @@ main.ts:29204
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -144,7 +148,7 @@ main.ts:29204
 
 #### Defined in
 
-main.ts:29221
+main.ts:30780
 
 ***
 
@@ -154,7 +158,9 @@ main.ts:29221
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +168,7 @@ main.ts:29221
 
 #### Defined in
 
-main.ts:29243
+main.ts:30802
 
 ***
 
@@ -172,7 +178,9 @@ main.ts:29243
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -180,4 +188,4 @@ main.ts:29243
 
 #### Defined in
 
-main.ts:29236
+main.ts:30795

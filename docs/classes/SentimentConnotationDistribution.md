@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SentimentConnotationDistribution
+[Documentation](../README.md) / SentimentConnotationDistribution
 
 # Class: SentimentConnotationDistribution
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md)
+##### data?
+
+[`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:167613
+main.ts:179202
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:167613
 
 #### Defined in
 
-main.ts:167604
+main.ts:179193
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:167604
 
 #### Defined in
 
-main.ts:167609
+main.ts:179198
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:167609
 
 #### Defined in
 
-main.ts:167605
+main.ts:179194
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:167605
 
 #### Defined in
 
-main.ts:167606
+main.ts:179195
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:167606
 
 #### Defined in
 
-main.ts:167607
+main.ts:179196
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:167607
 
 #### Defined in
 
-main.ts:167608
+main.ts:179197
 
 ## Methods
 
@@ -124,7 +126,9 @@ main.ts:167608
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +136,7 @@ main.ts:167608
 
 #### Defined in
 
-main.ts:167622
+main.ts:179211
 
 ***
 
@@ -142,7 +146,9 @@ main.ts:167622
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +156,7 @@ main.ts:167622
 
 #### Defined in
 
-main.ts:167644
+main.ts:179233
 
 ***
 
@@ -160,7 +166,9 @@ main.ts:167644
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,4 +176,4 @@ main.ts:167644
 
 #### Defined in
 
-main.ts:167637
+main.ts:179226

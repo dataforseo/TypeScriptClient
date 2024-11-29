@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleLanguagesResultInfo
+[Documentation](../README.md) / AppDataAppleLanguagesResultInfo
 
 # Class: AppDataAppleLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md)
+##### data?
+
+[`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:192706
+main.ts:205042
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:192702
+main.ts:205038
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:192700
+main.ts:205036
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:192700
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:192700
 
 #### Defined in
 
-main.ts:192715
+main.ts:205051
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:192715
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:192715
 
 #### Defined in
 
-main.ts:192733
+main.ts:205069
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:192733
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:192733
 
 #### Defined in
 
-main.ts:192726
+main.ts:205062

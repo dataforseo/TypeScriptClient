@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleReviewsSerpElementItem
+[Documentation](../README.md) / GoogleReviewsSerpElementItem
 
 # Class: GoogleReviewsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md)
+##### data?
+
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:30879
+main.ts:32438
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:30879
 
 #### Defined in
 
-main.ts:20367
+main.ts:21045
 
 ***
 
@@ -68,7 +70,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:30871
+main.ts:32430
 
 ***
 
@@ -84,7 +86,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:30869
+main.ts:32428
 
 ***
 
@@ -100,7 +102,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:30867
+main.ts:32426
 
 ***
 
@@ -122,7 +124,7 @@ left, right
 
 #### Defined in
 
-main.ts:20363
+main.ts:21041
 
 ***
 
@@ -143,7 +145,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20359
+main.ts:21037
 
 ***
 
@@ -165,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20356
+main.ts:21034
 
 ***
 
@@ -182,7 +184,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:30865
+main.ts:32424
 
 ***
 
@@ -200,7 +202,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30875
+main.ts:32434
 
 ***
 
@@ -216,7 +218,7 @@ the number of reviews
 
 #### Defined in
 
-main.ts:30862
+main.ts:32421
 
 ***
 
@@ -236,7 +238,7 @@ type of element
 
 #### Defined in
 
-main.ts:20352
+main.ts:21030
 
 ***
 
@@ -256,7 +258,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20365
+main.ts:21043
 
 ## Methods
 
@@ -266,7 +268,9 @@ main.ts:20365
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -278,7 +282,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:30884
+main.ts:32443
 
 ***
 
@@ -288,7 +292,9 @@ main.ts:30884
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -300,7 +306,7 @@ main.ts:30884
 
 #### Defined in
 
-main.ts:30907
+main.ts:32466
 
 ***
 
@@ -310,7 +316,9 @@ main.ts:30907
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -322,4 +330,4 @@ main.ts:30907
 
 #### Defined in
 
-main.ts:30900
+main.ts:32459

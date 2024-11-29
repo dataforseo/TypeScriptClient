@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotSearchTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:211037
+main.ts:225966
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:211022
+main.ts:225951
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:211027
+main.ts:225956
 
 ***
 
@@ -83,7 +85,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:211033
+main.ts:225962
 
 ***
 
@@ -100,7 +102,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:211030
+main.ts:225959
 
 ***
 
@@ -116,7 +118,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:211017
+main.ts:225946
 
 ***
 
@@ -132,7 +134,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:211019
+main.ts:225948
 
 ## Methods
 
@@ -142,7 +144,9 @@ main.ts:211019
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +154,7 @@ main.ts:211019
 
 #### Defined in
 
-main.ts:211046
+main.ts:225975
 
 ***
 
@@ -160,7 +164,9 @@ main.ts:211046
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -168,7 +174,7 @@ main.ts:211046
 
 #### Defined in
 
-main.ts:211072
+main.ts:226001
 
 ***
 
@@ -178,7 +184,9 @@ main.ts:211072
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -186,4 +194,4 @@ main.ts:211072
 
 #### Defined in
 
-main.ts:211065
+main.ts:225994

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationParaphraseLiveResultInfo
+[Documentation](../README.md) / IContentGenerationParaphraseLiveResultInfo
 
 # Interface: IContentGenerationParaphraseLiveResultInfo
 
@@ -20,7 +20,7 @@ paraphrased version of the given text
 
 #### Defined in
 
-main.ts:170962
+main.ts:182551
 
 ***
 
@@ -32,7 +32,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:170956
+main.ts:182545
 
 ***
 
@@ -44,7 +44,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:170960
+main.ts:182549
 
 ***
 
@@ -56,4 +56,4 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:170958
+main.ts:182547

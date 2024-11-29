@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:210086
+main.ts:225008
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:210076
+main.ts:224998
 
 ***
 
@@ -64,9 +66,9 @@ main.ts:210076
 keyword
 required field
 the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”; 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -76,6 +78,7 @@ cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
 spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -83,7 +86,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:210029
+main.ts:224951
 
 ***
 
@@ -104,7 +107,7 @@ en
 
 #### Defined in
 
-main.ts:210067
+main.ts:224989
 
 ***
 
@@ -125,7 +128,7 @@ English
 
 #### Defined in
 
-main.ts:210060
+main.ts:224982
 
 ***
 
@@ -146,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:210043
+main.ts:224965
 
 ***
 
@@ -170,7 +173,7 @@ example:
 
 #### Defined in
 
-main.ts:210053
+main.ts:224975
 
 ***
 
@@ -191,7 +194,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:210036
+main.ts:224958
 
 ***
 
@@ -211,7 +214,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:210082
+main.ts:225004
 
 ## Methods
 
@@ -221,7 +224,9 @@ main.ts:210082
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -229,7 +234,7 @@ main.ts:210082
 
 #### Defined in
 
-main.ts:210095
+main.ts:225017
 
 ***
 
@@ -239,7 +244,9 @@ main.ts:210095
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -247,7 +254,7 @@ main.ts:210095
 
 #### Defined in
 
-main.ts:210119
+main.ts:225041
 
 ***
 
@@ -257,7 +264,9 @@ main.ts:210119
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -265,4 +274,4 @@ main.ts:210119
 
 #### Defined in
 
-main.ts:210112
+main.ts:225034

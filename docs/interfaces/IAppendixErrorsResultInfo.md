@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixErrorsResultInfo
+[Documentation](../README.md) / IAppendixErrorsResultInfo
 
 # Interface: IAppendixErrorsResultInfo
 
@@ -20,7 +20,7 @@ code
 
 #### Defined in
 
-main.ts:223890
+main.ts:239077
 
 ***
 
@@ -32,4 +32,4 @@ message
 
 #### Defined in
 
-main.ts:223892
+main.ts:239079

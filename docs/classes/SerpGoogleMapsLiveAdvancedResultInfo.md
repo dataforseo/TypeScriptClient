@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleMapsLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleMapsLiveAdvancedResultInfo
 
 # Class: SerpGoogleMapsLiveAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleMapsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleMapsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:40800
+main.ts:42627
 
 ## Properties
 
@@ -48,7 +50,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Defined in
 
-main.ts:40777
+main.ts:42602
 
 ***
 
@@ -67,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:40782
+main.ts:42607
 
 ***
 
@@ -86,7 +88,7 @@ maps_search, maps_paid_item
 
 #### Defined in
 
-main.ts:40790
+main.ts:42617
 
 ***
 
@@ -94,7 +96,7 @@ main.ts:40790
 
 > `optional` **items**: [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Implementation of
 
@@ -102,7 +104,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:40796
+main.ts:42623
 
 ***
 
@@ -118,7 +120,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:40794
+main.ts:42621
 
 ***
 
@@ -127,7 +129,7 @@ main.ts:40794
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -135,7 +137,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:40765
+main.ts:42590
 
 ***
 
@@ -151,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:40773
+main.ts:42598
 
 ***
 
@@ -167,7 +169,23 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:40771
+main.ts:42596
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleMapsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleMapsLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleMapsLiveAdvancedResultInfo.md#refinement_chips)
+
+#### Defined in
+
+main.ts:42612
 
 ***
 
@@ -183,7 +201,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:40769
+main.ts:42594
 
 ***
 
@@ -199,7 +217,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:40792
+main.ts:42619
 
 ***
 
@@ -216,7 +234,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:40785
+main.ts:42610
 
 ***
 
@@ -232,7 +250,7 @@ type of element
 
 #### Defined in
 
-main.ts:40767
+main.ts:42592
 
 ## Methods
 
@@ -242,7 +260,9 @@ main.ts:40767
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -250,7 +270,7 @@ main.ts:40767
 
 #### Defined in
 
-main.ts:40809
+main.ts:42636
 
 ***
 
@@ -260,7 +280,9 @@ main.ts:40809
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -268,7 +290,7 @@ main.ts:40809
 
 #### Defined in
 
-main.ts:40845
+main.ts:42673
 
 ***
 
@@ -278,7 +300,9 @@ main.ts:40845
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -286,4 +310,4 @@ main.ts:40845
 
 #### Defined in
 
-main.ts:40838
+main.ts:42666

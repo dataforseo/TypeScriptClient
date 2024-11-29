@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveRequestInfo
 
@@ -23,7 +23,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:104624
+main.ts:114262
 
 ***
 
@@ -44,7 +44,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:104670
+main.ts:114308
 
 ***
 
@@ -61,7 +61,7 @@ en
 
 #### Defined in
 
-main.ts:104654
+main.ts:114292
 
 ***
 
@@ -78,7 +78,7 @@ English
 
 #### Defined in
 
-main.ts:104647
+main.ts:114285
 
 ***
 
@@ -93,7 +93,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:104659
+main.ts:114297
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:104640
+main.ts:114278
 
 ***
 
@@ -129,7 +129,7 @@ United States
 
 #### Defined in
 
-main.ts:104632
+main.ts:114270
 
 ***
 
@@ -144,7 +144,7 @@ if you specify the 10 value, the first ten product competitors in the results ar
 
 #### Defined in
 
-main.ts:104691
+main.ts:114329
 
 ***
 
@@ -170,7 +170,7 @@ default rule:
 
 #### Defined in
 
-main.ts:104686
+main.ts:114324
 
 ***
 
@@ -186,4 +186,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:104697
+main.ts:114335

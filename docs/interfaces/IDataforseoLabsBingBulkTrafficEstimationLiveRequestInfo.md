@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
@@ -27,7 +27,7 @@ default value:
 
 #### Defined in
 
-main.ts:106101
+main.ts:115739
 
 ***
 
@@ -44,7 +44,7 @@ en
 
 #### Defined in
 
-main.ts:106092
+main.ts:115730
 
 ***
 
@@ -61,7 +61,7 @@ English
 
 #### Defined in
 
-main.ts:106085
+main.ts:115723
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:106078
+main.ts:115716
 
 ***
 
@@ -97,7 +97,7 @@ United States
 
 #### Defined in
 
-main.ts:106070
+main.ts:115708
 
 ***
 
@@ -113,7 +113,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106107
+main.ts:115745
 
 ***
 
@@ -130,4 +130,4 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-main.ts:106062
+main.ts:115700

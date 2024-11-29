@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleJobsTaskGetAdvancedItem
+[Documentation](../README.md) / SerpGoogleJobsTaskGetAdvancedItem
 
 # Class: SerpGoogleJobsTaskGetAdvancedItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleJobsTaskGetAdvancedItem`](../interfaces/ISerpGoogleJobsTaskGetAdvancedItem.md)
+##### data?
+
+[`ISerpGoogleJobsTaskGetAdvancedItem`](../interfaces/ISerpGoogleJobsTaskGetAdvancedItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:50846
+main.ts:54543
 
 ## Properties
 
@@ -46,7 +48,7 @@ employment contract type
 
 #### Defined in
 
-main.ts:50831
+main.ts:54528
 
 ***
 
@@ -62,7 +64,7 @@ URL to the image used in the job posting
 
 #### Defined in
 
-main.ts:50820
+main.ts:54517
 
 ***
 
@@ -78,7 +80,7 @@ name of the employer
 
 #### Defined in
 
-main.ts:50816
+main.ts:54513
 
 ***
 
@@ -94,7 +96,7 @@ URL to the employer’s website
 
 #### Defined in
 
-main.ts:50818
+main.ts:54515
 
 ***
 
@@ -110,7 +112,7 @@ ID of the job on Google Jobs
 
 #### Defined in
 
-main.ts:50812
+main.ts:54509
 
 ***
 
@@ -126,7 +128,7 @@ location for which the job vacancy is posted
 
 #### Defined in
 
-main.ts:50822
+main.ts:54519
 
 ***
 
@@ -144,7 +146,7 @@ left, right
 
 #### Defined in
 
-main.ts:50808
+main.ts:54505
 
 ***
 
@@ -161,7 +163,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:50804
+main.ts:54501
 
 ***
 
@@ -179,7 +181,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:50801
+main.ts:54498
 
 ***
 
@@ -197,7 +199,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:50842
+main.ts:54539
 
 ***
 
@@ -214,7 +216,7 @@ if the salary isn’t indicated, this field will equal null
 
 #### Defined in
 
-main.ts:50829
+main.ts:54526
 
 ***
 
@@ -230,7 +232,7 @@ original source of the job vacancy
 
 #### Defined in
 
-main.ts:50824
+main.ts:54521
 
 ***
 
@@ -246,7 +248,7 @@ URL to the original source of the job vacancy
 
 #### Defined in
 
-main.ts:50826
+main.ts:54523
 
 ***
 
@@ -262,7 +264,7 @@ indicates how long ago the job vacancy was posted
 
 #### Defined in
 
-main.ts:50838
+main.ts:54535
 
 ***
 
@@ -281,7 +283,7 @@ example:
 
 #### Defined in
 
-main.ts:50836
+main.ts:54533
 
 ***
 
@@ -289,7 +291,7 @@ main.ts:50836
 
 > `optional` **title**: `string`
 
-title of the job
+title of the element
 
 #### Implementation of
 
@@ -297,7 +299,7 @@ title of the job
 
 #### Defined in
 
-main.ts:50814
+main.ts:54511
 
 ***
 
@@ -313,7 +315,7 @@ type of element
 
 #### Defined in
 
-main.ts:50797
+main.ts:54494
 
 ***
 
@@ -329,7 +331,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:50810
+main.ts:54507
 
 ## Methods
 
@@ -339,7 +341,9 @@ main.ts:50810
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -347,7 +351,7 @@ main.ts:50810
 
 #### Defined in
 
-main.ts:50855
+main.ts:54552
 
 ***
 
@@ -357,7 +361,9 @@ main.ts:50855
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -365,7 +371,7 @@ main.ts:50855
 
 #### Defined in
 
-main.ts:50889
+main.ts:54586
 
 ***
 
@@ -375,7 +381,9 @@ main.ts:50889
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -383,4 +391,4 @@ main.ts:50889
 
 #### Defined in
 
-main.ts:50882
+main.ts:54579

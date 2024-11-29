@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AboutThisResultElement
+[Documentation](../README.md) / AboutThisResultElement
 
 # Class: AboutThisResultElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md)
+##### data?
+
+[`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22215
+main.ts:23113
 
 ## Properties
 
@@ -46,7 +48,7 @@ the language of the result
 
 #### Defined in
 
-main.ts:22205
+main.ts:23103
 
 ***
 
@@ -62,7 +64,7 @@ location for which the result is relevant
 
 #### Defined in
 
-main.ts:22207
+main.ts:23105
 
 ***
 
@@ -78,7 +80,7 @@ related search terms that appear in the result
 
 #### Defined in
 
-main.ts:22211
+main.ts:23109
 
 ***
 
@@ -94,7 +96,7 @@ matching search terms that appear in the result
 
 #### Defined in
 
-main.ts:22209
+main.ts:23107
 
 ***
 
@@ -110,7 +112,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:22198
+main.ts:23096
 
 ***
 
@@ -127,7 +129,7 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-main.ts:22201
+main.ts:23099
 
 ***
 
@@ -143,7 +145,7 @@ URL to full information from the 'source'
 
 #### Defined in
 
-main.ts:22203
+main.ts:23101
 
 ***
 
@@ -159,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:22194
+main.ts:23092
 
 ***
 
@@ -175,7 +177,7 @@ result’s URL
 
 #### Defined in
 
-main.ts:22196
+main.ts:23094
 
 ## Methods
 
@@ -185,7 +187,9 @@ main.ts:22196
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -193,7 +197,7 @@ main.ts:22196
 
 #### Defined in
 
-main.ts:22224
+main.ts:23122
 
 ***
 
@@ -203,7 +207,9 @@ main.ts:22224
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -211,7 +217,7 @@ main.ts:22224
 
 #### Defined in
 
-main.ts:22257
+main.ts:23155
 
 ***
 
@@ -221,7 +227,9 @@ main.ts:22257
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -229,4 +237,4 @@ main.ts:22257
 
 #### Defined in
 
-main.ts:22250
+main.ts:23148

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsSubdomainsLiveItem
+[Documentation](../README.md) / DataforseoLabsSubdomainsLiveItem
 
 # Class: DataforseoLabsSubdomainsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:94370
+main.ts:104088
 
 ## Properties
 
@@ -50,7 +52,7 @@ ranking data relevant to subdomain
 
 #### Defined in
 
-main.ts:94366
+main.ts:104084
 
 ***
 
@@ -66,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94362
+main.ts:104080
 
 ***
 
@@ -82,7 +84,7 @@ returned subdomain
 
 #### Defined in
 
-main.ts:94364
+main.ts:104082
 
 ## Methods
 
@@ -92,7 +94,9 @@ main.ts:94364
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +104,7 @@ main.ts:94364
 
 #### Defined in
 
-main.ts:94379
+main.ts:104097
 
 ***
 
@@ -110,7 +114,9 @@ main.ts:94379
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -118,7 +124,7 @@ main.ts:94379
 
 #### Defined in
 
-main.ts:94404
+main.ts:104122
 
 ***
 
@@ -128,7 +134,9 @@ main.ts:94404
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -136,4 +144,4 @@ main.ts:94404
 
 #### Defined in
 
-main.ts:94397
+main.ts:104115

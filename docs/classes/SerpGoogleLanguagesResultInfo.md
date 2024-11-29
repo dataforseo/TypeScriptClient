@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLanguagesResultInfo
+[Documentation](../README.md) / SerpGoogleLanguagesResultInfo
 
 # Class: SerpGoogleLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md)
+##### data?
+
+[`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:26106
+main.ts:27171
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:26102
+main.ts:27167
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:26100
+main.ts:27165
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:26100
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:26100
 
 #### Defined in
 
-main.ts:26115
+main.ts:27180
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:26115
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:26115
 
 #### Defined in
 
-main.ts:26133
+main.ts:27198
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:26133
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:26133
 
 #### Defined in
 
-main.ts:26126
+main.ts:27191

@@ -1,14 +1,10 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonProductsTaskPostRequestInfo
+[Documentation](../README.md) / MerchantAmazonProductsTaskPostRequestInfo
 
 # Class: MerchantAmazonProductsTaskPostRequestInfo
-
-## Extends
-
-- [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)
 
 ## Implements
 
@@ -26,19 +22,17 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md)
+##### data?
+
+[`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
 
-#### Overrides
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`constructor`](MerchantTaskRequestInfo.md#constructors)
-
 #### Defined in
 
-main.ts:179928
+main.ts:191822
 
 ## Properties
 
@@ -57,7 +51,7 @@ specify one of the following amazon departments for extracting product listings:
 
 #### Defined in
 
-main.ts:179924
+main.ts:191748
 
 ***
 
@@ -67,7 +61,7 @@ main.ts:179924
 
 parsing depth
 optional field
-number of results to be retrieved from the Google Shopping results page
+number of results to be retrieved from the Amazon results page
 default value: 100
 max value: 700
 Note: your account will be billed per each results page containing up to 100 results;
@@ -78,13 +72,9 @@ if the specified depth is higher than the number of results in the response, the
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`depth`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#depth)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`depth`](MerchantTaskRequestInfo.md#depth)
-
 #### Defined in
 
-main.ts:152909
+main.ts:191736
 
 ***
 
@@ -94,22 +84,18 @@ main.ts:152909
 
 keyword
 required field
-you can also specify UPC/EAN in this field and we will return the results Google Shopping provides for the specified barcode number;
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
+you can specify up to 700 characters in this field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`keyword`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#keyword)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`keyword`](MerchantTaskRequestInfo.md#keyword)
-
 #### Defined in
 
-main.ts:152842
+main.ts:191667
 
 ***
 
@@ -117,24 +103,20 @@ main.ts:152842
 
 > `optional` **language\_code**: `string`
 
-language code
+search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
-you can receive the list of available Google Shopping languages with their language_code by making a separate request to the https://api.dataforseo.com/v3/merchant/google/languages
+you can receive the list of available languages with their language_code parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
-en
+en_GB
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`language_code`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#language_code)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`language_code`](MerchantTaskRequestInfo.md#language_code)
-
 #### Defined in
 
-main.ts:152893
+main.ts:191720
 
 ***
 
@@ -142,24 +124,21 @@ main.ts:152893
 
 > `optional` **language\_name**: `string`
 
-full name of the language
+full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
-you can receive the list of available Google Shopping languages with their language_name by making a separate request to the https://api.dataforseo.com/v3/merchant/google/languages
+you can receive the list of available languages with their language_name parameters by making a separate request to the
+https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
-English
+English (United Kingdom)
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`language_name`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#language_name)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`language_name`](MerchantTaskRequestInfo.md#language_name)
-
 #### Defined in
 
-main.ts:152886
+main.ts:191713
 
 ***
 
@@ -167,24 +146,21 @@ main.ts:152886
 
 > `optional` **location\_code**: `number`
 
-location code
+search engine location code
 required field if you don’t specify location_name or location_coordinate
 if you use this field, you don’t need to specify location_name or location_coordinate
-you can receive the list of available Google Shopping locations with their location_code by making a separate request to the https://api.dataforseo.com/v3/merchant/google/locations
+you can receive the list of available locations with their location_code parameters by making a separate request to the
+https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
-2840
+9045969
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`location_code`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_code)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_code`](MerchantTaskRequestInfo.md#location_code)
-
 #### Defined in
 
-main.ts:152870
+main.ts:191696
 
 ***
 
@@ -205,13 +181,9 @@ example:
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_coordinate)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_coordinate`](MerchantTaskRequestInfo.md#location_coordinate)
-
 #### Defined in
 
-main.ts:152879
+main.ts:191705
 
 ***
 
@@ -219,24 +191,20 @@ main.ts:152879
 
 > `optional` **location\_name**: `string`
 
-full name of the location
+full name of search engine location
 required field if you don’t specify location_code or location_coordinate
 if you use this field, you don’t need to specify location_code or location_coordinate
-you can receive the list of available Google Shopping locations with their location_name by making a separate request to the https://api.dataforseo.com/v3/merchant/google/locations
+you can receive the list of available locations with their location_name parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
-London,England,United Kingdom
+HA1,England,United Kingdom
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`location_name`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#location_name)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_name`](MerchantTaskRequestInfo.md#location_name)
-
 #### Defined in
 
-main.ts:152863
+main.ts:191688
 
 ***
 
@@ -255,13 +223,9 @@ learn more at our help center
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`max_crawl_pages`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#max_crawl_pages)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`max_crawl_pages`](MerchantTaskRequestInfo.md#max_crawl_pages)
-
 #### Defined in
 
-main.ts:152916
+main.ts:191743
 
 ***
 
@@ -276,20 +240,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#pingback_url)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`pingback_url`](MerchantTaskRequestInfo.md#pingback_url)
-
 #### Defined in
 
-main.ts:152978
+main.ts:191818
 
 ***
 
@@ -307,13 +268,9 @@ advanced, html
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`postback_data`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#postback_data)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`postback_data`](MerchantTaskRequestInfo.md#postback_data)
-
 #### Defined in
 
-main.ts:152968
+main.ts:191807
 
 ***
 
@@ -328,20 +285,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#postback_url)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`postback_url`](MerchantTaskRequestInfo.md#postback_url)
-
 #### Defined in
 
-main.ts:152962
+main.ts:191801
 
 ***
 
@@ -351,21 +305,18 @@ main.ts:152962
 
 maximum product price
 optional field
-maximum price of the returned products listed on Google Shopping for the specified query
+maximum price of the returned products listed on Amazon for the specified query
 example:
 100
+Note: if you specify price_max, the search_param parameter will be ignored
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`price_max`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#price_max)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`price_max`](MerchantTaskRequestInfo.md#price_max)
-
 #### Defined in
 
-main.ts:152939
+main.ts:191776
 
 ***
 
@@ -375,21 +326,18 @@ main.ts:152939
 
 minimum product price
 optional field
-minimum price of the returned products listed on Google Shopping for the specified query
+minimum price of the returned products listed on Amazon for the specified query
 example:
 5
+Note: if you specify price_min, the search_param parameter will be ignored
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`price_min`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#price_min)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`price_min`](MerchantTaskRequestInfo.md#price_min)
-
 #### Defined in
 
-main.ts:152933
+main.ts:191769
 
 ***
 
@@ -409,13 +357,9 @@ The cost can be calculated on the Pricing page.
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`priority`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#priority)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`priority`](MerchantTaskRequestInfo.md#priority)
-
 #### Defined in
 
-main.ts:152856
+main.ts:191681
 
 ***
 
@@ -428,19 +372,15 @@ optional field
 we choose the relevant search engine domain automatically according to the location and language you specify
 however, you can set a custom search engine domain in this field
 example:
-google.co.uk, google.com.au, google.de, etc.
+amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`se_domain`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#se_domain)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`se_domain`](MerchantTaskRequestInfo.md#se_domain)
-
 #### Defined in
 
-main.ts:152900
+main.ts:191727
 
 ***
 
@@ -450,26 +390,25 @@ main.ts:152900
 
 additional parameters of the search query
 optional field
-you can use the following search URL parameters for customizing the search
+you can use the following Amazon search URL parameters for customizing the search
 example:
-&tbs=ppr_min:45 – search for products that cost more than 45 USD;
-&tbs=ppr_max:50 – search for products that cost less than 50 USD;
-&tbs=p_ord:p – sort by ascending price;
-&tbs=p_ord:pd – sort by descending price;
-&tbs=p_ord:rv – sort by review score;
-&tbs=ppr_max:50,p_ord:rv – sort by review score with the maximum price of 50 USD
+&low-price=52 – search for products that cost more than 52 USD;
+&high-price=45 – search for products that cost less than 45 USD;
+&sort=relevancerank – sort results by relevance;
+&sort=featured-rank – sort results by featured products;
+&sort=price-asc-rank – sort by ascending price;
+&sort=price-desc-rank – sort by descending price;
+&sort=review-rank – sort by the average customer reviews value;
+&sort=date-desc-rank – sort by the newest arrival
+Note that search_param values will be ignored if any of the following parameters is used: price_min, price_max, sort_by
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`search_param`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#search_param)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`search_param`](MerchantTaskRequestInfo.md#search_param)
-
 #### Defined in
 
-main.ts:152927
+main.ts:191762
 
 ***
 
@@ -480,21 +419,18 @@ main.ts:152927
 results sorting rules
 optional field
 the following sorting rules are supported:
-review_score, price_low_to_high, price_high_to_low
+relevance, price_low_to_high, price_high_to_low, featured, avg_customer_review, newest_arrival
 example:
-sort_by:"review_score"
+sort_by:"relevance"
+Note: if you specify sort_by, the search_param parameter will be ignored
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#sort_by)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`sort_by`](MerchantTaskRequestInfo.md#sort_by)
-
 #### Defined in
 
-main.ts:152946
+main.ts:191784
 
 ***
 
@@ -512,13 +448,9 @@ you will find the specified tag value in the data object of the response
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`tag`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#tag)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`tag`](MerchantTaskRequestInfo.md#tag)
-
 #### Defined in
 
-main.ts:152952
+main.ts:191790
 
 ***
 
@@ -530,19 +462,15 @@ direct URL of the search query
 optional field
 you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
 example:
-https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw%3A1%2Cmr%3A1%2Cprice%3A1%2Cppr_min%3A5&hl=en&gl=US&gws_rd=cr&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc
+https://www.amazon.com/s/?field-keywords=shoes&language=en_US
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`url`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#url)
 
-#### Inherited from
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`url`](MerchantTaskRequestInfo.md#url)
-
 #### Defined in
 
-main.ts:152848
+main.ts:191673
 
 ## Methods
 
@@ -552,19 +480,17 @@ main.ts:152848
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
 
-#### Overrides
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`init`](MerchantTaskRequestInfo.md#init)
-
 #### Defined in
 
-main.ts:179932
+main.ts:191831
 
 ***
 
@@ -574,19 +500,17 @@ main.ts:179932
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
 
-#### Overrides
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`toJSON`](MerchantTaskRequestInfo.md#tojson)
-
 #### Defined in
 
-main.ts:179950
+main.ts:191867
 
 ***
 
@@ -596,16 +520,14 @@ main.ts:179950
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
 
-#### Overrides
-
-[`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`fromJS`](MerchantTaskRequestInfo.md#fromjs)
-
 #### Defined in
 
-main.ts:179943
+main.ts:191860

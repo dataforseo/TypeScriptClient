@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleJobsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleJobsTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleJobsTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:51095
+main.ts:54796
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:51100
+main.ts:54801
 
 ***
 
@@ -51,7 +51,7 @@ google_jobs_item
 
 #### Defined in
 
-main.ts:51108
+main.ts:54811
 
 ***
 
@@ -59,11 +59,11 @@ main.ts:51108
 
 > `optional` **items**: [`SerpGoogleJobsTaskGetAdvancedItem`](../classes/SerpGoogleJobsTaskGetAdvancedItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:51114
+main.ts:54817
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:51112
+main.ts:54815
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:51084
+main.ts:54785
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:51092
+main.ts:54793
 
 ***
 
@@ -112,7 +112,19 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:51090
+main.ts:54791
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:54806
 
 ***
 
@@ -124,7 +136,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:51088
+main.ts:54789
 
 ***
 
@@ -136,7 +148,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:51110
+main.ts:54813
 
 ***
 
@@ -149,7 +161,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:51103
+main.ts:54804
 
 ***
 
@@ -161,4 +173,4 @@ type of element
 
 #### Defined in
 
-main.ts:51086
+main.ts:54787

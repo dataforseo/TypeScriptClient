@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MicrodataFieldsInfo
+[Documentation](../README.md) / MicrodataFieldsInfo
 
 # Class: MicrodataFieldsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMicrodataFieldsInfo`](../interfaces/IMicrodataFieldsInfo.md)
+##### data?
+
+[`IMicrodataFieldsInfo`](../interfaces/IMicrodataFieldsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:160022
+main.ts:171657
 
 ## Properties
 
@@ -47,7 +49,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:160018
+main.ts:171653
 
 ***
 
@@ -64,13 +66,13 @@ name of the data field
 
 #### Defined in
 
-main.ts:160006
+main.ts:171641
 
 ***
 
 ### test\_results?
 
-> `optional` **test\_results**: `any`
+> `optional` **test\_results**: [`Test_results`](Test_results.md)
 
 microdata validation test results
 sub-type microdata test results that contain detected errors and related messages
@@ -81,13 +83,13 @@ sub-type microdata test results that contain detected errors and related message
 
 #### Defined in
 
-main.ts:160015
+main.ts:171650
 
 ***
 
 ### types?
 
-> `optional` **types**: `any`
+> `optional` **types**: `string`[]
 
 parent microdata types
 for a full list of available types, please visit schema.org
@@ -98,7 +100,7 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:160009
+main.ts:171644
 
 ***
 
@@ -115,7 +117,7 @@ microdata value specified on a target web page
 
 #### Defined in
 
-main.ts:160012
+main.ts:171647
 
 ## Methods
 
@@ -125,7 +127,9 @@ main.ts:160012
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -133,7 +137,7 @@ main.ts:160012
 
 #### Defined in
 
-main.ts:160031
+main.ts:171666
 
 ***
 
@@ -143,7 +147,9 @@ main.ts:160031
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -151,7 +157,7 @@ main.ts:160031
 
 #### Defined in
 
-main.ts:160056
+main.ts:171695
 
 ***
 
@@ -161,7 +167,9 @@ main.ts:160056
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -169,4 +177,4 @@ main.ts:160056
 
 #### Defined in
 
-main.ts:160049
+main.ts:171688

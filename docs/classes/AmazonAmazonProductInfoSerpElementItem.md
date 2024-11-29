@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonAmazonProductInfoSerpElementItem
+[Documentation](../README.md) / AmazonAmazonProductInfoSerpElementItem
 
 # Class: AmazonAmazonProductInfoSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md)
+##### data?
+
+[`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:182360
+main.ts:194483
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:182360
 
 #### Defined in
 
-main.ts:22320
+main.ts:23218
 
 ***
 
@@ -68,7 +70,7 @@ product brand name
 
 #### Defined in
 
-main.ts:182316
+main.ts:194434
 
 ***
 
@@ -84,7 +86,7 @@ contains related product categories
 
 #### Defined in
 
-main.ts:182345
+main.ts:194463
 
 ***
 
@@ -102,7 +104,7 @@ USD
 
 #### Defined in
 
-main.ts:182334
+main.ts:194452
 
 ***
 
@@ -118,7 +120,7 @@ ASIN of the product received in a POST array
 
 #### Defined in
 
-main.ts:182318
+main.ts:194436
 
 ***
 
@@ -134,7 +136,7 @@ contains description of the product
 
 #### Defined in
 
-main.ts:182353
+main.ts:194471
 
 ***
 
@@ -150,7 +152,7 @@ product specs and other details
 
 #### Defined in
 
-main.ts:182312
+main.ts:194430
 
 ***
 
@@ -166,7 +168,7 @@ the URL of the product image
 
 #### Defined in
 
-main.ts:182314
+main.ts:194432
 
 ***
 
@@ -183,7 +185,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:182337
+main.ts:194455
 
 ***
 
@@ -200,7 +202,7 @@ if the value is true, the product can be ordered
 
 #### Defined in
 
-main.ts:182356
+main.ts:194474
 
 ***
 
@@ -216,7 +218,7 @@ indicates whether the newer model of the product is available
 
 #### Defined in
 
-main.ts:182341
+main.ts:194459
 
 ***
 
@@ -232,7 +234,7 @@ information about the newer model of the product
 
 #### Defined in
 
-main.ts:182343
+main.ts:194461
 
 ***
 
@@ -248,7 +250,7 @@ parent ASIN of the product
 
 #### Defined in
 
-main.ts:182320
+main.ts:194438
 
 ***
 
@@ -266,7 +268,7 @@ left, right
 
 #### Defined in
 
-main.ts:182308
+main.ts:194426
 
 ***
 
@@ -284,7 +286,7 @@ example:
 
 #### Defined in
 
-main.ts:182326
+main.ts:194444
 
 ***
 
@@ -302,7 +304,7 @@ example:
 
 #### Defined in
 
-main.ts:182330
+main.ts:194448
 
 ***
 
@@ -318,7 +320,7 @@ ASINs of all found product modifications
 
 #### Defined in
 
-main.ts:182322
+main.ts:194440
 
 ***
 
@@ -334,7 +336,7 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 #### Defined in
 
-main.ts:182349
+main.ts:194467
 
 ***
 
@@ -350,7 +352,7 @@ contains related product information
 
 #### Defined in
 
-main.ts:182347
+main.ts:194465
 
 ***
 
@@ -366,7 +368,7 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 #### Defined in
 
-main.ts:182351
+main.ts:194469
 
 ***
 
@@ -387,7 +389,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22316
+main.ts:23214
 
 ***
 
@@ -408,7 +410,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22313
+main.ts:23211
 
 ***
 
@@ -424,7 +426,7 @@ product rating info
 
 #### Defined in
 
-main.ts:182339
+main.ts:194457
 
 ***
 
@@ -440,7 +442,40 @@ product title
 
 #### Defined in
 
-main.ts:182310
+main.ts:194428
+
+***
+
+### top\_global\_reviews?
+
+> `optional` **top\_global\_reviews**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
+
+array of objects with top reviews from around the world
+
+#### Implementation of
+
+[`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`top_global_reviews`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#top_global_reviews)
+
+#### Defined in
+
+main.ts:194479
+
+***
+
+### top\_local\_reviews?
+
+> `optional` **top\_local\_reviews**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
+
+array of objects with top reviews from target location
+to obtain additional local reviews, you can specify the load_more_local_reviews parameter in Task POST
+
+#### Implementation of
+
+[`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`top_local_reviews`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#top_local_reviews)
+
+#### Defined in
+
+main.ts:194477
 
 ***
 
@@ -460,7 +495,7 @@ type of element
 
 #### Defined in
 
-main.ts:22310
+main.ts:23208
 
 ***
 
@@ -480,7 +515,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22318
+main.ts:23216
 
 ## Methods
 
@@ -490,7 +525,9 @@ main.ts:22318
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -502,7 +539,7 @@ main.ts:22318
 
 #### Defined in
 
-main.ts:182365
+main.ts:194488
 
 ***
 
@@ -512,7 +549,9 @@ main.ts:182365
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -524,7 +563,7 @@ main.ts:182365
 
 #### Defined in
 
-main.ts:182423
+main.ts:194556
 
 ***
 
@@ -534,7 +573,9 @@ main.ts:182423
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -546,4 +587,4 @@ main.ts:182423
 
 #### Defined in
 
-main.ts:182416
+main.ts:194549

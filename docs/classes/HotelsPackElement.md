@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelsPackElement
+[Documentation](../README.md) / HotelsPackElement
 
 # Class: HotelsPackElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md)
+##### data?
+
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:33965
+main.ts:35518
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:33948
+main.ts:35501
 
 ***
 
@@ -62,7 +64,7 @@ website domain
 
 #### Defined in
 
-main.ts:33954
+main.ts:35507
 
 ***
 
@@ -80,7 +82,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:33952
+main.ts:35505
 
 ***
 
@@ -96,7 +98,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:33958
+main.ts:35511
 
 ***
 
@@ -112,7 +114,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33944
+main.ts:35497
 
 ***
 
@@ -129,7 +131,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33961
+main.ts:35514
 
 ***
 
@@ -145,7 +147,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33946
+main.ts:35499
 
 ***
 
@@ -161,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:33942
+main.ts:35495
 
 ***
 
@@ -177,7 +179,7 @@ URL
 
 #### Defined in
 
-main.ts:33956
+main.ts:35509
 
 ## Methods
 
@@ -187,7 +189,9 @@ main.ts:33956
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +199,7 @@ main.ts:33956
 
 #### Defined in
 
-main.ts:33974
+main.ts:35527
 
 ***
 
@@ -205,7 +209,9 @@ main.ts:33974
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +219,7 @@ main.ts:33974
 
 #### Defined in
 
-main.ts:33999
+main.ts:35552
 
 ***
 
@@ -223,7 +229,9 @@ main.ts:33999
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -231,4 +239,4 @@ main.ts:33999
 
 #### Defined in
 
-main.ts:33992
+main.ts:35545

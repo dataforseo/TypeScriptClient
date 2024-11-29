@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseLocalBusinessLink
+[Documentation](../README.md) / IBaseLocalBusinessLink
 
 # Interface: IBaseLocalBusinessLink
 
@@ -22,4 +22,4 @@ type of element
 
 #### Defined in
 
-main.ts:23905
+main.ts:24970

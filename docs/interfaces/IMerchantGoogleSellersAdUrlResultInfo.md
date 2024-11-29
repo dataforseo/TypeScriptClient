@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleSellersAdUrlResultInfo
+[Documentation](../README.md) / IMerchantGoogleSellersAdUrlResultInfo
 
 # Interface: IMerchantGoogleSellersAdUrlResultInfo
 
@@ -20,7 +20,7 @@ unique ad click referral parameter
 
 #### Defined in
 
-main.ts:179249
+main.ts:190990
 
 ***
 
@@ -32,7 +32,7 @@ full URL of the advertisement
 
 #### Defined in
 
-main.ts:179251
+main.ts:190992
 
 ***
 
@@ -45,4 +45,4 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 #### Defined in
 
-main.ts:179254
+main.ts:190995

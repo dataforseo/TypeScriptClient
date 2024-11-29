@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesLocationsResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesLocationsResultInfo
 
 # Class: DomainAnalyticsTechnologiesLocationsResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:75546
+main.ts:85250
 
 ## Properties
 
@@ -46,7 +48,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:75542
+main.ts:85246
 
 ***
 
@@ -62,7 +64,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:75540
+main.ts:85244
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:75540
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:75540
 
 #### Defined in
 
-main.ts:75555
+main.ts:85259
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:75555
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:75555
 
 #### Defined in
 
-main.ts:75573
+main.ts:85277
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:75573
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:75573
 
 #### Defined in
 
-main.ts:75566
+main.ts:85270

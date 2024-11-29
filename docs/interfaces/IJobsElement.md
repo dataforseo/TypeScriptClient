@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IJobsElement
+[Documentation](../README.md) / IJobsElement
 
 # Interface: IJobsElement
 
@@ -20,7 +20,7 @@ author
 
 #### Defined in
 
-main.ts:31030
+main.ts:32589
 
 ***
 
@@ -32,7 +32,7 @@ contract type
 
 #### Defined in
 
-main.ts:31039
+main.ts:32598
 
 ***
 
@@ -44,7 +44,7 @@ description
 
 #### Defined in
 
-main.ts:31028
+main.ts:32587
 
 ***
 
@@ -56,7 +56,7 @@ the time when the job was posted
 
 #### Defined in
 
-main.ts:31032
+main.ts:32591
 
 ***
 
@@ -68,7 +68,7 @@ salary
 
 #### Defined in
 
-main.ts:31041
+main.ts:32600
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:31037
+main.ts:32596
 
 ***
 
@@ -95,7 +95,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31026
+main.ts:32585
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Defined in
 
-main.ts:31024
+main.ts:32583
 
 ***
 
@@ -119,4 +119,4 @@ URL
 
 #### Defined in
 
-main.ts:31043
+main.ts:32602

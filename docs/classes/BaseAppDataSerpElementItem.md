@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseAppDataSerpElementItem
+[Documentation](../README.md) / BaseAppDataSerpElementItem
 
 # Class: BaseAppDataSerpElementItem
 
@@ -27,7 +27,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md)
+##### data?
+
+[`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md)
 
 #### Returns
 
@@ -35,7 +37,7 @@
 
 #### Defined in
 
-main.ts:21990
+main.ts:22888
 
 ## Properties
 
@@ -45,7 +47,7 @@ main.ts:21990
 
 #### Defined in
 
-main.ts:21988
+main.ts:22886
 
 ***
 
@@ -63,7 +65,7 @@ left, right
 
 #### Defined in
 
-main.ts:21982
+main.ts:22880
 
 ***
 
@@ -80,7 +82,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21978
+main.ts:22876
 
 ***
 
@@ -97,7 +99,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21975
+main.ts:22873
 
 ***
 
@@ -113,7 +115,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21986
+main.ts:22884
 
 ***
 
@@ -129,7 +131,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21984
+main.ts:22882
 
 ***
 
@@ -145,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:21972
+main.ts:22870
 
 ## Methods
 
@@ -155,7 +157,9 @@ main.ts:21972
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -163,7 +167,7 @@ main.ts:21972
 
 #### Defined in
 
-main.ts:22000
+main.ts:22898
 
 ***
 
@@ -173,7 +177,9 @@ main.ts:22000
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -181,7 +187,7 @@ main.ts:22000
 
 #### Defined in
 
-main.ts:22048
+main.ts:22946
 
 ***
 
@@ -191,7 +197,9 @@ main.ts:22048
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -199,4 +207,4 @@ main.ts:22048
 
 #### Defined in
 
-main.ts:22011
+main.ts:22909

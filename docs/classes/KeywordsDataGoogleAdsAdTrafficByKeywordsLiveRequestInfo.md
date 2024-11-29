@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:121788
+main.ts:132030
 
 ## Properties
 
@@ -50,7 +52,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:121702
+main.ts:131944
 
 ***
 
@@ -74,7 +76,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:121758
+main.ts:132000
 
 ***
 
@@ -94,7 +96,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:121773
+main.ts:132015
 
 ***
 
@@ -117,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:121767
+main.ts:132009
 
 ***
 
@@ -134,7 +136,8 @@ the keywords you specify will be converted to a lowercase format
 Note: Google Ads may return no data for certain groups of keywords
 visit our Help Center to learn more
 Also note that Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -142,7 +145,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:121696
+main.ts:131938
 
 ***
 
@@ -162,7 +165,7 @@ en
 
 #### Defined in
 
-main.ts:121748
+main.ts:131990
 
 ***
 
@@ -182,7 +185,7 @@ English
 
 #### Defined in
 
-main.ts:121742
+main.ts:131984
 
 ***
 
@@ -204,7 +207,7 @@ example:
 
 #### Defined in
 
-main.ts:121727
+main.ts:131969
 
 ***
 
@@ -227,7 +230,7 @@ example:
 
 #### Defined in
 
-main.ts:121736
+main.ts:131978
 
 ***
 
@@ -249,7 +252,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:121719
+main.ts:131961
 
 ***
 
@@ -267,7 +270,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:121706
+main.ts:131948
 
 ***
 
@@ -286,7 +289,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:121711
+main.ts:131953
 
 ***
 
@@ -305,7 +308,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:121778
+main.ts:132020
 
 ***
 
@@ -325,7 +328,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:121784
+main.ts:132026
 
 ## Methods
 
@@ -335,7 +338,9 @@ main.ts:121784
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -343,7 +348,7 @@ main.ts:121784
 
 #### Defined in
 
-main.ts:121797
+main.ts:132039
 
 ***
 
@@ -353,7 +358,9 @@ main.ts:121797
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -361,7 +368,7 @@ main.ts:121797
 
 #### Defined in
 
-main.ts:121831
+main.ts:132073
 
 ***
 
@@ -371,7 +378,9 @@ main.ts:121831
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -379,4 +388,4 @@ main.ts:121831
 
 #### Defined in
 
-main.ts:121824
+main.ts:132066

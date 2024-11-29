@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataAppleAppInfoTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppInfoTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:194426
+main.ts:206768
 
 ## Properties
 
@@ -46,7 +48,7 @@ application id received in a POST request
 
 #### Defined in
 
-main.ts:194402
+main.ts:206744
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:194411
+main.ts:206753
 
 ***
 
@@ -82,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:194416
+main.ts:206758
 
 ***
 
@@ -98,7 +100,7 @@ found app info
 
 #### Defined in
 
-main.ts:194422
+main.ts:206764
 
 ***
 
@@ -114,7 +116,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:194420
+main.ts:206762
 
 ***
 
@@ -130,7 +132,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:194408
+main.ts:206750
 
 ***
 
@@ -146,7 +148,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:194406
+main.ts:206748
 
 ***
 
@@ -162,7 +164,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:194404
+main.ts:206746
 
 ***
 
@@ -178,7 +180,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:194418
+main.ts:206760
 
 ## Methods
 
@@ -188,7 +190,9 @@ main.ts:194418
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -196,7 +200,7 @@ main.ts:194418
 
 #### Defined in
 
-main.ts:194435
+main.ts:206777
 
 ***
 
@@ -206,7 +210,9 @@ main.ts:194435
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +220,7 @@ main.ts:194435
 
 #### Defined in
 
-main.ts:194464
+main.ts:206806
 
 ***
 
@@ -224,7 +230,9 @@ main.ts:194464
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -232,4 +240,4 @@ main.ts:194464
 
 #### Defined in
 
-main.ts:194457
+main.ts:206799

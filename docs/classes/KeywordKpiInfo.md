@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordKpiInfo
+[Documentation](../README.md) / KeywordKpiInfo
 
 # Class: KeywordKpiInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md)
+##### data?
+
+[`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:133105
+main.ts:144954
 
 ## Properties
 
@@ -61,7 +63,7 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 #### Defined in
 
-main.ts:133084
+main.ts:144933
 
 ***
 
@@ -77,7 +79,7 @@ average bid of the keyword
 
 #### Defined in
 
-main.ts:133101
+main.ts:144950
 
 ***
 
@@ -94,7 +96,7 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 #### Defined in
 
-main.ts:133093
+main.ts:144942
 
 ***
 
@@ -111,7 +113,7 @@ the number of clicks that the keyword and match type generated during the last m
 
 #### Defined in
 
-main.ts:133087
+main.ts:144936
 
 ***
 
@@ -128,7 +130,7 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 #### Defined in
 
-main.ts:133096
+main.ts:144945
 
 ***
 
@@ -145,7 +147,7 @@ the number of impressions that the keyword and match type generated during the l
 
 #### Defined in
 
-main.ts:133090
+main.ts:144939
 
 ***
 
@@ -162,7 +164,7 @@ the cost of using the specified keyword and match type during the last month
 
 #### Defined in
 
-main.ts:133099
+main.ts:144948
 
 ## Methods
 
@@ -172,7 +174,9 @@ main.ts:133099
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +184,7 @@ main.ts:133099
 
 #### Defined in
 
-main.ts:133114
+main.ts:144963
 
 ***
 
@@ -190,7 +194,9 @@ main.ts:133114
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -198,7 +204,7 @@ main.ts:133114
 
 #### Defined in
 
-main.ts:133137
+main.ts:144986
 
 ***
 
@@ -208,7 +214,9 @@ main.ts:133137
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:133137
 
 #### Defined in
 
-main.ts:133130
+main.ts:144979

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITestSummary
+[Documentation](../README.md) / ITestSummary
 
 # Interface: ITestSummary
 
@@ -20,7 +20,7 @@ number of serious microdata errors
 
 #### Defined in
 
-main.ts:159994
+main.ts:171629
 
 ***
 
@@ -32,7 +32,7 @@ number of fatal microdata errors
 
 #### Defined in
 
-main.ts:159992
+main.ts:171627
 
 ***
 
@@ -44,7 +44,7 @@ number of microdata information flags
 
 #### Defined in
 
-main.ts:159998
+main.ts:171633
 
 ***
 
@@ -56,4 +56,4 @@ number of microdata warnings
 
 #### Defined in
 
-main.ts:159996
+main.ts:171631

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppSearchesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:187646
+main.ts:199982
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:187631
+main.ts:199967
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:187636
+main.ts:199972
 
 ***
 
@@ -82,7 +84,7 @@ found apps
 
 #### Defined in
 
-main.ts:187642
+main.ts:199978
 
 ***
 
@@ -98,7 +100,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:187640
+main.ts:199976
 
 ***
 
@@ -114,7 +116,7 @@ keyword received in a POST request
 
 #### Defined in
 
-main.ts:187622
+main.ts:199958
 
 ***
 
@@ -130,7 +132,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:187628
+main.ts:199964
 
 ***
 
@@ -146,7 +148,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:187626
+main.ts:199962
 
 ***
 
@@ -162,7 +164,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:187624
+main.ts:199960
 
 ***
 
@@ -178,7 +180,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:187638
+main.ts:199974
 
 ## Methods
 
@@ -188,7 +190,9 @@ main.ts:187638
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -196,7 +200,7 @@ main.ts:187638
 
 #### Defined in
 
-main.ts:187655
+main.ts:199991
 
 ***
 
@@ -206,7 +210,9 @@ main.ts:187655
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +220,7 @@ main.ts:187655
 
 #### Defined in
 
-main.ts:187684
+main.ts:200020
 
 ***
 
@@ -224,7 +230,9 @@ main.ts:187684
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -232,4 +240,4 @@ main.ts:187684
 
 #### Defined in
 
-main.ts:187677
+main.ts:200013

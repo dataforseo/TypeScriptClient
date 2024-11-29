@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:207934
+main.ts:221289
 
 ***
 
@@ -35,7 +35,7 @@ HTML pages
 
 #### Defined in
 
-main.ts:207938
+main.ts:221293
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:207936
+main.ts:221291
 
 ***
 
@@ -59,7 +59,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 #### Defined in
 
-main.ts:207921
+main.ts:221276
 
 ***
 
@@ -71,7 +71,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:207929
+main.ts:221284
 
 ***
 
@@ -83,7 +83,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:207927
+main.ts:221282
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:207925
+main.ts:221280
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:207923
+main.ts:221278

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SearchVolumeHistorySearchInfo
+[Documentation](../README.md) / SearchVolumeHistorySearchInfo
 
 # Class: SearchVolumeHistorySearchInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISearchVolumeHistorySearchInfo`](../interfaces/ISearchVolumeHistorySearchInfo.md)
+##### data?
+
+[`ISearchVolumeHistorySearchInfo`](../interfaces/ISearchVolumeHistorySearchInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:134735
+main.ts:146592
 
 ## Properties
 
@@ -47,7 +49,7 @@ contains historical search volume data for searches made from desktop devices
 
 #### Defined in
 
-main.ts:134722
+main.ts:146579
 
 ***
 
@@ -64,7 +66,7 @@ contains historical search volume data for searches made from mobile devices
 
 #### Defined in
 
-main.ts:134728
+main.ts:146585
 
 ***
 
@@ -81,7 +83,7 @@ contains historical search volume data for searches made from feature phones (no
 
 #### Defined in
 
-main.ts:134725
+main.ts:146582
 
 ***
 
@@ -98,7 +100,7 @@ contains historical search volume data for searches made from tablets
 
 #### Defined in
 
-main.ts:134731
+main.ts:146588
 
 ## Methods
 
@@ -108,7 +110,9 @@ main.ts:134731
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +120,7 @@ main.ts:134731
 
 #### Defined in
 
-main.ts:134744
+main.ts:146601
 
 ***
 
@@ -126,7 +130,9 @@ main.ts:134744
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +140,7 @@ main.ts:134744
 
 #### Defined in
 
-main.ts:134780
+main.ts:146637
 
 ***
 
@@ -144,7 +150,9 @@ main.ts:134780
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -152,4 +160,4 @@ main.ts:134780
 
 #### Defined in
 
-main.ts:134773
+main.ts:146630

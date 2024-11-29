@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentAnalysisDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixContentAnalysisDayStatisticsRatesData
 
 # Interface: IAppendixContentAnalysisDayStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:219548
+main.ts:234546
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:219548
 
 #### Defined in
 
-main.ts:219545
+main.ts:234544
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:219545
 
 #### Defined in
 
-main.ts:219542
+main.ts:234541
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:219542
 
 #### Defined in
 
-main.ts:219546
+main.ts:234545
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:219546
 
 #### Defined in
 
-main.ts:219547
+main.ts:234547
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:219547
 
 #### Defined in
 
-main.ts:219544
+main.ts:234543
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:219544
 
 #### Defined in
 
-main.ts:219543
+main.ts:234542
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:219543
 
 #### Defined in
 
-main.ts:219541
+main.ts:234540
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:219541
 
 #### Defined in
 
-main.ts:219540
+main.ts:234539
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:219540
 
 #### Defined in
 
-main.ts:219537
+main.ts:234536
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:219537
 
 #### Defined in
 
-main.ts:219539
+main.ts:234538
 
 ***
 
@@ -128,4 +128,4 @@ main.ts:219539
 
 #### Defined in
 
-main.ts:219538
+main.ts:234537

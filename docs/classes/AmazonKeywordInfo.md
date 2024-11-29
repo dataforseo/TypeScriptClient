@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonKeywordInfo
+[Documentation](../README.md) / AmazonKeywordInfo
 
 # Class: AmazonKeywordInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md)
+##### data?
+
+[`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:22968
+main.ts:23866
 
 ## Properties
 
@@ -48,7 +50,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 #### Defined in
 
-main.ts:22961
+main.ts:23859
 
 ***
 
@@ -64,7 +66,7 @@ search engine type
 
 #### Defined in
 
-main.ts:22957
+main.ts:23855
 
 ***
 
@@ -81,7 +83,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 #### Defined in
 
-main.ts:22964
+main.ts:23862
 
 ## Methods
 
@@ -91,7 +93,9 @@ main.ts:22964
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +103,7 @@ main.ts:22964
 
 #### Defined in
 
-main.ts:22977
+main.ts:23875
 
 ***
 
@@ -109,7 +113,9 @@ main.ts:22977
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -117,7 +123,7 @@ main.ts:22977
 
 #### Defined in
 
-main.ts:22996
+main.ts:23894
 
 ***
 
@@ -127,7 +133,9 @@ main.ts:22996
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -135,4 +143,4 @@ main.ts:22996
 
 #### Defined in
 
-main.ts:22989
+main.ts:23887

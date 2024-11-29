@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductCategoryInfo
+[Documentation](../README.md) / ProductCategoryInfo
 
 # Class: ProductCategoryInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md)
+##### data?
+
+[`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:181919
+main.ts:194037
 
 ## Properties
 
@@ -46,7 +48,7 @@ product category name
 
 #### Defined in
 
-main.ts:181912
+main.ts:194030
 
 ***
 
@@ -63,7 +65,7 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Defined in
 
-main.ts:181915
+main.ts:194033
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:181915
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:181915
 
 #### Defined in
 
-main.ts:181928
+main.ts:194046
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:181928
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:181928
 
 #### Defined in
 
-main.ts:181946
+main.ts:194064
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:181946
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:181946
 
 #### Defined in
 
-main.ts:181939
+main.ts:194057

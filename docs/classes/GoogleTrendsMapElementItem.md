@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleTrendsMapElementItem
+[Documentation](../README.md) / GoogleTrendsMapElementItem
 
 # Class: GoogleTrendsMapElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md)
+##### data?
+
+[`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:124050
+main.ts:134299
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:124050
 
 #### Defined in
 
-main.ts:21809
+main.ts:22707
 
 ***
 
@@ -68,7 +70,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:124046
+main.ts:134295
 
 ***
 
@@ -89,7 +91,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:21807
+main.ts:22705
 
 ***
 
@@ -110,7 +112,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21802
+main.ts:22700
 
 ***
 
@@ -130,7 +132,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:21804
+main.ts:22702
 
 ***
 
@@ -150,7 +152,7 @@ type of element
 
 #### Defined in
 
-main.ts:21799
+main.ts:22697
 
 ## Methods
 
@@ -160,7 +162,9 @@ main.ts:21799
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -172,7 +176,7 @@ main.ts:21799
 
 #### Defined in
 
-main.ts:124055
+main.ts:134304
 
 ***
 
@@ -182,7 +186,9 @@ main.ts:124055
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -194,7 +200,7 @@ main.ts:124055
 
 #### Defined in
 
-main.ts:124077
+main.ts:134326
 
 ***
 
@@ -204,7 +210,9 @@ main.ts:124077
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -216,4 +224,4 @@ main.ts:124077
 
 #### Defined in
 
-main.ts:124070
+main.ts:134319

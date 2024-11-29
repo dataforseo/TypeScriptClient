@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppListTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppListTaskGetAdvancedResultInfo
 
 # Interface: IAppDataGoogleAppListTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:188733
+main.ts:201069
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:188738
+main.ts:201074
 
 ***
 
@@ -48,7 +48,7 @@ found apps
 
 #### Defined in
 
-main.ts:188745
+main.ts:201081
 
 ***
 
@@ -61,7 +61,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:188743
+main.ts:201079
 
 ***
 
@@ -73,7 +73,7 @@ app collection received in a POST array
 
 #### Defined in
 
-main.ts:188724
+main.ts:201060
 
 ***
 
@@ -85,7 +85,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:188730
+main.ts:201066
 
 ***
 
@@ -97,7 +97,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:188728
+main.ts:201064
 
 ***
 
@@ -109,7 +109,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:188726
+main.ts:201062
 
 ***
 
@@ -121,4 +121,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:188740
+main.ts:201076

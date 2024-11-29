@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseProductInformationRowItem
+[Documentation](../README.md) / IBaseProductInformationRowItem
 
 # Interface: IBaseProductInformationRowItem
 
@@ -10,7 +10,6 @@
 
 - [`IProductInformationImageRow`](IProductInformationImageRow.md)
 - [`IProductInformationTextRow`](IProductInformationTextRow.md)
-- [`IProductInformationVideoRow`](IProductInformationVideoRow.md)
 
 ## Indexable
 
@@ -26,4 +25,4 @@ type of element
 
 #### Defined in
 
-main.ts:23480
+main.ts:24373

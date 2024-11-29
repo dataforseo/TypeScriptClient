@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantTasksReadyResultInfo
+[Documentation](../README.md) / MerchantTasksReadyResultInfo
 
 # Class: MerchantTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md)
+##### data?
+
+[`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:174146
+main.ts:185883
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:174136
+main.ts:185873
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 #### Defined in
 
-main.ts:174140
+main.ts:185877
 
 ***
 
@@ -78,7 +80,7 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 #### Defined in
 
-main.ts:174142
+main.ts:185879
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:174130
+main.ts:185867
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:174132
+main.ts:185869
 
 ***
 
@@ -127,7 +129,7 @@ type of search engine
 
 #### Defined in
 
-main.ts:174134
+main.ts:185871
 
 ***
 
@@ -143,7 +145,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:174138
+main.ts:185875
 
 ## Methods
 
@@ -153,7 +155,9 @@ main.ts:174138
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -161,7 +165,7 @@ main.ts:174138
 
 #### Defined in
 
-main.ts:174155
+main.ts:185892
 
 ***
 
@@ -171,7 +175,9 @@ main.ts:174155
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +185,7 @@ main.ts:174155
 
 #### Defined in
 
-main.ts:174178
+main.ts:185915
 
 ***
 
@@ -189,7 +195,9 @@ main.ts:174178
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -197,4 +205,4 @@ main.ts:174178
 
 #### Defined in
 
-main.ts:174171
+main.ts:185908

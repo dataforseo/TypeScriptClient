@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseTaskPostRequestInfo
+[Documentation](../README.md) / OnPageLighthouseTaskPostRequestInfo
 
 # Class: OnPageLighthouseTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md)
+##### data?
+
+[`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:163843
+main.ts:175434
 
 ## Properties
 
@@ -57,7 +59,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:163796
+main.ts:175385
 
 ***
 
@@ -79,7 +81,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:163783
+main.ts:175372
 
 ***
 
@@ -99,7 +101,7 @@ default value: false
 
 #### Defined in
 
-main.ts:163775
+main.ts:175364
 
 ***
 
@@ -119,7 +121,7 @@ en
 
 #### Defined in
 
-main.ts:163813
+main.ts:175402
 
 ***
 
@@ -139,7 +141,7 @@ English
 
 #### Defined in
 
-main.ts:163807
+main.ts:175396
 
 ***
 
@@ -154,8 +156,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -163,7 +166,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:163829
+main.ts:175419
 
 ***
 
@@ -178,8 +181,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -187,7 +191,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:163839
+main.ts:175430
 
 ***
 
@@ -207,7 +211,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:163819
+main.ts:175408
 
 ***
 
@@ -227,7 +231,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:163769
+main.ts:175358
 
 ***
 
@@ -246,7 +250,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:163801
+main.ts:175390
 
 ## Methods
 
@@ -256,7 +260,9 @@ main.ts:163801
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -264,7 +270,7 @@ main.ts:163801
 
 #### Defined in
 
-main.ts:163852
+main.ts:175443
 
 ***
 
@@ -274,7 +280,9 @@ main.ts:163852
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -282,7 +290,7 @@ main.ts:163852
 
 #### Defined in
 
-main.ts:163886
+main.ts:175477
 
 ***
 
@@ -292,7 +300,9 @@ main.ts:163886
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -300,4 +310,4 @@ main.ts:163886
 
 #### Defined in
 
-main.ts:163879
+main.ts:175470

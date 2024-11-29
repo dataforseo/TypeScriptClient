@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageTasksReadyResultInfo
+[Documentation](../README.md) / OnPageTasksReadyResultInfo
 
 # Class: OnPageTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md)
+##### data?
+
+[`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:153320
+main.ts:164947
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:153314
+main.ts:164941
 
 ***
 
@@ -63,7 +65,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:153310
+main.ts:164937
 
 ***
 
@@ -79,7 +81,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:153316
+main.ts:164943
 
 ***
 
@@ -95,7 +97,7 @@ target website specified when setting a task
 
 #### Defined in
 
-main.ts:153312
+main.ts:164939
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:153312
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:153312
 
 #### Defined in
 
-main.ts:153329
+main.ts:164956
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:153329
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:153329
 
 #### Defined in
 
-main.ts:153349
+main.ts:164976
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:153349
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:153349
 
 #### Defined in
 
-main.ts:153342
+main.ts:164969

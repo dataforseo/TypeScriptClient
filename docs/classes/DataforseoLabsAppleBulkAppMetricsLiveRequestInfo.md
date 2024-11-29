@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:113835
+main.ts:123167
 
 ## Properties
 
@@ -53,7 +55,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-main.ts:113789
+main.ts:123121
 
 ***
 
@@ -76,7 +78,7 @@ en
 
 #### Defined in
 
-main.ts:113825
+main.ts:123157
 
 ***
 
@@ -99,7 +101,7 @@ English
 
 #### Defined in
 
-main.ts:113816
+main.ts:123148
 
 ***
 
@@ -122,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:113807
+main.ts:123139
 
 ***
 
@@ -145,7 +147,7 @@ United States
 
 #### Defined in
 
-main.ts:113798
+main.ts:123130
 
 ***
 
@@ -165,7 +167,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:113831
+main.ts:123163
 
 ## Methods
 
@@ -175,7 +177,9 @@ main.ts:113831
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -183,7 +187,7 @@ main.ts:113831
 
 #### Defined in
 
-main.ts:113844
+main.ts:123176
 
 ***
 
@@ -193,7 +197,9 @@ main.ts:113844
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -201,7 +207,7 @@ main.ts:113844
 
 #### Defined in
 
-main.ts:113870
+main.ts:123202
 
 ***
 
@@ -211,7 +217,9 @@ main.ts:113870
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -219,4 +227,4 @@ main.ts:113870
 
 #### Defined in
 
-main.ts:113863
+main.ts:123195

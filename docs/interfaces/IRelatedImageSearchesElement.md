@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRelatedImageSearchesElement
+[Documentation](../README.md) / IRelatedImageSearchesElement
 
 # Interface: IRelatedImageSearchesElement
 
@@ -20,7 +20,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:30598
+main.ts:32157
 
 ***
 
@@ -33,7 +33,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:30603
+main.ts:32162
 
 ***
 
@@ -45,7 +45,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30596
+main.ts:32155
 
 ***
 
@@ -57,7 +57,7 @@ type of element
 
 #### Defined in
 
-main.ts:30594
+main.ts:32153
 
 ***
 
@@ -69,4 +69,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:30600
+main.ts:32159

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppElement
+[Documentation](../README.md) / IAppElement
 
 # Interface: IAppElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:31255
+main.ts:32814
 
 ***
 
@@ -32,7 +32,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:31259
+main.ts:32818
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31253
+main.ts:32812
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:31251
+main.ts:32810
 
 ***
 
@@ -68,4 +68,4 @@ URL
 
 #### Defined in
 
-main.ts:31257
+main.ts:32816

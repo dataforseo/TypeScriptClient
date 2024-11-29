@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BulkMetricsInfo
+[Documentation](../README.md) / BulkMetricsInfo
 
 # Class: BulkMetricsInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md)
+##### data?
+
+[`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:101018
+main.ts:110756
 
 ## Properties
 
@@ -49,7 +51,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:101014
+main.ts:110752
 
 ***
 
@@ -65,7 +67,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:101009
+main.ts:110747
 
 ***
 
@@ -84,7 +86,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:101007
+main.ts:110745
 
 ## Methods
 
@@ -94,7 +96,9 @@ main.ts:101007
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -102,7 +106,7 @@ main.ts:101007
 
 #### Defined in
 
-main.ts:101027
+main.ts:110765
 
 ***
 
@@ -112,7 +116,9 @@ main.ts:101027
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -120,7 +126,7 @@ main.ts:101027
 
 #### Defined in
 
-main.ts:101046
+main.ts:110784
 
 ***
 
@@ -130,7 +136,9 @@ main.ts:101046
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -138,4 +146,4 @@ main.ts:101046
 
 #### Defined in
 
-main.ts:101039
+main.ts:110777

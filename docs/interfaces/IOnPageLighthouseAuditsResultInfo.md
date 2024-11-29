@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseAuditsResultInfo
+[Documentation](../README.md) / IOnPageLighthouseAuditsResultInfo
 
 # Interface: IOnPageLighthouseAuditsResultInfo
 
@@ -22,4 +22,4 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Defined in
 
-main.ts:163424
+main.ts:175013

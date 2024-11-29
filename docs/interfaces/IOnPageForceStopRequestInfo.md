@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageForceStopRequestInfo
+[Documentation](../README.md) / IOnPageForceStopRequestInfo
 
 # Interface: IOnPageForceStopRequestInfo
 
@@ -25,4 +25,4 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Defined in
 
-main.ts:152466
+main.ts:163671

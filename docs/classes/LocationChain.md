@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocationChain
+[Documentation](../README.md) / LocationChain
 
 # Class: LocationChain
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILocationChain`](../interfaces/ILocationChain.md)
+##### data?
+
+[`ILocationChain`](../interfaces/ILocationChain.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:205865
+main.ts:219220
 
 ## Properties
 
@@ -46,7 +48,7 @@ card identifier
 
 #### Defined in
 
-main.ts:205853
+main.ts:219208
 
 ***
 
@@ -63,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:205859
+main.ts:219214
 
 ***
 
@@ -80,7 +82,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:205856
+main.ts:219211
 
 ***
 
@@ -96,7 +98,7 @@ title of the element in the location chain
 
 #### Defined in
 
-main.ts:205861
+main.ts:219216
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:205861
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:205861
 
 #### Defined in
 
-main.ts:205874
+main.ts:219229
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:205874
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:205874
 
 #### Defined in
 
-main.ts:205894
+main.ts:219249
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:205894
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:205894
 
 #### Defined in
 
-main.ts:205887
+main.ts:219242

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYahooOrganicLiveRegularResultInfo
+[Documentation](../README.md) / ISerpYahooOrganicLiveRegularResultInfo
 
 # Interface: ISerpYahooOrganicLiveRegularResultInfo
 
@@ -21,7 +21,7 @@ You can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:68327
+main.ts:77206
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:68332
+main.ts:77211
 
 ***
 
@@ -44,13 +44,17 @@ main.ts:68332
 
 > `optional` **item\_types**: `string`[]
 
-types of search results in SERP
-contains types of search results (items) found in SERP
-Possible item types: organic
+types of search results found in SERP
+contains types of all search results (items) found in the returned SERP
+possible item types:
+featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video;
+note that this array contains all types of search results found in the returned SERP;
+however, this endpoint provides data for organic, paid, and featured_snippet types only;
+to get all items (including SERP features and rich snippets) found in the returned SERP, please refer to the Yahoo Organiс Advanced SERP endpoint
 
 #### Defined in
 
-main.ts:68339
+main.ts:77225
 
 ***
 
@@ -62,7 +66,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:68345
+main.ts:77231
 
 ***
 
@@ -74,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:68343
+main.ts:77229
 
 ***
 
@@ -83,11 +87,11 @@ main.ts:68343
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:68316
+main.ts:77195
 
 ***
 
@@ -99,7 +103,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:68324
+main.ts:77203
 
 ***
 
@@ -111,7 +115,20 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:68322
+main.ts:77201
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:77217
 
 ***
 
@@ -123,7 +140,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:68320
+main.ts:77199
 
 ***
 
@@ -135,7 +152,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:68341
+main.ts:77227
 
 ***
 
@@ -148,7 +165,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:68335
+main.ts:77214
 
 ***
 
@@ -160,4 +177,4 @@ type of element
 
 #### Defined in
 
-main.ts:68318
+main.ts:77197

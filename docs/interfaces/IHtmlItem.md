@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHtmlItem
+[Documentation](../README.md) / IHtmlItem
 
 # Interface: IHtmlItem
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:37005
+main.ts:38496
 
 ***
 
@@ -35,7 +35,7 @@ HTML page
 
 #### Defined in
 
-main.ts:37007
+main.ts:38498
 
 ***
 
@@ -47,4 +47,4 @@ serial number of the returned HTML page
 
 #### Defined in
 
-main.ts:37000
+main.ts:38491

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRedirectChainsRequestInfo
+[Documentation](../README.md) / OnPageRedirectChainsRequestInfo
 
 # Class: OnPageRedirectChainsRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md)
+##### data?
+
+[`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:158209
+main.ts:169844
 
 ## Properties
 
@@ -55,7 +57,7 @@ examples:
 
 #### Defined in
 
-main.ts:158199
+main.ts:169834
 
 ***
 
@@ -75,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:158173
+main.ts:169808
 
 ***
 
@@ -94,7 +96,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:158183
+main.ts:169818
 
 ***
 
@@ -113,7 +115,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Defined in
 
-main.ts:158188
+main.ts:169823
 
 ***
 
@@ -133,7 +135,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:158205
+main.ts:169840
 
 ***
 
@@ -152,7 +154,7 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-main.ts:158178
+main.ts:169813
 
 ## Methods
 
@@ -162,7 +164,9 @@ main.ts:158178
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -170,7 +174,7 @@ main.ts:158178
 
 #### Defined in
 
-main.ts:158218
+main.ts:169853
 
 ***
 
@@ -180,7 +184,9 @@ main.ts:158218
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -188,7 +194,7 @@ main.ts:158218
 
 #### Defined in
 
-main.ts:158244
+main.ts:169879
 
 ***
 
@@ -198,7 +204,9 @@ main.ts:158244
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -206,4 +214,4 @@ main.ts:158244
 
 #### Defined in
 
-main.ts:158237
+main.ts:169872

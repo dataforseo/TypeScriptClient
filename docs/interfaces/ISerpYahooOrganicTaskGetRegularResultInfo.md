@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYahooOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / ISerpYahooOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpYahooOrganicTaskGetRegularResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:67587
+main.ts:76178
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:67592
+main.ts:76183
 
 ***
 
@@ -47,12 +47,14 @@ main.ts:67592
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
 possible item types:
-organic
+featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video;
 note that this array contains all types of search results found in the returned SERP;
+however, this endpoint provides data for organic, paid, and featured_snippet types only;
+to get all items (including SERP features and rich snippets) found in the returned SERP, please refer to the Yahoo Organiс Advanced SERP endpoint
 
 #### Defined in
 
-main.ts:67601
+main.ts:76197
 
 ***
 
@@ -64,7 +66,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:67607
+main.ts:76203
 
 ***
 
@@ -76,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:67605
+main.ts:76201
 
 ***
 
@@ -89,7 +91,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:67576
+main.ts:76167
 
 ***
 
@@ -101,7 +103,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:67584
+main.ts:76175
 
 ***
 
@@ -113,7 +115,20 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:67582
+main.ts:76173
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+equals null
+
+#### Defined in
+
+main.ts:76189
 
 ***
 
@@ -125,7 +140,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:67580
+main.ts:76171
 
 ***
 
@@ -137,7 +152,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:67603
+main.ts:76199
 
 ***
 
@@ -150,7 +165,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:67595
+main.ts:76186
 
 ***
 
@@ -162,4 +177,4 @@ type of element
 
 #### Defined in
 
-main.ts:67578
+main.ts:76169

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTrustpilotSearchTasksReadyResultInfo
+[Documentation](../README.md) / IBusinessDataTrustpilotSearchTasksReadyResultInfo
 
 # Interface: IBusinessDataTrustpilotSearchTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:210824
+main.ts:225753
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:210828
+main.ts:225757
 
 ***
 
@@ -45,7 +45,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:210817
+main.ts:225746
 
 ***
 
@@ -58,7 +58,7 @@ can take the following values: trustpilot
 
 #### Defined in
 
-main.ts:210820
+main.ts:225749
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:210822
+main.ts:225751
 
 ***
 
@@ -82,4 +82,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:210826
+main.ts:225755

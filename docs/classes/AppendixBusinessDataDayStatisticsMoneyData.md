@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBusinessDataDayStatisticsMoneyData
+[Documentation](../README.md) / AppendixBusinessDataDayStatisticsMoneyData
 
 # Class: AppendixBusinessDataDayStatisticsMoneyData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md)
+##### data?
+
+[`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:220464
+main.ts:235471
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:220464
 
 #### Defined in
 
-main.ts:220458
+main.ts:235465
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:220458
 
 #### Defined in
 
-main.ts:220453
+main.ts:235460
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:220453
 
 #### Defined in
 
-main.ts:220450
+main.ts:235457
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:220450
 
 #### Defined in
 
-main.ts:220452
+main.ts:235459
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:220452
 
 #### Defined in
 
-main.ts:220451
+main.ts:235458
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:220451
 
 #### Defined in
 
-main.ts:220460
+main.ts:235467
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:220460
 
 #### Defined in
 
-main.ts:220455
+main.ts:235462
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:220455
 
 #### Defined in
 
-main.ts:220459
+main.ts:235466
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:220459
 
 #### Defined in
 
-main.ts:220456
+main.ts:235463
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:220456
 
 #### Defined in
 
-main.ts:220457
+main.ts:235464
 
 ***
 
@@ -184,7 +186,7 @@ main.ts:220457
 
 #### Defined in
 
-main.ts:220454
+main.ts:235461
 
 ## Methods
 
@@ -194,7 +196,9 @@ main.ts:220454
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -202,7 +206,7 @@ main.ts:220454
 
 #### Defined in
 
-main.ts:220473
+main.ts:235480
 
 ***
 
@@ -212,7 +216,9 @@ main.ts:220473
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -220,7 +226,7 @@ main.ts:220473
 
 #### Defined in
 
-main.ts:220500
+main.ts:235507
 
 ***
 
@@ -230,7 +236,9 @@ main.ts:220500
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -238,4 +246,4 @@ main.ts:220500
 
 #### Defined in
 
-main.ts:220493
+main.ts:235500

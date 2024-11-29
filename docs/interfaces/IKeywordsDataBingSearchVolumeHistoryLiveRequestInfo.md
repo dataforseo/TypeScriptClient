@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
@@ -31,7 +31,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:135253
+main.ts:147112
 
 ***
 
@@ -54,7 +54,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:135266
+main.ts:147125
 
 ***
 
@@ -70,7 +70,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 #### Defined in
 
-main.ts:135231
+main.ts:147090
 
 ***
 
@@ -83,10 +83,11 @@ required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:135193
+main.ts:147052
 
 ***
 
@@ -101,7 +102,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:135225
+main.ts:147084
 
 ***
 
@@ -116,7 +117,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:135220
+main.ts:147079
 
 ***
 
@@ -133,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:135207
+main.ts:147066
 
 ***
 
@@ -151,7 +152,7 @@ example:
 
 #### Defined in
 
-main.ts:135215
+main.ts:147074
 
 ***
 
@@ -168,7 +169,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:135200
+main.ts:147059
 
 ***
 
@@ -187,7 +188,7 @@ default value:  monthly
 
 #### Defined in
 
-main.ts:135240
+main.ts:147099
 
 ***
 
@@ -203,4 +204,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:135272
+main.ts:147131

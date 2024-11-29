@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeTaskPostRequestInfo
 
 # Class: KeywordsDataBingSearchVolumeTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:128316
+main.ts:138578
 
 ## Properties
 
@@ -53,7 +55,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:128270
+main.ts:138530
 
 ***
 
@@ -78,7 +80,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:128281
+main.ts:138541
 
 ***
 
@@ -97,7 +99,7 @@ default value: all
 
 #### Defined in
 
-main.ts:128256
+main.ts:138516
 
 ***
 
@@ -110,6 +112,7 @@ required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -117,7 +120,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:128217
+main.ts:138477
 
 ***
 
@@ -137,7 +140,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:128251
+main.ts:138511
 
 ***
 
@@ -157,7 +160,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:128245
+main.ts:138505
 
 ***
 
@@ -178,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:128231
+main.ts:138491
 
 ***
 
@@ -200,7 +203,7 @@ example:
 
 #### Defined in
 
-main.ts:128239
+main.ts:138499
 
 ***
 
@@ -221,7 +224,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:128224
+main.ts:138484
 
 ***
 
@@ -236,8 +239,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -245,7 +249,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:128301
+main.ts:138563
 
 ***
 
@@ -260,8 +264,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -269,7 +274,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:128291
+main.ts:138552
 
 ***
 
@@ -288,7 +293,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:128306
+main.ts:138568
 
 ***
 
@@ -307,7 +312,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:128261
+main.ts:138521
 
 ***
 
@@ -327,7 +332,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:128312
+main.ts:138574
 
 ## Methods
 
@@ -337,7 +342,9 @@ main.ts:128312
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -345,7 +352,7 @@ main.ts:128312
 
 #### Defined in
 
-main.ts:128325
+main.ts:138587
 
 ***
 
@@ -355,7 +362,9 @@ main.ts:128325
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -363,7 +372,7 @@ main.ts:128325
 
 #### Defined in
 
-main.ts:128359
+main.ts:138621
 
 ***
 
@@ -373,7 +382,9 @@ main.ts:128359
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -381,4 +392,4 @@ main.ts:128359
 
 #### Defined in
 
-main.ts:128352
+main.ts:138614

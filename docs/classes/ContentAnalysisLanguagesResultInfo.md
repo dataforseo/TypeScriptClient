@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisLanguagesResultInfo
+[Documentation](../README.md) / ContentAnalysisLanguagesResultInfo
 
 # Class: ContentAnalysisLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md)
+##### data?
+
+[`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:165385
+main.ts:176974
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:165381
+main.ts:176970
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:165379
+main.ts:176968
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:165379
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:165379
 
 #### Defined in
 
-main.ts:165394
+main.ts:176983
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:165394
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:165394
 
 #### Defined in
 
-main.ts:165412
+main.ts:177001
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:165412
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:165412
 
 #### Defined in
 
-main.ts:165405
+main.ts:176994

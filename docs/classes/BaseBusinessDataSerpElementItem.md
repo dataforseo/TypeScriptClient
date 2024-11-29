@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseBusinessDataSerpElementItem
+[Documentation](../README.md) / BaseBusinessDataSerpElementItem
 
 # Class: BaseBusinessDataSerpElementItem
 
@@ -29,7 +29,9 @@
 
 #### Parameters
 
-• **data?**: [`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md)
+##### data?
+
+[`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -37,7 +39,7 @@
 
 #### Defined in
 
-main.ts:21315
+main.ts:22213
 
 ## Properties
 
@@ -47,7 +49,7 @@ main.ts:21315
 
 #### Defined in
 
-main.ts:21313
+main.ts:22211
 
 ***
 
@@ -63,7 +65,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21311
+main.ts:22209
 
 ***
 
@@ -80,7 +82,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21309
+main.ts:22207
 
 ***
 
@@ -96,7 +98,7 @@ type of element
 
 #### Defined in
 
-main.ts:21306
+main.ts:22204
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:21306
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:21306
 
 #### Defined in
 
-main.ts:21325
+main.ts:22223
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:21325
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:21325
 
 #### Defined in
 
-main.ts:21380
+main.ts:22278
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:21380
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:21380
 
 #### Defined in
 
-main.ts:21333
+main.ts:22231

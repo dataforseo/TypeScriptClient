@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingRelatedKeywordsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:109697
+main.ts:119029
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)[]
 
 contains keywords and related data
 
@@ -46,7 +48,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:109693
+main.ts:119025
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:109691
+main.ts:119023
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:109687
+main.ts:119019
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:109685
+main.ts:119017
 
 ***
 
@@ -110,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:109678
+main.ts:119010
 
 ***
 
@@ -126,13 +128,13 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:109680
+main.ts:119012
 
 ***
 
 ### seed\_keyword\_data?
 
-> `optional` **seed\_keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
@@ -143,7 +145,7 @@ fields in the array are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:109683
+main.ts:119015
 
 ***
 
@@ -159,7 +161,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:109689
+main.ts:119021
 
 ## Methods
 
@@ -169,7 +171,9 @@ main.ts:109689
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -177,7 +181,7 @@ main.ts:109689
 
 #### Defined in
 
-main.ts:109706
+main.ts:119038
 
 ***
 
@@ -187,7 +191,9 @@ main.ts:109706
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +201,7 @@ main.ts:109706
 
 #### Defined in
 
-main.ts:109734
+main.ts:119066
 
 ***
 
@@ -205,7 +211,9 @@ main.ts:109734
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -213,4 +221,4 @@ main.ts:109734
 
 #### Defined in
 
-main.ts:109727
+main.ts:119059

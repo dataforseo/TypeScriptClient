@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MapsSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / MapsSearchBusinessDataSerpElementItem
 
 # Class: MapsSearchBusinessDataSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md)
+##### data?
+
+[`IMapsSearchBusinessDataSerpElementItem`](../interfaces/IMapsSearchBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:201141
+main.ts:213737
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:201141
 
 #### Defined in
 
-main.ts:21313
+main.ts:22211
 
 ***
 
@@ -69,7 +71,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:201097
+main.ts:213693
 
 ***
 
@@ -85,7 +87,7 @@ address of the business entity
 
 #### Defined in
 
-main.ts:201079
+main.ts:213675
 
 ***
 
@@ -101,7 +103,7 @@ object containing address components of the business entity
 
 #### Defined in
 
-main.ts:201081
+main.ts:213677
 
 ***
 
@@ -118,7 +120,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:201094
+main.ts:213690
 
 ***
 
@@ -135,7 +137,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:201108
+main.ts:213704
 
 ***
 
@@ -154,7 +156,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:201119
+main.ts:213715
 
 ***
 
@@ -170,7 +172,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:201064
+main.ts:213660
 
 ***
 
@@ -187,7 +189,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:201114
+main.ts:213710
 
 ***
 
@@ -205,7 +207,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:201105
+main.ts:213701
 
 ***
 
@@ -221,7 +223,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Defined in
 
-main.ts:201129
+main.ts:213725
 
 ***
 
@@ -240,7 +242,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Defined in
 
-main.ts:201137
+main.ts:213733
 
 ***
 
@@ -258,7 +260,7 @@ example:
 
 #### Defined in
 
-main.ts:201123
+main.ts:213719
 
 ***
 
@@ -275,7 +277,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Defined in
 
-main.ts:201132
+main.ts:213728
 
 ***
 
@@ -293,7 +295,7 @@ example:
 
 #### Defined in
 
-main.ts:201127
+main.ts:213723
 
 ***
 
@@ -309,7 +311,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:201089
+main.ts:213685
 
 ***
 
@@ -325,7 +327,7 @@ phone number of the business entity
 
 #### Defined in
 
-main.ts:201087
+main.ts:213683
 
 ***
 
@@ -343,7 +345,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:201085
+main.ts:213681
 
 ***
 
@@ -361,7 +363,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:201101
+main.ts:213697
 
 ***
 
@@ -381,7 +383,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21311
+main.ts:22209
 
 ***
 
@@ -402,7 +404,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21309
+main.ts:22207
 
 ***
 
@@ -419,7 +421,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:201072
+main.ts:213668
 
 ***
 
@@ -440,7 +442,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:201075
+main.ts:213671
 
 ***
 
@@ -456,7 +458,7 @@ additional information about the business entity
 
 #### Defined in
 
-main.ts:201077
+main.ts:213673
 
 ***
 
@@ -473,7 +475,7 @@ can take the following values: At this place, Directory
 
 #### Defined in
 
-main.ts:201067
+main.ts:213663
 
 ***
 
@@ -489,7 +491,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:201091
+main.ts:213687
 
 ***
 
@@ -509,7 +511,7 @@ type of element
 
 #### Defined in
 
-main.ts:21306
+main.ts:22204
 
 ***
 
@@ -525,13 +527,13 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:201069
+main.ts:213665
 
 ***
 
 ### work\_hours?
 
-> `optional` **work\_hours**: [`WorkInfo`](WorkInfo.md)
+> `optional` **work\_hours**: [`WorkHours`](WorkHours.md)
 
 open hours
 information about work hours of the local establishment
@@ -542,7 +544,7 @@ information about work hours of the local establishment
 
 #### Defined in
 
-main.ts:201111
+main.ts:213707
 
 ## Methods
 
@@ -552,7 +554,9 @@ main.ts:201111
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -564,7 +568,7 @@ main.ts:201111
 
 #### Defined in
 
-main.ts:201146
+main.ts:213742
 
 ***
 
@@ -574,7 +578,9 @@ main.ts:201146
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -586,7 +592,7 @@ main.ts:201146
 
 #### Defined in
 
-main.ts:201206
+main.ts:213802
 
 ***
 
@@ -596,7 +602,9 @@ main.ts:201206
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -608,4 +616,4 @@ main.ts:201206
 
 #### Defined in
 
-main.ts:201199
+main.ts:213795

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IQueriesListDataItemInfo
+[Documentation](../README.md) / IQueriesListDataItemInfo
 
 # Interface: IQueriesListDataItemInfo
 
@@ -20,7 +20,7 @@ related query
 
 #### Defined in
 
-main.ts:124150
+main.ts:134399
 
 ***
 
@@ -33,4 +33,4 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:124153
+main.ts:134402

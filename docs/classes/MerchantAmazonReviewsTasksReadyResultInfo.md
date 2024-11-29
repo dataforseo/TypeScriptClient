@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonReviewsTasksReadyResultInfo
+[Documentation](../README.md) / MerchantAmazonReviewsTasksReadyResultInfo
 
 # Class: MerchantAmazonReviewsTasksReadyResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonReviewsTasksReadyResultInfo`](../interfaces/IMerchantAmazonReviewsTasksReadyResultInfo.md)
+##### data?
+
+[`IMerchantAmazonReviewsTasksReadyResultInfo`](../interfaces/IMerchantAmazonReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:184807
+main.ts:197119
 
 ## Properties
 
@@ -46,7 +48,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:184797
+main.ts:197109
 
 ***
 
@@ -62,7 +64,7 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 #### Defined in
 
-main.ts:184801
+main.ts:197113
 
 ***
 
@@ -78,7 +80,7 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 #### Defined in
 
-main.ts:184803
+main.ts:197115
 
 ***
 
@@ -95,7 +97,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:184791
+main.ts:197103
 
 ***
 
@@ -111,7 +113,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:184793
+main.ts:197105
 
 ***
 
@@ -127,7 +129,7 @@ type of search engine
 
 #### Defined in
 
-main.ts:184795
+main.ts:197107
 
 ***
 
@@ -143,7 +145,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:184799
+main.ts:197111
 
 ## Methods
 
@@ -153,7 +155,9 @@ main.ts:184799
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -161,7 +165,7 @@ main.ts:184799
 
 #### Defined in
 
-main.ts:184816
+main.ts:197128
 
 ***
 
@@ -171,7 +175,9 @@ main.ts:184816
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -179,7 +185,7 @@ main.ts:184816
 
 #### Defined in
 
-main.ts:184839
+main.ts:197151
 
 ***
 
@@ -189,7 +195,9 @@ main.ts:184839
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -197,4 +205,4 @@ main.ts:184839
 
 #### Defined in
 
-main.ts:184832
+main.ts:197144

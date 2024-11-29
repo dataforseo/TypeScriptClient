@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesNewLostSummaryLiveResultInfo
+[Documentation](../README.md) / BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesNewLostSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveResultInfo.md)
+##### data?
+
+[`IBacklinksTimeseriesNewLostSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:148805
+main.ts:160010
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:148790
+main.ts:159995
 
 ***
 
@@ -68,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:148795
+main.ts:160000
 
 ***
 
@@ -84,7 +86,7 @@ group_range from the POST array
 
 #### Defined in
 
-main.ts:148797
+main.ts:160002
 
 ***
 
@@ -100,7 +102,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:148801
+main.ts:160006
 
 ***
 
@@ -116,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:148799
+main.ts:160004
 
 ***
 
@@ -132,7 +134,7 @@ target from a POST array
 
 #### Defined in
 
-main.ts:148785
+main.ts:159990
 
 ## Methods
 
@@ -142,7 +144,9 @@ main.ts:148785
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -150,7 +154,7 @@ main.ts:148785
 
 #### Defined in
 
-main.ts:148814
+main.ts:160019
 
 ***
 
@@ -160,7 +164,9 @@ main.ts:148814
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -168,7 +174,7 @@ main.ts:148814
 
 #### Defined in
 
-main.ts:148840
+main.ts:160045
 
 ***
 
@@ -178,7 +184,9 @@ main.ts:148840
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -186,4 +194,4 @@ main.ts:148840
 
 #### Defined in
 
-main.ts:148833
+main.ts:160038

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:127650
+main.ts:137909
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:127642
+main.ts:137901
 
 ***
 
@@ -65,7 +67,7 @@ contains keyword popularity and related data
 
 #### Defined in
 
-main.ts:127646
+main.ts:137905
 
 ***
 
@@ -81,7 +83,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:127644
+main.ts:137903
 
 ***
 
@@ -97,7 +99,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:127629
+main.ts:137888
 
 ***
 
@@ -114,7 +116,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127637
+main.ts:137896
 
 ***
 
@@ -131,7 +133,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127634
+main.ts:137893
 
 ***
 
@@ -147,7 +149,7 @@ type of element
 
 #### Defined in
 
-main.ts:127631
+main.ts:137890
 
 ## Methods
 
@@ -157,7 +159,9 @@ main.ts:127631
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +169,7 @@ main.ts:127631
 
 #### Defined in
 
-main.ts:127659
+main.ts:137918
 
 ***
 
@@ -175,7 +179,9 @@ main.ts:127659
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -183,7 +189,7 @@ main.ts:127659
 
 #### Defined in
 
-main.ts:127690
+main.ts:137949
 
 ***
 
@@ -193,7 +199,9 @@ main.ts:127690
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -201,4 +209,4 @@ main.ts:127690
 
 #### Defined in
 
-main.ts:127683
+main.ts:137942

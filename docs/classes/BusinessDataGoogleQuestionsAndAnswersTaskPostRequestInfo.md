@@ -1,14 +1,10 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
-
-## Extends
-
-- [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
 ## Implements
 
@@ -26,19 +22,17 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`constructor`](BusinessDataTaskRequestInfo.md#constructors)
-
 #### Defined in
 
-main.ts:209027
+main.ts:223834
 
 ## Properties
 
@@ -61,7 +55,7 @@ if the specified depth is higher than the number of questions in the response, t
 
 #### Defined in
 
-main.ts:209023
+main.ts:223802
 
 ***
 
@@ -72,9 +66,9 @@ main.ts:209023
 keyword
 required field
 the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”; 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -84,18 +78,15 @@ cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
 spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#keyword)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`keyword`](BusinessDataTaskRequestInfo.md#keyword)
-
 #### Defined in
 
-main.ts:192880
+main.ts:223747
 
 ***
 
@@ -114,13 +105,9 @@ en
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#language_code)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_code`](BusinessDataTaskRequestInfo.md#language_code)
-
 #### Defined in
 
-main.ts:192926
+main.ts:223793
 
 ***
 
@@ -139,13 +126,9 @@ English
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#language_name)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_name`](BusinessDataTaskRequestInfo.md#language_name)
-
 #### Defined in
 
-main.ts:192919
+main.ts:223786
 
 ***
 
@@ -164,13 +147,9 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#location_code)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_code`](BusinessDataTaskRequestInfo.md#location_code)
-
 #### Defined in
 
-main.ts:192902
+main.ts:223769
 
 ***
 
@@ -192,13 +171,9 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#location_coordinate)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_coordinate`](BusinessDataTaskRequestInfo.md#location_coordinate)
-
 #### Defined in
 
-main.ts:192912
+main.ts:223779
 
 ***
 
@@ -217,13 +192,9 @@ London,England,United Kingdom
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#location_name)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_name`](BusinessDataTaskRequestInfo.md#location_name)
-
 #### Defined in
 
-main.ts:192895
+main.ts:223762
 
 ***
 
@@ -238,20 +209,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#pingback_url)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`pingback_url`](BusinessDataTaskRequestInfo.md#pingback_url)
-
 #### Defined in
 
-main.ts:192952
+main.ts:223830
 
 ***
 
@@ -266,20 +234,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#postback_url)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`postback_url`](BusinessDataTaskRequestInfo.md#postback_url)
-
 #### Defined in
 
-main.ts:192942
+main.ts:223819
 
 ***
 
@@ -299,13 +264,9 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#priority)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`priority`](BusinessDataTaskRequestInfo.md#priority)
-
 #### Defined in
 
-main.ts:192888
+main.ts:223755
 
 ***
 
@@ -323,13 +284,9 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md#tag)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`tag`](BusinessDataTaskRequestInfo.md#tag)
-
 #### Defined in
 
-main.ts:192932
+main.ts:223808
 
 ## Methods
 
@@ -339,19 +296,17 @@ main.ts:192932
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`init`](BusinessDataTaskRequestInfo.md#init)
-
 #### Defined in
 
-main.ts:209031
+main.ts:223843
 
 ***
 
@@ -361,19 +316,17 @@ main.ts:209031
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`toJSON`](BusinessDataTaskRequestInfo.md#tojson)
-
 #### Defined in
 
-main.ts:209049
+main.ts:223870
 
 ***
 
@@ -383,16 +336,14 @@ main.ts:209049
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo.md)
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`fromJS`](BusinessDataTaskRequestInfo.md#fromjs)
-
 #### Defined in
 
-main.ts:209042
+main.ts:223863

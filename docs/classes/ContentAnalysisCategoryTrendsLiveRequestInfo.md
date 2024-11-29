@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisCategoryTrendsLiveRequestInfo
+[Documentation](../README.md) / ContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Class: ContentAnalysisCategoryTrendsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md)
+##### data?
+
+[`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:168960
+main.ts:180549
 
 ## Properties
 
@@ -48,7 +50,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:168891
+main.ts:180480
 
 ***
 
@@ -68,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:168921
+main.ts:180510
 
 ***
 
@@ -87,7 +89,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:168933
+main.ts:180522
 
 ***
 
@@ -108,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:168928
+main.ts:180517
 
 ***
 
@@ -139,7 +141,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:168950
+main.ts:180539
 
 ***
 
@@ -164,7 +166,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:168915
+main.ts:180504
 
 ***
 
@@ -184,7 +186,7 @@ possible values:
 
 #### Defined in
 
-main.ts:168897
+main.ts:180486
 
 ***
 
@@ -205,7 +207,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:168904
+main.ts:180493
 
 ***
 
@@ -225,7 +227,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:168956
+main.ts:180545
 
 ## Methods
 
@@ -235,7 +237,9 @@ main.ts:168956
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -243,7 +247,7 @@ main.ts:168956
 
 #### Defined in
 
-main.ts:168969
+main.ts:180558
 
 ***
 
@@ -253,7 +257,9 @@ main.ts:168969
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -261,7 +267,7 @@ main.ts:168969
 
 #### Defined in
 
-main.ts:169002
+main.ts:180591
 
 ***
 
@@ -271,7 +277,9 @@ main.ts:169002
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -279,4 +287,4 @@ main.ts:169002
 
 #### Defined in
 
-main.ts:168995
+main.ts:180584

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILastModified
+[Documentation](../README.md) / ILastModified
 
 # Interface: ILastModified
 
@@ -24,7 +24,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:155152
+main.ts:166779
 
 ***
 
@@ -40,7 +40,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:155164
+main.ts:166791
 
 ***
 
@@ -56,4 +56,4 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:155158
+main.ts:166785

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:76616
+main.ts:86322
 
 ## Properties
 
@@ -46,7 +48,7 @@ items array
 
 #### Defined in
 
-main.ts:76612
+main.ts:86318
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:76608
+main.ts:86314
 
 ***
 
@@ -78,7 +80,7 @@ offset in the results array of returned domains
 
 #### Defined in
 
-main.ts:76610
+main.ts:86316
 
 ***
 
@@ -94,7 +96,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:76606
+main.ts:86312
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:76606
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:76606
 
 #### Defined in
 
-main.ts:76625
+main.ts:86331
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:76625
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:76625
 
 #### Defined in
 
-main.ts:76649
+main.ts:86355
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:76649
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:76649
 
 #### Defined in
 
-main.ts:76642
+main.ts:86348

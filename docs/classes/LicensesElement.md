@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LicensesElement
+[Documentation](../README.md) / LicensesElement
 
 # Class: LicensesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILicensesElement`](../interfaces/ILicensesElement.md)
+##### data?
+
+[`ILicensesElement`](../interfaces/ILicensesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:34152
+main.ts:22146
 
 ## Properties
 
@@ -38,7 +40,7 @@ main.ts:34152
 
 > `optional` **domain**: `string`
 
-website domain
+domain in SERP
 
 #### Implementation of
 
@@ -46,7 +48,7 @@ website domain
 
 #### Defined in
 
-main.ts:34148
+main.ts:22142
 
 ***
 
@@ -54,7 +56,7 @@ main.ts:34148
 
 > `optional` **title**: `string`
 
-title of a given link element
+title of the element
 
 #### Implementation of
 
@@ -62,7 +64,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34144
+main.ts:22138
 
 ***
 
@@ -78,7 +80,7 @@ type of element
 
 #### Defined in
 
-main.ts:34142
+main.ts:22136
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:34142
 
 > `optional` **url**: `string`
 
-URL
+search URL with refinement parameters
 
 #### Implementation of
 
@@ -94,7 +96,7 @@ URL
 
 #### Defined in
 
-main.ts:34146
+main.ts:22140
 
 ## Methods
 
@@ -104,7 +106,9 @@ main.ts:34146
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -112,7 +116,7 @@ main.ts:34146
 
 #### Defined in
 
-main.ts:34161
+main.ts:22155
 
 ***
 
@@ -122,7 +126,9 @@ main.ts:34161
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +136,7 @@ main.ts:34161
 
 #### Defined in
 
-main.ts:34181
+main.ts:22175
 
 ***
 
@@ -140,7 +146,9 @@ main.ts:34181
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -148,4 +156,4 @@ main.ts:34181
 
 #### Defined in
 
-main.ts:34174
+main.ts:22168

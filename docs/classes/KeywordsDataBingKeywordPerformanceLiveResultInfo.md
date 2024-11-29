@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceLiveResultInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceLiveResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:133704
+main.ts:145555
 
 ## Properties
 
@@ -46,7 +48,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:133683
+main.ts:145534
 
 ***
 
@@ -63,7 +65,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133700
+main.ts:145551
 
 ***
 
@@ -80,7 +82,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133689
+main.ts:145540
 
 ***
 
@@ -97,7 +99,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133686
+main.ts:145537
 
 ***
 
@@ -115,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:133697
+main.ts:145548
 
 ***
 
@@ -133,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:133693
+main.ts:145544
 
 ## Methods
 
@@ -143,7 +145,9 @@ main.ts:133693
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -151,7 +155,7 @@ main.ts:133693
 
 #### Defined in
 
-main.ts:133713
+main.ts:145564
 
 ***
 
@@ -161,7 +165,9 @@ main.ts:133713
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -169,7 +175,7 @@ main.ts:133713
 
 #### Defined in
 
-main.ts:133735
+main.ts:145586
 
 ***
 
@@ -179,7 +185,9 @@ main.ts:133735
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -187,4 +195,4 @@ main.ts:133735
 
 #### Defined in
 
-main.ts:133728
+main.ts:145579

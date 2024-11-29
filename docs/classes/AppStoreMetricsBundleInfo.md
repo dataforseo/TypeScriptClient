@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppStoreMetricsBundleInfo
+[Documentation](../README.md) / AppStoreMetricsBundleInfo
 
 # Class: AppStoreMetricsBundleInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md)
+##### data?
+
+[`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:115110
+main.ts:124282
 
 ## Properties
 
@@ -46,7 +48,7 @@ ranking data from App Store organic search
 
 #### Defined in
 
-main.ts:115106
+main.ts:124278
 
 ## Methods
 
@@ -56,7 +58,9 @@ main.ts:115106
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -64,7 +68,7 @@ main.ts:115106
 
 #### Defined in
 
-main.ts:115119
+main.ts:124291
 
 ***
 
@@ -74,7 +78,9 @@ main.ts:115119
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +88,7 @@ main.ts:115119
 
 #### Defined in
 
-main.ts:115136
+main.ts:124308
 
 ***
 
@@ -92,7 +98,9 @@ main.ts:115136
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -100,4 +108,4 @@ main.ts:115136
 
 #### Defined in
 
-main.ts:115129
+main.ts:124301

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixPriceData
+[Documentation](../README.md) / AppendixPriceData
 
 # Class: AppendixPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md)
+##### data?
+
+[`IAppendixPriceData`](../interfaces/IAppendixPriceData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:223579
+main.ts:238766
 
 ## Properties
 
@@ -44,7 +46,7 @@ main.ts:223579
 
 #### Defined in
 
-main.ts:223568
+main.ts:238755
 
 ***
 
@@ -58,7 +60,7 @@ main.ts:223568
 
 #### Defined in
 
-main.ts:223567
+main.ts:238754
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:223567
 
 #### Defined in
 
-main.ts:223569
+main.ts:238756
 
 ***
 
@@ -86,7 +88,7 @@ main.ts:223569
 
 #### Defined in
 
-main.ts:223570
+main.ts:238757
 
 ***
 
@@ -100,7 +102,7 @@ main.ts:223570
 
 #### Defined in
 
-main.ts:223571
+main.ts:238758
 
 ***
 
@@ -114,7 +116,7 @@ main.ts:223571
 
 #### Defined in
 
-main.ts:223572
+main.ts:238759
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:223572
 
 #### Defined in
 
-main.ts:223573
+main.ts:238760
 
 ***
 
@@ -142,7 +144,7 @@ main.ts:223573
 
 #### Defined in
 
-main.ts:223574
+main.ts:238761
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:223574
 
 #### Defined in
 
-main.ts:223564
+main.ts:238751
 
 ***
 
@@ -170,7 +172,7 @@ main.ts:223564
 
 #### Defined in
 
-main.ts:223565
+main.ts:238752
 
 ***
 
@@ -184,7 +186,7 @@ main.ts:223565
 
 #### Defined in
 
-main.ts:223575
+main.ts:238762
 
 ***
 
@@ -198,7 +200,7 @@ main.ts:223575
 
 #### Defined in
 
-main.ts:223566
+main.ts:238753
 
 ## Methods
 
@@ -208,7 +210,9 @@ main.ts:223566
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,7 +220,7 @@ main.ts:223566
 
 #### Defined in
 
-main.ts:223588
+main.ts:238775
 
 ***
 
@@ -226,7 +230,9 @@ main.ts:223588
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -234,7 +240,7 @@ main.ts:223588
 
 #### Defined in
 
-main.ts:223616
+main.ts:238803
 
 ***
 
@@ -244,7 +250,9 @@ main.ts:223616
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -252,4 +260,4 @@ main.ts:223616
 
 #### Defined in
 
-main.ts:223609
+main.ts:238796

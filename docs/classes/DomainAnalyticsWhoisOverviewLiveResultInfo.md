@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsWhoisOverviewLiveResultInfo
+[Documentation](../README.md) / DomainAnalyticsWhoisOverviewLiveResultInfo
 
 # Class: DomainAnalyticsWhoisOverviewLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:80040
+main.ts:89752
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:80036
+main.ts:89748
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:80034
+main.ts:89746
 
 ***
 
@@ -78,7 +80,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:80032
+main.ts:89744
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:80032
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:80032
 
 #### Defined in
 
-main.ts:80049
+main.ts:89761
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:80049
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:80049
 
 #### Defined in
 
-main.ts:80072
+main.ts:89784
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:80072
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:80072
 
 #### Defined in
 
-main.ts:80065
+main.ts:89777

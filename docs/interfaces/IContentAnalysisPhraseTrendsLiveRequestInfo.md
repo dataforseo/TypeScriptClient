@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisPhraseTrendsLiveRequestInfo
+[Documentation](../README.md) / IContentAnalysisPhraseTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisPhraseTrendsLiveRequestInfo
 
@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:168507
+main.ts:180096
 
 ***
 
@@ -39,7 +39,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:168519
+main.ts:180108
 
 ***
 
@@ -56,7 +56,7 @@ example:
 
 #### Defined in
 
-main.ts:168514
+main.ts:180103
 
 ***
 
@@ -83,7 +83,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:168536
+main.ts:180125
 
 ***
 
@@ -104,7 +104,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:168501
+main.ts:180090
 
 ***
 
@@ -115,15 +115,15 @@ main.ts:168501
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:168465
+main.ts:180054
 
 ***
 
@@ -149,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:168477
+main.ts:180066
 
 ***
 
@@ -165,7 +165,7 @@ possible values:
 
 #### Defined in
 
-main.ts:168483
+main.ts:180072
 
 ***
 
@@ -182,7 +182,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:168490
+main.ts:180079
 
 ***
 
@@ -198,4 +198,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:168542
+main.ts:180131

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleImageRelatedSearchesSerpElementItem
+[Documentation](../README.md) / GoogleImageRelatedSearchesSerpElementItem
 
 # Class: GoogleImageRelatedSearchesSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IGoogleImageRelatedSearchesSerpElementItem`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md)
+##### data?
+
+[`IGoogleImageRelatedSearchesSerpElementItem`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:47823
+main.ts:50984
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:47823
 
 #### Defined in
 
-main.ts:47581
+main.ts:50742
 
 ***
 
@@ -60,7 +62,7 @@ main.ts:47581
 
 > `optional` **items**: `string`[]
 
-elements of search results found in SERP
+items of the element
 
 #### Implementation of
 
@@ -68,7 +70,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:47815
+main.ts:50976
 
 ***
 
@@ -86,7 +88,7 @@ left, right
 
 #### Defined in
 
-main.ts:47813
+main.ts:50974
 
 ***
 
@@ -107,7 +109,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47577
+main.ts:50738
 
 ***
 
@@ -129,7 +131,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47574
+main.ts:50735
 
 ***
 
@@ -147,7 +149,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:47819
+main.ts:50980
 
 ***
 
@@ -167,7 +169,7 @@ type of element
 
 #### Defined in
 
-main.ts:47570
+main.ts:50731
 
 ***
 
@@ -187,7 +189,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47579
+main.ts:50740
 
 ## Methods
 
@@ -197,7 +199,9 @@ main.ts:47579
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -209,7 +213,7 @@ main.ts:47579
 
 #### Defined in
 
-main.ts:47828
+main.ts:50989
 
 ***
 
@@ -219,7 +223,9 @@ main.ts:47828
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -231,7 +237,7 @@ main.ts:47828
 
 #### Defined in
 
-main.ts:47852
+main.ts:51013
 
 ***
 
@@ -241,7 +247,9 @@ main.ts:47852
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -253,4 +261,4 @@ main.ts:47852
 
 #### Defined in
 
-main.ts:47845
+main.ts:51006

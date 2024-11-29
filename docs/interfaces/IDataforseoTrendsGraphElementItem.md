@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoTrendsGraphElementItem
+[Documentation](../README.md) / IDataforseoTrendsGraphElementItem
 
 # Interface: IDataforseoTrendsGraphElementItem
 
@@ -24,7 +24,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:125686
+main.ts:135939
 
 ***
 
@@ -36,7 +36,7 @@ DataForSEO Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:125684
+main.ts:135937
 
 ***
 
@@ -53,7 +53,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21967
+main.ts:22865
 
 ***
 
@@ -70,7 +70,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21964
+main.ts:22862
 
 ***
 
@@ -86,4 +86,4 @@ type of element
 
 #### Defined in
 
-main.ts:21961
+main.ts:22859

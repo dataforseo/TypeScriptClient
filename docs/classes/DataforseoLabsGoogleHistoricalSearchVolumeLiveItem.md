@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:85909
+main.ts:95625
 
 ## Properties
 
@@ -47,13 +49,13 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:85905
+main.ts:95621
 
 ***
 
 ### clickstream\_keyword\_info?
 
-> `optional` **clickstream\_keyword\_info**: `any`
+> `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -64,7 +66,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Defined in
 
-main.ts:85891
+main.ts:95607
 
 ***
 
@@ -84,7 +86,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:85899
+main.ts:95615
 
 ***
 
@@ -93,7 +95,7 @@ main.ts:85899
 > `optional` **keyword**: `string`
 
 keyword
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -101,7 +103,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:85873
+main.ts:95589
 
 ***
 
@@ -117,7 +119,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:85884
+main.ts:95600
 
 ***
 
@@ -133,7 +135,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:85886
+main.ts:95602
 
 ***
 
@@ -149,7 +151,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:85888
+main.ts:95604
 
 ***
 
@@ -165,7 +167,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:85893
+main.ts:95609
 
 ***
 
@@ -181,7 +183,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:85878
+main.ts:95594
 
 ***
 
@@ -198,7 +200,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:85876
+main.ts:95592
 
 ***
 
@@ -214,7 +216,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85870
+main.ts:95586
 
 ***
 
@@ -232,7 +234,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:85882
+main.ts:95598
 
 ***
 
@@ -249,7 +251,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:85902
+main.ts:95618
 
 ## Methods
 
@@ -259,7 +261,9 @@ main.ts:85902
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +271,7 @@ main.ts:85902
 
 #### Defined in
 
-main.ts:85918
+main.ts:95634
 
 ***
 
@@ -277,7 +281,9 @@ main.ts:85918
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -285,7 +291,7 @@ main.ts:85918
 
 #### Defined in
 
-main.ts:85947
+main.ts:95663
 
 ***
 
@@ -295,7 +301,9 @@ main.ts:85947
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -303,4 +311,4 @@ main.ts:85947
 
 #### Defined in
 
-main.ts:85940
+main.ts:95656

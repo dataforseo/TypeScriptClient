@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksHistoryLiveItem
+[Documentation](../README.md) / BacklinksHistoryLiveItem
 
 # Class: BacklinksHistoryLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md)
+##### data?
+
+[`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:139662
+main.ts:150867
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of backlinks
 
 #### Defined in
 
-main.ts:139581
+main.ts:150786
 
 ***
 
@@ -63,7 +65,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139614
+main.ts:150819
 
 ***
 
@@ -80,7 +82,7 @@ number of pages that receive backlinks but respond with 4xx or 5xx status codes
 
 #### Defined in
 
-main.ts:139617
+main.ts:150822
 
 ***
 
@@ -96,7 +98,7 @@ number of crawled pages for the target
 
 #### Defined in
 
-main.ts:139603
+main.ts:150808
 
 ***
 
@@ -115,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:139576
+main.ts:150781
 
 ***
 
@@ -132,7 +134,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139611
+main.ts:150816
 
 ***
 
@@ -148,7 +150,7 @@ information about the target
 
 #### Defined in
 
-main.ts:139605
+main.ts:150810
 
 ***
 
@@ -165,7 +167,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139608
+main.ts:150813
 
 ***
 
@@ -184,7 +186,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139591
+main.ts:150796
 
 ***
 
@@ -203,7 +205,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139601
+main.ts:150806
 
 ***
 
@@ -222,7 +224,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139586
+main.ts:150791
 
 ***
 
@@ -241,7 +243,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139596
+main.ts:150801
 
 ***
 
@@ -258,7 +260,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:139579
+main.ts:150784
 
 ***
 
@@ -275,7 +277,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:139620
+main.ts:150825
 
 ***
 
@@ -291,7 +293,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139622
+main.ts:150827
 
 ***
 
@@ -308,7 +310,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:139629
+main.ts:150834
 
 ***
 
@@ -329,7 +331,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:139646
+main.ts:150851
 
 ***
 
@@ -350,7 +352,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:139658
+main.ts:150863
 
 ***
 
@@ -371,7 +373,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:139649
+main.ts:150854
 
 ***
 
@@ -395,7 +397,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:139655
+main.ts:150860
 
 ***
 
@@ -416,7 +418,7 @@ contains top-level domains and referring link count per each
 
 #### Defined in
 
-main.ts:139638
+main.ts:150843
 
 ***
 
@@ -439,7 +441,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:139643
+main.ts:150848
 
 ***
 
@@ -455,7 +457,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:139624
+main.ts:150829
 
 ***
 
@@ -471,7 +473,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139626
+main.ts:150831
 
 ***
 
@@ -487,7 +489,7 @@ number of pages pointing to the target
 
 #### Defined in
 
-main.ts:139633
+main.ts:150838
 
 ***
 
@@ -503,7 +505,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139635
+main.ts:150840
 
 ***
 
@@ -519,7 +521,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:139631
+main.ts:150836
 
 ***
 
@@ -535,7 +537,7 @@ type of element
 
 #### Defined in
 
-main.ts:139571
+main.ts:150776
 
 ## Methods
 
@@ -545,7 +547,9 @@ main.ts:139571
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -553,7 +557,7 @@ main.ts:139571
 
 #### Defined in
 
-main.ts:139671
+main.ts:150876
 
 ***
 
@@ -563,7 +567,9 @@ main.ts:139671
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -571,7 +577,7 @@ main.ts:139671
 
 #### Defined in
 
-main.ts:139751
+main.ts:150956
 
 ***
 
@@ -581,7 +587,9 @@ main.ts:139751
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -589,4 +597,4 @@ main.ts:139751
 
 #### Defined in
 
-main.ts:139744
+main.ts:150949

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentItemInfo
+[Documentation](../README.md) / IContentItemInfo
 
 # Interface: IContentItemInfo
 
@@ -20,7 +20,7 @@ content text
 
 #### Defined in
 
-main.ts:161359
+main.ts:172972
 
 ***
 
@@ -33,7 +33,7 @@ displayed in case the text is a link anchor
 
 #### Defined in
 
-main.ts:161362
+main.ts:172975
 
 ***
 
@@ -45,4 +45,4 @@ contains other URLs and anchors found in the content element
 
 #### Defined in
 
-main.ts:161364
+main.ts:172977

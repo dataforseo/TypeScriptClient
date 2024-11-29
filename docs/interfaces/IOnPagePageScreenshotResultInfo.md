@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPagePageScreenshotResultInfo
+[Documentation](../README.md) / IOnPagePageScreenshotResultInfo
 
 # Interface: IOnPagePageScreenshotResultInfo
 
@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:161044
+main.ts:172657
 
 ***
 
@@ -35,7 +35,7 @@ if no error is encountered, the value will be null
 
 #### Defined in
 
-main.ts:161048
+main.ts:172661
 
 ***
 
@@ -47,7 +47,7 @@ items array
 
 #### Defined in
 
-main.ts:161052
+main.ts:172665
 
 ***
 
@@ -59,4 +59,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:161050
+main.ts:172663

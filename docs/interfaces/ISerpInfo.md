@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpInfo
+[Documentation](../README.md) / ISerpInfo
 
 # Interface: ISerpInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:83289
+main.ts:93001
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:83302
+main.ts:93014
 
 ***
 
@@ -51,19 +51,19 @@ example:
 
 #### Defined in
 
-main.ts:83307
+main.ts:93019
 
 ***
 
 ### se\_results\_count?
 
-> `optional` **se\_results\_count**: `string`
+> `optional` **se\_results\_count**: `number`
 
 number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:83297
+main.ts:93009
 
 ***
 
@@ -75,7 +75,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83286
+main.ts:92998
 
 ***
 
@@ -91,4 +91,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:83295
+main.ts:93007

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveItem
 
@@ -22,7 +22,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:104257
+main.ts:113895
 
 ***
 
@@ -34,7 +34,7 @@ average keyword position of the product
 
 #### Defined in
 
-main.ts:104259
+main.ts:113897
 
 ***
 
@@ -46,4 +46,4 @@ search engine type
 
 #### Defined in
 
-main.ts:104253
+main.ts:113891

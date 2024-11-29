@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixKeywordsDataDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixKeywordsDataDayStatisticsRatesData
 
 # Interface: IAppendixKeywordsDataDayStatisticsRatesData
 
@@ -18,7 +18,17 @@
 
 #### Defined in
 
-main.ts:218477
+main.ts:233472
+
+***
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixInfo`](../classes/AppendixInfo.md)
+
+#### Defined in
+
+main.ts:233485
 
 ***
 
@@ -28,7 +38,7 @@ main.ts:218477
 
 #### Defined in
 
-main.ts:218484
+main.ts:233479
 
 ***
 
@@ -38,7 +48,7 @@ main.ts:218484
 
 #### Defined in
 
-main.ts:218482
+main.ts:233477
 
 ***
 
@@ -48,7 +58,7 @@ main.ts:218482
 
 #### Defined in
 
-main.ts:218489
+main.ts:233484
 
 ***
 
@@ -58,7 +68,7 @@ main.ts:218489
 
 #### Defined in
 
-main.ts:218488
+main.ts:233483
 
 ***
 
@@ -68,7 +78,7 @@ main.ts:218488
 
 #### Defined in
 
-main.ts:218483
+main.ts:233478
 
 ***
 
@@ -78,7 +88,7 @@ main.ts:218483
 
 #### Defined in
 
-main.ts:218481
+main.ts:233476
 
 ***
 
@@ -88,7 +98,7 @@ main.ts:218481
 
 #### Defined in
 
-main.ts:218490
+main.ts:233490
 
 ***
 
@@ -98,7 +108,7 @@ main.ts:218490
 
 #### Defined in
 
-main.ts:218487
+main.ts:233482
 
 ***
 
@@ -108,7 +118,27 @@ main.ts:218487
 
 #### Defined in
 
-main.ts:218491
+main.ts:233487
+
+***
+
+### industries?
+
+> `optional` **industries**: `number`
+
+#### Defined in
+
+main.ts:233488
+
+***
+
+### job\_functions?
+
+> `optional` **job\_functions**: `number`
+
+#### Defined in
+
+main.ts:233491
 
 ***
 
@@ -118,7 +148,17 @@ main.ts:218491
 
 #### Defined in
 
-main.ts:218485
+main.ts:233480
+
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:233486
 
 ***
 
@@ -128,7 +168,7 @@ main.ts:218485
 
 #### Defined in
 
-main.ts:218474
+main.ts:233469
 
 ***
 
@@ -138,7 +178,7 @@ main.ts:218474
 
 #### Defined in
 
-main.ts:218475
+main.ts:233470
 
 ***
 
@@ -148,7 +188,7 @@ main.ts:218475
 
 #### Defined in
 
-main.ts:218478
+main.ts:233473
 
 ***
 
@@ -158,7 +198,7 @@ main.ts:218478
 
 #### Defined in
 
-main.ts:218479
+main.ts:233474
 
 ***
 
@@ -168,7 +208,7 @@ main.ts:218479
 
 #### Defined in
 
-main.ts:218486
+main.ts:233481
 
 ***
 
@@ -178,7 +218,7 @@ main.ts:218486
 
 #### Defined in
 
-main.ts:218476
+main.ts:233471
 
 ***
 
@@ -188,7 +228,7 @@ main.ts:218476
 
 #### Defined in
 
-main.ts:218492
+main.ts:233489
 
 ***
 
@@ -198,4 +238,4 @@ main.ts:218492
 
 #### Defined in
 
-main.ts:218480
+main.ts:233475

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksHistoryLiveRequestInfo
+[Documentation](../README.md) / IBacklinksHistoryLiveRequestInfo
 
 # Interface: IBacklinksHistoryLiveRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:139551
+main.ts:150756
 
 ***
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:139558
+main.ts:150763
 
 ***
 
@@ -59,7 +59,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:139564
+main.ts:150769
 
 ***
 
@@ -73,4 +73,4 @@ a domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:139543
+main.ts:150748

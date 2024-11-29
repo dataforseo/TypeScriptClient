@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentGenerationPriceData
+[Documentation](../README.md) / AppendixContentGenerationPriceData
 
 # Class: AppendixContentGenerationPriceData
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md)
+##### data?
+
+[`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:223010
+main.ts:238197
 
 ## Properties
 
@@ -44,13 +46,13 @@ main.ts:223010
 
 #### Defined in
 
-main.ts:223000
+main.ts:238187
 
 ***
 
 ### generate?
 
-> `optional` **generate**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,13 +60,13 @@ main.ts:223000
 
 #### Defined in
 
-main.ts:223001
+main.ts:238188
 
 ***
 
 ### generate\_meta\_tags?
 
-> `optional` **generate\_meta\_tags**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_meta\_tags**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -72,13 +74,13 @@ main.ts:223001
 
 #### Defined in
 
-main.ts:223002
+main.ts:238189
 
 ***
 
 ### generate\_sub\_topics?
 
-> `optional` **generate\_sub\_topics**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_sub\_topics**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -86,13 +88,13 @@ main.ts:223002
 
 #### Defined in
 
-main.ts:223003
+main.ts:238190
 
 ***
 
 ### generate\_text?
 
-> `optional` **generate\_text**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_text**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -100,13 +102,13 @@ main.ts:223003
 
 #### Defined in
 
-main.ts:223004
+main.ts:238191
 
 ***
 
 ### paraphrase?
 
-> `optional` **paraphrase**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **paraphrase**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -114,7 +116,7 @@ main.ts:223004
 
 #### Defined in
 
-main.ts:223005
+main.ts:238192
 
 ***
 
@@ -128,7 +130,7 @@ main.ts:223005
 
 #### Defined in
 
-main.ts:223006
+main.ts:238193
 
 ## Methods
 
@@ -138,7 +140,9 @@ main.ts:223006
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +150,7 @@ main.ts:223006
 
 #### Defined in
 
-main.ts:223019
+main.ts:238206
 
 ***
 
@@ -156,7 +160,9 @@ main.ts:223019
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +170,7 @@ main.ts:223019
 
 #### Defined in
 
-main.ts:223042
+main.ts:238229
 
 ***
 
@@ -174,7 +180,9 @@ main.ts:223042
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -182,4 +190,4 @@ main.ts:223042
 
 #### Defined in
 
-main.ts:223035
+main.ts:238222

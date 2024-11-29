@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonLanguagesResultInfo
+[Documentation](../README.md) / IMerchantAmazonLanguagesResultInfo
 
 # Interface: IMerchantAmazonLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:179804
+main.ts:191545
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:179802
+main.ts:191543

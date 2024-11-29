@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductConsiderationsExpandedElement
+[Documentation](../README.md) / IProductConsiderationsExpandedElement
 
 # Interface: IProductConsiderationsExpandedElement
 
@@ -22,7 +22,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:35213
+main.ts:36698
 
 ***
 
@@ -34,7 +34,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:35196
+main.ts:36681
 
 ***
 
@@ -46,7 +46,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:35200
+main.ts:36685
 
 ***
 
@@ -58,7 +58,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:35194
+main.ts:36679
 
 ***
 
@@ -70,7 +70,7 @@ search queries related to the elment
 
 #### Defined in
 
-main.ts:35209
+main.ts:36694
 
 ***
 
@@ -82,7 +82,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:35198
+main.ts:36683
 
 ***
 
@@ -97,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:35207
+main.ts:36692
 
 ***
 
@@ -109,7 +109,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:35192
+main.ts:36677
 
 ***
 
@@ -121,7 +121,7 @@ type of element
 
 #### Defined in
 
-main.ts:35190
+main.ts:36675
 
 ***
 
@@ -133,4 +133,4 @@ URL of element
 
 #### Defined in
 
-main.ts:35202
+main.ts:36687

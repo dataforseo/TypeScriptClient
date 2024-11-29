@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationCheckGrammarLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationCheckGrammarLiveRequestInfo
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:171100
+main.ts:182689
 
 ## Properties
 
@@ -48,7 +50,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:171086
+main.ts:182675
 
 ***
 
@@ -66,7 +68,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:171090
+main.ts:182679
 
 ***
 
@@ -86,7 +88,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:171096
+main.ts:182685
 
 ***
 
@@ -105,7 +107,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:171082
+main.ts:182671
 
 ## Methods
 
@@ -115,7 +117,9 @@ main.ts:171082
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -123,7 +127,7 @@ main.ts:171082
 
 #### Defined in
 
-main.ts:171109
+main.ts:182698
 
 ***
 
@@ -133,7 +137,9 @@ main.ts:171109
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -141,7 +147,7 @@ main.ts:171109
 
 #### Defined in
 
-main.ts:171129
+main.ts:182718
 
 ***
 
@@ -151,7 +157,9 @@ main.ts:171129
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -159,4 +167,4 @@ main.ts:171129
 
 #### Defined in
 
-main.ts:171122
+main.ts:182711

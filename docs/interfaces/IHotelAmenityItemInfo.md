@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelAmenityItemInfo
+[Documentation](../README.md) / IHotelAmenityItemInfo
 
 # Interface: IHotelAmenityItemInfo
 
@@ -20,7 +20,7 @@ standardised amenity name
 
 #### Defined in
 
-main.ts:205630
+main.ts:218985
 
 ***
 
@@ -32,7 +32,7 @@ displayed amenity name
 
 #### Defined in
 
-main.ts:205632
+main.ts:218987
 
 ***
 
@@ -44,7 +44,7 @@ standardised details about the amenity
 
 #### Defined in
 
-main.ts:205634
+main.ts:218989
 
 ***
 
@@ -56,4 +56,4 @@ displayed details about the amenity
 
 #### Defined in
 
-main.ts:205636
+main.ts:218991

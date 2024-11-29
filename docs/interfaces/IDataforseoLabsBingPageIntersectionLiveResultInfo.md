@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveResultInfo
 
@@ -20,19 +20,19 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:108487
+main.ts:117967
 
 ***
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingPageIntersectionLiveItem`](../classes/DataforseoLabsBingPageIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:108497
+main.ts:117977
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:108495
+main.ts:117975
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:108491
+main.ts:117971
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:108489
+main.ts:117969
 
 ***
 
@@ -84,7 +84,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:108485
+main.ts:117965
 
 ***
 
@@ -98,7 +98,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:108483
+main.ts:117963
 
 ***
 
@@ -110,4 +110,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:108493
+main.ts:117973

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessListingAggregationInfo
+[Documentation](../README.md) / BusinessListingAggregationInfo
 
 # Class: BusinessListingAggregationInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessListingAggregationInfo`](../interfaces/IBusinessListingAggregationInfo.md)
+##### data?
+
+[`IBusinessListingAggregationInfo`](../interfaces/IBusinessListingAggregationInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:199630
+main.ts:211980
 
 ## Properties
 
@@ -46,7 +48,7 @@ number of unique entities
 
 #### Defined in
 
-main.ts:199620
+main.ts:211970
 
 ***
 
@@ -67,7 +69,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Defined in
 
-main.ts:199623
+main.ts:211973
 
 ***
 
@@ -88,7 +90,7 @@ top categories displayed with the number of businesses in each category
 
 #### Defined in
 
-main.ts:199613
+main.ts:211963
 
 ***
 
@@ -109,7 +111,7 @@ country codes with the biggest number of businesses in the category
 
 #### Defined in
 
-main.ts:199616
+main.ts:211966
 
 ***
 
@@ -130,7 +132,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Defined in
 
-main.ts:199626
+main.ts:211976
 
 ***
 
@@ -146,7 +148,7 @@ number of unique websites
 
 #### Defined in
 
-main.ts:199618
+main.ts:211968
 
 ## Methods
 
@@ -156,7 +158,9 @@ main.ts:199618
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -164,7 +168,7 @@ main.ts:199618
 
 #### Defined in
 
-main.ts:199639
+main.ts:211989
 
 ***
 
@@ -174,7 +178,9 @@ main.ts:199639
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -182,7 +188,7 @@ main.ts:199639
 
 #### Defined in
 
-main.ts:199685
+main.ts:212035
 
 ***
 
@@ -192,7 +198,9 @@ main.ts:199685
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -200,4 +208,4 @@ main.ts:199685
 
 #### Defined in
 
-main.ts:199678
+main.ts:212028

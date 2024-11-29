@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
@@ -24,7 +24,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85369
+main.ts:95083
 
 ***
 
@@ -54,7 +54,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:85424
+main.ts:95138
 
 ***
 
@@ -69,7 +69,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85374
+main.ts:95088
 
 ***
 
@@ -79,14 +79,14 @@ main.ts:85374
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:85386
+main.ts:95100
 
 ***
 
@@ -101,7 +101,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85379
+main.ts:95093
 
 ***
 
@@ -113,12 +113,12 @@ keywords
 required field
 UTF-8 encoding
 The maximum number of keywords you can specify: 200.
-The minimum number of characters for each keyword: 3.
 The keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:85329
+main.ts:95043
 
 ***
 
@@ -137,7 +137,7 @@ en
 
 #### Defined in
 
-main.ts:85363
+main.ts:95077
 
 ***
 
@@ -156,7 +156,7 @@ English
 
 #### Defined in
 
-main.ts:85354
+main.ts:95068
 
 ***
 
@@ -171,7 +171,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:85391
+main.ts:95105
 
 ***
 
@@ -189,7 +189,7 @@ example:
 
 #### Defined in
 
-main.ts:85345
+main.ts:95059
 
 ***
 
@@ -207,7 +207,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:85337
+main.ts:95051
 
 ***
 
@@ -222,7 +222,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:85396
+main.ts:95110
 
 ***
 
@@ -240,7 +240,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:85404
+main.ts:95118
 
 ***
 
@@ -267,7 +267,7 @@ example:
 
 #### Defined in
 
-main.ts:85441
+main.ts:95155
 
 ***
 
@@ -283,4 +283,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85447
+main.ts:95161

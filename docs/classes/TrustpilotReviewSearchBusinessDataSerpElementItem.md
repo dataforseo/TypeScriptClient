@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Class: TrustpilotReviewSearchBusinessDataSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md)
+##### data?
+
+[`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:211801
+main.ts:226734
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:211801
 
 #### Defined in
 
-main.ts:21313
+main.ts:22211
 
 ***
 
@@ -68,7 +70,7 @@ the language of the review
 
 #### Defined in
 
-main.ts:211780
+main.ts:226713
 
 ***
 
@@ -85,7 +87,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:211772
+main.ts:226705
 
 ***
 
@@ -105,7 +107,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21311
+main.ts:22209
 
 ***
 
@@ -126,7 +128,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21309
+main.ts:22207
 
 ***
 
@@ -142,7 +144,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:211776
+main.ts:226709
 
 ***
 
@@ -158,7 +160,7 @@ owner’s response to the submitted review
 
 #### Defined in
 
-main.ts:211797
+main.ts:226730
 
 ***
 
@@ -176,7 +178,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Defined in
 
-main.ts:211793
+main.ts:226726
 
 ***
 
@@ -192,7 +194,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:211789
+main.ts:226722
 
 ***
 
@@ -211,7 +213,7 @@ example:
 
 #### Defined in
 
-main.ts:211785
+main.ts:226718
 
 ***
 
@@ -227,7 +229,7 @@ the title of the review
 
 #### Defined in
 
-main.ts:211787
+main.ts:226720
 
 ***
 
@@ -247,7 +249,7 @@ type of element
 
 #### Defined in
 
-main.ts:21306
+main.ts:22204
 
 ***
 
@@ -263,7 +265,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:211774
+main.ts:226707
 
 ***
 
@@ -279,7 +281,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:211795
+main.ts:226728
 
 ***
 
@@ -295,7 +297,7 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-main.ts:211778
+main.ts:226711
 
 ## Methods
 
@@ -305,7 +307,9 @@ main.ts:211778
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -317,7 +321,7 @@ main.ts:211778
 
 #### Defined in
 
-main.ts:211806
+main.ts:226739
 
 ***
 
@@ -327,7 +331,9 @@ main.ts:211806
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -339,7 +345,7 @@ main.ts:211806
 
 #### Defined in
 
-main.ts:211842
+main.ts:226775
 
 ***
 
@@ -349,7 +355,9 @@ main.ts:211842
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -361,4 +369,4 @@ main.ts:211842
 
 #### Defined in
 
-main.ts:211835
+main.ts:226768

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:122012
+main.ts:132255
 
 ## Properties
 
@@ -48,7 +50,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:122000
+main.ts:132243
 
 ***
 
@@ -68,7 +70,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:121984
+main.ts:132227
 
 ***
 
@@ -86,7 +88,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:122008
+main.ts:132251
 
 ***
 
@@ -104,7 +106,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:122004
+main.ts:132247
 
 ***
 
@@ -122,7 +124,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:121996
+main.ts:132239
 
 ***
 
@@ -138,7 +140,7 @@ forecasting date interval in a POST array
 
 #### Defined in
 
-main.ts:121973
+main.ts:132216
 
 ***
 
@@ -157,7 +159,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:121992
+main.ts:132235
 
 ***
 
@@ -173,7 +175,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:121965
+main.ts:132208
 
 ***
 
@@ -190,7 +192,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:121971
+main.ts:132214
 
 ***
 
@@ -207,7 +209,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:121968
+main.ts:132211
 
 ***
 
@@ -224,7 +226,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:121987
+main.ts:132230
 
 ***
 
@@ -243,7 +245,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:121978
+main.ts:132221
 
 ## Methods
 
@@ -253,7 +255,9 @@ main.ts:121978
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -261,7 +265,7 @@ main.ts:121978
 
 #### Defined in
 
-main.ts:122021
+main.ts:132264
 
 ***
 
@@ -271,7 +275,9 @@ main.ts:122021
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -279,7 +285,7 @@ main.ts:122021
 
 #### Defined in
 
-main.ts:122049
+main.ts:132292
 
 ***
 
@@ -289,7 +295,9 @@ main.ts:122049
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -297,4 +305,4 @@ main.ts:122049
 
 #### Defined in
 
-main.ts:122042
+main.ts:132285

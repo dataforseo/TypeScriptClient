@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPagePagesResultInfo
+[Documentation](../README.md) / OnPagePagesResultInfo
 
 # Class: OnPagePagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPagePagesResultInfo`](../interfaces/IOnPagePagesResultInfo.md)
+##### data?
+
+[`IOnPagePagesResultInfo`](../interfaces/IOnPagePagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:155324
+main.ts:166959
 
 ## Properties
 
@@ -47,7 +49,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:155312
+main.ts:166947
 
 ***
 
@@ -63,7 +65,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:155314
+main.ts:166949
 
 ***
 
@@ -79,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:155320
+main.ts:166955
 
 ***
 
@@ -95,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:155318
+main.ts:166953
 
 ***
 
@@ -111,7 +113,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:155316
+main.ts:166951
 
 ## Methods
 
@@ -121,7 +123,9 @@ main.ts:155316
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -129,7 +133,7 @@ main.ts:155316
 
 #### Defined in
 
-main.ts:155333
+main.ts:166968
 
 ***
 
@@ -139,7 +143,9 @@ main.ts:155333
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +153,7 @@ main.ts:155333
 
 #### Defined in
 
-main.ts:155358
+main.ts:166993
 
 ***
 
@@ -157,7 +163,9 @@ main.ts:155358
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -165,4 +173,4 @@ main.ts:155358
 
 #### Defined in
 
-main.ts:155351
+main.ts:166986

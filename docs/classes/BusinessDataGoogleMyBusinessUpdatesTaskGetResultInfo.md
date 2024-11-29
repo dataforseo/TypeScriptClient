@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:202814
+main.ts:215789
 
 ## Properties
 
@@ -46,7 +48,7 @@ identifier of the business updates element in SERP
 
 #### Defined in
 
-main.ts:202792
+main.ts:215767
 
 ***
 
@@ -63,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:202785
+main.ts:215760
 
 ***
 
@@ -81,7 +83,7 @@ learn more about the cid identifier in this help center article
 
 #### Defined in
 
-main.ts:202796
+main.ts:215771
 
 ***
 
@@ -100,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:202790
+main.ts:215765
 
 ***
 
@@ -117,7 +119,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:202799
+main.ts:215774
 
 ***
 
@@ -135,7 +137,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:202803
+main.ts:215778
 
 ***
 
@@ -153,7 +155,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:202810
+main.ts:215785
 
 ***
 
@@ -170,7 +172,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:202806
+main.ts:215781
 
 ***
 
@@ -179,7 +181,7 @@ main.ts:202806
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
@@ -191,7 +193,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:202776
+main.ts:215751
 
 ***
 
@@ -207,7 +209,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:202782
+main.ts:215757
 
 ***
 
@@ -223,7 +225,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:202780
+main.ts:215755
 
 ***
 
@@ -239,7 +241,7 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:202778
+main.ts:215753
 
 ## Methods
 
@@ -249,7 +251,9 @@ main.ts:202778
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -257,7 +261,7 @@ main.ts:202778
 
 #### Defined in
 
-main.ts:202823
+main.ts:215798
 
 ***
 
@@ -267,7 +271,9 @@ main.ts:202823
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -275,7 +281,7 @@ main.ts:202823
 
 #### Defined in
 
-main.ts:202859
+main.ts:215834
 
 ***
 
@@ -285,7 +291,9 @@ main.ts:202859
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -293,4 +301,4 @@ main.ts:202859
 
 #### Defined in
 
-main.ts:202852
+main.ts:215827

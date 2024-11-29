@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:212014
+main.ts:226947
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:212019
+main.ts:226952
 
 ***
 
@@ -48,7 +48,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:212007
+main.ts:226940
 
 ***
 
@@ -61,7 +61,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:212036
+main.ts:226969
 
 ***
 
@@ -74,7 +74,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:212033
+main.ts:226966
 
 ***
 
@@ -87,7 +87,7 @@ address of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:212025
+main.ts:226958
 
 ***
 
@@ -100,7 +100,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:212030
+main.ts:226963
 
 ***
 
@@ -112,7 +112,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:212027
+main.ts:226960
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:212011
+main.ts:226944
 
 ***
 
@@ -137,7 +137,7 @@ the name of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:212022
+main.ts:226955
 
 ***
 
@@ -149,4 +149,4 @@ type of element
 
 #### Defined in
 
-main.ts:212009
+main.ts:226942

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductVariation
+[Documentation](../README.md) / ProductVariation
 
 # Class: ProductVariation
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductVariation`](../interfaces/IProductVariation.md)
+##### data?
+
+[`IProductVariation`](../interfaces/IProductVariation.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:178733
+main.ts:190474
 
 ## Properties
 
@@ -47,7 +49,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178724
+main.ts:190465
 
 ***
 
@@ -63,7 +65,7 @@ name of the product seller
 
 #### Defined in
 
-main.ts:178726
+main.ts:190467
 
 ***
 
@@ -79,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:178721
+main.ts:190462
 
 ***
 
@@ -96,7 +98,7 @@ url of the webpage on the seller’s website where the product is sold
 
 #### Defined in
 
-main.ts:178729
+main.ts:190470
 
 ## Methods
 
@@ -106,7 +108,9 @@ main.ts:178729
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +118,7 @@ main.ts:178729
 
 #### Defined in
 
-main.ts:178742
+main.ts:190483
 
 ***
 
@@ -124,7 +128,9 @@ main.ts:178742
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -132,7 +138,7 @@ main.ts:178742
 
 #### Defined in
 
-main.ts:178762
+main.ts:190503
 
 ***
 
@@ -142,7 +148,9 @@ main.ts:178762
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -150,4 +158,4 @@ main.ts:178762
 
 #### Defined in
 
-main.ts:178755
+main.ts:190496

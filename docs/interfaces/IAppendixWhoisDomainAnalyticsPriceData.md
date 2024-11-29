@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixWhoisDomainAnalyticsPriceData
+[Documentation](../README.md) / IAppendixWhoisDomainAnalyticsPriceData
 
 # Interface: IAppendixWhoisDomainAnalyticsPriceData
 
@@ -14,8 +14,8 @@
 
 ### overview?
 
-> `optional` **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **overview**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
 #### Defined in
 
-main.ts:223294
+main.ts:238481

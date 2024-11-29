@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsErrorsRequestInfo
+[Documentation](../README.md) / IDataforseoLabsErrorsRequestInfo
 
 # Interface: IDataforseoLabsErrorsRequestInfo
 
@@ -18,14 +18,14 @@
 
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
 
 #### Defined in
 
-main.ts:80888
+main.ts:90600
 
 ***
 
@@ -35,14 +35,14 @@ main.ts:80888
 
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
 
 #### Defined in
 
-main.ts:80895
+main.ts:90607
 
 ***
 
@@ -58,7 +58,7 @@ example: dataforseo_labs/related_keywords/live
 
 #### Defined in
 
-main.ts:80881
+main.ts:90593
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:80870
+main.ts:90582
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:80875
+main.ts:90587

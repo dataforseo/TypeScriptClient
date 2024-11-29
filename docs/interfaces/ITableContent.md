@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITableContent
+[Documentation](../README.md) / ITableContent
 
 # Interface: ITableContent
 
@@ -20,7 +20,7 @@ content of the body of the table
 
 #### Defined in
 
-main.ts:161666
+main.ts:173279
 
 ***
 
@@ -32,7 +32,7 @@ content of the footer of the table
 
 #### Defined in
 
-main.ts:161668
+main.ts:173281
 
 ***
 
@@ -44,4 +44,4 @@ parsed content of the header
 
 #### Defined in
 
-main.ts:161664
+main.ts:173277

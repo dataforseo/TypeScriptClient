@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DatasetDescription
+[Documentation](../README.md) / DatasetDescription
 
 # Class: DatasetDescription
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDatasetDescription`](../interfaces/IDatasetDescription.md)
+##### data?
+
+[`IDatasetDescription`](../interfaces/IDatasetDescription.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:54137
+main.ts:57798
 
 ## Properties
 
@@ -46,7 +48,7 @@ links featured in the ‘dataset_description’
 
 #### Defined in
 
-main.ts:54133
+main.ts:57794
 
 ***
 
@@ -62,7 +64,7 @@ text of the description
 
 #### Defined in
 
-main.ts:54131
+main.ts:57792
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:54131
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:54131
 
 #### Defined in
 
-main.ts:54146
+main.ts:57807
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:54146
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:54146
 
 #### Defined in
 
-main.ts:54168
+main.ts:57829
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:54168
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:54168
 
 #### Defined in
 
-main.ts:54161
+main.ts:57822

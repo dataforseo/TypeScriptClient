@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingLanguagesResultInfo
+[Documentation](../README.md) / IKeywordsDataBingLanguagesResultInfo
 
 # Interface: IKeywordsDataBingLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:128096
+main.ts:138355
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:128094
+main.ts:138353

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphRowItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphRowItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphRowItemDataforseoLabsSerpElementItem
 
@@ -26,7 +26,7 @@ action:listen_artist
 
 #### Defined in
 
-main.ts:96281
+main.ts:105925
 
 ***
 
@@ -40,7 +40,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96287
+main.ts:105931
 
 ***
 
@@ -58,7 +58,7 @@ left, right
 
 #### Defined in
 
-main.ts:21025
+main.ts:21703
 
 ***
 
@@ -75,7 +75,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21021
+main.ts:21699
 
 ***
 
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21018
+main.ts:21696
 
 ***
 
@@ -104,7 +104,7 @@ row content
 
 #### Defined in
 
-main.ts:96283
+main.ts:105927
 
 ***
 
@@ -116,7 +116,7 @@ title of the item
 
 #### Defined in
 
-main.ts:96277
+main.ts:105921
 
 ***
 
@@ -132,7 +132,7 @@ type of element
 
 #### Defined in
 
-main.ts:21015
+main.ts:21693
 
 ***
 
@@ -148,4 +148,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21705

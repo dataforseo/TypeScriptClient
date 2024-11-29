@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonRankedSerpElement
+[Documentation](../README.md) / AmazonRankedSerpElement
 
 # Class: AmazonRankedSerpElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md)
+##### data?
+
+[`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:103551
+main.ts:113189
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:103530
+main.ts:113168
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:103542
+main.ts:113180
 
 ***
 
@@ -85,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:103547
+main.ts:113185
 
 ***
 
@@ -101,7 +103,7 @@ total number of results in Amazon SERP
 
 #### Defined in
 
-main.ts:103537
+main.ts:113175
 
 ***
 
@@ -117,7 +119,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103524
+main.ts:113162
 
 ***
 
@@ -134,7 +136,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:103527
+main.ts:113165
 
 ***
 
@@ -153,7 +155,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:103535
+main.ts:113173
 
 ## Methods
 
@@ -163,7 +165,9 @@ main.ts:103535
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -171,7 +175,7 @@ main.ts:103535
 
 #### Defined in
 
-main.ts:103560
+main.ts:113198
 
 ***
 
@@ -181,7 +185,9 @@ main.ts:103560
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -189,7 +195,7 @@ main.ts:103560
 
 #### Defined in
 
-main.ts:103587
+main.ts:113225
 
 ***
 
@@ -199,7 +205,9 @@ main.ts:103587
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -207,4 +215,4 @@ main.ts:103587
 
 #### Defined in
 
-main.ts:103580
+main.ts:113218

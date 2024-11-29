@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInformationTextRow
+[Documentation](../README.md) / IProductInformationTextRow
 
 # Interface: IProductInformationTextRow
 
@@ -24,7 +24,7 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:182173
+main.ts:194291
 
 ***
 
@@ -40,4 +40,4 @@ type of element
 
 #### Defined in
 
-main.ts:23480
+main.ts:24373

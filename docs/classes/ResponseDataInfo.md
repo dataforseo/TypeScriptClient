@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ResponseDataInfo
+[Documentation](../README.md) / ResponseDataInfo
 
 # Class: ResponseDataInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md)
+##### data?
+
+[`IResponseDataInfo`](../interfaces/IResponseDataInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:191034
+main.ts:203370
 
 ## Properties
 
@@ -46,7 +48,7 @@ author of the response
 
 #### Defined in
 
-main.ts:191020
+main.ts:203356
 
 ***
 
@@ -62,7 +64,7 @@ content of the response
 
 #### Defined in
 
-main.ts:191025
+main.ts:203361
 
 ***
 
@@ -81,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:191030
+main.ts:203366
 
 ***
 
@@ -98,7 +100,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:191023
+main.ts:203359
 
 ## Methods
 
@@ -108,7 +110,9 @@ main.ts:191023
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +120,7 @@ main.ts:191023
 
 #### Defined in
 
-main.ts:191043
+main.ts:203379
 
 ***
 
@@ -126,7 +130,9 @@ main.ts:191043
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -134,7 +140,7 @@ main.ts:191043
 
 #### Defined in
 
-main.ts:191063
+main.ts:203399
 
 ***
 
@@ -144,7 +150,9 @@ main.ts:191063
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -152,4 +160,4 @@ main.ts:191063
 
 #### Defined in
 
-main.ts:191056
+main.ts:203392

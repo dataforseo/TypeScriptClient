@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusyWorkingTimeInfo
+[Documentation](../README.md) / BusyWorkingTimeInfo
 
 # Class: BusyWorkingTimeInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBusyWorkingTimeInfo`](../interfaces/IBusyWorkingTimeInfo.md)
+##### data?
+
+[`IBusyWorkingTimeInfo`](../interfaces/IBusyWorkingTimeInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:198638
+main.ts:210988
 
 ## Properties
 
@@ -48,7 +50,7 @@ higher value corresponds to a busier time of a day
 
 #### Defined in
 
-main.ts:198634
+main.ts:210984
 
 ***
 
@@ -64,7 +66,7 @@ busy hours
 
 #### Defined in
 
-main.ts:198630
+main.ts:210980
 
 ## Methods
 
@@ -74,7 +76,9 @@ main.ts:198630
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -82,7 +86,7 @@ main.ts:198630
 
 #### Defined in
 
-main.ts:198647
+main.ts:210997
 
 ***
 
@@ -92,7 +96,9 @@ main.ts:198647
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -100,7 +106,7 @@ main.ts:198647
 
 #### Defined in
 
-main.ts:198665
+main.ts:211015
 
 ***
 
@@ -110,7 +116,9 @@ main.ts:198665
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -118,4 +126,4 @@ main.ts:198665
 
 #### Defined in
 
-main.ts:198658
+main.ts:211008

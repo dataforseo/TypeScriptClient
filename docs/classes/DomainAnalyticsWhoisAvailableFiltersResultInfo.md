@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
+[Documentation](../README.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:79201
+main.ts:88913
 
 ## Properties
 
@@ -48,7 +50,7 @@ main.ts:79201
 
 #### Defined in
 
-main.ts:79197
+main.ts:88909
 
 ## Methods
 
@@ -58,7 +60,9 @@ main.ts:79197
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -66,7 +70,7 @@ main.ts:79197
 
 #### Defined in
 
-main.ts:79210
+main.ts:88922
 
 ***
 
@@ -76,7 +80,9 @@ main.ts:79210
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -84,7 +90,7 @@ main.ts:79210
 
 #### Defined in
 
-main.ts:79233
+main.ts:88945
 
 ***
 
@@ -94,7 +100,9 @@ main.ts:79233
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -102,4 +110,4 @@ main.ts:79233
 
 #### Defined in
 
-main.ts:79226
+main.ts:88938

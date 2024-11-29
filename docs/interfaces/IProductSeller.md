@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductSeller
+[Documentation](../README.md) / IProductSeller
 
 # Interface: IProductSeller
 
@@ -21,20 +21,20 @@ product delivery information
 
 #### Defined in
 
-main.ts:178714
+main.ts:190455
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 product price
 product price details on the seller’s website
 
 #### Defined in
 
-main.ts:178711
+main.ts:190452
 
 ***
 
@@ -46,7 +46,7 @@ rating of the seller
 
 #### Defined in
 
-main.ts:178705
+main.ts:190446
 
 ***
 
@@ -59,7 +59,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178708
+main.ts:190449
 
 ***
 
@@ -71,7 +71,7 @@ product title
 
 #### Defined in
 
-main.ts:178700
+main.ts:190441
 
 ***
 
@@ -83,7 +83,7 @@ type of element
 
 #### Defined in
 
-main.ts:178698
+main.ts:190439
 
 ***
 
@@ -96,4 +96,4 @@ url of the page where the product is sold
 
 #### Defined in
 
-main.ts:178703
+main.ts:190444

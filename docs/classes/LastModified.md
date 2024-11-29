@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LastModified
+[Documentation](../README.md) / LastModified
 
 # Class: LastModified
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ILastModified`](../interfaces/ILastModified.md)
+##### data?
+
+[`ILastModified`](../interfaces/ILastModified.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:155105
+main.ts:166732
 
 ## Properties
 
@@ -50,7 +52,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:155089
+main.ts:166716
 
 ***
 
@@ -70,7 +72,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:155101
+main.ts:166728
 
 ***
 
@@ -90,7 +92,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:155095
+main.ts:166722
 
 ## Methods
 
@@ -100,7 +102,9 @@ main.ts:155095
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -108,7 +112,7 @@ main.ts:155095
 
 #### Defined in
 
-main.ts:155114
+main.ts:166741
 
 ***
 
@@ -118,7 +122,9 @@ main.ts:155114
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -126,7 +132,7 @@ main.ts:155114
 
 #### Defined in
 
-main.ts:155133
+main.ts:166760
 
 ***
 
@@ -136,7 +142,9 @@ main.ts:155133
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -144,4 +152,4 @@ main.ts:155133
 
 #### Defined in
 
-main.ts:155126
+main.ts:166753

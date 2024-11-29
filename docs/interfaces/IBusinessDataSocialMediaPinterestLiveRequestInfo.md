@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataSocialMediaPinterestLiveRequestInfo
+[Documentation](../README.md) / IBusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Interface: IBusinessDataSocialMediaPinterestLiveRequestInfo
 
@@ -24,7 +24,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:214700
+main.ts:229643
 
 ***
 
@@ -41,4 +41,4 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:214694
+main.ts:229637

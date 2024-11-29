@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsCategoriesResultInfo
 
@@ -20,7 +20,7 @@ unique google trends category identifier
 
 #### Defined in
 
-main.ts:122889
+main.ts:133132
 
 ***
 
@@ -39,7 +39,7 @@ where category_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:122900
+main.ts:133143
 
 ***
 
@@ -51,4 +51,4 @@ name of the google trends category
 
 #### Defined in
 
-main.ts:122891
+main.ts:133134

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ImagesDataforseoLabsSerpElementItem
+[Documentation](../README.md) / ImagesDataforseoLabsSerpElementItem
 
 # Class: ImagesDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IImagesDataforseoLabsSerpElementItem`](../interfaces/IImagesDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IImagesDataforseoLabsSerpElementItem`](../interfaces/IImagesDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:98438
+main.ts:106447
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:98438
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -68,7 +70,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:98431
+main.ts:106440
 
 ***
 
@@ -90,7 +92,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -111,7 +113,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -132,13 +134,13 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
 ### related\_image\_searches?
 
-> `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)[]
+> `optional` **related\_image\_searches**: [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
 contains keywords and images related to the specified search term
 if there are none, equals null
@@ -149,7 +151,23 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:98434
+main.ts:106443
+
+***
+
+### se\_type?
+
+> `optional` **se\_type**: `string`
+
+search engine type
+
+#### Implementation of
+
+[`IImagesDataforseoLabsSerpElementItem`](../interfaces/IImagesDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IImagesDataforseoLabsSerpElementItem.md#se_type)
+
+#### Defined in
+
+main.ts:106434
 
 ***
 
@@ -165,7 +183,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98427
+main.ts:106436
 
 ***
 
@@ -185,7 +203,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -201,7 +219,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98429
+main.ts:106438
 
 ***
 
@@ -221,7 +239,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -231,7 +249,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -243,7 +263,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:98443
+main.ts:106452
 
 ***
 
@@ -253,7 +273,9 @@ main.ts:98443
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -265,7 +287,7 @@ main.ts:98443
 
 #### Defined in
 
-main.ts:98472
+main.ts:106478
 
 ***
 
@@ -275,7 +297,9 @@ main.ts:98472
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -287,4 +311,4 @@ main.ts:98472
 
 #### Defined in
 
-main.ts:98465
+main.ts:106471

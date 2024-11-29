@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PodcastsElement
+[Documentation](../README.md) / PodcastsElement
 
 # Class: PodcastsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPodcastsElement`](../interfaces/IPodcastsElement.md)
+##### data?
+
+[`IPodcastsElement`](../interfaces/IPodcastsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:33271
+main.ts:34824
 
 ## Properties
 
@@ -46,7 +48,7 @@ description
 
 #### Defined in
 
-main.ts:33260
+main.ts:34813
 
 ***
 
@@ -62,7 +64,7 @@ the total time it will take to play an episode
 
 #### Defined in
 
-main.ts:33267
+main.ts:34820
 
 ***
 
@@ -81,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:33265
+main.ts:34818
 
 ***
 
@@ -97,7 +99,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33256
+main.ts:34809
 
 ***
 
@@ -113,7 +115,7 @@ type of element
 
 #### Defined in
 
-main.ts:33254
+main.ts:34807
 
 ***
 
@@ -129,7 +131,7 @@ URL
 
 #### Defined in
 
-main.ts:33258
+main.ts:34811
 
 ## Methods
 
@@ -139,7 +141,9 @@ main.ts:33258
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -147,7 +151,7 @@ main.ts:33258
 
 #### Defined in
 
-main.ts:33280
+main.ts:34833
 
 ***
 
@@ -157,7 +161,9 @@ main.ts:33280
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -165,7 +171,7 @@ main.ts:33280
 
 #### Defined in
 
-main.ts:33302
+main.ts:34855
 
 ***
 
@@ -175,7 +181,9 @@ main.ts:33302
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -183,4 +191,4 @@ main.ts:33302
 
 #### Defined in
 
-main.ts:33295
+main.ts:34848

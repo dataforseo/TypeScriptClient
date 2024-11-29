@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisAvailableFiltersResultInfo
+[Documentation](../README.md) / IContentAnalysisAvailableFiltersResultInfo
 
 # Interface: IContentAnalysisAvailableFiltersResultInfo
 
@@ -22,4 +22,4 @@
 
 #### Defined in
 
-main.ts:165100
+main.ts:176689

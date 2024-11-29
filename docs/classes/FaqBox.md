@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FaqBox
+[Documentation](../README.md) / FaqBox
 
 # Class: FaqBox
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IFaqBox`](../interfaces/IFaqBox.md)
+##### data?
+
+[`IFaqBox`](../interfaces/IFaqBox.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:29745
+main.ts:31304
 
 ## Properties
 
@@ -47,7 +49,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29741
+main.ts:31300
 
 ***
 
@@ -63,7 +65,7 @@ type of element
 
 #### Defined in
 
-main.ts:29738
+main.ts:31297
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:29738
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:29738
 
 #### Defined in
 
-main.ts:29754
+main.ts:31313
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:29754
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:29754
 
 #### Defined in
 
-main.ts:29776
+main.ts:31335
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:29776
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:29776
 
 #### Defined in
 
-main.ts:29769
+main.ts:31328

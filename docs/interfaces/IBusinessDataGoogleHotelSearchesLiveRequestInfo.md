@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelSearchesLiveRequestInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesLiveRequestInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesLiveRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:204794
+main.ts:217962
 
 ***
 
@@ -64,7 +64,7 @@ possible values:
 
 #### Defined in
 
-main.ts:204877
+main.ts:218045
 
 ***
 
@@ -82,7 +82,7 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-main.ts:204773
+main.ts:217941
 
 ***
 
@@ -101,7 +101,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-main.ts:204782
+main.ts:217950
 
 ***
 
@@ -121,7 +121,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-main.ts:204804
+main.ts:217972
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:204787
+main.ts:217955
 
 ***
 
@@ -155,7 +155,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:204765
+main.ts:217933
 
 ***
 
@@ -170,7 +170,7 @@ default value: false
 
 #### Defined in
 
-main.ts:204843
+main.ts:218011
 
 ***
 
@@ -185,7 +185,7 @@ default value: false
 
 #### Defined in
 
-main.ts:204848
+main.ts:218016
 
 ***
 
@@ -197,14 +197,15 @@ keyword
 optional field
 the keyword you specify is used to search for the list of hotels;
 if you don’t use this field, we will return the list of hotels found in a specified location;
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
 Note: in order to obtain accurate search results, the location name is appended to the keyword automatically
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:204718
+main.ts:217886
 
 ***
 
@@ -221,7 +222,7 @@ en
 
 #### Defined in
 
-main.ts:204756
+main.ts:217924
 
 ***
 
@@ -238,7 +239,7 @@ English
 
 #### Defined in
 
-main.ts:204749
+main.ts:217917
 
 ***
 
@@ -255,7 +256,7 @@ example:
 
 #### Defined in
 
-main.ts:204733
+main.ts:217901
 
 ***
 
@@ -274,7 +275,7 @@ example:
 
 #### Defined in
 
-main.ts:204742
+main.ts:217910
 
 ***
 
@@ -292,7 +293,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 #### Defined in
 
-main.ts:204726
+main.ts:217894
 
 ***
 
@@ -308,7 +309,7 @@ example:
 
 #### Defined in
 
-main.ts:204838
+main.ts:218006
 
 ***
 
@@ -324,7 +325,7 @@ example:
 
 #### Defined in
 
-main.ts:204832
+main.ts:218000
 
 ***
 
@@ -340,7 +341,7 @@ example:
 
 #### Defined in
 
-main.ts:204816
+main.ts:217984
 
 ***
 
@@ -360,7 +361,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:204826
+main.ts:217994
 
 ***
 
@@ -376,7 +377,7 @@ example:
 
 #### Defined in
 
-main.ts:204810
+main.ts:217978
 
 ***
 
@@ -392,4 +393,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:204883
+main.ts:218051

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AiOverviewElement
+[Documentation](../README.md) / AiOverviewElement
 
 # Class: AiOverviewElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAiOverviewElement`](../interfaces/IAiOverviewElement.md)
+##### data?
+
+[`IAiOverviewElement`](../interfaces/IAiOverviewElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:29290
+main.ts:30849
 
 ## Properties
 
@@ -46,7 +48,7 @@ images of the element
 
 #### Defined in
 
-main.ts:29284
+main.ts:30843
 
 ***
 
@@ -62,7 +64,7 @@ references relevant to the element
 
 #### Defined in
 
-main.ts:29286
+main.ts:30845
 
 ***
 
@@ -78,7 +80,7 @@ description content
 
 #### Defined in
 
-main.ts:29282
+main.ts:30841
 
 ***
 
@@ -94,7 +96,7 @@ title of the element
 
 #### Defined in
 
-main.ts:29280
+main.ts:30839
 
 ***
 
@@ -110,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:29278
+main.ts:30837
 
 ## Methods
 
@@ -120,7 +122,9 @@ main.ts:29278
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -128,7 +132,7 @@ main.ts:29278
 
 #### Defined in
 
-main.ts:29299
+main.ts:30858
 
 ***
 
@@ -138,7 +142,9 @@ main.ts:29299
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -146,7 +152,7 @@ main.ts:29299
 
 #### Defined in
 
-main.ts:29328
+main.ts:30887
 
 ***
 
@@ -156,7 +162,9 @@ main.ts:29328
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -164,4 +172,4 @@ main.ts:29328
 
 #### Defined in
 
-main.ts:29321
+main.ts:30880

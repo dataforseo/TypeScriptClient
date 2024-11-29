@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
 # Class: KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:129659
+main.ts:141492
 
 ## Properties
 
@@ -52,7 +54,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129614
+main.ts:141445
 
 ***
 
@@ -76,7 +78,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129624
+main.ts:141455
 
 ***
 
@@ -96,7 +98,7 @@ default value: all
 
 #### Defined in
 
-main.ts:129601
+main.ts:141432
 
 ***
 
@@ -116,7 +118,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:129595
+main.ts:141426
 
 ***
 
@@ -136,7 +138,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:129589
+main.ts:141420
 
 ***
 
@@ -156,7 +158,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:129583
+main.ts:141414
 
 ***
 
@@ -177,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:129569
+main.ts:141400
 
 ***
 
@@ -199,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:129577
+main.ts:141408
 
 ***
 
@@ -220,7 +222,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:129562
+main.ts:141393
 
 ***
 
@@ -235,8 +237,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -244,7 +247,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:129644
+main.ts:141477
 
 ***
 
@@ -259,8 +262,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -268,7 +272,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:129634
+main.ts:141466
 
 ***
 
@@ -287,7 +291,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:129649
+main.ts:141482
 
 ***
 
@@ -306,7 +310,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:129606
+main.ts:141437
 
 ***
 
@@ -326,7 +330,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129655
+main.ts:141488
 
 ***
 
@@ -344,7 +348,7 @@ the URL of the webpage or the domain to scan for possible keywords
 
 #### Defined in
 
-main.ts:129555
+main.ts:141386
 
 ## Methods
 
@@ -354,7 +358,9 @@ main.ts:129555
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -362,7 +368,7 @@ main.ts:129555
 
 #### Defined in
 
-main.ts:129668
+main.ts:141501
 
 ***
 
@@ -372,7 +378,9 @@ main.ts:129668
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -380,7 +388,7 @@ main.ts:129668
 
 #### Defined in
 
-main.ts:129703
+main.ts:141536
 
 ***
 
@@ -390,7 +398,9 @@ main.ts:129703
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -398,4 +408,4 @@ main.ts:129703
 
 #### Defined in
 
-main.ts:129696
+main.ts:141529

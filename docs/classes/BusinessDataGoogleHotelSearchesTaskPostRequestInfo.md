@@ -1,14 +1,10 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesTaskPostRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskPostRequestInfo
-
-## Extends
-
-- [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
 ## Implements
 
@@ -26,19 +22,17 @@
 
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`constructor`](BusinessDataTaskRequestInfo.md#constructors)
-
 #### Defined in
 
-main.ts:203170
+main.ts:216229
 
 ## Properties
 
@@ -59,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:203083
+main.ts:216114
 
 ***
 
@@ -102,7 +96,7 @@ possible values:
 
 #### Defined in
 
-main.ts:203166
+main.ts:216197
 
 ***
 
@@ -124,7 +118,7 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-main.ts:203062
+main.ts:216093
 
 ***
 
@@ -147,7 +141,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-main.ts:203071
+main.ts:216102
 
 ***
 
@@ -171,7 +165,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-main.ts:203093
+main.ts:216124
 
 ***
 
@@ -190,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:203076
+main.ts:216107
 
 ***
 
@@ -213,7 +207,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:203054
+main.ts:216085
 
 ***
 
@@ -232,7 +226,7 @@ default value: false
 
 #### Defined in
 
-main.ts:203132
+main.ts:216163
 
 ***
 
@@ -251,7 +245,7 @@ default value: false
 
 #### Defined in
 
-main.ts:203137
+main.ts:216168
 
 ***
 
@@ -260,32 +254,22 @@ main.ts:203137
 > `optional` **keyword**: `string`
 
 keyword
-required field
-the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
-this field can also be used to pass the following parameters:
-cid – a unique, google-defined id of the business entity;
-place_id – an identifier of the business entity in Google Maps;
-spp – a unique identifier of local services featured in the local_pack element of Google SERP
-example:
-cid:194604053573767737
-place_id:GhIJQWDl0CIeQUARxks3icF8U8A
-spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
-learn more about the cid and place_id identifiers in this help center article
+optional field
+the keyword you specify is used to search for the list of hotels;
+if you don’t use this field, we will return the list of hotels found in a specified location;
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+Note: in order to obtain accurate search results, the location name is appended to the keyword automatically
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#keyword)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`keyword`](BusinessDataTaskRequestInfo.md#keyword)
-
 #### Defined in
 
-main.ts:192880
+main.ts:216030
 
 ***
 
@@ -304,13 +288,9 @@ en
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#language_code)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_code`](BusinessDataTaskRequestInfo.md#language_code)
-
 #### Defined in
 
-main.ts:192926
+main.ts:216076
 
 ***
 
@@ -329,13 +309,9 @@ English
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#language_name)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`language_name`](BusinessDataTaskRequestInfo.md#language_name)
-
 #### Defined in
 
-main.ts:192919
+main.ts:216069
 
 ***
 
@@ -354,13 +330,9 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_code)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_code`](BusinessDataTaskRequestInfo.md#location_code)
-
 #### Defined in
 
-main.ts:192902
+main.ts:216053
 
 ***
 
@@ -371,24 +343,19 @@ main.ts:192902
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
-location_coordinate parameter should be specified in the “latitude,longitude,radius” format
+location_coordinate parameter should be specified in the “latitude,longitude” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
-the minimum value for “radius”: 199.9 (mm)
-the maximum value for “radius”: 199999 (mm)
+Note: if the coordinates are used to set a location, the search will occur in the nearest settlement;
 example:
-53.476225,-2.243572,200
+53.476225,-2.243572
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_coordinate)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_coordinate`](BusinessDataTaskRequestInfo.md#location_coordinate)
-
 #### Defined in
 
-main.ts:192912
+main.ts:216062
 
 ***
 
@@ -402,18 +369,15 @@ if you use this field, you don’t need to specify location_code or location_coo
 you can receive the list of available locations with location_name by making a separate request to https://api.dataforseo.com/v3/business_data/google/locations
 example:
 London,England,United Kingdom
+Note: in order to obtain accurate search results, the location_name you specify will be automatically appended to the keyword
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#location_name)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`location_name`](BusinessDataTaskRequestInfo.md#location_name)
-
 #### Defined in
 
-main.ts:192895
+main.ts:216046
 
 ***
 
@@ -433,7 +397,7 @@ example:
 
 #### Defined in
 
-main.ts:203127
+main.ts:216158
 
 ***
 
@@ -453,7 +417,7 @@ example:
 
 #### Defined in
 
-main.ts:203121
+main.ts:216152
 
 ***
 
@@ -473,7 +437,7 @@ example:
 
 #### Defined in
 
-main.ts:203105
+main.ts:216136
 
 ***
 
@@ -488,20 +452,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#pingback_url)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`pingback_url`](BusinessDataTaskRequestInfo.md#pingback_url)
-
 #### Defined in
 
-main.ts:192952
+main.ts:216225
 
 ***
 
@@ -516,20 +477,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#postback_url)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`postback_url`](BusinessDataTaskRequestInfo.md#postback_url)
-
 #### Defined in
 
-main.ts:192942
+main.ts:216214
 
 ***
 
@@ -549,13 +507,9 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#priority)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`priority`](BusinessDataTaskRequestInfo.md#priority)
-
 #### Defined in
 
-main.ts:192888
+main.ts:216038
 
 ***
 
@@ -579,7 +533,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:203115
+main.ts:216146
 
 ***
 
@@ -599,7 +553,7 @@ example:
 
 #### Defined in
 
-main.ts:203099
+main.ts:216130
 
 ***
 
@@ -617,13 +571,9 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataGoogleHotelSearchesTaskPostRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleHotelSearchesTaskPostRequestInfo.md#tag)
 
-#### Inherited from
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`tag`](BusinessDataTaskRequestInfo.md#tag)
-
 #### Defined in
 
-main.ts:192932
+main.ts:216203
 
 ## Methods
 
@@ -633,19 +583,17 @@ main.ts:192932
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`init`](BusinessDataTaskRequestInfo.md#init)
-
 #### Defined in
 
-main.ts:203174
+main.ts:216238
 
 ***
 
@@ -655,19 +603,17 @@ main.ts:203174
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`toJSON`](BusinessDataTaskRequestInfo.md#tojson)
-
 #### Defined in
 
-main.ts:203217
+main.ts:216290
 
 ***
 
@@ -677,16 +623,14 @@ main.ts:203217
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleHotelSearchesTaskPostRequestInfo`](BusinessDataGoogleHotelSearchesTaskPostRequestInfo.md)
 
-#### Overrides
-
-[`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md).[`fromJS`](BusinessDataTaskRequestInfo.md#fromjs)
-
 #### Defined in
 
-main.ts:203210
+main.ts:216283

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGpsCoordinatesLocationInfo
+[Documentation](../README.md) / IGpsCoordinatesLocationInfo
 
 # Interface: IGpsCoordinatesLocationInfo
 
@@ -22,7 +22,7 @@ example:
 
 #### Defined in
 
-main.ts:203733
+main.ts:216899
 
 ***
 
@@ -36,4 +36,4 @@ example:
 
 #### Defined in
 
-main.ts:203737
+main.ts:216903

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelPriceInfo
+[Documentation](../README.md) / IHotelPriceInfo
 
 # Interface: IHotelPriceInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:204078
+main.ts:217244
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:204083
+main.ts:217249
 
 ***
 
@@ -51,7 +51,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:204071
+main.ts:217237
 
 ***
 
@@ -63,7 +63,7 @@ text about a discount applied
 
 #### Defined in
 
-main.ts:204073
+main.ts:217239
 
 ***
 
@@ -77,7 +77,7 @@ possible item types: hotel_search_item
 
 #### Defined in
 
-main.ts:204089
+main.ts:217255
 
 ***
 
@@ -89,7 +89,7 @@ price per night
 
 #### Defined in
 
-main.ts:204066
+main.ts:217232
 
 ***
 
@@ -101,7 +101,7 @@ full price per night without a discount applied
 
 #### Defined in
 
-main.ts:204068
+main.ts:217234
 
 ***
 
@@ -113,4 +113,4 @@ number of hotel visitors for this price
 
 #### Defined in
 
-main.ts:204085
+main.ts:217251

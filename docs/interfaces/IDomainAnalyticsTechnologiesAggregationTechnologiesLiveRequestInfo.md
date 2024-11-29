@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:76408
+main.ts:86113
 
 ***
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:76443
+main.ts:86149
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:76401
+main.ts:86106
 
 ***
 
@@ -83,7 +83,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76473
+main.ts:86179
 
 ***
 
@@ -100,7 +100,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76466
+main.ts:86172
 
 ***
 
@@ -118,7 +118,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76488
+main.ts:86194
 
 ***
 
@@ -135,7 +135,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76480
+main.ts:86186
 
 ***
 
@@ -149,10 +149,11 @@ at least one field (group, category, keyword, technology) must be set
 UTF-8 encoding
 example:
 "seo"
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:76422
+main.ts:86128
 
 ***
 
@@ -167,7 +168,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76493
+main.ts:86199
 
 ***
 
@@ -184,7 +185,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:76429
+main.ts:86135
 
 ***
 
@@ -200,7 +201,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Defined in
 
-main.ts:76499
+main.ts:86205
 
 ***
 
@@ -226,7 +227,7 @@ default value:
 
 #### Defined in
 
-main.ts:76459
+main.ts:86165
 
 ***
 
@@ -242,7 +243,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:76505
+main.ts:86211
 
 ***
 
@@ -259,4 +260,4 @@ example:
 
 #### Defined in
 
-main.ts:76415
+main.ts:86120

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
@@ -22,7 +22,7 @@
 
 #### Defined in
 
-main.ts:198059
+main.ts:210409
 
 ***
 
@@ -36,4 +36,4 @@ main.ts:198059
 
 #### Defined in
 
-main.ts:198058
+main.ts:210408

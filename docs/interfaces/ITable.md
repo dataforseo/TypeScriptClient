@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITable
+[Documentation](../README.md) / ITable
 
 # Interface: ITable
 
@@ -21,7 +21,7 @@ one line of the table in this element of the array
 
 #### Defined in
 
-main.ts:22876
+main.ts:23774
 
 ***
 
@@ -35,7 +35,7 @@ table_element
 
 #### Defined in
 
-main.ts:22871
+main.ts:23769
 
 ***
 
@@ -47,4 +47,4 @@ column names
 
 #### Defined in
 
-main.ts:22873
+main.ts:23771

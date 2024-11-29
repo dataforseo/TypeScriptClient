@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IndexHistory
+[Documentation](../README.md) / IndexHistory
 
 # Class: IndexHistory
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IIndexHistory`](../interfaces/IIndexHistory.md)
+##### data?
+
+[`IIndexHistory`](../interfaces/IIndexHistory.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:138496
+main.ts:149701
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:138486
+main.ts:149691
 
 ***
 
@@ -65,7 +67,7 @@ total number of backlinks our database contained on the given date
 
 #### Defined in
 
-main.ts:138488
+main.ts:149693
 
 ***
 
@@ -81,7 +83,7 @@ total number of domains our database contained on the given date
 
 #### Defined in
 
-main.ts:138492
+main.ts:149697
 
 ***
 
@@ -97,7 +99,7 @@ total number of pages our database contained on the given date
 
 #### Defined in
 
-main.ts:138490
+main.ts:149695
 
 ## Methods
 
@@ -107,7 +109,9 @@ main.ts:138490
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -115,7 +119,7 @@ main.ts:138490
 
 #### Defined in
 
-main.ts:138505
+main.ts:149710
 
 ***
 
@@ -125,7 +129,9 @@ main.ts:138505
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -133,7 +139,7 @@ main.ts:138505
 
 #### Defined in
 
-main.ts:138525
+main.ts:149730
 
 ***
 
@@ -143,7 +149,9 @@ main.ts:138525
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -151,4 +159,4 @@ main.ts:138525
 
 #### Defined in
 
-main.ts:138518
+main.ts:149723

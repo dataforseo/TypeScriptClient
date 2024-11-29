@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISearchIntentInfo
+[Documentation](../README.md) / ISearchIntentInfo
 
 # Interface: ISearchIntentInfo
 
@@ -21,7 +21,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:83498
+main.ts:93210
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:83503
+main.ts:93215
 
 ***
 
@@ -49,7 +49,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:83495
+main.ts:93207
 
 ***
 
@@ -62,4 +62,4 @@ possible values: google
 
 #### Defined in
 
-main.ts:83492
+main.ts:93204

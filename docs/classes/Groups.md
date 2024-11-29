@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Groups
+[Documentation](../README.md) / Groups
 
 # Class: Groups
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IGroups`](../interfaces/IGroups.md)
+##### data?
+
+[`IGroups`](../interfaces/IGroups.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:75970
+main.ts:85674
 
 ## Properties
 
@@ -46,7 +48,7 @@ technology categories in this group
 
 #### Defined in
 
-main.ts:75966
+main.ts:85670
 
 ***
 
@@ -64,7 +66,7 @@ marketing, sales
 
 #### Defined in
 
-main.ts:75962
+main.ts:85666
 
 ***
 
@@ -80,7 +82,7 @@ title of the technology group
 
 #### Defined in
 
-main.ts:75964
+main.ts:85668
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:75964
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:75964
 
 #### Defined in
 
-main.ts:75979
+main.ts:85683
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:75979
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:75979
 
 #### Defined in
 
-main.ts:76002
+main.ts:85706
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:76002
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:76002
 
 #### Defined in
 
-main.ts:75995
+main.ts:85699

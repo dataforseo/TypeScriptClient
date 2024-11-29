@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSellersGoogleMerchantPriceData
+[Documentation](../README.md) / IAppendixSellersGoogleMerchantPriceData
 
 # Interface: IAppendixSellersGoogleMerchantPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:221827
+main.ts:237006
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:221827
 
 #### Defined in
 
-main.ts:221828
+main.ts:237007
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:221828
 
 #### Defined in
 
-main.ts:221829
+main.ts:237008
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:221829
 
 #### Defined in
 
-main.ts:221830
+main.ts:237009

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveRequestInfo
 
@@ -38,7 +38,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:108937
+main.ts:118409
 
 ***
 
@@ -57,7 +57,7 @@ default value: live
 
 #### Defined in
 
-main.ts:108917
+main.ts:118389
 
 ***
 
@@ -72,7 +72,7 @@ default value: false
 
 #### Defined in
 
-main.ts:108893
+main.ts:118365
 
 ***
 
@@ -91,7 +91,7 @@ default value:
 
 #### Defined in
 
-main.ts:108888
+main.ts:118360
 
 ***
 
@@ -110,7 +110,7 @@ en
 
 #### Defined in
 
-main.ts:108879
+main.ts:118351
 
 ***
 
@@ -129,7 +129,7 @@ English
 
 #### Defined in
 
-main.ts:108870
+main.ts:118342
 
 ***
 
@@ -144,7 +144,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:108898
+main.ts:118370
 
 ***
 
@@ -159,7 +159,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:108908
+main.ts:118380
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:108861
+main.ts:118333
 
 ***
 
@@ -199,7 +199,7 @@ United States
 
 #### Defined in
 
-main.ts:108851
+main.ts:118323
 
 ***
 
@@ -214,7 +214,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:108903
+main.ts:118375
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Defined in
 
-main.ts:108953
+main.ts:118425
 
 ***
 
@@ -256,7 +256,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:108959
+main.ts:118431
 
 ***
 
@@ -264,16 +264,12 @@ main.ts:108959
 
 > `optional` **target**: `string`
 
-domain
+domain name or page url
 required field
-the domain name of the target website
-the domain should be specified without https:// or www.
-if you want to get the keywords a particular webpage ranks for, specify the filter by the
-ranked_serp_element.serp_item.relative_url parameter
-example:
-"filters":[
-"ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
+the domain name of the target website or URL of the target webpage;
+the domain name must be specified without https:// or www.;
+the webpage URL must be specified with https:// or www.
 
 #### Defined in
 
-main.ts:108841
+main.ts:118313

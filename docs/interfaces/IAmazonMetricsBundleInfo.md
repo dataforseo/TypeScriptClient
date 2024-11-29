@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonMetricsBundleInfo
+[Documentation](../README.md) / IAmazonMetricsBundleInfo
 
 # Interface: IAmazonMetricsBundleInfo
 
@@ -20,7 +20,7 @@ ranking data from Amazon paid SERP
 
 #### Defined in
 
-main.ts:104193
+main.ts:113831
 
 ***
 
@@ -32,4 +32,4 @@ ranking data from Amazon organic SERP
 
 #### Defined in
 
-main.ts:104191
+main.ts:113829

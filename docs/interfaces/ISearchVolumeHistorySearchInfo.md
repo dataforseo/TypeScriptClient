@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISearchVolumeHistorySearchInfo
+[Documentation](../README.md) / ISearchVolumeHistorySearchInfo
 
 # Interface: ISearchVolumeHistorySearchInfo
 
@@ -21,7 +21,7 @@ contains historical search volume data for searches made from desktop devices
 
 #### Defined in
 
-main.ts:134813
+main.ts:146670
 
 ***
 
@@ -34,7 +34,7 @@ contains historical search volume data for searches made from mobile devices
 
 #### Defined in
 
-main.ts:134819
+main.ts:146676
 
 ***
 
@@ -47,7 +47,7 @@ contains historical search volume data for searches made from feature phones (no
 
 #### Defined in
 
-main.ts:134816
+main.ts:146673
 
 ***
 
@@ -60,4 +60,4 @@ contains historical search volume data for searches made from tablets
 
 #### Defined in
 
-main.ts:134822
+main.ts:146679

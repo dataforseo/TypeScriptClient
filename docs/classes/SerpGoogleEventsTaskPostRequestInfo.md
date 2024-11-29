@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleEventsTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleEventsTaskPostRequestInfo
 
 # Class: SerpGoogleEventsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:45206
+main.ts:48020
 
 ## Properties
 
@@ -49,7 +51,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-main.ts:45141
+main.ts:47953
 
 ***
 
@@ -72,7 +74,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:45163
+main.ts:47975
 
 ***
 
@@ -82,10 +84,11 @@ main.ts:45163
 
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -93,7 +96,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:45087
+main.ts:47899
 
 ***
 
@@ -115,7 +118,7 @@ en
 
 #### Defined in
 
-main.ts:45136
+main.ts:47948
 
 ***
 
@@ -137,7 +140,7 @@ English
 
 #### Defined in
 
-main.ts:45128
+main.ts:47940
 
 ***
 
@@ -158,7 +161,7 @@ example:
 
 #### Defined in
 
-main.ts:45109
+main.ts:47921
 
 ***
 
@@ -183,7 +186,7 @@ example:
 
 #### Defined in
 
-main.ts:45120
+main.ts:47932
 
 ***
 
@@ -204,7 +207,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:45102
+main.ts:47914
 
 ***
 
@@ -225,7 +228,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:45170
+main.ts:47982
 
 ***
 
@@ -245,7 +248,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:45147
+main.ts:47959
 
 ***
 
@@ -260,8 +263,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -269,7 +273,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:45202
+main.ts:48016
 
 ***
 
@@ -289,7 +293,7 @@ advanced
 
 #### Defined in
 
-main.ts:45192
+main.ts:48005
 
 ***
 
@@ -304,8 +308,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -313,7 +318,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:45186
+main.ts:47999
 
 ***
 
@@ -335,7 +340,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:45095
+main.ts:47907
 
 ***
 
@@ -356,7 +361,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:45154
+main.ts:47966
 
 ***
 
@@ -376,7 +381,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:45176
+main.ts:47988
 
 ## Methods
 
@@ -386,7 +391,9 @@ main.ts:45176
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -394,7 +401,7 @@ main.ts:45176
 
 #### Defined in
 
-main.ts:45215
+main.ts:48029
 
 ***
 
@@ -404,7 +411,9 @@ main.ts:45215
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -412,7 +421,7 @@ main.ts:45215
 
 #### Defined in
 
-main.ts:45247
+main.ts:48061
 
 ***
 
@@ -422,7 +431,9 @@ main.ts:45247
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -430,4 +441,4 @@ main.ts:45247
 
 #### Defined in
 
-main.ts:45240
+main.ts:48054

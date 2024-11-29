@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostReferringDomainsLiveItem
+[Documentation](../README.md) / BacklinksBulkNewLostReferringDomainsLiveItem
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md)
+##### data?
+
+[`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:150897
+main.ts:162102
 
 ## Properties
 
@@ -47,7 +49,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:150889
+main.ts:162094
 
 ***
 
@@ -63,7 +65,7 @@ number of lost referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:150893
+main.ts:162098
 
 ***
 
@@ -80,7 +82,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:150886
+main.ts:162091
 
 ***
 
@@ -96,7 +98,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:150891
+main.ts:162096
 
 ***
 
@@ -112,7 +114,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:150883
+main.ts:162088
 
 ## Methods
 
@@ -122,7 +124,9 @@ main.ts:150883
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -130,7 +134,7 @@ main.ts:150883
 
 #### Defined in
 
-main.ts:150906
+main.ts:162111
 
 ***
 
@@ -140,7 +144,9 @@ main.ts:150906
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +154,7 @@ main.ts:150906
 
 #### Defined in
 
-main.ts:150927
+main.ts:162132
 
 ***
 
@@ -158,7 +164,9 @@ main.ts:150927
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -166,4 +174,4 @@ main.ts:150927
 
 #### Defined in
 
-main.ts:150920
+main.ts:162125

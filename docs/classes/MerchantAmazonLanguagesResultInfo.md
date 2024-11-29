@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonLanguagesResultInfo
+[Documentation](../README.md) / MerchantAmazonLanguagesResultInfo
 
 # Class: MerchantAmazonLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md)
+##### data?
+
+[`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:179761
+main.ts:191502
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:179757
+main.ts:191498
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:179755
+main.ts:191496
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:179755
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:179755
 
 #### Defined in
 
-main.ts:179770
+main.ts:191511
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:179770
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:179770
 
 #### Defined in
 
-main.ts:179788
+main.ts:191529
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:179788
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:179788
 
 #### Defined in
 
-main.ts:179781
+main.ts:191522

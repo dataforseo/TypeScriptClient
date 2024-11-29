@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:101770
+main.ts:111508
 
 ## Properties
 
@@ -46,7 +48,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:101766
+main.ts:111504
 
 ***
 
@@ -62,7 +64,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101762
+main.ts:111500
 
 ***
 
@@ -78,7 +80,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:101764
+main.ts:111502
 
 ## Methods
 
@@ -88,7 +90,9 @@ main.ts:101764
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -96,7 +100,7 @@ main.ts:101764
 
 #### Defined in
 
-main.ts:101779
+main.ts:111517
 
 ***
 
@@ -106,7 +110,9 @@ main.ts:101779
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -114,7 +120,7 @@ main.ts:101779
 
 #### Defined in
 
-main.ts:101798
+main.ts:111536
 
 ***
 
@@ -124,7 +130,9 @@ main.ts:101798
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -132,4 +140,4 @@ main.ts:101798
 
 #### Defined in
 
-main.ts:101791
+main.ts:111529

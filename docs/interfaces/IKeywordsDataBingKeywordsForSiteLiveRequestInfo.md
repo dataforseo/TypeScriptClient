@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordsForSiteLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordsForSiteLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteLiveRequestInfo
 
@@ -26,7 +26,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:130615
+main.ts:142450
 
 ***
 
@@ -47,7 +47,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:130626
+main.ts:142461
 
 ***
 
@@ -62,7 +62,7 @@ default value: all
 
 #### Defined in
 
-main.ts:130607
+main.ts:142442
 
 ***
 
@@ -78,7 +78,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:130602
+main.ts:142437
 
 ***
 
@@ -94,7 +94,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:130596
+main.ts:142431
 
 ***
 
@@ -110,7 +110,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:130590
+main.ts:142425
 
 ***
 
@@ -127,7 +127,7 @@ example:
 
 #### Defined in
 
-main.ts:130576
+main.ts:142411
 
 ***
 
@@ -145,7 +145,7 @@ example:
 
 #### Defined in
 
-main.ts:130584
+main.ts:142419
 
 ***
 
@@ -162,7 +162,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:130569
+main.ts:142404
 
 ***
 
@@ -177,7 +177,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:130636
+main.ts:142471
 
 ***
 
@@ -192,7 +192,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:130631
+main.ts:142466
 
 ***
 
@@ -208,7 +208,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:130642
+main.ts:142477
 
 ***
 
@@ -222,4 +222,4 @@ the domain name or URL of the target website
 
 #### Defined in
 
-main.ts:130562
+main.ts:142397

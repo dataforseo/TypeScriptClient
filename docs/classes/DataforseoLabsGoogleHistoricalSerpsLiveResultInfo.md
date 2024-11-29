@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:96672
+main.ts:106534
 
 ## Properties
 
@@ -47,7 +49,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96668
+main.ts:106530
 
 ***
 
@@ -63,7 +65,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96665
+main.ts:106527
 
 ***
 
@@ -72,7 +74,7 @@ main.ts:96665
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -80,7 +82,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:96657
+main.ts:106519
 
 ***
 
@@ -96,7 +98,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96661
+main.ts:106523
 
 ***
 
@@ -112,7 +114,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96659
+main.ts:106521
 
 ***
 
@@ -128,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96654
+main.ts:106516
 
 ***
 
@@ -144,7 +146,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96663
+main.ts:106525
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:96663
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:96663
 
 #### Defined in
 
-main.ts:96681
+main.ts:106543
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:96681
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:96681
 
 #### Defined in
 
-main.ts:96708
+main.ts:106570
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:96708
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:96708
 
 #### Defined in
 
-main.ts:96701
+main.ts:106563

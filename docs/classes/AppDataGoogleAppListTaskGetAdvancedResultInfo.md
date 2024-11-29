@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:188661
+main.ts:200997
 
 ## Properties
 
@@ -47,7 +49,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:188645
+main.ts:200981
 
 ***
 
@@ -66,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:188650
+main.ts:200986
 
 ***
 
@@ -82,7 +84,7 @@ found apps
 
 #### Defined in
 
-main.ts:188657
+main.ts:200993
 
 ***
 
@@ -99,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:188655
+main.ts:200991
 
 ***
 
@@ -115,7 +117,7 @@ app collection received in a POST array
 
 #### Defined in
 
-main.ts:188636
+main.ts:200972
 
 ***
 
@@ -131,7 +133,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:188642
+main.ts:200978
 
 ***
 
@@ -147,7 +149,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:188640
+main.ts:200976
 
 ***
 
@@ -163,7 +165,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:188638
+main.ts:200974
 
 ***
 
@@ -179,7 +181,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:188652
+main.ts:200988
 
 ## Methods
 
@@ -189,7 +191,9 @@ main.ts:188652
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -197,7 +201,7 @@ main.ts:188652
 
 #### Defined in
 
-main.ts:188670
+main.ts:201006
 
 ***
 
@@ -207,7 +211,9 @@ main.ts:188670
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -215,7 +221,7 @@ main.ts:188670
 
 #### Defined in
 
-main.ts:188699
+main.ts:201035
 
 ***
 
@@ -225,7 +231,9 @@ main.ts:188699
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -233,4 +241,4 @@ main.ts:188699
 
 #### Defined in
 
-main.ts:188692
+main.ts:201028

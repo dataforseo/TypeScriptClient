@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductVariation
+[Documentation](../README.md) / IProductVariation
 
 # Interface: IProductVariation
 
@@ -21,7 +21,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178781
+main.ts:190522
 
 ***
 
@@ -33,7 +33,7 @@ name of the product seller
 
 #### Defined in
 
-main.ts:178783
+main.ts:190524
 
 ***
 
@@ -45,7 +45,7 @@ type of element
 
 #### Defined in
 
-main.ts:178778
+main.ts:190519
 
 ***
 
@@ -58,4 +58,4 @@ url of the webpage on the seller’s website where the product is sold
 
 #### Defined in
 
-main.ts:178786
+main.ts:190527

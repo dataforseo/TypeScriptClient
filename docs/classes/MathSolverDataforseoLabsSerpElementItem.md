@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MathSolverDataforseoLabsSerpElementItem
+[Documentation](../README.md) / MathSolverDataforseoLabsSerpElementItem
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 
@@ -26,7 +26,9 @@
 
 #### Parameters
 
-• **data?**: [`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-main.ts:97072
+main.ts:106934
 
 ## Properties
 
@@ -52,7 +54,7 @@ main.ts:97072
 
 #### Defined in
 
-main.ts:20747
+main.ts:21425
 
 ***
 
@@ -68,7 +70,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:97064
+main.ts:106926
 
 ***
 
@@ -86,7 +88,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97068
+main.ts:106930
 
 ***
 
@@ -108,7 +110,7 @@ left, right
 
 #### Defined in
 
-main.ts:20743
+main.ts:21421
 
 ***
 
@@ -129,7 +131,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20739
+main.ts:21417
 
 ***
 
@@ -150,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20736
+main.ts:21414
 
 ***
 
@@ -167,7 +169,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:97062
+main.ts:106924
 
 ***
 
@@ -183,7 +185,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97059
+main.ts:106921
 
 ***
 
@@ -203,7 +205,7 @@ type of element
 
 #### Defined in
 
-main.ts:20733
+main.ts:21411
 
 ***
 
@@ -223,7 +225,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20745
+main.ts:21423
 
 ## Methods
 
@@ -233,7 +235,9 @@ main.ts:20745
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -245,7 +249,7 @@ main.ts:20745
 
 #### Defined in
 
-main.ts:97077
+main.ts:106939
 
 ***
 
@@ -255,7 +259,9 @@ main.ts:97077
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -267,7 +273,7 @@ main.ts:97077
 
 #### Defined in
 
-main.ts:97106
+main.ts:106968
 
 ***
 
@@ -277,7 +283,9 @@ main.ts:97106
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -289,4 +297,4 @@ main.ts:97106
 
 #### Defined in
 
-main.ts:97099
+main.ts:106961

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetAdvancedItem
+[Documentation](../README.md) / ISerpGoogleDatasetAdvancedItem
 
 # Interface: ISerpGoogleDatasetAdvancedItem
 
@@ -21,7 +21,7 @@ for example: Africa, Global
 
 #### Defined in
 
-main.ts:54436
+main.ts:58097
 
 ***
 
@@ -33,7 +33,7 @@ the list of authors of the dataset
 
 #### Defined in
 
-main.ts:54426
+main.ts:58087
 
 ***
 
@@ -45,7 +45,7 @@ description of the dataset
 
 #### Defined in
 
-main.ts:54440
+main.ts:58101
 
 ***
 
@@ -57,7 +57,7 @@ ID of the dataset
 
 #### Defined in
 
-main.ts:54398
+main.ts:58059
 
 ***
 
@@ -69,7 +69,7 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
-main.ts:54422
+main.ts:58083
 
 ***
 
@@ -81,7 +81,7 @@ the list of file formats of the dataset
 
 #### Defined in
 
-main.ts:54424
+main.ts:58085
 
 ***
 
@@ -94,7 +94,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:54403
+main.ts:58064
 
 ***
 
@@ -106,7 +106,7 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
-main.ts:54428
+main.ts:58089
 
 ***
 
@@ -120,7 +120,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:54420
+main.ts:58081
 
 ***
 
@@ -132,7 +132,7 @@ period covered in the dataset
 
 #### Defined in
 
-main.ts:54438
+main.ts:58099
 
 ***
 
@@ -146,7 +146,7 @@ left, right
 
 #### Defined in
 
-main.ts:54394
+main.ts:58055
 
 ***
 
@@ -159,7 +159,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:54390
+main.ts:58051
 
 ***
 
@@ -173,7 +173,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:54387
+main.ts:58048
 
 ***
 
@@ -186,7 +186,7 @@ link to the published article that is related to the dataset
 
 #### Defined in
 
-main.ts:54416
+main.ts:58077
 
 ***
 
@@ -200,7 +200,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 #### Defined in
 
-main.ts:54409
+main.ts:58070
 
 ***
 
@@ -212,7 +212,7 @@ count of articles that refer to the dataset
 
 #### Defined in
 
-main.ts:54405
+main.ts:58066
 
 ***
 
@@ -220,11 +220,11 @@ main.ts:54405
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Defined in
 
-main.ts:54400
+main.ts:58061
 
 ***
 
@@ -236,7 +236,7 @@ type of element
 
 #### Defined in
 
-main.ts:54383
+main.ts:58044
 
 ***
 
@@ -250,7 +250,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 #### Defined in
 
-main.ts:54413
+main.ts:58074
 
 ***
 
@@ -265,7 +265,7 @@ example:
 
 #### Defined in
 
-main.ts:54433
+main.ts:58094
 
 ***
 
@@ -277,4 +277,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:54396
+main.ts:58057

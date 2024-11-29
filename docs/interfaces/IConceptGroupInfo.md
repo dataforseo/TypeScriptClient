@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IConceptGroupInfo
+[Documentation](../README.md) / IConceptGroupInfo
 
 # Interface: IConceptGroupInfo
 
@@ -20,7 +20,7 @@ the concept group name
 
 #### Defined in
 
-main.ts:118961
+main.ts:128693
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Defined in
 
-main.ts:118963
+main.ts:128695

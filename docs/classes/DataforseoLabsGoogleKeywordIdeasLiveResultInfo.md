@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordIdeasLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:85477
+main.ts:95191
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains keyword ideas and related data
 
 #### Defined in
 
-main.ts:85473
+main.ts:95187
 
 ***
 
@@ -62,7 +64,7 @@ number of results returned in the items array
 
 #### Defined in
 
-main.ts:85465
+main.ts:95179
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:85461
+main.ts:95175
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:85459
+main.ts:95173
 
 ***
 
@@ -110,7 +112,7 @@ current offset value
 
 #### Defined in
 
-main.ts:85467
+main.ts:95181
 
 ***
 
@@ -128,7 +130,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:85471
+main.ts:95185
 
 ***
 
@@ -144,7 +146,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85454
+main.ts:95168
 
 ***
 
@@ -153,7 +155,7 @@ main.ts:85454
 > `optional` **seed\_keywords**: `string`[]
 
 keywords in a POST array
-keywords are returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
@@ -161,7 +163,7 @@ keywords are returned with decoded %## (plus symbol ‘+’ will be decoded to a
 
 #### Defined in
 
-main.ts:85457
+main.ts:95171
 
 ***
 
@@ -177,7 +179,7 @@ total number of results relevant to your request in our database
 
 #### Defined in
 
-main.ts:85463
+main.ts:95177
 
 ## Methods
 
@@ -187,7 +189,9 @@ main.ts:85463
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -195,7 +199,7 @@ main.ts:85463
 
 #### Defined in
 
-main.ts:85486
+main.ts:95200
 
 ***
 
@@ -205,7 +209,9 @@ main.ts:85486
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -213,7 +219,7 @@ main.ts:85486
 
 #### Defined in
 
-main.ts:85519
+main.ts:95233
 
 ***
 
@@ -223,7 +229,9 @@ main.ts:85519
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -231,4 +239,4 @@ main.ts:85519
 
 #### Defined in
 
-main.ts:85512
+main.ts:95226

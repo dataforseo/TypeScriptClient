@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:109528
+main.ts:118938
 
 ***
 
@@ -51,7 +51,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:109561
+main.ts:118971
 
 ***
 
@@ -66,7 +66,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109550
+main.ts:118960
 
 ***
 
@@ -81,7 +81,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109533
+main.ts:118943
 
 ***
 
@@ -96,7 +96,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109538
+main.ts:118948
 
 ***
 
@@ -107,12 +107,12 @@ main.ts:109538
 keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:109482
+main.ts:118892
 
 ***
 
@@ -130,7 +130,7 @@ en
 
 #### Defined in
 
-main.ts:109516
+main.ts:118926
 
 ***
 
@@ -148,7 +148,7 @@ English
 
 #### Defined in
 
-main.ts:109508
+main.ts:118918
 
 ***
 
@@ -163,7 +163,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:109582
+main.ts:118992
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:109500
+main.ts:118910
 
 ***
 
@@ -201,7 +201,7 @@ United States
 
 #### Defined in
 
-main.ts:109491
+main.ts:118901
 
 ***
 
@@ -216,7 +216,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:109587
+main.ts:118997
 
 ***
 
@@ -242,7 +242,7 @@ example:
 
 #### Defined in
 
-main.ts:109577
+main.ts:118987
 
 ***
 
@@ -259,7 +259,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109545
+main.ts:118955
 
 ***
 
@@ -275,4 +275,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:109593
+main.ts:119003

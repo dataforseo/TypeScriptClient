@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMerchantAmazonInfo
+[Documentation](../README.md) / IAppendixMerchantAmazonInfo
 
 # Interface: IAppendixMerchantAmazonInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:216670
+main.ts:231629
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:216670
 
 #### Defined in
 
-main.ts:216671
+main.ts:231630
 
 ***
 
@@ -38,4 +38,4 @@ main.ts:216671
 
 #### Defined in
 
-main.ts:216672
+main.ts:231631

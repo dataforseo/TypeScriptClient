@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisCategoriesResultInfo
+[Documentation](../README.md) / IContentAnalysisCategoriesResultInfo
 
 # Interface: IContentAnalysisCategoriesResultInfo
 
@@ -20,7 +20,7 @@ category code
 
 #### Defined in
 
-main.ts:165604
+main.ts:177193
 
 ***
 
@@ -40,7 +40,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:165616
+main.ts:177205
 
 ***
 
@@ -52,4 +52,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:165606
+main.ts:177195

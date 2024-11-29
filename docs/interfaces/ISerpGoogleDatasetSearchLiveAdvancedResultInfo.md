@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetSearchLiveAdvancedResultInfo
+[Documentation](../README.md) / ISerpGoogleDatasetSearchLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:55014
+main.ts:58687
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:55019
+main.ts:58692
 
 ***
 
@@ -50,7 +50,7 @@ possible item type: dataset
 
 #### Defined in
 
-main.ts:55026
+main.ts:58701
 
 ***
 
@@ -58,11 +58,11 @@ main.ts:55026
 
 > `optional` **items**: [`SerpGoogleDatasetAdvancedItem`](../classes/SerpGoogleDatasetAdvancedItem.md)[]
 
-elements of search results found in SERP
+items of the element
 
 #### Defined in
 
-main.ts:55032
+main.ts:58707
 
 ***
 
@@ -74,7 +74,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:55030
+main.ts:58705
 
 ***
 
@@ -83,11 +83,11 @@ main.ts:55030
 > `optional` **keyword**: `string`
 
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Defined in
 
-main.ts:55007
+main.ts:58680
 
 ***
 
@@ -99,7 +99,19 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:55011
+main.ts:58684
+
+***
+
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+search refinement chips
+
+#### Defined in
+
+main.ts:58697
 
 ***
 
@@ -111,7 +123,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:55009
+main.ts:58682
 
 ***
 
@@ -123,7 +135,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:55028
+main.ts:58703
 
 ***
 
@@ -136,4 +148,4 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:55022
+main.ts:58695

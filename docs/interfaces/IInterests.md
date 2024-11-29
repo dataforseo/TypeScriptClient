@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IInterests
+[Documentation](../README.md) / IInterests
 
 # Interface: IInterests
 
@@ -21,7 +21,7 @@ the data included in the values element is based on this keyword
 
 #### Defined in
 
-main.ts:126238
+main.ts:136493
 
 ***
 
@@ -33,4 +33,4 @@ contains data on relative keyword popularity by country or region
 
 #### Defined in
 
-main.ts:126240
+main.ts:136495

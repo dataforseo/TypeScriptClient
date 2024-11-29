@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeLiveRequestInfo
 
 # Class: KeywordsDataBingSearchVolumeLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:129135
+main.ts:139401
 
 ## Properties
 
@@ -53,7 +55,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129109
+main.ts:139375
 
 ***
 
@@ -78,7 +80,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129120
+main.ts:139386
 
 ***
 
@@ -98,7 +100,7 @@ default value: all
 
 #### Defined in
 
-main.ts:129095
+main.ts:139361
 
 ***
 
@@ -111,6 +113,7 @@ required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
@@ -118,7 +121,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:129055
+main.ts:139321
 
 ***
 
@@ -138,7 +141,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:129089
+main.ts:139355
 
 ***
 
@@ -158,7 +161,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:129083
+main.ts:139349
 
 ***
 
@@ -179,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:129069
+main.ts:139335
 
 ***
 
@@ -201,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:129077
+main.ts:139343
 
 ***
 
@@ -222,7 +225,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:129062
+main.ts:139328
 
 ***
 
@@ -241,7 +244,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:129125
+main.ts:139391
 
 ***
 
@@ -260,7 +263,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:129100
+main.ts:139366
 
 ***
 
@@ -280,7 +283,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129131
+main.ts:139397
 
 ## Methods
 
@@ -290,7 +293,9 @@ main.ts:129131
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -298,7 +303,7 @@ main.ts:129131
 
 #### Defined in
 
-main.ts:129144
+main.ts:139410
 
 ***
 
@@ -308,7 +313,9 @@ main.ts:129144
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -316,7 +323,7 @@ main.ts:129144
 
 #### Defined in
 
-main.ts:129176
+main.ts:139442
 
 ***
 
@@ -326,7 +333,9 @@ main.ts:129176
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -334,4 +343,4 @@ main.ts:129176
 
 #### Defined in
 
-main.ts:129169
+main.ts:139435

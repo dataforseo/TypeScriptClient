@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRatingInfo
+[Documentation](../README.md) / IRatingInfo
 
 # Interface: IRatingInfo
 
@@ -20,7 +20,7 @@ the maximum value for a rating_type
 
 #### Defined in
 
-main.ts:23180
+main.ts:24078
 
 ***
 
@@ -33,7 +33,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:23174
+main.ts:24072
 
 ***
 
@@ -45,7 +45,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:23176
+main.ts:24074
 
 ***
 
@@ -57,4 +57,4 @@ the amount of feedback
 
 #### Defined in
 
-main.ts:23178
+main.ts:24076

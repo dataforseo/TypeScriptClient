@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppUserProfileInfo
+[Documentation](../README.md) / AppUserProfileInfo
 
 # Class: AppUserProfileInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppUserProfileInfo`](../interfaces/IAppUserProfileInfo.md)
+##### data?
+
+[`IAppUserProfileInfo`](../interfaces/IAppUserProfileInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:190970
+main.ts:203306
 
 ## Properties
 
@@ -46,7 +48,7 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-main.ts:190966
+main.ts:203302
 
 ***
 
@@ -62,7 +64,7 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:190964
+main.ts:203300
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:190964
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:190964
 
 #### Defined in
 
-main.ts:190979
+main.ts:203315
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:190979
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:190979
 
 #### Defined in
 
-main.ts:190997
+main.ts:203333
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:190997
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:190997
 
 #### Defined in
 
-main.ts:190990
+main.ts:203326

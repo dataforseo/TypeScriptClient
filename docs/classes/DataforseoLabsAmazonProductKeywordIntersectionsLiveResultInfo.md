@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:105382
+main.ts:115020
 
 ## Properties
 
@@ -50,7 +52,7 @@ ASINs in a POST array
 
 #### Defined in
 
-main.ts:105366
+main.ts:115004
 
 ***
 
@@ -66,7 +68,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:105378
+main.ts:115016
 
 ***
 
@@ -82,7 +84,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:105376
+main.ts:115014
 
 ***
 
@@ -99,7 +101,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:105372
+main.ts:115010
 
 ***
 
@@ -116,7 +118,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:105369
+main.ts:115007
 
 ***
 
@@ -132,7 +134,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105364
+main.ts:115002
 
 ***
 
@@ -148,7 +150,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:105374
+main.ts:115012
 
 ## Methods
 
@@ -158,7 +160,9 @@ main.ts:105374
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +170,7 @@ main.ts:105374
 
 #### Defined in
 
-main.ts:105391
+main.ts:115029
 
 ***
 
@@ -176,7 +180,9 @@ main.ts:105391
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -184,7 +190,7 @@ main.ts:105391
 
 #### Defined in
 
-main.ts:105424
+main.ts:115062
 
 ***
 
@@ -194,7 +200,9 @@ main.ts:105424
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -202,4 +210,4 @@ main.ts:105424
 
 #### Defined in
 
-main.ts:105417
+main.ts:115055

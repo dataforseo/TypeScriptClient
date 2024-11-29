@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSerpsLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSerpsLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveItem
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:96622
+main.ts:106266
 
 ***
 
@@ -36,7 +36,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:96647
+main.ts:106291
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:96627
+main.ts:106271
 
 ***
 
@@ -66,7 +66,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 #### Defined in
 
-main.ts:96635
+main.ts:106279
 
 ***
 
@@ -79,7 +79,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96642
+main.ts:106286
 
 ***
 
@@ -91,7 +91,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96639
+main.ts:106283
 
 ***
 
@@ -104,7 +104,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:96611
+main.ts:106255
 
 ***
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96619
+main.ts:106263
 
 ***
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96617
+main.ts:106261
 
 ***
 
@@ -140,7 +140,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:96615
+main.ts:106259
 
 ***
 
@@ -152,7 +152,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:96637
+main.ts:106281
 
 ***
 
@@ -164,7 +164,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96608
+main.ts:106252
 
 ***
 
@@ -177,7 +177,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:96630
+main.ts:106274
 
 ***
 
@@ -189,4 +189,4 @@ type of element
 
 #### Defined in
 
-main.ts:96613
+main.ts:106257

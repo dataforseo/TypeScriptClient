@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksAvailableFiltersResultInfo
+[Documentation](../README.md) / BacklinksAvailableFiltersResultInfo
 
 # Class: BacklinksAvailableFiltersResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md)
+##### data?
+
+[`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:138185
+main.ts:149390
 
 ## Properties
 
@@ -48,7 +50,7 @@ main.ts:138185
 
 #### Defined in
 
-main.ts:138175
+main.ts:149380
 
 ***
 
@@ -66,7 +68,7 @@ main.ts:138175
 
 #### Defined in
 
-main.ts:138173
+main.ts:149378
 
 ***
 
@@ -84,7 +86,7 @@ main.ts:138173
 
 #### Defined in
 
-main.ts:138181
+main.ts:149386
 
 ***
 
@@ -102,7 +104,7 @@ main.ts:138181
 
 #### Defined in
 
-main.ts:138172
+main.ts:149377
 
 ***
 
@@ -120,7 +122,7 @@ main.ts:138172
 
 #### Defined in
 
-main.ts:138177
+main.ts:149382
 
 ***
 
@@ -138,7 +140,7 @@ main.ts:138177
 
 #### Defined in
 
-main.ts:138174
+main.ts:149379
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:138174
 
 #### Defined in
 
-main.ts:138180
+main.ts:149385
 
 ***
 
@@ -174,7 +176,7 @@ main.ts:138180
 
 #### Defined in
 
-main.ts:138178
+main.ts:149383
 
 ***
 
@@ -192,7 +194,7 @@ main.ts:138178
 
 #### Defined in
 
-main.ts:138176
+main.ts:149381
 
 ***
 
@@ -210,7 +212,7 @@ main.ts:138176
 
 #### Defined in
 
-main.ts:138179
+main.ts:149384
 
 ## Methods
 
@@ -220,7 +222,9 @@ main.ts:138179
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -228,7 +232,7 @@ main.ts:138179
 
 #### Defined in
 
-main.ts:138194
+main.ts:149399
 
 ***
 
@@ -238,7 +242,9 @@ main.ts:138194
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -246,7 +252,7 @@ main.ts:138194
 
 #### Defined in
 
-main.ts:138280
+main.ts:149485
 
 ***
 
@@ -256,7 +262,9 @@ main.ts:138280
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -264,4 +272,4 @@ main.ts:138280
 
 #### Defined in
 
-main.ts:138273
+main.ts:149478

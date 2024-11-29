@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorReviewsTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskGetResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:214481
+main.ts:229424
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:214486
+main.ts:229429
 
 ***
 
@@ -49,7 +49,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:214506
+main.ts:229449
 
 ***
 
@@ -62,7 +62,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:214503
+main.ts:229446
 
 ***
 
@@ -74,7 +74,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:214508
+main.ts:229451
 
 ***
 
@@ -87,7 +87,7 @@ address of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:214492
+main.ts:229435
 
 ***
 
@@ -100,7 +100,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:214497
+main.ts:229440
 
 ***
 
@@ -117,7 +117,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-main.ts:214500
+main.ts:229443
 
 ***
 
@@ -129,7 +129,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:214494
+main.ts:229437
 
 ***
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:214478
+main.ts:229421
 
 ***
 
@@ -154,7 +154,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:214489
+main.ts:229432
 
 ***
 
@@ -166,7 +166,7 @@ type of element
 
 #### Defined in
 
-main.ts:214476
+main.ts:229419
 
 ***
 
@@ -178,4 +178,4 @@ URL path received in a POST array
 
 #### Defined in
 
-main.ts:214474
+main.ts:229417

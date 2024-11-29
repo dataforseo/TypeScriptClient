@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ImagesElement
+[Documentation](../README.md) / ImagesElement
 
 # Class: ImagesElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IImagesElement`](../interfaces/IImagesElement.md)
+##### data?
+
+[`IImagesElement`](../interfaces/IImagesElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:28461
+main.ts:30020
 
 ## Properties
 
@@ -46,7 +48,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:28452
+main.ts:30011
 
 ***
 
@@ -63,7 +65,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:28457
+main.ts:30016
 
 ***
 
@@ -79,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:28450
+main.ts:30009
 
 ***
 
@@ -95,7 +97,7 @@ URL link
 
 #### Defined in
 
-main.ts:28454
+main.ts:30013
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:28454
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:28454
 
 #### Defined in
 
-main.ts:28470
+main.ts:30029
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:28470
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:28470
 
 #### Defined in
 
-main.ts:28490
+main.ts:30049
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:28490
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:28490
 
 #### Defined in
 
-main.ts:28483
+main.ts:30042

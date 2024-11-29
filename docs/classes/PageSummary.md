@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageSummary
+[Documentation](../README.md) / PageSummary
 
 # Class: PageSummary
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPageSummary`](../interfaces/IPageSummary.md)
+##### data?
+
+[`IPageSummary`](../interfaces/IPageSummary.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:142626
+main.ts:153831
 
 ## Properties
 
@@ -46,7 +48,7 @@ indicates the number of backlinks
 
 #### Defined in
 
-main.ts:142573
+main.ts:153778
 
 ***
 
@@ -63,7 +65,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:142576
+main.ts:153781
 
 ***
 
@@ -80,7 +82,7 @@ number of broken backlinks pointing to the page
 
 #### Defined in
 
-main.ts:142579
+main.ts:153784
 
 ***
 
@@ -97,7 +99,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Defined in
 
-main.ts:142582
+main.ts:153787
 
 ***
 
@@ -116,7 +118,7 @@ example:
 
 #### Defined in
 
-main.ts:142560
+main.ts:153765
 
 ***
 
@@ -136,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:142566
+main.ts:153771
 
 ***
 
@@ -155,7 +157,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:142571
+main.ts:153776
 
 ***
 
@@ -171,7 +173,7 @@ indicates the number of referring domains
 
 #### Defined in
 
-main.ts:142584
+main.ts:153789
 
 ***
 
@@ -187,7 +189,7 @@ number of domains pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:142586
+main.ts:153791
 
 ***
 
@@ -204,7 +206,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:142593
+main.ts:153798
 
 ***
 
@@ -225,7 +227,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:142610
+main.ts:153815
 
 ***
 
@@ -246,7 +248,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:142622
+main.ts:153827
 
 ***
 
@@ -267,7 +269,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:142613
+main.ts:153818
 
 ***
 
@@ -291,7 +293,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:142619
+main.ts:153824
 
 ***
 
@@ -312,7 +314,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:142602
+main.ts:153807
 
 ***
 
@@ -335,7 +337,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:142607
+main.ts:153812
 
 ***
 
@@ -351,7 +353,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:142588
+main.ts:153793
 
 ***
 
@@ -367,7 +369,7 @@ number of main domains pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:142590
+main.ts:153795
 
 ***
 
@@ -383,7 +385,7 @@ indicates the number of pages pointing to the page
 
 #### Defined in
 
-main.ts:142597
+main.ts:153802
 
 ***
 
@@ -399,7 +401,7 @@ number of referring pages pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:142599
+main.ts:153804
 
 ***
 
@@ -415,7 +417,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:142595
+main.ts:153800
 
 ## Methods
 
@@ -425,7 +427,9 @@ main.ts:142595
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -433,7 +437,7 @@ main.ts:142595
 
 #### Defined in
 
-main.ts:142635
+main.ts:153840
 
 ***
 
@@ -443,7 +447,9 @@ main.ts:142635
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -451,7 +457,7 @@ main.ts:142635
 
 #### Defined in
 
-main.ts:142708
+main.ts:153913
 
 ***
 
@@ -461,7 +467,9 @@ main.ts:142708
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -469,4 +477,4 @@ main.ts:142708
 
 #### Defined in
 
-main.ts:142701
+main.ts:153906

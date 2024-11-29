@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:107300
+main.ts:116862
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingDomainIntersectionLiveItem`](DataforseoLabsBingDomainIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
@@ -46,7 +48,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:107296
+main.ts:116858
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:107294
+main.ts:116856
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:107290
+main.ts:116852
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:107288
+main.ts:116850
 
 ***
 
@@ -112,7 +114,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:107282
+main.ts:116844
 
 ***
 
@@ -128,7 +130,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:107284
+main.ts:116846
 
 ***
 
@@ -144,7 +146,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:107286
+main.ts:116848
 
 ***
 
@@ -160,7 +162,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:107292
+main.ts:116854
 
 ## Methods
 
@@ -170,7 +172,9 @@ main.ts:107292
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -178,7 +182,7 @@ main.ts:107292
 
 #### Defined in
 
-main.ts:107309
+main.ts:116871
 
 ***
 
@@ -188,7 +192,9 @@ main.ts:107309
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -196,7 +202,7 @@ main.ts:107309
 
 #### Defined in
 
-main.ts:107337
+main.ts:116899
 
 ***
 
@@ -206,7 +212,9 @@ main.ts:107337
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -214,4 +222,4 @@ main.ts:107337
 
 #### Defined in
 
-main.ts:107330
+main.ts:116892

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateContentRequestInfo
+[Documentation](../README.md) / OnPageDuplicateContentRequestInfo
 
 # Class: OnPageDuplicateContentRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md)
+##### data?
+
+[`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:157187
+main.ts:168822
 
 ## Properties
 
@@ -50,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:157159
+main.ts:168794
 
 ***
 
@@ -69,7 +71,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:157172
+main.ts:168807
 
 ***
 
@@ -88,7 +90,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:157177
+main.ts:168812
 
 ***
 
@@ -106,7 +108,7 @@ you can specify any similarity score in the 0-to-10 range
 
 #### Defined in
 
-main.ts:157167
+main.ts:168802
 
 ***
 
@@ -126,7 +128,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:157183
+main.ts:168818
 
 ***
 
@@ -144,7 +146,7 @@ specify the initial page you want to receive duplicate content for
 
 #### Defined in
 
-main.ts:157163
+main.ts:168798
 
 ## Methods
 
@@ -154,7 +156,9 @@ main.ts:157163
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -162,7 +166,7 @@ main.ts:157163
 
 #### Defined in
 
-main.ts:157196
+main.ts:168831
 
 ***
 
@@ -172,7 +176,9 @@ main.ts:157196
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -180,7 +186,7 @@ main.ts:157196
 
 #### Defined in
 
-main.ts:157218
+main.ts:168853
 
 ***
 
@@ -190,7 +196,9 @@ main.ts:157218
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -198,4 +206,4 @@ main.ts:157218
 
 #### Defined in
 
-main.ts:157211
+main.ts:168846

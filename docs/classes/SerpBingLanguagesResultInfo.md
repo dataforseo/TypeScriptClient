@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBingLanguagesResultInfo
+[Documentation](../README.md) / SerpBingLanguagesResultInfo
 
 # Class: SerpBingLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md)
+##### data?
+
+[`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:57097
+main.ts:63197
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:57093
+main.ts:63193
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:57091
+main.ts:63191
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:57091
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:57091
 
 #### Defined in
 
-main.ts:57106
+main.ts:63206
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:57106
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:57106
 
 #### Defined in
 
-main.ts:57124
+main.ts:63224
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:57124
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:57124
 
 #### Defined in
 
-main.ts:57117
+main.ts:63217

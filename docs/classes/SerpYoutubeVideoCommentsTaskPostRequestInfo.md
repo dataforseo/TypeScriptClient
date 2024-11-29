@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoCommentsTaskPostRequestInfo
+[Documentation](../README.md) / SerpYoutubeVideoCommentsTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoCommentsTaskPostRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:64894
+main.ts:73114
 
 ## Properties
 
@@ -53,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:64858
+main.ts:73076
 
 ***
 
@@ -71,7 +73,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:64844
+main.ts:73062
 
 ***
 
@@ -92,7 +94,7 @@ en
 
 #### Defined in
 
-main.ts:64840
+main.ts:73058
 
 ***
 
@@ -113,7 +115,7 @@ English
 
 #### Defined in
 
-main.ts:64833
+main.ts:73051
 
 ***
 
@@ -134,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:64826
+main.ts:73044
 
 ***
 
@@ -155,7 +157,7 @@ United States
 
 #### Defined in
 
-main.ts:64819
+main.ts:73037
 
 ***
 
@@ -174,7 +176,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:64849
+main.ts:73067
 
 ***
 
@@ -189,8 +191,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -198,7 +201,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:64890
+main.ts:73110
 
 ***
 
@@ -218,7 +221,7 @@ advanced
 
 #### Defined in
 
-main.ts:64880
+main.ts:73099
 
 ***
 
@@ -233,8 +236,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
@@ -242,7 +246,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:64874
+main.ts:73093
 
 ***
 
@@ -264,7 +268,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:64812
+main.ts:73030
 
 ***
 
@@ -284,7 +288,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:64864
+main.ts:73082
 
 ***
 
@@ -304,7 +308,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:64804
+main.ts:73022
 
 ## Methods
 
@@ -314,7 +318,9 @@ main.ts:64804
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -322,7 +328,7 @@ main.ts:64804
 
 #### Defined in
 
-main.ts:64903
+main.ts:73123
 
 ***
 
@@ -332,7 +338,9 @@ main.ts:64903
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -340,7 +348,7 @@ main.ts:64903
 
 #### Defined in
 
-main.ts:64932
+main.ts:73152
 
 ***
 
@@ -350,7 +358,9 @@ main.ts:64932
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -358,4 +368,4 @@ main.ts:64932
 
 #### Defined in
 
-main.ts:64925
+main.ts:73145

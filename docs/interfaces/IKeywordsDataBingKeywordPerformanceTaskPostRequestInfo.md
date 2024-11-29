@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
@@ -23,7 +23,7 @@ default value: all
 
 #### Defined in
 
-main.ts:132697
+main.ts:144544
 
 ***
 
@@ -37,10 +37,11 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 80
 The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:132692
+main.ts:144539
 
 ***
 
@@ -56,7 +57,7 @@ example:
 
 #### Defined in
 
-main.ts:132740
+main.ts:144587
 
 ***
 
@@ -73,7 +74,7 @@ English
 
 #### Defined in
 
-main.ts:132734
+main.ts:144581
 
 ***
 
@@ -90,7 +91,7 @@ example:
 
 #### Defined in
 
-main.ts:132719
+main.ts:144566
 
 ***
 
@@ -108,7 +109,7 @@ example:
 
 #### Defined in
 
-main.ts:132727
+main.ts:144574
 
 ***
 
@@ -125,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:132712
+main.ts:144559
 
 ***
 
@@ -143,7 +144,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-main.ts:132705
+main.ts:144552
 
 ***
 
@@ -158,12 +159,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:132760
+main.ts:144609
 
 ***
 
@@ -178,12 +180,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:132750
+main.ts:144598
 
 ***
 
@@ -199,4 +202,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:132766
+main.ts:144615

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleLanguagesResultInfo
+[Documentation](../README.md) / AppDataGoogleLanguagesResultInfo
 
 # Class: AppDataGoogleLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md)
+##### data?
+
+[`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:186958
+main.ts:199056
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:186954
+main.ts:199052
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:186952
+main.ts:199050
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:186952
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:186952
 
 #### Defined in
 
-main.ts:186967
+main.ts:199065
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:186967
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:186967
 
 #### Defined in
 
-main.ts:186985
+main.ts:199083
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:186985
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:186985
 
 #### Defined in
 
-main.ts:186978
+main.ts:199076

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonMetricsBundleInfo
+[Documentation](../README.md) / AmazonMetricsBundleInfo
 
 # Class: AmazonMetricsBundleInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md)
+##### data?
+
+[`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:104150
+main.ts:113788
 
 ## Properties
 
@@ -46,7 +48,7 @@ ranking data from Amazon paid SERP
 
 #### Defined in
 
-main.ts:104146
+main.ts:113784
 
 ***
 
@@ -62,7 +64,7 @@ ranking data from Amazon organic SERP
 
 #### Defined in
 
-main.ts:104144
+main.ts:113782
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:104144
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:104144
 
 #### Defined in
 
-main.ts:104159
+main.ts:113797
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:104159
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:104159
 
 #### Defined in
 
-main.ts:104177
+main.ts:113815
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:104177
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:104177
 
 #### Defined in
 
-main.ts:104170
+main.ts:113808

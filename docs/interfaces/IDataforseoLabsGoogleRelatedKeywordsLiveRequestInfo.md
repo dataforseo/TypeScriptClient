@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:84131
+main.ts:93845
 
 ***
 
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:84179
+main.ts:93893
 
 ***
 
@@ -74,7 +74,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84153
+main.ts:93867
 
 ***
 
@@ -84,14 +84,14 @@ main.ts:84153
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
 #### Defined in
 
-main.ts:84148
+main.ts:93862
 
 ***
 
@@ -106,7 +106,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84136
+main.ts:93850
 
 ***
 
@@ -121,7 +121,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84141
+main.ts:93855
 
 ***
 
@@ -133,10 +133,11 @@ keyword
 required field
 UTF-8 encoding
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:84087
+main.ts:93801
 
 ***
 
@@ -154,7 +155,7 @@ en
 
 #### Defined in
 
-main.ts:84119
+main.ts:93833
 
 ***
 
@@ -172,7 +173,7 @@ English
 
 #### Defined in
 
-main.ts:84111
+main.ts:93825
 
 ***
 
@@ -187,7 +188,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:84200
+main.ts:93914
 
 ***
 
@@ -205,7 +206,7 @@ example:
 
 #### Defined in
 
-main.ts:84103
+main.ts:93817
 
 ***
 
@@ -223,7 +224,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:84095
+main.ts:93809
 
 ***
 
@@ -238,7 +239,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:84205
+main.ts:93919
 
 ***
 
@@ -264,7 +265,7 @@ example:
 
 #### Defined in
 
-main.ts:84195
+main.ts:93909
 
 ***
 
@@ -281,7 +282,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84160
+main.ts:93874
 
 ***
 
@@ -297,4 +298,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:84211
+main.ts:93925

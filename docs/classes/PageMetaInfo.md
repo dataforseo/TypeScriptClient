@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageMetaInfo
+[Documentation](../README.md) / PageMetaInfo
 
 # Class: PageMetaInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IPageMetaInfo`](../interfaces/IPageMetaInfo.md)
+##### data?
+
+[`IPageMetaInfo`](../interfaces/IPageMetaInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:154522
+main.ts:166149
 
 ## Properties
 
@@ -46,7 +48,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:154518
+main.ts:166145
 
 ***
 
@@ -62,7 +64,7 @@ canonical page
 
 #### Defined in
 
-main.ts:154471
+main.ts:166098
 
 ***
 
@@ -79,7 +81,7 @@ example: 65001
 
 #### Defined in
 
-main.ts:154456
+main.ts:166083
 
 ***
 
@@ -95,7 +97,7 @@ overall information about content of the page
 
 #### Defined in
 
-main.ts:154505
+main.ts:166132
 
 ***
 
@@ -112,7 +114,7 @@ measures the sum total of all individual layout shift scores for every unexpecte
 
 #### Defined in
 
-main.ts:154500
+main.ts:166127
 
 ***
 
@@ -128,7 +130,7 @@ deprecated tags on the page
 
 #### Defined in
 
-main.ts:154507
+main.ts:166134
 
 ***
 
@@ -144,7 +146,7 @@ content of the meta description tag
 
 #### Defined in
 
-main.ts:154465
+main.ts:166092
 
 ***
 
@@ -160,7 +162,7 @@ length of the description tag in characters
 
 #### Defined in
 
-main.ts:154493
+main.ts:166120
 
 ***
 
@@ -176,7 +178,7 @@ duplicate meta tags on the page
 
 #### Defined in
 
-main.ts:154509
+main.ts:166136
 
 ***
 
@@ -192,7 +194,7 @@ number of external links on the page
 
 #### Defined in
 
-main.ts:154475
+main.ts:166102
 
 ***
 
@@ -208,7 +210,7 @@ favicon of the page
 
 #### Defined in
 
-main.ts:154467
+main.ts:166094
 
 ***
 
@@ -225,7 +227,7 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
 
 #### Defined in
 
-main.ts:154459
+main.ts:166086
 
 ***
 
@@ -241,7 +243,7 @@ meta tag generator
 
 #### Defined in
 
-main.ts:154461
+main.ts:166088
 
 ***
 
@@ -261,7 +263,7 @@ HTML header tags
 
 #### Defined in
 
-main.ts:154463
+main.ts:166090
 
 ***
 
@@ -277,7 +279,7 @@ number of images on the page
 
 #### Defined in
 
-main.ts:154479
+main.ts:166106
 
 ***
 
@@ -293,7 +295,7 @@ total size of images on the page measured in bytes
 
 #### Defined in
 
-main.ts:154481
+main.ts:166108
 
 ***
 
@@ -309,7 +311,7 @@ number of internal links pointing at the page
 
 #### Defined in
 
-main.ts:154477
+main.ts:166104
 
 ***
 
@@ -325,7 +327,7 @@ number of internal links on the page
 
 #### Defined in
 
-main.ts:154473
+main.ts:166100
 
 ***
 
@@ -341,7 +343,7 @@ content of the keywords meta tag
 
 #### Defined in
 
-main.ts:154469
+main.ts:166096
 
 ***
 
@@ -358,7 +360,7 @@ meta tag in the head section of an HTML document that defines the title of a pag
 
 #### Defined in
 
-main.ts:154503
+main.ts:166130
 
 ***
 
@@ -374,7 +376,7 @@ number of scripts on the page that block page rendering
 
 #### Defined in
 
-main.ts:154495
+main.ts:166122
 
 ***
 
@@ -390,7 +392,7 @@ number of CSS styles on the page that block page rendering
 
 #### Defined in
 
-main.ts:154497
+main.ts:166124
 
 ***
 
@@ -406,7 +408,7 @@ number of scripts on the page
 
 #### Defined in
 
-main.ts:154483
+main.ts:166110
 
 ***
 
@@ -422,7 +424,7 @@ total size of scripts on the page measured in bytes
 
 #### Defined in
 
-main.ts:154485
+main.ts:166112
 
 ***
 
@@ -444,7 +446,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-main.ts:154516
+main.ts:166143
 
 ***
 
@@ -461,7 +463,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:154512
+main.ts:166139
 
 ***
 
@@ -477,7 +479,7 @@ number of stylesheets on the page
 
 #### Defined in
 
-main.ts:154487
+main.ts:166114
 
 ***
 
@@ -493,7 +495,7 @@ total size of stylesheets on the page measured in bytes
 
 #### Defined in
 
-main.ts:154489
+main.ts:166116
 
 ***
 
@@ -509,7 +511,7 @@ page title
 
 #### Defined in
 
-main.ts:154453
+main.ts:166080
 
 ***
 
@@ -525,7 +527,7 @@ length of the title tag in characters
 
 #### Defined in
 
-main.ts:154491
+main.ts:166118
 
 ## Methods
 
@@ -535,7 +537,9 @@ main.ts:154491
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -543,7 +547,7 @@ main.ts:154491
 
 #### Defined in
 
-main.ts:154531
+main.ts:166158
 
 ***
 
@@ -553,7 +557,9 @@ main.ts:154531
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -561,7 +567,7 @@ main.ts:154531
 
 #### Defined in
 
-main.ts:154597
+main.ts:166224
 
 ***
 
@@ -571,7 +577,9 @@ main.ts:154597
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -579,4 +587,4 @@ main.ts:154597
 
 #### Defined in
 
-main.ts:154590
+main.ts:166217

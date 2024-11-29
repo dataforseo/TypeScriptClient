@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksInfo
+[Documentation](../README.md) / BacklinksInfo
 
 # Class: BacklinksInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md)
+##### data?
+
+[`IBacklinksInfo`](../interfaces/IBacklinksInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:79792
+main.ts:89504
 
 ## Properties
 
@@ -47,7 +49,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Defined in
 
-main.ts:79783
+main.ts:89495
 
 ***
 
@@ -63,7 +65,7 @@ number of dofollow links
 
 #### Defined in
 
-main.ts:79780
+main.ts:89492
 
 ***
 
@@ -79,7 +81,7 @@ number of referring domains
 
 #### Defined in
 
-main.ts:79774
+main.ts:89486
 
 ***
 
@@ -95,7 +97,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:79776
+main.ts:89488
 
 ***
 
@@ -111,7 +113,7 @@ number of referring pages
 
 #### Defined in
 
-main.ts:79778
+main.ts:89490
 
 ***
 
@@ -130,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:79788
+main.ts:89500
 
 ## Methods
 
@@ -140,7 +142,9 @@ main.ts:79788
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -148,7 +152,7 @@ main.ts:79788
 
 #### Defined in
 
-main.ts:79801
+main.ts:89513
 
 ***
 
@@ -158,7 +162,9 @@ main.ts:79801
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -166,7 +172,7 @@ main.ts:79801
 
 #### Defined in
 
-main.ts:79823
+main.ts:89535
 
 ***
 
@@ -176,7 +182,9 @@ main.ts:79823
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -184,4 +192,4 @@ main.ts:79823
 
 #### Defined in
 
-main.ts:79816
+main.ts:89528

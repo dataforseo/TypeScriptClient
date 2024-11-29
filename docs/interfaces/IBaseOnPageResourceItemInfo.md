@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseOnPageResourceItemInfo
+[Documentation](../README.md) / IBaseOnPageResourceItemInfo
 
 # Interface: IBaseOnPageResourceItemInfo
 
@@ -24,7 +24,7 @@ instructions for caching
 
 #### Defined in
 
-main.ts:21566
+main.ts:22464
 
 ***
 
@@ -41,7 +41,7 @@ on-page check-ups related to the page
 
 #### Defined in
 
-main.ts:21569
+main.ts:22467
 
 ***
 
@@ -53,7 +53,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:21571
+main.ts:22469
 
 ***
 
@@ -66,7 +66,7 @@ indicates the size of the encoded page measured in bytes
 
 #### Defined in
 
-main.ts:21556
+main.ts:22454
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:21564
+main.ts:22462
 
 ***
 
@@ -94,7 +94,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:21578
+main.ts:22476
 
 ***
 
@@ -107,7 +107,7 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-main.ts:21546
+main.ts:22444
 
 ***
 
@@ -119,7 +119,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:21573
+main.ts:22471
 
 ***
 
@@ -131,7 +131,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:21550
+main.ts:22448
 
 ***
 
@@ -143,7 +143,7 @@ type of the returned resource
 
 #### Defined in
 
-main.ts:21541
+main.ts:22439
 
 ***
 
@@ -155,7 +155,7 @@ server version
 
 #### Defined in
 
-main.ts:21575
+main.ts:22473
 
 ***
 
@@ -168,7 +168,7 @@ indicates the size of a given page measured in bytes
 
 #### Defined in
 
-main.ts:21553
+main.ts:22451
 
 ***
 
@@ -180,7 +180,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:21543
+main.ts:22441
 
 ***
 
@@ -193,7 +193,7 @@ indicates the compressed size of a given page
 
 #### Defined in
 
-main.ts:21559
+main.ts:22457
 
 ***
 
@@ -205,4 +205,4 @@ page URL
 
 #### Defined in
 
-main.ts:21548
+main.ts:22446

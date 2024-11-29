@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsCategoriesResultInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesResultInfo
 
@@ -20,7 +20,7 @@ number of businesses in the category
 
 #### Defined in
 
-main.ts:197873
+main.ts:210223
 
 ***
 
@@ -32,4 +32,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:197871
+main.ts:210221

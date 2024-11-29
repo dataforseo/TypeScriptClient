@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductConsiderationsElement
+[Documentation](../README.md) / ProductConsiderationsElement
 
 # Class: ProductConsiderationsElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md)
+##### data?
+
+[`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:35231
+main.ts:36716
 
 ## Properties
 
@@ -47,7 +49,7 @@ the category is indicated just above the title fo the consideration element
 
 #### Defined in
 
-main.ts:35225
+main.ts:36710
 
 ***
 
@@ -63,7 +65,7 @@ expanded element
 
 #### Defined in
 
-main.ts:35227
+main.ts:36712
 
 ***
 
@@ -79,7 +81,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35222
+main.ts:36707
 
 ***
 
@@ -95,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:35220
+main.ts:36705
 
 ## Methods
 
@@ -105,7 +107,9 @@ main.ts:35220
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -113,7 +117,7 @@ main.ts:35220
 
 #### Defined in
 
-main.ts:35240
+main.ts:36725
 
 ***
 
@@ -123,7 +127,9 @@ main.ts:35240
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +137,7 @@ main.ts:35240
 
 #### Defined in
 
-main.ts:35260
+main.ts:36745
 
 ***
 
@@ -141,7 +147,9 @@ main.ts:35260
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -149,4 +157,4 @@ main.ts:35260
 
 #### Defined in
 
-main.ts:35253
+main.ts:36738

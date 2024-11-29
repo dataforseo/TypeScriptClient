@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRedirectChainsItem
+[Documentation](../README.md) / OnPageRedirectChainsItem
 
 # Class: OnPageRedirectChainsItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md)
+##### data?
+
+[`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:158358
+main.ts:169993
 
 ## Properties
 
@@ -46,7 +48,7 @@ contains links that form a chain
 
 #### Defined in
 
-main.ts:158354
+main.ts:169989
 
 ***
 
@@ -63,7 +65,7 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Defined in
 
-main.ts:158352
+main.ts:169987
 
 ## Methods
 
@@ -73,7 +75,9 @@ main.ts:158352
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -81,7 +85,7 @@ main.ts:158352
 
 #### Defined in
 
-main.ts:158367
+main.ts:170002
 
 ***
 
@@ -91,7 +95,9 @@ main.ts:158367
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -99,7 +105,7 @@ main.ts:158367
 
 #### Defined in
 
-main.ts:158389
+main.ts:170024
 
 ***
 
@@ -109,7 +115,9 @@ main.ts:158389
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -117,4 +125,4 @@ main.ts:158389
 
 #### Defined in
 
-main.ts:158382
+main.ts:170017

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
@@ -20,7 +20,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:104351
+main.ts:113989
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:104349
+main.ts:113987
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:104345
+main.ts:113983
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:104342
+main.ts:113980
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:104339
+main.ts:113977
 
 ***
 
@@ -82,4 +82,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:104347
+main.ts:113985

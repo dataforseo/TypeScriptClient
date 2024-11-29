@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveResultInfo.md)
 
 #### Returns
 
@@ -30,13 +32,13 @@
 
 #### Defined in
 
-main.ts:93850
+main.ts:103568
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsGoogleDomainIntersectionLiveItem`](DataforseoLabsGoogleDomainIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
@@ -46,7 +48,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:93846
+main.ts:103564
 
 ***
 
@@ -62,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:93844
+main.ts:103562
 
 ***
 
@@ -78,7 +80,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:93840
+main.ts:103558
 
 ***
 
@@ -94,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:93838
+main.ts:103556
 
 ***
 
@@ -110,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93832
+main.ts:103550
 
 ***
 
@@ -126,7 +128,7 @@ the first target domain in a POST array
 
 #### Defined in
 
-main.ts:93834
+main.ts:103552
 
 ***
 
@@ -142,7 +144,7 @@ the second target domain in a POST array
 
 #### Defined in
 
-main.ts:93836
+main.ts:103554
 
 ***
 
@@ -158,7 +160,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:93842
+main.ts:103560
 
 ## Methods
 
@@ -168,7 +170,9 @@ main.ts:93842
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -176,7 +180,7 @@ main.ts:93842
 
 #### Defined in
 
-main.ts:93859
+main.ts:103577
 
 ***
 
@@ -186,7 +190,9 @@ main.ts:93859
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -194,7 +200,7 @@ main.ts:93859
 
 #### Defined in
 
-main.ts:93887
+main.ts:103605
 
 ***
 
@@ -204,7 +210,9 @@ main.ts:93887
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -212,4 +220,4 @@ main.ts:93887
 
 #### Defined in
 
-main.ts:93880
+main.ts:103598

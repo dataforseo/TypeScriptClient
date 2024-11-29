@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
 
@@ -31,7 +31,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:134309
+main.ts:146164
 
 ***
 
@@ -54,7 +54,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:134322
+main.ts:146177
 
 ***
 
@@ -70,7 +70,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 #### Defined in
 
-main.ts:134287
+main.ts:146142
 
 ***
 
@@ -83,10 +83,11 @@ required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:134249
+main.ts:146104
 
 ***
 
@@ -101,7 +102,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:134281
+main.ts:146136
 
 ***
 
@@ -116,7 +117,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:134276
+main.ts:146131
 
 ***
 
@@ -133,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:134263
+main.ts:146118
 
 ***
 
@@ -151,7 +152,7 @@ example:
 
 #### Defined in
 
-main.ts:134271
+main.ts:146126
 
 ***
 
@@ -168,7 +169,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:134256
+main.ts:146111
 
 ***
 
@@ -187,7 +188,7 @@ default value:  monthly
 
 #### Defined in
 
-main.ts:134296
+main.ts:146151
 
 ***
 
@@ -202,12 +203,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:134342
+main.ts:146199
 
 ***
 
@@ -222,12 +224,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:134332
+main.ts:146188
 
 ***
 
@@ -243,4 +246,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:134348
+main.ts:146205

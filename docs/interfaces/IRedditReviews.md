@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRedditReviews
+[Documentation](../README.md) / IRedditReviews
 
 # Interface: IRedditReviews
 
@@ -21,7 +21,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Defined in
 
-main.ts:215288
+main.ts:230231
 
 ***
 
@@ -33,7 +33,7 @@ URL to the subreddit post
 
 #### Defined in
 
-main.ts:215292
+main.ts:230235
 
 ***
 
@@ -45,7 +45,7 @@ the name of the subreddit
 
 #### Defined in
 
-main.ts:215285
+main.ts:230228
 
 ***
 
@@ -57,7 +57,7 @@ number of subreddit members
 
 #### Defined in
 
-main.ts:215294
+main.ts:230237
 
 ***
 
@@ -69,4 +69,4 @@ title of the subreddit post
 
 #### Defined in
 
-main.ts:215290
+main.ts:230233

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
@@ -24,7 +24,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:121876
+main.ts:132119
 
 ***
 
@@ -44,7 +44,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:121932
+main.ts:132175
 
 ***
 
@@ -60,7 +60,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:121947
+main.ts:132190
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:121941
+main.ts:132184
 
 ***
 
@@ -96,11 +96,12 @@ the keywords you specify will be converted to a lowercase format
 Note: Google Ads may return no data for certain groups of keywords
 visit our Help Center to learn more
 Also note that Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Defined in
 
-main.ts:121870
+main.ts:132113
 
 ***
 
@@ -116,7 +117,7 @@ en
 
 #### Defined in
 
-main.ts:121922
+main.ts:132165
 
 ***
 
@@ -132,7 +133,7 @@ English
 
 #### Defined in
 
-main.ts:121916
+main.ts:132159
 
 ***
 
@@ -150,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:121901
+main.ts:132144
 
 ***
 
@@ -169,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:121910
+main.ts:132153
 
 ***
 
@@ -187,7 +188,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:121893
+main.ts:132136
 
 ***
 
@@ -201,7 +202,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:121880
+main.ts:132123
 
 ***
 
@@ -216,7 +217,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:121885
+main.ts:132128
 
 ***
 
@@ -231,7 +232,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:121952
+main.ts:132195
 
 ***
 
@@ -247,4 +248,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:121958
+main.ts:132201

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainInfo
+[Documentation](../README.md) / DomainInfo
 
 # Class: DomainInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainInfo`](../interfaces/IDomainInfo.md)
+##### data?
+
+[`IDomainInfo`](../interfaces/IDomainInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:153655
+main.ts:165282
 
 ## Properties
 
@@ -48,7 +50,7 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Defined in
 
-main.ts:153641
+main.ts:165268
 
 ***
 
@@ -69,7 +71,7 @@ other on-page check-ups related to the website
 
 #### Defined in
 
-main.ts:153631
+main.ts:165258
 
 ***
 
@@ -89,7 +91,7 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Defined in
 
-main.ts:153593
+main.ts:165220
 
 ***
 
@@ -110,7 +112,7 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Defined in
 
-main.ts:153613
+main.ts:165240
 
 ***
 
@@ -130,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:153606
+main.ts:165233
 
 ***
 
@@ -148,7 +150,7 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Defined in
 
-main.ts:153645
+main.ts:165272
 
 ***
 
@@ -174,7 +176,7 @@ unknown – the reason is unknown
 
 #### Defined in
 
-main.ts:153625
+main.ts:165252
 
 ***
 
@@ -190,7 +192,7 @@ domain ip address
 
 #### Defined in
 
-main.ts:153595
+main.ts:165222
 
 ***
 
@@ -206,7 +208,7 @@ root domain name
 
 #### Defined in
 
-main.ts:153651
+main.ts:165278
 
 ***
 
@@ -222,7 +224,7 @@ domain name
 
 #### Defined in
 
-main.ts:153587
+main.ts:165214
 
 ***
 
@@ -239,7 +241,7 @@ in most cases, it is recommended a server returns a 404 response code
 
 #### Defined in
 
-main.ts:153637
+main.ts:165264
 
 ***
 
@@ -258,7 +260,7 @@ the information is taken from the first page which response code is 200
 
 #### Defined in
 
-main.ts:153600
+main.ts:165227
 
 ***
 
@@ -275,7 +277,7 @@ information about the Secure Sockets Layer protocol detected on a website
 
 #### Defined in
 
-main.ts:153628
+main.ts:165255
 
 ***
 
@@ -292,7 +294,7 @@ the total number of crawled pages
 
 #### Defined in
 
-main.ts:153634
+main.ts:165261
 
 ***
 
@@ -310,7 +312,7 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Defined in
 
-main.ts:153649
+main.ts:165276
 
 ## Methods
 
@@ -320,7 +322,9 @@ main.ts:153649
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -328,7 +332,7 @@ main.ts:153649
 
 #### Defined in
 
-main.ts:153664
+main.ts:165291
 
 ***
 
@@ -338,7 +342,9 @@ main.ts:153664
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -346,7 +352,7 @@ main.ts:153664
 
 #### Defined in
 
-main.ts:153701
+main.ts:165328
 
 ***
 
@@ -356,7 +362,9 @@ main.ts:153701
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -364,4 +372,4 @@ main.ts:153701
 
 #### Defined in
 
-main.ts:153694
+main.ts:165321

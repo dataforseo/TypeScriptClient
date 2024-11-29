@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAvailableLocations
+[Documentation](../README.md) / IAvailableLocations
 
 # Interface: IAvailableLocations
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:132344
+main.ts:144187
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:132340
+main.ts:144183
 
 ***
 
@@ -44,7 +44,7 @@ location name
 
 #### Defined in
 
-main.ts:132342
+main.ts:144185
 
 ***
 
@@ -58,4 +58,4 @@ Country, Region
 
 #### Defined in
 
-main.ts:132348
+main.ts:144191

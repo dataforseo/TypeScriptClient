@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:90963
+main.ts:100677
 
 ## Properties
 
@@ -64,7 +66,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:90937
+main.ts:100651
 
 ***
 
@@ -87,7 +89,7 @@ default value: live
 
 #### Defined in
 
-main.ts:90917
+main.ts:100631
 
 ***
 
@@ -106,7 +108,7 @@ default value: false
 
 #### Defined in
 
-main.ts:90877
+main.ts:100591
 
 ***
 
@@ -116,7 +118,7 @@ main.ts:90877
 
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, clickstream_age_distribution, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -127,7 +129,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:90893
+main.ts:100607
 
 ***
 
@@ -150,7 +152,7 @@ default value:
 
 #### Defined in
 
-main.ts:90886
+main.ts:100600
 
 ***
 
@@ -173,7 +175,7 @@ en
 
 #### Defined in
 
-main.ts:90872
+main.ts:100586
 
 ***
 
@@ -196,7 +198,7 @@ English
 
 #### Defined in
 
-main.ts:90863
+main.ts:100577
 
 ***
 
@@ -215,7 +217,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90898
+main.ts:100612
 
 ***
 
@@ -234,7 +236,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:90908
+main.ts:100622
 
 ***
 
@@ -257,7 +259,7 @@ example:
 
 #### Defined in
 
-main.ts:90854
+main.ts:100568
 
 ***
 
@@ -280,7 +282,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:90845
+main.ts:100559
 
 ***
 
@@ -299,7 +301,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:90903
+main.ts:100617
 
 ***
 
@@ -329,7 +331,7 @@ example:
 
 #### Defined in
 
-main.ts:90953
+main.ts:100667
 
 ***
 
@@ -349,7 +351,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90959
+main.ts:100673
 
 ***
 
@@ -357,15 +359,11 @@ main.ts:90959
 
 > `optional` **target**: `string`
 
-domain
+domain name or page url
 required field
-the domain name of the target website
-the domain should be specified without https:// or www.
-if you want to get the keywords a particular webpage ranks for, specify the filter by the
-ranked_serp_element.serp_item.relative_url parameter
-example:
-"filters":[
-"ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
+the domain name of the target website or URL of the target webpage;
+the domain name must be specified without https:// or www.;
+the webpage URL must be specified with https:// or www.
 
 #### Implementation of
 
@@ -373,7 +371,7 @@ example:
 
 #### Defined in
 
-main.ts:90836
+main.ts:100550
 
 ## Methods
 
@@ -383,7 +381,9 @@ main.ts:90836
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -391,7 +391,7 @@ main.ts:90836
 
 #### Defined in
 
-main.ts:90972
+main.ts:100686
 
 ***
 
@@ -401,7 +401,9 @@ main.ts:90972
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -409,7 +411,7 @@ main.ts:90972
 
 #### Defined in
 
-main.ts:91015
+main.ts:100729
 
 ***
 
@@ -419,7 +421,9 @@ main.ts:91015
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -427,4 +431,4 @@ main.ts:91015
 
 #### Defined in
 
-main.ts:91008
+main.ts:100722

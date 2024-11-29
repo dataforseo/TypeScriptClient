@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphExpandedElement
+[Documentation](../README.md) / KnowledgeGraphExpandedElement
 
 # Class: KnowledgeGraphExpandedElement
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md)
+##### data?
+
+[`IKnowledgeGraphExpandedElement`](../interfaces/IKnowledgeGraphExpandedElement.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:28544
+main.ts:30103
 
 ## Properties
 
@@ -46,7 +48,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:28526
+main.ts:30085
 
 ***
 
@@ -62,7 +64,7 @@ title of a given element
 
 #### Defined in
 
-main.ts:28522
+main.ts:30081
 
 ***
 
@@ -78,7 +80,7 @@ images of the element
 
 #### Defined in
 
-main.ts:28532
+main.ts:30091
 
 ***
 
@@ -94,7 +96,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28530
+main.ts:30089
 
 ***
 
@@ -111,7 +113,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28540
+main.ts:30099
 
 ***
 
@@ -130,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:28537
+main.ts:30096
 
 ***
 
@@ -146,7 +148,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28528
+main.ts:30087
 
 ***
 
@@ -162,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:28520
+main.ts:30079
 
 ***
 
@@ -178,7 +180,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:28524
+main.ts:30083
 
 ## Methods
 
@@ -188,7 +190,9 @@ main.ts:28524
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -196,7 +200,7 @@ main.ts:28524
 
 #### Defined in
 
-main.ts:28553
+main.ts:30112
 
 ***
 
@@ -206,7 +210,9 @@ main.ts:28553
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -214,7 +220,7 @@ main.ts:28553
 
 #### Defined in
 
-main.ts:28582
+main.ts:30141
 
 ***
 
@@ -224,7 +230,9 @@ main.ts:28582
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -232,4 +240,4 @@ main.ts:28582
 
 #### Defined in
 
-main.ts:28575
+main.ts:30134

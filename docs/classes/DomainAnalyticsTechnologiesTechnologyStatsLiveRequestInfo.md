@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:77309
+main.ts:87017
 
 ## Properties
 
@@ -52,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:77292
+main.ts:87000
 
 ***
 
@@ -73,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:77299
+main.ts:87007
 
 ***
 
@@ -93,7 +95,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:77305
+main.ts:87013
 
 ***
 
@@ -113,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:77284
+main.ts:86992
 
 ## Methods
 
@@ -123,7 +125,9 @@ main.ts:77284
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -131,7 +135,7 @@ main.ts:77284
 
 #### Defined in
 
-main.ts:77318
+main.ts:87026
 
 ***
 
@@ -141,7 +145,9 @@ main.ts:77318
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -149,7 +155,7 @@ main.ts:77318
 
 #### Defined in
 
-main.ts:77338
+main.ts:87046
 
 ***
 
@@ -159,7 +165,9 @@ main.ts:77338
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -167,4 +175,4 @@ main.ts:77338
 
 #### Defined in
 
-main.ts:77331
+main.ts:87039

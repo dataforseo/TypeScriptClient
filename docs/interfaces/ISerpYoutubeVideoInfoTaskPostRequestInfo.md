@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoInfoTaskPostRequestInfo
+[Documentation](../README.md) / ISerpYoutubeVideoInfoTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoTaskPostRequestInfo
 
@@ -22,7 +22,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:61501
+main.ts:69681
 
 ***
 
@@ -39,7 +39,7 @@ en
 
 #### Defined in
 
-main.ts:61497
+main.ts:69677
 
 ***
 
@@ -56,7 +56,7 @@ English
 
 #### Defined in
 
-main.ts:61490
+main.ts:69670
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:61483
+main.ts:69663
 
 ***
 
@@ -90,7 +90,7 @@ United States
 
 #### Defined in
 
-main.ts:61476
+main.ts:69656
 
 ***
 
@@ -105,7 +105,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:61506
+main.ts:69686
 
 ***
 
@@ -120,12 +120,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:61538
+main.ts:69720
 
 ***
 
@@ -141,7 +142,7 @@ advanced
 
 #### Defined in
 
-main.ts:61528
+main.ts:69709
 
 ***
 
@@ -156,12 +157,13 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Defined in
 
-main.ts:61522
+main.ts:69703
 
 ***
 
@@ -179,7 +181,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:61469
+main.ts:69649
 
 ***
 
@@ -195,7 +197,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:61512
+main.ts:69692
 
 ***
 
@@ -211,4 +213,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:61461
+main.ts:69641

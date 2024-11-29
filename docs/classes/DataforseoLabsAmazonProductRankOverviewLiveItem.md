@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
+[Documentation](../README.md) / DataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductRankOverviewLiveItem`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductRankOverviewLiveItem`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:104210
+main.ts:113848
 
 ## Properties
 
@@ -48,7 +50,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:104204
+main.ts:113842
 
 ***
 
@@ -64,7 +66,7 @@ average keyword position of the product
 
 #### Defined in
 
-main.ts:104206
+main.ts:113844
 
 ***
 
@@ -80,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:104200
+main.ts:113838
 
 ## Methods
 
@@ -90,7 +92,9 @@ main.ts:104200
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +102,7 @@ main.ts:104200
 
 #### Defined in
 
-main.ts:104219
+main.ts:113857
 
 ***
 
@@ -108,7 +112,9 @@ main.ts:104219
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -116,7 +122,7 @@ main.ts:104219
 
 #### Defined in
 
-main.ts:104238
+main.ts:113876
 
 ***
 
@@ -126,7 +132,9 @@ main.ts:104238
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -134,4 +142,4 @@ main.ts:104238
 
 #### Defined in
 
-main.ts:104231
+main.ts:113869

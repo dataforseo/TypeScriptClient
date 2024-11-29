@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleLanguagesResultInfo
+[Documentation](../README.md) / MerchantGoogleLanguagesResultInfo
 
 # Class: MerchantGoogleLanguagesResultInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md)
+##### data?
+
+[`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:173049
+main.ts:184638
 
 ## Properties
 
@@ -46,7 +48,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:173045
+main.ts:184634
 
 ***
 
@@ -62,7 +64,7 @@ language name
 
 #### Defined in
 
-main.ts:173043
+main.ts:184632
 
 ## Methods
 
@@ -72,7 +74,9 @@ main.ts:173043
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -80,7 +84,7 @@ main.ts:173043
 
 #### Defined in
 
-main.ts:173058
+main.ts:184647
 
 ***
 
@@ -90,7 +94,9 @@ main.ts:173058
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -98,7 +104,7 @@ main.ts:173058
 
 #### Defined in
 
-main.ts:173076
+main.ts:184665
 
 ***
 
@@ -108,7 +114,9 @@ main.ts:173076
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -116,4 +124,4 @@ main.ts:173076
 
 #### Defined in
 
-main.ts:173069
+main.ts:184658

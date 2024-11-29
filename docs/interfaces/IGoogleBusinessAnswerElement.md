@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleBusinessAnswerElement
+[Documentation](../README.md) / IGoogleBusinessAnswerElement
 
 # Interface: IGoogleBusinessAnswerElement
 
@@ -20,7 +20,7 @@ ID of the answer
 
 #### Defined in
 
-main.ts:209578
+main.ts:224499
 
 ***
 
@@ -32,7 +32,7 @@ current text of the answer
 
 #### Defined in
 
-main.ts:209586
+main.ts:224507
 
 ***
 
@@ -44,7 +44,7 @@ original text of the answer
 
 #### Defined in
 
-main.ts:209588
+main.ts:224509
 
 ***
 
@@ -56,7 +56,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209580
+main.ts:224501
 
 ***
 
@@ -68,7 +68,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209584
+main.ts:224505
 
 ***
 
@@ -80,7 +80,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209582
+main.ts:224503
 
 ***
 
@@ -92,7 +92,7 @@ estimated time when the answer was posted
 
 #### Defined in
 
-main.ts:209590
+main.ts:224511
 
 ***
 
@@ -104,7 +104,7 @@ exact time when the answer was posted
 
 #### Defined in
 
-main.ts:209592
+main.ts:224513
 
 ***
 
@@ -116,4 +116,4 @@ type of element
 
 #### Defined in
 
-main.ts:209576
+main.ts:224497

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsStatusInfo
+[Documentation](../README.md) / DataforseoLabsStatusInfo
 
 # Class: DataforseoLabsStatusInfo
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md)
+##### data?
+
+[`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:80567
+main.ts:90279
 
 ## Properties
 
@@ -49,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:80563
+main.ts:90275
 
 ## Methods
 
@@ -59,7 +61,9 @@ main.ts:80563
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -67,7 +71,7 @@ main.ts:80563
 
 #### Defined in
 
-main.ts:80576
+main.ts:90288
 
 ***
 
@@ -77,7 +81,9 @@ main.ts:80576
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -85,7 +91,7 @@ main.ts:80576
 
 #### Defined in
 
-main.ts:80593
+main.ts:90305
 
 ***
 
@@ -95,7 +101,9 @@ main.ts:80593
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -103,4 +111,4 @@ main.ts:80593
 
 #### Defined in
 
-main.ts:80586
+main.ts:90298

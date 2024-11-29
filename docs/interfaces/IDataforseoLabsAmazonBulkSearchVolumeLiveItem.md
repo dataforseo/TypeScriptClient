@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
+[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
@@ -20,7 +20,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:102264
+main.ts:112002
 
 ***
 
@@ -32,7 +32,7 @@ search engine type
 
 #### Defined in
 
-main.ts:102262
+main.ts:112000
 
 ***
 
@@ -45,4 +45,4 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 #### Defined in
 
-main.ts:102267
+main.ts:112005

@@ -1,8 +1,8 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetAdvancedItem
+[Documentation](../README.md) / SerpGoogleDatasetAdvancedItem
 
 # Class: SerpGoogleDatasetAdvancedItem
 
@@ -22,7 +22,9 @@
 
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetAdvancedItem`](../interfaces/ISerpGoogleDatasetAdvancedItem.md)
+##### data?
+
+[`ISerpGoogleDatasetAdvancedItem`](../interfaces/ISerpGoogleDatasetAdvancedItem.md)
 
 #### Returns
 
@@ -30,7 +32,7 @@
 
 #### Defined in
 
-main.ts:54256
+main.ts:57917
 
 ## Properties
 
@@ -47,7 +49,7 @@ for example: Africa, Global
 
 #### Defined in
 
-main.ts:54248
+main.ts:57909
 
 ***
 
@@ -63,7 +65,7 @@ the list of authors of the dataset
 
 #### Defined in
 
-main.ts:54238
+main.ts:57899
 
 ***
 
@@ -79,7 +81,7 @@ description of the dataset
 
 #### Defined in
 
-main.ts:54252
+main.ts:57913
 
 ***
 
@@ -95,7 +97,7 @@ ID of the dataset
 
 #### Defined in
 
-main.ts:54210
+main.ts:57871
 
 ***
 
@@ -111,7 +113,7 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
-main.ts:54234
+main.ts:57895
 
 ***
 
@@ -127,7 +129,7 @@ the list of file formats of the dataset
 
 #### Defined in
 
-main.ts:54236
+main.ts:57897
 
 ***
 
@@ -144,7 +146,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:54215
+main.ts:57876
 
 ***
 
@@ -160,7 +162,7 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
-main.ts:54240
+main.ts:57901
 
 ***
 
@@ -178,7 +180,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:54232
+main.ts:57893
 
 ***
 
@@ -194,7 +196,7 @@ period covered in the dataset
 
 #### Defined in
 
-main.ts:54250
+main.ts:57911
 
 ***
 
@@ -212,7 +214,7 @@ left, right
 
 #### Defined in
 
-main.ts:54206
+main.ts:57867
 
 ***
 
@@ -229,7 +231,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:54202
+main.ts:57863
 
 ***
 
@@ -247,7 +249,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:54199
+main.ts:57860
 
 ***
 
@@ -264,7 +266,7 @@ link to the published article that is related to the dataset
 
 #### Defined in
 
-main.ts:54228
+main.ts:57889
 
 ***
 
@@ -282,7 +284,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 #### Defined in
 
-main.ts:54221
+main.ts:57882
 
 ***
 
@@ -298,7 +300,7 @@ count of articles that refer to the dataset
 
 #### Defined in
 
-main.ts:54217
+main.ts:57878
 
 ***
 
@@ -306,7 +308,7 @@ main.ts:54217
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the element
 
 #### Implementation of
 
@@ -314,7 +316,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:54212
+main.ts:57873
 
 ***
 
@@ -330,7 +332,7 @@ type of element
 
 #### Defined in
 
-main.ts:54195
+main.ts:57856
 
 ***
 
@@ -348,7 +350,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 #### Defined in
 
-main.ts:54225
+main.ts:57886
 
 ***
 
@@ -367,7 +369,7 @@ example:
 
 #### Defined in
 
-main.ts:54245
+main.ts:57906
 
 ***
 
@@ -383,7 +385,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:54208
+main.ts:57869
 
 ## Methods
 
@@ -393,7 +395,9 @@ main.ts:54208
 
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -401,7 +405,7 @@ main.ts:54208
 
 #### Defined in
 
-main.ts:54265
+main.ts:57926
 
 ***
 
@@ -411,7 +415,9 @@ main.ts:54265
 
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -419,7 +425,7 @@ main.ts:54265
 
 #### Defined in
 
-main.ts:54326
+main.ts:57987
 
 ***
 
@@ -429,7 +435,9 @@ main.ts:54326
 
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -437,4 +445,4 @@ main.ts:54326
 
 #### Defined in
 
-main.ts:54319
+main.ts:57980
