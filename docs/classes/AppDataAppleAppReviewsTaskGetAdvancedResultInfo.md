@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppReviewsTaskGetAdvancedResultInfo
+
+Defined in: main.ts:208458
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataAppleAppReviewsTaskGetAdvancedResultInfo**(`data`?): [`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:208494
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:196043
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:196043
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:208460
+
 application id received in a POST array
 
 #### Implementation of
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`app_id`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#app_id)
 
-#### Defined in
-
-main.ts:196009
-
 ***
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:208471
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -61,15 +63,13 @@ you can use it to make sure that we provided accurate results
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:196020
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:208476
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -80,15 +80,13 @@ example:
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:196025
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
+
+Defined in: main.ts:208490
 
 found reviews
 
@@ -96,15 +94,13 @@ found reviews
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
-
-main.ts:196039
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:208488
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -113,15 +109,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:196037
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:208468
 
 language code in a POST array
 
@@ -129,15 +123,13 @@ language code in a POST array
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:196017
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:208466
 
 location code in a POST array
 
@@ -145,15 +137,13 @@ location code in a POST array
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:196015
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:208482
 
 rating of the app
 rating of the application for which the reviews are collected
@@ -162,15 +152,13 @@ rating of the application for which the reviews are collected
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`rating`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#rating)
 
-#### Defined in
-
-main.ts:196031
-
 ***
 
 ### reviews\_count?
 
 > `optional` **reviews\_count**: `number`
+
+Defined in: main.ts:208485
 
 the total number of reviews
 in this case, the value will be null as App Store does not indicate the total number of app reviews
@@ -179,15 +167,13 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`reviews_count`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#reviews_count)
 
-#### Defined in
-
-main.ts:196034
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:208464
 
 search engine domain in a POST array
 
@@ -195,15 +181,13 @@ search engine domain in a POST array
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:196013
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:208479
 
 title of the app
 title of the application for which the reviews are collected
@@ -212,15 +196,13 @@ title of the application for which the reviews are collected
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`title`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#title)
 
-#### Defined in
-
-main.ts:196028
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:208462
 
 type of element
 
@@ -228,27 +210,23 @@ type of element
 
 [`IAppDataAppleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/IAppDataAppleAppReviewsTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:196011
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:208503
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:196052
 
 ***
 
@@ -256,17 +234,17 @@ main.ts:196052
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:208535
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:196084
 
 ***
 
@@ -274,14 +252,14 @@ main.ts:196084
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:208528
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleAppReviewsTaskGetAdvancedResultInfo`](AppDataAppleAppReviewsTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:196077

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo
 
+Defined in: main.ts:109755
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../classes/DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)[]
 
+Defined in: main.ts:109769
+
 contains historical ranking and traffic data
-
-#### Defined in
-
-main.ts:99930
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:99930
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:109767
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:99928
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:99928
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:109763
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:99924
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:99924
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:109761
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:99922
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:99922
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:109757
+
 search engine type
-
-#### Defined in
-
-main.ts:99918
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:99918
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:109759
+
 target domain in a POST array
-
-#### Defined in
-
-main.ts:99920
 
 ***
 
@@ -88,8 +78,6 @@ main.ts:99920
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:109765
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:99926

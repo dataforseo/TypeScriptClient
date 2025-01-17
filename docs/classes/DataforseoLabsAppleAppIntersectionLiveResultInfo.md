@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleAppIntersectionLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAppleAppIntersectionLiveResultInfo
 
 # Class: DataforseoLabsAppleAppIntersectionLiveResultInfo
+
+Defined in: main.ts:125058
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsAppleAppIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](DataforseoLabsAppleAppIntersectionLiveResultInfo.md)
 
+Defined in: main.ts:125076
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](DataforseoLabsAppleAppIntersectionLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:115803
 
 ## Properties
 
@@ -38,19 +40,17 @@ main.ts:115803
 
 > `optional` **app\_ids**: `object`
 
+Defined in: main.ts:125062
+
 ids of the apps in a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md).[`app_ids`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#app_ids)
-
-#### Defined in
-
-main.ts:115789
 
 ***
 
@@ -58,15 +58,13 @@ main.ts:115789
 
 > `optional` **items**: [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)[]
 
+Defined in: main.ts:125072
+
 contains data related to the ranking keywords for the app specified in the app_id field
 
 #### Implementation of
 
 [`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:115799
 
 ***
 
@@ -74,15 +72,13 @@ main.ts:115799
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:125070
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:115797
 
 ***
 
@@ -90,15 +86,13 @@ main.ts:115797
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:125066
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:115793
 
 ***
 
@@ -106,15 +100,13 @@ main.ts:115793
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:125064
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:115791
 
 ***
 
@@ -122,15 +114,13 @@ main.ts:115791
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:125060
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:115787
 
 ***
 
@@ -138,15 +128,13 @@ main.ts:115787
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:125068
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsAppleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:115795
 
 ## Methods
 
@@ -154,17 +142,17 @@ main.ts:115795
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:125085
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:115812
 
 ***
 
@@ -172,17 +160,17 @@ main.ts:115812
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:125118
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:115845
 
 ***
 
@@ -190,14 +178,14 @@ main.ts:115845
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](DataforseoLabsAppleAppIntersectionLiveResultInfo.md)
 
+Defined in: main.ts:125111
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsAppleAppIntersectionLiveResultInfo`](DataforseoLabsAppleAppIntersectionLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:115838

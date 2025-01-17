@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDatasetDescription
+[Documentation](../README.md) / IDatasetDescription
 
 # Interface: IDatasetDescription
 
+Defined in: main.ts:57845
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
+Defined in: main.ts:57849
+
 links featured in the ‘dataset_description’
-
-#### Defined in
-
-main.ts:54155
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:54155
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:57847
+
 text of the description
-
-#### Defined in
-
-main.ts:54153

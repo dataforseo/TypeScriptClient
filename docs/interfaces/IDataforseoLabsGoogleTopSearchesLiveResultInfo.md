@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
+Defined in: main.ts:99943
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
+Defined in: main.ts:99961
+
 contains keywords and related data
-
-#### Defined in
-
-main.ts:90142
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:90142
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:99953
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:90134
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:90134
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:99949
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:90130
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:90130
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:99947
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:90128
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:90128
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:99955
+
 current offset value
-
-#### Defined in
-
-main.ts:90136
 
 ***
 
@@ -76,13 +68,11 @@ main.ts:90136
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:99959
+
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:90140
 
 ***
 
@@ -90,11 +80,9 @@ main.ts:90140
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:99945
+
 search engine type
-
-#### Defined in
-
-main.ts:90126
 
 ***
 
@@ -102,8 +90,6 @@ main.ts:90126
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:99951
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:90132

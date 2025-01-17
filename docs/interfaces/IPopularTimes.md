@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPopularTimes
+[Documentation](../README.md) / IPopularTimes
 
 # Interface: IPopularTimes
 
+Defined in: main.ts:211162
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **popular\_times\_by\_days**: `object`
 
+Defined in: main.ts:211165
+
 popular hours
 information about busy hours of the local establishment on each day of the week
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`BusyWorkingTimeInfo`](../classes/BusyWorkingTimeInfo.md) \| `undefined`)[]
-
-#### Defined in
-
-main.ts:198714
+\[`key`: `string`\]: [`BusyWorkingTimeInfo`](../classes/BusyWorkingTimeInfo.md)[]

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IImageUrlInfo
+[Documentation](../README.md) / IImageUrlInfo
 
 # Interface: IImageUrlInfo
 
+Defined in: main.ts:229207
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:229209
+
 URL of the image used in the review
-
-#### Defined in
-
-main.ts:214165

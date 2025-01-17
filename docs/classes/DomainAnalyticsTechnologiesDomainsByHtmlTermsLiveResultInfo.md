@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo
+
+Defined in: main.ts:88362
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
 
+Defined in: main.ts:88378
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:78633
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:78633
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
+Defined in: main.ts:88374
+
 items array
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md).[`items`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:78629
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:78629
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:88366
+
 number of items in the results array
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md).[`items_count`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:78621
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:78621
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:88368
+
 specified offset value
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md).[`offset`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#offset)
 
-#### Defined in
-
-main.ts:78623
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:88372
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -94,15 +92,13 @@ offset_token values are unique for each subsequent task
 
 [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md).[`offset_token`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:78627
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:88364
 
 total number of relevant items in the database
 
@@ -110,27 +106,23 @@ total number of relevant items in the database
 
 [`IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md).[`total_count`](../interfaces/IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:78619
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:88387
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:78642
 
 ***
 
@@ -138,17 +130,17 @@ main.ts:78642
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:88412
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:78667
 
 ***
 
@@ -156,14 +148,14 @@ main.ts:78667
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
 
+Defined in: main.ts:88405
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:78660

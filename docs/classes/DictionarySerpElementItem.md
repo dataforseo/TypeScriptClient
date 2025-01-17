@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DictionarySerpElementItem
+[Documentation](../README.md) / DictionarySerpElementItem
 
 # Class: DictionarySerpElementItem
+
+Defined in: main.ts:80016
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new DictionarySerpElementItem**(`data`?): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
+Defined in: main.ts:80042
+
 #### Parameters
 
-• **data?**: [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md)
+##### data?
+
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:70583
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21045
+
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:20367
 
 ***
 
@@ -60,15 +60,13 @@ main.ts:20367
 
 > `optional` **breadcrumb**: `string`
 
+Defined in: main.ts:80024
+
 breadcrumb of the Ad element in SERP
 
 #### Implementation of
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`breadcrumb`](../interfaces/IDictionarySerpElementItem.md#breadcrumb)
-
-#### Defined in
-
-main.ts:70565
 
 ***
 
@@ -76,15 +74,13 @@ main.ts:70565
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:80022
+
 domain in SERP
 
 #### Implementation of
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`domain`](../interfaces/IDictionarySerpElementItem.md#domain)
-
-#### Defined in
-
-main.ts:70563
 
 ***
 
@@ -92,21 +88,21 @@ main.ts:70563
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:80026
+
 keyword highlighted in the result
 
 #### Implementation of
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`keyword`](../interfaces/IDictionarySerpElementItem.md#keyword)
 
-#### Defined in
-
-main.ts:70567
-
 ***
 
 ### links?
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
+
+Defined in: main.ts:80034
 
 sitelinks
 the links shown below some of search results
@@ -116,15 +112,13 @@ if there are none, equals null
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`links`](../interfaces/IDictionarySerpElementItem.md#links)
 
-#### Defined in
-
-main.ts:70575
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21041
 
 the alignment of the element in SERP
 can take the following values:
@@ -138,15 +132,13 @@ left, right
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20363
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21037
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -159,15 +151,13 @@ absolute position among all the elements in SERP
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20359
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21034
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -181,15 +171,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20356
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
+
+Defined in: main.ts:80038
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -199,15 +187,13 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`rectangle`](../interfaces/IDictionarySerpElementItem.md#rectangle)
 
-#### Defined in
-
-main.ts:70579
-
 ***
 
 ### snippet?
 
 > `optional` **snippet**: `string`
+
+Defined in: main.ts:80028
 
 snippet of the element
 
@@ -215,15 +201,13 @@ snippet of the element
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`snippet`](../interfaces/IDictionarySerpElementItem.md#snippet)
 
-#### Defined in
-
-main.ts:70569
-
 ***
 
 ### text?
 
-> `optional` **text**: `boolean`
+> `optional` **text**: `string`
+
+Defined in: main.ts:80030
 
 description of the results element in SERP
 
@@ -231,15 +215,13 @@ description of the results element in SERP
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`text`](../interfaces/IDictionarySerpElementItem.md#text)
 
-#### Defined in
-
-main.ts:70571
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:80018
 
 title of the result in SERP
 
@@ -247,15 +229,13 @@ title of the result in SERP
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`title`](../interfaces/IDictionarySerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:70559
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21030
 
 type of element
 
@@ -267,15 +247,13 @@ type of element
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20352
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:80020
 
 relevant URL of the Ad element in SERP
 
@@ -283,15 +261,13 @@ relevant URL of the Ad element in SERP
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`url`](../interfaces/IDictionarySerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:70561
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21043
 
 the XPath of the element
 
@@ -303,19 +279,19 @@ the XPath of the element
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20365
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:80047
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -325,19 +301,19 @@ main.ts:20365
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:70588
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:80077
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -347,19 +323,19 @@ main.ts:70588
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:70618
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
+Defined in: main.ts:80070
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -368,7 +344,3 @@ main.ts:70618
 #### Overrides
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:70611

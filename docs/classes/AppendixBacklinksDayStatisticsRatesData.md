@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBacklinksDayStatisticsRatesData
+[Documentation](../README.md) / AppendixBacklinksDayStatisticsRatesData
 
 # Class: AppendixBacklinksDayStatisticsRatesData
+
+Defined in: main.ts:234288
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixBacklinksDayStatisticsRatesData**(`data`?): [`AppendixBacklinksDayStatisticsRatesData`](AppendixBacklinksDayStatisticsRatesData.md)
 
+Defined in: main.ts:234319
+
 #### Parameters
 
-• **data?**: [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixBacklinksDayStatisticsRatesData`](AppendixBacklinksDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219219
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:219219
 
 > `optional` **anchors**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234295
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`anchors`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#anchors)
-
-#### Defined in
-
-main.ts:219195
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:219195
 
 > `optional` **available\_filters**: `number`
 
+Defined in: main.ts:234315
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`available_filters`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#available_filters)
-
-#### Defined in
-
-main.ts:219211
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:219211
 
 > `optional` **backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234293
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`backlinks`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#backlinks)
-
-#### Defined in
-
-main.ts:219193
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:219193
 
 > `optional` **bulk\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234300
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`bulk_backlinks`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#bulk_backlinks)
-
-#### Defined in
-
-main.ts:219200
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:219200
 
 > `optional` **bulk\_new\_lost\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234301
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`bulk_new_lost_backlinks`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#bulk_new_lost_backlinks)
-
-#### Defined in
-
-main.ts:219201
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:219201
 
 > `optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234302
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`bulk_new_lost_referring_domains`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#bulk_new_lost_referring_domains)
-
-#### Defined in
-
-main.ts:219202
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:219202
 
 > `optional` **bulk\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234310
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`bulk_pages_summary`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#bulk_pages_summary)
-
-#### Defined in
-
-main.ts:219209
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:219209
 
 > `optional` **bulk\_ranks**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234299
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`bulk_ranks`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#bulk_ranks)
-
-#### Defined in
-
-main.ts:219199
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:219199
 
 > `optional` **bulk\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234303
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`bulk_referring_domains`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#bulk_referring_domains)
-
-#### Defined in
-
-main.ts:219203
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:219203
 
 > `optional` **bulk\_spam\_score**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234309
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`bulk_spam_score`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#bulk_spam_score)
-
-#### Defined in
-
-main.ts:219212
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:219212
 
 > `optional` **competitors**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234308
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`competitors`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#competitors)
-
-#### Defined in
-
-main.ts:219208
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:219208
 
 > `optional` **content\_duplicates**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234291
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`content_duplicates`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#content_duplicates)
-
-#### Defined in
-
-main.ts:219191
 
 ***
 
@@ -206,13 +184,11 @@ main.ts:219191
 
 > `optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234292
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`domain_intersection`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#domain_intersection)
-
-#### Defined in
-
-main.ts:219192
 
 ***
 
@@ -220,13 +196,11 @@ main.ts:219192
 
 > `optional` **domain\_pages**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234294
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`domain_pages`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#domain_pages)
-
-#### Defined in
-
-main.ts:219194
 
 ***
 
@@ -234,13 +208,11 @@ main.ts:219194
 
 > `optional` **domain\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234305
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`domain_pages_summary`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#domain_pages_summary)
-
-#### Defined in
-
-main.ts:219205
 
 ***
 
@@ -248,13 +220,11 @@ main.ts:219205
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:234304
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:219204
 
 ***
 
@@ -262,13 +232,11 @@ main.ts:219204
 
 > `optional` **historical\_new\_lost\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234312
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`historical_new_lost_summary`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#historical_new_lost_summary)
-
-#### Defined in
-
-main.ts:219210
 
 ***
 
@@ -276,13 +244,11 @@ main.ts:219210
 
 > `optional` **history**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234290
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`history`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#history)
-
-#### Defined in
-
-main.ts:219190
 
 ***
 
@@ -290,13 +256,11 @@ main.ts:219190
 
 > `optional` **id\_list**: `number`
 
+Defined in: main.ts:234314
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`id_list`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#id_list)
-
-#### Defined in
-
-main.ts:219215
 
 ***
 
@@ -304,13 +268,11 @@ main.ts:219215
 
 > `optional` **index**: `number`
 
+Defined in: main.ts:234313
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`index`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#index)
-
-#### Defined in
-
-main.ts:219213
 
 ***
 
@@ -318,13 +280,11 @@ main.ts:219213
 
 > `optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234297
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`page_intersection`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#page_intersection)
-
-#### Defined in
-
-main.ts:219197
 
 ***
 
@@ -332,13 +292,11 @@ main.ts:219197
 
 > `optional` **pages\_summary\_with\_page\_info**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234311
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`pages_summary_with_page_info`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#pages_summary_with_page_info)
-
-#### Defined in
-
-main.ts:219214
 
 ***
 
@@ -346,13 +304,11 @@ main.ts:219214
 
 > `optional` **referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234296
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`referring_domains`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#referring_domains)
-
-#### Defined in
-
-main.ts:219196
 
 ***
 
@@ -360,13 +316,11 @@ main.ts:219196
 
 > `optional` **referring\_networks**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234298
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`referring_networks`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#referring_networks)
-
-#### Defined in
-
-main.ts:219198
 
 ***
 
@@ -374,13 +328,11 @@ main.ts:219198
 
 > `optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234289
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`summary`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#summary)
-
-#### Defined in
-
-main.ts:219189
 
 ***
 
@@ -388,13 +340,11 @@ main.ts:219189
 
 > `optional` **timeseries\_new\_lost\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234307
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`timeseries_new_lost_summary`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#timeseries_new_lost_summary)
-
-#### Defined in
-
-main.ts:219207
 
 ***
 
@@ -402,13 +352,11 @@ main.ts:219207
 
 > `optional` **timeseries\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234306
+
 #### Implementation of
 
 [`IAppendixBacklinksDayStatisticsRatesData`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md).[`timeseries_summary`](../interfaces/IAppendixBacklinksDayStatisticsRatesData.md#timeseries_summary)
-
-#### Defined in
-
-main.ts:219206
 
 ## Methods
 
@@ -416,17 +364,17 @@ main.ts:219206
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:234328
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:219228
 
 ***
 
@@ -434,17 +382,17 @@ main.ts:219228
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:234371
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:219271
 
 ***
 
@@ -452,14 +400,14 @@ main.ts:219271
 
 > `static` **fromJS**(`data`): [`AppendixBacklinksDayStatisticsRatesData`](AppendixBacklinksDayStatisticsRatesData.md)
 
+Defined in: main.ts:234364
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixBacklinksDayStatisticsRatesData`](AppendixBacklinksDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219264

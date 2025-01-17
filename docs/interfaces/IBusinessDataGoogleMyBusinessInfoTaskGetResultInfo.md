@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
+Defined in: main.ts:214567
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:214583
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:201878
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:201878
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:214588
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:201883
 
 ***
 
@@ -44,13 +42,11 @@ main.ts:201883
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:214592
+
 item types
 types of search engine results encountered in the items array;
 possible item types: google_business_info
-
-#### Defined in
-
-main.ts:201887
 
 ***
 
@@ -58,11 +54,9 @@ main.ts:201887
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
+Defined in: main.ts:214597
+
 array of directory items
-
-#### Defined in
-
-main.ts:201892
 
 ***
 
@@ -70,12 +64,10 @@ main.ts:201892
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:214595
+
 item types
 the number of items in the items array
-
-#### Defined in
-
-main.ts:201890
 
 ***
 
@@ -83,16 +75,14 @@ main.ts:201890
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:214574
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
 learn more about the parameter in this help center article
-
-#### Defined in
-
-main.ts:201869
 
 ***
 
@@ -100,11 +90,9 @@ main.ts:201869
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:214580
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:201875
 
 ***
 
@@ -112,11 +100,9 @@ main.ts:201875
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:214578
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:201873
 
 ***
 
@@ -124,8 +110,6 @@ main.ts:201873
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:214576
+
 search engine domain as specified in a POST array
-
-#### Defined in
-
-main.ts:201871

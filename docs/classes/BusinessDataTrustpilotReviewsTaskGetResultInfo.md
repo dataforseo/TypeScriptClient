@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTaskGetResultInfo
+
+Defined in: main.ts:226906
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataTrustpilotReviewsTaskGetResultInfo**(`data`?): [`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
 
+Defined in: main.ts:226941
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:211907
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:226915
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:211881
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:226920
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:211886
-
 ***
 
 ### domain?
 
 > `optional` **domain**: `string`
+
+Defined in: main.ts:226908
 
 domain of the business entity
 
@@ -80,15 +80,13 @@ domain of the business entity
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`domain`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#domain)
 
-#### Defined in
-
-main.ts:211874
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+
+Defined in: main.ts:226937
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -97,15 +95,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#items)
 
-#### Defined in
-
-main.ts:211903
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:226934
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -114,15 +110,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:211900
-
 ***
 
 ### location?
 
 > `optional` **location**: `string`
+
+Defined in: main.ts:226926
 
 location of the business entity as specified on Trustpilot
 address of the business entity for which the reviews are collected
@@ -131,15 +125,13 @@ address of the business entity for which the reviews are collected
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`location`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#location)
 
-#### Defined in
-
-main.ts:211892
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:226931
 
 rating of the corresponding business entity
 popularity rate based on reviews and displayed in SERP
@@ -148,15 +140,13 @@ popularity rate based on reviews and displayed in SERP
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`rating`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#rating)
 
-#### Defined in
-
-main.ts:211897
-
 ***
 
 ### reviews\_count?
 
 > `optional` **reviews\_count**: `number`
+
+Defined in: main.ts:226928
 
 the total number of reviews
 
@@ -164,15 +154,13 @@ the total number of reviews
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`reviews_count`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#reviews_count)
 
-#### Defined in
-
-main.ts:211894
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:226912
 
 search engine domain in a POST array
 
@@ -180,15 +168,13 @@ search engine domain in a POST array
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:211878
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:226923
 
 title of the ‘reviews’ element on Trustpilot
 the name of the business entity for which the reviews are collected
@@ -197,15 +183,13 @@ the name of the business entity for which the reviews are collected
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`title`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#title)
 
-#### Defined in
-
-main.ts:211889
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:226910
 
 type of element
 
@@ -213,27 +197,23 @@ type of element
 
 [`IBusinessDataTrustpilotReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md).[`type`](../interfaces/IBusinessDataTrustpilotReviewsTaskGetResultInfo.md#type)
 
-#### Defined in
-
-main.ts:211876
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:226950
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:211916
 
 ***
 
@@ -241,17 +221,17 @@ main.ts:211916
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:226981
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:211947
 
 ***
 
@@ -259,14 +239,14 @@ main.ts:211947
 
 > `static` **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
 
+Defined in: main.ts:226974
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTrustpilotReviewsTaskGetResultInfo`](BusinessDataTrustpilotReviewsTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:211940

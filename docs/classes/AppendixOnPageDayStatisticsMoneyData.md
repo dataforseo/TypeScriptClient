@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixOnPageDayStatisticsMoneyData
+[Documentation](../README.md) / AppendixOnPageDayStatisticsMoneyData
 
 # Class: AppendixOnPageDayStatisticsMoneyData
+
+Defined in: main.ts:235396
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixOnPageDayStatisticsMoneyData**(`data`?): [`AppendixOnPageDayStatisticsMoneyData`](AppendixOnPageDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235421
+
 #### Parameters
 
-• **data?**: [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md)
+##### data?
+
+[`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md)
 
 #### Returns
 
 [`AppendixOnPageDayStatisticsMoneyData`](AppendixOnPageDayStatisticsMoneyData.md)
-
-#### Defined in
-
-main.ts:220313
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:220313
 
 > `optional` **content\_parsing**: `number`
 
+Defined in: main.ts:235415
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`content_parsing`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#content_parsing)
-
-#### Defined in
-
-main.ts:220307
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:220307
 
 > `optional` **content\_parsing\_live**: `number`
 
+Defined in: main.ts:235416
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`content_parsing_live`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#content_parsing_live)
-
-#### Defined in
-
-main.ts:220308
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:220308
 
 > `optional` **duplicate\_content**: `number`
 
+Defined in: main.ts:235408
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`duplicate_content`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#duplicate_content)
-
-#### Defined in
-
-main.ts:220300
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:220300
 
 > `optional` **duplicate\_tags**: `number`
 
+Defined in: main.ts:235403
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`duplicate_tags`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#duplicate_tags)
-
-#### Defined in
-
-main.ts:220295
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:220295
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:235406
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`errors`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#errors)
-
-#### Defined in
-
-main.ts:220298
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:220298
 
 > `optional` **instant\_pages**: `number`
 
+Defined in: main.ts:235410
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`instant_pages`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#instant_pages)
-
-#### Defined in
-
-main.ts:220302
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:220302
 
 > `optional` **keyword\_density**: `number`
 
+Defined in: main.ts:235413
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`keyword_density`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#keyword_density)
-
-#### Defined in
-
-main.ts:220305
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:220305
 
 > `optional` **lighthouse**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:235412
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`lighthouse`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#lighthouse)
-
-#### Defined in
-
-main.ts:220304
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:220304
 
 > `optional` **links**: `number`
 
+Defined in: main.ts:235404
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`links`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#links)
-
-#### Defined in
-
-main.ts:220296
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:220296
 
 > `optional` **non\_indexable**: `number`
 
+Defined in: main.ts:235402
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`non_indexable`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#non_indexable)
-
-#### Defined in
-
-main.ts:220294
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:220294
 
 > `optional` **page\_screenshot**: `number`
 
+Defined in: main.ts:235414
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`page_screenshot`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#page_screenshot)
-
-#### Defined in
-
-main.ts:220306
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:220306
 
 > `optional` **pages**: `number`
 
+Defined in: main.ts:235401
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`pages`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#pages)
-
-#### Defined in
-
-main.ts:220293
 
 ***
 
@@ -206,13 +184,11 @@ main.ts:220293
 
 > `optional` **pages\_by\_resource**: `number`
 
+Defined in: main.ts:235407
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`pages_by_resource`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#pages_by_resource)
-
-#### Defined in
-
-main.ts:220299
 
 ***
 
@@ -220,13 +196,11 @@ main.ts:220299
 
 > `optional` **raw\_html**: `number`
 
+Defined in: main.ts:235409
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`raw_html`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#raw_html)
-
-#### Defined in
-
-main.ts:220301
 
 ***
 
@@ -234,13 +208,11 @@ main.ts:220301
 
 > `optional` **redirect\_chains**: `number`
 
+Defined in: main.ts:235411
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`redirect_chains`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#redirect_chains)
-
-#### Defined in
-
-main.ts:220303
 
 ***
 
@@ -248,13 +220,11 @@ main.ts:220303
 
 > `optional` **refund\_money**: `number`
 
+Defined in: main.ts:235417
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`refund_money`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#refund_money)
-
-#### Defined in
-
-main.ts:220309
 
 ***
 
@@ -262,13 +232,11 @@ main.ts:220309
 
 > `optional` **resources**: `number`
 
+Defined in: main.ts:235400
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`resources`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#resources)
-
-#### Defined in
-
-main.ts:220292
 
 ***
 
@@ -276,13 +244,11 @@ main.ts:220292
 
 > `optional` **summary**: `number`
 
+Defined in: main.ts:235399
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`summary`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#summary)
-
-#### Defined in
-
-main.ts:220291
 
 ***
 
@@ -290,13 +256,11 @@ main.ts:220291
 
 > `optional` **task\_post**: `number`
 
+Defined in: main.ts:235397
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`task_post`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#task_post)
-
-#### Defined in
-
-main.ts:220289
 
 ***
 
@@ -304,13 +268,11 @@ main.ts:220289
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:235398
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`tasks_ready`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:220290
 
 ***
 
@@ -318,13 +280,11 @@ main.ts:220290
 
 > `optional` **waterfall**: `number`
 
+Defined in: main.ts:235405
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsMoneyData`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md).[`waterfall`](../interfaces/IAppendixOnPageDayStatisticsMoneyData.md#waterfall)
-
-#### Defined in
-
-main.ts:220297
 
 ## Methods
 
@@ -332,17 +292,17 @@ main.ts:220297
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:235430
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:220322
 
 ***
 
@@ -350,17 +310,17 @@ main.ts:220322
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:235467
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:220359
 
 ***
 
@@ -368,14 +328,14 @@ main.ts:220359
 
 > `static` **fromJS**(`data`): [`AppendixOnPageDayStatisticsMoneyData`](AppendixOnPageDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235460
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixOnPageDayStatisticsMoneyData`](AppendixOnPageDayStatisticsMoneyData.md)
-
-#### Defined in
-
-main.ts:220352

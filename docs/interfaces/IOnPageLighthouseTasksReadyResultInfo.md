@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseTasksReadyResultInfo
+[Documentation](../README.md) / IOnPageLighthouseTasksReadyResultInfo
 
 # Interface: IOnPageLighthouseTasksReadyResultInfo
 
+Defined in: main.ts:175816
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **endpoint\_json**: `string`
 
+Defined in: main.ts:175823
+
 URL for collecting the results of the OnPage Lighthouse JSON task
-
-#### Defined in
-
-main.ts:164133
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:164133
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:175819
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:164129
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:164129
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:175821
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:164131

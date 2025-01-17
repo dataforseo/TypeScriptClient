@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpSeznamLanguagesResultInfo
+[Documentation](../README.md) / ISerpSeznamLanguagesResultInfo
 
 # Interface: ISerpSeznamLanguagesResultInfo
 
+Defined in: main.ts:82591
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:82595
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:72918
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:72918
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:82593
+
 language name
-
-#### Defined in
-
-main.ts:72916

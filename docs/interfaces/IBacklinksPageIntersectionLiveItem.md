@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksPageIntersectionLiveItem
+[Documentation](../README.md) / IBacklinksPageIntersectionLiveItem
 
 # Interface: IBacklinksPageIntersectionLiveItem
 
+Defined in: main.ts:159086
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,16 +18,14 @@
 
 > `optional` **page\_intersection**: `object`
 
+Defined in: main.ts:159089
+
 contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`BacklinksPageIntersectionInfo`](../classes/BacklinksPageIntersectionInfo.md) \| `undefined`)[]
-
-#### Defined in
-
-main.ts:147783
+\[`key`: `string`\]: [`BacklinksPageIntersectionInfo`](../classes/BacklinksPageIntersectionInfo.md)[]
 
 ***
 
@@ -33,8 +33,6 @@ main.ts:147783
 
 > `optional` **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
 
+Defined in: main.ts:159091
+
 contains the page intersections summary
-
-#### Defined in
-
-main.ts:147785

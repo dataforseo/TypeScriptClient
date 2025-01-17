@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixGoogleMerchantPriceData
+[Documentation](../README.md) / IAppendixGoogleMerchantPriceData
 
 # Interface: IAppendixGoogleMerchantPriceData
 
+Defined in: main.ts:237133
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **product\_info**: [`AppendixPriceDataInfo`](../classes/AppendixPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:221854
+Defined in: main.ts:237134
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:221854
 
 > `optional` **product\_spec**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:221855
+Defined in: main.ts:237135
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:221855
 
 > `optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:221856
+Defined in: main.ts:237136
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:221856
 
 > `optional` **sellers**: [`AppendixSellersGoogleMerchantPriceData`](../classes/AppendixSellersGoogleMerchantPriceData.md)
 
-#### Defined in
-
-main.ts:221857
+Defined in: main.ts:237137

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IShopsListMerchantSerpElementItem
+[Documentation](../README.md) / IShopsListMerchantSerpElementItem
 
 # Interface: IShopsListMerchantSerpElementItem
+
+Defined in: main.ts:188058
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **base\_price**: `number`
 
+Defined in: main.ts:188072
+
 product price without tax and shipping
-
-#### Defined in
-
-main.ts:176238
 
 ***
 
@@ -32,13 +32,11 @@ main.ts:176238
 
 > `optional` **currency**: `string`
 
+Defined in: main.ts:188083
+
 currency in the ISO format
 example:
 USD
-
-#### Defined in
-
-main.ts:176249
 
 ***
 
@@ -46,12 +44,10 @@ main.ts:176249
 
 > `optional` **details**: `string`
 
+Defined in: main.ts:188070
+
 details and special offers
 if there are no details, the value will be null
-
-#### Defined in
-
-main.ts:176236
 
 ***
 
@@ -59,17 +55,17 @@ main.ts:176236
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:188062
+
 domain in SERP
-
-#### Defined in
-
-main.ts:176228
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21813
 
 alignment of the element in SERP
 can take the following values:
@@ -79,23 +75,17 @@ left, right
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21130
-
 ***
 
 ### product\_annotation?
 
 > `optional` **product\_annotation**: `string`
 
+Defined in: main.ts:188099
+
 data from annotations and badges with special offers
 if there is no annotation for this product, the value will be null
 examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
-
-#### Defined in
-
-main.ts:176265
 
 ***
 
@@ -103,18 +93,18 @@ main.ts:176265
 
 > `optional` **product\_condition**: `string`
 
+Defined in: main.ts:188095
+
 indicated condition of the product
 possible values: Used, Refurbished, New, null
-
-#### Defined in
-
-main.ts:176261
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21809
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -123,15 +113,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21126
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21806
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -140,22 +128,16 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21123
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
+Defined in: main.ts:188089
+
 shop rating
 the shop popularity rate based on product reviews
-
-#### Defined in
-
-main.ts:176255
 
 ***
 
@@ -163,12 +145,10 @@ main.ts:176255
 
 > `optional` **seller\_name**: `string`
 
+Defined in: main.ts:188086
+
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
-
-#### Defined in
-
-main.ts:176252
 
 ***
 
@@ -176,11 +156,9 @@ main.ts:176252
 
 > `optional` **shipping\_price**: `number`
 
+Defined in: main.ts:188077
+
 product shipping price
-
-#### Defined in
-
-main.ts:176243
 
 ***
 
@@ -188,12 +166,10 @@ main.ts:176243
 
 > `optional` **shop\_ad\_aclk**: `string`
 
+Defined in: main.ts:188092
+
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
-
-#### Defined in
-
-main.ts:176258
 
 ***
 
@@ -201,12 +177,10 @@ main.ts:176258
 
 > `optional` **tax**: `number`
 
+Defined in: main.ts:188075
+
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
-
-#### Defined in
-
-main.ts:176241
 
 ***
 
@@ -214,11 +188,9 @@ main.ts:176241
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:188064
+
 product title
-
-#### Defined in
-
-main.ts:176230
 
 ***
 
@@ -226,11 +198,9 @@ main.ts:176230
 
 > `optional` **total\_price**: `number`
 
+Defined in: main.ts:188079
+
 product price including tax and shipping
-
-#### Defined in
-
-main.ts:176245
 
 ***
 
@@ -238,15 +208,13 @@ main.ts:176245
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21803
+
 type of element
 
 #### Inherited from
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21120
 
 ***
 
@@ -254,12 +222,10 @@ main.ts:21120
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:188067
+
 Google Shopping URL forwarding to the product page on the seller’s website
 if you want to obtain a URL of the advertisement forwarding to the product page on the seller’s website, please refer to the Google Shopping Sellers Ad URL endpoint
-
-#### Defined in
-
-main.ts:176233
 
 ***
 
@@ -267,8 +233,6 @@ main.ts:176233
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:188060
+
 XPath of the element
-
-#### Defined in
-
-main.ts:176226

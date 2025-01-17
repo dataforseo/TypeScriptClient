@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixFunctionTypeInfo
+[Documentation](../README.md) / AppendixFunctionTypeInfo
 
 # Class: AppendixFunctionTypeInfo
+
+Defined in: main.ts:230492
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixFunctionTypeInfo**(`data`?): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
+Defined in: main.ts:230499
+
 #### Parameters
 
-• **data?**: [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md)
+##### data?
+
+[`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md)
 
 #### Returns
 
 [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
-
-#### Defined in
-
-main.ts:215455
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:215455
 
 > `optional` **advanced**: `number`
 
+Defined in: main.ts:230494
+
 #### Implementation of
 
 [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`advanced`](../interfaces/IAppendixFunctionTypeInfo.md#advanced)
-
-#### Defined in
-
-main.ts:215450
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:215450
 
 > `optional` **html**: `number`
 
+Defined in: main.ts:230495
+
 #### Implementation of
 
 [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`html`](../interfaces/IAppendixFunctionTypeInfo.md#html)
-
-#### Defined in
-
-main.ts:215451
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:215451
 
 > `optional` **regular**: `number`
 
+Defined in: main.ts:230493
+
 #### Implementation of
 
 [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`regular`](../interfaces/IAppendixFunctionTypeInfo.md#regular)
-
-#### Defined in
-
-main.ts:215449
 
 ## Methods
 
@@ -80,17 +76,17 @@ main.ts:215449
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:230508
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:215464
 
 ***
 
@@ -98,17 +94,17 @@ main.ts:215464
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:230527
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:215483
 
 ***
 
@@ -116,14 +112,14 @@ main.ts:215483
 
 > `static` **fromJS**(`data`): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
+Defined in: main.ts:230520
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
-
-#### Defined in
-
-main.ts:215476

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IShoppingSpecificationMerchantSerpElementItem
+[Documentation](../README.md) / IShoppingSpecificationMerchantSerpElementItem
 
 # Interface: IShoppingSpecificationMerchantSerpElementItem
+
+Defined in: main.ts:189367
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,18 +22,18 @@
 
 > `optional` **block\_name**: `string`
 
+Defined in: main.ts:189372
+
 name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed
-
-#### Defined in
-
-main.ts:177534
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21813
 
 alignment of the element in SERP
 can take the following values:
@@ -41,15 +43,13 @@ left, right
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21130
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21809
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -58,15 +58,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21126
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21806
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -75,22 +73,16 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21123
-
 ***
 
 ### specification\_name?
 
 > `optional` **specification\_name**: `string`
 
+Defined in: main.ts:189375
+
 product attribute
 attribute name of the product data specification
-
-#### Defined in
-
-main.ts:177537
 
 ***
 
@@ -98,11 +90,9 @@ main.ts:177537
 
 > `optional` **specification\_value**: `string`
 
+Defined in: main.ts:189377
+
 content of the specification
-
-#### Defined in
-
-main.ts:177539
 
 ***
 
@@ -110,15 +100,13 @@ main.ts:177539
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21803
+
 type of element
 
 #### Inherited from
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21120
 
 ***
 
@@ -126,8 +114,6 @@ main.ts:21120
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:189369
+
 XPath of the element
-
-#### Defined in
-
-main.ts:177531

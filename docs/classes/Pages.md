@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Pages
+[Documentation](../README.md) / Pages
 
 # Class: Pages
+
+Defined in: main.ts:168972
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new Pages**(`data`?): [`Pages`](Pages.md)
 
+Defined in: main.ts:168982
+
 #### Parameters
 
-• **data?**: [`IPages`](../interfaces/IPages.md)
+##### data?
+
+[`IPages`](../interfaces/IPages.md)
 
 #### Returns
 
 [`Pages`](Pages.md)
-
-#### Defined in
-
-main.ts:157246
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:157246
 
 > `optional` **page**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
+Defined in: main.ts:168978
+
 information about the page with duplicate content
 
 #### Implementation of
 
 [`IPages`](../interfaces/IPages.md).[`page`](../interfaces/IPages.md#page)
 
-#### Defined in
-
-main.ts:157242
-
 ***
 
 ### similarity?
 
 > `optional` **similarity**: `number`
+
+Defined in: main.ts:168976
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -62,27 +64,23 @@ can take values from 0 to 10
 
 [`IPages`](../interfaces/IPages.md).[`similarity`](../interfaces/IPages.md#similarity)
 
-#### Defined in
-
-main.ts:157240
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:168991
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:157255
 
 ***
 
@@ -90,17 +88,17 @@ main.ts:157255
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:169013
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:157277
 
 ***
 
@@ -108,14 +106,14 @@ main.ts:157277
 
 > `static` **fromJS**(`data`): [`Pages`](Pages.md)
 
+Defined in: main.ts:169006
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Pages`](Pages.md)
-
-#### Defined in
-
-main.ts:157270

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentAnalysisDayStatisticsRatesData
+[Documentation](../README.md) / AppendixContentAnalysisDayStatisticsRatesData
 
 # Class: AppendixContentAnalysisDayStatisticsRatesData
+
+Defined in: main.ts:234528
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixContentAnalysisDayStatisticsRatesData**(`data`?): [`AppendixContentAnalysisDayStatisticsRatesData`](AppendixContentAnalysisDayStatisticsRatesData.md)
 
+Defined in: main.ts:234544
+
 #### Parameters
 
-• **data?**: [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixContentAnalysisDayStatisticsRatesData`](AppendixContentAnalysisDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219444
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:219444
 
 > `optional` **available\_filters**: `number`
 
+Defined in: main.ts:234539
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`available_filters`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#available_filters)
-
-#### Defined in
-
-main.ts:219439
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:219439
 
 > `optional` **categories**: `number`
 
+Defined in: main.ts:234537
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`categories`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#categories)
-
-#### Defined in
-
-main.ts:219437
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:219437
 
 > `optional` **category\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234534
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`category_trends`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#category_trends)
-
-#### Defined in
-
-main.ts:219434
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:219434
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:234538
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:219438
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:219438
 
 > `optional` **id\_list**: `number`
 
+Defined in: main.ts:234540
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`id_list`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#id_list)
-
-#### Defined in
-
-main.ts:219440
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:219440
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:234536
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`languages`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#languages)
-
-#### Defined in
-
-main.ts:219436
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:219436
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:234535
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`locations`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#locations)
-
-#### Defined in
-
-main.ts:219435
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:219435
 
 > `optional` **phrase\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234533
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`phrase_trends`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#phrase_trends)
-
-#### Defined in
-
-main.ts:219433
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:219433
 
 > `optional` **rating\_distribution**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234532
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`rating_distribution`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#rating_distribution)
-
-#### Defined in
-
-main.ts:219432
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:219432
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234529
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`search`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#search)
-
-#### Defined in
-
-main.ts:219429
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:219429
 
 > `optional` **sentiment\_analysis**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234531
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`sentiment_analysis`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#sentiment_analysis)
-
-#### Defined in
-
-main.ts:219431
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:219431
 
 > `optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:234530
+
 #### Implementation of
 
 [`IAppendixContentAnalysisDayStatisticsRatesData`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md).[`summary`](../interfaces/IAppendixContentAnalysisDayStatisticsRatesData.md#summary)
-
-#### Defined in
-
-main.ts:219430
 
 ## Methods
 
@@ -206,17 +184,17 @@ main.ts:219430
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:234553
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:219453
 
 ***
 
@@ -224,17 +202,17 @@ main.ts:219453
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:234581
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:219481
 
 ***
 
@@ -242,14 +220,14 @@ main.ts:219481
 
 > `static` **fromJS**(`data`): [`AppendixContentAnalysisDayStatisticsRatesData`](AppendixContentAnalysisDayStatisticsRatesData.md)
 
+Defined in: main.ts:234574
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixContentAnalysisDayStatisticsRatesData`](AppendixContentAnalysisDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219474

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseTaskPostRequestInfo
+[Documentation](../README.md) / IOnPageLighthouseTaskPostRequestInfo
 
 # Interface: IOnPageLighthouseTaskPostRequestInfo
 
+Defined in: main.ts:175573
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### audits?
 
 > `optional` **audits**: `string`[]
+
+Defined in: main.ts:175606
 
 Lighthouse audits
 optional field
@@ -29,15 +33,13 @@ for example, if you ignore "categories" and specify "audits": ["metrics/cumulati
 for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
 you can get the full list of possible audits here
 
-#### Defined in
-
-main.ts:163914
-
 ***
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:175593
 
 categories of Lighthouse audits
 optional field
@@ -47,15 +49,13 @@ use this field to get data for specific categories you indicate here
 possible values:
 seo, pwa, performance, best_practices, accessibility
 
-#### Defined in
-
-main.ts:163901
-
 ***
 
 ### for\_mobile?
 
 > `optional` **for\_mobile**: `boolean`
+
+Defined in: main.ts:175585
 
 applies mobile emulation
 optional field
@@ -63,15 +63,13 @@ if set to true, Lighthouse will use mobile device and screen emulation to test t
 if set to false, the results will be provided for desktop
 default value: false
 
-#### Defined in
-
-main.ts:163893
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:175623
 
 lighthouse language code
 optional field
@@ -79,15 +77,13 @@ you can receive the list of available languages of the search engine with their 
 default value:
 en
 
-#### Defined in
-
-main.ts:163931
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:175617
 
 lighthouse language name
 optional field
@@ -95,15 +91,13 @@ you can receive the list of available languages of the search engine with their 
 default value:
 English
 
-#### Defined in
-
-main.ts:163925
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:175640
 
 notification URL of a completed task
 optional field
@@ -112,18 +106,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:163947
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:175651
 
 return URL for sending task results
 optional field
@@ -132,12 +125,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:163957
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -145,15 +135,13 @@ main.ts:163957
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:175629
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:163937
 
 ***
 
@@ -161,15 +149,13 @@ main.ts:163937
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:175579
+
 target URL
 required field
 target page should be specified with its absolute URL (including http:// or https://)
 example:
 https://dataforseo.com/
-
-#### Defined in
-
-main.ts:163887
 
 ***
 
@@ -177,11 +163,9 @@ main.ts:163887
 
 > `optional` **version**: `string`
 
+Defined in: main.ts:175611
+
 lighthouse version
 optional field
 you can obtain the results specific to a certain Lighthouse version by specifying its number
 the list of available versions is available through the Lighthouse Versions endpoint
-
-#### Defined in
-
-main.ts:163919

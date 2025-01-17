@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
+[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
+Defined in: main.ts:71569
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,19 +18,19 @@
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:71622
+
 device type
 optional field
 only value: desktop
-
-#### Defined in
-
-main.ts:63389
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:71618
 
 search engine language code
 required field if you don’t specify language_name
@@ -37,15 +39,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:63385
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:71611
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -54,15 +54,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:63378
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:71604
 
 search engine location code
 required field if you don’t specify location_name
@@ -71,15 +69,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:63371
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:71597
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -88,30 +84,26 @@ you can receive the list of available locations of the search engine with their 
 example:
 United States
 
-#### Defined in
-
-main.ts:63364
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
 
+Defined in: main.ts:71627
+
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
-
-#### Defined in
-
-main.ts:63394
 
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:71661
 
 notification URL of a completed task
 optional field
@@ -120,12 +112,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:63426
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -133,21 +122,21 @@ main.ts:63426
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:71650
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible value:
 advanced
 
-#### Defined in
-
-main.ts:63416
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:71644
 
 return URL for sending task results
 optional field
@@ -156,18 +145,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:63410
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:71583
 
 task priority
 optional field
@@ -177,22 +165,16 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:63350
-
 ***
 
 ### subtitles\_language?
 
 > `optional` **subtitles\_language**: `string`
 
+Defined in: main.ts:71586
+
 language code of original text
 you can get the language code from YouTube Video Info result
-
-#### Defined in
-
-main.ts:63353
 
 ***
 
@@ -200,13 +182,11 @@ main.ts:63353
 
 > `optional` **subtitles\_translate\_language**: `string`
 
+Defined in: main.ts:71590
+
 language code of translated text
 possible values:
 "az", "ay", "ak", "sq", "am", "en", "ar", "hy", "as", "af", "eu", "be", "bn", "my", "bg", "bs", "bho", "cy", "hu", "vi", "haw", "ht", "gl", "lg", "el", "ka", "gn", "gu", "gd", "da", "fy", "zu", "iw", "ig", "yi", "id", "ga", "is", "es", "it", "yo", "kk", "kn", "ca", "qu", "rw", "ky", "zh-Hant", "zh-Hans", "ko", "co", "xh", "ku", "km", "lo", "la", "lv", "ln", "lt", "lb", "mk", "mg", "ms", "ml", "dv", "mt", "mi", "mr", "mn", "und", "de", "ne", "nl", "no", "ny", "or", "om", "pa", "fa", "pl", "pt", "ps", "ro", "ru", "sm", "sa", "ceb", "nso", "sr", "si", "sd", "sk", "sl", "so", "sw", "su", "tg", "th", "ta", "tt", "te", "ti", "ts", "tr", "tk", "uz", "ug", "uk", "ur", "fil", "fi", "fr", "ha", "hi", "hmn", "hr", "cs", "sv", "sn", "ee", "eo", "et", "st", "jv", "ja", "kri"
-
-#### Defined in
-
-main.ts:63357
 
 ***
 
@@ -214,15 +194,13 @@ main.ts:63357
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:71633
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:63400
 
 ***
 
@@ -230,12 +208,10 @@ main.ts:63400
 
 > `optional` **video\_id**: `string`
 
+Defined in: main.ts:71575
+
 ID of the video
 required field
 you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic result
 example:
 Y8Wu4rSNJms
-
-#### Defined in
-
-main.ts:63342

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixAppendixDayStatisticsRatesData
+[Documentation](../README.md) / AppendixAppendixDayStatisticsRatesData
 
 # Class: AppendixAppendixDayStatisticsRatesData
+
+Defined in: main.ts:233564
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixAppendixDayStatisticsRatesData**(`data`?): [`AppendixAppendixDayStatisticsRatesData`](AppendixAppendixDayStatisticsRatesData.md)
 
+Defined in: main.ts:233572
+
 #### Parameters
 
-• **data?**: [`IAppendixAppendixDayStatisticsRatesData`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixAppendixDayStatisticsRatesData`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixAppendixDayStatisticsRatesData`](AppendixAppendixDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218472
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:218472
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:233566
+
 #### Implementation of
 
 [`IAppendixAppendixDayStatisticsRatesData`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:218466
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:218466
 
 > `optional` **status**: `number`
 
+Defined in: main.ts:233567
+
 #### Implementation of
 
 [`IAppendixAppendixDayStatisticsRatesData`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md).[`status`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md#status)
-
-#### Defined in
-
-main.ts:218467
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:218467
 
 > `optional` **user\_data**: `number`
 
+Defined in: main.ts:233565
+
 #### Implementation of
 
 [`IAppendixAppendixDayStatisticsRatesData`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md).[`user_data`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md#user_data)
-
-#### Defined in
-
-main.ts:218465
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:218465
 
 > `optional` **webhook\_resend**: `number`
 
+Defined in: main.ts:233568
+
 #### Implementation of
 
 [`IAppendixAppendixDayStatisticsRatesData`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md).[`webhook_resend`](../interfaces/IAppendixAppendixDayStatisticsRatesData.md#webhook_resend)
-
-#### Defined in
-
-main.ts:218468
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:218468
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:233581
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218481
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:218481
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:233601
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218501
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:218501
 
 > `static` **fromJS**(`data`): [`AppendixAppendixDayStatisticsRatesData`](AppendixAppendixDayStatisticsRatesData.md)
 
+Defined in: main.ts:233594
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixAppendixDayStatisticsRatesData`](AppendixAppendixDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218494

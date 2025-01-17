@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksErrorsRequestInfo
+[Documentation](../README.md) / BacklinksErrorsRequestInfo
 
 # Class: BacklinksErrorsRequestInfo
+
+Defined in: main.ts:149104
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksErrorsRequestInfo**(`data`?): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
 
+Defined in: main.ts:149138
+
 #### Parameters
 
-• **data?**: [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md)
+##### data?
+
+[`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md)
 
 #### Returns
 
 [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:137832
 
 ## Properties
 
@@ -38,9 +40,11 @@ main.ts:137832
 
 > `optional` **datetime\_from**: `string`
 
+Defined in: main.ts:149127
+
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -49,19 +53,17 @@ example:
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`datetime_from`](../interfaces/IBacklinksErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:137821
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
 
+Defined in: main.ts:149134
+
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -70,15 +72,13 @@ example:
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`datetime_to`](../interfaces/IBacklinksErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:137828
-
 ***
 
 ### filtered\_function?
 
 > `optional` **filtered\_function**: `string`
+
+Defined in: main.ts:149120
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,13 @@ example: backlinks/live
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`filtered_function`](../interfaces/IBacklinksErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
-
-main.ts:137814
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:149109
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +107,13 @@ maximum value: 1000
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`limit`](../interfaces/IBacklinksErrorsRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:137803
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:149114
 
 offset in the results array of returned tasks
 optional field
@@ -128,27 +124,23 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`offset`](../interfaces/IBacklinksErrorsRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:137808
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:149147
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:137841
 
 ***
 
@@ -156,17 +148,17 @@ main.ts:137841
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:149168
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:137862
 
 ***
 
@@ -174,14 +166,14 @@ main.ts:137862
 
 > `static` **fromJS**(`data`): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
 
+Defined in: main.ts:149161
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:137855

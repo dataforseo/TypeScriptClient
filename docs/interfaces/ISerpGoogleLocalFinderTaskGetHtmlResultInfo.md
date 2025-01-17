@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLocalFinderTaskGetHtmlResultInfo
+[Documentation](../README.md) / ISerpGoogleLocalFinderTaskGetHtmlResultInfo
 
 # Interface: ISerpGoogleLocalFinderTaskGetHtmlResultInfo
 
+Defined in: main.ts:44056
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:44072
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:42196
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:42196
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:44076
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:42200
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:42200
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:44074
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:42198
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:42198
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:44059
+
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:42183
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:42183
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:44067
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:42191
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:42191
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:44065
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:42189
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:42189
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:44063
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:42187
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:42187
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:44061
+
 type of element
-
-#### Defined in
-
-main.ts:42185

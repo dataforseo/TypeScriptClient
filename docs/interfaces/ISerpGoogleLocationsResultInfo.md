@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLocationsResultInfo
+[Documentation](../README.md) / ISerpGoogleLocationsResultInfo
 
 # Interface: ISerpGoogleLocationsResultInfo
 
+Defined in: main.ts:26833
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:26848
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:25778
 
 ***
 
@@ -28,17 +28,17 @@ main.ts:25778
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:26835
+
 location code
-
-#### Defined in
-
-main.ts:25765
 
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:26846
 
 the code of the superordinate location
 example:
@@ -49,21 +49,15 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
-
-main.ts:25776
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:26837
+
 full name of the location
-
-#### Defined in
-
-main.ts:25767
 
 ***
 
@@ -71,8 +65,6 @@ main.ts:25767
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:26850
+
 location type
-
-#### Defined in
-
-main.ts:25780

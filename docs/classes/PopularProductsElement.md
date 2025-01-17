@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PopularProductsElement
+[Documentation](../README.md) / PopularProductsElement
 
 # Class: PopularProductsElement
+
+Defined in: main.ts:34643
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new PopularProductsElement**(`data`?): [`PopularProductsElement`](PopularProductsElement.md)
 
+Defined in: main.ts:34663
+
 #### Parameters
 
-• **data?**: [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md)
+##### data?
+
+[`IPopularProductsElement`](../interfaces/IPopularProductsElement.md)
 
 #### Returns
 
 [`PopularProductsElement`](PopularProductsElement.md)
-
-#### Defined in
-
-main.ts:32868
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:32868
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:34649
+
 description
 
 #### Implementation of
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`description`](../interfaces/IPopularProductsElement.md#description)
-
-#### Defined in
-
-main.ts:32855
 
 ***
 
@@ -54,15 +54,14 @@ main.ts:32855
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:34654
+
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`image_url`](../interfaces/IPopularProductsElement.md#image_url)
-
-#### Defined in
-
-main.ts:32859
 
 ***
 
@@ -70,21 +69,21 @@ main.ts:32859
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
+Defined in: main.ts:34656
+
 price indicated in the element
 
 #### Implementation of
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`price`](../interfaces/IPopularProductsElement.md#price)
 
-#### Defined in
-
-main.ts:32861
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:34659
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -93,15 +92,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`rating`](../interfaces/IPopularProductsElement.md#rating)
 
-#### Defined in
-
-main.ts:32864
-
 ***
 
 ### seller?
 
 > `optional` **seller**: `string`
+
+Defined in: main.ts:34651
 
 seller of the product
 
@@ -109,15 +106,13 @@ seller of the product
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`seller`](../interfaces/IPopularProductsElement.md#seller)
 
-#### Defined in
-
-main.ts:32857
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:34647
 
 title of a given link element
 
@@ -125,15 +120,13 @@ title of a given link element
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`title`](../interfaces/IPopularProductsElement.md#title)
 
-#### Defined in
-
-main.ts:32853
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:34645
 
 type of element
 
@@ -141,27 +134,23 @@ type of element
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`type`](../interfaces/IPopularProductsElement.md#type)
 
-#### Defined in
-
-main.ts:32851
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:34672
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:32877
 
 ***
 
@@ -169,17 +158,17 @@ main.ts:32877
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:34695
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:32900
 
 ***
 
@@ -187,14 +176,14 @@ main.ts:32900
 
 > `static` **fromJS**(`data`): [`PopularProductsElement`](PopularProductsElement.md)
 
+Defined in: main.ts:34688
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PopularProductsElement`](PopularProductsElement.md)
-
-#### Defined in
-
-main.ts:32893

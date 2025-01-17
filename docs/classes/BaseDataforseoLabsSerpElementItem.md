@@ -1,28 +1,31 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseDataforseoLabsSerpElementItem
+[Documentation](../README.md) / BaseDataforseoLabsSerpElementItem
 
 # Class: BaseDataforseoLabsSerpElementItem
+
+Defined in: main.ts:21409
 
 ## Extended by
 
 - [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
 - [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
-- [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
 - [`RelatedSearchesDataforseoLabsSerpElementItem`](RelatedSearchesDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
+- [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
+- [`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
+- [`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
 - [`CarouselDataforseoLabsSerpElementItem`](CarouselDataforseoLabsSerpElementItem.md)
 - [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
 - [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
 - [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
 - [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
-- [`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
 - [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 - [`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
 - [`FeaturedSnippetDataforseoLabsSerpElementItem`](FeaturedSnippetDataforseoLabsSerpElementItem.md)
@@ -36,7 +39,6 @@
 - [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 - [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
 - [`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
-- [`ImagesDataforseoLabsSerpElementItem`](ImagesDataforseoLabsSerpElementItem.md)
 - [`ShoppingDataforseoLabsSerpElementItem`](ShoppingDataforseoLabsSerpElementItem.md)
 - [`JobsDataforseoLabsSerpElementItem`](JobsDataforseoLabsSerpElementItem.md)
 - [`EventsDataforseoLabsSerpElementItem`](EventsDataforseoLabsSerpElementItem.md)
@@ -64,17 +66,17 @@
 
 > **new BaseDataforseoLabsSerpElementItem**(`data`?): [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:21427
+
 #### Parameters
 
-• **data?**: [`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-#### Defined in
-
-main.ts:20744
 
 ## Properties
 
@@ -82,15 +84,15 @@ main.ts:20744
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:20742
+Defined in: main.ts:21425
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21421
 
 the alignment of the element in SERP
 can take the following values:
@@ -100,15 +102,13 @@ left, right
 
 [`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20738
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21417
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -117,15 +117,13 @@ absolute position among all the elements in SERP
 
 [`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20734
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21414
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,15 +132,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20731
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21411
 
 type of element
 
@@ -150,15 +146,13 @@ type of element
 
 [`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20728
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21423
 
 the XPath of the element
 
@@ -166,27 +160,23 @@ the XPath of the element
 
 [`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20740
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:21437
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:20754
 
 ***
 
@@ -194,17 +184,17 @@ main.ts:20754
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:21679
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:20996
 
 ***
 
@@ -212,14 +202,14 @@ main.ts:20996
 
 > `static` **fromJS**(`data`): [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:21447
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
-
-#### Defined in
-
-main.ts:20764

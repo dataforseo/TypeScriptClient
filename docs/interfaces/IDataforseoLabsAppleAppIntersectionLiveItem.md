@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleAppIntersectionLiveItem
+[Documentation](../README.md) / IDataforseoLabsAppleAppIntersectionLiveItem
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveItem
 
+Defined in: main.ts:125045
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,29 +18,25 @@
 
 > `optional` **intersection\_result**: `object`
 
+Defined in: main.ts:125053
+
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
 depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively
 
 #### Index Signature
 
- \[`key`: `string`\]: [`AppDataAppStoreSearchOrganicSerpElementItem`](../classes/AppDataAppStoreSearchOrganicSerpElementItem.md)
-
-#### Defined in
-
-main.ts:115780
+\[`key`: `string`\]: [`AppDataAppStoreSearchOrganicSerpElementItem`](../classes/AppDataAppStoreSearchOrganicSerpElementItem.md)
 
 ***
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
+
+Defined in: main.ts:125049
 
 keyword data for the returned keyword
-
-#### Defined in
-
-main.ts:115776
 
 ***
 
@@ -46,8 +44,6 @@ main.ts:115776
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:125047
+
 search engine type
-
-#### Defined in
-
-main.ts:115774

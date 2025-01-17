@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseAmazonSerpElementItem
+[Documentation](../README.md) / IBaseAmazonSerpElementItem
 
 # Interface: IBaseAmazonSerpElementItem
+
+Defined in: main.ts:23302
 
 ## Extended by
 
@@ -14,9 +16,9 @@
 - [`IAmazonRelatedSearchesSerpElementItem`](IAmazonRelatedSearchesSerpElementItem.md)
 - [`IAmazonTopRatedFromOurBrandsSerpElementItem`](IAmazonTopRatedFromOurBrandsSerpElementItem.md)
 - [`IAmazonAmazonProductInfoSerpElementItem`](IAmazonAmazonProductInfoSerpElementItem.md)
+- [`IAmazonAmazonReviewItemSerpElementItem`](IAmazonAmazonReviewItemSerpElementItem.md)
 - [`IAmazonAmazonSellerMainItemSerpElementItem`](IAmazonAmazonSellerMainItemSerpElementItem.md)
 - [`IAmazonAmazonSellerItemSerpElementItem`](IAmazonAmazonSellerItemSerpElementItem.md)
-- [`IAmazonAmazonReviewItemSerpElementItem`](IAmazonAmazonReviewItemSerpElementItem.md)
 
 ## Properties
 
@@ -24,12 +26,10 @@
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:23310
+
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:22407
 
 ***
 
@@ -37,12 +37,10 @@ main.ts:22407
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:23307
+
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:22404
 
 ***
 
@@ -50,11 +48,9 @@ main.ts:22404
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:23304
+
 type of element
-
-#### Defined in
-
-main.ts:22401
 
 ***
 
@@ -62,8 +58,6 @@ main.ts:22401
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:23312
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:22409

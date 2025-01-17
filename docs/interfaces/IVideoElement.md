@@ -1,39 +1,27 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IVideoElement
+[Documentation](../README.md) / IVideoElement
 
 # Interface: IVideoElement
 
+Defined in: main.ts:33196
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
-
-### preview?
-
-> `optional` **preview**: `string`
-
-URL to the video preview image
-
-#### Defined in
-
-main.ts:31396
-
-***
 
 ### source?
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:33201
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:31385
 
 ***
 
@@ -41,14 +29,12 @@ main.ts:31385
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:33208
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:31392
 
 ***
 
@@ -56,11 +42,9 @@ main.ts:31392
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:33203
+
 title of a given link element
-
-#### Defined in
-
-main.ts:31387
 
 ***
 
@@ -68,11 +52,9 @@ main.ts:31387
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:33198
+
 type of element
-
-#### Defined in
-
-main.ts:31382
 
 ***
 
@@ -80,8 +62,6 @@ main.ts:31382
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:33210
+
 URL
-
-#### Defined in
-
-main.ts:31394

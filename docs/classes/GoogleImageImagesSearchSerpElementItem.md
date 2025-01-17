@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleImageImagesSearchSerpElementItem
+[Documentation](../README.md) / GoogleImageImagesSearchSerpElementItem
 
 # Class: GoogleImageImagesSearchSerpElementItem
+
+Defined in: main.ts:50892
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new GoogleImageImagesSearchSerpElementItem**(`data`?): [`GoogleImageImagesSearchSerpElementItem`](GoogleImageImagesSearchSerpElementItem.md)
 
+Defined in: main.ts:50908
+
 #### Parameters
 
-• **data?**: [`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md)
+##### data?
+
+[`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`constructor`](BaseGoogleImagesSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:47714
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:50742
+
 #### Inherited from
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`_discriminator`](BaseGoogleImagesSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:47548
 
 ***
 
@@ -60,15 +60,13 @@ main.ts:47548
 
 > `optional` **alt**: `string`
 
+Defined in: main.ts:50898
+
 the alt tag of the image
 
 #### Implementation of
 
 [`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md).[`alt`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md#alt)
-
-#### Defined in
-
-main.ts:47704
 
 ***
 
@@ -76,21 +74,21 @@ main.ts:47704
 
 > `optional` **encoded\_url**: `string`
 
+Defined in: main.ts:50904
+
 the URL of the cached version of the image stored on Google’s servers
 
 #### Implementation of
 
 [`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md).[`encoded_url`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md#encoded_url)
 
-#### Defined in
-
-main.ts:47710
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:50738
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -103,15 +101,13 @@ absolute position among all the elements in SERP
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`rank_absolute`](BaseGoogleImagesSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:47544
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:50735
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -125,15 +121,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`rank_group`](BaseGoogleImagesSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:47541
-
 ***
 
 ### source\_url?
 
 > `optional` **source\_url**: `string`
+
+Defined in: main.ts:50902
 
 the URL of the source image
 
@@ -141,15 +135,13 @@ the URL of the source image
 
 [`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md).[`source_url`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md#source_url)
 
-#### Defined in
-
-main.ts:47708
-
 ***
 
 ### subtitle?
 
 > `optional` **subtitle**: `string`
+
+Defined in: main.ts:50896
 
 subtitle of the result in SERP
 
@@ -157,15 +149,13 @@ subtitle of the result in SERP
 
 [`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md).[`subtitle`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md#subtitle)
 
-#### Defined in
-
-main.ts:47702
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:50894
 
 title of the result in SERP
 
@@ -173,15 +163,13 @@ title of the result in SERP
 
 [`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md).[`title`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:47700
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:50731
 
 type of element
 
@@ -193,31 +181,27 @@ type of element
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`type`](BaseGoogleImagesSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:47537
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
 
-the URL of the page where the image is hosted
+Defined in: main.ts:50900
+
+search URL with refinement parameters
 
 #### Implementation of
 
 [`IGoogleImageImagesSearchSerpElementItem`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md).[`url`](../interfaces/IGoogleImageImagesSearchSerpElementItem.md#url)
-
-#### Defined in
-
-main.ts:47706
 
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:50740
 
 the XPath of the element
 
@@ -229,19 +213,19 @@ the XPath of the element
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`xpath`](BaseGoogleImagesSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:47546
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:50913
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -251,19 +235,19 @@ main.ts:47546
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`init`](BaseGoogleImagesSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:47719
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:50936
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -273,19 +257,19 @@ main.ts:47719
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`toJSON`](BaseGoogleImagesSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:47742
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`GoogleImageImagesSearchSerpElementItem`](GoogleImageImagesSearchSerpElementItem.md)
 
+Defined in: main.ts:50929
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -294,7 +278,3 @@ main.ts:47742
 #### Overrides
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`fromJS`](BaseGoogleImagesSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:47735

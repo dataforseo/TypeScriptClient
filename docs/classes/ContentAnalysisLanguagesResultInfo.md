@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisLanguagesResultInfo
+[Documentation](../README.md) / ContentAnalysisLanguagesResultInfo
 
 # Class: ContentAnalysisLanguagesResultInfo
+
+Defined in: main.ts:177034
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentAnalysisLanguagesResultInfo**(`data`?): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
+Defined in: main.ts:177042
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md)
+##### data?
+
+[`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:165352
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:165352
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:177038
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md).[`language_code`](../interfaces/IContentAnalysisLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:165348
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:165348
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:177036
+
 language name
 
 #### Implementation of
 
 [`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md).[`language_name`](../interfaces/IContentAnalysisLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:165346
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:165346
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:177051
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:165361
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:165361
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:177069
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:165379
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:165379
 
 > `static` **fromJS**(`data`): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
+Defined in: main.ts:177062
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:165372

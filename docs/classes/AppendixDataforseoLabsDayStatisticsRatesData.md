@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDataforseoLabsDayStatisticsRatesData
+[Documentation](../README.md) / AppendixDataforseoLabsDayStatisticsRatesData
 
 # Class: AppendixDataforseoLabsDayStatisticsRatesData
+
+Defined in: main.ts:233624
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixDataforseoLabsDayStatisticsRatesData**(`data`?): [`AppendixDataforseoLabsDayStatisticsRatesData`](AppendixDataforseoLabsDayStatisticsRatesData.md)
 
+Defined in: main.ts:233671
+
 #### Parameters
 
-• **data?**: [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixDataforseoLabsDayStatisticsRatesData`](AppendixDataforseoLabsDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218571
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:218571
 
 > `optional` **amazon**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233664
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`amazon`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#amazon)
-
-#### Defined in
-
-main.ts:218560
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:218560
 
 > `optional` **app\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233654
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`app_competitors`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#app_competitors)
-
-#### Defined in
-
-main.ts:218554
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:218554
 
 > `optional` **app\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233656
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`app_intersection`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#app_intersection)
-
-#### Defined in
-
-main.ts:218556
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:218556
 
 > `optional` **available\_filters**: `number`
 
+Defined in: main.ts:233663
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`available_filters`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#available_filters)
-
-#### Defined in
-
-main.ts:218561
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:218561
 
 > `optional` **available\_history**: `number`
 
+Defined in: main.ts:233661
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`available_history`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#available_history)
-
-#### Defined in
-
-main.ts:218564
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:218564
 
 > `optional` **bulk\_app\_metrics**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233657
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`bulk_app_metrics`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#bulk_app_metrics)
-
-#### Defined in
-
-main.ts:218557
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:218557
 
 > `optional` **bulk\_keyword\_difficulty**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233641
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`bulk_keyword_difficulty`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#bulk_keyword_difficulty)
-
-#### Defined in
-
-main.ts:218541
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:218541
 
 > `optional` **bulk\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233642
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`bulk_search_volume`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#bulk_search_volume)
-
-#### Defined in
-
-main.ts:218542
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:218542
 
 > `optional` **bulk\_traffic\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233640
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`bulk_traffic_estimation`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#bulk_traffic_estimation)
-
-#### Defined in
-
-main.ts:218540
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:218540
 
 > `optional` **categories**: `number`
 
+Defined in: main.ts:233626
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`categories`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#categories)
-
-#### Defined in
-
-main.ts:218526
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:218526
 
 > `optional` **categories\_for\_domain**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233647
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`categories_for_domain`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#categories_for_domain)
-
-#### Defined in
-
-main.ts:218547
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:218547
 
 > `optional` **categories\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233666
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`categories_for_keywords`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#categories_for_keywords)
-
-#### Defined in
-
-main.ts:218565
 
 ***
 
@@ -206,13 +184,11 @@ main.ts:218565
 
 > `optional` **competitors\_domain**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233635
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`competitors_domain`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#competitors_domain)
-
-#### Defined in
-
-main.ts:218535
 
 ***
 
@@ -220,13 +196,11 @@ main.ts:218535
 
 > `optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233638
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`domain_intersection`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#domain_intersection)
-
-#### Defined in
-
-main.ts:218538
 
 ***
 
@@ -234,13 +208,11 @@ main.ts:218538
 
 > `optional` **domain\_metrics\_by\_categories**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233648
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`domain_metrics_by_categories`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#domain_metrics_by_categories)
-
-#### Defined in
-
-main.ts:218548
 
 ***
 
@@ -248,13 +220,11 @@ main.ts:218548
 
 > `optional` **domain\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233637
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`domain_rank_overview`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#domain_rank_overview)
-
-#### Defined in
-
-main.ts:218537
 
 ***
 
@@ -262,13 +232,11 @@ main.ts:218537
 
 > `optional` **domain\_whois\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233650
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`domain_whois_overview`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#domain_whois_overview)
-
-#### Defined in
-
-main.ts:218550
 
 ***
 
@@ -276,13 +244,11 @@ main.ts:218550
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:233627
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:218527
 
 ***
 
@@ -290,13 +256,11 @@ main.ts:218527
 
 > `optional` **historical\_bulk\_traffic\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233660
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`historical_bulk_traffic_estimation`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#historical_bulk_traffic_estimation)
-
-#### Defined in
-
-main.ts:218562
 
 ***
 
@@ -304,13 +268,11 @@ main.ts:218562
 
 > `optional` **historical\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233651
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`historical_rank_overview`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#historical_rank_overview)
-
-#### Defined in
-
-main.ts:218551
 
 ***
 
@@ -318,13 +280,11 @@ main.ts:218551
 
 > `optional` **historical\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233646
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`historical_search_volume`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#historical_search_volume)
-
-#### Defined in
-
-main.ts:218546
 
 ***
 
@@ -332,13 +292,11 @@ main.ts:218546
 
 > `optional` **historical\_serps**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233653
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`historical_serps`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#historical_serps)
-
-#### Defined in
-
-main.ts:218553
 
 ***
 
@@ -346,13 +304,11 @@ main.ts:218553
 
 > `optional` **id\_list**: `number`
 
+Defined in: main.ts:233659
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`id_list`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#id_list)
-
-#### Defined in
-
-main.ts:218563
 
 ***
 
@@ -360,13 +316,11 @@ main.ts:218563
 
 > `optional` **keyword\_ideas**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233645
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`keyword_ideas`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#keyword_ideas)
-
-#### Defined in
-
-main.ts:218545
 
 ***
 
@@ -374,13 +328,11 @@ main.ts:218545
 
 > `optional` **keyword\_suggestions**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233644
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`keyword_suggestions`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#keyword_suggestions)
-
-#### Defined in
-
-main.ts:218544
 
 ***
 
@@ -388,13 +340,11 @@ main.ts:218544
 
 > `optional` **keywords\_for\_app**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233655
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`keywords_for_app`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#keywords_for_app)
-
-#### Defined in
-
-main.ts:218555
 
 ***
 
@@ -402,13 +352,11 @@ main.ts:218555
 
 > `optional` **keywords\_for\_categories**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233652
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`keywords_for_categories`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#keywords_for_categories)
-
-#### Defined in
-
-main.ts:218552
 
 ***
 
@@ -416,13 +364,11 @@ main.ts:218552
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233643
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`keywords_for_site`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#keywords_for_site)
-
-#### Defined in
-
-main.ts:218543
 
 ***
 
@@ -430,13 +376,11 @@ main.ts:218543
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:233665
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`languages`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#languages)
-
-#### Defined in
-
-main.ts:218567
 
 ***
 
@@ -444,13 +388,11 @@ main.ts:218567
 
 > `optional` **locations\_and\_languages**: `number`
 
+Defined in: main.ts:233625
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`locations_and_languages`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#locations_and_languages)
-
-#### Defined in
-
-main.ts:218525
 
 ***
 
@@ -458,13 +400,11 @@ main.ts:218525
 
 > `optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233639
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`page_intersection`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#page_intersection)
-
-#### Defined in
-
-main.ts:218539
 
 ***
 
@@ -472,13 +412,11 @@ main.ts:218539
 
 > `optional` **product\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233628
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`product_competitors`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#product_competitors)
-
-#### Defined in
-
-main.ts:218528
 
 ***
 
@@ -486,13 +424,11 @@ main.ts:218528
 
 > `optional` **product\_keyword\_intersections**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233629
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`product_keyword_intersections`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#product_keyword_intersections)
-
-#### Defined in
-
-main.ts:218529
 
 ***
 
@@ -500,13 +436,11 @@ main.ts:218529
 
 > `optional` **product\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233630
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`product_rank_overview`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#product_rank_overview)
-
-#### Defined in
-
-main.ts:218530
 
 ***
 
@@ -514,13 +448,11 @@ main.ts:218530
 
 > `optional` **ranked\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233631
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`ranked_keywords`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#ranked_keywords)
-
-#### Defined in
-
-main.ts:218531
 
 ***
 
@@ -528,13 +460,11 @@ main.ts:218531
 
 > `optional` **related\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233636
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`related_keywords`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#related_keywords)
-
-#### Defined in
-
-main.ts:218536
 
 ***
 
@@ -542,13 +472,11 @@ main.ts:218536
 
 > `optional` **relevant\_pages**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233634
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`relevant_pages`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#relevant_pages)
-
-#### Defined in
-
-main.ts:218534
 
 ***
 
@@ -556,13 +484,11 @@ main.ts:218534
 
 > `optional` **search\_intent**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233658
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`search_intent`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#search_intent)
-
-#### Defined in
-
-main.ts:218558
 
 ***
 
@@ -570,13 +496,11 @@ main.ts:218558
 
 > `optional` **serp\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233632
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`serp_competitors`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#serp_competitors)
-
-#### Defined in
-
-main.ts:218532
 
 ***
 
@@ -584,13 +508,11 @@ main.ts:218532
 
 > `optional` **status**: `number`
 
+Defined in: main.ts:233662
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`status`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#status)
-
-#### Defined in
-
-main.ts:218559
 
 ***
 
@@ -598,13 +520,11 @@ main.ts:218559
 
 > `optional` **subdomains**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233633
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`subdomains`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#subdomains)
-
-#### Defined in
-
-main.ts:218533
 
 ***
 
@@ -612,13 +532,11 @@ main.ts:218533
 
 > `optional` **top\_google\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233667
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`top_google_searches`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#top_google_searches)
-
-#### Defined in
-
-main.ts:218566
 
 ***
 
@@ -626,13 +544,11 @@ main.ts:218566
 
 > `optional` **top\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233649
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsDayStatisticsRatesData`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md).[`top_searches`](../interfaces/IAppendixDataforseoLabsDayStatisticsRatesData.md#top_searches)
-
-#### Defined in
-
-main.ts:218549
 
 ## Methods
 
@@ -640,17 +556,17 @@ main.ts:218549
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:233680
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218580
 
 ***
 
@@ -658,17 +574,17 @@ main.ts:218580
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:233739
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218639
 
 ***
 
@@ -676,14 +592,14 @@ main.ts:218639
 
 > `static` **fromJS**(`data`): [`AppendixDataforseoLabsDayStatisticsRatesData`](AppendixDataforseoLabsDayStatisticsRatesData.md)
 
+Defined in: main.ts:233732
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixDataforseoLabsDayStatisticsRatesData`](AppendixDataforseoLabsDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218632

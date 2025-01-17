@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
+
+Defined in: main.ts:148278
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo**(`data`?): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
 
+Defined in: main.ts:148286
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:136240
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:136240
 
 > `optional` **items**: [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)[]
 
+Defined in: main.ts:148282
+
 contains keywords and related data
 
 #### Implementation of
 
 [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md).[`items`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:136236
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:136236
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:148280
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md).[`items_count`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:136234
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:136234
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:148295
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:136249
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:136249
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:148317
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:136271
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:136271
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
 
+Defined in: main.ts:148310
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:136264

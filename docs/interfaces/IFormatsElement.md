@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFormatsElement
+[Documentation](../README.md) / IFormatsElement
 
 # Interface: IFormatsElement
 
+Defined in: main.ts:57700
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **format**: `string`
 
+Defined in: main.ts:57705
+
 type of file format of the dataset
 for example: zip, html, csv
-
-#### Defined in
-
-main.ts:53943
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:53943
 
 > `optional` **size**: `string`
 
+Defined in: main.ts:57707
+
 file size in bytes
-
-#### Defined in
-
-main.ts:53945
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:53945
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:57702
+
 type of element
-
-#### Defined in
-
-main.ts:53940

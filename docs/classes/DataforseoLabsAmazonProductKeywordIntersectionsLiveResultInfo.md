@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
+
+Defined in: main.ts:115068
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)
 
+Defined in: main.ts:115088
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:105349
 
 ## Properties
 
@@ -38,19 +40,17 @@ main.ts:105349
 
 > `optional` **asins**: `object`
 
+Defined in: main.ts:115072
+
 ASINs in a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md).[`asins`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md#asins)
-
-#### Defined in
-
-main.ts:105333
 
 ***
 
@@ -58,15 +58,13 @@ main.ts:105333
 
 > `optional` **items**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)[]
 
+Defined in: main.ts:115084
+
 contains detected Amazon product competitors and related data
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:105345
 
 ***
 
@@ -74,21 +72,21 @@ main.ts:105345
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:115082
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:105343
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:115078
 
 language code in a POST array
 if there is no data, then the value is null
@@ -97,15 +95,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:105339
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:115075
 
 location code in a POST array
 if there is no data, then the value is null
@@ -114,15 +110,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:105336
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:115070
 
 search engine type
 
@@ -130,15 +124,13 @@ search engine type
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:105331
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:115080
 
 total amount of results in our database relevant to your request
 
@@ -146,27 +138,23 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:105341
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:115097
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:105358
 
 ***
 
@@ -174,17 +162,17 @@ main.ts:105358
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:115130
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:105391
 
 ***
 
@@ -192,14 +180,14 @@ main.ts:105391
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)
 
+Defined in: main.ts:115123
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:105384

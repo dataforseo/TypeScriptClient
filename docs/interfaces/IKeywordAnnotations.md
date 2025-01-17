@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordAnnotations
+[Documentation](../README.md) / IKeywordAnnotations
 
 # Interface: IKeywordAnnotations
 
+Defined in: main.ts:128875
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **concepts**: [`ConceptInfo`](../classes/ConceptInfo.md)[]
 
+Defined in: main.ts:128877
+
 the list of concepts for the keyword
-
-#### Defined in
-
-main.ts:119044

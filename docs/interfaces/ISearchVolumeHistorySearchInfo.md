@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISearchVolumeHistorySearchInfo
+[Documentation](../README.md) / ISearchVolumeHistorySearchInfo
 
 # Interface: ISearchVolumeHistorySearchInfo
 
+Defined in: main.ts:146735
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **desktop**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
 
+Defined in: main.ts:146738
+
 device type = desktop
 contains historical search volume data for searches made from desktop devices
-
-#### Defined in
-
-main.ts:134780
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:134780
 
 > `optional` **mobile**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
 
+Defined in: main.ts:146744
+
 device type = mobile
 contains historical search volume data for searches made from mobile devices
-
-#### Defined in
-
-main.ts:134786
 
 ***
 
@@ -42,12 +40,10 @@ main.ts:134786
 
 > `optional` **non\_smartphones**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
 
+Defined in: main.ts:146741
+
 device type = non-smartphones
 contains historical search volume data for searches made from feature phones (non-smartphone mobile devices)
-
-#### Defined in
-
-main.ts:134783
 
 ***
 
@@ -55,9 +51,7 @@ main.ts:134783
 
 > `optional` **tablet**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
 
+Defined in: main.ts:146747
+
 device type = tablet
 contains historical search volume data for searches made from tablets
-
-#### Defined in
-
-main.ts:134789

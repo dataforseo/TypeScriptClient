@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataAttributesInfo
+[Documentation](../README.md) / IBusinessDataAttributesInfo
 
 # Interface: IBusinessDataAttributesInfo
 
+Defined in: main.ts:210905
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,16 +18,14 @@
 
 > `optional` **available\_attributes**: `object`
 
+Defined in: main.ts:210908
+
 available attributes
 indicates attributes a business entity can offer
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:198457
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -33,13 +33,11 @@ main.ts:198457
 
 > `optional` **unavailable\_attributes**: `object`
 
+Defined in: main.ts:210911
+
 unavailable attributes
 indicates attributes a business entity cannot offer
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:198460
+\[`key`: `string`\]: `string`[]

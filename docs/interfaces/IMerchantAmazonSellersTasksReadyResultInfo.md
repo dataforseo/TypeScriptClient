@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonSellersTasksReadyResultInfo
+[Documentation](../README.md) / IMerchantAmazonSellersTasksReadyResultInfo
 
 # Interface: IMerchantAmazonSellersTasksReadyResultInfo
 
+Defined in: main.ts:195854
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:195863
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:183450
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:183450
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:195867
+
 URL for collecting the results of Amazon Sellers Advanced task
-
-#### Defined in
-
-main.ts:183454
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:183454
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:195869
+
 URL for collecting the results of Amazon Sellers HTML task
-
-#### Defined in
-
-main.ts:183456
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:183456
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:195857
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:183444
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:183444
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:195859
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:183446
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:183446
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:195861
+
 type of search engine
-
-#### Defined in
-
-main.ts:183448
 
 ***
 
@@ -89,8 +79,6 @@ main.ts:183448
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:195865
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:183452

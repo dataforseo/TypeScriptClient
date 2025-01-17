@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
+
+Defined in: main.ts:111628
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo**(`data`?): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
 
+Defined in: main.ts:111646
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:101807
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:101807
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)[]
 
+Defined in: main.ts:111642
+
 array of items with relevant traffic estimation data
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:101803
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:101803
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:111640
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:101801
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:111636
 
 language code in a POST array
 if there is no data, then the value is null
@@ -77,15 +77,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:101797
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:111633
 
 location code in a POST array
 if there is no data, then the value is null
@@ -94,15 +92,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:101794
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:111630
 
 search engine type
 
@@ -110,15 +106,13 @@ search engine type
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:101791
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:111638
 
 total amount of results in our database relevant to your request
 
@@ -126,27 +120,23 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:101799
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:111655
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:101816
 
 ***
 
@@ -154,17 +144,17 @@ main.ts:101816
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:111681
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:101842
 
 ***
 
@@ -172,14 +162,14 @@ main.ts:101842
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
 
+Defined in: main.ts:111674
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:101835

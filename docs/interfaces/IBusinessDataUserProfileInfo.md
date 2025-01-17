@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataUserProfileInfo
+[Documentation](../README.md) / IBusinessDataUserProfileInfo
 
 # Interface: IBusinessDataUserProfileInfo
 
+Defined in: main.ts:226755
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:226761
+
 URL to the reviewer’s profile picture
-
-#### Defined in
-
-main.ts:211727
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:211727
 
 > `optional` **location**: `string`
 
+Defined in: main.ts:226763
+
 country of the reviewer
-
-#### Defined in
-
-main.ts:211729
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:211729
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:226757
+
 the name of the reviewer
-
-#### Defined in
-
-main.ts:211723
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:211723
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:226765
+
 total number of reviews submitted by the reviewer
-
-#### Defined in
-
-main.ts:211731
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:211731
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:226759
+
 URL to the reviewer’s profile
-
-#### Defined in
-
-main.ts:211725

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductConsiderationsExpandedElement
+[Documentation](../README.md) / IProductConsiderationsExpandedElement
 
 # Interface: IProductConsiderationsExpandedElement
 
+Defined in: main.ts:36673
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
 
+Defined in: main.ts:36698
+
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results
-
-#### Defined in
-
-main.ts:34988
 
 ***
 
@@ -30,11 +30,9 @@ main.ts:34988
 
 > `optional` **breadcrumb**: `string`
 
+Defined in: main.ts:36681
+
 breadcrumb of the Ad element in SERP
-
-#### Defined in
-
-main.ts:34971
 
 ***
 
@@ -42,11 +40,9 @@ main.ts:34971
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:36685
+
 domain where a link points
-
-#### Defined in
-
-main.ts:34975
 
 ***
 
@@ -54,11 +50,9 @@ main.ts:34975
 
 > `optional` **featured\_title**: `string`
 
+Defined in: main.ts:36679
+
 the title of the featured snippets source page
-
-#### Defined in
-
-main.ts:34969
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:34969
 
 > `optional` **related\_searches**: `string`[]
 
+Defined in: main.ts:36694
+
 search queries related to the elment
-
-#### Defined in
-
-main.ts:34984
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:34984
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:36683
+
 text alongside the link title
-
-#### Defined in
-
-main.ts:34973
 
 ***
 
@@ -90,14 +80,12 @@ main.ts:34973
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:36692
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:34982
 
 ***
 
@@ -105,11 +93,9 @@ main.ts:34982
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:36677
+
 title of the carousel item
-
-#### Defined in
-
-main.ts:34967
 
 ***
 
@@ -117,11 +103,9 @@ main.ts:34967
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:36675
+
 type of element
-
-#### Defined in
-
-main.ts:34965
 
 ***
 
@@ -129,8 +113,6 @@ main.ts:34965
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:36687
+
 URL of element
-
-#### Defined in
-
-main.ts:34977

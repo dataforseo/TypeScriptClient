@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ConceptGroupInfo
+[Documentation](../README.md) / ConceptGroupInfo
 
 # Class: ConceptGroupInfo
+
+Defined in: main.ts:128712
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ConceptGroupInfo**(`data`?): [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
+Defined in: main.ts:128720
+
 #### Parameters
 
-• **data?**: [`IConceptGroupInfo`](../interfaces/IConceptGroupInfo.md)
+##### data?
+
+[`IConceptGroupInfo`](../interfaces/IConceptGroupInfo.md)
 
 #### Returns
 
 [`ConceptGroupInfo`](ConceptGroupInfo.md)
-
-#### Defined in
-
-main.ts:118887
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:118887
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:128714
+
 the concept group name
 
 #### Implementation of
 
 [`IConceptGroupInfo`](../interfaces/IConceptGroupInfo.md).[`name`](../interfaces/IConceptGroupInfo.md#name)
-
-#### Defined in
-
-main.ts:118881
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:118881
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:128716
+
 type of element
 
 #### Implementation of
 
 [`IConceptGroupInfo`](../interfaces/IConceptGroupInfo.md).[`type`](../interfaces/IConceptGroupInfo.md#type)
-
-#### Defined in
-
-main.ts:118883
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:118883
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:128729
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:118896
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:118896
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:128747
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:118914
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:118914
 
 > `static` **fromJS**(`data`): [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
+Defined in: main.ts:128740
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ConceptGroupInfo`](ConceptGroupInfo.md)
-
-#### Defined in
-
-main.ts:118907

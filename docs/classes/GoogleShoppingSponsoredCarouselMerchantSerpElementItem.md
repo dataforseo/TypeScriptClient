@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
+[Documentation](../README.md) / GoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Class: GoogleShoppingSponsoredCarouselMerchantSerpElementItem
+
+Defined in: main.ts:186742
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new GoogleShoppingSponsoredCarouselMerchantSerpElementItem**(`data`?): [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
 
+Defined in: main.ts:186752
+
 #### Parameters
 
-• **data?**: [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
+##### data?
+
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:174922
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21722
+
 #### Inherited from
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21039
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:21039
 
 > `optional` **items**: [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)[]
 
+Defined in: main.ts:186748
+
 items in SERP
 
 #### Implementation of
 
 [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`items`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#items)
 
-#### Defined in
-
-main.ts:174918
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21720
 
 alignment of the element in SERP
 can take the following values:
@@ -88,15 +88,13 @@ left, right
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21037
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21716
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -109,15 +107,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21033
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21713
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -130,15 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21030
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:186746
 
 product title
 
@@ -146,15 +140,13 @@ product title
 
 [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`title`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:174916
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21710
 
 type of element
 
@@ -166,15 +158,13 @@ type of element
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21027
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:186744
 
 XPath of the element
 
@@ -182,19 +172,19 @@ XPath of the element
 
 [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`xpath`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:174914
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:186757
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -204,19 +194,19 @@ main.ts:174914
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:174927
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:186781
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -226,19 +216,19 @@ main.ts:174927
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:174951
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`GoogleShoppingSponsoredCarouselMerchantSerpElementItem`](GoogleShoppingSponsoredCarouselMerchantSerpElementItem.md)
 
+Defined in: main.ts:186774
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -247,7 +237,3 @@ main.ts:174951
 #### Overrides
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:174944

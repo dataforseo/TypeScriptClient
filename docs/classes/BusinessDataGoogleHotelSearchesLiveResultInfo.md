@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesLiveResultInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesLiveResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesLiveResultInfo
+
+Defined in: main.ts:218124
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataGoogleHotelSearchesLiveResultInfo**(`data`?): [`BusinessDataGoogleHotelSearchesLiveResultInfo`](BusinessDataGoogleHotelSearchesLiveResultInfo.md)
 
+Defined in: main.ts:218149
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleHotelSearchesLiveResultInfo`](BusinessDataGoogleHotelSearchesLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:204880
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:218134
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:204865
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:218139
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:204870
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)[]
+
+Defined in: main.ts:218145
 
 array of items
 note: this field always equals null; use it to facilitate integration and ensure interoperability with the Hotel Info endpoint
@@ -81,15 +81,13 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md#items)
 
-#### Defined in
-
-main.ts:204876
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:218142
 
 item types
 the number of items in the items array
@@ -98,26 +96,20 @@ the number of items in the items array
 
 [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:204873
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:218127
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:204858
 
 ***
 
@@ -125,15 +117,13 @@ main.ts:204858
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:218131
+
 language code in a POST array
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:204862
 
 ***
 
@@ -141,15 +131,13 @@ main.ts:204862
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:218129
+
 location code in a POST array
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesLiveResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleHotelSearchesLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:204860
 
 ## Methods
 
@@ -157,17 +145,17 @@ main.ts:204860
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:218158
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:204889
 
 ***
 
@@ -175,17 +163,17 @@ main.ts:204889
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:218185
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:204916
 
 ***
 
@@ -193,14 +181,14 @@ main.ts:204916
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesLiveResultInfo`](BusinessDataGoogleHotelSearchesLiveResultInfo.md)
 
+Defined in: main.ts:218178
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleHotelSearchesLiveResultInfo`](BusinessDataGoogleHotelSearchesLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:204909

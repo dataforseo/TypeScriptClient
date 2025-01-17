@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IStoresCountInfo
+[Documentation](../README.md) / IStoresCountInfo
 
 # Interface: IStoresCountInfo
 
+Defined in: main.ts:186247
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **count**: `string`
 
+Defined in: main.ts:186249
+
 number of stores that offer the product
-
-#### Defined in
-
-main.ts:174419
 
 ***
 
@@ -28,15 +28,13 @@ main.ts:174419
 
 > `optional` **count\_from\_text**: `boolean`
 
+Defined in: main.ts:186257
+
 whether the number of stores is taken from text
 indicates whether the number of stores is taken from displayed_text;
 if the API finds the exact number of stores in the HTML code of the Google Shopping page, this parameter is false;
 if the API cannot find the number of stores in the HTML code of the page, it takes the number from the displayed_text;
 in this case, the parameter is true
-
-#### Defined in
-
-main.ts:174427
 
 ***
 
@@ -44,8 +42,6 @@ main.ts:174427
 
 > `optional` **displayed\_text**: `string`
 
+Defined in: main.ts:186251
+
 text displayed on the Google Shopping page
-
-#### Defined in
-
-main.ts:174421

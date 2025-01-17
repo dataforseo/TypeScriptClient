@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleBusinessAnswerElement
+[Documentation](../README.md) / GoogleBusinessAnswerElement
 
 # Class: GoogleBusinessAnswerElement
+
+Defined in: main.ts:224488
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new GoogleBusinessAnswerElement**(`data`?): [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
 
+Defined in: main.ts:224510
+
 #### Parameters
 
-• **data?**: [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md)
+##### data?
+
+[`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md)
 
 #### Returns
 
 [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
-
-#### Defined in
-
-main.ts:209488
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:209488
 
 > `optional` **answer\_id**: `string`
 
+Defined in: main.ts:224492
+
 ID of the answer
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`answer_id`](../interfaces/IGoogleBusinessAnswerElement.md#answer_id)
-
-#### Defined in
-
-main.ts:209470
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:209470
 
 > `optional` **answer\_text**: `string`
 
+Defined in: main.ts:224500
+
 current text of the answer
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`answer_text`](../interfaces/IGoogleBusinessAnswerElement.md#answer_text)
-
-#### Defined in
-
-main.ts:209478
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:209478
 
 > `optional` **original\_answer\_text**: `string`
 
+Defined in: main.ts:224502
+
 original text of the answer
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`original_answer_text`](../interfaces/IGoogleBusinessAnswerElement.md#original_answer_text)
-
-#### Defined in
-
-main.ts:209480
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:209480
 
 > `optional` **profile\_image\_url**: `string`
 
+Defined in: main.ts:224494
+
 URL of the user’s profile image
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`profile_image_url`](../interfaces/IGoogleBusinessAnswerElement.md#profile_image_url)
-
-#### Defined in
-
-main.ts:209472
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:209472
 
 > `optional` **profile\_name**: `string`
 
+Defined in: main.ts:224498
+
 displayed name of the user
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`profile_name`](../interfaces/IGoogleBusinessAnswerElement.md#profile_name)
-
-#### Defined in
-
-main.ts:209476
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:209476
 
 > `optional` **profile\_url**: `string`
 
+Defined in: main.ts:224496
+
 URL of the user’s profile
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`profile_url`](../interfaces/IGoogleBusinessAnswerElement.md#profile_url)
-
-#### Defined in
-
-main.ts:209474
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:209474
 
 > `optional` **time\_ago**: `string`
 
+Defined in: main.ts:224504
+
 estimated time when the answer was posted
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`time_ago`](../interfaces/IGoogleBusinessAnswerElement.md#time_ago)
-
-#### Defined in
-
-main.ts:209482
 
 ***
 
@@ -150,15 +138,13 @@ main.ts:209482
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:224506
+
 exact time when the answer was posted
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`timestamp`](../interfaces/IGoogleBusinessAnswerElement.md#timestamp)
-
-#### Defined in
-
-main.ts:209484
 
 ***
 
@@ -166,15 +152,13 @@ main.ts:209484
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:224490
+
 type of element
 
 #### Implementation of
 
 [`IGoogleBusinessAnswerElement`](../interfaces/IGoogleBusinessAnswerElement.md).[`type`](../interfaces/IGoogleBusinessAnswerElement.md#type)
-
-#### Defined in
-
-main.ts:209468
 
 ## Methods
 
@@ -182,17 +166,17 @@ main.ts:209468
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:224519
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:209497
 
 ***
 
@@ -200,17 +184,17 @@ main.ts:209497
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:224544
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:209522
 
 ***
 
@@ -218,14 +202,14 @@ main.ts:209522
 
 > `static` **fromJS**(`data`): [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
 
+Defined in: main.ts:224537
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
-
-#### Defined in
-
-main.ts:209515

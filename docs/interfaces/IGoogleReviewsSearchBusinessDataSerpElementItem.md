@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleReviewsSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / IGoogleReviewsSearchBusinessDataSerpElementItem
 
 # Interface: IGoogleReviewsSearchBusinessDataSerpElementItem
+
+Defined in: main.ts:222278
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
+Defined in: main.ts:222332
+
 images submitted by the reviewer
-
-#### Defined in
-
-main.ts:208687
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:208687
 
 > `optional` **local\_guide**: `boolean`
 
+Defined in: main.ts:222304
+
 indicates whether the reviewer has a ‘local guide’ status
-
-#### Defined in
-
-main.ts:208659
 
 ***
 
@@ -44,12 +42,10 @@ main.ts:208659
 
 > `optional` **original\_owner\_answer**: `string`
 
+Defined in: main.ts:222318
+
 original text of the owner’s response
 the original response to the review, no auto-translate applied
-
-#### Defined in
-
-main.ts:208673
 
 ***
 
@@ -57,12 +53,10 @@ main.ts:208673
 
 > `optional` **original\_review\_text**: `string`
 
+Defined in: main.ts:222288
+
 original content of the review
 the original content of the review, no auto-translate applied
-
-#### Defined in
-
-main.ts:208643
 
 ***
 
@@ -70,12 +64,10 @@ main.ts:208643
 
 > `optional` **owner\_answer**: `string`
 
+Defined in: main.ts:222315
+
 text of the owner’s response
 the owner’s response to the review
-
-#### Defined in
-
-main.ts:208670
 
 ***
 
@@ -83,12 +75,10 @@ main.ts:208670
 
 > `optional` **owner\_time\_ago**: `string`
 
+Defined in: main.ts:222321
+
 publication time
 indicates the time (in the ‘time ago’ format) when the owner submitted the response to the review
-
-#### Defined in
-
-main.ts:208676
 
 ***
 
@@ -96,14 +86,12 @@ main.ts:208676
 
 > `optional` **owner\_timestamp**: `string`
 
+Defined in: main.ts:222326
+
 date and time of the owner’s reply to the review
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:208681
 
 ***
 
@@ -111,11 +99,9 @@ main.ts:208681
 
 > `optional` **photos\_count**: `number`
 
+Defined in: main.ts:222302
+
 total number of photos submitted by the reviewer
-
-#### Defined in
-
-main.ts:208657
 
 ***
 
@@ -123,12 +109,10 @@ main.ts:208657
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:222281
+
 the alignment of the review in SERP
 can take the following values: right
-
-#### Defined in
-
-main.ts:208636
 
 ***
 
@@ -136,11 +120,9 @@ main.ts:208636
 
 > `optional` **profile\_image\_url**: `string`
 
+Defined in: main.ts:222312
+
 URL of the reviewer’s profile image
-
-#### Defined in
-
-main.ts:208667
 
 ***
 
@@ -148,11 +130,9 @@ main.ts:208667
 
 > `optional` **profile\_name**: `string`
 
+Defined in: main.ts:222306
+
 profile name of the reviewer
-
-#### Defined in
-
-main.ts:208661
 
 ***
 
@@ -160,11 +140,9 @@ main.ts:208661
 
 > `optional` **profile\_url**: `string`
 
+Defined in: main.ts:222308
+
 URL of the reviewer’s profile
-
-#### Defined in
-
-main.ts:208663
 
 ***
 
@@ -172,21 +150,21 @@ main.ts:208663
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:22295
+
 absolute rank among all the elements
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21392
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22293
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -195,21 +173,15 @@ positions of elements with different type values are omitted from the rank_group
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21390
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:222298
+
 the rating score submitted by the reviewer
-
-#### Defined in
-
-main.ts:208653
 
 ***
 
@@ -217,12 +189,10 @@ main.ts:208653
 
 > `optional` **review\_highlights**: [`ReviewHighlights`](../classes/ReviewHighlights.md)[]
 
+Defined in: main.ts:222335
+
 review highlights
 contains highlighted review criteria and assessments
-
-#### Defined in
-
-main.ts:208690
 
 ***
 
@@ -230,13 +200,11 @@ main.ts:208690
 
 > `optional` **review\_id**: `string`
 
+Defined in: main.ts:222330
+
 the unique identifier of a review on Google
 example:
 ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
-
-#### Defined in
-
-main.ts:208685
 
 ***
 
@@ -244,11 +212,9 @@ main.ts:208685
 
 > `optional` **review\_text**: `string`
 
+Defined in: main.ts:222285
+
 the content of the review
-
-#### Defined in
-
-main.ts:208640
 
 ***
 
@@ -256,11 +222,9 @@ main.ts:208640
 
 > `optional` **review\_url**: `string`
 
+Defined in: main.ts:222310
+
 the URL of the review
-
-#### Defined in
-
-main.ts:208665
 
 ***
 
@@ -268,11 +232,9 @@ main.ts:208665
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:222300
+
 total number of reviews submitted by the reviewer
-
-#### Defined in
-
-main.ts:208655
 
 ***
 
@@ -280,12 +242,10 @@ main.ts:208655
 
 > `optional` **time\_ago**: `string`
 
+Defined in: main.ts:222291
+
 the time of publication
 indicates the time (in the ‘time ago’ format) when the review was listed
-
-#### Defined in
-
-main.ts:208646
 
 ***
 
@@ -293,14 +253,12 @@ main.ts:208646
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:222296
+
 date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:208651
 
 ***
 
@@ -308,15 +266,13 @@ main.ts:208651
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22290
+
 type of element
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21387
 
 ***
 
@@ -324,8 +280,6 @@ main.ts:21387
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:222283
+
 the XPath of the review
-
-#### Defined in
-
-main.ts:208638

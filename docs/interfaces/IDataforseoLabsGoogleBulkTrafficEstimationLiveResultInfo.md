@@ -1,26 +1,26 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleBulkTrafficEstimationLiveResultInfo
 
+Defined in: main.ts:111029
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBBulkTrafficEstimationLiveItem`](../classes/DataforseoLabsBBulkTrafficEstimationLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBulkTrafficEstimationLiveItem`](../classes/DataforseoLabsBulkTrafficEstimationLiveItem.md)[]
+
+Defined in: main.ts:111043
 
 array of items with relevant traffic estimation data
-
-#### Defined in
-
-main.ts:101204
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:101204
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:111041
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:101202
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:101202
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:111037
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:101198
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:101198
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:111034
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:101195
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:101195
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:111031
+
 search engine type
-
-#### Defined in
-
-main.ts:101192
 
 ***
 
@@ -78,8 +70,6 @@ main.ts:101192
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:111039
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:101200

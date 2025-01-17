@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAbsoluteItems
+[Documentation](../README.md) / IAbsoluteItems
 
 # Interface: IAbsoluteItems
 
+Defined in: main.ts:136642
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **geo\_id**: `string`
 
+Defined in: main.ts:136648
+
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
 see the full list of available locations with their geo_id here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations
 example:
 US-NY
-
-#### Defined in
-
-main.ts:126292
 
 ***
 
@@ -32,21 +32,21 @@ main.ts:126292
 
 > `optional` **geo\_name**: `string`
 
+Defined in: main.ts:136654
+
 location name
 you can use this field for matching obtained results with location parameters specified in the request
 see the full list of available locations with their geo_name here or by making a separate request to https://api.dataforseo.com/v3/keywords_data/dataforseo_trends/locations
 example:
 Andorra
 
-#### Defined in
-
-main.ts:126298
-
 ***
 
 ### values?
 
 > `optional` **values**: `number`[]
+
+Defined in: main.ts:136663
 
 keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -56,7 +56,3 @@ calculation: we determine the highest popularity value across all specified keyw
 a value of 100 is the peak popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term
-
-#### Defined in
-
-main.ts:126307

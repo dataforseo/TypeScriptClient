@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleProductsTasksReadyResultInfo
+[Documentation](../README.md) / IMerchantGoogleProductsTasksReadyResultInfo
 
 # Interface: IMerchantGoogleProductsTasksReadyResultInfo
 
+Defined in: main.ts:185801
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:185811
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:173973
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:173973
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:185815
+
 URL for collecting the results of Google Shopping Products Advanced task
-
-#### Defined in
-
-main.ts:173977
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:173977
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:185817
+
 URL for collecting the results of Google Shopping Products HTML task
-
-#### Defined in
-
-main.ts:173979
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:173979
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:185804
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:173966
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:173966
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:185806
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:173968
 
 ***
 
@@ -77,12 +69,10 @@ main.ts:173968
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:185809
+
 type of search engine
 example: products
-
-#### Defined in
-
-main.ts:173971
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:173971
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:185813
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:173975

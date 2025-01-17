@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo
+
+Defined in: main.ts:143408
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo**(`data`?): [`KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md)
 
+Defined in: main.ts:143448
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:131506
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:143440
 
 product and service categories
 legacy field, the value will always be null
@@ -45,15 +49,13 @@ legacy field, the value will always be null
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`categories`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#categories)
 
-#### Defined in
-
-main.ts:131498
-
 ***
 
 ### competition?
 
 > `optional` **competition**: `number`
+
+Defined in: main.ts:143428
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -67,15 +69,13 @@ if there is no data the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`competition`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#competition)
 
-#### Defined in
-
-main.ts:131486
-
 ***
 
 ### cpc?
 
 > `optional` **cpc**: `number`
+
+Defined in: main.ts:143432
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -85,15 +85,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`cpc`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#cpc)
 
-#### Defined in
-
-main.ts:131490
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:143420
 
 device type
 indicates for what device type the data is provided;
@@ -103,15 +101,13 @@ possible values: all, mobile, desktop, tablet
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#device)
 
-#### Defined in
-
-main.ts:131478
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:143410
 
 keyword in a POST array
 
@@ -119,15 +115,13 @@ keyword in a POST array
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:131468
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:143414
 
 language code in a POST array
 
@@ -135,15 +129,13 @@ language code in a POST array
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:131472
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:143412
 
 location code in a POST array
 
@@ -151,15 +143,13 @@ location code in a POST array
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:131470
-
 ***
 
 ### monthly\_searches?
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
+
+Defined in: main.ts:143444
 
 monthly searches
 represents the (approximate) number of searches on this keyword (as available for the past twelve months), targeted to the specified geographic locations.
@@ -169,15 +159,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`monthly_searches`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#monthly_searches)
 
-#### Defined in
-
-main.ts:131502
-
 ***
 
 ### search\_partners?
 
 > `optional` **search\_partners**: `boolean`
+
+Defined in: main.ts:143416
 
 indicates whether data from partner networks included in the response
 
@@ -185,15 +173,13 @@ indicates whether data from partner networks included in the response
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#search_partners)
 
-#### Defined in
-
-main.ts:131474
-
 ***
 
 ### search\_volume?
 
 > `optional` **search\_volume**: `number`
+
+Defined in: main.ts:143437
 
 monthly average search volume rate
 represents the (approximate) number of searches for the keyword on the Bing search engine, depending on the user’s targeting
@@ -204,27 +190,23 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md).[`search_volume`](../interfaces/IKeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md#search_volume)
 
-#### Defined in
-
-main.ts:131495
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:143457
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:131515
 
 ***
 
@@ -232,17 +214,17 @@ main.ts:131515
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:143491
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:131549
 
 ***
 
@@ -250,14 +232,14 @@ main.ts:131549
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md)
 
+Defined in: main.ts:143484
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:131542

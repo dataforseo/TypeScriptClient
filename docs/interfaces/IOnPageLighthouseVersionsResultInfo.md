@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseVersionsResultInfo
+[Documentation](../README.md) / IOnPageLighthouseVersionsResultInfo
 
 # Interface: IOnPageLighthouseVersionsResultInfo
 
+Defined in: main.ts:175304
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,6 +18,4 @@
 
 > `optional` **availible\_versions**: [`AvailibleVersions`](../classes/AvailibleVersions.md)[]
 
-#### Defined in
-
-main.ts:163615
+Defined in: main.ts:175305

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleTrendsGraphElementItem
+[Documentation](../README.md) / IGoogleTrendsGraphElementItem
 
 # Interface: IGoogleTrendsGraphElementItem
+
+Defined in: main.ts:134079
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **averages**: `number`[]
 
+Defined in: main.ts:134083
+
 keyword popularity values averaged over the whole time range
-
-#### Defined in
-
-main.ts:123733
 
 ***
 
@@ -32,17 +32,17 @@ main.ts:123733
 
 > `optional` **data**: [`TrendsGraphDataInfo`](../classes/TrendsGraphDataInfo.md)[]
 
+Defined in: main.ts:134081
+
 Google Trends data for the specified parameters
-
-#### Defined in
-
-main.ts:123731
 
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22784
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -51,15 +51,13 @@ the data included in the google_trends_graph element is based on the keywords li
 
 [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`keywords`](IBaseGoogleTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21881
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22779
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -68,15 +66,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`position`](IBaseGoogleTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21876
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:22781
 
 title of the element in Google Trends
 
@@ -84,22 +80,16 @@ title of the element in Google Trends
 
 [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`title`](IBaseGoogleTrendsItem.md#title)
 
-#### Defined in
-
-main.ts:21878
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22776
+
 type of element
 
 #### Inherited from
 
 [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`type`](IBaseGoogleTrendsItem.md#type)
-
-#### Defined in
-
-main.ts:21873

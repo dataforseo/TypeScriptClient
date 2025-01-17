@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesTasksReadyResultInfo
+[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
+Defined in: main.ts:71846
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:71856
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:63621
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:63621
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:71864
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:63629
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:63629
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:71867
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:63632
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:63632
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:71861
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:63626
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:63626
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:71849
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:63614
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:63614
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:71851
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:63616
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:63616
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:71854
+
 type of search engine
 example: video_subtitles
-
-#### Defined in
-
-main.ts:63619
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:63619
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:71858
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:63623

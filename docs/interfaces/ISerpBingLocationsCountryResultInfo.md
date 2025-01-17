@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingLocationsCountryResultInfo
+[Documentation](../README.md) / ISerpBingLocationsCountryResultInfo
 
 # Interface: ISerpBingLocationsCountryResultInfo
 
+Defined in: main.ts:63057
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:63072
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:56939
 
 ***
 
@@ -28,17 +28,17 @@ main.ts:56939
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:63059
+
 location code
-
-#### Defined in
-
-main.ts:56926
 
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:63070
 
 the code of the superordinate location
 example:
@@ -49,21 +49,15 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
-
-main.ts:56937
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:63061
+
 full name of the location
-
-#### Defined in
-
-main.ts:56928
 
 ***
 
@@ -71,8 +65,6 @@ main.ts:56928
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:63074
+
 location type
-
-#### Defined in
-
-main.ts:56941

@@ -1,26 +1,26 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
+Defined in: main.ts:118615
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingRankedKeywordsLiveItem`](../classes/DataforseoLabsBingRankedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsLiveItem`](../classes/DataforseoLabsLiveItem.md)[]
+
+Defined in: main.ts:118637
 
 contains ranked keywords and related data
-
-#### Defined in
-
-main.ts:109126
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:109126
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:118629
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:109118
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:109118
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:118625
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:109114
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:109114
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:118622
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:109111
 
 ***
 
@@ -66,16 +60,14 @@ main.ts:109111
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:118632
+
 ranking data relevant to the specified domain
 ranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:109121
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 ***
 
@@ -83,16 +75,14 @@ main.ts:109121
 
 > `optional` **metrics\_absolute**: `object`
 
+Defined in: main.ts:118635
+
 ranking data relevant to the specified domain
 ranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:109124
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 ***
 
@@ -100,11 +90,9 @@ main.ts:109124
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:118617
+
 search engine type
-
-#### Defined in
-
-main.ts:109106
 
 ***
 
@@ -112,11 +100,9 @@ main.ts:109106
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:118619
+
 target domain in a POST array
-
-#### Defined in
-
-main.ts:109108
 
 ***
 
@@ -124,8 +110,6 @@ main.ts:109108
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:118627
+
 total number of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:109116

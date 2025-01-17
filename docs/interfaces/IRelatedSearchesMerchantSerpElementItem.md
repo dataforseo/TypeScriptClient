@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRelatedSearchesMerchantSerpElementItem
+[Documentation](../README.md) / IRelatedSearchesMerchantSerpElementItem
 
 # Interface: IRelatedSearchesMerchantSerpElementItem
+
+Defined in: main.ts:186864
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,18 +22,18 @@
 
 > `optional` **items**: `string`[]
 
+Defined in: main.ts:186869
+
 additional items present in the element
 if there are none, equals null
-
-#### Defined in
-
-main.ts:175039
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21813
 
 alignment of the element in SERP
 can take the following values:
@@ -41,15 +43,13 @@ left, right
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21130
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21809
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -58,15 +58,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21126
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21806
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -75,15 +73,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21123
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21803
 
 type of element
 
@@ -91,18 +87,12 @@ type of element
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21120
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:186866
+
 XPath of the element
-
-#### Defined in
-
-main.ts:175036

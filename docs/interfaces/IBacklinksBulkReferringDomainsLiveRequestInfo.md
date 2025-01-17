@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkReferringDomainsLiveRequestInfo
+[Documentation](../README.md) / IBacklinksBulkReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksBulkReferringDomainsLiveRequestInfo
 
+Defined in: main.ts:161364
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,21 +18,21 @@
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:161389
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:150083
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:161383
 
 domains, subdomains or webpages to get the number of referring domains for
 required field
@@ -50,7 +52,3 @@ example:
   "https://stackoverflow.com/",
   "www.trustpilot.com"
 ]
-
-#### Defined in
-
-main.ts:150077

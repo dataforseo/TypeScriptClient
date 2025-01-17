@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
 
 # Interface: IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo
 
+Defined in: main.ts:137840
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:137876
 
 starting date of the time range
 optional field
@@ -25,15 +29,13 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
-
-main.ts:127516
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:137883
 
 ending date of the time range
 optional field
@@ -42,31 +44,28 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
-
-main.ts:127523
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:137847
+
 keywords
 required field
 the maximum number of keywords you can specify: 5
 avoid symbols and special characters (e.g., UTF symbols, emojis);
 specifying non-Latin characters, you’ll get data for the countries where they are used
-
-#### Defined in
-
-main.ts:127487
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:137865
 
 search engine location code
 optional field
@@ -77,15 +76,13 @@ note that the data will be provided for the country the specified location_code 
 example:
 2840
 
-#### Defined in
-
-main.ts:127505
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:137856
 
 full name of search engine location
 optional field
@@ -96,15 +93,13 @@ note that the data will be provided for the country the specified location_name 
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:127496
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:137895
 
 user-defined task identifier
 optional field
@@ -112,15 +107,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:127535
-
 ***
 
 ### time\_range?
 
 > `optional` **time\_range**: `string`
+
+Defined in: main.ts:137889
 
 preset time ranges
 optional field
@@ -128,18 +121,12 @@ if you specify date_from or date_to parameters, this field will be ignored when 
 possible values for all type parameters:
 past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months, past_5_years
 
-#### Defined in
-
-main.ts:127529
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:137867
+
 type of element
-
-#### Defined in
-
-main.ts:127507

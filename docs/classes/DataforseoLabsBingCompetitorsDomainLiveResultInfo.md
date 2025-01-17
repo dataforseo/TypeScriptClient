@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingCompetitorsDomainLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingCompetitorsDomainLiveResultInfo
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveResultInfo
+
+Defined in: main.ts:116380
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsBingCompetitorsDomainLiveResultInfo**(`data`?): [`DataforseoLabsBingCompetitorsDomainLiveResultInfo`](DataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
 
+Defined in: main.ts:116398
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingCompetitorsDomainLiveResultInfo`](DataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:106659
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:106659
 
 > `optional` **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](DataforseoLabsCompetitorsDomainLiveItem.md)[]
 
+Defined in: main.ts:116394
+
 contains data related to the target and competitor domains
 
 #### Implementation of
 
 [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:106655
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:106655
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:116392
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:106653
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:106653
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:116388
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:106649
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:106649
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:116386
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:106647
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:106647
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:116382
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:106643
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:106643
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:116384
+
 target domain in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md#target)
-
-#### Defined in
-
-main.ts:106645
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:106645
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:116390
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsBingCompetitorsDomainLiveResultInfo`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingCompetitorsDomainLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:106651
 
 ## Methods
 
@@ -150,17 +138,17 @@ main.ts:106651
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:116407
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:106668
 
 ***
 
@@ -168,17 +156,17 @@ main.ts:106668
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:116434
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:106695
 
 ***
 
@@ -186,14 +174,14 @@ main.ts:106695
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingCompetitorsDomainLiveResultInfo`](DataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
 
+Defined in: main.ts:116427
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingCompetitorsDomainLiveResultInfo`](DataforseoLabsBingCompetitorsDomainLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:106688

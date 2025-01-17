@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseBusinessDataSerpElementItem
+[Documentation](../README.md) / BaseBusinessDataSerpElementItem
 
 # Class: BaseBusinessDataSerpElementItem
+
+Defined in: main.ts:22202
 
 ## Extended by
 
@@ -27,17 +29,17 @@
 
 > **new BaseBusinessDataSerpElementItem**(`data`?): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
 
+Defined in: main.ts:22213
+
 #### Parameters
 
-• **data?**: [`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md)
+##### data?
+
+[`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md)
 
 #### Returns
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
-#### Defined in
-
-main.ts:21310
 
 ## Properties
 
@@ -45,9 +47,7 @@ main.ts:21310
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:21308
+Defined in: main.ts:22211
 
 ***
 
@@ -55,21 +55,21 @@ main.ts:21308
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:22209
+
 absolute rank among all the elements
 
 #### Implementation of
 
 [`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21306
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22207
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -78,15 +78,13 @@ positions of elements with different type values are omitted from the rank_group
 
 [`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IBaseBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21304
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22204
 
 type of element
 
@@ -94,27 +92,23 @@ type of element
 
 [`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md).[`type`](../interfaces/IBaseBusinessDataSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21301
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:22223
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:21320
 
 ***
 
@@ -122,17 +116,17 @@ main.ts:21320
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:22278
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:21375
 
 ***
 
@@ -140,14 +134,14 @@ main.ts:21375
 
 > `static` **fromJS**(`data`): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
 
+Defined in: main.ts:22231
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
-
-#### Defined in
-
-main.ts:21328

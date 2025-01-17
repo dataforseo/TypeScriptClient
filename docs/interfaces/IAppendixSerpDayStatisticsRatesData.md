@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSerpDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixSerpDayStatisticsRatesData
 
 # Interface: IAppendixSerpDayStatisticsRatesData
 
+Defined in: main.ts:233339
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **ai\_summary**: `number`
 
-#### Defined in
-
-main.ts:218274
+Defined in: main.ts:233351
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:218274
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:218270
+Defined in: main.ts:233346
 
 ***
 
@@ -36,19 +34,15 @@ main.ts:218270
 
 > `optional` **id\_list**: `number`
 
-#### Defined in
-
-main.ts:218275
+Defined in: main.ts:233350
 
 ***
 
 ### jobs?
 
-> `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **jobs**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:218272
+Defined in: main.ts:233348
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:218272
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:218268
+Defined in: main.ts:233344
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:218268
 
 > `optional` **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Defined in
-
-main.ts:218269
+Defined in: main.ts:233345
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:218269
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:218267
+Defined in: main.ts:233343
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:218267
 
 > `optional` **screenshot**: `number`
 
-#### Defined in
-
-main.ts:218273
+Defined in: main.ts:233349
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:218273
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Defined in
-
-main.ts:218265
+Defined in: main.ts:233341
 
 ***
 
@@ -106,9 +90,7 @@ main.ts:218265
 
 > `optional` **task\_post**: `number`
 
-#### Defined in
-
-main.ts:218264
+Defined in: main.ts:233340
 
 ***
 
@@ -116,9 +98,7 @@ main.ts:218264
 
 > `optional` **tasks\_fixed**: `number`
 
-#### Defined in
-
-main.ts:218271
+Defined in: main.ts:233347
 
 ***
 
@@ -126,6 +106,4 @@ main.ts:218271
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:218266
+Defined in: main.ts:233342

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseVersionsResultInfo
+[Documentation](../README.md) / OnPageLighthouseVersionsResultInfo
 
 # Class: OnPageLighthouseVersionsResultInfo
+
+Defined in: main.ts:175254
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageLighthouseVersionsResultInfo**(`data`?): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
+Defined in: main.ts:175259
+
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md)
+##### data?
+
+[`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md)
 
 #### Returns
 
 [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
-
-#### Defined in
-
-main.ts:163569
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:163569
 
 > `optional` **availible\_versions**: [`AvailibleVersions`](AvailibleVersions.md)[]
 
+Defined in: main.ts:175255
+
 #### Implementation of
 
 [`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md).[`availible_versions`](../interfaces/IOnPageLighthouseVersionsResultInfo.md#availible_versions)
-
-#### Defined in
-
-main.ts:163565
 
 ## Methods
 
@@ -52,17 +52,17 @@ main.ts:163565
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:175268
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:163578
 
 ***
 
@@ -70,17 +70,17 @@ main.ts:163578
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:175289
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:163599
 
 ***
 
@@ -88,14 +88,14 @@ main.ts:163599
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
+Defined in: main.ts:175282
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
-
-#### Defined in
-
-main.ts:163592

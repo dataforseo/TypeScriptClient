@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonProductNewerModelInfo
+[Documentation](../README.md) / IAmazonProductNewerModelInfo
 
 # Interface: IAmazonProductNewerModelInfo
 
+Defined in: main.ts:194087
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **newer\_model\_asin**: `string`
 
+Defined in: main.ts:194091
+
 ASIN of the newer product model
-
-#### Defined in
-
-main.ts:181872
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:181872
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:194089
+
 product title
-
-#### Defined in
-
-main.ts:181870

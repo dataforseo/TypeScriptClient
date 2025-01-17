@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkNewLostBacklinksLiveItem
+[Documentation](../README.md) / IBacklinksBulkNewLostBacklinksLiveItem
 
 # Interface: IBacklinksBulkNewLostBacklinksLiveItem
 
+Defined in: main.ts:161833
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **lost\_backlinks**: `number`
 
+Defined in: main.ts:161841
+
 number of lost backlinks
 number of lost backlinks of the target
-
-#### Defined in
-
-main.ts:150535
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:150535
 
 > `optional` **new\_backlinks**: `number`
 
+Defined in: main.ts:161838
+
 number of new backlinks
 number of new backlinks pointing to the target
-
-#### Defined in
-
-main.ts:150532
 
 ***
 
@@ -42,8 +40,6 @@ main.ts:150532
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:161835
+
 domain, subdomain or webpage from a POST array
-
-#### Defined in
-
-main.ts:150529

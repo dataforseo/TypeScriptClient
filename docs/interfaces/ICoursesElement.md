@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICoursesElement
+[Documentation](../README.md) / ICoursesElement
 
 # Interface: ICoursesElement
 
+Defined in: main.ts:37963
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:37978
+
 the date when the page source of the element was published
-
-#### Defined in
-
-main.ts:36277
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:36277
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:37976
+
 description
-
-#### Defined in
-
-main.ts:36275
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:36275
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:37971
+
 website domain
-
-#### Defined in
-
-main.ts:36270
 
 ***
 
@@ -52,11 +48,10 @@ main.ts:36270
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:37981
+
 URL of the image
-
-#### Defined in
-
-main.ts:36279
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 ***
 
@@ -64,12 +59,10 @@ main.ts:36279
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:37984
+
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:36282
 
 ***
 
@@ -77,12 +70,10 @@ main.ts:36282
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:37974
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:36273
 
 ***
 
@@ -90,11 +81,9 @@ main.ts:36273
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:37967
+
 title of a given link element
-
-#### Defined in
-
-main.ts:36266
 
 ***
 
@@ -102,11 +91,9 @@ main.ts:36266
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:37965
+
 type of element
-
-#### Defined in
-
-main.ts:36264
 
 ***
 
@@ -114,8 +101,6 @@ main.ts:36264
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:37969
+
 URL
-
-#### Defined in
-
-main.ts:36268

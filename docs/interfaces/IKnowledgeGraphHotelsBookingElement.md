@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphHotelsBookingElement
+[Documentation](../README.md) / IKnowledgeGraphHotelsBookingElement
 
 # Interface: IKnowledgeGraphHotelsBookingElement
 
+Defined in: main.ts:30627
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:30633
+
 description of the results element in SERP
-
-#### Defined in
-
-main.ts:29063
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:29063
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:30637
+
 domain where a link points
-
-#### Defined in
-
-main.ts:29067
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:29067
 
 > `optional` **is\_paid**: `boolean`
 
+Defined in: main.ts:30642
+
 indicates whether the element is an ad
-
-#### Defined in
-
-main.ts:29072
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:29072
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:30640
+
 pricing details
 contains the pricing details of the product or service featured in the result
-
-#### Defined in
-
-main.ts:29070
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:29070
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:30631
+
 source of additional information about the result
-
-#### Defined in
-
-main.ts:29061
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:29061
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:30629
+
 type of element
-
-#### Defined in
-
-main.ts:29059
 
 ***
 
@@ -89,8 +79,6 @@ main.ts:29059
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:30635
+
 relevant URL
-
-#### Defined in
-
-main.ts:29065

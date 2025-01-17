@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixTrBusinessDataPriceDataInfo
+[Documentation](../README.md) / AppendixTrBusinessDataPriceDataInfo
 
 # Class: AppendixTrBusinessDataPriceDataInfo
+
+Defined in: main.ts:237982
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixTrBusinessDataPriceDataInfo**(`data`?): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237988
+
 #### Parameters
 
-• **data?**: [`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md)
+##### data?
+
+[`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:222700
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:222700
 
 > `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237983
+
 #### Implementation of
 
 [`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md).[`reviews`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md#reviews)
-
-#### Defined in
-
-main.ts:222695
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:222695
 
 > `optional` **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237984
+
 #### Implementation of
 
 [`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md).[`search`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md#search)
-
-#### Defined in
-
-main.ts:222696
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:222696
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:237997
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:222709
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:222709
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:238015
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:222727
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:222727
 
 > `static` **fromJS**(`data`): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:238008
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:222720

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+
+Defined in: main.ts:86496
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
+Defined in: main.ts:86573
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:76833
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:86519
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, technologies, or keywords
@@ -49,15 +53,13 @@ example:
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`categories`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#categories)
 
-#### Defined in
-
-main.ts:76780
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:86555
 
 array of results filtering parameters
 optional field
@@ -77,15 +79,13 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`filters`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:76815
-
 ***
 
 ### groups?
 
 > `optional` **groups**: `string`[]
+
+Defined in: main.ts:86512
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, categories, or keywords
@@ -98,15 +98,13 @@ example:
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`groups`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#groups)
 
-#### Defined in
-
-main.ts:76773
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:86563
 
 maximum number of elements within internal arrays
 optional field
@@ -120,15 +118,13 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
-
-main.ts:76823
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:86534
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, categories, or technologies
@@ -136,20 +132,19 @@ you can specify the maximum of 10 keywords;
 UTF-8 encoding;
 example:
 ["seo","software"]
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`keywords`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:76794
 
 ***
 
 ### mode?
 
 > `optional` **mode**: `string`
+
+Defined in: main.ts:86541
 
 search mode
 optional field
@@ -162,15 +157,13 @@ default value: as_is
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`mode`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#mode)
 
-#### Defined in
-
-main.ts:76801
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:86569
 
 user-defined task identifier
 optional field
@@ -182,15 +175,13 @@ you will find the specified tag value in the data object of the response
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`tag`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:76829
-
 ***
 
 ### technologies?
 
 > `optional` **technologies**: `string`[]
+
+Defined in: main.ts:86526
 
 target technologies
 required field if you don’t specify groups, technology_paths, categories, or keywords
@@ -203,15 +194,13 @@ example:
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`technologies`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#technologies)
 
-#### Defined in
-
-main.ts:76787
-
 ***
 
 ### technology\_paths?
 
 > `optional` **technology\_paths**: `string`[]
+
+Defined in: main.ts:86505
 
 target technology paths
 required field if you don’t specify groups, technologies and categories
@@ -226,27 +215,23 @@ example:
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md).[`technology_paths`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md#technology_paths)
 
-#### Defined in
-
-main.ts:76766
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:86582
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:76842
 
 ***
 
@@ -254,17 +239,17 @@ main.ts:76842
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:86631
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:76891
 
 ***
 
@@ -272,14 +257,14 @@ main.ts:76891
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
 
+Defined in: main.ts:86624
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:76884

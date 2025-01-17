@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBaiduLanguagesResultInfo
+[Documentation](../README.md) / SerpBaiduLanguagesResultInfo
 
 # Class: SerpBaiduLanguagesResultInfo
+
+Defined in: main.ts:78730
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpBaiduLanguagesResultInfo**(`data`?): [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
 
+Defined in: main.ts:78738
+
 #### Parameters
 
-• **data?**: [`ISerpBaiduLanguagesResultInfo`](../interfaces/ISerpBaiduLanguagesResultInfo.md)
+##### data?
+
+[`ISerpBaiduLanguagesResultInfo`](../interfaces/ISerpBaiduLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:69293
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:69293
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:78734
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`ISerpBaiduLanguagesResultInfo`](../interfaces/ISerpBaiduLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpBaiduLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:69289
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:69289
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:78732
+
 language name
 
 #### Implementation of
 
 [`ISerpBaiduLanguagesResultInfo`](../interfaces/ISerpBaiduLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpBaiduLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:69287
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:69287
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:78747
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:69302
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:69302
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:78765
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:69320
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:69320
 
 > `static` **fromJS**(`data`): [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
 
+Defined in: main.ts:78758
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:69313

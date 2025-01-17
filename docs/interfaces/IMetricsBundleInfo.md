@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMetricsBundleInfo
+[Documentation](../README.md) / IMetricsBundleInfo
 
 # Interface: IMetricsBundleInfo
 
+Defined in: main.ts:89475
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **organic**: [`MetricsInfo`](../classes/MetricsInfo.md)
 
+Defined in: main.ts:89477
+
 ranking and traffic data from organic search
-
-#### Defined in
-
-main.ts:79732
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:79732
 
 > `optional` **paid**: [`MetricsInfo`](../classes/MetricsInfo.md)
 
+Defined in: main.ts:89479
+
 ranking and traffic data from paid search
-
-#### Defined in
-
-main.ts:79734

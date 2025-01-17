@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphHotelsBookingElement
+[Documentation](../README.md) / KnowledgeGraphHotelsBookingElement
 
 # Class: KnowledgeGraphHotelsBookingElement
+
+Defined in: main.ts:30559
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KnowledgeGraphHotelsBookingElement**(`data`?): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
 
+Defined in: main.ts:30578
+
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md)
+##### data?
+
+[`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md)
 
 #### Returns
 
 [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
-
-#### Defined in
-
-main.ts:29008
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:29008
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:30565
+
 description of the results element in SERP
 
 #### Implementation of
 
 [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`description`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#description)
-
-#### Defined in
-
-main.ts:28995
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:28995
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:30569
+
 domain where a link points
 
 #### Implementation of
 
 [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`domain`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#domain)
-
-#### Defined in
-
-main.ts:28999
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:28999
 
 > `optional` **is\_paid**: `boolean`
 
+Defined in: main.ts:30574
+
 indicates whether the element is an ad
 
 #### Implementation of
 
 [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`is_paid`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#is_paid)
 
-#### Defined in
-
-main.ts:29004
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:30572
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -93,15 +91,13 @@ contains the pricing details of the product or service featured in the result
 
 [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`price`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#price)
 
-#### Defined in
-
-main.ts:29002
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:30563
 
 source of additional information about the result
 
@@ -109,15 +105,13 @@ source of additional information about the result
 
 [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`source`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#source)
 
-#### Defined in
-
-main.ts:28993
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:30561
 
 type of element
 
@@ -125,15 +119,13 @@ type of element
 
 [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`type`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#type)
 
-#### Defined in
-
-main.ts:28991
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:30567
 
 relevant URL
 
@@ -141,27 +133,23 @@ relevant URL
 
 [`IKnowledgeGraphHotelsBookingElement`](../interfaces/IKnowledgeGraphHotelsBookingElement.md).[`url`](../interfaces/IKnowledgeGraphHotelsBookingElement.md#url)
 
-#### Defined in
-
-main.ts:28997
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:30587
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:29017
 
 ***
 
@@ -169,17 +157,17 @@ main.ts:29017
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:30610
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:29040
 
 ***
 
@@ -187,14 +175,14 @@ main.ts:29040
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
 
+Defined in: main.ts:30603
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KnowledgeGraphHotelsBookingElement`](KnowledgeGraphHotelsBookingElement.md)
-
-#### Defined in
-
-main.ts:29033

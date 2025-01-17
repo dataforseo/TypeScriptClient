@@ -31,7 +31,11 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153096
+=======
+main.ts:153129
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -48,7 +52,11 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153029
+=======
+main.ts:153062
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -65,7 +73,11 @@ en
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153080
+=======
+main.ts:153113
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -82,7 +94,11 @@ English
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153073
+=======
+main.ts:153106
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -99,7 +115,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153057
+=======
+main.ts:153090
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -118,7 +138,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153066
+=======
+main.ts:153099
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -135,7 +159,11 @@ London,England,United Kingdom
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153050
+=======
+main.ts:153083
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -152,7 +180,11 @@ learn more at our help center
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153103
+=======
+main.ts:153136
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -172,7 +204,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153165
+=======
+main.ts:153198
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -188,7 +224,11 @@ advanced, html
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153155
+=======
+main.ts:153188
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -208,7 +248,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153149
+=======
+main.ts:153182
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -224,7 +268,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153126
+=======
+main.ts:153159
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -240,7 +288,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153120
+=======
+main.ts:153153
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -258,7 +310,11 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153043
+=======
+main.ts:153076
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -275,7 +331,11 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153087
+=======
+main.ts:153120
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -296,7 +356,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153114
+=======
+main.ts:153147
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -313,7 +377,11 @@ sort_by:"review_score"
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153133
+=======
+main.ts:153166
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -329,7 +397,11 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153139
+=======
+main.ts:153172
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -345,4 +417,8 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:153035
+=======
+main.ts:153068
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

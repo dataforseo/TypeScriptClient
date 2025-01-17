@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo
+
+Defined in: main.ts:100076
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
 
+Defined in: main.ts:100127
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:90308
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:100101
 
 array of results filtering parameters
 optional field
@@ -57,15 +61,13 @@ for more information about filters, please refer to Dataforseo Labs - Filters or
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:90282
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:100081
 
 the maximum number of returned domains
 optional field
@@ -76,15 +78,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:90262
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:100086
 
 offset in the results array of returned items
 optional field
@@ -95,15 +95,13 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:90267
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:100117
 
 results sorting rules
 optional field
@@ -125,15 +123,13 @@ example:
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:90298
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:100123
 
 user-defined task identifier
 optional field
@@ -145,27 +141,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:90304
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:100136
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:90317
 
 ***
 
@@ -173,17 +165,17 @@ main.ts:90317
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:100165
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:90346
 
 ***
 
@@ -191,14 +183,14 @@ main.ts:90346
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
 
+Defined in: main.ts:100158
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:90339

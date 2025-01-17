@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingDomainRankOverviewLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingDomainRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveResultInfo
 
+Defined in: main.ts:117375
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](../classes/DataforseoLabsDomainRankOverviewLiveItem.md)[]
 
+Defined in: main.ts:117389
+
 contains ranking and traffic data
-
-#### Defined in
-
-main.ts:107726
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:107726
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:117387
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:107724
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:107724
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:117383
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:107720
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:107720
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:117381
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:107718
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:107718
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:117377
+
 search engine type
-
-#### Defined in
-
-main.ts:107714
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:107714
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:117379
+
 target domain in a POST array
-
-#### Defined in
-
-main.ts:107716
 
 ***
 
@@ -88,8 +78,6 @@ main.ts:107716
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:117385
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:107722

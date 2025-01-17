@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeTasksReadyResultInfo
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeTasksReadyResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTasksReadyResultInfo
 
+Defined in: main.ts:138994
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:139003
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:128637
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:128637
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:139007
+
 URL for collecting the results of the task
-
-#### Defined in
-
-main.ts:128641
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:128641
 
 > `optional` **function**: `string`
 
+Defined in: main.ts:139001
+
 type of the task
-
-#### Defined in
-
-main.ts:128635
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:128635
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:138997
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:128631
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:128631
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:138999
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:128633
 
 ***
 
@@ -77,8 +69,6 @@ main.ts:128633
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:139005
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:128639

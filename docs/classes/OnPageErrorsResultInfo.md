@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageErrorsResultInfo
+[Documentation](../README.md) / OnPageErrorsResultInfo
 
 # Class: OnPageErrorsResultInfo
+
+Defined in: main.ts:163456
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageErrorsResultInfo**(`data`?): [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
 
+Defined in: main.ts:163487
+
 #### Parameters
 
-• **data?**: [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md)
+##### data?
+
+[`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md)
 
 #### Returns
 
 [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:152181
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:163463
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`datetime`](../interfaces/IOnPageErrorsResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:152157
-
 ***
 
 ### error\_code?
 
 > `optional` **error\_code**: `number`
+
+Defined in: main.ts:163467
 
 error code
 
@@ -63,15 +65,13 @@ error code
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`error_code`](../interfaces/IOnPageErrorsResultInfo.md#error_code)
 
-#### Defined in
-
-main.ts:152161
-
 ***
 
 ### error\_message?
 
 > `optional` **error\_message**: `string`
+
+Defined in: main.ts:163470
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -80,15 +80,13 @@ error message (see full list) or URL that caused an error
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`error_message`](../interfaces/IOnPageErrorsResultInfo.md#error_message)
 
-#### Defined in
-
-main.ts:152164
-
 ***
 
 ### function?
 
 > `optional` **function**: `string`
+
+Defined in: main.ts:163465
 
 corresponding API function
 
@@ -96,15 +94,13 @@ corresponding API function
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`function`](../interfaces/IOnPageErrorsResultInfo.md#function)
 
-#### Defined in
-
-main.ts:152159
-
 ***
 
 ### http\_code?
 
 > `optional` **http\_code**: `number`
+
+Defined in: main.ts:163477
 
 HTTP status code
 
@@ -112,15 +108,13 @@ HTTP status code
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_code`](../interfaces/IOnPageErrorsResultInfo.md#http_code)
 
-#### Defined in
-
-main.ts:152171
-
 ***
 
 ### http\_method?
 
 > `optional` **http\_method**: `string`
+
+Defined in: main.ts:163475
 
 HTTP method
 
@@ -128,15 +122,13 @@ HTTP method
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_method`](../interfaces/IOnPageErrorsResultInfo.md#http_method)
 
-#### Defined in
-
-main.ts:152169
-
 ***
 
 ### http\_response?
 
 > `optional` **http\_response**: `string`
+
+Defined in: main.ts:163483
 
 HTTP response
 server response
@@ -145,15 +137,13 @@ server response
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_response`](../interfaces/IOnPageErrorsResultInfo.md#http_response)
 
-#### Defined in
-
-main.ts:152177
-
 ***
 
 ### http\_time?
 
 > `optional` **http\_time**: `number`
+
+Defined in: main.ts:163480
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -162,15 +152,13 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_time`](../interfaces/IOnPageErrorsResultInfo.md#http_time)
 
-#### Defined in
-
-main.ts:152174
-
 ***
 
 ### http\_url?
 
 > `optional` **http\_url**: `string`
+
+Defined in: main.ts:163473
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -179,15 +167,13 @@ URL you used for making an API call or pingback/postback URL
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`http_url`](../interfaces/IOnPageErrorsResultInfo.md#http_url)
 
-#### Defined in
-
-main.ts:152167
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:163458
 
 id of the task
 
@@ -195,27 +181,23 @@ id of the task
 
 [`IOnPageErrorsResultInfo`](../interfaces/IOnPageErrorsResultInfo.md).[`id`](../interfaces/IOnPageErrorsResultInfo.md#id)
 
-#### Defined in
-
-main.ts:152152
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:163496
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:152190
 
 ***
 
@@ -223,17 +205,17 @@ main.ts:152190
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:163522
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:152216
 
 ***
 
@@ -241,14 +223,14 @@ main.ts:152216
 
 > `static` **fromJS**(`data`): [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
 
+Defined in: main.ts:163515
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageErrorsResultInfo`](OnPageErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:152209

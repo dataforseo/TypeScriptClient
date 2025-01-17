@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleAppIntersectionLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleAppIntersectionLiveResultInfo
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveResultInfo
+
+Defined in: main.ts:122964
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleAppIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
 
+Defined in: main.ts:122982
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:113549
 
 ## Properties
 
@@ -38,19 +40,17 @@ main.ts:113549
 
 > `optional` **app\_ids**: `object`
 
+Defined in: main.ts:122968
+
 ids of the apps in a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`app_ids`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#app_ids)
-
-#### Defined in
-
-main.ts:113535
 
 ***
 
@@ -58,15 +58,13 @@ main.ts:113535
 
 > `optional` **items**: [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)[]
 
+Defined in: main.ts:122978
+
 contains data related to the ranking keywords for the app specified in the app_id field
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:113545
 
 ***
 
@@ -74,15 +72,13 @@ main.ts:113545
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:122976
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:113543
 
 ***
 
@@ -90,15 +86,13 @@ main.ts:113543
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:122972
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:113539
 
 ***
 
@@ -106,15 +100,13 @@ main.ts:113539
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:122970
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:113537
 
 ***
 
@@ -122,15 +114,13 @@ main.ts:113537
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:122966
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:113533
 
 ***
 
@@ -138,15 +128,13 @@ main.ts:113533
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:122974
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:113541
 
 ## Methods
 
@@ -154,17 +142,17 @@ main.ts:113541
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:122991
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:113558
 
 ***
 
@@ -172,17 +160,17 @@ main.ts:113558
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:123024
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:113591
 
 ***
 
@@ -190,14 +178,14 @@ main.ts:113591
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
 
+Defined in: main.ts:123017
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:113584

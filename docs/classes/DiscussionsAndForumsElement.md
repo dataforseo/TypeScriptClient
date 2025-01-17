@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DiscussionsAndForumsElement
+[Documentation](../README.md) / DiscussionsAndForumsElement
 
 # Class: DiscussionsAndForumsElement
+
+Defined in: main.ts:37557
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DiscussionsAndForumsElement**(`data`?): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
+Defined in: main.ts:37581
+
 #### Parameters
 
-• **data?**: [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md)
+##### data?
+
+[`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md)
 
 #### Returns
 
 [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
-
-#### Defined in
-
-main.ts:35879
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:35879
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:37570
+
 description
 
 #### Implementation of
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`description`](../interfaces/IDiscussionsAndForumsElement.md#description)
-
-#### Defined in
-
-main.ts:35868
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:35868
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:37565
+
 website domain
 
 #### Implementation of
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`domain`](../interfaces/IDiscussionsAndForumsElement.md#domain)
-
-#### Defined in
-
-main.ts:35863
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:35863
 
 > `optional` **posts\_count**: `number`
 
+Defined in: main.ts:37577
+
 number of posts from the discussion on the related source
 
 #### Implementation of
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`posts_count`](../interfaces/IDiscussionsAndForumsElement.md#posts_count)
 
-#### Defined in
-
-main.ts:35875
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:37568
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -93,15 +91,13 @@ indicates the source of information included in the top_stories_element
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`source`](../interfaces/IDiscussionsAndForumsElement.md#source)
 
-#### Defined in
-
-main.ts:35866
-
 ***
 
 ### timestamp?
 
 > `optional` **timestamp**: `string`
+
+Defined in: main.ts:37575
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -112,15 +108,13 @@ example:
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`timestamp`](../interfaces/IDiscussionsAndForumsElement.md#timestamp)
 
-#### Defined in
-
-main.ts:35873
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:37561
 
 title of a given link element
 
@@ -128,15 +122,13 @@ title of a given link element
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`title`](../interfaces/IDiscussionsAndForumsElement.md#title)
 
-#### Defined in
-
-main.ts:35859
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:37559
 
 type of element
 
@@ -144,15 +136,13 @@ type of element
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`type`](../interfaces/IDiscussionsAndForumsElement.md#type)
 
-#### Defined in
-
-main.ts:35857
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:37563
 
 URL
 
@@ -160,27 +150,23 @@ URL
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`url`](../interfaces/IDiscussionsAndForumsElement.md#url)
 
-#### Defined in
-
-main.ts:35861
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:37590
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:35888
 
 ***
 
@@ -188,17 +174,17 @@ main.ts:35888
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:37614
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:35912
 
 ***
 
@@ -206,14 +192,14 @@ main.ts:35912
 
 > `static` **fromJS**(`data`): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
+Defined in: main.ts:37607
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
-
-#### Defined in
-
-main.ts:35905

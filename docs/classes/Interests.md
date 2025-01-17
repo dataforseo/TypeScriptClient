@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Interests
+[Documentation](../README.md) / Interests
 
 # Class: Interests
+
+Defined in: main.ts:136502
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new Interests**(`data`?): [`Interests`](Interests.md)
 
+Defined in: main.ts:136511
+
 #### Parameters
 
-• **data?**: [`IInterests`](../interfaces/IInterests.md)
+##### data?
+
+[`IInterests`](../interfaces/IInterests.md)
 
 #### Returns
 
 [`Interests`](Interests.md)
-
-#### Defined in
-
-main.ts:126155
 
 ## Properties
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:136505
 
 relevant keyword
 the data included in the values element is based on this keyword
@@ -45,15 +49,13 @@ the data included in the values element is based on this keyword
 
 [`IInterests`](../interfaces/IInterests.md).[`keyword`](../interfaces/IInterests.md#keyword)
 
-#### Defined in
-
-main.ts:126149
-
 ***
 
 ### values?
 
 > `optional` **values**: [`Values`](Values.md)[]
+
+Defined in: main.ts:136507
 
 contains data on relative keyword popularity by country or region
 
@@ -61,27 +63,23 @@ contains data on relative keyword popularity by country or region
 
 [`IInterests`](../interfaces/IInterests.md).[`values`](../interfaces/IInterests.md#values)
 
-#### Defined in
-
-main.ts:126151
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:136520
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:126164
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:126164
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:136542
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:126186
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:126186
 
 > `static` **fromJS**(`data`): [`Interests`](Interests.md)
 
+Defined in: main.ts:136535
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Interests`](Interests.md)
-
-#### Defined in
-
-main.ts:126179

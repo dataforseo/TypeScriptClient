@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBusinessListingsBusinessDataPriceData
+[Documentation](../README.md) / AppendixBusinessListingsBusinessDataPriceData
 
 # Class: AppendixBusinessListingsBusinessDataPriceData
+
+Defined in: main.ts:237674
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixBusinessListingsBusinessDataPriceData**(`data`?): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
+Defined in: main.ts:237682
+
 #### Parameters
 
-• **data?**: [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md)
+##### data?
+
+[`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md)
 
 #### Returns
 
 [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
-
-#### Defined in
-
-main.ts:222398
 
 ## Properties
 
@@ -38,27 +40,23 @@ main.ts:222398
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:237675
+
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`categories`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#categories)
-
-#### Defined in
-
-main.ts:222391
 
 ***
 
 ### categories\_aggregation?
 
-> `optional` **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **categories\_aggregation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:237676
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`categories_aggregation`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#categories_aggregation)
-
-#### Defined in
-
-main.ts:222392
 
 ***
 
@@ -66,27 +64,23 @@ main.ts:222392
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:237677
+
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`locations`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#locations)
-
-#### Defined in
-
-main.ts:222393
 
 ***
 
 ### search?
 
-> `optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:237678
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`search`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#search)
-
-#### Defined in
-
-main.ts:222394
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:222394
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:237691
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:222407
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:222407
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:237711
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:222427
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:222427
 
 > `static` **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
+Defined in: main.ts:237704
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
-
-#### Defined in
-
-main.ts:222420

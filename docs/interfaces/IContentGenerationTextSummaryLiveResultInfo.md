@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationTextSummaryLiveResultInfo
+[Documentation](../README.md) / IContentGenerationTextSummaryLiveResultInfo
 
 # Interface: IContentGenerationTextSummaryLiveResultInfo
 
+Defined in: main.ts:183696
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **automated\_readability\_index**: `number`
 
+Defined in: main.ts:183717
+
 Automated Readability Index
-
-#### Defined in
-
-main.ts:172027
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:172027
 
 > `optional` **characters\_per\_word**: `number`
 
+Defined in: main.ts:183710
+
 average number of characters per word in the target text
-
-#### Defined in
-
-main.ts:172020
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:172020
 
 > `optional` **characters\_with\_spaces**: `number`
 
+Defined in: main.ts:183706
+
 number of characters with spaces found in the target text
-
-#### Defined in
-
-main.ts:172016
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:172016
 
 > `optional` **characters\_without\_spaces**: `number`
 
+Defined in: main.ts:183704
+
 number of characters without spaces found in the target text
-
-#### Defined in
-
-main.ts:172014
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:172014
 
 > `optional` **coleman\_liau\_index**: `number`
 
+Defined in: main.ts:183719
+
 Coleman–Liau Index
-
-#### Defined in
-
-main.ts:172029
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:172029
 
 > `optional` **flesch\_kincaid\_grade\_level**: `number`
 
+Defined in: main.ts:183721
+
 Flesch–Kincaid Readability Index
-
-#### Defined in
-
-main.ts:172031
 
 ***
 
@@ -88,11 +78,9 @@ main.ts:172031
 
 > `optional` **grammar\_errors**: `number`
 
+Defined in: main.ts:183727
+
 number of grammar errors found in the target text
-
-#### Defined in
-
-main.ts:172037
 
 ***
 
@@ -100,16 +88,14 @@ main.ts:172037
 
 > `optional` **keyword\_density**: `object`
 
+Defined in: main.ts:183715
+
 keyword density of the target text
 contains most common words and their count
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:172025
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -117,11 +103,9 @@ main.ts:172025
 
 > `optional` **paragraphs**: `number`
 
+Defined in: main.ts:183700
+
 number of paragraphs found in the target text
-
-#### Defined in
-
-main.ts:172010
 
 ***
 
@@ -129,11 +113,9 @@ main.ts:172010
 
 > `optional` **sentences**: `number`
 
+Defined in: main.ts:183698
+
 number of sentences found in the target text
-
-#### Defined in
-
-main.ts:172008
 
 ***
 
@@ -141,11 +123,9 @@ main.ts:172008
 
 > `optional` **smog\_readability\_index**: `number`
 
+Defined in: main.ts:183723
+
 SMOG Readability Index
-
-#### Defined in
-
-main.ts:172033
 
 ***
 
@@ -153,11 +133,9 @@ main.ts:172033
 
 > `optional` **spelling\_errors**: `number`
 
+Defined in: main.ts:183725
+
 number of spelling errors found in the target text
-
-#### Defined in
-
-main.ts:172035
 
 ***
 
@@ -165,11 +143,9 @@ main.ts:172035
 
 > `optional` **vocabulary\_density**: `number`
 
+Defined in: main.ts:183712
+
 vocabulary density of the target text
-
-#### Defined in
-
-main.ts:172022
 
 ***
 
@@ -177,11 +153,9 @@ main.ts:172022
 
 > `optional` **words**: `number`
 
+Defined in: main.ts:183702
+
 number of words found in the target text
-
-#### Defined in
-
-main.ts:172012
 
 ***
 
@@ -189,8 +163,6 @@ main.ts:172012
 
 > `optional` **words\_per\_sentence**: `number`
 
+Defined in: main.ts:183708
+
 average number of words per sentence in the target text
-
-#### Defined in
-
-main.ts:172018

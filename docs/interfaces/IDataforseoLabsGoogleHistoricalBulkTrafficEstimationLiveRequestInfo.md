@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveRequestInfo
 
+Defined in: main.ts:111304
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,21 +18,21 @@
 
 > `optional` **date\_from**: `string`
 
+Defined in: main.ts:111348
+
 starting date of the time range
 optional field
 if you don’t specify this field, the data will be provided for the previous 12 months
 minimal possible value: 2020-10-01
 date format: "yyyy-mm-dd"
 
-#### Defined in
-
-main.ts:101509
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:111355
 
 ending date of the time range
 optional field
@@ -39,30 +41,26 @@ date format: "yyyy-mm-dd"
 example:
 "2021-04-01"
 
-#### Defined in
-
-main.ts:101516
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
 
+Defined in: main.ts:111360
+
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
-
-#### Defined in
-
-main.ts:101521
 
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:111369
 
 display results by item type
 optional field
@@ -73,15 +71,13 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
-
-main.ts:101530
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:111342
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -91,15 +87,13 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
-
-main.ts:101503
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:111334
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -109,15 +103,13 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
-
-main.ts:101495
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:111326
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -127,15 +119,13 @@ ignore this field to get the results for all available locations
 example:
 2840
 
-#### Defined in
-
-main.ts:101487
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:111318
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -145,15 +135,13 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:101479
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:111375
 
 user-defined task identifier
 optional field
@@ -161,22 +149,16 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:101536
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
 
+Defined in: main.ts:111310
+
 target domains and subdomains
 required field
 you can specify domains and subdomains in this field;
 domains and subdomains should be specified without https:// and www.;
 you can set up to 1000 domains or subdomains
-
-#### Defined in
-
-main.ts:101471

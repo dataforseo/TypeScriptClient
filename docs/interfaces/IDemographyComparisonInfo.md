@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDemographyComparisonInfo
+[Documentation](../README.md) / IDemographyComparisonInfo
 
 # Interface: IDemographyComparisonInfo
 
+Defined in: main.ts:21887
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **age**: `object`
 
+Defined in: main.ts:21889
+
 type of element
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:21206
+\[`key`: `string`\]: `number`[]
 
 ***
 
@@ -32,12 +32,10 @@ main.ts:21206
 
 > `optional` **gender**: `object`
 
+Defined in: main.ts:21891
+
 type of element
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:21208
+\[`key`: `string`\]: `number`[]

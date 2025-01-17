@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsMetricsInfo
+[Documentation](../README.md) / DataforseoLabsMetricsInfo
 
 # Class: DataforseoLabsMetricsInfo
+
+Defined in: main.ts:97356
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsMetricsInfo**(`data`?): [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
+Defined in: main.ts:97426
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md)
+##### data?
+
+[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md)
 
 #### Returns
 
 [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:87607
 
 ## Properties
 
@@ -38,27 +40,27 @@ main.ts:87607
 
 > `optional` **clickstream\_age\_distribution**: `object`
 
+Defined in: main.ts:97422
+
 distribution of clickstream-based metrics by age
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
 learn more about how the metric is calculated in this help center article
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`clickstream_age_distribution`](../interfaces/IDataforseoLabsMetricsInfo.md#clickstream_age_distribution)
-
-#### Defined in
-
-main.ts:87603
 
 ***
 
 ### clickstream\_etv?
 
 > `optional` **clickstream\_etv**: `number`
+
+Defined in: main.ts:97414
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -69,15 +71,13 @@ learn more about how the metric is calculated in this help center article
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`clickstream_etv`](../interfaces/IDataforseoLabsMetricsInfo.md#clickstream_etv)
 
-#### Defined in
-
-main.ts:87595
-
 ***
 
 ### clickstream\_gender\_distribution?
 
 > `optional` **clickstream\_gender\_distribution**: `object`
+
+Defined in: main.ts:97418
 
 distribution of estimated clickstream-based metrics by gender
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -85,15 +85,11 @@ learn more about how the metric is calculated in this help center article
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`clickstream_gender_distribution`](../interfaces/IDataforseoLabsMetricsInfo.md#clickstream_gender_distribution)
-
-#### Defined in
-
-main.ts:87599
 
 ***
 
@@ -101,21 +97,21 @@ main.ts:87599
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:97392
+
 total count of organic SERPs that contain the domain or subdomain
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`count`](../interfaces/IDataforseoLabsMetricsInfo.md#count)
 
-#### Defined in
-
-main.ts:87573
-
 ***
 
 ### estimated\_paid\_traffic\_cost?
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
+
+Defined in: main.ts:97397
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost (USD) of running ads for all keywords in the category that the domain or subdomain ranks for
@@ -126,15 +122,13 @@ learn more about how the metric is calculated in this help center article
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`estimated_paid_traffic_cost`](../interfaces/IDataforseoLabsMetricsInfo.md#estimated_paid_traffic_cost)
 
-#### Defined in
-
-main.ts:87578
-
 ***
 
 ### etv?
 
 > `optional` **etv**: `number`
+
+Defined in: main.ts:97385
 
 estimated traffic volume
 estimated organic monthly traffic to the domain or subdomain
@@ -145,15 +139,13 @@ learn more about how the metric is calculated in this help center article
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`etv`](../interfaces/IDataforseoLabsMetricsInfo.md#etv)
 
-#### Defined in
-
-main.ts:87566
-
 ***
 
 ### impressions\_etv?
 
 > `optional` **impressions\_etv**: `number`
+
+Defined in: main.ts:97390
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain or subdomain
@@ -164,15 +156,13 @@ learn more about how the metric is calculated in this help center article
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`impressions_etv`](../interfaces/IDataforseoLabsMetricsInfo.md#impressions_etv)
 
-#### Defined in
-
-main.ts:87571
-
 ***
 
 ### is\_down?
 
 > `optional` **is\_down**: `number`
+
+Defined in: main.ts:97406
 
 rank went down
 indicates how many ranked elements of the indicated target went down
@@ -181,15 +171,13 @@ indicates how many ranked elements of the indicated target went down
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`is_down`](../interfaces/IDataforseoLabsMetricsInfo.md#is_down)
 
-#### Defined in
-
-main.ts:87587
-
 ***
 
 ### is\_lost?
 
 > `optional` **is\_lost**: `number`
+
+Defined in: main.ts:97409
 
 lost ranked elements
 indicates how many ranked elements of the indicated target were previously presented in SERPs, but weren’t found during the last check
@@ -198,15 +186,13 @@ indicates how many ranked elements of the indicated target were previously prese
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`is_lost`](../interfaces/IDataforseoLabsMetricsInfo.md#is_lost)
 
-#### Defined in
-
-main.ts:87590
-
 ***
 
 ### is\_new?
 
 > `optional` **is\_new**: `number`
+
+Defined in: main.ts:97400
 
 number of new ranked elements
 indicates how many new ranked elements were found for the indicated target
@@ -215,15 +201,13 @@ indicates how many new ranked elements were found for the indicated target
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`is_new`](../interfaces/IDataforseoLabsMetricsInfo.md#is_new)
 
-#### Defined in
-
-main.ts:87581
-
 ***
 
 ### is\_up?
 
 > `optional` **is\_up**: `number`
+
+Defined in: main.ts:97403
 
 rank went up
 indicates how many ranked elements of the indicated target went up
@@ -232,15 +216,13 @@ indicates how many ranked elements of the indicated target went up
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`is_up`](../interfaces/IDataforseoLabsMetricsInfo.md#is_up)
 
-#### Defined in
-
-main.ts:87584
-
 ***
 
 ### pos\_1?
 
 > `optional` **pos\_1**: `number`
+
+Defined in: main.ts:97358
 
 number of organic SERPs where the domain or subdomain ranks #1
 
@@ -248,15 +230,13 @@ number of organic SERPs where the domain or subdomain ranks #1
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_1`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_1)
 
-#### Defined in
-
-main.ts:87539
-
 ***
 
 ### pos\_11\_20?
 
 > `optional` **pos\_11\_20**: `number`
+
+Defined in: main.ts:97364
 
 number of organic SERPs where the domain or subdomain ranks #11-20
 
@@ -264,31 +244,13 @@ number of organic SERPs where the domain or subdomain ranks #11-20
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_11_20`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_11_20)
 
-#### Defined in
-
-main.ts:87545
-
-***
-
-### pos\_21\_30?
-
-> `optional` **pos\_21\_30**: `number`
-
-number of organic SERPs where the domain or subdomain ranks #21-30
-
-#### Implementation of
-
-[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_21_30`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_21_30)
-
-#### Defined in
-
-main.ts:87547
-
 ***
 
 ### pos\_2\_3?
 
 > `optional` **pos\_2\_3**: `number`
+
+Defined in: main.ts:97360
 
 number of organic SERPs where the domain or subdomain ranks #2-3
 
@@ -296,9 +258,19 @@ number of organic SERPs where the domain or subdomain ranks #2-3
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_2_3`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_2_3)
 
-#### Defined in
+***
 
-main.ts:87541
+### pos\_21\_30?
+
+> `optional` **pos\_21\_30**: `number`
+
+Defined in: main.ts:97366
+
+number of organic SERPs where the domain or subdomain ranks #21-30
+
+#### Implementation of
+
+[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_21_30`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_21_30)
 
 ***
 
@@ -306,31 +278,13 @@ main.ts:87541
 
 > `optional` **pos\_31\_40**: `number`
 
+Defined in: main.ts:97368
+
 number of organic SERPs where the domain or subdomain ranks #31-40
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_31_40`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_31_40)
-
-#### Defined in
-
-main.ts:87549
-
-***
-
-### pos\_41\_50?
-
-> `optional` **pos\_41\_50**: `number`
-
-number of organic SERPs where the domain or subdomain ranks #41-50
-
-#### Implementation of
-
-[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_41_50`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_41_50)
-
-#### Defined in
-
-main.ts:87551
 
 ***
 
@@ -338,15 +292,27 @@ main.ts:87551
 
 > `optional` **pos\_4\_10**: `number`
 
+Defined in: main.ts:97362
+
 number of organic SERPs where the domain or subdomain ranks #4-10
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_4_10`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_4_10)
 
-#### Defined in
+***
 
-main.ts:87543
+### pos\_41\_50?
+
+> `optional` **pos\_41\_50**: `number`
+
+Defined in: main.ts:97370
+
+number of organic SERPs where the domain or subdomain ranks #41-50
+
+#### Implementation of
+
+[`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_41_50`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_41_50)
 
 ***
 
@@ -354,15 +320,13 @@ main.ts:87543
 
 > `optional` **pos\_51\_60**: `number`
 
+Defined in: main.ts:97372
+
 number of organic SERPs where the domain or subdomain ranks #51-60
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_51_60`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_51_60)
-
-#### Defined in
-
-main.ts:87553
 
 ***
 
@@ -370,15 +334,13 @@ main.ts:87553
 
 > `optional` **pos\_61\_70**: `number`
 
+Defined in: main.ts:97374
+
 number of organic SERPs where the domain or subdomain ranks #61-70
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_61_70`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_61_70)
-
-#### Defined in
-
-main.ts:87555
 
 ***
 
@@ -386,15 +348,13 @@ main.ts:87555
 
 > `optional` **pos\_71\_80**: `number`
 
+Defined in: main.ts:97376
+
 number of organic SERPs where the domain or subdomain ranks #71-80
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_71_80`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_71_80)
-
-#### Defined in
-
-main.ts:87557
 
 ***
 
@@ -402,15 +362,13 @@ main.ts:87557
 
 > `optional` **pos\_81\_90**: `number`
 
+Defined in: main.ts:97378
+
 number of organic SERPs where the domain or subdomain ranks #81-90
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_81_90`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_81_90)
-
-#### Defined in
-
-main.ts:87559
 
 ***
 
@@ -418,15 +376,13 @@ main.ts:87559
 
 > `optional` **pos\_91\_100**: `number`
 
+Defined in: main.ts:97380
+
 number of organic SERPs where the domain or subdomain ranks #91-100
 
 #### Implementation of
 
 [`IDataforseoLabsMetricsInfo`](../interfaces/IDataforseoLabsMetricsInfo.md).[`pos_91_100`](../interfaces/IDataforseoLabsMetricsInfo.md#pos_91_100)
-
-#### Defined in
-
-main.ts:87561
 
 ## Methods
 
@@ -434,17 +390,17 @@ main.ts:87561
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:97435
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:87616
 
 ***
 
@@ -452,17 +408,17 @@ main.ts:87616
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:97486
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:87667
 
 ***
 
@@ -470,14 +426,14 @@ main.ts:87667
 
 > `static` **fromJS**(`data`): [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
+Defined in: main.ts:97479
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:87660

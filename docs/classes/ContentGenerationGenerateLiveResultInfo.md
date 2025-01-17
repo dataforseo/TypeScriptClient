@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateLiveResultInfo
+[Documentation](../README.md) / ContentGenerationGenerateLiveResultInfo
 
 # Class: ContentGenerationGenerateLiveResultInfo
+
+Defined in: main.ts:181372
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentGenerationGenerateLiveResultInfo**(`data`?): [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
 
+Defined in: main.ts:181388
+
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:169698
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:169698
 
 > `optional` **generated\_text**: `string`
 
+Defined in: main.ts:181380
+
 resulting text
 
 #### Implementation of
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`generated_text`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#generated_text)
-
-#### Defined in
-
-main.ts:169690
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:169690
 
 > `optional` **input\_tokens**: `number`
 
+Defined in: main.ts:181374
+
 number of input tokens
 
 #### Implementation of
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#input_tokens)
-
-#### Defined in
-
-main.ts:169684
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:169684
 
 > `optional` **new\_tokens**: `number`
 
+Defined in: main.ts:181378
+
 number of new tokens
 
 #### Implementation of
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#new_tokens)
-
-#### Defined in
-
-main.ts:169688
 
 ***
 
@@ -86,21 +82,21 @@ main.ts:169688
 
 > `optional` **output\_tokens**: `number`
 
+Defined in: main.ts:181376
+
 number of output tokens
 
 #### Implementation of
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#output_tokens)
 
-#### Defined in
-
-main.ts:169686
-
 ***
 
 ### supplement\_token?
 
 > `optional` **supplement\_token**: `string`
+
+Defined in: main.ts:181384
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
@@ -110,27 +106,23 @@ supplement_token values are unique for each subsequent task
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`supplement_token`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#supplement_token)
 
-#### Defined in
-
-main.ts:169694
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:181397
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:169707
 
 ***
 
@@ -138,17 +130,17 @@ main.ts:169707
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:181418
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:169728
 
 ***
 
@@ -156,14 +148,14 @@ main.ts:169728
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
 
+Defined in: main.ts:181411
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:169721

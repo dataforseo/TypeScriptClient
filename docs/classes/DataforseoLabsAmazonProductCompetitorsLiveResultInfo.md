@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductCompetitorsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveResultInfo
+
+Defined in: main.ts:114512
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsAmazonProductCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
+Defined in: main.ts:114532
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:104793
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:104793
 
 > `optional` **asin**: `string`
 
+Defined in: main.ts:114516
+
 ASIN in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`asin`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#asin)
-
-#### Defined in
-
-main.ts:104777
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:104777
 
 > `optional` **items**: [`DataforseoLabsAmazonProductCompetitorsLiveItem`](DataforseoLabsAmazonProductCompetitorsLiveItem.md)[]
 
+Defined in: main.ts:114528
+
 contains detected Amazon product competitors and related data
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:104789
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:104789
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:114526
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:104787
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:114522
 
 language code in a POST array
 if there is no data, then the value is null
@@ -93,15 +91,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:104783
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:114519
 
 location code in a POST array
 if there is no data, then the value is null
@@ -110,15 +106,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:104780
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:114514
 
 search engine type
 
@@ -126,15 +120,13 @@ search engine type
 
 [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:104775
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:114524
 
 total amount of results in our database relevant to your request
 
@@ -142,27 +134,23 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsAmazonProductCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAmazonProductCompetitorsLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:104785
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:114541
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:104802
 
 ***
 
@@ -170,17 +158,17 @@ main.ts:104802
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:114568
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:104829
 
 ***
 
@@ -188,14 +176,14 @@ main.ts:104829
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
 
+Defined in: main.ts:114561
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductCompetitorsLiveResultInfo`](DataforseoLabsAmazonProductCompetitorsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:104822

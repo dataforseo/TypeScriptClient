@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / StocksBoxDataforseoLabsSerpElementItem
+[Documentation](../README.md) / StocksBoxDataforseoLabsSerpElementItem
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
+
+Defined in: main.ts:108983
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new StocksBoxDataforseoLabsSerpElementItem**(`data`?): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:109005
+
 #### Parameters
 
-• **data?**: [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:99168
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21425
+
 #### Inherited from
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:20742
 
 ***
 
@@ -60,15 +60,13 @@ main.ts:20742
 
 > `optional` **domain**: `string`
 
-website domain
+Defined in: main.ts:108996
+
+domain where a link points
 
 #### Implementation of
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`domain`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#domain)
-
-#### Defined in
-
-main.ts:99159
 
 ***
 
@@ -76,21 +74,21 @@ main.ts:99159
 
 > `optional` **graph**: [`Graph`](Graph.md)
 
+Defined in: main.ts:109001
+
 contains data provided in the graph of the element
 
 #### Implementation of
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`graph`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#graph)
 
-#### Defined in
-
-main.ts:99164
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21421
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,15 +102,13 @@ left, right
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20738
-
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:108992
 
 price of the shopping element
 
@@ -120,15 +116,13 @@ price of the shopping element
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`price`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#price)
 
-#### Defined in
-
-main.ts:99155
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21417
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -141,15 +135,13 @@ absolute position among all the elements in SERP
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20734
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21414
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -162,15 +154,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20731
-
 ***
 
 ### snippet?
 
 > `optional` **snippet**: `string`
+
+Defined in: main.ts:108990
 
 text alongside the link title
 
@@ -178,15 +168,13 @@ text alongside the link title
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`snippet`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#snippet)
 
-#### Defined in
-
-main.ts:99153
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:108988
 
 source of the element
 indicates the source of information included in the shopping_element
@@ -195,15 +183,13 @@ indicates the source of information included in the shopping_element
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`source`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#source)
 
-#### Defined in
-
-main.ts:99151
-
 ***
 
 ### table?
 
 > `optional` **table**: [`Table`](Table.md)
+
+Defined in: main.ts:108999
 
 results table
 if there are none, equals null
@@ -212,15 +198,13 @@ if there are none, equals null
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`table`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#table)
 
-#### Defined in
-
-main.ts:99162
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:108985
 
 title of the result in SERP
 
@@ -228,15 +212,13 @@ title of the result in SERP
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:99148
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21411
 
 type of element
 
@@ -248,15 +230,13 @@ type of element
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20728
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:108994
 
 relevant URL of the Ad element in SERP
 
@@ -264,15 +244,13 @@ relevant URL of the Ad element in SERP
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`url`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:99157
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21423
 
 the XPath of the element
 
@@ -284,19 +262,19 @@ the XPath of the element
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20740
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:109010
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -306,19 +284,19 @@ main.ts:20740
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:99173
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:109035
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -328,19 +306,19 @@ main.ts:99173
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:99198
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`StocksBoxDataforseoLabsSerpElementItem`](StocksBoxDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:109028
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -349,7 +327,3 @@ main.ts:99198
 #### Overrides
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:99191

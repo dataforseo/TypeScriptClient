@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56081
+=======
+main.ts:56114
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -47,7 +51,11 @@ for example: Africa, Global
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56073
+=======
+main.ts:56106
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -63,7 +71,11 @@ the list of authors of the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56063
+=======
+main.ts:56096
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -79,7 +91,11 @@ description of the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56077
+=======
+main.ts:56110
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -95,7 +111,11 @@ ID of the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56046
+=======
+main.ts:56079
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -111,7 +131,11 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56059
+=======
+main.ts:56092
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -127,7 +151,11 @@ the list of file formats of the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56061
+=======
+main.ts:56094
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -144,7 +172,11 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56051
+=======
+main.ts:56084
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -160,7 +192,11 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56065
+=======
+main.ts:56098
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -178,7 +214,11 @@ if there are none, equals null
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56057
+=======
+main.ts:56090
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -194,7 +234,11 @@ period covered in the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56075
+=======
+main.ts:56108
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -212,7 +256,11 @@ left, right
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56042
+=======
+main.ts:56075
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -229,7 +277,11 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56038
+=======
+main.ts:56071
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -247,7 +299,11 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56035
+=======
+main.ts:56068
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -263,7 +319,11 @@ count of articles that refer to the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56053
+=======
+main.ts:56086
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -279,7 +339,11 @@ title of the result in SERP
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56048
+=======
+main.ts:56081
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -295,7 +359,11 @@ type of element
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56031
+=======
+main.ts:56064
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -314,7 +382,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56070
+=======
+main.ts:56103
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -330,7 +402,11 @@ the XPath of the element
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56044
+=======
+main.ts:56077
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -348,7 +424,11 @@ main.ts:56044
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56090
+=======
+main.ts:56123
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -366,7 +446,11 @@ main.ts:56090
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56140
+=======
+main.ts:56173
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -384,4 +468,8 @@ main.ts:56140
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56133
+=======
+main.ts:56166
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

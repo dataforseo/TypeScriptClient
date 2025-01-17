@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IEventDates
+[Documentation](../README.md) / IEventDates
 
 # Interface: IEventDates
 
+Defined in: main.ts:48812
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,17 +18,17 @@
 
 > `optional` **displayed\_dates**: `string`
 
+Defined in: main.ts:48834
+
 date or date range as it is displayed in SERP
-
-#### Defined in
-
-main.ts:45984
 
 ***
 
 ### end\_datetime?
 
 > `optional` **end\_datetime**: `string`
+
+Defined in: main.ts:48832
 
 date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -38,15 +40,13 @@ if time zone is not specified in the event, unspecified local time will be retur
 example:
 2019-11-15T12:57:46
 
-#### Defined in
-
-main.ts:45982
-
 ***
 
 ### start\_datetime?
 
 > `optional` **start\_datetime**: `string`
+
+Defined in: main.ts:48822
 
 date and time when the event starts
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -57,7 +57,3 @@ if time zone is not specified in the event, unspecified local time will be retur
 “yyyy-mm-ddThh-mm-ss”
 example:
 2019-11-15T12:57:46
-
-#### Defined in
-
-main.ts:45972

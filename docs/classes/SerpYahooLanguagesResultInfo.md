@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooLanguagesResultInfo
+[Documentation](../README.md) / SerpYahooLanguagesResultInfo
 
 # Class: SerpYahooLanguagesResultInfo
+
+Defined in: main.ts:75004
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpYahooLanguagesResultInfo**(`data`?): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
+Defined in: main.ts:75012
+
 #### Parameters
 
-• **data?**: [`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md)
+##### data?
+
+[`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:66741
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:66741
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:75008
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpYahooLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:66737
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:66737
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:75006
+
 language name
 
 #### Implementation of
 
 [`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpYahooLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:66735
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:66735
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:75021
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:66750
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:66750
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:75039
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:66768
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:66768
 
 > `static` **fromJS**(`data`): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
+Defined in: main.ts:75032
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:66761

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageMicrodataRequestInfo
+[Documentation](../README.md) / OnPageMicrodataRequestInfo
 
 # Class: OnPageMicrodataRequestInfo
+
+Defined in: main.ts:171552
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageMicrodataRequestInfo**(`data`?): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
+Defined in: main.ts:171574
+
 #### Parameters
 
-• **data?**: [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md)
+##### data?
+
+[`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md)
 
 #### Returns
 
 [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
-
-#### Defined in
-
-main.ts:159838
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:171558
 
 ID of the task
 required field
@@ -48,15 +52,13 @@ example:
 
 [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`id`](../interfaces/IOnPageMicrodataRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:159822
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:171570
 
 user-defined task identifier
 optional field
@@ -68,15 +70,13 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`tag`](../interfaces/IOnPageMicrodataRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:159834
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:171564
 
 resource URL
 required field
@@ -88,27 +88,23 @@ https://dataforseo.com/apis
 
 [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`url`](../interfaces/IOnPageMicrodataRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:159828
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:171583
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:159847
 
 ***
 
@@ -116,17 +112,17 @@ main.ts:159847
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:171602
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:159866
 
 ***
 
@@ -134,14 +130,14 @@ main.ts:159866
 
 > `static` **fromJS**(`data`): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
+Defined in: main.ts:171595
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
-
-#### Defined in
-
-main.ts:159859

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSearchLiveRequestInfo
+[Documentation](../README.md) / ContentAnalysisSearchLiveRequestInfo
 
 # Class: ContentAnalysisSearchLiveRequestInfo
+
+Defined in: main.ts:177388
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentAnalysisSearchLiveRequestInfo**(`data`?): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
+Defined in: main.ts:177483
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md)
+##### data?
+
+[`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:165793
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:177444
 
 array of results filtering parameters
 optional field
@@ -59,38 +63,34 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`filters`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:165754
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:177397
+
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:165707
 
 ***
 
 ### keyword\_fields?
 
 > `optional` **keyword\_fields**: `object`
+
+Defined in: main.ts:177409
 
 target keyword fields and target keywords
 optional field
@@ -106,21 +106,19 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#keyword_fields)
-
-#### Defined in
-
-main.ts:165719
 
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:177427
 
 the maximum number of returned citations
 optional field
@@ -131,15 +129,13 @@ maximum value: 1000
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`limit`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:165737
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:177465
 
 offset in the results array of returned citations
 optional field
@@ -150,15 +146,13 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`offset`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:165775
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:177473
 
 offset token for subsequent requests
 optional field
@@ -172,15 +166,13 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`offset_token`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:165783
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:177460
 
 results sorting rules
 optional field
@@ -202,15 +194,13 @@ example:
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`order_by`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:165770
-
 ***
 
 ### page\_type?
 
 > `optional` **page\_type**: `string`[]
+
+Defined in: main.ts:177415
 
 target page types
 optional field
@@ -222,15 +212,13 @@ possible values:
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#page_type)
 
-#### Defined in
-
-main.ts:165725
-
 ***
 
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
+
+Defined in: main.ts:177422
 
 results grouping type
 optional field
@@ -243,15 +231,13 @@ default value: as_is
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`search_mode`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#search_mode)
 
-#### Defined in
-
-main.ts:165732
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:177479
 
 user-defined task identifier
 optional field
@@ -263,27 +249,23 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:165789
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:177492
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:165802
 
 ***
 
@@ -291,17 +273,17 @@ main.ts:165802
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:177536
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:165846
 
 ***
 
@@ -309,14 +291,14 @@ main.ts:165846
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
+Defined in: main.ts:177529
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:165839

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleSellersTaskPostRequestInfo
+[Documentation](../README.md) / MerchantGoogleSellersTaskPostRequestInfo
 
 # Class: MerchantGoogleSellersTaskPostRequestInfo
+
+Defined in: main.ts:187350
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new MerchantGoogleSellersTaskPostRequestInfo**(`data`?): [`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)
 
+Defined in: main.ts:187460
+
 #### Parameters
 
-• **data?**: [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md)
+##### data?
+
+[`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md)
 
 #### Returns
 
 [`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:175628
 
 ## Properties
 
 ### additional\_specifications?
 
 > `optional` **additional\_specifications**: `object`
+
+Defined in: main.ts:187422
 
 object containing additional url parameters
 you can get additional information about the product by using the "additional_specifications object, which you can get by making a separate request to the Google Shopping Products endpoint
@@ -47,21 +51,19 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`additional_specifications`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#additional_specifications)
-
-#### Defined in
-
-main.ts:175592
 
 ***
 
 ### get\_shops\_on\_google?
 
 > `optional` **get\_shops\_on\_google**: `boolean`
+
+Defined in: main.ts:187415
 
 include “buy on Google” shops
 optional field
@@ -72,15 +74,13 @@ Note: if set to true, the cost of a task will be doubled
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`get_shops_on_google`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#get_shops_on_google)
 
-#### Defined in
-
-main.ts:175585
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:187403
 
 language code
 required field if you don’t specify language_name
@@ -93,15 +93,13 @@ en
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`language_code`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:175573
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:187396
 
 full name of the language
 required field if you don’t specify language_code
@@ -114,15 +112,13 @@ English
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`language_name`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:175566
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:187380
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -135,15 +131,13 @@ example:
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`location_code`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:175550
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:187389
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -158,15 +152,13 @@ example:
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:175559
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:187373
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -179,15 +171,13 @@ London,England,United Kingdom
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`location_name`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:175543
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:187456
 
 notification URL of a completed task
 optional field
@@ -196,22 +186,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:175624
 
 ***
 
 ### postback\_data?
 
 > `optional` **postback\_data**: `string`
+
+Defined in: main.ts:187445
 
 postback_url datatype
 required field if you specify postback_url
@@ -223,15 +212,13 @@ advanced, html
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`postback_data`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
-
-main.ts:175614
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:187439
 
 return URL for sending task results
 optional field
@@ -240,22 +227,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`postback_url`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:175608
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:187366
 
 task priority
 optional field
@@ -269,15 +255,13 @@ The cost can be calculated on the Pricing page.
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`priority`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:175536
-
 ***
 
 ### product\_id?
 
 > `optional` **product\_id**: `string`
+
+Defined in: main.ts:187358
 
 unique product identifier on Google Shopping
 required field
@@ -291,15 +275,13 @@ learn more about the parameter in this help center guide
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`product_id`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#product_id)
 
-#### Defined in
-
-main.ts:175528
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:187410
 
 search engine domain
 optional field
@@ -312,15 +294,13 @@ google.co.uk, google.com.au, google.de, etc.
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`se_domain`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:175580
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:187428
 
 user-defined task identifier
 optional field
@@ -332,27 +312,23 @@ you will find the specified tag value in the data object of the response
 
 [`IMerchantGoogleSellersTaskPostRequestInfo`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md).[`tag`](../interfaces/IMerchantGoogleSellersTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:175598
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:187469
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:175637
 
 ***
 
@@ -360,17 +336,17 @@ main.ts:175637
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:187505
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:175673
 
 ***
 
@@ -378,14 +354,14 @@ main.ts:175673
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)
 
+Defined in: main.ts:187498
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:175666

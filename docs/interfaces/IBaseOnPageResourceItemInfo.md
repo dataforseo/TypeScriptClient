@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseOnPageResourceItemInfo
+[Documentation](../README.md) / IBaseOnPageResourceItemInfo
 
 # Interface: IBaseOnPageResourceItemInfo
+
+Defined in: main.ts:22437
 
 ## Extended by
 
@@ -20,11 +22,9 @@
 
 > `optional` **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
 
+Defined in: main.ts:22464
+
 instructions for caching
-
-#### Defined in
-
-main.ts:21561
 
 ***
 
@@ -32,16 +32,14 @@ main.ts:21561
 
 > `optional` **checks**: `object`
 
+Defined in: main.ts:22467
+
 website checks
 on-page check-ups related to the page
 
 #### Index Signature
 
- \[`key`: `string`\]: `boolean`
-
-#### Defined in
-
-main.ts:21564
+\[`key`: `string`\]: `boolean`
 
 ***
 
@@ -49,11 +47,9 @@ main.ts:21564
 
 > `optional` **content\_encoding**: `string`
 
+Defined in: main.ts:22469
+
 type of encoding
-
-#### Defined in
-
-main.ts:21566
 
 ***
 
@@ -61,12 +57,10 @@ main.ts:21566
 
 > `optional` **encoded\_size**: `number`
 
+Defined in: main.ts:22454
+
 page size after encoding
 indicates the size of the encoded page measured in bytes
-
-#### Defined in
-
-main.ts:21551
 
 ***
 
@@ -74,14 +68,12 @@ main.ts:21551
 
 > `optional` **fetch\_time**: `string`
 
+Defined in: main.ts:22462
+
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:21559
 
 ***
 
@@ -89,12 +81,10 @@ main.ts:21559
 
 > `optional` **last\_modified**: [`LastModified`](../classes/LastModified.md)
 
+Defined in: main.ts:22476
+
 contains data on changes related to the resource
 if there is no data, the value will be null
-
-#### Defined in
-
-main.ts:21573
 
 ***
 
@@ -102,12 +92,10 @@ main.ts:21573
 
 > `optional` **location**: `string`
 
+Defined in: main.ts:22444
+
 location header
 indicates the URL to redirect a page to
-
-#### Defined in
-
-main.ts:21541
 
 ***
 
@@ -115,11 +103,9 @@ main.ts:21541
 
 > `optional` **media\_type**: `string`
 
+Defined in: main.ts:22471
+
 types of media used to display a page
-
-#### Defined in
-
-main.ts:21568
 
 ***
 
@@ -127,11 +113,9 @@ main.ts:21568
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
 
+Defined in: main.ts:22448
+
 resource errors and warnings
-
-#### Defined in
-
-main.ts:21545
 
 ***
 
@@ -139,11 +123,9 @@ main.ts:21545
 
 > `optional` **resource\_type**: `string`
 
+Defined in: main.ts:22439
+
 type of the returned resource
-
-#### Defined in
-
-main.ts:21536
 
 ***
 
@@ -151,11 +133,9 @@ main.ts:21536
 
 > `optional` **server**: `string`
 
+Defined in: main.ts:22473
+
 server version
-
-#### Defined in
-
-main.ts:21570
 
 ***
 
@@ -163,12 +143,10 @@ main.ts:21570
 
 > `optional` **size**: `number`
 
+Defined in: main.ts:22451
+
 resource size
 indicates the size of a given page measured in bytes
-
-#### Defined in
-
-main.ts:21548
 
 ***
 
@@ -176,11 +154,9 @@ main.ts:21548
 
 > `optional` **status\_code**: `number`
 
+Defined in: main.ts:22441
+
 status code of the page
-
-#### Defined in
-
-main.ts:21538
 
 ***
 
@@ -188,12 +164,10 @@ main.ts:21538
 
 > `optional` **total\_transfer\_size**: `number`
 
+Defined in: main.ts:22457
+
 compressed page size
 indicates the compressed size of a given page
-
-#### Defined in
-
-main.ts:21554
 
 ***
 
@@ -201,8 +175,6 @@ main.ts:21554
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:22446
+
 page URL
-
-#### Defined in
-
-main.ts:21543

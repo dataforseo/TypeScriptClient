@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RelatedSearchesMerchantSerpElementItem
+[Documentation](../README.md) / RelatedSearchesMerchantSerpElementItem
 
 # Class: RelatedSearchesMerchantSerpElementItem
+
+Defined in: main.ts:186810
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new RelatedSearchesMerchantSerpElementItem**(`data`?): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
 
+Defined in: main.ts:186819
+
 #### Parameters
 
-• **data?**: [`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md)
+##### data?
+
+[`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:174989
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21722
+
 #### Inherited from
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21039
 
 ***
 
 ### items?
 
 > `optional` **items**: `string`[]
+
+Defined in: main.ts:186815
 
 additional items present in the element
 if there are none, equals null
@@ -67,15 +69,13 @@ if there are none, equals null
 
 [`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md).[`items`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md#items)
 
-#### Defined in
-
-main.ts:174985
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21720
 
 alignment of the element in SERP
 can take the following values:
@@ -89,15 +89,13 @@ left, right
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21037
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21716
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -110,15 +108,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21033
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21713
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -131,15 +127,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21030
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21710
 
 type of element
 
@@ -151,15 +145,13 @@ type of element
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21027
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:186812
 
 XPath of the element
 
@@ -167,19 +159,19 @@ XPath of the element
 
 [`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md).[`xpath`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:174982
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:186824
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -189,19 +181,19 @@ main.ts:174982
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:174994
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:186847
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -211,19 +203,19 @@ main.ts:174994
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:175017
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`RelatedSearchesMerchantSerpElementItem`](RelatedSearchesMerchantSerpElementItem.md)
 
+Defined in: main.ts:186840
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -232,7 +224,3 @@ main.ts:175017
 #### Overrides
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:175010

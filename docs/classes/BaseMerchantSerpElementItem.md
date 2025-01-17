@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseMerchantSerpElementItem
+[Documentation](../README.md) / BaseMerchantSerpElementItem
 
 # Class: BaseMerchantSerpElementItem
+
+Defined in: main.ts:21708
 
 ## Extended by
 
@@ -27,17 +29,17 @@
 
 > **new BaseMerchantSerpElementItem**(`data`?): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
+Defined in: main.ts:21724
+
 #### Parameters
 
-• **data?**: [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md)
+##### data?
+
+[`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md)
 
 #### Returns
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
-#### Defined in
-
-main.ts:21041
 
 ## Properties
 
@@ -45,15 +47,15 @@ main.ts:21041
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:21039
+Defined in: main.ts:21722
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21720
 
 alignment of the element in SERP
 can take the following values:
@@ -63,15 +65,13 @@ left, right
 
 [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md).[`position`](../interfaces/IBaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21037
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21716
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -80,15 +80,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21033
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21713
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -97,15 +95,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md).[`rank_group`](../interfaces/IBaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21030
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21710
 
 type of element
 
@@ -113,27 +109,23 @@ type of element
 
 [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md).[`type`](../interfaces/IBaseMerchantSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21027
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:21734
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:21051
 
 ***
 
@@ -141,17 +133,17 @@ main.ts:21051
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:21790
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:21107
 
 ***
 
@@ -159,14 +151,14 @@ main.ts:21107
 
 > `static` **fromJS**(`data`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
+Defined in: main.ts:21743
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
-
-#### Defined in
-
-main.ts:21060

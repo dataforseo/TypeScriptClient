@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListingsSearchLiveRequestInfo
+[Documentation](../README.md) / AppDataAppleAppListingsSearchLiveRequestInfo
 
 # Class: AppDataAppleAppListingsSearchLiveRequestInfo
+
+Defined in: main.ts:208874
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppDataAppleAppListingsSearchLiveRequestInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
 
+Defined in: main.ts:208943
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md)
+##### data?
+
+[`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:196492
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:208880
 
 app categories
 optional field
@@ -48,34 +52,30 @@ you can specify up to 10 categories
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`categories`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#categories)
 
-#### Defined in
-
-main.ts:196429
-
 ***
 
 ### description?
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:208885
+
 keyword in the app’s description
 optional field
 keywords that occur in the description of the app;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`description`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#description)
-
-#### Defined in
-
-main.ts:196434
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:208901
 
 array of results filtering parameters
 optional field
@@ -92,15 +92,13 @@ you can receive the list of available filters by making a separate request to h
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`filters`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:196450
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:208920
 
 the maximum number of returned apps
 optional field
@@ -111,15 +109,13 @@ maximum value: 1000
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`limit`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:196469
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:208925
 
 offset in the results array of returned apps
 optional field
@@ -130,15 +126,13 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`offset`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:196474
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:208933
 
 token for subsequent requests
 optional field
@@ -152,15 +146,13 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`offset_token`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:196482
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:208915
 
 results sorting rules
 optional field
@@ -180,15 +172,13 @@ example:
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`order_by`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:196464
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:208939
 
 user-defined task identifier
 optional field
@@ -200,28 +190,22 @@ you will find the specified tag value in the data object of the response
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`tag`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:196488
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:208890
+
 keyword in the app’s title
 optional field
 keywords that occur in the title of the app;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
 [`IAppDataAppleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md).[`title`](../interfaces/IAppDataAppleAppListingsSearchLiveRequestInfo.md#title)
-
-#### Defined in
-
-main.ts:196439
 
 ## Methods
 
@@ -229,17 +213,17 @@ main.ts:196439
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:208952
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:196501
 
 ***
 
@@ -247,17 +231,17 @@ main.ts:196501
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:208989
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:196538
 
 ***
 
@@ -265,14 +249,14 @@ main.ts:196538
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
 
+Defined in: main.ts:208982
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleAppListingsSearchLiveRequestInfo`](AppDataAppleAppListingsSearchLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:196531

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsSubdomainsLiveItem
+[Documentation](../README.md) / IDataforseoLabsSubdomainsLiveItem
 
 # Interface: IDataforseoLabsSubdomainsLiveItem
 
+Defined in: main.ts:104209
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:104215
+
 ranking data relevant to subdomain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:94396
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:94396
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:104211
+
 search engine type
-
-#### Defined in
-
-main.ts:94392
 
 ***
 
@@ -44,8 +42,6 @@ main.ts:94392
 
 > `optional` **subdomain**: `string`
 
+Defined in: main.ts:104213
+
 returned subdomain
-
-#### Defined in
-
-main.ts:94394

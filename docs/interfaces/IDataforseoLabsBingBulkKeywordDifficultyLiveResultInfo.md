@@ -1,26 +1,26 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
+Defined in: main.ts:115511
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](../classes/DataforseoLabsBBulkKeywordDifficultyLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBulkKeywordDifficultyLiveItem`](../classes/DataforseoLabsBulkKeywordDifficultyLiveItem.md)[]
+
+Defined in: main.ts:115525
 
 contains keywords and related keyword difficulty scores
-
-#### Defined in
-
-main.ts:105786
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:105786
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:115523
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:105784
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:105784
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:115519
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:105780
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:105780
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:115516
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:105777
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:105777
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:115513
+
 search engine type
-
-#### Defined in
-
-main.ts:105774
 
 ***
 
@@ -78,8 +70,6 @@ main.ts:105774
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:115521
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:105782

@@ -28,7 +28,11 @@ maximum value: 200
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173753
+=======
+main.ts:173786
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -45,7 +49,11 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173707
+=======
+main.ts:173740
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -62,7 +70,11 @@ en
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173735
+=======
+main.ts:173768
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -79,7 +91,11 @@ English
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173728
+=======
+main.ts:173761
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -96,7 +112,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173721
+=======
+main.ts:173754
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -113,7 +133,11 @@ West Los Angeles,California,United States
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173714
+=======
+main.ts:173747
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -133,7 +157,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173785
+=======
+main.ts:173818
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -149,7 +177,11 @@ advanced, html
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173775
+=======
+main.ts:173808
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -169,7 +201,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173769
+=======
+main.ts:173802
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -187,7 +223,11 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173743
+=======
+main.ts:173776
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -203,4 +243,8 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173759
+=======
+main.ts:173792
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

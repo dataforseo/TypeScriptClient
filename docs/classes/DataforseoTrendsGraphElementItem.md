@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoTrendsGraphElementItem
+[Documentation](../README.md) / DataforseoTrendsGraphElementItem
 
 # Class: DataforseoTrendsGraphElementItem
+
+Defined in: main.ts:135942
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new DataforseoTrendsGraphElementItem**(`data`?): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
+Defined in: main.ts:135950
+
 #### Parameters
 
-• **data?**: [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md)
+##### data?
+
+[`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
 
-#### Defined in
-
-main.ts:125596
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22797
+
 #### Inherited from
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`_discriminator`](BaseDataforseoTrendsItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21894
 
 ***
 
@@ -60,15 +60,13 @@ main.ts:21894
 
 > `optional` **averages**: `number`[]
 
+Defined in: main.ts:135946
+
 keyword popularity values averaged over the whole time range
 
 #### Implementation of
 
 [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`averages`](../interfaces/IDataforseoTrendsGraphElementItem.md#averages)
-
-#### Defined in
-
-main.ts:125592
 
 ***
 
@@ -76,21 +74,21 @@ main.ts:125592
 
 > `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
+Defined in: main.ts:135944
+
 DataForSEO Trends data for the specified parameters
 
 #### Implementation of
 
 [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`data`](../interfaces/IDataforseoTrendsGraphElementItem.md#data)
 
-#### Defined in
-
-main.ts:125590
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22795
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -103,15 +101,13 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`keywords`](BaseDataforseoTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21892
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22792
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -124,15 +120,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`position`](BaseDataforseoTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21889
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22789
 
 type of element
 
@@ -144,19 +138,19 @@ type of element
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`type`](BaseDataforseoTrendsItem.md#type)
 
-#### Defined in
-
-main.ts:21886
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:135955
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -166,19 +160,19 @@ main.ts:21886
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`init`](BaseDataforseoTrendsItem.md#init)
 
-#### Defined in
-
-main.ts:125601
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:135982
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -188,19 +182,19 @@ main.ts:125601
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`toJSON`](BaseDataforseoTrendsItem.md#tojson)
 
-#### Defined in
-
-main.ts:125628
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
+Defined in: main.ts:135975
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -209,7 +203,3 @@ main.ts:125628
 #### Overrides
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`fromJS`](BaseDataforseoTrendsItem.md#fromjs)
-
-#### Defined in
-
-main.ts:125621

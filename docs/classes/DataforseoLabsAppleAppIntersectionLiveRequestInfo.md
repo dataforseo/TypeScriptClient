@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAppleAppIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAppleAppIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsAppleAppIntersectionLiveRequestInfo
+
+Defined in: main.ts:124698
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsAppleAppIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
 
+Defined in: main.ts:124797
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:115524
 
 ## Properties
 
 ### app\_ids?
 
 > `optional` **app\_ids**: `object`
+
+Defined in: main.ts:124713
 
 ids of the target apps
 required field
@@ -55,21 +59,19 @@ the maximum number of app IDs you can specify in this object is 20
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`app_ids`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#app_ids)
-
-#### Defined in
-
-main.ts:115440
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:124760
 
 array of results filtering parameters
 optional field
@@ -86,15 +88,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:115487
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:124749
 
 language code
 required field if you don’t specify language_name
@@ -109,15 +109,13 @@ en
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:115476
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:124740
 
 full name of the language
 required field if you don’t specify language_code
@@ -132,15 +130,13 @@ English
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:115467
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:124782
 
 the maximum number of returned keywords
 optional field
@@ -151,15 +147,13 @@ maximum value: 1000
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:115509
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:124731
 
 location code
 required field if you don’t specify location_name
@@ -174,15 +168,13 @@ example:
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:115458
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:124722
 
 full name of the location
 required field if you don’t specify location_code
@@ -197,15 +189,13 @@ United States
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:115449
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:124787
 
 offset in the results array of returned keywords
 optional field
@@ -216,15 +206,13 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:115514
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:124777
 
 results sorting rules
 optional field
@@ -247,15 +235,13 @@ Note: if the item_types array contains item types that are different from organi
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:115504
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:124793
 
 user-defined task identifier
 optional field
@@ -267,27 +253,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsAppleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:115520
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:124806
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:115533
 
 ***
 
@@ -295,17 +277,17 @@ main.ts:115533
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:124846
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:115573
 
 ***
 
@@ -313,14 +295,14 @@ main.ts:115573
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
 
+Defined in: main.ts:124839
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsAppleAppIntersectionLiveRequestInfo`](DataforseoLabsAppleAppIntersectionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:115566

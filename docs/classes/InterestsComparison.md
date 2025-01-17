@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / InterestsComparison
+[Documentation](../README.md) / InterestsComparison
 
 # Class: InterestsComparison
+
+Defined in: main.ts:136668
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new InterestsComparison**(`data`?): [`InterestsComparison`](InterestsComparison.md)
 
+Defined in: main.ts:136677
+
 #### Parameters
 
-• **data?**: [`IInterestsComparison`](../interfaces/IInterestsComparison.md)
+##### data?
+
+[`IInterestsComparison`](../interfaces/IInterestsComparison.md)
 
 #### Returns
 
 [`InterestsComparison`](InterestsComparison.md)
-
-#### Defined in
-
-main.ts:126321
 
 ## Properties
 
 ### absolute\_items?
 
 > `optional` **absolute\_items**: [`AbsoluteItems`](AbsoluteItems.md)[]
+
+Defined in: main.ts:136673
 
 keyword popularity rates across all locations
 values in this array represent percentages relative to the maximum value across all locations
@@ -45,15 +49,13 @@ values in this array represent percentages relative to the maximum value across 
 
 [`IInterestsComparison`](../interfaces/IInterestsComparison.md).[`absolute_items`](../interfaces/IInterestsComparison.md#absolute_items)
 
-#### Defined in
-
-main.ts:126317
-
 ***
 
 ### items?
 
 > `optional` **items**: [`AbsoluteItems`](AbsoluteItems.md)[]
+
+Defined in: main.ts:136670
 
 contains keyword popularity and related data
 
@@ -61,27 +63,23 @@ contains keyword popularity and related data
 
 [`IInterestsComparison`](../interfaces/IInterestsComparison.md).[`items`](../interfaces/IInterestsComparison.md#items)
 
-#### Defined in
-
-main.ts:126314
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:136686
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:126330
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:126330
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:136712
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:126356
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:126356
 
 > `static` **fromJS**(`data`): [`InterestsComparison`](InterestsComparison.md)
 
+Defined in: main.ts:136705
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`InterestsComparison`](InterestsComparison.md)
-
-#### Defined in
-
-main.ts:126349

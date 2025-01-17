@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / TrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Class: TrustpilotSearchOrganicBusinessDataSerpElementItem
+
+Defined in: main.ts:225940
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new TrustpilotSearchOrganicBusinessDataSerpElementItem**(`data`?): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
 
+Defined in: main.ts:225954
+
 #### Parameters
 
-• **data?**: [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md)
+##### data?
+
+[`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:210924
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22211
+
 #### Inherited from
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21308
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:21308
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:225944
+
 domain of the establishment
 
 #### Implementation of
 
 [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md).[`domain`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#domain)
 
-#### Defined in
-
-main.ts:210914
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:22209
 
 absolute rank among all the elements
 
@@ -86,15 +86,13 @@ absolute rank among all the elements
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_absolute`](BaseBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21306
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22207
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -107,15 +105,13 @@ positions of elements with different type values are omitted from the rank_group
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_group`](BaseBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21304
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:225950
 
 the rating score of the establishment submitted by reviewers
 
@@ -123,15 +119,13 @@ the rating score of the establishment submitted by reviewers
 
 [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md).[`rating`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:210920
-
 ***
 
 ### reviews\_count?
 
 > `optional` **reviews\_count**: `number`
+
+Defined in: main.ts:225948
 
 the total number of reviews
 
@@ -139,15 +133,13 @@ the total number of reviews
 
 [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md).[`reviews_count`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#reviews_count)
 
-#### Defined in
-
-main.ts:210918
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:225942
 
 title of the establishment
 
@@ -155,15 +147,13 @@ title of the establishment
 
 [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md).[`title`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:210912
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22204
 
 type of element
 
@@ -175,15 +165,13 @@ type of element
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`type`](BaseBusinessDataSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21301
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:225946
 
 URL to the establishment
 
@@ -191,19 +179,19 @@ URL to the establishment
 
 [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md).[`url`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:210916
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:225959
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -213,19 +201,19 @@ main.ts:210916
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:210929
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:225981
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -235,19 +223,19 @@ main.ts:210929
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:210951
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`TrustpilotSearchOrganicBusinessDataSerpElementItem`](TrustpilotSearchOrganicBusinessDataSerpElementItem.md)
 
+Defined in: main.ts:225974
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -256,7 +244,3 @@ main.ts:210951
 #### Overrides
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:210944

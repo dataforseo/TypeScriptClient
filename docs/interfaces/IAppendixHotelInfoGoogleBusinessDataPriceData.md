@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixHotelInfoGoogleBusinessDataPriceData
+[Documentation](../README.md) / IAppendixHotelInfoGoogleBusinessDataPriceData
 
 # Interface: IAppendixHotelInfoGoogleBusinessDataPriceData
 
+Defined in: main.ts:237785
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **live**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](../classes/AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222558
+Defined in: main.ts:237786
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:222558
 
 > `optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](../classes/AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222559
+Defined in: main.ts:237787
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:222559
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222560
+Defined in: main.ts:237788
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:222560
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222561
+Defined in: main.ts:237789

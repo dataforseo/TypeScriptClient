@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137206
+=======
+main.ts:137239
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -47,7 +51,11 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137195
+=======
+main.ts:137228
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -64,7 +72,11 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137202
+=======
+main.ts:137235
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -82,7 +94,11 @@ you can learn more about clickstream search volume in this Help Center article
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137199
+=======
+main.ts:137232
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -100,7 +116,11 @@ main.ts:137199
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137215
+=======
+main.ts:137248
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -118,7 +138,11 @@ main.ts:137215
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137238
+=======
+main.ts:137271
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -136,4 +160,8 @@ main.ts:137238
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137231
+=======
+main.ts:137264
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

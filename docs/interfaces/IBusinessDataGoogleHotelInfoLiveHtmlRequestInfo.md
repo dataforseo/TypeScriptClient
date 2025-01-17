@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
+Defined in: main.ts:221164
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,21 +18,21 @@
 
 > `optional` **adults**: `number`
 
+Defined in: main.ts:221241
+
 number of adults
 optional field
 if you don’t specify this field, two adults will be used by default
 example:
 1
 
-#### Defined in
-
-main.ts:207785
-
 ***
 
 ### check\_in?
 
 > `optional` **check\_in**: `string`
+
+Defined in: main.ts:221223
 
 check-in date
 optional field
@@ -39,15 +41,13 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
-
-main.ts:207767
-
 ***
 
 ### check\_out?
 
 > `optional` **check\_out**: `string`
+
+Defined in: main.ts:221230
 
 check-out date
 optional field
@@ -56,15 +56,13 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
-
-main.ts:207774
-
 ***
 
 ### children?
 
 > `optional` **children**: `string`[]
+
+Defined in: main.ts:221249
 
 number and age of children
 optional field
@@ -74,30 +72,26 @@ set the following value if you want to include one 14-years-old child:
 set the following value if you want to include one 13-years-old child and one 8-years-old child:
 [13,8]
 
-#### Defined in
-
-main.ts:207793
-
 ***
 
 ### currency?
 
 > `optional` **currency**: `string`
 
+Defined in: main.ts:221235
+
 currency
 optional field
 example:
 "USD"
-
-#### Defined in
-
-main.ts:207779
 
 ***
 
 ### hotel\_identifier?
 
 > `optional` **hotel\_identifier**: `string`
+
+Defined in: main.ts:221171
 
 unique hotel identifier
 required field
@@ -106,15 +100,13 @@ you can obtain the value by making a request to Advanced Google SERP API (enclos
 example:
 ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
-#### Defined in
-
-main.ts:207715
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:221216
 
 search engine language code
 required field if you don’t specify language_name
@@ -123,15 +115,13 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Defined in
-
-main.ts:207760
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:221209
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -140,15 +130,13 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Defined in
-
-main.ts:207753
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:221193
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -157,15 +145,13 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840
 
-#### Defined in
-
-main.ts:207737
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:221202
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -176,15 +162,13 @@ Note: if the coordinates are used to set a location, the search will occur in th
 example:
 53.476225,-2.243572
 
-#### Defined in
-
-main.ts:207746
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:221186
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -193,15 +177,13 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:207730
-
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:221179
 
 task priority
 optional field
@@ -211,22 +193,16 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:207723
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:221255
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data array of the response
-
-#### Defined in
-
-main.ts:207799

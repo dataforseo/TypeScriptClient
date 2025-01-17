@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationTextSummaryLiveResultInfo
+[Documentation](../README.md) / ContentGenerationTextSummaryLiveResultInfo
 
 # Class: ContentGenerationTextSummaryLiveResultInfo
+
+Defined in: main.ts:183584
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentGenerationTextSummaryLiveResultInfo**(`data`?): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
+Defined in: main.ts:183619
+
 #### Parameters
 
-• **data?**: [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:171929
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:171929
 
 > `optional` **automated\_readability\_index**: `number`
 
+Defined in: main.ts:183605
+
 Automated Readability Index
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`automated_readability_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#automated_readability_index)
-
-#### Defined in
-
-main.ts:171915
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:171915
 
 > `optional` **characters\_per\_word**: `number`
 
+Defined in: main.ts:183598
+
 average number of characters per word in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_per_word`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_per_word)
-
-#### Defined in
-
-main.ts:171908
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:171908
 
 > `optional` **characters\_with\_spaces**: `number`
 
+Defined in: main.ts:183594
+
 number of characters with spaces found in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_with_spaces`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_with_spaces)
-
-#### Defined in
-
-main.ts:171904
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:171904
 
 > `optional` **characters\_without\_spaces**: `number`
 
+Defined in: main.ts:183592
+
 number of characters without spaces found in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_without_spaces`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_without_spaces)
-
-#### Defined in
-
-main.ts:171902
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:171902
 
 > `optional` **coleman\_liau\_index**: `number`
 
+Defined in: main.ts:183607
+
 Coleman–Liau Index
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`coleman_liau_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#coleman_liau_index)
-
-#### Defined in
-
-main.ts:171917
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:171917
 
 > `optional` **flesch\_kincaid\_grade\_level**: `number`
 
+Defined in: main.ts:183609
+
 Flesch–Kincaid Readability Index
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`flesch_kincaid_grade_level`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#flesch_kincaid_grade_level)
-
-#### Defined in
-
-main.ts:171919
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:171919
 
 > `optional` **grammar\_errors**: `number`
 
+Defined in: main.ts:183615
+
 number of grammar errors found in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`grammar_errors`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#grammar_errors)
-
-#### Defined in
-
-main.ts:171925
 
 ***
 
@@ -150,20 +138,18 @@ main.ts:171925
 
 > `optional` **keyword\_density**: `object`
 
+Defined in: main.ts:183603
+
 keyword density of the target text
 contains most common words and their count
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`keyword_density`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#keyword_density)
-
-#### Defined in
-
-main.ts:171913
 
 ***
 
@@ -171,15 +157,13 @@ main.ts:171913
 
 > `optional` **paragraphs**: `number`
 
+Defined in: main.ts:183588
+
 number of paragraphs found in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`paragraphs`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#paragraphs)
-
-#### Defined in
-
-main.ts:171898
 
 ***
 
@@ -187,15 +171,13 @@ main.ts:171898
 
 > `optional` **sentences**: `number`
 
+Defined in: main.ts:183586
+
 number of sentences found in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`sentences`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#sentences)
-
-#### Defined in
-
-main.ts:171896
 
 ***
 
@@ -203,15 +185,13 @@ main.ts:171896
 
 > `optional` **smog\_readability\_index**: `number`
 
+Defined in: main.ts:183611
+
 SMOG Readability Index
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`smog_readability_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#smog_readability_index)
-
-#### Defined in
-
-main.ts:171921
 
 ***
 
@@ -219,15 +199,13 @@ main.ts:171921
 
 > `optional` **spelling\_errors**: `number`
 
+Defined in: main.ts:183613
+
 number of spelling errors found in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`spelling_errors`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#spelling_errors)
-
-#### Defined in
-
-main.ts:171923
 
 ***
 
@@ -235,15 +213,13 @@ main.ts:171923
 
 > `optional` **vocabulary\_density**: `number`
 
+Defined in: main.ts:183600
+
 vocabulary density of the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`vocabulary_density`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#vocabulary_density)
-
-#### Defined in
-
-main.ts:171910
 
 ***
 
@@ -251,15 +227,13 @@ main.ts:171910
 
 > `optional` **words**: `number`
 
+Defined in: main.ts:183590
+
 number of words found in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`words`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#words)
-
-#### Defined in
-
-main.ts:171900
 
 ***
 
@@ -267,15 +241,13 @@ main.ts:171900
 
 > `optional` **words\_per\_sentence**: `number`
 
+Defined in: main.ts:183596
+
 average number of words per sentence in the target text
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`words_per_sentence`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#words_per_sentence)
-
-#### Defined in
-
-main.ts:171906
 
 ## Methods
 
@@ -283,17 +255,17 @@ main.ts:171906
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:183628
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:171938
 
 ***
 
@@ -301,17 +273,17 @@ main.ts:171938
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:183665
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:171975
 
 ***
 
@@ -319,14 +291,14 @@ main.ts:171975
 
 > `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
+Defined in: main.ts:183658
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:171968

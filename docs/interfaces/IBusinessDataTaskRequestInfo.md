@@ -42,7 +42,11 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192994
+=======
+main.ts:193027
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -59,7 +63,11 @@ en
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193040
+=======
+main.ts:193073
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -76,7 +84,11 @@ English
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193033
+=======
+main.ts:193066
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -93,7 +105,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193016
+=======
+main.ts:193049
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -113,7 +129,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193026
+=======
+main.ts:193059
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -130,7 +150,11 @@ London,England,United Kingdom
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193009
+=======
+main.ts:193042
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -150,7 +174,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193066
+=======
+main.ts:193099
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -170,7 +198,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193056
+=======
+main.ts:193089
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -188,7 +220,11 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193002
+=======
+main.ts:193035
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -204,4 +240,8 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:193046
+=======
+main.ts:193079
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

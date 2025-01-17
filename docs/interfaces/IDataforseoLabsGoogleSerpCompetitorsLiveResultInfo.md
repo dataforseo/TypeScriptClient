@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
+Defined in: main.ts:102354
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](../classes/DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
+Defined in: main.ts:102371
+
 contains detected SERP competitors and related data
-
-#### Defined in
-
-main.ts:92552
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:92552
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:102369
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:92550
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:92550
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:102365
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:92546
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:92546
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:102362
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:92543
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:92543
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:102356
+
 search engine type
-
-#### Defined in
-
-main.ts:92537
 
 ***
 
@@ -78,12 +70,10 @@ main.ts:92537
 
 > `optional` **seed\_keywords**: `string`[]
 
+Defined in: main.ts:102359
+
 keywords specified in the request
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:92540
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -91,8 +81,6 @@ main.ts:92540
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:102367
+
 the total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:92548

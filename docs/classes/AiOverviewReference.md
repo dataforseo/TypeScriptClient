@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AiOverviewReference
+[Documentation](../README.md) / AiOverviewReference
 
 # Class: AiOverviewReference
+
+Defined in: main.ts:30755
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AiOverviewReference**(`data`?): [`AiOverviewReference`](AiOverviewReference.md)
 
+Defined in: main.ts:30771
+
 #### Parameters
 
-• **data?**: [`IAiOverviewReference`](../interfaces/IAiOverviewReference.md)
+##### data?
+
+[`IAiOverviewReference`](../interfaces/IAiOverviewReference.md)
 
 #### Returns
 
 [`AiOverviewReference`](AiOverviewReference.md)
-
-#### Defined in
-
-main.ts:36395
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:36395
 
 > `optional` **domain**: `string`
 
-domain in SERP
+Defined in: main.ts:30761
+
+website domain
 
 #### Implementation of
 
 [`IAiOverviewReference`](../interfaces/IAiOverviewReference.md).[`domain`](../interfaces/IAiOverviewReference.md#domain)
-
-#### Defined in
-
-main.ts:36384
 
 ***
 
@@ -54,16 +54,13 @@ main.ts:36384
 
 > `optional` **source**: `string`
 
-source of the element
-indicates the source of information included in the questions_and_answers_element
+Defined in: main.ts:30759
+
+reference source name or title
 
 #### Implementation of
 
 [`IAiOverviewReference`](../interfaces/IAiOverviewReference.md).[`source`](../interfaces/IAiOverviewReference.md#source)
-
-#### Defined in
-
-main.ts:36382
 
 ***
 
@@ -71,16 +68,13 @@ main.ts:36382
 
 > `optional` **text**: `string`
 
-reference text
-text snippet from the page that was used to generate the ai_overview_element
+Defined in: main.ts:30767
+
+row content
 
 #### Implementation of
 
 [`IAiOverviewReference`](../interfaces/IAiOverviewReference.md).[`text`](../interfaces/IAiOverviewReference.md#text)
-
-#### Defined in
-
-main.ts:36391
 
 ***
 
@@ -88,15 +82,13 @@ main.ts:36391
 
 > `optional` **title**: `string`
 
-title of a given shopping element
+Defined in: main.ts:30765
+
+title of a given link element
 
 #### Implementation of
 
 [`IAiOverviewReference`](../interfaces/IAiOverviewReference.md).[`title`](../interfaces/IAiOverviewReference.md#title)
-
-#### Defined in
-
-main.ts:36388
 
 ***
 
@@ -104,15 +96,13 @@ main.ts:36388
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:30757
+
 type of element
 
 #### Implementation of
 
 [`IAiOverviewReference`](../interfaces/IAiOverviewReference.md).[`type`](../interfaces/IAiOverviewReference.md#type)
-
-#### Defined in
-
-main.ts:36379
 
 ***
 
@@ -120,15 +110,13 @@ main.ts:36379
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:30763
+
 URL
 
 #### Implementation of
 
 [`IAiOverviewReference`](../interfaces/IAiOverviewReference.md).[`url`](../interfaces/IAiOverviewReference.md#url)
-
-#### Defined in
-
-main.ts:36386
 
 ## Methods
 
@@ -136,17 +124,17 @@ main.ts:36386
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:30780
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:36404
 
 ***
 
@@ -154,17 +142,17 @@ main.ts:36404
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:30802
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:36426
 
 ***
 
@@ -172,14 +160,14 @@ main.ts:36426
 
 > `static` **fromJS**(`data`): [`AiOverviewReference`](AiOverviewReference.md)
 
+Defined in: main.ts:30795
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AiOverviewReference`](AiOverviewReference.md)
-
-#### Defined in
-
-main.ts:36419

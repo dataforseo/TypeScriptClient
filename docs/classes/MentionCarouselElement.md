@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MentionCarouselElement
+[Documentation](../README.md) / MentionCarouselElement
 
 # Class: MentionCarouselElement
+
+Defined in: main.ts:33677
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MentionCarouselElement**(`data`?): [`MentionCarouselElement`](MentionCarouselElement.md)
 
+Defined in: main.ts:33692
+
 #### Parameters
 
-• **data?**: [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md)
+##### data?
+
+[`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md)
 
 #### Returns
 
 [`MentionCarouselElement`](MentionCarouselElement.md)
-
-#### Defined in
-
-main.ts:31884
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:31884
 
 > `optional` **mentioned\_in**: [`LinkElement`](LinkElement.md)[]
 
+Defined in: main.ts:33688
+
 additional elements in the mention_carousel item
 
 #### Implementation of
 
 [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`mentioned_in`](../interfaces/IMentionCarouselElement.md#mentioned_in)
-
-#### Defined in
-
-main.ts:31880
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:31880
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
+Defined in: main.ts:33683
+
 price indicated in the element
 
 #### Implementation of
 
 [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`price`](../interfaces/IMentionCarouselElement.md#price)
 
-#### Defined in
-
-main.ts:31875
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:33686
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -77,15 +77,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`rating`](../interfaces/IMentionCarouselElement.md#rating)
 
-#### Defined in
-
-main.ts:31878
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:33681
 
 title of a given link element
 
@@ -93,15 +91,13 @@ title of a given link element
 
 [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`title`](../interfaces/IMentionCarouselElement.md#title)
 
-#### Defined in
-
-main.ts:31873
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:33679
 
 type of element
 
@@ -109,27 +105,23 @@ type of element
 
 [`IMentionCarouselElement`](../interfaces/IMentionCarouselElement.md).[`type`](../interfaces/IMentionCarouselElement.md#type)
 
-#### Defined in
-
-main.ts:31871
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:33701
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:31893
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:31893
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:33726
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:31918
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:31918
 
 > `static` **fromJS**(`data`): [`MentionCarouselElement`](MentionCarouselElement.md)
 
+Defined in: main.ts:33719
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MentionCarouselElement`](MentionCarouselElement.md)
-
-#### Defined in
-
-main.ts:31911

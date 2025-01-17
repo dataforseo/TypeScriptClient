@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
+
+Defined in: main.ts:101826
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
 
+Defined in: main.ts:101930
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:92111
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:101904
 
 array of results filtering parameters
 optional field
@@ -57,15 +61,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:92085
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
+
+Defined in: main.ts:101871
 
 indicates if the subdomains will be included in the search
 optional field
@@ -76,15 +78,13 @@ default value: true
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`include_subdomains`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
-
-main.ts:92052
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:101879
 
 search results type
 indicates type of search results included in the response
@@ -98,37 +98,33 @@ default value:
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:92060
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:101834
+
 keywords array
 required field
 the results will be based on the keywords you specify in this array
 UTF-8 encoding;
 the keywords will be converted to lowercase format;
-a keyword should be at least 3 characters long;
 you can specify the maximum of 200 keywords
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:92015
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:101866
 
 unique language identifier
 required field if you don’t specify language_name
@@ -142,15 +138,13 @@ en
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:92047
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:101858
 
 full name of the language
 required field if you don’t specify language_code
@@ -164,15 +158,13 @@ English
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:92039
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:101884
 
 the maximum number of returned domains
 optional field
@@ -183,15 +175,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:92065
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:101850
 
 unique location identifier
 required field if you don’t specify location_name
@@ -205,15 +195,13 @@ example:
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:92031
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:101842
 
 full name of the location
 required field if you don’t specify location_code
@@ -227,15 +215,13 @@ United Kingdom
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:92023
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:101889
 
 offset in the results array of returned domains
 optional field
@@ -246,15 +232,13 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:92070
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:101920
 
 results sorting rules
 optional field
@@ -276,15 +260,13 @@ example:
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:92101
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:101926
 
 user-defined task identifier
 optional field
@@ -296,27 +278,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:92107
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:101939
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:92120
 
 ***
 
@@ -324,17 +302,17 @@ main.ts:92120
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:101983
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:92164
 
 ***
 
@@ -342,14 +320,14 @@ main.ts:92164
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
 
+Defined in: main.ts:101976
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo`](DataforseoLabsGoogleSerpCompetitorsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:92157

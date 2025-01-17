@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListingsCategoriesResultInfo
+[Documentation](../README.md) / AppDataGoogleAppListingsCategoriesResultInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
+
+Defined in: main.ts:204066
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataGoogleAppListingsCategoriesResultInfo**(`data`?): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
+Defined in: main.ts:204074
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:191637
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:191637
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:204068
+
 name of the supported app category
 
 #### Implementation of
 
 [`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md).[`category`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md#category)
-
-#### Defined in
-
-main.ts:191631
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:191631
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:204070
+
 number of app listings that make up the supported app category
 
 #### Implementation of
 
 [`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md).[`count`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md#count)
-
-#### Defined in
-
-main.ts:191633
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:191633
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:204083
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:191646
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:191646
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:204101
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:191664
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:191664
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
+Defined in: main.ts:204094
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:191657

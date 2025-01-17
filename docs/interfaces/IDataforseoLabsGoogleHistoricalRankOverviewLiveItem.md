@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
+Defined in: main.ts:109667
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:109675
+
 ranking data relevant to the specified domain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:99836
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:99836
 
 > `optional` **month**: `number`
 
+Defined in: main.ts:109673
+
 month for which the data is provided
-
-#### Defined in
-
-main.ts:99834
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:99834
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:109669
+
 search engine type
-
-#### Defined in
-
-main.ts:99830
 
 ***
 
@@ -56,8 +52,6 @@ main.ts:99830
 
 > `optional` **year**: `number`
 
+Defined in: main.ts:109671
+
 year for which the data is provided
-
-#### Defined in
-
-main.ts:99832

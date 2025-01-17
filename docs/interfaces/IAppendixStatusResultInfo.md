@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixStatusResultInfo
+[Documentation](../README.md) / IAppendixStatusResultInfo
 
 # Interface: IAppendixStatusResultInfo
 
+Defined in: main.ts:239586
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### api?
 
 > `optional` **api**: `string`
+
+Defined in: main.ts:239601
 
 name of the API
 the list of APIs:
@@ -31,27 +35,23 @@ app_data
 content_analysis
 content_generation
 
-#### Defined in
-
-main.ts:224313
-
 ***
 
 ### endpoints?
 
 > `optional` **endpoints**: [`AppendixStatusEndpointsInfo`](../classes/AppendixStatusEndpointsInfo.md)[]
 
+Defined in: main.ts:239613
+
 array of objects that contain status information for API endpoints
-
-#### Defined in
-
-main.ts:224325
 
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:239611
 
 current status
 you can find all information about your API statuses for the last 60 days here
@@ -62,7 +62,3 @@ long_response_time
 long_execution_time
 webhook_delay
 send_delay
-
-#### Defined in
-
-main.ts:224323

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
 
 # Class: SerpGoogleLocalFinderLiveHtmlRequestInfo
+
+Defined in: main.ts:44721
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleLocalFinderLiveHtmlRequestInfo**(`data`?): [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
 
+Defined in: main.ts:44821
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
-
-#### Defined in
-
-main.ts:42937
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:44797
 
 parsing depth
 optional field
@@ -53,15 +57,13 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`depth`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:42913
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:44779
 
 device type
 optional field
@@ -72,36 +74,32 @@ default value: desktop
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`device`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:42895
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:44728
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
 
 #### Implementation of
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:42844
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:44774
 
 search engine language code
 required field if you don’t specify language_name
@@ -113,15 +111,13 @@ example:en
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:42890
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:44768
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -134,15 +130,13 @@ English
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:42884
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:44750
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,15 +149,13 @@ example:
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:42866
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:44761
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -180,15 +172,13 @@ example:
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:42877
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:44743
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -201,15 +191,13 @@ London,England,United Kingdom
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:42859
-
 ***
 
 ### min\_rating?
 
 > `optional` **min\_rating**: `number`
+
+Defined in: main.ts:44802
 
 filter results by minimum rating
 optional field
@@ -220,15 +208,13 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`min_rating`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#min_rating)
 
-#### Defined in
-
-main.ts:42918
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:44786
 
 device operating system
 optional field
@@ -241,15 +227,13 @@ default value: android
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`os`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:42902
-
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:44736
 
 task priority
 optional field
@@ -263,15 +247,13 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`priority`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:42852
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:44817
 
 user-defined task identifier
 optional field
@@ -283,15 +265,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`tag`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:42933
-
 ***
 
 ### time\_filter?
 
 > `optional` **time\_filter**: `string`
+
+Defined in: main.ts:44811
 
 filter results by open hours
 optional field
@@ -306,27 +286,23 @@ example: "tuesday;18"
 
 [`ISerpGoogleLocalFinderLiveHtmlRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md).[`time_filter`](../interfaces/ISerpGoogleLocalFinderLiveHtmlRequestInfo.md#time_filter)
 
-#### Defined in
-
-main.ts:42927
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:44830
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:42946
 
 ***
 
@@ -334,17 +310,17 @@ main.ts:42946
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:44859
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:42975
 
 ***
 
@@ -352,14 +328,14 @@ main.ts:42975
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
 
+Defined in: main.ts:44852
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleLocalFinderLiveHtmlRequestInfo`](SerpGoogleLocalFinderLiveHtmlRequestInfo.md)
-
-#### Defined in
-
-main.ts:42968

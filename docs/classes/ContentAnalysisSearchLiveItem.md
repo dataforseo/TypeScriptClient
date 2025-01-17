@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSearchLiveItem
+[Documentation](../README.md) / ContentAnalysisSearchLiveItem
 
 # Class: ContentAnalysisSearchLiveItem
+
+Defined in: main.ts:177992
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentAnalysisSearchLiveItem**(`data`?): [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
 
+Defined in: main.ts:178047
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md)
+##### data?
+
+[`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md)
 
 #### Returns
 
 [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
-
-#### Defined in
-
-main.ts:166357
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:166357
 
 > `optional` **content\_info**: [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
+Defined in: main.ts:178043
+
 contains data on citations from the given url
 
 #### Implementation of
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`content_info`](../interfaces/IContentAnalysisSearchLiveItem.md#content_info)
 
-#### Defined in
-
-main.ts:166353
-
 ***
 
 ### country?
 
 > `optional` **country**: `string`
+
+Defined in: main.ts:178022
 
 country code of the domain registration
 to obtain a full list of available countries, refer to the Locations endpoint
@@ -61,15 +63,13 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`country`](../interfaces/IContentAnalysisSearchLiveItem.md#country)
 
-#### Defined in
-
-main.ts:166332
-
 ***
 
 ### domain?
 
 > `optional` **domain**: `string`
+
+Defined in: main.ts:177998
 
 domain name
 
@@ -77,15 +77,13 @@ domain name
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`domain`](../interfaces/IContentAnalysisSearchLiveItem.md#domain)
 
-#### Defined in
-
-main.ts:166308
-
 ***
 
 ### domain\_rank?
 
 > `optional` **domain\_rank**: `string`
+
+Defined in: main.ts:178014
 
 rank of the domain
 this value is based on backlink data for the given domain from DataForSEO Backlink Index;
@@ -96,15 +94,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`domain_rank`](../interfaces/IContentAnalysisSearchLiveItem.md#domain_rank)
 
-#### Defined in
-
-main.ts:166324
-
 ***
 
 ### fetch\_time?
 
 > `optional` **fetch\_time**: `string`
+
+Defined in: main.ts:178019
 
 date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -115,15 +111,13 @@ example:
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`fetch_time`](../interfaces/IContentAnalysisSearchLiveItem.md#fetch_time)
 
-#### Defined in
-
-main.ts:166329
-
 ***
 
 ### language?
 
 > `optional` **language**: `string`
+
+Defined in: main.ts:178025
 
 main language of the domain
 to obtain a full list of available languages, refer to the Languages endpoint
@@ -132,15 +126,13 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`language`](../interfaces/IContentAnalysisSearchLiveItem.md#language)
 
-#### Defined in
-
-main.ts:166335
-
 ***
 
 ### main\_domain?
 
 > `optional` **main\_domain**: `string`
+
+Defined in: main.ts:178000
 
 main domain
 
@@ -148,15 +140,13 @@ main domain
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`main_domain`](../interfaces/IContentAnalysisSearchLiveItem.md#main_domain)
 
-#### Defined in
-
-main.ts:166310
-
 ***
 
 ### page\_category?
 
 > `optional` **page\_category**: `number`[]
+
+Defined in: main.ts:178033
 
 contains all relevant page categories
 product and service categories relevant for the page
@@ -166,15 +156,13 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`page_category`](../interfaces/IContentAnalysisSearchLiveItem.md#page_category)
 
-#### Defined in
-
-main.ts:166343
-
 ***
 
 ### page\_types?
 
 > `optional` **page\_types**: `string`[]
+
+Defined in: main.ts:178035
 
 page types
 
@@ -182,15 +170,13 @@ page types
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`page_types`](../interfaces/IContentAnalysisSearchLiveItem.md#page_types)
 
-#### Defined in
-
-main.ts:166345
-
 ***
 
 ### ratings?
 
 > `optional` **ratings**: [`RatingInfo`](RatingInfo.md)[]
+
+Defined in: main.ts:178038
 
 ratings found on the page
 all ratings found on the page based on microdata
@@ -199,15 +185,13 @@ all ratings found on the page based on microdata
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`ratings`](../interfaces/IContentAnalysisSearchLiveItem.md#ratings)
 
-#### Defined in
-
-main.ts:166348
-
 ***
 
 ### score?
 
 > `optional` **score**: `string`
+
+Defined in: main.ts:178029
 
 citation prominence score
 this value is based on url_rank, domain_rank, keyword presence in title, main_title, url, snippet
@@ -217,15 +201,13 @@ the higher the score, the more value the related citation has
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`score`](../interfaces/IContentAnalysisSearchLiveItem.md#score)
 
-#### Defined in
-
-main.ts:166339
-
 ***
 
 ### social\_metrics?
 
 > `optional` **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
+
+Defined in: main.ts:178041
 
 social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms
@@ -234,15 +216,13 @@ data on social media interactions associated with the content based on website e
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`social_metrics`](../interfaces/IContentAnalysisSearchLiveItem.md#social_metrics)
 
-#### Defined in
-
-main.ts:166351
-
 ***
 
 ### spam\_score?
 
 > `optional` **spam\_score**: `string`
+
+Defined in: main.ts:178009
 
 backlink spam score of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
@@ -252,15 +232,13 @@ learn more about how the metric is calculated on this help center page
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`spam_score`](../interfaces/IContentAnalysisSearchLiveItem.md#spam_score)
 
-#### Defined in
-
-main.ts:166319
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:177994
 
 type of element
 
@@ -268,15 +246,13 @@ type of element
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`type`](../interfaces/IContentAnalysisSearchLiveItem.md#type)
 
-#### Defined in
-
-main.ts:166304
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:177996
 
 URL where the citation was found
 
@@ -284,15 +260,13 @@ URL where the citation was found
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`url`](../interfaces/IContentAnalysisSearchLiveItem.md#url)
 
-#### Defined in
-
-main.ts:166306
-
 ***
 
 ### url\_rank?
 
 > `optional` **url\_rank**: `number`
+
+Defined in: main.ts:178005
 
 rank of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
@@ -303,27 +277,23 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`url_rank`](../interfaces/IContentAnalysisSearchLiveItem.md#url_rank)
 
-#### Defined in
-
-main.ts:166315
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:178056
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:166366
 
 ***
 
@@ -331,17 +301,17 @@ main.ts:166366
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:178104
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:166414
 
 ***
 
@@ -349,14 +319,14 @@ main.ts:166414
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
 
+Defined in: main.ts:178097
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
-
-#### Defined in
-
-main.ts:166407

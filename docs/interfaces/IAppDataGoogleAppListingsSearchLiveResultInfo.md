@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppListingsSearchLiveResultInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveResultInfo
 
+Defined in: main.ts:204610
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:204614
+
 the number of items in the results array
-
-#### Defined in
-
-main.ts:192177
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:192177
 
 > `optional` **items**: [`AppDataGoogleAppListingsSearchLiveItem`](../classes/AppDataGoogleAppListingsSearchLiveItem.md)[]
 
+Defined in: main.ts:204621
+
 array of apps and related data
-
-#### Defined in
-
-main.ts:192184
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:192184
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:204616
+
 offset in the results array of returned apps
-
-#### Defined in
-
-main.ts:192179
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:192179
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:204619
+
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
-
-#### Defined in
-
-main.ts:192182
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:192182
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:204612
+
 the total number of relevant results in the database
-
-#### Defined in
-
-main.ts:192175

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+
+Defined in: main.ts:231388
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231401
+
 #### Parameters
 
-• **data?**: [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216341
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216341
 
 > `optional` **aggregation\_technologies**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231394
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`aggregation_technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#aggregation_technologies)
-
-#### Defined in
-
-main.ts:216334
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216334
 
 > `optional` **domain\_technologies**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231389
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`domain_technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domain_technologies)
-
-#### Defined in
-
-main.ts:216329
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:216329
 
 > `optional` **domains\_by\_html\_terms**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231396
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`domains_by_html_terms`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domains_by_html_terms)
-
-#### Defined in
-
-main.ts:216336
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:216336
 
 > `optional` **domains\_by\_technology**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231390
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`domains_by_technology`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#domains_by_technology)
-
-#### Defined in
-
-main.ts:216330
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:216330
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:231391
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#languages)
-
-#### Defined in
-
-main.ts:216331
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:216331
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:231392
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#locations)
-
-#### Defined in
-
-main.ts:216332
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:216332
 
 > `optional` **technologies**: `number`
 
+Defined in: main.ts:231393
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`technologies`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technologies)
-
-#### Defined in
-
-main.ts:216333
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:216333
 
 > `optional` **technologies\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231395
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`technologies_summary`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technologies_summary)
-
-#### Defined in
-
-main.ts:216335
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:216335
 
 > `optional` **technology\_stats**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231397
+
 #### Implementation of
 
 [`IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md).[`technology_stats`](../interfaces/IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md#technology_stats)
-
-#### Defined in
-
-main.ts:216337
 
 ## Methods
 
@@ -164,17 +148,17 @@ main.ts:216337
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231410
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216350
 
 ***
 
@@ -182,17 +166,17 @@ main.ts:216350
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231435
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216375
 
 ***
 
@@ -200,14 +184,14 @@ main.ts:216375
 
 > `static` **fromJS**(`data`): [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231428
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216368

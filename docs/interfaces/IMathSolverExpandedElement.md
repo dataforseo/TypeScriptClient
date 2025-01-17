@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMathSolverExpandedElement
+[Documentation](../README.md) / IMathSolverExpandedElement
 
 # Interface: IMathSolverExpandedElement
 
+Defined in: main.ts:36227
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **solution**: `string`[]
 
+Defined in: main.ts:36234
+
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
-
-#### Defined in
-
-main.ts:34522
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:34522
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:36231
+
 title of the carousel item
-
-#### Defined in
-
-main.ts:34519
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:34519
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:36229
+
 type of element
-
-#### Defined in
-
-main.ts:34517

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixLighthouseOnPageDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixLighthouseOnPageDayStatisticsRatesData
 
 # Interface: IAppendixLighthouseOnPageDayStatisticsRatesData
 
+Defined in: main.ts:234044
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **audits**: `number`
 
-#### Defined in
-
-main.ts:218950
+Defined in: main.ts:234049
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:218950
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:218949
+Defined in: main.ts:234050
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:218949
 
 > `optional` **live**: `number`
 
-#### Defined in
-
-main.ts:218948
+Defined in: main.ts:234048
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:218948
 
 > `optional` **task\_get**: `number`
 
-#### Defined in
-
-main.ts:218947
+Defined in: main.ts:234047
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:218947
 
 > `optional` **task\_post**: `number`
 
-#### Defined in
-
-main.ts:218945
+Defined in: main.ts:234045
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:218945
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:218946
+Defined in: main.ts:234046
 
 ***
 
@@ -76,6 +66,4 @@ main.ts:218946
 
 > `optional` **versions**: `number`
 
-#### Defined in
-
-main.ts:218951
+Defined in: main.ts:234051

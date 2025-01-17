@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetSearchTasksFixedResultInfo
+[Documentation](../README.md) / ISerpGoogleDatasetSearchTasksFixedResultInfo
 
 # Interface: ISerpGoogleDatasetSearchTasksFixedResultInfo
 
+Defined in: main.ts:57512
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:57522
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:53760
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:53760
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:57530
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:53768
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:53768
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:57533
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:53771
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:53771
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:57527
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:53765
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:53765
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:57515
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:53753
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:53753
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:57517
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:53755
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:53755
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:57520
+
 type of search engine
 can take the following values: dataset_search
-
-#### Defined in
-
-main.ts:53758
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:53758
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:57524
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:53762

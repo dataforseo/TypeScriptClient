@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoCommentsTasksFixedResultInfo
+[Documentation](../README.md) / SerpYoutubeVideoCommentsTasksFixedResultInfo
 
 # Class: SerpYoutubeVideoCommentsTasksFixedResultInfo
+
+Defined in: main.ts:73590
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpYoutubeVideoCommentsTasksFixedResultInfo**(`data`?): [`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
 
+Defined in: main.ts:73615
+
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
-
-#### Defined in
-
-main.ts:65360
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:65360
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:73600
+
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
 [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
-
-main.ts:65345
-
 ***
 
 ### endpoint\_advanced?
 
 > `optional` **endpoint\_advanced**: `string`
+
+Defined in: main.ts:73608
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -61,15 +63,13 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
-
-main.ts:65353
-
 ***
 
 ### endpoint\_html?
 
 > `optional` **endpoint\_html**: `string`
+
+Defined in: main.ts:73611
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -78,15 +78,13 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
-
-main.ts:65356
-
 ***
 
 ### endpoint\_regular?
 
 > `optional` **endpoint\_regular**: `string`
+
+Defined in: main.ts:73605
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -95,15 +93,13 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
-
-main.ts:65350
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:73593
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -112,15 +108,13 @@ unique task identifier in our system in the UUID format
 
 [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md).[`id`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#id)
 
-#### Defined in
-
-main.ts:65338
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:73595
 
 search engine specified when setting the task
 
@@ -128,15 +122,13 @@ search engine specified when setting the task
 
 [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md).[`se`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#se)
 
-#### Defined in
-
-main.ts:65340
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:73598
 
 type of search engine
 can take the following values: video_comments
@@ -145,15 +137,13 @@ can take the following values: video_comments
 
 [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:65343
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:73602
 
 user-defined task identifier
 
@@ -161,27 +151,23 @@ user-defined task identifier
 
 [`ISerpYoutubeVideoCommentsTasksFixedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoCommentsTasksFixedResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:65347
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:73624
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:65369
 
 ***
 
@@ -189,17 +175,17 @@ main.ts:65369
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:73648
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:65393
 
 ***
 
@@ -207,14 +193,14 @@ main.ts:65393
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
 
+Defined in: main.ts:73641
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYoutubeVideoCommentsTasksFixedResultInfo`](SerpYoutubeVideoCommentsTasksFixedResultInfo.md)
-
-#### Defined in
-
-main.ts:65386

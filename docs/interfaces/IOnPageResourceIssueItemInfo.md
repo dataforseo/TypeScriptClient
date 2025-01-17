@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageResourceIssueItemInfo
+[Documentation](../README.md) / IOnPageResourceIssueItemInfo
 
 # Interface: IOnPageResourceIssueItemInfo
 
+Defined in: main.ts:166623
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **column**: `number`
 
+Defined in: main.ts:166627
+
 column where the error was found
-
-#### Defined in
-
-main.ts:154899
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:154899
 
 > `optional` **line**: `number`
 
+Defined in: main.ts:166625
+
 line where the error was found
-
-#### Defined in
-
-main.ts:154897
 
 ***
 
@@ -40,18 +38,18 @@ main.ts:154897
 
 > `optional` **message**: `string`
 
+Defined in: main.ts:166630
+
 text message of the error
 the full list of possible HTML errors can be found here
-
-#### Defined in
-
-main.ts:154902
 
 ***
 
 ### status\_code?
 
 > `optional` **status\_code**: `number`
+
+Defined in: main.ts:166641
 
 status code of the error
 possible values:
@@ -63,7 +61,3 @@ possible values:
 3502 — Image Scale Is Zero;
 3503 — Image Size Is Zero;
 3504 — Image Format Invalid
-
-#### Defined in
-
-main.ts:154913

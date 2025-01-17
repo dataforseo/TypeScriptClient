@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorLocationsCountryResultInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorLocationsCountryResultInfo
 
 # Interface: IBusinessDataTripadvisorLocationsCountryResultInfo
 
+Defined in: main.ts:227407
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:227419
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:212385
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:212385
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:227409
+
 location code
-
-#### Defined in
-
-main.ts:212375
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:212375
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:227411
+
 full name of the location
-
-#### Defined in
-
-main.ts:212377
 
 ***
 
@@ -52,15 +48,13 @@ main.ts:212377
 
 > `optional` **location\_name\_parent**: `string`
 
+Defined in: main.ts:227417
+
 the name of the superordinate location
 example:
 "location_code": 9041134,
 "location_name": "Vienna International Airport,Lower Austria,Austria",
 "location_name_parent": "Lower Austria,Austria"
-
-#### Defined in
-
-main.ts:212383
 
 ***
 
@@ -68,8 +62,6 @@ main.ts:212383
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:227421
+
 location type
-
-#### Defined in
-
-main.ts:212387

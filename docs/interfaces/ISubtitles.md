@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISubtitles
+[Documentation](../README.md) / ISubtitles
 
 # Interface: ISubtitles
 
+Defined in: main.ts:70362
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **is\_auto\_generated**: `boolean`
 
+Defined in: main.ts:70368
+
 defines if subtitles are auto generated
-
-#### Defined in
-
-main.ts:62153
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:62153
 
 > `optional` **is\_translatable**: `boolean`
 
+Defined in: main.ts:70366
+
 defines if subtitles are translatable
-
-#### Defined in
-
-main.ts:62151
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:62151
 
 > `optional` **language**: `string`
 
+Defined in: main.ts:70364
+
 language of subtitles
-
-#### Defined in
-
-main.ts:62149

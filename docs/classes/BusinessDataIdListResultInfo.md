@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataIdListResultInfo
+[Documentation](../README.md) / BusinessDataIdListResultInfo
 
 # Class: BusinessDataIdListResultInfo
+
+Defined in: main.ts:209502
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataIdListResultInfo**(`data`?): [`BusinessDataIdListResultInfo`](BusinessDataIdListResultInfo.md)
 
+Defined in: main.ts:209528
+
 #### Parameters
 
-• **data?**: [`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md)
+##### data?
+
+[`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md)
 
 #### Returns
 
 [`BusinessDataIdListResultInfo`](BusinessDataIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:197077
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:197077
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:209522
+
 cost of the task, USD
 
 #### Implementation of
 
 [`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md).[`cost`](../interfaces/IBusinessDataIdListResultInfo.md#cost)
 
-#### Defined in
-
-main.ts:197071
-
 ***
 
 ### datetime\_done?
 
 > `optional` **datetime\_done**: `string`
+
+Defined in: main.ts:209517
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md).[`datetime_done`](../interfaces/IBusinessDataIdListResultInfo.md#datetime_done)
 
-#### Defined in
-
-main.ts:197066
-
 ***
 
 ### datetime\_posted?
 
 > `optional` **datetime\_posted**: `string`
+
+Defined in: main.ts:209512
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,13 @@ example:
 
 [`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md).[`datetime_posted`](../interfaces/IBusinessDataIdListResultInfo.md#datetime_posted)
 
-#### Defined in
-
-main.ts:197061
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:209504
 
 id of the task
 
@@ -98,35 +96,31 @@ id of the task
 
 [`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md).[`id`](../interfaces/IBusinessDataIdListResultInfo.md#id)
 
-#### Defined in
-
-main.ts:197053
-
 ***
 
 ### metadata?
 
 > `optional` **metadata**: `object`
 
+Defined in: main.ts:209524
+
 contains parameters you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md).[`metadata`](../interfaces/IBusinessDataIdListResultInfo.md#metadata)
-
-#### Defined in
-
-main.ts:197073
 
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:209520
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +129,13 @@ you can find the full list of general informational messages here
 
 [`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md).[`status`](../interfaces/IBusinessDataIdListResultInfo.md#status)
 
-#### Defined in
-
-main.ts:197069
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:209507
 
 URL of the task
 URL you used for making an API call
@@ -152,27 +144,23 @@ URL you used for making an API call
 
 [`IBusinessDataIdListResultInfo`](../interfaces/IBusinessDataIdListResultInfo.md).[`url`](../interfaces/IBusinessDataIdListResultInfo.md#url)
 
-#### Defined in
-
-main.ts:197056
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:209537
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:197086
 
 ***
 
@@ -180,17 +168,17 @@ main.ts:197086
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:209566
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:197115
 
 ***
 
@@ -198,14 +186,14 @@ main.ts:197115
 
 > `static` **fromJS**(`data`): [`BusinessDataIdListResultInfo`](BusinessDataIdListResultInfo.md)
 
+Defined in: main.ts:209559
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataIdListResultInfo`](BusinessDataIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:197108

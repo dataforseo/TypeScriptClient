@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseYoutubeSerpElementItem
+[Documentation](../README.md) / BaseYoutubeSerpElementItem
 
 # Class: BaseYoutubeSerpElementItem
+
+Defined in: main.ts:70459
 
 ## Extended by
 
@@ -22,17 +24,17 @@
 
 > **new BaseYoutubeSerpElementItem**(`data`?): [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
 
+Defined in: main.ts:70472
+
 #### Parameters
 
-• **data?**: [`IBaseYoutubeSerpElementItem`](../interfaces/IBaseYoutubeSerpElementItem.md)
+##### data?
+
+[`IBaseYoutubeSerpElementItem`](../interfaces/IBaseYoutubeSerpElementItem.md)
 
 #### Returns
 
 [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
-
-#### Defined in
-
-main.ts:62257
 
 ## Properties
 
@@ -40,15 +42,15 @@ main.ts:62257
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:62255
+Defined in: main.ts:70470
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:70468
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -57,15 +59,13 @@ absolute position among all the elements in SERP
 
 [`IBaseYoutubeSerpElementItem`](../interfaces/IBaseYoutubeSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseYoutubeSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:62253
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:70465
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,15 +75,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseYoutubeSerpElementItem`](../interfaces/IBaseYoutubeSerpElementItem.md).[`rank_group`](../interfaces/IBaseYoutubeSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:62250
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:70461
 
 type of element
 
@@ -91,27 +89,23 @@ type of element
 
 [`IBaseYoutubeSerpElementItem`](../interfaces/IBaseYoutubeSerpElementItem.md).[`type`](../interfaces/IBaseYoutubeSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:62246
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:70482
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:62267
 
 ***
 
@@ -119,17 +113,17 @@ main.ts:62267
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:70512
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:62297
 
 ***
 
@@ -137,14 +131,14 @@ main.ts:62297
 
 > `static` **fromJS**(`data`): [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
 
+Defined in: main.ts:70490
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
-
-#### Defined in
-
-main.ts:62275

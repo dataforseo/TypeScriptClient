@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateTextLiveRequestInfo
+[Documentation](../README.md) / IContentGenerationGenerateTextLiveRequestInfo
 
 # Interface: IContentGenerationGenerateTextLiveRequestInfo
 
+Defined in: main.ts:181683
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### creativity\_index?
 
 > `optional` **creativity\_index**: `number`
+
+Defined in: main.ts:181717
 
 creativity of content generation
 optional field
@@ -23,24 +27,18 @@ can take values from 0 to 1
 default value: 0.8
 learn more about this parameter on our help center
 
-#### Defined in
-
-main.ts:170027
-
 ***
 
 ### description?
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:181704
+
 meta description of the content to generate
 optional field
 can contain from 1 to 1000 tokens
 learn more about this parameter on our help center
-
-#### Defined in
-
-main.ts:170014
 
 ***
 
@@ -48,13 +46,11 @@ main.ts:170014
 
 > `optional` **include\_conclusion**: `boolean`
 
+Defined in: main.ts:181721
+
 include conclusion in generated text
 optional field
 if set to true, generated content will include a logical conclusion
-
-#### Defined in
-
-main.ts:170031
 
 ***
 
@@ -62,15 +58,13 @@ main.ts:170031
 
 > `optional` **meta\_keywords**: `string`[]
 
+Defined in: main.ts:181710
+
 keywords for the content to generate
 optional field
 can contain up to 10 terms;
 learn more about this parameter on our help center
 example: "meta_keywords": ["iPhone","sell","CEO"]
-
-#### Defined in
-
-main.ts:170020
 
 ***
 
@@ -78,15 +72,13 @@ main.ts:170020
 
 > `optional` **sub\_topics**: `string`[]
 
+Defined in: main.ts:181699
+
 secondary topics of the content to generate
 optional field
 secondary topics for generating content;
 can contain up to 10 terms;
 example: "sub_topics": ["Apple","Pixar","Amazing Products"]
-
-#### Defined in
-
-main.ts:170009
 
 ***
 
@@ -94,15 +86,13 @@ main.ts:170009
 
 > `optional` **supplement\_token**: `string`
 
+Defined in: main.ts:181727
+
 token for generating subsequent results
 optional field
 provided in the identical filed of the response to each request;
 you can use this parameter to continue the generation of text from the initial response
 supplement_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:170037
 
 ***
 
@@ -110,15 +100,13 @@ main.ts:170037
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:181733
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:170043
 
 ***
 
@@ -126,14 +114,12 @@ main.ts:170043
 
 > `optional` **topic**: `string`
 
+Defined in: main.ts:181688
+
 main topic of the content to generate
 required field
 main topic for generating content;
 can contain from 1 to 50 tokens
-
-#### Defined in
-
-main.ts:169998
 
 ***
 
@@ -141,11 +127,9 @@ main.ts:169998
 
 > `optional` **word\_count**: `number`
 
+Defined in: main.ts:181693
+
 number of words in content
 required field
 the number of tokens in the generated text;
 can take values from 1 to 1000
-
-#### Defined in
-
-main.ts:170003

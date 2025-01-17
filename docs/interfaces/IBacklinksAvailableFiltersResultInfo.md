@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksAvailableFiltersResultInfo
+[Documentation](../README.md) / IBacklinksAvailableFiltersResultInfo
 
 # Interface: IBacklinksAvailableFiltersResultInfo
 
+Defined in: main.ts:149633
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **anchors**: `object`
 
+Defined in: main.ts:149637
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138331
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -30,13 +30,11 @@ main.ts:138331
 
 > `optional` **backlinks**: `object`
 
+Defined in: main.ts:149635
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138329
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -44,13 +42,11 @@ main.ts:138329
 
 > `optional` **competitors**: `object`
 
+Defined in: main.ts:149643
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138337
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -58,13 +54,11 @@ main.ts:138337
 
 > `optional` **content\_duplicates**: `object`
 
+Defined in: main.ts:149634
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138328
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -72,13 +66,11 @@ main.ts:138328
 
 > `optional` **domain\_intersection**: `object`
 
+Defined in: main.ts:149639
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138333
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -86,13 +78,11 @@ main.ts:138333
 
 > `optional` **domain\_pages**: `object`
 
+Defined in: main.ts:149636
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138330
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -100,13 +90,11 @@ main.ts:138330
 
 > `optional` **domain\_pages\_summary**: `object`
 
+Defined in: main.ts:149642
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138336
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -114,13 +102,11 @@ main.ts:138336
 
 > `optional` **page\_intersection**: `object`
 
+Defined in: main.ts:149640
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138334
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -128,13 +114,11 @@ main.ts:138334
 
 > `optional` **referring\_domains**: `object`
 
+Defined in: main.ts:149638
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138332
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -142,10 +126,8 @@ main.ts:138332
 
 > `optional` **referring\_networks**: `object`
 
+Defined in: main.ts:149641
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:138335
+\[`key`: `string`\]: `string`

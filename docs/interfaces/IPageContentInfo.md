@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPageContentInfo
+[Documentation](../README.md) / IPageContentInfo
 
 # Interface: IPageContentInfo
 
+Defined in: main.ts:173547
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-content of the footer of the table
+Defined in: main.ts:173551
 
-#### Defined in
-
-main.ts:161837
+parsed content of the footer
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:161837
 
 > `optional` **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-parsed content of the header
+Defined in: main.ts:173549
 
-#### Defined in
-
-main.ts:161835
+content of the header of the table
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:161835
 
 > `optional` **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
+Defined in: main.ts:173554
+
 main topic on the page
 you can find more information about topic priority calculation in this help center article
-
-#### Defined in
-
-main.ts:161840
 
 ***
 
@@ -53,9 +49,7 @@ main.ts:161840
 
 > `optional` **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
+Defined in: main.ts:173557
+
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
-
-#### Defined in
-
-main.ts:161843

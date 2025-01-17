@@ -1,26 +1,26 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
+Defined in: main.ts:103695
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsGoogleDomainIntersectionLiveItem`](../classes/DataforseoLabsGoogleDomainIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](../classes/DataforseoLabsDomainIntersectionLiveItem.md)[]
+
+Defined in: main.ts:103711
 
 contains keywords, relevant SERP elements and related data
-
-#### Defined in
-
-main.ts:93892
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:93892
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:103709
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:93890
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:93890
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:103705
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:93886
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:93886
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:103703
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:93884
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:93884
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:103697
+
 search engine type
-
-#### Defined in
-
-main.ts:93878
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:93878
 
 > `optional` **target1**: `string`
 
+Defined in: main.ts:103699
+
 the first target domain in a POST array
-
-#### Defined in
-
-main.ts:93880
 
 ***
 
@@ -88,11 +78,9 @@ main.ts:93880
 
 > `optional` **target2**: `string`
 
+Defined in: main.ts:103701
+
 the second target domain in a POST array
-
-#### Defined in
-
-main.ts:93882
 
 ***
 
@@ -100,8 +88,6 @@ main.ts:93882
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:103707
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:93888

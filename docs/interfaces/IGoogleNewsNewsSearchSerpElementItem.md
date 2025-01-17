@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleNewsNewsSearchSerpElementItem
+[Documentation](../README.md) / IGoogleNewsNewsSearchSerpElementItem
 
 # Interface: IGoogleNewsNewsSearchSerpElementItem
+
+Defined in: main.ts:46280
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **domain**: `string`
 
-domain name of the result in SERP
+Defined in: main.ts:46282
 
-#### Defined in
-
-main.ts:44004
+domain in SERP
 
 ***
 
@@ -32,18 +32,18 @@ main.ts:44004
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:46287
+
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
-
-#### Defined in
-
-main.ts:44009
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:46204
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -52,15 +52,13 @@ absolute position among all the elements in SERP
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`rank_absolute`](IBaseGoogleNewsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:43926
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:46201
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -70,15 +68,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`rank_group`](IBaseGoogleNewsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:43923
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+
+Defined in: main.ts:46212
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -88,21 +84,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`rectangle`](IBaseGoogleNewsSerpElementItem.md#rectangle)
 
-#### Defined in
-
-main.ts:43934
-
 ***
 
 ### snippet?
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:46289
+
 snippet of the result in SERP
-
-#### Defined in
-
-main.ts:44011
 
 ***
 
@@ -110,11 +100,9 @@ main.ts:44011
 
 > `optional` **time\_published**: `string`
 
+Defined in: main.ts:46291
+
 indicates the time the result was published
-
-#### Defined in
-
-main.ts:44013
 
 ***
 
@@ -122,14 +110,12 @@ main.ts:44013
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:46296
+
 date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:44018
 
 ***
 
@@ -137,15 +123,13 @@ main.ts:44018
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+Defined in: main.ts:46208
+
+title of the element
 
 #### Inherited from
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`title`](IBaseGoogleNewsSerpElementItem.md#title)
-
-#### Defined in
-
-main.ts:43930
 
 ***
 
@@ -153,15 +137,13 @@ main.ts:43930
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:46197
+
 type of element
 
 #### Inherited from
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`type`](IBaseGoogleNewsSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:43919
 
 ***
 
@@ -169,11 +151,9 @@ main.ts:43919
 
 > `optional` **url**: `string`
 
-URL of the result in SERP
+Defined in: main.ts:46284
 
-#### Defined in
-
-main.ts:44006
+search URL with refinement parameters
 
 ***
 
@@ -181,12 +161,10 @@ main.ts:44006
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:46206
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`xpath`](IBaseGoogleNewsSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:43928

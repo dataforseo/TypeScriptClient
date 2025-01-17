@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILicensesElement
+[Documentation](../README.md) / ILicensesElement
 
 # Interface: ILicensesElement
 
+Defined in: main.ts:22189
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
-website domain
+Defined in: main.ts:22197
 
-#### Defined in
-
-main.ts:33970
+domain in SERP
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:33970
 
 > `optional` **title**: `string`
 
-title of a given link element
+Defined in: main.ts:22193
 
-#### Defined in
-
-main.ts:33966
+title of the element
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:33966
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22191
+
 type of element
-
-#### Defined in
-
-main.ts:33964
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:33964
 
 > `optional` **url**: `string`
 
-URL
+Defined in: main.ts:22195
 
-#### Defined in
-
-main.ts:33968
+search URL with refinement parameters

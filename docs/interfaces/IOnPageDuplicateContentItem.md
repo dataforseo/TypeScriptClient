@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageDuplicateContentItem
+[Documentation](../README.md) / IOnPageDuplicateContentItem
 
 # Interface: IOnPageDuplicateContentItem
 
+Defined in: main.ts:169099
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **pages**: [`Pages`](../classes/Pages.md)[]
 
+Defined in: main.ts:169105
+
 pages with duplicate content
-
-#### Defined in
-
-main.ts:157369
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:157369
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:169103
+
 total count of duplicate pages
-
-#### Defined in
-
-main.ts:157367
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:157367
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:169101
+
 URL of the specified page
-
-#### Defined in
-
-main.ts:157365

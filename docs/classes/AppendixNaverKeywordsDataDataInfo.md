@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixNaverKeywordsDataDataInfo
+[Documentation](../README.md) / AppendixNaverKeywordsDataDataInfo
 
 # Class: AppendixNaverKeywordsDataDataInfo
+
+Defined in: main.ts:232802
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixNaverKeywordsDataDataInfo**(`data`?): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
+Defined in: main.ts:232808
+
 #### Parameters
 
-• **data?**: [`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md)
+##### data?
+
+[`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md)
 
 #### Returns
 
 [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
-
-#### Defined in
-
-main.ts:217740
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:217740
 
 > `optional` **keywords\_for\_category**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232803
+
 #### Implementation of
 
 [`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md).[`keywords_for_category`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md#keywords_for_category)
-
-#### Defined in
-
-main.ts:217735
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:217735
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232804
+
 #### Implementation of
 
 [`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md).[`search_volume`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md#search_volume)
-
-#### Defined in
-
-main.ts:217736
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:217736
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:232817
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:217749
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:217749
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:232835
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:217767
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:217767
 
 > `static` **fromJS**(`data`): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
+Defined in: main.ts:232828
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
-
-#### Defined in
-
-main.ts:217760

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBaiduOrganicTasksFixedResultInfo
+[Documentation](../README.md) / SerpBaiduOrganicTasksFixedResultInfo
 
 # Class: SerpBaiduOrganicTasksFixedResultInfo
+
+Defined in: main.ts:79536
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpBaiduOrganicTasksFixedResultInfo**(`data`?): [`SerpBaiduOrganicTasksFixedResultInfo`](SerpBaiduOrganicTasksFixedResultInfo.md)
 
+Defined in: main.ts:79561
+
 #### Parameters
 
-• **data?**: [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md)
+##### data?
+
+[`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpBaiduOrganicTasksFixedResultInfo`](SerpBaiduOrganicTasksFixedResultInfo.md)
-
-#### Defined in
-
-main.ts:70110
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:70110
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:79546
+
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
 [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
-
-main.ts:70095
-
 ***
 
 ### endpoint\_advanced?
 
 > `optional` **endpoint\_advanced**: `string`
+
+Defined in: main.ts:79554
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -61,15 +63,13 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
-
-main.ts:70103
-
 ***
 
 ### endpoint\_html?
 
 > `optional` **endpoint\_html**: `string`
+
+Defined in: main.ts:79557
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -78,15 +78,13 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
-
-main.ts:70106
-
 ***
 
 ### endpoint\_regular?
 
 > `optional` **endpoint\_regular**: `string`
+
+Defined in: main.ts:79551
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -95,15 +93,13 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
-
-main.ts:70100
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:79539
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -112,15 +108,13 @@ unique task identifier in our system in the UUID format
 
 [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md).[`id`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md#id)
 
-#### Defined in
-
-main.ts:70088
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:79541
 
 search engine specified when setting the task
 
@@ -128,15 +122,13 @@ search engine specified when setting the task
 
 [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md).[`se`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md#se)
 
-#### Defined in
-
-main.ts:70090
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:79544
 
 type of search engine
 can take the following values: organic
@@ -145,15 +137,13 @@ can take the following values: organic
 
 [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:70093
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:79548
 
 user-defined task identifier
 
@@ -161,27 +151,23 @@ user-defined task identifier
 
 [`ISerpBaiduOrganicTasksFixedResultInfo`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpBaiduOrganicTasksFixedResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:70097
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:79570
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:70119
 
 ***
 
@@ -189,17 +175,17 @@ main.ts:70119
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:79594
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:70143
 
 ***
 
@@ -207,14 +193,14 @@ main.ts:70143
 
 > `static` **fromJS**(`data`): [`SerpBaiduOrganicTasksFixedResultInfo`](SerpBaiduOrganicTasksFixedResultInfo.md)
 
+Defined in: main.ts:79587
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpBaiduOrganicTasksFixedResultInfo`](SerpBaiduOrganicTasksFixedResultInfo.md)
-
-#### Defined in
-
-main.ts:70136

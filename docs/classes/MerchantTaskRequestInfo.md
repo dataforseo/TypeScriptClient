@@ -34,7 +34,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152949
+=======
+main.ts:152982
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -57,7 +61,11 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152876
+=======
+main.ts:152909
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -78,7 +86,11 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152809
+=======
+main.ts:152842
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -99,7 +111,11 @@ en
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152860
+=======
+main.ts:152893
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -120,7 +136,11 @@ English
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152853
+=======
+main.ts:152886
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -141,7 +161,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152837
+=======
+main.ts:152870
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -164,7 +188,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152846
+=======
+main.ts:152879
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -185,7 +213,11 @@ London,England,United Kingdom
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152830
+=======
+main.ts:152863
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -206,7 +238,11 @@ learn more at our help center
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152883
+=======
+main.ts:152916
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -230,7 +266,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152945
+=======
+main.ts:152978
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -250,7 +290,11 @@ advanced, html
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152935
+=======
+main.ts:152968
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -274,7 +318,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152929
+=======
+main.ts:152962
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -294,7 +342,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152906
+=======
+main.ts:152939
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -314,7 +366,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152900
+=======
+main.ts:152933
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -336,7 +392,11 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152823
+=======
+main.ts:152856
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -357,7 +417,11 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152867
+=======
+main.ts:152900
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -382,7 +446,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152894
+=======
+main.ts:152927
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -403,7 +471,11 @@ sort_by:"review_score"
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152913
+=======
+main.ts:152946
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -423,7 +495,11 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152919
+=======
+main.ts:152952
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -443,7 +519,11 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152815
+=======
+main.ts:152848
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -461,7 +541,11 @@ main.ts:152815
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152958
+=======
+main.ts:152991
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -479,7 +563,11 @@ main.ts:152958
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152993
+=======
+main.ts:153026
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -497,4 +585,8 @@ main.ts:152993
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:152986
+=======
+main.ts:153019
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

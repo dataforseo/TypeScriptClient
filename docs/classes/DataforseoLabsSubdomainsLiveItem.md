@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsSubdomainsLiveItem
+[Documentation](../README.md) / DataforseoLabsSubdomainsLiveItem
 
 # Class: DataforseoLabsSubdomainsLiveItem
+
+Defined in: main.ts:104146
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsSubdomainsLiveItem**(`data`?): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
+Defined in: main.ts:104156
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
-
-#### Defined in
-
-main.ts:94337
 
 ## Properties
 
@@ -38,19 +40,17 @@ main.ts:94337
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:104152
+
 ranking data relevant to subdomain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
 [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#metrics)
-
-#### Defined in
-
-main.ts:94333
 
 ***
 
@@ -58,15 +58,13 @@ main.ts:94333
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:104148
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#se_type)
-
-#### Defined in
-
-main.ts:94329
 
 ***
 
@@ -74,15 +72,13 @@ main.ts:94329
 
 > `optional` **subdomain**: `string`
 
+Defined in: main.ts:104150
+
 returned subdomain
 
 #### Implementation of
 
 [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`subdomain`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#subdomain)
-
-#### Defined in
-
-main.ts:94331
 
 ## Methods
 
@@ -90,17 +86,17 @@ main.ts:94331
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:104165
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:94346
 
 ***
 
@@ -108,17 +104,17 @@ main.ts:94346
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:104190
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:94371
 
 ***
 
@@ -126,14 +122,14 @@ main.ts:94371
 
 > `static` **fromJS**(`data`): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
+Defined in: main.ts:104183
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
-
-#### Defined in
-
-main.ts:94364

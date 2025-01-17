@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpSeznamLanguagesResultInfo
+[Documentation](../README.md) / SerpSeznamLanguagesResultInfo
 
 # Class: SerpSeznamLanguagesResultInfo
+
+Defined in: main.ts:82544
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpSeznamLanguagesResultInfo**(`data`?): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
+Defined in: main.ts:82552
+
 #### Parameters
 
-• **data?**: [`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md)
+##### data?
+
+[`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:72875
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:72875
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:82548
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpSeznamLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:72871
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:72871
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:82546
+
 language name
 
 #### Implementation of
 
 [`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpSeznamLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:72869
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:72869
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:82561
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:72884
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:72884
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:82579
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:72902
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:72902
 
 > `static` **fromJS**(`data`): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
+Defined in: main.ts:82572
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:72895

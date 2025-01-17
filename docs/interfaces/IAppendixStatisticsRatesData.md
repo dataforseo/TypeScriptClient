@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixStatisticsRatesData
+[Documentation](../README.md) / IAppendixStatisticsRatesData
 
 # Interface: IAppendixStatisticsRatesData
 
+Defined in: main.ts:235065
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,16 +18,12 @@
 
 > `optional` **day**: [`AppendixDayStatisticsRatesData`](../classes/AppendixDayStatisticsRatesData.md)
 
-#### Defined in
-
-main.ts:219966
+Defined in: main.ts:235066
 
 ***
 
 ### minute?
 
-> `optional` **minute**: [`AppendixMinuteStatisticsDataInfo`](../classes/AppendixMinuteStatisticsDataInfo.md)
+> `optional` **minute**: [`AppendixMinuteStatisticsRatesData`](../classes/AppendixMinuteStatisticsRatesData.md)
 
-#### Defined in
-
-main.ts:219967
+Defined in: main.ts:235067

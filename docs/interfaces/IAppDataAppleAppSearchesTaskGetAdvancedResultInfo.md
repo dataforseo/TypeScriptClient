@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
+Defined in: main.ts:205901
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:205912
+
 direct URL to search engine results
 in this case, the value will be null
-
-#### Defined in
-
-main.ts:193473
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:193473
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:205917
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:193478
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:193478
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
+Defined in: main.ts:205923
+
 found apps
-
-#### Defined in
-
-main.ts:193484
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:193484
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:205921
+
 the number of items in the results array
-
-#### Defined in
-
-main.ts:193482
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:193482
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:205903
+
 keyword received in a POST request
-
-#### Defined in
-
-main.ts:193464
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:193464
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:205909
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:193470
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:193470
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:205907
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:193468
 
 ***
 
@@ -104,11 +92,9 @@ main.ts:193468
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:205905
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:193466
 
 ***
 
@@ -116,8 +102,6 @@ main.ts:193466
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:205919
+
 the total number of results
-
-#### Defined in
-
-main.ts:193480

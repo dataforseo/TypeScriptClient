@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonLanguagesResultInfo
+[Documentation](../README.md) / MerchantAmazonLanguagesResultInfo
 
 # Class: MerchantAmazonLanguagesResultInfo
+
+Defined in: main.ts:191562
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MerchantAmazonLanguagesResultInfo**(`data`?): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
+Defined in: main.ts:191570
+
 #### Parameters
 
-• **data?**: [`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md)
+##### data?
+
+[`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:179728
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:179728
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:191566
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:179724
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:179724
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:191564
+
 language name
 
 #### Implementation of
 
 [`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md).[`language_name`](../interfaces/IMerchantAmazonLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:179722
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:179722
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:191579
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:179737
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:179737
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:191597
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:179755
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:179755
 
 > `static` **fromJS**(`data`): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
+Defined in: main.ts:191590
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:179748

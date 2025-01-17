@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleImagesTaskGetHtmlResultInfo
+[Documentation](../README.md) / SerpGoogleImagesTaskGetHtmlResultInfo
 
 # Class: SerpGoogleImagesTaskGetHtmlResultInfo
+
+Defined in: main.ts:51312
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleImagesTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleImagesTaskGetHtmlResultInfo`](SerpGoogleImagesTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:51336
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md)
+##### data?
+
+[`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleImagesTaskGetHtmlResultInfo`](SerpGoogleImagesTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:48136
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:51328
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:48128
-
 ***
 
 ### items?
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+
+Defined in: main.ts:51332
 
 elements of search results found in SERP
 
@@ -63,15 +65,13 @@ elements of search results found in SERP
 
 [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
-
-main.ts:48132
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:51330
 
 the number of results returned in the items array
 
@@ -79,15 +79,13 @@ the number of results returned in the items array
 
 [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:48130
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:51315
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -96,15 +94,13 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:48115
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:51323
 
 language code in a POST array
 
@@ -112,15 +108,13 @@ language code in a POST array
 
 [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:48123
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:51321
 
 location code in a POST array
 
@@ -128,15 +122,13 @@ location code in a POST array
 
 [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:48121
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:51319
 
 search engine domain in a POST array
 
@@ -144,15 +136,13 @@ search engine domain in a POST array
 
 [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:48119
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:51317
 
 type of element
 
@@ -160,27 +150,23 @@ type of element
 
 [`ISerpGoogleImagesTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpGoogleImagesTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
-
-main.ts:48117
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:51345
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:48145
 
 ***
 
@@ -188,17 +174,17 @@ main.ts:48145
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:51373
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:48173
 
 ***
 
@@ -206,14 +192,14 @@ main.ts:48173
 
 > `static` **fromJS**(`data`): [`SerpGoogleImagesTaskGetHtmlResultInfo`](SerpGoogleImagesTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:51366
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleImagesTaskGetHtmlResultInfo`](SerpGoogleImagesTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:48166

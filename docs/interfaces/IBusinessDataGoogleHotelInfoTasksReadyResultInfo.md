@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
+Defined in: main.ts:218865
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:218875
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:205419
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:205419
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:218879
+
 URL for collecting the results of the task
-
-#### Defined in
-
-main.ts:205423
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:205423
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:218881
+
 URL for collecting the results of the task
-
-#### Defined in
-
-main.ts:205425
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:205425
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:218868
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:205412
 
 ***
 
@@ -65,12 +59,10 @@ main.ts:205412
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:218871
+
 search engine specified when setting the task
 can take the following values: google
-
-#### Defined in
-
-main.ts:205415
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:205415
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:218873
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:205417
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:205417
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:218877
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:205421

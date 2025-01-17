@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppInfoTaskPostRequestInfo
+[Documentation](../README.md) / IAppDataGoogleAppInfoTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppInfoTaskPostRequestInfo
 
+Defined in: main.ts:201615
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### app\_id?
 
 > `optional` **app\_id**: `string`
+
+Defined in: main.ts:201623
 
 id of the app
 required field
@@ -24,26 +28,20 @@ example:
 in the URL https://play.google.com/store/apps/details?id=org.telegram.messenger
 the id is org.telegram.messenger
 
-#### Defined in
-
-main.ts:189186
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:201651
+
 search engine language code
-optional field
+required field if language_name is not specified
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
 en
-
-#### Defined in
-
-main.ts:189214
 
 ***
 
@@ -51,22 +49,22 @@ main.ts:189214
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:201644
+
 full name of search engine language
-optional field
+required field if language_code is not specified
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
 English
-
-#### Defined in
-
-main.ts:189207
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:201637
 
 search engine location code
 required field if you don’t specify location_name
@@ -75,15 +73,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 9061121
 
-#### Defined in
-
-main.ts:189200
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:201630
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -92,15 +88,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 West Los Angeles,California,United States
 
-#### Defined in
-
-main.ts:189193
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:201691
 
 notification URL of a completed task
 optional field
@@ -109,12 +103,8 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:189254
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 ***
 
@@ -122,21 +112,21 @@ main.ts:189254
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:201681
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Defined in
-
-main.ts:189244
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:201675
 
 return URL for sending task results
 optional field
@@ -145,18 +135,16 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:189238
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:201659
 
 task priority
 optional field
@@ -166,22 +154,16 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:189222
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:201665
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:189228

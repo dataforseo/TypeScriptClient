@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DemographyItemValueInfo
+[Documentation](../README.md) / DemographyItemValueInfo
 
 # Class: DemographyItemValueInfo
+
+Defined in: main.ts:137208
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DemographyItemValueInfo**(`data`?): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
+Defined in: main.ts:137220
+
 #### Parameters
 
-• **data?**: [`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md)
+##### data?
+
+[`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md)
 
 #### Returns
 
 [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
-
-#### Defined in
-
-main.ts:126862
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:126862
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:137210
+
 type of element
 
 #### Implementation of
 
 [`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md).[`type`](../interfaces/IDemographyItemValueInfo.md#type)
 
-#### Defined in
-
-main.ts:126852
-
 ***
 
 ### value?
 
 > `optional` **value**: `number`
+
+Defined in: main.ts:137216
 
 keyword popularity rate within the specified age range
 using this value you can understand how popular a keyword is within each age range;
@@ -64,27 +66,23 @@ a value of 0 means there was not enough data for this term
 
 [`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md).[`value`](../interfaces/IDemographyItemValueInfo.md#value)
 
-#### Defined in
-
-main.ts:126858
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:137229
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:126871
 
 ***
 
@@ -92,17 +90,17 @@ main.ts:126871
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:137247
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:126889
 
 ***
 
@@ -110,14 +108,14 @@ main.ts:126889
 
 > `static` **fromJS**(`data`): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
+Defined in: main.ts:137240
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
-
-#### Defined in
-
-main.ts:126882

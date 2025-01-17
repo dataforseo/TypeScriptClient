@@ -20,7 +20,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114598
+=======
+main.ts:114631
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -32,7 +36,11 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114600
+=======
+main.ts:114633
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -44,4 +52,8 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114596
+=======
+main.ts:114629
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

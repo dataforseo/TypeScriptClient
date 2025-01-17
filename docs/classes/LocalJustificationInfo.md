@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalJustificationInfo
+[Documentation](../README.md) / LocalJustificationInfo
 
 # Class: LocalJustificationInfo
+
+Defined in: main.ts:41563
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new LocalJustificationInfo**(`data`?): [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
+Defined in: main.ts:41571
+
 #### Parameters
 
-• **data?**: [`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md)
+##### data?
+
+[`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md)
 
 #### Returns
 
 [`LocalJustificationInfo`](LocalJustificationInfo.md)
-
-#### Defined in
-
-main.ts:39729
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:39729
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:41567
+
 text snippet of local justification
 
 #### Implementation of
 
 [`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md).[`text`](../interfaces/ILocalJustificationInfo.md#text)
-
-#### Defined in
-
-main.ts:39725
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:39725
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:41565
+
 type of element
 
 #### Implementation of
 
 [`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md).[`type`](../interfaces/ILocalJustificationInfo.md#type)
-
-#### Defined in
-
-main.ts:39723
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:39723
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:41580
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:39738
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:39738
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:41598
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:39756
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:39756
 
 > `static` **fromJS**(`data`): [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
+Defined in: main.ts:41591
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`LocalJustificationInfo`](LocalJustificationInfo.md)
-
-#### Defined in
-
-main.ts:39749

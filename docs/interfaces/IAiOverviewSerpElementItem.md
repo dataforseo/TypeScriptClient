@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAiOverviewSerpElementItem
+[Documentation](../README.md) / IAiOverviewSerpElementItem
 
 # Interface: IAiOverviewSerpElementItem
+
+Defined in: main.ts:38151
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,13 +22,11 @@
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
 
+Defined in: main.ts:38155
+
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
 if false, the ai_overview element is loaded from cache;
-
-#### Defined in
-
-main.ts:36636
 
 ***
 
@@ -34,18 +34,17 @@ main.ts:36636
 
 > `optional` **items**: [`AiOverviewElement`](../classes/AiOverviewElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+Defined in: main.ts:38157
 
-#### Defined in
-
-main.ts:36639
+contains arrays of specific images
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21404
 
 the alignment of the element in SERP
 can take the following values:
@@ -55,15 +54,13 @@ left, right
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20721
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21400
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -72,15 +69,13 @@ absolute position among all the elements in SERP
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20717
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21397
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -90,23 +85,17 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20714
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
+Defined in: main.ts:38164
+
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
-
-#### Defined in
-
-main.ts:36646
 
 ***
 
@@ -114,12 +103,10 @@ main.ts:36646
 
 > `optional` **references**: [`AiOverviewReference`](../classes/AiOverviewReference.md)[]
 
+Defined in: main.ts:38160
+
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
-
-#### Defined in
-
-main.ts:36642
 
 ***
 
@@ -127,15 +114,13 @@ main.ts:36642
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21393
+
 type of element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:20710
 
 ***
 
@@ -143,12 +128,10 @@ main.ts:20710
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21406
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:20723

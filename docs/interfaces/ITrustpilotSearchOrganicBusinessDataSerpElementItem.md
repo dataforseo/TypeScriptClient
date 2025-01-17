@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
+[Documentation](../README.md) / ITrustpilotSearchOrganicBusinessDataSerpElementItem
 
 # Interface: ITrustpilotSearchOrganicBusinessDataSerpElementItem
+
+Defined in: main.ts:225997
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:226001
+
 domain of the establishment
-
-#### Defined in
-
-main.ts:210971
 
 ***
 
@@ -32,21 +32,21 @@ main.ts:210971
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:22295
+
 absolute rank among all the elements
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21392
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22293
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -55,21 +55,15 @@ positions of elements with different type values are omitted from the rank_group
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21390
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:226007
+
 the rating score of the establishment submitted by reviewers
-
-#### Defined in
-
-main.ts:210977
 
 ***
 
@@ -77,11 +71,9 @@ main.ts:210977
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:226005
+
 the total number of reviews
-
-#### Defined in
-
-main.ts:210975
 
 ***
 
@@ -89,11 +81,9 @@ main.ts:210975
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:225999
+
 title of the establishment
-
-#### Defined in
-
-main.ts:210969
 
 ***
 
@@ -101,15 +91,13 @@ main.ts:210969
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22290
+
 type of element
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21387
 
 ***
 
@@ -117,8 +105,6 @@ main.ts:21387
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:226003
+
 URL to the establishment
-
-#### Defined in
-
-main.ts:210973

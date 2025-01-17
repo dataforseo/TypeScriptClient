@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LinkElement
+[Documentation](../README.md) / LinkElement
 
 # Class: LinkElement
+
+Defined in: main.ts:23525
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new LinkElement**(`data`?): [`LinkElement`](LinkElement.md)
 
+Defined in: main.ts:23543
+
 #### Parameters
 
-• **data?**: [`ILinkElement`](../interfaces/ILinkElement.md)
+##### data?
+
+[`ILinkElement`](../interfaces/ILinkElement.md)
 
 #### Returns
 
 [`LinkElement`](LinkElement.md)
-
-#### Defined in
-
-main.ts:22640
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:22640
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:23533
+
 description of the results element
 
 #### Implementation of
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`description`](../interfaces/ILinkElement.md#description)
-
-#### Defined in
-
-main.ts:22630
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:22630
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:23537
+
 domain where a link points
 
 #### Implementation of
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`domain`](../interfaces/ILinkElement.md#domain)
-
-#### Defined in
-
-main.ts:22634
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:22634
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:23531
+
 text alongside the link title
 
 #### Implementation of
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`snippet`](../interfaces/ILinkElement.md#snippet)
-
-#### Defined in
-
-main.ts:22628
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:22628
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:23529
+
 title of a given link element
 
 #### Implementation of
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`title`](../interfaces/ILinkElement.md#title)
-
-#### Defined in
-
-main.ts:22626
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:22626
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:23527
+
 type of element
 
 #### Implementation of
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`type`](../interfaces/ILinkElement.md#type)
-
-#### Defined in
-
-main.ts:22624
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:22624
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:23535
+
 URL
 
 #### Implementation of
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`url`](../interfaces/ILinkElement.md#url)
-
-#### Defined in
-
-main.ts:22632
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:22632
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:23539
+
 the XPath of the element
 
 #### Implementation of
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`xpath`](../interfaces/ILinkElement.md#xpath)
-
-#### Defined in
-
-main.ts:22636
 
 ## Methods
 
@@ -150,17 +138,17 @@ main.ts:22636
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:23552
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22649
 
 ***
 
@@ -168,17 +156,17 @@ main.ts:22649
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23575
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22672
 
 ***
 
@@ -186,14 +174,14 @@ main.ts:22672
 
 > `static` **fromJS**(`data`): [`LinkElement`](LinkElement.md)
 
+Defined in: main.ts:23568
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`LinkElement`](LinkElement.md)
-
-#### Defined in
-
-main.ts:22665

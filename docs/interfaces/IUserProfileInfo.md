@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IUserProfileInfo
+[Documentation](../README.md) / IUserProfileInfo
 
 # Interface: IUserProfileInfo
 
+Defined in: main.ts:195000
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **avatar**: `string`
 
+Defined in: main.ts:195004
+
 URL to the profile picture of the reviewer
-
-#### Defined in
-
-main.ts:185016
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:185016
 
 > `optional` **locations**: `string`
 
+Defined in: main.ts:195010
+
 country of the reviewer
-
-#### Defined in
-
-main.ts:185022
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:185022
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:195002
+
 the name of the reviewer
-
-#### Defined in
-
-main.ts:185014
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:185014
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:195008
+
 total number of reviews submitted by the reviewer
-
-#### Defined in
-
-main.ts:185020
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:185020
 
 > `optional` **url**: `string`
 
-URL to the reviewer’s profile
+Defined in: main.ts:195006
 
-#### Defined in
-
-main.ts:185018
+URL of the video

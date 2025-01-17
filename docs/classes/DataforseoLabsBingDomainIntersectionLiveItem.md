@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:107185
+=======
+main.ts:107218
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -47,7 +51,11 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:107178
+=======
+main.ts:107211
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -63,7 +71,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:107175
+=======
+main.ts:107208
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -81,7 +93,11 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:107173
+=======
+main.ts:107206
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -98,7 +114,11 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:107181
+=======
+main.ts:107214
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -116,7 +136,11 @@ main.ts:107181
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:107194
+=======
+main.ts:107227
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -134,7 +158,11 @@ main.ts:107194
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:107214
+=======
+main.ts:107247
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -152,4 +180,8 @@ main.ts:107214
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:107207
+=======
+main.ts:107240
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

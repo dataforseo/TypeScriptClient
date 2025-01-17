@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingLocalPackTaskGetHtmlResultInfo
+[Documentation](../README.md) / ISerpBingLocalPackTaskGetHtmlResultInfo
 
 # Interface: ISerpBingLocalPackTaskGetHtmlResultInfo
 
+Defined in: main.ts:67822
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:67838
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:60117
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:60117
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:67842
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:60121
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:60121
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:67840
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:60119
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:60119
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:67825
+
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:60104
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:60104
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:67833
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:60112
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:60112
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:67831
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:60110
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:60110
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:67829
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:60108
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:60108
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:67827
+
 type of element
-
-#### Defined in
-
-main.ts:60106

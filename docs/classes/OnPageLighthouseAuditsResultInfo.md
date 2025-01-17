@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseAuditsResultInfo
+[Documentation](../README.md) / OnPageLighthouseAuditsResultInfo
 
 # Class: OnPageLighthouseAuditsResultInfo
+
+Defined in: main.ts:175024
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageLighthouseAuditsResultInfo**(`data`?): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
+Defined in: main.ts:175032
+
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md)
+##### data?
+
+[`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md)
 
 #### Returns
 
 [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
-
-#### Defined in
-
-main.ts:163342
 
 ## Properties
 
 ### audits?
 
 > `optional` **audits**: `string`[]
+
+Defined in: main.ts:175028
 
 the list of available lighthouse audits
 an array containing the titles of available audits
@@ -46,27 +50,23 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 [`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md).[`audits`](../interfaces/IOnPageLighthouseAuditsResultInfo.md#audits)
 
-#### Defined in
-
-main.ts:163338
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:175041
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:163351
 
 ***
 
@@ -74,17 +74,17 @@ main.ts:163351
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:175062
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:163372
 
 ***
 
@@ -92,14 +92,14 @@ main.ts:163372
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
+Defined in: main.ts:175055
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
-
-#### Defined in
-
-main.ts:163365

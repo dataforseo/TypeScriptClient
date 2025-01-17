@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkSpamScoreLiveRequestInfo
+[Documentation](../README.md) / BacklinksBulkSpamScoreLiveRequestInfo
 
 # Class: BacklinksBulkSpamScoreLiveRequestInfo
+
+Defined in: main.ts:160944
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBulkSpamScoreLiveRequestInfo**(`data`?): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
+Defined in: main.ts:160973
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:149667
 
 ## Properties
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:160969
 
 user-defined task identifier
 optional field
@@ -48,15 +52,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:149663
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:160963
 
 domains, subdomains or webpages to get rank for
 required field
@@ -81,27 +83,23 @@ example:
 
 [`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md#targets)
 
-#### Defined in
-
-main.ts:149657
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:160982
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:149676
 
 ***
 
@@ -109,17 +107,17 @@ main.ts:149676
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:161004
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:149698
 
 ***
 
@@ -127,14 +125,14 @@ main.ts:149698
 
 > `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
+Defined in: main.ts:160997
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:149691

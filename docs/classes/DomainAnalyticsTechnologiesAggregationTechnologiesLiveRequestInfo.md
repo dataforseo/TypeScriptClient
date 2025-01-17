@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+
+Defined in: main.ts:85904
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
 
+Defined in: main.ts:86020
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:76282
 
 ## Properties
 
 ### category?
 
 > `optional` **category**: `string`
+
+Defined in: main.ts:85918
 
 id of the target technology category
 required field if you don’t specify group, keyword or technology
@@ -49,15 +53,13 @@ example:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`category`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#category)
 
-#### Defined in
-
-main.ts:76181
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:85954
 
 array of results filtering parameters
 optional field
@@ -77,15 +79,13 @@ example:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`filters`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:76216
-
 ***
 
 ### group?
 
 > `optional` **group**: `string`
+
+Defined in: main.ts:85911
 
 id of the target technology group
 required field if you don’t specify technology, category  or keyword
@@ -98,15 +98,13 @@ example:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`group`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#group)
 
-#### Defined in
-
-main.ts:76174
-
 ***
 
 ### internal\_categories\_list\_limit?
 
 > `optional` **internal\_categories\_list\_limit**: `number`
+
+Defined in: main.ts:85984
 
 maximum number of returned technology categories within the same group
 optional field
@@ -119,15 +117,13 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`internal_categories_list_limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_categories_list_limit)
 
-#### Defined in
-
-main.ts:76246
-
 ***
 
 ### internal\_groups\_list\_limit?
 
 > `optional` **internal\_groups\_list\_limit**: `number`
+
+Defined in: main.ts:85977
 
 maximum number of returned technology groups
 optional field
@@ -140,15 +136,13 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`internal_groups_list_limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_groups_list_limit)
 
-#### Defined in
-
-main.ts:76239
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:85999
 
 maximum number of items with identical "category", "group", and "technology"
 optional field
@@ -162,15 +156,13 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
-
-main.ts:76261
-
 ***
 
 ### internal\_technologies\_list\_limit?
 
 > `optional` **internal\_technologies\_list\_limit**: `number`
+
+Defined in: main.ts:85991
 
 maximum number of returned technologies within the same category
 optional field
@@ -183,15 +175,13 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`internal_technologies_list_limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_technologies_list_limit)
 
-#### Defined in
-
-main.ts:76253
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:85933
 
 target keyword in the domain’s meta keywords
 required field if you don’t specify group, category or technology
@@ -199,20 +189,19 @@ at least one field (group, category, keyword, technology) must be set
 UTF-8 encoding
 example:
 "seo"
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`keyword`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:76195
 
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:86004
 
 the maximum number of returned technologies
 optional field
@@ -223,15 +212,13 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:76266
-
 ***
 
 ### mode?
 
 > `optional` **mode**: `string`
+
+Defined in: main.ts:85940
 
 search mode
 optional field
@@ -244,15 +231,13 @@ default value: as_is
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`mode`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#mode)
 
-#### Defined in
-
-main.ts:76202
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:86010
 
 offset in the results array of returned domains
 optional field
@@ -264,15 +249,13 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`offset`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:76272
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:85970
 
 results sorting rules
 optional field
@@ -294,15 +277,13 @@ default value:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`order_by`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:76232
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:86016
 
 user-defined task identifier
 optional field
@@ -314,15 +295,13 @@ you will find the specified tag value in the data object of the response
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`tag`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:76278
-
 ***
 
 ### technology?
 
 > `optional` **technology**: `string`
+
+Defined in: main.ts:85925
 
 target technology
 required field if you don’t specify group, keyword or category
@@ -335,27 +314,23 @@ example:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`technology`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#technology)
 
-#### Defined in
-
-main.ts:76188
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:86029
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:76291
 
 ***
 
@@ -363,17 +338,17 @@ main.ts:76291
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:86067
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:76329
 
 ***
 
@@ -381,14 +356,14 @@ main.ts:76329
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
 
+Defined in: main.ts:86060
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:76322

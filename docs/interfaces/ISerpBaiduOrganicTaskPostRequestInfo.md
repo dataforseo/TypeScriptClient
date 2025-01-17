@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBaiduOrganicTaskPostRequestInfo
+[Documentation](../README.md) / ISerpBaiduOrganicTaskPostRequestInfo
 
 # Interface: ISerpBaiduOrganicTaskPostRequestInfo
 
+Defined in: main.ts:79091
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:79116
 
 parsing depth
 optional field
@@ -25,30 +29,26 @@ Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
-
-main.ts:69667
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:79164
+
 device type
 optional field
 can take the values: desktop, mobile, tablet
 default value: desktop
-
-#### Defined in
-
-main.ts:69715
 
 ***
 
 ### get\_website\_url?
 
 > `optional` **get\_website\_url**: `boolean`
+
+Defined in: main.ts:79181
 
 include direct URL for each ranked result
 optional field
@@ -58,26 +58,21 @@ for example:
 http://www.baidu.com/link?url=KQt6LSwU5OHnPtB8210R8flBP40grY6lTPxH_0UO7S2kgiZMTmw3ztV0hCo5c1kLdefault value: false
 Note: if set to true, the charge per task will be multiplied by 10 as our system runs a separate request for each ranked website to return its direct URL
 
-#### Defined in
-
-main.ts:69732
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:79099
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
-
-#### Defined in
-
-main.ts:69650
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -85,15 +80,13 @@ main.ts:69650
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:79135
+
 search engine language code
 required field if you don’t specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/baidu/languagesnote that the only language supported in Baidu search engine is Chinese (Simplified) with the zh_CN language code. However, Baidu may as well return results for queries in other languages, so specifying keyword in Chinese is not mandatory
 example:
 zh_CN
-
-#### Defined in
-
-main.ts:69686
 
 ***
 
@@ -101,21 +94,21 @@ main.ts:69686
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:79129
+
 full name of search engine language
 required field if you don’t specify language_code
 you can receive the list of available languages of the search engine with their language_name by making a separate request to the https://api.dataforseo.com/v3/serp/baidu/languagesnote that the only language supported in Baidu search engine is Chinese (Simplified). However, Baidu may as well return results for queries in other languages, so specifying keyword in Chinese is not mandatory
 example:
 Chinese (Simplified)
 
-#### Defined in
-
-main.ts:69680
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:79149
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -124,15 +117,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2156
 
-#### Defined in
-
-main.ts:69700
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:79159
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -144,15 +135,13 @@ the maximum value for “radius”: 199999 (mm)if you use this field, the return
 example:
 53.476225,-2.243572,200
 
-#### Defined in
-
-main.ts:69710
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:79142
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -161,15 +150,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 New York,New York,United States
 
-#### Defined in
-
-main.ts:69693
-
 ***
 
 ### max\_crawl\_pages?
 
 > `optional` **max\_crawl\_pages**: `number`
+
+Defined in: main.ts:79123
 
 page crawl limit
 optional field
@@ -178,15 +165,13 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
-
-main.ts:69674
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:79173
 
 device operating system
 optional field
@@ -197,15 +182,13 @@ default value: android
 if you specify tablet in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
-
-main.ts:69724
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:79215
 
 notification URL of a completed task
 optional field
@@ -214,12 +197,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:69764
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -227,21 +207,21 @@ main.ts:69764
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:79204
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 regular, html
 
-#### Defined in
-
-main.ts:69754
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:79198
 
 return URL for sending task results
 optional field
@@ -250,18 +230,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:69748
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:79107
 
 task priority
 optional field
@@ -271,22 +250,16 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:69658
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:79187
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:69738

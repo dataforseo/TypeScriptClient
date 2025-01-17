@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentAnalysisPriceData
+[Documentation](../README.md) / AppendixContentAnalysisPriceData
 
 # Class: AppendixContentAnalysisPriceData
+
+Defined in: main.ts:238118
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixContentAnalysisPriceData**(`data`?): [`AppendixContentAnalysisPriceData`](AppendixContentAnalysisPriceData.md)
 
+Defined in: main.ts:238132
+
 #### Parameters
 
-• **data?**: [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md)
+##### data?
+
+[`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md)
 
 #### Returns
 
 [`AppendixContentAnalysisPriceData`](AppendixContentAnalysisPriceData.md)
-
-#### Defined in
-
-main.ts:222844
 
 ## Properties
 
@@ -38,27 +40,23 @@ main.ts:222844
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:238119
+
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`categories`](../interfaces/IAppendixContentAnalysisPriceData.md#categories)
-
-#### Defined in
-
-main.ts:222831
 
 ***
 
 ### category\_trends?
 
-> `optional` **category\_trends**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **category\_trends**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238120
 
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`category_trends`](../interfaces/IAppendixContentAnalysisPriceData.md#category_trends)
-
-#### Defined in
-
-main.ts:222832
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:222832
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:238121
+
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`errors`](../interfaces/IAppendixContentAnalysisPriceData.md#errors)
-
-#### Defined in
-
-main.ts:222833
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:222833
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:238122
+
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`languages`](../interfaces/IAppendixContentAnalysisPriceData.md#languages)
-
-#### Defined in
-
-main.ts:222834
 
 ***
 
@@ -94,83 +88,71 @@ main.ts:222834
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:238123
+
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`locations`](../interfaces/IAppendixContentAnalysisPriceData.md#locations)
-
-#### Defined in
-
-main.ts:222835
 
 ***
 
 ### phrase\_trends?
 
-> `optional` **phrase\_trends**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **phrase\_trends**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238124
 
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`phrase_trends`](../interfaces/IAppendixContentAnalysisPriceData.md#phrase_trends)
 
-#### Defined in
-
-main.ts:222836
-
 ***
 
 ### rating\_distribution?
 
-> `optional` **rating\_distribution**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **rating\_distribution**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238125
 
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`rating_distribution`](../interfaces/IAppendixContentAnalysisPriceData.md#rating_distribution)
 
-#### Defined in
-
-main.ts:222837
-
 ***
 
 ### search?
 
-> `optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238126
 
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`search`](../interfaces/IAppendixContentAnalysisPriceData.md#search)
 
-#### Defined in
-
-main.ts:222838
-
 ***
 
 ### sentiment\_analysis?
 
-> `optional` **sentiment\_analysis**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **sentiment\_analysis**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238127
 
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`sentiment_analysis`](../interfaces/IAppendixContentAnalysisPriceData.md#sentiment_analysis)
 
-#### Defined in
-
-main.ts:222839
-
 ***
 
 ### summary?
 
-> `optional` **summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **summary**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238128
 
 #### Implementation of
 
 [`IAppendixContentAnalysisPriceData`](../interfaces/IAppendixContentAnalysisPriceData.md).[`summary`](../interfaces/IAppendixContentAnalysisPriceData.md#summary)
-
-#### Defined in
-
-main.ts:222840
 
 ## Methods
 
@@ -178,17 +160,17 @@ main.ts:222840
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:238141
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:222853
 
 ***
 
@@ -196,17 +178,17 @@ main.ts:222853
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:238167
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:222879
 
 ***
 
@@ -214,14 +196,14 @@ main.ts:222879
 
 > `static` **fromJS**(`data`): [`AppendixContentAnalysisPriceData`](AppendixContentAnalysisPriceData.md)
 
+Defined in: main.ts:238160
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixContentAnalysisPriceData`](AppendixContentAnalysisPriceData.md)
-
-#### Defined in
-
-main.ts:222872

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBingKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixBingKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixBingKeywordsDataLimitsRatesDataInfo
+
+Defined in: main.ts:230740
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,31 +22,53 @@
 
 > **new AppendixBingKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:230750
+
 #### Parameters
 
-• **data?**: [`IAppendixBingKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixBingKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:215704
-
 ## Properties
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
+
+Defined in: main.ts:230745
+
+#### Implementation of
+
+[`IAppendixBingKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md).[`audience_estimation`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md#audience_estimation)
+
+***
 
 ### keyword\_performance?
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230741
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md).[`keyword_performance`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md#keyword_performance)
 
-#### Defined in
+***
 
-main.ts:215697
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
+
+Defined in: main.ts:230746
+
+#### Implementation of
+
+[`IAppendixBingKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md#keyword_suggestions_for_url)
 
 ***
 
@@ -52,13 +76,11 @@ main.ts:215697
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230744
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md).[`keywords_for_keywords`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md#keywords_for_keywords)
-
-#### Defined in
-
-main.ts:215700
 
 ***
 
@@ -66,13 +88,11 @@ main.ts:215700
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230743
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md).[`keywords_for_site`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md#keywords_for_site)
-
-#### Defined in
-
-main.ts:215699
 
 ***
 
@@ -80,13 +100,11 @@ main.ts:215699
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230742
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md).[`search_volume`](../interfaces/IAppendixBingKeywordsDataLimitsRatesDataInfo.md#search_volume)
-
-#### Defined in
-
-main.ts:215698
 
 ## Methods
 
@@ -94,17 +112,17 @@ main.ts:215698
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:230759
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:215713
 
 ***
 
@@ -112,17 +130,17 @@ main.ts:215713
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:230781
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:215733
 
 ***
 
@@ -130,14 +148,14 @@ main.ts:215733
 
 > `static` **fromJS**(`data`): [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:230774
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:215726

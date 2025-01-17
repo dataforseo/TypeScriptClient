@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleSearchByImageTasksFixedResultInfo
+[Documentation](../README.md) / ISerpGoogleSearchByImageTasksFixedResultInfo
 
 # Interface: ISerpGoogleSearchByImageTasksFixedResultInfo
 
+Defined in: main.ts:53254
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:53264
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:49544
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:49544
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:53272
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:49552
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:49552
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:53275
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:49555
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:49555
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:53269
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:49549
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:49549
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:53257
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:49537
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:49537
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:53259
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:49539
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:49539
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:53262
+
 type of search engine
 can take the following values: search_by_image
-
-#### Defined in
-
-main.ts:49542
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:49542
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:53266
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:49546

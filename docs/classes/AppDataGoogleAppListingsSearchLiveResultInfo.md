@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveResultInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveResultInfo
+
+Defined in: main.ts:204542
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataGoogleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
+Defined in: main.ts:204557
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:192120
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:192120
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:204546
+
 the number of items in the results array
 
 #### Implementation of
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`count`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#count)
-
-#### Defined in
-
-main.ts:192109
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:192109
 
 > `optional` **items**: [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)[]
 
+Defined in: main.ts:204553
+
 array of apps and related data
 
 #### Implementation of
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`items`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:192116
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:192116
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:204548
+
 offset in the results array of returned apps
 
 #### Implementation of
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`offset`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset)
 
-#### Defined in
-
-main.ts:192111
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:204551
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -93,15 +91,13 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`offset_token`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:192114
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:204544
 
 the total number of relevant results in the database
 
@@ -109,27 +105,23 @@ the total number of relevant results in the database
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`total_count`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:192107
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:204566
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:192129
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:192129
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:204591
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:192154
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:192154
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
+Defined in: main.ts:204584
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:192147

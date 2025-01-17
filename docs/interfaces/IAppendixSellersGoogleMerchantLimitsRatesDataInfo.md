@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSellersGoogleMerchantLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 
 # Interface: IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 
+Defined in: main.ts:231579
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **ad\_url**: `number`
 
-#### Defined in
-
-main.ts:216523
+Defined in: main.ts:231583
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:216523
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Defined in
-
-main.ts:216522
+Defined in: main.ts:231582
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:216522
 
 > `optional` **task\_post**: `number`
 
-#### Defined in
-
-main.ts:216520
+Defined in: main.ts:231580
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:216520
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:216521
+Defined in: main.ts:231581

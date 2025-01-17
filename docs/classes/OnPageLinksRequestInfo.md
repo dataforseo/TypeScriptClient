@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLinksRequestInfo
+[Documentation](../README.md) / OnPageLinksRequestInfo
 
 # Class: OnPageLinksRequestInfo
+
+Defined in: main.ts:169298
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageLinksRequestInfo**(`data`?): [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
 
+Defined in: main.ts:169351
+
 #### Parameters
 
-• **data?**: [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md)
+##### data?
+
+[`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md)
 
 #### Returns
 
 [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
-
-#### Defined in
-
-main.ts:157615
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:169341
 
 array of results filtering parameters
 optional field
@@ -59,15 +63,13 @@ The full list of possible filters is available by this link.
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`filters`](../interfaces/IOnPageLinksRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:157605
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:169304
 
 ID of the task
 required field
@@ -79,15 +81,13 @@ example:
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`id`](../interfaces/IOnPageLinksRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:157568
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:169319
 
 the maximum number of returned links
 optional field
@@ -98,15 +98,13 @@ maximum value: 1000
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`limit`](../interfaces/IOnPageLinksRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:157583
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:169324
 
 offset in the results array of returned links
 optional field
@@ -117,15 +115,13 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`offset`](../interfaces/IOnPageLinksRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:157588
-
 ***
 
 ### page\_from?
 
 > `optional` **page\_from**: `string`
+
+Defined in: main.ts:169309
 
 relative page URL
 optional field
@@ -136,15 +132,13 @@ note that in this field you can specify relative URLs only
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`page_from`](../interfaces/IOnPageLinksRequestInfo.md#page_from)
 
-#### Defined in
-
-main.ts:157573
-
 ***
 
 ### page\_to?
 
 > `optional` **page\_to**: `string`
+
+Defined in: main.ts:169314
 
 relative page URL
 optional field
@@ -155,15 +149,13 @@ note that in this field you can specify relative URLs only
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`page_to`](../interfaces/IOnPageLinksRequestInfo.md#page_to)
 
-#### Defined in
-
-main.ts:157578
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:169347
 
 user-defined task identifier
 optional field
@@ -175,27 +167,23 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`tag`](../interfaces/IOnPageLinksRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:157611
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:169360
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:157624
 
 ***
 
@@ -203,17 +191,17 @@ main.ts:157624
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:169387
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:157651
 
 ***
 
@@ -221,14 +209,14 @@ main.ts:157651
 
 > `static` **fromJS**(`data`): [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
 
+Defined in: main.ts:169380
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
-
-#### Defined in
-
-main.ts:157644

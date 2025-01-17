@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetSearchLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleDatasetSearchLiveAdvancedResultInfo
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedResultInfo
+
+Defined in: main.ts:58570
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleDatasetSearchLiveAdvancedResultInfo**(`data`?): [`SerpGoogleDatasetSearchLiveAdvancedResultInfo`](SerpGoogleDatasetSearchLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:58604
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleDatasetSearchLiveAdvancedResultInfo`](SerpGoogleDatasetSearchLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:54900
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:58580
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:54878
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:58585
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:54883
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:58594
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -82,25 +82,19 @@ possible item type: dataset
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:54890
-
 ***
 
 ### items?
 
 > `optional` **items**: [`SerpGoogleDatasetAdvancedItem`](SerpGoogleDatasetAdvancedItem.md)[]
 
-elements of search results found in SERP
+Defined in: main.ts:58600
+
+items of the element
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#items)
-
-#### Defined in
-
-main.ts:54896
 
 ***
 
@@ -108,15 +102,13 @@ main.ts:54896
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:58598
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:54894
 
 ***
 
@@ -124,16 +116,14 @@ main.ts:54894
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:58573
+
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:54871
 
 ***
 
@@ -141,15 +131,27 @@ main.ts:54871
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:58577
+
 language code in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#language_code)
 
-#### Defined in
+***
 
-main.ts:54875
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:58590
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#refinement_chips)
 
 ***
 
@@ -157,15 +159,13 @@ main.ts:54875
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:58575
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:54873
 
 ***
 
@@ -173,21 +173,21 @@ main.ts:54873
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:58596
+
 total number of results in SERP
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:54892
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:58588
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -196,27 +196,23 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpGoogleDatasetSearchLiveAdvancedResultInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:54886
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:58613
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:54909
 
 ***
 
@@ -224,17 +220,17 @@ main.ts:54909
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:58648
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:54943
 
 ***
 
@@ -242,14 +238,14 @@ main.ts:54943
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedResultInfo`](SerpGoogleDatasetSearchLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:58641
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleDatasetSearchLiveAdvancedResultInfo`](SerpGoogleDatasetSearchLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:54936

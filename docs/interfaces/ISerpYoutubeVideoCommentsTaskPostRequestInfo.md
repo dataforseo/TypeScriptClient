@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
+Defined in: main.ts:73175
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:73235
 
 parsing depth
 optional field
@@ -25,29 +29,25 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
-
-main.ts:64982
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:73221
+
 device type
 optional field
 only value: desktop
-
-#### Defined in
-
-main.ts:64968
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:73217
 
 search engine language code
 required field if you don’t specify language_name
@@ -56,15 +56,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:64964
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:73210
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -73,15 +71,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:64957
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:73203
 
 search engine location code
 required field if you don’t specify location_name
@@ -90,15 +86,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:64950
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:73196
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -107,30 +101,26 @@ you can receive the list of available locations of the search engine with their 
 example:
 United States
 
-#### Defined in
-
-main.ts:64943
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
 
+Defined in: main.ts:73226
+
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
-
-#### Defined in
-
-main.ts:64973
 
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:73269
 
 notification URL of a completed task
 optional field
@@ -139,12 +129,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:65014
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -152,21 +139,21 @@ main.ts:65014
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:73258
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible value:
 advanced
 
-#### Defined in
-
-main.ts:65004
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:73252
 
 return URL for sending task results
 optional field
@@ -175,18 +162,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:64998
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:73189
 
 task priority
 optional field
@@ -196,15 +182,13 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:64936
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:73241
 
 user-defined task identifier
 optional field
@@ -212,22 +196,16 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:64988
-
 ***
 
 ### video\_id?
 
 > `optional` **video\_id**: `string`
 
+Defined in: main.ts:73181
+
 ID of the video
 required field
 you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic result
 example:
 vQXvyV0zIP4
-
-#### Defined in
-
-main.ts:64928

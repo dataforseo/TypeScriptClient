@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageRawHtmlResultInfo
+[Documentation](../README.md) / IOnPageRawHtmlResultInfo
 
 # Interface: IOnPageRawHtmlResultInfo
 
+Defined in: main.ts:172308
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:172311
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:160567
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:160567
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:172313
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:160569
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:160569
 
 > `optional` **items**: [`OnPageRawHtmlItem`](../classes/OnPageRawHtmlItem.md)
 
+Defined in: main.ts:172317
+
 items array
-
-#### Defined in
-
-main.ts:160573
 
 ***
 
@@ -53,8 +49,6 @@ main.ts:160573
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:172315
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:160571

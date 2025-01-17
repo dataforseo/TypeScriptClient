@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsDomainRankOverviewLiveItem
+[Documentation](../README.md) / IDataforseoLabsDomainRankOverviewLiveItem
 
 # Interface: IDataforseoLabsDomainRankOverviewLiveItem
 
+Defined in: main.ts:105279
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:105285
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:95466
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:95466
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:105283
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:95464
 
 ***
 
@@ -40,15 +38,13 @@ main.ts:95464
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:105287
+
 ranking data relevant to the specified domain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:95468
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 ***
 
@@ -56,8 +52,6 @@ main.ts:95468
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:105281
+
 search engine type
-
-#### Defined in
-
-main.ts:95462

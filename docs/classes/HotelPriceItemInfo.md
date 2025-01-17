@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelPriceItemInfo
+[Documentation](../README.md) / HotelPriceItemInfo
 
 # Class: HotelPriceItemInfo
+
+Defined in: main.ts:217090
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new HotelPriceItemInfo**(`data`?): [`HotelPriceItemInfo`](HotelPriceItemInfo.md)
 
+Defined in: main.ts:217119
+
 #### Parameters
 
-• **data?**: [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md)
+##### data?
+
+[`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md)
 
 #### Returns
 
 [`HotelPriceItemInfo`](HotelPriceItemInfo.md)
-
-#### Defined in
-
-main.ts:203852
 
 ## Properties
 
 ### currency?
 
 > `optional` **currency**: `string`
+
+Defined in: main.ts:217099
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -45,15 +49,13 @@ USD is applied by default, unless specified in the POST array
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`currency`](../interfaces/IHotelPriceItemInfo.md#currency)
 
-#### Defined in
-
-main.ts:203832
-
 ***
 
 ### domain?
 
 > `optional` **domain**: `string`
+
+Defined in: main.ts:217105
 
 third-party domain
 domain of the third-party website page with pricing information
@@ -62,15 +64,13 @@ domain of the third-party website page with pricing information
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`domain`](../interfaces/IHotelPriceItemInfo.md#domain)
 
-#### Defined in
-
-main.ts:203838
-
 ***
 
 ### free\_cancellation\_until?
 
 > `optional` **free\_cancellation\_until**: `string`
+
+Defined in: main.ts:217113
 
 date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -80,15 +80,13 @@ equals null if free cancellation is not available for the selected dates
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`free_cancellation_until`](../interfaces/IHotelPriceItemInfo.md#free_cancellation_until)
 
-#### Defined in
-
-main.ts:203846
-
 ***
 
 ### is\_paid?
 
 > `optional` **is\_paid**: `boolean`
+
+Defined in: main.ts:217109
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
@@ -98,15 +96,13 @@ if false, related hotel_search_item is an organic hotel listing
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`is_paid`](../interfaces/IHotelPriceItemInfo.md#is_paid)
 
-#### Defined in
-
-main.ts:203842
-
 ***
 
 ### offers?
 
 > `optional` **offers**: [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)[]
+
+Defined in: main.ts:217115
 
 featured price offers
 
@@ -114,15 +110,13 @@ featured price offers
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`offers`](../interfaces/IHotelPriceItemInfo.md#offers)
 
-#### Defined in
-
-main.ts:203848
-
 ***
 
 ### price?
 
 > `optional` **price**: `number`
+
+Defined in: main.ts:217096
 
 price per night
 
@@ -130,15 +124,13 @@ price per night
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`price`](../interfaces/IHotelPriceItemInfo.md#price)
 
-#### Defined in
-
-main.ts:203829
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:217094
 
 title of the hotel
 
@@ -146,15 +138,13 @@ title of the hotel
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`title`](../interfaces/IHotelPriceItemInfo.md#title)
 
-#### Defined in
-
-main.ts:203827
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:217092
 
 type of element
 
@@ -162,15 +152,13 @@ type of element
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`type`](../interfaces/IHotelPriceItemInfo.md#type)
 
-#### Defined in
-
-main.ts:203825
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:217102
 
 third-party page url
 URL to the third-party website page with pricing information
@@ -179,27 +167,23 @@ URL to the third-party website page with pricing information
 
 [`IHotelPriceItemInfo`](../interfaces/IHotelPriceItemInfo.md).[`url`](../interfaces/IHotelPriceItemInfo.md#url)
 
-#### Defined in
-
-main.ts:203835
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:217128
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:203861
 
 ***
 
@@ -207,17 +191,17 @@ main.ts:203861
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:217157
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:203890
 
 ***
 
@@ -225,14 +209,14 @@ main.ts:203890
 
 > `static` **fromJS**(`data`): [`HotelPriceItemInfo`](HotelPriceItemInfo.md)
 
+Defined in: main.ts:217150
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HotelPriceItemInfo`](HotelPriceItemInfo.md)
-
-#### Defined in
-
-main.ts:203883

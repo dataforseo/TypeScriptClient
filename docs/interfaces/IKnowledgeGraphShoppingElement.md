@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphShoppingElement
+[Documentation](../README.md) / IKnowledgeGraphShoppingElement
 
 # Interface: IKnowledgeGraphShoppingElement
 
+Defined in: main.ts:30447
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:30455
+
 website domain
-
-#### Defined in
-
-main.ts:28885
 
 ***
 
@@ -28,14 +28,12 @@ main.ts:28885
 
 > `optional` **marketplace**: `string`
 
+Defined in: main.ts:30467
+
 merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
 example:
 by Google
-
-#### Defined in
-
-main.ts:28897
 
 ***
 
@@ -43,12 +41,10 @@ main.ts:28897
 
 > `optional` **marketplace\_url**: `string`
 
+Defined in: main.ts:30470
+
 URL to the merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
-
-#### Defined in
-
-main.ts:28900
 
 ***
 
@@ -56,12 +52,10 @@ main.ts:28900
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:30458
+
 pricing details
 contains the pricing details of the product or service featured in the result
-
-#### Defined in
-
-main.ts:28888
 
 ***
 
@@ -69,11 +63,9 @@ main.ts:28888
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:30462
+
 text alongside the link title
-
-#### Defined in
-
-main.ts:28892
 
 ***
 
@@ -81,11 +73,9 @@ main.ts:28892
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:30460
+
 source of additional information about the result
-
-#### Defined in
-
-main.ts:28890
 
 ***
 
@@ -93,11 +83,9 @@ main.ts:28890
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:30451
+
 title of the result in SERP
-
-#### Defined in
-
-main.ts:28881
 
 ***
 
@@ -105,11 +93,9 @@ main.ts:28881
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:30449
+
 type of element
-
-#### Defined in
-
-main.ts:28879
 
 ***
 
@@ -117,8 +103,6 @@ main.ts:28879
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:30453
+
 relevant URL
-
-#### Defined in
-
-main.ts:28883

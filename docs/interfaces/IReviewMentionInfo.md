@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IReviewMentionInfo
+[Documentation](../README.md) / IReviewMentionInfo
 
 # Interface: IReviewMentionInfo
 
+Defined in: main.ts:219544
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **negative\_count**: `number`
 
+Defined in: main.ts:219552
+
 count of negative reviews by criterion
-
-#### Defined in
-
-main.ts:206096
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:206096
 
 > `optional` **positive\_count**: `number`
 
+Defined in: main.ts:219550
+
 count of positive reviews by criterion
-
-#### Defined in
-
-main.ts:206094
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:206094
 
 > `optional` **positive\_score**: `number`
 
+Defined in: main.ts:219548
+
 positive score by criterion
-
-#### Defined in
-
-main.ts:206092
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:206092
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:219546
+
 title of the evaluated criterion
-
-#### Defined in
-
-main.ts:206090
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:206090
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:219554
+
 count of all reviews by criterion
-
-#### Defined in
-
-main.ts:206098
 
 ***
 
@@ -76,9 +68,7 @@ main.ts:206098
 
 > `optional` **visible\_by\_default**: `boolean`
 
+Defined in: main.ts:219557
+
 element is visible by default
 indicates whether the review element is visible by default
-
-#### Defined in
-
-main.ts:206101

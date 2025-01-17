@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDiscussionsAndForumsElement
+[Documentation](../README.md) / IDiscussionsAndForumsElement
 
 # Interface: IDiscussionsAndForumsElement
 
+Defined in: main.ts:37632
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:37645
+
 description
-
-#### Defined in
-
-main.ts:35943
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:35943
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:37640
+
 website domain
-
-#### Defined in
-
-main.ts:35938
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:35938
 
 > `optional` **posts\_count**: `number`
 
+Defined in: main.ts:37652
+
 number of posts from the discussion on the related source
-
-#### Defined in
-
-main.ts:35950
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:35950
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:37643
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:35941
 
 ***
 
@@ -65,14 +59,12 @@ main.ts:35941
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:37650
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:35948
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:35948
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:37636
+
 title of a given link element
-
-#### Defined in
-
-main.ts:35934
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:35934
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:37634
+
 type of element
-
-#### Defined in
-
-main.ts:35932
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:35932
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:37638
+
 URL
-
-#### Defined in
-
-main.ts:35936

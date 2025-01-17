@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMerchantAmazonInfo
+[Documentation](../README.md) / IAppendixMerchantAmazonInfo
 
 # Interface: IAppendixMerchantAmazonInfo
 
+Defined in: main.ts:231696
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **asin**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:216637
+Defined in: main.ts:231697
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:216637
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:216638
+Defined in: main.ts:231698
 
 ***
 
@@ -36,6 +34,4 @@ main.ts:216638
 
 > `optional` **sellers**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:216639
+Defined in: main.ts:231699

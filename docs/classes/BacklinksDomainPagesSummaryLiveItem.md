@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksDomainPagesSummaryLiveItem
+[Documentation](../README.md) / BacklinksDomainPagesSummaryLiveItem
 
 # Class: BacklinksDomainPagesSummaryLiveItem
+
+Defined in: main.ts:154774
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksDomainPagesSummaryLiveItem**(`data`?): [`BacklinksDomainPagesSummaryLiveItem`](BacklinksDomainPagesSummaryLiveItem.md)
 
+Defined in: main.ts:154849
+
 #### Parameters
 
-• **data?**: [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md)
+##### data?
+
+[`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md)
 
 #### Returns
 
 [`BacklinksDomainPagesSummaryLiveItem`](BacklinksDomainPagesSummaryLiveItem.md)
-
-#### Defined in
-
-main.ts:143543
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:143543
 
 > `optional` **backlinks**: `number`
 
+Defined in: main.ts:154785
+
 number of backlinks
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`backlinks`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#backlinks)
 
-#### Defined in
-
-main.ts:143479
-
 ***
 
 ### backlinks\_spam\_score?
 
 > `optional` **backlinks\_spam\_score**: `number`
+
+Defined in: main.ts:154799
 
 average spam score of the backlinks pointing to the page
 learn more about how the metric is calculated on this help center page
@@ -61,15 +63,13 @@ learn more about how the metric is calculated on this help center page
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`backlinks_spam_score`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#backlinks_spam_score)
 
-#### Defined in
-
-main.ts:143493
-
 ***
 
 ### broken\_backlinks?
 
 > `optional` **broken\_backlinks**: `number`
+
+Defined in: main.ts:154802
 
 number of broken backlinks
 number of broken backlinks pointing to the page
@@ -78,15 +78,13 @@ number of broken backlinks pointing to the page
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`broken_backlinks`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#broken_backlinks)
 
-#### Defined in
-
-main.ts:143496
-
 ***
 
 ### broken\_pages?
 
 > `optional` **broken\_pages**: `number`
+
+Defined in: main.ts:154805
 
 number of broken pages
 number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to
@@ -95,15 +93,13 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`broken_pages`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#broken_pages)
 
-#### Defined in
-
-main.ts:143499
-
 ***
 
 ### first\_seen?
 
 > `optional` **first\_seen**: `string`
+
+Defined in: main.ts:154790
 
 date and time when our crawler found a backlink to this page for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -114,15 +110,13 @@ example:
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`first_seen`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#first_seen)
 
-#### Defined in
-
-main.ts:143484
-
 ***
 
 ### lost\_date?
 
 > `optional` **lost\_date**: `string`
+
+Defined in: main.ts:154796
 
 date and time when the last backlink to this page was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -134,15 +128,13 @@ example:
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`lost_date`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#lost_date)
 
-#### Defined in
-
-main.ts:143490
-
 ***
 
 ### rank?
 
 > `optional` **rank**: `number`
+
+Defined in: main.ts:154783
 
 page rank
 rank of the page
@@ -153,15 +145,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`rank`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#rank)
 
-#### Defined in
-
-main.ts:143477
-
 ***
 
 ### referring\_domains?
 
 > `optional` **referring\_domains**: `number`
+
+Defined in: main.ts:154807
 
 indicates the number domains referring to the page
 
@@ -169,15 +159,13 @@ indicates the number domains referring to the page
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_domains`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_domains)
 
-#### Defined in
-
-main.ts:143501
-
 ***
 
 ### referring\_domains\_nofollow?
 
 > `optional` **referring\_domains\_nofollow**: `number`
+
+Defined in: main.ts:154809
 
 number of domains pointing at least one nofollow link to the page
 
@@ -185,15 +173,13 @@ number of domains pointing at least one nofollow link to the page
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_domains_nofollow`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_domains_nofollow)
 
-#### Defined in
-
-main.ts:143503
-
 ***
 
 ### referring\_ips?
 
 > `optional` **referring\_ips**: `number`
+
+Defined in: main.ts:154816
 
 number of referring IP addresses
 number of IP addresses pointing to this page
@@ -202,30 +188,24 @@ number of IP addresses pointing to this page
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_ips`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_ips)
 
-#### Defined in
-
-main.ts:143510
-
 ***
 
 ### referring\_links\_attributes?
 
 > `optional` **referring\_links\_attributes**: `object`
 
+Defined in: main.ts:154831
+
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_links_attributes`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_links_attributes)
-
-#### Defined in
-
-main.ts:143525
 
 ***
 
@@ -233,20 +213,18 @@ main.ts:143525
 
 > `optional` **referring\_links\_countries**: `object`
 
+Defined in: main.ts:154843
+
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_links_countries`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_links_countries)
-
-#### Defined in
-
-main.ts:143537
 
 ***
 
@@ -254,26 +232,26 @@ main.ts:143537
 
 > `optional` **referring\_links\_platform\_types**: `object`
 
+Defined in: main.ts:154834
+
 types of referring platforms
 indicates referring platform types and and link count per each platform
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_links_platform_types`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_links_platform_types)
-
-#### Defined in
-
-main.ts:143528
 
 ***
 
 ### referring\_links\_semantic\_locations?
 
 > `optional` **referring\_links\_semantic\_locations**: `object`
+
+Defined in: main.ts:154840
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -283,15 +261,11 @@ article, section, footer
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_links_semantic_locations`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_links_semantic_locations)
-
-#### Defined in
-
-main.ts:143534
 
 ***
 
@@ -299,26 +273,26 @@ main.ts:143534
 
 > `optional` **referring\_links\_tld**: `object`
 
+Defined in: main.ts:154823
+
 top-level domains of the referring links
 contains top level domains and referring link count per each
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_links_tld`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_links_tld)
-
-#### Defined in
-
-main.ts:143517
 
 ***
 
 ### referring\_links\_types?
 
 > `optional` **referring\_links\_types**: `object`
+
+Defined in: main.ts:154828
 
 types of referring links
 indicates the types of the referring links and link count per each type
@@ -327,15 +301,11 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_links_types`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_links_types)
-
-#### Defined in
-
-main.ts:143522
 
 ***
 
@@ -343,15 +313,13 @@ main.ts:143522
 
 > `optional` **referring\_main\_domains**: `number`
 
+Defined in: main.ts:154811
+
 indicates the number of referring main domains
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_main_domains`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_main_domains)
-
-#### Defined in
-
-main.ts:143505
 
 ***
 
@@ -359,15 +327,13 @@ main.ts:143505
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
+Defined in: main.ts:154813
+
 number of main domains pointing at least one nofollow link to the page
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_main_domains_nofollow)
-
-#### Defined in
-
-main.ts:143507
 
 ***
 
@@ -375,15 +341,13 @@ main.ts:143507
 
 > `optional` **referring\_pages**: `number`
 
+Defined in: main.ts:154820
+
 indicates the number of pages pointing to the relevant url
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_pages`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_pages)
-
-#### Defined in
-
-main.ts:143514
 
 ***
 
@@ -391,15 +355,13 @@ main.ts:143514
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
+Defined in: main.ts:154845
+
 number of referring pages pointing at least one nofollow link to the page
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_pages_nofollow`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_pages_nofollow)
-
-#### Defined in
-
-main.ts:143539
 
 ***
 
@@ -407,15 +369,13 @@ main.ts:143539
 
 > `optional` **referring\_subnets**: `number`
 
+Defined in: main.ts:154818
+
 number of referring subnetworks
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`referring_subnets`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#referring_subnets)
-
-#### Defined in
-
-main.ts:143512
 
 ***
 
@@ -423,15 +383,13 @@ main.ts:143512
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:154776
+
 type of element
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`type`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#type)
-
-#### Defined in
-
-main.ts:143470
 
 ***
 
@@ -439,15 +397,13 @@ main.ts:143470
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:154778
+
 page URL
 
 #### Implementation of
 
 [`IBacklinksDomainPagesSummaryLiveItem`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md).[`url`](../interfaces/IBacklinksDomainPagesSummaryLiveItem.md#url)
-
-#### Defined in
-
-main.ts:143472
 
 ## Methods
 
@@ -455,17 +411,17 @@ main.ts:143472
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:154858
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:143552
 
 ***
 
@@ -473,17 +429,17 @@ main.ts:143552
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:154933
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:143627
 
 ***
 
@@ -491,14 +447,14 @@ main.ts:143627
 
 > `static` **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveItem`](BacklinksDomainPagesSummaryLiveItem.md)
 
+Defined in: main.ts:154926
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksDomainPagesSummaryLiveItem`](BacklinksDomainPagesSummaryLiveItem.md)
-
-#### Defined in
-
-main.ts:143620

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleBulkAppMetricsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
 # Interface: IDataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
+Defined in: main.ts:123417
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](../classes/DataforseoLabsleBulkAppMetricsLiveItem.md)[]
 
+Defined in: main.ts:123429
+
 contains data related to the ranking app metrics of the specified application
-
-#### Defined in
-
-main.ts:113996
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:113996
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:123427
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:113994
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:113994
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:123423
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:113990
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:113990
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:123421
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:113988
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:113988
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:123419
+
 search engine type
-
-#### Defined in
-
-main.ts:113986
 
 ***
 
@@ -76,8 +68,6 @@ main.ts:113986
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:123425
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:113992

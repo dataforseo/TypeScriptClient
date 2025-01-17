@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleJobsTasksReadyResultInfo
+[Documentation](../README.md) / SerpGoogleJobsTasksReadyResultInfo
 
 # Class: SerpGoogleJobsTasksReadyResultInfo
+
+Defined in: main.ts:54068
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpGoogleJobsTasksReadyResultInfo**(`data`?): [`SerpGoogleJobsTasksReadyResultInfo`](SerpGoogleJobsTasksReadyResultInfo.md)
 
+Defined in: main.ts:54093
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md)
+##### data?
+
+[`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleJobsTasksReadyResultInfo`](SerpGoogleJobsTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:50363
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:50363
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:54078
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
-
-main.ts:50348
-
 ***
 
 ### endpoint\_advanced?
 
 > `optional` **endpoint\_advanced**: `string`
+
+Defined in: main.ts:54086
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -61,15 +63,13 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
-
-main.ts:50356
-
 ***
 
 ### endpoint\_html?
 
 > `optional` **endpoint\_html**: `string`
+
+Defined in: main.ts:54089
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -78,15 +78,13 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
-
-main.ts:50359
-
 ***
 
 ### endpoint\_regular?
 
 > `optional` **endpoint\_regular**: `string`
+
+Defined in: main.ts:54083
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -95,15 +93,13 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md#endpoint_regular)
 
-#### Defined in
-
-main.ts:50353
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:54071
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -112,15 +108,13 @@ unique task identifier in our system in the UUID format
 
 [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md).[`id`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:50341
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:54073
 
 search engine specified when setting the task
 
@@ -128,15 +122,13 @@ search engine specified when setting the task
 
 [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md).[`se`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:50343
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:54076
 
 type of search engine
 example: jobs
@@ -145,15 +137,13 @@ example: jobs
 
 [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:50346
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:54080
 
 user-defined task identifier
 
@@ -161,27 +151,23 @@ user-defined task identifier
 
 [`ISerpGoogleJobsTasksReadyResultInfo`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpGoogleJobsTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:50350
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:54102
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:50372
 
 ***
 
@@ -189,17 +175,17 @@ main.ts:50372
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:54126
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:50396
 
 ***
 
@@ -207,14 +193,14 @@ main.ts:50396
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTasksReadyResultInfo`](SerpGoogleJobsTasksReadyResultInfo.md)
 
+Defined in: main.ts:54119
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleJobsTasksReadyResultInfo`](SerpGoogleJobsTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:50389

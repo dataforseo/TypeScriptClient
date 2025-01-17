@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleAutocompleteTasksFixedResultInfo
+[Documentation](../README.md) / SerpGoogleAutocompleteTasksFixedResultInfo
 
 # Class: SerpGoogleAutocompleteTasksFixedResultInfo
+
+Defined in: main.ts:55744
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpGoogleAutocompleteTasksFixedResultInfo**(`data`?): [`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)
 
+Defined in: main.ts:55769
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md)
+##### data?
+
+[`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)
-
-#### Defined in
-
-main.ts:52027
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:52027
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:55754
+
 date when the task was fixed (in the UTC format)
 
 #### Implementation of
 
 [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md#date_fixed)
 
-#### Defined in
-
-main.ts:52012
-
 ***
 
 ### endpoint\_advanced?
 
 > `optional` **endpoint\_advanced**: `string`
+
+Defined in: main.ts:55762
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -61,15 +63,13 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Defined in
-
-main.ts:52020
-
 ***
 
 ### endpoint\_html?
 
 > `optional` **endpoint\_html**: `string`
+
+Defined in: main.ts:55765
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -78,15 +78,13 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md#endpoint_html)
 
-#### Defined in
-
-main.ts:52023
-
 ***
 
 ### endpoint\_regular?
 
 > `optional` **endpoint\_regular**: `string`
+
+Defined in: main.ts:55759
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -95,15 +93,13 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md#endpoint_regular)
 
-#### Defined in
-
-main.ts:52017
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:55747
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -112,15 +108,13 @@ unique task identifier in our system in the UUID format
 
 [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md#id)
 
-#### Defined in
-
-main.ts:52005
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:55749
 
 search engine specified when setting the task
 
@@ -128,15 +122,13 @@ search engine specified when setting the task
 
 [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md#se)
 
-#### Defined in
-
-main.ts:52007
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:55752
 
 type of search engine
 can take the following values: autocomplete
@@ -145,15 +137,13 @@ can take the following values: autocomplete
 
 [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:52010
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:55756
 
 user-defined task identifier
 
@@ -161,27 +151,23 @@ user-defined task identifier
 
 [`ISerpGoogleAutocompleteTasksFixedResultInfo`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleAutocompleteTasksFixedResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:52014
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:55778
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:52036
 
 ***
 
@@ -189,17 +175,17 @@ main.ts:52036
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:55802
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:52060
 
 ***
 
@@ -207,14 +193,14 @@ main.ts:52060
 
 > `static` **fromJS**(`data`): [`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)
 
+Defined in: main.ts:55795
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleAutocompleteTasksFixedResultInfo`](SerpGoogleAutocompleteTasksFixedResultInfo.md)
-
-#### Defined in
-
-main.ts:52053

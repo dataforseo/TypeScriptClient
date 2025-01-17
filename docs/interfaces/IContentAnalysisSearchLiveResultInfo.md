@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisSearchLiveResultInfo
+[Documentation](../README.md) / IContentAnalysisSearchLiveResultInfo
 
 # Interface: IContentAnalysisSearchLiveResultInfo
 
+Defined in: main.ts:178267
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`ContentAnalysisSearchLiveItem`](../classes/ContentAnalysisSearchLiveItem.md)[]
 
+Defined in: main.ts:178277
+
 contains citations and related data
-
-#### Defined in
-
-main.ts:166587
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:166587
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:178275
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:166585
 
 ***
 
@@ -40,13 +38,11 @@ main.ts:166585
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:178271
+
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:166581
 
 ***
 
@@ -54,8 +50,6 @@ main.ts:166581
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:178273
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:166583

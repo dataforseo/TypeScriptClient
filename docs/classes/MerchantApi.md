@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantApi
+[Documentation](../README.md) / MerchantApi
 
 # Class: MerchantApi
+
+Defined in: main.ts:15184
 
 ## Constructors
 
@@ -12,21 +14,21 @@
 
 > **new MerchantApi**(`baseUrl`?, `http`?): [`MerchantApi`](MerchantApi.md)
 
+Defined in: main.ts:15189
+
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### fetch
 
 #### Returns
 
 [`MerchantApi`](MerchantApi.md)
-
-#### Defined in
-
-main.ts:14633
 
 ## Properties
 
@@ -34,19 +36,21 @@ main.ts:14633
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
+Defined in: main.ts:15187
+
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:14631
 
 ## Methods
 
@@ -54,9 +58,13 @@ main.ts:14631
 
 > **amazonAsinTaskGetAdvanced**(`id`): `Promise`\<[`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16462
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -68,19 +76,19 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Defined in
-
-main.ts:15906
-
 ***
 
 ### amazonAsinTaskGetHtml()
 
 > **amazonAsinTaskGetHtml**(`id`): `Promise`\<[`MerchantAmazonAsinTaskGetHtmlResponseInfo`](MerchantAmazonAsinTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:16505
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -92,19 +100,19 @@ you will be able to use it within 7 days to request the results of the task at a
 
 Successful operation
 
-#### Defined in
-
-main.ts:15949
-
 ***
 
 ### amazonAsinTaskPost()
 
 > **amazonAsinTaskPost**(`body`): `Promise`\<[`MerchantAmazonAsinTaskPostResponseInfo`](MerchantAmazonAsinTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:16381
+
 #### Parameters
 
-• **body**: [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -114,15 +122,13 @@ main.ts:15949
 
 Successful operation
 
-#### Defined in
-
-main.ts:15825
-
 ***
 
 ### amazonAsinTasksReady()
 
 > **amazonAsinTasksReady**(): `Promise`\<[`MerchantAmazonAsinTasksReadyResponseInfo`](MerchantAmazonAsinTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:16422
 
 #### Returns
 
@@ -130,19 +136,19 @@ main.ts:15825
 
 Successful operation
 
-#### Defined in
-
-main.ts:15866
-
 ***
 
 ### amazonProductsTaskGetAdvanced()
 
 > **amazonProductsTaskGetAdvanced**(`id`): `Promise`\<[`MerchantAmazonProductsTaskGetAdvancedResponseInfo`](MerchantAmazonProductsTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16297
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -154,19 +160,19 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Defined in
-
-main.ts:15741
-
 ***
 
 ### amazonProductsTaskGetHtml()
 
 > **amazonProductsTaskGetHtml**(`id`): `Promise`\<[`MerchantAmazonProductsTaskGetHtmlResponseInfo`](MerchantAmazonProductsTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:16340
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -178,19 +184,19 @@ you will be able to use it within 7 days to request the results of the task at a
 
 Successful operation
 
-#### Defined in
-
-main.ts:15784
-
 ***
 
 ### amazonProductsTaskPost()
 
 > **amazonProductsTaskPost**(`body`): `Promise`\<[`MerchantAmazonProductsTaskPostResponseInfo`](MerchantAmazonProductsTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:16216
+
 #### Parameters
 
-• **body**: [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -200,15 +206,13 @@ main.ts:15784
 
 Successful operation
 
-#### Defined in
-
-main.ts:15660
-
 ***
 
 ### amazonProductsTasksReady()
 
 > **amazonProductsTasksReady**(): `Promise`\<[`MerchantAmazonProductsTasksReadyResponseInfo`](MerchantAmazonProductsTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:16257
 
 #### Returns
 
@@ -216,19 +220,19 @@ main.ts:15660
 
 Successful operation
 
-#### Defined in
-
-main.ts:15701
-
 ***
 
 ### amazonReviewsTaskGetAdvanced()
 
 > **amazonReviewsTaskGetAdvanced**(`id`): `Promise`\<[`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16792
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -240,19 +244,19 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Defined in
-
-main.ts:16236
-
 ***
 
 ### amazonReviewsTaskGetHtml()
 
 > **amazonReviewsTaskGetHtml**(`id`): `Promise`\<[`MerchantAmazonReviewsTaskGetHtmlResponseInfo`](MerchantAmazonReviewsTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:16835
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -264,19 +268,19 @@ you will be able to use it within 7 days to request the results of the task at a
 
 Successful operation
 
-#### Defined in
-
-main.ts:16279
-
 ***
 
 ### amazonReviewsTaskPost()
 
 > **amazonReviewsTaskPost**(`body`): `Promise`\<[`MerchantAmazonReviewsTaskPostResponseInfo`](MerchantAmazonReviewsTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:16711
+
 #### Parameters
 
-• **body**: [`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -286,15 +290,13 @@ main.ts:16279
 
 Successful operation
 
-#### Defined in
-
-main.ts:16155
-
 ***
 
 ### amazonReviewsTasksReady()
 
 > **amazonReviewsTasksReady**(): `Promise`\<[`MerchantAmazonReviewsTasksReadyResponseInfo`](MerchantAmazonReviewsTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:16752
 
 #### Returns
 
@@ -302,19 +304,19 @@ main.ts:16155
 
 Successful operation
 
-#### Defined in
-
-main.ts:16196
-
 ***
 
 ### amazonSellersTaskGetAdvanced()
 
 > **amazonSellersTaskGetAdvanced**(`id`): `Promise`\<[`MerchantAmazonSellersTaskGetAdvancedResponseInfo`](MerchantAmazonSellersTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16627
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -326,19 +328,19 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Defined in
-
-main.ts:16071
-
 ***
 
 ### amazonSellersTaskGetHtml()
 
 > **amazonSellersTaskGetHtml**(`id`): `Promise`\<[`MerchantAmazonSellersTaskGetHtmlResponseInfo`](MerchantAmazonSellersTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:16670
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -350,19 +352,19 @@ you will be able to use it within 7 days to request the results of the task at a
 
 Successful operation
 
-#### Defined in
-
-main.ts:16114
-
 ***
 
 ### amazonSellersTaskPost()
 
 > **amazonSellersTaskPost**(`body`): `Promise`\<[`MerchantAmazonSellersTaskPostResponseInfo`](MerchantAmazonSellersTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:16546
+
 #### Parameters
 
-• **body**: [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -372,15 +374,13 @@ main.ts:16114
 
 Successful operation
 
-#### Defined in
-
-main.ts:15990
-
 ***
 
 ### amazonSellersTasksReady()
 
 > **amazonSellersTasksReady**(): `Promise`\<[`MerchantAmazonSellersTasksReadyResponseInfo`](MerchantAmazonSellersTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:16587
 
 #### Returns
 
@@ -388,19 +388,19 @@ main.ts:15990
 
 Successful operation
 
-#### Defined in
-
-main.ts:16031
-
 ***
 
 ### googleProductInfoTaskGetAdvanced()
 
 > **googleProductInfoTaskGetAdvanced**(`id`): `Promise`\<[`MerchantGoogleProductInfoTaskGetAdvancedResponseInfo`](MerchantGoogleProductInfoTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16014
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -412,19 +412,19 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Defined in
-
-main.ts:15458
-
 ***
 
 ### googleProductInfoTaskPost()
 
 > **googleProductInfoTaskPost**(`body`): `Promise`\<[`MerchantGoogleProductInfoTaskPostResponseInfo`](MerchantGoogleProductInfoTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:15933
+
 #### Parameters
 
-• **body**: [`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantGoogleProductInfoTaskPostRequestInfo`](MerchantGoogleProductInfoTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -434,15 +434,13 @@ main.ts:15458
 
 Successful operation
 
-#### Defined in
-
-main.ts:15377
-
 ***
 
 ### googleProductInfoTasksReady()
 
 > **googleProductInfoTasksReady**(): `Promise`\<[`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:15974
 
 #### Returns
 
@@ -450,19 +448,19 @@ main.ts:15377
 
 Successful operation
 
-#### Defined in
-
-main.ts:15418
-
 ***
 
 ### googleProductSpecTaskGetAdvanced()
 
 > **googleProductSpecTaskGetAdvanced**(`id`): `Promise`\<[`MerchantGoogleProductSpecTaskGetAdvancedResponseInfo`](MerchantGoogleProductSpecTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:15849
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -474,19 +472,19 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Defined in
-
-main.ts:15293
-
 ***
 
 ### googleProductSpecTaskGetHtml()
 
 > **googleProductSpecTaskGetHtml**(`id`): `Promise`\<[`MerchantGoogleProductSpecTaskGetHtmlResponseInfo`](MerchantGoogleProductSpecTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:15892
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -498,19 +496,19 @@ you will be able to use it within 7 days to request the results of the task at a
 
 Successful operation
 
-#### Defined in
-
-main.ts:15336
-
 ***
 
 ### googleProductSpecTaskPost()
 
 > **googleProductSpecTaskPost**(`body`): `Promise`\<[`MerchantGoogleProductSpecTaskPostResponseInfo`](MerchantGoogleProductSpecTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:15768
+
 #### Parameters
 
-• **body**: [`MerchantGoogleProductSpecTaskPostRequestInfo`](MerchantGoogleProductSpecTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantGoogleProductSpecTaskPostRequestInfo`](MerchantGoogleProductSpecTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -520,15 +518,13 @@ main.ts:15336
 
 Successful operation
 
-#### Defined in
-
-main.ts:15212
-
 ***
 
 ### googleProductSpecTasksReady()
 
 > **googleProductSpecTasksReady**(): `Promise`\<[`MerchantGoogleProductSpecTasksReadyResponseInfo`](MerchantGoogleProductSpecTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:15809
 
 #### Returns
 
@@ -536,19 +532,19 @@ main.ts:15212
 
 Successful operation
 
-#### Defined in
-
-main.ts:15253
-
 ***
 
 ### googleProductsTaskGetAdvanced()
 
 > **googleProductsTaskGetAdvanced**(`id`): `Promise`\<[`MerchantGoogleProductsTaskGetAdvancedResponseInfo`](MerchantGoogleProductsTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:15519
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -560,19 +556,19 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Defined in
-
-main.ts:14963
-
 ***
 
 ### googleProductsTaskGetHtml()
 
 > **googleProductsTaskGetHtml**(`id`): `Promise`\<[`MerchantGoogleProductsTaskGetHtmlResponseInfo`](MerchantGoogleProductsTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:15562
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -584,19 +580,19 @@ you will be able to use it within 7 days to request the results of the task at a
 
 Successful operation
 
-#### Defined in
-
-main.ts:15006
-
 ***
 
 ### googleProductsTaskPost()
 
 > **googleProductsTaskPost**(`body`): `Promise`\<[`MerchantGoogleProductsTaskPostResponseInfo`](MerchantGoogleProductsTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:15401
+
 #### Parameters
 
-• **body**: [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md)[]
+##### body
+
+[`MerchantGoogleProductsTaskPostRequestInfo`](MerchantGoogleProductsTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -606,15 +602,13 @@ main.ts:15006
 
 Successful operation
 
-#### Defined in
-
-main.ts:14845
-
 ***
 
 ### googleProductsTasksReady()
 
 > **googleProductsTasksReady**(): `Promise`\<[`MerchantGoogleProductsTasksReadyResponseInfo`](MerchantGoogleProductsTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:15442
 
 #### Returns
 
@@ -622,19 +616,19 @@ main.ts:14845
 
 Successful operation
 
-#### Defined in
-
-main.ts:14886
-
 ***
 
 ### googleSellersAdUrl()
 
 > **googleSellersAdUrl**(`shop_ad_aclk`): `Promise`\<[`MerchantGoogleSellersAdUrlResponseInfo`](MerchantGoogleSellersAdUrlResponseInfo.md)\>
 
+Defined in: main.ts:16056
+
 #### Parameters
 
-• **shop\_ad\_aclk**: `string`
+##### shop\_ad\_aclk
+
+`string`
 
 unique ad click referral parameter
 you can obtain this parameter with Google Shopping Products or Google Shopping Sellers
@@ -645,19 +639,19 @@ you can obtain this parameter with Google Shopping Products or Google Shopping S
 
 Successful operation
 
-#### Defined in
-
-main.ts:15500
-
 ***
 
 ### googleSellersTaskGetAdvanced()
 
 > **googleSellersTaskGetAdvanced**(`id`): `Promise`\<[`MerchantGoogleSellersTaskGetAdvancedResponseInfo`](MerchantGoogleSellersTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:15684
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -669,19 +663,19 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Defined in
-
-main.ts:15128
-
 ***
 
 ### googleSellersTaskGetHtml()
 
 > **googleSellersTaskGetHtml**(`id`): `Promise`\<[`MerchantGoogleSellersTaskGetHtmlResponseInfo`](MerchantGoogleSellersTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:15727
+
 #### Parameters
 
-• **id**: `string`
+##### id
+
+`string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -693,19 +687,19 @@ you will be able to use it within 7 days to request the results of the task at a
 
 Successful operation
 
-#### Defined in
-
-main.ts:15171
-
 ***
 
 ### googleSellersTaskPost()
 
 > **googleSellersTaskPost**(`body`): `Promise`\<[`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:15603
+
 #### Parameters
 
-• **body**: [`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)[]
+##### body
+
+[`MerchantGoogleSellersTaskPostRequestInfo`](MerchantGoogleSellersTaskPostRequestInfo.md)[]
 
 (optional)
 
@@ -714,10 +708,6 @@ main.ts:15171
 `Promise`\<[`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:15047
 
 ***
 
@@ -725,15 +715,13 @@ main.ts:15047
 
 > **googleSellersTasksReady**(): `Promise`\<[`MerchantGoogleSellersTasksReadyResponseInfo`](MerchantGoogleSellersTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:15644
+
 #### Returns
 
 `Promise`\<[`MerchantGoogleSellersTasksReadyResponseInfo`](MerchantGoogleSellersTasksReadyResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:15088
 
 ***
 
@@ -741,15 +729,13 @@ main.ts:15088
 
 > **merchantAmazonLanguages**(): `Promise`\<[`MerchantAmazonLanguagesResponseInfo`](MerchantAmazonLanguagesResponseInfo.md)\>
 
+Defined in: main.ts:16178
+
 #### Returns
 
 `Promise`\<[`MerchantAmazonLanguagesResponseInfo`](MerchantAmazonLanguagesResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:15622
 
 ***
 
@@ -757,15 +743,13 @@ main.ts:15622
 
 > **merchantAmazonLocations**(): `Promise`\<[`MerchantAmazonLocationsResponseInfo`](MerchantAmazonLocationsResponseInfo.md)\>
 
+Defined in: main.ts:16096
+
 #### Returns
 
 `Promise`\<[`MerchantAmazonLocationsResponseInfo`](MerchantAmazonLocationsResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:15540
 
 ***
 
@@ -773,9 +757,13 @@ main.ts:15540
 
 > **merchantAmazonLocationsCountry**(`country`): `Promise`\<[`MerchantAmazonLocationsCountryResponseInfo`](MerchantAmazonLocationsCountryResponseInfo.md)\>
 
+Defined in: main.ts:16138
+
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -788,10 +776,6 @@ us
 `Promise`\<[`MerchantAmazonLocationsCountryResponseInfo`](MerchantAmazonLocationsCountryResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:15582
 
 ***
 
@@ -799,9 +783,13 @@ main.ts:15582
 
 > **merchantErrors**(`body`): `Promise`\<[`MerchantErrorsResponseInfo`](MerchantErrorsResponseInfo.md)\>
 
+Defined in: main.ts:15240
+
 #### Parameters
 
-• **body**: [`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)[]
+##### body
+
+[`MerchantErrorsRequestInfo`](MerchantErrorsRequestInfo.md)[]
 
 (optional)
 
@@ -811,15 +799,13 @@ main.ts:15582
 
 Successful operation
 
-#### Defined in
-
-main.ts:14684
-
 ***
 
 ### merchantGoogleLanguages()
 
 > **merchantGoogleLanguages**(): `Promise`\<[`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)\>
+
+Defined in: main.ts:15281
 
 #### Returns
 
@@ -827,15 +813,13 @@ main.ts:14684
 
 Successful operation
 
-#### Defined in
-
-main.ts:14725
-
 ***
 
 ### merchantGoogleLocations()
 
 > **merchantGoogleLocations**(): `Promise`\<[`MerchantGoogleLocationsResponseInfo`](MerchantGoogleLocationsResponseInfo.md)\>
+
+Defined in: main.ts:15318
 
 #### Returns
 
@@ -843,19 +827,19 @@ main.ts:14725
 
 Successful operation
 
-#### Defined in
-
-main.ts:14762
-
 ***
 
 ### merchantGoogleLocationsCountry()
 
 > **merchantGoogleLocationsCountry**(`country`): `Promise`\<[`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)\>
 
+Defined in: main.ts:15360
+
 #### Parameters
 
-• **country**: `string`
+##### country
+
+`string`
 
 country ISO code
 optional field
@@ -869,19 +853,19 @@ us
 
 Successful operation
 
-#### Defined in
-
-main.ts:14804
-
 ***
 
 ### merchantIdList()
 
 > **merchantIdList**(`body`): `Promise`\<[`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)\>
 
+Defined in: main.ts:15198
+
 #### Parameters
 
-• **body**: [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)[]
+##### body
+
+[`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)[]
 
 (optional)
 
@@ -891,15 +875,13 @@ main.ts:14804
 
 Successful operation
 
-#### Defined in
-
-main.ts:14642
-
 ***
 
 ### merchantTasksReady()
 
 > **merchantTasksReady**(): `Promise`\<[`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)\>
+
+Defined in: main.ts:15479
 
 #### Returns
 
@@ -907,27 +889,23 @@ main.ts:14642
 
 Successful operation
 
-#### Defined in
-
-main.ts:14923
-
 ***
 
 ### processAmazonAsinTaskGetAdvanced()
 
 > `protected` **processAmazonAsinTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16481
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15925
 
 ***
 
@@ -935,17 +913,17 @@ main.ts:15925
 
 > `protected` **processAmazonAsinTaskGetHtml**(`response`): `Promise`\<[`MerchantAmazonAsinTaskGetHtmlResponseInfo`](MerchantAmazonAsinTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:16524
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonAsinTaskGetHtmlResponseInfo`](MerchantAmazonAsinTaskGetHtmlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15968
 
 ***
 
@@ -953,17 +931,17 @@ main.ts:15968
 
 > `protected` **processAmazonAsinTaskPost**(`response`): `Promise`\<[`MerchantAmazonAsinTaskPostResponseInfo`](MerchantAmazonAsinTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:16401
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonAsinTaskPostResponseInfo`](MerchantAmazonAsinTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15845
 
 ***
 
@@ -971,17 +949,17 @@ main.ts:15845
 
 > `protected` **processAmazonAsinTasksReady**(`response`): `Promise`\<[`MerchantAmazonAsinTasksReadyResponseInfo`](MerchantAmazonAsinTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:16438
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonAsinTasksReadyResponseInfo`](MerchantAmazonAsinTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15882
 
 ***
 
@@ -989,17 +967,17 @@ main.ts:15882
 
 > `protected` **processAmazonProductsTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonProductsTaskGetAdvancedResponseInfo`](MerchantAmazonProductsTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16316
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonProductsTaskGetAdvancedResponseInfo`](MerchantAmazonProductsTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15760
 
 ***
 
@@ -1007,17 +985,17 @@ main.ts:15760
 
 > `protected` **processAmazonProductsTaskGetHtml**(`response`): `Promise`\<[`MerchantAmazonProductsTaskGetHtmlResponseInfo`](MerchantAmazonProductsTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:16359
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonProductsTaskGetHtmlResponseInfo`](MerchantAmazonProductsTaskGetHtmlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15803
 
 ***
 
@@ -1025,17 +1003,17 @@ main.ts:15803
 
 > `protected` **processAmazonProductsTaskPost**(`response`): `Promise`\<[`MerchantAmazonProductsTaskPostResponseInfo`](MerchantAmazonProductsTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:16236
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonProductsTaskPostResponseInfo`](MerchantAmazonProductsTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15680
 
 ***
 
@@ -1043,17 +1021,17 @@ main.ts:15680
 
 > `protected` **processAmazonProductsTasksReady**(`response`): `Promise`\<[`MerchantAmazonProductsTasksReadyResponseInfo`](MerchantAmazonProductsTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:16273
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonProductsTasksReadyResponseInfo`](MerchantAmazonProductsTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15717
 
 ***
 
@@ -1061,17 +1039,17 @@ main.ts:15717
 
 > `protected` **processAmazonReviewsTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16811
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonReviewsTaskGetAdvancedResponseInfo`](MerchantAmazonReviewsTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16255
 
 ***
 
@@ -1079,17 +1057,17 @@ main.ts:16255
 
 > `protected` **processAmazonReviewsTaskGetHtml**(`response`): `Promise`\<[`MerchantAmazonReviewsTaskGetHtmlResponseInfo`](MerchantAmazonReviewsTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:16854
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonReviewsTaskGetHtmlResponseInfo`](MerchantAmazonReviewsTaskGetHtmlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16298
 
 ***
 
@@ -1097,17 +1075,17 @@ main.ts:16298
 
 > `protected` **processAmazonReviewsTaskPost**(`response`): `Promise`\<[`MerchantAmazonReviewsTaskPostResponseInfo`](MerchantAmazonReviewsTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:16731
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonReviewsTaskPostResponseInfo`](MerchantAmazonReviewsTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16175
 
 ***
 
@@ -1115,17 +1093,17 @@ main.ts:16175
 
 > `protected` **processAmazonReviewsTasksReady**(`response`): `Promise`\<[`MerchantAmazonReviewsTasksReadyResponseInfo`](MerchantAmazonReviewsTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:16768
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonReviewsTasksReadyResponseInfo`](MerchantAmazonReviewsTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16212
 
 ***
 
@@ -1133,17 +1111,17 @@ main.ts:16212
 
 > `protected` **processAmazonSellersTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonSellersTaskGetAdvancedResponseInfo`](MerchantAmazonSellersTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16646
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonSellersTaskGetAdvancedResponseInfo`](MerchantAmazonSellersTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16090
 
 ***
 
@@ -1151,17 +1129,17 @@ main.ts:16090
 
 > `protected` **processAmazonSellersTaskGetHtml**(`response`): `Promise`\<[`MerchantAmazonSellersTaskGetHtmlResponseInfo`](MerchantAmazonSellersTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:16689
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonSellersTaskGetHtmlResponseInfo`](MerchantAmazonSellersTaskGetHtmlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16133
 
 ***
 
@@ -1169,17 +1147,17 @@ main.ts:16133
 
 > `protected` **processAmazonSellersTaskPost**(`response`): `Promise`\<[`MerchantAmazonSellersTaskPostResponseInfo`](MerchantAmazonSellersTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:16566
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonSellersTaskPostResponseInfo`](MerchantAmazonSellersTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16010
 
 ***
 
@@ -1187,17 +1165,17 @@ main.ts:16010
 
 > `protected` **processAmazonSellersTasksReady**(`response`): `Promise`\<[`MerchantAmazonSellersTasksReadyResponseInfo`](MerchantAmazonSellersTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:16603
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonSellersTasksReadyResponseInfo`](MerchantAmazonSellersTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:16047
 
 ***
 
@@ -1205,17 +1183,17 @@ main.ts:16047
 
 > `protected` **processGoogleProductInfoTaskGetAdvanced**(`response`): `Promise`\<[`MerchantGoogleProductInfoTaskGetAdvancedResponseInfo`](MerchantGoogleProductInfoTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:16033
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductInfoTaskGetAdvancedResponseInfo`](MerchantGoogleProductInfoTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15477
 
 ***
 
@@ -1223,17 +1201,17 @@ main.ts:15477
 
 > `protected` **processGoogleProductInfoTaskPost**(`response`): `Promise`\<[`MerchantGoogleProductInfoTaskPostResponseInfo`](MerchantGoogleProductInfoTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:15953
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductInfoTaskPostResponseInfo`](MerchantGoogleProductInfoTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15397
 
 ***
 
@@ -1241,17 +1219,17 @@ main.ts:15397
 
 > `protected` **processGoogleProductInfoTasksReady**(`response`): `Promise`\<[`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:15990
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductInfoTasksReadyResponseInfo`](MerchantGoogleProductInfoTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15434
 
 ***
 
@@ -1259,17 +1237,17 @@ main.ts:15434
 
 > `protected` **processGoogleProductSpecTaskGetAdvanced**(`response`): `Promise`\<[`MerchantGoogleProductSpecTaskGetAdvancedResponseInfo`](MerchantGoogleProductSpecTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:15868
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductSpecTaskGetAdvancedResponseInfo`](MerchantGoogleProductSpecTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15312
 
 ***
 
@@ -1277,17 +1255,17 @@ main.ts:15312
 
 > `protected` **processGoogleProductSpecTaskGetHtml**(`response`): `Promise`\<[`MerchantGoogleProductSpecTaskGetHtmlResponseInfo`](MerchantGoogleProductSpecTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:15911
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductSpecTaskGetHtmlResponseInfo`](MerchantGoogleProductSpecTaskGetHtmlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15355
 
 ***
 
@@ -1295,17 +1273,17 @@ main.ts:15355
 
 > `protected` **processGoogleProductSpecTaskPost**(`response`): `Promise`\<[`MerchantGoogleProductSpecTaskPostResponseInfo`](MerchantGoogleProductSpecTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:15788
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductSpecTaskPostResponseInfo`](MerchantGoogleProductSpecTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15232
 
 ***
 
@@ -1313,17 +1291,17 @@ main.ts:15232
 
 > `protected` **processGoogleProductSpecTasksReady**(`response`): `Promise`\<[`MerchantGoogleProductSpecTasksReadyResponseInfo`](MerchantGoogleProductSpecTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:15825
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductSpecTasksReadyResponseInfo`](MerchantGoogleProductSpecTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15269
 
 ***
 
@@ -1331,17 +1309,17 @@ main.ts:15269
 
 > `protected` **processGoogleProductsTaskGetAdvanced**(`response`): `Promise`\<[`MerchantGoogleProductsTaskGetAdvancedResponseInfo`](MerchantGoogleProductsTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:15538
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductsTaskGetAdvancedResponseInfo`](MerchantGoogleProductsTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14982
 
 ***
 
@@ -1349,17 +1327,17 @@ main.ts:14982
 
 > `protected` **processGoogleProductsTaskGetHtml**(`response`): `Promise`\<[`MerchantGoogleProductsTaskGetHtmlResponseInfo`](MerchantGoogleProductsTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:15581
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductsTaskGetHtmlResponseInfo`](MerchantGoogleProductsTaskGetHtmlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15025
 
 ***
 
@@ -1367,17 +1345,17 @@ main.ts:15025
 
 > `protected` **processGoogleProductsTaskPost**(`response`): `Promise`\<[`MerchantGoogleProductsTaskPostResponseInfo`](MerchantGoogleProductsTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:15421
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductsTaskPostResponseInfo`](MerchantGoogleProductsTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14865
 
 ***
 
@@ -1385,17 +1363,17 @@ main.ts:14865
 
 > `protected` **processGoogleProductsTasksReady**(`response`): `Promise`\<[`MerchantGoogleProductsTasksReadyResponseInfo`](MerchantGoogleProductsTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:15458
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleProductsTasksReadyResponseInfo`](MerchantGoogleProductsTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14902
 
 ***
 
@@ -1403,17 +1381,17 @@ main.ts:14902
 
 > `protected` **processGoogleSellersAdUrl**(`response`): `Promise`\<[`MerchantGoogleSellersAdUrlResponseInfo`](MerchantGoogleSellersAdUrlResponseInfo.md)\>
 
+Defined in: main.ts:16075
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleSellersAdUrlResponseInfo`](MerchantGoogleSellersAdUrlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15519
 
 ***
 
@@ -1421,17 +1399,17 @@ main.ts:15519
 
 > `protected` **processGoogleSellersTaskGetAdvanced**(`response`): `Promise`\<[`MerchantGoogleSellersTaskGetAdvancedResponseInfo`](MerchantGoogleSellersTaskGetAdvancedResponseInfo.md)\>
 
+Defined in: main.ts:15703
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleSellersTaskGetAdvancedResponseInfo`](MerchantGoogleSellersTaskGetAdvancedResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15147
 
 ***
 
@@ -1439,17 +1417,17 @@ main.ts:15147
 
 > `protected` **processGoogleSellersTaskGetHtml**(`response`): `Promise`\<[`MerchantGoogleSellersTaskGetHtmlResponseInfo`](MerchantGoogleSellersTaskGetHtmlResponseInfo.md)\>
 
+Defined in: main.ts:15746
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleSellersTaskGetHtmlResponseInfo`](MerchantGoogleSellersTaskGetHtmlResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15190
 
 ***
 
@@ -1457,17 +1435,17 @@ main.ts:15190
 
 > `protected` **processGoogleSellersTaskPost**(`response`): `Promise`\<[`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)\>
 
+Defined in: main.ts:15623
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15067
 
 ***
 
@@ -1475,17 +1453,17 @@ main.ts:15067
 
 > `protected` **processGoogleSellersTasksReady**(`response`): `Promise`\<[`MerchantGoogleSellersTasksReadyResponseInfo`](MerchantGoogleSellersTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:15660
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleSellersTasksReadyResponseInfo`](MerchantGoogleSellersTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15104
 
 ***
 
@@ -1493,17 +1471,17 @@ main.ts:15104
 
 > `protected` **processMerchantAmazonLanguages**(`response`): `Promise`\<[`MerchantAmazonLanguagesResponseInfo`](MerchantAmazonLanguagesResponseInfo.md)\>
 
+Defined in: main.ts:16194
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonLanguagesResponseInfo`](MerchantAmazonLanguagesResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15638
 
 ***
 
@@ -1511,17 +1489,17 @@ main.ts:15638
 
 > `protected` **processMerchantAmazonLocations**(`response`): `Promise`\<[`MerchantAmazonLocationsResponseInfo`](MerchantAmazonLocationsResponseInfo.md)\>
 
+Defined in: main.ts:16112
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonLocationsResponseInfo`](MerchantAmazonLocationsResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15556
 
 ***
 
@@ -1529,17 +1507,17 @@ main.ts:15556
 
 > `protected` **processMerchantAmazonLocationsCountry**(`response`): `Promise`\<[`MerchantAmazonLocationsCountryResponseInfo`](MerchantAmazonLocationsCountryResponseInfo.md)\>
 
+Defined in: main.ts:16157
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantAmazonLocationsCountryResponseInfo`](MerchantAmazonLocationsCountryResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:15601
 
 ***
 
@@ -1547,17 +1525,17 @@ main.ts:15601
 
 > `protected` **processMerchantErrors**(`response`): `Promise`\<[`MerchantErrorsResponseInfo`](MerchantErrorsResponseInfo.md)\>
 
+Defined in: main.ts:15260
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantErrorsResponseInfo`](MerchantErrorsResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14704
 
 ***
 
@@ -1565,17 +1543,17 @@ main.ts:14704
 
 > `protected` **processMerchantGoogleLanguages**(`response`): `Promise`\<[`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)\>
 
+Defined in: main.ts:15297
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleLanguagesResponseInfo`](MerchantGoogleLanguagesResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14741
 
 ***
 
@@ -1583,17 +1561,17 @@ main.ts:14741
 
 > `protected` **processMerchantGoogleLocations**(`response`): `Promise`\<[`MerchantGoogleLocationsResponseInfo`](MerchantGoogleLocationsResponseInfo.md)\>
 
+Defined in: main.ts:15334
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleLocationsResponseInfo`](MerchantGoogleLocationsResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14778
 
 ***
 
@@ -1601,17 +1579,17 @@ main.ts:14778
 
 > `protected` **processMerchantGoogleLocationsCountry**(`response`): `Promise`\<[`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)\>
 
+Defined in: main.ts:15379
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14823
 
 ***
 
@@ -1619,17 +1597,17 @@ main.ts:14823
 
 > `protected` **processMerchantIdList**(`response`): `Promise`\<[`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)\>
 
+Defined in: main.ts:15218
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantIdListResponseInfo`](MerchantIdListResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14662
 
 ***
 
@@ -1637,14 +1615,14 @@ main.ts:14662
 
 > `protected` **processMerchantTasksReady**(`response`): `Promise`\<[`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)\>
 
+Defined in: main.ts:15495
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14939

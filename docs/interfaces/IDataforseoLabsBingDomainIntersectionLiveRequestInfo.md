@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingDomainIntersectionLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingDomainIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveRequestInfo
 
+Defined in: main.ts:116789
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:116881
 
 array of results filtering parameters
 optional field
@@ -33,30 +37,26 @@ example:
 ["second_domain_serp_element.type","=","organic"]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:107142
-
 ***
 
 ### include\_serp\_info?
 
 > `optional` **include\_serp\_info**: `boolean`
 
+Defined in: main.ts:116854
+
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
-
-#### Defined in
-
-main.ts:107115
 
 ***
 
 ### intersections?
 
 > `optional` **intersections**: `boolean`
+
+Defined in: main.ts:116841
 
 domain intersections in SERP
 optional field
@@ -66,15 +66,13 @@ if you specify intersections: false, you will get the keywords for which the dom
 thus, the corresponding SERP elements and other data will be provided for the domain specified as target1only
 default value: true
 
-#### Defined in
-
-main.ts:107102
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:116849
 
 search results type
 indicates type of search results included in the response
@@ -84,15 +82,13 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
-
-main.ts:107110
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:116833
 
 language code
 required field if you don’t specify language_name
@@ -102,15 +98,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:107094
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:116825
 
 full name of the language
 required field if you don’t specify language_code
@@ -120,30 +114,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:107086
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:116859
+
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:107120
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:116817
 
 location code
 required field if you don’t specify location_name
@@ -154,15 +144,13 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
-
-main.ts:107078
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:116808
 
 full name of the location
 required field if you don’t specify location_code
@@ -173,30 +161,26 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
-
-main.ts:107069
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:116864
+
 offset in the items array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
-
-#### Defined in
-
-main.ts:107125
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:116897
 
 results sorting rules
 optional field
@@ -214,15 +198,13 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_data.keyword_info.search_volume,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Defined in
-
-main.ts:107158
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:116903
 
 user-defined task identifier
 optional field
@@ -230,24 +212,18 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:107164
-
 ***
 
 ### target1?
 
 > `optional` **target1**: `string`
 
+Defined in: main.ts:116794
+
 domain
 required field
 the domain name of the first target website
 the domain should be specified without https:// and www.
-
-#### Defined in
-
-main.ts:107055
 
 ***
 
@@ -255,11 +231,9 @@ main.ts:107055
 
 > `optional` **target2**: `string`
 
+Defined in: main.ts:116799
+
 domain
 required field
 the domain name of the second target website
 the domain should be specified without https:// and www.
-
-#### Defined in
-
-main.ts:107060

@@ -21,7 +21,11 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137258
+=======
+main.ts:137291
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -34,7 +38,11 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137265
+=======
+main.ts:137298
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -48,4 +56,8 @@ you can learn more about clickstream search volume in this Help Center article
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:137262
+=======
+main.ts:137295
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

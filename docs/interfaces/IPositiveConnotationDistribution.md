@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPositiveConnotationDistribution
+[Documentation](../README.md) / IPositiveConnotationDistribution
 
 # Interface: IPositiveConnotationDistribution
 
+Defined in: main.ts:179252
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **negative**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167564
+Defined in: main.ts:179254
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:167564
 
 > `optional` **neutral**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167565
+Defined in: main.ts:179255
 
 ***
 
@@ -36,6 +34,4 @@ main.ts:167565
 
 > `optional` **positive**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167563
+Defined in: main.ts:179253

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoTrendsDemographyElementItem
+[Documentation](../README.md) / DataforseoTrendsDemographyElementItem
 
 # Class: DataforseoTrendsDemographyElementItem
+
+Defined in: main.ts:137900
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new DataforseoTrendsDemographyElementItem**(`data`?): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
+Defined in: main.ts:137908
+
 #### Parameters
 
-• **data?**: [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md)
+##### data?
+
+[`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
 
-#### Defined in
-
-main.ts:127548
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22797
+
 #### Inherited from
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`_discriminator`](BaseDataforseoTrendsItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21894
 
 ***
 
 ### demography?
 
 > `optional` **demography**: [`Demography`](Demography.md)
+
+Defined in: main.ts:137903
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -67,29 +69,25 @@ conains keyword popularity data by age and gender
 
 [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`demography`](../interfaces/IDataforseoTrendsDemographyElementItem.md#demography)
 
-#### Defined in
-
-main.ts:127543
-
 ***
 
 ### demography\_comparison?
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
+Defined in: main.ts:137904
+
 #### Implementation of
 
 [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`demography_comparison`](../interfaces/IDataforseoTrendsDemographyElementItem.md#demography_comparison)
-
-#### Defined in
-
-main.ts:127544
 
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22795
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -102,15 +100,13 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`keywords`](BaseDataforseoTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21892
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22792
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -123,15 +119,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`position`](BaseDataforseoTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21889
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22789
 
 type of element
 
@@ -143,19 +137,19 @@ type of element
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`type`](BaseDataforseoTrendsItem.md#type)
 
-#### Defined in
-
-main.ts:21886
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:137913
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -165,19 +159,19 @@ main.ts:21886
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`init`](BaseDataforseoTrendsItem.md#init)
 
-#### Defined in
-
-main.ts:127553
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:137932
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -187,19 +181,19 @@ main.ts:127553
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`toJSON`](BaseDataforseoTrendsItem.md#tojson)
 
-#### Defined in
-
-main.ts:127572
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
+Defined in: main.ts:137925
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -208,7 +202,3 @@ main.ts:127572
 #### Overrides
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`fromJS`](BaseDataforseoTrendsItem.md#fromjs)
-
-#### Defined in
-
-main.ts:127565

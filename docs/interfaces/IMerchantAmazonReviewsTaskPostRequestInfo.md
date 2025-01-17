@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonReviewsTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantAmazonReviewsTaskPostRequestInfo
 
 # Interface: IMerchantAmazonReviewsTaskPostRequestInfo
 
+Defined in: main.ts:196909
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **asin**: `string`
 
+Defined in: main.ts:196914
+
 product ID
 required field
 unique product identifier (ASIN) on Amazon
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
-
-#### Defined in
-
-main.ts:184501
 
 ***
 
@@ -31,16 +31,14 @@ main.ts:184501
 
 > `optional` **depth**: `number`
 
+Defined in: main.ts:196975
+
 parsing depth
 optional field
 number of reviews in SERP;
 we strongly recommend setting the parsing depth in the multiples of ten, because our system processes ten reviews in a row;
-maximum value: 100
+maximum value: 50
 default value: 10
-
-#### Defined in
-
-main.ts:184562
 
 ***
 
@@ -48,20 +46,20 @@ main.ts:184562
 
 > `optional` **filter\_by\_keyword**: `string`
 
+Defined in: main.ts:197008
+
 filter reviews by specified keyword
 optional field
-you can specify up to 300 symbols in this field;
+you can specify up to 300 characters in this field;
 if you use this field, the response will only include reviews that contain the specified keyword
-
-#### Defined in
-
-main.ts:184597
 
 ***
 
 ### filter\_by\_star?
 
 > `optional` **filter\_by\_star**: `string`
+
+Defined in: main.ts:197003
 
 filter reviews by stars
 optional field
@@ -77,15 +75,13 @@ positive — return positive reviews only;
 critical — return critical reviews only;
 default rule: all_stars
 
-#### Defined in
-
-main.ts:184592
-
 ***
 
 ### format\_type?
 
 > `optional` **format\_type**: `string`
+
+Defined in: main.ts:197025
 
 filter reviews by product modification
 optional field
@@ -96,15 +92,13 @@ current_format — return reviews for the current product modification only;
 default rule: all_format;
 Note: ASINs vary depending on a product modification. Thus, two modifications of the same product will have two different ASINs. Make sure to specify the right ASIN when setting a task with the current_format parameter
 
-#### Defined in
-
-main.ts:184614
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:196961
 
 search engine language code
 required field if you don’t specify language_name
@@ -113,15 +107,13 @@ you can receive the list of available languages with their language_code parame
 example:
 en_GB
 
-#### Defined in
-
-main.ts:184548
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:196954
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -131,15 +123,13 @@ https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
 English (United Kingdom)
 
-#### Defined in
-
-main.ts:184541
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:196937
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -149,15 +139,13 @@ https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
 9045969
 
-#### Defined in
-
-main.ts:184524
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:196946
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -168,15 +156,13 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
-#### Defined in
-
-main.ts:184533
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:196929
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -185,15 +171,13 @@ you can receive the list of available locations with their location_name paramet
 example:
 HA1,England,United Kingdom
 
-#### Defined in
-
-main.ts:184516
-
 ***
 
 ### media\_type?
 
 > `optional` **media\_type**: `string`
+
+Defined in: main.ts:197016
 
 filter reviews by media type
 optional field
@@ -203,15 +187,13 @@ all_contents — return text, image, and video reviews;
 media_reviews_only — return image and video reviews only;
 default rule: all_contents
 
-#### Defined in
-
-main.ts:184605
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:197059
 
 notification URL of a completed task
 optional field
@@ -220,12 +202,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:184646
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -233,21 +212,21 @@ main.ts:184646
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:197048
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Defined in
-
-main.ts:184636
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:197042
 
 return URL for sending task results
 optional field
@@ -256,18 +235,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:184630
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:196922
 
 task priority
 optional field
@@ -277,15 +255,13 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:184509
-
 ***
 
 ### reviewer\_type?
 
 > `optional` **reviewer\_type**: `string`
+
+Defined in: main.ts:196989
 
 filter reviews by reviewer type
 optional field
@@ -295,15 +271,13 @@ all_reviews — return reviews from all reviewers;
 avp_only_reviews — return reviews with the “Verified Purchase” mark only;
 default rule: all_reviews
 
-#### Defined in
-
-main.ts:184578
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:196968
 
 search engine domain
 optional field
@@ -312,27 +286,19 @@ however, you can set a custom search engine domain in this field
 example:
 amazon.com, amazon.co.uk, amazon.fr, etc.
 
-#### Defined in
-
-main.ts:184555
-
 ***
 
 ### sort\_by?
 
 > `optional` **sort\_by**: `string`
 
+Defined in: main.ts:196981
+
 results sorting parameters
 optional field
-you can use this field to sort the results;
 possible types of sorting:
-helpful — sort by helpful reviews;
-recent — sort by recent reviews;
+helpful — for now, the only available sorting value;
 default rule: helpful
-
-#### Defined in
-
-main.ts:184570
 
 ***
 
@@ -340,12 +306,10 @@ main.ts:184570
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:197031
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:184620

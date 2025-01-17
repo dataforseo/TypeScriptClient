@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / QuestionsAndAnswersElement
+[Documentation](../README.md) / QuestionsAndAnswersElement
 
 # Class: QuestionsAndAnswersElement
+
+Defined in: main.ts:35339
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new QuestionsAndAnswersElement**(`data`?): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
+Defined in: main.ts:35358
+
 #### Parameters
 
-• **data?**: [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md)
+##### data?
+
+[`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md)
 
 #### Returns
 
 [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
-
-#### Defined in
-
-main.ts:33568
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:33568
 
 > `optional` **answer\_text**: `string`
 
+Defined in: main.ts:35347
+
 answer included in the item
 
 #### Implementation of
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`answer_text`](../interfaces/IQuestionsAndAnswersElement.md#answer_text)
-
-#### Defined in
-
-main.ts:33557
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:33557
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35352
+
 website domain
 
 #### Implementation of
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`domain`](../interfaces/IQuestionsAndAnswersElement.md#domain)
-
-#### Defined in
-
-main.ts:33562
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:33562
 
 > `optional` **question\_text**: `string`
 
+Defined in: main.ts:35345
+
 question included in the item
 
 #### Implementation of
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`question_text`](../interfaces/IQuestionsAndAnswersElement.md#question_text)
 
-#### Defined in
-
-main.ts:33555
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:35350
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -93,15 +91,13 @@ indicates the source of information included in the top_stories_element
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`source`](../interfaces/IQuestionsAndAnswersElement.md#source)
 
-#### Defined in
-
-main.ts:33560
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:35341
 
 type of element
 
@@ -109,15 +105,13 @@ type of element
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`type`](../interfaces/IQuestionsAndAnswersElement.md#type)
 
-#### Defined in
-
-main.ts:33551
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:35343
 
 URL
 
@@ -125,15 +119,13 @@ URL
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`url`](../interfaces/IQuestionsAndAnswersElement.md#url)
 
-#### Defined in
-
-main.ts:33553
-
 ***
 
 ### votes?
 
 > `optional` **votes**: `number`
+
+Defined in: main.ts:35354
 
 answer upvotes from the source
 
@@ -141,27 +133,23 @@ answer upvotes from the source
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`votes`](../interfaces/IQuestionsAndAnswersElement.md#votes)
 
-#### Defined in
-
-main.ts:33564
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:35367
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:33577
 
 ***
 
@@ -169,17 +157,17 @@ main.ts:33577
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:35390
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:33600
 
 ***
 
@@ -187,14 +175,14 @@ main.ts:33600
 
 > `static` **fromJS**(`data`): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
+Defined in: main.ts:35383
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
-
-#### Defined in
-
-main.ts:33593

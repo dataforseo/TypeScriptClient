@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
+Defined in: main.ts:212308
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:212313
+
 item types
 the number of items in the items array
-
-#### Defined in
-
-main.ts:199862
 
 ***
 
@@ -29,13 +29,11 @@ main.ts:199862
 
 > `optional` **items**: [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](../classes/BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)[]
 
+Defined in: main.ts:212323
+
 encountered item types
 types of search engine results encountered in the items array;
 possible item types: business_category
-
-#### Defined in
-
-main.ts:199872
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:199872
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:212315
+
 offset in the results array of returned categories
-
-#### Defined in
-
-main.ts:199864
 
 ***
 
@@ -55,13 +51,11 @@ main.ts:199864
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:212319
+
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:199868
 
 ***
 
@@ -69,8 +63,6 @@ main.ts:199868
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:212310
+
 total number of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:199859

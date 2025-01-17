@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixFunctionTypeInfo
+[Documentation](../README.md) / IAppendixFunctionTypeInfo
 
 # Interface: IAppendixFunctionTypeInfo
 
+Defined in: main.ts:230540
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **advanced**: `number`
 
-#### Defined in
-
-main.ts:215498
+Defined in: main.ts:230542
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:215498
 
 > `optional` **html**: `number`
 
-#### Defined in
-
-main.ts:215499
+Defined in: main.ts:230543
 
 ***
 
@@ -36,6 +34,4 @@ main.ts:215499
 
 > `optional` **regular**: `number`
 
-#### Defined in
-
-main.ts:215497
+Defined in: main.ts:230541

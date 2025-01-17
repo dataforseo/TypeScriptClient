@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonDeliveryInfo
+[Documentation](../README.md) / AmazonDeliveryInfo
 
 # Class: AmazonDeliveryInfo
+
+Defined in: main.ts:23611
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AmazonDeliveryInfo**(`data`?): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
+Defined in: main.ts:23629
+
 #### Parameters
 
-• **data?**: [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md)
+##### data?
+
+[`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md)
 
 #### Returns
 
 [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
-
-#### Defined in
-
-main.ts:22726
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:22726
 
 > `optional` **delivery\_date\_from**: `string`
 
+Defined in: main.ts:23615
+
 the earliest date when the product can be shipped
 
 #### Implementation of
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`delivery_date_from`](../interfaces/IAmazonDeliveryInfo.md#delivery_date_from)
-
-#### Defined in
-
-main.ts:22712
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:22712
 
 > `optional` **delivery\_date\_to**: `string`
 
+Defined in: main.ts:23617
+
 the latest date when the product can be delivered
 
 #### Implementation of
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`delivery_date_to`](../interfaces/IAmazonDeliveryInfo.md#delivery_date_to)
-
-#### Defined in
-
-main.ts:22714
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:22714
 
 > `optional` **delivery\_message**: `string`
 
+Defined in: main.ts:23613
+
 message accompanying the delivery information as posted by the seller
 
 #### Implementation of
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`delivery_message`](../interfaces/IAmazonDeliveryInfo.md#delivery_message)
 
-#### Defined in
-
-main.ts:22710
-
 ***
 
 ### delivery\_price?
 
 > `optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:23625
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -94,15 +92,13 @@ if free delivery is available, the value is null
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`delivery_price`](../interfaces/IAmazonDeliveryInfo.md#delivery_price)
 
-#### Defined in
-
-main.ts:22722
-
 ***
 
 ### fastest\_delivery\_date\_from?
 
 > `optional` **fastest\_delivery\_date\_from**: `string`
+
+Defined in: main.ts:23619
 
 the earliest date when the product can be delivered with a fast delivery option
 
@@ -110,15 +106,13 @@ the earliest date when the product can be delivered with a fast delivery option
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`fastest_delivery_date_from`](../interfaces/IAmazonDeliveryInfo.md#fastest_delivery_date_from)
 
-#### Defined in
-
-main.ts:22716
-
 ***
 
 ### fastest\_delivery\_date\_to?
 
 > `optional` **fastest\_delivery\_date\_to**: `string`
+
+Defined in: main.ts:23621
 
 the latest date when the product can be delivered with a fast delivery option
 
@@ -126,27 +120,23 @@ the latest date when the product can be delivered with a fast delivery option
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`fastest_delivery_date_to`](../interfaces/IAmazonDeliveryInfo.md#fastest_delivery_date_to)
 
-#### Defined in
-
-main.ts:22718
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:23638
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22735
 
 ***
 
@@ -154,17 +144,17 @@ main.ts:22735
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23660
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22757
 
 ***
 
@@ -172,14 +162,14 @@ main.ts:22757
 
 > `static` **fromJS**(`data`): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
+Defined in: main.ts:23653
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
-
-#### Defined in
-
-main.ts:22750

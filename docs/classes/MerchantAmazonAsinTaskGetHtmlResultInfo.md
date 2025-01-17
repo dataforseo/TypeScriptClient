@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonAsinTaskGetHtmlResultInfo
+[Documentation](../README.md) / MerchantAmazonAsinTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonAsinTaskGetHtmlResultInfo
+
+Defined in: main.ts:195210
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new MerchantAmazonAsinTaskGetHtmlResultInfo**(`data`?): [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:195233
+
 #### Parameters
 
-• **data?**: [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:182824
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:195225
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:182816
-
 ***
 
 ### items?
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+
+Defined in: main.ts:195229
 
 HTML pages and related data
 
@@ -63,15 +65,13 @@ HTML pages and related data
 
 [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`items`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
-
-main.ts:182820
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:195227
 
 the number of results returned in the items array
 
@@ -79,15 +79,13 @@ the number of results returned in the items array
 
 [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:182818
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:195220
 
 language code in a POST array
 
@@ -95,15 +93,13 @@ language code in a POST array
 
 [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:182811
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:195218
 
 location code in a POST array
 
@@ -111,15 +107,13 @@ location code in a POST array
 
 [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:182809
-
 ***
 
 ### product\_id?
 
 > `optional` **product\_id**: `string`
+
+Defined in: main.ts:195212
 
 ASIN received in a POST array
 
@@ -127,15 +121,13 @@ ASIN received in a POST array
 
 [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`product_id`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#product_id)
 
-#### Defined in
-
-main.ts:182803
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:195216
 
 search engine domain in a POST array
 
@@ -143,15 +135,13 @@ search engine domain in a POST array
 
 [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:182807
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:195214
 
 type of element
 
@@ -159,27 +149,23 @@ type of element
 
 [`IMerchantAmazonAsinTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md).[`type`](../interfaces/IMerchantAmazonAsinTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
-
-main.ts:182805
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:195242
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:182833
 
 ***
 
@@ -187,17 +173,17 @@ main.ts:182833
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:195270
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:182861
 
 ***
 
@@ -205,14 +191,14 @@ main.ts:182861
 
 > `static` **fromJS**(`data`): [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:195263
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantAmazonAsinTaskGetHtmlResultInfo`](MerchantAmazonAsinTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:182854

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageResourcesRequestInfo
+[Documentation](../README.md) / OnPageResourcesRequestInfo
 
 # Class: OnPageResourcesRequestInfo
+
+Defined in: main.ts:167586
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageResourcesRequestInfo**(`data`?): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
 
+Defined in: main.ts:167658
+
 #### Parameters
 
-• **data?**: [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md)
+##### data?
+
+[`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md)
 
 #### Returns
 
 [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
-
-#### Defined in
-
-main.ts:155922
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:167622
 
 array of results filtering parameters
 optional field
@@ -56,15 +60,13 @@ The full list of possible filters is available by this link.
 
 [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`filters`](../interfaces/IOnPageResourcesRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:155886
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:167592
 
 ID of the task
 required field
@@ -76,15 +78,13 @@ example:
 
 [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`id`](../interfaces/IOnPageResourcesRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:155856
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:167603
 
 the maximum number of returned resources
 optional field
@@ -95,15 +95,13 @@ maximum value: 1000
 
 [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`limit`](../interfaces/IOnPageResourcesRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:155867
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:167608
 
 offset in the results array of returned resources
 optional field
@@ -114,15 +112,13 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`offset`](../interfaces/IOnPageResourcesRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:155872
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:167648
 
 results sorting rules
 optional field
@@ -142,15 +138,13 @@ example:
 
 [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`order_by`](../interfaces/IOnPageResourcesRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:155912
-
 ***
 
 ### relevant\_pages\_filters?
 
 > `optional` **relevant\_pages\_filters**: `string`[]
+
+Defined in: main.ts:167634
 
 filter the resources by relevant pages
 optional field
@@ -168,15 +162,13 @@ example:
 
 [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`relevant_pages_filters`](../interfaces/IOnPageResourcesRequestInfo.md#relevant_pages_filters)
 
-#### Defined in
-
-main.ts:155898
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:167654
 
 user-defined task identifier
 optional field
@@ -188,15 +180,13 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`tag`](../interfaces/IOnPageResourcesRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:155918
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:167598
 
 page URL
 optional field
@@ -208,27 +198,23 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 [`IOnPageResourcesRequestInfo`](../interfaces/IOnPageResourcesRequestInfo.md).[`url`](../interfaces/IOnPageResourcesRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:155862
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:167667
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:155931
 
 ***
 
@@ -236,17 +222,17 @@ main.ts:155931
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:167703
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:155967
 
 ***
 
@@ -254,14 +240,14 @@ main.ts:155967
 
 > `static` **fromJS**(`data`): [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
 
+Defined in: main.ts:167696
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageResourcesRequestInfo`](OnPageResourcesRequestInfo.md)
-
-#### Defined in
-
-main.ts:155960

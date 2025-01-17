@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotSearchTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataTrustpilotSearchTasksReadyResultInfo
 
 # Class: BusinessDataTrustpilotSearchTasksReadyResultInfo
+
+Defined in: main.ts:225746
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataTrustpilotSearchTasksReadyResultInfo**(`data`?): [`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
 
+Defined in: main.ts:225764
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:210734
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:210734
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:225756
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:210726
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:210726
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:225760
+
 URL for collecting the results of the task
 
 #### Implementation of
 
 [`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
-
-main.ts:210730
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:225749
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -77,15 +77,13 @@ unique task identifier in our system in the UUID format
 
 [`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:210719
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:225752
 
 search engine specified when setting the task
 can take the following values: trustpilot
@@ -94,15 +92,13 @@ can take the following values: trustpilot
 
 [`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:210722
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:225754
 
 search engine type
 
@@ -110,15 +106,13 @@ search engine type
 
 [`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:210724
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:225758
 
 user-defined task identifier
 
@@ -126,27 +120,23 @@ user-defined task identifier
 
 [`IBusinessDataTrustpilotSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataTrustpilotSearchTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:210728
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:225773
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:210743
 
 ***
 
@@ -154,17 +144,17 @@ main.ts:210743
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:225795
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:210765
 
 ***
 
@@ -172,14 +162,14 @@ main.ts:210765
 
 > `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
 
+Defined in: main.ts:225788
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTrustpilotSearchTasksReadyResultInfo`](BusinessDataTrustpilotSearchTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:210758

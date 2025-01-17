@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173643
+=======
+main.ts:173676
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -54,7 +58,11 @@ maximum value: 200
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173607
+=======
+main.ts:173640
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -75,7 +83,11 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173561
+=======
+main.ts:173594
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -96,7 +108,11 @@ en
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173589
+=======
+main.ts:173622
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -117,7 +133,11 @@ English
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173582
+=======
+main.ts:173615
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -138,7 +158,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173575
+=======
+main.ts:173608
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -159,7 +183,11 @@ West Los Angeles,California,United States
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173568
+=======
+main.ts:173601
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -183,7 +211,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173639
+=======
+main.ts:173672
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -203,7 +235,11 @@ advanced, html
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173629
+=======
+main.ts:173662
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -227,7 +263,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173623
+=======
+main.ts:173656
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -249,7 +289,11 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173597
+=======
+main.ts:173630
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -269,7 +313,11 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173613
+=======
+main.ts:173646
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -287,7 +335,11 @@ main.ts:173613
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173652
+=======
+main.ts:173685
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -305,7 +357,11 @@ main.ts:173652
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173679
+=======
+main.ts:173712
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -323,4 +379,8 @@ main.ts:173679
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:173672
+=======
+main.ts:173705
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

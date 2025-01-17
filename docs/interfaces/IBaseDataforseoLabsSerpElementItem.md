@@ -1,28 +1,31 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IBaseDataforseoLabsSerpElementItem
 
 # Interface: IBaseDataforseoLabsSerpElementItem
+
+Defined in: main.ts:21691
 
 ## Extended by
 
 - [`IOrganicDataforseoLabsSerpElementItem`](IOrganicDataforseoLabsSerpElementItem.md)
 - [`IPeopleAlsoAskDataforseoLabsSerpElementItem`](IPeopleAlsoAskDataforseoLabsSerpElementItem.md)
-- [`ITwitterDataforseoLabsSerpElementItem`](ITwitterDataforseoLabsSerpElementItem.md)
 - [`IRelatedSearchesDataforseoLabsSerpElementItem`](IRelatedSearchesDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphRowItemDataforseoLabsSerpElementItem`](IKnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphDataforseoLabsSerpElementItem`](IKnowledgeGraphDataforseoLabsSerpElementItem.md)
+- [`ITwitterDataforseoLabsSerpElementItem`](ITwitterDataforseoLabsSerpElementItem.md)
+- [`IVideoDataforseoLabsSerpElementItem`](IVideoDataforseoLabsSerpElementItem.md)
+- [`IImagesDataforseoLabsSerpElementItem`](IImagesDataforseoLabsSerpElementItem.md)
 - [`ICarouselDataforseoLabsSerpElementItem`](ICarouselDataforseoLabsSerpElementItem.md)
 - [`IMultiCarouselDataforseoLabsSerpElementItem`](IMultiCarouselDataforseoLabsSerpElementItem.md)
 - [`ITopStoriesDataforseoLabsSerpElementItem`](ITopStoriesDataforseoLabsSerpElementItem.md)
 - [`IAnswerBoxDataforseoLabsSerpElementItem`](IAnswerBoxDataforseoLabsSerpElementItem.md)
 - [`IMathSolverDataforseoLabsSerpElementItem`](IMathSolverDataforseoLabsSerpElementItem.md)
-- [`IVideoDataforseoLabsSerpElementItem`](IVideoDataforseoLabsSerpElementItem.md)
 - [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](IPeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 - [`IMapDataforseoLabsSerpElementItem`](IMapDataforseoLabsSerpElementItem.md)
 - [`IFeaturedSnippetDataforseoLabsSerpElementItem`](IFeaturedSnippetDataforseoLabsSerpElementItem.md)
@@ -36,7 +39,6 @@
 - [`IGoogleReviewsDataforseoLabsSerpElementItem`](IGoogleReviewsDataforseoLabsSerpElementItem.md)
 - [`IGooglePostsDataforseoLabsSerpElementItem`](IGooglePostsDataforseoLabsSerpElementItem.md)
 - [`IGoogleFlightsDataforseoLabsSerpElementItem`](IGoogleFlightsDataforseoLabsSerpElementItem.md)
-- [`IImagesDataforseoLabsSerpElementItem`](IImagesDataforseoLabsSerpElementItem.md)
 - [`IShoppingDataforseoLabsSerpElementItem`](IShoppingDataforseoLabsSerpElementItem.md)
 - [`IJobsDataforseoLabsSerpElementItem`](IJobsDataforseoLabsSerpElementItem.md)
 - [`IEventsDataforseoLabsSerpElementItem`](IEventsDataforseoLabsSerpElementItem.md)
@@ -60,13 +62,11 @@
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:21703
+
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Defined in
-
-main.ts:21020
 
 ***
 
@@ -74,12 +74,10 @@ main.ts:21020
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:21699
+
 absolute rank in SERP
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:21016
 
 ***
 
@@ -87,12 +85,10 @@ main.ts:21016
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:21696
+
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:21013
 
 ***
 
@@ -100,11 +96,9 @@ main.ts:21013
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21693
+
 type of element
-
-#### Defined in
-
-main.ts:21010
 
 ***
 
@@ -112,8 +106,6 @@ main.ts:21010
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21705
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:21022

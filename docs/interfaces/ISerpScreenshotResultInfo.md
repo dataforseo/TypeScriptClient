@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpScreenshotResultInfo
+[Documentation](../README.md) / ISerpScreenshotResultInfo
 
 # Interface: ISerpScreenshotResultInfo
 
+Defined in: main.ts:26314
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`ScreenshotItem`](../classes/ScreenshotItem.md)[]
 
+Defined in: main.ts:26318
+
 items array
-
-#### Defined in
-
-main.ts:25248
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:25248
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:26316
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:25246

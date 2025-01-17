@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
+Defined in: main.ts:230923
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **demography**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215874
+Defined in: main.ts:230926
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:215874
 
 > `optional` **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215872
+Defined in: main.ts:230924
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:215872
 
 > `optional` **merged\_data**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215875
+Defined in: main.ts:230927
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:215875
 
 > `optional` **subregion\_interests**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215873
+Defined in: main.ts:230925

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
+Defined in: main.ts:111949
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,22 +18,22 @@
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:111956
+
 target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
-each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
-
-#### Defined in
-
-main.ts:102117
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:112003
 
 language code
 required field if don’t specify language_name
@@ -40,15 +42,13 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 en
 
-#### Defined in
-
-main.ts:102164
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:111996
 
 full name of the language
 required field if don’t specify language_code
@@ -57,15 +57,13 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 English
 
-#### Defined in
-
-main.ts:102157
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:111989
 
 location code
 required field if don’t specify location_name
@@ -75,15 +73,13 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 2840
 
-#### Defined in
-
-main.ts:102150
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:111981
 
 full name of the location
 required field if don’t specify location_code
@@ -110,22 +106,16 @@ United States – 2840, en
 example:
 United States
 
-#### Defined in
-
-main.ts:102142
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:112009
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:102170

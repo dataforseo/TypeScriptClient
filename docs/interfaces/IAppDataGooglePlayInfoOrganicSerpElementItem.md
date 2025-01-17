@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGooglePlayInfoOrganicSerpElementItem
+[Documentation](../README.md) / IAppDataGooglePlayInfoOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlayInfoOrganicSerpElementItem
+
+Defined in: main.ts:202274
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:202276
+
 ID of the app
-
-#### Defined in
-
-main.ts:189839
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:189839
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:202282
+
 description of the app
-
-#### Defined in
-
-main.ts:189845
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:189845
 
 > `optional` **developer**: `string`
 
+Defined in: main.ts:202298
+
 name of the app developer
-
-#### Defined in
-
-main.ts:189861
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:189861
 
 > `optional` **developer\_address**: `string`
 
+Defined in: main.ts:202306
+
 physical address of the developer
-
-#### Defined in
-
-main.ts:189869
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:189869
 
 > `optional` **developer\_email**: `string`
 
+Defined in: main.ts:202304
+
 email address of the developer
-
-#### Defined in
-
-main.ts:189867
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:189867
 
 > `optional` **developer\_id**: `string`
 
+Defined in: main.ts:202300
+
 ID of the app developer
-
-#### Defined in
-
-main.ts:189863
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:189863
 
 > `optional` **developer\_url**: `string`
 
+Defined in: main.ts:202302
+
 URL to the developer page on Google Play
-
-#### Defined in
-
-main.ts:189865
 
 ***
 
@@ -104,11 +92,9 @@ main.ts:189865
 
 > `optional` **developer\_website**: `string`
 
+Defined in: main.ts:202308
+
 official website of the developer
-
-#### Defined in
-
-main.ts:189871
 
 ***
 
@@ -116,12 +102,10 @@ main.ts:189871
 
 > `optional` **genres**: `string`[]
 
+Defined in: main.ts:202342
+
 app genres
 contains relevant app categories
-
-#### Defined in
-
-main.ts:189905
 
 ***
 
@@ -129,11 +113,9 @@ main.ts:189905
 
 > `optional` **icon**: `string`
 
+Defined in: main.ts:202280
+
 URL to the app icon
-
-#### Defined in
-
-main.ts:189843
 
 ***
 
@@ -141,12 +123,10 @@ main.ts:189843
 
 > `optional` **images**: `string`[]
 
+Defined in: main.ts:202330
+
 app images
 contains URLs to the images published on the app page on Google Play
-
-#### Defined in
-
-main.ts:189893
 
 ***
 
@@ -154,12 +134,10 @@ main.ts:189893
 
 > `optional` **installs**: `string`
 
+Defined in: main.ts:202293
+
 number of installs of the app
 approximate number of installs as displayed on the app page
-
-#### Defined in
-
-main.ts:189856
 
 ***
 
@@ -167,12 +145,10 @@ main.ts:189856
 
 > `optional` **installs\_count**: `number`
 
+Defined in: main.ts:202296
+
 number of installs of the app
 the exact number of installs of the app
-
-#### Defined in
-
-main.ts:189859
 
 ***
 
@@ -180,11 +156,9 @@ main.ts:189859
 
 > `optional` **is\_free**: `boolean`
 
+Defined in: main.ts:202288
+
 indicates whether the app is free
-
-#### Defined in
-
-main.ts:189851
 
 ***
 
@@ -192,14 +166,12 @@ main.ts:189851
 
 > `optional` **last\_update\_date**: `string`
 
+Defined in: main.ts:202324
+
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:189887
 
 ***
 
@@ -207,11 +179,9 @@ main.ts:189887
 
 > `optional` **main\_category**: `string`
 
+Defined in: main.ts:202290
+
 main category of the app
-
-#### Defined in
-
-main.ts:189853
 
 ***
 
@@ -219,11 +189,9 @@ main.ts:189853
 
 > `optional` **minimum\_os\_version**: `string`
 
+Defined in: main.ts:202312
+
 minimum OS version required to install the app
-
-#### Defined in
-
-main.ts:189875
 
 ***
 
@@ -231,18 +199,18 @@ main.ts:189875
 
 > `optional` **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
+Defined in: main.ts:202339
+
 similar apps
 information about apps built by the same developer
-
-#### Defined in
-
-main.ts:189902
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:22971
 
 the alignment of the element in SERP
 can take the following values:
@@ -252,27 +220,23 @@ left, right
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:22068
-
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+
+Defined in: main.ts:202286
 
 price of the app
-
-#### Defined in
-
-main.ts:189849
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:22967
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -281,15 +245,13 @@ absolute position among all the elements in SERP
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:22064
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22964
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -298,15 +260,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:22061
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+
+Defined in: main.ts:22975
 
 average rating of the app
 
@@ -314,24 +274,18 @@ average rating of the app
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:22072
-
 ***
 
 ### released\_date?
 
 > `optional` **released\_date**: `string`
 
+Defined in: main.ts:202319
+
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:189882
 
 ***
 
@@ -339,11 +293,9 @@ main.ts:189882
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:202284
+
 the total number of reviews the app has
-
-#### Defined in
-
-main.ts:189847
 
 ***
 
@@ -351,12 +303,10 @@ main.ts:189847
 
 > `optional` **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
+Defined in: main.ts:202336
+
 similar apps
 displays apps similar to the app in a POST request
-
-#### Defined in
-
-main.ts:189899
 
 ***
 
@@ -364,11 +314,9 @@ main.ts:189899
 
 > `optional` **size**: `string`
 
+Defined in: main.ts:202314
+
 size of the app
-
-#### Defined in
-
-main.ts:189877
 
 ***
 
@@ -376,12 +324,10 @@ main.ts:189877
 
 > `optional` **tags**: `string`[]
 
+Defined in: main.ts:202345
+
 app tags
 contains relevant app tags
-
-#### Defined in
-
-main.ts:189908
 
 ***
 
@@ -389,15 +335,13 @@ main.ts:189908
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:22973
+
 title of the app
 
 #### Inherited from
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
-
-#### Defined in
-
-main.ts:22070
 
 ***
 
@@ -405,15 +349,13 @@ main.ts:22070
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22961
+
 type of element
 
 #### Inherited from
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:22058
 
 ***
 
@@ -421,12 +363,10 @@ main.ts:22058
 
 > `optional` **update\_notes**: `string`
 
+Defined in: main.ts:202327
+
 update notes
 contains the latest update notes from the developer
-
-#### Defined in
-
-main.ts:189890
 
 ***
 
@@ -434,11 +374,9 @@ main.ts:189890
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:202278
+
 URL to the app page on Google Play
-
-#### Defined in
-
-main.ts:189841
 
 ***
 
@@ -446,11 +384,9 @@ main.ts:189841
 
 > `optional` **version**: `string`
 
+Defined in: main.ts:202310
+
 current version of the app
-
-#### Defined in
-
-main.ts:189873
 
 ***
 
@@ -458,9 +394,7 @@ main.ts:189873
 
 > `optional` **videos**: `string`[]
 
+Defined in: main.ts:202333
+
 app videos
 contains URLs to the video published on the app page on Google Play
-
-#### Defined in
-
-main.ts:189896

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBusinessDataDayLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixBusinessDataDayLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessDataDayLimitsRatesDataInfo
 
+Defined in: main.ts:232017
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216954
+Defined in: main.ts:232018
 
 ***
 
@@ -26,6 +26,4 @@ main.ts:216954
 
 > `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216955
+Defined in: main.ts:232019

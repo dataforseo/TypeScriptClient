@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseLocalBusinessLink
+[Documentation](../README.md) / BaseLocalBusinessLink
 
 # Class: BaseLocalBusinessLink
+
+Defined in: main.ts:24916
 
 ## Extended by
 
@@ -22,17 +24,17 @@
 
 > **new BaseLocalBusinessLink**(`data`?): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
+Defined in: main.ts:24922
+
 #### Parameters
 
-• **data?**: [`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md)
+##### data?
+
+[`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md)
 
 #### Returns
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
-
-#### Defined in
-
-main.ts:23852
 
 ## Properties
 
@@ -40,9 +42,7 @@ main.ts:23852
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:23850
+Defined in: main.ts:24920
 
 ***
 
@@ -50,15 +50,13 @@ main.ts:23850
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24918
+
 type of element
 
 #### Implementation of
 
 [`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md).[`type`](../interfaces/IBaseLocalBusinessLink.md#type)
-
-#### Defined in
-
-main.ts:23848
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:23848
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24932
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23862
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:23862
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24960
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23890
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:23890
 
 > `static` **fromJS**(`data`): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
+Defined in: main.ts:24938
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
-
-#### Defined in
-
-main.ts:23868

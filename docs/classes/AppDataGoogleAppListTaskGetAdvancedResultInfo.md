@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataGoogleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResultInfo
+
+Defined in: main.ts:201038
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppDataGoogleAppListTaskGetAdvancedResultInfo**(`data`?): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:201065
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:188628
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:201049
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:188612
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:201054
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:188617
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
+
+Defined in: main.ts:201061
 
 found apps
 
@@ -80,15 +80,13 @@ found apps
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
-
-main.ts:188624
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:201059
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -97,15 +95,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:188622
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:201040
 
 app collection received in a POST array
 
@@ -113,15 +109,13 @@ app collection received in a POST array
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:188603
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:201046
 
 language code in a POST array
 
@@ -129,15 +123,13 @@ language code in a POST array
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:188609
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:201044
 
 location code in a POST array
 
@@ -145,15 +137,13 @@ location code in a POST array
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:188607
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:201042
 
 search engine domain in a POST array
 
@@ -161,15 +151,13 @@ search engine domain in a POST array
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:188605
-
 ***
 
 ### se\_results\_count?
 
 > `optional` **se\_results\_count**: `number`
+
+Defined in: main.ts:201056
 
 the total number of results
 
@@ -177,27 +165,23 @@ the total number of results
 
 [`IAppDataGoogleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/IAppDataGoogleAppListTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:188619
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:201074
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:188637
 
 ***
 
@@ -205,17 +189,17 @@ main.ts:188637
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:201103
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:188666
 
 ***
 
@@ -223,14 +207,14 @@ main.ts:188666
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:201096
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleAppListTaskGetAdvancedResultInfo`](AppDataGoogleAppListTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:188659

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpSeznamOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / ISerpSeznamOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpSeznamOrganicTaskGetRegularResultInfo
 
+Defined in: main.ts:83696
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:83710
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:73984
 
 ***
 
@@ -29,20 +29,20 @@ main.ts:73984
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:83715
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:73989
 
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:83729
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -52,21 +52,15 @@ note that this array contains all types of search results found in the returned 
 however, this endpoint provides data for the organic type only
 to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Seznam Organiс Advanced SERP endpoint
 
-#### Defined in
-
-main.ts:74000
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
+Defined in: main.ts:83735
+
 items in SERP
-
-#### Defined in
-
-main.ts:74006
 
 ***
 
@@ -74,11 +68,9 @@ main.ts:74006
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:83733
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:74004
 
 ***
 
@@ -86,12 +78,10 @@ main.ts:74004
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:83699
+
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:73973
 
 ***
 
@@ -99,11 +89,9 @@ main.ts:73973
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:83707
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:73981
 
 ***
 
@@ -111,11 +99,20 @@ main.ts:73981
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:83705
+
 location code in a POST array
 
-#### Defined in
+***
 
-main.ts:73979
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+Defined in: main.ts:83721
+
+search refinement chips
+equals null
 
 ***
 
@@ -123,11 +120,9 @@ main.ts:73979
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:83703
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:73977
 
 ***
 
@@ -135,11 +130,9 @@ main.ts:73977
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:83731
+
 total number of results in SERP
-
-#### Defined in
-
-main.ts:74002
 
 ***
 
@@ -147,12 +140,10 @@ main.ts:74002
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
+Defined in: main.ts:83718
+
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
-
-#### Defined in
-
-main.ts:73992
 
 ***
 
@@ -160,8 +151,6 @@ main.ts:73992
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:83701
+
 type of element
-
-#### Defined in
-
-main.ts:73975

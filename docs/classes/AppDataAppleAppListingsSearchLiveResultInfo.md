@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / AppDataAppleAppListingsSearchLiveResultInfo
 
 # Class: AppDataAppleAppListingsSearchLiveResultInfo
+
+Defined in: main.ts:209184
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataAppleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
 
+Defined in: main.ts:209199
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:196748
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:196748
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:209188
+
 the number of items in the results array
 
 #### Implementation of
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`count`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#count)
-
-#### Defined in
-
-main.ts:196737
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:196737
 
 > `optional` **items**: [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)[]
 
+Defined in: main.ts:209195
+
 array of apps and related data
 
 #### Implementation of
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`items`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:196744
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:196744
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:209190
+
 offset in the results array of returned apps
 
 #### Implementation of
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`offset`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#offset)
 
-#### Defined in
-
-main.ts:196739
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:209193
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -93,15 +91,13 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`offset_token`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:196742
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:209186
 
 the total number of relevant results in the database
 
@@ -109,27 +105,23 @@ the total number of relevant results in the database
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`total_count`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:196735
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:209208
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:196757
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:196757
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:209233
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:196782
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:196782
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
 
+Defined in: main.ts:209226
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:196775

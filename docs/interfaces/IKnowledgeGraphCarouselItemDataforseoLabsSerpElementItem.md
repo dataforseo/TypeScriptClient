@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
+
+Defined in: main.ts:106068
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,13 +22,11 @@
 
 > `optional` **data\_attrid**: `string`
 
+Defined in: main.ts:106074
+
 google defined data attribute ID
 example:
 ss:/webfacts:net_worth
-
-#### Defined in
-
-main.ts:96329
 
 ***
 
@@ -34,12 +34,10 @@ main.ts:96329
 
 > `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
+Defined in: main.ts:106079
+
 additional items present in the element
 if there are none, equals null
-
-#### Defined in
-
-main.ts:96334
 
 ***
 
@@ -47,17 +45,17 @@ main.ts:96334
 
 > `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
+Defined in: main.ts:106076
+
 link of the element
-
-#### Defined in
-
-main.ts:96331
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21703
 
 the alignment of the element in SERP
 can take the following values:
@@ -67,15 +65,13 @@ left, right
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21020
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21699
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -84,15 +80,13 @@ absolute position among all the elements in SERP
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21016
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21696
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -101,21 +95,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21013
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:106070
+
 title of the link
-
-#### Defined in
-
-main.ts:96325
 
 ***
 
@@ -123,15 +111,13 @@ main.ts:96325
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21693
+
 type of element
 
 #### Inherited from
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21010
 
 ***
 
@@ -139,12 +125,10 @@ main.ts:21010
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21705
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:21022

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingPageIntersectionLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingPageIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveRequestInfo
 
+Defined in: main.ts:117770
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### exclude\_pages?
 
 > `optional` **exclude\_pages**: `string`[]
+
+Defined in: main.ts:117804
 
 URLs of pages you want to exclude
 optional field
@@ -29,15 +33,13 @@ example:
 "https://www.microsoft.com/en-us/industry/services/"
 ]
 
-#### Defined in
-
-main.ts:108141
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:117899
 
 array of results filtering parameters
 optional field
@@ -59,24 +61,18 @@ if you want to filter results and receive only organic listings for the third sp
 ["intersection_result.2.type","=","organic"]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:108236
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
 
+Defined in: main.ts:117851
+
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
-
-#### Defined in
-
-main.ts:108188
 
 ***
 
@@ -84,14 +80,12 @@ main.ts:108188
 
 > `optional` **include\_serp\_info**: `boolean`
 
+Defined in: main.ts:117879
+
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
-
-#### Defined in
-
-main.ts:108216
 
 ***
 
@@ -99,20 +93,20 @@ main.ts:108216
 
 > `optional` **include\_subdomains**: `boolean`
 
+Defined in: main.ts:117866
+
 indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
-
-#### Defined in
-
-main.ts:108203
 
 ***
 
 ### intersection\_mode?
 
 > `optional` **intersection\_mode**: `string`
+
+Defined in: main.ts:117874
 
 indicates whether to intersect keywords
 optional field
@@ -122,15 +116,13 @@ union – results are based on all keywords any URL from pages rank for;
 intersect – results are based on the keywords all URLs from pages rank for in the same SERP:
 by default, results are based on the intersect mode if you specify only pages array. If you specify exclude_pages as well, results are based on the union mode
 
-#### Defined in
-
-main.ts:108211
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:117846
 
 search results type
 indicates type of search results included in the response
@@ -140,15 +132,13 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Defined in
-
-main.ts:108183
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:117838
 
 language code
 required field if you don’t specify language_name
@@ -158,15 +148,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:108175
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:117830
 
 full name of the language
 required field if you don’t specify language_code
@@ -176,30 +164,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:108167
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:117856
+
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:108193
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:117822
 
 location code
 required field if you don’t specify location_name
@@ -210,15 +194,13 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
-
-main.ts:108159
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:117813
 
 full name of the location
 required field if you don’t specify location_code
@@ -229,30 +211,26 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
-
-main.ts:108150
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:117861
+
 offset in the items array of returned keywords
 optional field
 default value: 0
 if you specify 10 here, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
-
-#### Defined in
-
-main.ts:108198
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:117915
 
 results sorting rules
 optional field
@@ -270,15 +248,13 @@ you should use a comma to separate several sorting rules
 example:
 ["intersection_result.1.rank_group,asc","intersection_result.2.rank_absolute,asc"]
 
-#### Defined in
-
-main.ts:108252
-
 ***
 
 ### pages?
 
 > `optional` **pages**: `object`
+
+Defined in: main.ts:117791
 
 target URLs of pages
 required field
@@ -303,11 +279,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:108128
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -315,12 +287,10 @@ main.ts:108128
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:117921
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:108258

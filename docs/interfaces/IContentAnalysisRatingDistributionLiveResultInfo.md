@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisRatingDistributionLiveResultInfo
+[Documentation](../README.md) / IContentAnalysisRatingDistributionLiveResultInfo
 
 # Interface: IContentAnalysisRatingDistributionLiveResultInfo
 
+Defined in: main.ts:179817
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **max**: `number`
 
+Defined in: main.ts:179823
+
 max rating on a distribution scale
-
-#### Defined in
-
-main.ts:168133
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:168133
 
 > `optional` **metrics**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
+Defined in: main.ts:179825
+
 contains rating distribution metrics
-
-#### Defined in
-
-main.ts:168135
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:168135
 
 > `optional` **min**: `number`
 
+Defined in: main.ts:179821
+
 min rating on a distribution scale
-
-#### Defined in
-
-main.ts:168131
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:168131
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:179819
+
 type of element
-
-#### Defined in
-
-main.ts:168129

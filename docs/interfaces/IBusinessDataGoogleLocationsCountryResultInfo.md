@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleLocationsCountryResultInfo
 
 # Interface: IBusinessDataGoogleLocationsCountryResultInfo
 
+Defined in: main.ts:212693
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:212705
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:200254
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:200254
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:212695
+
 location code
-
-#### Defined in
-
-main.ts:200244
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:200244
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:212697
+
 full name of the location
-
-#### Defined in
-
-main.ts:200246
 
 ***
 
@@ -52,15 +48,13 @@ main.ts:200246
 
 > `optional` **location\_name\_parent**: `string`
 
+Defined in: main.ts:212703
+
 the name of the superordinate location
 example:
 "location_code": 9041134,
 "location_name": "Vienna International Airport,Lower Austria,Austria",
 "location_name_parent": "Lower Austria,Austria"
-
-#### Defined in
-
-main.ts:200252
 
 ***
 
@@ -68,8 +62,6 @@ main.ts:200252
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:212707
+
 location type
-
-#### Defined in
-
-main.ts:200256

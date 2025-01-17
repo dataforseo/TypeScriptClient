@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleSellersAdUrlResultInfo
+[Documentation](../README.md) / MerchantGoogleSellersAdUrlResultInfo
 
 # Class: MerchantGoogleSellersAdUrlResultInfo
+
+Defined in: main.ts:190996
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MerchantGoogleSellersAdUrlResultInfo**(`data`?): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
+Defined in: main.ts:191007
+
 #### Parameters
 
-• **data?**: [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md)
+##### data?
+
+[`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
-
-#### Defined in
-
-main.ts:179165
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:179165
 
 > `optional` **ad\_aclk**: `string`
 
+Defined in: main.ts:190998
+
 unique ad click referral parameter
 
 #### Implementation of
 
 [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_aclk`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_aclk)
-
-#### Defined in
-
-main.ts:179156
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:179156
 
 > `optional` **ad\_url**: `string`
 
+Defined in: main.ts:191000
+
 full URL of the advertisement
 
 #### Implementation of
 
 [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_url`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_url)
 
-#### Defined in
-
-main.ts:179158
-
 ***
 
 ### ad\_url\_redirects?
 
 > `optional` **ad\_url\_redirects**: `string`[]
+
+Defined in: main.ts:191003
 
 URLs where the link from Google Shopping redirects before reaching a final URL
 includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
@@ -77,27 +77,23 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_url_redirects`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_url_redirects)
 
-#### Defined in
-
-main.ts:179161
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:191016
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:179174
 
 ***
 
@@ -105,17 +101,17 @@ main.ts:179174
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:191039
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:179197
 
 ***
 
@@ -123,14 +119,14 @@ main.ts:179197
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
+Defined in: main.ts:191032
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
-
-#### Defined in
-
-main.ts:179190

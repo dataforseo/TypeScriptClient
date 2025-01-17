@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleAppIntersectionLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAppleAppIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveRequestInfo
 
+Defined in: main.ts:124880
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### app\_ids?
 
 > `optional` **app\_ids**: `object`
+
+Defined in: main.ts:124895
 
 ids of the target apps
 required field
@@ -33,17 +37,15 @@ the maximum number of app IDs you can specify in this object is 20
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:115622
+\[`key`: `string`\]: `string`
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:124942
 
 array of results filtering parameters
 optional field
@@ -56,15 +58,13 @@ example:
 [["keyword_data.keyword_info.search_volume","<>",500],"and",[intersection_result.382617920.rank_group",">=","10"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:115669
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:124931
 
 language code
 required field if you don’t specify language_name
@@ -75,15 +75,13 @@ Note: this endpoint currently supports the English language only
 example:
 en
 
-#### Defined in
-
-main.ts:115658
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:124922
 
 full name of the language
 required field if you don’t specify language_code
@@ -94,30 +92,26 @@ Note: this endpoint currently supports the English language only;
 example:
 English
 
-#### Defined in
-
-main.ts:115649
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:124964
+
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:115691
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:124913
 
 location code
 required field if you don’t specify location_name
@@ -128,15 +122,13 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
-
-main.ts:115640
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:124904
 
 full name of the location
 required field if you don’t specify location_code
@@ -147,30 +139,26 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
-
-main.ts:115631
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:124969
+
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
-
-#### Defined in
-
-main.ts:115696
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:124959
 
 results sorting rules
 optional field
@@ -189,22 +177,16 @@ default rule:
 ["keyword_data.keyword_info.search_volume,desc"]
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array
 
-#### Defined in
-
-main.ts:115686
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:124975
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:115702

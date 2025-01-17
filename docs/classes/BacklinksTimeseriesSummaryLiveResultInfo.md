@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveResultInfo
+[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesSummaryLiveResultInfo
+
+Defined in: main.ts:159580
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksTimeseriesSummaryLiveResultInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
 
+Defined in: main.ts:159602
+
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md)
+##### data?
+
+[`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:148296
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:159587
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -47,15 +51,13 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md).[`date_from`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md#date_from)
 
-#### Defined in
-
-main.ts:148281
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:159592
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -66,15 +68,13 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md).[`date_to`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md#date_to)
 
-#### Defined in
-
-main.ts:148286
-
 ***
 
 ### group\_range?
 
 > `optional` **group\_range**: `string`
+
+Defined in: main.ts:159594
 
 group_range from a POST array
 
@@ -82,15 +82,13 @@ group_range from a POST array
 
 [`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md).[`group_range`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md#group_range)
 
-#### Defined in
-
-main.ts:148288
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)[]
+
+Defined in: main.ts:159598
 
 contains relevant summary data
 
@@ -98,15 +96,13 @@ contains relevant summary data
 
 [`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md).[`items`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md#items)
 
-#### Defined in
-
-main.ts:148292
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:159596
 
 the number of results returned in the items array
 
@@ -114,15 +110,13 @@ the number of results returned in the items array
 
 [`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:148290
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:159582
 
 target from a POST array
 
@@ -130,27 +124,23 @@ target from a POST array
 
 [`IBacklinksTimeseriesSummaryLiveResultInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md).[`target`](../interfaces/IBacklinksTimeseriesSummaryLiveResultInfo.md#target)
 
-#### Defined in
-
-main.ts:148276
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:159611
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:148305
 
 ***
 
@@ -158,17 +148,17 @@ main.ts:148305
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:159637
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:148331
 
 ***
 
@@ -176,14 +166,14 @@ main.ts:148331
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
 
+Defined in: main.ts:159630
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksTimeseriesSummaryLiveResultInfo`](BacklinksTimeseriesSummaryLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:148324

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleSearchIntentLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleSearchIntentLiveItem
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveItem
 
+Defined in: main.ts:96687
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:96689
+
 target keyword in a POST array
-
-#### Defined in
-
-main.ts:86870
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:86870
 
 > `optional` **keyword\_intent**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)
 
+Defined in: main.ts:96691
+
 search intent data relevant for the specified keyword
-
-#### Defined in
-
-main.ts:86872
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:86872
 
 > `optional` **secondary\_keyword\_intents**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)[]
 
+Defined in: main.ts:96693
+
 contains objects with other possible search intents for the specified keyword
-
-#### Defined in
-
-main.ts:86874

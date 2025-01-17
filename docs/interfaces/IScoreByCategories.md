@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IScoreByCategories
+[Documentation](../README.md) / IScoreByCategories
 
 # Interface: IScoreByCategories
 
+Defined in: main.ts:220568
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **airport\_access**: `number`
 
+Defined in: main.ts:220589
+
 score relative to nearby airports
 indicates the score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby airports
-
-#### Defined in
-
-main.ts:207133
 
 ***
 
@@ -30,14 +30,12 @@ main.ts:207133
 
 > `optional` **overall**: `number`
 
+Defined in: main.ts:220573
+
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby things to do and restaurants, transportation, and airports;
 note that the criteria are not weighted equally in the overall score
-
-#### Defined in
-
-main.ts:207117
 
 ***
 
@@ -45,13 +43,11 @@ main.ts:207117
 
 > `optional` **restaurants**: `number`
 
+Defined in: main.ts:220581
+
 score relative to nearby restaurants
 indicates the score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby restaurants
-
-#### Defined in
-
-main.ts:207125
 
 ***
 
@@ -59,13 +55,11 @@ main.ts:207125
 
 > `optional` **things\_to\_do**: `number`
 
+Defined in: main.ts:220577
+
 score relative to nearby things to do
 indicates the score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby things to do
-
-#### Defined in
-
-main.ts:207121
 
 ***
 
@@ -73,10 +67,8 @@ main.ts:207121
 
 > `optional` **transit**: `number`
 
+Defined in: main.ts:220585
+
 score relative to nearby transit options
 indicates the score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby transit options
-
-#### Defined in
-
-main.ts:207129

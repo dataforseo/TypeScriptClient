@@ -25,7 +25,11 @@ gws-wiz-local
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52355
+=======
+main.ts:52388
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -38,7 +42,11 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52326
+=======
+main.ts:52359
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -52,7 +60,11 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52323
+=======
+main.ts:52356
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -69,7 +81,11 @@ chrome/chrome-omni
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52333
+=======
+main.ts:52366
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -82,7 +98,11 @@ url to search results relevant to the google autocomplete suggestion
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52342
+=======
+main.ts:52375
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -94,7 +114,11 @@ google autocomplete keyword suggestion
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52335
+=======
+main.ts:52368
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -108,7 +132,11 @@ chrome/chrome-omni
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52339
+=======
+main.ts:52372
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -124,7 +152,11 @@ gws-wiz-serp
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52348
+=======
+main.ts:52381
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -136,4 +168,8 @@ type of element
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52319
+=======
+main.ts:52352
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

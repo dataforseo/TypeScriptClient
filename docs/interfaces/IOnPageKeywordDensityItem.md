@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageKeywordDensityItem
+[Documentation](../README.md) / IOnPageKeywordDensityItem
 
 # Interface: IOnPageKeywordDensityItem
 
+Defined in: main.ts:171343
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **density**: `number`
 
+Defined in: main.ts:171351
+
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
-
-#### Defined in
-
-main.ts:159615
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:159615
 
 > `optional` **frequency**: `number`
 
+Defined in: main.ts:171348
+
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
-
-#### Defined in
-
-main.ts:159612
 
 ***
 
@@ -42,8 +40,6 @@ main.ts:159612
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:171345
+
 returned keyword
-
-#### Defined in
-
-main.ts:159609

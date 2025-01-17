@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IScholarlyArticlesElement
+[Documentation](../README.md) / IScholarlyArticlesElement
 
 # Interface: IScholarlyArticlesElement
 
+Defined in: main.ts:34550
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:34558
+
 author
-
-#### Defined in
-
-main.ts:32762
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:32762
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:34560
+
 description
-
-#### Defined in
-
-main.ts:32764
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:32764
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:34554
+
 title of a given link element
-
-#### Defined in
-
-main.ts:32758
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:32758
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:34552
+
 type of element
-
-#### Defined in
-
-main.ts:32756
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:32756
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:34556
+
 URL
-
-#### Defined in
-
-main.ts:32760

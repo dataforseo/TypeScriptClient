@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingOrganicTasksReadyResultInfo
+[Documentation](../README.md) / ISerpBingOrganicTasksReadyResultInfo
 
 # Interface: ISerpBingOrganicTasksReadyResultInfo
 
+Defined in: main.ts:63937
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:63947
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:57412
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:57412
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:63955
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:57420
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:57420
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:63958
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:57423
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:57423
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:63952
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:57417
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:57417
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:63940
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:57405
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:57405
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:63942
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:57407
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:57407
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:63945
+
 type of search engine
 example: organic
-
-#### Defined in
-
-main.ts:57410
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:57410
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:63949
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:57414

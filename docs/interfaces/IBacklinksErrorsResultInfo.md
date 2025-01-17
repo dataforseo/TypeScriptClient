@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksErrorsResultInfo
+[Documentation](../README.md) / IBacklinksErrorsResultInfo
 
 # Interface: IBacklinksErrorsResultInfo
 
+Defined in: main.ts:149303
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:149310
+
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:138004
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:138004
 
 > `optional` **error\_code**: `number`
 
+Defined in: main.ts:149314
+
 error code
-
-#### Defined in
-
-main.ts:138008
 
 ***
 
@@ -43,12 +41,10 @@ main.ts:138008
 
 > `optional` **error\_message**: `string`
 
+Defined in: main.ts:149317
+
 error message or error URL
 error message (see full list) or URL that caused an error
-
-#### Defined in
-
-main.ts:138011
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:138011
 
 > `optional` **function**: `string`
 
+Defined in: main.ts:149312
+
 corresponding API function
-
-#### Defined in
-
-main.ts:138006
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:138006
 
 > `optional` **http\_code**: `number`
 
+Defined in: main.ts:149324
+
 HTTP status code
-
-#### Defined in
-
-main.ts:138018
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:138018
 
 > `optional` **http\_method**: `string`
 
+Defined in: main.ts:149322
+
 HTTP method
-
-#### Defined in
-
-main.ts:138016
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:138016
 
 > `optional` **http\_response**: `string`
 
+Defined in: main.ts:149329
+
 HTTP response
 server response
-
-#### Defined in
-
-main.ts:138023
 
 ***
 
@@ -105,11 +93,9 @@ main.ts:138023
 
 > `optional` **http\_time**: `number`
 
+Defined in: main.ts:149326
+
 time taken by HTTP request
-
-#### Defined in
-
-main.ts:138020
 
 ***
 
@@ -117,12 +103,10 @@ main.ts:138020
 
 > `optional` **http\_url**: `string`
 
+Defined in: main.ts:149320
+
 URL that caused an error
 URL you used for making an API call
-
-#### Defined in
-
-main.ts:138014
 
 ***
 
@@ -130,8 +114,6 @@ main.ts:138014
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:149305
+
 id of the task
-
-#### Defined in
-
-main.ts:137999

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationParaphraseLiveResultInfo
+[Documentation](../README.md) / ContentGenerationParaphraseLiveResultInfo
 
 # Class: ContentGenerationParaphraseLiveResultInfo
+
+Defined in: main.ts:182556
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentGenerationParaphraseLiveResultInfo**(`data`?): [`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
 
+Defined in: main.ts:182568
+
 #### Parameters
 
-• **data?**: [`IContentGenerationParaphraseLiveResultInfo`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md)
+##### data?
+
+[`IContentGenerationParaphraseLiveResultInfo`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:170878
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:170878
 
 > `optional` **generated\_text**: `string`
 
+Defined in: main.ts:182564
+
 paraphrased version of the given text
 
 #### Implementation of
 
 [`IContentGenerationParaphraseLiveResultInfo`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md).[`generated_text`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md#generated_text)
-
-#### Defined in
-
-main.ts:170874
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:170874
 
 > `optional` **input\_tokens**: `number`
 
+Defined in: main.ts:182558
+
 number of input tokens in the POST request
 
 #### Implementation of
 
 [`IContentGenerationParaphraseLiveResultInfo`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md#input_tokens)
-
-#### Defined in
-
-main.ts:170868
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:170868
 
 > `optional` **new\_tokens**: `number`
 
+Defined in: main.ts:182562
+
 number of new tokens in the response
 
 #### Implementation of
 
 [`IContentGenerationParaphraseLiveResultInfo`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md#new_tokens)
-
-#### Defined in
-
-main.ts:170872
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:170872
 
 > `optional` **output\_tokens**: `number`
 
+Defined in: main.ts:182560
+
 number of output tokens in the response
 
 #### Implementation of
 
 [`IContentGenerationParaphraseLiveResultInfo`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationParaphraseLiveResultInfo.md#output_tokens)
-
-#### Defined in
-
-main.ts:170870
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:170870
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:182577
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:170887
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:170887
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:182597
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:170907
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:170907
 
 > `static` **fromJS**(`data`): [`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
 
+Defined in: main.ts:182590
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationParaphraseLiveResultInfo`](ContentGenerationParaphraseLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:170900

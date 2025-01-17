@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixStatisticsRatesData
+[Documentation](../README.md) / AppendixStatisticsRatesData
 
 # Class: AppendixStatisticsRatesData
+
+Defined in: main.ts:235020
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixStatisticsRatesData**(`data`?): [`AppendixStatisticsRatesData`](AppendixStatisticsRatesData.md)
 
+Defined in: main.ts:235026
+
 #### Parameters
 
-• **data?**: [`IAppendixStatisticsRatesData`](../interfaces/IAppendixStatisticsRatesData.md)
+##### data?
+
+[`IAppendixStatisticsRatesData`](../interfaces/IAppendixStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixStatisticsRatesData`](AppendixStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219926
 
 ## Properties
 
@@ -38,27 +40,23 @@ main.ts:219926
 
 > `optional` **day**: [`AppendixDayStatisticsRatesData`](AppendixDayStatisticsRatesData.md)
 
+Defined in: main.ts:235021
+
 #### Implementation of
 
 [`IAppendixStatisticsRatesData`](../interfaces/IAppendixStatisticsRatesData.md).[`day`](../interfaces/IAppendixStatisticsRatesData.md#day)
-
-#### Defined in
-
-main.ts:219921
 
 ***
 
 ### minute?
 
-> `optional` **minute**: [`AppendixMinuteStatisticsDataInfo`](AppendixMinuteStatisticsDataInfo.md)
+> `optional` **minute**: [`AppendixMinuteStatisticsRatesData`](AppendixMinuteStatisticsRatesData.md)
+
+Defined in: main.ts:235022
 
 #### Implementation of
 
 [`IAppendixStatisticsRatesData`](../interfaces/IAppendixStatisticsRatesData.md).[`minute`](../interfaces/IAppendixStatisticsRatesData.md#minute)
-
-#### Defined in
-
-main.ts:219922
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:219922
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:235035
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:219935
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:219935
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:235053
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:219953
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:219953
 
 > `static` **fromJS**(`data`): [`AppendixStatisticsRatesData`](AppendixStatisticsRatesData.md)
 
+Defined in: main.ts:235046
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixStatisticsRatesData`](AppendixStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219946

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IImpressionsInfo
+[Documentation](../README.md) / IImpressionsInfo
 
 # Interface: IImpressionsInfo
 
+Defined in: main.ts:92913
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **ad\_position\_average**: `number`
 
+Defined in: main.ts:92935
+
 the average ad position
 represents the average position of the advertisement
-
-#### Defined in
-
-main.ts:83122
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:83122
 
 > `optional` **ad\_position\_max**: `number`
 
+Defined in: main.ts:92932
+
 the maximum ad position
 represents the maximum position of the advertisement
-
-#### Defined in
-
-main.ts:83119
 
 ***
 
@@ -42,12 +40,10 @@ main.ts:83119
 
 > `optional` **ad\_position\_min**: `number`
 
+Defined in: main.ts:92929
+
 the minimum ad position
 represents the minimum position of the advertisement
-
-#### Defined in
-
-main.ts:83116
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:83116
 
 > `optional` **bid**: `number`
 
+Defined in: main.ts:92923
+
 the maximum CPC
 it stands for the price you are willing to pay for an ad. The higher value, the higher positions and price you will getwe return the results for the 999 bid value to provide the highest number of impressions and level down the account-specific factors
-
-#### Defined in
-
-main.ts:83110
 
 ***
 
@@ -68,14 +62,12 @@ main.ts:83110
 
 > `optional` **cpc\_average**: `number`
 
+Defined in: main.ts:92950
+
 the average value of cost-per-click
 the average cost-per-click (USD) for the keyword given that a bid is set to 999;
 note: this field does not represent an actual CPC value;
 you can find an actual CPC value for a keyword in the cpc field of the keyword_info object
-
-#### Defined in
-
-main.ts:83137
 
 ***
 
@@ -83,14 +75,12 @@ main.ts:83137
 
 > `optional` **cpc\_max**: `number`
 
+Defined in: main.ts:92945
+
 the maximum value of cost-per-click
 the maximum cost-per-click (USD) for the keyword given that a bid is set to 999;
 note: this field does not represent an actual CPC value;
 you can find an actual CPC value for a keyword in the cpc field of the keyword_info object
-
-#### Defined in
-
-main.ts:83132
 
 ***
 
@@ -98,14 +88,12 @@ main.ts:83132
 
 > `optional` **cpc\_min**: `number`
 
+Defined in: main.ts:92940
+
 the minimum value of cost-per-click
 the minimum cost-per-click (USD) for the keyword given that a bid is set to 999;
 note: this field does not represent an actual CPC value;
 you can find an actual CPC value for a keyword in the cpc field of the keyword_info object
-
-#### Defined in
-
-main.ts:83127
 
 ***
 
@@ -113,12 +101,10 @@ main.ts:83127
 
 > `optional` **daily\_clicks\_average**: `number`
 
+Defined in: main.ts:92968
+
 the average value of daily clicks
 represents the average number of daily clicks on the advertisement
-
-#### Defined in
-
-main.ts:83155
 
 ***
 
@@ -126,12 +112,10 @@ main.ts:83155
 
 > `optional` **daily\_clicks\_max**: `number`
 
+Defined in: main.ts:92965
+
 the maximum value of daily clicks
 represents the maximum number of daily clicks on the advertisement
-
-#### Defined in
-
-main.ts:83152
 
 ***
 
@@ -139,12 +123,10 @@ main.ts:83152
 
 > `optional` **daily\_clicks\_min**: `number`
 
+Defined in: main.ts:92962
+
 the minimum value of daily clicks
 represents the minimum number of daily clicks on the advertisement
-
-#### Defined in
-
-main.ts:83149
 
 ***
 
@@ -152,12 +134,10 @@ main.ts:83149
 
 > `optional` **daily\_cost\_average**: `number`
 
+Defined in: main.ts:92977
+
 the average daily charge value
 represents the average daily cost of the advertisement (USD)
-
-#### Defined in
-
-main.ts:83164
 
 ***
 
@@ -165,12 +145,10 @@ main.ts:83164
 
 > `optional` **daily\_cost\_max**: `number`
 
+Defined in: main.ts:92974
+
 the maximum daily charge value
 represents the maximum daily cost of the advertisement (USD)
-
-#### Defined in
-
-main.ts:83161
 
 ***
 
@@ -178,12 +156,10 @@ main.ts:83161
 
 > `optional` **daily\_cost\_min**: `number`
 
+Defined in: main.ts:92971
+
 the minimum daily charge value
 represents the minimum daily cost of the advertisement (USD)
-
-#### Defined in
-
-main.ts:83158
 
 ***
 
@@ -191,12 +167,10 @@ main.ts:83158
 
 > `optional` **daily\_impressions\_average**: `number`
 
+Defined in: main.ts:92959
+
 the average value of daily impressions
 represents the average number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
-
-#### Defined in
-
-main.ts:83146
 
 ***
 
@@ -204,12 +178,10 @@ main.ts:83146
 
 > `optional` **daily\_impressions\_max**: `number`
 
+Defined in: main.ts:92956
+
 the maximum value of daily impressions
 represents the maximum number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
-
-#### Defined in
-
-main.ts:83143
 
 ***
 
@@ -217,12 +189,10 @@ main.ts:83143
 
 > `optional` **daily\_impressions\_min**: `number`
 
+Defined in: main.ts:92953
+
 the minimum value of daily impressions
 represents the minimum number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
-
-#### Defined in
-
-main.ts:83140
 
 ***
 
@@ -230,14 +200,12 @@ main.ts:83140
 
 > `optional` **last\_updated\_time**: `string`
 
+Defined in: main.ts:92920
+
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:83107
 
 ***
 
@@ -245,12 +213,10 @@ main.ts:83107
 
 > `optional` **match\_type**: `string`
 
+Defined in: main.ts:92926
+
 type of keyword match
 can take the following values: exact, broad, phrase
-
-#### Defined in
-
-main.ts:83113
 
 ***
 
@@ -258,8 +224,6 @@ main.ts:83113
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:92915
+
 search engine type
-
-#### Defined in
-
-main.ts:83102

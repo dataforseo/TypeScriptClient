@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationCheckGrammarLiveResultInfo
+[Documentation](../README.md) / IContentGenerationCheckGrammarLiveResultInfo
 
 # Interface: IContentGenerationCheckGrammarLiveResultInfo
 
+Defined in: main.ts:183019
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **initial\_text**: `string`
 
+Defined in: main.ts:183027
+
 initial text in the POST request
-
-#### Defined in
-
-main.ts:171337
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:171337
 
 > `optional` **input\_tokens**: `number`
 
+Defined in: main.ts:183021
+
 number of input tokens in the POST request
-
-#### Defined in
-
-main.ts:171331
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:171331
 
 > `optional` **items**: [`ContentGenerationCheckGrammarLiveItem`](../classes/ContentGenerationCheckGrammarLiveItem.md)[]
 
+Defined in: main.ts:183033
+
 contains grammar or spelling errors and related data
-
-#### Defined in
-
-main.ts:171343
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:171343
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:183031
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:171341
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:171341
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:183029
+
 language code in the POST request
-
-#### Defined in
-
-main.ts:171339
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:171339
 
 > `optional` **new\_tokens**: `number`
 
+Defined in: main.ts:183025
+
 number of new tokens in the response
-
-#### Defined in
-
-main.ts:171335
 
 ***
 
@@ -88,8 +78,6 @@ main.ts:171335
 
 > `optional` **output\_tokens**: `number`
 
+Defined in: main.ts:183023
+
 number of output tokens in the response
-
-#### Defined in
-
-main.ts:171333

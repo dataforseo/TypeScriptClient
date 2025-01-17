@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixErrorsResultInfo
+[Documentation](../README.md) / IAppendixErrorsResultInfo
 
 # Interface: IAppendixErrorsResultInfo
 
+Defined in: main.ts:239143
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **code**: `number`
 
+Defined in: main.ts:239145
+
 code
-
-#### Defined in
-
-main.ts:223857
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:223857
 
 > `optional` **message**: `string`
 
+Defined in: main.ts:239147
+
 message
-
-#### Defined in
-
-main.ts:223859

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixInfo
+[Documentation](../README.md) / IAppendixInfo
 
 # Interface: IAppendixInfo
 
+Defined in: main.ts:230731
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **live**: `number`
 
-#### Defined in
-
-main.ts:215691
+Defined in: main.ts:230735
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:215691
 
 > `optional` **task\_get**: `number`
 
-#### Defined in
-
-main.ts:215689
+Defined in: main.ts:230733
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:215689
 
 > `optional` **task\_post**: `number`
 
-#### Defined in
-
-main.ts:215688
+Defined in: main.ts:230732
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:215688
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:215690
+Defined in: main.ts:230734

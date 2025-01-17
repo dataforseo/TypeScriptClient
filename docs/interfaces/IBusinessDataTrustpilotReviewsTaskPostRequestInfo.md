@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
+Defined in: main.ts:226334
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:226365
 
 parsing depth
 optional field
@@ -23,15 +27,13 @@ we strongly recommend setting the parsing depth in the multiples of twenty, beca
 default value: 20
 maximum value: 25000
 
-#### Defined in
-
-main.ts:211333
-
 ***
 
 ### domain?
 
 > `optional` **domain**: `string`
+
+Defined in: main.ts:226342
 
 domain of the local establishment
 required field
@@ -41,15 +43,13 @@ example:
 www.thepearlsource.com
 https://www.trustpilot.com/review/www.thepearlsource.com
 
-#### Defined in
-
-main.ts:211310
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:226393
 
 notification URL of a completed task
 optional field
@@ -58,18 +58,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:211359
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:226382
 
 return URL for sending task results
 optional field
@@ -78,18 +77,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:211349
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:226358
 
 task priority
 optional field
@@ -99,15 +97,13 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:211326
-
 ***
 
 ### sort\_by?
 
 > `optional` **sort\_by**: `string`
+
+Defined in: main.ts:226350
 
 results sorting parameter
 optional field
@@ -117,22 +113,16 @@ recency — most recent reviews first;
 relevance — most relevant reviews first;
 default value: relevance
 
-#### Defined in
-
-main.ts:211318
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:226371
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:211339

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
+Defined in: main.ts:95587
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,16 +18,14 @@
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
+Defined in: main.ts:95641
+
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
-
-#### Defined in
-
-main.ts:85824
 
 ***
 
@@ -33,20 +33,20 @@ main.ts:85824
 
 > `optional` **include\_serp\_info**: `boolean`
 
+Defined in: main.ts:95634
+
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
-
-#### Defined in
-
-main.ts:85817
 
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:95597
 
 keywords
 required field
@@ -56,16 +56,15 @@ The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase format, data will be provided in a separate array
 note that if some of the keywords specified in this array are omitted in the results you receive, then our database doesn’t contain such keywords and cannot return data on them
 you will not be charged for the keywords omitted in the results
-
-#### Defined in
-
-main.ts:85780
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:95629
 
 language code
 required field if you don’t specify language_name
@@ -75,15 +74,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:85812
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:95621
 
 full name of the language
 required field if you don’t specify language_code
@@ -93,15 +90,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:85804
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:95613
 
 location code
 required field if you don’t specify location_name
@@ -111,15 +106,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
-
-main.ts:85796
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:95605
 
 full name of the location
 required field if you don’t specify location_code
@@ -129,22 +122,16 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:85788
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:95647
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:85830

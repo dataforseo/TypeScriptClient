@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHistoricalMetricsInfo
+[Documentation](../README.md) / IHistoricalMetricsInfo
 
 # Interface: IHistoricalMetricsInfo
 
+Defined in: main.ts:111445
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **clickstream\_etv**: `number`
 
+Defined in: main.ts:111461
+
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
 learn more about how the metric is calculated in this help center article https://dataforseo.com/help-center/whats-clickstream-estimated-traffic-volume-and-how-is-it-calculated
-
-#### Defined in
-
-main.ts:101622
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:101622
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:111456
+
 total count of organic SERPs that contain the domain
-
-#### Defined in
-
-main.ts:101617
 
 ***
 
@@ -43,14 +41,12 @@ main.ts:101617
 
 > `optional` **etv**: `number`
 
+Defined in: main.ts:111454
+
 estimated traffic volume
 estimated organic monthly traffic to the domain
 calculated as the product of CTR (click-through-rate) and search volume values of all keywords the domain ranks for
 learn more about how the metric is calculated in this help center article
-
-#### Defined in
-
-main.ts:101615
 
 ***
 
@@ -58,11 +54,9 @@ main.ts:101615
 
 > `optional` **month**: `number`
 
+Defined in: main.ts:111449
+
 month for which the data is provided
-
-#### Defined in
-
-main.ts:101610
 
 ***
 
@@ -70,8 +64,6 @@ main.ts:101610
 
 > `optional` **year**: `number`
 
+Defined in: main.ts:111447
+
 year for which the data is provided
-
-#### Defined in
-
-main.ts:101608

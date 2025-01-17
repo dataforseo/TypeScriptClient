@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / IAppDataGoogleLocationsCountryResultInfo
 
 # Interface: IAppDataGoogleLocationsCountryResultInfo
 
+Defined in: main.ts:198985
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:198999
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:186800
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:186800
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:198987
+
 location code
-
-#### Defined in
-
-main.ts:186788
 
 ***
 
@@ -40,17 +38,17 @@ main.ts:186788
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:198989
+
 full name of the location
-
-#### Defined in
-
-main.ts:186790
 
 ***
 
 ### location\_name\_parent?
 
 > `optional` **location\_name\_parent**: `string`
+
+Defined in: main.ts:198997
 
 the name of the superordinate location
 example:
@@ -60,18 +58,12 @@ example:
 "location_code": 20339,
 "location_name": "England,United Kingdom"
 
-#### Defined in
-
-main.ts:186798
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:199001
+
 location type
-
-#### Defined in
-
-main.ts:186802

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
+
+Defined in: main.ts:145984
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)
 
+Defined in: main.ts:146096
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:134141
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:146051
 
 starting date of the time range
 optional field
@@ -55,15 +59,13 @@ with value daily, you will get results for the past 45 days
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:134098
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:146064
 
 ending date of the time range
 optional field
@@ -82,15 +84,13 @@ with value daily, you will get results for the past 45 days
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:134111
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:146029
 
 device type
 optional field
@@ -102,35 +102,32 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`device`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:134076
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:145991
+
 keywords
 required field
 The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:134038
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:146023
 
 search engine language code
 required field if you don’t specify language_name
@@ -141,15 +138,13 @@ you can receive the list of available languages of the search engines with their
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:134070
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:146018
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -160,15 +155,13 @@ you can receive the list of available languages of the search engines with their
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:134065
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:146005
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -181,15 +174,13 @@ example:
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:134052
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:146013
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -203,15 +194,13 @@ example:
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:134060
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:145998
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -224,15 +213,13 @@ London,England,United Kingdom
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:134045
-
 ***
 
 ### period?
 
 > `optional` **period**: `string`
+
+Defined in: main.ts:146038
 
 aggregates the returned data to a certain time period
 optional field
@@ -247,15 +234,13 @@ default value:  monthly
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`period`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#period)
 
-#### Defined in
-
-main.ts:134085
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:146086
 
 notification URL of a completed task
 optional field
@@ -264,22 +249,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:134131
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:146075
 
 return URL for sending task results
 optional field
@@ -288,22 +272,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:134121
 
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:146092
 
 user-defined task identifier
 optional field
@@ -315,27 +298,23 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:134137
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:146105
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:134150
 
 ***
 
@@ -343,17 +322,17 @@ main.ts:134150
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:146138
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:134183
 
 ***
 
@@ -361,14 +340,14 @@ main.ts:134183
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)
 
+Defined in: main.ts:146131
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:134176

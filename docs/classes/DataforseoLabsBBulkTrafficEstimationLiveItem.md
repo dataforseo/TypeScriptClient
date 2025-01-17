@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101053
+=======
+main.ts:101086
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -50,7 +54,11 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101049
+=======
+main.ts:101082
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -66,7 +74,11 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101045
+=======
+main.ts:101078
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -82,7 +94,11 @@ target domain in a POST array
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101047
+=======
+main.ts:101080
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -100,7 +116,11 @@ main.ts:101047
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101062
+=======
+main.ts:101095
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -118,7 +138,11 @@ main.ts:101062
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101087
+=======
+main.ts:101120
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -136,4 +160,8 @@ main.ts:101087
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101080
+=======
+main.ts:101113
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

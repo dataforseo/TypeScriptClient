@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleAppIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleAppIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveRequestInfo
+
+Defined in: main.ts:122604
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleAppIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
+Defined in: main.ts:122703
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:113270
 
 ## Properties
 
 ### app\_ids?
 
 > `optional` **app\_ids**: `object`
+
+Defined in: main.ts:122619
 
 ids of the target apps
 required field
@@ -55,21 +59,19 @@ the maximum number of app IDs you can specify in this object is 20
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`app_ids`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#app_ids)
-
-#### Defined in
-
-main.ts:113186
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:122666
 
 array of results filtering parameters
 optional field
@@ -86,15 +88,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:113233
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:122655
 
 language code
 required field if you don’t specify language_name
@@ -109,15 +109,13 @@ en
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:113222
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:122646
 
 full name of the language
 required field if you don’t specify language_code
@@ -132,15 +130,13 @@ English
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:113213
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:122688
 
 the maximum number of returned keywords
 optional field
@@ -151,15 +147,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:113255
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:122637
 
 location code
 required field if you don’t specify location_name
@@ -174,15 +168,13 @@ example:
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:113204
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:122628
 
 full name of the location
 required field if you don’t specify location_code
@@ -197,15 +189,13 @@ United States
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:113195
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:122693
 
 offset in the results array of returned keywords
 optional field
@@ -216,15 +206,13 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:113260
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:122683
 
 results sorting rules
 optional field
@@ -247,15 +235,13 @@ Note: if the item_types array contains item types that are different from organi
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:113250
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:122699
 
 user-defined task identifier
 optional field
@@ -267,27 +253,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:113266
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:122712
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:113279
 
 ***
 
@@ -295,17 +277,17 @@ main.ts:113279
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:122752
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:113319
 
 ***
 
@@ -313,14 +295,14 @@ main.ts:113319
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
+Defined in: main.ts:122745
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:113312

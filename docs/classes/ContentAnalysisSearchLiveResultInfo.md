@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSearchLiveResultInfo
+[Documentation](../README.md) / ContentAnalysisSearchLiveResultInfo
 
 # Class: ContentAnalysisSearchLiveResultInfo
+
+Defined in: main.ts:178202
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentAnalysisSearchLiveResultInfo**(`data`?): [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
 
+Defined in: main.ts:178216
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisSearchLiveResultInfo`](../interfaces/IContentAnalysisSearchLiveResultInfo.md)
+##### data?
+
+[`IContentAnalysisSearchLiveResultInfo`](../interfaces/IContentAnalysisSearchLiveResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:166526
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:166526
 
 > `optional` **items**: [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)[]
 
+Defined in: main.ts:178212
+
 contains citations and related data
 
 #### Implementation of
 
 [`IContentAnalysisSearchLiveResultInfo`](../interfaces/IContentAnalysisSearchLiveResultInfo.md).[`items`](../interfaces/IContentAnalysisSearchLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:166522
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:166522
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:178210
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IContentAnalysisSearchLiveResultInfo`](../interfaces/IContentAnalysisSearchLiveResultInfo.md).[`items_count`](../interfaces/IContentAnalysisSearchLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:166520
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:178206
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -78,15 +78,13 @@ note: offset_token values are unique for each subsequent task
 
 [`IContentAnalysisSearchLiveResultInfo`](../interfaces/IContentAnalysisSearchLiveResultInfo.md).[`offset_token`](../interfaces/IContentAnalysisSearchLiveResultInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:166516
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:178208
 
 total amount of results in our database relevant to your request
 
@@ -94,27 +92,23 @@ total amount of results in our database relevant to your request
 
 [`IContentAnalysisSearchLiveResultInfo`](../interfaces/IContentAnalysisSearchLiveResultInfo.md).[`total_count`](../interfaces/IContentAnalysisSearchLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:166518
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:178225
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:166535
 
 ***
 
@@ -122,17 +116,17 @@ main.ts:166535
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:178249
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:166559
 
 ***
 
@@ -140,14 +134,14 @@ main.ts:166559
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
 
+Defined in: main.ts:178242
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisSearchLiveResultInfo`](ContentAnalysisSearchLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:166552

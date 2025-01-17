@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CrawlStatusInfo
+[Documentation](../README.md) / CrawlStatusInfo
 
 # Class: CrawlStatusInfo
+
+Defined in: main.ts:23387
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new CrawlStatusInfo**(`data`?): [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
+Defined in: main.ts:23398
+
 #### Parameters
 
-• **data?**: [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md)
+##### data?
+
+[`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md)
 
 #### Returns
 
 [`CrawlStatusInfo`](CrawlStatusInfo.md)
-
-#### Defined in
-
-main.ts:22495
 
 ## Properties
 
 ### max\_crawl\_pages?
 
 > `optional` **max\_crawl\_pages**: `number`
+
+Defined in: main.ts:23390
 
 maximum number of pages to crawl
 indicates the max_crawl_pages limit you specified when setting a task
@@ -45,15 +49,13 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`max_crawl_pages`](../interfaces/ICrawlStatusInfo.md#max_crawl_pages)
 
-#### Defined in
-
-main.ts:22487
-
 ***
 
 ### pages\_crawled?
 
 > `optional` **pages\_crawled**: `number`
+
+Defined in: main.ts:23394
 
 number of crawled pages
 
@@ -61,15 +63,13 @@ number of crawled pages
 
 [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`pages_crawled`](../interfaces/ICrawlStatusInfo.md#pages_crawled)
 
-#### Defined in
-
-main.ts:22491
-
 ***
 
 ### pages\_in\_queue?
 
 > `optional` **pages\_in\_queue**: `number`
+
+Defined in: main.ts:23392
 
 number of pages that are currently in the crawling queue
 
@@ -77,27 +77,23 @@ number of pages that are currently in the crawling queue
 
 [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`pages_in_queue`](../interfaces/ICrawlStatusInfo.md#pages_in_queue)
 
-#### Defined in
-
-main.ts:22489
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:23407
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22504
 
 ***
 
@@ -105,17 +101,17 @@ main.ts:22504
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23426
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22523
 
 ***
 
@@ -123,14 +119,14 @@ main.ts:22523
 
 > `static` **fromJS**(`data`): [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
+Defined in: main.ts:23419
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`CrawlStatusInfo`](CrawlStatusInfo.md)
-
-#### Defined in
-
-main.ts:22516

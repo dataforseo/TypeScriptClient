@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICountryDistribution
+[Documentation](../README.md) / ICountryDistribution
 
 # Interface: ICountryDistribution
 
+Defined in: main.ts:148189
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:148191
+
 country ISO code
-
-#### Defined in
-
-main.ts:136145
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:136145
 
 > `optional` **percentage**: `number`
 
+Defined in: main.ts:148195
+
 percentage of global search volume
-
-#### Defined in
-
-main.ts:136149
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:136149
 
 > `optional` **search\_volume**: `number`
 
+Defined in: main.ts:148193
+
 search volume in a given country
-
-#### Defined in
-
-main.ts:136147

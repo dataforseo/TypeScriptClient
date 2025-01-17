@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IInformationAndTicketsElement
+[Documentation](../README.md) / IInformationAndTicketsElement
 
 # Interface: IInformationAndTicketsElement
 
+Defined in: main.ts:48974
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:48980
+
 description of the element
-
-#### Defined in
-
-main.ts:46132
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:46132
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:48984
+
 domain in SERP
-
-#### Defined in
-
-main.ts:46136
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:46136
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:48978
+
 title of the element
-
-#### Defined in
-
-main.ts:46130
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:46130
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:48976
+
 type of element
-
-#### Defined in
-
-main.ts:46128
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:46128
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:48982
+
 relevant URL
-
-#### Defined in
-
-main.ts:46134

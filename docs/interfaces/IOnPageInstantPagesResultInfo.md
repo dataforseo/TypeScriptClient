@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageInstantPagesResultInfo
+[Documentation](../README.md) / IOnPageInstantPagesResultInfo
 
 # Interface: IOnPageInstantPagesResultInfo
 
+Defined in: main.ts:174729
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **crawl\_gateway\_address**: `string`
 
+Defined in: main.ts:174739
+
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section
-
-#### Defined in
-
-main.ts:163049
 
 ***
 
@@ -30,12 +30,10 @@ main.ts:163049
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:174732
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:163042
 
 ***
 
@@ -43,12 +41,10 @@ main.ts:163042
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:174735
+
 details of the crawling session
 in this case the value will be null
-
-#### Defined in
-
-main.ts:163045
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:163045
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
+Defined in: main.ts:174743
+
 items array
-
-#### Defined in
-
-main.ts:163053
 
 ***
 
@@ -68,8 +62,6 @@ main.ts:163053
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:174741
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:163051

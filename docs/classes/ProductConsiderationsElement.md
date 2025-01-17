@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductConsiderationsElement
+[Documentation](../README.md) / ProductConsiderationsElement
 
 # Class: ProductConsiderationsElement
+
+Defined in: main.ts:36703
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ProductConsiderationsElement**(`data`?): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
 
+Defined in: main.ts:36716
+
 #### Parameters
 
-• **data?**: [`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md)
+##### data?
+
+[`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md)
 
 #### Returns
 
 [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
-
-#### Defined in
-
-main.ts:35006
 
 ## Properties
 
 ### consideration\_category?
 
 > `optional` **consideration\_category**: `string`
+
+Defined in: main.ts:36710
 
 category of the consideration element
 the category is indicated just above the title fo the consideration element
@@ -45,15 +49,13 @@ the category is indicated just above the title fo the consideration element
 
 [`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md).[`consideration_category`](../interfaces/IProductConsiderationsElement.md#consideration_category)
 
-#### Defined in
-
-main.ts:35000
-
 ***
 
 ### expanded\_element?
 
 > `optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
+
+Defined in: main.ts:36712
 
 expanded element
 
@@ -61,15 +63,13 @@ expanded element
 
 [`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md).[`expanded_element`](../interfaces/IProductConsiderationsElement.md#expanded_element)
 
-#### Defined in
-
-main.ts:35002
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:36707
 
 title of a given link element
 
@@ -77,15 +77,13 @@ title of a given link element
 
 [`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md).[`title`](../interfaces/IProductConsiderationsElement.md#title)
 
-#### Defined in
-
-main.ts:34997
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:36705
 
 type of element
 
@@ -93,27 +91,23 @@ type of element
 
 [`IProductConsiderationsElement`](../interfaces/IProductConsiderationsElement.md).[`type`](../interfaces/IProductConsiderationsElement.md#type)
 
-#### Defined in
-
-main.ts:34995
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:36725
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:35015
 
 ***
 
@@ -121,17 +115,17 @@ main.ts:35015
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:36745
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:35035
 
 ***
 
@@ -139,14 +133,14 @@ main.ts:35035
 
 > `static` **fromJS**(`data`): [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
 
+Defined in: main.ts:36738
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ProductConsiderationsElement`](ProductConsiderationsElement.md)
-
-#### Defined in
-
-main.ts:35028

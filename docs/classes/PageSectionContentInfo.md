@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageSectionContentInfo
+[Documentation](../README.md) / PageSectionContentInfo
 
 # Class: PageSectionContentInfo
+
+Defined in: main.ts:173050
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new PageSectionContentInfo**(`data`?): [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
+Defined in: main.ts:173062
+
 #### Parameters
 
-• **data?**: [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md)
+##### data?
+
+[`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md)
 
 #### Returns
 
 [`PageSectionContentInfo`](PageSectionContentInfo.md)
-
-#### Defined in
-
-main.ts:161348
 
 ## Properties
 
 ### primary\_content?
 
 > `optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+
+Defined in: main.ts:173053
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -45,15 +49,13 @@ you can find more information about content priority calculation in this help ce
 
 [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`primary_content`](../interfaces/IPageSectionContentInfo.md#primary_content)
 
-#### Defined in
-
-main.ts:161339
-
 ***
 
 ### secondary\_content?
 
 > `optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+
+Defined in: main.ts:173056
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -62,15 +64,13 @@ you can find more information about content priority calculation in this help ce
 
 [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`secondary_content`](../interfaces/IPageSectionContentInfo.md#secondary_content)
 
-#### Defined in
-
-main.ts:161342
-
 ***
 
 ### table\_content?
 
 > `optional` **table\_content**: [`TableContent`](TableContent.md)[]
+
+Defined in: main.ts:173058
 
 content of the table on the page
 
@@ -78,27 +78,23 @@ content of the table on the page
 
 [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`table_content`](../interfaces/IPageSectionContentInfo.md#table_content)
 
-#### Defined in
-
-main.ts:161344
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:173071
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161357
 
 ***
 
@@ -106,17 +102,17 @@ main.ts:161357
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173102
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161388
 
 ***
 
@@ -124,14 +120,14 @@ main.ts:161388
 
 > `static` **fromJS**(`data`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
+Defined in: main.ts:173095
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PageSectionContentInfo`](PageSectionContentInfo.md)
-
-#### Defined in
-
-main.ts:161381

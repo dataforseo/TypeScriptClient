@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageForceStopRequestInfo
+[Documentation](../README.md) / OnPageForceStopRequestInfo
 
 # Class: OnPageForceStopRequestInfo
+
+Defined in: main.ts:163684
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageForceStopRequestInfo**(`data`?): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
+Defined in: main.ts:163695
+
 #### Parameters
 
-• **data?**: [`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md)
+##### data?
+
+[`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md)
 
 #### Returns
 
 [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
-
-#### Defined in
-
-main.ts:152389
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:163691
 
 ID of the task
 required field
@@ -49,27 +53,23 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 [`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md).[`id`](../interfaces/IOnPageForceStopRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:152385
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:163704
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:152398
 
 ***
 
@@ -77,17 +77,17 @@ main.ts:152398
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:163721
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:152415
 
 ***
 
@@ -95,14 +95,14 @@ main.ts:152415
 
 > `static` **fromJS**(`data`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
+Defined in: main.ts:163714
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
-
-#### Defined in
-
-main.ts:152408

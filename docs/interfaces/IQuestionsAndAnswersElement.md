@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IQuestionsAndAnswersElement
+[Documentation](../README.md) / IQuestionsAndAnswersElement
 
 # Interface: IQuestionsAndAnswersElement
 
+Defined in: main.ts:35407
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **answer\_text**: `string`
 
+Defined in: main.ts:35415
+
 answer included in the item
-
-#### Defined in
-
-main.ts:33625
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:33625
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35420
+
 website domain
-
-#### Defined in
-
-main.ts:33630
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:33630
 
 > `optional` **question\_text**: `string`
 
+Defined in: main.ts:35413
+
 question included in the item
-
-#### Defined in
-
-main.ts:33623
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:33623
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:35418
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:33628
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:33628
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:35409
+
 type of element
-
-#### Defined in
-
-main.ts:33619
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:33619
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:35411
+
 URL
-
-#### Defined in
-
-main.ts:33621
 
 ***
 
@@ -89,8 +79,6 @@ main.ts:33621
 
 > `optional` **votes**: `number`
 
+Defined in: main.ts:35422
+
 answer upvotes from the source
-
-#### Defined in
-
-main.ts:33632

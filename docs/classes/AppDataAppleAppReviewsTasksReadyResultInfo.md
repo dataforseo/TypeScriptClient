@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppReviewsTasksReadyResultInfo
+[Documentation](../README.md) / AppDataAppleAppReviewsTasksReadyResultInfo
 
 # Class: AppDataAppleAppReviewsTasksReadyResultInfo
+
+Defined in: main.ts:208178
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataAppleAppReviewsTasksReadyResultInfo**(`data`?): [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)
 
+Defined in: main.ts:208198
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:195747
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:195747
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:208187
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:195736
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:195736
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:208191
+
 URL for collecting the results of the Apple App Reviews task
 
 #### Implementation of
 
 [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
-
-main.ts:195740
-
 ***
 
 ### endpoint\_html?
 
 > `optional` **endpoint\_html**: `string`
+
+Defined in: main.ts:208194
 
 URL for collecting the results of the Apple App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -77,15 +77,13 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
-
-main.ts:195743
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:208181
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -94,15 +92,13 @@ unique task identifier in our system in the UUID format
 
 [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md).[`id`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:195730
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:208183
 
 search engine specified when setting the task
 
@@ -110,15 +106,13 @@ search engine specified when setting the task
 
 [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md).[`se`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:195732
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:208185
 
 search engine type
 
@@ -126,15 +120,13 @@ search engine type
 
 [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md).[`se_type`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:195734
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:208189
 
 user-defined task identifier
 
@@ -142,27 +134,23 @@ user-defined task identifier
 
 [`IAppDataAppleAppReviewsTasksReadyResultInfo`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md).[`tag`](../interfaces/IAppDataAppleAppReviewsTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:195738
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:208207
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:195756
 
 ***
 
@@ -170,17 +158,17 @@ main.ts:195756
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:208230
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:195779
 
 ***
 
@@ -188,14 +176,14 @@ main.ts:195779
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)
 
+Defined in: main.ts:208223
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleAppReviewsTasksReadyResultInfo`](AppDataAppleAppReviewsTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:195772

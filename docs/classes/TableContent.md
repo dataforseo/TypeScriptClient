@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TableContent
+[Documentation](../README.md) / TableContent
 
 # Class: TableContent
+
+Defined in: main.ts:173268
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TableContent**(`data`?): [`TableContent`](TableContent.md)
 
+Defined in: main.ts:173278
+
 #### Parameters
 
-• **data?**: [`ITableContent`](../interfaces/ITableContent.md)
+##### data?
+
+[`ITableContent`](../interfaces/ITableContent.md)
 
 #### Returns
 
 [`TableContent`](TableContent.md)
-
-#### Defined in
-
-main.ts:161564
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:161564
 
 > `optional` **body**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
+Defined in: main.ts:173272
+
 content of the body of the table
 
 #### Implementation of
 
 [`ITableContent`](../interfaces/ITableContent.md).[`body`](../interfaces/ITableContent.md#body)
-
-#### Defined in
-
-main.ts:161558
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:161558
 
 > `optional` **footer**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-parsed content of the footer
+Defined in: main.ts:173274
+
+content of the footer of the table
 
 #### Implementation of
 
 [`ITableContent`](../interfaces/ITableContent.md).[`footer`](../interfaces/ITableContent.md#footer)
-
-#### Defined in
-
-main.ts:161560
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:161560
 
 > `optional` **header**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-content of the header of the table
+Defined in: main.ts:173270
+
+parsed content of the header
 
 #### Implementation of
 
 [`ITableContent`](../interfaces/ITableContent.md).[`header`](../interfaces/ITableContent.md#header)
-
-#### Defined in
-
-main.ts:161556
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:161556
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:173287
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161573
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:161573
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173318
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161604
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:161604
 
 > `static` **fromJS**(`data`): [`TableContent`](TableContent.md)
 
+Defined in: main.ts:173311
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TableContent`](TableContent.md)
-
-#### Defined in
-
-main.ts:161597

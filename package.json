@@ -1,7 +1,8 @@
 {
   "name": "dataforseo-client",
-  "version": "1.0.18",
+  "version": "1.0.26",
   "description": "API client that provide services of DataForSeo API \n\n For more information about client code generation, please follow to github",
+  "readme": "./README.md",
   "main": "main.js",
   "types": "main.d.ts",
   "scripts": {

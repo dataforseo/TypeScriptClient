@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IWorkHours
+[Documentation](../README.md) / IWorkHours
 
 # Interface: IWorkHours
 
+Defined in: main.ts:41553
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **current\_status**: `string`
 
+Defined in: main.ts:41558
+
 current status of the establishment
 indicates whether the establishment is opened or closed
-
-#### Defined in
-
-main.ts:39716
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:39716
 
 > `optional` **timetable**: `object`
 
+Defined in: main.ts:41555
+
 work hours timetable
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`WorkDayInfo`](../classes/WorkDayInfo.md) \| `undefined`)[]
-
-#### Defined in
-
-main.ts:39713
+\[`key`: `string`\]: [`WorkDayInfo`](../classes/WorkDayInfo.md)[]

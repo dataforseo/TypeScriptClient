@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpAiSummaryResultInfo
+[Documentation](../README.md) / ISerpAiSummaryResultInfo
 
 # Interface: ISerpAiSummaryResultInfo
 
+Defined in: main.ts:26648
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`SerpAiSummaryItem`](../classes/SerpAiSummaryItem.md)[]
 
+Defined in: main.ts:26652
+
 items array
-
-#### Defined in
-
-main.ts:25582
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:25582
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:26650
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:25580

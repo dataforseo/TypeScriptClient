@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkBacklinksLiveItem
+[Documentation](../README.md) / IBacklinksBulkBacklinksLiveItem
 
 # Interface: IBacklinksBulkBacklinksLiveItem
 
+Defined in: main.ts:160761
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **backlinks**: `number`
 
+Defined in: main.ts:160765
+
 number of backlinks pointing to the target
-
-#### Defined in
-
-main.ts:149459
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:149459
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:160763
+
 domain, subdomain or webpage from a POST array
-
-#### Defined in
-
-main.ts:149457

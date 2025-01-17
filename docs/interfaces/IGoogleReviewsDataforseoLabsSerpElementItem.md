@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleReviewsDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IGoogleReviewsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleReviewsDataforseoLabsSerpElementItem
+
+Defined in: main.ts:108169
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:108180
+
 google-defined client id
-
-#### Defined in
-
-main.ts:98259
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:98259
 
 > `optional` **feature**: `string`
 
+Defined in: main.ts:108178
+
 the additional feature of the review
-
-#### Defined in
-
-main.ts:98257
 
 ***
 
@@ -44,17 +42,17 @@ main.ts:98257
 
 > `optional` **place\_id**: `string`
 
+Defined in: main.ts:108176
+
 the identifier of a place
-
-#### Defined in
-
-main.ts:98255
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21703
 
 the alignment of the element in SERP
 can take the following values:
@@ -64,15 +62,13 @@ left, right
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21020
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21699
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -81,15 +77,13 @@ absolute position among all the elements in SERP
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21016
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21696
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -98,22 +92,16 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21013
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:108174
+
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:98253
 
 ***
 
@@ -121,11 +109,9 @@ main.ts:98253
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:108171
+
 the number of reviews
-
-#### Defined in
-
-main.ts:98250
 
 ***
 
@@ -133,15 +119,13 @@ main.ts:98250
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21693
+
 type of element
 
 #### Inherited from
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21010
 
 ***
 
@@ -149,12 +133,10 @@ main.ts:21010
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21705
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:21022

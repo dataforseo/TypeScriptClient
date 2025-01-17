@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphImagesElement
+[Documentation](../README.md) / IKnowledgeGraphImagesElement
 
 # Interface: IKnowledgeGraphImagesElement
 
+Defined in: main.ts:29737
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **alt**: `string`
 
+Defined in: main.ts:29745
+
 alt tag of the image
-
-#### Defined in
-
-main.ts:28181
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:28181
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:29743
+
 domain in SERP of the Ad element
-
-#### Defined in
-
-main.ts:28179
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:28179
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:29748
+
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
-
-#### Defined in
-
-main.ts:28184
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:28184
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:29739
+
 type of element
-
-#### Defined in
-
-main.ts:28175
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:28175
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:29741
+
 relevant URL in SERP
-
-#### Defined in
-
-main.ts:28177
 
 ***
 
@@ -77,8 +69,6 @@ main.ts:28177
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:29750
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:28186

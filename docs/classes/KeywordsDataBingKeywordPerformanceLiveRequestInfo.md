@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLiveRequestInfo
+
+Defined in: main.ts:145406
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataBingKeywordPerformanceLiveRequestInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
 
+Defined in: main.ts:145472
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:133521
 
 ## Properties
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:145419
 
 device type
 optional field
@@ -47,15 +51,13 @@ default value: all
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:133468
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:145414
 
 keywords
 required field
@@ -63,20 +65,19 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 80
 The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:133463
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:145462
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,15 +89,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:133511
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:145456
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -109,15 +108,13 @@ English
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:133505
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:145441
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -130,15 +127,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:133490
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:145449
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -152,15 +147,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:133498
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:145434
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -173,15 +166,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:133483
-
 ***
 
 ### match?
 
 > `optional` **match**: `string`
+
+Defined in: main.ts:145427
 
 keywords match type
 optional field
@@ -195,15 +186,13 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`match`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#match)
 
-#### Defined in
-
-main.ts:133476
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:145468
 
 user-defined task identifier
 optional field
@@ -215,27 +204,23 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:133517
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:145481
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:133530
 
 ***
 
@@ -243,17 +228,17 @@ main.ts:133530
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:145510
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:133559
 
 ***
 
@@ -261,14 +246,14 @@ main.ts:133559
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
 
+Defined in: main.ts:145503
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:133552

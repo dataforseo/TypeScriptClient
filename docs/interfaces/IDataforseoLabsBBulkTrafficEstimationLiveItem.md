@@ -24,7 +24,11 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101112
+=======
+main.ts:101145
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -36,7 +40,11 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101108
+=======
+main.ts:101141
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -48,4 +56,8 @@ target domain in a POST array
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:101110
+=======
+main.ts:101143
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

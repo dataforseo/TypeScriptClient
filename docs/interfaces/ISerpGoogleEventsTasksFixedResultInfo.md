@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleEventsTasksFixedResultInfo
+[Documentation](../README.md) / ISerpGoogleEventsTasksFixedResultInfo
 
 # Interface: ISerpGoogleEventsTasksFixedResultInfo
 
+Defined in: main.ts:48609
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:48619
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:45769
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:45769
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:48627
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:45777
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:45777
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:48630
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:45780
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:45780
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:48624
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:45774
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:45774
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:48612
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:45762
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:45762
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:48614
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:45764
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:45764
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:48617
+
 type of search engine
 can take the following values: events
-
-#### Defined in
-
-main.ts:45767
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:45767
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:48621
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:45771

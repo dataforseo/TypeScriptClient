@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DemographyComparisonInfo
+[Documentation](../README.md) / DemographyComparisonInfo
 
 # Class: DemographyComparisonInfo
+
+Defined in: main.ts:21816
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DemographyComparisonInfo**(`data`?): [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
+Defined in: main.ts:21824
+
 #### Parameters
 
-• **data?**: [`IDemographyComparisonInfo`](../interfaces/IDemographyComparisonInfo.md)
+##### data?
+
+[`IDemographyComparisonInfo`](../interfaces/IDemographyComparisonInfo.md)
 
 #### Returns
 
 [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
-
-#### Defined in
-
-main.ts:21141
 
 ## Properties
 
@@ -38,19 +40,17 @@ main.ts:21141
 
 > `optional` **age**: `object`
 
+Defined in: main.ts:21818
+
 type of element
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
+\[`key`: `string`\]: `number`[]
 
 #### Implementation of
 
 [`IDemographyComparisonInfo`](../interfaces/IDemographyComparisonInfo.md).[`age`](../interfaces/IDemographyComparisonInfo.md#age)
-
-#### Defined in
-
-main.ts:21135
 
 ***
 
@@ -58,19 +58,17 @@ main.ts:21135
 
 > `optional` **gender**: `object`
 
+Defined in: main.ts:21820
+
 type of element
 
 #### Index Signature
 
- \[`key`: `string`\]: (`number` \| `undefined`)[]
+\[`key`: `string`\]: `number`[]
 
 #### Implementation of
 
 [`IDemographyComparisonInfo`](../interfaces/IDemographyComparisonInfo.md).[`gender`](../interfaces/IDemographyComparisonInfo.md#gender)
-
-#### Defined in
-
-main.ts:21137
 
 ## Methods
 
@@ -78,17 +76,17 @@ main.ts:21137
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:21833
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:21150
 
 ***
 
@@ -96,17 +94,17 @@ main.ts:21150
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:21863
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:21180
 
 ***
 
@@ -114,14 +112,14 @@ main.ts:21180
 
 > `static` **fromJS**(`data`): [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
+Defined in: main.ts:21856
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
-
-#### Defined in
-
-main.ts:21173

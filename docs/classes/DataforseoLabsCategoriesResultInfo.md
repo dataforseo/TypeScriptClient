@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsCategoriesResultInfo
+[Documentation](../README.md) / DataforseoLabsCategoriesResultInfo
 
 # Class: DataforseoLabsCategoriesResultInfo
+
+Defined in: main.ts:91632
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsCategoriesResultInfo**(`data`?): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
+Defined in: main.ts:91651
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md)
+##### data?
+
+[`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:81906
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:81906
 
 > `optional` **category\_code**: `number`
 
+Defined in: main.ts:91634
+
 category code
 
 #### Implementation of
 
 [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_code`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_code)
 
-#### Defined in
-
-main.ts:81889
-
 ***
 
 ### category\_code\_parent?
 
 > `optional` **category\_code\_parent**: `number`
+
+Defined in: main.ts:91647
 
 the code of the superordinate category
 example:
@@ -69,15 +71,13 @@ corresponds to:
 
 [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_code_parent`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_code_parent)
 
-#### Defined in
-
-main.ts:81902
-
 ***
 
 ### category\_name?
 
 > `optional` **category\_name**: `string`
+
+Defined in: main.ts:91636
 
 full name of the category
 
@@ -85,27 +85,23 @@ full name of the category
 
 [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_name`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_name)
 
-#### Defined in
-
-main.ts:81891
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:91660
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:81915
 
 ***
 
@@ -113,17 +109,17 @@ main.ts:81915
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:91679
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:81934
 
 ***
 
@@ -131,14 +127,14 @@ main.ts:81934
 
 > `static` **fromJS**(`data`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
+Defined in: main.ts:91672
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:81927

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleProductsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantGoogleProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductsTaskGetAdvancedResultInfo
 
+Defined in: main.ts:186984
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:186998
+
 direct URL to Google Shopping results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:175168
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:175168
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:187003
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:175173
 
 ***
 
@@ -44,14 +42,12 @@ main.ts:175173
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:187011
+
 types of search results found in Google Shopping SERP
 contains types of all search results (items) found in the returned SERP
 possible item types:
 google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
-
-#### Defined in
-
-main.ts:175181
 
 ***
 
@@ -59,13 +55,11 @@ main.ts:175181
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
 
+Defined in: main.ts:187017
+
 additional items present in the element
 contains a list of related keywords;
 if there are none, equals null
-
-#### Defined in
-
-main.ts:175187
 
 ***
 
@@ -73,11 +67,9 @@ main.ts:175187
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:187013
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:175183
 
 ***
 
@@ -85,12 +77,10 @@ main.ts:175183
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:186987
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:175157
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -98,11 +88,9 @@ main.ts:175157
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:186995
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:175165
 
 ***
 
@@ -110,11 +98,9 @@ main.ts:175165
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:186993
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:175163
 
 ***
 
@@ -122,11 +108,9 @@ main.ts:175163
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:186991
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:175161
 
 ***
 
@@ -134,12 +118,10 @@ main.ts:175161
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
+Defined in: main.ts:187006
+
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
-
-#### Defined in
-
-main.ts:175176
 
 ***
 
@@ -147,8 +129,6 @@ main.ts:175176
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:186989
+
 type of element
-
-#### Defined in
-
-main.ts:175159

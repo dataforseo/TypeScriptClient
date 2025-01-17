@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageMicrodataItem
+[Documentation](../README.md) / IOnPageMicrodataItem
 
 # Interface: IOnPageMicrodataItem
 
+Defined in: main.ts:171929
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **inspection\_info**: [`MicrodataInspectionInfo`](../classes/MicrodataInspectionInfo.md)
 
+Defined in: main.ts:171933
+
 information related to microdata validation
-
-#### Defined in
-
-main.ts:160189
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:160189
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:171931
+
 type of element
-
-#### Defined in
-
-main.ts:160187

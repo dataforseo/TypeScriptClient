@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkRanksLiveItem
+[Documentation](../README.md) / BacklinksBulkRanksLiveItem
 
 # Class: BacklinksBulkRanksLiveItem
+
+Defined in: main.ts:160372
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBulkRanksLiveItem**(`data`?): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
+Defined in: main.ts:160383
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md)
+##### data?
+
+[`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md)
 
 #### Returns
 
 [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
-
-#### Defined in
-
-main.ts:149077
 
 ## Properties
 
 ### rank?
 
 > `optional` **rank**: `number`
+
+Defined in: main.ts:160379
 
 rank of the target
 values represent real-time data for the date of the request
@@ -47,15 +51,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md).[`rank`](../interfaces/IBacklinksBulkRanksLiveItem.md#rank)
 
-#### Defined in
-
-main.ts:149073
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:160374
 
 domain, subdomain or webpage from a POST array
 
@@ -63,27 +65,23 @@ domain, subdomain or webpage from a POST array
 
 [`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md).[`target`](../interfaces/IBacklinksBulkRanksLiveItem.md#target)
 
-#### Defined in
-
-main.ts:149068
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:160392
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:149086
 
 ***
 
@@ -91,17 +89,17 @@ main.ts:149086
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:160410
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:149104
 
 ***
 
@@ -109,14 +107,14 @@ main.ts:149104
 
 > `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
+Defined in: main.ts:160403
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
-
-#### Defined in
-
-main.ts:149097

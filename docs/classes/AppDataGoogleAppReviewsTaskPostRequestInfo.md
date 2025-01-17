@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
+[Documentation](../README.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataGoogleAppReviewsTaskPostRequestInfo
+
+Defined in: main.ts:202790
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppDataGoogleAppReviewsTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
 
+Defined in: main.ts:202895
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md)
+##### data?
+
+[`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:190458
 
 ## Properties
 
 ### app\_id?
 
 > `optional` **app\_id**: `string`
+
+Defined in: main.ts:202797
 
 id of the app
 required field
@@ -49,15 +53,13 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`app_id`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#app_id)
 
-#### Defined in
-
-main.ts:190360
-
 ***
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:202840
 
 parsing depth
 optional field
@@ -70,18 +72,16 @@ maximum value: 100000
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`depth`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:190403
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:202825
+
 search engine language code
-optional field
+required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -91,18 +91,16 @@ en
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:190388
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:202818
+
 full name of search engine language
-optional field
+required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -112,15 +110,13 @@ English
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`language_name`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:190381
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:202811
 
 search engine location code
 required field if you don’t specify location_name
@@ -133,15 +129,13 @@ example:
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:190374
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:202804
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -154,15 +148,13 @@ West Los Angeles,California,United States
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`location_name`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:190367
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:202891
 
 notification URL of a completed task
 optional field
@@ -171,22 +163,20 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:190454
 
 ***
 
 ### postback\_data?
 
 > `optional` **postback\_data**: `string`
+
+Defined in: main.ts:202881
 
 postback_url datatype
 required field if you specify postback_url
@@ -198,15 +188,13 @@ advanced, html
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`postback_data`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
-
-main.ts:190444
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:202875
 
 return URL for sending task results
 optional field
@@ -215,22 +203,20 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:190438
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:202833
 
 task priority
 optional field
@@ -244,15 +230,13 @@ The cost can be calculated on the Pricing page.
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`priority`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:190396
-
 ***
 
 ### rating?
 
 > `optional` **rating**: `number`
+
+Defined in: main.ts:202851
 
 filter reviews by rating
 optional field
@@ -269,15 +253,13 @@ by default, the API returns all reviews regardless of the number of stars
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`rating`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#rating)
 
-#### Defined in
-
-main.ts:190414
-
 ***
 
 ### sort\_by?
 
 > `optional` **sort\_by**: `string`
+
+Defined in: main.ts:202859
 
 results sorting parameters
 optional field
@@ -291,15 +273,13 @@ default rule: most_relevant
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
-
-main.ts:190422
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:202865
 
 user-defined task identifier
 optional field
@@ -311,27 +291,23 @@ you will find the specified tag value in the data object of the response
 
 [`IAppDataGoogleAppReviewsTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md).[`tag`](../interfaces/IAppDataGoogleAppReviewsTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:190428
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:202904
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:190467
 
 ***
 
@@ -339,17 +315,17 @@ main.ts:190467
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:202933
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:190496
 
 ***
 
@@ -357,14 +333,14 @@ main.ts:190496
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
 
+Defined in: main.ts:202926
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleAppReviewsTaskPostRequestInfo`](AppDataGoogleAppReviewsTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:190489

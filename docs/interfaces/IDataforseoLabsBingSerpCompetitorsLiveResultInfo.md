@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingSerpCompetitorsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingSerpCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveResultInfo
 
+Defined in: main.ts:120194
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](../classes/DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
+Defined in: main.ts:120211
+
 contains detected SERP competitors and related data
-
-#### Defined in
-
-main.ts:110778
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:110778
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:120209
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:110776
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:110776
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:120205
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:110772
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:110772
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:120202
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:110769
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:110769
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:120196
+
 search engine type
-
-#### Defined in
-
-main.ts:110763
 
 ***
 
@@ -78,12 +70,10 @@ main.ts:110763
 
 > `optional` **seed\_keywords**: `string`[]
 
+Defined in: main.ts:120199
+
 keywords specified in the request
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:110766
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -91,8 +81,6 @@ main.ts:110766
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:120207
+
 the total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:110774

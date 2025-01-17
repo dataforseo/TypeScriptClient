@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MultiCarouselElement
+[Documentation](../README.md) / MultiCarouselElement
 
 # Class: MultiCarouselElement
+
+Defined in: main.ts:34045
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MultiCarouselElement**(`data`?): [`MultiCarouselElement`](MultiCarouselElement.md)
 
+Defined in: main.ts:34055
+
 #### Parameters
 
-• **data?**: [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md)
+##### data?
+
+[`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md)
 
 #### Returns
 
 [`MultiCarouselElement`](MultiCarouselElement.md)
-
-#### Defined in
-
-main.ts:32253
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:32253
 
 > `optional` **multi\_carousel\_snippets**: [`CarouselElement`](CarouselElement.md)[]
 
+Defined in: main.ts:34051
+
 multi_carousel_snippet results
 
 #### Implementation of
 
 [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`multi_carousel_snippets`](../interfaces/IMultiCarouselElement.md#multi_carousel_snippets)
-
-#### Defined in
-
-main.ts:32249
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:32249
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:34049
+
 title of a given link element
 
 #### Implementation of
 
 [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`title`](../interfaces/IMultiCarouselElement.md#title)
-
-#### Defined in
-
-main.ts:32247
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:32247
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:34047
+
 type of element
 
 #### Implementation of
 
 [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`type`](../interfaces/IMultiCarouselElement.md#type)
-
-#### Defined in
-
-main.ts:32245
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:32245
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:34064
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:32262
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:32262
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:34087
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:32285
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:32285
 
 > `static` **fromJS**(`data`): [`MultiCarouselElement`](MultiCarouselElement.md)
 
+Defined in: main.ts:34080
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MultiCarouselElement`](MultiCarouselElement.md)
-
-#### Defined in
-
-main.ts:32278

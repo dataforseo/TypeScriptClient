@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAuthorsElement
+[Documentation](../README.md) / IAuthorsElement
 
 # Interface: IAuthorsElement
 
+Defined in: main.ts:24799
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:24807
+
 author’s link domain
-
-#### Defined in
-
-main.ts:54013
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:54013
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:24803
+
 name of the dataset author
-
-#### Defined in
-
-main.ts:54009
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:54009
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24801
+
 type of element
-
-#### Defined in
-
-main.ts:54007
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:54007
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:24805
+
 author’s link URL
-
-#### Defined in
-
-main.ts:54011

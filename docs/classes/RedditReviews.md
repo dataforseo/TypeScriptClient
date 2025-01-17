@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RedditReviews
+[Documentation](../README.md) / RedditReviews
 
 # Class: RedditReviews
+
+Defined in: main.ts:230234
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new RedditReviews**(`data`?): [`RedditReviews`](RedditReviews.md)
 
+Defined in: main.ts:230249
+
 #### Parameters
 
-• **data?**: [`IRedditReviews`](../interfaces/IRedditReviews.md)
+##### data?
+
+[`IRedditReviews`](../interfaces/IRedditReviews.md)
 
 #### Returns
 
 [`RedditReviews`](RedditReviews.md)
-
-#### Defined in
-
-main.ts:215205
 
 ## Properties
 
 ### author\_name?
 
 > `optional` **author\_name**: `string`
+
+Defined in: main.ts:230239
 
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
@@ -45,15 +49,13 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`author_name`](../interfaces/IRedditReviews.md#author_name)
 
-#### Defined in
-
-main.ts:215195
-
 ***
 
 ### permalink?
 
 > `optional` **permalink**: `string`
+
+Defined in: main.ts:230243
 
 URL to the subreddit post
 
@@ -61,15 +63,13 @@ URL to the subreddit post
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`permalink`](../interfaces/IRedditReviews.md#permalink)
 
-#### Defined in
-
-main.ts:215199
-
 ***
 
 ### subreddit?
 
 > `optional` **subreddit**: `string`
+
+Defined in: main.ts:230236
 
 the name of the subreddit
 
@@ -77,15 +77,13 @@ the name of the subreddit
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`subreddit`](../interfaces/IRedditReviews.md#subreddit)
 
-#### Defined in
-
-main.ts:215192
-
 ***
 
 ### subreddit\_members?
 
 > `optional` **subreddit\_members**: `number`
+
+Defined in: main.ts:230245
 
 number of subreddit members
 
@@ -93,15 +91,13 @@ number of subreddit members
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`subreddit_members`](../interfaces/IRedditReviews.md#subreddit_members)
 
-#### Defined in
-
-main.ts:215201
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:230241
 
 title of the subreddit post
 
@@ -109,27 +105,23 @@ title of the subreddit post
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`title`](../interfaces/IRedditReviews.md#title)
 
-#### Defined in
-
-main.ts:215197
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:230258
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:215214
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:215214
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:230279
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:215235
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:215235
 
 > `static` **fromJS**(`data`): [`RedditReviews`](RedditReviews.md)
 
+Defined in: main.ts:230272
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`RedditReviews`](RedditReviews.md)
-
-#### Defined in
-
-main.ts:215228

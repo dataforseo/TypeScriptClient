@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksReferringDomainsLiveRequestInfo
+[Documentation](../README.md) / IBacklinksReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksReferringDomainsLiveRequestInfo
 
+Defined in: main.ts:155447
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### backlinks\_filters?
 
 > `optional` **backlinks\_filters**: `any`[]
+
+Defined in: main.ts:155521
 
 filter the backlinks of your target
 optional field
@@ -24,15 +28,13 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 "backlinks_filters": ["dofollow", "=", true]
 
-#### Defined in
-
-main.ts:144215
-
 ***
 
 ### backlinks\_status\_type?
 
 > `optional` **backlinks\_status\_type**: `string`
+
+Defined in: main.ts:155482
 
 set what backlinks to return and count
 optional field
@@ -43,30 +45,26 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Defined in
-
-main.ts:144176
-
 ***
 
 ### exclude\_internal\_backlinks?
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
+Defined in: main.ts:155537
+
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
 if set to false, the backlinks from subdomains of the target will be ommited and you won’t receive the same domain in the response;
 default value: true
-
-#### Defined in
-
-main.ts:144231
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:155499
 
 array of results filtering parameters
 optional field
@@ -85,15 +83,13 @@ example:
 [["domain","like","%dataforseo.com%"],"or",["referring_domains",">","10"]]]
 The full list of possible filters is available here.
 
-#### Defined in
-
-main.ts:144193
-
 ***
 
 ### include\_indirect\_links?
 
 > `optional` **include\_indirect\_links**: `boolean`
+
+Defined in: main.ts:155532
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -101,30 +97,26 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Defined in
-
-main.ts:144226
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
 
+Defined in: main.ts:155526
+
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
-
-#### Defined in
-
-main.ts:144220
 
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:155473
 
 maximum number of elements within internal arrays
 optional field
@@ -137,24 +129,18 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000
 
-#### Defined in
-
-main.ts:144167
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:155457
+
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:144151
 
 ***
 
@@ -162,20 +148,20 @@ main.ts:144151
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:155462
+
 offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive pages
-
-#### Defined in
-
-main.ts:144156
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:155513
 
 results sorting rules
 optional field
@@ -191,15 +177,13 @@ you should use a comma to separate several sorting rules
 example:
 ["backlinks,desc","rank,asc"]
 
-#### Defined in
-
-main.ts:144207
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:155543
 
 user-defined task identifier
 optional field
@@ -207,21 +191,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:144237
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:155452
+
 domain, subdomain or webpage to get referring domains for
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
-
-#### Defined in
-
-main.ts:144146

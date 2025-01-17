@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IStocksBoxSerpElementItem
+[Documentation](../README.md) / IStocksBoxSerpElementItem
 
 # Interface: IStocksBoxSerpElementItem
+
+Defined in: main.ts:35170
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35183
+
 source domain
-
-#### Defined in
-
-main.ts:33391
 
 ***
 
@@ -32,17 +32,17 @@ main.ts:33391
 
 > `optional` **graph**: [`Graph`](../classes/Graph.md)
 
+Defined in: main.ts:35192
+
 contains data provided in the graph of the element
-
-#### Defined in
-
-main.ts:33400
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21404
 
 the alignment of the element in SERP
 can take the following values:
@@ -52,27 +52,23 @@ left, right
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20721
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:35179
+
 price indicated in the element
-
-#### Defined in
-
-main.ts:33387
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21400
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -81,15 +77,13 @@ absolute position among all the elements in SERP
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20717
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21397
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -99,23 +93,17 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20714
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
+Defined in: main.ts:35187
+
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
-
-#### Defined in
-
-main.ts:33395
 
 ***
 
@@ -123,11 +111,9 @@ main.ts:33395
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:35177
+
 text alongside the link title
-
-#### Defined in
-
-main.ts:33385
 
 ***
 
@@ -135,12 +121,10 @@ main.ts:33385
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:35175
+
 source of the element
 indicates the source of the video
-
-#### Defined in
-
-main.ts:33383
 
 ***
 
@@ -148,12 +132,10 @@ main.ts:33383
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
+Defined in: main.ts:35190
+
 results table
 if there are none, equals null
-
-#### Defined in
-
-main.ts:33398
 
 ***
 
@@ -161,11 +143,9 @@ main.ts:33398
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:35172
+
 title of the row
-
-#### Defined in
-
-main.ts:33380
 
 ***
 
@@ -173,15 +153,13 @@ main.ts:33380
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21393
+
 type of element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:20710
 
 ***
 
@@ -189,11 +167,9 @@ main.ts:20710
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:35181
+
 source URL
-
-#### Defined in
-
-main.ts:33389
 
 ***
 
@@ -201,12 +177,10 @@ main.ts:33389
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21406
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:20723

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostBacklinksLiveItem
+[Documentation](../README.md) / BacklinksBulkNewLostBacklinksLiveItem
 
 # Class: BacklinksBulkNewLostBacklinksLiveItem
+
+Defined in: main.ts:161780
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBulkNewLostBacklinksLiveItem**(`data`?): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
+Defined in: main.ts:161792
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md)
+##### data?
+
+[`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
-
-#### Defined in
-
-main.ts:150486
 
 ## Properties
 
 ### lost\_backlinks?
 
 > `optional` **lost\_backlinks**: `number`
+
+Defined in: main.ts:161788
 
 number of lost backlinks
 number of lost backlinks of the target
@@ -45,15 +49,13 @@ number of lost backlinks of the target
 
 [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`lost_backlinks`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#lost_backlinks)
 
-#### Defined in
-
-main.ts:150482
-
 ***
 
 ### new\_backlinks?
 
 > `optional` **new\_backlinks**: `number`
+
+Defined in: main.ts:161785
 
 number of new backlinks
 number of new backlinks pointing to the target
@@ -62,15 +64,13 @@ number of new backlinks pointing to the target
 
 [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`new_backlinks`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#new_backlinks)
 
-#### Defined in
-
-main.ts:150479
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:161782
 
 domain, subdomain or webpage from a POST array
 
@@ -78,27 +78,23 @@ domain, subdomain or webpage from a POST array
 
 [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`target`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#target)
 
-#### Defined in
-
-main.ts:150476
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:161801
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:150495
 
 ***
 
@@ -106,17 +102,17 @@ main.ts:150495
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:161820
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:150514
 
 ***
 
@@ -124,14 +120,14 @@ main.ts:150514
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
+Defined in: main.ts:161813
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
-
-#### Defined in
-
-main.ts:150507

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBingKeywordsDataPriceData
+[Documentation](../README.md) / AppendixBingKeywordsDataPriceData
 
 # Class: AppendixBingKeywordsDataPriceData
+
+Defined in: main.ts:236386
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,73 +22,89 @@
 
 > **new AppendixBingKeywordsDataPriceData**(`data`?): [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
+Defined in: main.ts:236396
+
 #### Parameters
 
-• **data?**: [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md)
+##### data?
+
+[`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md)
 
 #### Returns
 
 [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
-#### Defined in
-
-main.ts:221130
-
 ## Properties
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236387
+
+#### Implementation of
+
+[`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`audience_estimation`](../interfaces/IAppendixBingKeywordsDataPriceData.md#audience_estimation)
+
+***
 
 ### keyword\_performance?
 
-> `optional` **keyword\_performance**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keyword\_performance**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236388
 
 #### Implementation of
 
 [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`keyword_performance`](../interfaces/IAppendixBingKeywordsDataPriceData.md#keyword_performance)
 
-#### Defined in
+***
 
-main.ts:221123
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236391
+
+#### Implementation of
+
+[`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixBingKeywordsDataPriceData.md#keyword_suggestions_for_url)
 
 ***
 
 ### keywords\_for\_keywords?
 
-> `optional` **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236389
 
 #### Implementation of
 
 [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`keywords_for_keywords`](../interfaces/IAppendixBingKeywordsDataPriceData.md#keywords_for_keywords)
 
-#### Defined in
-
-main.ts:221124
-
 ***
 
 ### keywords\_for\_site?
 
-> `optional` **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236390
 
 #### Implementation of
 
 [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`keywords_for_site`](../interfaces/IAppendixBingKeywordsDataPriceData.md#keywords_for_site)
 
-#### Defined in
-
-main.ts:221125
-
 ***
 
 ### search\_volume?
 
-> `optional` **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236392
 
 #### Implementation of
 
 [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`search_volume`](../interfaces/IAppendixBingKeywordsDataPriceData.md#search_volume)
-
-#### Defined in
-
-main.ts:221126
 
 ## Methods
 
@@ -94,17 +112,17 @@ main.ts:221126
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:236405
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:221139
 
 ***
 
@@ -112,17 +130,17 @@ main.ts:221139
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:236427
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:221159
 
 ***
 
@@ -130,14 +148,14 @@ main.ts:221159
 
 > `static` **fromJS**(`data`): [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
+Defined in: main.ts:236420
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
-
-#### Defined in
-
-main.ts:221152

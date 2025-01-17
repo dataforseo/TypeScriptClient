@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkPagesSummaryLiveResultInfo
+[Documentation](../README.md) / BacklinksBulkPagesSummaryLiveResultInfo
 
 # Class: BacklinksBulkPagesSummaryLiveResultInfo
+
+Defined in: main.ts:162814
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksBulkPagesSummaryLiveResultInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
 
+Defined in: main.ts:162824
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:151518
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:151518
 
 > `optional` **items**: [`BacklinksBulkPagesSummaryLiveItem`](BacklinksBulkPagesSummaryLiveItem.md)[]
 
+Defined in: main.ts:162820
+
 items array
 
 #### Implementation of
 
 [`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:151514
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:151514
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:162818
+
 number of items in the results array
 
 #### Implementation of
 
 [`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:151512
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:151512
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:162816
+
 total number of relevant items in the database
 
 #### Implementation of
 
 [`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:151510
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:151510
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:162833
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:151527
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:151527
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:162856
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:151550
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:151550
 
 > `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
 
+Defined in: main.ts:162849
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:151543

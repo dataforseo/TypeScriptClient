@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixPriceData
+[Documentation](../README.md) / AppendixPriceData
 
 # Class: AppendixPriceData
+
+Defined in: main.ts:238818
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixPriceData**(`data`?): [`AppendixPriceData`](AppendixPriceData.md)
 
+Defined in: main.ts:238834
+
 #### Parameters
 
-• **data?**: [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md)
+##### data?
+
+[`IAppendixPriceData`](../interfaces/IAppendixPriceData.md)
 
 #### Returns
 
 [`AppendixPriceData`](AppendixPriceData.md)
-
-#### Defined in
-
-main.ts:223546
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:223546
 
 > `optional` **app\_data**: [`AppendixAppDataPriceData`](AppendixAppDataPriceData.md)
 
+Defined in: main.ts:238823
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`app_data`](../interfaces/IAppendixPriceData.md#app_data)
-
-#### Defined in
-
-main.ts:223535
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:223535
 
 > `optional` **appendix**: [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
+Defined in: main.ts:238822
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`appendix`](../interfaces/IAppendixPriceData.md#appendix)
-
-#### Defined in
-
-main.ts:223534
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:223534
 
 > `optional` **backlinks**: [`AppendixBacklinksPriceData`](AppendixBacklinksPriceData.md)
 
+Defined in: main.ts:238824
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`backlinks`](../interfaces/IAppendixPriceData.md#backlinks)
-
-#### Defined in
-
-main.ts:223536
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:223536
 
 > `optional` **business\_data**: [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
+Defined in: main.ts:238825
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`business_data`](../interfaces/IAppendixPriceData.md#business_data)
-
-#### Defined in
-
-main.ts:223537
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:223537
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisPriceData`](AppendixContentAnalysisPriceData.md)
 
+Defined in: main.ts:238826
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`content_analysis`](../interfaces/IAppendixPriceData.md#content_analysis)
-
-#### Defined in
-
-main.ts:223538
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:223538
 
 > `optional` **content\_generation**: [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
 
+Defined in: main.ts:238827
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`content_generation`](../interfaces/IAppendixPriceData.md#content_generation)
-
-#### Defined in
-
-main.ts:223539
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:223539
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsPriceData`](AppendixDataforseoLabsPriceData.md)
 
+Defined in: main.ts:238828
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`dataforseo_labs`](../interfaces/IAppendixPriceData.md#dataforseo_labs)
-
-#### Defined in
-
-main.ts:223540
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:223540
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
 
+Defined in: main.ts:238829
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`domain_analytics`](../interfaces/IAppendixPriceData.md#domain_analytics)
-
-#### Defined in
-
-main.ts:223541
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:223541
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
 
+Defined in: main.ts:238819
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`keywords_data`](../interfaces/IAppendixPriceData.md#keywords_data)
-
-#### Defined in
-
-main.ts:223531
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:223531
 
 > `optional` **merchant**: [`AppendixMerchantPriceData`](AppendixMerchantPriceData.md)
 
+Defined in: main.ts:238820
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`merchant`](../interfaces/IAppendixPriceData.md#merchant)
-
-#### Defined in
-
-main.ts:223532
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:223532
 
 > `optional` **on\_page**: [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
 
+Defined in: main.ts:238830
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`on_page`](../interfaces/IAppendixPriceData.md#on_page)
-
-#### Defined in
-
-main.ts:223542
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:223542
 
 > `optional` **serp**: [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
 
+Defined in: main.ts:238821
+
 #### Implementation of
 
 [`IAppendixPriceData`](../interfaces/IAppendixPriceData.md).[`serp`](../interfaces/IAppendixPriceData.md#serp)
-
-#### Defined in
-
-main.ts:223533
 
 ## Methods
 
@@ -206,17 +184,17 @@ main.ts:223533
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:238843
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:223555
 
 ***
 
@@ -224,17 +202,17 @@ main.ts:223555
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:238871
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:223583
 
 ***
 
@@ -242,14 +220,14 @@ main.ts:223583
 
 > `static` **fromJS**(`data`): [`AppendixPriceData`](AppendixPriceData.md)
 
+Defined in: main.ts:238864
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixPriceData`](AppendixPriceData.md)
-
-#### Defined in
-
-main.ts:223576

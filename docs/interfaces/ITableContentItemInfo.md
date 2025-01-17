@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITableContentItemInfo
+[Documentation](../README.md) / ITableContentItemInfo
 
 # Interface: ITableContentItemInfo
 
+Defined in: main.ts:173261
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **row\_cells**: [`RowCellInfo`](../classes/RowCellInfo.md)[]
 
+Defined in: main.ts:173263
+
 content of the row cells of the header
-
-#### Defined in
-
-main.ts:161549

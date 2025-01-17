@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100491
+=======
+main.ts:100524
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -52,7 +56,11 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100487
+=======
+main.ts:100520
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -68,7 +76,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100483
+=======
+main.ts:100516
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -84,7 +96,11 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100481
+=======
+main.ts:100514
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -102,7 +118,11 @@ main.ts:100481
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100500
+=======
+main.ts:100533
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -120,7 +140,11 @@ main.ts:100500
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100525
+=======
+main.ts:100558
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -138,4 +162,8 @@ main.ts:100525
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100518
+=======
+main.ts:100551
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

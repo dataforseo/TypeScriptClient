@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PopularTimes
+[Documentation](../README.md) / PopularTimes
 
 # Class: PopularTimes
+
+Defined in: main.ts:211106
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new PopularTimes**(`data`?): [`PopularTimes`](PopularTimes.md)
 
+Defined in: main.ts:211113
+
 #### Parameters
 
-• **data?**: [`IPopularTimes`](../interfaces/IPopularTimes.md)
+##### data?
+
+[`IPopularTimes`](../interfaces/IPopularTimes.md)
 
 #### Returns
 
 [`PopularTimes`](PopularTimes.md)
-
-#### Defined in
-
-main.ts:198662
 
 ## Properties
 
@@ -38,20 +40,18 @@ main.ts:198662
 
 > `optional` **popular\_times\_by\_days**: `object`
 
+Defined in: main.ts:211109
+
 popular hours
 information about busy hours of the local establishment on each day of the week
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md) \| `undefined`)[]
+\[`key`: `string`\]: [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)[]
 
 #### Implementation of
 
 [`IPopularTimes`](../interfaces/IPopularTimes.md).[`popular_times_by_days`](../interfaces/IPopularTimes.md#popular_times_by_days)
-
-#### Defined in
-
-main.ts:198658
 
 ## Methods
 
@@ -59,17 +59,17 @@ main.ts:198658
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:211122
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:198671
 
 ***
 
@@ -77,17 +77,17 @@ main.ts:198671
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:211145
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:198694
 
 ***
 
@@ -95,14 +95,14 @@ main.ts:198694
 
 > `static` **fromJS**(`data`): [`PopularTimes`](PopularTimes.md)
 
+Defined in: main.ts:211138
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PopularTimes`](PopularTimes.md)
-
-#### Defined in
-
-main.ts:198687

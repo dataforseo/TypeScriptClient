@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseYoutubeSerpElementItem
+[Documentation](../README.md) / IBaseYoutubeSerpElementItem
 
 # Interface: IBaseYoutubeSerpElementItem
+
+Defined in: main.ts:70522
 
 ## Extended by
 
@@ -18,12 +20,10 @@
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:70531
+
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:62316
 
 ***
 
@@ -31,13 +31,11 @@ main.ts:62316
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:70528
+
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:62313
 
 ***
 
@@ -45,8 +43,6 @@ main.ts:62313
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:70524
+
 type of element
-
-#### Defined in
-
-main.ts:62309

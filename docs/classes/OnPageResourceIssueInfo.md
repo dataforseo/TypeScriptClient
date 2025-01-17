@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageResourceIssueInfo
+[Documentation](../README.md) / OnPageResourceIssueInfo
 
 # Class: OnPageResourceIssueInfo
+
+Defined in: main.ts:166647
 
 resource errors and warnings
 
@@ -14,7 +16,7 @@ resource errors and warnings
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -22,17 +24,17 @@ resource errors and warnings
 
 > **new OnPageResourceIssueInfo**(`data`?): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
+Defined in: main.ts:166655
+
 #### Parameters
 
-• **data?**: [`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md)
+##### data?
+
+[`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md)
 
 #### Returns
 
 [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
-
-#### Defined in
-
-main.ts:154927
 
 ## Properties
 
@@ -40,15 +42,13 @@ main.ts:154927
 
 > `optional` **errors**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
 
+Defined in: main.ts:166649
+
 resource errors
 
 #### Implementation of
 
 [`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md).[`errors`](../interfaces/IOnPageResourceIssueInfo.md#errors)
-
-#### Defined in
-
-main.ts:154921
 
 ***
 
@@ -56,15 +56,13 @@ main.ts:154921
 
 > `optional` **warnings**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
 
+Defined in: main.ts:166651
+
 resource warnings
 
 #### Implementation of
 
 [`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md).[`warnings`](../interfaces/IOnPageResourceIssueInfo.md#warnings)
-
-#### Defined in
-
-main.ts:154923
 
 ## Methods
 
@@ -72,17 +70,17 @@ main.ts:154923
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:166664
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:154936
 
 ***
 
@@ -90,17 +88,17 @@ main.ts:154936
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:166690
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:154962
 
 ***
 
@@ -108,14 +106,14 @@ main.ts:154962
 
 > `static` **fromJS**(`data`): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
+Defined in: main.ts:166683
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
-
-#### Defined in
-
-main.ts:154955

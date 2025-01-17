@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageKeywordDensityResultInfo
+[Documentation](../README.md) / OnPageKeywordDensityResultInfo
 
 # Class: OnPageKeywordDensityResultInfo
+
+Defined in: main.ts:171356
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageKeywordDensityResultInfo**(`data`?): [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
 
+Defined in: main.ts:171372
+
 #### Parameters
 
-• **data?**: [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md)
+##### data?
+
+[`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md)
 
 #### Returns
 
 [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
-
-#### Defined in
-
-main.ts:159636
 
 ## Properties
 
 ### crawl\_progress?
 
 > `optional` **crawl\_progress**: `string`
+
+Defined in: main.ts:171359
 
 status of the crawling session
 possible values: in_progress, finished
@@ -45,15 +49,13 @@ possible values: in_progress, finished
 
 [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`crawl_progress`](../interfaces/IOnPageKeywordDensityResultInfo.md#crawl_progress)
 
-#### Defined in
-
-main.ts:159623
-
 ***
 
 ### crawl\_status?
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+
+Defined in: main.ts:171361
 
 details of the crawling session
 
@@ -61,15 +63,13 @@ details of the crawling session
 
 [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`crawl_status`](../interfaces/IOnPageKeywordDensityResultInfo.md#crawl_status)
 
-#### Defined in
-
-main.ts:159625
-
 ***
 
 ### items?
 
 > `optional` **items**: [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)[]
+
+Defined in: main.ts:171368
 
 items array
 
@@ -77,15 +77,13 @@ items array
 
 [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`items`](../interfaces/IOnPageKeywordDensityResultInfo.md#items)
 
-#### Defined in
-
-main.ts:159632
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:171366
 
 number of items in the results array
 
@@ -93,15 +91,13 @@ number of items in the results array
 
 [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`items_count`](../interfaces/IOnPageKeywordDensityResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:159630
-
 ***
 
 ### total\_items\_count?
 
 > `optional` **total\_items\_count**: `number`
+
+Defined in: main.ts:171364
 
 total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters
@@ -110,27 +106,23 @@ total number of keywords on the specified website or web page matching the set k
 
 [`IOnPageKeywordDensityResultInfo`](../interfaces/IOnPageKeywordDensityResultInfo.md).[`total_items_count`](../interfaces/IOnPageKeywordDensityResultInfo.md#total_items_count)
 
-#### Defined in
-
-main.ts:159628
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:171381
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:159645
 
 ***
 
@@ -138,17 +130,17 @@ main.ts:159645
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:171406
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:159670
 
 ***
 
@@ -156,14 +148,14 @@ main.ts:159670
 
 > `static` **fromJS**(`data`): [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
 
+Defined in: main.ts:171399
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageKeywordDensityResultInfo`](OnPageKeywordDensityResultInfo.md)
-
-#### Defined in
-
-main.ts:159663

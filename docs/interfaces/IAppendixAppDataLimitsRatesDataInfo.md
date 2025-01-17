@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixAppDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixAppDataLimitsRatesDataInfo
 
 # Interface: IAppendixAppDataLimitsRatesDataInfo
 
+Defined in: main.ts:232422
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:217355
+Defined in: main.ts:232423
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:217355
 
 > `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:217356
+Defined in: main.ts:232424
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:217356
 
 > `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:217357
+Defined in: main.ts:232425
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:217357
 
 > `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:217358
+Defined in: main.ts:232426
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:217358
 
 > `optional` **categories**: `number`
 
-#### Defined in
-
-main.ts:217362
+Defined in: main.ts:232430
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:217362
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:217359
+Defined in: main.ts:232427
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:217359
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:217360
+Defined in: main.ts:232428
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:217360
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:217361
+Defined in: main.ts:232429
 
 ***
 
@@ -96,6 +82,4 @@ main.ts:217361
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:217363
+Defined in: main.ts:232431

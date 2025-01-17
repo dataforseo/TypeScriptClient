@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HistoricalMetricsInfo
+[Documentation](../README.md) / HistoricalMetricsInfo
 
 # Class: HistoricalMetricsInfo
+
+Defined in: main.ts:111380
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new HistoricalMetricsInfo**(`data`?): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
 
+Defined in: main.ts:111400
+
 #### Parameters
 
-• **data?**: [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md)
+##### data?
+
+[`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md)
 
 #### Returns
 
 [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
-
-#### Defined in
-
-main.ts:101561
 
 ## Properties
 
 ### clickstream\_etv?
 
 > `optional` **clickstream\_etv**: `number`
+
+Defined in: main.ts:111396
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
@@ -47,15 +51,13 @@ learn more about how the metric is calculated in this help center article https:
 
 [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`clickstream_etv`](../interfaces/IHistoricalMetricsInfo.md#clickstream_etv)
 
-#### Defined in
-
-main.ts:101557
-
 ***
 
 ### count?
 
 > `optional` **count**: `number`
+
+Defined in: main.ts:111391
 
 total count of organic SERPs that contain the domain
 
@@ -63,15 +65,13 @@ total count of organic SERPs that contain the domain
 
 [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`count`](../interfaces/IHistoricalMetricsInfo.md#count)
 
-#### Defined in
-
-main.ts:101552
-
 ***
 
 ### etv?
 
 > `optional` **etv**: `number`
+
+Defined in: main.ts:111389
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -82,15 +82,13 @@ learn more about how the metric is calculated in this help center article
 
 [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`etv`](../interfaces/IHistoricalMetricsInfo.md#etv)
 
-#### Defined in
-
-main.ts:101550
-
 ***
 
 ### month?
 
 > `optional` **month**: `number`
+
+Defined in: main.ts:111384
 
 month for which the data is provided
 
@@ -98,15 +96,13 @@ month for which the data is provided
 
 [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`month`](../interfaces/IHistoricalMetricsInfo.md#month)
 
-#### Defined in
-
-main.ts:101545
-
 ***
 
 ### year?
 
 > `optional` **year**: `number`
+
+Defined in: main.ts:111382
 
 year for which the data is provided
 
@@ -114,27 +110,23 @@ year for which the data is provided
 
 [`IHistoricalMetricsInfo`](../interfaces/IHistoricalMetricsInfo.md).[`year`](../interfaces/IHistoricalMetricsInfo.md#year)
 
-#### Defined in
-
-main.ts:101543
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:111409
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:101570
 
 ***
 
@@ -142,17 +134,17 @@ main.ts:101570
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:111430
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:101591
 
 ***
 
@@ -160,14 +152,14 @@ main.ts:101591
 
 > `static` **fromJS**(`data`): [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
 
+Defined in: main.ts:111423
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)
-
-#### Defined in
-
-main.ts:101584

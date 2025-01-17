@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrendsGraphDataInfo
+[Documentation](../README.md) / TrendsGraphDataInfo
 
 # Class: TrendsGraphDataInfo
+
+Defined in: main.ts:133924
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new TrendsGraphDataInfo**(`data`?): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
 
+Defined in: main.ts:133944
+
 #### Parameters
 
-• **data?**: [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md)
+##### data?
+
+[`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md)
 
 #### Returns
 
 [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
-
-#### Defined in
-
-main.ts:123594
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:133927
 
 start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
@@ -45,15 +49,13 @@ in the UTC format: “yyyy-mm-dd”
 
 [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`date_from`](../interfaces/ITrendsGraphDataInfo.md#date_from)
 
-#### Defined in
-
-main.ts:123577
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:133930
 
 end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
@@ -62,15 +64,13 @@ in the UTC format: “yyyy-mm-dd”
 
 [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`date_to`](../interfaces/ITrendsGraphDataInfo.md#date_to)
 
-#### Defined in
-
-main.ts:123580
-
 ***
 
 ### missing\_data?
 
 > `optional` **missing\_data**: `boolean`
+
+Defined in: main.ts:133935
 
 indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line
@@ -79,15 +79,13 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`missing_data`](../interfaces/ITrendsGraphDataInfo.md#missing_data)
 
-#### Defined in
-
-main.ts:123585
-
 ***
 
 ### timestamp?
 
 > `optional` **timestamp**: `number`
+
+Defined in: main.ts:133932
 
 a point in time in the Unix time format
 
@@ -95,15 +93,13 @@ a point in time in the Unix time format
 
 [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`timestamp`](../interfaces/ITrendsGraphDataInfo.md#timestamp)
 
-#### Defined in
-
-main.ts:123582
-
 ***
 
 ### values?
 
 > `optional` **values**: `number`[]
+
+Defined in: main.ts:133940
 
 relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range
@@ -114,27 +110,23 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 [`ITrendsGraphDataInfo`](../interfaces/ITrendsGraphDataInfo.md).[`values`](../interfaces/ITrendsGraphDataInfo.md#values)
 
-#### Defined in
-
-main.ts:123590
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:133953
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:123603
 
 ***
 
@@ -142,17 +134,17 @@ main.ts:123603
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:133978
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:123628
 
 ***
 
@@ -160,14 +152,14 @@ main.ts:123628
 
 > `static` **fromJS**(`data`): [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
 
+Defined in: main.ts:133971
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)
-
-#### Defined in
-
-main.ts:123621

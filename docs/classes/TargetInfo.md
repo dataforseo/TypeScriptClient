@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TargetInfo
+[Documentation](../README.md) / TargetInfo
 
 # Class: TargetInfo
+
+Defined in: main.ts:150194
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TargetInfo**(`data`?): [`TargetInfo`](TargetInfo.md)
 
+Defined in: main.ts:150215
+
 #### Parameters
 
-• **data?**: [`ITargetInfo`](../interfaces/ITargetInfo.md)
+##### data?
+
+[`ITargetInfo`](../interfaces/ITargetInfo.md)
 
 #### Returns
 
 [`TargetInfo`](TargetInfo.md)
-
-#### Defined in
-
-main.ts:138909
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:138909
 
 > `optional` **cms**: `string`
 
+Defined in: main.ts:150198
+
 content management system
 
 #### Implementation of
 
 [`ITargetInfo`](../interfaces/ITargetInfo.md).[`cms`](../interfaces/ITargetInfo.md#cms)
-
-#### Defined in
-
-main.ts:138892
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:138892
 
 > `optional` **country**: `string`
 
+Defined in: main.ts:150204
+
 country code that the target domain is determined to belong to
 
 #### Implementation of
 
 [`ITargetInfo`](../interfaces/ITargetInfo.md).[`country`](../interfaces/ITargetInfo.md#country)
-
-#### Defined in
-
-main.ts:138898
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:138898
 
 > `optional` **ip\_address**: `string`
 
+Defined in: main.ts:150202
+
 IP address of the target
 
 #### Implementation of
 
 [`ITargetInfo`](../interfaces/ITargetInfo.md).[`ip_address`](../interfaces/ITargetInfo.md#ip_address)
 
-#### Defined in
-
-main.ts:138896
-
 ***
 
 ### is\_ip?
 
 > `optional` **is\_ip**: `boolean`
+
+Defined in: main.ts:150207
 
 indicates if the target is IP
 if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name
@@ -93,15 +91,13 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 [`ITargetInfo`](../interfaces/ITargetInfo.md).[`is_ip`](../interfaces/ITargetInfo.md#is_ip)
 
-#### Defined in
-
-main.ts:138901
-
 ***
 
 ### platform\_type?
 
 > `optional` **platform\_type**: `string`[]
+
+Defined in: main.ts:150200
 
 platform type
 
@@ -109,15 +105,13 @@ platform type
 
 [`ITargetInfo`](../interfaces/ITargetInfo.md).[`platform_type`](../interfaces/ITargetInfo.md#platform_type)
 
-#### Defined in
-
-main.ts:138894
-
 ***
 
 ### server?
 
 > `optional` **server**: `string`
+
+Defined in: main.ts:150196
 
 server
 
@@ -125,15 +119,13 @@ server
 
 [`ITargetInfo`](../interfaces/ITargetInfo.md).[`server`](../interfaces/ITargetInfo.md#server)
 
-#### Defined in
-
-main.ts:138890
-
 ***
 
 ### target\_spam\_score?
 
 > `optional` **target\_spam\_score**: `number`
+
+Defined in: main.ts:150211
 
 spam score of the target
 if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
@@ -143,27 +135,23 @@ learn more about how the metric is calculated on this help center page
 
 [`ITargetInfo`](../interfaces/ITargetInfo.md).[`target_spam_score`](../interfaces/ITargetInfo.md#target_spam_score)
 
-#### Defined in
-
-main.ts:138905
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:150224
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:138918
 
 ***
 
@@ -171,17 +159,17 @@ main.ts:138918
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:150251
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:138945
 
 ***
 
@@ -189,14 +177,14 @@ main.ts:138945
 
 > `static` **fromJS**(`data`): [`TargetInfo`](TargetInfo.md)
 
+Defined in: main.ts:150244
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TargetInfo`](TargetInfo.md)
-
-#### Defined in
-
-main.ts:138938

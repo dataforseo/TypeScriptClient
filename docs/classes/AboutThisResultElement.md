@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AboutThisResultElement
+[Documentation](../README.md) / AboutThisResultElement
 
 # Class: AboutThisResultElement
+
+Defined in: main.ts:23090
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AboutThisResultElement**(`data`?): [`AboutThisResultElement`](AboutThisResultElement.md)
 
+Defined in: main.ts:23113
+
 #### Parameters
 
-• **data?**: [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md)
+##### data?
+
+[`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md)
 
 #### Returns
 
 [`AboutThisResultElement`](AboutThisResultElement.md)
-
-#### Defined in
-
-main.ts:22210
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:22210
 
 > `optional` **language**: `string`
 
+Defined in: main.ts:23103
+
 the language of the result
 
 #### Implementation of
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`language`](../interfaces/IAboutThisResultElement.md#language)
-
-#### Defined in
-
-main.ts:22200
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:22200
 
 > `optional` **location**: `string`
 
+Defined in: main.ts:23105
+
 location for which the result is relevant
 
 #### Implementation of
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`location`](../interfaces/IAboutThisResultElement.md#location)
-
-#### Defined in
-
-main.ts:22202
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:22202
 
 > `optional` **related\_terms**: `string`[]
 
+Defined in: main.ts:23109
+
 related search terms that appear in the result
 
 #### Implementation of
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`related_terms`](../interfaces/IAboutThisResultElement.md#related_terms)
-
-#### Defined in
-
-main.ts:22206
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:22206
 
 > `optional` **search\_terms**: `string`[]
 
+Defined in: main.ts:23107
+
 matching search terms that appear in the result
 
 #### Implementation of
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`search_terms`](../interfaces/IAboutThisResultElement.md#search_terms)
-
-#### Defined in
-
-main.ts:22204
 
 ***
 
@@ -102,21 +96,21 @@ main.ts:22204
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:23096
+
 source of additional information about the result
 
 #### Implementation of
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`source`](../interfaces/IAboutThisResultElement.md#source)
 
-#### Defined in
-
-main.ts:22193
-
 ***
 
 ### source\_info?
 
 > `optional` **source\_info**: `string`
+
+Defined in: main.ts:23099
 
 additional information about the result
 description of the website from Wikipedia or another additional context
@@ -125,15 +119,13 @@ description of the website from Wikipedia or another additional context
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`source_info`](../interfaces/IAboutThisResultElement.md#source_info)
 
-#### Defined in
-
-main.ts:22196
-
 ***
 
 ### source\_url?
 
 > `optional` **source\_url**: `string`
+
+Defined in: main.ts:23101
 
 URL to full information from the 'source'
 
@@ -141,15 +133,13 @@ URL to full information from the 'source'
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`source_url`](../interfaces/IAboutThisResultElement.md#source_url)
 
-#### Defined in
-
-main.ts:22198
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:23092
 
 type of element
 
@@ -157,15 +147,13 @@ type of element
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`type`](../interfaces/IAboutThisResultElement.md#type)
 
-#### Defined in
-
-main.ts:22189
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:23094
 
 result’s URL
 
@@ -173,27 +161,23 @@ result’s URL
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`url`](../interfaces/IAboutThisResultElement.md#url)
 
-#### Defined in
-
-main.ts:22191
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:23122
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22219
 
 ***
 
@@ -201,17 +185,17 @@ main.ts:22219
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23155
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22252
 
 ***
 
@@ -219,14 +203,14 @@ main.ts:22252
 
 > `static` **fromJS**(`data`): [`AboutThisResultElement`](AboutThisResultElement.md)
 
+Defined in: main.ts:23148
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AboutThisResultElement`](AboutThisResultElement.md)
-
-#### Defined in
-
-main.ts:22245

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductCategoryInfo
+[Documentation](../README.md) / ProductCategoryInfo
 
 # Class: ProductCategoryInfo
+
+Defined in: main.ts:194096
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ProductCategoryInfo**(`data`?): [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
+Defined in: main.ts:194105
+
 #### Parameters
 
-• **data?**: [`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md)
+##### data?
+
+[`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md)
 
 #### Returns
 
 [`ProductCategoryInfo`](ProductCategoryInfo.md)
-
-#### Defined in
-
-main.ts:181886
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:181886
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:194098
+
 product category name
 
 #### Implementation of
 
 [`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md).[`category`](../interfaces/IProductCategoryInfo.md#category)
 
-#### Defined in
-
-main.ts:181879
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:194101
 
 product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon)
@@ -61,27 +63,23 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 [`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md).[`url`](../interfaces/IProductCategoryInfo.md#url)
 
-#### Defined in
-
-main.ts:181882
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:194114
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:181895
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:181895
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:194132
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:181913
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:181913
 
 > `static` **fromJS**(`data`): [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
+Defined in: main.ts:194125
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ProductCategoryInfo`](ProductCategoryInfo.md)
-
-#### Defined in
-
-main.ts:181906

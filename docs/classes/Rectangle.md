@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Rectangle
+[Documentation](../README.md) / Rectangle
 
 # Class: Rectangle
+
+Defined in: main.ts:23315
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new Rectangle**(`data`?): [`Rectangle`](Rectangle.md)
 
+Defined in: main.ts:23329
+
 #### Parameters
 
-• **data?**: [`IRectangle`](../interfaces/IRectangle.md)
+##### data?
+
+[`IRectangle`](../interfaces/IRectangle.md)
 
 #### Returns
 
 [`Rectangle`](Rectangle.md)
-
-#### Defined in
-
-main.ts:22426
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:22426
 
 > `optional` **height**: `number`
 
+Defined in: main.ts:23325
+
 height of the element in pixels
 
 #### Implementation of
 
 [`IRectangle`](../interfaces/IRectangle.md).[`height`](../interfaces/IRectangle.md#height)
-
-#### Defined in
-
-main.ts:22422
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:22422
 
 > `optional` **width**: `number`
 
+Defined in: main.ts:23323
+
 width of the element in pixels
 
 #### Implementation of
 
 [`IRectangle`](../interfaces/IRectangle.md).[`width`](../interfaces/IRectangle.md#width)
 
-#### Defined in
-
-main.ts:22420
-
 ***
 
 ### x?
 
 > `optional` **x**: `number`
+
+Defined in: main.ts:23318
 
 x-axis coordinate
 x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -77,15 +77,13 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 [`IRectangle`](../interfaces/IRectangle.md).[`x`](../interfaces/IRectangle.md#x)
 
-#### Defined in
-
-main.ts:22415
-
 ***
 
 ### y?
 
 > `optional` **y**: `number`
+
+Defined in: main.ts:23321
 
 y-axis coordinate
 y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -94,27 +92,23 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 [`IRectangle`](../interfaces/IRectangle.md).[`y`](../interfaces/IRectangle.md#y)
 
-#### Defined in
-
-main.ts:22418
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:23338
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22435
 
 ***
 
@@ -122,17 +116,17 @@ main.ts:22435
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23358
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22455
 
 ***
 
@@ -140,14 +134,14 @@ main.ts:22455
 
 > `static` **fromJS**(`data`): [`Rectangle`](Rectangle.md)
 
+Defined in: main.ts:23351
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Rectangle`](Rectangle.md)
-
-#### Defined in
-
-main.ts:22448

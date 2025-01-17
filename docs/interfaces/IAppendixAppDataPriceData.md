@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixAppDataPriceData
+[Documentation](../README.md) / IAppendixAppDataPriceData
 
 # Interface: IAppendixAppDataPriceData
 
+Defined in: main.ts:237528
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **app\_info**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222249
+Defined in: main.ts:237529
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:222249
 
 > `optional` **app\_list**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222250
+Defined in: main.ts:237530
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:222250
 
 > `optional` **app\_reviews**: [`AppendixPriceDataInfo`](../classes/AppendixPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222251
+Defined in: main.ts:237531
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:222251
 
 > `optional` **app\_searches**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222252
+Defined in: main.ts:237532
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:222252
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222253
+Defined in: main.ts:237533
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:222253
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222254
+Defined in: main.ts:237534
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:222254
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222255
+Defined in: main.ts:237535
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:222255
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222256
+Defined in: main.ts:237536
 
 ***
 
@@ -96,6 +82,4 @@ main.ts:222256
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222257
+Defined in: main.ts:237537

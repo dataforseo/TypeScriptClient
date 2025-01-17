@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingSerpCompetitorsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingSerpCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveResultInfo
+
+Defined in: main.ts:120108
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsBingSerpCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
+Defined in: main.ts:120129
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:110696
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:110696
 
 > `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
+Defined in: main.ts:120125
+
 contains detected SERP competitors and related data
 
 #### Implementation of
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:110692
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:110692
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:120123
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:110690
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:120119
 
 language code in a POST array
 if there is no data, then the value is null
@@ -77,15 +77,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:110686
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:120116
 
 location code in a POST array
 if there is no data, then the value is null
@@ -94,15 +92,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:110683
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:120110
 
 search engine type
 
@@ -110,26 +106,20 @@ search engine type
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:110677
-
 ***
 
 ### seed\_keywords?
 
 > `optional` **seed\_keywords**: `string`[]
 
+Defined in: main.ts:120113
+
 keywords specified in the request
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`seed_keywords`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#seed_keywords)
-
-#### Defined in
-
-main.ts:110680
 
 ***
 
@@ -137,15 +127,13 @@ main.ts:110680
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:120121
+
 the total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:110688
 
 ## Methods
 
@@ -153,17 +141,17 @@ main.ts:110688
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:120138
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:110705
 
 ***
 
@@ -171,17 +159,17 @@ main.ts:110705
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:120169
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:110736
 
 ***
 
@@ -189,14 +177,14 @@ main.ts:110736
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
+Defined in: main.ts:120162
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:110729

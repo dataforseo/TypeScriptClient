@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo
+
+Defined in: main.ts:131098
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
+Defined in: main.ts:131225
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:120886
 
 ## Properties
 
 ### bid?
 
 > `optional` **bid**: `number`
+
+Defined in: main.ts:131117
 
 the maximum custom bid
 required field
@@ -48,15 +52,13 @@ learn more in this help center article
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`bid`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#bid)
 
-#### Defined in
-
-main.ts:120780
-
 ***
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:131173
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -72,15 +74,13 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:120836
-
 ***
 
 ### date\_interval?
 
 > `optional` **date\_interval**: `string`
+
+Defined in: main.ts:131188
 
 forecasting date interval
 optional field
@@ -92,15 +92,13 @@ default value: next_month
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`date_interval`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_interval)
 
-#### Defined in
-
-main.ts:120851
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:131182
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -115,15 +113,13 @@ example:
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:120845
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:131111
 
 keywords
 required field
@@ -135,21 +131,20 @@ Note #1: Google Ads may return no data for certain groups of keywords;
 Note #2: Google Ads provides combined search volume values for groups of similar keywords
 to obtain search volume for similar keywords, we recommend submitting such keywords in separate requests;
 Note #3: Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:120774
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:131163
 
 search engine language code
 optional field
@@ -161,15 +156,13 @@ en
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:120826
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:131157
 
 full name of search engine language
 optional field
@@ -181,15 +174,13 @@ English
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:120820
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:131142
 
 search engine location code
 optional field
@@ -203,15 +194,13 @@ example:
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:120805
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:131151
 
 GPS coordinates of a location
 optional field
@@ -226,15 +215,13 @@ example:
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:120814
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:131134
 
 full name of search engine location
 optional field
@@ -248,15 +235,13 @@ London,England,United Kingdom
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:120797
-
 ***
 
 ### match?
 
 > `optional` **match**: `string`
+
+Defined in: main.ts:131121
 
 keywords match-type
 required field
@@ -266,15 +251,13 @@ can take the following values: exact, broad, phrase
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`match`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#match)
 
-#### Defined in
-
-main.ts:120784
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:131215
 
 notification URL of a completed task
 optional field
@@ -283,22 +266,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:120876
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:131204
 
 return URL for sending task results
 optional field
@@ -307,22 +289,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:120866
 
 ***
 
 ### search\_partners?
 
 > `optional` **search\_partners**: `boolean`
+
+Defined in: main.ts:131126
 
 include Google search partners
 optional field
@@ -333,15 +314,13 @@ default value: false – results are returned for Google search sites
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`search_partners`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#search_partners)
 
-#### Defined in
-
-main.ts:120789
-
 ***
 
 ### sort\_by?
 
 > `optional` **sort\_by**: `string`
+
+Defined in: main.ts:131193
 
 results sorting parameters
 optional field
@@ -352,15 +331,13 @@ default value: relevance
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
-
-main.ts:120856
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:131221
 
 user-defined task identifier
 optional field
@@ -372,27 +349,23 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:120882
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:131234
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:120895
 
 ***
 
@@ -400,17 +373,17 @@ main.ts:120895
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:131270
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:120931
 
 ***
 
@@ -418,14 +391,14 @@ main.ts:120931
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
 
+Defined in: main.ts:131263
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:120924

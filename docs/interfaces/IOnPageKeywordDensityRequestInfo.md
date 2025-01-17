@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageKeywordDensityRequestInfo
+[Documentation](../README.md) / IOnPageKeywordDensityRequestInfo
 
 # Interface: IOnPageKeywordDensityRequestInfo
 
+Defined in: main.ts:171226
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:171265
 
 array of results filtering parameters
 optional field
@@ -33,15 +37,13 @@ example:
 [["frequency",">","6"],"or",["density",">","0.02"]]]
 The full list of possible filters is available by this link.
 
-#### Defined in
-
-main.ts:159529
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:171232
 
 ID of the task
 required field
@@ -49,24 +51,18 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
-
-main.ts:159496
-
 ***
 
 ### keyword\_length?
 
 > `optional` **keyword\_length**: `number`
 
+Defined in: main.ts:171237
+
 number of words for a keyword
 required field
 possible values:
 1, 2, 3, 4, 5
-
-#### Defined in
-
-main.ts:159501
 
 ***
 
@@ -74,20 +70,20 @@ main.ts:159501
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:171248
+
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:159512
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:171279
 
 results sorting rules
 optional field
@@ -103,15 +99,13 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword,asc","frequency,desc"]
 
-#### Defined in
-
-main.ts:159543
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:171285
 
 user-defined task identifier
 optional field
@@ -119,22 +113,16 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:159549
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:171243
+
 page URL
 optional field
 if you do not specify a page here, the results will be provided for the whole website
 if you use this field, the API response will contain only keywords from the specified page
 a page should be specified with absolute URL (including http:// or https://)
-
-#### Defined in
-
-main.ts:159507

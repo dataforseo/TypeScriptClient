@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
+Defined in: main.ts:71102
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,19 +18,19 @@
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:71140
+
 device type
 optional field
 only value: desktop
-
-#### Defined in
-
-main.ts:62917
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:71136
 
 search engine language code
 required field if you don’t specify language_name
@@ -37,15 +39,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:62913
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:71129
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -54,15 +54,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:62906
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:71122
 
 search engine location code
 required field if you don’t specify location_name 
@@ -71,15 +69,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:62899
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:71115
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -88,24 +84,18 @@ you can receive the list of available locations of the search engine with their 
 example:
 United States
 
-#### Defined in
-
-main.ts:62892
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
 
+Defined in: main.ts:71145
+
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
-
-#### Defined in
-
-main.ts:62922
 
 ***
 
@@ -113,15 +103,13 @@ main.ts:62922
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:71151
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:62928
 
 ***
 
@@ -129,12 +117,10 @@ main.ts:62928
 
 > `optional` **video\_id**: `string`
 
+Defined in: main.ts:71108
+
 ID of the video
 required field
 you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic result
 example:
 vQXvyV0zIP4
-
-#### Defined in
-
-main.ts:62885

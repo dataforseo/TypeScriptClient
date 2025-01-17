@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListingsSearchLiveItem
+[Documentation](../README.md) / AppDataAppleAppListingsSearchLiveItem
 
 # Class: AppDataAppleAppListingsSearchLiveItem
+
+Defined in: main.ts:209090
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataAppleAppListingsSearchLiveItem**(`data`?): [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
 
+Defined in: main.ts:209112
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md)
+##### data?
+
+[`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md)
 
 #### Returns
 
 [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
-
-#### Defined in
-
-main.ts:196661
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:196661
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:209092
+
 ID of the returned app
 
 #### Implementation of
 
 [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md).[`app_id`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md#app_id)
 
-#### Defined in
-
-main.ts:196641
-
 ***
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:209101
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -61,15 +63,13 @@ you can use it to make sure that we provided accurate results
 
 [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md).[`check_url`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md#check_url)
 
-#### Defined in
-
-main.ts:196650
-
 ***
 
 ### item?
 
 > `optional` **item**: [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
+
+Defined in: main.ts:209108
 
 detailed information about the app
 
@@ -77,15 +77,13 @@ detailed information about the app
 
 [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md).[`item`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md#item)
 
-#### Defined in
-
-main.ts:196657
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:209098
 
 language code in a POST array
 
@@ -93,15 +91,13 @@ language code in a POST array
 
 [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md).[`language_code`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md#language_code)
 
-#### Defined in
-
-main.ts:196647
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:209096
 
 location code in a POST array
 
@@ -109,15 +105,13 @@ location code in a POST array
 
 [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md).[`location_code`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md#location_code)
 
-#### Defined in
-
-main.ts:196645
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:209094
 
 search engine domain in a POST array
 
@@ -125,15 +119,13 @@ search engine domain in a POST array
 
 [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md).[`se_domain`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md#se_domain)
 
-#### Defined in
-
-main.ts:196643
-
 ***
 
 ### time\_update?
 
 > `optional` **time\_update**: `string`
+
+Defined in: main.ts:209106
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -144,27 +136,23 @@ example:
 
 [`IAppDataAppleAppListingsSearchLiveItem`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md).[`time_update`](../interfaces/IAppDataAppleAppListingsSearchLiveItem.md#time_update)
 
-#### Defined in
-
-main.ts:196655
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:209121
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:196670
 
 ***
 
@@ -172,17 +160,17 @@ main.ts:196670
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:209144
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:196693
 
 ***
 
@@ -190,14 +178,14 @@ main.ts:196693
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
 
+Defined in: main.ts:209137
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)
-
-#### Defined in
-
-main.ts:196686

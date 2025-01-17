@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleCategoriesResultInfo
+[Documentation](../README.md) / AppDataGoogleCategoriesResultInfo
 
 # Class: AppDataGoogleCategoriesResultInfo
+
+Defined in: main.ts:198556
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataGoogleCategoriesResultInfo**(`data`?): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
+Defined in: main.ts:198562
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleCategoriesResultInfo`](../interfaces/IAppDataGoogleCategoriesResultInfo.md)
+##### data?
+
+[`IAppDataGoogleCategoriesResultInfo`](../interfaces/IAppDataGoogleCategoriesResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:186363
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:186363
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:198558
+
 contains full list of supported app categories
 
 #### Implementation of
 
 [`IAppDataGoogleCategoriesResultInfo`](../interfaces/IAppDataGoogleCategoriesResultInfo.md).[`categories`](../interfaces/IAppDataGoogleCategoriesResultInfo.md#categories)
-
-#### Defined in
-
-main.ts:186359
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:186359
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:198571
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:186372
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:186372
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:198592
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:186393
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:186393
 
 > `static` **fromJS**(`data`): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
+Defined in: main.ts:198585
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:186386

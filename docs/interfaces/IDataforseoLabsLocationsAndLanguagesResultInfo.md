@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / IDataforseoLabsLocationsAndLanguagesResultInfo
 
 # Interface: IDataforseoLabsLocationsAndLanguagesResultInfo
 
+Defined in: main.ts:91501
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **available\_languages**: [`AvailableLanguages`](../classes/AvailableLanguages.md)[]
 
+Defined in: main.ts:91517
+
 supported languages
 contains the languages which are supported for a specific location
-
-#### Defined in
-
-main.ts:81772
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:81772
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:91510
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:81765
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:81765
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:91503
+
 location code
-
-#### Defined in
-
-main.ts:81758
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:81758
 
 > `optional` **location\_code\_parent**: `number`
 
+Defined in: main.ts:91508
+
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
-
-#### Defined in
-
-main.ts:81763
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:81763
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:91505
+
 full name of the location
-
-#### Defined in
-
-main.ts:81760
 
 ***
 
@@ -78,10 +70,8 @@ main.ts:81760
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:91514
+
 location type
 possible values:
 Country
-
-#### Defined in
-
-main.ts:81769

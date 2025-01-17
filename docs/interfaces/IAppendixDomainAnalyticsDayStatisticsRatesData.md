@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixDomainAnalyticsDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixDomainAnalyticsDayStatisticsRatesData
 
 # Interface: IAppendixDomainAnalyticsDayStatisticsRatesData
 
+Defined in: main.ts:233897
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **available\_filters**: `number`
 
-#### Defined in
-
-main.ts:218803
+Defined in: main.ts:233903
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:218803
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:218799
+Defined in: main.ts:233899
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:218799
 
 > `optional` **id\_list**: `number`
 
-#### Defined in
-
-main.ts:218802
+Defined in: main.ts:233902
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:218802
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:218798
+Defined in: main.ts:233898
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:218798
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:218801
+Defined in: main.ts:233901
 
 ***
 
@@ -66,6 +58,4 @@ main.ts:218801
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:218800
+Defined in: main.ts:233900

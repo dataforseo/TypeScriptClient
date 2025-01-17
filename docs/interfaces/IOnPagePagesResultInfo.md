@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPagePagesResultInfo
+[Documentation](../README.md) / IOnPagePagesResultInfo
 
 # Interface: IOnPagePagesResultInfo
 
+Defined in: main.ts:167080
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:167083
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:155347
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:155347
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:167085
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:155349
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:155349
 
 > `optional` **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
+Defined in: main.ts:167091
+
 items array
-
-#### Defined in
-
-main.ts:155355
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:155355
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:167089
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:155353
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:155353
 
 > `optional` **total\_items\_count**: `number`
 
+Defined in: main.ts:167087
+
 total number of relevant items in the database
-
-#### Defined in
-
-main.ts:155351

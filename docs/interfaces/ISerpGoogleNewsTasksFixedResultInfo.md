@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleNewsTasksFixedResultInfo
+[Documentation](../README.md) / ISerpGoogleNewsTasksFixedResultInfo
 
 # Interface: ISerpGoogleNewsTasksFixedResultInfo
 
+Defined in: main.ts:45987
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:45997
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:43719
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:43719
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:46005
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:43727
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:43727
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:46008
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:43730
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:43730
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:46002
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:43724
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:43724
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:45990
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:43712
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:43712
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:45992
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:43714
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:43714
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:45995
+
 type of search engine
 can take the following values: news
-
-#### Defined in
-
-main.ts:43717
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:43717
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:45999
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:43721

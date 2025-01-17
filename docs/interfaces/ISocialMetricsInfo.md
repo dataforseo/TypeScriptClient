@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISocialMetricsInfo
+[Documentation](../README.md) / ISocialMetricsInfo
 
 # Interface: ISocialMetricsInfo
 
+Defined in: main.ts:24130
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **like\_count**: `number`
 
+Defined in: main.ts:24134
+
 likes count
-
-#### Defined in
-
-main.ts:23231
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:23231
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24132
+
 type of element
-
-#### Defined in
-
-main.ts:23229

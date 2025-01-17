@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
+Defined in: main.ts:112151
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](../classes/DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)[]
 
+Defined in: main.ts:112165
+
 contains keyword search volume data data
-
-#### Defined in
-
-main.ts:102326
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:102326
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:112163
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:102324
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:102324
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:112159
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:102320
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:102320
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:112156
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:102317
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:102317
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:112153
+
 search engine type
-
-#### Defined in
-
-main.ts:102314
 
 ***
 
@@ -78,8 +70,6 @@ main.ts:102314
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:112161
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:102322

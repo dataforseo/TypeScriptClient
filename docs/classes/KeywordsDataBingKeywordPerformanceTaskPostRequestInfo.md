@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTaskPostRequestInfo
+
+Defined in: main.ts:144446
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataBingKeywordPerformanceTaskPostRequestInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
+Defined in: main.ts:144534
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:132587
 
 ## Properties
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:144459
 
 device type
 optional field
@@ -47,15 +51,13 @@ default value: all
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:132514
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:144454
 
 keywords
 required field
@@ -63,20 +65,19 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 80
 The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:132509
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:144502
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,15 +89,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:132557
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:144496
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -109,15 +108,13 @@ English
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:132551
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:144481
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -130,15 +127,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:132536
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:144489
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -152,15 +147,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:132544
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:144474
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -173,15 +166,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:132529
-
 ***
 
 ### match?
 
 > `optional` **match**: `string`
+
+Defined in: main.ts:144467
 
 keywords match type
 optional field
@@ -195,15 +186,13 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`match`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#match)
 
-#### Defined in
-
-main.ts:132522
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:144524
 
 notification URL of a completed task
 optional field
@@ -212,22 +201,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:132577
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:144513
 
 return URL for sending task results
 optional field
@@ -236,22 +224,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:132567
 
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:144530
 
 user-defined task identifier
 optional field
@@ -263,27 +250,23 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:132583
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:144543
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:132596
 
 ***
 
@@ -291,17 +274,17 @@ main.ts:132596
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:144574
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:132627
 
 ***
 
@@ -309,14 +292,14 @@ main.ts:132627
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
 
+Defined in: main.ts:144567
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceTaskPostRequestInfo`](KeywordsDataBingKeywordPerformanceTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:132620

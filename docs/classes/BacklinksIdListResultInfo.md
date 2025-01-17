@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksIdListResultInfo
+[Documentation](../README.md) / BacklinksIdListResultInfo
 
 # Class: BacklinksIdListResultInfo
+
+Defined in: main.ts:148880
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksIdListResultInfo**(`data`?): [`BacklinksIdListResultInfo`](BacklinksIdListResultInfo.md)
 
+Defined in: main.ts:148906
+
 #### Parameters
 
-• **data?**: [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md)
+##### data?
+
+[`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md)
 
 #### Returns
 
 [`BacklinksIdListResultInfo`](BacklinksIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:137600
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:137600
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:148900
+
 cost of the task, USD
 
 #### Implementation of
 
 [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md).[`cost`](../interfaces/IBacklinksIdListResultInfo.md#cost)
 
-#### Defined in
-
-main.ts:137594
-
 ***
 
 ### datetime\_done?
 
 > `optional` **datetime\_done**: `string`
+
+Defined in: main.ts:148895
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md).[`datetime_done`](../interfaces/IBacklinksIdListResultInfo.md#datetime_done)
 
-#### Defined in
-
-main.ts:137589
-
 ***
 
 ### datetime\_posted?
 
 > `optional` **datetime\_posted**: `string`
+
+Defined in: main.ts:148890
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,13 @@ example:
 
 [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md).[`datetime_posted`](../interfaces/IBacklinksIdListResultInfo.md#datetime_posted)
 
-#### Defined in
-
-main.ts:137584
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:148882
 
 id of the task
 
@@ -98,35 +96,31 @@ id of the task
 
 [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md).[`id`](../interfaces/IBacklinksIdListResultInfo.md#id)
 
-#### Defined in
-
-main.ts:137576
-
 ***
 
 ### metadata?
 
 > `optional` **metadata**: `object`
 
+Defined in: main.ts:148902
+
 contains parameters you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md).[`metadata`](../interfaces/IBacklinksIdListResultInfo.md#metadata)
-
-#### Defined in
-
-main.ts:137596
 
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:148898
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +129,13 @@ you can find the full list of general informational messages here
 
 [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md).[`status`](../interfaces/IBacklinksIdListResultInfo.md#status)
 
-#### Defined in
-
-main.ts:137592
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:148885
 
 URL of the task
 URL you used for making an API call
@@ -152,27 +144,23 @@ URL you used for making an API call
 
 [`IBacklinksIdListResultInfo`](../interfaces/IBacklinksIdListResultInfo.md).[`url`](../interfaces/IBacklinksIdListResultInfo.md#url)
 
-#### Defined in
-
-main.ts:137579
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:148915
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:137609
 
 ***
 
@@ -180,17 +168,17 @@ main.ts:137609
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:148944
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:137638
 
 ***
 
@@ -198,14 +186,14 @@ main.ts:137638
 
 > `static` **fromJS**(`data`): [`BacklinksIdListResultInfo`](BacklinksIdListResultInfo.md)
 
+Defined in: main.ts:148937
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksIdListResultInfo`](BacklinksIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:137631

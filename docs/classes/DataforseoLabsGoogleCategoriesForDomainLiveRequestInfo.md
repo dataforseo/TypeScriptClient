@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
+
+Defined in: main.ts:97046
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
 
+Defined in: main.ts:97158
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:87339
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:97121
 
 array of results filtering parameters
 optional field
@@ -58,15 +62,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:87302
-
 ***
 
 ### include\_clickstream\_data?
 
 > `optional` **include\_clickstream\_data**: `boolean`
+
+Defined in: main.ts:97096
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -79,15 +81,13 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#include_clickstream_data)
 
-#### Defined in
-
-main.ts:87277
-
 ***
 
 ### include\_subcategories?
 
 > `optional` **include\_subcategories**: `boolean`
+
+Defined in: main.ts:97089
 
 indicates if the subcategories will be included in the search
 optional field
@@ -99,15 +99,13 @@ learn more about the parameter in this help center article
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`include_subcategories`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#include_subcategories)
 
-#### Defined in
-
-main.ts:87270
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:97105
 
 display results by item type
 optional field
@@ -122,15 +120,13 @@ default value:
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:87286
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:97083
 
 language code
 required field if you don’t specify language_name
@@ -144,15 +140,13 @@ en
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:87264
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:97075
 
 full name of the language
 required field if you don’t specify language_code
@@ -166,15 +160,13 @@ English
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:87256
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:97143
 
 the maximum number of returned categories
 optional field
@@ -185,15 +177,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:87324
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:97067
 
 location code
 required field if you don’t specify location_name
@@ -207,15 +197,13 @@ example:
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:87248
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:97059
 
 full name of the location
 required field if you don’t specify location_code
@@ -229,15 +217,13 @@ United Kingdom
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:87240
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:97148
 
 offset in the results array of returned categories 
 optional field
@@ -248,15 +234,13 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:87329
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:97138
 
 results sorting rules
 optional field
@@ -279,15 +263,13 @@ Note: if the item_types array contains item types that are different from the or
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:87319
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:97154
 
 user-defined task identifier
 optional field
@@ -299,15 +281,13 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:87335
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:97051
 
 domain or subdomain
 required field
@@ -318,27 +298,23 @@ the domain or subdomain should be specified without https:// and www.
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:87232
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:97167
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:87348
 
 ***
 
@@ -346,17 +322,17 @@ main.ts:87348
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:97208
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:87389
 
 ***
 
@@ -364,14 +340,14 @@ main.ts:87389
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
 
+Defined in: main.ts:97201
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](DataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:87382

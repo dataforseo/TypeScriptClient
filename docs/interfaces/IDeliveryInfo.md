@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDeliveryInfo
+[Documentation](../README.md) / IDeliveryInfo
 
 # Interface: IDeliveryInfo
 
+Defined in: main.ts:186180
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **delivery\_message**: `string`
 
+Defined in: main.ts:186183
+
 delivery information
 message accompanying the delivery information as posted by the seller
-
-#### Defined in
-
-main.ts:174350
 
 ***
 
@@ -29,23 +29,8 @@ main.ts:174350
 
 > `optional` **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:186187
+
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
 if free delivery is available, the value is null
-
-#### Defined in
-
-main.ts:174354
-
-***
-
-### stores\_count\_info?
-
-> `optional` **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
-
-stores count information
-contains information about the number of stores that offer the same product
-
-#### Defined in
-
-main.ts:174357

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ResponseDataInfo
+[Documentation](../README.md) / ResponseDataInfo
 
 # Class: ResponseDataInfo
+
+Defined in: main.ts:203422
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ResponseDataInfo**(`data`?): [`ResponseDataInfo`](ResponseDataInfo.md)
 
+Defined in: main.ts:203438
+
 #### Parameters
 
-• **data?**: [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md)
+##### data?
+
+[`IResponseDataInfo`](../interfaces/IResponseDataInfo.md)
 
 #### Returns
 
 [`ResponseDataInfo`](ResponseDataInfo.md)
-
-#### Defined in
-
-main.ts:191001
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:191001
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:203424
+
 author of the response
 
 #### Implementation of
 
 [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`author`](../interfaces/IResponseDataInfo.md#author)
-
-#### Defined in
-
-main.ts:190987
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:190987
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:203429
+
 content of the response
 
 #### Implementation of
 
 [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`text`](../interfaces/IResponseDataInfo.md#text)
 
-#### Defined in
-
-main.ts:190992
-
 ***
 
 ### timestamp?
 
 > `optional` **timestamp**: `string`
+
+Defined in: main.ts:203434
 
 date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -79,15 +79,13 @@ example:
 
 [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`timestamp`](../interfaces/IResponseDataInfo.md#timestamp)
 
-#### Defined in
-
-main.ts:190997
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:203427
 
 title of the response
 in this case, will equal null
@@ -96,27 +94,23 @@ in this case, will equal null
 
 [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`title`](../interfaces/IResponseDataInfo.md#title)
 
-#### Defined in
-
-main.ts:190990
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:203447
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:191010
 
 ***
 
@@ -124,17 +118,17 @@ main.ts:191010
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:203467
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:191030
 
 ***
 
@@ -142,14 +136,14 @@ main.ts:191030
 
 > `static` **fromJS**(`data`): [`ResponseDataInfo`](ResponseDataInfo.md)
 
+Defined in: main.ts:203460
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ResponseDataInfo`](ResponseDataInfo.md)
-
-#### Defined in
-
-main.ts:191023

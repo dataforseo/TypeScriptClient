@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
+[Documentation](../README.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResultInfo
+
+Defined in: main.ts:88908
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsWhoisAvailableFiltersResultInfo**(`data`?): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:88913
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:79168
 
 ## Properties
 
@@ -38,17 +40,15 @@ main.ts:79168
 
 > `optional` **overview**: `object`
 
+Defined in: main.ts:88909
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md).[`overview`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md#overview)
-
-#### Defined in
-
-main.ts:79164
 
 ## Methods
 
@@ -56,17 +56,17 @@ main.ts:79164
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:88922
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:79177
 
 ***
 
@@ -74,17 +74,17 @@ main.ts:79177
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:88945
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:79200
 
 ***
 
@@ -92,14 +92,14 @@ main.ts:79200
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:88938
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:79193

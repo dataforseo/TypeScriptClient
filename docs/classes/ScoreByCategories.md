@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ScoreByCategories
+[Documentation](../README.md) / ScoreByCategories
 
 # Class: ScoreByCategories
+
+Defined in: main.ts:220498
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ScoreByCategories**(`data`?): [`ScoreByCategories`](ScoreByCategories.md)
 
+Defined in: main.ts:220523
+
 #### Parameters
 
-• **data?**: [`IScoreByCategories`](../interfaces/IScoreByCategories.md)
+##### data?
+
+[`IScoreByCategories`](../interfaces/IScoreByCategories.md)
 
 #### Returns
 
 [`ScoreByCategories`](ScoreByCategories.md)
-
-#### Defined in
-
-main.ts:207067
 
 ## Properties
 
 ### airport\_access?
 
 > `optional` **airport\_access**: `number`
+
+Defined in: main.ts:220519
 
 score relative to nearby airports
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -46,15 +50,13 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`airport_access`](../interfaces/IScoreByCategories.md#airport_access)
 
-#### Defined in
-
-main.ts:207063
-
 ***
 
 ### overall?
 
 > `optional` **overall**: `number`
+
+Defined in: main.ts:220503
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -65,15 +67,13 @@ note that the criteria are not weighted equally in the overall score
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`overall`](../interfaces/IScoreByCategories.md#overall)
 
-#### Defined in
-
-main.ts:207047
-
 ***
 
 ### restaurants?
 
 > `optional` **restaurants**: `number`
+
+Defined in: main.ts:220511
 
 score relative to nearby restaurants
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -83,15 +83,13 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`restaurants`](../interfaces/IScoreByCategories.md#restaurants)
 
-#### Defined in
-
-main.ts:207055
-
 ***
 
 ### things\_to\_do?
 
 > `optional` **things\_to\_do**: `number`
+
+Defined in: main.ts:220507
 
 score relative to nearby things to do
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -101,15 +99,13 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`things_to_do`](../interfaces/IScoreByCategories.md#things_to_do)
 
-#### Defined in
-
-main.ts:207051
-
 ***
 
 ### transit?
 
 > `optional` **transit**: `number`
+
+Defined in: main.ts:220515
 
 score relative to nearby transit options
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -119,27 +115,23 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`transit`](../interfaces/IScoreByCategories.md#transit)
 
-#### Defined in
-
-main.ts:207059
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:220532
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:207076
 
 ***
 
@@ -147,17 +139,17 @@ main.ts:207076
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:220553
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:207097
 
 ***
 
@@ -165,14 +157,14 @@ main.ts:207097
 
 > `static` **fromJS**(`data`): [`ScoreByCategories`](ScoreByCategories.md)
 
+Defined in: main.ts:220546
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ScoreByCategories`](ScoreByCategories.md)
-
-#### Defined in
-
-main.ts:207090

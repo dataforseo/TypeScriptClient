@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
+Defined in: main.ts:109519
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### correlate?
 
 > `optional` **correlate**: `boolean`
+
+Defined in: main.ts:109576
 
 correlate data with previously obtained datasets
 optional field
@@ -23,15 +27,13 @@ if you use this parameter, our system will correlate data you obtain now with pr
 this parameter is intended to mitigate any inconsistencies that may result from changes to our database
 we recommend always setting correlate to true
 
-#### Defined in
-
-main.ts:99738
-
 ***
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:109562
 
 starting date of the time range
 optional field
@@ -39,15 +41,13 @@ if you don’t specify this field, the data will be provided for the previous 6 
 minimal possible value: 2020-10-01
 date format: "yyyy-mm-dd"
 
-#### Defined in
-
-main.ts:99724
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:109569
 
 ending date of the time range
 optional field
@@ -56,24 +56,18 @@ date format: "yyyy-mm-dd"
 example:
 "2021-04-01"
 
-#### Defined in
-
-main.ts:99731
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
 
+Defined in: main.ts:109581
+
 ignore highly similar keywords
 optional field
 if set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded;
 default value: false
-
-#### Defined in
-
-main.ts:99743
 
 ***
 
@@ -81,22 +75,23 @@ main.ts:99743
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
+Defined in: main.ts:109589
+
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
-default value: false
-with this parameter enabled, you will be charged double the price for the request
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response;
+default value: false;
+Note: historical clickstream data is available from 2024/05 (May, 2024);
+with this parameter enabled, you will be charged double the price for the request;
 learn more about how clickstream-based metrics are calculated in this help center article
-
-#### Defined in
-
-main.ts:99750
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:109556
 
 language code
 required field if you don’t specify language_name
@@ -106,15 +101,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:99718
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:109548
 
 full name of the language
 required field if you don’t specify language_code
@@ -124,15 +117,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:99710
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:109540
 
 location code
 required field if you don’t specify location_name
@@ -142,15 +133,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
-
-main.ts:99702
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:109532
 
 full name of the location
 required field if you don’t specify location_code
@@ -160,15 +149,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:99694
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:109595
 
 user-defined task identifier
 optional field
@@ -176,21 +163,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:99756
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:109524
+
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
-
-#### Defined in
-
-main.ts:99686

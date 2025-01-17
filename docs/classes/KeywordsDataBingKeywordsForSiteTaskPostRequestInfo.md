@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
 # Class: KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
+
+Defined in: main.ts:141450
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataBingKeywordsForSiteTaskPostRequestInfo**(`data`?): [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
 
+Defined in: main.ts:141560
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:129626
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:141513
 
 starting date of the time range
 optional field
@@ -50,15 +54,13 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:129581
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:141523
 
 ending date of the time range
 optional field
@@ -74,15 +76,13 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:129591
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:141500
 
 device type
 optional field
@@ -94,15 +94,13 @@ default value: all
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:129568
-
 ***
 
 ### keywords\_negative?
 
 > `optional` **keywords\_negative**: `string`[]
+
+Defined in: main.ts:141494
 
 keywords negative array
 optional field
@@ -114,15 +112,13 @@ the specified keywords will be converted to lowercase format
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`keywords_negative`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#keywords_negative)
 
-#### Defined in
-
-main.ts:129562
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:141488
 
 search engine language code
 required field if you don’t specify language_name
@@ -134,15 +130,13 @@ en, fr, de
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:129556
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:141482
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -154,15 +148,13 @@ English, French, German
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:129550
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:141468
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -175,15 +167,13 @@ example:
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:129536
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:141476
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -197,15 +187,13 @@ example:
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:129544
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:141461
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -218,15 +206,13 @@ London,England,United Kingdom
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:129529
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:141545
 
 notification URL of a completed task
 optional field
@@ -235,22 +221,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:129611
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:141534
 
 return URL for sending task results
 optional field
@@ -259,22 +244,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:129601
 
 ***
 
 ### search\_partners?
 
 > `optional` **search\_partners**: `boolean`
+
+Defined in: main.ts:141550
 
 Bing search partners type
 optional field
@@ -285,15 +269,13 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`search_partners`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#search_partners)
 
-#### Defined in
-
-main.ts:129616
-
 ***
 
 ### sort\_by?
 
 > `optional` **sort\_by**: `string`
+
+Defined in: main.ts:141505
 
 results sorting parameters
 optional field
@@ -304,15 +286,13 @@ default value: relevance
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`sort_by`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
-
-main.ts:129573
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:141556
 
 user-defined task identifier
 optional field
@@ -324,15 +304,13 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:129622
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:141454
 
 domain or URL
 required field
@@ -342,27 +320,23 @@ the URL of the webpage or the domain to scan for possible keywords
 
 [`IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md).[`target`](../interfaces/IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:129522
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:141569
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:129635
 
 ***
 
@@ -370,17 +344,17 @@ main.ts:129635
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:141604
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:129670
 
 ***
 
@@ -388,14 +362,14 @@ main.ts:129670
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
 
+Defined in: main.ts:141597
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordsForSiteTaskPostRequestInfo`](KeywordsDataBingKeywordsForSiteTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:129663

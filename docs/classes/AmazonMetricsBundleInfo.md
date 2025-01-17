@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonMetricsBundleInfo
+[Documentation](../README.md) / AmazonMetricsBundleInfo
 
 # Class: AmazonMetricsBundleInfo
+
+Defined in: main.ts:113848
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AmazonMetricsBundleInfo**(`data`?): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
+Defined in: main.ts:113856
+
 #### Parameters
 
-• **data?**: [`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md)
+##### data?
+
+[`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md)
 
 #### Returns
 
 [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:104117
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:104117
 
 > `optional` **amazon\_paid**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
+Defined in: main.ts:113852
+
 ranking data from Amazon paid SERP
 
 #### Implementation of
 
 [`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md).[`amazon_paid`](../interfaces/IAmazonMetricsBundleInfo.md#amazon_paid)
-
-#### Defined in
-
-main.ts:104113
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:104113
 
 > `optional` **amazon\_serp**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
+Defined in: main.ts:113850
+
 ranking data from Amazon organic SERP
 
 #### Implementation of
 
 [`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md).[`amazon_serp`](../interfaces/IAmazonMetricsBundleInfo.md#amazon_serp)
-
-#### Defined in
-
-main.ts:104111
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:104111
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:113865
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:104126
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:104126
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:113883
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:104144
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:104144
 
 > `static` **fromJS**(`data`): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
+Defined in: main.ts:113876
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:104137

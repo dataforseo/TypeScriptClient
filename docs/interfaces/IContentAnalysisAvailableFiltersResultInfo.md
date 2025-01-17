@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisAvailableFiltersResultInfo
+[Documentation](../README.md) / IContentAnalysisAvailableFiltersResultInfo
 
 # Interface: IContentAnalysisAvailableFiltersResultInfo
 
+Defined in: main.ts:176756
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,10 +18,8 @@
 
 > `optional` **search**: `object`
 
+Defined in: main.ts:176757
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:165067
+\[`key`: `string`\]: `string`

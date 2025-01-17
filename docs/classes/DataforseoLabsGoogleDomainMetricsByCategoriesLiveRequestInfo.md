@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo
+
+Defined in: main.ts:98816
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
+Defined in: main.ts:98958
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:89139
 
 ## Properties
 
 ### category\_codes?
 
 > `optional` **category\_codes**: `string`[]
+
+Defined in: main.ts:98821
 
 product and service categories
 required field
@@ -47,15 +51,13 @@ you can download the full list of possible categories
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`category_codes`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#category_codes)
 
-#### Defined in
-
-main.ts:89002
-
 ***
 
 ### correlate?
 
 > `optional` **correlate**: `boolean`
+
+Defined in: main.ts:98912
 
 correlate data with previously obtained datasets
 optional field
@@ -68,15 +70,13 @@ Note: we do not recommend setting correlate to false
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`correlate`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#correlate)
 
-#### Defined in
-
-main.ts:89093
-
 ***
 
 ### etv\_max?
 
 > `optional` **etv\_max**: `number`
+
+Defined in: main.ts:98905
 
 maximum current organic ETV of the domain
 optional field
@@ -86,15 +86,13 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`etv_max`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#etv_max)
 
-#### Defined in
-
-main.ts:89086
-
 ***
 
 ### etv\_min?
 
 > `optional` **etv\_min**: `number`
+
+Defined in: main.ts:98901
 
 minimum current organic ETV of the domain
 optional field
@@ -104,15 +102,13 @@ if specified, the API will return only domains with organic_etv greater than the
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`etv_min`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#etv_min)
 
-#### Defined in
-
-main.ts:89082
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:98933
 
 array of results filtering parameters
 optional field
@@ -129,15 +125,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:89114
-
 ***
 
 ### first\_date?
 
 > `optional` **first\_date**: `string`
+
+Defined in: main.ts:98832
 
 first date of comparison period
 required field
@@ -154,15 +148,13 @@ minimum date: "2020-10-01"
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`first_date`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#first_date)
 
-#### Defined in
-
-main.ts:89013
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
+
+Defined in: main.ts:98897
 
 return subdomains in the API response
 optional field
@@ -174,15 +166,13 @@ default value: true
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`include_subdomains`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
-
-main.ts:89078
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:98883
 
 display results by item type
 optional field
@@ -197,15 +187,13 @@ default value:
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:89064
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:98874
 
 unique language identifier
 required field if you don’t specify language_name
@@ -218,15 +206,13 @@ en
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:89055
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:98867
 
 full name of the language
 required field if you don’t specify language_code
@@ -240,15 +226,13 @@ English
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:89048
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:98917
 
 the maximum number of domains in the results array
 optional field
@@ -259,15 +243,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:89098
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:98859
 
 unique location identifier
 required field if you don’t specify location_name
@@ -281,15 +263,13 @@ example:
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:89040
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:98851
 
 full name of the location
 required field if you don’t specify location_code
@@ -303,15 +283,13 @@ United Kingdom
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:89032
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:98922
 
 offset in the results array of returned domains
 optional field
@@ -322,15 +300,13 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:89103
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:98948
 
 results sorting rules
 optional field
@@ -351,15 +327,13 @@ example:
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:89129
-
 ***
 
 ### second\_date?
 
 > `optional` **second\_date**: `string`
+
+Defined in: main.ts:98843
 
 second date of comparison period
 required field
@@ -376,15 +350,13 @@ minimum date: "2020-10-01"
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`second_date`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#second_date)
 
-#### Defined in
-
-main.ts:89024
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:98954
 
 user-defined task identifier
 optional field
@@ -396,15 +368,13 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:89135
-
 ***
 
 ### top\_categories\_count?
 
 > `optional` **top\_categories\_count**: `number`
+
+Defined in: main.ts:98891
 
 number of additional domain categories
 optional field
@@ -418,27 +388,23 @@ maximum value: 5
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`top_categories_count`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#top_categories_count)
 
-#### Defined in
-
-main.ts:89072
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:98967
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:89148
 
 ***
 
@@ -446,17 +412,17 @@ main.ts:89148
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:99017
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:89198
 
 ***
 
@@ -464,14 +430,14 @@ main.ts:89198
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
+Defined in: main.ts:99010
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:89191

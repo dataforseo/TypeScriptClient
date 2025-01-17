@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetSearchTaskPostRequestInfo
+
+Defined in: main.ts:56832
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleDatasetSearchTaskPostRequestInfo**(`data`?): [`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)
 
+Defined in: main.ts:56934
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:53175
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:56857
 
 parsing depth
 optional field
@@ -51,15 +55,13 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:53100
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:56872
 
 device type
 optional field
@@ -69,15 +71,13 @@ possible value: desktop
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`device`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:53115
-
 ***
 
 ### file\_formats?
 
 > `optional` **file\_formats**: `string`[]
+
+Defined in: main.ts:56885
 
 file formats of the dataset
 optional field
@@ -87,15 +87,13 @@ possible values: other, archive, text, image, document, tabular
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`file_formats`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#file_formats)
 
-#### Defined in
-
-main.ts:53128
-
 ***
 
 ### is\_free?
 
 > `optional` **is\_free**: `boolean`
+
+Defined in: main.ts:56893
 
 indicates whether displayed datasets are free
 optional field
@@ -105,36 +103,33 @@ possible values: true, false
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`is_free`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#is_free)
 
-#### Defined in
-
-main.ts:53136
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:56840
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”.
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”.
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:53083
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:56868
 
 search engine language code
 optional field
@@ -145,15 +140,13 @@ en
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:53111
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:56863
 
 full name of search engine language
 optional field
@@ -165,15 +158,13 @@ English
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:53106
-
 ***
 
 ### last\_updated?
 
 > `optional` **last\_updated**: `string`
+
+Defined in: main.ts:56881
 
 last time the dataset was updated
 optional field
@@ -183,15 +174,13 @@ possible values: 1m, 1y, 3y
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`last_updated`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#last_updated)
 
-#### Defined in
-
-main.ts:53124
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:56877
 
 device operating system
 optional field
@@ -202,15 +191,13 @@ default value: windows
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`os`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:53120
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:56930
 
 notification URL of a completed task
 optional field
@@ -219,22 +206,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:53171
 
 ***
 
 ### postback\_data?
 
 > `optional` **postback\_data**: `string`
+
+Defined in: main.ts:56919
 
 postback_url datatype
 required field if you specify postback_url
@@ -245,15 +231,13 @@ only value: advanced
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
-
-main.ts:53161
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:56914
 
 return URL for sending task results
 optional field
@@ -262,22 +246,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:53156
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:56848
 
 task priority
 optional field
@@ -291,15 +274,13 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:53091
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:56903
 
 user-defined task identifier
 optional field
@@ -311,15 +292,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:53146
-
 ***
 
 ### topics?
 
 > `optional` **topics**: `string`[]
+
+Defined in: main.ts:56897
 
 dataset topics
 optional field
@@ -329,15 +308,13 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`topics`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#topics)
 
-#### Defined in
-
-main.ts:53140
-
 ***
 
 ### usage\_rights?
 
 > `optional` **usage\_rights**: `string`
+
+Defined in: main.ts:56889
 
 usage rights of the dataset
 optional field
@@ -347,27 +324,23 @@ possible values: commercial, noncommercial
 
 [`ISerpGoogleDatasetSearchTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md).[`usage_rights`](../interfaces/ISerpGoogleDatasetSearchTaskPostRequestInfo.md#usage_rights)
 
-#### Defined in
-
-main.ts:53132
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:56943
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:53184
 
 ***
 
@@ -375,17 +348,17 @@ main.ts:53184
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:56983
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:53224
 
 ***
 
@@ -393,14 +366,14 @@ main.ts:53224
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)
 
+Defined in: main.ts:56976
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleDatasetSearchTaskPostRequestInfo`](SerpGoogleDatasetSearchTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:53217

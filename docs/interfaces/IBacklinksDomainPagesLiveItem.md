@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksDomainPagesLiveItem
+[Documentation](../README.md) / IBacklinksDomainPagesLiveItem
 
 # Interface: IBacklinksDomainPagesLiveItem
 
+Defined in: main.ts:154247
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **content\_encoding**: `string`
 
+Defined in: main.ts:154291
+
 type of encoding
-
-#### Defined in
-
-main.ts:142985
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:142985
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:154255
+
 domain
 domain where the page was found
-
-#### Defined in
-
-main.ts:142949
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:142949
 
 > `optional` **encoded\_size**: `number`
 
+Defined in: main.ts:154289
+
 page size after encoding
 indicates the size of the encoded page, in bytes
-
-#### Defined in
-
-main.ts:142983
 
 ***
 
@@ -54,14 +50,12 @@ main.ts:142983
 
 > `optional` **fetch\_time**: `string`
 
+Defined in: main.ts:154279
+
 most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
-
-#### Defined in
-
-main.ts:142973
 
 ***
 
@@ -69,15 +63,13 @@ main.ts:142973
 
 > `optional` **first\_visited**: `string`
 
+Defined in: main.ts:154269
+
 date and time of the first page visit
 date and time when our crawler visited this page for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
-
-#### Defined in
-
-main.ts:142963
 
 ***
 
@@ -85,11 +77,9 @@ main.ts:142963
 
 > `optional` **ip**: `string`
 
+Defined in: main.ts:154263
+
 Internet Protocol address
-
-#### Defined in
-
-main.ts:142957
 
 ***
 
@@ -97,12 +87,10 @@ main.ts:142957
 
 > `optional` **location**: `string`
 
+Defined in: main.ts:154284
+
 location header
 indicates the URL to redirect a page to if exists
-
-#### Defined in
-
-main.ts:142978
 
 ***
 
@@ -110,12 +98,10 @@ main.ts:142978
 
 > `optional` **main\_domain**: `string`
 
+Defined in: main.ts:154252
+
 main website domain
 main website domain does not include subdomains
-
-#### Defined in
-
-main.ts:142946
 
 ***
 
@@ -123,11 +109,9 @@ main.ts:142946
 
 > `optional` **media\_type**: `string`
 
+Defined in: main.ts:154293
+
 types of media used to display a page
-
-#### Defined in
-
-main.ts:142987
 
 ***
 
@@ -135,11 +119,9 @@ main.ts:142987
 
 > `optional` **meta**: [`BacklinksPageMeta`](../classes/BacklinksPageMeta.md)
 
+Defined in: main.ts:154297
+
 page meta data
-
-#### Defined in
-
-main.ts:142991
 
 ***
 
@@ -147,12 +129,10 @@ main.ts:142991
 
 > `optional` **page**: `string`
 
+Defined in: main.ts:154261
+
 page URL
 relevant page URL
-
-#### Defined in
-
-main.ts:142955
 
 ***
 
@@ -160,11 +140,9 @@ main.ts:142955
 
 > `optional` **page\_summary**: [`PageSummary`](../classes/PageSummary.md)
 
+Defined in: main.ts:154299
+
 contains backlink data for this page
-
-#### Defined in
-
-main.ts:142993
 
 ***
 
@@ -172,14 +150,12 @@ main.ts:142993
 
 > `optional` **prev\_visited**: `string`
 
+Defined in: main.ts:154274
+
 previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
-
-#### Defined in
-
-main.ts:142968
 
 ***
 
@@ -187,11 +163,9 @@ main.ts:142968
 
 > `optional` **server**: `string`
 
+Defined in: main.ts:154295
+
 server version
-
-#### Defined in
-
-main.ts:142989
 
 ***
 
@@ -199,11 +173,9 @@ main.ts:142989
 
 > `optional` **size**: `number`
 
+Defined in: main.ts:154286
+
 indicates the page size, in bytes
-
-#### Defined in
-
-main.ts:142980
 
 ***
 
@@ -211,11 +183,9 @@ main.ts:142980
 
 > `optional` **status\_code**: `number`
 
+Defined in: main.ts:154281
+
 HTTP status code of the page
-
-#### Defined in
-
-main.ts:142975
 
 ***
 
@@ -223,12 +193,10 @@ main.ts:142975
 
 > `optional` **tld**: `string`
 
+Defined in: main.ts:154258
+
 top-level domain
 top-level domain in the DNS root zone
-
-#### Defined in
-
-main.ts:142952
 
 ***
 
@@ -236,8 +204,6 @@ main.ts:142952
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:154249
+
 type of element
-
-#### Defined in
-
-main.ts:142943

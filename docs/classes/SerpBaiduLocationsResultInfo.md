@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBaiduLocationsResultInfo
+[Documentation](../README.md) / SerpBaiduLocationsResultInfo
 
 # Class: SerpBaiduLocationsResultInfo
+
+Defined in: main.ts:78350
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpBaiduLocationsResultInfo**(`data`?): [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
 
+Defined in: main.ts:78367
+
 #### Parameters
 
-• **data?**: [`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md)
+##### data?
+
+[`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md)
 
 #### Returns
 
 [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:68922
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:68922
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:78360
+
 ISO country code of the location
 
 #### Implementation of
 
 [`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`country_iso_code`](../interfaces/ISerpBaiduLocationsResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:68915
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:68915
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:78352
+
 location code
 
 #### Implementation of
 
 [`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`location_code`](../interfaces/ISerpBaiduLocationsResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:68907
-
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:78358
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -78,15 +78,13 @@ don’t match locations by location_code_parent because the results for Region a
 
 [`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`location_code_parent`](../interfaces/ISerpBaiduLocationsResultInfo.md#location_code_parent)
 
-#### Defined in
-
-main.ts:68913
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:78354
 
 full name of the location
 
@@ -94,15 +92,13 @@ full name of the location
 
 [`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`location_name`](../interfaces/ISerpBaiduLocationsResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:68909
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:78363
 
 location type
 only City is supported for all countries except China (where Country is also supported)
@@ -111,27 +107,23 @@ only City is supported for all countries except China (where Country is also sup
 
 [`ISerpBaiduLocationsResultInfo`](../interfaces/ISerpBaiduLocationsResultInfo.md).[`location_type`](../interfaces/ISerpBaiduLocationsResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:68918
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:78376
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:68931
 
 ***
 
@@ -139,17 +131,17 @@ main.ts:68931
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:78397
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:68952
 
 ***
 
@@ -157,14 +149,14 @@ main.ts:68952
 
 > `static` **fromJS**(`data`): [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
 
+Defined in: main.ts:78390
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpBaiduLocationsResultInfo`](SerpBaiduLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:68945

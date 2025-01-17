@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonProductNewerModelInfo
+[Documentation](../README.md) / AmazonProductNewerModelInfo
 
 # Class: AmazonProductNewerModelInfo
+
+Defined in: main.ts:194040
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AmazonProductNewerModelInfo**(`data`?): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
+Defined in: main.ts:194048
+
 #### Parameters
 
-• **data?**: [`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md)
+##### data?
+
+[`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md)
 
 #### Returns
 
 [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
-
-#### Defined in
-
-main.ts:181829
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:181829
 
 > `optional` **newer\_model\_asin**: `string`
 
+Defined in: main.ts:194044
+
 ASIN of the newer product model
 
 #### Implementation of
 
 [`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md).[`newer_model_asin`](../interfaces/IAmazonProductNewerModelInfo.md#newer_model_asin)
-
-#### Defined in
-
-main.ts:181825
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:181825
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:194042
+
 product title
 
 #### Implementation of
 
 [`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md).[`title`](../interfaces/IAmazonProductNewerModelInfo.md#title)
-
-#### Defined in
-
-main.ts:181823
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:181823
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:194057
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:181838
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:181838
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:194075
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:181856
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:181856
 
 > `static` **fromJS**(`data`): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
+Defined in: main.ts:194068
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
-
-#### Defined in
-
-main.ts:181849

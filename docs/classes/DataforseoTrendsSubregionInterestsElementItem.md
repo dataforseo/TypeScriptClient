@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoTrendsSubregionInterestsElementItem
+[Documentation](../README.md) / DataforseoTrendsSubregionInterestsElementItem
 
 # Class: DataforseoTrendsSubregionInterestsElementItem
+
+Defined in: main.ts:136742
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new DataforseoTrendsSubregionInterestsElementItem**(`data`?): [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
 
+Defined in: main.ts:136751
+
 #### Parameters
 
-• **data?**: [`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md)
+##### data?
+
+[`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
 
-#### Defined in
-
-main.ts:126395
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22797
+
 #### Inherited from
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`_discriminator`](BaseDataforseoTrendsItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21894
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:21894
 
 > `optional` **interests**: [`Interests`](Interests.md)[]
 
+Defined in: main.ts:136744
+
 subregional keyword popuarity data for each specified term
 
 #### Implementation of
 
 [`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md).[`interests`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md#interests)
 
-#### Defined in
-
-main.ts:126388
-
 ***
 
 ### interests\_comparison?
 
 > `optional` **interests\_comparison**: [`InterestsComparison`](InterestsComparison.md)
+
+Defined in: main.ts:136747
 
 comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null
@@ -83,15 +83,13 @@ if you specified a single keyword, the value will be null
 
 [`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md).[`interests_comparison`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md#interests_comparison)
 
-#### Defined in
-
-main.ts:126391
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22795
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -104,15 +102,13 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`keywords`](BaseDataforseoTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21892
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22792
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -125,15 +121,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`position`](BaseDataforseoTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21889
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22789
 
 type of element
 
@@ -145,19 +139,19 @@ type of element
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`type`](BaseDataforseoTrendsItem.md#type)
 
-#### Defined in
-
-main.ts:21886
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:136756
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -167,19 +161,19 @@ main.ts:21886
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`init`](BaseDataforseoTrendsItem.md#init)
 
-#### Defined in
-
-main.ts:126400
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:136779
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -189,19 +183,19 @@ main.ts:126400
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`toJSON`](BaseDataforseoTrendsItem.md#tojson)
 
-#### Defined in
-
-main.ts:126423
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsSubregionInterestsElementItem`](DataforseoTrendsSubregionInterestsElementItem.md)
 
+Defined in: main.ts:136772
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -210,7 +204,3 @@ main.ts:126423
 #### Overrides
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`fromJS`](BaseDataforseoTrendsItem.md#fromjs)
-
-#### Defined in
-
-main.ts:126416

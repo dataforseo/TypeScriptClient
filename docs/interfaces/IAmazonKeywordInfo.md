@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonKeywordInfo
+[Documentation](../README.md) / IAmazonKeywordInfo
 
 # Interface: IAmazonKeywordInfo
 
+Defined in: main.ts:23907
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **last\_updated\_time**: `string`
 
+Defined in: main.ts:23913
+
 date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:    '2019-11-15 12:57:46 +00:00'
-
-#### Defined in
-
-main.ts:23010
 
 ***
 
@@ -30,11 +30,9 @@ main.ts:23010
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:23909
+
 search engine type
-
-#### Defined in
-
-main.ts:23006
 
 ***
 
@@ -42,9 +40,7 @@ main.ts:23006
 
 > `optional` **search\_volume**: `number`
 
+Defined in: main.ts:23916
+
 average monthly search volume rate
 represents the (approximate) number of searches for the provided keyword idea on Amazon
-
-#### Defined in
-
-main.ts:23013

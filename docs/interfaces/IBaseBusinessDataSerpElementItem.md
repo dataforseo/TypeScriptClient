@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseBusinessDataSerpElementItem
+[Documentation](../README.md) / IBaseBusinessDataSerpElementItem
 
 # Interface: IBaseBusinessDataSerpElementItem
+
+Defined in: main.ts:22288
 
 ## Extended by
 
@@ -23,11 +25,9 @@
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:22295
+
 absolute rank among all the elements
-
-#### Defined in
-
-main.ts:21392
 
 ***
 
@@ -35,12 +35,10 @@ main.ts:21392
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:22293
+
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
-
-#### Defined in
-
-main.ts:21390
 
 ***
 
@@ -48,8 +46,6 @@ main.ts:21390
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22290
+
 type of element
-
-#### Defined in
-
-main.ts:21387

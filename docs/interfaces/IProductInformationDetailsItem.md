@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInformationDetailsItem
+[Documentation](../README.md) / IProductInformationDetailsItem
 
 # Interface: IProductInformationDetailsItem
+
+Defined in: main.ts:194207
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,15 +22,13 @@
 
 > `optional` **body**: `object`
 
+Defined in: main.ts:194209
+
 contains information specified about the product within the section_name
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:181990
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -36,15 +36,13 @@ main.ts:181990
 
 > `optional` **section\_name**: `string`
 
+Defined in: main.ts:24311
+
 name of the section related to product information specified in the contents
 
 #### Inherited from
 
 [`IBaseProductInformationItem`](IBaseProductInformationItem.md).[`section_name`](IBaseProductInformationItem.md#section_name)
-
-#### Defined in
-
-main.ts:23408
 
 ***
 
@@ -52,12 +50,10 @@ main.ts:23408
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24309
+
 type of element
 
 #### Inherited from
 
 [`IBaseProductInformationItem`](IBaseProductInformationItem.md).[`type`](IBaseProductInformationItem.md#type)
-
-#### Defined in
-
-main.ts:23406

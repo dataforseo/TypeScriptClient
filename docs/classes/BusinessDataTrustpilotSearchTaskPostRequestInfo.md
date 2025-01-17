@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
+[Documentation](../README.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotSearchTaskPostRequestInfo
+
+Defined in: main.ts:225482
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataTrustpilotSearchTaskPostRequestInfo**(`data`?): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
+Defined in: main.ts:225538
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md)
+##### data?
+
+[`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:210511
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:225506
 
 parsing depth
 optional field
@@ -50,36 +54,33 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:210481
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:225490
+
 keyword
 required field
 the keyword you specify should indicate a business category or company name;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:210465
 
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:225534
 
 notification URL of a completed task
 optional field
@@ -88,22 +89,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:210507
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:225523
 
 return URL for sending task results
 optional field
@@ -112,22 +112,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:210497
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:225498
 
 task priority
 optional field
@@ -141,15 +140,13 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:210473
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:225512
 
 user-defined task identifier
 optional field
@@ -161,27 +158,23 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:210487
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:225547
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:210520
 
 ***
 
@@ -189,17 +182,17 @@ main.ts:210520
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:225569
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:210542
 
 ***
 
@@ -207,14 +200,14 @@ main.ts:210542
 
 > `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
+Defined in: main.ts:225562
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:210535

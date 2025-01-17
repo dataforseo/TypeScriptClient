@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageContentParsingLiveRequestInfo
+[Documentation](../README.md) / OnPageContentParsingLiveRequestInfo
 
 # Class: OnPageContentParsingLiveRequestInfo
+
+Defined in: main.ts:173822
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageContentParsingLiveRequestInfo**(`data`?): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
 
+Defined in: main.ts:173931
+
 #### Parameters
 
-• **data?**: [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md)
+##### data?
+
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md)
 
 #### Returns
 
 [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:162229
 
 ## Properties
 
 ### accept\_language?
 
 > `optional` **accept\_language**: `string`
+
+Defined in: main.ts:173894
 
 language header for accessing the website
 optional field
@@ -47,15 +51,13 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`accept_language`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#accept_language)
 
-#### Defined in
-
-main.ts:162192
-
 ***
 
 ### browser\_preset?
 
 > `optional` **browser\_preset**: `string`
+
+Defined in: main.ts:173854
 
 preset for browser screen parameters
 optional field
@@ -80,15 +82,13 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`browser_preset`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_preset)
 
-#### Defined in
-
-main.ts:162152
-
 ***
 
 ### browser\_screen\_height?
 
 > `optional` **browser\_screen\_height**: `number`
+
+Defined in: main.ts:173870
 
 browser screen height
 optional field
@@ -102,15 +102,13 @@ maximum value, in pixels: 9999
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`browser_screen_height`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_height)
 
-#### Defined in
-
-main.ts:162168
-
 ***
 
 ### browser\_screen\_scale\_factor?
 
 > `optional` **browser\_screen\_scale\_factor**: `number`
+
+Defined in: main.ts:173878
 
 browser screen scale factor
 optional field
@@ -124,15 +122,13 @@ maximum value: 3
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`browser_screen_scale_factor`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_scale_factor)
 
-#### Defined in
-
-main.ts:162176
-
 ***
 
 ### browser\_screen\_width?
 
 > `optional` **browser\_screen\_width**: `number`
+
+Defined in: main.ts:173862
 
 browser screen width
 optional field
@@ -146,41 +142,13 @@ maximum value, in pixels: 9999
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`browser_screen_width`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#browser_screen_width)
 
-#### Defined in
-
-main.ts:162160
-
-***
-
-### custom\_js?
-
-> `optional` **custom\_js**: `string`
-
-custom javascript
-optional field
-Note that the execution time for the script you enter here should be 700 ms maximum, for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) {\r\n if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
-as a response you will receive the following data:
-"custom_js_response": {
-"url": "https://dataforseo.com/",
-"test": "test"
-}
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
-
-#### Implementation of
-
-[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`custom_js`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#custom_js)
-
-#### Defined in
-
-main.ts:162133
-
 ***
 
 ### custom\_user\_agent?
 
 > `optional` **custom\_user\_agent**: `string`
+
+Defined in: main.ts:173835
 
 custom user agent
 optional field
@@ -193,15 +161,13 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`custom_user_agent`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#custom_user_agent)
 
-#### Defined in
-
-main.ts:162121
-
 ***
 
 ### disable\_cookie\_popup?
 
 > `optional` **disable\_cookie\_popup**: `boolean`
+
+Defined in: main.ts:173889
 
 disable the cookie popup 
 optional field
@@ -213,15 +179,13 @@ false
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`disable_cookie_popup`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#disable_cookie_popup)
 
-#### Defined in
-
-main.ts:162187
-
 ***
 
 ### enable\_browser\_rendering?
 
 > `optional` **enable\_browser\_rendering**: `boolean`
+
+Defined in: main.ts:173909
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -236,15 +200,13 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`enable_browser_rendering`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_browser_rendering)
 
-#### Defined in
-
-main.ts:162207
-
 ***
 
 ### enable\_javascript?
 
 > `optional` **enable\_javascript**: `boolean`
+
+Defined in: main.ts:173900
 
 load javascript on a page
 optional field
@@ -256,15 +218,13 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`enable_javascript`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_javascript)
 
-#### Defined in
-
-main.ts:162198
-
 ***
 
 ### enable\_xhr?
 
 > `optional` **enable\_xhr**: `boolean`
+
+Defined in: main.ts:173916
 
 enable XMLHttpRequest on a page
 optional field
@@ -277,15 +237,13 @@ if you use this field, enable_javascript must be set to true;
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`enable_xhr`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#enable_xhr)
 
-#### Defined in
-
-main.ts:162214
-
 ***
 
 ### ip\_pool\_for\_scan?
 
 > `optional` **ip\_pool\_for\_scan**: `string`
+
+Defined in: main.ts:173927
 
 proxy pool
 optional field
@@ -297,15 +255,13 @@ possible values: us, de
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`ip_pool_for_scan`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#ip_pool_for_scan)
 
-#### Defined in
-
-main.ts:162225
-
 ***
 
 ### store\_raw\_html?
 
 > `optional` **store\_raw\_html**: `boolean`
+
+Defined in: main.ts:173883
 
 store HTML of a crawled page
 optional field
@@ -316,15 +272,13 @@ default value: false
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`store_raw_html`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#store_raw_html)
 
-#### Defined in
-
-main.ts:162181
-
 ***
 
 ### switch\_pool?
 
 > `optional` **switch\_pool**: `boolean`
+
+Defined in: main.ts:173921
 
 switch proxy pool
 optional field
@@ -335,15 +289,13 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`switch_pool`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#switch_pool)
 
-#### Defined in
-
-main.ts:162219
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:173828
 
 URL of the content to parse
 required field
@@ -355,27 +307,23 @@ https://www.fujielectric.com/
 
 [`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`url`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:162114
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:173940
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:162238
 
 ***
 
@@ -383,17 +331,17 @@ main.ts:162238
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173970
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:162269
 
 ***
 
@@ -401,14 +349,14 @@ main.ts:162269
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
 
+Defined in: main.ts:173963
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageContentParsingLiveRequestInfo`](OnPageContentParsingLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:162262

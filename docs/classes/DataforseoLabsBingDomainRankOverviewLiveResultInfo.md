@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingDomainRankOverviewLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingDomainRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsBingDomainRankOverviewLiveResultInfo
+
+Defined in: main.ts:117300
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsBingDomainRankOverviewLiveResultInfo**(`data`?): [`DataforseoLabsBingDomainRankOverviewLiveResultInfo`](DataforseoLabsBingDomainRankOverviewLiveResultInfo.md)
 
+Defined in: main.ts:117318
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingDomainRankOverviewLiveResultInfo`](DataforseoLabsBingDomainRankOverviewLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:107655
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:107655
 
 > `optional` **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)[]
 
+Defined in: main.ts:117314
+
 contains ranking and traffic data
 
 #### Implementation of
 
 [`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:107651
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:107651
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:117312
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:107649
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:107649
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:117308
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:107645
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:107645
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:117306
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:107643
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:107643
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:117302
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:107639
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:107639
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:117304
+
 target domain in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md#target)
-
-#### Defined in
-
-main.ts:107641
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:107641
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:117310
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsBingDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingDomainRankOverviewLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:107647
 
 ## Methods
 
@@ -150,17 +138,17 @@ main.ts:107647
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:117327
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:107664
 
 ***
 
@@ -168,17 +156,17 @@ main.ts:107664
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:117354
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:107691
 
 ***
 
@@ -186,14 +174,14 @@ main.ts:107691
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingDomainRankOverviewLiveResultInfo`](DataforseoLabsBingDomainRankOverviewLiveResultInfo.md)
 
+Defined in: main.ts:117347
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingDomainRankOverviewLiveResultInfo`](DataforseoLabsBingDomainRankOverviewLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:107684

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataSocialMediaRedditLiveResultInfo
+[Documentation](../README.md) / IBusinessDataSocialMediaRedditLiveResultInfo
 
 # Interface: IBusinessDataSocialMediaRedditLiveResultInfo
 
+Defined in: main.ts:230370
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **page\_url**: `string`
 
+Defined in: main.ts:230375
+
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
-
-#### Defined in
-
-main.ts:215331
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:215331
 
 > `optional` **reddit\_reviews**: [`RedditReviews`](../classes/RedditReviews.md)[]
 
+Defined in: main.ts:230377
+
 reddit reviews for the page_url
-
-#### Defined in
-
-main.ts:215333
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:215333
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:230372
+
 type of element
-
-#### Defined in
-
-main.ts:215328

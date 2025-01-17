@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IStreamingQualityElement
+[Documentation](../README.md) / IStreamingQualityElement
 
 # Interface: IStreamingQualityElement
 
+Defined in: main.ts:70440
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **bitrate**: `number`
 
+Defined in: main.ts:70450
+
 bit rate of the video
-
-#### Defined in
-
-main.ts:62235
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:62235
 
 > `optional` **fps**: `number`
 
+Defined in: main.ts:70454
+
 frame rate of the video
-
-#### Defined in
-
-main.ts:62239
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:62239
 
 > `optional` **height**: `number`
 
+Defined in: main.ts:70448
+
 video height in pixels
-
-#### Defined in
-
-main.ts:62233
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:62233
 
 > `optional` **label**: `string`
 
+Defined in: main.ts:70444
+
 label of the quality element
-
-#### Defined in
-
-main.ts:62229
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:62229
 
 > `optional` **mime\_type**: `string`
 
+Defined in: main.ts:70452
+
 media type of the video
-
-#### Defined in
-
-main.ts:62237
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:62237
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:70442
+
 type of element
-
-#### Defined in
-
-main.ts:62227
 
 ***
 
@@ -88,8 +78,6 @@ main.ts:62227
 
 > `optional` **width**: `number`
 
+Defined in: main.ts:70446
+
 video width in pixels
-
-#### Defined in
-
-main.ts:62231

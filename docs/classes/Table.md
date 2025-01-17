@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Table
+[Documentation](../README.md) / Table
 
 # Class: Table
+
+Defined in: main.ts:23695
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new Table**(`data`?): [`Table`](Table.md)
 
+Defined in: main.ts:23708
+
 #### Parameters
 
-• **data?**: [`ITable`](../interfaces/ITable.md)
+##### data?
+
+[`ITable`](../interfaces/ITable.md)
 
 #### Returns
 
 [`Table`](Table.md)
-
-#### Defined in
-
-main.ts:22805
 
 ## Properties
 
 ### table\_content?
 
 > `optional` **table\_content**: `string`[][]
+
+Defined in: main.ts:23704
 
 the content of the table
 one line of the table in this element of the array
@@ -45,15 +49,13 @@ one line of the table in this element of the array
 
 [`ITable`](../interfaces/ITable.md).[`table_content`](../interfaces/ITable.md#table_content)
 
-#### Defined in
-
-main.ts:22801
-
 ***
 
 ### table\_element?
 
 > `optional` **table\_element**: `string`
+
+Defined in: main.ts:23699
 
 name assigned to the table element
 possible values:
@@ -63,15 +65,13 @@ table_element
 
 [`ITable`](../interfaces/ITable.md).[`table_element`](../interfaces/ITable.md#table_element)
 
-#### Defined in
-
-main.ts:22796
-
 ***
 
 ### table\_header?
 
 > `optional` **table\_header**: `string`[]
+
+Defined in: main.ts:23701
 
 column names
 
@@ -79,27 +79,23 @@ column names
 
 [`ITable`](../interfaces/ITable.md).[`table_header`](../interfaces/ITable.md#table_header)
 
-#### Defined in
-
-main.ts:22798
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:23717
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22814
 
 ***
 
@@ -107,17 +103,17 @@ main.ts:22814
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23744
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22841
 
 ***
 
@@ -125,14 +121,14 @@ main.ts:22841
 
 > `static` **fromJS**(`data`): [`Table`](Table.md)
 
+Defined in: main.ts:23737
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Table`](Table.md)
-
-#### Defined in
-
-main.ts:22834

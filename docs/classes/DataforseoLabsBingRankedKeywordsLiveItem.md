@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108941
+=======
+main.ts:108974
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -46,7 +50,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108935
+=======
+main.ts:108968
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -62,7 +70,11 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108937
+=======
+main.ts:108970
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -78,7 +90,11 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108933
+=======
+main.ts:108966
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -96,7 +112,11 @@ main.ts:108933
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108950
+=======
+main.ts:108983
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -114,7 +134,11 @@ main.ts:108950
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108969
+=======
+main.ts:109002
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -132,4 +156,8 @@ main.ts:108969
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108962
+=======
+main.ts:108995
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

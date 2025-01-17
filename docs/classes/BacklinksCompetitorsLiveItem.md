@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksCompetitorsLiveItem
+[Documentation](../README.md) / BacklinksCompetitorsLiveItem
 
 # Class: BacklinksCompetitorsLiveItem
+
+Defined in: main.ts:157034
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksCompetitorsLiveItem**(`data`?): [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
 
+Defined in: main.ts:157049
+
 #### Parameters
 
-• **data?**: [`IBacklinksCompetitorsLiveItem`](../interfaces/IBacklinksCompetitorsLiveItem.md)
+##### data?
+
+[`IBacklinksCompetitorsLiveItem`](../interfaces/IBacklinksCompetitorsLiveItem.md)
 
 #### Returns
 
 [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
-
-#### Defined in
-
-main.ts:145743
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:145743
 
 > `optional` **intersections**: `number`
 
+Defined in: main.ts:157045
+
 indicates the number of backlink intersections with the target specified in the POST array
 
 #### Implementation of
 
 [`IBacklinksCompetitorsLiveItem`](../interfaces/IBacklinksCompetitorsLiveItem.md).[`intersections`](../interfaces/IBacklinksCompetitorsLiveItem.md#intersections)
 
-#### Defined in
-
-main.ts:145739
-
 ***
 
 ### rank?
 
 > `optional` **rank**: `number`
+
+Defined in: main.ts:157043
 
 domain rank
 domain rank across all domains in the database
@@ -63,15 +65,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksCompetitorsLiveItem`](../interfaces/IBacklinksCompetitorsLiveItem.md).[`rank`](../interfaces/IBacklinksCompetitorsLiveItem.md#rank)
 
-#### Defined in
-
-main.ts:145737
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:157038
 
 competitor domain
 
@@ -79,15 +79,13 @@ competitor domain
 
 [`IBacklinksCompetitorsLiveItem`](../interfaces/IBacklinksCompetitorsLiveItem.md).[`target`](../interfaces/IBacklinksCompetitorsLiveItem.md#target)
 
-#### Defined in
-
-main.ts:145732
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:157036
 
 type of element
 
@@ -95,27 +93,23 @@ type of element
 
 [`IBacklinksCompetitorsLiveItem`](../interfaces/IBacklinksCompetitorsLiveItem.md).[`type`](../interfaces/IBacklinksCompetitorsLiveItem.md#type)
 
-#### Defined in
-
-main.ts:145730
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:157058
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:145752
 
 ***
 
@@ -123,17 +117,17 @@ main.ts:145752
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:157078
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:145772
 
 ***
 
@@ -141,14 +135,14 @@ main.ts:145772
 
 > `static` **fromJS**(`data`): [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
 
+Defined in: main.ts:157071
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)
-
-#### Defined in
-
-main.ts:145765

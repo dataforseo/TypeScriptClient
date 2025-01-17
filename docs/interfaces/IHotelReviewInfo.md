@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelReviewInfo
+[Documentation](../README.md) / IHotelReviewInfo
 
 # Interface: IHotelReviewInfo
 
+Defined in: main.ts:219729
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **mentions**: [`ReviewMentionInfo`](../classes/ReviewMentionInfo.md)[]
 
+Defined in: main.ts:219737
+
 hotel mentions
 information about hotel reviews by criteria
-
-#### Defined in
-
-main.ts:206281
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:206281
 
 > `optional` **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](../classes/OtherSitesReviewsInfo.md)[]
 
+Defined in: main.ts:219743
+
 reviews on third-party sites
 reviews from third-paty sites
-
-#### Defined in
-
-main.ts:206287
 
 ***
 
@@ -42,16 +40,14 @@ main.ts:206287
 
 > `optional` **rating\_distribution**: `object`
 
+Defined in: main.ts:219740
+
 rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:206284
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -59,11 +55,9 @@ main.ts:206284
 
 > `optional` **value**: `number`
 
+Defined in: main.ts:219731
+
 overall hotel rating based on customer votes
-
-#### Defined in
-
-main.ts:206275
 
 ***
 
@@ -71,9 +65,7 @@ main.ts:206275
 
 > `optional` **votes\_count**: `number`
 
+Defined in: main.ts:219734
+
 number of customer votes
 the number of customer votes included in the calculation of the hotel rating
-
-#### Defined in
-
-main.ts:206278

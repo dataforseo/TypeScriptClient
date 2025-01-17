@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGraph
+[Documentation](../README.md) / IGraph
 
 # Interface: IGraph
 
+Defined in: main.ts:35083
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`GraphElement`](../classes/GraphElement.md)[]
 
-contains arrays of specific images
+Defined in: main.ts:35085
 
-#### Defined in
-
-main.ts:33293
+contains arrays of elements available in the list
 
 ***
 
@@ -28,9 +28,7 @@ main.ts:33293
 
 > `optional` **previous\_items**: [`GraphElement`](../classes/GraphElement.md)[]
 
+Defined in: main.ts:35088
+
 previous close data
 contains stock price data based on the preceding time period
-
-#### Defined in
-
-main.ts:33296

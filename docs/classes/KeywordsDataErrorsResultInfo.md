@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataErrorsResultInfo
+[Documentation](../README.md) / KeywordsDataErrorsResultInfo
 
 # Class: KeywordsDataErrorsResultInfo
+
+Defined in: main.ts:125736
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataErrorsResultInfo**(`data`?): [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
 
+Defined in: main.ts:125767
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md)
+##### data?
+
+[`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:116494
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:125743
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`datetime`](../interfaces/IKeywordsDataErrorsResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:116470
-
 ***
 
 ### error\_code?
 
 > `optional` **error\_code**: `number`
+
+Defined in: main.ts:125747
 
 error code
 
@@ -63,15 +65,13 @@ error code
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`error_code`](../interfaces/IKeywordsDataErrorsResultInfo.md#error_code)
 
-#### Defined in
-
-main.ts:116474
-
 ***
 
 ### error\_message?
 
 > `optional` **error\_message**: `string`
+
+Defined in: main.ts:125750
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -80,15 +80,13 @@ error message (see full list) or URL that caused an error
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`error_message`](../interfaces/IKeywordsDataErrorsResultInfo.md#error_message)
 
-#### Defined in
-
-main.ts:116477
-
 ***
 
 ### function?
 
 > `optional` **function**: `string`
+
+Defined in: main.ts:125745
 
 corresponding API function
 
@@ -96,15 +94,13 @@ corresponding API function
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`function`](../interfaces/IKeywordsDataErrorsResultInfo.md#function)
 
-#### Defined in
-
-main.ts:116472
-
 ***
 
 ### http\_code?
 
 > `optional` **http\_code**: `number`
+
+Defined in: main.ts:125757
 
 HTTP status code
 
@@ -112,15 +108,13 @@ HTTP status code
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_code`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_code)
 
-#### Defined in
-
-main.ts:116484
-
 ***
 
 ### http\_method?
 
 > `optional` **http\_method**: `string`
+
+Defined in: main.ts:125755
 
 HTTP method
 
@@ -128,15 +122,13 @@ HTTP method
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_method`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_method)
 
-#### Defined in
-
-main.ts:116482
-
 ***
 
 ### http\_response?
 
 > `optional` **http\_response**: `string`
+
+Defined in: main.ts:125763
 
 HTTP response
 server response
@@ -145,15 +137,13 @@ server response
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_response`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_response)
 
-#### Defined in
-
-main.ts:116490
-
 ***
 
 ### http\_time?
 
 > `optional` **http\_time**: `number`
+
+Defined in: main.ts:125760
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -162,15 +152,13 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_time`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_time)
 
-#### Defined in
-
-main.ts:116487
-
 ***
 
 ### http\_url?
 
 > `optional` **http\_url**: `string`
+
+Defined in: main.ts:125753
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -179,15 +167,13 @@ URL you used for making an API call or pingback/postback URL
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`http_url`](../interfaces/IKeywordsDataErrorsResultInfo.md#http_url)
 
-#### Defined in
-
-main.ts:116480
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:125738
 
 id of the task
 
@@ -195,27 +181,23 @@ id of the task
 
 [`IKeywordsDataErrorsResultInfo`](../interfaces/IKeywordsDataErrorsResultInfo.md).[`id`](../interfaces/IKeywordsDataErrorsResultInfo.md#id)
 
-#### Defined in
-
-main.ts:116465
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:125776
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:116503
 
 ***
 
@@ -223,17 +205,17 @@ main.ts:116503
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:125802
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:116529
 
 ***
 
@@ -241,14 +223,14 @@ main.ts:116529
 
 > `static` **fromJS**(`data`): [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
 
+Defined in: main.ts:125795
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataErrorsResultInfo`](KeywordsDataErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:116522

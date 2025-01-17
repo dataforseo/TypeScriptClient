@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
+
+Defined in: main.ts:114720
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
 
+Defined in: main.ts:114814
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:105075
 
 ## Properties
 
 ### asins?
 
 > `optional` **asins**: `object`
+
+Defined in: main.ts:114731
 
 asins of target products
 required field
@@ -51,21 +55,19 @@ learn more about the parameter on this help center page
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`asins`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#asins)
-
-#### Defined in
-
-main.ts:104992
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:114783
 
 array of results filtering parameters
 optional field
@@ -82,15 +84,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:105044
-
 ***
 
 ### intersection\_mode?
 
 > `optional` **intersection\_mode**: `string`
+
+Defined in: main.ts:114772
 
 mode for finding asin intersections
 optional field
@@ -102,15 +102,13 @@ learn more about the parameter in this help center guide
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`intersection_mode`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#intersection_mode)
 
-#### Defined in
-
-main.ts:105033
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:114761
 
 language code
 required field if don’t specify language_name
@@ -123,15 +121,13 @@ en
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:105022
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:114754
 
 full name of the language
 required field if don’t specify language_code
@@ -144,15 +140,13 @@ English
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:105015
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:114766
 
 the maximum number of products in the results array
 optional field
@@ -163,15 +157,13 @@ maximum value: 1000
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:105027
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:114747
 
 location code
 required field if don’t specify location_name
@@ -185,15 +177,13 @@ example:
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:105008
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:114739
 
 full name of the location
 required field if don’t specify location_code
@@ -207,15 +197,13 @@ United Kingdom
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:105000
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:114804
 
 offset in the results array of returned keywords
 optional field
@@ -226,15 +214,13 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:105065
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:114799
 
 results sorting rules
 optional field
@@ -256,15 +242,13 @@ default rule:
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:105060
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:114810
 
 user-defined task identifier
 optional field
@@ -276,27 +260,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:105071
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:114823
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:105084
 
 ***
 
@@ -304,17 +284,17 @@ main.ts:105084
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:114864
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:105125
 
 ***
 
@@ -322,14 +302,14 @@ main.ts:105125
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
 
+Defined in: main.ts:114857
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:105118

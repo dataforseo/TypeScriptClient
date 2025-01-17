@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LicensesElement
+[Documentation](../README.md) / LicensesElement
 
 # Class: LicensesElement
+
+Defined in: main.ts:22134
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new LicensesElement**(`data`?): [`LicensesElement`](LicensesElement.md)
 
+Defined in: main.ts:22146
+
 #### Parameters
 
-• **data?**: [`ILicensesElement`](../interfaces/ILicensesElement.md)
+##### data?
+
+[`ILicensesElement`](../interfaces/ILicensesElement.md)
 
 #### Returns
 
 [`LicensesElement`](LicensesElement.md)
-
-#### Defined in
-
-main.ts:33919
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:33919
 
 > `optional` **domain**: `string`
 
-website domain
+Defined in: main.ts:22142
+
+domain in SERP
 
 #### Implementation of
 
 [`ILicensesElement`](../interfaces/ILicensesElement.md).[`domain`](../interfaces/ILicensesElement.md#domain)
-
-#### Defined in
-
-main.ts:33915
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:33915
 
 > `optional` **title**: `string`
 
-title of a given link element
+Defined in: main.ts:22138
+
+title of the element
 
 #### Implementation of
 
 [`ILicensesElement`](../interfaces/ILicensesElement.md).[`title`](../interfaces/ILicensesElement.md#title)
-
-#### Defined in
-
-main.ts:33911
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:33911
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22136
+
 type of element
 
 #### Implementation of
 
 [`ILicensesElement`](../interfaces/ILicensesElement.md).[`type`](../interfaces/ILicensesElement.md#type)
-
-#### Defined in
-
-main.ts:33909
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:33909
 
 > `optional` **url**: `string`
 
-URL
+Defined in: main.ts:22140
+
+search URL with refinement parameters
 
 #### Implementation of
 
 [`ILicensesElement`](../interfaces/ILicensesElement.md).[`url`](../interfaces/ILicensesElement.md#url)
-
-#### Defined in
-
-main.ts:33913
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:33913
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:22155
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:33928
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:33928
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:22175
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:33948
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:33948
 
 > `static` **fromJS**(`data`): [`LicensesElement`](LicensesElement.md)
 
+Defined in: main.ts:22168
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`LicensesElement`](LicensesElement.md)
-
-#### Defined in
-
-main.ts:33941

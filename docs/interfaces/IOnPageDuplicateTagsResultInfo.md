@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageDuplicateTagsResultInfo
+[Documentation](../README.md) / IOnPageDuplicateTagsResultInfo
 
 # Interface: IOnPageDuplicateTagsResultInfo
 
+Defined in: main.ts:168726
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:168729
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:156993
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:156993
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:168731
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:156995
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:156995
 
 > `optional` **items**: [`OnPageDuplicateTagsItem`](../classes/OnPageDuplicateTagsItem.md)[]
 
+Defined in: main.ts:168741
+
 items array
-
-#### Defined in
-
-main.ts:157005
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:157005
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:168739
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:157003
 
 ***
 
@@ -65,12 +59,10 @@ main.ts:157003
 
 > `optional` **pages\_count**: `number`
 
+Defined in: main.ts:168737
+
 number of pages with duplicate tags in the response
 displays the number of pages with duplicate tags returned in the response
-
-#### Defined in
-
-main.ts:157001
 
 ***
 
@@ -78,9 +70,7 @@ main.ts:157001
 
 > `optional` **total\_pages\_count**: `number`
 
+Defined in: main.ts:168734
+
 total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website
-
-#### Defined in
-
-main.ts:156998

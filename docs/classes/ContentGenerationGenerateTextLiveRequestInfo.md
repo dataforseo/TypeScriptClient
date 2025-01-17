@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateTextLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationGenerateTextLiveRequestInfo
 
 # Class: ContentGenerationGenerateTextLiveRequestInfo
+
+Defined in: main.ts:181560
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentGenerationGenerateTextLiveRequestInfo**(`data`?): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
+Defined in: main.ts:181614
+
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:169924
 
 ## Properties
 
 ### creativity\_index?
 
 > `optional` **creativity\_index**: `number`
+
+Defined in: main.ts:181594
 
 creativity of content generation
 optional field
@@ -49,15 +53,13 @@ learn more about this parameter on our help center
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#creativity_index)
 
-#### Defined in
-
-main.ts:169904
-
 ***
 
 ### description?
 
 > `optional` **description**: `string`
+
+Defined in: main.ts:181581
 
 meta description of the content to generate
 optional field
@@ -68,15 +70,13 @@ learn more about this parameter on our help center
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`description`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#description)
 
-#### Defined in
-
-main.ts:169891
-
 ***
 
 ### include\_conclusion?
 
 > `optional` **include\_conclusion**: `boolean`
+
+Defined in: main.ts:181598
 
 include conclusion in generated text
 optional field
@@ -86,15 +86,13 @@ if set to true, generated content will include a logical conclusion
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`include_conclusion`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#include_conclusion)
 
-#### Defined in
-
-main.ts:169908
-
 ***
 
 ### meta\_keywords?
 
 > `optional` **meta\_keywords**: `string`[]
+
+Defined in: main.ts:181587
 
 keywords for the content to generate
 optional field
@@ -106,15 +104,13 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`meta_keywords`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#meta_keywords)
 
-#### Defined in
-
-main.ts:169897
-
 ***
 
 ### sub\_topics?
 
 > `optional` **sub\_topics**: `string`[]
+
+Defined in: main.ts:181576
 
 secondary topics of the content to generate
 optional field
@@ -126,15 +122,13 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`sub_topics`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#sub_topics)
 
-#### Defined in
-
-main.ts:169886
-
 ***
 
 ### supplement\_token?
 
 > `optional` **supplement\_token**: `string`
+
+Defined in: main.ts:181604
 
 token for generating subsequent results
 optional field
@@ -146,15 +140,13 @@ supplement_token values are unique for each subsequent task
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`supplement_token`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#supplement_token)
 
-#### Defined in
-
-main.ts:169914
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:181610
 
 user-defined task identifier
 optional field
@@ -166,15 +158,13 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:169920
-
 ***
 
 ### topic?
 
 > `optional` **topic**: `string`
+
+Defined in: main.ts:181565
 
 main topic of the content to generate
 required field
@@ -185,15 +175,13 @@ can contain from 1 to 50 tokens
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`topic`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#topic)
 
-#### Defined in
-
-main.ts:169875
-
 ***
 
 ### word\_count?
 
 > `optional` **word\_count**: `number`
+
+Defined in: main.ts:181570
 
 number of words in content
 required field
@@ -204,27 +192,23 @@ can take values from 1 to 1000
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`word_count`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#word_count)
 
-#### Defined in
-
-main.ts:169880
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:181623
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:169933
 
 ***
 
@@ -232,17 +216,17 @@ main.ts:169933
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:181656
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:169966
 
 ***
 
@@ -250,14 +234,14 @@ main.ts:169966
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
+Defined in: main.ts:181649
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:169959

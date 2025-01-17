@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleLanguagesResultInfo
+[Documentation](../README.md) / MerchantGoogleLanguagesResultInfo
 
 # Class: MerchantGoogleLanguagesResultInfo
+
+Defined in: main.ts:184698
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MerchantGoogleLanguagesResultInfo**(`data`?): [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
 
+Defined in: main.ts:184706
+
 #### Parameters
 
-• **data?**: [`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md)
+##### data?
+
+[`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:173016
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:173016
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:184702
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/IMerchantGoogleLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:173012
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:173012
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:184700
+
 language name
 
 #### Implementation of
 
 [`IMerchantGoogleLanguagesResultInfo`](../interfaces/IMerchantGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/IMerchantGoogleLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:173010
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:173010
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:184715
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:173025
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:173025
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:184733
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:173043
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:173043
 
 > `static` **fromJS**(`data`): [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
 
+Defined in: main.ts:184726
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantGoogleLanguagesResultInfo`](MerchantGoogleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:173036

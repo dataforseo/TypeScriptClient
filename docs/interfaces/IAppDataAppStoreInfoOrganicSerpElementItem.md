@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppStoreInfoOrganicSerpElementItem
+[Documentation](../README.md) / IAppDataAppStoreInfoOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreInfoOrganicSerpElementItem
+
+Defined in: main.ts:206749
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **advisories**: `string`[]
 
+Defined in: main.ts:206771
+
 age rating and age-based content advisories
-
-#### Defined in
-
-main.ts:194328
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:194328
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:206751
+
 ID of the app
-
-#### Defined in
-
-main.ts:194308
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:194308
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:206767
+
 all relevant categories/genres of the app
-
-#### Defined in
-
-main.ts:194324
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:194324
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:206757
+
 description of the app
-
-#### Defined in
-
-main.ts:194314
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:194314
 
 > `optional` **developer**: `string`
 
+Defined in: main.ts:206773
+
 name of the app developer
-
-#### Defined in
-
-main.ts:194330
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:194330
 
 > `optional` **developer\_id**: `string`
 
+Defined in: main.ts:206775
+
 ID of the app developer
-
-#### Defined in
-
-main.ts:194332
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:194332
 
 > `optional` **developer\_url**: `string`
 
+Defined in: main.ts:206777
+
 URL to the developer page on App Store
-
-#### Defined in
-
-main.ts:194334
 
 ***
 
@@ -104,11 +92,9 @@ main.ts:194334
 
 > `optional` **icon**: `string`
 
+Defined in: main.ts:206755
+
 URL to the app icon
-
-#### Defined in
-
-main.ts:194312
 
 ***
 
@@ -116,12 +102,10 @@ main.ts:194312
 
 > `optional` **images**: `string`[]
 
+Defined in: main.ts:206799
+
 app images
 contains URLs to the images used on the app page on App Store
-
-#### Defined in
-
-main.ts:194356
 
 ***
 
@@ -129,11 +113,9 @@ main.ts:194356
 
 > `optional` **is\_free**: `boolean`
 
+Defined in: main.ts:206763
+
 indicates whether the app is free
-
-#### Defined in
-
-main.ts:194320
 
 ***
 
@@ -141,11 +123,9 @@ main.ts:194320
 
 > `optional` **languages**: `string`[]
 
+Defined in: main.ts:206769
+
 languages supported in the app
-
-#### Defined in
-
-main.ts:194326
 
 ***
 
@@ -153,14 +133,12 @@ main.ts:194326
 
 > `optional` **last\_update\_date**: `string`
 
+Defined in: main.ts:206793
+
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:194350
 
 ***
 
@@ -168,11 +146,9 @@ main.ts:194350
 
 > `optional` **main\_category**: `string`
 
+Defined in: main.ts:206765
+
 main category/genre of the app
-
-#### Defined in
-
-main.ts:194322
 
 ***
 
@@ -180,11 +156,9 @@ main.ts:194322
 
 > `optional` **minimum\_os\_version**: `string`
 
+Defined in: main.ts:206781
+
 minimum OS version required to install the app
-
-#### Defined in
-
-main.ts:194338
 
 ***
 
@@ -192,18 +166,18 @@ main.ts:194338
 
 > `optional` **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
+Defined in: main.ts:206805
+
 similar apps
 information about apps built by the same developer
-
-#### Defined in
-
-main.ts:194362
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:22971
 
 the alignment of the element in SERP
 can take the following values:
@@ -213,27 +187,23 @@ left, right
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:22068
-
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+
+Defined in: main.ts:206761
 
 price of the app
-
-#### Defined in
-
-main.ts:194318
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:22967
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -242,15 +212,13 @@ absolute position among all the elements in SERP
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:22064
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22964
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -259,15 +227,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:22061
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+
+Defined in: main.ts:22975
 
 average rating of the app
 
@@ -275,24 +241,18 @@ average rating of the app
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:22072
-
 ***
 
 ### released\_date?
 
 > `optional` **released\_date**: `string`
 
+Defined in: main.ts:206788
+
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:194345
 
 ***
 
@@ -300,11 +260,9 @@ main.ts:194345
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:206759
+
 the total number of reviews of the app
-
-#### Defined in
-
-main.ts:194316
 
 ***
 
@@ -312,12 +270,10 @@ main.ts:194316
 
 > `optional` **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
+Defined in: main.ts:206802
+
 similar apps
 displays apps similar to the app in a POST request
-
-#### Defined in
-
-main.ts:194359
 
 ***
 
@@ -325,11 +281,9 @@ main.ts:194359
 
 > `optional` **size**: `string`
 
+Defined in: main.ts:206783
+
 size of the app
-
-#### Defined in
-
-main.ts:194340
 
 ***
 
@@ -337,15 +291,13 @@ main.ts:194340
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:22973
+
 title of the app
 
 #### Inherited from
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
-
-#### Defined in
-
-main.ts:22070
 
 ***
 
@@ -353,15 +305,13 @@ main.ts:22070
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22961
+
 type of element
 
 #### Inherited from
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:22058
 
 ***
 
@@ -369,12 +319,10 @@ main.ts:22058
 
 > `optional` **update\_notes**: `string`
 
+Defined in: main.ts:206796
+
 update notes
 contains the latest update notes from the developer
-
-#### Defined in
-
-main.ts:194353
 
 ***
 
@@ -382,11 +330,9 @@ main.ts:194353
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:206753
+
 URL to the app page on App Store
-
-#### Defined in
-
-main.ts:194310
 
 ***
 
@@ -394,8 +340,6 @@ main.ts:194310
 
 > `optional` **version**: `string`
 
+Defined in: main.ts:206779
+
 current version of the app
-
-#### Defined in
-
-main.ts:194336

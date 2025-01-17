@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductCategoryInfo
+[Documentation](../README.md) / IProductCategoryInfo
 
 # Interface: IProductCategoryInfo
 
+Defined in: main.ts:194144
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:194146
+
 product category name
-
-#### Defined in
-
-main.ts:181927
 
 ***
 
@@ -28,9 +28,7 @@ main.ts:181927
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:194149
+
 product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon)
-
-#### Defined in
-
-main.ts:181930

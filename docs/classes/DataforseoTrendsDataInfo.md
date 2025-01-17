@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoTrendsDataInfo
+[Documentation](../README.md) / DataforseoTrendsDataInfo
 
 # Class: DataforseoTrendsDataInfo
+
+Defined in: main.ts:137272
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoTrendsDataInfo**(`data`?): [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
 
+Defined in: main.ts:137280
+
 #### Parameters
 
-• **data?**: [`IDataforseoTrendsDataInfo`](../interfaces/IDataforseoTrendsDataInfo.md)
+##### data?
+
+[`IDataforseoTrendsDataInfo`](../interfaces/IDataforseoTrendsDataInfo.md)
 
 #### Returns
 
 [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
-
-#### Defined in
-
-main.ts:126922
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:126922
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:137274
+
 relevant keyword for which demographic data is provided
 
 #### Implementation of
 
 [`IDataforseoTrendsDataInfo`](../interfaces/IDataforseoTrendsDataInfo.md).[`keyword`](../interfaces/IDataforseoTrendsDataInfo.md#keyword)
-
-#### Defined in
-
-main.ts:126916
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:126916
 
 > `optional` **values**: [`DemographyItemValueInfo`](DemographyItemValueInfo.md)[]
 
+Defined in: main.ts:137276
+
 contains age range and corresponding keyword popularity values
 
 #### Implementation of
 
 [`IDataforseoTrendsDataInfo`](../interfaces/IDataforseoTrendsDataInfo.md).[`values`](../interfaces/IDataforseoTrendsDataInfo.md#values)
-
-#### Defined in
-
-main.ts:126918
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:126918
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:137289
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:126931
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:126931
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:137311
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:126953
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:126953
 
 > `static` **fromJS**(`data`): [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
 
+Defined in: main.ts:137304
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
-
-#### Defined in
-
-main.ts:126946

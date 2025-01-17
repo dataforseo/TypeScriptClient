@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeLanguagesResultInfo
+[Documentation](../README.md) / SerpYoutubeLanguagesResultInfo
 
 # Class: SerpYoutubeLanguagesResultInfo
+
+Defined in: main.ts:69321
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpYoutubeLanguagesResultInfo**(`data`?): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
+Defined in: main.ts:69329
+
 #### Parameters
 
-• **data?**: [`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md)
+##### data?
+
+[`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:61118
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:61118
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:69325
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpYoutubeLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:61114
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:61114
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:69323
+
 language name
 
 #### Implementation of
 
 [`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpYoutubeLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:61112
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:61112
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:69338
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:61127
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:61127
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:69356
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:61145
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:61145
 
 > `static` **fromJS**(`data`): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
+Defined in: main.ts:69349
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:61138

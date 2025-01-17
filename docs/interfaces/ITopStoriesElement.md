@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopStoriesElement
+[Documentation](../README.md) / ITopStoriesElement
 
 # Interface: ITopStoriesElement
 
+Defined in: main.ts:31656
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **amp\_version**: `boolean`
 
+Defined in: main.ts:31670
+
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
-
-#### Defined in
-
-main.ts:29835
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:29835
 
 > `optional` **badges**: `string`[]
 
+Defined in: main.ts:31682
+
 badges relevant to the element
-
-#### Defined in
-
-main.ts:29846
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:29846
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:31667
+
 the date when the page source of the element was published
-
-#### Defined in
-
-main.ts:29832
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:29832
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:31663
+
 website domain
-
-#### Defined in
-
-main.ts:29828
 
 ***
 
@@ -65,11 +59,10 @@ main.ts:29828
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:31680
+
 URL of the image
-
-#### Defined in
-
-main.ts:29844
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 ***
 
@@ -77,12 +70,10 @@ main.ts:29844
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:31661
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:29826
 
 ***
 
@@ -90,14 +81,12 @@ main.ts:29826
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:31675
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:29840
 
 ***
 
@@ -105,11 +94,9 @@ main.ts:29840
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:31665
+
 title of a given link element
-
-#### Defined in
-
-main.ts:29830
 
 ***
 
@@ -117,11 +104,9 @@ main.ts:29830
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:31658
+
 type of element
-
-#### Defined in
-
-main.ts:29823
 
 ***
 
@@ -129,8 +114,6 @@ main.ts:29823
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:31677
+
 URL
-
-#### Defined in
-
-main.ts:29842

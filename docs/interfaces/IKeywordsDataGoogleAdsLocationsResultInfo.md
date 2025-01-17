@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsLocationsResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleAdsLocationsResultInfo
 
+Defined in: main.ts:126221
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:126236
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:116963
 
 ***
 
@@ -28,17 +28,17 @@ main.ts:116963
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:126223
+
 location code
-
-#### Defined in
-
-main.ts:116950
 
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:126234
 
 the code of the superordinate location
 example:
@@ -49,21 +49,15 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
-
-main.ts:116961
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:126225
+
 full name of the location
-
-#### Defined in
-
-main.ts:116952
 
 ***
 
@@ -71,9 +65,7 @@ main.ts:116952
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:126239
+
 location type
 possible values according to Google’s target types
-
-#### Defined in
-
-main.ts:116966

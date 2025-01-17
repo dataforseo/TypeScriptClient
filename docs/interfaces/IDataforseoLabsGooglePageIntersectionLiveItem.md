@@ -26,7 +26,11 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100552
+=======
+main.ts:100585
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -38,7 +42,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100548
+=======
+main.ts:100581
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -50,4 +58,8 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:100546
+=======
+main.ts:100579
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

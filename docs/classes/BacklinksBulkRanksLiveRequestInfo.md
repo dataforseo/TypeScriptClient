@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkRanksLiveRequestInfo
+[Documentation](../README.md) / BacklinksBulkRanksLiveRequestInfo
 
 # Class: BacklinksBulkRanksLiveRequestInfo
+
+Defined in: main.ts:160266
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBulkRanksLiveRequestInfo**(`data`?): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
+Defined in: main.ts:160295
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:148989
 
 ## Properties
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:160291
 
 user-defined task identifier
 optional field
@@ -48,15 +52,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:148985
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:160285
 
 domains, subdomains or webpages to get rank for
 required field
@@ -81,27 +83,23 @@ example:
 
 [`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#targets)
 
-#### Defined in
-
-main.ts:148979
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:160304
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:148998
 
 ***
 
@@ -109,17 +107,17 @@ main.ts:148998
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:160326
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:149020
 
 ***
 
@@ -127,14 +125,14 @@ main.ts:149020
 
 > `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
+Defined in: main.ts:160319
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:149013

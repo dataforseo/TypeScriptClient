@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalBusinessReservationLink
+[Documentation](../README.md) / ILocalBusinessReservationLink
 
 # Interface: ILocalBusinessReservationLink
+
+Defined in: main.ts:25019
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,12 +22,10 @@
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:25022
+
 title of the element
 domain of the reservation software
-
-#### Defined in
-
-main.ts:23952
 
 ***
 
@@ -33,15 +33,13 @@ main.ts:23952
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24970
+
 type of element
 
 #### Inherited from
 
 [`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md).[`type`](IBaseLocalBusinessLink.md#type)
-
-#### Defined in
-
-main.ts:23900
 
 ***
 
@@ -49,8 +47,6 @@ main.ts:23900
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:25024
+
 URL to make a reservation
-
-#### Defined in
-
-main.ts:23954

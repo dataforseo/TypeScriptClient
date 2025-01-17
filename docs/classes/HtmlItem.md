@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HtmlItem
+[Documentation](../README.md) / HtmlItem
 
 # Class: HtmlItem
+
+Defined in: main.ts:38435
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new HtmlItem**(`data`?): [`HtmlItem`](HtmlItem.md)
 
+Defined in: main.ts:38448
+
 #### Parameters
 
-• **data?**: [`IHtmlItem`](../interfaces/IHtmlItem.md)
+##### data?
+
+[`IHtmlItem`](../interfaces/IHtmlItem.md)
 
 #### Returns
 
 [`HtmlItem`](HtmlItem.md)
-
-#### Defined in
-
-main.ts:36924
 
 ## Properties
 
 ### date?
 
 > `optional` **date**: `string`
+
+Defined in: main.ts:38442
 
 date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`IHtmlItem`](../interfaces/IHtmlItem.md).[`date`](../interfaces/IHtmlItem.md#date)
 
-#### Defined in
-
-main.ts:36918
-
 ***
 
 ### html?
 
 > `optional` **html**: `string`
+
+Defined in: main.ts:38444
 
 HTML page
 
@@ -63,15 +65,13 @@ HTML page
 
 [`IHtmlItem`](../interfaces/IHtmlItem.md).[`html`](../interfaces/IHtmlItem.md#html)
 
-#### Defined in
-
-main.ts:36920
-
 ***
 
 ### page?
 
 > `optional` **page**: `number`
+
+Defined in: main.ts:38437
 
 serial number of the returned HTML page
 
@@ -79,27 +79,23 @@ serial number of the returned HTML page
 
 [`IHtmlItem`](../interfaces/IHtmlItem.md).[`page`](../interfaces/IHtmlItem.md#page)
 
-#### Defined in
-
-main.ts:36913
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:38457
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:36933
 
 ***
 
@@ -107,17 +103,17 @@ main.ts:36933
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:38476
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:36952
 
 ***
 
@@ -125,14 +121,14 @@ main.ts:36952
 
 > `static` **fromJS**(`data`): [`HtmlItem`](HtmlItem.md)
 
+Defined in: main.ts:38469
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HtmlItem`](HtmlItem.md)
-
-#### Defined in
-
-main.ts:36945

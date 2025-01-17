@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IIntersectionSummaryInfo
+[Documentation](../README.md) / IIntersectionSummaryInfo
 
 # Interface: IIntersectionSummaryInfo
 
+Defined in: main.ts:157981
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **intersections\_count**: `number`
 
+Defined in: main.ts:157983
+
 total number of intersections
-
-#### Defined in
-
-main.ts:146677

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphDataforseoLabsSerpElementItem
+
+Defined in: main.ts:106169
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **card\_id**: `string`
 
+Defined in: main.ts:106179
+
 card id
-
-#### Defined in
-
-main.ts:96434
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:96434
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:106187
+
 google-defined client id
-
-#### Defined in
-
-main.ts:96442
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:96442
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:106177
+
 description of the results element in SERP
-
-#### Defined in
-
-main.ts:96432
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:96432
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:106183
+
 URL of the image from knowledge graph
-
-#### Defined in
-
-main.ts:96438
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:96438
 
 > `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
 
+Defined in: main.ts:106189
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:96444
 
 ***
 
@@ -80,17 +72,17 @@ main.ts:96444
 
 > `optional` **logo\_url**: `string`
 
+Defined in: main.ts:106185
+
 URL of the logo from knowledge graph
-
-#### Defined in
-
-main.ts:96440
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21703
 
 the alignment of the element in SERP
 can take the following values:
@@ -100,15 +92,13 @@ left, right
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21020
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21699
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -117,15 +107,13 @@ absolute position among all the elements in SERP
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21016
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21696
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,21 +122,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21013
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:106171
+
 search engine type
-
-#### Defined in
-
-main.ts:96426
 
 ***
 
@@ -156,11 +138,9 @@ main.ts:96426
 
 > `optional` **sub\_title**: `string`
 
+Defined in: main.ts:106175
+
 subtitle of the item
-
-#### Defined in
-
-main.ts:96430
 
 ***
 
@@ -168,11 +148,9 @@ main.ts:96430
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:106173
+
 title of the result in SERP
-
-#### Defined in
-
-main.ts:96428
 
 ***
 
@@ -180,15 +158,13 @@ main.ts:96428
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21693
+
 type of element
 
 #### Inherited from
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21010
 
 ***
 
@@ -196,11 +172,9 @@ main.ts:21010
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:106181
+
 relevant URL of the Ad element in SERP
-
-#### Defined in
-
-main.ts:96436
 
 ***
 
@@ -208,12 +182,10 @@ main.ts:96436
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21705
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:21022

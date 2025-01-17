@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleTrendsTopicsListElementItem
+[Documentation](../README.md) / IGoogleTrendsTopicsListElementItem
 
 # Interface: IGoogleTrendsTopicsListElementItem
+
+Defined in: main.ts:135274
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,17 +22,17 @@
 
 > `optional` **data**: [`TrendsTopicListDataInfo`](../classes/TrendsTopicListDataInfo.md)
 
+Defined in: main.ts:135276
+
 Google Trends data from the corresponding item
-
-#### Defined in
-
-main.ts:124924
 
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22784
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -39,15 +41,13 @@ the data included in the google_trends_graph element is based on the keywords li
 
 [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`keywords`](IBaseGoogleTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21881
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22779
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -56,15 +56,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`position`](IBaseGoogleTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21876
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:22781
 
 title of the element in Google Trends
 
@@ -72,22 +70,16 @@ title of the element in Google Trends
 
 [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`title`](IBaseGoogleTrendsItem.md#title)
 
-#### Defined in
-
-main.ts:21878
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22776
+
 type of element
 
 #### Inherited from
 
 [`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`type`](IBaseGoogleTrendsItem.md#type)
-
-#### Defined in
-
-main.ts:21873

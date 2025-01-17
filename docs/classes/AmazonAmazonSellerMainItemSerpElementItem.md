@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonAmazonSellerMainItemSerpElementItem
+[Documentation](../README.md) / AmazonAmazonSellerMainItemSerpElementItem
 
 # Class: AmazonAmazonSellerMainItemSerpElementItem
+
+Defined in: main.ts:195984
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new AmazonAmazonSellerMainItemSerpElementItem**(`data`?): [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
 
+Defined in: main.ts:196013
+
 #### Parameters
 
-• **data?**: [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md)
+##### data?
+
+[`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:183600
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:23218
+
 #### Inherited from
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`_discriminator`](BaseAmazonSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:22315
 
 ***
 
 ### condition?
 
 > `optional` **condition**: `string`
+
+Defined in: main.ts:196003
 
 product condition
 condition of the product offered by the seller
@@ -67,15 +69,13 @@ condition of the product offered by the seller
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`condition`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#condition)
 
-#### Defined in
-
-main.ts:183590
-
 ***
 
 ### condition\_description?
 
 > `optional` **condition\_description**: `string`
+
+Defined in: main.ts:196006
 
 product condition details
 expanded details on the condition of the product offered by the seller
@@ -84,15 +84,13 @@ expanded details on the condition of the product offered by the seller
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`condition_description`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#condition_description)
 
-#### Defined in
-
-main.ts:183593
-
 ***
 
 ### delivery\_info?
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
+
+Defined in: main.ts:196009
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -101,15 +99,13 @@ delivery information including free and fast delivery date ranges
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`delivery_info`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#delivery_info)
 
-#### Defined in
-
-main.ts:183596
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:195988
 
 alignment of the element in SERP
 possible values:
@@ -119,15 +115,13 @@ left, right
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`position`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:183575
-
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:195997
 
 product pricing details
 if there are no details, the value will be null
@@ -136,15 +130,13 @@ if there are no details, the value will be null
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`price`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#price)
 
-#### Defined in
-
-main.ts:183584
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:23214
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -157,15 +149,13 @@ absolute position among all the elements in SERP
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_absolute`](BaseAmazonSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:22311
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:23211
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -178,15 +168,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_group`](BaseAmazonSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:22308
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
+
+Defined in: main.ts:196000
 
 seller rating details
 seller popularity rate based on customer reviews
@@ -195,15 +183,13 @@ seller popularity rate based on customer reviews
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`rating`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:183587
-
 ***
 
 ### seller\_name?
 
 > `optional` **seller\_name**: `string`
+
+Defined in: main.ts:195990
 
 business name of the seller
 
@@ -211,15 +197,13 @@ business name of the seller
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`seller_name`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#seller_name)
 
-#### Defined in
-
-main.ts:183577
-
 ***
 
 ### seller\_url?
 
 > `optional` **seller\_url**: `string`
+
+Defined in: main.ts:195992
 
 url forwarding to the seller’s page on Amazon
 
@@ -227,15 +211,13 @@ url forwarding to the seller’s page on Amazon
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`seller_url`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#seller_url)
 
-#### Defined in
-
-main.ts:183579
-
 ***
 
 ### ships\_from?
 
 > `optional` **ships\_from**: `string`
+
+Defined in: main.ts:195994
 
 sender company name
 
@@ -243,15 +225,13 @@ sender company name
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`ships_from`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#ships_from)
 
-#### Defined in
-
-main.ts:183581
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:23208
 
 type of element
 
@@ -263,15 +243,13 @@ type of element
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`type`](BaseAmazonSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:22305
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:23216
 
 the XPath of the element
 
@@ -283,19 +261,19 @@ the XPath of the element
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`xpath`](BaseAmazonSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:22313
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:196018
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -305,19 +283,19 @@ main.ts:22313
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`init`](BaseAmazonSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:183605
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:196044
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -327,19 +305,19 @@ main.ts:183605
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`toJSON`](BaseAmazonSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:183631
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`AmazonAmazonSellerMainItemSerpElementItem`](AmazonAmazonSellerMainItemSerpElementItem.md)
 
+Defined in: main.ts:196037
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -348,7 +326,3 @@ main.ts:183631
 #### Overrides
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`fromJS`](BaseAmazonSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:183624

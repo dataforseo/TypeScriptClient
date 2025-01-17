@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PeriodCovered
+[Documentation](../README.md) / PeriodCovered
 
 # Class: PeriodCovered
+
+Defined in: main.ts:57712
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new PeriodCovered**(`data`?): [`PeriodCovered`](PeriodCovered.md)
 
+Defined in: main.ts:57730
+
 #### Parameters
 
-• **data?**: [`IPeriodCovered`](../interfaces/IPeriodCovered.md)
+##### data?
+
+[`IPeriodCovered`](../interfaces/IPeriodCovered.md)
 
 #### Returns
 
 [`PeriodCovered`](PeriodCovered.md)
-
-#### Defined in
-
-main.ts:54036
 
 ## Properties
 
 ### displayed\_date?
 
 > `optional` **displayed\_date**: `string`
+
+Defined in: main.ts:57726
 
 period displayed in SERP
 example:
@@ -46,15 +50,13 @@ Mar 2, 2020 - Dec 9, 2022
 
 [`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`displayed_date`](../interfaces/IPeriodCovered.md#displayed_date)
 
-#### Defined in
-
-main.ts:54032
-
 ***
 
 ### end\_date?
 
 > `optional` **end\_date**: `string`
+
+Defined in: main.ts:57722
 
 date and time when the period ends
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -65,15 +67,13 @@ example:
 
 [`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`end_date`](../interfaces/IPeriodCovered.md#end_date)
 
-#### Defined in
-
-main.ts:54028
-
 ***
 
 ### start\_date?
 
 > `optional` **start\_date**: `string`
+
+Defined in: main.ts:57717
 
 date and time when the period starts
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -84,27 +84,23 @@ example:
 
 [`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`start_date`](../interfaces/IPeriodCovered.md#start_date)
 
-#### Defined in
-
-main.ts:54023
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:57739
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:54045
 
 ***
 
@@ -112,17 +108,17 @@ main.ts:54045
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:57758
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:54064
 
 ***
 
@@ -130,14 +126,14 @@ main.ts:54064
 
 > `static` **fromJS**(`data`): [`PeriodCovered`](PeriodCovered.md)
 
+Defined in: main.ts:57751
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PeriodCovered`](PeriodCovered.md)
-
-#### Defined in
-
-main.ts:54057

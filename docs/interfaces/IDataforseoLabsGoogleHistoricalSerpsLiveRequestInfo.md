@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
+Defined in: main.ts:105607
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,21 +18,21 @@
 
 > `optional` **date\_from**: `string`
 
+Defined in: main.ts:105620
+
 starting date of the time range
 optional field
 if you don’t specify this field, the API will return all SERPs collected for 365 days starting from the current datetime value;
 minimal possible value: 365 days from the current datetime value;
 date format: "yyyy-mm-dd"
 
-#### Defined in
-
-main.ts:95801
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:105627
 
 ending date of the time range
 optional field
@@ -39,32 +41,28 @@ date format: "yyyy-mm-dd";
 example:
 "2021-09-01"
 
-#### Defined in
-
-main.ts:95808
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:105614
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
-
-#### Defined in
-
-main.ts:95795
+you can specify up to 700 characters in the keyword field;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:105657
 
 language code
 optional field
@@ -74,15 +72,13 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
-
-main.ts:95838
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:105649
 
 full name of the language
 optional field
@@ -92,15 +88,13 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
-
-main.ts:95830
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:105641
 
 unique location identifier
 required field if you don’t specify location_name
@@ -109,15 +103,13 @@ you can receive the list of available locations with their location_code by maki
 example:
 2840
 
-#### Defined in
-
-main.ts:95822
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:105634
 
 full name of the location
 required field if you don’t specify location_code
@@ -126,22 +118,16 @@ you can receive the list of available locations with their location_name by maki
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:95815
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:105663
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:95844

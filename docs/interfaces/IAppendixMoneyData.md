@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMoneyData
+[Documentation](../README.md) / IAppendixMoneyData
 
 # Interface: IAppendixMoneyData
 
+Defined in: main.ts:236131
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **balance**: `number`
 
+Defined in: main.ts:236135
+
 amount of money left in your account
-
-#### Defined in
-
-main.ts:220871
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:220871
 
 > `optional` **limits**: [`AppendixLimitsMoneyData`](../classes/AppendixLimitsMoneyData.md)
 
+Defined in: main.ts:236137
+
 cost limits
-
-#### Defined in
-
-main.ts:220873
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:220873
 
 > `optional` **statistics**: [`AppendixStatisticsMoneyData`](../classes/AppendixStatisticsMoneyData.md)
 
+Defined in: main.ts:236139
+
 statistics of your spending
-
-#### Defined in
-
-main.ts:220875
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:220875
 
 > `optional` **total**: `number`
 
+Defined in: main.ts:236133
+
 total amount of money deposited to your account
-
-#### Defined in
-
-main.ts:220869

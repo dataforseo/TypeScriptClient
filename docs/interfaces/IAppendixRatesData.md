@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixRatesData
+[Documentation](../README.md) / IAppendixRatesData
 
 # Interface: IAppendixRatesData
 
+Defined in: main.ts:235119
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **limits**: [`AppendixLimitsRatesData`](../classes/AppendixLimitsRatesData.md)
 
+Defined in: main.ts:235121
+
 rate limits for API calls per a certain period of time
-
-#### Defined in
-
-main.ts:220021
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:220021
 
 > `optional` **statistics**: [`AppendixStatisticsRatesData`](../classes/AppendixStatisticsRatesData.md)
 
+Defined in: main.ts:235123
+
 statisctics for API calls
-
-#### Defined in
-
-main.ts:220023

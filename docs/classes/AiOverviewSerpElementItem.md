@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AiOverviewSerpElementItem
+[Documentation](../README.md) / AiOverviewSerpElementItem
 
 # Class: AiOverviewSerpElementItem
+
+Defined in: main.ts:38077
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new AiOverviewSerpElementItem**(`data`?): [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
 
+Defined in: main.ts:38094
+
 #### Parameters
 
-• **data?**: [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md)
+##### data?
+
+[`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:36575
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21045
+
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:20367
 
 ***
 
 ### asynchronous\_ai\_overview?
 
 > `optional` **asynchronous\_ai\_overview**: `boolean`
+
+Defined in: main.ts:38081
 
 indicates whether the element is loaded asynchronically
 if true, the ai_overview element is loaded asynchronically;
@@ -68,32 +70,27 @@ if false, the ai_overview element is loaded from cache;
 
 [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`asynchronous_ai_overview`](../interfaces/IAiOverviewSerpElementItem.md#asynchronous_ai_overview)
 
-#### Defined in
-
-main.ts:36561
-
 ***
 
 ### items?
 
 > `optional` **items**: [`AiOverviewElement`](AiOverviewElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+Defined in: main.ts:38083
+
+contains arrays of specific images
 
 #### Implementation of
 
 [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`items`](../interfaces/IAiOverviewSerpElementItem.md#items)
-
-#### Defined in
-
-main.ts:36564
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21041
 
 the alignment of the element in SERP
 can take the following values:
@@ -107,15 +104,13 @@ left, right
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20363
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21037
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -128,15 +123,13 @@ absolute position among all the elements in SERP
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20359
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21034
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -150,15 +143,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20356
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
+
+Defined in: main.ts:38090
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -168,15 +159,13 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`rectangle`](../interfaces/IAiOverviewSerpElementItem.md#rectangle)
 
-#### Defined in
-
-main.ts:36571
-
 ***
 
 ### references?
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
+
+Defined in: main.ts:38086
 
 additional references relevant to the item
 includes references to webpages that may have been used to generate the ai_overview
@@ -185,15 +174,13 @@ includes references to webpages that may have been used to generate the ai_overv
 
 [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`references`](../interfaces/IAiOverviewSerpElementItem.md#references)
 
-#### Defined in
-
-main.ts:36567
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21030
 
 type of element
 
@@ -205,15 +192,13 @@ type of element
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20352
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21043
 
 the XPath of the element
 
@@ -225,19 +210,19 @@ the XPath of the element
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20365
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:38099
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -247,19 +232,19 @@ main.ts:20365
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:36580
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:38128
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -269,19 +254,19 @@ main.ts:36580
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:36609
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
 
+Defined in: main.ts:38121
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -290,7 +275,3 @@ main.ts:36609
 #### Overrides
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:36602

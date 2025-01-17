@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageContentInfo
+[Documentation](../README.md) / PageContentInfo
 
 # Class: PageContentInfo
+
+Defined in: main.ts:173474
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new PageContentInfo**(`data`?): [`PageContentInfo`](PageContentInfo.md)
 
+Defined in: main.ts:173488
+
 #### Parameters
 
-• **data?**: [`IPageContentInfo`](../interfaces/IPageContentInfo.md)
+##### data?
+
+[`IPageContentInfo`](../interfaces/IPageContentInfo.md)
 
 #### Returns
 
 [`PageContentInfo`](PageContentInfo.md)
-
-#### Defined in
-
-main.ts:161774
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:161774
 
 > `optional` **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-content of the footer of the table
+Defined in: main.ts:173478
+
+parsed content of the footer
 
 #### Implementation of
 
 [`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`footer`](../interfaces/IPageContentInfo.md#footer)
-
-#### Defined in
-
-main.ts:161764
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:161764
 
 > `optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-parsed content of the header
+Defined in: main.ts:173476
+
+content of the header of the table
 
 #### Implementation of
 
 [`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`header`](../interfaces/IPageContentInfo.md#header)
-
-#### Defined in
-
-main.ts:161762
 
 ***
 
 ### main\_topic?
 
 > `optional` **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
+
+Defined in: main.ts:173481
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -77,15 +77,13 @@ you can find more information about topic priority calculation in this help cent
 
 [`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`main_topic`](../interfaces/IPageContentInfo.md#main_topic)
 
-#### Defined in
-
-main.ts:161767
-
 ***
 
 ### secondary\_topic?
 
 > `optional` **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
+
+Defined in: main.ts:173484
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -94,27 +92,23 @@ you can find more information about topic priority calculation in this help cent
 
 [`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`secondary_topic`](../interfaces/IPageContentInfo.md#secondary_topic)
 
-#### Defined in
-
-main.ts:161770
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:173497
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161783
 
 ***
 
@@ -122,17 +116,17 @@ main.ts:161783
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173525
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161811
 
 ***
 
@@ -140,14 +134,14 @@ main.ts:161811
 
 > `static` **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
 
+Defined in: main.ts:173518
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PageContentInfo`](PageContentInfo.md)
-
-#### Defined in
-
-main.ts:161804

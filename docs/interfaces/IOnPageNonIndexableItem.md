@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageNonIndexableItem
+[Documentation](../README.md) / IOnPageNonIndexableItem
 
 # Interface: IOnPageNonIndexableItem
 
+Defined in: main.ts:170484
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **reason**: `string`
 
+Defined in: main.ts:170487
+
 the reason why the page is non-indexable
 can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects
-
-#### Defined in
-
-main.ts:158751
 
 ***
 
@@ -29,8 +29,6 @@ main.ts:158751
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:170489
+
 url of the non-indexable page
-
-#### Defined in
-
-main.ts:158753

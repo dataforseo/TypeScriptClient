@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelPriceInfo
+[Documentation](../README.md) / HotelPriceInfo
 
 # Class: HotelPriceInfo
+
+Defined in: main.ts:217210
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new HotelPriceInfo**(`data`?): [`HotelPriceInfo`](HotelPriceInfo.md)
 
+Defined in: main.ts:217239
+
 #### Parameters
 
-• **data?**: [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md)
+##### data?
+
+[`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md)
 
 #### Returns
 
 [`HotelPriceInfo`](HotelPriceInfo.md)
-
-#### Defined in
-
-main.ts:203972
 
 ## Properties
 
 ### check\_in?
 
 > `optional` **check\_in**: `string`
+
+Defined in: main.ts:217224
 
 check-in date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md).[`check_in`](../interfaces/IHotelPriceInfo.md#check_in)
 
-#### Defined in
-
-main.ts:203957
-
 ***
 
 ### check\_out?
 
 > `optional` **check\_out**: `string`
+
+Defined in: main.ts:217229
 
 check-out date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -66,15 +68,13 @@ example:
 
 [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md).[`check_out`](../interfaces/IHotelPriceInfo.md#check_out)
 
-#### Defined in
-
-main.ts:203962
-
 ***
 
 ### currency?
 
 > `optional` **currency**: `string`
+
+Defined in: main.ts:217217
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -83,15 +83,13 @@ USD is applied by default, unless specified in the POST array
 
 [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md).[`currency`](../interfaces/IHotelPriceInfo.md#currency)
 
-#### Defined in
-
-main.ts:203950
-
 ***
 
 ### discount\_text?
 
 > `optional` **discount\_text**: `string`
+
+Defined in: main.ts:217219
 
 text about a discount applied
 
@@ -99,15 +97,13 @@ text about a discount applied
 
 [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md).[`discount_text`](../interfaces/IHotelPriceInfo.md#discount_text)
 
-#### Defined in
-
-main.ts:203952
-
 ***
 
 ### items?
 
 > `optional` **items**: [`HotelPriceItemInfo`](HotelPriceItemInfo.md)[]
+
+Defined in: main.ts:217235
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -117,15 +113,13 @@ possible item types: hotel_search_item
 
 [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md).[`items`](../interfaces/IHotelPriceInfo.md#items)
 
-#### Defined in
-
-main.ts:203968
-
 ***
 
 ### price?
 
 > `optional` **price**: `number`
+
+Defined in: main.ts:217212
 
 price per night
 
@@ -133,15 +127,13 @@ price per night
 
 [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md).[`price`](../interfaces/IHotelPriceInfo.md#price)
 
-#### Defined in
-
-main.ts:203945
-
 ***
 
 ### price\_without\_discount?
 
 > `optional` **price\_without\_discount**: `number`
+
+Defined in: main.ts:217214
 
 full price per night without a discount applied
 
@@ -149,15 +141,13 @@ full price per night without a discount applied
 
 [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md).[`price_without_discount`](../interfaces/IHotelPriceInfo.md#price_without_discount)
 
-#### Defined in
-
-main.ts:203947
-
 ***
 
 ### visitors?
 
 > `optional` **visitors**: `number`
+
+Defined in: main.ts:217231
 
 number of hotel visitors for this price
 
@@ -165,27 +155,23 @@ number of hotel visitors for this price
 
 [`IHotelPriceInfo`](../interfaces/IHotelPriceInfo.md).[`visitors`](../interfaces/IHotelPriceInfo.md#visitors)
 
-#### Defined in
-
-main.ts:203964
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:217248
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:203981
 
 ***
 
@@ -193,17 +179,17 @@ main.ts:203981
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:217276
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:204009
 
 ***
 
@@ -211,14 +197,14 @@ main.ts:204009
 
 > `static` **fromJS**(`data`): [`HotelPriceInfo`](HotelPriceInfo.md)
 
+Defined in: main.ts:217269
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HotelPriceInfo`](HotelPriceInfo.md)
-
-#### Defined in
-
-main.ts:204002

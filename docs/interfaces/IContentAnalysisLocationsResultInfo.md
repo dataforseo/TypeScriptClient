@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisLocationsResultInfo
+[Documentation](../README.md) / IContentAnalysisLocationsResultInfo
 
 # Interface: IContentAnalysisLocationsResultInfo
 
+Defined in: main.ts:176915
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:176919
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:165229
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:165229
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:176917
+
 full name of the location
-
-#### Defined in
-
-main.ts:165227

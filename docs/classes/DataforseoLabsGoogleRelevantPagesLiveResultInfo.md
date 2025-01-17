@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleRelevantPagesLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleRelevantPagesLiveResultInfo
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveResultInfo
+
+Defined in: main.ts:104818
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleRelevantPagesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
+Defined in: main.ts:104838
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:95019
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:95019
 
 > `optional` **items**: [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)[]
 
+Defined in: main.ts:104834
+
 relevant pages and related data
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:95015
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:95015
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:104832
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:95013
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:104828
 
 language code in a POST array
 if there is no data, then the value is null
@@ -77,15 +77,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:95009
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:104825
 
 location code in a POST array
 if there is no data, then the value is null
@@ -94,15 +92,13 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:95006
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:104820
 
 search engine type
 
@@ -110,15 +106,13 @@ search engine type
 
 [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:95001
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:104822
 
 target domain in a POST array
 
@@ -126,15 +120,13 @@ target domain in a POST array
 
 [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#target)
 
-#### Defined in
-
-main.ts:95003
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:104830
 
 total amount of results in our database relevant to your request
 
@@ -142,27 +134,23 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsGoogleRelevantPagesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:95011
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:104847
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:95028
 
 ***
 
@@ -170,17 +158,17 @@ main.ts:95028
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:104874
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:95055
 
 ***
 
@@ -188,14 +176,14 @@ main.ts:95055
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
 
+Defined in: main.ts:104867
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleRelevantPagesLiveResultInfo`](DataforseoLabsGoogleRelevantPagesLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:95048

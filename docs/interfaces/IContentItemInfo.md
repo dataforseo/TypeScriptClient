@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentItemInfo
+[Documentation](../README.md) / IContentItemInfo
 
 # Interface: IContentItemInfo
 
+Defined in: main.ts:173038
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:173040
+
 content text
-
-#### Defined in
-
-main.ts:161326
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:161326
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:173043
+
 page URL
 displayed in case the text is a link anchor
-
-#### Defined in
-
-main.ts:161329
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:161329
 
 > `optional` **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
 
+Defined in: main.ts:173045
+
 contains other URLs and anchors found in the content element
-
-#### Defined in
-
-main.ts:161331

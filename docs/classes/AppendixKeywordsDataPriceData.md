@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixKeywordsDataPriceData
+[Documentation](../README.md) / AppendixKeywordsDataPriceData
 
 # Class: AppendixKeywordsDataPriceData
+
+Defined in: main.ts:236694
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixKeywordsDataPriceData**(`data`?): [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
 
+Defined in: main.ts:236716
+
 #### Parameters
 
-• **data?**: [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md)
+##### data?
+
+[`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md)
 
 #### Returns
 
 [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
-
-#### Defined in
-
-main.ts:221442
 
 ## Properties
 
@@ -38,13 +40,23 @@ main.ts:221442
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236696
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`ad_traffic_by_keywords`](../interfaces/IAppendixKeywordsDataPriceData.md#ad_traffic_by_keywords)
 
-#### Defined in
+***
 
-main.ts:221424
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236697
+
+#### Implementation of
+
+[`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`audience_estimation`](../interfaces/IAppendixKeywordsDataPriceData.md#audience_estimation)
 
 ***
 
@@ -52,13 +64,11 @@ main.ts:221424
 
 > `optional` **bing**: [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
+Defined in: main.ts:236698
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`bing`](../interfaces/IAppendixKeywordsDataPriceData.md#bing)
-
-#### Defined in
-
-main.ts:221425
 
 ***
 
@@ -66,13 +76,11 @@ main.ts:221425
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236699
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`categories`](../interfaces/IAppendixKeywordsDataPriceData.md#categories)
-
-#### Defined in
-
-main.ts:221426
 
 ***
 
@@ -80,13 +88,11 @@ main.ts:221426
 
 > `optional` **clickstream\_data**: [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
 
+Defined in: main.ts:236700
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`clickstream_data`](../interfaces/IAppendixKeywordsDataPriceData.md#clickstream_data)
-
-#### Defined in
-
-main.ts:221427
 
 ***
 
@@ -94,13 +100,11 @@ main.ts:221427
 
 > `optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
+Defined in: main.ts:236711
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`dataforseo_trends`](../interfaces/IAppendixKeywordsDataPriceData.md#dataforseo_trends)
-
-#### Defined in
-
-main.ts:221437
 
 ***
 
@@ -108,13 +112,11 @@ main.ts:221437
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236701
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`errors`](../interfaces/IAppendixKeywordsDataPriceData.md#errors)
-
-#### Defined in
-
-main.ts:221428
 
 ***
 
@@ -122,13 +124,11 @@ main.ts:221428
 
 > `optional` **explore**: [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
 
+Defined in: main.ts:236712
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`explore`](../interfaces/IAppendixKeywordsDataPriceData.md#explore)
-
-#### Defined in
-
-main.ts:221438
 
 ***
 
@@ -136,13 +136,11 @@ main.ts:221438
 
 > `optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
 
+Defined in: main.ts:236702
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`google_ads`](../interfaces/IAppendixKeywordsDataPriceData.md#google_ads)
-
-#### Defined in
-
-main.ts:221429
 
 ***
 
@@ -150,13 +148,23 @@ main.ts:221429
 
 > `optional` **keyword\_performance**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236703
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`keyword_performance`](../interfaces/IAppendixKeywordsDataPriceData.md#keyword_performance)
 
-#### Defined in
+***
 
-main.ts:221430
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236706
+
+#### Implementation of
+
+[`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixKeywordsDataPriceData.md#keyword_suggestions_for_url)
 
 ***
 
@@ -164,13 +172,11 @@ main.ts:221430
 
 > `optional` **keywords\_for\_keywords**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236704
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`keywords_for_keywords`](../interfaces/IAppendixKeywordsDataPriceData.md#keywords_for_keywords)
-
-#### Defined in
-
-main.ts:221431
 
 ***
 
@@ -178,13 +184,11 @@ main.ts:221431
 
 > `optional` **keywords\_for\_site**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236705
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`keywords_for_site`](../interfaces/IAppendixKeywordsDataPriceData.md#keywords_for_site)
-
-#### Defined in
-
-main.ts:221432
 
 ***
 
@@ -192,13 +196,11 @@ main.ts:221432
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236707
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`languages`](../interfaces/IAppendixKeywordsDataPriceData.md#languages)
-
-#### Defined in
-
-main.ts:221433
 
 ***
 
@@ -206,13 +208,11 @@ main.ts:221433
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236708
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`locations`](../interfaces/IAppendixKeywordsDataPriceData.md#locations)
-
-#### Defined in
-
-main.ts:221434
 
 ***
 
@@ -220,13 +220,11 @@ main.ts:221434
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236709
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`locations_and_languages`](../interfaces/IAppendixKeywordsDataPriceData.md#locations_and_languages)
-
-#### Defined in
-
-main.ts:221435
 
 ***
 
@@ -234,13 +232,11 @@ main.ts:221435
 
 > `optional` **search\_volume**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236710
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`search_volume`](../interfaces/IAppendixKeywordsDataPriceData.md#search_volume)
-
-#### Defined in
-
-main.ts:221436
 
 ***
 
@@ -248,13 +244,11 @@ main.ts:221436
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236695
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`tasks_ready`](../interfaces/IAppendixKeywordsDataPriceData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:221423
 
 ## Methods
 
@@ -262,17 +256,17 @@ main.ts:221423
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:236725
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:221451
 
 ***
 
@@ -280,17 +274,17 @@ main.ts:221451
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:236759
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:221483
 
 ***
 
@@ -298,14 +292,14 @@ main.ts:221483
 
 > `static` **fromJS**(`data`): [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
 
+Defined in: main.ts:236752
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixKeywordsDataPriceData`](AppendixKeywordsDataPriceData.md)
-
-#### Defined in
-
-main.ts:221476

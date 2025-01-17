@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalBusinessMenuLink
+[Documentation](../README.md) / LocalBusinessMenuLink
 
 # Class: LocalBusinessMenuLink
+
+Defined in: main.ts:25149
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new LocalBusinessMenuLink**(`data`?): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
+Defined in: main.ts:25158
+
 #### Parameters
 
-• **data?**: [`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md)
+##### data?
+
+[`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
 
-#### Defined in
-
-main.ts:24088
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:24920
+
 #### Inherited from
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`_discriminator`](BaseLocalBusinessLink.md#_discriminator)
-
-#### Defined in
-
-main.ts:23850
 
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:25152
 
 title of the element
 domain of the online menu system
@@ -67,15 +69,13 @@ domain of the online menu system
 
 [`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md).[`title`](../interfaces/ILocalBusinessMenuLink.md#title)
 
-#### Defined in
-
-main.ts:24082
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:24918
 
 type of element
 
@@ -87,15 +87,13 @@ type of element
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`type`](BaseLocalBusinessLink.md#type)
 
-#### Defined in
-
-main.ts:23848
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:25154
 
 URL to view the menu
 
@@ -103,19 +101,19 @@ URL to view the menu
 
 [`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md).[`url`](../interfaces/ILocalBusinessMenuLink.md#url)
 
-#### Defined in
-
-main.ts:24084
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:25163
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -125,19 +123,19 @@ main.ts:24084
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`init`](BaseLocalBusinessLink.md#init)
 
-#### Defined in
-
-main.ts:24093
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:25182
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,19 +145,19 @@ main.ts:24093
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`toJSON`](BaseLocalBusinessLink.md#tojson)
 
-#### Defined in
-
-main.ts:24112
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
+Defined in: main.ts:25175
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,7 +166,3 @@ main.ts:24112
 #### Overrides
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`fromJS`](BaseLocalBusinessLink.md#fromjs)
-
-#### Defined in
-
-main.ts:24105

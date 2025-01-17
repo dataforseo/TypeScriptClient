@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksInfo
+[Documentation](../README.md) / BacklinksInfo
 
 # Class: BacklinksInfo
+
+Defined in: main.ts:89484
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksInfo**(`data`?): [`BacklinksInfo`](BacklinksInfo.md)
 
+Defined in: main.ts:89504
+
 #### Parameters
 
-• **data?**: [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md)
+##### data?
+
+[`IBacklinksInfo`](../interfaces/IBacklinksInfo.md)
 
 #### Returns
 
 [`BacklinksInfo`](BacklinksInfo.md)
-
-#### Defined in
-
-main.ts:79759
 
 ## Properties
 
 ### backlinks?
 
 > `optional` **backlinks**: `number`
+
+Defined in: main.ts:89495
 
 total number of backlinks
 the total number of backlinks, including dofollow and nofollow links
@@ -45,15 +49,13 @@ the total number of backlinks, including dofollow and nofollow links
 
 [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`backlinks`](../interfaces/IBacklinksInfo.md#backlinks)
 
-#### Defined in
-
-main.ts:79750
-
 ***
 
 ### dofollow?
 
 > `optional` **dofollow**: `number`
+
+Defined in: main.ts:89492
 
 number of dofollow links
 
@@ -61,15 +63,13 @@ number of dofollow links
 
 [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`dofollow`](../interfaces/IBacklinksInfo.md#dofollow)
 
-#### Defined in
-
-main.ts:79747
-
 ***
 
 ### referring\_domains?
 
 > `optional` **referring\_domains**: `number`
+
+Defined in: main.ts:89486
 
 number of referring domains
 
@@ -77,15 +77,13 @@ number of referring domains
 
 [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`referring_domains`](../interfaces/IBacklinksInfo.md#referring_domains)
 
-#### Defined in
-
-main.ts:79741
-
 ***
 
 ### referring\_main\_domains?
 
 > `optional` **referring\_main\_domains**: `number`
+
+Defined in: main.ts:89488
 
 number of referring main domains
 
@@ -93,15 +91,13 @@ number of referring main domains
 
 [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`referring_main_domains`](../interfaces/IBacklinksInfo.md#referring_main_domains)
 
-#### Defined in
-
-main.ts:79743
-
 ***
 
 ### referring\_pages?
 
 > `optional` **referring\_pages**: `number`
+
+Defined in: main.ts:89490
 
 number of referring pages
 
@@ -109,15 +105,13 @@ number of referring pages
 
 [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`referring_pages`](../interfaces/IBacklinksInfo.md#referring_pages)
 
-#### Defined in
-
-main.ts:79745
-
 ***
 
 ### time\_update?
 
 > `optional` **time\_update**: `string`
+
+Defined in: main.ts:89500
 
 date and time when backlink data was updated
 in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"
@@ -128,27 +122,23 @@ example:
 
 [`IBacklinksInfo`](../interfaces/IBacklinksInfo.md).[`time_update`](../interfaces/IBacklinksInfo.md#time_update)
 
-#### Defined in
-
-main.ts:79755
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:89513
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:79768
 
 ***
 
@@ -156,17 +146,17 @@ main.ts:79768
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:89535
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:79790
 
 ***
 
@@ -174,14 +164,14 @@ main.ts:79790
 
 > `static` **fromJS**(`data`): [`BacklinksInfo`](BacklinksInfo.md)
 
+Defined in: main.ts:89528
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksInfo`](BacklinksInfo.md)
-
-#### Defined in
-
-main.ts:79783

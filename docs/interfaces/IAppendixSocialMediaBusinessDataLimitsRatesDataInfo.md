@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
+Defined in: main.ts:232072
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **facebook**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217009
+Defined in: main.ts:232073
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:217009
 
 > `optional` **pinterest**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217010
+Defined in: main.ts:232074
 
 ***
 
@@ -36,6 +34,4 @@ main.ts:217010
 
 > `optional` **reddit**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217011
+Defined in: main.ts:232075

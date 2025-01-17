@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Redirect
+[Documentation](../README.md) / Redirect
 
 # Class: Redirect
+
+Defined in: main.ts:151802
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new Redirect**(`data`?): [`Redirect`](Redirect.md)
 
+Defined in: main.ts:151812
+
 #### Parameters
 
-• **data?**: [`IRedirect`](../interfaces/IRedirect.md)
+##### data?
+
+[`IRedirect`](../interfaces/IRedirect.md)
 
 #### Returns
 
 [`Redirect`](Redirect.md)
-
-#### Defined in
-
-main.ts:140506
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:140506
 
 > `optional` **status\_code**: `number`
 
+Defined in: main.ts:151806
+
 HTTP status code of the URL
 
 #### Implementation of
 
 [`IRedirect`](../interfaces/IRedirect.md).[`status_code`](../interfaces/IRedirect.md#status_code)
-
-#### Defined in
-
-main.ts:140500
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:140500
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:151804
+
 type of element
 
 #### Implementation of
 
 [`IRedirect`](../interfaces/IRedirect.md).[`type`](../interfaces/IRedirect.md#type)
-
-#### Defined in
-
-main.ts:140498
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:140498
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:151808
+
 indirect link URL
 
 #### Implementation of
 
 [`IRedirect`](../interfaces/IRedirect.md).[`url`](../interfaces/IRedirect.md#url)
-
-#### Defined in
-
-main.ts:140502
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:140502
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:151821
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:140515
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:140515
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:151840
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:140534
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:140534
 
 > `static` **fromJS**(`data`): [`Redirect`](Redirect.md)
 
+Defined in: main.ts:151833
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Redirect`](Redirect.md)
-
-#### Defined in
-
-main.ts:140527

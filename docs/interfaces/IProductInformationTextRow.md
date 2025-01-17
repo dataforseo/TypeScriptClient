@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInformationTextRow
+[Documentation](../README.md) / IProductInformationTextRow
 
 # Interface: IProductInformationTextRow
+
+Defined in: main.ts:194357
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:194359
+
 text specified under the given title within the section_name
-
-#### Defined in
-
-main.ts:182140
 
 ***
 
@@ -32,12 +32,10 @@ main.ts:182140
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24373
+
 type of element
 
 #### Inherited from
 
 [`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md).[`type`](IBaseProductInformationRowItem.md#type)
-
-#### Defined in
-
-main.ts:23475

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TechnologyCategoryInfo
+[Documentation](../README.md) / TechnologyCategoryInfo
 
 # Class: TechnologyCategoryInfo
+
+Defined in: main.ts:85574
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new TechnologyCategoryInfo**(`data`?): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
+Defined in: main.ts:85592
+
 #### Parameters
 
-• **data?**: [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md)
+##### data?
+
+[`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md)
 
 #### Returns
 
 [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
-
-#### Defined in
-
-main.ts:75855
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:85578
 
 id of the technology category
 example:
@@ -46,15 +50,13 @@ crm, cart_abandonment
 
 [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`id`](../interfaces/ITechnologyCategoryInfo.md#id)
 
-#### Defined in
-
-main.ts:75841
-
 ***
 
 ### path?
 
 > `optional` **path**: `string`
+
+Defined in: main.ts:85582
 
 path to the technology category
 example:
@@ -64,15 +66,13 @@ user_generated_content.content_curation
 
 [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`path`](../interfaces/ITechnologyCategoryInfo.md#path)
 
-#### Defined in
-
-main.ts:75845
-
 ***
 
 ### technologies?
 
 > `optional` **technologies**: `string`[]
+
+Defined in: main.ts:85588
 
 list of technologies in this category
 example:
@@ -82,15 +82,13 @@ example:
 
 [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`technologies`](../interfaces/ITechnologyCategoryInfo.md#technologies)
 
-#### Defined in
-
-main.ts:75851
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:85584
 
 title of the technology category
 
@@ -98,27 +96,23 @@ title of the technology category
 
 [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`title`](../interfaces/ITechnologyCategoryInfo.md#title)
 
-#### Defined in
-
-main.ts:75847
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:85601
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:75864
 
 ***
 
@@ -126,17 +120,17 @@ main.ts:75864
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:85625
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:75888
 
 ***
 
@@ -144,14 +138,14 @@ main.ts:75888
 
 > `static` **fromJS**(`data`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
+Defined in: main.ts:85618
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
-
-#### Defined in
-
-main.ts:75881

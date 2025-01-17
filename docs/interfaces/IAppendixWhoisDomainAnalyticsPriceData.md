@@ -1,21 +1,21 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixWhoisDomainAnalyticsPriceData
+[Documentation](../README.md) / IAppendixWhoisDomainAnalyticsPriceData
 
 # Interface: IAppendixWhoisDomainAnalyticsPriceData
 
+Defined in: main.ts:238548
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### overview?
 
-> `optional` **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **overview**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223261
+Defined in: main.ts:238549

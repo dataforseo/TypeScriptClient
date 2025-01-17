@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordIdeasLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveResultInfo
+
+Defined in: main.ts:95234
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleKeywordIdeasLiveResultInfo**(`data`?): [`DataforseoLabsGoogleKeywordIdeasLiveResultInfo`](DataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
 
+Defined in: main.ts:95259
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordIdeasLiveResultInfo`](DataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:85444
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:85444
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
+Defined in: main.ts:95255
+
 contains keyword ideas and related data
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:85440
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:85440
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:95247
+
 number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:85432
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:85432
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:95243
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:85428
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:85428
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:95241
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:85426
 
 ***
 
@@ -102,21 +96,21 @@ main.ts:85426
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:95249
+
 current offset value
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#offset)
 
-#### Defined in
-
-main.ts:85434
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:95253
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -126,15 +120,13 @@ note: offset_token values are unique for each subsequent task
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`offset_token`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:85438
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:95236
 
 search engine type
 
@@ -142,26 +134,20 @@ search engine type
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:85421
-
 ***
 
 ### seed\_keywords?
 
 > `optional` **seed\_keywords**: `string`[]
 
+Defined in: main.ts:95239
+
 keywords in a POST array
-keywords are returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`seed_keywords`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#seed_keywords)
-
-#### Defined in
-
-main.ts:85424
 
 ***
 
@@ -169,15 +155,13 @@ main.ts:85424
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:95245
+
 total number of results relevant to your request in our database
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:85430
 
 ## Methods
 
@@ -185,17 +169,17 @@ main.ts:85430
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:95268
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:85453
 
 ***
 
@@ -203,17 +187,17 @@ main.ts:85453
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:95301
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:85486
 
 ***
 
@@ -221,14 +205,14 @@ main.ts:85486
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordIdeasLiveResultInfo`](DataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
 
+Defined in: main.ts:95294
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordIdeasLiveResultInfo`](DataforseoLabsGoogleKeywordIdeasLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:85479

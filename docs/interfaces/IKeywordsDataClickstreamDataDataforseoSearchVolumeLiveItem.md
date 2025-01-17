@@ -20,7 +20,11 @@ keyword provided in the POST array
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135875
+=======
+main.ts:135908
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -33,7 +37,11 @@ array of objects with search volume rates in a certain month of a year
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135883
+=======
+main.ts:135916
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -45,7 +53,11 @@ current search volume rate of a keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135880
+=======
+main.ts:135913
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -58,4 +70,8 @@ possible values: true, false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135878
+=======
+main.ts:135911
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

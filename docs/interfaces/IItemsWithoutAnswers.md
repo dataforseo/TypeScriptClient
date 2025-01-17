@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IItemsWithoutAnswers
+[Documentation](../README.md) / IItemsWithoutAnswers
 
 # Interface: IItemsWithoutAnswers
 
+Defined in: main.ts:224455
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **items**: [`GoogleBusinessAnswerElement`](../classes/GoogleBusinessAnswerElement.md)
 
+Defined in: main.ts:224483
+
 array of items
 items within google_business_question_item
-
-#### Defined in
-
-main.ts:209461
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:209461
 
 > `optional` **original\_question\_text**: `string`
 
+Defined in: main.ts:224476
+
 original text of the question
-
-#### Defined in
-
-main.ts:209454
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:209454
 
 > `optional` **profile\_image\_url**: `string`
 
+Defined in: main.ts:224468
+
 URL of the user’s profile image
-
-#### Defined in
-
-main.ts:209446
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:209446
 
 > `optional` **profile\_name**: `string`
 
+Defined in: main.ts:224472
+
 displayed name of the user
-
-#### Defined in
-
-main.ts:209450
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:209450
 
 > `optional` **profile\_url**: `string`
 
+Defined in: main.ts:224470
+
 URL of the user’s profile
-
-#### Defined in
-
-main.ts:209448
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:209448
 
 > `optional` **question\_id**: `string`
 
+Defined in: main.ts:224464
+
 ID of the question
-
-#### Defined in
-
-main.ts:209442
 
 ***
 
@@ -89,11 +79,9 @@ main.ts:209442
 
 > `optional` **question\_text**: `string`
 
+Defined in: main.ts:224474
+
 current text of the question
-
-#### Defined in
-
-main.ts:209452
 
 ***
 
@@ -101,11 +89,9 @@ main.ts:209452
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:224462
+
 absolute rank among all the elements
-
-#### Defined in
-
-main.ts:209440
 
 ***
 
@@ -113,12 +99,10 @@ main.ts:209440
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:224460
+
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:209438
 
 ***
 
@@ -126,11 +110,9 @@ main.ts:209438
 
 > `optional` **time\_ago**: `string`
 
+Defined in: main.ts:224478
+
 estimated time when the question was posted
-
-#### Defined in
-
-main.ts:209456
 
 ***
 
@@ -138,11 +120,9 @@ main.ts:209456
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:224480
+
 exact time when the question was posted
-
-#### Defined in
-
-main.ts:209458
 
 ***
 
@@ -150,11 +130,9 @@ main.ts:209458
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:224457
+
 type of element
-
-#### Defined in
-
-main.ts:209435
 
 ***
 
@@ -162,8 +140,6 @@ main.ts:209435
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:224466
+
 URL of the question
-
-#### Defined in
-
-main.ts:209444

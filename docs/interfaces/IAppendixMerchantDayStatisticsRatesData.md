@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixMerchantDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixMerchantDayStatisticsRatesData
 
 # Interface: IAppendixMerchantDayStatisticsRatesData
 
+Defined in: main.ts:233971
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](../classes/AppendixMerchantAmazonInfo.md)
 
-#### Defined in
-
-main.ts:218873
+Defined in: main.ts:233973
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:218873
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:218876
+Defined in: main.ts:233976
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:218876
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](../classes/AppendixMerchantGoogleInfo.md)
 
-#### Defined in
-
-main.ts:218872
+Defined in: main.ts:233972
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:218872
 
 > `optional` **id\_list**: `number`
 
-#### Defined in
-
-main.ts:218879
+Defined in: main.ts:233979
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:218879
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:218875
+Defined in: main.ts:233975
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:218875
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:218874
+Defined in: main.ts:233974
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:218874
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:218877
+Defined in: main.ts:233977
 
 ***
 
@@ -86,6 +74,4 @@ main.ts:218877
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:218878
+Defined in: main.ts:233978

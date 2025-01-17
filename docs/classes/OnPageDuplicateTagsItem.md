@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateTagsItem
+[Documentation](../README.md) / OnPageDuplicateTagsItem
 
 # Class: OnPageDuplicateTagsItem
+
+Defined in: main.ts:168582
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageDuplicateTagsItem**(`data`?): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
+Defined in: main.ts:168592
+
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md)
+##### data?
+
+[`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md)
 
 #### Returns
 
 [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
-
-#### Defined in
-
-main.ts:156856
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:156856
 
 > `optional` **accumulator**: `string`
 
+Defined in: main.ts:168584
+
 contains the value of duplicated tag
 
 #### Implementation of
 
 [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`accumulator`](../interfaces/IOnPageDuplicateTagsItem.md#accumulator)
-
-#### Defined in
-
-main.ts:156848
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:156848
 
 > `optional` **pages**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
+Defined in: main.ts:168588
+
 pages with duplicate tags
 
 #### Implementation of
 
 [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`pages`](../interfaces/IOnPageDuplicateTagsItem.md#pages)
-
-#### Defined in
-
-main.ts:156852
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:156852
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:168586
+
 total count of duplicate pages
 
 #### Implementation of
 
 [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`total_count`](../interfaces/IOnPageDuplicateTagsItem.md#total_count)
-
-#### Defined in
-
-main.ts:156850
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:156850
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:168601
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:156865
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:156865
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:168624
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:156888
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:156888
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
+Defined in: main.ts:168617
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
-
-#### Defined in
-
-main.ts:156881

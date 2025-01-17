@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalBusinessDeliveryServiceInfo
+[Documentation](../README.md) / LocalBusinessDeliveryServiceInfo
 
 # Class: LocalBusinessDeliveryServiceInfo
+
+Defined in: main.ts:25085
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new LocalBusinessDeliveryServiceInfo**(`data`?): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
+Defined in: main.ts:25096
+
 #### Parameters
 
-• **data?**: [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md)
+##### data?
+
+[`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md)
 
 #### Returns
 
 [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
-
-#### Defined in
-
-main.ts:24026
 
 ## Properties
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:25090
 
 title of the element
 domain of the online food ordering system
@@ -45,15 +49,13 @@ domain of the online food ordering system
 
 [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`title`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#title)
 
-#### Defined in
-
-main.ts:24020
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:25087
 
 type of element
 
@@ -61,15 +63,13 @@ type of element
 
 [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`type`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#type)
 
-#### Defined in
-
-main.ts:24017
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:25092
 
 URL to place an order
 
@@ -77,27 +77,23 @@ URL to place an order
 
 [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`url`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#url)
 
-#### Defined in
-
-main.ts:24022
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:25105
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:24035
 
 ***
 
@@ -105,17 +101,17 @@ main.ts:24035
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:25124
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:24054
 
 ***
 
@@ -123,14 +119,14 @@ main.ts:24054
 
 > `static` **fromJS**(`data`): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
+Defined in: main.ts:25117
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
-
-#### Defined in
-
-main.ts:24047

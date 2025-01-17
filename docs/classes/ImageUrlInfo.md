@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ImageUrlInfo
+[Documentation](../README.md) / ImageUrlInfo
 
 # Class: ImageUrlInfo
+
+Defined in: main.ts:229164
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ImageUrlInfo**(`data`?): [`ImageUrlInfo`](ImageUrlInfo.md)
 
+Defined in: main.ts:229170
+
 #### Parameters
 
-• **data?**: [`IImageUrlInfo`](../interfaces/IImageUrlInfo.md)
+##### data?
+
+[`IImageUrlInfo`](../interfaces/IImageUrlInfo.md)
 
 #### Returns
 
 [`ImageUrlInfo`](ImageUrlInfo.md)
-
-#### Defined in
-
-main.ts:214126
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:214126
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:229166
+
 URL of the image used in the review
 
 #### Implementation of
 
 [`IImageUrlInfo`](../interfaces/IImageUrlInfo.md).[`url`](../interfaces/IImageUrlInfo.md#url)
-
-#### Defined in
-
-main.ts:214122
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:214122
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:229179
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:214135
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:214135
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:229196
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:214152
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:214152
 
 > `static` **fromJS**(`data`): [`ImageUrlInfo`](ImageUrlInfo.md)
 
+Defined in: main.ts:229189
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ImageUrlInfo`](ImageUrlInfo.md)
-
-#### Defined in
-
-main.ts:214145

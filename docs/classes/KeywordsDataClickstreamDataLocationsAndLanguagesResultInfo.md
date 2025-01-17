@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
 # Class: KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
+
+Defined in: main.ts:147410
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
 
+Defined in: main.ts:147430
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:135470
 
 ## Properties
 
 ### available\_languages?
 
 > `optional` **available\_languages**: [`AvailableLanguages`](AvailableLanguages.md)[]
+
+Defined in: main.ts:147426
 
 supported languages
 contains the languages which are supported for a specific location
@@ -45,15 +49,13 @@ contains the languages which are supported for a specific location
 
 [`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md).[`available_languages`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md#available_languages)
 
-#### Defined in
-
-main.ts:135466
-
 ***
 
 ### country\_iso\_code?
 
 > `optional` **country\_iso\_code**: `string`
+
+Defined in: main.ts:147419
 
 ISO country code of the location
 
@@ -61,15 +63,13 @@ ISO country code of the location
 
 [`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md).[`country_iso_code`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md#country_iso_code)
 
-#### Defined in
-
-main.ts:135459
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:147412
 
 location code
 
@@ -77,15 +77,13 @@ location code
 
 [`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md).[`location_code`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:135452
-
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:147417
 
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
@@ -94,15 +92,13 @@ the value will be null as Country is the only supported location_type for this A
 
 [`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md).[`location_code_parent`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md#location_code_parent)
 
-#### Defined in
-
-main.ts:135457
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:147414
 
 full name of the location
 
@@ -110,15 +106,13 @@ full name of the location
 
 [`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md).[`location_name`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:135454
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:147423
 
 location type
 possible values:
@@ -128,27 +122,23 @@ Country
 
 [`IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md).[`location_type`](../interfaces/IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:135463
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:147439
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:135479
 
 ***
 
@@ -156,17 +146,17 @@ main.ts:135479
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:147465
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:135505
 
 ***
 
@@ -174,14 +164,14 @@ main.ts:135505
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
 
+Defined in: main.ts:147458
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:135498

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppListingsSearchLiveItem
+[Documentation](../README.md) / IAppDataAppleAppListingsSearchLiveItem
 
 # Interface: IAppDataAppleAppListingsSearchLiveItem
 
+Defined in: main.ts:209161
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:209163
+
 ID of the returned app
-
-#### Defined in
-
-main.ts:196712
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:196712
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:209172
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:196721
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:196721
 
 > `optional` **item**: [`AppDataAppStoreInfoOrganicSerpElementItem`](../classes/AppDataAppStoreInfoOrganicSerpElementItem.md)
 
+Defined in: main.ts:209179
+
 detailed information about the app
-
-#### Defined in
-
-main.ts:196728
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:196728
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:209169
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:196718
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:196718
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:209167
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:196716
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:196716
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:209165
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:196714
 
 ***
 
@@ -89,11 +79,9 @@ main.ts:196714
 
 > `optional` **time\_update**: `string`
 
+Defined in: main.ts:209177
+
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
 example:
 2023-05-23 10:16:19 +00:00
-
-#### Defined in
-
-main.ts:196726

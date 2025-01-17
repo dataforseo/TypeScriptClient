@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLinksResultInfo
+[Documentation](../README.md) / OnPageLinksResultInfo
 
 # Class: OnPageLinksResultInfo
+
+Defined in: main.ts:169538
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageLinksResultInfo**(`data`?): [`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
 
+Defined in: main.ts:169553
+
 #### Parameters
 
-• **data?**: [`IOnPageLinksResultInfo`](../interfaces/IOnPageLinksResultInfo.md)
+##### data?
+
+[`IOnPageLinksResultInfo`](../interfaces/IOnPageLinksResultInfo.md)
 
 #### Returns
 
 [`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
-
-#### Defined in
-
-main.ts:157817
 
 ## Properties
 
 ### crawl\_progress?
 
 > `optional` **crawl\_progress**: `string`
+
+Defined in: main.ts:169541
 
 status of the crawling session
 possible values: in_progress, finished
@@ -45,15 +49,13 @@ possible values: in_progress, finished
 
 [`IOnPageLinksResultInfo`](../interfaces/IOnPageLinksResultInfo.md).[`crawl_progress`](../interfaces/IOnPageLinksResultInfo.md#crawl_progress)
 
-#### Defined in
-
-main.ts:157805
-
 ***
 
 ### crawl\_status?
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+
+Defined in: main.ts:169543
 
 details of the crawling session
 
@@ -61,15 +63,13 @@ details of the crawling session
 
 [`IOnPageLinksResultInfo`](../interfaces/IOnPageLinksResultInfo.md).[`crawl_status`](../interfaces/IOnPageLinksResultInfo.md#crawl_status)
 
-#### Defined in
-
-main.ts:157807
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
+
+Defined in: main.ts:169549
 
 items array
 
@@ -77,15 +77,13 @@ items array
 
 [`IOnPageLinksResultInfo`](../interfaces/IOnPageLinksResultInfo.md).[`items`](../interfaces/IOnPageLinksResultInfo.md#items)
 
-#### Defined in
-
-main.ts:157813
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:169547
 
 number of items in the results array
 
@@ -93,15 +91,13 @@ number of items in the results array
 
 [`IOnPageLinksResultInfo`](../interfaces/IOnPageLinksResultInfo.md).[`items_count`](../interfaces/IOnPageLinksResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:157811
-
 ***
 
 ### total\_items\_count?
 
 > `optional` **total\_items\_count**: `number`
+
+Defined in: main.ts:169545
 
 total number of relevant items in the database
 
@@ -109,27 +105,23 @@ total number of relevant items in the database
 
 [`IOnPageLinksResultInfo`](../interfaces/IOnPageLinksResultInfo.md).[`total_items_count`](../interfaces/IOnPageLinksResultInfo.md#total_items_count)
 
-#### Defined in
-
-main.ts:157809
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:169562
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:157826
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:157826
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:169587
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:157851
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:157851
 
 > `static` **fromJS**(`data`): [`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
 
+Defined in: main.ts:169580
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageLinksResultInfo`](OnPageLinksResultInfo.md)
-
-#### Defined in
-
-main.ts:157844

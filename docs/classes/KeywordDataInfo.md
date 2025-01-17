@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordDataInfo
+[Documentation](../README.md) / KeywordDataInfo
 
 # Class: KeywordDataInfo
+
+Defined in: main.ts:93288
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordDataInfo**(`data`?): [`KeywordDataInfo`](KeywordDataInfo.md)
 
+Defined in: main.ts:93326
+
 #### Parameters
 
-• **data?**: [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md)
+##### data?
+
+[`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md)
 
 #### Returns
 
 [`KeywordDataInfo`](KeywordDataInfo.md)
-
-#### Defined in
-
-main.ts:83513
 
 ## Properties
 
 ### avg\_backlinks\_info?
 
 > `optional` **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+
+Defined in: main.ts:93319
 
 backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 webpages ranking organically for the keyword
@@ -45,15 +49,13 @@ this object provides the average number of backlinks, referring pages and domain
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`avg_backlinks_info`](../interfaces/IKeywordDataInfo.md#avg_backlinks_info)
 
-#### Defined in
-
-main.ts:83506
-
 ***
 
 ### clickstream\_keyword\_info?
 
-> `optional` **clickstream\_keyword\_info**: `any`
+> `optional` **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
+
+Defined in: main.ts:93305
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -62,15 +64,13 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`clickstream_keyword_info`](../interfaces/IKeywordDataInfo.md#clickstream_keyword_info)
 
-#### Defined in
-
-main.ts:83492
-
 ***
 
 ### impressions\_info?
 
 > `optional` **impressions\_info**: [`ImpressionsInfo`](ImpressionsInfo.md)
+
+Defined in: main.ts:93313
 
 impressions data for the returned keyword idea
 Note that all data in the impressions_info object is deprecated and provided only as legacy to avoid maintenance issues
@@ -82,15 +82,13 @@ learn more about impressions in this help center article
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`impressions_info`](../interfaces/IKeywordDataInfo.md#impressions_info)
 
-#### Defined in
-
-main.ts:83500
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:93292
 
 returned keyword idea
 
@@ -98,15 +96,13 @@ returned keyword idea
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`keyword`](../interfaces/IKeywordDataInfo.md#keyword)
 
-#### Defined in
-
-main.ts:83479
-
 ***
 
 ### keyword\_info?
 
 > `optional` **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
+
+Defined in: main.ts:93298
 
 keyword data for the returned keyword idea
 
@@ -114,15 +110,13 @@ keyword data for the returned keyword idea
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`keyword_info`](../interfaces/IKeywordDataInfo.md#keyword_info)
 
-#### Defined in
-
-main.ts:83485
-
 ***
 
 ### keyword\_info\_normalized\_with\_bing?
 
 > `optional` **keyword\_info\_normalized\_with\_bing**: [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
+
+Defined in: main.ts:93300
 
 contains keyword search volume normalized with Bing search volume
 
@@ -130,15 +124,13 @@ contains keyword search volume normalized with Bing search volume
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`keyword_info_normalized_with_bing`](../interfaces/IKeywordDataInfo.md#keyword_info_normalized_with_bing)
 
-#### Defined in
-
-main.ts:83487
-
 ***
 
 ### keyword\_info\_normalized\_with\_clickstream?
 
 > `optional` **keyword\_info\_normalized\_with\_clickstream**: [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
+
+Defined in: main.ts:93302
 
 contains keyword search volume normalized with clickstream data
 
@@ -146,15 +138,13 @@ contains keyword search volume normalized with clickstream data
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`keyword_info_normalized_with_clickstream`](../interfaces/IKeywordDataInfo.md#keyword_info_normalized_with_clickstream)
 
-#### Defined in
-
-main.ts:83489
-
 ***
 
 ### keyword\_properties?
 
 > `optional` **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
+
+Defined in: main.ts:93307
 
 additional information about the keyword
 
@@ -162,15 +152,13 @@ additional information about the keyword
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`keyword_properties`](../interfaces/IKeywordDataInfo.md#keyword_properties)
 
-#### Defined in
-
-main.ts:83494
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:93296
 
 language code in a POST array
 
@@ -178,15 +166,13 @@ language code in a POST array
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`language_code`](../interfaces/IKeywordDataInfo.md#language_code)
 
-#### Defined in
-
-main.ts:83483
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:93294
 
 location code in a POST array
 
@@ -194,15 +180,13 @@ location code in a POST array
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`location_code`](../interfaces/IKeywordDataInfo.md#location_code)
 
-#### Defined in
-
-main.ts:83481
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:93290
 
 search engine type
 
@@ -210,15 +194,13 @@ search engine type
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`se_type`](../interfaces/IKeywordDataInfo.md#se_type)
 
-#### Defined in
-
-main.ts:83477
-
 ***
 
 ### search\_intent\_info?
 
 > `optional` **search\_intent\_info**: [`SearchIntentInfo`](SearchIntentInfo.md)
+
+Defined in: main.ts:93322
 
 search intent info for the returned keyword
 learn about search intent in this help center article
@@ -227,15 +209,13 @@ learn about search intent in this help center article
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`search_intent_info`](../interfaces/IKeywordDataInfo.md#search_intent_info)
 
-#### Defined in
-
-main.ts:83509
-
 ***
 
 ### serp\_info?
 
 > `optional` **serp\_info**: [`SerpInfo`](SerpInfo.md)
+
+Defined in: main.ts:93316
 
 SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database
@@ -244,27 +224,23 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 [`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`serp_info`](../interfaces/IKeywordDataInfo.md#serp_info)
 
-#### Defined in
-
-main.ts:83503
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:93335
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:83522
 
 ***
 
@@ -272,17 +248,17 @@ main.ts:83522
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:93364
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:83551
 
 ***
 
@@ -290,14 +266,14 @@ main.ts:83551
 
 > `static` **fromJS**(`data`): [`KeywordDataInfo`](KeywordDataInfo.md)
 
+Defined in: main.ts:93357
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordDataInfo`](KeywordDataInfo.md)
-
-#### Defined in
-
-main.ts:83544

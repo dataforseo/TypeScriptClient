@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisSearchLiveRequestInfo
+[Documentation](../README.md) / IContentAnalysisSearchLiveRequestInfo
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
 
+Defined in: main.ts:177574
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:177630
 
 array of results filtering parameters
 optional field
@@ -33,34 +37,30 @@ example:
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
 
-#### Defined in
-
-main.ts:165940
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:177583
+
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
-
-#### Defined in
-
-main.ts:165893
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### keyword\_fields?
 
 > `optional` **keyword\_fields**: `object`
+
+Defined in: main.ts:177595
 
 target keyword fields and target keywords
 optional field
@@ -76,11 +76,7 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:165905
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -88,14 +84,12 @@ main.ts:165905
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:177613
+
 the maximum number of returned citations
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:165923
 
 ***
 
@@ -103,20 +97,20 @@ main.ts:165923
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:177651
+
 offset in the results array of returned citations
 optional field
 default value: 0
 if you specify the 10 value, the first ten citations in the results array will be omitted and the data will be provided for the successive citations
-
-#### Defined in
-
-main.ts:165961
 
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:177659
 
 offset token for subsequent requests
 optional field
@@ -126,15 +120,13 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task
 
-#### Defined in
-
-main.ts:165969
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:177646
 
 results sorting rules
 optional field
@@ -152,15 +144,13 @@ you should use a comma to separate several sorting rules
 example:
 ["content_info.sentiment_connotations.anger,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Defined in
-
-main.ts:165956
-
 ***
 
 ### page\_type?
 
 > `optional` **page\_type**: `string`[]
+
+Defined in: main.ts:177601
 
 target page types
 optional field
@@ -168,15 +158,13 @@ use this parameter to filter the dataset by page types
 possible values:
 "ecommerce", "news", "blogs", "message-boards", "organization"
 
-#### Defined in
-
-main.ts:165911
-
 ***
 
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
+
+Defined in: main.ts:177608
 
 results grouping type
 optional field
@@ -185,22 +173,16 @@ as_is – returns all citations for the target keyword
 one_per_domain – returns one citation of the keyword per domain
 default value: as_is
 
-#### Defined in
-
-main.ts:165918
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:177665
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:165975

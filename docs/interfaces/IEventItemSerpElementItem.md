@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IEventItemSerpElementItem
+[Documentation](../README.md) / IEventItemSerpElementItem
 
 # Interface: IEventItemSerpElementItem
+
+Defined in: main.ts:49063
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:49067
+
 description of the results element in SERP
-
-#### Defined in
-
-main.ts:46221
 
 ***
 
@@ -32,12 +32,10 @@ main.ts:46221
 
 > `optional` **event\_dates**: [`EventDates`](../classes/EventDates.md)
 
+Defined in: main.ts:49074
+
 dates when the event takes place
 if there are none, equals null
-
-#### Defined in
-
-main.ts:46228
 
 ***
 
@@ -45,11 +43,9 @@ main.ts:46228
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:49071
+
 URL of the image featured in the element
-
-#### Defined in
-
-main.ts:46225
 
 ***
 
@@ -57,12 +53,9 @@ main.ts:46225
 
 > `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](../classes/InformationAndTicketsElement.md)[]
 
+Defined in: main.ts:49078
+
 additional information and ticket purchase options
-if there is none, equals null
-
-#### Defined in
-
-main.ts:46234
 
 ***
 
@@ -70,18 +63,17 @@ main.ts:46234
 
 > `optional` **location\_info**: [`LocationInfo`](../classes/LocationInfo.md)
 
+Defined in: main.ts:49076
+
 information about the event’s venue
-if there is none, equals null
-
-#### Defined in
-
-main.ts:46231
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21404
 
 the alignment of the element in SERP
 can take the following values:
@@ -91,15 +83,13 @@ left, right
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20721
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21400
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -108,15 +98,13 @@ absolute position among all the elements in SERP
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20717
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21397
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -126,21 +114,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20714
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+Defined in: main.ts:49065
 
-#### Defined in
-
-main.ts:46219
+title of the element
 
 ***
 
@@ -148,15 +130,13 @@ main.ts:46219
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21393
+
 type of element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:20710
 
 ***
 
@@ -164,11 +144,9 @@ main.ts:20710
 
 > `optional` **url**: `string`
 
-relevant URL
+Defined in: main.ts:49069
 
-#### Defined in
-
-main.ts:46223
+search URL with refinement parameters
 
 ***
 
@@ -176,12 +154,10 @@ main.ts:46223
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21406
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:20723

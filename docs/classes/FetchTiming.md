@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FetchTiming
+[Documentation](../README.md) / FetchTiming
 
 # Class: FetchTiming
+
+Defined in: main.ts:167888
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new FetchTiming**(`data`?): [`FetchTiming`](FetchTiming.md)
 
+Defined in: main.ts:167900
+
 #### Parameters
 
-• **data?**: [`IFetchTiming`](../interfaces/IFetchTiming.md)
+##### data?
+
+[`IFetchTiming`](../interfaces/IFetchTiming.md)
 
 #### Returns
 
 [`FetchTiming`](FetchTiming.md)
-
-#### Defined in
-
-main.ts:156164
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:156164
 
 > `optional` **duration\_time**: `number`
 
+Defined in: main.ts:167890
+
 indicates how many milliseconds it took to fetch a resource
 
 #### Implementation of
 
 [`IFetchTiming`](../interfaces/IFetchTiming.md).[`duration_time`](../interfaces/IFetchTiming.md#duration_time)
 
-#### Defined in
-
-main.ts:156154
-
 ***
 
 ### fetch\_end?
 
 > `optional` **fetch\_end**: `number`
+
+Defined in: main.ts:167896
 
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
@@ -61,15 +63,13 @@ the amount of time a browser needs to complete downloading a resource
 
 [`IFetchTiming`](../interfaces/IFetchTiming.md).[`fetch_end`](../interfaces/IFetchTiming.md#fetch_end)
 
-#### Defined in
-
-main.ts:156160
-
 ***
 
 ### fetch\_start?
 
 > `optional` **fetch\_start**: `number`
+
+Defined in: main.ts:167893
 
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource
@@ -78,27 +78,23 @@ the amount of time a browser needs to start downloading a resource
 
 [`IFetchTiming`](../interfaces/IFetchTiming.md).[`fetch_start`](../interfaces/IFetchTiming.md#fetch_start)
 
-#### Defined in
-
-main.ts:156157
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:167909
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:156173
 
 ***
 
@@ -106,17 +102,17 @@ main.ts:156173
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:167928
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:156192
 
 ***
 
@@ -124,14 +120,14 @@ main.ts:156192
 
 > `static` **fromJS**(`data`): [`FetchTiming`](FetchTiming.md)
 
+Defined in: main.ts:167921
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`FetchTiming`](FetchTiming.md)
-
-#### Defined in
-
-main.ts:156185

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleOrganicLiveRegularRequestInfo
+[Documentation](../README.md) / ISerpGoogleOrganicLiveRegularRequestInfo
 
 # Interface: ISerpGoogleOrganicLiveRegularRequestInfo
 
+Defined in: main.ts:38909
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:38990
 
 parsing depth
 optional field
@@ -25,24 +29,18 @@ Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
-
-main.ts:37466
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:38967
+
 device type
 optional field
 can take the values:desktop, mobile
 default value: desktop
-
-#### Defined in
-
-main.ts:37443
 
 ***
 
@@ -50,15 +48,13 @@ main.ts:37443
 
 > `optional` **group\_organic\_results**: `boolean`
 
+Defined in: main.ts:39009
+
 display related results
 optional field
 if set to true, the related_result element in the response will be provided as a snippet of its parent organic result;
 if set to false, the related_result element will be provided as a separate organic result;
 default value: true
-
-#### Defined in
-
-main.ts:37485
 
 ***
 
@@ -66,24 +62,24 @@ main.ts:37485
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:38924
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
-
-#### Defined in
-
-main.ts:37400
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:38962
 
 search engine language code
 required field if you don’t specify language_name
@@ -92,15 +88,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:37438
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:38955
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -109,15 +103,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:37431
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:38938
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -126,15 +118,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:37414
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:38948
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -146,15 +136,13 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
-#### Defined in
-
-main.ts:37424
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:38931
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -163,15 +151,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:37407
-
 ***
 
 ### max\_crawl\_pages?
 
 > `optional` **max\_crawl\_pages**: `number`
+
+Defined in: main.ts:39016
 
 page crawl limit
 optional field
@@ -180,15 +166,13 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
-
-main.ts:37492
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:38974
 
 device operating system
 optional field
@@ -197,15 +181,13 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
-
-main.ts:37450
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:38981
 
 search engine domain
 optional field
@@ -214,23 +196,17 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc.
 
-#### Defined in
-
-main.ts:37457
-
 ***
 
 ### search\_param?
 
 > `optional` **search\_param**: `string`
 
+Defined in: main.ts:39020
+
 additional parameters of the search query
 optional field
 get the list of available parameters and additional details here
-
-#### Defined in
-
-main.ts:37496
 
 ***
 
@@ -238,21 +214,21 @@ main.ts:37496
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:39026
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:37502
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:39003
 
 target domain, subdomain, or webpage to get results for
 optional field
@@ -267,22 +243,16 @@ example.com* – returns results for the domain, including all its pages;
 example.com/example-page  – returns results for the exact URL;
 example.com/example-page*  – returns results for all domain’s URLs that start with the specified string
 
-#### Defined in
-
-main.ts:37479
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:38915
+
 direct URL of the search query
 optional field
 you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
 example:
 https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAIQIFISCXXeIa8LoNhHEZkq1d1aOpZS
-
-#### Defined in
-
-main.ts:37391

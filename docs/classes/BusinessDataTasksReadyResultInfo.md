@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataTasksReadyResultInfo
 
 # Class: BusinessDataTasksReadyResultInfo
+
+Defined in: main.ts:213532
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataTasksReadyResultInfo**(`data`?): [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
 
+Defined in: main.ts:213550
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:200853
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:200853
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:213542
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:200845
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:200845
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:213546
+
 URL for collecting the results of the task
 
 #### Implementation of
 
 [`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
-
-main.ts:200849
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:213535
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -77,15 +77,13 @@ unique task identifier in our system in the UUID format
 
 [`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:200838
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:213538
 
 search engine specified when setting the task
 can take the following values: tripadvisor
@@ -94,15 +92,13 @@ can take the following values: tripadvisor
 
 [`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:200841
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:213540
 
 search engine type
 
@@ -110,15 +106,13 @@ search engine type
 
 [`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:200843
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:213544
 
 user-defined task identifier
 
@@ -126,27 +120,23 @@ user-defined task identifier
 
 [`IBusinessDataTasksReadyResultInfo`](../interfaces/IBusinessDataTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:200847
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:213559
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:200862
 
 ***
 
@@ -154,17 +144,17 @@ main.ts:200862
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:213581
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:200884
 
 ***
 
@@ -172,14 +162,14 @@ main.ts:200884
 
 > `static` **fromJS**(`data`): [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
 
+Defined in: main.ts:213574
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTasksReadyResultInfo`](BusinessDataTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:200877

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppStoreMetricsBundleInfo
+[Documentation](../README.md) / IAppStoreMetricsBundleInfo
 
 # Interface: IAppStoreMetricsBundleInfo
 
+Defined in: main.ts:124387
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **app\_store\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
+Defined in: main.ts:124389
+
 ranking data from App Store organic search
-
-#### Defined in
-
-main.ts:115116

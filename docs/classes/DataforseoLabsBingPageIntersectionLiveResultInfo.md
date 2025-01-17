@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingPageIntersectionLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Class: DataforseoLabsBingPageIntersectionLiveResultInfo
+
+Defined in: main.ts:117926
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsBingPageIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsBingPageIntersectionLiveResultInfo`](DataforseoLabsBingPageIntersectionLiveResultInfo.md)
 
+Defined in: main.ts:117948
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingPageIntersectionLiveResultInfo`](DataforseoLabsBingPageIntersectionLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:108367
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:108367
 
 > `optional` **exclude\_pages**: `string`[]
 
+Defined in: main.ts:117934
+
 URLs you specified in a POST array that will be excluded from the results
 
 #### Implementation of
 
 [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md).[`exclude_pages`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md#exclude_pages)
 
-#### Defined in
-
-main.ts:108353
-
 ***
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingPageIntersectionLiveItem`](DataforseoLabsBingPageIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](DataforseoLabsPageIntersectionLiveItem.md)[]
+
+Defined in: main.ts:117944
 
 contains keywords, relevant SERP elements and related data
 
@@ -60,15 +62,13 @@ contains keywords, relevant SERP elements and related data
 
 [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md#items)
 
-#### Defined in
-
-main.ts:108363
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:117942
 
 the number of results returned in the items array
 
@@ -76,15 +76,13 @@ the number of results returned in the items array
 
 [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:108361
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:117938
 
 language code in a POST array
 
@@ -92,15 +90,13 @@ language code in a POST array
 
 [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:108357
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:117936
 
 location code in a POST array
 
@@ -108,35 +104,31 @@ location code in a POST array
 
 [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:108355
-
 ***
 
 ### pages?
 
 > `optional` **pages**: `object`
 
+Defined in: main.ts:117932
+
 URLs you specified a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md).[`pages`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md#pages)
-
-#### Defined in
-
-main.ts:108351
 
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:117930
 
 search engine type
 search engine type specified in a POST request;
@@ -146,15 +138,13 @@ for this endpoint, the field equals bing
 
 [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:108349
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:117940
 
 total amount of results in our database relevant to your request
 
@@ -162,27 +152,23 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsBingPageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingPageIntersectionLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:108359
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:117957
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:108376
 
 ***
 
@@ -190,17 +176,17 @@ main.ts:108376
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:117995
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:108414
 
 ***
 
@@ -208,14 +194,14 @@ main.ts:108414
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingPageIntersectionLiveResultInfo`](DataforseoLabsBingPageIntersectionLiveResultInfo.md)
 
+Defined in: main.ts:117988
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingPageIntersectionLiveResultInfo`](DataforseoLabsBingPageIntersectionLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:108407

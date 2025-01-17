@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleFlightsElement
+[Documentation](../README.md) / GoogleFlightsElement
 
 # Class: GoogleFlightsElement
+
+Defined in: main.ts:33537
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new GoogleFlightsElement**(`data`?): [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
+Defined in: main.ts:33547
+
 #### Parameters
 
-• **data?**: [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md)
+##### data?
+
+[`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md)
 
 #### Returns
 
 [`GoogleFlightsElement`](GoogleFlightsElement.md)
-
-#### Defined in
-
-main.ts:31737
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:31737
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:33541
+
 description
 
 #### Implementation of
 
 [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`description`](../interfaces/IGoogleFlightsElement.md#description)
-
-#### Defined in
-
-main.ts:31731
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:31731
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:33539
+
 type of element
 
 #### Implementation of
 
 [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`type`](../interfaces/IGoogleFlightsElement.md#type)
-
-#### Defined in
-
-main.ts:31729
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:31729
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:33543
+
 URL
 
 #### Implementation of
 
 [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`url`](../interfaces/IGoogleFlightsElement.md#url)
-
-#### Defined in
-
-main.ts:31733
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:31733
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:33556
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:31746
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:31746
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:33575
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:31765
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:31765
 
 > `static` **fromJS**(`data`): [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
+Defined in: main.ts:33568
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`GoogleFlightsElement`](GoogleFlightsElement.md)
-
-#### Defined in
-
-main.ts:31758

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsLocationsResultInfo
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsLocationsResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsLocationsResultInfo
 
+Defined in: main.ts:135413
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:135428
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:125076
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:125076
 
 > `optional` **geo\_id**: `string`
 
+Defined in: main.ts:135437
+
 DataForSEO trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
-
-#### Defined in
-
-main.ts:125085
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:125085
 
 > `optional` **geo\_name**: `string`
 
+Defined in: main.ts:135434
+
 DataForSEO trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
-
-#### Defined in
-
-main.ts:125082
 
 ***
 
@@ -54,17 +50,17 @@ main.ts:125082
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:135415
+
 location code
-
-#### Defined in
-
-main.ts:125063
 
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:135426
 
 the code of the superordinate location
 example:
@@ -75,21 +71,15 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
-
-main.ts:125074
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:135417
+
 full name of the location
-
-#### Defined in
-
-main.ts:125065
 
 ***
 
@@ -97,9 +87,7 @@ main.ts:125065
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:135431
+
 location type
 possible values according to Google’s target types
-
-#### Defined in
-
-main.ts:125079

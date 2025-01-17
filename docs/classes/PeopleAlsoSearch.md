@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PeopleAlsoSearch
+[Documentation](../README.md) / PeopleAlsoSearch
 
 # Class: PeopleAlsoSearch
+
+Defined in: main.ts:210916
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new PeopleAlsoSearch**(`data`?): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
+Defined in: main.ts:210933
+
 #### Parameters
 
-• **data?**: [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md)
+##### data?
+
+[`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md)
 
 #### Returns
 
 [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
-
-#### Defined in
-
-main.ts:198482
 
 ## Properties
 
 ### cid?
 
 > `optional` **cid**: `string`
+
+Defined in: main.ts:210920
 
 google-defined client id
 unique id of a local establishment
@@ -46,15 +50,13 @@ learn more about the identifier in this help center article
 
 [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`cid`](../interfaces/IPeopleAlsoSearch.md#cid)
 
-#### Defined in
-
-main.ts:198469
-
 ***
 
 ### feature\_id?
 
 > `optional` **feature\_id**: `string`
+
+Defined in: main.ts:210923
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -63,15 +65,13 @@ learn more about the identifier in this help center article
 
 [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`feature_id`](../interfaces/IPeopleAlsoSearch.md#feature_id)
 
-#### Defined in
-
-main.ts:198472
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:210929
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -80,15 +80,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`rating`](../interfaces/IPeopleAlsoSearch.md#rating)
 
-#### Defined in
-
-main.ts:198478
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:210926
 
 title of the element in SERP
 the name of the business entity for which the results are collected
@@ -97,27 +95,23 @@ the name of the business entity for which the results are collected
 
 [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`title`](../interfaces/IPeopleAlsoSearch.md#title)
 
-#### Defined in
-
-main.ts:198475
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:210942
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:198491
 
 ***
 
@@ -125,17 +119,17 @@ main.ts:198491
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:210962
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:198511
 
 ***
 
@@ -143,14 +137,14 @@ main.ts:198511
 
 > `static` **fromJS**(`data`): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
+Defined in: main.ts:210955
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
-
-#### Defined in
-
-main.ts:198504

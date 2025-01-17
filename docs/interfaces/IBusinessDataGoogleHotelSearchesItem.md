@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelSearchesItem
+[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesItem
 
 # Interface: IBusinessDataGoogleHotelSearchesItem
 
+Defined in: main.ts:217416
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **hotel\_identifier**: `string`
 
+Defined in: main.ts:217422
+
 unique identifier of a hotel entity in Google search
 example:
 CgoI-KWyzenM_MV3EAE
-
-#### Defined in
-
-main.ts:204155
 
 ***
 
@@ -30,13 +30,11 @@ main.ts:204155
 
 > `optional` **is\_paid**: `boolean`
 
+Defined in: main.ts:217431
+
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing
-
-#### Defined in
-
-main.ts:204164
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:204164
 
 > `optional` **location**: [`GpsCoordinatesLocationInfo`](../classes/GpsCoordinatesLocationInfo.md)
 
+Defined in: main.ts:217433
+
 GPS coordinates of the hotel’s location
-
-#### Defined in
-
-main.ts:204166
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:204166
 
 > `optional` **overview\_images**: `string`[]
 
+Defined in: main.ts:217437
+
 featured images for a hotel
-
-#### Defined in
-
-main.ts:204170
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:204170
 
 > `optional` **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
 
+Defined in: main.ts:217439
+
 hotel price
-
-#### Defined in
-
-main.ts:204172
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:204172
 
 > `optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
 
+Defined in: main.ts:217435
+
 hotel reviews and rating information
-
-#### Defined in
-
-main.ts:204168
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:204168
 
 > `optional` **stars**: `number`
 
+Defined in: main.ts:217427
+
 hotel class rating
 class rating that ranges between 1-5 stars
-
-#### Defined in
-
-main.ts:204160
 
 ***
 
@@ -105,11 +93,9 @@ main.ts:204160
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:217424
+
 title of the hotel
-
-#### Defined in
-
-main.ts:204157
 
 ***
 
@@ -117,8 +103,6 @@ main.ts:204157
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:217418
+
 type of element
-
-#### Defined in
-
-main.ts:204151

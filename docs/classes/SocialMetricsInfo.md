@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SocialMetricsInfo
+[Documentation](../README.md) / SocialMetricsInfo
 
 # Class: SocialMetricsInfo
+
+Defined in: main.ts:24083
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SocialMetricsInfo**(`data`?): [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
+Defined in: main.ts:24091
+
 #### Parameters
 
-• **data?**: [`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md)
+##### data?
+
+[`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md)
 
 #### Returns
 
 [`SocialMetricsInfo`](SocialMetricsInfo.md)
-
-#### Defined in
-
-main.ts:23188
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:23188
 
 > `optional` **like\_count**: `number`
 
+Defined in: main.ts:24087
+
 likes count
 
 #### Implementation of
 
 [`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md).[`like_count`](../interfaces/ISocialMetricsInfo.md#like_count)
-
-#### Defined in
-
-main.ts:23184
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:23184
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24085
+
 type of element
 
 #### Implementation of
 
 [`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md).[`type`](../interfaces/ISocialMetricsInfo.md#type)
-
-#### Defined in
-
-main.ts:23182
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:23182
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24100
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23197
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:23197
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24118
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23215
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:23215
 
 > `static` **fromJS**(`data`): [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
+Defined in: main.ts:24111
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SocialMetricsInfo`](SocialMetricsInfo.md)
-
-#### Defined in
-
-main.ts:23208

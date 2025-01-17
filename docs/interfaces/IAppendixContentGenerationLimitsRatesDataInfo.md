@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentGenerationLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixContentGenerationLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationLimitsRatesDataInfo
 
+Defined in: main.ts:232632
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:217569
+Defined in: main.ts:232637
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:217569
 
 > `optional` **generate**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217565
+Defined in: main.ts:232633
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:217565
 
 > `optional` **generate\_meta\_tags**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217566
+Defined in: main.ts:232634
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:217566
 
 > `optional` **generate\_sub\_topics**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217571
+Defined in: main.ts:232639
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:217571
 
 > `optional` **generate\_text**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217567
+Defined in: main.ts:232635
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:217567
 
 > `optional` **paraphrase**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217568
+Defined in: main.ts:232636
 
 ***
 
@@ -76,6 +66,4 @@ main.ts:217568
 
 > `optional` **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:217570
+Defined in: main.ts:232638

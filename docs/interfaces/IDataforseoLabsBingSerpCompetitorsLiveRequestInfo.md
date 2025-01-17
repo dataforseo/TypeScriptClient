@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
+Defined in: main.ts:120001
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:120081
 
 array of results filtering parameters
 optional field
@@ -31,30 +35,26 @@ example:
 [["relevant_serp_items",">",0],"or",["median_position","in",[1,10]]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:110648
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
 
+Defined in: main.ts:120048
+
 indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
-
-#### Defined in
-
-main.ts:110615
 
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:120056
 
 search results type
 indicates type of search results included in the response
@@ -64,33 +64,29 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Defined in
-
-main.ts:110623
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:120009
+
 keywords array
 required field
 the results will be based on the keywords you specify in this array
 UTF-8 encoding;
 the keywords will be converted to lowercase format;
-a keyword should be at least 3 characters long;
 you can specify the maximum of 200 keywords
-
-#### Defined in
-
-main.ts:110576
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:120043
 
 unique language identifier
 required field if you don’t specify language_name
@@ -100,15 +96,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:110610
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:120035
 
 full name of the language
 required field if you don’t specify language_code
@@ -118,30 +112,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:110602
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:120061
+
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:110628
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:120027
 
 unique location identifier
 required field if you don’t specify location_name
@@ -152,15 +142,13 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
-
-main.ts:110594
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:120018
 
 full name of the location
 required field if you don’t specify location_code
@@ -171,30 +159,26 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
-
-main.ts:110585
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:120066
+
 offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains
-
-#### Defined in
-
-main.ts:110633
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:120097
 
 results sorting rules
 optional field
@@ -212,22 +196,16 @@ you should use a comma to separate several sorting rules
 example:
 ["avg_position,asc","etv,desc"]
 
-#### Defined in
-
-main.ts:110664
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:120103
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:110670

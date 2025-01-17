@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITableContent
+[Documentation](../README.md) / ITableContent
 
 # Interface: ITableContent
 
+Defined in: main.ts:173343
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **body**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
+Defined in: main.ts:173347
+
 content of the body of the table
-
-#### Defined in
-
-main.ts:161633
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:161633
 
 > `optional` **footer**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-parsed content of the footer
+Defined in: main.ts:173349
 
-#### Defined in
-
-main.ts:161635
+content of the footer of the table
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:161635
 
 > `optional` **header**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-content of the header of the table
+Defined in: main.ts:173345
 
-#### Defined in
-
-main.ts:161631
+parsed content of the header

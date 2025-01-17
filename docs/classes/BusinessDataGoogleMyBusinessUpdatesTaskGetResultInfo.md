@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
+
+Defined in: main.ts:215812
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo**(`data`?): [`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
 
+Defined in: main.ts:215857
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:202781
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:202781
 
 > `optional` **business\_updates\_id**: `string`
 
+Defined in: main.ts:215835
+
 identifier of the business updates element in SERP
 
 #### Implementation of
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`business_updates_id`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#business_updates_id)
 
-#### Defined in
-
-main.ts:202759
-
 ***
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:215828
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -61,15 +63,13 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:202752
-
 ***
 
 ### cid?
 
 > `optional` **cid**: `string`
+
+Defined in: main.ts:215839
 
 google-defined client id
 unique id of a local establishment
@@ -79,15 +79,13 @@ learn more about the cid identifier in this help center article
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`cid`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#cid)
 
-#### Defined in
-
-main.ts:202763
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:215833
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -98,15 +96,13 @@ example:
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:202757
-
 ***
 
 ### feature\_id?
 
 > `optional` **feature\_id**: `string`
+
+Defined in: main.ts:215842
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -115,15 +111,13 @@ learn more about the identifier in this help center article
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`feature_id`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#feature_id)
 
-#### Defined in
-
-main.ts:202766
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:215846
 
 item types
 types of search engine results encountered in the items array;
@@ -133,15 +127,13 @@ possible item types: google_business_post
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`item_types`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:202770
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+
+Defined in: main.ts:215853
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -151,15 +143,13 @@ possible item types: google_business_post
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#items)
 
-#### Defined in
-
-main.ts:202777
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:215849
 
 item types
 the number of items in the items array
@@ -168,18 +158,16 @@ the number of items in the items array
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:202773
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:215819
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
@@ -189,15 +177,13 @@ learn more about the parameter in this help center article
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:202743
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:215825
 
 language code in a POST array
 
@@ -205,15 +191,13 @@ language code in a POST array
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:202749
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:215823
 
 location code in a POST array
 
@@ -221,15 +205,13 @@ location code in a POST array
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:202747
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:215821
 
 search engine domain as specified in a POST array
 
@@ -237,27 +219,23 @@ search engine domain as specified in a POST array
 
 [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:202745
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:215866
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:202790
 
 ***
 
@@ -265,17 +243,17 @@ main.ts:202790
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:215902
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:202826
 
 ***
 
@@ -283,14 +261,14 @@ main.ts:202826
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
 
+Defined in: main.ts:215895
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:202819

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingLocationsResultInfo
+[Documentation](../README.md) / KeywordsDataBingLocationsResultInfo
 
 # Class: KeywordsDataBingLocationsResultInfo
+
+Defined in: main.ts:138176
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataBingLocationsResultInfo**(`data`?): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
 
+Defined in: main.ts:138196
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:127836
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:127836
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:138190
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`country_iso_code`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:127830
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:127830
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:138178
+
 location code
 
 #### Implementation of
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:127818
-
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:138188
 
 the code of the superordinate location
 example:
@@ -82,15 +82,13 @@ example:
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`location_code_parent`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#location_code_parent)
 
-#### Defined in
-
-main.ts:127828
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:138180
 
 full name of the location
 
@@ -98,15 +96,13 @@ full name of the location
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`location_name`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:127820
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:138192
 
 location type
 
@@ -114,27 +110,23 @@ location type
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`location_type`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:127832
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:138205
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:127845
 
 ***
 
@@ -142,17 +134,17 @@ main.ts:127845
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:138226
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:127866
 
 ***
 
@@ -160,14 +152,14 @@ main.ts:127866
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
 
+Defined in: main.ts:138219
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:127859

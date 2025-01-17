@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
+Defined in: main.ts:95104
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,21 +18,21 @@
 
 > `optional` **closely\_variants**: `boolean`
 
+Defined in: main.ts:95151
+
 search mode
 optional field
 if set to true the results will be based on the phrase-match search algorithm
 if set to false the results will be based on the broad-match search algorithm
 default value: false
 
-#### Defined in
-
-main.ts:85336
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:95206
 
 array of results filtering parameters
 optional field
@@ -52,24 +54,18 @@ example:
 ["keyword_info.high_top_of_page_bid","<=",0.5]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:85391
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
 
+Defined in: main.ts:95156
+
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
-
-#### Defined in
-
-main.ts:85341
 
 ***
 
@@ -77,16 +73,14 @@ main.ts:85341
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
+Defined in: main.ts:95168
+
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
-
-#### Defined in
-
-main.ts:85353
 
 ***
 
@@ -94,14 +88,12 @@ main.ts:85353
 
 > `optional` **include\_serp\_info**: `boolean`
 
+Defined in: main.ts:95161
+
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
-
-#### Defined in
-
-main.ts:85346
 
 ***
 
@@ -109,22 +101,22 @@ main.ts:85346
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:95111
+
 keywords
 required field
 UTF-8 encoding
 The maximum number of keywords you can specify: 200.
-The minimum number of characters for each keyword: 3.
 The keywords will be converted to lowercase format
-
-#### Defined in
-
-main.ts:85296
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:95145
 
 language code
 optional field
@@ -135,15 +127,13 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
-
-main.ts:85330
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:95136
 
 full name of the language
 optional field
@@ -154,30 +144,26 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
-
-main.ts:85321
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:95173
+
 the maximum number of keywords in the results array
 optional field
 default value: 700
 maximum value: 1000
-
-#### Defined in
-
-main.ts:85358
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:95127
 
 unique location identifier
 required field if you don’t specify location_name
@@ -187,15 +173,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
-
-main.ts:85312
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:95119
 
 full name of the location
 required field if you don’t specify location_code
@@ -205,30 +189,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:85304
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:95178
+
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
-
-#### Defined in
-
-main.ts:85363
 
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:95186
 
 offset token for subsequent requests
 optional field
@@ -238,15 +218,13 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task.
 
-#### Defined in
-
-main.ts:85371
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:95223
 
 results sorting rules
 optional field
@@ -265,22 +243,16 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_info.search_volume,desc","keyword_info.cpc,desc"]
 
-#### Defined in
-
-main.ts:85408
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:95229
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:85414

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Demography
+[Documentation](../README.md) / Demography
 
 # Class: Demography
+
+Defined in: main.ts:137336
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new Demography**(`data`?): [`Demography`](Demography.md)
 
+Defined in: main.ts:137344
+
 #### Parameters
 
-• **data?**: [`IDemography`](../interfaces/IDemography.md)
+##### data?
+
+[`IDemography`](../interfaces/IDemography.md)
 
 #### Returns
 
 [`Demography`](Demography.md)
-
-#### Defined in
-
-main.ts:126986
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:126986
 
 > `optional` **age**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
+Defined in: main.ts:137338
+
 distribution of keyword popularity by age
 
 #### Implementation of
 
 [`IDemography`](../interfaces/IDemography.md).[`age`](../interfaces/IDemography.md#age)
-
-#### Defined in
-
-main.ts:126980
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:126980
 
 > `optional` **gender**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
+Defined in: main.ts:137340
+
 distribution of keyword popularity by gender
 
 #### Implementation of
 
 [`IDemography`](../interfaces/IDemography.md).[`gender`](../interfaces/IDemography.md#gender)
-
-#### Defined in
-
-main.ts:126982
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:126982
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:137353
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:126995
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:126995
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:137379
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:127021
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:127021
 
 > `static` **fromJS**(`data`): [`Demography`](Demography.md)
 
+Defined in: main.ts:137372
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Demography`](Demography.md)
-
-#### Defined in
-
-main.ts:127014

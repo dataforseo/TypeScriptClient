@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IConceptGroupInfo
+[Documentation](../README.md) / IConceptGroupInfo
 
 # Interface: IConceptGroupInfo
 
+Defined in: main.ts:128759
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:128761
+
 the concept group name
-
-#### Defined in
-
-main.ts:118928
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:118928
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:128763
+
 type of element
-
-#### Defined in
-
-main.ts:118930

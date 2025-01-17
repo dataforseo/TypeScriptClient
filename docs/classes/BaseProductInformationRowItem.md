@@ -1,16 +1,17 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseProductInformationRowItem
+[Documentation](../README.md) / BaseProductInformationRowItem
 
 # Class: BaseProductInformationRowItem
+
+Defined in: main.ts:24314
 
 ## Extended by
 
 - [`ProductInformationImageRow`](ProductInformationImageRow.md)
 - [`ProductInformationTextRow`](ProductInformationTextRow.md)
-- [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
 
 ## Implements
 
@@ -18,7 +19,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -26,17 +27,17 @@
 
 > **new BaseProductInformationRowItem**(`data`?): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
+Defined in: main.ts:24322
+
 #### Parameters
 
-• **data?**: [`IBaseProductInformationRowItem`](../interfaces/IBaseProductInformationRowItem.md)
+##### data?
+
+[`IBaseProductInformationRowItem`](../interfaces/IBaseProductInformationRowItem.md)
 
 #### Returns
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
-
-#### Defined in
-
-main.ts:23419
 
 ## Properties
 
@@ -44,9 +45,7 @@ main.ts:23419
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:23417
+Defined in: main.ts:24320
 
 ***
 
@@ -54,15 +53,13 @@ main.ts:23417
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24316
+
 type of element
 
 #### Implementation of
 
 [`IBaseProductInformationRowItem`](../interfaces/IBaseProductInformationRowItem.md).[`type`](../interfaces/IBaseProductInformationRowItem.md#type)
-
-#### Defined in
-
-main.ts:23413
 
 ## Methods
 
@@ -70,17 +67,17 @@ main.ts:23413
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24332
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23429
 
 ***
 
@@ -88,17 +85,17 @@ main.ts:23429
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24359
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23461
 
 ***
 
@@ -106,14 +103,14 @@ main.ts:23461
 
 > `static` **fromJS**(`data`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
+Defined in: main.ts:24342
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
-
-#### Defined in
-
-main.ts:23439

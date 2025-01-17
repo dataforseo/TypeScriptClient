@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleTrendsLanguagesResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsLanguagesResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsLanguagesResultInfo
 
+Defined in: main.ts:133021
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:133025
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:122681
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:122681
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:133023
+
 language name
-
-#### Defined in
-
-main.ts:122679

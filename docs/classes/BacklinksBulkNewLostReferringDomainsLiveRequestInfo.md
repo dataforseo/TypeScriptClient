@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostReferringDomainsLiveRequestInfo
+[Documentation](../README.md) / BacklinksBulkNewLostReferringDomainsLiveRequestInfo
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveRequestInfo
+
+Defined in: main.ts:162020
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBulkNewLostReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
 
+Defined in: main.ts:162062
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:150756
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:162052
 
 starting date of the time range
 optional field
@@ -55,15 +59,13 @@ example:
 
 [`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:150746
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:162058
 
 user-defined task identifier
 optional field
@@ -75,15 +77,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:150752
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:162039
 
 domains, subdomains or webpages to get  new & lost referring domains for
 required field
@@ -108,27 +108,23 @@ example:
 
 [`IBacklinksBulkNewLostReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveRequestInfo.md#targets)
 
-#### Defined in
-
-main.ts:150733
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:162071
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:150765
 
 ***
 
@@ -136,17 +132,17 @@ main.ts:150765
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:162094
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:150788
 
 ***
 
@@ -154,14 +150,14 @@ main.ts:150788
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
 
+Defined in: main.ts:162087
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveRequestInfo`](BacklinksBulkNewLostReferringDomainsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:150781

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResultInfo
+
+Defined in: main.ts:116908
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsBingDomainIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
+Defined in: main.ts:116930
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
-#### Defined in
-
-main.ts:107267
-
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingDomainIntersectionLiveItem`](DataforseoLabsBingDomainIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](DataforseoLabsDomainIntersectionLiveItem.md)[]
+
+Defined in: main.ts:116926
 
 contains keywords, relevant SERP elements and related data
 
@@ -44,15 +48,13 @@ contains keywords, relevant SERP elements and related data
 
 [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#items)
 
-#### Defined in
-
-main.ts:107263
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:116924
 
 the number of results returned in the items array
 
@@ -60,15 +62,13 @@ the number of results returned in the items array
 
 [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:107261
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:116920
 
 language code in a POST array
 
@@ -76,15 +76,13 @@ language code in a POST array
 
 [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:107257
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:116918
 
 location code in a POST array
 
@@ -92,15 +90,13 @@ location code in a POST array
 
 [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:107255
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:116912
 
 search engine type
 search engine type specified in a POST request;
@@ -110,15 +106,13 @@ for this endpoint, the field equals bing
 
 [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:107249
-
 ***
 
 ### target1?
 
 > `optional` **target1**: `string`
+
+Defined in: main.ts:116914
 
 target specified in a POST array
 
@@ -126,15 +120,13 @@ target specified in a POST array
 
 [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`target1`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#target1)
 
-#### Defined in
-
-main.ts:107251
-
 ***
 
 ### target2?
 
 > `optional` **target2**: `string`
+
+Defined in: main.ts:116916
 
 target specified in a POST array
 
@@ -142,15 +134,13 @@ target specified in a POST array
 
 [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`target2`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#target2)
 
-#### Defined in
-
-main.ts:107253
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:116922
 
 total amount of results in our database relevant to your request
 
@@ -158,27 +148,23 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsBingDomainIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:107259
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:116939
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:107276
 
 ***
 
@@ -186,17 +172,17 @@ main.ts:107276
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:116967
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:107304
 
 ***
 
@@ -204,14 +190,14 @@ main.ts:107304
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
 
+Defined in: main.ts:116960
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingDomainIntersectionLiveResultInfo`](DataforseoLabsBingDomainIntersectionLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:107297

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleImagesTaskGetHtmlResultInfo
+[Documentation](../README.md) / ISerpGoogleImagesTaskGetHtmlResultInfo
 
 # Interface: ISerpGoogleImagesTaskGetHtmlResultInfo
 
+Defined in: main.ts:51395
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:51411
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:48211
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:48211
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:51415
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:48215
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:48215
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:51413
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:48213
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:48213
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:51398
+
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:48198
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:48198
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:51406
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:48206
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:48206
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:51404
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:48204
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:48204
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:51402
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:48202
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:48202
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:51400
+
 type of element
-
-#### Defined in
-
-main.ts:48200

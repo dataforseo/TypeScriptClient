@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
+Defined in: main.ts:132169
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,21 +18,21 @@
 
 > `optional` **bid**: `number`
 
+Defined in: main.ts:132187
+
 the maximum custom bid
 required field
 the collected data will be based on this value
 it stands for the price you are willing to pay for an ad; the higher value you specify here, the higher values you will get in the returned metrics
 learn more in this help center article
 
-#### Defined in
-
-main.ts:121843
-
 ***
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:132243
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -42,15 +44,13 @@ example:
 "2021-10-30"if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Defined in
-
-main.ts:121899
-
 ***
 
 ### date\_interval?
 
 > `optional` **date\_interval**: `string`
+
+Defined in: main.ts:132258
 
 forecasting date interval
 optional field
@@ -58,15 +58,13 @@ if you specify date_interval, you don’t need to indicate date_from and date_to
 possible values: next_week, next_month, next_quarter
 default value: next_month
 
-#### Defined in
-
-main.ts:121914
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:132252
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -77,15 +75,13 @@ date format: "yyyy-mm-dd"
 example:
 "2022-10-30"
 
-#### Defined in
-
-main.ts:121908
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:132181
 
 keywords
 required field
@@ -96,11 +92,8 @@ the keywords you specify will be converted to a lowercase format
 Note: Google Ads may return no data for certain groups of keywords
 visit our Help Center to learn more
 Also note that Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
-to learn more about which symbols can be used, please refer to this article
-
-#### Defined in
-
-main.ts:121837
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -108,15 +101,13 @@ main.ts:121837
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:132233
+
 search engine language code
 optional field
 you can receive the list of available languages of the search engine with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/google_ads/languages
 example:
 en
-
-#### Defined in
-
-main.ts:121889
 
 ***
 
@@ -124,21 +115,21 @@ main.ts:121889
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:132227
+
 full name of search engine language
 optional field
 you can receive the list of available languages of the search engine with their language_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/google_ads/languages
 example:
 English
 
-#### Defined in
-
-main.ts:121883
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:132212
 
 search engine location code
 optional field
@@ -148,15 +139,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:121868
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:132221
 
 GPS coordinates of a location
 optional field
@@ -167,15 +156,13 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Defined in
-
-main.ts:121877
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:132204
 
 full name of search engine location
 optional field
@@ -185,23 +172,17 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:121860
-
 ***
 
 ### match?
 
 > `optional` **match**: `string`
 
+Defined in: main.ts:132191
+
 keywords match-type
 required field
 can take the following values: exact, broad, phrase
-
-#### Defined in
-
-main.ts:121847
 
 ***
 
@@ -209,14 +190,12 @@ main.ts:121847
 
 > `optional` **search\_partners**: `boolean`
 
+Defined in: main.ts:132196
+
 include Google search partners
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
-
-#### Defined in
-
-main.ts:121852
 
 ***
 
@@ -224,14 +203,12 @@ main.ts:121852
 
 > `optional` **sort\_by**: `string`
 
+Defined in: main.ts:132263
+
 results sorting parameters
 optional field
 Use these parameters to sort the results by relevance, impressions, ctr, average_cpc, cost, or clicks in the descending order
 default value: relevance
-
-#### Defined in
-
-main.ts:121919
 
 ***
 
@@ -239,12 +216,10 @@ main.ts:121919
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:132269
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:121925

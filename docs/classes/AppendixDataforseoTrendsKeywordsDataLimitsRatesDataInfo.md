@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
+
+Defined in: main.ts:230872
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:230880
+
 #### Parameters
 
-• **data?**: [`IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:215828
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:215828
 
 > `optional` **demography**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230875
+
 #### Implementation of
 
 [`IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md).[`demography`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md#demography)
-
-#### Defined in
-
-main.ts:215823
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:215823
 
 > `optional` **explore**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230873
+
 #### Implementation of
 
 [`IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md).[`explore`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md#explore)
-
-#### Defined in
-
-main.ts:215821
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:215821
 
 > `optional` **merged\_data**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230876
+
 #### Implementation of
 
 [`IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md).[`merged_data`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md#merged_data)
-
-#### Defined in
-
-main.ts:215824
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:215824
 
 > `optional` **subregion\_interests**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230874
+
 #### Implementation of
 
 [`IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md).[`subregion_interests`](../interfaces/IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md#subregion_interests)
-
-#### Defined in
-
-main.ts:215822
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:215822
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:230889
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:215837
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:215837
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:230909
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:215857
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:215857
 
 > `static` **fromJS**(`data`): [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:230902
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:215850

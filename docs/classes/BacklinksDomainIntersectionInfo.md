@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksDomainIntersectionInfo
+[Documentation](../README.md) / BacklinksDomainIntersectionInfo
 
 # Class: BacklinksDomainIntersectionInfo
+
+Defined in: main.ts:157644
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksDomainIntersectionInfo**(`data`?): [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
+Defined in: main.ts:157714
+
 #### Parameters
 
-• **data?**: [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md)
+##### data?
+
+[`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md)
 
 #### Returns
 
 [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
-
-#### Defined in
-
-main.ts:146408
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:146408
 
 > `optional` **backlinks**: `number`
 
+Defined in: main.ts:157655
+
 indicates the number of backlinks
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`backlinks`](../interfaces/IBacklinksDomainIntersectionInfo.md#backlinks)
 
-#### Defined in
-
-main.ts:146349
-
 ***
 
 ### backlinks\_spam\_score?
 
 > `optional` **backlinks\_spam\_score**: `number`
+
+Defined in: main.ts:157669
 
 average spam score of the backlinks pointing to the target
 learn more about how the metric is calculated on this help center page
@@ -61,15 +63,13 @@ learn more about how the metric is calculated on this help center page
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`backlinks_spam_score`](../interfaces/IBacklinksDomainIntersectionInfo.md#backlinks_spam_score)
 
-#### Defined in
-
-main.ts:146363
-
 ***
 
 ### broken\_backlinks?
 
 > `optional` **broken\_backlinks**: `number`
+
+Defined in: main.ts:157671
 
 number of broken backlinks
 
@@ -77,15 +77,13 @@ number of broken backlinks
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`broken_backlinks`](../interfaces/IBacklinksDomainIntersectionInfo.md#broken_backlinks)
 
-#### Defined in
-
-main.ts:146365
-
 ***
 
 ### broken\_pages?
 
 > `optional` **broken\_pages**: `number`
+
+Defined in: main.ts:157673
 
 number of broken pages
 
@@ -93,15 +91,13 @@ number of broken pages
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`broken_pages`](../interfaces/IBacklinksDomainIntersectionInfo.md#broken_pages)
 
-#### Defined in
-
-main.ts:146367
-
 ***
 
 ### first\_seen?
 
 > `optional` **first\_seen**: `string`
+
+Defined in: main.ts:157660
 
 date and time when our crawler found the backlink from this target for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -112,15 +108,13 @@ example:
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`first_seen`](../interfaces/IBacklinksDomainIntersectionInfo.md#first_seen)
 
-#### Defined in
-
-main.ts:146354
-
 ***
 
 ### lost\_date?
 
 > `optional` **lost\_date**: `number`
+
+Defined in: main.ts:157666
 
 date and time when the last backlink from this target was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -132,15 +126,13 @@ example:
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`lost_date`](../interfaces/IBacklinksDomainIntersectionInfo.md#lost_date)
 
-#### Defined in
-
-main.ts:146360
-
 ***
 
 ### rank?
 
 > `optional` **rank**: `number`
+
+Defined in: main.ts:157653
 
 rank referred to the target from the POST array
 indicates the rank that the referring domain (target above) refers to your target from the POST array;
@@ -151,15 +143,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`rank`](../interfaces/IBacklinksDomainIntersectionInfo.md#rank)
 
-#### Defined in
-
-main.ts:146347
-
 ***
 
 ### referring\_domains?
 
 > `optional` **referring\_domains**: `number`
+
+Defined in: main.ts:157675
 
 number of referring domains
 
@@ -167,15 +157,13 @@ number of referring domains
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_domains`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_domains)
 
-#### Defined in
-
-main.ts:146369
-
 ***
 
 ### referring\_domains\_nofollow?
 
 > `optional` **referring\_domains\_nofollow**: `number`
+
+Defined in: main.ts:157677
 
 number of domains pointing at least one nofollow link to the corresponding target
 
@@ -183,15 +171,13 @@ number of domains pointing at least one nofollow link to the corresponding targe
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_domains_nofollow`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_domains_nofollow)
 
-#### Defined in
-
-main.ts:146371
-
 ***
 
 ### referring\_ips?
 
 > `optional` **referring\_ips**: `number`
+
+Defined in: main.ts:157683
 
 number of referring IP addresses
 
@@ -199,30 +185,24 @@ number of referring IP addresses
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_ips`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_ips)
 
-#### Defined in
-
-main.ts:146377
-
 ***
 
 ### referring\_links\_attributes?
 
 > `optional` **referring\_links\_attributes**: `object`
 
+Defined in: main.ts:157700
+
 link attributes of the referring links
 indicates link attributes of the referring links and the link count per each attribute
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_attributes`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_attributes)
-
-#### Defined in
-
-main.ts:146394
 
 ***
 
@@ -230,20 +210,18 @@ main.ts:146394
 
 > `optional` **referring\_links\_countries**: `object`
 
+Defined in: main.ts:157710
+
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_countries`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_countries)
-
-#### Defined in
-
-main.ts:146404
 
 ***
 
@@ -251,20 +229,18 @@ main.ts:146404
 
 > `optional` **referring\_links\_platform\_types**: `object`
 
+Defined in: main.ts:157703
+
 types of referring platforms
 indicates referring platform types and link count per each platform
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_platform_types`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_platform_types)
-
-#### Defined in
-
-main.ts:146397
 
 ***
 
@@ -272,21 +248,19 @@ main.ts:146397
 
 > `optional` **referring\_links\_semantic\_locations**: `object`
 
+Defined in: main.ts:157707
+
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and the link count per each semantic location
 you can get the full list of semantic elements here
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_semantic_locations`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_semantic_locations)
-
-#### Defined in
-
-main.ts:146401
 
 ***
 
@@ -294,26 +268,26 @@ main.ts:146401
 
 > `optional` **referring\_links\_tld**: `object`
 
+Defined in: main.ts:157692
+
 top level domains of the referring links
 contains top-level domains and referring link count per each
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_tld`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_tld)
-
-#### Defined in
-
-main.ts:146386
 
 ***
 
 ### referring\_links\_types?
 
 > `optional` **referring\_links\_types**: `object`
+
+Defined in: main.ts:157697
 
 types of the referring links
 indicates the types of referring links and link count per each type
@@ -322,15 +296,11 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_links_types`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_links_types)
-
-#### Defined in
-
-main.ts:146391
 
 ***
 
@@ -338,15 +308,13 @@ main.ts:146391
 
 > `optional` **referring\_main\_domains**: `number`
 
+Defined in: main.ts:157679
+
 number of referring main domains
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_main_domains`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_main_domains)
-
-#### Defined in
-
-main.ts:146373
 
 ***
 
@@ -354,15 +322,13 @@ main.ts:146373
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
+Defined in: main.ts:157681
+
 number of main domains pointing at least one nofollow link to the target
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_main_domains_nofollow)
-
-#### Defined in
-
-main.ts:146375
 
 ***
 
@@ -370,15 +336,13 @@ main.ts:146375
 
 > `optional` **referring\_pages**: `number`
 
+Defined in: main.ts:157687
+
 indicates the number of pages pointing to the target
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_pages`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_pages)
-
-#### Defined in
-
-main.ts:146381
 
 ***
 
@@ -386,15 +350,13 @@ main.ts:146381
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
+Defined in: main.ts:157689
+
 number of referring pages pointing at least one nofollow link to the target
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_pages_nofollow`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_pages_nofollow)
-
-#### Defined in
-
-main.ts:146383
 
 ***
 
@@ -402,15 +364,13 @@ main.ts:146383
 
 > `optional` **referring\_subnets**: `number`
 
+Defined in: main.ts:157685
+
 number of referring subnetworks
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`referring_subnets`](../interfaces/IBacklinksDomainIntersectionInfo.md#referring_subnets)
-
-#### Defined in
-
-main.ts:146379
 
 ***
 
@@ -418,15 +378,13 @@ main.ts:146379
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:157648
+
 domain that links to the corresponding target from the POST array
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`target`](../interfaces/IBacklinksDomainIntersectionInfo.md#target)
-
-#### Defined in
-
-main.ts:146342
 
 ***
 
@@ -434,15 +392,13 @@ main.ts:146342
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:157646
+
 type of element
 
 #### Implementation of
 
 [`IBacklinksDomainIntersectionInfo`](../interfaces/IBacklinksDomainIntersectionInfo.md).[`type`](../interfaces/IBacklinksDomainIntersectionInfo.md#type)
-
-#### Defined in
-
-main.ts:146340
 
 ## Methods
 
@@ -450,17 +406,17 @@ main.ts:146340
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:157723
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:146417
 
 ***
 
@@ -468,17 +424,17 @@ main.ts:146417
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:157798
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:146492
 
 ***
 
@@ -486,14 +442,14 @@ main.ts:146492
 
 > `static` **fromJS**(`data`): [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
+Defined in: main.ts:157791
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
-
-#### Defined in
-
-main.ts:146485

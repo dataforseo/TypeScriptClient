@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
+[Documentation](../README.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveRequestInfo
 
+Defined in: main.ts:204378
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:204384
+
 app categories
 optional field
 the categories you specify are used to search for app listings;
 you can get the full list of available app listing categories by this link
 you can specify up to 10 categories
-
-#### Defined in
-
-main.ts:191947
 
 ***
 
@@ -32,20 +32,20 @@ main.ts:191947
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:204389
+
 keyword in the app’s description
 optional field
 keywords that occur in the description of the app;
-can contain up to 200 symbols
-
-#### Defined in
-
-main.ts:191952
+can contain up to 200 characters
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:204405
 
 array of results filtering parameters
 optional field
@@ -58,24 +58,18 @@ example:
 ["item.rating.value",">",3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/app_data/google/app_listings/available_filters
 
-#### Defined in
-
-main.ts:191968
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:204424
+
 the maximum number of returned apps
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:191987
 
 ***
 
@@ -83,20 +77,20 @@ main.ts:191987
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:204429
+
 offset in the results array of returned apps
 optional field
 default value: 0
 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities
-
-#### Defined in
-
-main.ts:191992
 
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:204437
 
 token for subsequent requests
 optional field
@@ -106,15 +100,13 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
 
-#### Defined in
-
-main.ts:192000
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:204419
 
 results sorting rules
 optional field
@@ -130,15 +122,13 @@ you should use a comma to separate several sorting rules
 example:
 ["item.rating.value,desc","item.installs_count,asc"]
 
-#### Defined in
-
-main.ts:191982
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:204443
 
 user-defined task identifier
 optional field
@@ -146,21 +136,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:192006
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:204394
+
 keyword in the app’s title
 optional field
 keywords that occur in the title of the app;
-can contain up to 200 symbols
-
-#### Defined in
-
-main.ts:191957
+can contain up to 200 characters

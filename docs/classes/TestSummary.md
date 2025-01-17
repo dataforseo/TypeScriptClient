@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TestSummary
+[Documentation](../README.md) / TestSummary
 
 # Class: TestSummary
+
+Defined in: main.ts:171638
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TestSummary**(`data`?): [`TestSummary`](TestSummary.md)
 
+Defined in: main.ts:171650
+
 #### Parameters
 
-• **data?**: [`ITestSummary`](../interfaces/ITestSummary.md)
+##### data?
+
+[`ITestSummary`](../interfaces/ITestSummary.md)
 
 #### Returns
 
 [`TestSummary`](TestSummary.md)
-
-#### Defined in
-
-main.ts:159914
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:159914
 
 > `optional` **error**: `number`
 
+Defined in: main.ts:171642
+
 number of serious microdata errors
 
 #### Implementation of
 
 [`ITestSummary`](../interfaces/ITestSummary.md).[`error`](../interfaces/ITestSummary.md#error)
-
-#### Defined in
-
-main.ts:159906
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:159906
 
 > `optional` **fatal**: `number`
 
+Defined in: main.ts:171640
+
 number of fatal microdata errors
 
 #### Implementation of
 
 [`ITestSummary`](../interfaces/ITestSummary.md).[`fatal`](../interfaces/ITestSummary.md#fatal)
-
-#### Defined in
-
-main.ts:159904
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:159904
 
 > `optional` **info**: `number`
 
+Defined in: main.ts:171646
+
 number of microdata information flags
 
 #### Implementation of
 
 [`ITestSummary`](../interfaces/ITestSummary.md).[`info`](../interfaces/ITestSummary.md#info)
-
-#### Defined in
-
-main.ts:159910
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:159910
 
 > `optional` **warning**: `number`
 
+Defined in: main.ts:171644
+
 number of microdata warnings
 
 #### Implementation of
 
 [`ITestSummary`](../interfaces/ITestSummary.md).[`warning`](../interfaces/ITestSummary.md#warning)
-
-#### Defined in
-
-main.ts:159908
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:159908
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:171659
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:159923
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:159923
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:171679
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:159943
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:159943
 
 > `static` **fromJS**(`data`): [`TestSummary`](TestSummary.md)
 
+Defined in: main.ts:171672
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TestSummary`](TestSummary.md)
-
-#### Defined in
-
-main.ts:159936

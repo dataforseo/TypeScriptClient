@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleJobsTaskGetHtmlResultInfo
+[Documentation](../README.md) / ISerpGoogleJobsTaskGetHtmlResultInfo
 
 # Interface: ISerpGoogleJobsTaskGetHtmlResultInfo
 
+Defined in: main.ts:55015
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:55031
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:51295
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:51295
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:55035
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:51299
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:51299
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:55033
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:51297
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:51297
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:55018
+
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:51282
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:51282
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:55026
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:51290
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:51290
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:55024
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:51288
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:51288
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:55022
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:51286
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:51286
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:55020
+
 type of element
-
-#### Defined in
-
-main.ts:51284

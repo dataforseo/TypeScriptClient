@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
+Defined in: main.ts:230862
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215815
+Defined in: main.ts:230867
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:215815
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215813
+Defined in: main.ts:230865
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:215813
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215814
+Defined in: main.ts:230866
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:215814
 
 > `optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215812
+Defined in: main.ts:230864
 
 ***
 
@@ -56,6 +50,4 @@ main.ts:215812
 
 > `optional` **status**: `number`
 
-#### Defined in
-
-main.ts:215811
+Defined in: main.ts:230863

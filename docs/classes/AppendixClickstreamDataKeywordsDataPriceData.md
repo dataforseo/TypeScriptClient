@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixClickstreamDataKeywordsDataPriceData
+[Documentation](../README.md) / AppendixClickstreamDataKeywordsDataPriceData
 
 # Class: AppendixClickstreamDataKeywordsDataPriceData
+
+Defined in: main.ts:236454
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,59 +22,53 @@
 
 > **new AppendixClickstreamDataKeywordsDataPriceData**(`data`?): [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
 
+Defined in: main.ts:236462
+
 #### Parameters
 
-• **data?**: [`IAppendixClickstreamDataKeywordsDataPriceData`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md)
+##### data?
+
+[`IAppendixClickstreamDataKeywordsDataPriceData`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md)
 
 #### Returns
 
 [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
 
-#### Defined in
-
-main.ts:221190
-
 ## Properties
 
 ### bulk\_search\_volume?
 
-> `optional` **bulk\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **bulk\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236455
 
 #### Implementation of
 
 [`IAppendixClickstreamDataKeywordsDataPriceData`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md).[`bulk_search_volume`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md#bulk_search_volume)
 
-#### Defined in
-
-main.ts:221183
-
 ***
 
 ### dataforseo\_search\_volume?
 
-> `optional` **dataforseo\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **dataforseo\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236456
 
 #### Implementation of
 
 [`IAppendixClickstreamDataKeywordsDataPriceData`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md).[`dataforseo_search_volume`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md#dataforseo_search_volume)
 
-#### Defined in
-
-main.ts:221184
-
 ***
 
 ### global\_search\_volume?
 
-> `optional` **global\_search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **global\_search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236457
 
 #### Implementation of
 
 [`IAppendixClickstreamDataKeywordsDataPriceData`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md).[`global_search_volume`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md#global_search_volume)
-
-#### Defined in
-
-main.ts:221185
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:221185
 
 > `optional` **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236458
+
 #### Implementation of
 
 [`IAppendixClickstreamDataKeywordsDataPriceData`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md).[`locations_and_languages`](../interfaces/IAppendixClickstreamDataKeywordsDataPriceData.md#locations_and_languages)
-
-#### Defined in
-
-main.ts:221186
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:221186
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:236471
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:221199
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:221199
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:236491
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:221219
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:221219
 
 > `static` **fromJS**(`data`): [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
 
+Defined in: main.ts:236484
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixClickstreamDataKeywordsDataPriceData`](AppendixClickstreamDataKeywordsDataPriceData.md)
-
-#### Defined in
-
-main.ts:221212

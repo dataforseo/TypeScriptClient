@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo
 
+Defined in: main.ts:93863
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:93913
 
 keyword search depth
 optional field
@@ -28,15 +32,13 @@ estimated number of keywords for each level (maximum):
 3 – 584 keywords
 4 – 4680 keywords
 
-#### Defined in
-
-main.ts:84098
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:93961
 
 array of results filtering parameters
 optional field
@@ -57,24 +59,18 @@ example:
 ["keyword_info.high_top_of_page_bid","<=",0.5]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:84146
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
 
+Defined in: main.ts:93935
+
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
-
-#### Defined in
-
-main.ts:84120
 
 ***
 
@@ -82,16 +78,14 @@ main.ts:84120
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
+Defined in: main.ts:93930
+
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
-
-#### Defined in
-
-main.ts:84115
 
 ***
 
@@ -99,14 +93,12 @@ main.ts:84115
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
+Defined in: main.ts:93918
+
 include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false
-
-#### Defined in
-
-main.ts:84103
 
 ***
 
@@ -114,14 +106,12 @@ main.ts:84103
 
 > `optional` **include\_serp\_info**: `boolean`
 
+Defined in: main.ts:93923
+
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
-
-#### Defined in
-
-main.ts:84108
 
 ***
 
@@ -129,20 +119,21 @@ main.ts:84108
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:93869
+
 keyword
 required field
 UTF-8 encoding
 the keywords will be converted to lowercase format
-
-#### Defined in
-
-main.ts:84054
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:93901
 
 language code
 required field if you don’t specify language_name
@@ -152,15 +143,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:84086
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:93893
 
 full name of the language
 required field if you don’t specify language_code
@@ -170,30 +159,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:84078
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:93982
+
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:84167
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:93885
 
 location code
 required field if you don’t specify location_name
@@ -203,15 +188,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
-
-main.ts:84070
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:93877
 
 full name of the location
 required field if you don’t specify location_code
@@ -221,30 +204,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:84062
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:93987
+
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
-
-#### Defined in
-
-main.ts:84172
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:93977
 
 results sorting rules
 optional field
@@ -262,15 +241,13 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_data.keyword_info.search_volume,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Defined in
-
-main.ts:84162
-
 ***
 
 ### replace\_with\_core\_keyword?
 
 > `optional` **replace\_with\_core\_keyword**: `boolean`
+
+Defined in: main.ts:93942
 
 return data for core keyword
 optional field
@@ -279,22 +256,16 @@ if false, serp_info and related_keywords will be returned for the specified keyw
 refer to this help center article for more details;
 default value: false
 
-#### Defined in
-
-main.ts:84127
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:93993
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:84178

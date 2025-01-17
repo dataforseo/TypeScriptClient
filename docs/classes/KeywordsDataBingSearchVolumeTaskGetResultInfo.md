@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeTaskGetResultInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeTaskGetResultInfo
 
 # Class: KeywordsDataBingSearchVolumeTaskGetResultInfo
+
+Defined in: main.ts:139122
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataBingSearchVolumeTaskGetResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)
 
+Defined in: main.ts:139161
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:128795
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:139153
 
 product and service categories
 our API doesn’t return categories for this endpoint: the parameter will always equal null
@@ -45,15 +49,13 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`categories`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#categories)
 
-#### Defined in
-
-main.ts:128787
-
 ***
 
 ### competition?
 
 > `optional` **competition**: `number`
+
+Defined in: main.ts:139141
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -67,15 +69,13 @@ if there is no data the value is null
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`competition`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#competition)
 
-#### Defined in
-
-main.ts:128775
-
 ***
 
 ### cpc?
 
 > `optional` **cpc**: `number`
+
+Defined in: main.ts:139145
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -85,15 +85,13 @@ if there is no data then the value is null
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`cpc`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#cpc)
 
-#### Defined in
-
-main.ts:128779
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:139133
 
 device type in a POST array
 if there is no data, then the value is null
@@ -102,15 +100,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`device`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#device)
 
-#### Defined in
-
-main.ts:128767
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:139124
 
 keyword in a POST array
 
@@ -118,15 +114,13 @@ keyword in a POST array
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:128758
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:139128
 
 language code in a POST array
 
@@ -134,15 +128,13 @@ language code in a POST array
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:128762
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:139126
 
 location code in a POST array
 
@@ -150,15 +142,13 @@ location code in a POST array
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:128760
-
 ***
 
 ### monthly\_searches?
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
+
+Defined in: main.ts:139157
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
@@ -168,15 +158,13 @@ if there is no data then the value is null
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`monthly_searches`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#monthly_searches)
 
-#### Defined in
-
-main.ts:128791
-
 ***
 
 ### search\_partners?
 
 > `optional` **search\_partners**: `boolean`
+
+Defined in: main.ts:139130
 
 indicates whether data from partner networks included in the response
 
@@ -184,15 +172,13 @@ indicates whether data from partner networks included in the response
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#search_partners)
 
-#### Defined in
-
-main.ts:128764
-
 ***
 
 ### search\_volume?
 
 > `optional` **search\_volume**: `number`
+
+Defined in: main.ts:139150
 
 monthly average search volume rate
 represents either the (approximate) number of searches for the given keyword idea on bing search engine, depending on the user’s targeting
@@ -203,27 +189,23 @@ if there is no data then the value is null
 
 [`IKeywordsDataBingSearchVolumeTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md).[`search_volume`](../interfaces/IKeywordsDataBingSearchVolumeTaskGetResultInfo.md#search_volume)
 
-#### Defined in
-
-main.ts:128784
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:139170
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:128804
 
 ***
 
@@ -231,17 +213,17 @@ main.ts:128804
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:139204
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:128838
 
 ***
 
@@ -249,14 +231,14 @@ main.ts:128838
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)
 
+Defined in: main.ts:139197
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingSearchVolumeTaskGetResultInfo`](KeywordsDataBingSearchVolumeTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:128831

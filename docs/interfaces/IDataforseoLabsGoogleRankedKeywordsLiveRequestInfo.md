@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
+Defined in: main.ts:100834
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:100941
 
 array of results filtering parameters
 optional field
@@ -36,15 +40,13 @@ example:
 ["ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:91130
-
 ***
 
 ### historical\_serp\_mode?
 
 > `optional` **historical\_serp\_mode**: `string`
+
+Defined in: main.ts:100921
 
 data collection mode
 optional field
@@ -55,24 +57,18 @@ lost — return keywords for which the specified target had previously had ranki
 all — return both types of keywords.
 default value: live
 
-#### Defined in
-
-main.ts:91110
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
 
+Defined in: main.ts:100881
+
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
-
-#### Defined in
-
-main.ts:91070
 
 ***
 
@@ -80,22 +76,22 @@ main.ts:91070
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
+Defined in: main.ts:100897
+
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, clickstream_age_distribution, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
-
-#### Defined in
-
-main.ts:91086
 
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:100890
 
 display results by item type
 optional field
@@ -106,15 +102,13 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
-
-main.ts:91079
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:100876
 
 language code
 optional field
@@ -125,15 +119,13 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
-
-main.ts:91065
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:100867
 
 full name of the language
 optional field
@@ -144,24 +136,18 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
-
-main.ts:91056
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:100902
+
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:91091
 
 ***
 
@@ -169,20 +155,20 @@ main.ts:91091
 
 > `optional` **load\_rank\_absolute**: `boolean`
 
+Defined in: main.ts:100912
+
 return rankings distribution by rank_absolute
 optional field
 default value: false
 if set to true, we will return the field metrics_absolute containing rankings distribution by the rank_absolute parameter that indicates the result’s position among all SERP elements
-
-#### Defined in
-
-main.ts:91101
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:100858
 
 location code
 optional field
@@ -193,15 +179,13 @@ ignore this field to get the results for all available locations
 example:
 2840
 
-#### Defined in
-
-main.ts:91047
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:100849
 
 full name of the location
 optional field
@@ -212,30 +196,26 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:91038
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:100907
+
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
-
-#### Defined in
-
-main.ts:91096
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:100957
 
 results sorting rules
 optional field
@@ -253,15 +233,13 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_data.keyword_info.search_volume,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Defined in
-
-main.ts:91146
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:100963
 
 user-defined task identifier
 optional field
@@ -269,26 +247,16 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:91152
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
 
-domain
+Defined in: main.ts:100840
+
+domain name or page url
 required field
-the domain name of the target website
-the domain should be specified without https:// or www.
-if you want to get the keywords a particular webpage ranks for, specify the filter by the
-ranked_serp_element.serp_item.relative_url parameter
-example:
-"filters":[
-"ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
-
-#### Defined in
-
-main.ts:91029
+the domain name of the target website or URL of the target webpage;
+the domain name must be specified without https:// or www.;
+the webpage URL must be specified with https:// or www.

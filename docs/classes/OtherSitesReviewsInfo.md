@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OtherSitesReviewsInfo
+[Documentation](../README.md) / OtherSitesReviewsInfo
 
 # Class: OtherSitesReviewsInfo
+
+Defined in: main.ts:219562
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OtherSitesReviewsInfo**(`data`?): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
+Defined in: main.ts:219578
+
 #### Parameters
 
-• **data?**: [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md)
+##### data?
+
+[`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md)
 
 #### Returns
 
 [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
-
-#### Defined in
-
-main.ts:206122
 
 ## Properties
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:219574
 
 rating in the review
 information about the rating enclosed in the review on a third-party site
@@ -45,15 +49,13 @@ information about the rating enclosed in the review on a third-party site
 
 [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`rating`](../interfaces/IOtherSitesReviewsInfo.md#rating)
 
-#### Defined in
-
-main.ts:206118
-
 ***
 
 ### review\_text?
 
 > `optional` **review\_text**: `string`
+
+Defined in: main.ts:219571
 
 review text
 text of the review
@@ -62,15 +64,13 @@ text of the review
 
 [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`review_text`](../interfaces/IOtherSitesReviewsInfo.md#review_text)
 
-#### Defined in
-
-main.ts:206115
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:219565
 
 review title
 contains a name of the third-party site where review initially appeared
@@ -79,15 +79,13 @@ contains a name of the third-party site where review initially appeared
 
 [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`title`](../interfaces/IOtherSitesReviewsInfo.md#title)
 
-#### Defined in
-
-main.ts:206109
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:219568
 
 review url
 URL to the a third-party site where review initially appeared
@@ -96,27 +94,23 @@ URL to the a third-party site where review initially appeared
 
 [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`url`](../interfaces/IOtherSitesReviewsInfo.md#url)
 
-#### Defined in
-
-main.ts:206112
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:219587
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:206131
 
 ***
 
@@ -124,17 +118,17 @@ main.ts:206131
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:219607
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:206151
 
 ***
 
@@ -142,14 +136,14 @@ main.ts:206151
 
 > `static` **fromJS**(`data`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
+Defined in: main.ts:219600
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
-
-#### Defined in
-
-main.ts:206144

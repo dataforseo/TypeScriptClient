@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
+Defined in: main.ts:100489
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../classes/DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)[]
 
+Defined in: main.ts:100497
+
 contains ranking and traffic data
-
-#### Defined in
-
-main.ts:90678
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:90678
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:100495
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:90676
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:90676
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:100491
+
 search engine type
-
-#### Defined in
-
-main.ts:90672
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:90672
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:100493
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:90674

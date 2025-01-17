@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
+[Documentation](../README.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlaySearchOrganicSerpElementItem
+
+Defined in: main.ts:121603
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:121605
+
 id of the app
-
-#### Defined in
-
-main.ts:112172
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:112172
 
 > `optional` **developer**: `string`
 
+Defined in: main.ts:121617
+
 name of the app developer
-
-#### Defined in
-
-main.ts:112184
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:112184
 
 > `optional` **developer\_url**: `string`
 
+Defined in: main.ts:121619
+
 URL to the developer page on Google Play
-
-#### Defined in
-
-main.ts:112186
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:112186
 
 > `optional` **icon**: `string`
 
+Defined in: main.ts:121609
+
 URL to the app icon
-
-#### Defined in
-
-main.ts:112176
 
 ***
 
@@ -68,17 +62,17 @@ main.ts:112176
 
 > `optional` **is\_free**: `boolean`
 
+Defined in: main.ts:121613
+
 indicates whether the app is free
-
-#### Defined in
-
-main.ts:112180
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:22971
 
 the alignment of the element in SERP
 can take the following values:
@@ -88,27 +82,23 @@ left, right
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:22068
-
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+
+Defined in: main.ts:121615
 
 price of the app
-
-#### Defined in
-
-main.ts:112182
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:22967
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -117,15 +107,13 @@ absolute position among all the elements in SERP
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:22064
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22964
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,15 +122,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:22061
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+
+Defined in: main.ts:22975
 
 average rating of the app
 
@@ -150,21 +136,15 @@ average rating of the app
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:22072
-
 ***
 
 ### reviews\_count?
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:121611
+
 the total number of reviews of the app
-
-#### Defined in
-
-main.ts:112178
 
 ***
 
@@ -172,15 +152,13 @@ main.ts:112178
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:22973
+
 title of the app
 
 #### Inherited from
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
-
-#### Defined in
-
-main.ts:22070
 
 ***
 
@@ -188,15 +166,13 @@ main.ts:22070
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22961
+
 type of element
 
 #### Inherited from
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:22058
 
 ***
 
@@ -204,8 +180,6 @@ main.ts:22058
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:121607
+
 URL to the app page on Google Play
-
-#### Defined in
-
-main.ts:112174

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksDomainPagesLiveResultInfo
+[Documentation](../README.md) / IBacklinksDomainPagesLiveResultInfo
 
 # Interface: IBacklinksDomainPagesLiveResultInfo
 
+Defined in: main.ts:154367
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`BacklinksDomainPagesLiveItem`](../classes/BacklinksDomainPagesLiveItem.md)[]
 
+Defined in: main.ts:154375
+
 items array
-
-#### Defined in
-
-main.ts:143069
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:143069
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:154373
+
 number of items in the items array
-
-#### Defined in
-
-main.ts:143067
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:143067
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:154369
+
 target in a POST array
-
-#### Defined in
-
-main.ts:143063
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:143063
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:154371
+
 total number of relevant items in the database
-
-#### Defined in
-
-main.ts:143065

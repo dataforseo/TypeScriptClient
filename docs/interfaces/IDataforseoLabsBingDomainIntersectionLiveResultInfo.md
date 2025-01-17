@@ -1,26 +1,26 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingDomainIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveResultInfo
 
+Defined in: main.ts:116989
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingDomainIntersectionLiveItem`](../classes/DataforseoLabsBingDomainIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsDomainIntersectionLiveItem`](../classes/DataforseoLabsDomainIntersectionLiveItem.md)[]
+
+Defined in: main.ts:117007
 
 contains keywords, relevant SERP elements and related data
-
-#### Defined in
-
-main.ts:107344
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:107344
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:117005
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:107342
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:107342
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:117001
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:107338
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:107338
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:116999
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:107336
 
 ***
 
@@ -64,13 +58,11 @@ main.ts:107336
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:116993
+
 search engine type
 search engine type specified in a POST request;
 for this endpoint, the field equals bing
-
-#### Defined in
-
-main.ts:107330
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:107330
 
 > `optional` **target1**: `string`
 
+Defined in: main.ts:116995
+
 target specified in a POST array
-
-#### Defined in
-
-main.ts:107332
 
 ***
 
@@ -90,11 +80,9 @@ main.ts:107332
 
 > `optional` **target2**: `string`
 
+Defined in: main.ts:116997
+
 target specified in a POST array
-
-#### Defined in
-
-main.ts:107334
 
 ***
 
@@ -102,8 +90,6 @@ main.ts:107334
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:117003
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:107340

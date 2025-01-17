@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleAppIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAppleAppIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveResultInfo
 
+Defined in: main.ts:125145
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **app\_ids**: `object`
 
+Defined in: main.ts:125149
+
 ids of the apps in a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:115876
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:115876
 
 > `optional` **items**: [`DataforseoLabsAppleAppIntersectionLiveItem`](../classes/DataforseoLabsAppleAppIntersectionLiveItem.md)[]
 
+Defined in: main.ts:125159
+
 contains data related to the ranking keywords for the app specified in the app_id field
-
-#### Defined in
-
-main.ts:115886
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:115886
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:125157
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:115884
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:115884
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:125153
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:115880
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:115880
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:125151
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:115878
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:115878
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:125147
+
 search engine type
-
-#### Defined in
-
-main.ts:115874
 
 ***
 
@@ -92,8 +82,6 @@ main.ts:115874
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:125155
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:115882

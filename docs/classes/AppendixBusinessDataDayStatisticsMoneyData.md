@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBusinessDataDayStatisticsMoneyData
+[Documentation](../README.md) / AppendixBusinessDataDayStatisticsMoneyData
 
 # Class: AppendixBusinessDataDayStatisticsMoneyData
+
+Defined in: main.ts:235524
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixBusinessDataDayStatisticsMoneyData**(`data`?): [`AppendixBusinessDataDayStatisticsMoneyData`](AppendixBusinessDataDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235539
+
 #### Parameters
 
-• **data?**: [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md)
+##### data?
+
+[`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md)
 
 #### Returns
 
 [`AppendixBusinessDataDayStatisticsMoneyData`](AppendixBusinessDataDayStatisticsMoneyData.md)
-
-#### Defined in
-
-main.ts:220431
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:220431
 
 > `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235533
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`business_listings`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#business_listings)
-
-#### Defined in
-
-main.ts:220425
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:220425
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:235528
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`errors`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#errors)
-
-#### Defined in
-
-main.ts:220420
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:220420
 
 > `optional` **google**: [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
+Defined in: main.ts:235525
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`google`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#google)
-
-#### Defined in
-
-main.ts:220417
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:220417
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:235527
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`languages`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#languages)
-
-#### Defined in
-
-main.ts:220419
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:220419
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:235526
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`locations`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#locations)
-
-#### Defined in
-
-main.ts:220418
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:220418
 
 > `optional` **refund\_money**: `number`
 
+Defined in: main.ts:235535
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`refund_money`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#refund_money)
-
-#### Defined in
-
-main.ts:220427
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:220427
 
 > `optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235530
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`social_media`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#social_media)
-
-#### Defined in
-
-main.ts:220422
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:220422
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:235534
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`tasks_ready`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:220426
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:220426
 
 > `optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235531
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`tripadvisor`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#tripadvisor)
-
-#### Defined in
-
-main.ts:220423
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:220423
 
 > `optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235532
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`trustpilot`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#trustpilot)
-
-#### Defined in
-
-main.ts:220424
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:220424
 
 > `optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235529
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayStatisticsMoneyData`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md).[`yelp`](../interfaces/IAppendixBusinessDataDayStatisticsMoneyData.md#yelp)
-
-#### Defined in
-
-main.ts:220421
 
 ## Methods
 
@@ -192,17 +172,17 @@ main.ts:220421
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:235548
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:220440
 
 ***
 
@@ -210,17 +190,17 @@ main.ts:220440
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:235575
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:220467
 
 ***
 
@@ -228,14 +208,14 @@ main.ts:220467
 
 > `static` **fromJS**(`data`): [`AppendixBusinessDataDayStatisticsMoneyData`](AppendixBusinessDataDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235568
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixBusinessDataDayStatisticsMoneyData`](AppendixBusinessDataDayStatisticsMoneyData.md)
-
-#### Defined in
-
-main.ts:220460

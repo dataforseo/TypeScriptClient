@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingPageIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingPageIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsBingPageIntersectionLiveRequestInfo
+
+Defined in: main.ts:117504
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsBingPageIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsBingPageIntersectionLiveRequestInfo`](DataforseoLabsBingPageIntersectionLiveRequestInfo.md)
 
+Defined in: main.ts:117659
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingPageIntersectionLiveRequestInfo`](DataforseoLabsBingPageIntersectionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:107996
 
 ## Properties
 
 ### exclude\_pages?
 
 > `optional` **exclude\_pages**: `string`[]
+
+Defined in: main.ts:117538
 
 URLs of pages you want to exclude
 optional field
@@ -55,15 +59,13 @@ example:
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`exclude_pages`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#exclude_pages)
 
-#### Defined in
-
-main.ts:107875
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:117633
 
 array of results filtering parameters
 optional field
@@ -89,15 +91,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:107970
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
+
+Defined in: main.ts:117585
 
 ignore highly similar keywords
 optional field
@@ -108,15 +108,13 @@ default value: false
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
-
-main.ts:107922
-
 ***
 
 ### include\_serp\_info?
 
 > `optional` **include\_serp\_info**: `boolean`
+
+Defined in: main.ts:117613
 
 include data from SERP for each keyword
 optional field
@@ -127,15 +125,13 @@ default value: false
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#include_serp_info)
 
-#### Defined in
-
-main.ts:107950
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
+
+Defined in: main.ts:117600
 
 indicates if the subdomains will be included in the search
 optional field
@@ -146,15 +142,13 @@ default value: true
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`include_subdomains`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
-
-main.ts:107937
-
 ***
 
 ### intersection\_mode?
 
 > `optional` **intersection\_mode**: `string`
+
+Defined in: main.ts:117608
 
 indicates whether to intersect keywords
 optional field
@@ -168,15 +162,13 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`intersection_mode`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#intersection_mode)
 
-#### Defined in
-
-main.ts:107945
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:117580
 
 search results type
 indicates type of search results included in the response
@@ -190,15 +182,13 @@ default value:
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:107917
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:117572
 
 language code
 required field if you don’t specify language_name
@@ -212,15 +202,13 @@ en
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:107909
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:117564
 
 full name of the language
 required field if you don’t specify language_code
@@ -234,15 +222,13 @@ English
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:107901
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:117590
 
 the maximum number of returned keywords
 optional field
@@ -253,15 +239,13 @@ maximum value: 1000
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:107927
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:117556
 
 location code
 required field if you don’t specify location_name
@@ -276,15 +260,13 @@ example:
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:107893
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:117547
 
 full name of the location
 required field if you don’t specify location_code
@@ -299,15 +281,13 @@ United States
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:107884
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:117595
 
 offset in the items array of returned keywords
 optional field
@@ -318,15 +298,13 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:107932
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:117649
 
 results sorting rules
 optional field
@@ -348,15 +326,13 @@ example:
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:107986
-
 ***
 
 ### pages?
 
 > `optional` **pages**: `object`
+
+Defined in: main.ts:117525
 
 target URLs of pages
 required field
@@ -381,21 +357,19 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`pages`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#pages)
-
-#### Defined in
-
-main.ts:107862
 
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:117655
 
 user-defined task identifier
 optional field
@@ -407,27 +381,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsBingPageIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingPageIntersectionLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:107992
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:117668
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:108005
 
 ***
 
@@ -435,17 +405,17 @@ main.ts:108005
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:117722
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:108059
 
 ***
 
@@ -453,14 +423,14 @@ main.ts:108059
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingPageIntersectionLiveRequestInfo`](DataforseoLabsBingPageIntersectionLiveRequestInfo.md)
 
+Defined in: main.ts:117715
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingPageIntersectionLiveRequestInfo`](DataforseoLabsBingPageIntersectionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:108052

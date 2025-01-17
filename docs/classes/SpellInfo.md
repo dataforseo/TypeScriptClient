@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SpellInfo
+[Documentation](../README.md) / SpellInfo
 
 # Class: SpellInfo
+
+Defined in: main.ts:24378
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SpellInfo**(`data`?): [`SpellInfo`](SpellInfo.md)
 
+Defined in: main.ts:24391
+
 #### Parameters
 
-• **data?**: [`ISpellInfo`](../interfaces/ISpellInfo.md)
+##### data?
+
+[`ISpellInfo`](../interfaces/ISpellInfo.md)
 
 #### Returns
 
 [`SpellInfo`](SpellInfo.md)
-
-#### Defined in
-
-main.ts:23493
 
 ## Properties
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:24381
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
@@ -45,15 +49,13 @@ the results will be provided for the corrected keyword
 
 [`ISpellInfo`](../interfaces/ISpellInfo.md).[`keyword`](../interfaces/ISpellInfo.md#keyword)
 
-#### Defined in
-
-main.ts:23483
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:24387
 
 type of autocorrection
 possible values:
@@ -65,27 +67,23 @@ including_results_for
 
 [`ISpellInfo`](../interfaces/ISpellInfo.md).[`type`](../interfaces/ISpellInfo.md#type)
 
-#### Defined in
-
-main.ts:23489
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24400
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23502
 
 ***
 
@@ -93,17 +91,17 @@ main.ts:23502
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24418
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23520
 
 ***
 
@@ -111,14 +109,14 @@ main.ts:23520
 
 > `static` **fromJS**(`data`): [`SpellInfo`](SpellInfo.md)
 
+Defined in: main.ts:24411
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SpellInfo`](SpellInfo.md)
-
-#### Defined in
-
-main.ts:23513

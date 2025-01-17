@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorLocationsResultInfo
+[Documentation](../README.md) / BusinessDataTripadvisorLocationsResultInfo
 
 # Class: BusinessDataTripadvisorLocationsResultInfo
+
+Defined in: main.ts:227152
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataTripadvisorLocationsResultInfo**(`data`?): [`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)
 
+Defined in: main.ts:227170
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorLocationsResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorLocationsResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:212136
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:212136
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:227164
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorLocationsResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md).[`country_iso_code`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:212130
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:212130
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:227154
+
 location code
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorLocationsResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md).[`location_code`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:212120
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:212120
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:227156
+
 full name of the location
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorLocationsResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md).[`location_name`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:212122
-
 ***
 
 ### location\_name\_parent?
 
 > `optional` **location\_name\_parent**: `string`
+
+Defined in: main.ts:227162
 
 the name of the superordinate location
 example:
@@ -96,15 +94,13 @@ example:
 
 [`IBusinessDataTripadvisorLocationsResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md).[`location_name_parent`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md#location_name_parent)
 
-#### Defined in
-
-main.ts:212128
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:227166
 
 location type
 
@@ -112,27 +108,23 @@ location type
 
 [`IBusinessDataTripadvisorLocationsResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md).[`location_type`](../interfaces/IBusinessDataTripadvisorLocationsResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:212132
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:227179
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:212145
 
 ***
 
@@ -140,17 +132,17 @@ main.ts:212145
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:227200
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:212166
 
 ***
 
@@ -158,14 +150,14 @@ main.ts:212166
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)
 
+Defined in: main.ts:227193
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTripadvisorLocationsResultInfo`](BusinessDataTripadvisorLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:212159

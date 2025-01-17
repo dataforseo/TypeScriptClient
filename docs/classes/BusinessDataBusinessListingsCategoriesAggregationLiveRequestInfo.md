@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+
+Defined in: main.ts:211832
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
+Defined in: main.ts:211894
+
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:199443
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:211838
 
 business categories
 optional field
@@ -48,34 +52,30 @@ you can specify up to 10 categories
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`categories`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#categories)
 
-#### Defined in
-
-main.ts:199387
-
 ***
 
 ### description?
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:211843
+
 description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`description`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#description)
-
-#### Defined in
-
-main.ts:199392
 
 ***
 
 ### initial\_dataset\_filters?
 
 > `optional` **initial\_dataset\_filters**: `any`[]
+
+Defined in: main.ts:211871
 
 array of results filtering parameters
 optional field
@@ -92,15 +92,13 @@ you can receive the list of available filters by making a separate request to h
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#initial_dataset_filters)
 
-#### Defined in
-
-main.ts:199420
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:211876
 
 maximum number of elements within internal arrays
 optional field
@@ -111,15 +109,13 @@ default value: 10
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
-
-main.ts:199425
-
 ***
 
 ### is\_claimed?
 
 > `optional` **is\_claimed**: `boolean`
+
+Defined in: main.ts:211851
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -128,15 +124,13 @@ optional field
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`is_claimed`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#is_claimed)
 
-#### Defined in
-
-main.ts:199400
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:211881
 
 the maximum number of returned businesses
 optional field
@@ -147,15 +141,13 @@ maximum value: 1000
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`limit`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:199430
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:211860
 
 GPS coordinates of a location
 optional field
@@ -170,15 +162,13 @@ example:
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:199409
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:211884
 
 the maximum number of returned businesses
 optional field
@@ -187,15 +177,13 @@ optional field
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`offset`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:199433
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:211890
 
 user-defined task identifier
 optional field
@@ -207,28 +195,22 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:199439
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:211848
+
 title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md).[`title`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md#title)
-
-#### Defined in
-
-main.ts:199397
 
 ## Methods
 
@@ -236,17 +218,17 @@ main.ts:199397
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:211903
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:199452
 
 ***
 
@@ -254,17 +236,17 @@ main.ts:199452
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:211937
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:199486
 
 ***
 
@@ -272,14 +254,14 @@ main.ts:199486
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
 
+Defined in: main.ts:211930
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:199479

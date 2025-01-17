@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentUrlInfo
+[Documentation](../README.md) / ContentUrlInfo
 
 # Class: ContentUrlInfo
+
+Defined in: main.ts:172922
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentUrlInfo**(`data`?): [`ContentUrlInfo`](ContentUrlInfo.md)
 
+Defined in: main.ts:172930
+
 #### Parameters
 
-• **data?**: [`IContentUrlInfo`](../interfaces/IContentUrlInfo.md)
+##### data?
+
+[`IContentUrlInfo`](../interfaces/IContentUrlInfo.md)
 
 #### Returns
 
 [`ContentUrlInfo`](ContentUrlInfo.md)
-
-#### Defined in
-
-main.ts:161216
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:161216
 
 > `optional` **anchor\_text**: `string`
 
+Defined in: main.ts:172926
+
 text of the URL’s anchor
 
 #### Implementation of
 
 [`IContentUrlInfo`](../interfaces/IContentUrlInfo.md).[`anchor_text`](../interfaces/IContentUrlInfo.md#anchor_text)
-
-#### Defined in
-
-main.ts:161212
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:161212
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:172924
+
 other URL found in the content element
 
 #### Implementation of
 
 [`IContentUrlInfo`](../interfaces/IContentUrlInfo.md).[`url`](../interfaces/IContentUrlInfo.md#url)
-
-#### Defined in
-
-main.ts:161210
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:161210
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:172939
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161225
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:161225
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:172957
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161243
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:161243
 
 > `static` **fromJS**(`data`): [`ContentUrlInfo`](ContentUrlInfo.md)
 
+Defined in: main.ts:172950
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentUrlInfo`](ContentUrlInfo.md)
-
-#### Defined in
-
-main.ts:161236

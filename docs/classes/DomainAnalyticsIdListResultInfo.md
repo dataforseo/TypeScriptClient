@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsIdListResultInfo
+[Documentation](../README.md) / DomainAnalyticsIdListResultInfo
 
 # Class: DomainAnalyticsIdListResultInfo
+
+Defined in: main.ts:84462
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsIdListResultInfo**(`data`?): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
 
+Defined in: main.ts:84488
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:74751
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:74751
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:84482
+
 cost of the task, USD
 
 #### Implementation of
 
 [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`cost`](../interfaces/IDomainAnalyticsIdListResultInfo.md#cost)
 
-#### Defined in
-
-main.ts:74745
-
 ***
 
 ### datetime\_done?
 
 > `optional` **datetime\_done**: `string`
+
+Defined in: main.ts:84477
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`datetime_done`](../interfaces/IDomainAnalyticsIdListResultInfo.md#datetime_done)
 
-#### Defined in
-
-main.ts:74740
-
 ***
 
 ### datetime\_posted?
 
 > `optional` **datetime\_posted**: `string`
+
+Defined in: main.ts:84472
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,13 @@ example:
 
 [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`datetime_posted`](../interfaces/IDomainAnalyticsIdListResultInfo.md#datetime_posted)
 
-#### Defined in
-
-main.ts:74735
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:84464
 
 id of the task
 
@@ -98,35 +96,31 @@ id of the task
 
 [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`id`](../interfaces/IDomainAnalyticsIdListResultInfo.md#id)
 
-#### Defined in
-
-main.ts:74727
-
 ***
 
 ### metadata?
 
 > `optional` **metadata**: `object`
 
+Defined in: main.ts:84484
+
 contains parameters you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`metadata`](../interfaces/IDomainAnalyticsIdListResultInfo.md#metadata)
-
-#### Defined in
-
-main.ts:74747
 
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:84480
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +129,13 @@ you can find the full list of general informational messages here
 
 [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`status`](../interfaces/IDomainAnalyticsIdListResultInfo.md#status)
 
-#### Defined in
-
-main.ts:74743
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:84467
 
 URL of the task
 URL you used for making an API call
@@ -152,27 +144,23 @@ URL you used for making an API call
 
 [`IDomainAnalyticsIdListResultInfo`](../interfaces/IDomainAnalyticsIdListResultInfo.md).[`url`](../interfaces/IDomainAnalyticsIdListResultInfo.md#url)
 
-#### Defined in
-
-main.ts:74730
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:84497
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:74760
 
 ***
 
@@ -180,17 +168,17 @@ main.ts:74760
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:84526
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:74789
 
 ***
 
@@ -198,14 +186,14 @@ main.ts:74789
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
 
+Defined in: main.ts:84519
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsIdListResultInfo`](DomainAnalyticsIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:74782

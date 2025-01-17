@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrendsTopicListDataInfo
+[Documentation](../README.md) / TrendsTopicListDataInfo
 
 # Class: TrendsTopicListDataInfo
+
+Defined in: main.ts:135157
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new TrendsTopicListDataInfo**(`data`?): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
+Defined in: main.ts:135167
+
 #### Parameters
 
-• **data?**: [`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md)
+##### data?
+
+[`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md)
 
 #### Returns
 
 [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
-
-#### Defined in
-
-main.ts:124815
 
 ## Properties
 
 ### rising?
 
 > `optional` **rising**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
+
+Defined in: main.ts:135163
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -45,15 +49,13 @@ represents the list of related topics with the biggest increase in search freque
 
 [`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md).[`rising`](../interfaces/ITrendsTopicListDataInfo.md#rising)
 
-#### Defined in
-
-main.ts:124811
-
 ***
 
 ### top?
 
 > `optional` **top**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
+
+Defined in: main.ts:135160
 
 the most popular related topics
 represents the list of the most popular related topics
@@ -62,27 +64,23 @@ represents the list of the most popular related topics
 
 [`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md).[`top`](../interfaces/ITrendsTopicListDataInfo.md#top)
 
-#### Defined in
-
-main.ts:124808
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:135176
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:124824
 
 ***
 
@@ -90,17 +88,17 @@ main.ts:124824
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:135202
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:124850
 
 ***
 
@@ -108,14 +106,14 @@ main.ts:124850
 
 > `static` **fromJS**(`data`): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
+Defined in: main.ts:135195
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
-
-#### Defined in
-
-main.ts:124843

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixAmazonMerchantPriceData
+[Documentation](../README.md) / AppendixAmazonMerchantPriceData
 
 # Class: AppendixAmazonMerchantPriceData
+
+Defined in: main.ts:237142
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixAmazonMerchantPriceData**(`data`?): [`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
 
+Defined in: main.ts:237149
+
 #### Parameters
 
-• **data?**: [`IAppendixAmazonMerchantPriceData`](../interfaces/IAppendixAmazonMerchantPriceData.md)
+##### data?
+
+[`IAppendixAmazonMerchantPriceData`](../interfaces/IAppendixAmazonMerchantPriceData.md)
 
 #### Returns
 
 [`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
-
-#### Defined in
-
-main.ts:221869
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:221869
 
 > `optional` **asin**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
+Defined in: main.ts:237143
+
 #### Implementation of
 
 [`IAppendixAmazonMerchantPriceData`](../interfaces/IAppendixAmazonMerchantPriceData.md).[`asin`](../interfaces/IAppendixAmazonMerchantPriceData.md#asin)
-
-#### Defined in
-
-main.ts:221863
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:221863
 
 > `optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
+Defined in: main.ts:237144
+
 #### Implementation of
 
 [`IAppendixAmazonMerchantPriceData`](../interfaces/IAppendixAmazonMerchantPriceData.md).[`products`](../interfaces/IAppendixAmazonMerchantPriceData.md#products)
-
-#### Defined in
-
-main.ts:221864
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:221864
 
 > `optional` **sellers**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
+Defined in: main.ts:237145
+
 #### Implementation of
 
 [`IAppendixAmazonMerchantPriceData`](../interfaces/IAppendixAmazonMerchantPriceData.md).[`sellers`](../interfaces/IAppendixAmazonMerchantPriceData.md#sellers)
-
-#### Defined in
-
-main.ts:221865
 
 ## Methods
 
@@ -80,17 +76,17 @@ main.ts:221865
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:237158
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:221878
 
 ***
 
@@ -98,17 +94,17 @@ main.ts:221878
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:237177
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:221897
 
 ***
 
@@ -116,14 +112,14 @@ main.ts:221897
 
 > `static` **fromJS**(`data`): [`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
 
+Defined in: main.ts:237170
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixAmazonMerchantPriceData`](AppendixAmazonMerchantPriceData.md)
-
-#### Defined in
-
-main.ts:221890

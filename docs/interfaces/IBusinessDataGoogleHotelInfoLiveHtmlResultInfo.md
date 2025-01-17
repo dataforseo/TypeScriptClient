@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
+Defined in: main.ts:221342
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:221357
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:207901
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:207901
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:221361
+
 HTML pages
-
-#### Defined in
-
-main.ts:207905
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:207905
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:221359
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:207903
 
 ***
 
@@ -55,11 +51,9 @@ main.ts:207903
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:221344
+
 unique hotel identifier specified as "hotel_id:$"
-
-#### Defined in
-
-main.ts:207888
 
 ***
 
@@ -67,11 +61,9 @@ main.ts:207888
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:221352
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:207896
 
 ***
 
@@ -79,11 +71,9 @@ main.ts:207896
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:221350
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:207894
 
 ***
 
@@ -91,11 +81,9 @@ main.ts:207894
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:221348
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:207892
 
 ***
 
@@ -103,8 +91,6 @@ main.ts:207892
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:221346
+
 type of element
-
-#### Defined in
-
-main.ts:207890

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMerchantAmazonInfo
+[Documentation](../README.md) / AppendixMerchantAmazonInfo
 
 # Class: AppendixMerchantAmazonInfo
+
+Defined in: main.ts:231648
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixMerchantAmazonInfo**(`data`?): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
+Defined in: main.ts:231655
+
 #### Parameters
 
-• **data?**: [`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md)
+##### data?
+
+[`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md)
 
 #### Returns
 
 [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
-
-#### Defined in
-
-main.ts:216595
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216595
 
 > `optional` **asin**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231649
+
 #### Implementation of
 
 [`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md).[`asin`](../interfaces/IAppendixMerchantAmazonInfo.md#asin)
-
-#### Defined in
-
-main.ts:216589
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216589
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231650
+
 #### Implementation of
 
 [`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md).[`products`](../interfaces/IAppendixMerchantAmazonInfo.md#products)
-
-#### Defined in
-
-main.ts:216590
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:216590
 
 > `optional` **sellers**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231651
+
 #### Implementation of
 
 [`IAppendixMerchantAmazonInfo`](../interfaces/IAppendixMerchantAmazonInfo.md).[`sellers`](../interfaces/IAppendixMerchantAmazonInfo.md#sellers)
-
-#### Defined in
-
-main.ts:216591
 
 ## Methods
 
@@ -80,17 +76,17 @@ main.ts:216591
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231664
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216604
 
 ***
 
@@ -98,17 +94,17 @@ main.ts:216604
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231683
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216623
 
 ***
 
@@ -116,14 +112,14 @@ main.ts:216623
 
 > `static` **fromJS**(`data`): [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
+Defined in: main.ts:231676
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
-
-#### Defined in
-
-main.ts:216616

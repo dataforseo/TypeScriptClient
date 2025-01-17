@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBacklinksLiveResultInfo
+[Documentation](../README.md) / IBacklinksBacklinksLiveResultInfo
 
 # Interface: IBacklinksBacklinksLiveResultInfo
 
+Defined in: main.ts:152411
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **custom\_mode**: `object`
 
+Defined in: main.ts:152417
+
 custom mode specified in a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
-
-#### Defined in
-
-main.ts:141111
+\[`key`: `string`\]: `any`
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:141111
 
 > `optional` **items**: [`BacklinksBacklinksLiveItem`](../classes/BacklinksBacklinksLiveItem.md)[]
 
+Defined in: main.ts:152423
+
 contains relevant backlinks and referring domains data
-
-#### Defined in
-
-main.ts:141117
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:141117
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:152421
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:141115
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:141115
 
 > `optional` **mode**: `string`
 
+Defined in: main.ts:152415
+
 mode specified in a POST array
-
-#### Defined in
-
-main.ts:141109
 
 ***
 
@@ -68,13 +62,11 @@ main.ts:141109
 
 > `optional` **search\_after\_token**: `string`
 
+Defined in: main.ts:152427
+
 token for subsequent requests
 by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
 search_after_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:141121
 
 ***
 
@@ -82,11 +74,9 @@ main.ts:141121
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:152413
+
 target domain in a POST array
-
-#### Defined in
-
-main.ts:141107
 
 ***
 
@@ -94,8 +84,6 @@ main.ts:141107
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:152419
+
 total amount of results relevant the request
-
-#### Defined in
-
-main.ts:141113

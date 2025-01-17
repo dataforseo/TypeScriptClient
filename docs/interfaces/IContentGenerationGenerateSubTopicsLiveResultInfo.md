@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
+[Documentation](../README.md) / IContentGenerationGenerateSubTopicsLiveResultInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveResultInfo
 
+Defined in: main.ts:182347
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **input\_tokens**: `number`
 
+Defined in: main.ts:182349
+
 number of input tokens
-
-#### Defined in
-
-main.ts:170659
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:170659
 
 > `optional` **new\_tokens**: `number`
 
+Defined in: main.ts:182353
+
 number of new tokens
-
-#### Defined in
-
-main.ts:170663
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:170663
 
 > `optional` **output\_tokens**: `number`
 
+Defined in: main.ts:182351
+
 number of output tokens
-
-#### Defined in
-
-main.ts:170661
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:170661
 
 > `optional` **sub\_topics**: `string`[]
 
+Defined in: main.ts:182355
+
 resulting subtopics
-
-#### Defined in
-
-main.ts:170665

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsMetricsInfo
+[Documentation](../README.md) / IDataforseoLabsMetricsInfo
 
 # Interface: IDataforseoLabsMetricsInfo
 
+Defined in: main.ts:97531
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,17 +18,15 @@
 
 > `optional` **clickstream\_age\_distribution**: `object`
 
+Defined in: main.ts:97597
+
 distribution of clickstream-based metrics by age
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
 learn more about how the metric is calculated in this help center article
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:87778
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -34,14 +34,12 @@ main.ts:87778
 
 > `optional` **clickstream\_etv**: `number`
 
+Defined in: main.ts:97589
+
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
 learn more about how the metric is calculated in this help center article
-
-#### Defined in
-
-main.ts:87770
 
 ***
 
@@ -49,17 +47,15 @@ main.ts:87770
 
 > `optional` **clickstream\_gender\_distribution**: `object`
 
+Defined in: main.ts:97593
+
 distribution of estimated clickstream-based metrics by gender
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
 learn more about how the metric is calculated in this help center article
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:87774
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -67,11 +63,9 @@ main.ts:87774
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:97567
+
 total count of organic SERPs that contain the domain or subdomain
-
-#### Defined in
-
-main.ts:87748
 
 ***
 
@@ -79,14 +73,12 @@ main.ts:87748
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
 
+Defined in: main.ts:97572
+
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost (USD) of running ads for all keywords in the category that the domain or subdomain ranks for
 the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
 learn more about how the metric is calculated in this help center article
-
-#### Defined in
-
-main.ts:87753
 
 ***
 
@@ -94,14 +86,12 @@ main.ts:87753
 
 > `optional` **etv**: `number`
 
+Defined in: main.ts:97560
+
 estimated traffic volume
 estimated organic monthly traffic to the domain or subdomain
 calculated as the product of CTR (click-through-rate) and search volume values of all keywords in the category that the domain or subdomain ranks for
 learn more about how the metric is calculated in this help center article
-
-#### Defined in
-
-main.ts:87741
 
 ***
 
@@ -109,14 +99,12 @@ main.ts:87741
 
 > `optional` **impressions\_etv**: `number`
 
+Defined in: main.ts:97565
+
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain or subdomain
 calculated as the product of CTR (click-through-rate) and impressions values of all keywords in the category that the domain or subdomain ranks for
 learn more about how the metric is calculated in this help center article
-
-#### Defined in
-
-main.ts:87746
 
 ***
 
@@ -124,12 +112,10 @@ main.ts:87746
 
 > `optional` **is\_down**: `number`
 
+Defined in: main.ts:97581
+
 rank went down
 indicates how many ranked elements of the indicated target went down
-
-#### Defined in
-
-main.ts:87762
 
 ***
 
@@ -137,12 +123,10 @@ main.ts:87762
 
 > `optional` **is\_lost**: `number`
 
+Defined in: main.ts:97584
+
 lost ranked elements
 indicates how many ranked elements of the indicated target were previously presented in SERPs, but weren’t found during the last check
-
-#### Defined in
-
-main.ts:87765
 
 ***
 
@@ -150,12 +134,10 @@ main.ts:87765
 
 > `optional` **is\_new**: `number`
 
+Defined in: main.ts:97575
+
 number of new ranked elements
 indicates how many new ranked elements were found for the indicated target
-
-#### Defined in
-
-main.ts:87756
 
 ***
 
@@ -163,12 +145,10 @@ main.ts:87756
 
 > `optional` **is\_up**: `number`
 
+Defined in: main.ts:97578
+
 rank went up
 indicates how many ranked elements of the indicated target went up
-
-#### Defined in
-
-main.ts:87759
 
 ***
 
@@ -176,11 +156,9 @@ main.ts:87759
 
 > `optional` **pos\_1**: `number`
 
+Defined in: main.ts:97533
+
 number of organic SERPs where the domain or subdomain ranks #1
-
-#### Defined in
-
-main.ts:87714
 
 ***
 
@@ -188,23 +166,9 @@ main.ts:87714
 
 > `optional` **pos\_11\_20**: `number`
 
+Defined in: main.ts:97539
+
 number of organic SERPs where the domain or subdomain ranks #11-20
-
-#### Defined in
-
-main.ts:87720
-
-***
-
-### pos\_21\_30?
-
-> `optional` **pos\_21\_30**: `number`
-
-number of organic SERPs where the domain or subdomain ranks #21-30
-
-#### Defined in
-
-main.ts:87722
 
 ***
 
@@ -212,11 +176,19 @@ main.ts:87722
 
 > `optional` **pos\_2\_3**: `number`
 
+Defined in: main.ts:97535
+
 number of organic SERPs where the domain or subdomain ranks #2-3
 
-#### Defined in
+***
 
-main.ts:87716
+### pos\_21\_30?
+
+> `optional` **pos\_21\_30**: `number`
+
+Defined in: main.ts:97541
+
+number of organic SERPs where the domain or subdomain ranks #21-30
 
 ***
 
@@ -224,23 +196,9 @@ main.ts:87716
 
 > `optional` **pos\_31\_40**: `number`
 
+Defined in: main.ts:97543
+
 number of organic SERPs where the domain or subdomain ranks #31-40
-
-#### Defined in
-
-main.ts:87724
-
-***
-
-### pos\_41\_50?
-
-> `optional` **pos\_41\_50**: `number`
-
-number of organic SERPs where the domain or subdomain ranks #41-50
-
-#### Defined in
-
-main.ts:87726
 
 ***
 
@@ -248,11 +206,19 @@ main.ts:87726
 
 > `optional` **pos\_4\_10**: `number`
 
+Defined in: main.ts:97537
+
 number of organic SERPs where the domain or subdomain ranks #4-10
 
-#### Defined in
+***
 
-main.ts:87718
+### pos\_41\_50?
+
+> `optional` **pos\_41\_50**: `number`
+
+Defined in: main.ts:97545
+
+number of organic SERPs where the domain or subdomain ranks #41-50
 
 ***
 
@@ -260,11 +226,9 @@ main.ts:87718
 
 > `optional` **pos\_51\_60**: `number`
 
+Defined in: main.ts:97547
+
 number of organic SERPs where the domain or subdomain ranks #51-60
-
-#### Defined in
-
-main.ts:87728
 
 ***
 
@@ -272,11 +236,9 @@ main.ts:87728
 
 > `optional` **pos\_61\_70**: `number`
 
+Defined in: main.ts:97549
+
 number of organic SERPs where the domain or subdomain ranks #61-70
-
-#### Defined in
-
-main.ts:87730
 
 ***
 
@@ -284,11 +246,9 @@ main.ts:87730
 
 > `optional` **pos\_71\_80**: `number`
 
+Defined in: main.ts:97551
+
 number of organic SERPs where the domain or subdomain ranks #71-80
-
-#### Defined in
-
-main.ts:87732
 
 ***
 
@@ -296,11 +256,9 @@ main.ts:87732
 
 > `optional` **pos\_81\_90**: `number`
 
+Defined in: main.ts:97553
+
 number of organic SERPs where the domain or subdomain ranks #81-90
-
-#### Defined in
-
-main.ts:87734
 
 ***
 
@@ -308,8 +266,6 @@ main.ts:87734
 
 > `optional` **pos\_91\_100**: `number`
 
+Defined in: main.ts:97555
+
 number of organic SERPs where the domain or subdomain ranks #91-100
-
-#### Defined in
-
-main.ts:87736

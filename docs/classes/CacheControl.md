@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CacheControl
+[Documentation](../README.md) / CacheControl
 
 # Class: CacheControl
+
+Defined in: main.ts:166720
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new CacheControl**(`data`?): [`CacheControl`](CacheControl.md)
 
+Defined in: main.ts:166729
+
 #### Parameters
 
-• **data?**: [`ICacheControl`](../interfaces/ICacheControl.md)
+##### data?
+
+[`ICacheControl`](../interfaces/ICacheControl.md)
 
 #### Returns
 
 [`CacheControl`](CacheControl.md)
-
-#### Defined in
-
-main.ts:155001
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:155001
 
 > `optional` **cachable**: `boolean`
 
+Defined in: main.ts:166722
+
 indicates whether the page is cacheable
 
 #### Implementation of
 
 [`ICacheControl`](../interfaces/ICacheControl.md).[`cachable`](../interfaces/ICacheControl.md#cachable)
 
-#### Defined in
-
-main.ts:154994
-
 ***
 
 ### ttl?
 
 > `optional` **ttl**: `number`
+
+Defined in: main.ts:166725
 
 time to live
 the amount of time the browser caches a resource
@@ -61,27 +63,23 @@ the amount of time the browser caches a resource
 
 [`ICacheControl`](../interfaces/ICacheControl.md).[`ttl`](../interfaces/ICacheControl.md#ttl)
 
-#### Defined in
-
-main.ts:154997
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:166738
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:155010
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:155010
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:166756
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:155028
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:155028
 
 > `static` **fromJS**(`data`): [`CacheControl`](CacheControl.md)
 
+Defined in: main.ts:166749
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`CacheControl`](CacheControl.md)
-
-#### Defined in
-
-main.ts:155021

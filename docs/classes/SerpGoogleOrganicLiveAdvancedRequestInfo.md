@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleOrganicLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpGoogleOrganicLiveAdvancedRequestInfo
 
 # Class: SerpGoogleOrganicLiveAdvancedRequestInfo
+
+Defined in: main.ts:39303
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleOrganicLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleOrganicLiveAdvancedRequestInfo`](SerpGoogleOrganicLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:39475
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleOrganicLiveAdvancedRequestInfo`](SerpGoogleOrganicLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:37944
 
 ## Properties
 
 ### browser\_screen\_height?
 
 > `optional` **browser\_screen\_height**: `number`
+
+Defined in: main.ts:39436
 
 browser screen height
 optional field
@@ -51,15 +55,13 @@ Note: to use this parameter, set calculate_rectangles to true
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`browser_screen_height`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#browser_screen_height)
 
-#### Defined in
-
-main.ts:37905
-
 ***
 
 ### browser\_screen\_resolution\_ratio?
 
 > `optional` **browser\_screen\_resolution\_ratio**: `number`
+
+Defined in: main.ts:39446
 
 browser screen resolution ratio
 optional field
@@ -75,15 +77,13 @@ Note: to use this parameter, set calculate_rectangles to true
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`browser_screen_resolution_ratio`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#browser_screen_resolution_ratio)
 
-#### Defined in
-
-main.ts:37915
-
 ***
 
 ### browser\_screen\_width?
 
 > `optional` **browser\_screen\_width**: `number`
+
+Defined in: main.ts:39427
 
 browser screen width
 optional field
@@ -98,15 +98,13 @@ Note: to use this parameter, set calculate_rectangles to true
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`browser_screen_width`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#browser_screen_width)
 
-#### Defined in
-
-main.ts:37896
-
 ***
 
 ### calculate\_rectangles?
 
 > `optional` **calculate\_rectangles**: `boolean`
+
+Defined in: main.ts:39418
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -119,15 +117,13 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`calculate_rectangles`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#calculate_rectangles)
 
-#### Defined in
-
-main.ts:37887
-
 ***
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:39328
 
 parsing depth
 optional field
@@ -142,15 +138,13 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:37797
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:39385
 
 device type
 optional field
@@ -161,15 +155,13 @@ default value: desktop
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:37854
-
 ***
 
 ### group\_organic\_results?
 
 > `optional` **group\_organic\_results**: `boolean`
+
+Defined in: main.ts:39411
 
 display related results
 optional field
@@ -181,38 +173,35 @@ default value: true
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`group_organic_results`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#group_organic_results)
 
-#### Defined in
-
-main.ts:37880
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:39313
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:37782
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:39373
 
 search engine language code
 optional field if you specify language_name
@@ -225,15 +214,13 @@ en
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:37842
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:39366
 
 full name of search engine language
 optional field if you specify language_code
@@ -246,15 +233,13 @@ English
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:37835
-
 ***
 
 ### load\_async\_ai\_overview?
 
 > `optional` **load\_async\_ai\_overview**: `boolean`
+
+Defined in: main.ts:39461
 
 load asynchronous ai overview
 optional field
@@ -268,15 +253,13 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`load_async_ai_overview`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#load_async_ai_overview)
 
-#### Defined in
-
-main.ts:37930
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:39349
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -289,15 +272,13 @@ example:
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:37818
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:39359
 
 GPS coordinates of a location
 optional field if you specify location_name or location_code
@@ -313,15 +294,13 @@ example:
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:37828
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:39342
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -334,15 +313,13 @@ London,England,United Kingdom
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:37811
-
 ***
 
 ### max\_crawl\_pages?
 
 > `optional` **max\_crawl\_pages**: `number`
+
+Defined in: main.ts:39335
 
 page crawl limit
 optional field
@@ -355,15 +332,13 @@ learn more at our help center
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#max_crawl_pages)
 
-#### Defined in
-
-main.ts:37804
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:39392
 
 device operating system
 optional field
@@ -376,15 +351,13 @@ default value: android
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:37861
-
 ***
 
 ### people\_also\_ask\_click\_depth?
 
 > `optional` **people\_also\_ask\_click\_depth**: `number`
+
+Defined in: main.ts:39453
 
 clicks on the corresponding element
 optional field
@@ -397,15 +370,13 @@ possible values: from 1 to 4
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`people_also_ask_click_depth`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#people_also_ask_click_depth)
 
-#### Defined in
-
-main.ts:37922
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:39380
 
 search engine domain
 optional field
@@ -418,15 +389,13 @@ google.co.uk, google.com.au, google.de, etc.
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`se_domain`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:37849
-
 ***
 
 ### search\_param?
 
 > `optional` **search\_param**: `string`
+
+Defined in: main.ts:39465
 
 additional parameters of the search query
 optional field
@@ -436,15 +405,13 @@ get the list of available parameters and additional details here
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`search_param`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#search_param)
 
-#### Defined in
-
-main.ts:37934
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:39471
 
 user-defined task identifier
 optional field
@@ -456,15 +423,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:37940
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:39405
 
 target domain, subdomain, or webpage to get results for
 optional field
@@ -483,15 +448,13 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`target`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:37874
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:39319
 
 direct URL of the search query
 optional field
@@ -503,27 +466,23 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 [`ISerpGoogleOrganicLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md).[`url`](../interfaces/ISerpGoogleOrganicLiveAdvancedRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:37788
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:39484
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:37953
 
 ***
 
@@ -531,17 +490,17 @@ main.ts:37953
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:39522
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:37991
 
 ***
 
@@ -549,14 +508,14 @@ main.ts:37991
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveAdvancedRequestInfo`](SerpGoogleOrganicLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:39515
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleOrganicLiveAdvancedRequestInfo`](SerpGoogleOrganicLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:37984

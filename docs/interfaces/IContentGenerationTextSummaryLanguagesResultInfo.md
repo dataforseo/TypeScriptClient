@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationTextSummaryLanguagesResultInfo
+[Documentation](../README.md) / IContentGenerationTextSummaryLanguagesResultInfo
 
 # Interface: IContentGenerationTextSummaryLanguagesResultInfo
 
+Defined in: main.ts:183889
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:183893
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:172203
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:172203
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:183891
+
 language name
-
-#### Defined in
-
-main.ts:172201

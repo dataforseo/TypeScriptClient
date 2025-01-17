@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RefineProductsElement
+[Documentation](../README.md) / RefineProductsElement
 
 # Class: RefineProductsElement
+
+Defined in: main.ts:37071
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new RefineProductsElement**(`data`?): [`RefineProductsElement`](RefineProductsElement.md)
 
+Defined in: main.ts:37088
+
 #### Parameters
 
-• **data?**: [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md)
+##### data?
+
+[`IRefineProductsElement`](../interfaces/IRefineProductsElement.md)
 
 #### Returns
 
 [`RefineProductsElement`](RefineProductsElement.md)
-
-#### Defined in
-
-main.ts:35383
 
 ## Properties
 
@@ -38,15 +40,14 @@ main.ts:35383
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:37078
+
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`image_url`](../interfaces/IRefineProductsElement.md#image_url)
-
-#### Defined in
-
-main.ts:35373
 
 ***
 
@@ -54,15 +55,13 @@ main.ts:35373
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:37080
+
 keyword for the related refined search
 
 #### Implementation of
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`keyword`](../interfaces/IRefineProductsElement.md#keyword)
-
-#### Defined in
-
-main.ts:35375
 
 ***
 
@@ -70,15 +69,13 @@ main.ts:35375
 
 > `optional` **refine\_type**: `string`
 
+Defined in: main.ts:37082
+
 type of search refinement
 
 #### Implementation of
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`refine_type`](../interfaces/IRefineProductsElement.md#refine_type)
-
-#### Defined in
-
-main.ts:35377
 
 ***
 
@@ -86,15 +83,13 @@ main.ts:35377
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:37075
+
 title of a given link element
 
 #### Implementation of
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`title`](../interfaces/IRefineProductsElement.md#title)
-
-#### Defined in
-
-main.ts:35371
 
 ***
 
@@ -102,15 +97,13 @@ main.ts:35371
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:37073
+
 type of element
 
 #### Implementation of
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`type`](../interfaces/IRefineProductsElement.md#type)
-
-#### Defined in
-
-main.ts:35369
 
 ***
 
@@ -118,15 +111,13 @@ main.ts:35369
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:37084
+
 the XPath of the element
 
 #### Implementation of
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`xpath`](../interfaces/IRefineProductsElement.md#xpath)
-
-#### Defined in
-
-main.ts:35379
 
 ## Methods
 
@@ -134,17 +125,17 @@ main.ts:35379
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:37097
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:35392
 
 ***
 
@@ -152,17 +143,17 @@ main.ts:35392
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:37119
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:35414
 
 ***
 
@@ -170,14 +161,14 @@ main.ts:35414
 
 > `static` **fromJS**(`data`): [`RefineProductsElement`](RefineProductsElement.md)
 
+Defined in: main.ts:37112
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`RefineProductsElement`](RefineProductsElement.md)
-
-#### Defined in
-
-main.ts:35407

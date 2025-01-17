@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesLocationsResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesLocationsResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesLocationsResultInfo
 
+Defined in: main.ts:85289
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:85293
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:75556
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:75556
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:85291
+
 full name of the location
-
-#### Defined in
-
-main.ts:75554

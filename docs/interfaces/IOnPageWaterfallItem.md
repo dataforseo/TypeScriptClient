@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageWaterfallItem
+[Documentation](../README.md) / IOnPageWaterfallItem
 
 # Interface: IOnPageWaterfallItem
 
+Defined in: main.ts:170873
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **connection\_time**: `number`
 
+Defined in: main.ts:170884
+
 time to connect to a server
 the time it takes until the connection with a server is established (in milliseconds)
-
-#### Defined in
-
-main.ts:159148
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:159148
 
 > `optional` **dom\_complete**: `number`
 
+Defined in: main.ts:170881
+
 time to load resources
 the time it takes until the page and all of its subresources are downloaded (in milliseconds)
-
-#### Defined in
-
-main.ts:159145
 
 ***
 
@@ -42,11 +40,9 @@ main.ts:159145
 
 > `optional` **download\_time**: `number`
 
+Defined in: main.ts:170894
+
 time it takes for a browser to receive a response (in milliseconds)
-
-#### Defined in
-
-main.ts:159158
 
 ***
 
@@ -54,11 +50,9 @@ main.ts:159158
 
 > `optional` **duration\_time**: `number`
 
+Defined in: main.ts:170896
+
 total time it takes until a browser receives a complete response from a server (in milliseconds)
-
-#### Defined in
-
-main.ts:159160
 
 ***
 
@@ -66,12 +60,10 @@ main.ts:159160
 
 > `optional` **fetch\_end**: `number`
 
+Defined in: main.ts:170902
+
 time to complete downloading the HTML resource
 the amount of time the browser needs to complete downloading a page
-
-#### Defined in
-
-main.ts:159166
 
 ***
 
@@ -79,12 +71,10 @@ main.ts:159166
 
 > `optional` **fetch\_start**: `number`
 
+Defined in: main.ts:170899
+
 time to start downloading the HTML resource
 the amount of time the browser needs to start downloading a page
-
-#### Defined in
-
-main.ts:159163
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:159163
 
 > `optional` **page\_url**: `string`
 
+Defined in: main.ts:170875
+
 URL of the page
-
-#### Defined in
-
-main.ts:159139
 
 ***
 
@@ -104,12 +92,10 @@ main.ts:159139
 
 > `optional` **request\_sent\_time**: `number`
 
+Defined in: main.ts:170890
+
 time to send a request to a server
 the time it takes until the request to a server is sent (in milliseconds)
-
-#### Defined in
-
-main.ts:159154
 
 ***
 
@@ -117,12 +103,10 @@ main.ts:159154
 
 > `optional` **resources**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
+Defined in: main.ts:170905
+
 resource-specific timing
 contains separate arrays with timing for each resource found on the page
-
-#### Defined in
-
-main.ts:159169
 
 ***
 
@@ -130,12 +114,10 @@ main.ts:159169
 
 > `optional` **time\_to\_interactive**: `number`
 
+Defined in: main.ts:170878
+
 Time To Interactive (TTI) metric
 the time it takes until the user can interact with a page (in milliseconds)
-
-#### Defined in
-
-main.ts:159142
 
 ***
 
@@ -143,12 +125,10 @@ main.ts:159142
 
 > `optional` **time\_to\_secure\_connection**: `number`
 
+Defined in: main.ts:170887
+
 time to establish a secure connection
 the time it takes until the secure connection with a server is established (in milliseconds)
-
-#### Defined in
-
-main.ts:159151
 
 ***
 
@@ -156,8 +136,6 @@ main.ts:159151
 
 > `optional` **waiting\_time**: `number`
 
+Defined in: main.ts:170892
+
 time to first byte (TTFB) in milliseconds
-
-#### Defined in
-
-main.ts:159156

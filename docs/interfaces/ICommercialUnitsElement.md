@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICommercialUnitsElement
+[Documentation](../README.md) / ICommercialUnitsElement
 
 # Interface: ICommercialUnitsElement
 
+Defined in: main.ts:35828
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35836
+
 website domain
-
-#### Defined in
-
-main.ts:34120
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:34120
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:35838
+
 price indicated in the element
-
-#### Defined in
-
-main.ts:34122
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:34122
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:35844
+
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:34128
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:34128
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:35841
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:34125
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:34125
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:35832
+
 title of a given link element
-
-#### Defined in
-
-main.ts:34116
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:34116
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:35830
+
 type of element
-
-#### Defined in
-
-main.ts:34114
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:34114
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:35834
+
 URL
-
-#### Defined in
-
-main.ts:34118

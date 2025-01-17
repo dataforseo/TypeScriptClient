@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAiOverviewReference
+[Documentation](../README.md) / IAiOverviewReference
 
 # Interface: IAiOverviewReference
 
+Defined in: main.ts:30818
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
-domain in SERP
+Defined in: main.ts:30824
 
-#### Defined in
-
-main.ts:36449
+website domain
 
 ***
 
@@ -28,12 +28,9 @@ main.ts:36449
 
 > `optional` **source**: `string`
 
-source of the element
-indicates the source of information included in the questions_and_answers_element
+Defined in: main.ts:30822
 
-#### Defined in
-
-main.ts:36447
+reference source name or title
 
 ***
 
@@ -41,12 +38,9 @@ main.ts:36447
 
 > `optional` **text**: `string`
 
-reference text
-text snippet from the page that was used to generate the ai_overview_element
+Defined in: main.ts:30830
 
-#### Defined in
-
-main.ts:36456
+row content
 
 ***
 
@@ -54,11 +48,9 @@ main.ts:36456
 
 > `optional` **title**: `string`
 
-title of a given shopping element
+Defined in: main.ts:30828
 
-#### Defined in
-
-main.ts:36453
+title of a given link element
 
 ***
 
@@ -66,11 +58,9 @@ main.ts:36453
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:30820
+
 type of element
-
-#### Defined in
-
-main.ts:36444
 
 ***
 
@@ -78,8 +68,6 @@ main.ts:36444
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:30826
+
 URL
-
-#### Defined in
-
-main.ts:36451

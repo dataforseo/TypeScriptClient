@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
+Defined in: main.ts:87285
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_from**: `string`
 
+Defined in: main.ts:87289
+
 starting date of the time range
-
-#### Defined in
-
-main.ts:77548
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:77548
 
 > `optional` **date\_to**: `string`
 
+Defined in: main.ts:87291
+
 ending date of the time range
-
-#### Defined in
-
-main.ts:77550
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:77550
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../classes/DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
+Defined in: main.ts:87295
+
 items array
-
-#### Defined in
-
-main.ts:77554
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:77554
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:87293
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:77552
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:77552
 
 > `optional` **technology**: `string`
 
+Defined in: main.ts:87287
+
 target technology
-
-#### Defined in
-
-main.ts:77546

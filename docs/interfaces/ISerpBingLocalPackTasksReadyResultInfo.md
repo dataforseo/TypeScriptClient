@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingLocalPackTasksReadyResultInfo
+[Documentation](../README.md) / ISerpBingLocalPackTasksReadyResultInfo
 
 # Interface: ISerpBingLocalPackTasksReadyResultInfo
 
+Defined in: main.ts:67123
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:67133
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:59420
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:59420
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:67141
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:59428
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:59428
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:67144
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:59431
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:59431
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:67138
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:59425
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:59425
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:67126
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:59413
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:59413
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:67128
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:59415
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:59415
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:67131
+
 type of search engine
 example: local_pack
-
-#### Defined in
-
-main.ts:59418
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:59418
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:67135
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:59422

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageKeywordDensityItem
+[Documentation](../README.md) / OnPageKeywordDensityItem
 
 # Class: OnPageKeywordDensityItem
+
+Defined in: main.ts:171290
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageKeywordDensityItem**(`data`?): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
+Defined in: main.ts:171302
+
 #### Parameters
 
-• **data?**: [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md)
+##### data?
+
+[`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md)
 
 #### Returns
 
 [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
-
-#### Defined in
-
-main.ts:159566
 
 ## Properties
 
 ### density?
 
 > `optional` **density**: `number`
+
+Defined in: main.ts:171298
 
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
@@ -45,15 +49,13 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`density`](../interfaces/IOnPageKeywordDensityItem.md#density)
 
-#### Defined in
-
-main.ts:159562
-
 ***
 
 ### frequency?
 
 > `optional` **frequency**: `number`
+
+Defined in: main.ts:171295
 
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
@@ -62,15 +64,13 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`frequency`](../interfaces/IOnPageKeywordDensityItem.md#frequency)
 
-#### Defined in
-
-main.ts:159559
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:171292
 
 returned keyword
 
@@ -78,27 +78,23 @@ returned keyword
 
 [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`keyword`](../interfaces/IOnPageKeywordDensityItem.md#keyword)
 
-#### Defined in
-
-main.ts:159556
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:171311
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:159575
 
 ***
 
@@ -106,17 +102,17 @@ main.ts:159575
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:171330
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:159594
 
 ***
 
@@ -124,14 +120,14 @@ main.ts:159594
 
 > `static` **fromJS**(`data`): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
+Defined in: main.ts:171323
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
-
-#### Defined in
-
-main.ts:159587

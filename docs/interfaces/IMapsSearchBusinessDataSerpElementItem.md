@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMapsSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / IMapsSearchBusinessDataSerpElementItem
 
 # Interface: IMapsSearchBusinessDataSerpElementItem
+
+Defined in: main.ts:213924
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,12 +22,10 @@
 
 > `optional` **additional\_categories**: `string`[]
 
+Defined in: main.ts:213959
+
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
-
-#### Defined in
-
-main.ts:201262
 
 ***
 
@@ -33,11 +33,9 @@ main.ts:201262
 
 > `optional` **address**: `string`
 
+Defined in: main.ts:213941
+
 address of the business entity
-
-#### Defined in
-
-main.ts:201244
 
 ***
 
@@ -45,11 +43,9 @@ main.ts:201244
 
 > `optional` **address\_info**: [`AddressInfo`](../classes/AddressInfo.md)
 
+Defined in: main.ts:213943
+
 object containing address components of the business entity
-
-#### Defined in
-
-main.ts:201246
 
 ***
 
@@ -57,12 +53,10 @@ main.ts:201246
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:213956
+
 business category
 Google My Business general category that best describes the services provided by the business entity
-
-#### Defined in
-
-main.ts:201259
 
 ***
 
@@ -70,12 +64,10 @@ main.ts:201259
 
 > `optional` **category\_ids**: `string`[]
 
+Defined in: main.ts:213970
+
 global category IDs
 universal category IDs that do not change based on the selected country
-
-#### Defined in
-
-main.ts:201273
 
 ***
 
@@ -83,14 +75,12 @@ main.ts:201273
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:213981
+
 google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:201284
 
 ***
 
@@ -98,11 +88,9 @@ main.ts:201284
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:213926
+
 domain of the business entity
-
-#### Defined in
-
-main.ts:201229
 
 ***
 
@@ -110,12 +98,10 @@ main.ts:201229
 
 > `optional` **feature\_id**: `string`
 
+Defined in: main.ts:213976
+
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:201279
 
 ***
 
@@ -123,13 +109,11 @@ main.ts:201279
 
 > `optional` **hotel\_rating**: `number`
 
+Defined in: main.ts:213967
+
 hotel class rating
 class ratings range between 1-5 stars, learn more
 if there is no hotel class rating information, the value will be null
-
-#### Defined in
-
-main.ts:201270
 
 ***
 
@@ -137,11 +121,9 @@ main.ts:201270
 
 > `optional` **is\_claimed**: `boolean`
 
+Defined in: main.ts:213991
+
 shows whether the entity is verified by its owner on Google Maps
-
-#### Defined in
-
-main.ts:201294
 
 ***
 
@@ -149,14 +131,12 @@ main.ts:201294
 
 > `optional` **is\_directory\_item**: `boolean`
 
+Defined in: main.ts:213999
+
 business establishment is a part of the directory
 indicates whether the business establishment is a part of the directory;
 if true, the item is a part of the larger directory of businesses with the same address (e.g., a mall or a business centre);
 note: if the business establishment is a parent item in the directory, the value will be null
-
-#### Defined in
-
-main.ts:201302
 
 ***
 
@@ -164,13 +144,11 @@ main.ts:201302
 
 > `optional` **latitude**: `number`
 
+Defined in: main.ts:213985
+
 latitude coordinate of the local establishments in google maps
 example:
 "latitude": 51.584091
-
-#### Defined in
-
-main.ts:201288
 
 ***
 
@@ -178,12 +156,10 @@ main.ts:201288
 
 > `optional` **local\_justifications**: `string`[]
 
+Defined in: main.ts:213994
+
 Google local justifications
 snippets of text that “justify” why the business is showing up for search query
-
-#### Defined in
-
-main.ts:201297
 
 ***
 
@@ -191,13 +167,11 @@ main.ts:201297
 
 > `optional` **longitude**: `number`
 
+Defined in: main.ts:213989
+
 longitude coordinate of the local establishment in google maps
 example:
 "longitude": -0.31365919999999997
-
-#### Defined in
-
-main.ts:201292
 
 ***
 
@@ -205,11 +179,9 @@ main.ts:201292
 
 > `optional` **main\_image**: `string`
 
+Defined in: main.ts:213951
+
 URL of the main image featured in Google My Business profile
-
-#### Defined in
-
-main.ts:201254
 
 ***
 
@@ -217,11 +189,9 @@ main.ts:201254
 
 > `optional` **phone**: `string`
 
+Defined in: main.ts:213949
+
 phone number of the business entity
-
-#### Defined in
-
-main.ts:201252
 
 ***
 
@@ -229,13 +199,11 @@ main.ts:201252
 
 > `optional` **place\_id**: `string`
 
+Defined in: main.ts:213947
+
 unique place identifier
 place id of the local establishment featured in the element
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:201250
 
 ***
 
@@ -243,13 +211,11 @@ main.ts:201250
 
 > `optional` **price\_level**: `string`
 
+Defined in: main.ts:213963
+
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
 if there is no price level information, the value will be null
-
-#### Defined in
-
-main.ts:201266
 
 ***
 
@@ -257,21 +223,21 @@ main.ts:201266
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:22295
+
 absolute rank among all the elements
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21392
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22293
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -280,22 +246,16 @@ positions of elements with different type values are omitted from the rank_group
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21390
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:213934
+
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:201237
 
 ***
 
@@ -303,16 +263,14 @@ main.ts:201237
 
 > `optional` **rating\_distribution**: `object`
 
+Defined in: main.ts:213937
+
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:201240
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -320,11 +278,9 @@ main.ts:201240
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:213939
+
 additional information about the business entity
-
-#### Defined in
-
-main.ts:201242
 
 ***
 
@@ -332,12 +288,10 @@ main.ts:201242
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:213929
+
 directory title
 can take the following values: At this place, Directory
-
-#### Defined in
-
-main.ts:201232
 
 ***
 
@@ -345,11 +299,9 @@ main.ts:201232
 
 > `optional` **total\_photos**: `number`
 
+Defined in: main.ts:213953
+
 total count of images featured in Google My Business profile
-
-#### Defined in
-
-main.ts:201256
 
 ***
 
@@ -357,15 +309,13 @@ main.ts:201256
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22290
+
 type of element
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21387
 
 ***
 
@@ -373,21 +323,17 @@ main.ts:21387
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:213931
+
 URL to view the menu
-
-#### Defined in
-
-main.ts:201234
 
 ***
 
 ### work\_hours?
 
-> `optional` **work\_hours**: [`WorkInfo`](../classes/WorkInfo.md)
+> `optional` **work\_hours**: [`WorkHours`](../classes/WorkHours.md)
+
+Defined in: main.ts:213973
 
 open hours
 information about work hours of the local establishment
-
-#### Defined in
-
-main.ts:201276

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
+
+Defined in: main.ts:220250
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo**(`data`?): [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:220340
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:206884
 
 ## Properties
 
 ### adults?
 
 > `optional` **adults**: `number`
+
+Defined in: main.ts:220322
 
 number of adults
 optional field
@@ -48,15 +52,13 @@ example:
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`adults`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#adults)
 
-#### Defined in
-
-main.ts:206866
-
 ***
 
 ### check\_in?
 
 > `optional` **check\_in**: `string`
+
+Defined in: main.ts:220302
 
 check-in date
 optional field
@@ -70,15 +72,13 @@ example:
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`check_in`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#check_in)
 
-#### Defined in
-
-main.ts:206846
-
 ***
 
 ### check\_out?
 
 > `optional` **check\_out**: `string`
+
+Defined in: main.ts:220311
 
 check-out date
 optional field
@@ -93,15 +93,13 @@ example:
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`check_out`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#check_out)
 
-#### Defined in
-
-main.ts:206855
-
 ***
 
 ### children?
 
 > `optional` **children**: `string`[]
+
+Defined in: main.ts:220330
 
 number and age of children
 optional field
@@ -115,15 +113,13 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`children`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#children)
 
-#### Defined in
-
-main.ts:206874
-
 ***
 
 ### currency?
 
 > `optional` **currency**: `string`
+
+Defined in: main.ts:220316
 
 currency
 optional field
@@ -134,15 +130,13 @@ example:
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`currency`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#currency)
 
-#### Defined in
-
-main.ts:206860
-
 ***
 
 ### hotel\_identifier?
 
 > `optional` **hotel\_identifier**: `string`
+
+Defined in: main.ts:220257
 
 unique hotel identifier
 required field
@@ -155,15 +149,13 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`hotel_identifier`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#hotel_identifier)
 
-#### Defined in
-
-main.ts:206801
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:220294
 
 search engine language code
 required field if you don’t specify language_name
@@ -176,15 +168,13 @@ en
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:206838
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:220287
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -197,15 +187,13 @@ English
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:206831
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:220271
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -218,15 +206,13 @@ example:
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:206815
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:220280
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -241,15 +227,13 @@ example:
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:206824
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:220264
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -262,15 +246,13 @@ London,England,United Kingdom
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:206808
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:220336
 
 user-defined task identifier
 optional field
@@ -282,27 +264,23 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:206880
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:220349
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:206893
 
 ***
 
@@ -310,17 +288,17 @@ main.ts:206893
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:220381
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:206925
 
 ***
 
@@ -328,14 +306,14 @@ main.ts:206925
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:220374
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo`](BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:206918

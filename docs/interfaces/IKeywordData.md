@@ -21,7 +21,11 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102754
+=======
+main.ts:102787
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -33,7 +37,11 @@ returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102740
+=======
+main.ts:102773
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -45,7 +53,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102746
+=======
+main.ts:102779
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -57,7 +69,11 @@ additional information about the keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102748
+=======
+main.ts:102781
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -69,7 +85,11 @@ language code in a POST array
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102744
+=======
+main.ts:102777
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -81,7 +101,11 @@ location code in a POST array
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102742
+=======
+main.ts:102775
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -95,7 +119,11 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102738
+=======
+main.ts:102771
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -108,4 +136,8 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102751
+=======
+main.ts:102784
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

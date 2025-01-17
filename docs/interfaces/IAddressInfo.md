@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAddressInfo
+[Documentation](../README.md) / IAddressInfo
 
 # Interface: IAddressInfo
 
+Defined in: main.ts:41476
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **address**: `string`
 
+Defined in: main.ts:41480
+
 street address of the local establishment
-
-#### Defined in
-
-main.ts:39638
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:39638
 
 > `optional` **borough**: `string`
 
+Defined in: main.ts:41478
+
 administrative unit or district the local establishment belongs to
-
-#### Defined in
-
-main.ts:39636
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:39636
 
 > `optional` **city**: `string`
 
+Defined in: main.ts:41482
+
 name of the city where the local establishment is located
-
-#### Defined in
-
-main.ts:39640
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:39640
 
 > `optional` **country\_code**: `string`
 
+Defined in: main.ts:41488
+
 ISO country code of the local establishment
-
-#### Defined in
-
-main.ts:39646
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:39646
 
 > `optional` **region**: `string`
 
+Defined in: main.ts:41486
+
 DMA region the local establishment belongs to
-
-#### Defined in
-
-main.ts:39644
 
 ***
 
@@ -76,8 +68,6 @@ main.ts:39644
 
 > `optional` **zip**: `string`
 
+Defined in: main.ts:41484
+
 ZIP code of the local establishment
-
-#### Defined in
-
-main.ts:39642

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppListTaskPostRequestInfo
+[Documentation](../README.md) / IAppDataGoogleAppListTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppListTaskPostRequestInfo
 
+Defined in: main.ts:200629
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### age\_rating?
 
 > `optional` **age\_rating**: `string`
+
+Defined in: main.ts:200697
 
 filter results by age rating
 optional field
@@ -26,15 +30,13 @@ ages_9_12 — return apps approved for children from 9 to 12 years old;
 by default, the API returns apps for all ages;
 Note: this filter works only in conjunction with the "category": "family" parameter
 
-#### Defined in
-
-main.ts:188260
-
 ***
 
 ### app\_category?
 
 > `optional` **app\_category**: `string`
+
+Defined in: main.ts:200687
 
 application category on Google Play
 optional field
@@ -44,15 +46,13 @@ family;
 you can receive the full list of available categories by making a separate request to https://api.dataforseo.com/v3/app_data/google/categories
 Note: app_category cannot be used if app_collection parameter is set to featured
 
-#### Defined in
-
-main.ts:188250
-
 ***
 
 ### app\_collection?
 
 > `optional` **app\_collection**: `string`
+
+Defined in: main.ts:200636
 
 app collection
 required field
@@ -61,15 +61,13 @@ you can specify the following values:
 featured, topselling_paid, topselling_free, topselling_new_free, topselling_new_paid, topgrossing, movers_shakers
 Note: if featured is selected, the app_category parameter cannot be used
 
-#### Defined in
-
-main.ts:188199
-
 ***
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:200679
 
 parsing depth
 optional field
@@ -78,26 +76,20 @@ we strongly recommend setting the parsing depth in the multiples of 100, because
 default value: 100;
 maximum value: 200
 
-#### Defined in
-
-main.ts:188242
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:200664
+
 search engine language code
-optional field
+required field if language_name is not specified
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
 en
-
-#### Defined in
-
-main.ts:188227
 
 ***
 
@@ -105,22 +97,22 @@ main.ts:188227
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:200657
+
 full name of search engine language
-optional field
+required field if language_code is not specified
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
 English
-
-#### Defined in
-
-main.ts:188220
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:200650
 
 search engine location code
 required field if you don’t specify location_name
@@ -129,15 +121,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 9061121
 
-#### Defined in
-
-main.ts:188213
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:200643
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -146,15 +136,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 West Los Angeles,California,United States
 
-#### Defined in
-
-main.ts:188206
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:200729
 
 notification URL of a completed task
 optional field
@@ -163,12 +151,8 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:188292
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 ***
 
@@ -176,21 +160,21 @@ main.ts:188292
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:200719
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Defined in
-
-main.ts:188282
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:200713
 
 return URL for sending task results
 optional field
@@ -199,18 +183,16 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:188276
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:200672
 
 task priority
 optional field
@@ -220,22 +202,16 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:188235
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:200703
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:188266

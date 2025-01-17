@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoInfoTaskPostRequestInfo
+[Documentation](../README.md) / SerpYoutubeVideoInfoTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoInfoTaskPostRequestInfo
+
+Defined in: main.ts:69487
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpYoutubeVideoInfoTaskPostRequestInfo**(`data`?): [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
 
+Defined in: main.ts:69576
+
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:61363
 
 ## Properties
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:69533
 
 device type
 optional field
@@ -46,15 +50,13 @@ only value: desktop
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`device`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:61322
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:69529
 
 search engine language code
 required field if you don’t specify language_name
@@ -67,15 +69,13 @@ en
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:61318
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:69522
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -88,15 +88,13 @@ English
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:61311
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:69515
 
 search engine location code
 required field if you don’t specify location_name
@@ -109,15 +107,13 @@ example:
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:61304
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:69508
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -130,15 +126,13 @@ United States
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:61297
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:69538
 
 device operating system
 optional field
@@ -149,15 +143,13 @@ default value: windows
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`os`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:61327
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:69572
 
 notification URL of a completed task
 optional field
@@ -166,22 +158,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:61359
 
 ***
 
 ### postback\_data?
 
 > `optional` **postback\_data**: `string`
+
+Defined in: main.ts:69561
 
 postback_url datatype
 required field if you specify postback_url
@@ -193,15 +184,13 @@ advanced
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
-
-main.ts:61349
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:69555
 
 return URL for sending task results
 optional field
@@ -210,22 +199,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:61343
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:69501
 
 task priority
 optional field
@@ -239,15 +227,13 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:61290
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:69544
 
 user-defined task identifier
 optional field
@@ -259,15 +245,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:61333
-
 ***
 
 ### video\_id?
 
 > `optional` **video\_id**: `string`
+
+Defined in: main.ts:69493
 
 ID of the video
 required field
@@ -279,27 +263,23 @@ vQXvyV0zIP4
 
 [`ISerpYoutubeVideoInfoTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoInfoTaskPostRequestInfo.md#video_id)
 
-#### Defined in
-
-main.ts:61282
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:69585
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:61372
 
 ***
 
@@ -307,17 +287,17 @@ main.ts:61372
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:69613
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:61400
 
 ***
 
@@ -325,14 +305,14 @@ main.ts:61400
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
 
+Defined in: main.ts:69606
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYoutubeVideoInfoTaskPostRequestInfo`](SerpYoutubeVideoInfoTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:61393

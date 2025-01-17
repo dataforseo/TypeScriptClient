@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentAnalysisPriceData
+[Documentation](../README.md) / IAppendixContentAnalysisPriceData
 
 # Interface: IAppendixContentAnalysisPriceData
 
+Defined in: main.ts:238187
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,19 +18,15 @@
 
 > `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222900
+Defined in: main.ts:238188
 
 ***
 
 ### category\_trends?
 
-> `optional` **category\_trends**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **category\_trends**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222901
+Defined in: main.ts:238189
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:222901
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222902
+Defined in: main.ts:238190
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:222902
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222903
+Defined in: main.ts:238191
 
 ***
 
@@ -56,56 +50,44 @@ main.ts:222903
 
 > `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222904
+Defined in: main.ts:238192
 
 ***
 
 ### phrase\_trends?
 
-> `optional` **phrase\_trends**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **phrase\_trends**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222905
+Defined in: main.ts:238193
 
 ***
 
 ### rating\_distribution?
 
-> `optional` **rating\_distribution**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **rating\_distribution**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222906
+Defined in: main.ts:238194
 
 ***
 
 ### search?
 
-> `optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222907
+Defined in: main.ts:238195
 
 ***
 
 ### sentiment\_analysis?
 
-> `optional` **sentiment\_analysis**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **sentiment\_analysis**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222908
+Defined in: main.ts:238196
 
 ***
 
 ### summary?
 
-> `optional` **summary**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **summary**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222909
+Defined in: main.ts:238197

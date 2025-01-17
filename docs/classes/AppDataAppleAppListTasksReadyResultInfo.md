@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListTasksReadyResultInfo
+[Documentation](../README.md) / AppDataAppleAppListTasksReadyResultInfo
 
 # Class: AppDataAppleAppListTasksReadyResultInfo
+
+Defined in: main.ts:207392
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataAppleAppListTasksReadyResultInfo**(`data`?): [`AppDataAppleAppListTasksReadyResultInfo`](AppDataAppleAppListTasksReadyResultInfo.md)
 
+Defined in: main.ts:207412
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppListTasksReadyResultInfo`](AppDataAppleAppListTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:194965
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:194965
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:207401
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md).[`date_posted`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:194954
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:194954
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:207405
+
 URL for collecting the results of the Apple App List task
 
 #### Implementation of
 
 [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
-
-main.ts:194958
-
 ***
 
 ### endpoint\_html?
 
 > `optional` **endpoint\_html**: `string`
+
+Defined in: main.ts:207408
 
 URL for collecting the results of the Apple App List HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -77,15 +77,13 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
-
-main.ts:194961
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:207395
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -94,15 +92,13 @@ unique task identifier in our system in the UUID format
 
 [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md).[`id`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:194948
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:207397
 
 search engine specified when setting the task
 
@@ -110,15 +106,13 @@ search engine specified when setting the task
 
 [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md).[`se`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:194950
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:207399
 
 search engine type
 
@@ -126,15 +120,13 @@ search engine type
 
 [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md).[`se_type`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:194952
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:207403
 
 user-defined task identifier
 
@@ -142,27 +134,23 @@ user-defined task identifier
 
 [`IAppDataAppleAppListTasksReadyResultInfo`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md).[`tag`](../interfaces/IAppDataAppleAppListTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:194956
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:207421
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:194974
 
 ***
 
@@ -170,17 +158,17 @@ main.ts:194974
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:207444
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:194997
 
 ***
 
@@ -188,14 +176,14 @@ main.ts:194997
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListTasksReadyResultInfo`](AppDataAppleAppListTasksReadyResultInfo.md)
 
+Defined in: main.ts:207437
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleAppListTasksReadyResultInfo`](AppDataAppleAppListTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:194990

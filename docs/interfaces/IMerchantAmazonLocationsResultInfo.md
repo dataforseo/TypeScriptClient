@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonLocationsResultInfo
+[Documentation](../README.md) / IMerchantAmazonLocationsResultInfo
 
 # Interface: IMerchantAmazonLocationsResultInfo
 
+Defined in: main.ts:191241
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:191253
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:179411
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:179411
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:191243
+
 location code
-
-#### Defined in
-
-main.ts:179401
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:179401
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:191245
+
 full name of the location
-
-#### Defined in
-
-main.ts:179403
 
 ***
 
@@ -52,15 +48,13 @@ main.ts:179403
 
 > `optional` **location\_name\_parent**: `string`
 
+Defined in: main.ts:191251
+
 the name of the superordinate location
 example:
 "location_code": 9041134,
 "location_name": "90290,California,United States",
 "location_name_parent": "California,United States"
-
-#### Defined in
-
-main.ts:179409
 
 ***
 
@@ -68,8 +62,6 @@ main.ts:179409
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:191255
+
 location type
-
-#### Defined in
-
-main.ts:179413

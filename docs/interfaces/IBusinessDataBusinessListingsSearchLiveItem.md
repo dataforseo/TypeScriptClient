@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsSearchLiveItem
+[Documentation](../README.md) / IBusinessDataBusinessListingsSearchLiveItem
 
 # Interface: IBusinessDataBusinessListingsSearchLiveItem
 
+Defined in: main.ts:211517
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **additional\_categories**: `string`[]
 
+Defined in: main.ts:211534
+
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
-
-#### Defined in
-
-main.ts:199083
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:199083
 
 > `optional` **address**: `string`
 
+Defined in: main.ts:211543
+
 address of the business entity
-
-#### Defined in
-
-main.ts:199092
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:199092
 
 > `optional` **address\_info**: [`AddressInfo`](../classes/AddressInfo.md)
 
+Defined in: main.ts:211545
+
 object containing address components of the business entity
-
-#### Defined in
-
-main.ts:199094
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:199094
 
 > `optional` **attributes**: [`BusinessDataAttributesInfo`](../classes/BusinessDataAttributesInfo.md)
 
+Defined in: main.ts:211576
+
 service details in a form of user-reviewed checks;
 service details of a business entity displayed in a form of checks and based on user feedback and business category
-
-#### Defined in
-
-main.ts:199125
 
 ***
 
@@ -66,12 +60,10 @@ main.ts:199125
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:211528
+
 business category
 Google My Business general category that best describes the services provided by the business entity
-
-#### Defined in
-
-main.ts:199077
 
 ***
 
@@ -79,12 +71,10 @@ main.ts:199077
 
 > `optional` **category\_ids**: `string`[]
 
+Defined in: main.ts:211531
+
 global category IDs
 universal category IDs that do not change based on the selected country
-
-#### Defined in
-
-main.ts:199080
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:199080
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:211615
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:199164
 
 ***
 
@@ -105,13 +93,11 @@ main.ts:199164
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:211538
+
 google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:199087
 
 ***
 
@@ -119,12 +105,10 @@ main.ts:199087
 
 > `optional` **contact\_info**: [`BusinessDataContactInfo`](../classes/BusinessDataContactInfo.md)[]
 
+Defined in: main.ts:211612
+
 available contacts of the business
 list of contacts to interact with the business
-
-#### Defined in
-
-main.ts:199161
 
 ***
 
@@ -132,12 +116,10 @@ main.ts:199161
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:211525
+
 description of the element in SERP
 the description of the business entity for which the results are collected
-
-#### Defined in
-
-main.ts:199074
 
 ***
 
@@ -145,11 +127,9 @@ main.ts:199074
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:211555
+
 domain of the business entity
-
-#### Defined in
-
-main.ts:199104
 
 ***
 
@@ -157,12 +137,10 @@ main.ts:199104
 
 > `optional` **feature\_id**: `string`
 
+Defined in: main.ts:211541
+
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:199090
 
 ***
 
@@ -170,14 +148,12 @@ main.ts:199090
 
 > `optional` **first\_seen**: `string`
 
+Defined in: main.ts:211625
+
 date and time when our crawler found the business listing element for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-03-11 10:04:11 +00:00
-
-#### Defined in
-
-main.ts:199174
 
 ***
 
@@ -185,13 +161,11 @@ main.ts:199174
 
 > `optional` **hotel\_rating**: `number`
 
+Defined in: main.ts:211591
+
 hotel class rating
 class ratings range between 1-5 stars, learn more
 if there is no hotel class rating information, the value will be null
-
-#### Defined in
-
-main.ts:199140
 
 ***
 
@@ -199,11 +173,9 @@ main.ts:199140
 
 > `optional` **is\_claimed**: `boolean`
 
+Defined in: main.ts:211573
+
 shows whether the entity is verified by its owner on Google Maps
-
-#### Defined in
-
-main.ts:199122
 
 ***
 
@@ -211,14 +183,12 @@ main.ts:199122
 
 > `optional` **last\_updated\_time**: `string`
 
+Defined in: main.ts:211620
+
 date and time when the data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-26 09:03:15 +00:00
-
-#### Defined in
-
-main.ts:199169
 
 ***
 
@@ -226,13 +196,11 @@ main.ts:199169
 
 > `optional` **latitude**: `number`
 
+Defined in: main.ts:211567
+
 latitude coordinate of the local establishments in google maps
 example:
 "latitude": 51.584091
-
-#### Defined in
-
-main.ts:199116
 
 ***
 
@@ -240,12 +208,10 @@ main.ts:199116
 
 > `optional` **local\_business\_links**: [`BaseLocalBusinessLink`](../classes/BaseLocalBusinessLink.md)[]
 
+Defined in: main.ts:211609
+
 available interactions with the business
 list of options to interact with the business directly from search results
-
-#### Defined in
-
-main.ts:199158
 
 ***
 
@@ -253,11 +219,9 @@ main.ts:199158
 
 > `optional` **logo**: `string`
 
+Defined in: main.ts:211557
+
 URL of the logo featured in Google My Business profile
-
-#### Defined in
-
-main.ts:199106
 
 ***
 
@@ -265,13 +229,11 @@ main.ts:199106
 
 > `optional` **longitude**: `number`
 
+Defined in: main.ts:211571
+
 longitude coordinate of the local establishment in google maps
 example:
 "longitude": -0.31365919999999997
-
-#### Defined in
-
-main.ts:199120
 
 ***
 
@@ -279,11 +241,9 @@ main.ts:199120
 
 > `optional` **main\_image**: `string`
 
+Defined in: main.ts:211559
+
 URL of the main image featured in Google My Business profile
-
-#### Defined in
-
-main.ts:199108
 
 ***
 
@@ -291,11 +251,9 @@ main.ts:199108
 
 > `optional` **people\_also\_search**: [`PeopleAlsoSearch`](../classes/PeopleAlsoSearch.md)[]
 
+Defined in: main.ts:211600
+
 related business entities
-
-#### Defined in
-
-main.ts:199149
 
 ***
 
@@ -303,11 +261,9 @@ main.ts:199149
 
 > `optional` **phone**: `string`
 
+Defined in: main.ts:211551
+
 phone number of the business entity
-
-#### Defined in
-
-main.ts:199100
 
 ***
 
@@ -315,19 +271,19 @@ main.ts:199100
 
 > `optional` **place\_id**: `string`
 
+Defined in: main.ts:211549
+
 unique place identifier
 place id of the local establishment featured in the element
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:199098
 
 ***
 
 ### place\_topics?
 
 > `optional` **place\_topics**: `object`
+
+Defined in: main.ts:211584
 
 keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
@@ -339,11 +295,7 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:199133
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -351,12 +303,10 @@ main.ts:199133
 
 > `optional` **popular\_times**: [`PopularTimes`](../classes/PopularTimes.md)
 
+Defined in: main.ts:211606
+
 popular times
 information related to busy hours of the business entity
-
-#### Defined in
-
-main.ts:199155
 
 ***
 
@@ -364,13 +314,11 @@ main.ts:199155
 
 > `optional` **price\_level**: `string`
 
+Defined in: main.ts:211595
+
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
 if there is no price level information, the value will be null
-
-#### Defined in
-
-main.ts:199144
 
 ***
 
@@ -378,12 +326,10 @@ main.ts:199144
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:211587
+
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:199136
 
 ***
 
@@ -391,16 +337,14 @@ main.ts:199136
 
 > `optional` **rating\_distribution**: `object`
 
+Defined in: main.ts:211598
+
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:199147
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -408,11 +352,9 @@ main.ts:199147
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:211563
+
 additional information on the business entity
-
-#### Defined in
-
-main.ts:199112
 
 ***
 
@@ -420,12 +362,10 @@ main.ts:199112
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:211522
+
 title of the element in SERP
 the name of the business entity for which the results are collected
-
-#### Defined in
-
-main.ts:199071
 
 ***
 
@@ -433,11 +373,9 @@ main.ts:199071
 
 > `optional` **total\_photos**: `number`
 
+Defined in: main.ts:211561
+
 total count of images featured in Google My Business profile
-
-#### Defined in
-
-main.ts:199110
 
 ***
 
@@ -445,11 +383,9 @@ main.ts:199110
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:211519
+
 type of element
-
-#### Defined in
-
-main.ts:199068
 
 ***
 
@@ -457,21 +393,17 @@ main.ts:199068
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:211553
+
 absolute url of the business entity
-
-#### Defined in
-
-main.ts:199102
 
 ***
 
 ### work\_time?
 
-> `optional` **work\_time**: [`WorkInfo`](../classes/WorkInfo.md)
+> `optional` **work\_time**: [`WorkTime`](../classes/WorkTime.md)
+
+Defined in: main.ts:211603
 
 work time details
 information related to operational hours of the business entity
-
-#### Defined in
-
-main.ts:199152

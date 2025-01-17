@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingSubdomainsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsBingSubdomainsLiveResultInfo
 
 # Class: DataforseoLabsBingSubdomainsLiveResultInfo
+
+Defined in: main.ts:120634
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsBingSubdomainsLiveResultInfo**(`data`?): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
 
+Defined in: main.ts:120652
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:111219
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:111219
 
 > `optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
 
+Defined in: main.ts:120648
+
 contains subdomains and related data
 
 #### Implementation of
 
 [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:111215
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:111215
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:120646
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:111213
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:111213
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:120642
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:111209
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:111209
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:120640
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:111207
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:111207
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:120636
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:111203
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:111203
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:120638
+
 domain in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#target)
-
-#### Defined in
-
-main.ts:111205
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:111205
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:120644
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsBingSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingSubdomainsLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:111211
 
 ## Methods
 
@@ -150,17 +138,17 @@ main.ts:111211
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:120661
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:111228
 
 ***
 
@@ -168,17 +156,17 @@ main.ts:111228
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:120688
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:111255
 
 ***
 
@@ -186,14 +174,14 @@ main.ts:111255
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
 
+Defined in: main.ts:120681
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingSubdomainsLiveResultInfo`](DataforseoLabsBingSubdomainsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:111248

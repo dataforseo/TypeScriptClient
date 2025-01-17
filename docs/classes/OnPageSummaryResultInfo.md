@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageSummaryResultInfo
+[Documentation](../README.md) / OnPageSummaryResultInfo
 
 # Class: OnPageSummaryResultInfo
+
+Defined in: main.ts:165650
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageSummaryResultInfo**(`data`?): [`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)
 
+Defined in: main.ts:165677
+
 #### Parameters
 
-• **data?**: [`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md)
+##### data?
+
+[`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md)
 
 #### Returns
 
 [`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)
-
-#### Defined in
-
-main.ts:153949
 
 ## Properties
 
 ### crawl\_gateway\_address?
 
 > `optional` **crawl\_gateway\_address**: `string`
+
+Defined in: main.ts:165659
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -46,15 +50,13 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 [`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md).[`crawl_gateway_address`](../interfaces/IOnPageSummaryResultInfo.md#crawl_gateway_address)
 
-#### Defined in
-
-main.ts:153931
-
 ***
 
 ### crawl\_progress?
 
 > `optional` **crawl\_progress**: `string`
+
+Defined in: main.ts:165653
 
 status of the crawling session
 possible values: in_progress, finished
@@ -63,15 +65,13 @@ possible values: in_progress, finished
 
 [`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md).[`crawl_progress`](../interfaces/IOnPageSummaryResultInfo.md#crawl_progress)
 
-#### Defined in
-
-main.ts:153925
-
 ***
 
 ### crawl\_status?
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+
+Defined in: main.ts:165655
 
 details of the crawling session
 
@@ -79,15 +79,13 @@ details of the crawling session
 
 [`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md).[`crawl_status`](../interfaces/IOnPageSummaryResultInfo.md#crawl_status)
 
-#### Defined in
-
-main.ts:153927
-
 ***
 
 ### crawl\_stop\_reason?
 
 > `optional` **crawl\_stop\_reason**: `string`
+
+Defined in: main.ts:165667
 
 reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -101,15 +99,13 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 [`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md).[`crawl_stop_reason`](../interfaces/IOnPageSummaryResultInfo.md#crawl_stop_reason)
 
-#### Defined in
-
-main.ts:153939
-
 ***
 
 ### domain\_info?
 
 > `optional` **domain\_info**: [`DomainInfo`](DomainInfo.md)
+
+Defined in: main.ts:165670
 
 domain-wide info
 on-page information about the target domain and crawling process
@@ -118,15 +114,13 @@ on-page information about the target domain and crawling process
 
 [`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md).[`domain_info`](../interfaces/IOnPageSummaryResultInfo.md#domain_info)
 
-#### Defined in
-
-main.ts:153942
-
 ***
 
 ### page\_metrics?
 
 > `optional` **page\_metrics**: [`PageMetrics`](PageMetrics.md)
+
+Defined in: main.ts:165673
 
 page-specific info
 metrics information on the target website pages
@@ -135,27 +129,23 @@ metrics information on the target website pages
 
 [`IOnPageSummaryResultInfo`](../interfaces/IOnPageSummaryResultInfo.md).[`page_metrics`](../interfaces/IOnPageSummaryResultInfo.md#page_metrics)
 
-#### Defined in
-
-main.ts:153945
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:165686
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:153958
 
 ***
 
@@ -163,17 +153,17 @@ main.ts:153958
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:165708
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:153980
 
 ***
 
@@ -181,14 +171,14 @@ main.ts:153980
 
 > `static` **fromJS**(`data`): [`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)
 
+Defined in: main.ts:165701
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageSummaryResultInfo`](OnPageSummaryResultInfo.md)
-
-#### Defined in
-
-main.ts:153973

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTrustpilotReviewsTasksReadyResultInfo
+[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTasksReadyResultInfo
 
+Defined in: main.ts:226567
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:226577
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:211543
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:211543
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:226581
+
 URL for collecting the results of the task
-
-#### Defined in
-
-main.ts:211547
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:211547
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:226570
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:211536
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:211536
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:226573
+
 search engine specified when setting the task
 can take the following values: trustpilot
-
-#### Defined in
-
-main.ts:211539
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:211539
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:226575
+
 search engine type
-
-#### Defined in
-
-main.ts:211541
 
 ***
 
@@ -78,8 +70,6 @@ main.ts:211541
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:226579
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:211545

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveRequestInfo
 
+Defined in: main.ts:211965
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:211971
+
 business categories
 optional field
 the categories you specify are used to search for business listings;
 if you don’t use this field, we will return business listings found in the specified location;
 you can specify up to 10 categories
-
-#### Defined in
-
-main.ts:199520
 
 ***
 
@@ -32,20 +32,20 @@ main.ts:199520
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:211976
+
 description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
-can contain up to 200 symbols
-
-#### Defined in
-
-main.ts:199525
+can contain up to 200 characters
 
 ***
 
 ### initial\_dataset\_filters?
 
 > `optional` **initial\_dataset\_filters**: `any`[]
+
+Defined in: main.ts:212004
 
 array of results filtering parameters
 optional field
@@ -58,24 +58,18 @@ example:
 ["rating.value",">",3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters
 
-#### Defined in
-
-main.ts:199553
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
 
+Defined in: main.ts:212009
+
 maximum number of elements within internal arrays
 optional field
 you can use this field to limit the number of elements within the aggregated categories
 default value: 10
-
-#### Defined in
-
-main.ts:199558
 
 ***
 
@@ -83,12 +77,10 @@ main.ts:199558
 
 > `optional` **is\_claimed**: `boolean`
 
+Defined in: main.ts:211984
+
 indicates whether the business is verified by its owner on Google Maps
 optional field
-
-#### Defined in
-
-main.ts:199533
 
 ***
 
@@ -96,20 +88,20 @@ main.ts:199533
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:212014
+
 the maximum number of returned businesses
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:199563
 
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:211993
 
 GPS coordinates of a location
 optional field
@@ -120,22 +112,16 @@ the maximum value for “radius”: 100000
 example:
 53.476225,-2.243572,200
 
-#### Defined in
-
-main.ts:199542
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:212017
+
 the maximum number of returned businesses
 optional field
-
-#### Defined in
-
-main.ts:199566
 
 ***
 
@@ -143,15 +129,13 @@ main.ts:199566
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:212023
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:199572
 
 ***
 
@@ -159,11 +143,9 @@ main.ts:199572
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:211981
+
 title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
-can contain up to 200 symbols
-
-#### Defined in
-
-main.ts:199530
+can contain up to 200 characters

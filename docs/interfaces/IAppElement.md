@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppElement
+[Documentation](../README.md) / IAppElement
 
 # Interface: IAppElement
 
+Defined in: main.ts:32808
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:32814
+
 description
-
-#### Defined in
-
-main.ts:30992
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:30992
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:32818
+
 price indicated in the element
-
-#### Defined in
-
-main.ts:30996
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:30996
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:32812
+
 title of a given link element
-
-#### Defined in
-
-main.ts:30990
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:30990
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:32810
+
 type of element
-
-#### Defined in
-
-main.ts:30988
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:30988
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:32816
+
 URL
-
-#### Defined in
-
-main.ts:30994

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLocalFinderTaskPostRequestInfo
+[Documentation](../README.md) / ISerpGoogleLocalFinderTaskPostRequestInfo
 
 # Interface: ISerpGoogleLocalFinderTaskPostRequestInfo
 
+Defined in: main.ts:43050
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:43126
 
 parsing depth
 optional field
@@ -26,24 +30,18 @@ Note: your account will be billed per each SERP containing up to 20 results for 
 thus, setting a depth above 20 for desktop or above 10 for mobile may result in additional charges if the search engine returns more than 20 or 10 results respectively;
 if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
 
-#### Defined in
-
-main.ts:41258
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:43109
+
 device type
 optional field
 can take the values:desktop, mobile
 default value: desktop
-
-#### Defined in
-
-main.ts:41241
 
 ***
 
@@ -51,16 +49,15 @@ main.ts:41241
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:43058
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
-
-#### Defined in
-
-main.ts:41190
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -68,21 +65,21 @@ main.ts:41190
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:43104
+
 search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:en
 
-#### Defined in
-
-main.ts:41236
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:43098
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -91,15 +88,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:41230
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:43080
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -108,15 +103,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:41212
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:43091
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -129,15 +122,13 @@ the maximum value for “zoom”: 18z
 example:
 52.6178549,-155.352142,18z
 
-#### Defined in
-
-main.ts:41223
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:43073
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -146,30 +137,26 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:41205
-
 ***
 
 ### min\_rating?
 
 > `optional` **min\_rating**: `number`
 
+Defined in: main.ts:43131
+
 filter results by minimum rating
 optional field
 possible values for desktop: 3.5, 4, 4.5;
 possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
-
-#### Defined in
-
-main.ts:41263
 
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:43116
 
 device operating system
 optional field
@@ -178,15 +165,13 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
-
-main.ts:41248
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:43174
 
 notification URL of a completed task
 optional field
@@ -195,12 +180,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:41304
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -208,21 +190,21 @@ main.ts:41304
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:43163
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the function you used for setting a task
 possible values:
 advanced, html
 
-#### Defined in
-
-main.ts:41294
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:43157
 
 return URL for sending task results
 optional field
@@ -231,18 +213,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:41288
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:43066
 
 task priority
 optional field
@@ -252,15 +233,13 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:41198
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:43146
 
 user-defined task identifier
 optional field
@@ -268,15 +247,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:41278
-
 ***
 
 ### time\_filter?
 
 > `optional` **time\_filter**: `string`
+
+Defined in: main.ts:43140
 
 filter results by open hours
 optional field
@@ -286,7 +263,3 @@ possible values: "open_now", "24_hours", "$day_value", "$day_value;$time_value";
 instead of $day_value use one of these values: "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday";
 instead of $time_value use one of these values: "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"
 example: "tuesday;18"
-
-#### Defined in
-
-main.ts:41272

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopicInfo
+[Documentation](../README.md) / TopicInfo
 
 # Class: TopicInfo
+
+Defined in: main.ts:173354
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TopicInfo**(`data`?): [`TopicInfo`](TopicInfo.md)
 
+Defined in: main.ts:173376
+
 #### Parameters
 
-• **data?**: [`ITopicInfo`](../interfaces/ITopicInfo.md)
+##### data?
+
+[`ITopicInfo`](../interfaces/ITopicInfo.md)
 
 #### Returns
 
 [`TopicInfo`](TopicInfo.md)
-
-#### Defined in
-
-main.ts:161662
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:161662
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:173360
+
 content author name
 
 #### Implementation of
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`author`](../interfaces/ITopicInfo.md#author)
-
-#### Defined in
-
-main.ts:161646
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:161646
 
 > `optional` **h\_title**: `string`
 
+Defined in: main.ts:173356
+
 meta title
 
 #### Implementation of
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`h_title`](../interfaces/ITopicInfo.md#h_title)
-
-#### Defined in
-
-main.ts:161642
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:161642
 
 > `optional` **language**: `string`
 
+Defined in: main.ts:173362
+
 content language
 
 #### Implementation of
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`language`](../interfaces/ITopicInfo.md#language)
-
-#### Defined in
-
-main.ts:161648
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:161648
 
 > `optional` **level**: `number`
 
+Defined in: main.ts:173364
+
 HTML level
 
 #### Implementation of
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`level`](../interfaces/ITopicInfo.md#level)
-
-#### Defined in
-
-main.ts:161650
 
 ***
 
@@ -102,21 +96,21 @@ main.ts:161650
 
 > `optional` **main\_title**: `string`
 
+Defined in: main.ts:173358
+
 main title of the block
 
 #### Implementation of
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`main_title`](../interfaces/ITopicInfo.md#main_title)
 
-#### Defined in
-
-main.ts:161644
-
 ***
 
 ### primary\_content?
 
 > `optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+
+Defined in: main.ts:173367
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -125,15 +119,13 @@ you can find more information about content priority calculation in this help ce
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`primary_content`](../interfaces/ITopicInfo.md#primary_content)
 
-#### Defined in
-
-main.ts:161653
-
 ***
 
 ### secondary\_content?
 
 > `optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+
+Defined in: main.ts:173370
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -142,15 +134,13 @@ you can find more information about content priority calculation in this help ce
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`secondary_content`](../interfaces/ITopicInfo.md#secondary_content)
 
-#### Defined in
-
-main.ts:161656
-
 ***
 
 ### table\_content?
 
 > `optional` **table\_content**: [`TableContent`](TableContent.md)[]
+
+Defined in: main.ts:173372
 
 content of the table on the page
 
@@ -158,27 +148,23 @@ content of the table on the page
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`table_content`](../interfaces/ITopicInfo.md#table_content)
 
-#### Defined in
-
-main.ts:161658
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:173385
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161671
 
 ***
 
@@ -186,17 +172,17 @@ main.ts:161671
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173421
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161707
 
 ***
 
@@ -204,14 +190,14 @@ main.ts:161707
 
 > `static` **fromJS**(`data`): [`TopicInfo`](TopicInfo.md)
 
+Defined in: main.ts:173414
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TopicInfo`](TopicInfo.md)
-
-#### Defined in
-
-main.ts:161700

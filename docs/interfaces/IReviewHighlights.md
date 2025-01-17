@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IReviewHighlights
+[Documentation](../README.md) / IReviewHighlights
 
 # Interface: IReviewHighlights
 
+Defined in: main.ts:222117
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **assessment**: `string`
 
+Defined in: main.ts:222121
+
 feature assessment
-
-#### Defined in
-
-main.ts:208476
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:208476
 
 > `optional` **feature**: `string`
 
+Defined in: main.ts:222119
+
 reviewed feature
-
-#### Defined in
-
-main.ts:208474

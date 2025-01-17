@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ImagesElement
+[Documentation](../README.md) / ImagesElement
 
 # Class: ImagesElement
+
+Defined in: main.ts:30007
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ImagesElement**(`data`?): [`ImagesElement`](ImagesElement.md)
 
+Defined in: main.ts:30020
+
 #### Parameters
 
-• **data?**: [`IImagesElement`](../interfaces/IImagesElement.md)
+##### data?
+
+[`IImagesElement`](../interfaces/IImagesElement.md)
 
 #### Returns
 
 [`ImagesElement`](ImagesElement.md)
-
-#### Defined in
-
-main.ts:28454
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:28454
 
 > `optional` **alt**: `string`
 
+Defined in: main.ts:30011
+
 alt tag of the image
 
 #### Implementation of
 
 [`IImagesElement`](../interfaces/IImagesElement.md).[`alt`](../interfaces/IImagesElement.md#alt)
 
-#### Defined in
-
-main.ts:28445
-
 ***
 
 ### image\_url?
 
 > `optional` **image\_url**: `string`
+
+Defined in: main.ts:30016
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -61,15 +63,13 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IImagesElement`](../interfaces/IImagesElement.md).[`image_url`](../interfaces/IImagesElement.md#image_url)
 
-#### Defined in
-
-main.ts:28450
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:30009
 
 type of element
 
@@ -77,15 +77,13 @@ type of element
 
 [`IImagesElement`](../interfaces/IImagesElement.md).[`type`](../interfaces/IImagesElement.md#type)
 
-#### Defined in
-
-main.ts:28443
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:30013
 
 URL link
 
@@ -93,27 +91,23 @@ URL link
 
 [`IImagesElement`](../interfaces/IImagesElement.md).[`url`](../interfaces/IImagesElement.md#url)
 
-#### Defined in
-
-main.ts:28447
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:30029
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:28463
 
 ***
 
@@ -121,17 +115,17 @@ main.ts:28463
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:30049
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:28483
 
 ***
 
@@ -139,14 +133,14 @@ main.ts:28483
 
 > `static` **fromJS**(`data`): [`ImagesElement`](ImagesElement.md)
 
+Defined in: main.ts:30042
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ImagesElement`](ImagesElement.md)
-
-#### Defined in
-
-main.ts:28476

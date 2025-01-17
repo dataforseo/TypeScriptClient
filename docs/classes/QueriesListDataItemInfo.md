@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / QueriesListDataItemInfo
+[Documentation](../README.md) / QueriesListDataItemInfo
 
 # Class: QueriesListDataItemInfo
+
+Defined in: main.ts:134417
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new QueriesListDataItemInfo**(`data`?): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
+Defined in: main.ts:134426
+
 #### Parameters
 
-• **data?**: [`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md)
+##### data?
+
+[`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md)
 
 #### Returns
 
 [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
-
-#### Defined in
-
-main.ts:124076
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:124076
 
 > `optional` **query**: `string`
 
+Defined in: main.ts:134419
+
 related query
 
 #### Implementation of
 
 [`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md).[`query`](../interfaces/IQueriesListDataItemInfo.md#query)
 
-#### Defined in
-
-main.ts:124069
-
 ***
 
 ### value?
 
 > `optional` **value**: `string`
+
+Defined in: main.ts:134422
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
@@ -61,27 +63,23 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 [`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md).[`value`](../interfaces/IQueriesListDataItemInfo.md#value)
 
-#### Defined in
-
-main.ts:124072
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:134435
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:124085
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:124085
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:134453
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:124103
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:124103
 
 > `static` **fromJS**(`data`): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
+Defined in: main.ts:134446
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
-
-#### Defined in
-
-main.ts:124096

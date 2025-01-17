@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IChannelSubscribersCount
+[Documentation](../README.md) / IChannelSubscribersCount
 
 # Interface: IChannelSubscribersCount
 
+Defined in: main.ts:70301
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:70306
+
 subscriber count
-
-#### Defined in
-
-main.ts:62091
 
 ***
 
@@ -28,9 +28,7 @@ main.ts:62091
 
 > `optional` **displayed\_count**: `string`
 
+Defined in: main.ts:70304
+
 displayed subscriber count
 subscriber count as displayed on YouTube
-
-#### Defined in
-
-main.ts:62089

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisCategoriesResultInfo
+[Documentation](../README.md) / IContentAnalysisCategoriesResultInfo
 
 # Interface: IContentAnalysisCategoriesResultInfo
 
+Defined in: main.ts:177259
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,17 +18,17 @@
 
 > `optional` **category\_code**: `number`
 
+Defined in: main.ts:177261
+
 category code
-
-#### Defined in
-
-main.ts:165571
 
 ***
 
 ### category\_code\_parent?
 
 > `optional` **category\_code\_parent**: `number`
+
+Defined in: main.ts:177273
 
 the code of the superordinate category
 example:
@@ -38,18 +40,12 @@ corresponds to:
 "category_code": 10178,
 "category_name": "Apparel Accessories"
 
-#### Defined in
-
-main.ts:165583
-
 ***
 
 ### category\_name?
 
 > `optional` **category\_name**: `string`
 
+Defined in: main.ts:177263
+
 full name of the category
-
-#### Defined in
-
-main.ts:165573

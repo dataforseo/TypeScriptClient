@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
+Defined in: main.ts:208561
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:208563
+
 application id received in a POST array
-
-#### Defined in
-
-main.ts:196112
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:196112
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:208574
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:196123
 
 ***
 
@@ -41,14 +39,12 @@ main.ts:196123
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:208579
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:196128
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:196128
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
+Defined in: main.ts:208593
+
 found reviews
-
-#### Defined in
-
-main.ts:196142
 
 ***
 
@@ -68,12 +62,10 @@ main.ts:196142
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:208591
+
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
-
-#### Defined in
-
-main.ts:196140
 
 ***
 
@@ -81,11 +73,9 @@ main.ts:196140
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:208571
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:196120
 
 ***
 
@@ -93,11 +83,9 @@ main.ts:196120
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:208569
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:196118
 
 ***
 
@@ -105,12 +93,10 @@ main.ts:196118
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:208585
+
 rating of the app
 rating of the application for which the reviews are collected
-
-#### Defined in
-
-main.ts:196134
 
 ***
 
@@ -118,12 +104,10 @@ main.ts:196134
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:208588
+
 the total number of reviews
 in this case, the value will be null as App Store does not indicate the total number of app reviews
-
-#### Defined in
-
-main.ts:196137
 
 ***
 
@@ -131,11 +115,9 @@ main.ts:196137
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:208567
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:196116
 
 ***
 
@@ -143,12 +125,10 @@ main.ts:196116
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:208582
+
 title of the app
 title of the application for which the reviews are collected
-
-#### Defined in
-
-main.ts:196131
 
 ***
 
@@ -156,8 +136,6 @@ main.ts:196131
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:208565
+
 type of element
-
-#### Defined in
-
-main.ts:196114

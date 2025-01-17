@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoCommentsLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpYoutubeVideoCommentsLiveAdvancedResultInfo
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedResultInfo
+
+Defined in: main.ts:74342
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpYoutubeVideoCommentsLiveAdvancedResultInfo**(`data`?): [`SerpYoutubeVideoCommentsLiveAdvancedResultInfo`](SerpYoutubeVideoCommentsLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:74381
+
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoCommentsLiveAdvancedResultInfo`](SerpYoutubeVideoCommentsLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:66115
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:74353
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:66090
-
 ***
 
 ### comments\_count?
 
 > `optional` **comments\_count**: `number`
+
+Defined in: main.ts:74373
 
 number of comments on the video
 
@@ -61,15 +63,13 @@ number of comments on the video
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`comments_count`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#comments_count)
 
-#### Defined in
-
-main.ts:66107
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:74358
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -80,15 +80,13 @@ example:
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:66095
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:74369
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -99,15 +97,13 @@ youtube_comment
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:66103
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)[]
+
+Defined in: main.ts:74377
 
 elements of search results found in SERP
 
@@ -115,15 +111,13 @@ elements of search results found in SERP
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`items`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#items)
 
-#### Defined in
-
-main.ts:66111
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:74375
 
 the number of results returned in the items array
 
@@ -131,15 +125,13 @@ the number of results returned in the items array
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:66109
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:74350
 
 language code in a POST array
 
@@ -147,15 +139,13 @@ language code in a POST array
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:66087
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:74348
 
 location code in a POST array
 
@@ -163,9 +153,20 @@ location code in a POST array
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#location_code)
 
-#### Defined in
+***
 
-main.ts:66085
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:74364
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#refinement_chips)
 
 ***
 
@@ -173,21 +174,21 @@ main.ts:66085
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:74346
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:66083
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:74361
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -196,15 +197,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`spell`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:66098
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:74371
 
 title of the video
 
@@ -212,15 +211,13 @@ title of the video
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`title`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#title)
 
-#### Defined in
-
-main.ts:66105
-
 ***
 
 ### video\_id?
 
 > `optional` **video\_id**: `string`
+
+Defined in: main.ts:74344
 
 ID of the video received in a POST array
 
@@ -228,27 +225,23 @@ ID of the video received in a POST array
 
 [`ISerpYoutubeVideoCommentsLiveAdvancedResultInfo`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoCommentsLiveAdvancedResultInfo.md#video_id)
 
-#### Defined in
-
-main.ts:66081
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:74390
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:66124
 
 ***
 
@@ -256,17 +249,17 @@ main.ts:66124
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:74427
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:66160
 
 ***
 
@@ -274,14 +267,14 @@ main.ts:66160
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsLiveAdvancedResultInfo`](SerpYoutubeVideoCommentsLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:74420
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYoutubeVideoCommentsLiveAdvancedResultInfo`](SerpYoutubeVideoCommentsLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:66153

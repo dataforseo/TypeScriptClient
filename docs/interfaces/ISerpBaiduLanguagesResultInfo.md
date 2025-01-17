@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBaiduLanguagesResultInfo
+[Documentation](../README.md) / ISerpBaiduLanguagesResultInfo
 
 # Interface: ISerpBaiduLanguagesResultInfo
 
+Defined in: main.ts:78777
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:78781
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:69336
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:69336
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:78779
+
 language name
-
-#### Defined in
-
-main.ts:69334

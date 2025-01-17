@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveItem
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveItem
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveItem
 
+Defined in: main.ts:212224
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **aggregation**: [`BusinessListingAggregationInfo`](../classes/BusinessListingAggregationInfo.md)
 
+Defined in: main.ts:212231
+
 aggregation of the category
-
-#### Defined in
-
-main.ts:199780
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:199780
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:212229
+
 business categories
 Google My Business general category that best describes the cluster of related categories
-
-#### Defined in
-
-main.ts:199778
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:199778
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:212226
+
 type of element
-
-#### Defined in
-
-main.ts:199775

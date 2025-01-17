@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
+Defined in: main.ts:123290
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### app\_ids?
 
 > `optional` **app\_ids**: `string`[]
+
+Defined in: main.ts:123299
 
 ids of the apps
 required field
@@ -25,15 +29,13 @@ in the URL https://apps.apple.com/us/app/id835599320
 the id is 835599320;
 the maximum number of IDs you can specify in this field is 1000
 
-#### Defined in
-
-main.ts:113866
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:123335
 
 language code
 required field if you don’t specify language_name
@@ -44,15 +46,13 @@ Note: this endpoint currently supports the English language only
 example:
 en
 
-#### Defined in
-
-main.ts:113902
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:123326
 
 full name of the language
 required field if you don’t specify language_code
@@ -63,15 +63,13 @@ Note: this endpoint currently supports the English language only;
 example:
 English
 
-#### Defined in
-
-main.ts:113893
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:123317
 
 location code
 required field if you don’t specify location_name
@@ -82,15 +80,13 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
-
-main.ts:113884
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:123308
 
 full name of the location
 required field if you don’t specify location_code
@@ -101,22 +97,16 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
-
-main.ts:113875
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:123341
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:113908

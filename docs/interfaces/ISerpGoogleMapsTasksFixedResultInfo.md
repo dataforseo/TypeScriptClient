@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleMapsTasksFixedResultInfo
+[Documentation](../README.md) / ISerpGoogleMapsTasksFixedResultInfo
 
 # Interface: ISerpGoogleMapsTasksFixedResultInfo
 
+Defined in: main.ts:41277
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:41287
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:39445
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:39445
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:41295
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:39453
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:39453
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:41298
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:39456
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:39456
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:41292
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:39450
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:39450
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:41280
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:39438
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:39438
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:41282
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:39440
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:39440
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:41285
+
 type of search engine
 can take the following values: maps
-
-#### Defined in
-
-main.ts:39443
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:39443
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:41289
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:39447

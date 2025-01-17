@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
+Defined in: main.ts:59886
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **dataset\_id**: `string`
 
+Defined in: main.ts:59892
+
 ID of the dataset
 required field
 you can find dataset ID in the dataset URL or dataset item of Google Dataset Search result
 example:
 L2cvMTFqbl85ZHN6MQ==
-
-#### Defined in
-
-main.ts:56382
 
 ***
 
@@ -32,13 +32,11 @@ main.ts:56382
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:59908
+
 device type
 optional field
 possible value: desktop
-
-#### Defined in
-
-main.ts:56398
 
 ***
 
@@ -46,15 +44,13 @@ main.ts:56398
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:59904
+
 search engine language code
 optional field
 if you use this field, you don’t need to specify language_name
 possible value:
 en
-
-#### Defined in
-
-main.ts:56394
 
 ***
 
@@ -62,15 +58,13 @@ main.ts:56394
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:59898
+
 full name of search engine language
 optional field
 if you use this field, you don’t need to specify language_code
 possible value:
 English
-
-#### Defined in
-
-main.ts:56388
 
 ***
 
@@ -78,14 +72,12 @@ main.ts:56388
 
 > `optional` **os**: `string`
 
+Defined in: main.ts:59913
+
 device operating system
 optional field
 possible values: windows, macos
 default value: windows
-
-#### Defined in
-
-main.ts:56403
 
 ***
 
@@ -93,12 +85,10 @@ main.ts:56403
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:59919
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:56409

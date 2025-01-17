@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonLanguagesResultInfo
+[Documentation](../README.md) / IMerchantAmazonLanguagesResultInfo
 
 # Interface: IMerchantAmazonLanguagesResultInfo
 
+Defined in: main.ts:191609
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:191613
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:179771
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:179771
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:191611
+
 language name
-
-#### Defined in
-
-main.ts:179769

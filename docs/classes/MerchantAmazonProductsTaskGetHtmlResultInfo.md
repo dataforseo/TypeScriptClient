@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonProductsTaskGetHtmlResultInfo
+[Documentation](../README.md) / MerchantAmazonProductsTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonProductsTaskGetHtmlResultInfo
+
+Defined in: main.ts:193238
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new MerchantAmazonProductsTaskGetHtmlResultInfo**(`data`?): [`MerchantAmazonProductsTaskGetHtmlResultInfo`](MerchantAmazonProductsTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:193262
+
 #### Parameters
 
-• **data?**: [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonProductsTaskGetHtmlResultInfo`](MerchantAmazonProductsTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:181073
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:193254
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:181065
-
 ***
 
 ### items?
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+
+Defined in: main.ts:193258
 
 HTML pages and related data
 
@@ -63,15 +65,13 @@ HTML pages and related data
 
 [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md).[`items`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
-
-main.ts:181069
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:193256
 
 the number of results returned in the items array
 
@@ -79,26 +79,20 @@ the number of results returned in the items array
 
 [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:181067
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:193241
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:181052
 
 ***
 
@@ -106,15 +100,13 @@ main.ts:181052
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:193249
+
 language code in a POST array
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:181060
 
 ***
 
@@ -122,15 +114,13 @@ main.ts:181060
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:193247
+
 location code in a POST array
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:181058
 
 ***
 
@@ -138,15 +128,13 @@ main.ts:181058
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:193245
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:181056
 
 ***
 
@@ -154,15 +142,13 @@ main.ts:181056
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:193243
+
 type of element
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md).[`type`](../interfaces/IMerchantAmazonProductsTaskGetHtmlResultInfo.md#type)
-
-#### Defined in
-
-main.ts:181054
 
 ## Methods
 
@@ -170,17 +156,17 @@ main.ts:181054
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:193271
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:181082
 
 ***
 
@@ -188,17 +174,17 @@ main.ts:181082
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:193299
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:181110
 
 ***
 
@@ -206,14 +192,14 @@ main.ts:181110
 
 > `static` **fromJS**(`data`): [`MerchantAmazonProductsTaskGetHtmlResultInfo`](MerchantAmazonProductsTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:193292
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantAmazonProductsTaskGetHtmlResultInfo`](MerchantAmazonProductsTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:181103

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ShoppingDataforseoLabsSerpElementItem
+[Documentation](../README.md) / ShoppingDataforseoLabsSerpElementItem
 
 # Class: ShoppingDataforseoLabsSerpElementItem
+
+Defined in: main.ts:108313
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new ShoppingDataforseoLabsSerpElementItem**(`data`?): [`ShoppingDataforseoLabsSerpElementItem`](ShoppingDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:108321
+
 #### Parameters
 
-• **data?**: [`IShoppingDataforseoLabsSerpElementItem`](../interfaces/IShoppingDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IShoppingDataforseoLabsSerpElementItem`](../interfaces/IShoppingDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:98484
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21425
+
 #### Inherited from
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:20742
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:20742
 
 > `optional` **items**: [`ShoppingElement`](ShoppingElement.md)[]
 
+Defined in: main.ts:108317
+
 elements of search results found in SERP
 
 #### Implementation of
 
 [`IShoppingDataforseoLabsSerpElementItem`](../interfaces/IShoppingDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IShoppingDataforseoLabsSerpElementItem.md#items)
 
-#### Defined in
-
-main.ts:98480
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21421
 
 the alignment of the element in SERP
 can take the following values:
@@ -88,15 +88,13 @@ left, right
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20738
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21417
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,15 +107,13 @@ absolute position among all the elements in SERP
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20734
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21414
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -130,15 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20731
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:108315
 
 title of the result in SERP
 
@@ -146,15 +140,13 @@ title of the result in SERP
 
 [`IShoppingDataforseoLabsSerpElementItem`](../interfaces/IShoppingDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IShoppingDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:98478
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21411
 
 type of element
 
@@ -166,15 +158,13 @@ type of element
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20728
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21423
 
 the XPath of the element
 
@@ -186,19 +176,19 @@ the XPath of the element
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20740
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:108326
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -208,19 +198,19 @@ main.ts:20740
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:98489
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:108349
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -230,19 +220,19 @@ main.ts:98489
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:98512
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`ShoppingDataforseoLabsSerpElementItem`](ShoppingDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:108342
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -251,7 +241,3 @@ main.ts:98512
 #### Overrides
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:98505

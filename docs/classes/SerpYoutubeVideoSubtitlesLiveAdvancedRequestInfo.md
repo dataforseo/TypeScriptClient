@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+
+Defined in: main.ts:72550
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo**(`data`?): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:72610
+
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:64367
 
 ## Properties
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:72595
 
 device type
 optional field
@@ -46,15 +50,13 @@ only value: desktop
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:64352
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:72591
 
 search engine language code
 required field if you don’t specify language_name
@@ -67,15 +69,13 @@ en
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:64348
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:72584
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -88,15 +88,13 @@ English
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:64341
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:72577
 
 search engine location code
 required field if you don’t specify location_name 
@@ -109,15 +107,13 @@ example:
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:64334
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:72570
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -130,15 +126,13 @@ United States
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:64327
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:72600
 
 device operating system
 optional field
@@ -149,15 +143,13 @@ default value: windows
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:64357
-
 ***
 
 ### subtitles\_language?
 
 > `optional` **subtitles\_language**: `string`
+
+Defined in: main.ts:72559
 
 language code of original text
 you can get the language code from YouTube Video Info result
@@ -166,15 +158,13 @@ you can get the language code from YouTube Video Info result
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`subtitles_language`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#subtitles_language)
 
-#### Defined in
-
-main.ts:64316
-
 ***
 
 ### subtitles\_translate\_language?
 
 > `optional` **subtitles\_translate\_language**: `string`
+
+Defined in: main.ts:72563
 
 language code of translated text
 possible values:
@@ -184,15 +174,13 @@ possible values:
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`subtitles_translate_language`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#subtitles_translate_language)
 
-#### Defined in
-
-main.ts:64320
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:72606
 
 user-defined task identifier
 optional field
@@ -204,15 +192,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:64363
-
 ***
 
 ### video\_id?
 
 > `optional` **video\_id**: `string`
+
+Defined in: main.ts:72556
 
 ID of the video
 required field
@@ -224,27 +210,23 @@ Y8Wu4rSNJms
 
 [`ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md#video_id)
 
-#### Defined in
-
-main.ts:64313
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:72619
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:64376
 
 ***
 
@@ -252,17 +234,17 @@ main.ts:64376
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:72645
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:64402
 
 ***
 
@@ -270,14 +252,14 @@ main.ts:64402
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:72638
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo`](SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:64395

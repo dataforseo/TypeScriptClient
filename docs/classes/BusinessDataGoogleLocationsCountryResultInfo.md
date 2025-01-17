@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / BusinessDataGoogleLocationsCountryResultInfo
 
 # Class: BusinessDataGoogleLocationsCountryResultInfo
+
+Defined in: main.ts:212630
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataGoogleLocationsCountryResultInfo**(`data`?): [`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)
 
+Defined in: main.ts:212648
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleLocationsCountryResultInfo`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleLocationsCountryResultInfo`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:200197
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:200197
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:212642
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IBusinessDataGoogleLocationsCountryResultInfo`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:200191
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:200191
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:212632
+
 location code
 
 #### Implementation of
 
 [`IBusinessDataGoogleLocationsCountryResultInfo`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:200181
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:200181
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:212634
+
 full name of the location
 
 #### Implementation of
 
 [`IBusinessDataGoogleLocationsCountryResultInfo`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:200183
-
 ***
 
 ### location\_name\_parent?
 
 > `optional` **location\_name\_parent**: `string`
+
+Defined in: main.ts:212640
 
 the name of the superordinate location
 example:
@@ -96,15 +94,13 @@ example:
 
 [`IBusinessDataGoogleLocationsCountryResultInfo`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md).[`location_name_parent`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md#location_name_parent)
 
-#### Defined in
-
-main.ts:200189
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:212644
 
 location type
 
@@ -112,27 +108,23 @@ location type
 
 [`IBusinessDataGoogleLocationsCountryResultInfo`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md).[`location_type`](../interfaces/IBusinessDataGoogleLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:200193
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:212657
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:200206
 
 ***
 
@@ -140,17 +132,17 @@ main.ts:200206
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:212678
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:200227
 
 ***
 
@@ -158,14 +150,14 @@ main.ts:200227
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)
 
+Defined in: main.ts:212671
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleLocationsCountryResultInfo`](BusinessDataGoogleLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:200220

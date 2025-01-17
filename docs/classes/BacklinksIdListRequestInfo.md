@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksIdListRequestInfo
+[Documentation](../README.md) / BacklinksIdListRequestInfo
 
 # Class: BacklinksIdListRequestInfo
+
+Defined in: main.ts:148756
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksIdListRequestInfo**(`data`?): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
+Defined in: main.ts:148794
+
 #### Parameters
 
-• **data?**: [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md)
+##### data?
+
+[`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md)
 
 #### Returns
 
 [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
-
-#### Defined in
-
-main.ts:137488
 
 ## Properties
 
 ### datetime\_from?
 
 > `optional` **datetime\_from**: `string`
+
+Defined in: main.ts:148764
 
 start time for filtering results
 required field
@@ -50,15 +54,13 @@ example:
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`datetime_from`](../interfaces/IBacklinksIdListRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:137458
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
+
+Defined in: main.ts:148771
 
 finish time for filtering results
 required field
@@ -71,15 +73,13 @@ example:
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`datetime_to`](../interfaces/IBacklinksIdListRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:137465
-
 ***
 
 ### include\_metadata?
 
 > `optional` **include\_metadata**: `boolean`
+
+Defined in: main.ts:148790
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,13 @@ default value: false
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`include_metadata`](../interfaces/IBacklinksIdListRequestInfo.md#include_metadata)
 
-#### Defined in
-
-main.ts:137484
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:148776
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +106,13 @@ maximum value: 1000
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`limit`](../interfaces/IBacklinksIdListRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:137470
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:148781
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +123,13 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`offset`](../interfaces/IBacklinksIdListRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:137475
-
 ***
 
 ### sort?
 
 > `optional` **sort**: `string`
+
+Defined in: main.ts:148786
 
 sorting by task execution time
 optional field
@@ -146,27 +140,23 @@ default value: "asc"
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`sort`](../interfaces/IBacklinksIdListRequestInfo.md#sort)
 
-#### Defined in
-
-main.ts:137480
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:148803
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:137497
 
 ***
 
@@ -174,17 +164,17 @@ main.ts:137497
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:148825
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:137519
 
 ***
 
@@ -192,14 +182,14 @@ main.ts:137519
 
 > `static` **fromJS**(`data`): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
+Defined in: main.ts:148818
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
-
-#### Defined in
-
-main.ts:137512

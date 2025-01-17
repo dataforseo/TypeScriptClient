@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Graph
+[Documentation](../README.md) / Graph
 
 # Class: Graph
+
+Defined in: main.ts:35019
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new Graph**(`data`?): [`Graph`](Graph.md)
 
+Defined in: main.ts:35028
+
 #### Parameters
 
-• **data?**: [`IGraph`](../interfaces/IGraph.md)
+##### data?
+
+[`IGraph`](../interfaces/IGraph.md)
 
 #### Returns
 
 [`Graph`](Graph.md)
-
-#### Defined in
-
-main.ts:33236
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:33236
 
 > `optional` **items**: [`GraphElement`](GraphElement.md)[]
 
-contains arrays of specific images
+Defined in: main.ts:35021
+
+contains arrays of elements available in the list
 
 #### Implementation of
 
 [`IGraph`](../interfaces/IGraph.md).[`items`](../interfaces/IGraph.md#items)
-
-#### Defined in
-
-main.ts:33229
 
 ***
 
 ### previous\_items?
 
 > `optional` **previous\_items**: [`GraphElement`](GraphElement.md)[]
+
+Defined in: main.ts:35024
 
 previous close data
 contains stock price data based on the preceding time period
@@ -61,27 +63,23 @@ contains stock price data based on the preceding time period
 
 [`IGraph`](../interfaces/IGraph.md).[`previous_items`](../interfaces/IGraph.md#previous_items)
 
-#### Defined in
-
-main.ts:33232
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:35037
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:33245
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:33245
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:35063
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:33271
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:33271
 
 > `static` **fromJS**(`data`): [`Graph`](Graph.md)
 
+Defined in: main.ts:35056
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Graph`](Graph.md)
-
-#### Defined in
-
-main.ts:33264

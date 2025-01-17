@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppRankedSerpElementInfo
+[Documentation](../README.md) / IAppRankedSerpElementInfo
 
 # Interface: IAppRankedSerpElementInfo
 
+Defined in: main.ts:121696
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:121704
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:112271
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:112271
 
 > `optional` **last\_updated\_time**: `string`
 
+Defined in: main.ts:121711
+
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:112278
 
 ***
 
@@ -44,15 +42,13 @@ main.ts:112278
 
 > `optional` **previous\_updated\_time**: `string`
 
+Defined in: main.ts:121717
+
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-10-15 12:57:46 +00:00;
 in this case, will equal null
-
-#### Defined in
-
-main.ts:112284
 
 ***
 
@@ -60,11 +56,9 @@ main.ts:112284
 
 > `optional` **se\_results\_count**: `string`
 
+Defined in: main.ts:121706
+
 number of search results for the returned keyword
-
-#### Defined in
-
-main.ts:112273
 
 ***
 
@@ -72,11 +66,9 @@ main.ts:112273
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:121698
+
 search engine type
-
-#### Defined in
-
-main.ts:112265
 
 ***
 
@@ -84,9 +76,7 @@ main.ts:112265
 
 > `optional` **serp\_item**: [`AppDataGooglePlaySearchOrganicSerpElementItem`](../classes/AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
+Defined in: main.ts:121701
+
 contains data on the SERP element
 the list of supported SERP elements can be found below
-
-#### Defined in
-
-main.ts:112268

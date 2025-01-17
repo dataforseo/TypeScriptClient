@@ -34,7 +34,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73144
+=======
+main.ts:73177
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -56,7 +60,11 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73095
+=======
+main.ts:73128
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -78,7 +86,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73103
+=======
+main.ts:73136
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -98,7 +110,11 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73109
+=======
+main.ts:73142
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -124,7 +140,11 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73045
+=======
+main.ts:73078
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -144,7 +164,11 @@ en
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73082
+=======
+main.ts:73115
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -164,7 +188,11 @@ English
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73076
+=======
+main.ts:73109
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -186,7 +214,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73061
+=======
+main.ts:73094
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -209,7 +241,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73070
+=======
+main.ts:73103
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -231,7 +267,11 @@ London,England,United Kingdom
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73053
+=======
+main.ts:73086
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -255,7 +295,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73134
+=======
+main.ts:73167
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -279,7 +323,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73124
+=======
+main.ts:73157
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -298,7 +346,11 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73087
+=======
+main.ts:73120
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -317,7 +369,11 @@ default value: relevance
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73114
+=======
+main.ts:73147
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -337,7 +393,11 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73140
+=======
+main.ts:73173
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -355,7 +415,11 @@ main.ts:73140
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73153
+=======
+main.ts:73186
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -373,7 +437,11 @@ main.ts:73153
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73187
+=======
+main.ts:73220
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -391,4 +459,8 @@ main.ts:73187
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:73180
+=======
+main.ts:73213
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

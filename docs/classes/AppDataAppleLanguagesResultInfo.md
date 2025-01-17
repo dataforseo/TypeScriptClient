@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleLanguagesResultInfo
+[Documentation](../README.md) / AppDataAppleLanguagesResultInfo
 
 # Class: AppDataAppleLanguagesResultInfo
+
+Defined in: main.ts:205102
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataAppleLanguagesResultInfo**(`data`?): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
+Defined in: main.ts:205110
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md)
+##### data?
+
+[`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:192673
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:192673
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:205106
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md).[`language_code`](../interfaces/IAppDataAppleLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:192669
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:192669
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:205104
+
 language name
 
 #### Implementation of
 
 [`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md).[`language_name`](../interfaces/IAppDataAppleLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:192667
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:192667
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:205119
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:192682
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:192682
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:205137
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:192700
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:192700
 
 > `static` **fromJS**(`data`): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
+Defined in: main.ts:205130
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:192693

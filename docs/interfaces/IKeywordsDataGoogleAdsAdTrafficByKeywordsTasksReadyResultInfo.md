@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
+Defined in: main.ts:131596
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:131605
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:121263
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:121263
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:131609
+
 URL for collecting the results of the task
-
-#### Defined in
-
-main.ts:121267
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:121267
 
 > `optional` **function**: `string`
 
+Defined in: main.ts:131603
+
 type of the task
-
-#### Defined in
-
-main.ts:121261
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:121261
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:131599
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:121257
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:121257
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:131601
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:121259
 
 ***
 
@@ -77,8 +69,6 @@ main.ts:121259
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:131607
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:121265

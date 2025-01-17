@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRowCellInfo
+[Documentation](../README.md) / IRowCellInfo
 
 # Interface: IRowCellInfo
 
+Defined in: main.ts:173199
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **is\_header**: `boolean`
 
+Defined in: main.ts:173205
+
 indicates if the text belongs to the header
-
-#### Defined in
-
-main.ts:161491
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:161491
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:173201
+
 content text
-
-#### Defined in
-
-main.ts:161487
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:161487
 
 > `optional` **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
 
+Defined in: main.ts:173203
+
 contains other URLs and anchors found in the content element
-
-#### Defined in
-
-main.ts:161489

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordKpi
+[Documentation](../README.md) / KeywordKpi
 
 # Class: KeywordKpi
+
+Defined in: main.ts:145110
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordKpi**(`data`?): [`KeywordKpi`](KeywordKpi.md)
 
+Defined in: main.ts:145123
+
 #### Parameters
 
-• **data?**: [`IKeywordKpi`](../interfaces/IKeywordKpi.md)
+##### data?
+
+[`IKeywordKpi`](../interfaces/IKeywordKpi.md)
 
 #### Returns
 
 [`KeywordKpi`](KeywordKpi.md)
-
-#### Defined in
-
-main.ts:133173
 
 ## Properties
 
 ### desktop?
 
 > `optional` **desktop**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+
+Defined in: main.ts:145113
 
 keyword data aggregated for desktop devices
 if there is no data, then the value is null
@@ -45,15 +49,13 @@ if there is no data, then the value is null
 
 [`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`desktop`](../interfaces/IKeywordKpi.md#desktop)
 
-#### Defined in
-
-main.ts:133163
-
 ***
 
 ### mobile?
 
 > `optional` **mobile**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+
+Defined in: main.ts:145116
 
 keyword data aggregated for mobile devices
 if there is no data, then the value is null
@@ -62,15 +64,13 @@ if there is no data, then the value is null
 
 [`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`mobile`](../interfaces/IKeywordKpi.md#mobile)
 
-#### Defined in
-
-main.ts:133166
-
 ***
 
 ### tablet?
 
 > `optional` **tablet**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+
+Defined in: main.ts:145119
 
 keyword data aggregated for tablet devices
 if there is no data, then the value is null
@@ -79,27 +79,23 @@ if there is no data, then the value is null
 
 [`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`tablet`](../interfaces/IKeywordKpi.md#tablet)
 
-#### Defined in
-
-main.ts:133169
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:145132
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:133182
 
 ***
 
@@ -107,17 +103,17 @@ main.ts:133182
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:145163
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:133213
 
 ***
 
@@ -125,14 +121,14 @@ main.ts:133213
 
 > `static` **fromJS**(`data`): [`KeywordKpi`](KeywordKpi.md)
 
+Defined in: main.ts:145156
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordKpi`](KeywordKpi.md)
-
-#### Defined in
-
-main.ts:133206

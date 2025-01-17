@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleLanguagesResultInfo
+[Documentation](../README.md) / BusinessDataGoogleLanguagesResultInfo
 
 # Class: BusinessDataGoogleLanguagesResultInfo
+
+Defined in: main.ts:212822
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataGoogleLanguagesResultInfo**(`data`?): [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
 
+Defined in: main.ts:212830
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleLanguagesResultInfo`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleLanguagesResultInfo`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:200379
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:200379
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:212826
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IBusinessDataGoogleLanguagesResultInfo`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:200375
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:200375
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:212824
+
 language name
 
 #### Implementation of
 
 [`IBusinessDataGoogleLanguagesResultInfo`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:200373
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:200373
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:212839
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:200388
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:200388
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:212857
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:200406
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:200406
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
 
+Defined in: main.ts:212850
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:200399

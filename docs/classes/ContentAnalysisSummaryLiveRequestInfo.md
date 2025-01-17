@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSummaryLiveRequestInfo
+[Documentation](../README.md) / ContentAnalysisSummaryLiveRequestInfo
 
 # Class: ContentAnalysisSummaryLiveRequestInfo
+
+Defined in: main.ts:178392
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentAnalysisSummaryLiveRequestInfo**(`data`?): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
 
+Defined in: main.ts:178472
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md)
+##### data?
+
+[`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:166782
 
 ## Properties
 
 ### initial\_dataset\_filters?
 
 > `optional` **initial\_dataset\_filters**: `any`[]
+
+Defined in: main.ts:178462
 
 initial dataset filtering parameters
 optional field
@@ -59,15 +63,13 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#initial_dataset_filters)
 
-#### Defined in
-
-main.ts:166772
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:178430
 
 maximum number of elements within internal arrays
 optional field
@@ -84,38 +86,34 @@ maximum value: 20
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
-
-main.ts:166740
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:178401
+
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:166711
 
 ***
 
 ### keyword\_fields?
 
 > `optional` **keyword\_fields**: `object`
+
+Defined in: main.ts:178413
 
 target keyword fields and target keywords
 optional field
@@ -131,21 +129,19 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#keyword_fields)
-
-#### Defined in
-
-main.ts:166723
 
 ***
 
 ### page\_type?
 
 > `optional` **page\_type**: `string`[]
+
+Defined in: main.ts:178419
 
 target page types
 optional field
@@ -157,15 +153,13 @@ possible values:
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#page_type)
 
-#### Defined in
-
-main.ts:166729
-
 ***
 
 ### positive\_connotation\_threshold?
 
 > `optional` **positive\_connotation\_threshold**: `number`
+
+Defined in: main.ts:178437
 
 positive connotation threshold
 optional field
@@ -178,15 +172,13 @@ default value: 0.4
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`positive_connotation_threshold`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#positive_connotation_threshold)
 
-#### Defined in
-
-main.ts:166747
-
 ***
 
 ### sentiments\_connotation\_threshold?
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
+
+Defined in: main.ts:178445
 
 sentiment connotation threshold
 optional field
@@ -200,15 +192,13 @@ default value: 0.4
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`sentiments_connotation_threshold`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#sentiments_connotation_threshold)
 
-#### Defined in
-
-main.ts:166755
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:178468
 
 user-defined task identifier
 optional field
@@ -220,27 +210,23 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:166778
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:178481
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:166791
 
 ***
 
@@ -248,17 +234,17 @@ main.ts:166791
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:178519
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:166829
 
 ***
 
@@ -266,14 +252,14 @@ main.ts:166829
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
 
+Defined in: main.ts:178512
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:166822

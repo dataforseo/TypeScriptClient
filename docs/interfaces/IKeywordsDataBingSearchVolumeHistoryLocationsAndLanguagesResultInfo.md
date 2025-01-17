@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
+Defined in: main.ts:145863
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **available\_locations**: [`AvailableLocations`](../classes/AvailableLocations.md)[]
 
+Defined in: main.ts:145869
+
 array of available locations for a certain language
-
-#### Defined in
-
-main.ts:133917
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:133917
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:145867
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:133915
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:133915
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:145865
+
 language name
-
-#### Defined in
-
-main.ts:133913

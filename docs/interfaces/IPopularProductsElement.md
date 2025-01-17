@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPopularProductsElement
+[Documentation](../README.md) / IPopularProductsElement
 
 # Interface: IPopularProductsElement
 
+Defined in: main.ts:34712
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:34718
+
 description
-
-#### Defined in
-
-main.ts:32923
 
 ***
 
@@ -28,11 +28,10 @@ main.ts:32923
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:34723
+
 URL of the image
-
-#### Defined in
-
-main.ts:32927
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 ***
 
@@ -40,11 +39,9 @@ main.ts:32927
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:34725
+
 price indicated in the element
-
-#### Defined in
-
-main.ts:32929
 
 ***
 
@@ -52,12 +49,10 @@ main.ts:32929
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:34728
+
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:32932
 
 ***
 
@@ -65,11 +60,9 @@ main.ts:32932
 
 > `optional` **seller**: `string`
 
+Defined in: main.ts:34720
+
 seller of the product
-
-#### Defined in
-
-main.ts:32925
 
 ***
 
@@ -77,11 +70,9 @@ main.ts:32925
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:34716
+
 title of a given link element
-
-#### Defined in
-
-main.ts:32921
 
 ***
 
@@ -89,8 +80,6 @@ main.ts:32921
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:34714
+
 type of element
-
-#### Defined in
-
-main.ts:32919

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
 # Interface: IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
+Defined in: main.ts:203703
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:203705
+
 application id received in a POST array
-
-#### Defined in
-
-main.ts:191268
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:191268
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:203716
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:191279
 
 ***
 
@@ -41,14 +39,12 @@ main.ts:191279
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:203721
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:191284
 
 ***
 
@@ -56,12 +52,10 @@ main.ts:191284
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
+Defined in: main.ts:203735
+
 found reviews
 you can get more results by using the depth parameter when setting a task
-
-#### Defined in
-
-main.ts:191298
 
 ***
 
@@ -69,12 +63,10 @@ main.ts:191298
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:203732
+
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
-
-#### Defined in
-
-main.ts:191295
 
 ***
 
@@ -82,11 +74,9 @@ main.ts:191295
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:203713
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:191276
 
 ***
 
@@ -94,11 +84,9 @@ main.ts:191276
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:203711
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:191274
 
 ***
 
@@ -106,12 +94,10 @@ main.ts:191274
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:203727
+
 rating of the app
 rating of the application for which the reviews are collected
-
-#### Defined in
-
-main.ts:191290
 
 ***
 
@@ -119,11 +105,9 @@ main.ts:191290
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:203729
+
 the total number of reviews
-
-#### Defined in
-
-main.ts:191292
 
 ***
 
@@ -131,11 +115,9 @@ main.ts:191292
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:203709
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:191272
 
 ***
 
@@ -143,12 +125,10 @@ main.ts:191272
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:203724
+
 title of the app
 title of the application for which the reviews are collected
-
-#### Defined in
-
-main.ts:191287
 
 ***
 
@@ -156,8 +136,6 @@ main.ts:191287
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:203707
+
 type of element
-
-#### Defined in
-
-main.ts:191270

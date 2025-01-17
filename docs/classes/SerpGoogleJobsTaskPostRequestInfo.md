@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleJobsTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleJobsTaskPostRequestInfo
 
 # Class: SerpGoogleJobsTaskPostRequestInfo
+
+Defined in: main.ts:53662
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleJobsTaskPostRequestInfo**(`data`?): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
 
+Defined in: main.ts:53777
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:50050
 
 ## Properties
 
 ### date\_posted?
 
 > `optional` **date\_posted**: `string`
+
+Defined in: main.ts:53739
 
 job posting date
 optional field
@@ -51,15 +55,13 @@ month — return job vacancies posted no longer than a month ago
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`date_posted`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#date_posted)
 
-#### Defined in
-
-main.ts:50014
-
 ***
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:53724
 
 parsing depth
 optional field
@@ -74,15 +76,13 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:49999
-
 ***
 
 ### employment\_type?
 
 > `optional` **employment\_type**: `string`[]
+
+Defined in: main.ts:53730
 
 employment contract type
 optional field
@@ -94,38 +94,35 @@ fulltime, partime, contractor, intern
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`employment_type`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#employment_type)
 
-#### Defined in
-
-main.ts:50005
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:53672
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
 Note: the keyword you specify must indicate the job title;
 example: .net developer
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:49947
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:53715
 
 search engine language code
 required field if you don’t specify language_name
@@ -138,15 +135,13 @@ en
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:49990
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:53708
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -159,15 +154,13 @@ English
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:49983
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:53693
 
 search engine location code
 required field if you don’t specify location_name;
@@ -179,15 +172,13 @@ example:
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:49968
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:53687
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -200,15 +191,13 @@ London,England,United Kingdom
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:49962
-
 ***
 
 ### location\_radius?
 
 > `optional` **location\_radius**: `number`
+
+Defined in: main.ts:53701
 
 location search radius
 optional field
@@ -222,15 +211,13 @@ minimal value: > 0
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`location_radius`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#location_radius)
 
-#### Defined in
-
-main.ts:49976
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:53773
 
 notification URL of a completed task
 optional field
@@ -239,22 +226,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:50046
 
 ***
 
 ### postback\_data?
 
 > `optional` **postback\_data**: `string`
+
+Defined in: main.ts:53762
 
 postback_url datatype
 required field if you specify postback_url
@@ -266,15 +252,13 @@ regular, advanced, html
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
-
-main.ts:50036
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:53756
 
 return URL for sending task results
 optional field
@@ -283,22 +267,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:50030
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:53680
 
 task priority
 optional field
@@ -312,15 +295,13 @@ The cost can be calculated on the Pricing page
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:49955
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:53745
 
 user-defined task identifier
 optional field
@@ -332,27 +313,23 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleJobsTaskPostRequestInfo`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleJobsTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:50020
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:53786
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:50059
 
 ***
 
@@ -360,17 +337,17 @@ main.ts:50059
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:53820
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:50093
 
 ***
 
@@ -378,14 +355,14 @@ main.ts:50093
 
 > `static` **fromJS**(`data`): [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
 
+Defined in: main.ts:53813
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleJobsTaskPostRequestInfo`](SerpGoogleJobsTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:50086

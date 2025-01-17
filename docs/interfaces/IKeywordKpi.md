@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordKpi
+[Documentation](../README.md) / IKeywordKpi
 
 # Interface: IKeywordKpi
 
+Defined in: main.ts:145188
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **desktop**: [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)[]
 
+Defined in: main.ts:145191
+
 keyword data aggregated for desktop devices
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:133241
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:133241
 
 > `optional` **mobile**: [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)[]
 
+Defined in: main.ts:145194
+
 keyword data aggregated for mobile devices
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:133244
 
 ***
 
@@ -42,9 +40,7 @@ main.ts:133244
 
 > `optional` **tablet**: [`KeywordKpiInfo`](../classes/KeywordKpiInfo.md)[]
 
+Defined in: main.ts:145197
+
 keyword data aggregated for tablet devices
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:133247

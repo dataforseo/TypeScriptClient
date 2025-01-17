@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataTasksReadyResultInfo
+[Documentation](../README.md) / AppDataTasksReadyResultInfo
 
 # Class: AppDataTasksReadyResultInfo
+
+Defined in: main.ts:199824
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataTasksReadyResultInfo**(`data`?): [`AppDataTasksReadyResultInfo`](AppDataTasksReadyResultInfo.md)
 
+Defined in: main.ts:199844
+
 #### Parameters
 
-• **data?**: [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md)
 
 #### Returns
 
 [`AppDataTasksReadyResultInfo`](AppDataTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:187407
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:187407
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:199833
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md).[`date_posted`](../interfaces/IAppDataTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:187396
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:187396
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:199837
+
 URL for collecting the results of the Apple App Reviews task
 
 #### Implementation of
 
 [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IAppDataTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
-
-main.ts:187400
-
 ***
 
 ### endpoint\_html?
 
 > `optional` **endpoint\_html**: `string`
+
+Defined in: main.ts:199840
 
 URL for collecting the results of the Apple App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -77,15 +77,13 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IAppDataTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
-
-main.ts:187403
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:199827
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -94,15 +92,13 @@ unique task identifier in our system in the UUID format
 
 [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md).[`id`](../interfaces/IAppDataTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:187390
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:199829
 
 search engine specified when setting the task
 
@@ -110,15 +106,13 @@ search engine specified when setting the task
 
 [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md).[`se`](../interfaces/IAppDataTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:187392
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:199831
 
 search engine type
 
@@ -126,15 +120,13 @@ search engine type
 
 [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md).[`se_type`](../interfaces/IAppDataTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:187394
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:199835
 
 user-defined task identifier
 
@@ -142,27 +134,23 @@ user-defined task identifier
 
 [`IAppDataTasksReadyResultInfo`](../interfaces/IAppDataTasksReadyResultInfo.md).[`tag`](../interfaces/IAppDataTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:187398
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:199853
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:187416
 
 ***
 
@@ -170,17 +158,17 @@ main.ts:187416
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:199876
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:187439
 
 ***
 
@@ -188,14 +176,14 @@ main.ts:187439
 
 > `static` **fromJS**(`data`): [`AppDataTasksReadyResultInfo`](AppDataTasksReadyResultInfo.md)
 
+Defined in: main.ts:199869
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataTasksReadyResultInfo`](AppDataTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:187432

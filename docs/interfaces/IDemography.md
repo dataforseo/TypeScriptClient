@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDemography
+[Documentation](../README.md) / IDemography
 
 # Interface: IDemography
 
+Defined in: main.ts:137399
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **age**: [`DataforseoTrendsDataInfo`](../classes/DataforseoTrendsDataInfo.md)[]
 
+Defined in: main.ts:137401
+
 distribution of keyword popularity by age
-
-#### Defined in
-
-main.ts:127043
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:127043
 
 > `optional` **gender**: [`DataforseoTrendsDataInfo`](../classes/DataforseoTrendsDataInfo.md)[]
 
+Defined in: main.ts:137403
+
 distribution of keyword popularity by gender
-
-#### Defined in
-
-main.ts:127045

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListingsCategoriesResultInfo
+[Documentation](../README.md) / AppDataAppleAppListingsCategoriesResultInfo
 
 # Class: AppDataAppleAppListingsCategoriesResultInfo
+
+Defined in: main.ts:208708
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataAppleAppListingsCategoriesResultInfo**(`data`?): [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
 
+Defined in: main.ts:208716
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListingsCategoriesResultInfo`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppListingsCategoriesResultInfo`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:196265
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:196265
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:208710
+
 name of the supported app category
 
 #### Implementation of
 
 [`IAppDataAppleAppListingsCategoriesResultInfo`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md).[`category`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md#category)
-
-#### Defined in
-
-main.ts:196259
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:196259
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:208712
+
 number of app listings that make up the supported app category
 
 #### Implementation of
 
 [`IAppDataAppleAppListingsCategoriesResultInfo`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md).[`count`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md#count)
-
-#### Defined in
-
-main.ts:196261
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:196261
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:208725
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:196274
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:196274
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:208743
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:196292
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:196292
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
 
+Defined in: main.ts:208736
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:196285

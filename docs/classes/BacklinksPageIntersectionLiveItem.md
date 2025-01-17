@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksPageIntersectionLiveItem
+[Documentation](../README.md) / BacklinksPageIntersectionLiveItem
 
 # Class: BacklinksPageIntersectionLiveItem
+
+Defined in: main.ts:159026
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksPageIntersectionLiveItem**(`data`?): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
 
+Defined in: main.ts:159035
+
 #### Parameters
 
-• **data?**: [`IBacklinksPageIntersectionLiveItem`](../interfaces/IBacklinksPageIntersectionLiveItem.md)
+##### data?
+
+[`IBacklinksPageIntersectionLiveItem`](../interfaces/IBacklinksPageIntersectionLiveItem.md)
 
 #### Returns
 
 [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
-
-#### Defined in
-
-main.ts:147729
 
 ## Properties
 
@@ -38,20 +40,18 @@ main.ts:147729
 
 > `optional` **page\_intersection**: `object`
 
+Defined in: main.ts:159029
+
 contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md) \| `undefined`)[]
+\[`key`: `string`\]: [`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md)[]
 
 #### Implementation of
 
 [`IBacklinksPageIntersectionLiveItem`](../interfaces/IBacklinksPageIntersectionLiveItem.md).[`page_intersection`](../interfaces/IBacklinksPageIntersectionLiveItem.md#page_intersection)
-
-#### Defined in
-
-main.ts:147723
 
 ***
 
@@ -59,15 +59,13 @@ main.ts:147723
 
 > `optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
+Defined in: main.ts:159031
+
 contains the page intersections summary
 
 #### Implementation of
 
 [`IBacklinksPageIntersectionLiveItem`](../interfaces/IBacklinksPageIntersectionLiveItem.md).[`summary`](../interfaces/IBacklinksPageIntersectionLiveItem.md#summary)
-
-#### Defined in
-
-main.ts:147725
 
 ## Methods
 
@@ -75,17 +73,17 @@ main.ts:147725
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:159044
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:147738
 
 ***
 
@@ -93,17 +91,17 @@ main.ts:147738
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:159068
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:147762
 
 ***
 
@@ -111,14 +109,14 @@ main.ts:147762
 
 > `static` **fromJS**(`data`): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
 
+Defined in: main.ts:159061
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
-
-#### Defined in
-
-main.ts:147755

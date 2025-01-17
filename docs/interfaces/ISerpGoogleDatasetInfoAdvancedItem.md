@@ -21,7 +21,11 @@ for example: Africa, Global
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56228
+=======
+main.ts:56261
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -33,7 +37,11 @@ the list of authors of the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56218
+=======
+main.ts:56251
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -45,7 +53,11 @@ description of the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56232
+=======
+main.ts:56265
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -57,7 +69,11 @@ ID of the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56201
+=======
+main.ts:56234
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -69,7 +85,11 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56214
+=======
+main.ts:56247
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -81,7 +101,11 @@ the list of file formats of the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56216
+=======
+main.ts:56249
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -94,7 +118,11 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56206
+=======
+main.ts:56239
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -106,7 +134,11 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56220
+=======
+main.ts:56253
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -120,7 +152,11 @@ if there are none, equals null
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56212
+=======
+main.ts:56245
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -132,7 +168,11 @@ period covered in the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56230
+=======
+main.ts:56263
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -146,7 +186,11 @@ left, right
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56197
+=======
+main.ts:56230
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -159,7 +203,11 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56193
+=======
+main.ts:56226
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -173,7 +221,11 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56190
+=======
+main.ts:56223
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -185,7 +237,11 @@ count of articles that refer to the dataset
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56208
+=======
+main.ts:56241
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -197,7 +253,11 @@ title of the result in SERP
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56203
+=======
+main.ts:56236
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -209,7 +269,11 @@ type of element
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56186
+=======
+main.ts:56219
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -224,7 +288,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56225
+=======
+main.ts:56258
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -236,4 +304,8 @@ the XPath of the element
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:56199
+=======
+main.ts:56232
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

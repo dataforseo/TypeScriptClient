@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonRelatedSearchesSerpElementItem
+[Documentation](../README.md) / IAmazonRelatedSearchesSerpElementItem
 
 # Interface: IAmazonRelatedSearchesSerpElementItem
+
+Defined in: main.ts:192887
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **items**: [`RelatedSearchesElement`](../classes/RelatedSearchesElement.md)[]
 
+Defined in: main.ts:192893
+
 Amazon product items
-
-#### Defined in
-
-main.ts:180704
 
 ***
 
@@ -32,19 +32,19 @@ main.ts:180704
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:192891
+
 the alignment of the element in Amazon SERP
 possible values:
 left, right
-
-#### Defined in
-
-main.ts:180702
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:23310
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -53,15 +53,13 @@ absolute position among all the elements in SERP
 
 [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_absolute`](IBaseAmazonSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:22407
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:23307
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -70,15 +68,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_group`](IBaseAmazonSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:22404
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:23304
 
 type of element
 
@@ -86,22 +82,16 @@ type of element
 
 [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`type`](IBaseAmazonSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:22401
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:23312
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`xpath`](IBaseAmazonSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:22409

@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:84196
+=======
+main.ts:84229
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -46,7 +50,11 @@ keyword search depth
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:84189
+=======
+main.ts:84222
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -62,7 +70,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:84187
+=======
+main.ts:84220
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -79,7 +91,11 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:84192
+=======
+main.ts:84225
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -95,7 +111,11 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:84185
+=======
+main.ts:84218
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -113,7 +133,11 @@ main.ts:84185
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:84205
+=======
+main.ts:84238
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -131,7 +155,11 @@ main.ts:84205
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:84229
+=======
+main.ts:84262
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -149,4 +177,8 @@ main.ts:84229
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:84222
+=======
+main.ts:84255
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

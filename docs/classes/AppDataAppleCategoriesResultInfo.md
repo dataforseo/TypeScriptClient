@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleCategoriesResultInfo
+[Documentation](../README.md) / AppDataAppleCategoriesResultInfo
 
 # Class: AppDataAppleCategoriesResultInfo
+
+Defined in: main.ts:204736
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataAppleCategoriesResultInfo**(`data`?): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
+Defined in: main.ts:204742
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md)
+##### data?
+
+[`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:192305
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:192305
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:204738
+
 contains full list of supported app categories
 
 #### Implementation of
 
 [`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md).[`categories`](../interfaces/IAppDataAppleCategoriesResultInfo.md#categories)
-
-#### Defined in
-
-main.ts:192301
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:192301
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:204751
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:192314
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:192314
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:204772
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:192335
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:192335
 
 > `static` **fromJS**(`data`): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
+Defined in: main.ts:204765
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:192328

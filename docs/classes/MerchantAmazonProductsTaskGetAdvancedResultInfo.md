@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonProductsTaskGetAdvancedResultInfo
+
+Defined in: main.ts:192964
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MerchantAmazonProductsTaskGetAdvancedResultInfo**(`data`?): [`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:193003
+
 #### Parameters
 
-• **data?**: [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:180814
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:180814
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:192995
+
 amazon product departments and subcategories
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`categories`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#categories)
 
-#### Defined in
-
-main.ts:180806
-
 ***
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:192978
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -61,15 +63,13 @@ you can use it to make sure that we provided accurate results
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:180789
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:192983
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -80,15 +80,13 @@ example:
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:180794
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:192991
 
 types of search results found in Amazon SERP
 contains types of all search results (items) found in the returned SERP
@@ -99,15 +97,13 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:180802
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
+
+Defined in: main.ts:192999
 
 Amazon product items within the editorial_recommendations element
 
@@ -115,15 +111,13 @@ Amazon product items within the editorial_recommendations element
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
-
-main.ts:180810
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:192997
 
 the number of results returned in the items array
 
@@ -131,26 +125,20 @@ the number of results returned in the items array
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:180808
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:192967
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:180778
 
 ***
 
@@ -158,15 +146,13 @@ main.ts:180778
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:192975
+
 language code in a POST array
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:180786
 
 ***
 
@@ -174,15 +160,13 @@ main.ts:180786
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:192973
+
 location code in a POST array
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:180784
 
 ***
 
@@ -190,15 +174,13 @@ main.ts:180784
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:192971
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:180782
 
 ***
 
@@ -206,21 +188,21 @@ main.ts:180782
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:192993
+
 search engine results count
 
 #### Implementation of
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:180804
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:192986
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -229,15 +211,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:180797
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:192969
 
 type of element
 
@@ -245,27 +225,23 @@ type of element
 
 [`IMerchantAmazonProductsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/IMerchantAmazonProductsTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:180780
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:193012
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:180823
 
 ***
 
@@ -273,17 +249,17 @@ main.ts:180823
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:193053
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:180864
 
 ***
 
@@ -291,14 +267,14 @@ main.ts:180864
 
 > `static` **fromJS**(`data`): [`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:193046
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantAmazonProductsTaskGetAdvancedResultInfo`](MerchantAmazonProductsTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:180857

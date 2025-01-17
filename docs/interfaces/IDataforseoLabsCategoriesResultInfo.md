@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsCategoriesResultInfo
+[Documentation](../README.md) / IDataforseoLabsCategoriesResultInfo
 
 # Interface: IDataforseoLabsCategoriesResultInfo
 
+Defined in: main.ts:91692
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,17 +18,17 @@
 
 > `optional` **category\_code**: `number`
 
+Defined in: main.ts:91694
+
 category code
-
-#### Defined in
-
-main.ts:81949
 
 ***
 
 ### category\_code\_parent?
 
 > `optional` **category\_code\_parent**: `number`
+
+Defined in: main.ts:91707
 
 the code of the superordinate category
 example:
@@ -39,18 +41,12 @@ corresponds to:
 "category_name": "Apparel"
 "category_code_parent": null
 
-#### Defined in
-
-main.ts:81962
-
 ***
 
 ### category\_name?
 
 > `optional` **category\_name**: `string`
 
+Defined in: main.ts:91696
+
 full name of the category
-
-#### Defined in
-
-main.ts:81951

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseGoogleMapsSerpElementItem
+[Documentation](../README.md) / IBaseGoogleMapsSerpElementItem
 
 # Interface: IBaseGoogleMapsSerpElementItem
+
+Defined in: main.ts:41711
 
 ## Extended by
 
@@ -17,11 +19,9 @@
 
 > `optional` **domain**: `string`
 
-domain in the SERP element
+Defined in: main.ts:41722
 
-#### Defined in
-
-main.ts:39880
+domain in SERP
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:39880
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:41720
+
 absolute rank in SERP
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:39878
 
 ***
 
@@ -42,13 +40,11 @@ main.ts:39878
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:41717
+
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:39875
 
 ***
 
@@ -56,12 +52,10 @@ main.ts:39875
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:41729
+
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:39887
 
 ***
 
@@ -69,16 +63,14 @@ main.ts:39887
 
 > `optional` **rating\_distribution**: `object`
 
+Defined in: main.ts:41732
+
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:39890
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -86,11 +78,9 @@ main.ts:39890
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+Defined in: main.ts:41724
 
-#### Defined in
-
-main.ts:39882
+title of the element
 
 ***
 
@@ -98,11 +88,9 @@ main.ts:39882
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:41713
+
 type of element
-
-#### Defined in
-
-main.ts:39871
 
 ***
 
@@ -110,8 +98,6 @@ main.ts:39871
 
 > `optional` **url**: `string`
 
-relevant URL in SERP
+Defined in: main.ts:41726
 
-#### Defined in
-
-main.ts:39884
+search URL with refinement parameters

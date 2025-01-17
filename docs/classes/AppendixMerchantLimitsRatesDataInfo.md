@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMerchantLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixMerchantLimitsRatesDataInfo
 
 # Class: AppendixMerchantLimitsRatesDataInfo
+
+Defined in: main.ts:231704
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixMerchantLimitsRatesDataInfo**(`data`?): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231715
+
 #### Parameters
 
-• **data?**: [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216655
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216655
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
+Defined in: main.ts:231706
+
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`amazon`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#amazon)
-
-#### Defined in
-
-main.ts:216646
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216646
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:231709
+
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#errors)
-
-#### Defined in
-
-main.ts:216649
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:216649
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
+Defined in: main.ts:231705
+
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`google`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#google)
-
-#### Defined in
-
-main.ts:216645
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:216645
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:231708
+
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#languages)
-
-#### Defined in
-
-main.ts:216648
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:216648
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:231707
+
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#locations)
-
-#### Defined in
-
-main.ts:216647
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:216647
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231710
+
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`reviews`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#reviews)
-
-#### Defined in
-
-main.ts:216650
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:216650
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:231711
+
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#tasks_ready)
-
-#### Defined in
-
-main.ts:216651
 
 ## Methods
 
@@ -136,17 +124,17 @@ main.ts:216651
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231724
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216664
 
 ***
 
@@ -154,17 +142,17 @@ main.ts:216664
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231747
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216687
 
 ***
 
@@ -172,14 +160,14 @@ main.ts:216687
 
 > `static` **fromJS**(`data`): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231740
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216680

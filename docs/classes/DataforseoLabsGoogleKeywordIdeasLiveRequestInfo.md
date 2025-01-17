@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordIdeasLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordIdeasLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveRequestInfo
+
+Defined in: main.ts:94886
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleKeywordIdeasLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](DataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
 
+Defined in: main.ts:95015
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](DataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:85200
 
 ## Properties
 
 ### closely\_variants?
 
 > `optional` **closely\_variants**: `boolean`
+
+Defined in: main.ts:94933
 
 search mode
 optional field
@@ -48,15 +52,13 @@ default value: false
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`closely_variants`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#closely_variants)
 
-#### Defined in
-
-main.ts:85118
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:94988
 
 array of results filtering parameters
 optional field
@@ -82,15 +84,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:85173
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
+
+Defined in: main.ts:94938
 
 ignore highly similar keywords
 optional field
@@ -101,19 +101,17 @@ default value: false
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
-
-main.ts:85123
-
 ***
 
 ### include\_clickstream\_data?
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
+Defined in: main.ts:94950
+
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -122,15 +120,13 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#include_clickstream_data)
 
-#### Defined in
-
-main.ts:85135
-
 ***
 
 ### include\_serp\_info?
 
 > `optional` **include\_serp\_info**: `boolean`
+
+Defined in: main.ts:94943
 
 include data from SERP for each keyword
 optional field
@@ -141,36 +137,32 @@ default value: false
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#include_serp_info)
 
-#### Defined in
-
-main.ts:85128
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:94893
+
 keywords
 required field
 UTF-8 encoding
 The maximum number of keywords you can specify: 200.
-The minimum number of characters for each keyword: 3.
 The keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:85078
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:94927
 
 language code
 optional field
@@ -185,15 +177,13 @@ en
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:85112
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:94918
 
 full name of the language
 optional field
@@ -208,15 +198,13 @@ English
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:85103
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:94955
 
 the maximum number of keywords in the results array
 optional field
@@ -227,15 +215,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:85140
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:94909
 
 unique location identifier
 required field if you don’t specify location_name
@@ -249,15 +235,13 @@ example:
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:85094
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:94901
 
 full name of the location
 required field if you don’t specify location_code
@@ -271,15 +255,13 @@ United Kingdom
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:85086
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:94960
 
 offset in the results array of returned keywords
 optional field
@@ -290,15 +272,13 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:85145
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:94968
 
 offset token for subsequent requests
 optional field
@@ -312,15 +292,13 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`offset_token`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:85153
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:95005
 
 results sorting rules
 optional field
@@ -343,15 +321,13 @@ example:
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:85190
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:95011
 
 user-defined task identifier
 optional field
@@ -363,27 +339,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:85196
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:95024
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:85209
 
 ***
 
@@ -391,17 +363,17 @@ main.ts:85209
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:95067
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:85252
 
 ***
 
@@ -409,14 +381,14 @@ main.ts:85252
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](DataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
 
+Defined in: main.ts:95060
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordIdeasLiveRequestInfo`](DataforseoLabsGoogleKeywordIdeasLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:85245

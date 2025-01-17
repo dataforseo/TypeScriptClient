@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITechnologyCategoryInfo
+[Documentation](../README.md) / ITechnologyCategoryInfo
 
 # Interface: ITechnologyCategoryInfo
 
+Defined in: main.ts:85643
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:85647
+
 id of the technology category
 example:
 crm, cart_abandonment
-
-#### Defined in
-
-main.ts:75910
 
 ***
 
@@ -30,13 +30,11 @@ main.ts:75910
 
 > `optional` **path**: `string`
 
+Defined in: main.ts:85651
+
 path to the technology category
 example:
 user_generated_content.content_curation
-
-#### Defined in
-
-main.ts:75914
 
 ***
 
@@ -44,13 +42,11 @@ main.ts:75914
 
 > `optional` **technologies**: `string`[]
 
+Defined in: main.ts:85657
+
 list of technologies in this category
 example:
 "Salesforce", "CareCart"
-
-#### Defined in
-
-main.ts:75920
 
 ***
 
@@ -58,8 +54,6 @@ main.ts:75920
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:85653
+
 title of the technology category
-
-#### Defined in
-
-main.ts:75916

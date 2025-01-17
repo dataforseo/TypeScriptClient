@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataErrorsRequestInfo
+[Documentation](../README.md) / BusinessDataErrorsRequestInfo
 
 # Class: BusinessDataErrorsRequestInfo
+
+Defined in: main.ts:209726
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataErrorsRequestInfo**(`data`?): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
+Defined in: main.ts:209760
+
 #### Parameters
 
-• **data?**: [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md)
+##### data?
+
+[`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:197309
 
 ## Properties
 
@@ -38,9 +40,11 @@ main.ts:197309
 
 > `optional` **datetime\_from**: `string`
 
+Defined in: main.ts:209749
+
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -49,19 +53,17 @@ example:
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IBusinessDataErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:197298
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
 
+Defined in: main.ts:209756
+
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -70,15 +72,13 @@ example:
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IBusinessDataErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:197305
-
 ***
 
 ### filtered\_function?
 
 > `optional` **filtered\_function**: `string`
+
+Defined in: main.ts:209742
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,13 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IBusinessDataErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
-
-main.ts:197291
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:209731
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +107,13 @@ maximum value: 1000
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`limit`](../interfaces/IBusinessDataErrorsRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:197280
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:209736
 
 offset in the results array of returned tasks
 optional field
@@ -128,27 +124,23 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`offset`](../interfaces/IBusinessDataErrorsRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:197285
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:209769
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:197318
 
 ***
 
@@ -156,17 +148,17 @@ main.ts:197318
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:209790
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:197339
 
 ***
 
@@ -174,14 +166,14 @@ main.ts:197339
 
 > `static` **fromJS**(`data`): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
+Defined in: main.ts:209783
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:197332

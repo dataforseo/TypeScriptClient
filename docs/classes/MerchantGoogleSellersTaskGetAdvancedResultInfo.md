@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantGoogleSellersTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleSellersTaskGetAdvancedResultInfo
+
+Defined in: main.ts:188240
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new MerchantGoogleSellersTaskGetAdvancedResultInfo**(`data`?): [`MerchantGoogleSellersTaskGetAdvancedResultInfo`](MerchantGoogleSellersTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:188281
+
 #### Parameters
 
-• **data?**: [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleSellersTaskGetAdvancedResultInfo`](MerchantGoogleSellersTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:176447
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:188254
 
 direct URL to Google Shopping results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:176420
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:188259
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:176425
-
 ***
 
 ### image\_url?
 
 > `optional` **image\_url**: `string`
+
+Defined in: main.ts:188265
 
 URL to the product image
 
@@ -80,15 +80,13 @@ URL to the product image
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`image_url`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#image_url)
 
-#### Defined in
-
-main.ts:176431
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:188273
 
 types of search results found in Google Shopping SERP
 contains types of all search results (items) found in the returned SERP
@@ -99,15 +97,13 @@ shops_list, buy_on_google
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:176439
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)[]
+
+Defined in: main.ts:188277
 
 items in SERP
 
@@ -115,15 +111,13 @@ items in SERP
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
-
-main.ts:176443
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:188275
 
 the number of results returned in the items array
 
@@ -131,15 +125,13 @@ the number of results returned in the items array
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:176441
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:188251
 
 language code in a POST array
 
@@ -147,15 +139,13 @@ language code in a POST array
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:176417
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:188249
 
 location code in a POST array
 
@@ -163,15 +153,13 @@ location code in a POST array
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:176415
-
 ***
 
 ### product\_id?
 
 > `optional` **product\_id**: `string`
+
+Defined in: main.ts:188243
 
 product_id received in a POST array
 learn more about the parameter in this help center guide
@@ -180,15 +168,13 @@ learn more about the parameter in this help center guide
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`product_id`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#product_id)
 
-#### Defined in
-
-main.ts:176409
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
+
+Defined in: main.ts:188268
 
 product rating
 the product popularity rate based on product reviews
@@ -197,15 +183,13 @@ the product popularity rate based on product reviews
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`rating`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#rating)
 
-#### Defined in
-
-main.ts:176434
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:188247
 
 search engine domain in a POST array
 
@@ -213,15 +197,13 @@ search engine domain in a POST array
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:176413
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:188261
 
 title of the product
 
@@ -229,15 +211,13 @@ title of the product
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`title`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#title)
 
-#### Defined in
-
-main.ts:176427
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:188245
 
 type of element
 
@@ -245,15 +225,13 @@ type of element
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`type`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:176411
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:188263
 
 URL to the product page
 
@@ -261,27 +239,23 @@ URL to the product page
 
 [`IMerchantGoogleSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md).[`url`](../interfaces/IMerchantGoogleSellersTaskGetAdvancedResultInfo.md#url)
 
-#### Defined in
-
-main.ts:176429
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:188290
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:176456
 
 ***
 
@@ -289,17 +263,17 @@ main.ts:176456
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:188328
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:176494
 
 ***
 
@@ -307,14 +281,14 @@ main.ts:176494
 
 > `static` **fromJS**(`data`): [`MerchantGoogleSellersTaskGetAdvancedResultInfo`](MerchantGoogleSellersTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:188321
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantGoogleSellersTaskGetAdvancedResultInfo`](MerchantGoogleSellersTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:176487

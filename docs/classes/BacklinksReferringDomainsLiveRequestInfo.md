@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksReferringDomainsLiveRequestInfo
+[Documentation](../README.md) / BacklinksReferringDomainsLiveRequestInfo
 
 # Class: BacklinksReferringDomainsLiveRequestInfo
+
+Defined in: main.ts:155264
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)
 
+Defined in: main.ts:155364
+
 #### Parameters
 
-• **data?**: [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:144058
 
 ## Properties
 
 ### backlinks\_filters?
 
 > `optional` **backlinks\_filters**: `any`[]
+
+Defined in: main.ts:155338
 
 filter the backlinks of your target
 optional field
@@ -50,15 +54,13 @@ example:
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`backlinks_filters`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#backlinks_filters)
 
-#### Defined in
-
-main.ts:144032
-
 ***
 
 ### backlinks\_status\_type?
 
 > `optional` **backlinks\_status\_type**: `string`
+
+Defined in: main.ts:155299
 
 set what backlinks to return and count
 optional field
@@ -73,15 +75,13 @@ default value: live
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`backlinks_status_type`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#backlinks_status_type)
 
-#### Defined in
-
-main.ts:143993
-
 ***
 
 ### exclude\_internal\_backlinks?
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
+
+Defined in: main.ts:155354
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -92,15 +92,13 @@ default value: true
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#exclude_internal_backlinks)
 
-#### Defined in
-
-main.ts:144048
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:155316
 
 array of results filtering parameters
 optional field
@@ -123,15 +121,13 @@ The full list of possible filters is available here.
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:144010
-
 ***
 
 ### include\_indirect\_links?
 
 > `optional` **include\_indirect\_links**: `boolean`
+
+Defined in: main.ts:155349
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -143,15 +139,13 @@ default value: true
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`include_indirect_links`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#include_indirect_links)
 
-#### Defined in
-
-main.ts:144043
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
+
+Defined in: main.ts:155343
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -162,15 +156,13 @@ default value: true
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
-
-main.ts:144037
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:155290
 
 maximum number of elements within internal arrays
 optional field
@@ -187,15 +179,13 @@ maximum value: 1000
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
-
-main.ts:143984
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:155274
 
 the maximum number of returned domains
 optional field
@@ -206,15 +196,13 @@ maximum value: 1000
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:143968
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:155279
 
 offset in the results array of returned domains
 optional field
@@ -225,15 +213,13 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:143973
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:155330
 
 results sorting rules
 optional field
@@ -253,15 +239,13 @@ example:
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:144024
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:155360
 
 user-defined task identifier
 optional field
@@ -273,15 +257,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:144054
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:155269
 
 domain, subdomain or webpage to get referring domains for
 required field
@@ -292,27 +274,23 @@ a page should be specified with absolute URL (including http:// or https://)
 
 [`IBacklinksReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md).[`target`](../interfaces/IBacklinksReferringDomainsLiveRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:143963
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:155373
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:144067
 
 ***
 
@@ -320,17 +298,17 @@ main.ts:144067
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:155413
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:144107
 
 ***
 
@@ -338,14 +316,14 @@ main.ts:144107
 
 > `static` **fromJS**(`data`): [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)
 
+Defined in: main.ts:155406
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksReferringDomainsLiveRequestInfo`](BacklinksReferringDomainsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:144100

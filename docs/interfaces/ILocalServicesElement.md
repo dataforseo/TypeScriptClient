@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalServicesElement
+[Documentation](../README.md) / ILocalServicesElement
 
 # Interface: ILocalServicesElement
 
+Defined in: main.ts:35989
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:35999
+
 description
-
-#### Defined in
-
-main.ts:34285
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:34285
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35997
+
 website domain
-
-#### Defined in
-
-main.ts:34283
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:34283
 
 > `optional` **profile\_image\_url**: `string`
 
+Defined in: main.ts:36004
+
 URL of the image featured in the element
-
-#### Defined in
-
-main.ts:34290
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:34290
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:36002
+
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:34288
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:34288
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:35993
+
 title of a given link element
-
-#### Defined in
-
-main.ts:34279
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:34279
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:35991
+
 type of element
-
-#### Defined in
-
-main.ts:34277
 
 ***
 
@@ -89,8 +79,6 @@ main.ts:34277
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:35995
+
 URL
-
-#### Defined in
-
-main.ts:34281

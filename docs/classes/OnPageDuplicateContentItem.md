@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateContentItem
+[Documentation](../README.md) / OnPageDuplicateContentItem
 
 # Class: OnPageDuplicateContentItem
+
+Defined in: main.ts:169040
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageDuplicateContentItem**(`data`?): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
+Defined in: main.ts:169050
+
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md)
+##### data?
+
+[`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md)
 
 #### Returns
 
 [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
-
-#### Defined in
-
-main.ts:157314
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:157314
 
 > `optional` **pages**: [`Pages`](Pages.md)[]
 
+Defined in: main.ts:169046
+
 pages with duplicate content
 
 #### Implementation of
 
 [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`pages`](../interfaces/IOnPageDuplicateContentItem.md#pages)
-
-#### Defined in
-
-main.ts:157310
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:157310
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:169044
+
 total count of duplicate pages
 
 #### Implementation of
 
 [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`total_count`](../interfaces/IOnPageDuplicateContentItem.md#total_count)
-
-#### Defined in
-
-main.ts:157308
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:157308
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:169042
+
 URL of the specified page
 
 #### Implementation of
 
 [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`url`](../interfaces/IOnPageDuplicateContentItem.md#url)
-
-#### Defined in
-
-main.ts:157306
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:157306
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:169059
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:157323
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:157323
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:169082
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:157346
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:157346
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
+Defined in: main.ts:169075
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
-
-#### Defined in
-
-main.ts:157339

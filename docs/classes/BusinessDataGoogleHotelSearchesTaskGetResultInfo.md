@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesTaskGetResultInfo
+
+Defined in: main.ts:217444
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataGoogleHotelSearchesTaskGetResultInfo**(`data`?): [`BusinessDataGoogleHotelSearchesTaskGetResultInfo`](BusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
 
+Defined in: main.ts:217470
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleHotelSearchesTaskGetResultInfo`](BusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:204203
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:217455
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:204188
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:217460
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:204193
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)[]
+
+Defined in: main.ts:217466
 
 array of items
 note: this field always equals null; use it to facilitate integration and ensure interoperability with the Hotel Info endpoint
@@ -81,15 +81,13 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 [`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md#items)
 
-#### Defined in
-
-main.ts:204199
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:217463
 
 item types
 the number of items in the items array
@@ -98,27 +96,21 @@ the number of items in the items array
 
 [`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:204196
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:217448
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character);
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character);
 in order to obtain accurate search results, the location name is appended to the keyword automatically
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:204181
 
 ***
 
@@ -126,15 +118,13 @@ main.ts:204181
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:217452
+
 language code in a POST array
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:204185
 
 ***
 
@@ -142,15 +132,13 @@ main.ts:204185
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:217450
+
 location code in a POST array
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTaskGetResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleHotelSearchesTaskGetResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:204183
 
 ## Methods
 
@@ -158,17 +146,17 @@ main.ts:204183
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:217479
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:204212
 
 ***
 
@@ -176,17 +164,17 @@ main.ts:204212
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:217506
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:204239
 
 ***
 
@@ -194,14 +182,14 @@ main.ts:204239
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTaskGetResultInfo`](BusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
 
+Defined in: main.ts:217499
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleHotelSearchesTaskGetResultInfo`](BusinessDataGoogleHotelSearchesTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:204232

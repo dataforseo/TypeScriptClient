@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPagePageScreenshotResultInfo
+[Documentation](../README.md) / IOnPagePageScreenshotResultInfo
 
 # Interface: IOnPagePageScreenshotResultInfo
 
+Defined in: main.ts:172722
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:172725
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:161011
 
 ***
 
@@ -29,13 +29,11 @@ main.ts:161011
 
 > `optional` **error\_message**: `string`
 
+Defined in: main.ts:172729
+
 error message
 if the url you indicated returns a 404 status code or is not a valid URL, you will obtain "error_message":"Screenshot is empty"
 if no error is encountered, the value will be null
-
-#### Defined in
-
-main.ts:161015
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:161015
 
 > `optional` **items**: [`ScreenshotItem`](../classes/ScreenshotItem.md)[]
 
+Defined in: main.ts:172733
+
 items array
-
-#### Defined in
-
-main.ts:161019
 
 ***
 
@@ -55,8 +51,6 @@ main.ts:161019
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:172731
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:161017

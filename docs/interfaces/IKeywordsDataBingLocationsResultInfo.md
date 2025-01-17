@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingLocationsResultInfo
+[Documentation](../README.md) / IKeywordsDataBingLocationsResultInfo
 
 # Interface: IKeywordsDataBingLocationsResultInfo
 
+Defined in: main.ts:138241
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:138255
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:127895
 
 ***
 
@@ -28,17 +28,17 @@ main.ts:127895
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:138243
+
 location code
-
-#### Defined in
-
-main.ts:127883
 
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:138253
 
 the code of the superordinate location
 example:
@@ -48,21 +48,15 @@ example:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
-
-main.ts:127893
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:138245
+
 full name of the location
-
-#### Defined in
-
-main.ts:127885
 
 ***
 
@@ -70,8 +64,6 @@ main.ts:127885
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:138257
+
 location type
-
-#### Defined in
-
-main.ts:127897

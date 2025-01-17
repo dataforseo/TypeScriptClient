@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseSerpElementItem
+[Documentation](../README.md) / BaseSerpElementItem
 
 # Class: BaseSerpElementItem
+
+Defined in: main.ts:21028
 
 ## Extended by
 
@@ -20,6 +22,7 @@
 - [`KnowledgeGraphPartItemSerpElementItem`](KnowledgeGraphPartItemSerpElementItem.md)
 - [`KnowledgeGraphShoppingItemSerpElementItem`](KnowledgeGraphShoppingItemSerpElementItem.md)
 - [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
+- [`KnowledgeGraphAiOverviewItemSerpElementItem`](KnowledgeGraphAiOverviewItemSerpElementItem.md)
 - [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 - [`TopStoriesSerpElementItem`](TopStoriesSerpElementItem.md)
 - [`PeopleAlsoAskSerpElementItem`](PeopleAlsoAskSerpElementItem.md)
@@ -79,17 +82,17 @@
 
 > **new BaseSerpElementItem**(`data`?): [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
+Defined in: main.ts:21047
+
 #### Parameters
 
-• **data?**: [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md)
+##### data?
+
+[`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md)
 
 #### Returns
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-#### Defined in
-
-main.ts:20369
 
 ## Properties
 
@@ -97,15 +100,15 @@ main.ts:20369
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:20367
+Defined in: main.ts:21045
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21041
 
 the alignment of the element in SERP
 can take the following values:
@@ -115,15 +118,13 @@ left, right
 
 [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`position`](../interfaces/IBaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20363
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21037
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -132,15 +133,13 @@ absolute position among all the elements in SERP
 
 [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20359
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21034
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -150,15 +149,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`rank_group`](../interfaces/IBaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20356
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21030
 
 type of element
 
@@ -166,15 +163,13 @@ type of element
 
 [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`type`](../interfaces/IBaseSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20352
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21043
 
 the XPath of the element
 
@@ -182,27 +177,23 @@ the XPath of the element
 
 [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`xpath`](../interfaces/IBaseSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20365
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:21057
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:20379
 
 ***
 
@@ -210,17 +201,17 @@ main.ts:20379
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:21379
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:20696
 
 ***
 
@@ -228,14 +219,14 @@ main.ts:20696
 
 > `static` **fromJS**(`data`): [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
+Defined in: main.ts:21067
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md)
-
-#### Defined in
-
-main.ts:20389

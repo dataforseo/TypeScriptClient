@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopicInfo
+[Documentation](../README.md) / ITopicInfo
 
 # Interface: ITopicInfo
 
+Defined in: main.ts:173451
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:173457
+
 content author name
-
-#### Defined in
-
-main.ts:161743
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:161743
 
 > `optional` **h\_title**: `string`
 
+Defined in: main.ts:173453
+
 meta title
-
-#### Defined in
-
-main.ts:161739
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:161739
 
 > `optional` **language**: `string`
 
+Defined in: main.ts:173459
+
 content language
-
-#### Defined in
-
-main.ts:161745
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:161745
 
 > `optional` **level**: `number`
 
+Defined in: main.ts:173461
+
 HTML level
-
-#### Defined in
-
-main.ts:161747
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:161747
 
 > `optional` **main\_title**: `string`
 
+Defined in: main.ts:173455
+
 main title of the block
-
-#### Defined in
-
-main.ts:161741
 
 ***
 
@@ -76,12 +68,10 @@ main.ts:161741
 
 > `optional` **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
+Defined in: main.ts:173464
+
 primary content on the page
 you can find more information about content priority calculation in this help center article
-
-#### Defined in
-
-main.ts:161750
 
 ***
 
@@ -89,12 +79,10 @@ main.ts:161750
 
 > `optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
+Defined in: main.ts:173467
+
 secondary content on the page
 you can find more information about content priority calculation in this help center article
-
-#### Defined in
-
-main.ts:161753
 
 ***
 
@@ -102,8 +90,6 @@ main.ts:161753
 
 > `optional` **table\_content**: [`TableContent`](../classes/TableContent.md)[]
 
+Defined in: main.ts:173469
+
 content of the table on the page
-
-#### Defined in
-
-main.ts:161755

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleImagesTasksFixedResultInfo
+[Documentation](../README.md) / ISerpGoogleImagesTasksFixedResultInfo
 
 # Interface: ISerpGoogleImagesTasksFixedResultInfo
 
+Defined in: main.ts:50593
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:50603
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:47409
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:47409
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:50611
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:47417
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:47417
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:50614
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:47420
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:47420
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:50608
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:47414
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:47414
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:50596
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:47402
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:47402
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:50598
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:47404
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:47404
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:50601
+
 type of search engine
 can take the following values: images
-
-#### Defined in
-
-main.ts:47407
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:47407
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:50605
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:47411

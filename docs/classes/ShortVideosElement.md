@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ShortVideosElement
+[Documentation](../README.md) / ShortVideosElement
 
 # Class: ShortVideosElement
+
+Defined in: main.ts:35197
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ShortVideosElement**(`data`?): [`ShortVideosElement`](ShortVideosElement.md)
 
+Defined in: main.ts:35212
+
 #### Parameters
 
-• **data?**: [`IShortVideosElement`](../interfaces/IShortVideosElement.md)
+##### data?
+
+[`IShortVideosElement`](../interfaces/IShortVideosElement.md)
 
 #### Returns
 
 [`ShortVideosElement`](ShortVideosElement.md)
-
-#### Defined in
-
-main.ts:33420
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:33420
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35203
+
 website domain
 
 #### Implementation of
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`domain`](../interfaces/IShortVideosElement.md#domain)
 
-#### Defined in
-
-main.ts:33411
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:35208
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -61,15 +63,13 @@ indicates the source of information included in the top_stories_element
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`source`](../interfaces/IShortVideosElement.md#source)
 
-#### Defined in
-
-main.ts:33416
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:35201
 
 title of a given link element
 
@@ -77,15 +77,13 @@ title of a given link element
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`title`](../interfaces/IShortVideosElement.md#title)
 
-#### Defined in
-
-main.ts:33409
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:35199
 
 type of element
 
@@ -93,15 +91,13 @@ type of element
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`type`](../interfaces/IShortVideosElement.md#type)
 
-#### Defined in
-
-main.ts:33407
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:35205
 
 URL
 
@@ -109,27 +105,23 @@ URL
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`url`](../interfaces/IShortVideosElement.md#url)
 
-#### Defined in
-
-main.ts:33413
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:35221
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:33429
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:33429
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:35242
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:33450
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:33450
 
 > `static` **fromJS**(`data`): [`ShortVideosElement`](ShortVideosElement.md)
 
+Defined in: main.ts:35235
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ShortVideosElement`](ShortVideosElement.md)
-
-#### Defined in
-
-main.ts:33443

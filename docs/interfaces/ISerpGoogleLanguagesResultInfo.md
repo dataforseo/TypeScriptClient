@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLanguagesResultInfo
+[Documentation](../README.md) / ISerpGoogleLanguagesResultInfo
 
 # Interface: ISerpGoogleLanguagesResultInfo
 
+Defined in: main.ts:27210
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:27214
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:26144
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:26144
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:27212
+
 language name
-
-#### Defined in
-
-main.ts:26142

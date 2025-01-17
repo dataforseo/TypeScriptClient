@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkSpamScoreLiveResultInfo
+[Documentation](../README.md) / BacklinksBulkSpamScoreLiveResultInfo
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
+
+Defined in: main.ts:161114
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksBulkSpamScoreLiveResultInfo**(`data`?): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
+Defined in: main.ts:161122
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:149816
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:149816
 
 > `optional` **items**: [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)[]
 
+Defined in: main.ts:161118
+
 contains relevant backlinks and referring domains data
 
 #### Implementation of
 
 [`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:149812
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:149812
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:161116
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:149810
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:149810
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:161131
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:149825
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:149825
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:161153
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:149847
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:149847
 
 > `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
+Defined in: main.ts:161146
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:149840

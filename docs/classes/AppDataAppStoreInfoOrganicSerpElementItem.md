@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppStoreInfoOrganicSerpElementItem
+[Documentation](../README.md) / AppDataAppStoreInfoOrganicSerpElementItem
 
 # Class: AppDataAppStoreInfoOrganicSerpElementItem
+
+Defined in: main.ts:206562
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new AppDataAppStoreInfoOrganicSerpElementItem**(`data`?): [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
 
+Defined in: main.ts:206622
+
 #### Parameters
 
-• **data?**: [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md)
+##### data?
+
+[`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:194179
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22886
+
 #### Inherited from
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`_discriminator`](BaseAppDataSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21983
 
 ***
 
@@ -60,15 +60,13 @@ main.ts:21983
 
 > `optional` **advisories**: `string`[]
 
+Defined in: main.ts:206584
+
 age rating and age-based content advisories
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`advisories`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#advisories)
-
-#### Defined in
-
-main.ts:194141
 
 ***
 
@@ -76,15 +74,13 @@ main.ts:194141
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:206564
+
 ID of the app
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`app_id`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#app_id)
-
-#### Defined in
-
-main.ts:194121
 
 ***
 
@@ -92,15 +88,13 @@ main.ts:194121
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:206580
+
 all relevant categories/genres of the app
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`categories`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#categories)
-
-#### Defined in
-
-main.ts:194137
 
 ***
 
@@ -108,15 +102,13 @@ main.ts:194137
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:206570
+
 description of the app
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`description`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#description)
-
-#### Defined in
-
-main.ts:194127
 
 ***
 
@@ -124,15 +116,13 @@ main.ts:194127
 
 > `optional` **developer**: `string`
 
+Defined in: main.ts:206586
+
 name of the app developer
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`developer`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#developer)
-
-#### Defined in
-
-main.ts:194143
 
 ***
 
@@ -140,15 +130,13 @@ main.ts:194143
 
 > `optional` **developer\_id**: `string`
 
+Defined in: main.ts:206588
+
 ID of the app developer
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`developer_id`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#developer_id)
-
-#### Defined in
-
-main.ts:194145
 
 ***
 
@@ -156,15 +144,13 @@ main.ts:194145
 
 > `optional` **developer\_url**: `string`
 
+Defined in: main.ts:206590
+
 URL to the developer page on App Store
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`developer_url`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#developer_url)
-
-#### Defined in
-
-main.ts:194147
 
 ***
 
@@ -172,21 +158,21 @@ main.ts:194147
 
 > `optional` **icon**: `string`
 
+Defined in: main.ts:206568
+
 URL to the app icon
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`icon`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#icon)
 
-#### Defined in
-
-main.ts:194125
-
 ***
 
 ### images?
 
 > `optional` **images**: `string`[]
+
+Defined in: main.ts:206612
 
 app images
 contains URLs to the images used on the app page on App Store
@@ -195,15 +181,13 @@ contains URLs to the images used on the app page on App Store
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`images`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#images)
 
-#### Defined in
-
-main.ts:194169
-
 ***
 
 ### is\_free?
 
 > `optional` **is\_free**: `boolean`
+
+Defined in: main.ts:206576
 
 indicates whether the app is free
 
@@ -211,15 +195,13 @@ indicates whether the app is free
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`is_free`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#is_free)
 
-#### Defined in
-
-main.ts:194133
-
 ***
 
 ### languages?
 
 > `optional` **languages**: `string`[]
+
+Defined in: main.ts:206582
 
 languages supported in the app
 
@@ -227,15 +209,13 @@ languages supported in the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`languages`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#languages)
 
-#### Defined in
-
-main.ts:194139
-
 ***
 
 ### last\_update\_date?
 
 > `optional` **last\_update\_date**: `string`
+
+Defined in: main.ts:206606
 
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -246,15 +226,13 @@ example:
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`last_update_date`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#last_update_date)
 
-#### Defined in
-
-main.ts:194163
-
 ***
 
 ### main\_category?
 
 > `optional` **main\_category**: `string`
+
+Defined in: main.ts:206578
 
 main category/genre of the app
 
@@ -262,15 +240,13 @@ main category/genre of the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`main_category`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#main_category)
 
-#### Defined in
-
-main.ts:194135
-
 ***
 
 ### minimum\_os\_version?
 
 > `optional` **minimum\_os\_version**: `string`
+
+Defined in: main.ts:206594
 
 minimum OS version required to install the app
 
@@ -278,15 +254,13 @@ minimum OS version required to install the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`minimum_os_version`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#minimum_os_version)
 
-#### Defined in
-
-main.ts:194151
-
 ***
 
 ### more\_apps\_by\_developer?
 
 > `optional` **more\_apps\_by\_developer**: [`AppsInfo`](AppsInfo.md)[]
+
+Defined in: main.ts:206618
 
 similar apps
 information about apps built by the same developer
@@ -295,15 +269,13 @@ information about apps built by the same developer
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`more_apps_by_developer`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#more_apps_by_developer)
 
-#### Defined in
-
-main.ts:194175
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:22880
 
 the alignment of the element in SERP
 can take the following values:
@@ -317,15 +289,13 @@ left, right
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`position`](BaseAppDataSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21977
-
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:206574
 
 price of the app
 
@@ -333,15 +303,13 @@ price of the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`price`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#price)
 
-#### Defined in
-
-main.ts:194131
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:22876
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -354,15 +322,13 @@ absolute position among all the elements in SERP
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_absolute`](BaseAppDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21973
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22873
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -375,15 +341,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_group`](BaseAppDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21970
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:22884
 
 average rating of the app
 
@@ -395,15 +359,13 @@ average rating of the app
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rating`](BaseAppDataSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:21981
-
 ***
 
 ### released\_date?
 
 > `optional` **released\_date**: `string`
+
+Defined in: main.ts:206601
 
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -414,15 +376,13 @@ example:
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`released_date`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#released_date)
 
-#### Defined in
-
-main.ts:194158
-
 ***
 
 ### reviews\_count?
 
 > `optional` **reviews\_count**: `number`
+
+Defined in: main.ts:206572
 
 the total number of reviews of the app
 
@@ -430,15 +390,13 @@ the total number of reviews of the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`reviews_count`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#reviews_count)
 
-#### Defined in
-
-main.ts:194129
-
 ***
 
 ### similar\_apps?
 
 > `optional` **similar\_apps**: [`AppsInfo`](AppsInfo.md)[]
+
+Defined in: main.ts:206615
 
 similar apps
 displays apps similar to the app in a POST request
@@ -447,15 +405,13 @@ displays apps similar to the app in a POST request
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`similar_apps`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#similar_apps)
 
-#### Defined in
-
-main.ts:194172
-
 ***
 
 ### size?
 
 > `optional` **size**: `string`
+
+Defined in: main.ts:206596
 
 size of the app
 
@@ -463,15 +419,13 @@ size of the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`size`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#size)
 
-#### Defined in
-
-main.ts:194153
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:22882
 
 title of the app
 
@@ -483,15 +437,13 @@ title of the app
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`title`](BaseAppDataSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:21979
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22870
 
 type of element
 
@@ -503,15 +455,13 @@ type of element
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`type`](BaseAppDataSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21967
-
 ***
 
 ### update\_notes?
 
 > `optional` **update\_notes**: `string`
+
+Defined in: main.ts:206609
 
 update notes
 contains the latest update notes from the developer
@@ -520,15 +470,13 @@ contains the latest update notes from the developer
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`update_notes`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#update_notes)
 
-#### Defined in
-
-main.ts:194166
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:206566
 
 URL to the app page on App Store
 
@@ -536,15 +484,13 @@ URL to the app page on App Store
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`url`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:194123
-
 ***
 
 ### version?
 
 > `optional` **version**: `string`
+
+Defined in: main.ts:206592
 
 current version of the app
 
@@ -552,19 +498,19 @@ current version of the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`version`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#version)
 
-#### Defined in
-
-main.ts:194149
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:206627
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -574,19 +520,19 @@ main.ts:194149
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`init`](BaseAppDataSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:194184
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:206691
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -596,19 +542,19 @@ main.ts:194184
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`toJSON`](BaseAppDataSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:194248
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`AppDataAppStoreInfoOrganicSerpElementItem`](AppDataAppStoreInfoOrganicSerpElementItem.md)
 
+Defined in: main.ts:206684
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -617,7 +563,3 @@ main.ts:194248
 #### Overrides
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`fromJS`](BaseAppDataSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:194241

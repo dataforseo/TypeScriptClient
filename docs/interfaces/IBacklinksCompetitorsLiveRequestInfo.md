@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksCompetitorsLiveRequestInfo
+[Documentation](../README.md) / IBacklinksCompetitorsLiveRequestInfo
 
 # Interface: IBacklinksCompetitorsLiveRequestInfo
 
+Defined in: main.ts:156964
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
+Defined in: main.ts:157023
+
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
 if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
 if set to false, internal links will be included in the results
 default value: true
-
-#### Defined in
-
-main.ts:145717
 
 ***
 
@@ -32,20 +32,20 @@ main.ts:145717
 
 > `optional` **exclude\_large\_domains**: `boolean`
 
+Defined in: main.ts:157017
+
 indicates whether large domain will appear in results
 optional field
 if set to true, the results from the large domain (google.com, amazon.com, etc.) will be omitted;
 default value: true
-
-#### Defined in
-
-main.ts:145711
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:156993
 
 array of results filtering parameters
 optional field
@@ -61,24 +61,18 @@ example:
 [["rank",">","100"],"or",["intersections",">","5"]]]
 The full list of possible filters is available here.
 
-#### Defined in
-
-main.ts:145687
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:156974
+
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:145668
 
 ***
 
@@ -86,14 +80,12 @@ main.ts:145668
 
 > `optional` **main\_domain**: `boolean`
 
+Defined in: main.ts:157012
+
 indicates if only main domain of the target will be included in the search
 optional field
 if set to true, only the main domain will be included in search;
 default value: true
-
-#### Defined in
-
-main.ts:145706
 
 ***
 
@@ -101,20 +93,20 @@ main.ts:145706
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:156979
+
 offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive pages
-
-#### Defined in
-
-main.ts:145673
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:157007
 
 results sorting rules
 optional field
@@ -130,15 +122,13 @@ you should use a comma to separate several sorting rules
 example:
 ["intersections,desc","rank,asc"]
 
-#### Defined in
-
-main.ts:145701
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:157029
 
 user-defined task identifier
 optional field
@@ -146,21 +136,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:145723
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:156969
+
 domain, subdomain or webpage to get competitor domains for
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
-
-#### Defined in
-
-main.ts:145663

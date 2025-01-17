@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135822
+=======
+main.ts:135855
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -46,7 +50,11 @@ keyword provided in the POST array
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135810
+=======
+main.ts:135843
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -63,7 +71,11 @@ array of objects with search volume rates in a certain month of a year
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135818
+=======
+main.ts:135851
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -79,7 +91,11 @@ current search volume rate of a keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135815
+=======
+main.ts:135848
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -96,7 +112,11 @@ possible values: true, false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135813
+=======
+main.ts:135846
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -114,7 +134,11 @@ main.ts:135813
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135831
+=======
+main.ts:135864
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -132,7 +156,11 @@ main.ts:135831
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135855
+=======
+main.ts:135888
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -150,4 +178,8 @@ main.ts:135855
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:135848
+=======
+main.ts:135881
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

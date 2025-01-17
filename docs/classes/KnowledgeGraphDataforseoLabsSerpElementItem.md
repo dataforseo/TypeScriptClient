@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphDataforseoLabsSerpElementItem
+[Documentation](../README.md) / KnowledgeGraphDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphDataforseoLabsSerpElementItem
+
+Defined in: main.ts:106084
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new KnowledgeGraphDataforseoLabsSerpElementItem**(`data`?): [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:106108
+
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:96363
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21425
+
 #### Inherited from
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:20742
 
 ***
 
@@ -60,15 +60,13 @@ main.ts:20742
 
 > `optional` **card\_id**: `string`
 
+Defined in: main.ts:106094
+
 card id
 
 #### Implementation of
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`card_id`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#card_id)
-
-#### Defined in
-
-main.ts:96349
 
 ***
 
@@ -76,15 +74,13 @@ main.ts:96349
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:106102
+
 google-defined client id
 
 #### Implementation of
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`cid`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#cid)
-
-#### Defined in
-
-main.ts:96357
 
 ***
 
@@ -92,15 +88,13 @@ main.ts:96357
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:106092
+
 description of the results element in SERP
 
 #### Implementation of
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`description`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#description)
-
-#### Defined in
-
-main.ts:96347
 
 ***
 
@@ -108,15 +102,13 @@ main.ts:96347
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:106098
+
 URL of the image from knowledge graph
 
 #### Implementation of
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`image_url`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#image_url)
-
-#### Defined in
-
-main.ts:96353
 
 ***
 
@@ -124,15 +116,13 @@ main.ts:96353
 
 > `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)[]
 
+Defined in: main.ts:106104
+
 elements of search results found in SERP
 
 #### Implementation of
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#items)
-
-#### Defined in
-
-main.ts:96359
 
 ***
 
@@ -140,21 +130,21 @@ main.ts:96359
 
 > `optional` **logo\_url**: `string`
 
+Defined in: main.ts:106100
+
 URL of the logo from knowledge graph
 
 #### Implementation of
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`logo_url`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#logo_url)
 
-#### Defined in
-
-main.ts:96355
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21421
 
 the alignment of the element in SERP
 can take the following values:
@@ -168,15 +158,13 @@ left, right
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20738
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21417
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -189,15 +177,13 @@ absolute position among all the elements in SERP
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20734
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21414
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -210,15 +196,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20731
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:106086
 
 search engine type
 
@@ -226,15 +210,13 @@ search engine type
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#se_type)
 
-#### Defined in
-
-main.ts:96341
-
 ***
 
 ### sub\_title?
 
 > `optional` **sub\_title**: `string`
+
+Defined in: main.ts:106090
 
 subtitle of the item
 
@@ -242,15 +224,13 @@ subtitle of the item
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`sub_title`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#sub_title)
 
-#### Defined in
-
-main.ts:96345
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:106088
 
 title of the result in SERP
 
@@ -258,15 +238,13 @@ title of the result in SERP
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:96343
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21411
 
 type of element
 
@@ -278,15 +256,13 @@ type of element
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20728
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:106096
 
 relevant URL of the Ad element in SERP
 
@@ -294,15 +270,13 @@ relevant URL of the Ad element in SERP
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`url`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:96351
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21423
 
 the XPath of the element
 
@@ -314,19 +288,19 @@ the XPath of the element
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20740
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:106113
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -336,19 +310,19 @@ main.ts:20740
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:96368
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:106144
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -358,19 +332,19 @@ main.ts:96368
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:96399
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:106137
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -379,7 +353,3 @@ main.ts:96399
 #### Overrides
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:96392

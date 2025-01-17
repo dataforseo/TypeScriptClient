@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopicListDataItemInfo
+[Documentation](../README.md) / TopicListDataItemInfo
 
 # Class: TopicListDataItemInfo
+
+Defined in: main.ts:135085
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TopicListDataItemInfo**(`data`?): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
+Defined in: main.ts:135099
+
 #### Parameters
 
-• **data?**: [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md)
+##### data?
+
+[`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md)
 
 #### Returns
 
 [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
-
-#### Defined in
-
-main.ts:124747
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:124747
 
 > `optional` **topic\_id**: `string`
 
+Defined in: main.ts:135087
+
 unique topic identifier in Google Trends
 
 #### Implementation of
 
 [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_id`](../interfaces/ITopicListDataItemInfo.md#topic_id)
-
-#### Defined in
-
-main.ts:124735
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:124735
 
 > `optional` **topic\_title**: `string`
 
+Defined in: main.ts:135089
+
 title of the topic
 
 #### Implementation of
 
 [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_title`](../interfaces/ITopicListDataItemInfo.md#topic_title)
 
-#### Defined in
-
-main.ts:124737
-
 ***
 
 ### topic\_type?
 
 > `optional` **topic\_type**: `string`
+
+Defined in: main.ts:135092
 
 type of the topic
 represents the general type of the topic
@@ -77,15 +77,13 @@ represents the general type of the topic
 
 [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_type`](../interfaces/ITopicListDataItemInfo.md#topic_type)
 
-#### Defined in
-
-main.ts:124740
-
 ***
 
 ### value?
 
 > `optional` **value**: `string`
+
+Defined in: main.ts:135095
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
@@ -94,27 +92,23 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`value`](../interfaces/ITopicListDataItemInfo.md#value)
 
-#### Defined in
-
-main.ts:124743
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:135108
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:124756
 
 ***
 
@@ -122,17 +116,17 @@ main.ts:124756
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:135128
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:124776
 
 ***
 
@@ -140,14 +134,14 @@ main.ts:124776
 
 > `static` **fromJS**(`data`): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
+Defined in: main.ts:135121
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
-
-#### Defined in
-
-main.ts:124769

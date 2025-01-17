@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixAppendixsRatesDataInfo
+[Documentation](../README.md) / AppendixAppendixsRatesDataInfo
 
 # Class: AppendixAppendixsRatesDataInfo
+
+Defined in: main.ts:231108
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixAppendixsRatesDataInfo**(`data`?): [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
 
+Defined in: main.ts:231114
+
 #### Parameters
 
-• **data?**: [`IAppendixAppendixsRatesDataInfo`](../interfaces/IAppendixAppendixsRatesDataInfo.md)
+##### data?
+
+[`IAppendixAppendixsRatesDataInfo`](../interfaces/IAppendixAppendixsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216054
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216054
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:231110
+
 #### Implementation of
 
 [`IAppendixAppendixsRatesDataInfo`](../interfaces/IAppendixAppendixsRatesDataInfo.md).[`errors`](../interfaces/IAppendixAppendixsRatesDataInfo.md#errors)
-
-#### Defined in
-
-main.ts:216050
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216050
 
 > `optional` **user\_data**: `number`
 
+Defined in: main.ts:231109
+
 #### Implementation of
 
 [`IAppendixAppendixsRatesDataInfo`](../interfaces/IAppendixAppendixsRatesDataInfo.md).[`user_data`](../interfaces/IAppendixAppendixsRatesDataInfo.md#user_data)
-
-#### Defined in
-
-main.ts:216049
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:216049
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231123
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216063
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:216063
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231141
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216081
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:216081
 
 > `static` **fromJS**(`data`): [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
 
+Defined in: main.ts:231134
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216074

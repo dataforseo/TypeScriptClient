@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageContentParsingResultInfo
+[Documentation](../README.md) / IOnPageContentParsingResultInfo
 
 # Interface: IOnPageContentParsingResultInfo
 
+Defined in: main.ts:173698
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:173701
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:161987
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:161987
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:173703
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:161989
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:161989
 
 > `optional` **items**: [`OnPageContentParsingItem`](../classes/OnPageContentParsingItem.md)[]
 
+Defined in: main.ts:173707
+
 items array
-
-#### Defined in
-
-main.ts:161993
 
 ***
 
@@ -53,8 +49,6 @@ main.ts:161993
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:173705
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:161991

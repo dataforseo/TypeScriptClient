@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+
+Defined in: main.ts:87218
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
+Defined in: main.ts:87232
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:77491
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:77491
 
 > `optional` **date\_from**: `string`
 
+Defined in: main.ts:87222
+
 starting date of the time range
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`date_from`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_from)
-
-#### Defined in
-
-main.ts:77481
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:77481
 
 > `optional` **date\_to**: `string`
 
+Defined in: main.ts:87224
+
 ending date of the time range
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`date_to`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_to)
-
-#### Defined in
-
-main.ts:77483
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:77483
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
+Defined in: main.ts:87228
+
 items array
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`items`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:77487
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:77487
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:87226
+
 number of items in the results array
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`items_count`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:77485
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:77485
 
 > `optional` **technology**: `string`
 
+Defined in: main.ts:87220
+
 target technology
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`technology`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#technology)
-
-#### Defined in
-
-main.ts:77479
 
 ## Methods
 
@@ -118,17 +110,17 @@ main.ts:77479
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:87241
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:77500
 
 ***
 
@@ -136,17 +128,17 @@ main.ts:77500
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:87266
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:77525
 
 ***
 
@@ -154,14 +146,14 @@ main.ts:77525
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
+Defined in: main.ts:87259
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:77518

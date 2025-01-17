@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppStoreMetricsBundleInfo
+[Documentation](../README.md) / AppStoreMetricsBundleInfo
 
 # Class: AppStoreMetricsBundleInfo
+
+Defined in: main.ts:124344
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppStoreMetricsBundleInfo**(`data`?): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
+Defined in: main.ts:124350
+
 #### Parameters
 
-• **data?**: [`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md)
+##### data?
+
+[`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md)
 
 #### Returns
 
 [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:115077
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:115077
 
 > `optional` **app\_store\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
+Defined in: main.ts:124346
+
 ranking data from App Store organic search
 
 #### Implementation of
 
 [`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md).[`app_store_search_organic`](../interfaces/IAppStoreMetricsBundleInfo.md#app_store_search_organic)
-
-#### Defined in
-
-main.ts:115073
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:115073
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:124359
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:115086
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:115086
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:124376
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:115103
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:115103
 
 > `static` **fromJS**(`data`): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
+Defined in: main.ts:124369
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:115096

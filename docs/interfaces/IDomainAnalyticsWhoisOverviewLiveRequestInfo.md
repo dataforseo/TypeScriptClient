@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsWhoisOverviewLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
+Defined in: main.ts:89186
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:89211
 
 array of results filtering parameters
 optional field
@@ -31,24 +35,18 @@ examples:
 
 for more information about filters, please refer to Filters Page or this help center guide
 
-#### Defined in
-
-main.ts:79466
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:89191
+
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:79446
 
 ***
 
@@ -56,20 +54,20 @@ main.ts:79446
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:89196
+
 offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items
-
-#### Defined in
-
-main.ts:79451
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:89227
 
 results sorting rules
 optional field
@@ -87,22 +85,16 @@ you should use a comma to separate several sorting rules
 example:
 ["expiration_datetime,asc","metrics.organic.etv,desc","metrics.organic.pos_1,desc"]
 
-#### Defined in
-
-main.ts:79482
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:89233
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:79488

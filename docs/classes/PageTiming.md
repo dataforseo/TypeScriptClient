@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageTiming
+[Documentation](../README.md) / PageTiming
 
 # Class: PageTiming
+
+Defined in: main.ts:166424
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new PageTiming**(`data`?): [`PageTiming`](PageTiming.md)
 
+Defined in: main.ts:166461
+
 #### Parameters
 
-• **data?**: [`IPageTiming`](../interfaces/IPageTiming.md)
+##### data?
+
+[`IPageTiming`](../interfaces/IPageTiming.md)
 
 #### Returns
 
 [`PageTiming`](PageTiming.md)
-
-#### Defined in
-
-main.ts:154733
 
 ## Properties
 
 ### connection\_time?
 
 > `optional` **connection\_time**: `number`
+
+Defined in: main.ts:166439
 
 time to connect to a server
 the time it takes until the connection with a server is established (in milliseconds)
@@ -45,15 +49,13 @@ the time it takes until the connection with a server is established (in millisec
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`connection_time`](../interfaces/IPageTiming.md#connection_time)
 
-#### Defined in
-
-main.ts:154711
-
 ***
 
 ### dom\_complete?
 
 > `optional` **dom\_complete**: `number`
+
+Defined in: main.ts:166430
 
 time to load resources
 the time it takes until the page and all of its subresources are downloaded (in milliseconds)
@@ -62,15 +64,13 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`dom_complete`](../interfaces/IPageTiming.md#dom_complete)
 
-#### Defined in
-
-main.ts:154702
-
 ***
 
 ### download\_time?
 
 > `optional` **download\_time**: `number`
+
+Defined in: main.ts:166449
 
 time it takes for a browser to receive a response (in milliseconds)
 
@@ -78,15 +78,13 @@ time it takes for a browser to receive a response (in milliseconds)
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`download_time`](../interfaces/IPageTiming.md#download_time)
 
-#### Defined in
-
-main.ts:154721
-
 ***
 
 ### duration\_time?
 
 > `optional` **duration\_time**: `number`
+
+Defined in: main.ts:166451
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
@@ -94,15 +92,13 @@ total time it takes until a browser receives a complete response from a server (
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`duration_time`](../interfaces/IPageTiming.md#duration_time)
 
-#### Defined in
-
-main.ts:154723
-
 ***
 
 ### fetch\_end?
 
 > `optional` **fetch\_end**: `number`
+
+Defined in: main.ts:166457
 
 time to complete downloading the HTML resource
 the amount of time the browser needs to complete downloading a page
@@ -111,15 +107,13 @@ the amount of time the browser needs to complete downloading a page
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`fetch_end`](../interfaces/IPageTiming.md#fetch_end)
 
-#### Defined in
-
-main.ts:154729
-
 ***
 
 ### fetch\_start?
 
 > `optional` **fetch\_start**: `number`
+
+Defined in: main.ts:166454
 
 time to start downloading the HTML resource
 the amount of time the browser needs to start downloading a page
@@ -128,15 +122,13 @@ the amount of time the browser needs to start downloading a page
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`fetch_start`](../interfaces/IPageTiming.md#fetch_start)
 
-#### Defined in
-
-main.ts:154726
-
 ***
 
 ### first\_input\_delay?
 
 > `optional` **first\_input\_delay**: `number`
+
+Defined in: main.ts:166436
 
 Core Web Vitals metric indicating the responsiveness of a page
 The time (in milliseconds) from when a user first interacts with your page to the time when the browser responds to that interaction. Learn more.
@@ -145,15 +137,13 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`first_input_delay`](../interfaces/IPageTiming.md#first_input_delay)
 
-#### Defined in
-
-main.ts:154708
-
 ***
 
 ### largest\_contentful\_paint?
 
 > `optional` **largest\_contentful\_paint**: `number`
+
+Defined in: main.ts:166433
 
 Core Web Vitals metric measuring how fast the largest above-the-fold content element is displayed
 The amount of time (in milliseconds) to render the largest content element visible in the viewport, from when the user requests the URL. Learn more.
@@ -162,15 +152,13 @@ The amount of time (in milliseconds) to render the largest content element visib
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`largest_contentful_paint`](../interfaces/IPageTiming.md#largest_contentful_paint)
 
-#### Defined in
-
-main.ts:154705
-
 ***
 
 ### request\_sent\_time?
 
 > `optional` **request\_sent\_time**: `number`
+
+Defined in: main.ts:166445
 
 time to send a request to a server
 the time it takes until the request to a server is sent (in milliseconds)
@@ -179,15 +167,13 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`request_sent_time`](../interfaces/IPageTiming.md#request_sent_time)
 
-#### Defined in
-
-main.ts:154717
-
 ***
 
 ### time\_to\_interactive?
 
 > `optional` **time\_to\_interactive**: `number`
+
+Defined in: main.ts:166427
 
 Time To Interactive (TTI) metric
 the time it takes until the user can interact with a page (in milliseconds)
@@ -196,15 +182,13 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`time_to_interactive`](../interfaces/IPageTiming.md#time_to_interactive)
 
-#### Defined in
-
-main.ts:154699
-
 ***
 
 ### time\_to\_secure\_connection?
 
 > `optional` **time\_to\_secure\_connection**: `number`
+
+Defined in: main.ts:166442
 
 time to establish a secure connection
 the time it takes until the secure connection with a server is established (in milliseconds)
@@ -213,15 +197,13 @@ the time it takes until the secure connection with a server is established (in m
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`time_to_secure_connection`](../interfaces/IPageTiming.md#time_to_secure_connection)
 
-#### Defined in
-
-main.ts:154714
-
 ***
 
 ### waiting\_time?
 
 > `optional` **waiting\_time**: `number`
+
+Defined in: main.ts:166447
 
 time to first byte (TTFB) in milliseconds
 
@@ -229,27 +211,23 @@ time to first byte (TTFB) in milliseconds
 
 [`IPageTiming`](../interfaces/IPageTiming.md).[`waiting_time`](../interfaces/IPageTiming.md#waiting_time)
 
-#### Defined in
-
-main.ts:154719
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:166470
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:154742
 
 ***
 
@@ -257,17 +235,17 @@ main.ts:154742
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:166498
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:154770
 
 ***
 
@@ -275,14 +253,14 @@ main.ts:154770
 
 > `static` **fromJS**(`data`): [`PageTiming`](PageTiming.md)
 
+Defined in: main.ts:166491
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PageTiming`](PageTiming.md)
-
-#### Defined in
-
-main.ts:154763

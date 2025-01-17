@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixTaskKeywordsDataPriceDataInfo
+[Documentation](../README.md) / IAppendixTaskKeywordsDataPriceDataInfo
 
 # Interface: IAppendixTaskKeywordsDataPriceDataInfo
 
+Defined in: main.ts:236278
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **priority\_high**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-#### Defined in
-
-main.ts:221017
+Defined in: main.ts:236281
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:221017
 
 > `optional` **priority\_low**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-#### Defined in
-
-main.ts:221015
+Defined in: main.ts:236279
 
 ***
 
@@ -36,6 +34,4 @@ main.ts:221015
 
 > `optional` **priority\_normal**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-#### Defined in
-
-main.ts:221016
+Defined in: main.ts:236280

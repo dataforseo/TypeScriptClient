@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PeopleAlsoAskExpandedElement
+[Documentation](../README.md) / PeopleAlsoAskExpandedElement
 
 # Class: PeopleAlsoAskExpandedElement
+
+Defined in: main.ts:31759
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new PeopleAlsoAskExpandedElement**(`data`?): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
 
+Defined in: main.ts:31784
+
 #### Parameters
 
-• **data?**: [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md)
+##### data?
+
+[`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md)
 
 #### Returns
 
 [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
-
-#### Defined in
-
-main.ts:29951
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:29951
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:31771
+
 description of the results element in SERP
 
 #### Implementation of
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`description`](../interfaces/IPeopleAlsoAskExpandedElement.md#description)
-
-#### Defined in
-
-main.ts:29937
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:29937
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:31767
+
 domain where a link points
 
 #### Implementation of
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`domain`](../interfaces/IPeopleAlsoAskExpandedElement.md#domain)
-
-#### Defined in
-
-main.ts:29933
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:29933
 
 > `optional` **featured\_title**: `string`
 
+Defined in: main.ts:31763
+
 the title of the featured snippets source page
 
 #### Implementation of
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`featured_title`](../interfaces/IPeopleAlsoAskExpandedElement.md#featured_title)
-
-#### Defined in
-
-main.ts:29929
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:29929
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
+Defined in: main.ts:31773
+
 images of the element
 
 #### Implementation of
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`images`](../interfaces/IPeopleAlsoAskExpandedElement.md#images)
-
-#### Defined in
-
-main.ts:29939
 
 ***
 
@@ -102,22 +96,21 @@ main.ts:29939
 
 > `optional` **table**: [`Table`](Table.md)
 
-results table
-if there are none, equals null
+Defined in: main.ts:31780
+
+table element
 
 #### Implementation of
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`table`](../interfaces/IPeopleAlsoAskExpandedElement.md#table)
-
-#### Defined in
-
-main.ts:29947
 
 ***
 
 ### timestamp?
 
 > `optional` **timestamp**: `string`
+
+Defined in: main.ts:31778
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -128,15 +121,13 @@ example:
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`timestamp`](../interfaces/IPeopleAlsoAskExpandedElement.md#timestamp)
 
-#### Defined in
-
-main.ts:29944
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:31769
 
 title of the carousel item
 
@@ -144,15 +135,13 @@ title of the carousel item
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`title`](../interfaces/IPeopleAlsoAskExpandedElement.md#title)
 
-#### Defined in
-
-main.ts:29935
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:31761
 
 type of element
 
@@ -160,15 +149,13 @@ type of element
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`type`](../interfaces/IPeopleAlsoAskExpandedElement.md#type)
 
-#### Defined in
-
-main.ts:29927
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:31765
 
 URL of element
 
@@ -176,27 +163,23 @@ URL of element
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`url`](../interfaces/IPeopleAlsoAskExpandedElement.md#url)
 
-#### Defined in
-
-main.ts:29931
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:31793
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:29960
 
 ***
 
@@ -204,17 +187,17 @@ main.ts:29960
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:31822
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:29989
 
 ***
 
@@ -222,14 +205,14 @@ main.ts:29989
 
 > `static` **fromJS**(`data`): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
 
+Defined in: main.ts:31815
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
-
-#### Defined in
-
-main.ts:29982

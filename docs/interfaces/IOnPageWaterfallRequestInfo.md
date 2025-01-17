@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageWaterfallRequestInfo
+[Documentation](../README.md) / IOnPageWaterfallRequestInfo
 
 # Interface: IOnPageWaterfallRequestInfo
 
+Defined in: main.ts:170749
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:170755
+
 ID of the task
 required field
 you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
-
-#### Defined in
-
-main.ts:159019
 
 ***
 
@@ -32,15 +32,13 @@ main.ts:159019
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:170765
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:159029
 
 ***
 
@@ -48,10 +46,8 @@ main.ts:159029
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:170759
+
 page URL
 required field
 specify the pages you want to receive timing for
-
-#### Defined in
-
-main.ts:159023

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocationChain
+[Documentation](../README.md) / ILocationChain
 
 # Interface: ILocationChain
 
+Defined in: main.ts:219331
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **card\_id**: `string`
 
+Defined in: main.ts:219333
+
 card identifier
-
-#### Defined in
-
-main.ts:205877
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:205877
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:219339
+
 client id
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:205883
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:205883
 
 > `optional` **feature\_id**: `string`
 
+Defined in: main.ts:219336
+
 feature identifier
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:205880
 
 ***
 
@@ -54,8 +50,6 @@ main.ts:205880
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:219341
+
 title of the element in the location chain
-
-#### Defined in
-
-main.ts:205885

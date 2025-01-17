@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonAmazonReviewItemSerpElementItem
+[Documentation](../README.md) / IAmazonAmazonReviewItemSerpElementItem
 
 # Interface: IAmazonAmazonReviewItemSerpElementItem
+
+Defined in: main.ts:195121
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,12 +22,10 @@
 
 > `optional` **helpful\_votes**: `number`
 
+Defined in: main.ts:195131
+
 helpful votes count
 number of users who clicked on the ‘Helpful” button under the review text
-
-#### Defined in
-
-main.ts:185143
 
 ***
 
@@ -33,11 +33,9 @@ main.ts:185143
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
+Defined in: main.ts:195133
+
 images of the product submitted by the reviewer
-
-#### Defined in
-
-main.ts:185145
 
 ***
 
@@ -45,12 +43,10 @@ main.ts:185145
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:195124
+
 the alignment of the review in SERP
 can take the following values: right
-
-#### Defined in
-
-main.ts:185136
 
 ***
 
@@ -58,20 +54,20 @@ main.ts:185136
 
 > `optional` **publication\_date**: `string`
 
+Defined in: main.ts:195148
+
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:185160
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:23310
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
@@ -80,15 +76,13 @@ absolute position among all the elements in SERP
 
 [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_absolute`](IBaseAmazonSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:22407
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:23307
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -97,21 +91,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_group`](IBaseAmazonSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:22404
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:195150
+
 the rating score submitted by the reviewer
-
-#### Defined in
-
-main.ts:185162
 
 ***
 
@@ -119,11 +107,9 @@ main.ts:185162
 
 > `optional` **review\_text**: `string`
 
+Defined in: main.ts:195143
+
 content of the review
-
-#### Defined in
-
-main.ts:185155
 
 ***
 
@@ -131,11 +117,9 @@ main.ts:185155
 
 > `optional` **subtitle**: `string`
 
+Defined in: main.ts:195128
+
 subtitle of the review
-
-#### Defined in
-
-main.ts:185140
 
 ***
 
@@ -143,11 +127,9 @@ main.ts:185140
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:195139
+
 title of the review
-
-#### Defined in
-
-main.ts:185151
 
 ***
 
@@ -155,15 +137,13 @@ main.ts:185151
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:23304
+
 type of element
 
 #### Inherited from
 
 [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`type`](IBaseAmazonSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:22401
 
 ***
 
@@ -171,11 +151,9 @@ main.ts:22401
 
 > `optional` **url**: `string`
 
-URL to the review
+Defined in: main.ts:195141
 
-#### Defined in
-
-main.ts:185153
+relevant url
 
 ***
 
@@ -183,11 +161,9 @@ main.ts:185153
 
 > `optional` **user\_profile**: [`UserProfileInfo`](../classes/UserProfileInfo.md)
 
+Defined in: main.ts:195137
+
 user profile of the reviewer
-
-#### Defined in
-
-main.ts:185149
 
 ***
 
@@ -195,11 +171,9 @@ main.ts:185149
 
 > `optional` **verified**: `boolean`
 
+Defined in: main.ts:195126
+
 indicates whether the review has the “Verified Purchase” mark
-
-#### Defined in
-
-main.ts:185138
 
 ***
 
@@ -207,11 +181,9 @@ main.ts:185138
 
 > `optional` **videos**: [`VideoElement`](../classes/VideoElement.md)[]
 
+Defined in: main.ts:195135
+
 videos of the product submitted by the reviewer
-
-#### Defined in
-
-main.ts:185147
 
 ***
 
@@ -219,12 +191,10 @@ main.ts:185147
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:23312
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`xpath`](IBaseAmazonSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:22409

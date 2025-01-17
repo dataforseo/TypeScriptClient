@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationCheckGrammarLiveItem
+[Documentation](../README.md) / ContentGenerationCheckGrammarLiveItem
 
 # Class: ContentGenerationCheckGrammarLiveItem
+
+Defined in: main.ts:182824
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentGenerationCheckGrammarLiveItem**(`data`?): [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)
 
+Defined in: main.ts:182851
+
 #### Parameters
 
-• **data?**: [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md)
+##### data?
+
+[`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md)
 
 #### Returns
 
 [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)
-
-#### Defined in
-
-main.ts:171161
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:171161
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:182828
+
 description of the grammar or spelling error
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`description`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#description)
-
-#### Defined in
-
-main.ts:171138
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:171138
 
 > `optional` **length**: `number`
 
+Defined in: main.ts:182834
+
 offset token for subsequent requests
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`length`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#length)
-
-#### Defined in
-
-main.ts:171144
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:171144
 
 > `optional` **message**: `string`
 
+Defined in: main.ts:182826
+
 message of the grammar or spelling error
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`message`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#message)
-
-#### Defined in
-
-main.ts:171136
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:171136
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:182832
+
 offset token for subsequent requests
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`offset`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#offset)
-
-#### Defined in
-
-main.ts:171142
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:171142
 
 > `optional` **rule\_category\_id**: `string`
 
+Defined in: main.ts:182845
+
 id of the rule category
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`rule_category_id`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#rule_category_id)
-
-#### Defined in
-
-main.ts:171155
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:171155
 
 > `optional` **rule\_category\_name**: `string`
 
+Defined in: main.ts:182847
+
 name of the rule category
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`rule_category_name`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#rule_category_name)
-
-#### Defined in
-
-main.ts:171157
 
 ***
 
@@ -134,21 +124,21 @@ main.ts:171157
 
 > `optional` **rule\_description**: `string`
 
+Defined in: main.ts:182841
+
 description of the grammar or spelling rule
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`rule_description`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#rule_description)
 
-#### Defined in
-
-main.ts:171151
-
 ***
 
 ### rule\_id?
 
 > `optional` **rule\_id**: `string`
+
+Defined in: main.ts:182839
 
 id of the grammar or spelling rule
 see the List of Grammar Rules for Content Generation API
@@ -157,15 +147,13 @@ see the List of Grammar Rules for Content Generation API
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`rule_id`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#rule_id)
 
-#### Defined in
-
-main.ts:171149
-
 ***
 
 ### rule\_issue\_type?
 
 > `optional` **rule\_issue\_type**: `string`
+
+Defined in: main.ts:182843
 
 type of the issue found by the relevant rule
 
@@ -173,15 +161,13 @@ type of the issue found by the relevant rule
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`rule_issue_type`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#rule_issue_type)
 
-#### Defined in
-
-main.ts:171153
-
 ***
 
 ### suggestions?
 
 > `optional` **suggestions**: `string`[]
+
+Defined in: main.ts:182830
 
 suggested corrections
 
@@ -189,15 +175,13 @@ suggested corrections
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`suggestions`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#suggestions)
 
-#### Defined in
-
-main.ts:171140
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:182836
 
 type of element
 
@@ -205,27 +189,23 @@ type of element
 
 [`IContentGenerationCheckGrammarLiveItem`](../interfaces/IContentGenerationCheckGrammarLiveItem.md).[`type`](../interfaces/IContentGenerationCheckGrammarLiveItem.md#type)
 
-#### Defined in
-
-main.ts:171146
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:182860
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:171170
 
 ***
 
@@ -233,17 +213,17 @@ main.ts:171170
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:182891
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:171201
 
 ***
 
@@ -251,14 +231,14 @@ main.ts:171201
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)
 
+Defined in: main.ts:182884
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)
-
-#### Defined in
-
-main.ts:171194

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Values
+[Documentation](../README.md) / Values
 
 # Class: Values
+
+Defined in: main.ts:136412
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new Values**(`data`?): [`Values`](Values.md)
 
+Defined in: main.ts:136436
+
 #### Parameters
 
-• **data?**: [`IValues`](../interfaces/IValues.md)
+##### data?
+
+[`IValues`](../interfaces/IValues.md)
 
 #### Returns
 
 [`Values`](Values.md)
-
-#### Defined in
-
-main.ts:126080
 
 ## Properties
 
 ### geo\_id?
 
 > `optional` **geo\_id**: `string`
+
+Defined in: main.ts:136418
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -48,15 +52,13 @@ US-NY
 
 [`IValues`](../interfaces/IValues.md).[`geo_id`](../interfaces/IValues.md#geo_id)
 
-#### Defined in
-
-main.ts:126062
-
 ***
 
 ### geo\_name?
 
 > `optional` **geo\_name**: `string`
+
+Defined in: main.ts:136424
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -68,15 +70,13 @@ Andorra
 
 [`IValues`](../interfaces/IValues.md).[`geo_name`](../interfaces/IValues.md#geo_name)
 
-#### Defined in
-
-main.ts:126068
-
 ***
 
 ### value?
 
 > `optional` **value**: `number`
+
+Defined in: main.ts:136432
 
 relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -90,27 +90,23 @@ a value of 0 means there was not enough data for this term
 
 [`IValues`](../interfaces/IValues.md).[`value`](../interfaces/IValues.md#value)
 
-#### Defined in
-
-main.ts:126076
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:136445
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:126089
 
 ***
 
@@ -118,17 +114,17 @@ main.ts:126089
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:136464
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:126108
 
 ***
 
@@ -136,14 +132,14 @@ main.ts:126108
 
 > `static` **fromJS**(`data`): [`Values`](Values.md)
 
+Defined in: main.ts:136457
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Values`](Values.md)
-
-#### Defined in
-
-main.ts:126101

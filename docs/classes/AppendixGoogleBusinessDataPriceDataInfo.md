@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixGoogleBusinessDataPriceDataInfo
+[Documentation](../README.md) / AppendixGoogleBusinessDataPriceDataInfo
 
 # Class: AppendixGoogleBusinessDataPriceDataInfo
+
+Defined in: main.ts:237794
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixGoogleBusinessDataPriceDataInfo**(`data`?): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237802
+
 #### Parameters
 
-• **data?**: [`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md)
+##### data?
+
+[`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:222574
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:222574
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:237795
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[`live`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#live)
-
-#### Defined in
-
-main.ts:222567
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:222567
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:237796
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[`task_get`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#task_get)
-
-#### Defined in
-
-main.ts:222568
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:222568
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:237797
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[`task_post`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#task_post)
-
-#### Defined in
-
-main.ts:222569
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:222569
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:237798
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceDataInfo`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md).[`tasks_ready`](../interfaces/IAppendixGoogleBusinessDataPriceDataInfo.md#tasks_ready)
-
-#### Defined in
-
-main.ts:222570
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:222570
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:237811
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:222583
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:222583
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:237831
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:222603
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:222603
 
 > `static` **fromJS**(`data`): [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237824
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:222596

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleLocationsResultInfo
+[Documentation](../README.md) / BusinessDataGoogleLocationsResultInfo
 
 # Class: BusinessDataGoogleLocationsResultInfo
+
+Defined in: main.ts:212438
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataGoogleLocationsResultInfo**(`data`?): [`BusinessDataGoogleLocationsResultInfo`](BusinessDataGoogleLocationsResultInfo.md)
 
+Defined in: main.ts:212456
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleLocationsResultInfo`](BusinessDataGoogleLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:200005
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:200005
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:212450
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md).[`country_iso_code`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:199999
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:199999
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:212440
+
 location code
 
 #### Implementation of
 
 [`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:199989
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:199989
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:212442
+
 full name of the location
 
 #### Implementation of
 
 [`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:199991
-
 ***
 
 ### location\_name\_parent?
 
 > `optional` **location\_name\_parent**: `string`
+
+Defined in: main.ts:212448
 
 the name of the superordinate location
 example:
@@ -96,15 +94,13 @@ example:
 
 [`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md).[`location_name_parent`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md#location_name_parent)
 
-#### Defined in
-
-main.ts:199997
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:212452
 
 location type
 
@@ -112,27 +108,23 @@ location type
 
 [`IBusinessDataGoogleLocationsResultInfo`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md).[`location_type`](../interfaces/IBusinessDataGoogleLocationsResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:200001
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:212465
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:200014
 
 ***
 
@@ -140,17 +132,17 @@ main.ts:200014
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:212486
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:200035
 
 ***
 
@@ -158,14 +150,14 @@ main.ts:200035
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleLocationsResultInfo`](BusinessDataGoogleLocationsResultInfo.md)
 
+Defined in: main.ts:212479
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleLocationsResultInfo`](BusinessDataGoogleLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:200028

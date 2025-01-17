@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
+
+Defined in: main.ts:98070
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
 
+Defined in: main.ts:98081
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:88262
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:88262
 
 > `optional` **items**: [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)[]
 
+Defined in: main.ts:98077
+
 contains keywords and related keyword difficulty scores
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:88258
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:88258
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:98075
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:88256
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:98073
 
 language code in a POST array
 if there is no data, then the value is null
@@ -77,27 +77,23 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:88254
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:98090
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:88271
 
 ***
 
@@ -105,17 +101,17 @@ main.ts:88271
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:98113
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:88294
 
 ***
 
@@ -123,14 +119,14 @@ main.ts:88294
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
 
+Defined in: main.ts:98106
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:88287

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleShoppingPaidMerchantSerpElementItem
+[Documentation](../README.md) / IGoogleShoppingPaidMerchantSerpElementItem
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
+
+Defined in: main.ts:186580
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:186588
+
 description of the product in Google Shopping SERP
-
-#### Defined in
-
-main.ts:174758
 
 ***
 
@@ -32,17 +32,17 @@ main.ts:174758
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:186584
+
 domain in SERP
-
-#### Defined in
-
-main.ts:174754
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21813
 
 alignment of the element in SERP
 can take the following values:
@@ -52,15 +52,13 @@ left, right
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21130
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21809
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -69,15 +67,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21126
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21806
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -86,22 +82,16 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21123
-
 ***
 
 ### shop\_ad\_aclk?
 
 > `optional` **shop\_ad\_aclk**: `string`
 
+Defined in: main.ts:186593
+
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
-
-#### Defined in
-
-main.ts:174763
 
 ***
 
@@ -109,11 +99,9 @@ main.ts:174763
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:186586
+
 product title
-
-#### Defined in
-
-main.ts:174756
 
 ***
 
@@ -121,15 +109,13 @@ main.ts:174756
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21803
+
 type of element
 
 #### Inherited from
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21120
 
 ***
 
@@ -137,11 +123,9 @@ main.ts:21120
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:186590
+
 URL to the product page on the seller’s website
-
-#### Defined in
-
-main.ts:174760
 
 ***
 
@@ -149,8 +133,6 @@ main.ts:174760
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:186582
+
 XPath of the element
-
-#### Defined in
-
-main.ts:174752

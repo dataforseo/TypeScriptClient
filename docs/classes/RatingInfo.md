@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RatingInfo
+[Documentation](../README.md) / RatingInfo
 
 # Class: RatingInfo
+
+Defined in: main.ts:24013
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new RatingInfo**(`data`?): [`RatingInfo`](RatingInfo.md)
 
+Defined in: main.ts:24026
+
 #### Parameters
 
-• **data?**: [`IRatingInfo`](../interfaces/IRatingInfo.md)
+##### data?
+
+[`IRatingInfo`](../interfaces/IRatingInfo.md)
 
 #### Returns
 
 [`RatingInfo`](RatingInfo.md)
-
-#### Defined in
-
-main.ts:23123
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:23123
 
 > `optional` **rating\_max**: `number`
 
+Defined in: main.ts:24022
+
 the maximum value for a rating_type
 
 #### Implementation of
 
 [`IRatingInfo`](../interfaces/IRatingInfo.md).[`rating_max`](../interfaces/IRatingInfo.md#rating_max)
 
-#### Defined in
-
-main.ts:23119
-
 ***
 
 ### rating\_type?
 
 > `optional` **rating\_type**: `string`
+
+Defined in: main.ts:24016
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -61,15 +63,13 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 [`IRatingInfo`](../interfaces/IRatingInfo.md).[`rating_type`](../interfaces/IRatingInfo.md#rating_type)
 
-#### Defined in
-
-main.ts:23113
-
 ***
 
 ### value?
 
 > `optional` **value**: `number`
+
+Defined in: main.ts:24018
 
 the value of the rating
 
@@ -77,15 +77,13 @@ the value of the rating
 
 [`IRatingInfo`](../interfaces/IRatingInfo.md).[`value`](../interfaces/IRatingInfo.md#value)
 
-#### Defined in
-
-main.ts:23115
-
 ***
 
 ### votes\_count?
 
 > `optional` **votes\_count**: `number`
+
+Defined in: main.ts:24020
 
 the amount of feedback
 
@@ -93,27 +91,23 @@ the amount of feedback
 
 [`IRatingInfo`](../interfaces/IRatingInfo.md).[`votes_count`](../interfaces/IRatingInfo.md#votes_count)
 
-#### Defined in
-
-main.ts:23117
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24035
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23132
 
 ***
 
@@ -121,17 +115,17 @@ main.ts:23132
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24055
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23152
 
 ***
 
@@ -139,14 +133,14 @@ main.ts:23152
 
 > `static` **fromJS**(`data`): [`RatingInfo`](RatingInfo.md)
 
+Defined in: main.ts:24048
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`RatingInfo`](RatingInfo.md)
-
-#### Defined in
-
-main.ts:23145

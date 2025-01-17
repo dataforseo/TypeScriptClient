@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksPageMeta
+[Documentation](../README.md) / BacklinksPageMeta
 
 # Class: BacklinksPageMeta
+
+Defined in: main.ts:153590
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksPageMeta**(`data`?): [`BacklinksPageMeta`](BacklinksPageMeta.md)
 
+Defined in: main.ts:153638
+
 #### Parameters
 
-• **data?**: [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md)
+##### data?
+
+[`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md)
 
 #### Returns
 
 [`BacklinksPageMeta`](BacklinksPageMeta.md)
-
-#### Defined in
-
-main.ts:142332
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:142332
 
 > `optional` **canonical**: `string`
 
+Defined in: main.ts:153594
+
 canonical page
 
 #### Implementation of
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`canonical`](../interfaces/IBacklinksPageMeta.md#canonical)
 
-#### Defined in
-
-main.ts:142288
-
 ***
 
 ### charset?
 
 > `optional` **charset**: `string`
+
+Defined in: main.ts:153630
 
 character encoding
 examples:
@@ -62,15 +64,13 @@ utf-8
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`charset`](../interfaces/IBacklinksPageMeta.md#charset)
 
-#### Defined in
-
-main.ts:142324
-
 ***
 
 ### external\_links\_count?
 
 > `optional` **external\_links\_count**: `number`
+
+Defined in: main.ts:153598
 
 number of external links on the page
 
@@ -78,15 +78,13 @@ number of external links on the page
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`external_links_count`](../interfaces/IBacklinksPageMeta.md#external_links_count)
 
-#### Defined in
-
-main.ts:142292
-
 ***
 
 ### h1?
 
 > `optional` **h1**: `string`[]
+
+Defined in: main.ts:153612
 
 h1 tag
 content of h1 tags
@@ -95,15 +93,13 @@ content of h1 tags
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`h1`](../interfaces/IBacklinksPageMeta.md#h1)
 
-#### Defined in
-
-main.ts:142306
-
 ***
 
 ### h2?
 
 > `optional` **h2**: `string`[]
+
+Defined in: main.ts:153615
 
 h2 tag
 content of h2 tags
@@ -112,15 +108,13 @@ content of h2 tags
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`h2`](../interfaces/IBacklinksPageMeta.md#h2)
 
-#### Defined in
-
-main.ts:142309
-
 ***
 
 ### h3?
 
 > `optional` **h3**: `string`[]
+
+Defined in: main.ts:153618
 
 h3 tag
 content of h3 tags
@@ -129,15 +123,13 @@ content of h3 tags
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`h3`](../interfaces/IBacklinksPageMeta.md#h3)
 
-#### Defined in
-
-main.ts:142312
-
 ***
 
 ### images\_alt?
 
 > `optional` **images\_alt**: `string`[]
+
+Defined in: main.ts:153620
 
 content of alt tags
 
@@ -145,15 +137,13 @@ content of alt tags
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`images_alt`](../interfaces/IBacklinksPageMeta.md#images_alt)
 
-#### Defined in
-
-main.ts:142314
-
 ***
 
 ### images\_count?
 
 > `optional` **images\_count**: `number`
+
+Defined in: main.ts:153600
 
 number of images on the page
 
@@ -161,15 +151,13 @@ number of images on the page
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`images_count`](../interfaces/IBacklinksPageMeta.md#images_count)
 
-#### Defined in
-
-main.ts:142294
-
 ***
 
 ### internal\_links\_count?
 
 > `optional` **internal\_links\_count**: `number`
+
+Defined in: main.ts:153596
 
 number of internal links on the page
 
@@ -177,15 +165,13 @@ number of internal links on the page
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`internal_links_count`](../interfaces/IBacklinksPageMeta.md#internal_links_count)
 
-#### Defined in
-
-main.ts:142290
-
 ***
 
 ### language?
 
 > `optional` **language**: `string`
+
+Defined in: main.ts:153626
 
 page content language
 example:
@@ -195,15 +181,13 @@ en
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`language`](../interfaces/IBacklinksPageMeta.md#language)
 
-#### Defined in
-
-main.ts:142320
-
 ***
 
 ### page\_spam\_score?
 
 > `optional` **page\_spam\_score**: `number`
+
+Defined in: main.ts:153605
 
 spam score of the page
 learn more about how the metric is calculated on this help center page
@@ -212,15 +196,13 @@ learn more about how the metric is calculated on this help center page
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`page_spam_score`](../interfaces/IBacklinksPageMeta.md#page_spam_score)
 
-#### Defined in
-
-main.ts:142299
-
 ***
 
 ### platform\_type?
 
 > `optional` **platform\_type**: `string`[]
+
+Defined in: main.ts:153632
 
 type of a platform
 
@@ -228,15 +210,13 @@ type of a platform
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`platform_type`](../interfaces/IBacklinksPageMeta.md#platform_type)
 
-#### Defined in
-
-main.ts:142326
-
 ***
 
 ### powered\_by?
 
 > `optional` **powered\_by**: `string`[]
+
+Defined in: main.ts:153622
 
 CMS details
 
@@ -244,15 +224,13 @@ CMS details
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`powered_by`](../interfaces/IBacklinksPageMeta.md#powered_by)
 
-#### Defined in
-
-main.ts:142316
-
 ***
 
 ### social\_media\_tags?
 
 > `optional` **social\_media\_tags**: `object`
+
+Defined in: main.ts:153609
 
 array of social media tags found on the page
 contains social media tags and their content
@@ -260,15 +238,11 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`social_media_tags`](../interfaces/IBacklinksPageMeta.md#social_media_tags)
-
-#### Defined in
-
-main.ts:142303
 
 ***
 
@@ -276,19 +250,17 @@ main.ts:142303
 
 > `optional` **technologies**: `object`
 
+Defined in: main.ts:153634
+
 website technologies
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`technologies`](../interfaces/IBacklinksPageMeta.md#technologies)
-
-#### Defined in
-
-main.ts:142328
 
 ***
 
@@ -296,15 +268,13 @@ main.ts:142328
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:153592
+
 page title
 
 #### Implementation of
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`title`](../interfaces/IBacklinksPageMeta.md#title)
-
-#### Defined in
-
-main.ts:142286
 
 ***
 
@@ -312,15 +282,13 @@ main.ts:142286
 
 > `optional` **words\_count**: `number`
 
+Defined in: main.ts:153602
+
 number of words on the page
 
 #### Implementation of
 
 [`IBacklinksPageMeta`](../interfaces/IBacklinksPageMeta.md).[`words_count`](../interfaces/IBacklinksPageMeta.md#words_count)
-
-#### Defined in
-
-main.ts:142296
 
 ## Methods
 
@@ -328,17 +296,17 @@ main.ts:142296
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:153647
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:142341
 
 ***
 
@@ -346,17 +314,17 @@ main.ts:142341
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:153716
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:142410
 
 ***
 
@@ -364,14 +332,14 @@ main.ts:142410
 
 > `static` **fromJS**(`data`): [`BacklinksPageMeta`](BacklinksPageMeta.md)
 
+Defined in: main.ts:153709
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksPageMeta`](BacklinksPageMeta.md)
-
-#### Defined in
-
-main.ts:142403

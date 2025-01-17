@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLanguagesResultInfo
+[Documentation](../README.md) / SerpGoogleLanguagesResultInfo
 
 # Class: SerpGoogleLanguagesResultInfo
+
+Defined in: main.ts:27163
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpGoogleLanguagesResultInfo**(`data`?): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
+Defined in: main.ts:27171
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md)
+##### data?
+
+[`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:26101
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:26101
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:27167
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpGoogleLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:26097
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:26097
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:27165
+
 language name
 
 #### Implementation of
 
 [`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpGoogleLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:26095
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:26095
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:27180
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:26110
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:26110
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:27198
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:26128
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:26128
 
 > `static` **fromJS**(`data`): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
+Defined in: main.ts:27191
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:26121

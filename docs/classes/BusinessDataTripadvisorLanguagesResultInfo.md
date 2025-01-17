@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorLanguagesResultInfo
+[Documentation](../README.md) / BusinessDataTripadvisorLanguagesResultInfo
 
 # Class: BusinessDataTripadvisorLanguagesResultInfo
+
+Defined in: main.ts:227536
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataTripadvisorLanguagesResultInfo**(`data`?): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
 
+Defined in: main.ts:227544
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:212510
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:212510
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:227540
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md).[`language_code`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:212506
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:212506
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:227538
+
 language name
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorLanguagesResultInfo`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md).[`language_name`](../interfaces/IBusinessDataTripadvisorLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:212504
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:212504
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:227553
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:212519
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:212519
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:227571
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:212537
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:212537
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
 
+Defined in: main.ts:227564
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTripadvisorLanguagesResultInfo`](BusinessDataTripadvisorLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:212530

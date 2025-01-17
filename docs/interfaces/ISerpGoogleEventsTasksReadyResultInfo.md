@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleEventsTasksReadyResultInfo
+[Documentation](../README.md) / ISerpGoogleEventsTasksReadyResultInfo
 
 # Interface: ISerpGoogleEventsTasksReadyResultInfo
 
+Defined in: main.ts:48397
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:48407
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:45557
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:45557
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:48415
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:45565
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:45565
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:48418
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:45568
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:45568
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:48412
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:45562
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:45562
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:48400
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:45550
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:45550
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:48402
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:45552
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:45552
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:48405
+
 type of search engine
 example: events
-
-#### Defined in
-
-main.ts:45555
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:45555
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:48409
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:45559

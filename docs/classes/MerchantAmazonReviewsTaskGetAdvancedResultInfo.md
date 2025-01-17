@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedResultInfo
+
+Defined in: main.ts:197366
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MerchantAmazonReviewsTaskGetAdvancedResultInfo**(`data`?): [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:197412
+
 #### Parameters
 
-• **data?**: [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:185213
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:185213
 
 > `optional` **asin**: `string`
 
+Defined in: main.ts:197368
+
 asin received in a POST array
 
 #### Implementation of
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`asin`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#asin)
 
-#### Defined in
-
-main.ts:185169
-
 ***
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:197379
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -61,15 +63,13 @@ you can use it to make sure that we provided accurate results
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:185180
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:197384
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -80,15 +80,13 @@ example:
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:185185
-
 ***
 
 ### image?
 
 > `optional` **image**: [`ImagesElement`](ImagesElement.md)
+
+Defined in: main.ts:197392
 
 product image data
 
@@ -96,15 +94,13 @@ product image data
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`image`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#image)
 
-#### Defined in
-
-main.ts:185193
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:197402
 
 type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
@@ -115,15 +111,13 @@ amazon_review_item
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:185203
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
+
+Defined in: main.ts:197408
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -132,15 +126,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
-
-main.ts:185209
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:197405
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -149,15 +141,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:185206
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:197376
 
 language code in a POST array
 
@@ -165,15 +155,13 @@ language code in a POST array
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:185177
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:197374
 
 location code in a POST array
 
@@ -181,15 +169,13 @@ location code in a POST array
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:185175
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
+
+Defined in: main.ts:197395
 
 rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP
@@ -198,15 +184,13 @@ popularity rate based on reviews and displayed in SERP
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`rating`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#rating)
 
-#### Defined in
-
-main.ts:185196
-
 ***
 
 ### reviews\_count?
 
 > `optional` **reviews\_count**: `number`
+
+Defined in: main.ts:197397
 
 the total number of reviews
 
@@ -214,15 +198,13 @@ the total number of reviews
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`reviews_count`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#reviews_count)
 
-#### Defined in
-
-main.ts:185198
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:197372
 
 search engine domain in a POST array
 
@@ -230,15 +212,13 @@ search engine domain in a POST array
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:185173
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:197387
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -247,15 +227,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:185188
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:197390
 
 title of the product on Amazon
 the title of the product for which the reviews are collected
@@ -264,15 +242,13 @@ the title of the product for which the reviews are collected
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`title`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#title)
 
-#### Defined in
-
-main.ts:185191
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:197370
 
 type of element
 
@@ -280,27 +256,23 @@ type of element
 
 [`IMerchantAmazonReviewsTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/IMerchantAmazonReviewsTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:185171
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:197421
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:185222
 
 ***
 
@@ -308,17 +280,17 @@ main.ts:185222
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:197460
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:185261
 
 ***
 
@@ -326,14 +298,14 @@ main.ts:185261
 
 > `static` **fromJS**(`data`): [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:197453
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantAmazonReviewsTaskGetAdvancedResultInfo`](MerchantAmazonReviewsTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:185254

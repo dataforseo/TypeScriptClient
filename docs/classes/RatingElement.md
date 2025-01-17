@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RatingElement
+[Documentation](../README.md) / RatingElement
 
 # Class: RatingElement
+
+Defined in: main.ts:21896
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new RatingElement**(`data`?): [`RatingElement`](RatingElement.md)
 
+Defined in: main.ts:21915
+
 #### Parameters
 
-• **data?**: [`IRatingElement`](../interfaces/IRatingElement.md)
+##### data?
+
+[`IRatingElement`](../interfaces/IRatingElement.md)
 
 #### Returns
 
 [`RatingElement`](RatingElement.md)
-
-#### Defined in
-
-main.ts:21232
 
 ## Properties
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21911
 
 the alignment of the element in Google Shopping SERP
 possible values:
@@ -46,15 +50,13 @@ left, right
 
 [`IRatingElement`](../interfaces/IRatingElement.md).[`position`](../interfaces/IRatingElement.md#position)
 
-#### Defined in
-
-main.ts:21219
-
 ***
 
 ### rating\_max?
 
 > `optional` **rating\_max**: `number`
+
+Defined in: main.ts:21905
 
 the maximum value for a rating_type
 
@@ -62,15 +64,13 @@ the maximum value for a rating_type
 
 [`IRatingElement`](../interfaces/IRatingElement.md).[`rating_max`](../interfaces/IRatingElement.md#rating_max)
 
-#### Defined in
-
-main.ts:21228
-
 ***
 
 ### rating\_type?
 
 > `optional` **rating\_type**: `string`
+
+Defined in: main.ts:21899
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -79,15 +79,13 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 [`IRatingElement`](../interfaces/IRatingElement.md).[`rating_type`](../interfaces/IRatingElement.md#rating_type)
 
-#### Defined in
-
-main.ts:21222
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21907
 
 type of element
 
@@ -95,25 +93,19 @@ type of element
 
 [`IRatingElement`](../interfaces/IRatingElement.md).[`type`](../interfaces/IRatingElement.md#type)
 
-#### Defined in
-
-main.ts:21215
-
 ***
 
 ### value?
 
-> `optional` **value**: `string`
+> `optional` **value**: `number`
 
-value of the rating
+Defined in: main.ts:21901
+
+the value of the rating
 
 #### Implementation of
 
 [`IRatingElement`](../interfaces/IRatingElement.md).[`value`](../interfaces/IRatingElement.md#value)
-
-#### Defined in
-
-main.ts:21224
 
 ***
 
@@ -121,15 +113,13 @@ main.ts:21224
 
 > `optional` **votes\_count**: `number`
 
-the amount of feedback
+Defined in: main.ts:21903
+
+the amount of feedbac
 
 #### Implementation of
 
 [`IRatingElement`](../interfaces/IRatingElement.md).[`votes_count`](../interfaces/IRatingElement.md#votes_count)
-
-#### Defined in
-
-main.ts:21226
 
 ## Methods
 
@@ -137,17 +127,17 @@ main.ts:21226
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:21924
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:21241
 
 ***
 
@@ -155,17 +145,17 @@ main.ts:21241
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:21946
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:21263
 
 ***
 
@@ -173,14 +163,14 @@ main.ts:21263
 
 > `static` **fromJS**(`data`): [`RatingElement`](RatingElement.md)
 
+Defined in: main.ts:21939
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`RatingElement`](RatingElement.md)
-
-#### Defined in
-
-main.ts:21256

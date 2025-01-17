@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / WorkTimeInfo
+[Documentation](../README.md) / WorkTimeInfo
 
 # Class: WorkTimeInfo
+
+Defined in: main.ts:23034
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new WorkTimeInfo**(`data`?): [`WorkTimeInfo`](WorkTimeInfo.md)
 
+Defined in: main.ts:23042
+
 #### Parameters
 
-• **data?**: [`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md)
+##### data?
+
+[`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md)
 
 #### Returns
 
 [`WorkTimeInfo`](WorkTimeInfo.md)
-
-#### Defined in
-
-main.ts:22139
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:22139
 
 > `optional` **hour**: `number`
 
+Defined in: main.ts:23036
+
 hours in the 24-hour format
 
 #### Implementation of
 
 [`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md).[`hour`](../interfaces/IWorkTimeInfo.md#hour)
-
-#### Defined in
-
-main.ts:22133
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:22133
 
 > `optional` **minute**: `number`
 
+Defined in: main.ts:23038
+
 minutes
 
 #### Implementation of
 
 [`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md).[`minute`](../interfaces/IWorkTimeInfo.md#minute)
-
-#### Defined in
-
-main.ts:22135
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:22135
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:23051
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22148
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:22148
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23069
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22166
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:22166
 
 > `static` **fromJS**(`data`): [`WorkTimeInfo`](WorkTimeInfo.md)
 
+Defined in: main.ts:23062
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`WorkTimeInfo`](WorkTimeInfo.md)
-
-#### Defined in
-
-main.ts:22159

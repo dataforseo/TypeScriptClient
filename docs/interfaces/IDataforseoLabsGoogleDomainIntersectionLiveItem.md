@@ -21,7 +21,11 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:93789
+=======
+main.ts:93822
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -33,7 +37,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:93786
+=======
+main.ts:93819
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -45,7 +53,11 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:93784
+=======
+main.ts:93817
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -58,4 +70,8 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:93792
+=======
+main.ts:93825
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

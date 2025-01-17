@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBingLanguagesResultInfo
+[Documentation](../README.md) / ISerpBingLanguagesResultInfo
 
 # Interface: ISerpBingLanguagesResultInfo
 
+Defined in: main.ts:63236
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:63240
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:57107
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:57107
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:63238
+
 language name
-
-#### Defined in
-
-main.ts:57105

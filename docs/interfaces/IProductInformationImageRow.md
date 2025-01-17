@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInformationImageRow
+[Documentation](../README.md) / IProductInformationImageRow
 
 # Interface: IProductInformationImageRow
+
+Defined in: main.ts:194307
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **alt**: `string`
 
+Defined in: main.ts:194309
+
 alternative text of the related product image
-
-#### Defined in
-
-main.ts:182090
 
 ***
 
@@ -32,15 +32,13 @@ main.ts:182090
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24373
+
 type of element
 
 #### Inherited from
 
 [`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md).[`type`](IBaseProductInformationRowItem.md#type)
-
-#### Defined in
-
-main.ts:23475
 
 ***
 
@@ -48,8 +46,6 @@ main.ts:23475
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:194311
+
 URL of the image
-
-#### Defined in
-
-main.ts:182092

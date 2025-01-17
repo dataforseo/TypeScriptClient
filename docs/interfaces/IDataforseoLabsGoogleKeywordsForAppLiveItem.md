@@ -1,26 +1,26 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForAppLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForAppLiveItem
 
 # Interface: IDataforseoLabsGoogleKeywordsForAppLiveItem
 
+Defined in: main.ts:121773
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
+
+Defined in: main.ts:121777
 
 keyword data for the returned keyword
-
-#### Defined in
-
-main.ts:112344
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:112344
 
 > `optional` **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](../classes/AppRankedSerpElementInfo.md)
 
+Defined in: main.ts:121779
+
 contains data on the domain’s SERP element found for the returned keyword
-
-#### Defined in
-
-main.ts:112346
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:112346
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:121775
+
 search engine type
-
-#### Defined in
-
-main.ts:112342

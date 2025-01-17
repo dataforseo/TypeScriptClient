@@ -1,26 +1,26 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
+[Documentation](../README.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveItem
 
+Defined in: main.ts:113395
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### keyword\_data?
 
-> `optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
+
+Defined in: main.ts:113399
 
 keyword data for the returned keyword
-
-#### Defined in
-
-main.ts:103660
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:103660
 
 > `optional` **ranked\_serp\_element**: [`AmazonRankedSerpElement`](../classes/AmazonRankedSerpElement.md)
 
+Defined in: main.ts:113401
+
 contains data on the products’s SERP element found for the returned keyword
-
-#### Defined in
-
-main.ts:103662
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:103662
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:113397
+
 search engine type
-
-#### Defined in
-
-main.ts:103658

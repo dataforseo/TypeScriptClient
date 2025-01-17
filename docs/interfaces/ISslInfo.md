@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISslInfo
+[Documentation](../README.md) / ISslInfo
 
 # Interface: ISslInfo
 
+Defined in: main.ts:165254
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **certificate\_expiration\_date**: `string`
 
+Defined in: main.ts:165275
+
 ssl certificate expiration date
 the date and time when the ssl certificate expires
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:153547
 
 ***
 
@@ -32,12 +32,10 @@ main.ts:153547
 
 > `optional` **certificate\_hash**: `string`
 
+Defined in: main.ts:165269
+
 ssl certificate hash
 the version of the ssl certificate’s hash function
-
-#### Defined in
-
-main.ts:153541
 
 ***
 
@@ -45,12 +43,10 @@ main.ts:153541
 
 > `optional` **certificate\_issuer**: `string`
 
+Defined in: main.ts:165260
+
 ssl certificate authority
 the entity that issued the detected ssl certificate
-
-#### Defined in
-
-main.ts:153532
 
 ***
 
@@ -58,12 +54,10 @@ main.ts:153532
 
 > `optional` **certificate\_subject**: `string`
 
+Defined in: main.ts:165263
+
 ssl certificate subject
 the entity associated with the public key
-
-#### Defined in
-
-main.ts:153535
 
 ***
 
@@ -71,12 +65,10 @@ main.ts:153535
 
 > `optional` **certificate\_version**: `string`
 
+Defined in: main.ts:165266
+
 ssl certificate version
 indicates the version of X.509 used by an ssl certificate
-
-#### Defined in
-
-main.ts:153538
 
 ***
 
@@ -84,9 +76,7 @@ main.ts:153538
 
 > `optional` **valid\_certificate**: `boolean`
 
+Defined in: main.ts:165257
+
 ssl certificate validity
 indicates whether the ssl certificate detected on a website is not expired, suspended, revoked or invalid
-
-#### Defined in
-
-main.ts:153529

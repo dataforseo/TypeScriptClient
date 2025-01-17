@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskPostRequestInfo
 
+Defined in: main.ts:228740
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:228799
 
 parsing depth
 optional field
@@ -23,32 +27,28 @@ we strongly recommend setting the parsing depth in the multiples of ten, because
 default value: 10;
 max value: 4490
 
-#### Defined in
-
-main.ts:213757
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:228754
+
 keyword
 required field if you do not specify url_path
 the keyword you specify should indicate a name of an existing business or prominent place on Tripadvisor;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
-
-#### Defined in
-
-main.ts:213712
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:228792
 
 search engine language code
 optional field
@@ -59,15 +59,13 @@ en
 You will be additionally charged for setting a language parameter in this endpoint.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:213750
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:228783
 
 full name of search engine language
 optional field
@@ -78,15 +76,13 @@ English
 You will be additionally charged for setting a language parameter in this endpoint.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:213741
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:228766
 
 search engine location code
 required field if you don’t specify location_name or url_path
@@ -94,15 +90,13 @@ you can receive the list of available locations with location_code by making a s
 example:
 1003854
 
-#### Defined in
-
-main.ts:213724
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:228760
 
 full name of search engine location
 required field if you don’t specify location_code or url_path
@@ -110,30 +104,26 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:213718
-
 ***
 
 ### months?
 
 > `optional` **months**: `string`[]
 
+Defined in: main.ts:228815
+
 filter by months when a traveler made a visit
 optional field
 possible values: january, february, march, april, may, april, june, july, august, september, october, november, december
 you can specify several values at once
-
-#### Defined in
-
-main.ts:213773
 
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:228861
 
 notification URL of a completed task
 optional field
@@ -142,18 +132,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:213817
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:228850
 
 return URL for sending task results
 optional field
@@ -162,18 +151,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:213807
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:228774
 
 task priority
 optional field
@@ -183,15 +171,13 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:213732
-
 ***
 
 ### ratings?
 
 > `optional` **ratings**: `string`[]
+
+Defined in: main.ts:228805
 
 Tripadvisor traveler rating for a place of interest
 optional field
@@ -199,29 +185,25 @@ rating based on the written reviews by a traveler after they visited a place.
 possible values: excellent, very_good, average, poor, terrible
 you can specify several values at once
 
-#### Defined in
-
-main.ts:213763
-
 ***
 
 ### search\_reviews\_keyword?
 
 > `optional` **search\_reviews\_keyword**: `string`
 
+Defined in: main.ts:228819
+
 search reviews containing a specified keyword
 example:
 dessert
-
-#### Defined in
-
-main.ts:213777
 
 ***
 
 ### sort\_by?
 
 > `optional` **sort\_by**: `string`
+
+Defined in: main.ts:228826
 
 results sorting parameters
 optional field
@@ -230,15 +212,13 @@ possible types of sorting:
 most_recent
 detailed_reviews
 
-#### Defined in
-
-main.ts:213784
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:228839
 
 user-defined task identifier
 optional field
@@ -246,15 +226,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:213797
-
 ***
 
 ### translate\_reviews?
 
 > `optional` **translate\_reviews**: `boolean`
+
+Defined in: main.ts:228833
 
 translate reviews according to the URL path
 optional field
@@ -263,15 +241,13 @@ for example, if url_path contains tripadvisor.it and translate_reviews is true, 
 default value: true
 you can learn more about how reviews are translated in this Help Center article
 
-#### Defined in
-
-main.ts:213791
-
 ***
 
 ### url\_path?
 
 > `optional` **url\_path**: `string`
+
+Defined in: main.ts:228747
 
 URL path of the business entity
 required field if you do not specify keyword
@@ -280,21 +256,15 @@ examples:
 Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html
 https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html
 
-#### Defined in
-
-main.ts:213705
-
 ***
 
 ### visit\_type?
 
 > `optional` **visit\_type**: `string`[]
 
+Defined in: main.ts:228810
+
 filter by type of travelers who left a review
 optional field
 possible values: families, couples, solo, business, friends
 you can specify several values at once
-
-#### Defined in
-
-main.ts:213768

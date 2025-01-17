@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBingLanguagesResultInfo
+[Documentation](../README.md) / SerpBingLanguagesResultInfo
 
 # Class: SerpBingLanguagesResultInfo
+
+Defined in: main.ts:63189
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpBingLanguagesResultInfo**(`data`?): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
+Defined in: main.ts:63197
+
 #### Parameters
 
-• **data?**: [`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md)
+##### data?
+
+[`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md)
 
 #### Returns
 
 [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:57064
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:57064
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:63193
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpBingLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:57060
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:57060
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:63191
+
 language name
 
 #### Implementation of
 
 [`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpBingLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:57058
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:57058
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:63206
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:57073
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:57073
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:63224
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:57091
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:57091
 
 > `static` **fromJS**(`data`): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
+Defined in: main.ts:63217
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:57084

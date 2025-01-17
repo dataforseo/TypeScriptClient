@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IStocksBoxDataforseoLabsSerpElementItem
+[Documentation](../README.md) / IStocksBoxDataforseoLabsSerpElementItem
 
 # Interface: IStocksBoxDataforseoLabsSerpElementItem
+
+Defined in: main.ts:109054
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **domain**: `string`
 
-website domain
+Defined in: main.ts:109067
 
-#### Defined in
-
-main.ts:99230
+domain where a link points
 
 ***
 
@@ -32,17 +32,17 @@ main.ts:99230
 
 > `optional` **graph**: [`Graph`](../classes/Graph.md)
 
+Defined in: main.ts:109072
+
 contains data provided in the graph of the element
-
-#### Defined in
-
-main.ts:99235
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21703
 
 the alignment of the element in SERP
 can take the following values:
@@ -52,27 +52,23 @@ left, right
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21020
-
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+
+Defined in: main.ts:109063
 
 price of the shopping element
-
-#### Defined in
-
-main.ts:99226
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21699
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -81,15 +77,13 @@ absolute position among all the elements in SERP
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21016
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21696
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -98,21 +92,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21013
-
 ***
 
 ### snippet?
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:109061
+
 text alongside the link title
-
-#### Defined in
-
-main.ts:99224
 
 ***
 
@@ -120,12 +108,10 @@ main.ts:99224
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:109059
+
 source of the element
 indicates the source of information included in the shopping_element
-
-#### Defined in
-
-main.ts:99222
 
 ***
 
@@ -133,12 +119,10 @@ main.ts:99222
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
+Defined in: main.ts:109070
+
 results table
 if there are none, equals null
-
-#### Defined in
-
-main.ts:99233
 
 ***
 
@@ -146,11 +130,9 @@ main.ts:99233
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:109056
+
 title of the result in SERP
-
-#### Defined in
-
-main.ts:99219
 
 ***
 
@@ -158,15 +140,13 @@ main.ts:99219
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21693
+
 type of element
 
 #### Inherited from
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21010
 
 ***
 
@@ -174,11 +154,9 @@ main.ts:21010
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:109065
+
 relevant URL of the Ad element in SERP
-
-#### Defined in
-
-main.ts:99228
 
 ***
 
@@ -186,12 +164,10 @@ main.ts:99228
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21705
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:21022

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPagePagesRequestInfo
+[Documentation](../README.md) / OnPagePagesRequestInfo
 
 # Class: OnPagePagesRequestInfo
+
+Defined in: main.ts:165862
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPagePagesRequestInfo**(`data`?): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
+Defined in: main.ts:165913
+
 #### Parameters
 
-• **data?**: [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md)
+##### data?
+
+[`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md)
 
 #### Returns
 
 [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
-
-#### Defined in
-
-main.ts:154185
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:165889
 
 array of results filtering parameters
 optional field
@@ -53,15 +57,13 @@ example:
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`filters`](../interfaces/IOnPagePagesRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:154161
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:165868
 
 ID of the task
 required field
@@ -73,15 +75,13 @@ example:
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`id`](../interfaces/IOnPagePagesRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:154140
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:165873
 
 the maximum number of returned pages
 optional field
@@ -92,15 +92,13 @@ maximum value: 1000
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`limit`](../interfaces/IOnPagePagesRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:154145
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:165878
 
 offset in the results array of returned pages
 optional field
@@ -111,15 +109,13 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`offset`](../interfaces/IOnPagePagesRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:154150
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:165903
 
 results sorting rules
 optional field
@@ -139,15 +135,13 @@ example:
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`order_by`](../interfaces/IOnPagePagesRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:154175
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:165909
 
 user-defined task identifier
 optional field
@@ -159,27 +153,23 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`tag`](../interfaces/IOnPagePagesRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:154181
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:165922
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:154194
 
 ***
 
@@ -187,17 +177,17 @@ main.ts:154194
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:165952
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:154224
 
 ***
 
@@ -205,14 +195,14 @@ main.ts:154224
 
 > `static` **fromJS**(`data`): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
+Defined in: main.ts:165945
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
-
-#### Defined in
-
-main.ts:154217

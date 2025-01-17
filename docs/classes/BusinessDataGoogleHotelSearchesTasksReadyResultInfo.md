@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataGoogleHotelSearchesTasksReadyResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesTasksReadyResultInfo
+
+Defined in: main.ts:216718
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataGoogleHotelSearchesTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
 
+Defined in: main.ts:216736
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:203469
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:203469
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:216728
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:203461
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:203461
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:216732
+
 URL for collecting the results of the task
 
 #### Implementation of
 
 [`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
-
-main.ts:203465
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:216721
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -77,15 +77,13 @@ unique task identifier in our system in the UUID format
 
 [`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:203454
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:216724
 
 search engine specified when setting the task
 can take the following values: google
@@ -94,15 +92,13 @@ can take the following values: google
 
 [`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:203457
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:216726
 
 search engine type
 
@@ -110,15 +106,13 @@ search engine type
 
 [`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:203459
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:216730
 
 user-defined task identifier
 
@@ -126,27 +120,23 @@ user-defined task identifier
 
 [`IBusinessDataGoogleHotelSearchesTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataGoogleHotelSearchesTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:203463
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:216745
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:203478
 
 ***
 
@@ -154,17 +144,17 @@ main.ts:203478
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:216767
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:203500
 
 ***
 
@@ -172,14 +162,14 @@ main.ts:203500
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
 
+Defined in: main.ts:216760
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleHotelSearchesTasksReadyResultInfo`](BusinessDataGoogleHotelSearchesTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:203493

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOtherSitesReviewsInfo
+[Documentation](../README.md) / IOtherSitesReviewsInfo
 
 # Interface: IOtherSitesReviewsInfo
 
+Defined in: main.ts:219621
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:219633
+
 rating in the review
 information about the rating enclosed in the review on a third-party site
-
-#### Defined in
-
-main.ts:206177
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:206177
 
 > `optional` **review\_text**: `string`
 
+Defined in: main.ts:219630
+
 review text
 text of the review
-
-#### Defined in
-
-main.ts:206174
 
 ***
 
@@ -42,12 +40,10 @@ main.ts:206174
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:219624
+
 review title
 contains a name of the third-party site where review initially appeared
-
-#### Defined in
-
-main.ts:206168
 
 ***
 
@@ -55,9 +51,7 @@ main.ts:206168
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:219627
+
 review url
 URL to the a third-party site where review initially appeared
-
-#### Defined in
-
-main.ts:206171

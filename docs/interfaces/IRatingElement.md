@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRatingElement
+[Documentation](../README.md) / IRatingElement
 
 # Interface: IRatingElement
 
+Defined in: main.ts:21962
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:21977
+
 the alignment of the element in Google Shopping SERP
 possible values:
 left, right
-
-#### Defined in
-
-main.ts:21285
 
 ***
 
@@ -30,11 +30,9 @@ main.ts:21285
 
 > `optional` **rating\_max**: `number`
 
+Defined in: main.ts:21971
+
 the maximum value for a rating_type
-
-#### Defined in
-
-main.ts:21294
 
 ***
 
@@ -42,12 +40,10 @@ main.ts:21294
 
 > `optional` **rating\_type**: `string`
 
+Defined in: main.ts:21965
+
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
-
-#### Defined in
-
-main.ts:21288
 
 ***
 
@@ -55,23 +51,19 @@ main.ts:21288
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21973
+
 type of element
-
-#### Defined in
-
-main.ts:21281
 
 ***
 
 ### value?
 
-> `optional` **value**: `string`
+> `optional` **value**: `number`
 
-value of the rating
+Defined in: main.ts:21967
 
-#### Defined in
-
-main.ts:21290
+the value of the rating
 
 ***
 
@@ -79,8 +71,6 @@ main.ts:21290
 
 > `optional` **votes\_count**: `number`
 
-the amount of feedback
+Defined in: main.ts:21969
 
-#### Defined in
-
-main.ts:21292
+the amount of feedbac

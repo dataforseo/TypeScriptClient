@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleLanguagesResultInfo
+[Documentation](../README.md) / IAppDataAppleLanguagesResultInfo
 
 # Interface: IAppDataAppleLanguagesResultInfo
 
+Defined in: main.ts:205149
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:205153
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:192716
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:192716
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:205151
+
 language name
-
-#### Defined in
-
-main.ts:192714

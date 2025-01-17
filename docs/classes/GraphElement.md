@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GraphElement
+[Documentation](../README.md) / GraphElement
 
 # Class: GraphElement
+
+Defined in: main.ts:34957
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new GraphElement**(`data`?): [`GraphElement`](GraphElement.md)
 
+Defined in: main.ts:34967
+
 #### Parameters
 
-• **data?**: [`IGraphElement`](../interfaces/IGraphElement.md)
+##### data?
+
+[`IGraphElement`](../interfaces/IGraphElement.md)
 
 #### Returns
 
 [`GraphElement`](GraphElement.md)
-
-#### Defined in
-
-main.ts:33175
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:33175
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:34961
+
 the posting date
 
 #### Implementation of
 
 [`IGraphElement`](../interfaces/IGraphElement.md).[`date`](../interfaces/IGraphElement.md#date)
-
-#### Defined in
-
-main.ts:33169
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:33169
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:34959
+
 type of element
 
 #### Implementation of
 
 [`IGraphElement`](../interfaces/IGraphElement.md).[`type`](../interfaces/IGraphElement.md#type)
-
-#### Defined in
-
-main.ts:33167
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:33167
 
 > `optional` **value**: `number`
 
+Defined in: main.ts:34963
+
 the value of the rating
 
 #### Implementation of
 
 [`IGraphElement`](../interfaces/IGraphElement.md).[`value`](../interfaces/IGraphElement.md#value)
-
-#### Defined in
-
-main.ts:33171
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:33171
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:34976
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:33184
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:33184
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:34995
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:33203
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:33203
 
 > `static` **fromJS**(`data`): [`GraphElement`](GraphElement.md)
 
+Defined in: main.ts:34988
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`GraphElement`](GraphElement.md)
-
-#### Defined in
-
-main.ts:33196

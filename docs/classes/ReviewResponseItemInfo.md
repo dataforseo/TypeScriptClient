@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ReviewResponseItemInfo
+[Documentation](../README.md) / ReviewResponseItemInfo
 
 # Class: ReviewResponseItemInfo
+
+Defined in: main.ts:22479
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ReviewResponseItemInfo**(`data`?): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
+Defined in: main.ts:22489
+
 #### Parameters
 
-• **data?**: [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md)
+##### data?
+
+[`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md)
 
 #### Returns
 
 [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
-
-#### Defined in
-
-main.ts:21586
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:21586
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:22483
+
 the content of response
 
 #### Implementation of
 
 [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`text`](../interfaces/IReviewResponseItemInfo.md#text)
-
-#### Defined in
-
-main.ts:21580
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:21580
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:22485
+
 the time of publication
 
 #### Implementation of
 
 [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`timestamp`](../interfaces/IReviewResponseItemInfo.md#timestamp)
-
-#### Defined in
-
-main.ts:21582
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:21582
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:22481
+
 the title of response
 
 #### Implementation of
 
 [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`title`](../interfaces/IReviewResponseItemInfo.md#title)
-
-#### Defined in
-
-main.ts:21578
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:21578
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:22498
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:21595
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:21595
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:22517
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:21614
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:21614
 
 > `static` **fromJS**(`data`): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
+Defined in: main.ts:22510
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
-
-#### Defined in
-
-main.ts:21607

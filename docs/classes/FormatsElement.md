@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FormatsElement
+[Documentation](../README.md) / FormatsElement
 
 # Class: FormatsElement
+
+Defined in: main.ts:57648
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new FormatsElement**(`data`?): [`FormatsElement`](FormatsElement.md)
 
+Defined in: main.ts:57659
+
 #### Parameters
 
-• **data?**: [`IFormatsElement`](../interfaces/IFormatsElement.md)
+##### data?
+
+[`IFormatsElement`](../interfaces/IFormatsElement.md)
 
 #### Returns
 
 [`FormatsElement`](FormatsElement.md)
-
-#### Defined in
-
-main.ts:53897
 
 ## Properties
 
 ### format?
 
 > `optional` **format**: `string`
+
+Defined in: main.ts:57653
 
 type of file format of the dataset
 for example: zip, html, csv
@@ -45,15 +49,13 @@ for example: zip, html, csv
 
 [`IFormatsElement`](../interfaces/IFormatsElement.md).[`format`](../interfaces/IFormatsElement.md#format)
 
-#### Defined in
-
-main.ts:53891
-
 ***
 
 ### size?
 
 > `optional` **size**: `string`
+
+Defined in: main.ts:57655
 
 file size in bytes
 
@@ -61,15 +63,13 @@ file size in bytes
 
 [`IFormatsElement`](../interfaces/IFormatsElement.md).[`size`](../interfaces/IFormatsElement.md#size)
 
-#### Defined in
-
-main.ts:53893
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:57650
 
 type of element
 
@@ -77,27 +77,23 @@ type of element
 
 [`IFormatsElement`](../interfaces/IFormatsElement.md).[`type`](../interfaces/IFormatsElement.md#type)
 
-#### Defined in
-
-main.ts:53888
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:57668
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:53906
 
 ***
 
@@ -105,17 +101,17 @@ main.ts:53906
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:57687
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:53925
 
 ***
 
@@ -123,14 +119,14 @@ main.ts:53925
 
 > `static` **fromJS**(`data`): [`FormatsElement`](FormatsElement.md)
 
+Defined in: main.ts:57680
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`FormatsElement`](FormatsElement.md)
-
-#### Defined in
-
-main.ts:53918

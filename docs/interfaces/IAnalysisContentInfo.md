@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAnalysisContentInfo
+[Documentation](../README.md) / IAnalysisContentInfo
 
 # Interface: IAnalysisContentInfo
 
+Defined in: main.ts:177926
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:177941
+
 author of the content
-
-#### Defined in
-
-main.ts:166251
 
 ***
 
@@ -28,17 +28,15 @@ main.ts:166251
 
 > `optional` **connotation\_types**: `object`
 
+Defined in: main.ts:177961
+
 connotation types
 contains types of sentiments (sentiment polarity) related to the given citation and probability index per each sentiment type
 possible sentiment connotation types: positive, negative, neutral
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:166271
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -46,12 +44,10 @@ main.ts:166271
 
 > `optional` **content\_quality\_score**: `number`
 
+Defined in: main.ts:177972
+
 content quality score
 this value is calculated based on the number of words, sentences and characters the content contains
-
-#### Defined in
-
-main.ts:166282
 
 ***
 
@@ -59,13 +55,11 @@ main.ts:166282
 
 > `optional` **content\_type**: `string`
 
+Defined in: main.ts:177930
+
 type of content
 example:
 page_content, comment
-
-#### Defined in
-
-main.ts:166240
 
 ***
 
@@ -73,20 +67,20 @@ main.ts:166240
 
 > `optional` **date\_published**: `string`
 
+Defined in: main.ts:177969
+
 date and time when the content was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
-
-#### Defined in
-
-main.ts:166279
 
 ***
 
 ### group\_date?
 
 > `optional` **group\_date**: `string`
+
+Defined in: main.ts:177987
 
 citation group date and time
 indicates content publication date or date and time when our crawler visited the page for the first time;
@@ -95,21 +89,15 @@ date and time are provided in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
 
-#### Defined in
-
-main.ts:166297
-
 ***
 
 ### highlighted\_text?
 
 > `optional` **highlighted\_text**: `string`
 
+Defined in: main.ts:177950
+
 highlighted text from the snippet
-
-#### Defined in
-
-main.ts:166260
 
 ***
 
@@ -117,12 +105,10 @@ main.ts:166260
 
 > `optional` **language**: `string`
 
+Defined in: main.ts:177953
+
 content language
 to obtain a full list of available languages, refer to the Languages endpoint
-
-#### Defined in
-
-main.ts:166263
 
 ***
 
@@ -130,12 +116,10 @@ main.ts:166263
 
 > `optional` **level**: `number`
 
+Defined in: main.ts:177939
+
 title heading level
 indicates h-tag level from 1 (top) to 6 (bottom)
-
-#### Defined in
-
-main.ts:166249
 
 ***
 
@@ -143,11 +127,9 @@ main.ts:166249
 
 > `optional` **main\_title**: `string`
 
+Defined in: main.ts:177934
+
 page title
-
-#### Defined in
-
-main.ts:166244
 
 ***
 
@@ -155,11 +137,9 @@ main.ts:166244
 
 > `optional` **previous\_title**: `string`
 
+Defined in: main.ts:177936
+
 title of the previous content block
-
-#### Defined in
-
-main.ts:166246
 
 ***
 
@@ -167,12 +147,10 @@ main.ts:166246
 
 > `optional` **rating**: [`ContentAnalysisRatingInfo`](../classes/ContentAnalysisRatingInfo.md)
 
+Defined in: main.ts:177980
+
 content rating
 rating related to content_info
-
-#### Defined in
-
-main.ts:166290
 
 ***
 
@@ -180,14 +158,12 @@ main.ts:166290
 
 > `optional` **semantic\_location**: `string`
 
+Defined in: main.ts:177977
+
 semantic location
 indicates semantic element in HTML where the target keyword citation is located
 example:
 article, header
-
-#### Defined in
-
-main.ts:166287
 
 ***
 
@@ -195,17 +171,15 @@ main.ts:166287
 
 > `optional` **sentiment\_connotations**: `object`
 
+Defined in: main.ts:177957
+
 sentiment connotations
 contains sentiments (emotional reactions) related to the given citation and probability index per each sentiment
 possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:166267
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -213,11 +187,9 @@ main.ts:166267
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:177943
+
 content snippet
-
-#### Defined in
-
-main.ts:166253
 
 ***
 
@@ -225,11 +197,9 @@ main.ts:166253
 
 > `optional` **snippet\_length**: `number`
 
+Defined in: main.ts:177945
+
 character length of the snippet
-
-#### Defined in
-
-main.ts:166255
 
 ***
 
@@ -237,12 +207,10 @@ main.ts:166255
 
 > `optional` **social\_metrics**: [`SocialMetricsInfo`](../classes/SocialMetricsInfo.md)[]
 
+Defined in: main.ts:177948
+
 social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms
-
-#### Defined in
-
-main.ts:166258
 
 ***
 
@@ -250,12 +218,10 @@ main.ts:166258
 
 > `optional` **text\_category**: `number`[]
 
+Defined in: main.ts:177964
+
 text category
 to obtain a full list of available categories, refer to the Categories endpoint
-
-#### Defined in
-
-main.ts:166274
 
 ***
 
@@ -263,8 +229,6 @@ main.ts:166274
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:177932
+
 title of the result
-
-#### Defined in
-
-main.ts:166242

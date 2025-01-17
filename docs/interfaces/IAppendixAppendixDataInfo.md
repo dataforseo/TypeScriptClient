@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixAppendixDataInfo
+[Documentation](../README.md) / IAppendixAppendixDataInfo
 
 # Interface: IAppendixAppendixDataInfo
 
+Defined in: main.ts:233033
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:217959
+Defined in: main.ts:233035
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:217959
 
 > `optional` **status**: `number`
 
-#### Defined in
-
-main.ts:217960
+Defined in: main.ts:233036
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:217960
 
 > `optional` **test**: `number`
 
-#### Defined in
-
-main.ts:217961
+Defined in: main.ts:233037
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:217961
 
 > `optional` **user\_data**: `number`
 
-#### Defined in
-
-main.ts:217958
+Defined in: main.ts:233034

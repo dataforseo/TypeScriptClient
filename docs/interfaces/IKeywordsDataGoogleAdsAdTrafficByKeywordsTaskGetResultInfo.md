@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResultInfo
 
+Defined in: main.ts:131833
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **average\_cpc**: `number`
 
+Defined in: main.ts:131871
+
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:121529
 
 ***
 
@@ -30,15 +30,13 @@ main.ts:121529
 
 > `optional` **bid**: `number`
 
+Defined in: main.ts:131855
+
 the maximum custom bid
 the bid you have specified when setting the task
 represents the price you are willing to pay for an ad
 the higher value you have specified, the higher metrics and cost you receive in response
 learn more in this help center article
-
-#### Defined in
-
-main.ts:121513
 
 ***
 
@@ -46,13 +44,11 @@ main.ts:121513
 
 > `optional` **clicks**: `number`
 
+Defined in: main.ts:131879
+
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:121537
 
 ***
 
@@ -60,13 +56,11 @@ main.ts:121537
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:131875
+
 charge for an ad
 amount that will be charged for running an ad within the specified time period
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:121533
 
 ***
 
@@ -74,13 +68,11 @@ main.ts:121533
 
 > `optional` **ctr**: `number`
 
+Defined in: main.ts:131867
+
 projected clickthrough rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:121525
 
 ***
 
@@ -88,11 +80,9 @@ main.ts:121525
 
 > `optional` **date\_interval**: `string`
 
+Defined in: main.ts:131844
+
 forecasting date interval in a POST array
-
-#### Defined in
-
-main.ts:121502
 
 ***
 
@@ -100,14 +90,12 @@ main.ts:121502
 
 > `optional` **impressions**: `number`
 
+Defined in: main.ts:131863
+
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
 if there is no data, then the value is null
 learn more about impressions in this help center article
-
-#### Defined in
-
-main.ts:121521
 
 ***
 
@@ -115,12 +103,10 @@ main.ts:121521
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:131836
+
 keyword in a POST array
 metrics are provided for all the keywords specified in the POST array
-
-#### Defined in
-
-main.ts:121494
 
 ***
 
@@ -128,12 +114,10 @@ main.ts:121494
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:131842
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:121500
 
 ***
 
@@ -141,12 +125,10 @@ main.ts:121500
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:131839
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:121497
 
 ***
 
@@ -154,12 +136,10 @@ main.ts:121497
 
 > `optional` **match**: `string`
 
+Defined in: main.ts:131858
+
 keywords match-type
 can take the following values: exact, broad, phrase
-
-#### Defined in
-
-main.ts:121516
 
 ***
 
@@ -167,11 +147,9 @@ main.ts:121516
 
 > `optional` **search\_partners**: `boolean`
 
+Defined in: main.ts:131849
+
 include Google search partners
 the value you specified when setting the task
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 if false, the results are returned for Google search sites only
-
-#### Defined in
-
-main.ts:121507

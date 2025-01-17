@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
+
+Defined in: main.ts:131994
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
 
+Defined in: main.ts:132098
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:121755
 
 ## Properties
 
 ### bid?
 
 > `optional` **bid**: `number`
+
+Defined in: main.ts:132012
 
 the maximum custom bid
 required field
@@ -48,15 +52,13 @@ learn more in this help center article
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`bid`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#bid)
 
-#### Defined in
-
-main.ts:121669
-
 ***
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:132068
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -72,15 +74,13 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:121725
-
 ***
 
 ### date\_interval?
 
 > `optional` **date\_interval**: `string`
+
+Defined in: main.ts:132083
 
 forecasting date interval
 optional field
@@ -92,15 +92,13 @@ default value: next_month
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`date_interval`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#date_interval)
 
-#### Defined in
-
-main.ts:121740
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:132077
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -115,15 +113,13 @@ example:
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:121734
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:132006
 
 keywords
 required field
@@ -134,21 +130,20 @@ the keywords you specify will be converted to a lowercase format
 Note: Google Ads may return no data for certain groups of keywords
 visit our Help Center to learn more
 Also note that Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:121663
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:132058
 
 search engine language code
 optional field
@@ -160,15 +155,13 @@ en
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:121715
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:132052
 
 full name of search engine language
 optional field
@@ -180,15 +173,13 @@ English
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:121709
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:132037
 
 search engine location code
 optional field
@@ -202,15 +193,13 @@ example:
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:121694
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:132046
 
 GPS coordinates of a location
 optional field
@@ -225,15 +214,13 @@ example:
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:121703
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:132029
 
 full name of search engine location
 optional field
@@ -247,15 +234,13 @@ London,England,United Kingdom
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:121686
-
 ***
 
 ### match?
 
 > `optional` **match**: `string`
+
+Defined in: main.ts:132016
 
 keywords match-type
 required field
@@ -265,15 +250,13 @@ can take the following values: exact, broad, phrase
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`match`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#match)
 
-#### Defined in
-
-main.ts:121673
-
 ***
 
 ### search\_partners?
 
 > `optional` **search\_partners**: `boolean`
+
+Defined in: main.ts:132021
 
 include Google search partners
 optional field
@@ -284,15 +267,13 @@ default value: false – results are returned for Google search sites
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`search_partners`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#search_partners)
 
-#### Defined in
-
-main.ts:121678
-
 ***
 
 ### sort\_by?
 
 > `optional` **sort\_by**: `string`
+
+Defined in: main.ts:132088
 
 results sorting parameters
 optional field
@@ -303,15 +284,13 @@ default value: relevance
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`sort_by`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#sort_by)
 
-#### Defined in
-
-main.ts:121745
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:132094
 
 user-defined task identifier
 optional field
@@ -323,27 +302,23 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:121751
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:132107
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:121764
 
 ***
 
@@ -351,17 +326,17 @@ main.ts:121764
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:132141
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:121798
 
 ***
 
@@ -369,14 +344,14 @@ main.ts:121798
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
 
+Defined in: main.ts:132134
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:121791

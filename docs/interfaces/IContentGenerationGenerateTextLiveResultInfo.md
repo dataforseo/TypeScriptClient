@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateTextLiveResultInfo
+[Documentation](../README.md) / IContentGenerationGenerateTextLiveResultInfo
 
 # Interface: IContentGenerationGenerateTextLiveResultInfo
 
+Defined in: main.ts:181799
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **generated\_text**: `string`
 
+Defined in: main.ts:181807
+
 resulting text
-
-#### Defined in
-
-main.ts:170117
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:170117
 
 > `optional` **input\_tokens**: `number`
 
+Defined in: main.ts:181801
+
 number of input tokens
-
-#### Defined in
-
-main.ts:170111
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:170111
 
 > `optional` **new\_tokens**: `number`
 
+Defined in: main.ts:181805
+
 number of new tokens
-
-#### Defined in
-
-main.ts:170115
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:170115
 
 > `optional` **output\_tokens**: `number`
 
+Defined in: main.ts:181803
+
 number of output tokens
-
-#### Defined in
-
-main.ts:170113
 
 ***
 
@@ -64,10 +58,8 @@ main.ts:170113
 
 > `optional` **supplement\_token**: `string`
 
+Defined in: main.ts:181811
+
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
 supplement_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:170121

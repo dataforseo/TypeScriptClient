@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisAvailableFiltersResultInfo
+[Documentation](../README.md) / ContentAnalysisAvailableFiltersResultInfo
 
 # Class: ContentAnalysisAvailableFiltersResultInfo
+
+Defined in: main.ts:176702
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentAnalysisAvailableFiltersResultInfo**(`data`?): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:176707
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md)
+##### data?
+
+[`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:165017
 
 ## Properties
 
@@ -38,17 +40,15 @@ main.ts:165017
 
 > `optional` **search**: `object`
 
+Defined in: main.ts:176703
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md).[`search`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md#search)
-
-#### Defined in
-
-main.ts:165013
 
 ## Methods
 
@@ -56,17 +56,17 @@ main.ts:165013
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:176716
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:165026
 
 ***
 
@@ -74,17 +74,17 @@ main.ts:165026
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:176739
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:165049
 
 ***
 
@@ -92,14 +92,14 @@ main.ts:165049
 
 > `static` **fromJS**(`data`): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:176732
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:165042

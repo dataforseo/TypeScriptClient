@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleImageImagesSearchSerpElementItem
+[Documentation](../README.md) / IGoogleImageImagesSearchSerpElementItem
 
 # Interface: IGoogleImageImagesSearchSerpElementItem
+
+Defined in: main.ts:50953
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **alt**: `string`
 
+Defined in: main.ts:50959
+
 the alt tag of the image
-
-#### Defined in
-
-main.ts:47765
 
 ***
 
@@ -32,17 +32,17 @@ main.ts:47765
 
 > `optional` **encoded\_url**: `string`
 
+Defined in: main.ts:50965
+
 the URL of the cached version of the image stored on Google’s servers
-
-#### Defined in
-
-main.ts:47771
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:50805
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -51,15 +51,13 @@ absolute position among all the elements in SERP
 
 [`IBaseGoogleImagesSerpElementItem`](IBaseGoogleImagesSerpElementItem.md).[`rank_absolute`](IBaseGoogleImagesSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:47611
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:50802
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -69,21 +67,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseGoogleImagesSerpElementItem`](IBaseGoogleImagesSerpElementItem.md).[`rank_group`](IBaseGoogleImagesSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:47608
-
 ***
 
 ### source\_url?
 
 > `optional` **source\_url**: `string`
 
+Defined in: main.ts:50963
+
 the URL of the source image
-
-#### Defined in
-
-main.ts:47769
 
 ***
 
@@ -91,11 +83,9 @@ main.ts:47769
 
 > `optional` **subtitle**: `string`
 
+Defined in: main.ts:50957
+
 subtitle of the result in SERP
-
-#### Defined in
-
-main.ts:47763
 
 ***
 
@@ -103,11 +93,9 @@ main.ts:47763
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:50955
+
 title of the result in SERP
-
-#### Defined in
-
-main.ts:47761
 
 ***
 
@@ -115,15 +103,13 @@ main.ts:47761
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:50798
+
 type of element
 
 #### Inherited from
 
 [`IBaseGoogleImagesSerpElementItem`](IBaseGoogleImagesSerpElementItem.md).[`type`](IBaseGoogleImagesSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:47604
 
 ***
 
@@ -131,11 +117,9 @@ main.ts:47604
 
 > `optional` **url**: `string`
 
-the URL of the page where the image is hosted
+Defined in: main.ts:50961
 
-#### Defined in
-
-main.ts:47767
+search URL with refinement parameters
 
 ***
 
@@ -143,12 +127,10 @@ main.ts:47767
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:50807
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseGoogleImagesSerpElementItem`](IBaseGoogleImagesSerpElementItem.md).[`xpath`](IBaseGoogleImagesSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:47613

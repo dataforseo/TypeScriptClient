@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveItem
+[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveItem
 
 # Class: BacklinksTimeseriesSummaryLiveItem
+
+Defined in: main.ts:159446
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksTimeseriesSummaryLiveItem**(`data`?): [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
 
+Defined in: main.ts:159482
+
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md)
+##### data?
+
+[`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md)
 
 #### Returns
 
 [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
-
-#### Defined in
-
-main.ts:148176
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:148176
 
 > `optional` **backlinks**: `number`
 
+Defined in: main.ts:159458
+
 number of backlinks for the given date
 
 #### Implementation of
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`backlinks`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#backlinks)
-
-#### Defined in
-
-main.ts:148152
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:148152
 
 > `optional` **backlinks\_nofollow**: `number`
 
+Defined in: main.ts:159460
+
 number of nofollow backlinks for the given date
 
 #### Implementation of
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`backlinks_nofollow`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#backlinks_nofollow)
 
-#### Defined in
-
-main.ts:148154
-
 ***
 
 ### date?
 
 > `optional` **date**: `string`
+
+Defined in: main.ts:159453
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -79,15 +79,13 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`date`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#date)
 
-#### Defined in
-
-main.ts:148147
-
 ***
 
 ### rank?
 
 > `optional` **rank**: `number`
+
+Defined in: main.ts:159456
 
 target rank for the given date
 learn more about the metric and how it is calculated in this help center article
@@ -96,15 +94,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`rank`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#rank)
 
-#### Defined in
-
-main.ts:148150
-
 ***
 
 ### referring\_domains?
 
 > `optional` **referring\_domains**: `number`
+
+Defined in: main.ts:159467
 
 number of referring domains for the given date
 referring domains include subdomains that are counted as separate domains for this metric
@@ -113,15 +109,13 @@ referring domains include subdomains that are counted as separate domains for th
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_domains`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_domains)
 
-#### Defined in
-
-main.ts:148161
-
 ***
 
 ### referring\_domains\_nofollow?
 
 > `optional` **referring\_domains\_nofollow**: `number`
+
+Defined in: main.ts:159469
 
 number of domains pointing at least one nofollow link to the target for the given date
 
@@ -129,15 +123,13 @@ number of domains pointing at least one nofollow link to the target for the give
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_domains_nofollow`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_domains_nofollow)
 
-#### Defined in
-
-main.ts:148163
-
 ***
 
 ### referring\_ips?
 
 > `optional` **referring\_ips**: `number`
+
+Defined in: main.ts:159476
 
 number of referring IP addresses for the given date
 number of IP addresses pointing to this page
@@ -146,15 +138,13 @@ number of IP addresses pointing to this page
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_ips`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_ips)
 
-#### Defined in
-
-main.ts:148170
-
 ***
 
 ### referring\_main\_domains?
 
 > `optional` **referring\_main\_domains**: `number`
+
+Defined in: main.ts:159471
 
 number of referring main domains for the given date
 
@@ -162,15 +152,13 @@ number of referring main domains for the given date
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_main_domains`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_main_domains)
 
-#### Defined in
-
-main.ts:148165
-
 ***
 
 ### referring\_main\_domains\_nofollow?
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
+
+Defined in: main.ts:159473
 
 number of main domains pointing at least one nofollow link to the target for the given date
 
@@ -178,15 +166,13 @@ number of main domains pointing at least one nofollow link to the target for the
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_main_domains_nofollow)
 
-#### Defined in
-
-main.ts:148167
-
 ***
 
 ### referring\_pages?
 
 > `optional` **referring\_pages**: `number`
+
+Defined in: main.ts:159462
 
 number of pages pointing to target for the given date
 
@@ -194,15 +180,13 @@ number of pages pointing to target for the given date
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_pages`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_pages)
 
-#### Defined in
-
-main.ts:148156
-
 ***
 
 ### referring\_pages\_nofollow?
 
 > `optional` **referring\_pages\_nofollow**: `number`
+
+Defined in: main.ts:159464
 
 number of referring pages pointing at least one nofollow link to the target for the given date
 
@@ -210,15 +194,13 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_pages_nofollow`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_pages_nofollow)
 
-#### Defined in
-
-main.ts:148158
-
 ***
 
 ### referring\_subnets?
 
 > `optional` **referring\_subnets**: `number`
+
+Defined in: main.ts:159478
 
 number of referring subnetworks for the given date
 
@@ -226,15 +208,13 @@ number of referring subnetworks for the given date
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_subnets`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_subnets)
 
-#### Defined in
-
-main.ts:148172
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:159448
 
 type of element
 
@@ -242,27 +222,23 @@ type of element
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`type`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#type)
 
-#### Defined in
-
-main.ts:148142
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:159491
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:148185
 
 ***
 
@@ -270,17 +246,17 @@ main.ts:148185
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:159520
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:148214
 
 ***
 
@@ -288,14 +264,14 @@ main.ts:148214
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
 
+Defined in: main.ts:159513
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
-
-#### Defined in
-
-main.ts:148207

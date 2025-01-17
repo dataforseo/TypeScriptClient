@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GpsCoordinatesLocationInfo
+[Documentation](../README.md) / GpsCoordinatesLocationInfo
 
 # Class: GpsCoordinatesLocationInfo
+
+Defined in: main.ts:216912
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new GpsCoordinatesLocationInfo**(`data`?): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
+Defined in: main.ts:216924
+
 #### Parameters
 
-• **data?**: [`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md)
+##### data?
+
+[`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md)
 
 #### Returns
 
 [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
-
-#### Defined in
-
-main.ts:203657
 
 ## Properties
 
 ### latitude?
 
 > `optional` **latitude**: `number`
+
+Defined in: main.ts:216916
 
 latitude coordinate of the hotel in google maps
 example:
@@ -46,15 +50,13 @@ example:
 
 [`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md).[`latitude`](../interfaces/IGpsCoordinatesLocationInfo.md#latitude)
 
-#### Defined in
-
-main.ts:203649
-
 ***
 
 ### longitude?
 
 > `optional` **longitude**: `number`
+
+Defined in: main.ts:216920
 
 longitude coordinate of the hotel in google maps
 example:
@@ -64,27 +66,23 @@ example:
 
 [`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md).[`longitude`](../interfaces/IGpsCoordinatesLocationInfo.md#longitude)
 
-#### Defined in
-
-main.ts:203653
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:216933
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:203666
 
 ***
 
@@ -92,17 +90,17 @@ main.ts:203666
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:216951
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:203684
 
 ***
 
@@ -110,14 +108,14 @@ main.ts:203684
 
 > `static` **fromJS**(`data`): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
+Defined in: main.ts:216944
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
-
-#### Defined in
-
-main.ts:203677

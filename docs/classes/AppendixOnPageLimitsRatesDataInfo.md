@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixOnPageLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixOnPageLimitsRatesDataInfo
 
 # Class: AppendixOnPageLimitsRatesDataInfo
+
+Defined in: main.ts:231776
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixOnPageLimitsRatesDataInfo**(`data`?): [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231800
+
 #### Parameters
 
-• **data?**: [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216740
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216740
 
 > `optional` **content\_parsing**: `number`
 
+Defined in: main.ts:231795
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`content_parsing`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#content_parsing)
-
-#### Defined in
-
-main.ts:216735
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216735
 
 > `optional` **content\_parsing\_live**: `number`
 
+Defined in: main.ts:231796
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`content_parsing_live`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#content_parsing_live)
-
-#### Defined in
-
-main.ts:216736
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:216736
 
 > `optional` **duplicate\_content**: `number`
 
+Defined in: main.ts:231788
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`duplicate_content`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#duplicate_content)
-
-#### Defined in
-
-main.ts:216728
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:216728
 
 > `optional` **duplicate\_tags**: `number`
 
+Defined in: main.ts:231783
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`duplicate_tags`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#duplicate_tags)
-
-#### Defined in
-
-main.ts:216723
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:216723
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:231786
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#errors)
-
-#### Defined in
-
-main.ts:216726
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:216726
 
 > `optional` **instant\_pages**: `number`
 
+Defined in: main.ts:231790
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`instant_pages`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#instant_pages)
-
-#### Defined in
-
-main.ts:216730
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:216730
 
 > `optional` **keyword\_density**: `number`
 
+Defined in: main.ts:231793
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`keyword_density`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#keyword_density)
-
-#### Defined in
-
-main.ts:216733
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:216733
 
 > `optional` **lighthouse**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231792
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`lighthouse`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#lighthouse)
-
-#### Defined in
-
-main.ts:216732
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:216732
 
 > `optional` **links**: `number`
 
+Defined in: main.ts:231784
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`links`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#links)
-
-#### Defined in
-
-main.ts:216724
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:216724
 
 > `optional` **non\_indexable**: `number`
 
+Defined in: main.ts:231782
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`non_indexable`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#non_indexable)
-
-#### Defined in
-
-main.ts:216722
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:216722
 
 > `optional` **page\_screenshot**: `number`
 
+Defined in: main.ts:231794
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`page_screenshot`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#page_screenshot)
-
-#### Defined in
-
-main.ts:216734
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:216734
 
 > `optional` **pages**: `number`
 
+Defined in: main.ts:231781
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`pages`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#pages)
-
-#### Defined in
-
-main.ts:216721
 
 ***
 
@@ -206,13 +184,11 @@ main.ts:216721
 
 > `optional` **pages\_by\_resource**: `number`
 
+Defined in: main.ts:231787
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`pages_by_resource`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#pages_by_resource)
-
-#### Defined in
-
-main.ts:216727
 
 ***
 
@@ -220,13 +196,11 @@ main.ts:216727
 
 > `optional` **raw\_html**: `number`
 
+Defined in: main.ts:231789
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`raw_html`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#raw_html)
-
-#### Defined in
-
-main.ts:216729
 
 ***
 
@@ -234,13 +208,11 @@ main.ts:216729
 
 > `optional` **redirect\_chains**: `number`
 
+Defined in: main.ts:231791
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`redirect_chains`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#redirect_chains)
-
-#### Defined in
-
-main.ts:216731
 
 ***
 
@@ -248,13 +220,11 @@ main.ts:216731
 
 > `optional` **resources**: `number`
 
+Defined in: main.ts:231780
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`resources`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#resources)
-
-#### Defined in
-
-main.ts:216720
 
 ***
 
@@ -262,13 +232,11 @@ main.ts:216720
 
 > `optional` **summary**: `number`
 
+Defined in: main.ts:231779
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`summary`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#summary)
-
-#### Defined in
-
-main.ts:216719
 
 ***
 
@@ -276,13 +244,11 @@ main.ts:216719
 
 > `optional` **task\_post**: `number`
 
+Defined in: main.ts:231777
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`task_post`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#task_post)
-
-#### Defined in
-
-main.ts:216717
 
 ***
 
@@ -290,13 +256,11 @@ main.ts:216717
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:231778
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#tasks_ready)
-
-#### Defined in
-
-main.ts:216718
 
 ***
 
@@ -304,13 +268,11 @@ main.ts:216718
 
 > `optional` **waterfall**: `number`
 
+Defined in: main.ts:231785
+
 #### Implementation of
 
 [`IAppendixOnPageLimitsRatesDataInfo`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md).[`waterfall`](../interfaces/IAppendixOnPageLimitsRatesDataInfo.md#waterfall)
-
-#### Defined in
-
-main.ts:216725
 
 ## Methods
 
@@ -318,17 +280,17 @@ main.ts:216725
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231809
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216749
 
 ***
 
@@ -336,17 +298,17 @@ main.ts:216749
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231845
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216785
 
 ***
 
@@ -354,14 +316,14 @@ main.ts:216785
 
 > `static` **fromJS**(`data`): [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231838
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216778

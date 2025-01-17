@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageTasksReadyResultInfo
+[Documentation](../README.md) / OnPageTasksReadyResultInfo
 
 # Class: OnPageTasksReadyResultInfo
+
+Defined in: main.ts:165002
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageTasksReadyResultInfo**(`data`?): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
 
+Defined in: main.ts:165015
+
 #### Parameters
 
-• **data?**: [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md)
+##### data?
+
+[`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md)
 
 #### Returns
 
 [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:153287
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:153287
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:165009
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md).[`date_posted`](../interfaces/IOnPageTasksReadyResultInfo.md#date_posted)
 
-#### Defined in
-
-main.ts:153281
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:165005
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -61,15 +63,13 @@ unique task identifier in our system in the UUID format
 
 [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md).[`id`](../interfaces/IOnPageTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:153277
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:165011
 
 user-defined task identifier
 
@@ -77,15 +77,13 @@ user-defined task identifier
 
 [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md).[`tag`](../interfaces/IOnPageTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:153283
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:165007
 
 target website specified when setting a task
 
@@ -93,27 +91,23 @@ target website specified when setting a task
 
 [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md).[`target`](../interfaces/IOnPageTasksReadyResultInfo.md#target)
 
-#### Defined in
-
-main.ts:153279
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:165024
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:153296
 
 ***
 
@@ -121,17 +115,17 @@ main.ts:153296
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:165044
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:153316
 
 ***
 
@@ -139,14 +133,14 @@ main.ts:153316
 
 > `static` **fromJS**(`data`): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
 
+Defined in: main.ts:165037
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:153309

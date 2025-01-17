@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentGenerationPriceData
+[Documentation](../README.md) / IAppendixContentGenerationPriceData
 
 # Interface: IAppendixContentGenerationPriceData
 
+Defined in: main.ts:238314
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,59 +18,47 @@
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationPriceDataInfo`](../classes/AppendixContentGenerationPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223027
+Defined in: main.ts:238315
 
 ***
 
 ### generate?
 
-> `optional` **generate**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223028
+Defined in: main.ts:238316
 
 ***
 
 ### generate\_meta\_tags?
 
-> `optional` **generate\_meta\_tags**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_meta\_tags**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223029
+Defined in: main.ts:238317
 
 ***
 
 ### generate\_sub\_topics?
 
-> `optional` **generate\_sub\_topics**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_sub\_topics**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223030
+Defined in: main.ts:238318
 
 ***
 
 ### generate\_text?
 
-> `optional` **generate\_text**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_text**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223031
+Defined in: main.ts:238319
 
 ***
 
 ### paraphrase?
 
-> `optional` **paraphrase**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **paraphrase**: [`AppendixBingKeywordsDataPriceDataInfo`](../classes/AppendixBingKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223032
+Defined in: main.ts:238320
 
 ***
 
@@ -76,6 +66,4 @@ main.ts:223032
 
 > `optional` **text\_summary**: [`AppendixContentGenerationPriceDataInfo`](../classes/AppendixContentGenerationPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223033
+Defined in: main.ts:238321

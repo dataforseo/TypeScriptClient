@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixWhoisDomainAnalyticsPriceData
+[Documentation](../README.md) / AppendixWhoisDomainAnalyticsPriceData
 
 # Class: AppendixWhoisDomainAnalyticsPriceData
+
+Defined in: main.ts:238506
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,31 +22,29 @@
 
 > **new AppendixWhoisDomainAnalyticsPriceData**(`data`?): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
+Defined in: main.ts:238511
+
 #### Parameters
 
-• **data?**: [`IAppendixWhoisDomainAnalyticsPriceData`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md)
+##### data?
+
+[`IAppendixWhoisDomainAnalyticsPriceData`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md)
 
 #### Returns
 
 [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-#### Defined in
-
-main.ts:223223
-
 ## Properties
 
 ### overview?
 
-> `optional` **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **overview**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238507
 
 #### Implementation of
 
 [`IAppendixWhoisDomainAnalyticsPriceData`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md).[`overview`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md#overview)
-
-#### Defined in
-
-main.ts:223219
 
 ## Methods
 
@@ -52,17 +52,17 @@ main.ts:223219
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:238520
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:223232
 
 ***
 
@@ -70,17 +70,17 @@ main.ts:223232
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:238537
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:223249
 
 ***
 
@@ -88,14 +88,14 @@ main.ts:223249
 
 > `static` **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
+Defined in: main.ts:238530
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
-
-#### Defined in
-
-main.ts:223242

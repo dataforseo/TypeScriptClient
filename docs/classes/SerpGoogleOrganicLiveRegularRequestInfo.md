@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleOrganicLiveRegularRequestInfo
+[Documentation](../README.md) / SerpGoogleOrganicLiveRegularRequestInfo
 
 # Class: SerpGoogleOrganicLiveRegularRequestInfo
+
+Defined in: main.ts:38721
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleOrganicLiveRegularRequestInfo**(`data`?): [`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)
 
+Defined in: main.ts:38842
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md)
+##### data?
+
+[`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)
-
-#### Defined in
-
-main.ts:37318
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:38802
 
 parsing depth
 optional field
@@ -51,15 +55,13 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`depth`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:37278
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:38779
 
 device type
 optional field
@@ -70,15 +72,13 @@ default value: desktop
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`device`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:37255
-
 ***
 
 ### group\_organic\_results?
 
 > `optional` **group\_organic\_results**: `boolean`
+
+Defined in: main.ts:38821
 
 display related results
 optional field
@@ -90,38 +90,34 @@ default value: true
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`group_organic_results`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#group_organic_results)
 
-#### Defined in
-
-main.ts:37297
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:38736
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
 
 #### Implementation of
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#keyword)
 
-#### Defined in
-
-main.ts:37212
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:38774
 
 search engine language code
 required field if you don’t specify language_name
@@ -134,15 +130,13 @@ en
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:37250
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:38767
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -155,15 +149,13 @@ English
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:37243
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:38750
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -176,15 +168,13 @@ example:
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:37226
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:38760
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -200,15 +190,13 @@ example:
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:37236
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:38743
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -221,15 +209,13 @@ London,England,United Kingdom
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:37219
-
 ***
 
 ### max\_crawl\_pages?
 
 > `optional` **max\_crawl\_pages**: `number`
+
+Defined in: main.ts:38828
 
 page crawl limit
 optional field
@@ -242,15 +228,13 @@ learn more at our help center
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#max_crawl_pages)
 
-#### Defined in
-
-main.ts:37304
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:38786
 
 device operating system
 optional field
@@ -263,15 +247,13 @@ default value: android
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`os`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:37262
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:38793
 
 search engine domain
 optional field
@@ -284,15 +266,13 @@ google.co.uk, google.com.au, google.de, etc.
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`se_domain`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:37269
-
 ***
 
 ### search\_param?
 
 > `optional` **search\_param**: `string`
+
+Defined in: main.ts:38832
 
 additional parameters of the search query
 optional field
@@ -302,15 +282,13 @@ get the list of available parameters and additional details here
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`search_param`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#search_param)
 
-#### Defined in
-
-main.ts:37308
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:38838
 
 user-defined task identifier
 optional field
@@ -322,15 +300,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`tag`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:37314
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:38815
 
 target domain, subdomain, or webpage to get results for
 optional field
@@ -349,15 +325,13 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`target`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:37291
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:38727
 
 direct URL of the search query
 optional field
@@ -369,27 +343,23 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 [`ISerpGoogleOrganicLiveRegularRequestInfo`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md).[`url`](../interfaces/ISerpGoogleOrganicLiveRegularRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:37203
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:38851
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:37327
 
 ***
 
@@ -397,17 +367,17 @@ main.ts:37327
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:38883
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:37359
 
 ***
 
@@ -415,14 +385,14 @@ main.ts:37359
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)
 
+Defined in: main.ts:38876
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleOrganicLiveRegularRequestInfo`](SerpGoogleOrganicLiveRegularRequestInfo.md)
-
-#### Defined in
-
-main.ts:37352

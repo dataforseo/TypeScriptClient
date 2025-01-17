@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForSiteLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForSiteLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForSiteLiveResultInfo
 
+Defined in: main.ts:93511
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
+Defined in: main.ts:93531
+
 contains keyword ideas and related data
-
-#### Defined in
-
-main.ts:83718
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:83718
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:93523
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:83710
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:83710
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:93519
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:83706
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:83706
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:93517
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:83704
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:83704
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:93525
+
 current offset value
-
-#### Defined in
-
-main.ts:83712
 
 ***
 
@@ -76,13 +68,11 @@ main.ts:83712
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:93529
+
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:83716
 
 ***
 
@@ -90,11 +80,9 @@ main.ts:83716
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:93513
+
 search engine type
-
-#### Defined in
-
-main.ts:83700
 
 ***
 
@@ -102,11 +90,9 @@ main.ts:83700
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:93515
+
 target domain in a POST array
-
-#### Defined in
-
-main.ts:83702
 
 ***
 
@@ -114,8 +100,6 @@ main.ts:83702
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:93521
+
 total number of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:83708

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleMapsLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleMapsLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleMapsLiveAdvancedRequestInfo
 
+Defined in: main.ts:42470
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:42554
 
 parsing depth
 optional field
@@ -25,15 +29,13 @@ Note: your account will be billed per each SERP containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
-
-main.ts:40696
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:42531
 
 device type
 optional field
@@ -41,34 +43,31 @@ can take the values:desktop, mobile
 default value: desktop
 note: for mobile device, only 20 results are returned for every SERP
 
-#### Defined in
-
-main.ts:40673
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:42486
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, the charge per task will be multiplied by 5
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+if this field contains such parameters as ‘allinanchor:’, ‘allintext:’, ‘allintitle:’, ‘allinurl:’, ‘define:’, ‘filetype:’, ‘id:’, ‘inanchor:’, ‘info:’, ‘intext:’, ‘intitle:’, ‘inurl:’, ‘link:’, ‘related:’, ‘site:’, ‘-site:’, the charge per task will be multiplied by 5
 Note: queries containing the ‘cache:’ parameter are not supported and will return a validation error
-
-#### Defined in
-
-main.ts:40628
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:42525
 
 search engine language code
 required field if you don’t specify language_name
@@ -77,15 +76,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:40667
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:42518
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -94,15 +91,13 @@ you can receive the list of available languages  of the search engine with their
 example:
 English
 
-#### Defined in
-
-main.ts:40660
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:42500
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -111,15 +106,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:40642
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:42511
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -132,15 +125,13 @@ the maximum value for “zoom”: 21z
 example:
 52.6178549,-155.352142,20z
 
-#### Defined in
-
-main.ts:40653
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:42493
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -149,15 +140,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:40635
-
 ***
 
 ### max\_crawl\_pages?
 
 > `optional` **max\_crawl\_pages**: `number`
+
+Defined in: main.ts:42561
 
 page crawl limit
 optional field
@@ -166,15 +155,13 @@ max value: 100
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Defined in
-
-main.ts:40703
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:42538
 
 device operating system
 optional field
@@ -183,15 +170,13 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
-
-main.ts:40680
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:42545
 
 search engine domain
 optional field
@@ -200,15 +185,13 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc.
 
-#### Defined in
-
-main.ts:40687
-
 ***
 
 ### search\_places?
 
 > `optional` **search\_places**: `boolean`
+
+Defined in: main.ts:42576
 
 search places mode
 optional field
@@ -218,15 +201,13 @@ to prevent this interference and obtain correct results for keywords with local 
 default value: true
 Note: if the search_places mode is turned off and no results were found in the search area, the results array will be empty
 
-#### Defined in
-
-main.ts:40718
-
 ***
 
 ### search\_this\_area?
 
 > `optional` **search\_this\_area**: `boolean`
+
+Defined in: main.ts:42568
 
 search this area
 optional field
@@ -235,15 +216,13 @@ default value: true
 if set to false, the search_this_area mode will be turned off
 Note: if the search_this_area mode is turned off, Google Maps listings might contain results beyond the displayed area
 
-#### Defined in
-
-main.ts:40710
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:42582
 
 user-defined task identifier
 optional field
@@ -251,22 +230,16 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:40724
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:42476
+
 direct URL of the search query
 optional field
 you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
 example:
 https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
-
-#### Defined in
-
-main.ts:40619

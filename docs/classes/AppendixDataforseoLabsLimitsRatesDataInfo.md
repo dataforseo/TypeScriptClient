@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDataforseoLabsLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixDataforseoLabsLimitsRatesDataInfo
 
 # Class: AppendixDataforseoLabsLimitsRatesDataInfo
+
+Defined in: main.ts:231160
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixDataforseoLabsLimitsRatesDataInfo**(`data`?): [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231198
+
 #### Parameters
 
-• **data?**: [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216138
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216138
 
 > `optional` **app\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231190
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`app_competitors`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#app_competitors)
-
-#### Defined in
-
-main.ts:216130
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216130
 
 > `optional` **app\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231192
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`app_intersection`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#app_intersection)
-
-#### Defined in
-
-main.ts:216132
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:216132
 
 > `optional` **bulk\_app\_metrics**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231193
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`bulk_app_metrics`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#bulk_app_metrics)
-
-#### Defined in
-
-main.ts:216133
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:216133
 
 > `optional` **bulk\_keyword\_difficulty**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231177
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`bulk_keyword_difficulty`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#bulk_keyword_difficulty)
-
-#### Defined in
-
-main.ts:216117
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:216117
 
 > `optional` **bulk\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231178
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`bulk_search_volume`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#bulk_search_volume)
-
-#### Defined in
-
-main.ts:216118
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:216118
 
 > `optional` **bulk\_traffic\_estimation**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231176
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`bulk_traffic_estimation`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#bulk_traffic_estimation)
-
-#### Defined in
-
-main.ts:216116
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:216116
 
 > `optional` **categories**: `number`
 
+Defined in: main.ts:231162
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`categories`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#categories)
-
-#### Defined in
-
-main.ts:216102
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:216102
 
 > `optional` **categories\_for\_domain**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231183
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`categories_for_domain`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#categories_for_domain)
-
-#### Defined in
-
-main.ts:216123
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:216123
 
 > `optional` **competitors\_domain**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231171
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`competitors_domain`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#competitors_domain)
-
-#### Defined in
-
-main.ts:216111
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:216111
 
 > `optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231174
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`domain_intersection`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#domain_intersection)
-
-#### Defined in
-
-main.ts:216114
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:216114
 
 > `optional` **domain\_metrics\_by\_categories**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231184
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`domain_metrics_by_categories`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#domain_metrics_by_categories)
-
-#### Defined in
-
-main.ts:216124
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:216124
 
 > `optional` **domain\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231173
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`domain_rank_overview`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#domain_rank_overview)
-
-#### Defined in
-
-main.ts:216113
 
 ***
 
@@ -206,13 +184,11 @@ main.ts:216113
 
 > `optional` **domain\_whois\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231186
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`domain_whois_overview`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#domain_whois_overview)
-
-#### Defined in
-
-main.ts:216126
 
 ***
 
@@ -220,13 +196,11 @@ main.ts:216126
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:231163
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#errors)
-
-#### Defined in
-
-main.ts:216103
 
 ***
 
@@ -234,13 +208,11 @@ main.ts:216103
 
 > `optional` **historical\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231187
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`historical_rank_overview`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#historical_rank_overview)
-
-#### Defined in
-
-main.ts:216127
 
 ***
 
@@ -248,13 +220,11 @@ main.ts:216127
 
 > `optional` **historical\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231182
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`historical_search_volume`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#historical_search_volume)
-
-#### Defined in
-
-main.ts:216122
 
 ***
 
@@ -262,13 +232,11 @@ main.ts:216122
 
 > `optional` **historical\_serps**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231189
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`historical_serps`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#historical_serps)
-
-#### Defined in
-
-main.ts:216129
 
 ***
 
@@ -276,13 +244,11 @@ main.ts:216129
 
 > `optional` **keyword\_ideas**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231181
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`keyword_ideas`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#keyword_ideas)
-
-#### Defined in
-
-main.ts:216121
 
 ***
 
@@ -290,13 +256,11 @@ main.ts:216121
 
 > `optional` **keyword\_suggestions**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231180
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`keyword_suggestions`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#keyword_suggestions)
-
-#### Defined in
-
-main.ts:216120
 
 ***
 
@@ -304,13 +268,11 @@ main.ts:216120
 
 > `optional` **keywords\_for\_app**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231191
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`keywords_for_app`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#keywords_for_app)
-
-#### Defined in
-
-main.ts:216131
 
 ***
 
@@ -318,13 +280,11 @@ main.ts:216131
 
 > `optional` **keywords\_for\_categories**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231188
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`keywords_for_categories`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#keywords_for_categories)
-
-#### Defined in
-
-main.ts:216128
 
 ***
 
@@ -332,13 +292,11 @@ main.ts:216128
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231179
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`keywords_for_site`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#keywords_for_site)
-
-#### Defined in
-
-main.ts:216119
 
 ***
 
@@ -346,13 +304,11 @@ main.ts:216119
 
 > `optional` **locations\_and\_languages**: `number`
 
+Defined in: main.ts:231161
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`locations_and_languages`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#locations_and_languages)
-
-#### Defined in
-
-main.ts:216101
 
 ***
 
@@ -360,13 +316,11 @@ main.ts:216101
 
 > `optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231175
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`page_intersection`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#page_intersection)
-
-#### Defined in
-
-main.ts:216115
 
 ***
 
@@ -374,13 +328,11 @@ main.ts:216115
 
 > `optional` **product\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231164
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`product_competitors`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#product_competitors)
-
-#### Defined in
-
-main.ts:216104
 
 ***
 
@@ -388,13 +340,11 @@ main.ts:216104
 
 > `optional` **product\_keyword\_intersections**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231165
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`product_keyword_intersections`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#product_keyword_intersections)
-
-#### Defined in
-
-main.ts:216105
 
 ***
 
@@ -402,13 +352,11 @@ main.ts:216105
 
 > `optional` **product\_rank\_overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231166
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`product_rank_overview`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#product_rank_overview)
-
-#### Defined in
-
-main.ts:216106
 
 ***
 
@@ -416,13 +364,11 @@ main.ts:216106
 
 > `optional` **ranked\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231167
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`ranked_keywords`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#ranked_keywords)
-
-#### Defined in
-
-main.ts:216107
 
 ***
 
@@ -430,13 +376,11 @@ main.ts:216107
 
 > `optional` **related\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231172
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`related_keywords`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#related_keywords)
-
-#### Defined in
-
-main.ts:216112
 
 ***
 
@@ -444,13 +388,11 @@ main.ts:216112
 
 > `optional` **relevant\_pages**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231170
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`relevant_pages`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#relevant_pages)
-
-#### Defined in
-
-main.ts:216110
 
 ***
 
@@ -458,13 +400,11 @@ main.ts:216110
 
 > `optional` **search\_intent**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231194
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`search_intent`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#search_intent)
-
-#### Defined in
-
-main.ts:216134
 
 ***
 
@@ -472,13 +412,11 @@ main.ts:216134
 
 > `optional` **serp\_competitors**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231168
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`serp_competitors`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#serp_competitors)
-
-#### Defined in
-
-main.ts:216108
 
 ***
 
@@ -486,13 +424,11 @@ main.ts:216108
 
 > `optional` **subdomains**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231169
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`subdomains`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#subdomains)
-
-#### Defined in
-
-main.ts:216109
 
 ***
 
@@ -500,13 +436,11 @@ main.ts:216109
 
 > `optional` **top\_searches**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231185
+
 #### Implementation of
 
 [`IAppendixDataforseoLabsLimitsRatesDataInfo`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md).[`top_searches`](../interfaces/IAppendixDataforseoLabsLimitsRatesDataInfo.md#top_searches)
-
-#### Defined in
-
-main.ts:216125
 
 ## Methods
 
@@ -514,17 +448,17 @@ main.ts:216125
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231207
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216147
 
 ***
 
@@ -532,17 +466,17 @@ main.ts:216147
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231257
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216197
 
 ***
 
@@ -550,14 +484,14 @@ main.ts:216197
 
 > `static` **fromJS**(`data`): [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231250
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216190

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalRankOverviewLiveItem
+
+Defined in: main.ts:109600
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleHistoricalRankOverviewLiveItem**(`data`?): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
+Defined in: main.ts:109612
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
-
-#### Defined in
-
-main.ts:99773
 
 ## Properties
 
@@ -38,19 +40,17 @@ main.ts:99773
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:109608
+
 ranking data relevant to the specified domain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#metrics)
-
-#### Defined in
-
-main.ts:99769
 
 ***
 
@@ -58,15 +58,13 @@ main.ts:99769
 
 > `optional` **month**: `number`
 
+Defined in: main.ts:109606
+
 month for which the data is provided
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[`month`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#month)
-
-#### Defined in
-
-main.ts:99767
 
 ***
 
@@ -74,15 +72,13 @@ main.ts:99767
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:109602
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#se_type)
-
-#### Defined in
-
-main.ts:99763
 
 ***
 
@@ -90,15 +86,13 @@ main.ts:99763
 
 > `optional` **year**: `number`
 
+Defined in: main.ts:109604
+
 year for which the data is provided
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleHistoricalRankOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md).[`year`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveItem.md#year)
-
-#### Defined in
-
-main.ts:99765
 
 ## Methods
 
@@ -106,17 +100,17 @@ main.ts:99765
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:109621
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:99782
 
 ***
 
@@ -124,17 +118,17 @@ main.ts:99782
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:109647
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:99808
 
 ***
 
@@ -142,14 +136,14 @@ main.ts:99808
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
 
+Defined in: main.ts:109640
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleHistoricalRankOverviewLiveItem`](DataforseoLabsGoogleHistoricalRankOverviewLiveItem.md)
-
-#### Defined in
-
-main.ts:99801

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMultiCarouselElement
+[Documentation](../README.md) / IMultiCarouselElement
 
 # Interface: IMultiCarouselElement
 
+Defined in: main.ts:34104
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **multi\_carousel\_snippets**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
+Defined in: main.ts:34110
+
 multi_carousel_snippet results
-
-#### Defined in
-
-main.ts:32308
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:32308
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:34108
+
 title of a given link element
-
-#### Defined in
-
-main.ts:32306
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:32306
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:34106
+
 type of element
-
-#### Defined in
-
-main.ts:32304

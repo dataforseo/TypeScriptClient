@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageContentParsingItem
+[Documentation](../README.md) / OnPageContentParsingItem
 
 # Class: OnPageContentParsingItem
+
+Defined in: main.ts:173562
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageContentParsingItem**(`data`?): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
+Defined in: main.ts:173576
+
 #### Parameters
 
-• **data?**: [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md)
+##### data?
+
+[`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md)
 
 #### Returns
 
 [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
-
-#### Defined in
-
-main.ts:161862
 
 ## Properties
 
 ### fetch\_time?
 
 > `optional` **fetch\_time**: `string`
+
+Defined in: main.ts:173568
 
 date and time when the content was fethced
 example:
@@ -46,15 +50,13 @@ example:
 
 [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`fetch_time`](../interfaces/IOnPageContentParsingItem.md#fetch_time)
 
-#### Defined in
-
-main.ts:161854
-
 ***
 
 ### page\_content?
 
 > `optional` **page\_content**: [`PageContentInfo`](PageContentInfo.md)
+
+Defined in: main.ts:173572
 
 parsed content of the page
 
@@ -62,15 +64,13 @@ parsed content of the page
 
 [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`page_content`](../interfaces/IOnPageContentParsingItem.md#page_content)
 
-#### Defined in
-
-main.ts:161858
-
 ***
 
 ### status\_code?
 
 > `optional` **status\_code**: `number`
+
+Defined in: main.ts:173570
 
 status code of the page
 
@@ -78,15 +78,13 @@ status code of the page
 
 [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`status_code`](../interfaces/IOnPageContentParsingItem.md#status_code)
 
-#### Defined in
-
-main.ts:161856
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:173564
 
 type of element
 
@@ -94,27 +92,23 @@ type of element
 
 [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`type`](../interfaces/IOnPageContentParsingItem.md#type)
 
-#### Defined in
-
-main.ts:161850
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:173585
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161871
 
 ***
 
@@ -122,17 +116,17 @@ main.ts:161871
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173605
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161891
 
 ***
 
@@ -140,14 +134,14 @@ main.ts:161891
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
+Defined in: main.ts:173598
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
-
-#### Defined in
-
-main.ts:161884

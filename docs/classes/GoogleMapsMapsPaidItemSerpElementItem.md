@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleMapsMapsPaidItemSerpElementItem
+[Documentation](../README.md) / GoogleMapsMapsPaidItemSerpElementItem
 
 # Class: GoogleMapsMapsPaidItemSerpElementItem
+
+Defined in: main.ts:41979
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new GoogleMapsMapsPaidItemSerpElementItem**(`data`?): [`GoogleMapsMapsPaidItemSerpElementItem`](GoogleMapsMapsPaidItemSerpElementItem.md)
 
+Defined in: main.ts:41983
+
 #### Parameters
 
-• **data?**: [`IGoogleMapsMapsPaidItemSerpElementItem`](../interfaces/IGoogleMapsMapsPaidItemSerpElementItem.md)
+##### data?
+
+[`IGoogleMapsMapsPaidItemSerpElementItem`](../interfaces/IGoogleMapsMapsPaidItemSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`constructor`](BaseGoogleMapsSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:40133
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:41642
+
 #### Inherited from
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`_discriminator`](BaseGoogleMapsSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:39800
 
 ***
 
@@ -60,7 +60,9 @@ main.ts:39800
 
 > `optional` **domain**: `string`
 
-domain in the SERP element
+Defined in: main.ts:41630
+
+domain in SERP
 
 #### Implementation of
 
@@ -70,15 +72,13 @@ domain in the SERP element
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`domain`](BaseGoogleMapsSerpElementItem.md#domain)
 
-#### Defined in
-
-main.ts:39788
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:41628
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -91,15 +91,13 @@ absolute position among all the elements in SERP
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`rank_absolute`](BaseGoogleMapsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:39786
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:41625
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -113,15 +111,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`rank_group`](BaseGoogleMapsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:39783
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:41637
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -134,22 +130,20 @@ the popularity rate based on reviews and displayed in SERP
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`rating`](BaseGoogleMapsSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:39795
-
 ***
 
 ### rating\_distribution?
 
 > `optional` **rating\_distribution**: `object`
 
+Defined in: main.ts:41640
+
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
@@ -159,17 +153,15 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`rating_distribution`](BaseGoogleMapsSerpElementItem.md#rating_distribution)
 
-#### Defined in
-
-main.ts:39798
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+Defined in: main.ts:41632
+
+title of the element
 
 #### Implementation of
 
@@ -179,15 +171,13 @@ title of the result in SERP
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`title`](BaseGoogleMapsSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:39790
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:41621
 
 type of element
 
@@ -199,17 +189,15 @@ type of element
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`type`](BaseGoogleMapsSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:39779
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
 
-relevant URL in SERP
+Defined in: main.ts:41634
+
+search URL with refinement parameters
 
 #### Implementation of
 
@@ -219,19 +207,19 @@ relevant URL in SERP
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`url`](BaseGoogleMapsSerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:39792
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:41988
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -241,19 +229,19 @@ main.ts:39792
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`init`](BaseGoogleMapsSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:40138
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:42005
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -263,19 +251,19 @@ main.ts:40138
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`toJSON`](BaseGoogleMapsSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:40155
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`GoogleMapsMapsPaidItemSerpElementItem`](GoogleMapsMapsPaidItemSerpElementItem.md)
 
+Defined in: main.ts:41998
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -284,7 +272,3 @@ main.ts:40155
 #### Overrides
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md).[`fromJS`](BaseGoogleMapsSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:40148

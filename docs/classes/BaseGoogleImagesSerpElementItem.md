@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseGoogleImagesSerpElementItem
+[Documentation](../README.md) / BaseGoogleImagesSerpElementItem
 
 # Class: BaseGoogleImagesSerpElementItem
+
+Defined in: main.ts:50729
 
 ## Extended by
 
@@ -22,17 +24,17 @@
 
 > **new BaseGoogleImagesSerpElementItem**(`data`?): [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
 
+Defined in: main.ts:50744
+
 #### Parameters
 
-• **data?**: [`IBaseGoogleImagesSerpElementItem`](../interfaces/IBaseGoogleImagesSerpElementItem.md)
+##### data?
+
+[`IBaseGoogleImagesSerpElementItem`](../interfaces/IBaseGoogleImagesSerpElementItem.md)
 
 #### Returns
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
-
-#### Defined in
-
-main.ts:47550
 
 ## Properties
 
@@ -40,15 +42,15 @@ main.ts:47550
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:47548
+Defined in: main.ts:50742
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:50738
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -57,15 +59,13 @@ absolute position among all the elements in SERP
 
 [`IBaseGoogleImagesSerpElementItem`](../interfaces/IBaseGoogleImagesSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseGoogleImagesSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:47544
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:50735
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -75,15 +75,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseGoogleImagesSerpElementItem`](../interfaces/IBaseGoogleImagesSerpElementItem.md).[`rank_group`](../interfaces/IBaseGoogleImagesSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:47541
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:50731
 
 type of element
 
@@ -91,15 +89,13 @@ type of element
 
 [`IBaseGoogleImagesSerpElementItem`](../interfaces/IBaseGoogleImagesSerpElementItem.md).[`type`](../interfaces/IBaseGoogleImagesSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:47537
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:50740
 
 the XPath of the element
 
@@ -107,27 +103,23 @@ the XPath of the element
 
 [`IBaseGoogleImagesSerpElementItem`](../interfaces/IBaseGoogleImagesSerpElementItem.md).[`xpath`](../interfaces/IBaseGoogleImagesSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:47546
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:50754
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:47560
 
 ***
 
@@ -135,17 +127,17 @@ main.ts:47560
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:50785
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:47591
 
 ***
 
@@ -153,14 +145,14 @@ main.ts:47591
 
 > `static` **fromJS**(`data`): [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
 
+Defined in: main.ts:50763
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)
-
-#### Defined in
-
-main.ts:47569

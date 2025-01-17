@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+
+Defined in: main.ts:86310
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
+Defined in: main.ts:86322
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:76583
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:76583
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
 
+Defined in: main.ts:86318
+
 items array
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md).[`items`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:76579
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:76579
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:86314
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md).[`items_count`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:76575
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:76575
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:86316
+
 offset in the results array of returned domains
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md).[`offset`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#offset)
-
-#### Defined in
-
-main.ts:76577
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:76577
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:86312
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md).[`total_count`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:76573
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:76573
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:86331
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:76592
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:76592
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:86355
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:76616
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:76616
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
+Defined in: main.ts:86348
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:76609

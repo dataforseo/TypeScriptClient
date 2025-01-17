@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IYoutubeVideoInfoSerpElementItem
+[Documentation](../README.md) / IYoutubeVideoInfoSerpElementItem
 
 # Interface: IYoutubeVideoInfoSerpElementItem
+
+Defined in: main.ts:70690
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:70727
+
 the category the video belongs to
-
-#### Defined in
-
-main.ts:62512
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:62512
 
 > `optional` **channel\_id**: `string`
 
+Defined in: main.ts:70700
+
 the ID of the channel where the video is published
-
-#### Defined in
-
-main.ts:62485
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:62485
 
 > `optional` **channel\_logo**: `string`
 
+Defined in: main.ts:70706
+
 the URL of the page where the logo image of the channel is hosted
-
-#### Defined in
-
-main.ts:62491
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:62491
 
 > `optional` **channel\_name**: `string`
 
+Defined in: main.ts:70702
+
 the name of the channel where the video is published
-
-#### Defined in
-
-main.ts:62487
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:62487
 
 > `optional` **channel\_subscribers\_count**: [`ChannelSubscribersCount`](../classes/ChannelSubscribersCount.md)
 
+Defined in: main.ts:70716
+
 number of subscribers of the channel
-
-#### Defined in
-
-main.ts:62501
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:62501
 
 > `optional` **channel\_url**: `string`
 
+Defined in: main.ts:70704
+
 the URL of the channel where the video is published
-
-#### Defined in
-
-main.ts:62489
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:62489
 
 > `optional` **comments\_count**: `number`
 
+Defined in: main.ts:70714
+
 number of comments on the video
-
-#### Defined in
-
-main.ts:62499
 
 ***
 
@@ -104,11 +92,9 @@ main.ts:62499
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:70708
+
 description of the video
-
-#### Defined in
-
-main.ts:62493
 
 ***
 
@@ -116,11 +102,9 @@ main.ts:62493
 
 > `optional` **duration\_time**: `string`
 
+Defined in: main.ts:70733
+
 duration of the video
-
-#### Defined in
-
-main.ts:62518
 
 ***
 
@@ -128,11 +112,9 @@ main.ts:62518
 
 > `optional` **duration\_time\_seconds**: `number`
 
+Defined in: main.ts:70735
+
 duration of the video in seconds
-
-#### Defined in
-
-main.ts:62520
 
 ***
 
@@ -140,11 +122,9 @@ main.ts:62520
 
 > `optional` **is\_embeddable**: `boolean`
 
+Defined in: main.ts:70731
+
 indicates whether the video is embeddable
-
-#### Defined in
-
-main.ts:62516
 
 ***
 
@@ -152,11 +132,9 @@ main.ts:62516
 
 > `optional` **is\_live**: `boolean`
 
+Defined in: main.ts:70729
+
 indicates whether the video is on live
-
-#### Defined in
-
-main.ts:62514
 
 ***
 
@@ -164,11 +142,9 @@ main.ts:62514
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:70725
+
 keywords relevant to the video
-
-#### Defined in
-
-main.ts:62510
 
 ***
 
@@ -176,11 +152,9 @@ main.ts:62510
 
 > `optional` **likes\_count**: `number`
 
+Defined in: main.ts:70712
+
 number of likes on the video
-
-#### Defined in
-
-main.ts:62497
 
 ***
 
@@ -188,17 +162,17 @@ main.ts:62497
 
 > `optional` **publication\_date**: `string`
 
+Defined in: main.ts:70718
+
 the date when the video is published
-
-#### Defined in
-
-main.ts:62503
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:70531
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -207,15 +181,13 @@ absolute position among all the elements in SERP
 
 [`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`rank_absolute`](IBaseYoutubeSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:62316
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:70528
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -225,21 +197,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`rank_group`](IBaseYoutubeSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:62313
-
 ***
 
 ### streaming\_quality?
 
 > `optional` **streaming\_quality**: [`StreamingQualityElement`](../classes/StreamingQualityElement.md)[]
 
+Defined in: main.ts:70739
+
 array of elements that contain information about all possible streaming qualities of the video
-
-#### Defined in
-
-main.ts:62524
 
 ***
 
@@ -247,11 +213,9 @@ main.ts:62524
 
 > `optional` **subtitles**: [`Subtitles`](../classes/Subtitles.md)[]
 
+Defined in: main.ts:70737
+
 array of elements describing properties of subtitles in the video
-
-#### Defined in
-
-main.ts:62522
 
 ***
 
@@ -259,11 +223,9 @@ main.ts:62522
 
 > `optional` **thumbnail\_url**: `string`
 
+Defined in: main.ts:70698
+
 the URL of the page where the thumbnail is hosted
-
-#### Defined in
-
-main.ts:62483
 
 ***
 
@@ -271,14 +233,12 @@ main.ts:62483
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:70723
+
 date and time when the result is published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:62508
 
 ***
 
@@ -286,11 +246,9 @@ main.ts:62508
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:70694
+
 title of the video
-
-#### Defined in
-
-main.ts:62479
 
 ***
 
@@ -298,15 +256,13 @@ main.ts:62479
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:70524
+
 type of element
 
 #### Inherited from
 
 [`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`type`](IBaseYoutubeSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:62309
 
 ***
 
@@ -314,11 +270,9 @@ main.ts:62309
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:70696
+
 URL of the video
-
-#### Defined in
-
-main.ts:62481
 
 ***
 
@@ -326,11 +280,9 @@ main.ts:62481
 
 > `optional` **video\_id**: `string`
 
+Defined in: main.ts:70692
+
 ID of the video received in a POST array
-
-#### Defined in
-
-main.ts:62477
 
 ***
 
@@ -338,8 +290,6 @@ main.ts:62477
 
 > `optional` **views\_count**: `number`
 
+Defined in: main.ts:70710
+
 number of views of the video
-
-#### Defined in
-
-main.ts:62495

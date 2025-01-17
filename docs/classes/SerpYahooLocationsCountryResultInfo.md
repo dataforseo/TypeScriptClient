@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooLocationsCountryResultInfo
+[Documentation](../README.md) / SerpYahooLocationsCountryResultInfo
 
 # Class: SerpYahooLocationsCountryResultInfo
+
+Defined in: main.ts:74806
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpYahooLocationsCountryResultInfo**(`data`?): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
 
+Defined in: main.ts:74827
+
 #### Parameters
 
-• **data?**: [`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md)
+##### data?
+
+[`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:66556
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:66556
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:74821
+
 ISO country code of the location
 
 #### Implementation of
 
 [`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:66550
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:66550
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:74808
+
 location code
 
 #### Implementation of
 
 [`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`location_code`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:66537
-
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:74819
 
 the code of the superordinate location
 example:
@@ -83,15 +83,13 @@ where location_code_parent corresponds to:
 
 [`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_code_parent)
 
-#### Defined in
-
-main.ts:66548
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:74810
 
 full name of the location
 
@@ -99,15 +97,13 @@ full name of the location
 
 [`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`location_name`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:66539
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:74823
 
 location type
 
@@ -115,27 +111,23 @@ location type
 
 [`ISerpYahooLocationsCountryResultInfo`](../interfaces/ISerpYahooLocationsCountryResultInfo.md).[`location_type`](../interfaces/ISerpYahooLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:66552
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:74836
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:66565
 
 ***
 
@@ -143,17 +135,17 @@ main.ts:66565
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:74857
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:66586
 
 ***
 
@@ -161,14 +153,14 @@ main.ts:66586
 
 > `static` **fromJS**(`data`): [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
 
+Defined in: main.ts:74850
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYahooLocationsCountryResultInfo`](SerpYahooLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:66579

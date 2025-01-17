@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ScriptResourceElementItem
+[Documentation](../README.md) / ScriptResourceElementItem
 
 # Class: ScriptResourceElementItem
+
+Defined in: main.ts:168060
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new ScriptResourceElementItem**(`data`?): [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
 
+Defined in: main.ts:168076
+
 #### Parameters
 
-• **data?**: [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md)
+##### data?
+
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`constructor`](BaseOnPageResourceItemInfo.md#constructors)
 
-#### Defined in
-
-main.ts:156340
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22339
+
 #### Inherited from
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`_discriminator`](BaseOnPageResourceItemInfo.md#_discriminator)
-
-#### Defined in
-
-main.ts:21436
 
 ***
 
 ### accept\_type?
 
 > `optional` **accept\_type**: `string`
+
+Defined in: main.ts:168072
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -69,15 +71,13 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`accept_type`](../interfaces/IScriptResourceElementItem.md#accept_type)
 
-#### Defined in
-
-main.ts:156336
-
 ***
 
 ### cache\_control?
 
 > `optional` **cache\_control**: [`CacheControl`](CacheControl.md)
+
+Defined in: main.ts:22325
 
 instructions for caching
 
@@ -89,22 +89,20 @@ instructions for caching
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`cache_control`](BaseOnPageResourceItemInfo.md#cache_control)
 
-#### Defined in
-
-main.ts:21422
-
 ***
 
 ### checks?
 
 > `optional` **checks**: `object`
 
+Defined in: main.ts:22328
+
 website checks
 on-page check-ups related to the page
 
 #### Index Signature
 
- \[`key`: `string`\]: `boolean`
+\[`key`: `string`\]: `boolean`
 
 #### Implementation of
 
@@ -114,15 +112,13 @@ on-page check-ups related to the page
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`checks`](BaseOnPageResourceItemInfo.md#checks)
 
-#### Defined in
-
-main.ts:21425
-
 ***
 
 ### content\_encoding?
 
 > `optional` **content\_encoding**: `string`
+
+Defined in: main.ts:22330
 
 type of encoding
 
@@ -134,15 +130,13 @@ type of encoding
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`content_encoding`](BaseOnPageResourceItemInfo.md#content_encoding)
 
-#### Defined in
-
-main.ts:21427
-
 ***
 
 ### encoded\_size?
 
 > `optional` **encoded\_size**: `number`
+
+Defined in: main.ts:22315
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
@@ -155,15 +149,13 @@ indicates the size of the encoded page measured in bytes
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`encoded_size`](BaseOnPageResourceItemInfo.md#encoded_size)
 
-#### Defined in
-
-main.ts:21412
-
 ***
 
 ### fetch\_time?
 
 > `optional` **fetch\_time**: `string`
+
+Defined in: main.ts:22323
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -178,15 +170,13 @@ example:
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fetch_time`](BaseOnPageResourceItemInfo.md#fetch_time)
 
-#### Defined in
-
-main.ts:21420
-
 ***
 
 ### fetch\_timing?
 
 > `optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
+
+Defined in: main.ts:168067
 
 resource fething time range
 
@@ -194,15 +184,13 @@ resource fething time range
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`fetch_timing`](../interfaces/IScriptResourceElementItem.md#fetch_timing)
 
-#### Defined in
-
-main.ts:156331
-
 ***
 
 ### last\_modified?
 
 > `optional` **last\_modified**: [`LastModified`](LastModified.md)
+
+Defined in: main.ts:22337
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -215,15 +203,13 @@ if there is no data, the value will be null
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`last_modified`](BaseOnPageResourceItemInfo.md#last_modified)
 
-#### Defined in
-
-main.ts:21434
-
 ***
 
 ### location?
 
 > `optional` **location**: `string`
+
+Defined in: main.ts:22305
 
 location header
 indicates the URL to redirect a page to
@@ -236,15 +222,13 @@ indicates the URL to redirect a page to
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`location`](BaseOnPageResourceItemInfo.md#location)
 
-#### Defined in
-
-main.ts:21402
-
 ***
 
 ### media\_type?
 
 > `optional` **media\_type**: `string`
+
+Defined in: main.ts:22332
 
 types of media used to display a page
 
@@ -256,15 +240,13 @@ types of media used to display a page
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`media_type`](BaseOnPageResourceItemInfo.md#media_type)
 
-#### Defined in
-
-main.ts:21429
-
 ***
 
 ### meta?
 
 > `optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
+
+Defined in: main.ts:168065
 
 resource properties
 the value depends on the resource_type
@@ -275,15 +257,13 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`meta`](../interfaces/IScriptResourceElementItem.md#meta)
 
-#### Defined in
-
-main.ts:156329
-
 ***
 
 ### resource\_errors?
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+
+Defined in: main.ts:22309
 
 resource errors and warnings
 
@@ -295,15 +275,13 @@ resource errors and warnings
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_errors`](BaseOnPageResourceItemInfo.md#resource_errors)
 
-#### Defined in
-
-main.ts:21406
-
 ***
 
 ### resource\_type?
 
 > `optional` **resource\_type**: `string`
+
+Defined in: main.ts:22300
 
 type of the returned resource
 
@@ -315,15 +293,13 @@ type of the returned resource
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_type`](BaseOnPageResourceItemInfo.md#resource_type)
 
-#### Defined in
-
-main.ts:21397
-
 ***
 
 ### server?
 
 > `optional` **server**: `string`
+
+Defined in: main.ts:22334
 
 server version
 
@@ -335,15 +311,13 @@ server version
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`server`](BaseOnPageResourceItemInfo.md#server)
 
-#### Defined in
-
-main.ts:21431
-
 ***
 
 ### size?
 
 > `optional` **size**: `number`
+
+Defined in: main.ts:22312
 
 resource size
 indicates the size of a given page measured in bytes
@@ -356,15 +330,13 @@ indicates the size of a given page measured in bytes
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`size`](BaseOnPageResourceItemInfo.md#size)
 
-#### Defined in
-
-main.ts:21409
-
 ***
 
 ### status\_code?
 
 > `optional` **status\_code**: `number`
+
+Defined in: main.ts:22302
 
 status code of the page
 
@@ -376,15 +348,13 @@ status code of the page
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`status_code`](BaseOnPageResourceItemInfo.md#status_code)
 
-#### Defined in
-
-main.ts:21399
-
 ***
 
 ### total\_transfer\_size?
 
 > `optional` **total\_transfer\_size**: `number`
+
+Defined in: main.ts:22318
 
 compressed page size
 indicates the compressed size of a given page
@@ -397,15 +367,13 @@ indicates the compressed size of a given page
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`total_transfer_size`](BaseOnPageResourceItemInfo.md#total_transfer_size)
 
-#### Defined in
-
-main.ts:21415
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:22307
 
 page URL
 
@@ -417,19 +385,19 @@ page URL
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`url`](BaseOnPageResourceItemInfo.md#url)
 
-#### Defined in
-
-main.ts:21404
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:168081
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -439,19 +407,19 @@ main.ts:21404
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`init`](BaseOnPageResourceItemInfo.md#init)
 
-#### Defined in
-
-main.ts:156345
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:168101
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -461,19 +429,19 @@ main.ts:156345
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`toJSON`](BaseOnPageResourceItemInfo.md#tojson)
 
-#### Defined in
-
-main.ts:156365
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`ScriptResourceElementItem`](ScriptResourceElementItem.md)
 
+Defined in: main.ts:168094
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -482,7 +450,3 @@ main.ts:156365
 #### Overrides
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fromJS`](BaseOnPageResourceItemInfo.md#fromjs)
-
-#### Defined in
-
-main.ts:156358

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveRequestInfo
+
+Defined in: main.ts:182198
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentGenerationGenerateSubTopicsLiveRequestInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
 
+Defined in: main.ts:182220
+
 #### Parameters
 
-• **data?**: [`IContentGenerationGenerateSubTopicsLiveRequestInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationGenerateSubTopicsLiveRequestInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:170530
 
 ## Properties
 
 ### creativity\_index?
 
 > `optional` **creativity\_index**: `number`
+
+Defined in: main.ts:182210
 
 creativity of content generation
 optional field
@@ -49,15 +53,13 @@ learn more about this parameter on our help center
 
 [`IContentGenerationGenerateSubTopicsLiveRequestInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md#creativity_index)
 
-#### Defined in
-
-main.ts:170520
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:182216
 
 user-defined task identifier
 optional field
@@ -69,15 +71,13 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationGenerateSubTopicsLiveRequestInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:170526
-
 ***
 
 ### topic?
 
 > `optional` **topic**: `string`
+
+Defined in: main.ts:182203
 
 main topic of the content to generate
 required field
@@ -88,27 +88,23 @@ can contain from 1 to 50 tokens
 
 [`IContentGenerationGenerateSubTopicsLiveRequestInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md).[`topic`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md#topic)
 
-#### Defined in
-
-main.ts:170513
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:182229
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:170539
 
 ***
 
@@ -116,17 +112,17 @@ main.ts:170539
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:182248
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:170558
 
 ***
 
@@ -134,14 +130,14 @@ main.ts:170558
 
 > `static` **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
 
+Defined in: main.ts:182241
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:170551

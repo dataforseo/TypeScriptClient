@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisIdListRequestInfo
+[Documentation](../README.md) / ContentAnalysisIdListRequestInfo
 
 # Class: ContentAnalysisIdListRequestInfo
+
+Defined in: main.ts:176354
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentAnalysisIdListRequestInfo**(`data`?): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
+Defined in: main.ts:176392
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md)
+##### data?
+
+[`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md)
 
 #### Returns
 
 [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
-
-#### Defined in
-
-main.ts:164702
 
 ## Properties
 
 ### datetime\_from?
 
 > `optional` **datetime\_from**: `string`
+
+Defined in: main.ts:176362
 
 start time for filtering results
 required field
@@ -50,15 +54,13 @@ example:
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`datetime_from`](../interfaces/IContentAnalysisIdListRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:164672
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
+
+Defined in: main.ts:176369
 
 finish time for filtering results
 required field
@@ -71,15 +73,13 @@ example:
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`datetime_to`](../interfaces/IContentAnalysisIdListRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:164679
-
 ***
 
 ### include\_metadata?
 
 > `optional` **include\_metadata**: `boolean`
+
+Defined in: main.ts:176388
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,13 @@ default value: false
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`include_metadata`](../interfaces/IContentAnalysisIdListRequestInfo.md#include_metadata)
 
-#### Defined in
-
-main.ts:164698
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:176374
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +106,13 @@ maximum value: 1000
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`limit`](../interfaces/IContentAnalysisIdListRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:164684
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:176379
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +123,13 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`offset`](../interfaces/IContentAnalysisIdListRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:164689
-
 ***
 
 ### sort?
 
 > `optional` **sort**: `string`
+
+Defined in: main.ts:176384
 
 sorting by task execution time
 optional field
@@ -146,27 +140,23 @@ default value: "asc"
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`sort`](../interfaces/IContentAnalysisIdListRequestInfo.md#sort)
 
-#### Defined in
-
-main.ts:164694
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:176401
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:164711
 
 ***
 
@@ -174,17 +164,17 @@ main.ts:164711
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:176423
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:164733
 
 ***
 
@@ -192,14 +182,14 @@ main.ts:164733
 
 > `static` **fromJS**(`data`): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
+Defined in: main.ts:176416
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
-
-#### Defined in
-
-main.ts:164726

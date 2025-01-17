@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonSerpElement
+[Documentation](../README.md) / AmazonSerpElement
 
 # Class: AmazonSerpElement
+
+Defined in: main.ts:192592
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AmazonSerpElement**(`data`?): [`AmazonSerpElement`](AmazonSerpElement.md)
 
+Defined in: main.ts:192641
+
 #### Parameters
 
-• **data?**: [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md)
+##### data?
+
+[`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md)
 
 #### Returns
 
 [`AmazonSerpElement`](AmazonSerpElement.md)
-
-#### Defined in
-
-main.ts:180452
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:180452
 
 > `optional` **bought\_past\_month**: `number`
 
+Defined in: main.ts:192606
+
 number of product purchases in the past month
 
 #### Implementation of
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`bought_past_month`](../interfaces/IAmazonSerpElement.md#bought_past_month)
 
-#### Defined in
-
-main.ts:180417
-
 ***
 
 ### currency?
 
 > `optional` **currency**: `string`
+
+Defined in: main.ts:192618
 
 currency in the ISO format
 example:
@@ -62,15 +64,13 @@ USD
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`currency`](../interfaces/IAmazonSerpElement.md#currency)
 
-#### Defined in
-
-main.ts:180429
-
 ***
 
 ### data\_asin?
 
 > `optional` **data\_asin**: `string`
+
+Defined in: main.ts:192626
 
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
@@ -81,15 +81,13 @@ B07G82D89J
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`data_asin`](../interfaces/IAmazonSerpElement.md#data_asin)
 
-#### Defined in
-
-main.ts:180437
-
 ***
 
 ### delivery\_info?
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
+
+Defined in: main.ts:192637
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -98,15 +96,13 @@ delivery information including free and fast delivery date ranges
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`delivery_info`](../interfaces/IAmazonSerpElement.md#delivery_info)
 
-#### Defined in
-
-main.ts:180448
-
 ***
 
 ### domain?
 
 > `optional` **domain**: `string`
+
+Defined in: main.ts:192598
 
 Amazon domain
 
@@ -114,15 +110,13 @@ Amazon domain
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`domain`](../interfaces/IAmazonSerpElement.md#domain)
 
-#### Defined in
-
-main.ts:180409
-
 ***
 
 ### image\_url?
 
 > `optional` **image\_url**: `string`
+
+Defined in: main.ts:192604
 
 URL of the product image featured in the results
 
@@ -130,15 +124,13 @@ URL of the product image featured in the results
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`image_url`](../interfaces/IAmazonSerpElement.md#image_url)
 
-#### Defined in
-
-main.ts:180415
-
 ***
 
 ### is\_amazon\_choice?
 
 > `optional` **is\_amazon\_choice**: `boolean`
+
+Defined in: main.ts:192631
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -147,15 +139,13 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`is_amazon_choice`](../interfaces/IAmazonSerpElement.md#is_amazon_choice)
 
-#### Defined in
-
-main.ts:180442
-
 ***
 
 ### is\_best\_seller?
 
 > `optional` **is\_best\_seller**: `boolean`
+
+Defined in: main.ts:192634
 
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
@@ -164,15 +154,13 @@ if the value is true, the product is marked with the “Best Seller” label
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`is_best_seller`](../interfaces/IAmazonSerpElement.md#is_best_seller)
 
-#### Defined in
-
-main.ts:180445
-
 ***
 
 ### price\_from?
 
 > `optional` **price\_from**: `number`
+
+Defined in: main.ts:192610
 
 the regular price of a product
 example:
@@ -182,15 +170,13 @@ example:
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`price_from`](../interfaces/IAmazonSerpElement.md#price_from)
 
-#### Defined in
-
-main.ts:180421
-
 ***
 
 ### price\_to?
 
 > `optional` **price\_to**: `number`
+
+Defined in: main.ts:192614
 
 the upper limit of the product price range
 example:
@@ -200,15 +186,13 @@ example:
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`price_to`](../interfaces/IAmazonSerpElement.md#price_to)
 
-#### Defined in
-
-main.ts:180425
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
+
+Defined in: main.ts:192628
 
 product rating info
 
@@ -216,15 +200,13 @@ product rating info
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`rating`](../interfaces/IAmazonSerpElement.md#rating)
 
-#### Defined in
-
-main.ts:180439
-
 ***
 
 ### special\_offers?
 
 > `optional` **special\_offers**: `string`[]
+
+Defined in: main.ts:192621
 
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
@@ -233,15 +215,13 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`special_offers`](../interfaces/IAmazonSerpElement.md#special_offers)
 
-#### Defined in
-
-main.ts:180432
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:192600
 
 product title
 
@@ -249,15 +229,13 @@ product title
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`title`](../interfaces/IAmazonSerpElement.md#title)
 
-#### Defined in
-
-main.ts:180411
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:192594
 
 type of element
 
@@ -265,15 +243,13 @@ type of element
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`type`](../interfaces/IAmazonSerpElement.md#type)
 
-#### Defined in
-
-main.ts:180405
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:192602
 
 the URL of the product page
 
@@ -281,15 +257,13 @@ the URL of the product page
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`url`](../interfaces/IAmazonSerpElement.md#url)
 
-#### Defined in
-
-main.ts:180413
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:192596
 
 the XPath of the element
 
@@ -297,27 +271,23 @@ the XPath of the element
 
 [`IAmazonSerpElement`](../interfaces/IAmazonSerpElement.md).[`xpath`](../interfaces/IAmazonSerpElement.md#xpath)
 
-#### Defined in
-
-main.ts:180407
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:192650
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:180461
 
 ***
 
@@ -325,17 +295,17 @@ main.ts:180461
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:192686
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:180497
 
 ***
 
@@ -343,14 +313,14 @@ main.ts:180497
 
 > `static` **fromJS**(`data`): [`AmazonSerpElement`](AmazonSerpElement.md)
 
+Defined in: main.ts:192679
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AmazonSerpElement`](AmazonSerpElement.md)
-
-#### Defined in
-
-main.ts:180490

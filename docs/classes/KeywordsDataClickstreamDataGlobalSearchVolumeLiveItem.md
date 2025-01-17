@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
+[Documentation](../README.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
+
+Defined in: main.ts:148200
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem**(`data`?): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
 
+Defined in: main.ts:148214
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
 
 #### Returns
 
 [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
-
-#### Defined in
-
-main.ts:136168
 
 ## Properties
 
 ### country\_distribution?
 
 > `optional` **country\_distribution**: [`CountryDistribution`](CountryDistribution.md)[]
+
+Defined in: main.ts:148210
 
 distribution of clickstream by countries
 represents clickstream-based search volume in available countries, as well as its respective percentage of global search volume
@@ -45,15 +49,13 @@ represents clickstream-based search volume in available countries, as well as it
 
 [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md).[`country_distribution`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md#country_distribution)
 
-#### Defined in
-
-main.ts:136164
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:148203
 
 keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -62,15 +64,13 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md).[`keyword`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md#keyword)
 
-#### Defined in
-
-main.ts:136157
-
 ***
 
 ### search\_volume?
 
 > `optional` **search\_volume**: `number`
+
+Defined in: main.ts:148207
 
 clickstream-based average monthly search volume rate
 represents the (approximate) number of searches for the given keyword idea based on clickstream
@@ -80,27 +80,23 @@ you can learn more about clickstream search volume in this Help Center article
 
 [`IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md).[`search_volume`](../interfaces/IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md#search_volume)
 
-#### Defined in
-
-main.ts:136161
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:148223
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:136177
 
 ***
 
@@ -108,17 +104,17 @@ main.ts:136177
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:148246
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:136200
 
 ***
 
@@ -126,14 +122,14 @@ main.ts:136200
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
 
+Defined in: main.ts:148239
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)
-
-#### Defined in
-
-main.ts:136193

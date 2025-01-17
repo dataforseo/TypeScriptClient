@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
+[Documentation](../README.md) / DataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveItem
+
+Defined in: main.ts:112014
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveItem**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
+Defined in: main.ts:112025
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
+##### data?
+
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
-
-#### Defined in
-
-main.ts:102186
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:102186
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:112018
+
 keyword in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#keyword)
-
-#### Defined in
-
-main.ts:102179
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:102179
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:112016
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#se_type)
 
-#### Defined in
-
-main.ts:102177
-
 ***
 
 ### search\_volume?
 
 > `optional` **search\_volume**: `number`
+
+Defined in: main.ts:112021
 
 average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon
@@ -77,27 +77,23 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`search_volume`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#search_volume)
 
-#### Defined in
-
-main.ts:102182
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:112034
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:102195
 
 ***
 
@@ -105,17 +101,17 @@ main.ts:102195
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:112053
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:102214
 
 ***
 
@@ -123,14 +119,14 @@ main.ts:102214
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
+Defined in: main.ts:112046
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
-
-#### Defined in
-
-main.ts:102207

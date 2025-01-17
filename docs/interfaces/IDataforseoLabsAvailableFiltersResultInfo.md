@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAvailableFiltersResultInfo
+[Documentation](../README.md) / IDataforseoLabsAvailableFiltersResultInfo
 
 # Interface: IDataforseoLabsAvailableFiltersResultInfo
 
+Defined in: main.ts:91207
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **app\_competitors**: `object`
 
+Defined in: main.ts:91227
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81482
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -30,13 +30,11 @@ main.ts:81482
 
 > `optional` **app\_intersection**: `object`
 
+Defined in: main.ts:91226
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81481
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -44,13 +42,11 @@ main.ts:81481
 
 > `optional` **categories\_for\_domain**: `object`
 
+Defined in: main.ts:91216
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81471
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -58,13 +54,11 @@ main.ts:81471
 
 > `optional` **competitors\_domain**: `object`
 
+Defined in: main.ts:91215
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81470
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -72,13 +66,11 @@ main.ts:81470
 
 > `optional` **database\_rows\_count**: `object`
 
+Defined in: main.ts:91229
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:81484
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -86,13 +78,11 @@ main.ts:81484
 
 > `optional` **domain\_intersection**: `object`
 
+Defined in: main.ts:91218
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81473
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -100,13 +90,11 @@ main.ts:81473
 
 > `optional` **domain\_metrics\_by\_categories**: `object`
 
+Defined in: main.ts:91222
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81477
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -114,13 +102,11 @@ main.ts:81477
 
 > `optional` **domain\_whois\_overview**: `object`
 
+Defined in: main.ts:91220
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81475
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -128,13 +114,11 @@ main.ts:81475
 
 > `optional` **keyword\_ideas**: `object`
 
+Defined in: main.ts:91211
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81466
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -142,13 +126,11 @@ main.ts:81466
 
 > `optional` **keyword\_suggestions**: `object`
 
+Defined in: main.ts:91209
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81464
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -156,13 +138,11 @@ main.ts:81464
 
 > `optional` **keywords\_for\_app**: `object`
 
+Defined in: main.ts:91228
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81483
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -170,13 +150,11 @@ main.ts:81483
 
 > `optional` **keywords\_for\_categories**: `object`
 
+Defined in: main.ts:91217
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81472
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -184,13 +162,11 @@ main.ts:81472
 
 > `optional` **keywords\_for\_site**: `object`
 
+Defined in: main.ts:91223
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81478
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -198,13 +174,11 @@ main.ts:81478
 
 > `optional` **page\_intersection**: `object`
 
+Defined in: main.ts:91219
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81474
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -212,13 +186,11 @@ main.ts:81474
 
 > `optional` **product\_competitors**: `object`
 
+Defined in: main.ts:91224
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81479
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -226,13 +198,11 @@ main.ts:81479
 
 > `optional` **product\_keyword\_intersections**: `object`
 
+Defined in: main.ts:91225
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81480
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -240,13 +210,11 @@ main.ts:81480
 
 > `optional` **ranked\_keywords**: `object`
 
+Defined in: main.ts:91210
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81465
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -254,13 +222,11 @@ main.ts:81465
 
 > `optional` **related\_keywords**: `object`
 
+Defined in: main.ts:91208
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81463
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -268,13 +234,11 @@ main.ts:81463
 
 > `optional` **relevant\_pages**: `object`
 
+Defined in: main.ts:91213
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81468
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -282,13 +246,11 @@ main.ts:81468
 
 > `optional` **serp\_competitors**: `object`
 
+Defined in: main.ts:91212
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81467
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -296,13 +258,11 @@ main.ts:81467
 
 > `optional` **subdomains**: `object`
 
+Defined in: main.ts:91214
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81469
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -310,10 +270,8 @@ main.ts:81469
 
 > `optional` **top\_searches**: `object`
 
+Defined in: main.ts:91221
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:81476
+\[`key`: `string`\]: `object`

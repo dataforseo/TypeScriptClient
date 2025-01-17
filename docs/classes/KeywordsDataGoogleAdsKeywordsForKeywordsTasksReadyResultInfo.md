@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo
+
+Defined in: main.ts:130098
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md)
 
+Defined in: main.ts:130115
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:120027
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:120027
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:130107
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:120019
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:120019
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:130111
+
 URL for collecting the results of the task
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md).[`endpoint`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md#endpoint)
-
-#### Defined in
-
-main.ts:120023
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:120023
 
 > `optional` **function**: `string`
 
+Defined in: main.ts:130105
+
 type of the task
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md).[`function`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md#function)
 
-#### Defined in
-
-main.ts:120017
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:130101
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -93,15 +91,13 @@ unique task identifier in our system in the UUID format
 
 [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md).[`id`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:120013
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:130103
 
 search engine specified when setting the task
 
@@ -109,15 +105,13 @@ search engine specified when setting the task
 
 [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md).[`se`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:120015
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:130109
 
 user-defined task identifier
 
@@ -125,27 +119,23 @@ user-defined task identifier
 
 [`IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:120021
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:130124
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:120036
 
 ***
 
@@ -153,17 +143,17 @@ main.ts:120036
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:130146
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:120058
 
 ***
 
@@ -171,14 +161,14 @@ main.ts:120058
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md)
 
+Defined in: main.ts:130139
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:120051

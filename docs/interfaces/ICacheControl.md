@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICacheControl
+[Documentation](../README.md) / ICacheControl
 
 # Interface: ICacheControl
 
+Defined in: main.ts:166768
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **cachable**: `boolean`
 
+Defined in: main.ts:166770
+
 indicates whether the page is cacheable
-
-#### Defined in
-
-main.ts:155042
 
 ***
 
@@ -28,9 +28,7 @@ main.ts:155042
 
 > `optional` **ttl**: `number`
 
+Defined in: main.ts:166773
+
 time to live
 the amount of time the browser caches a resource
-
-#### Defined in
-
-main.ts:155045

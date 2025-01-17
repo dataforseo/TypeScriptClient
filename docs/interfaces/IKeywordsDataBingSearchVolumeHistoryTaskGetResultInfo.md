@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
+[Documentation](../README.md) / IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
 
+Defined in: main.ts:146827
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **device**: `string`[]
 
-#### Defined in
-
-main.ts:134878
+Defined in: main.ts:146836
 
 ***
 
@@ -26,11 +26,9 @@ main.ts:134878
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:146829
+
 keyword in a POST array
-
-#### Defined in
-
-main.ts:134871
 
 ***
 
@@ -38,12 +36,10 @@ main.ts:134871
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:146835
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:134877
 
 ***
 
@@ -51,12 +47,10 @@ main.ts:134877
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:146832
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:134874
 
 ***
 
@@ -64,13 +58,11 @@ main.ts:134874
 
 > `optional` **period**: `string`
 
+Defined in: main.ts:146840
+
 time period
 indicates if returned data is aggregated to a certain time period
 default value monthly
-
-#### Defined in
-
-main.ts:134882
 
 ***
 
@@ -78,9 +70,7 @@ main.ts:134882
 
 > `optional` **searches**: [`SearchVolumeHistorySearchInfo`](../classes/SearchVolumeHistorySearchInfo.md)
 
+Defined in: main.ts:146843
+
 contains results distributed by device type
 if the device parameter is not specified, the data will be returned for all available device types
-
-#### Defined in
-
-main.ts:134885

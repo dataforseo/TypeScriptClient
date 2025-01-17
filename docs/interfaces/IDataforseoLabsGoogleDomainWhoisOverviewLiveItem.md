@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
+Defined in: main.ts:100373
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
+Defined in: main.ts:100421
+
 backlink data for the returned domain
-
-#### Defined in
-
-main.ts:90602
 
 ***
 
@@ -28,14 +28,12 @@ main.ts:90602
 
 > `optional` **changed\_datetime**: `string`
 
+Defined in: main.ts:100387
+
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
 example:
 "2021-01-14 08:36:28 +00:00"
-
-#### Defined in
-
-main.ts:90568
 
 ***
 
@@ -43,14 +41,12 @@ main.ts:90568
 
 > `optional` **created\_datetime**: `string`
 
+Defined in: main.ts:100382
+
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
 example:
 "1997-03-29 03:00:00 +00:00"
-
-#### Defined in
-
-main.ts:90563
 
 ***
 
@@ -58,11 +54,9 @@ main.ts:90563
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:100377
+
 domain name
-
-#### Defined in
-
-main.ts:90558
 
 ***
 
@@ -70,12 +64,10 @@ main.ts:90558
 
 > `optional` **epp\_status\_codes**: `string`[]
 
+Defined in: main.ts:100405
+
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
-
-#### Defined in
-
-main.ts:90586
 
 ***
 
@@ -83,14 +75,12 @@ main.ts:90586
 
 > `optional` **expiration\_datetime**: `string`
 
+Defined in: main.ts:100392
+
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
 example:
 "2022-11-26 17:21:23 +00:00"
-
-#### Defined in
-
-main.ts:90573
 
 ***
 
@@ -98,14 +88,12 @@ main.ts:90573
 
 > `optional` **first\_seen**: `string`
 
+Defined in: main.ts:100402
+
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 "2019-11-15 12:57:46 +00:00"
-
-#### Defined in
-
-main.ts:90583
 
 ***
 
@@ -113,15 +101,13 @@ main.ts:90583
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:100419
+
 ranking data relevant to the specified domain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:90600
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 ***
 
@@ -129,13 +115,11 @@ main.ts:90600
 
 > `optional` **registered**: `boolean`
 
+Defined in: main.ts:100412
+
 domain registration status
 if false, the domain name registration has expired
 Note: expired domains will remain in the database for only a short period of time
-
-#### Defined in
-
-main.ts:90593
 
 ***
 
@@ -143,14 +127,12 @@ main.ts:90593
 
 > `optional` **registrar**: `string`
 
+Defined in: main.ts:100417
+
 domain registrar
 if null, the domain registrar is unknown
 example:
 NameCheap, Inc.
-
-#### Defined in
-
-main.ts:90598
 
 ***
 
@@ -158,11 +140,9 @@ main.ts:90598
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:100375
+
 search engine type
-
-#### Defined in
-
-main.ts:90556
 
 ***
 
@@ -170,12 +150,10 @@ main.ts:90556
 
 > `optional` **tld**: `string`
 
+Defined in: main.ts:100408
+
 top-level domain
 top-level domain in the DNS root zone
-
-#### Defined in
-
-main.ts:90589
 
 ***
 
@@ -183,11 +161,9 @@ main.ts:90589
 
 > `optional` **updated\_datetime**: `string`
 
+Defined in: main.ts:100397
+
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated
 example:
 "2021-01-29 13:59:38 +00:00"
-
-#### Defined in
-
-main.ts:90578

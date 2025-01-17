@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
+Defined in: main.ts:94748
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
+Defined in: main.ts:94771
+
 contains keywords and related data
-
-#### Defined in
-
-main.ts:84956
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:84956
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:94763
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:84948
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:84948
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:94759
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:84944
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:84944
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:94757
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:84942
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:84942
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:94765
+
 current offset value
-
-#### Defined in
-
-main.ts:84950
 
 ***
 
@@ -76,13 +68,11 @@ main.ts:84950
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:94769
+
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:84954
 
 ***
 
@@ -90,11 +80,9 @@ main.ts:84954
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:94750
+
 search engine type
-
-#### Defined in
-
-main.ts:84935
 
 ***
 
@@ -102,11 +90,9 @@ main.ts:84935
 
 > `optional` **seed\_keyword**: `string`
 
+Defined in: main.ts:94752
+
 keyword in a POST array
-
-#### Defined in
-
-main.ts:84937
 
 ***
 
@@ -114,16 +100,14 @@ main.ts:84937
 
 > `optional` **seed\_keyword\_data**: `object`
 
+Defined in: main.ts:94755
+
 keyword data for the seed keyword
 fields in this object are identical to those of the items array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:84940
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -131,8 +115,6 @@ main.ts:84940
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:94761
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:84946

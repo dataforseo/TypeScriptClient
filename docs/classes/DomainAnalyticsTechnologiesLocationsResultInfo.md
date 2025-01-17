@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesLocationsResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesLocationsResultInfo
 
 # Class: DomainAnalyticsTechnologiesLocationsResultInfo
+
+Defined in: main.ts:85242
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsTechnologiesLocationsResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
+Defined in: main.ts:85250
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:75513
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:75513
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:85246
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md).[`country_iso_code`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:75509
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:75509
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:85244
+
 full name of the location
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md).[`location_name`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md#location_name)
-
-#### Defined in
-
-main.ts:75507
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:75507
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:85259
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:75522
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:75522
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:85277
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:75540
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:75540
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
+Defined in: main.ts:85270
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:75533

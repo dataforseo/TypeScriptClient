@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRatingInfo
+[Documentation](../README.md) / IRatingInfo
 
 # Interface: IRatingInfo
 
+Defined in: main.ts:24069
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **rating\_max**: `number`
 
+Defined in: main.ts:24078
+
 the maximum value for a rating_type
-
-#### Defined in
-
-main.ts:23175
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:23175
 
 > `optional` **rating\_type**: `string`
 
+Defined in: main.ts:24072
+
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
-
-#### Defined in
-
-main.ts:23169
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:23169
 
 > `optional` **value**: `number`
 
+Defined in: main.ts:24074
+
 the value of the rating
-
-#### Defined in
-
-main.ts:23171
 
 ***
 
@@ -53,8 +49,6 @@ main.ts:23171
 
 > `optional` **votes\_count**: `number`
 
+Defined in: main.ts:24076
+
 the amount of feedback
-
-#### Defined in
-
-main.ts:23173

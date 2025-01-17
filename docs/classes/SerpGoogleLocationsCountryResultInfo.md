@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / SerpGoogleLocationsCountryResultInfo
 
 # Class: SerpGoogleLocationsCountryResultInfo
+
+Defined in: main.ts:26965
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpGoogleLocationsCountryResultInfo**(`data`?): [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
 
+Defined in: main.ts:26986
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md)
+##### data?
+
+[`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:25916
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:25916
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:26980
+
 ISO country code of the location
 
 #### Implementation of
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:25910
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:25910
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:26967
+
 location code
 
 #### Implementation of
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`location_code`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:25897
-
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:26978
 
 the code of the superordinate location
 example:
@@ -83,15 +83,13 @@ where location_code_parent corresponds to:
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#location_code_parent)
 
-#### Defined in
-
-main.ts:25908
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:26969
 
 full name of the location
 
@@ -99,15 +97,13 @@ full name of the location
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`location_name`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:25899
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:26982
 
 location type
 
@@ -115,27 +111,23 @@ location type
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`location_type`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:25912
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:26995
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:25925
 
 ***
 
@@ -143,17 +135,17 @@ main.ts:25925
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:27016
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:25946
 
 ***
 
@@ -161,14 +153,14 @@ main.ts:25946
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
 
+Defined in: main.ts:27009
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:25939

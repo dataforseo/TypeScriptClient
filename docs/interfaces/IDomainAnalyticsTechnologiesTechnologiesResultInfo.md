@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologiesResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesResultInfo
 
+Defined in: main.ts:85787
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **groups**: [`Groups`](../classes/Groups.md)[]
 
+Defined in: main.ts:85789
+
 array of technology groups
-
-#### Defined in
-
-main.ts:76052

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsSearchLiveRequestInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsSearchLiveRequestInfo
 
 # Interface: IBusinessDataBusinessListingsSearchLiveRequestInfo
 
+Defined in: main.ts:210750
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **categories**: `string`[]
 
+Defined in: main.ts:210756
+
 business categories
 optional field
 the categories you specify are used to search for business listings;
 if you don’t use this field, we will return business listings found in the specified location;
 you can specify up to 10 categories
-
-#### Defined in
-
-main.ts:198305
 
 ***
 
@@ -32,20 +32,20 @@ main.ts:198305
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:210761
+
 description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
-can contain up to 200 symbols
-
-#### Defined in
-
-main.ts:198310
+can contain up to 200 characters
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:210790
 
 array of results filtering parameters
 optional field
@@ -58,22 +58,16 @@ example:
 ["rating.value",">",3]
 you can receive the list of available filters by making a separate request to https://api.dataforseo.com/v3/business_data/business_listings/available_filters
 
-#### Defined in
-
-main.ts:198339
-
 ***
 
 ### is\_claimed?
 
 > `optional` **is\_claimed**: `boolean`
 
+Defined in: main.ts:210769
+
 indicates whether the business is verified by its owner on Google Maps
 optional field
-
-#### Defined in
-
-main.ts:198318
 
 ***
 
@@ -81,20 +75,20 @@ main.ts:198318
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:210808
+
 the maximum number of returned businesses
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:198357
 
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:210779
 
 GPS coordinates of a location
 optional field
@@ -106,30 +100,26 @@ the maximum value for “radius”: 100000
 example:
 53.476225,-2.243572,200
 
-#### Defined in
-
-main.ts:198328
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:210813
+
 offset in the results array of returned businesses
 optional field
 default value: 0
 if you specify the 10 value, the first ten entities in the results array will be omitted and the data will be provided for the successive entities
-
-#### Defined in
-
-main.ts:198362
 
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:210821
 
 token for subsequent requests
 optional field
@@ -139,15 +129,13 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
 
-#### Defined in
-
-main.ts:198370
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:210803
 
 results sorting rules
 optional field
@@ -162,15 +150,13 @@ you should use a comma to separate several sorting rules
 example:
 ["rating.value,desc","rating.votes_count,desc"]
 
-#### Defined in
-
-main.ts:198352
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:210827
 
 user-defined task identifier
 optional field
@@ -178,21 +164,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:198376
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:210766
+
 title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
-can contain up to 200 symbols
-
-#### Defined in
-
-main.ts:198315
+can contain up to 200 characters

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentUrlInfo
+[Documentation](../README.md) / IContentUrlInfo
 
 # Interface: IContentUrlInfo
 
+Defined in: main.ts:172969
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **anchor\_text**: `string`
 
+Defined in: main.ts:172973
+
 text of the URL’s anchor
-
-#### Defined in
-
-main.ts:161259
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:161259
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:172971
+
 other URL found in the content element
-
-#### Defined in
-
-main.ts:161257

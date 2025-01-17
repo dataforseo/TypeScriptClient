@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IExploreBrandsElement
+[Documentation](../README.md) / IExploreBrandsElement
 
 # Interface: IExploreBrandsElement
 
+Defined in: main.ts:37293
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:37303
+
 description
-
-#### Defined in
-
-main.ts:35598
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:35598
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:37301
+
 website domain
-
-#### Defined in
-
-main.ts:35596
 
 ***
 
@@ -40,11 +38,10 @@ main.ts:35596
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:37306
+
 URL of the image
-
-#### Defined in
-
-main.ts:35600
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 ***
 
@@ -52,11 +49,9 @@ main.ts:35600
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:37297
+
 title of a given link element
-
-#### Defined in
-
-main.ts:35592
 
 ***
 
@@ -64,11 +59,9 @@ main.ts:35592
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:37295
+
 type of element
-
-#### Defined in
-
-main.ts:35590
 
 ***
 
@@ -76,11 +69,9 @@ main.ts:35590
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:37299
+
 URL
-
-#### Defined in
-
-main.ts:35594
 
 ***
 
@@ -88,8 +79,6 @@ main.ts:35594
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:37308
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:35602

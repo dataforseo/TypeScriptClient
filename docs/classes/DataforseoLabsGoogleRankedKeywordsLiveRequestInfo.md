@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleRankedKeywordsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleRankedKeywordsLiveRequestInfo
+
+Defined in: main.ts:100612
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleRankedKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)
 
+Defined in: main.ts:100745
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:90930
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:100719
 
 array of results filtering parameters
 optional field
@@ -62,15 +66,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:90904
-
 ***
 
 ### historical\_serp\_mode?
 
 > `optional` **historical\_serp\_mode**: `string`
+
+Defined in: main.ts:100699
 
 data collection mode
 optional field
@@ -85,15 +87,13 @@ default value: live
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`historical_serp_mode`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#historical_serp_mode)
 
-#### Defined in
-
-main.ts:90884
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
+
+Defined in: main.ts:100659
 
 ignore highly similar keywords
 optional field
@@ -104,19 +104,17 @@ default value: false
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`ignore_synonyms`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#ignore_synonyms)
 
-#### Defined in
-
-main.ts:90844
-
 ***
 
 ### include\_clickstream\_data?
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
+Defined in: main.ts:100675
+
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, clickstream_age_distribution, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -125,15 +123,13 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#include_clickstream_data)
 
-#### Defined in
-
-main.ts:90860
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:100668
 
 display results by item type
 optional field
@@ -148,15 +144,13 @@ default value:
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:90853
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:100654
 
 language code
 optional field
@@ -171,15 +165,13 @@ en
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:90839
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:100645
 
 full name of the language
 optional field
@@ -194,15 +186,13 @@ English
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:90830
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:100680
 
 the maximum number of returned keywords
 optional field
@@ -213,15 +203,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:90865
-
 ***
 
 ### load\_rank\_absolute?
 
 > `optional` **load\_rank\_absolute**: `boolean`
+
+Defined in: main.ts:100690
 
 return rankings distribution by rank_absolute
 optional field
@@ -232,15 +220,13 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`load_rank_absolute`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#load_rank_absolute)
 
-#### Defined in
-
-main.ts:90875
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:100636
 
 location code
 optional field
@@ -255,15 +241,13 @@ example:
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:90821
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:100627
 
 full name of the location
 optional field
@@ -278,15 +262,13 @@ United Kingdom
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:90812
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:100685
 
 offset in the results array of returned keywords
 optional field
@@ -297,15 +279,13 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:90870
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:100735
 
 results sorting rules
 optional field
@@ -327,15 +307,13 @@ example:
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:90920
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:100741
 
 user-defined task identifier
 optional field
@@ -347,33 +325,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:90926
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
 
-domain
+Defined in: main.ts:100618
+
+domain name or page url
 required field
-the domain name of the target website
-the domain should be specified without https:// or www.
-if you want to get the keywords a particular webpage ranks for, specify the filter by the
-ranked_serp_element.serp_item.relative_url parameter
-example:
-"filters":[
-"ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
+the domain name of the target website or URL of the target webpage;
+the domain name must be specified without https:// or www.;
+the webpage URL must be specified with https:// or www.
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#target)
-
-#### Defined in
-
-main.ts:90803
 
 ## Methods
 
@@ -381,17 +349,17 @@ main.ts:90803
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:100754
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:90939
 
 ***
 
@@ -399,17 +367,17 @@ main.ts:90939
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:100797
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:90982
 
 ***
 
@@ -417,14 +385,14 @@ main.ts:90982
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)
 
+Defined in: main.ts:100790
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](DataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:90975

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorLanguagesResultInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorLanguagesResultInfo
 
 # Interface: IBusinessDataTripadvisorLanguagesResultInfo
 
+Defined in: main.ts:227583
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:227587
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:212553
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:212553
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:227585
+
 language name
-
-#### Defined in
-
-main.ts:212551

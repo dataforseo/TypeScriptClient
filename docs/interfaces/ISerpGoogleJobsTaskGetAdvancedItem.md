@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleJobsTaskGetAdvancedItem
+[Documentation](../README.md) / ISerpGoogleJobsTaskGetAdvancedItem
 
 # Interface: ISerpGoogleJobsTaskGetAdvancedItem
 
+Defined in: main.ts:54614
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **contract\_type**: `string`
 
+Defined in: main.ts:54650
+
 employment contract type
-
-#### Defined in
-
-main.ts:50920
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:50920
 
 > `optional` **employer\_image\_url**: `string`
 
+Defined in: main.ts:54639
+
 URL to the image used in the job posting
-
-#### Defined in
-
-main.ts:50909
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:50909
 
 > `optional` **employer\_name**: `string`
 
+Defined in: main.ts:54635
+
 name of the employer
-
-#### Defined in
-
-main.ts:50905
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:50905
 
 > `optional` **employer\_url**: `string`
 
+Defined in: main.ts:54637
+
 URL to the employer’s website
-
-#### Defined in
-
-main.ts:50907
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:50907
 
 > `optional` **job\_id**: `string`
 
+Defined in: main.ts:54631
+
 ID of the job on Google Jobs
-
-#### Defined in
-
-main.ts:50901
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:50901
 
 > `optional` **location**: `string`
 
+Defined in: main.ts:54641
+
 location for which the job vacancy is posted
-
-#### Defined in
-
-main.ts:50911
 
 ***
 
@@ -88,13 +78,11 @@ main.ts:50911
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:54627
+
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Defined in
-
-main.ts:50897
 
 ***
 
@@ -102,12 +90,10 @@ main.ts:50897
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:54623
+
 absolute rank in SERP
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:50893
 
 ***
 
@@ -115,13 +101,11 @@ main.ts:50893
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:54620
+
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:50890
 
 ***
 
@@ -129,13 +113,11 @@ main.ts:50890
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
+Defined in: main.ts:54661
+
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
 in this case, will equal null
-
-#### Defined in
-
-main.ts:50931
 
 ***
 
@@ -143,12 +125,10 @@ main.ts:50931
 
 > `optional` **salary**: `string`
 
+Defined in: main.ts:54648
+
 the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null
-
-#### Defined in
-
-main.ts:50918
 
 ***
 
@@ -156,11 +136,9 @@ main.ts:50918
 
 > `optional` **source\_name**: `string`
 
+Defined in: main.ts:54643
+
 original source of the job vacancy
-
-#### Defined in
-
-main.ts:50913
 
 ***
 
@@ -168,11 +146,9 @@ main.ts:50913
 
 > `optional` **source\_url**: `string`
 
+Defined in: main.ts:54645
+
 URL to the original source of the job vacancy
-
-#### Defined in
-
-main.ts:50915
 
 ***
 
@@ -180,11 +156,9 @@ main.ts:50915
 
 > `optional` **time\_ago**: `string`
 
+Defined in: main.ts:54657
+
 indicates how long ago the job vacancy was posted
-
-#### Defined in
-
-main.ts:50927
 
 ***
 
@@ -192,14 +166,12 @@ main.ts:50927
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:54655
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:50925
 
 ***
 
@@ -207,11 +179,9 @@ main.ts:50925
 
 > `optional` **title**: `string`
 
-title of the job
+Defined in: main.ts:54633
 
-#### Defined in
-
-main.ts:50903
+title of the element
 
 ***
 
@@ -219,11 +189,9 @@ main.ts:50903
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:54616
+
 type of element
-
-#### Defined in
-
-main.ts:50886
 
 ***
 
@@ -231,8 +199,6 @@ main.ts:50886
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:54629
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:50899

@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:215509
+=======
+main.ts:215542
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -44,7 +48,11 @@ main.ts:215509
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:215505
+=======
+main.ts:215538
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -62,7 +70,11 @@ main.ts:215505
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:215518
+=======
+main.ts:215551
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -80,7 +92,11 @@ main.ts:215518
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:215535
+=======
+main.ts:215568
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -98,4 +114,8 @@ main.ts:215535
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:215528
+=======
+main.ts:215561
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

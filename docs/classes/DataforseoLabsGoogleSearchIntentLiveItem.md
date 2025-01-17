@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSearchIntentLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveItem
 
 # Class: DataforseoLabsGoogleSearchIntentLiveItem
+
+Defined in: main.ts:96628
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleSearchIntentLiveItem**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
+Defined in: main.ts:96638
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
-
-#### Defined in
-
-main.ts:86819
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:86819
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:96630
+
 target keyword in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword)
-
-#### Defined in
-
-main.ts:86811
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:86811
 
 > `optional` **keyword\_intent**: [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
+Defined in: main.ts:96632
+
 search intent data relevant for the specified keyword
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`keyword_intent`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword_intent)
-
-#### Defined in
-
-main.ts:86813
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:86813
 
 > `optional` **secondary\_keyword\_intents**: [`KeywordIntentInfo`](KeywordIntentInfo.md)[]
 
+Defined in: main.ts:96634
+
 contains objects with other possible search intents for the specified keyword
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`secondary_keyword_intents`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#secondary_keyword_intents)
-
-#### Defined in
-
-main.ts:86815
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:86815
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:96647
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:86828
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:86828
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:96670
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:86851
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:86851
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
+Defined in: main.ts:96663
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
-
-#### Defined in
-
-main.ts:86844

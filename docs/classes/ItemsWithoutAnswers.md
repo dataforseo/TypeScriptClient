@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ItemsWithoutAnswers
+[Documentation](../README.md) / ItemsWithoutAnswers
 
 # Class: ItemsWithoutAnswers
+
+Defined in: main.ts:224362
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ItemsWithoutAnswers**(`data`?): [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)
 
+Defined in: main.ts:224394
+
 #### Parameters
 
-• **data?**: [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md)
+##### data?
+
+[`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md)
 
 #### Returns
 
 [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)
-
-#### Defined in
-
-main.ts:209372
 
 ## Properties
 
 ### items?
 
 > `optional` **items**: [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)
+
+Defined in: main.ts:224390
 
 array of items
 items within google_business_question_item
@@ -45,15 +49,13 @@ items within google_business_question_item
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`items`](../interfaces/IItemsWithoutAnswers.md#items)
 
-#### Defined in
-
-main.ts:209368
-
 ***
 
 ### original\_question\_text?
 
 > `optional` **original\_question\_text**: `string`
+
+Defined in: main.ts:224383
 
 original text of the question
 
@@ -61,15 +63,13 @@ original text of the question
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`original_question_text`](../interfaces/IItemsWithoutAnswers.md#original_question_text)
 
-#### Defined in
-
-main.ts:209361
-
 ***
 
 ### profile\_image\_url?
 
 > `optional` **profile\_image\_url**: `string`
+
+Defined in: main.ts:224375
 
 URL of the user’s profile image
 
@@ -77,15 +77,13 @@ URL of the user’s profile image
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`profile_image_url`](../interfaces/IItemsWithoutAnswers.md#profile_image_url)
 
-#### Defined in
-
-main.ts:209353
-
 ***
 
 ### profile\_name?
 
 > `optional` **profile\_name**: `string`
+
+Defined in: main.ts:224379
 
 displayed name of the user
 
@@ -93,15 +91,13 @@ displayed name of the user
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`profile_name`](../interfaces/IItemsWithoutAnswers.md#profile_name)
 
-#### Defined in
-
-main.ts:209357
-
 ***
 
 ### profile\_url?
 
 > `optional` **profile\_url**: `string`
+
+Defined in: main.ts:224377
 
 URL of the user’s profile
 
@@ -109,15 +105,13 @@ URL of the user’s profile
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`profile_url`](../interfaces/IItemsWithoutAnswers.md#profile_url)
 
-#### Defined in
-
-main.ts:209355
-
 ***
 
 ### question\_id?
 
 > `optional` **question\_id**: `string`
+
+Defined in: main.ts:224371
 
 ID of the question
 
@@ -125,15 +119,13 @@ ID of the question
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`question_id`](../interfaces/IItemsWithoutAnswers.md#question_id)
 
-#### Defined in
-
-main.ts:209349
-
 ***
 
 ### question\_text?
 
 > `optional` **question\_text**: `string`
+
+Defined in: main.ts:224381
 
 current text of the question
 
@@ -141,15 +133,13 @@ current text of the question
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`question_text`](../interfaces/IItemsWithoutAnswers.md#question_text)
 
-#### Defined in
-
-main.ts:209359
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:224369
 
 absolute rank among all the elements
 
@@ -157,15 +147,13 @@ absolute rank among all the elements
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`rank_absolute`](../interfaces/IItemsWithoutAnswers.md#rank_absolute)
 
-#### Defined in
-
-main.ts:209347
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:224367
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -174,15 +162,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`rank_group`](../interfaces/IItemsWithoutAnswers.md#rank_group)
 
-#### Defined in
-
-main.ts:209345
-
 ***
 
 ### time\_ago?
 
 > `optional` **time\_ago**: `string`
+
+Defined in: main.ts:224385
 
 estimated time when the question was posted
 
@@ -190,15 +176,13 @@ estimated time when the question was posted
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`time_ago`](../interfaces/IItemsWithoutAnswers.md#time_ago)
 
-#### Defined in
-
-main.ts:209363
-
 ***
 
 ### timestamp?
 
 > `optional` **timestamp**: `string`
+
+Defined in: main.ts:224387
 
 exact time when the question was posted
 
@@ -206,15 +190,13 @@ exact time when the question was posted
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`timestamp`](../interfaces/IItemsWithoutAnswers.md#timestamp)
 
-#### Defined in
-
-main.ts:209365
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:224364
 
 type of element
 
@@ -222,15 +204,13 @@ type of element
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`type`](../interfaces/IItemsWithoutAnswers.md#type)
 
-#### Defined in
-
-main.ts:209342
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:224373
 
 URL of the question
 
@@ -238,27 +218,23 @@ URL of the question
 
 [`IItemsWithoutAnswers`](../interfaces/IItemsWithoutAnswers.md).[`url`](../interfaces/IItemsWithoutAnswers.md#url)
 
-#### Defined in
-
-main.ts:209351
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:224403
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:209381
 
 ***
 
@@ -266,17 +242,17 @@ main.ts:209381
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:224432
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:209410
 
 ***
 
@@ -284,14 +260,14 @@ main.ts:209410
 
 > `static` **fromJS**(`data`): [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)
 
+Defined in: main.ts:224425
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)
-
-#### Defined in
-
-main.ts:209403

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpIdListResultInfo
+[Documentation](../README.md) / SerpIdListResultInfo
 
 # Class: SerpIdListResultInfo
+
+Defined in: main.ts:25539
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpIdListResultInfo**(`data`?): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
+Defined in: main.ts:25565
+
 #### Parameters
 
-• **data?**: [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md)
+##### data?
+
+[`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md)
 
 #### Returns
 
 [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:24495
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:24495
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:25559
+
 cost of the task, USD
 
 #### Implementation of
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`cost`](../interfaces/ISerpIdListResultInfo.md#cost)
 
-#### Defined in
-
-main.ts:24489
-
 ***
 
 ### datetime\_done?
 
 > `optional` **datetime\_done**: `string`
+
+Defined in: main.ts:25554
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`datetime_done`](../interfaces/ISerpIdListResultInfo.md#datetime_done)
 
-#### Defined in
-
-main.ts:24484
-
 ***
 
 ### datetime\_posted?
 
 > `optional` **datetime\_posted**: `string`
+
+Defined in: main.ts:25549
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,13 @@ example:
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`datetime_posted`](../interfaces/ISerpIdListResultInfo.md#datetime_posted)
 
-#### Defined in
-
-main.ts:24479
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:25541
 
 id of the task
 
@@ -98,35 +96,31 @@ id of the task
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`id`](../interfaces/ISerpIdListResultInfo.md#id)
 
-#### Defined in
-
-main.ts:24471
-
 ***
 
 ### metadata?
 
 > `optional` **metadata**: `object`
 
+Defined in: main.ts:25561
+
 contains parameters you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`metadata`](../interfaces/ISerpIdListResultInfo.md#metadata)
-
-#### Defined in
-
-main.ts:24491
 
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:25557
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +129,13 @@ you can find the full list of general informational messages here
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`status`](../interfaces/ISerpIdListResultInfo.md#status)
 
-#### Defined in
-
-main.ts:24487
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:25544
 
 URL of the task
 URL you used for making an API call
@@ -152,27 +144,23 @@ URL you used for making an API call
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`url`](../interfaces/ISerpIdListResultInfo.md#url)
 
-#### Defined in
-
-main.ts:24474
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:25574
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:24504
 
 ***
 
@@ -180,17 +168,17 @@ main.ts:24504
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:25603
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:24533
 
 ***
 
@@ -198,14 +186,14 @@ main.ts:24533
 
 > `static` **fromJS**(`data`): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
+Defined in: main.ts:25596
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:24526

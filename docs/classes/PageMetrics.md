@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / PageMetrics
+[Documentation](../README.md) / PageMetrics
 
 # Class: PageMetrics
+
+Defined in: main.ts:165498
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new PageMetrics**(`data`?): [`PageMetrics`](PageMetrics.md)
 
+Defined in: main.ts:165538
+
 #### Parameters
 
-• **data?**: [`IPageMetrics`](../interfaces/IPageMetrics.md)
+##### data?
+
+[`IPageMetrics`](../interfaces/IPageMetrics.md)
 
 #### Returns
 
 [`PageMetrics`](PageMetrics.md)
-
-#### Defined in
-
-main.ts:153810
 
 ## Properties
 
 ### broken\_links?
 
 > `optional` **broken\_links**: `number`
+
+Defined in: main.ts:165513
 
 number of broken links
 number of broken links across all crawled pages on a target website
@@ -45,15 +49,13 @@ number of broken links across all crawled pages on a target website
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`broken_links`](../interfaces/IPageMetrics.md#broken_links)
 
-#### Defined in
-
-main.ts:153785
-
 ***
 
 ### broken\_resources?
 
 > `optional` **broken\_resources**: `number`
+
+Defined in: main.ts:165516
 
 number of broken resources
 the number of images and other resources with broken links
@@ -62,29 +64,23 @@ the number of images and other resources with broken links
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`broken_resources`](../interfaces/IPageMetrics.md#broken_resources)
 
-#### Defined in
-
-main.ts:153788
-
 ***
 
 ### checks?
 
 > `optional` **checks**: `object`
 
+Defined in: main.ts:165534
+
 page-specific on-page check-ups
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`checks`](../interfaces/IPageMetrics.md#checks)
-
-#### Defined in
-
-main.ts:153806
 
 ***
 
@@ -92,15 +88,13 @@ main.ts:153806
 
 > `optional` **duplicate\_content**: `number`
 
+Defined in: main.ts:165510
+
 number of pages with duplicate content
 
 #### Implementation of
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`duplicate_content`](../interfaces/IPageMetrics.md#duplicate_content)
-
-#### Defined in
-
-main.ts:153782
 
 ***
 
@@ -108,15 +102,13 @@ main.ts:153782
 
 > `optional` **duplicate\_description**: `number`
 
+Defined in: main.ts:165508
+
 number of pages with duplicate descriptions
 
 #### Implementation of
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`duplicate_description`](../interfaces/IPageMetrics.md#duplicate_description)
-
-#### Defined in
-
-main.ts:153780
 
 ***
 
@@ -124,21 +116,21 @@ main.ts:153780
 
 > `optional` **duplicate\_title**: `number`
 
+Defined in: main.ts:165506
+
 number of pages with duplicate titles
 
 #### Implementation of
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`duplicate_title`](../interfaces/IPageMetrics.md#duplicate_title)
 
-#### Defined in
-
-main.ts:153778
-
 ***
 
 ### links\_external?
 
 > `optional` **links\_external**: `number`
+
+Defined in: main.ts:165501
 
 number of external links
 the number of links pointing to other websites
@@ -147,15 +139,13 @@ the number of links pointing to other websites
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`links_external`](../interfaces/IPageMetrics.md#links_external)
 
-#### Defined in
-
-main.ts:153773
-
 ***
 
 ### links\_internal?
 
 > `optional` **links\_internal**: `number`
+
+Defined in: main.ts:165504
 
 number of internal links
 the number of links pointing to other pages within the target website
@@ -164,15 +154,13 @@ the number of links pointing to other pages within the target website
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`links_internal`](../interfaces/IPageMetrics.md#links_internal)
 
-#### Defined in
-
-main.ts:153776
-
 ***
 
 ### links\_relation\_conflict?
 
 > `optional` **links\_relation\_conflict**: `number`
+
+Defined in: main.ts:165519
 
 number of links present on the target website that may have a conflict
 for example, if "links_relation_conflict": 2, the target website is referring to the same source by at least one internal link with the rel="nofollow" attribute and by at least one dofollow link
@@ -181,15 +169,13 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`links_relation_conflict`](../interfaces/IPageMetrics.md#links_relation_conflict)
 
-#### Defined in
-
-main.ts:153791
-
 ***
 
 ### non\_indexable?
 
 > `optional` **non\_indexable**: `number`
+
+Defined in: main.ts:165532
 
 number of non-indexable pages
 number of pages that are blocked from being indexed by Google and other search engines by robots.txt, HTTP headers, or meta tags settings;
@@ -199,15 +185,13 @@ you can receive a list of non-indexable URLs using this endpoint
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`non_indexable`](../interfaces/IPageMetrics.md#non_indexable)
 
-#### Defined in
-
-main.ts:153804
-
 ***
 
 ### onpage\_score?
 
 > `optional` **onpage\_score**: `number`
+
+Defined in: main.ts:165528
 
 shows how website is optimized on a 100-point scale
 this field shows how website is optimized considering critical on-page issues and warnings detected;
@@ -219,15 +203,13 @@ learn more about how the metric is calculated in this help center article
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`onpage_score`](../interfaces/IPageMetrics.md#onpage_score)
 
-#### Defined in
-
-main.ts:153800
-
 ***
 
 ### redirect\_loop?
 
 > `optional` **redirect\_loop**: `number`
+
+Defined in: main.ts:165522
 
 number of redirect chains that start and end at the same URL
 number of redirect chains where the destination URL redirects back to the original URL
@@ -236,27 +218,23 @@ number of redirect chains where the destination URL redirects back to the origin
 
 [`IPageMetrics`](../interfaces/IPageMetrics.md).[`redirect_loop`](../interfaces/IPageMetrics.md#redirect_loop)
 
-#### Defined in
-
-main.ts:153794
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:165547
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:153819
 
 ***
 
@@ -264,17 +242,17 @@ main.ts:153819
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:165581
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:153853
 
 ***
 
@@ -282,14 +260,14 @@ main.ts:153853
 
 > `static` **fromJS**(`data`): [`PageMetrics`](PageMetrics.md)
 
+Defined in: main.ts:165574
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`PageMetrics`](PageMetrics.md)
-
-#### Defined in
-
-main.ts:153846

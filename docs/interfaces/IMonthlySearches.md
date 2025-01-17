@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMonthlySearches
+[Documentation](../README.md) / IMonthlySearches
 
 # Interface: IMonthlySearches
 
+Defined in: main.ts:92365
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **month**: `number`
 
+Defined in: main.ts:92369
+
 month
-
-#### Defined in
-
-main.ts:82624
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:82624
 
 > `optional` **search\_volume**: `number`
 
+Defined in: main.ts:92371
+
 monthly average search volume rate
-
-#### Defined in
-
-main.ts:82626
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:82626
 
 > `optional` **year**: `number`
 
+Defined in: main.ts:92367
+
 year
-
-#### Defined in
-
-main.ts:82622

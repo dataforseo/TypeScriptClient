@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksHistoryLiveItem
+[Documentation](../README.md) / IBacklinksHistoryLiveItem
 
 # Interface: IBacklinksHistoryLiveItem
 
+Defined in: main.ts:151098
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **backlinks**: `number`
 
+Defined in: main.ts:151110
+
 number of backlinks
-
-#### Defined in
-
-main.ts:139804
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:139804
 
 > `optional` **broken\_backlinks**: `number`
 
+Defined in: main.ts:151143
+
 number of broken backlinks
 number of broken backlinks pointing to the target
-
-#### Defined in
-
-main.ts:139837
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:139837
 
 > `optional` **broken\_pages**: `number`
 
+Defined in: main.ts:151146
+
 number of broken pages
 number of pages that receive backlinks but respond with 4xx or 5xx status codes
-
-#### Defined in
-
-main.ts:139840
 
 ***
 
@@ -54,11 +50,9 @@ main.ts:139840
 
 > `optional` **crawled\_pages**: `number`
 
+Defined in: main.ts:151132
+
 number of crawled pages for the target
-
-#### Defined in
-
-main.ts:139826
 
 ***
 
@@ -66,14 +60,12 @@ main.ts:139826
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:151105
+
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:139799
 
 ***
 
@@ -81,12 +73,10 @@ main.ts:139799
 
 > `optional` **external\_links\_count**: `number`
 
+Defined in: main.ts:151140
+
 number of external links on the page
 calculated as the sum of external links on the pages of the specified target
-
-#### Defined in
-
-main.ts:139834
 
 ***
 
@@ -94,11 +84,9 @@ main.ts:139834
 
 > `optional` **info**: [`TargetInfo`](../classes/TargetInfo.md)
 
+Defined in: main.ts:151134
+
 information about the target
-
-#### Defined in
-
-main.ts:139828
 
 ***
 
@@ -106,12 +94,10 @@ main.ts:139828
 
 > `optional` **internal\_links\_count**: `number`
 
+Defined in: main.ts:151137
+
 number of internal links
 calculated as the sum of internal links on the pages of the specified target
-
-#### Defined in
-
-main.ts:139831
 
 ***
 
@@ -119,14 +105,12 @@ main.ts:139831
 
 > `optional` **lost\_backlinks**: `number`
 
+Defined in: main.ts:151120
+
 number of lost backlinks for the target
 data is provided based in a comparison with the previous period
 Note: this data is available from May 2021;
 if the date range specified in the POST request precedes May 2021, the field will equal 0
-
-#### Defined in
-
-main.ts:139814
 
 ***
 
@@ -134,14 +118,12 @@ main.ts:139814
 
 > `optional` **lost\_referring\_domains**: `number`
 
+Defined in: main.ts:151130
+
 number of lost referring domains for the target
 data is provided based in a comparison with the previous period
 Note: this data is available from May 2021;
 if the date range specified in the POST request precedes May 2021, the field will equal 0
-
-#### Defined in
-
-main.ts:139824
 
 ***
 
@@ -149,14 +131,12 @@ main.ts:139824
 
 > `optional` **new\_backlinks**: `number`
 
+Defined in: main.ts:151115
+
 number of new backlinks for the target
 data is provided based in a comparison with the previous period
 Note: this data is available from May 2021;
 if the date range specified in the POST request precedes May 2021, the field will equal 0
-
-#### Defined in
-
-main.ts:139809
 
 ***
 
@@ -164,14 +144,12 @@ main.ts:139809
 
 > `optional` **new\_referring\_domains**: `number`
 
+Defined in: main.ts:151125
+
 number of new referring domains for the target
 data is provided based in a comparison with the previous period
 Note: this data is available from May 2021;
 if the date range specified in the POST request precedes May 2021, the field will equal 0
-
-#### Defined in
-
-main.ts:139819
 
 ***
 
@@ -179,12 +157,10 @@ main.ts:139819
 
 > `optional` **rank**: `number`
 
+Defined in: main.ts:151108
+
 domain rank on the given date
 learn more about the metric and how it is calculated in this help center article
-
-#### Defined in
-
-main.ts:139802
 
 ***
 
@@ -192,12 +168,10 @@ main.ts:139802
 
 > `optional` **referring\_domains**: `number`
 
+Defined in: main.ts:151149
+
 number of referring domains
 referring domains include subdomains that are counted as separate domains for this metric
-
-#### Defined in
-
-main.ts:139843
 
 ***
 
@@ -205,11 +179,9 @@ main.ts:139843
 
 > `optional` **referring\_domains\_nofollow**: `number`
 
+Defined in: main.ts:151151
+
 number of domains pointing at least one nofollow link to the target
-
-#### Defined in
-
-main.ts:139845
 
 ***
 
@@ -217,12 +189,10 @@ main.ts:139845
 
 > `optional` **referring\_ips**: `number`
 
+Defined in: main.ts:151158
+
 number of referring IP addresses
 number of IP addresses pointing to this page
-
-#### Defined in
-
-main.ts:139852
 
 ***
 
@@ -230,16 +200,14 @@ main.ts:139852
 
 > `optional` **referring\_links\_attributes**: `object`
 
+Defined in: main.ts:151175
+
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:139869
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -247,16 +215,14 @@ main.ts:139869
 
 > `optional` **referring\_links\_countries**: `object`
 
+Defined in: main.ts:151187
+
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:139881
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -264,22 +230,22 @@ main.ts:139881
 
 > `optional` **referring\_links\_platform\_types**: `object`
 
+Defined in: main.ts:151178
+
 types of referring platforms
 indicates referring platform types and and link count per each platform
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:139872
+\[`key`: `string`\]: `number`
 
 ***
 
 ### referring\_links\_semantic\_locations?
 
 > `optional` **referring\_links\_semantic\_locations**: `object`
+
+Defined in: main.ts:151184
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -289,11 +255,7 @@ article, section, summary
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:139878
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -301,22 +263,22 @@ main.ts:139878
 
 > `optional` **referring\_links\_tld**: `object`
 
+Defined in: main.ts:151167
+
 top-level domains of the referring links
 contains top-level domains and referring link count per each
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:139861
+\[`key`: `string`\]: `number`
 
 ***
 
 ### referring\_links\_types?
 
 > `optional` **referring\_links\_types**: `object`
+
+Defined in: main.ts:151172
 
 types of referring links
 indicates the types of the referring links and link count per each type
@@ -325,11 +287,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:139866
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -337,11 +295,9 @@ main.ts:139866
 
 > `optional` **referring\_main\_domains**: `number`
 
+Defined in: main.ts:151153
+
 number of referring main domains
-
-#### Defined in
-
-main.ts:139847
 
 ***
 
@@ -349,11 +305,9 @@ main.ts:139847
 
 > `optional` **referring\_main\_domains\_nofollow**: `number`
 
+Defined in: main.ts:151155
+
 number of main domains pointing at least one nofollow link to the target
-
-#### Defined in
-
-main.ts:139849
 
 ***
 
@@ -361,11 +315,9 @@ main.ts:139849
 
 > `optional` **referring\_pages**: `number`
 
+Defined in: main.ts:151162
+
 number of pages pointing to the target
-
-#### Defined in
-
-main.ts:139856
 
 ***
 
@@ -373,11 +325,9 @@ main.ts:139856
 
 > `optional` **referring\_pages\_nofollow**: `number`
 
+Defined in: main.ts:151164
+
 number of referring pages pointing at least one nofollow link to the target
-
-#### Defined in
-
-main.ts:139858
 
 ***
 
@@ -385,11 +335,9 @@ main.ts:139858
 
 > `optional` **referring\_subnets**: `number`
 
+Defined in: main.ts:151160
+
 number of referring subnetworks
-
-#### Defined in
-
-main.ts:139854
 
 ***
 
@@ -397,8 +345,6 @@ main.ts:139854
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:151100
+
 type of element
-
-#### Defined in
-
-main.ts:139794

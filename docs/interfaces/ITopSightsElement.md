@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopSightsElement
+[Documentation](../README.md) / ITopSightsElement
 
 # Interface: ITopSightsElement
 
+Defined in: main.ts:34403
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:34411
+
 description
-
-#### Defined in
-
-main.ts:32613
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:32613
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:34414
+
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:32616
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:32616
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:34407
+
 title of a given link element
-
-#### Defined in
-
-main.ts:32609
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:32609
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:34405
+
 type of element
-
-#### Defined in
-
-main.ts:32607
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:32607
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:34409
+
 URL
-
-#### Defined in
-
-main.ts:32611

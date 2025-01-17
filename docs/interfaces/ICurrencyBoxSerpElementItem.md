@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICurrencyBoxSerpElementItem
+[Documentation](../README.md) / ICurrencyBoxSerpElementItem
 
 # Interface: ICurrencyBoxSerpElementItem
+
+Defined in: main.ts:36481
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **converted\_currency**: `string`
 
+Defined in: main.ts:36492
+
 converted currency
-
-#### Defined in
-
-main.ts:34782
 
 ***
 
@@ -32,13 +32,11 @@ main.ts:34782
 
 > `optional` **converted\_value**: `number`
 
+Defined in: main.ts:36487
+
 value converted to a requested currency
 indicates the exact value based on Google Fincance data at the time when our API pulled the results
 note that exchange rates displayed in the currency_box element may be delayed according to the Google Finance disclaimer
-
-#### Defined in
-
-main.ts:34777
 
 ***
 
@@ -46,12 +44,10 @@ main.ts:34777
 
 > `optional` **currency**: `string`
 
+Defined in: main.ts:36490
+
 currency of the listed price
 ISO code of the currency applied to the price
-
-#### Defined in
-
-main.ts:34780
 
 ***
 
@@ -59,17 +55,17 @@ main.ts:34780
 
 > `optional` **graph**: [`Graph`](../classes/Graph.md)
 
+Defined in: main.ts:36502
+
 contains data provided in the graph of the element
-
-#### Defined in
-
-main.ts:34792
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21404
 
 the alignment of the element in SERP
 can take the following values:
@@ -79,15 +75,13 @@ left, right
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20721
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21400
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -96,15 +90,13 @@ absolute position among all the elements in SERP
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20717
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21397
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -114,23 +106,17 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20714
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
+Defined in: main.ts:36506
+
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
-
-#### Defined in
-
-main.ts:34796
 
 ***
 
@@ -138,12 +124,10 @@ main.ts:34796
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
+Defined in: main.ts:36500
+
 results table
 if there are none, equals null
-
-#### Defined in
-
-main.ts:34790
 
 ***
 
@@ -151,14 +135,12 @@ main.ts:34790
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:36497
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:34787
 
 ***
 
@@ -166,15 +148,13 @@ main.ts:34787
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21393
+
 type of element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:20710
 
 ***
 
@@ -182,11 +162,9 @@ main.ts:20710
 
 > `optional` **value**: `number`
 
+Defined in: main.ts:36483
+
 the value of the rating
-
-#### Defined in
-
-main.ts:34773
 
 ***
 
@@ -194,12 +172,10 @@ main.ts:34773
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21406
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:20723

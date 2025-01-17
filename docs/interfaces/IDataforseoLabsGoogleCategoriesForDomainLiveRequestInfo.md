@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
+Defined in: main.ts:97243
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:97318
 
 array of results filtering parameters
 optional field
@@ -32,15 +36,13 @@ example:
 ["metrics.organic.impressions_etv","in",[10,100]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:87499
-
 ***
 
 ### include\_clickstream\_data?
 
 > `optional` **include\_clickstream\_data**: `boolean`
+
+Defined in: main.ts:97293
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -49,15 +51,13 @@ default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
 
-#### Defined in
-
-main.ts:87474
-
 ***
 
 ### include\_subcategories?
 
 > `optional` **include\_subcategories**: `boolean`
+
+Defined in: main.ts:97286
 
 indicates if the subcategories will be included in the search
 optional field
@@ -65,15 +65,13 @@ if set to false, the subcategories will be ignored
 default value: false
 learn more about the parameter in this help center article
 
-#### Defined in
-
-main.ts:87467
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:97302
 
 display results by item type
 optional field
@@ -84,15 +82,13 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
-
-main.ts:87483
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:97280
 
 language code
 required field if you don’t specify language_name
@@ -102,15 +98,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:87461
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:97272
 
 full name of the language
 required field if you don’t specify language_code
@@ -120,30 +114,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:87453
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:97340
+
 the maximum number of returned categories
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:87521
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:97264
 
 location code
 required field if you don’t specify location_name
@@ -153,15 +143,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Defined in
-
-main.ts:87445
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:97256
 
 full name of the location
 required field if you don’t specify location_code
@@ -171,30 +159,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:87437
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:97345
+
 offset in the results array of returned categories 
 optional field
 default value: 0
 if you specify the 10 value, the first ten categories in the results array will be omitted and the data will be provided for the successive categories
-
-#### Defined in
-
-main.ts:87526
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:97335
 
 results sorting rules
 optional field
@@ -213,15 +197,13 @@ default rule:
 ["metrics.organic.count,desc"]
 Note: if the item_types array contains item types that are different from the organic object, the results will be ordered by the first item type in the array
 
-#### Defined in
-
-main.ts:87516
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:97351
 
 user-defined task identifier
 optional field
@@ -229,21 +211,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:87532
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:97248
+
 domain or subdomain
 required field
 the domain or subdomain name of the target website
 the domain or subdomain should be specified without https:// and www.
-
-#### Defined in
-
-main.ts:87429

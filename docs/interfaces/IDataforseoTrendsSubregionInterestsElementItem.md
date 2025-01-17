@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoTrendsSubregionInterestsElementItem
+[Documentation](../README.md) / IDataforseoTrendsSubregionInterestsElementItem
 
 # Interface: IDataforseoTrendsSubregionInterestsElementItem
+
+Defined in: main.ts:136796
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **interests**: [`Interests`](../classes/Interests.md)[]
 
+Defined in: main.ts:136798
+
 subregional keyword popuarity data for each specified term
-
-#### Defined in
-
-main.ts:126442
 
 ***
 
@@ -32,18 +32,18 @@ main.ts:126442
 
 > `optional` **interests\_comparison**: [`InterestsComparison`](../classes/InterestsComparison.md)
 
+Defined in: main.ts:136801
+
 comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null
-
-#### Defined in
-
-main.ts:126445
 
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22865
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -52,15 +52,13 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 [`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`keywords`](IBaseDataforseoTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21962
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22862
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -69,22 +67,16 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`position`](IBaseDataforseoTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21959
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22859
+
 type of element
 
 #### Inherited from
 
 [`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`type`](IBaseDataforseoTrendsItem.md#type)
-
-#### Defined in
-
-main.ts:21956

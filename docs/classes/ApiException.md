@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ApiException
+[Documentation](../README.md) / ApiException
 
 # Class: ApiException
+
+Defined in: main.ts:239772
 
 ## Extends
 
@@ -16,17 +18,27 @@
 
 > **new ApiException**(`message`, `status`, `response`, `headers`, `result`): [`ApiException`](ApiException.md)
 
+Defined in: main.ts:239779
+
 #### Parameters
 
-• **message**: `string`
+##### message
 
-• **status**: `number`
+`string`
 
-• **response**: `string`
+##### status
 
-• **headers**
+`number`
 
-• **result**: `any`
+##### response
+
+`string`
+
+##### headers
+
+##### result
+
+`any`
 
 #### Returns
 
@@ -36,23 +48,17 @@
 
 `Error.constructor`
 
-#### Defined in
-
-main.ts:224929
-
 ## Properties
 
 ### headers
 
 > **headers**: `object`
 
+Defined in: main.ts:239776
+
 #### Index Signature
 
- \[`key`: `string`\]: `any`
-
-#### Defined in
-
-main.ts:224926
+\[`key`: `string`\]: `any`
 
 ***
 
@@ -60,9 +66,7 @@ main.ts:224926
 
 > `protected` **isApiException**: `boolean` = `true`
 
-#### Defined in
-
-main.ts:224939
+Defined in: main.ts:239789
 
 ***
 
@@ -70,13 +74,11 @@ main.ts:224939
 
 > **message**: `string`
 
+Defined in: main.ts:239773
+
 #### Overrides
 
 `Error.message`
-
-#### Defined in
-
-main.ts:224923
 
 ***
 
@@ -84,13 +86,11 @@ main.ts:224923
 
 > **name**: `string`
 
+Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
+
 #### Inherited from
 
 `Error.name`
-
-#### Defined in
-
-C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 ***
 
@@ -98,9 +98,7 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 > **response**: `string`
 
-#### Defined in
-
-main.ts:224925
+Defined in: main.ts:239775
 
 ***
 
@@ -108,9 +106,7 @@ main.ts:224925
 
 > **result**: `any`
 
-#### Defined in
-
-main.ts:224927
+Defined in: main.ts:239777
 
 ***
 
@@ -118,13 +114,11 @@ main.ts:224927
 
 > `optional` **stack**: `string`
 
+Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
+
 #### Inherited from
 
 `Error.stack`
-
-#### Defined in
-
-C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 ***
 
@@ -132,9 +126,7 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 > **status**: `number`
 
-#### Defined in
-
-main.ts:224924
+Defined in: main.ts:239774
 
 ## Methods
 
@@ -142,14 +134,14 @@ main.ts:224924
 
 > `static` **isApiException**(`obj`): `obj is ApiException`
 
+Defined in: main.ts:239791
+
 #### Parameters
 
-• **obj**: `any`
+##### obj
+
+`any`
 
 #### Returns
 
 `obj is ApiException`
-
-#### Defined in
-
-main.ts:224941

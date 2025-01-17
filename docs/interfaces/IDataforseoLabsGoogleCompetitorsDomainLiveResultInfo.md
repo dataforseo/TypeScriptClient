@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
+Defined in: main.ts:103079
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](../classes/DataforseoLabsCompetitorsDomainLiveItem.md)[]
 
+Defined in: main.ts:103093
+
 contains data related to the target and competitor domains
-
-#### Defined in
-
-main.ts:93274
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:93274
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:103091
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:93272
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:93272
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:103087
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:93268
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:93268
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:103085
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:93266
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:93266
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:103081
+
 search engine type
-
-#### Defined in
-
-main.ts:93262
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:93262
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:103083
+
 target domain in a POST array
-
-#### Defined in
-
-main.ts:93264
 
 ***
 
@@ -88,8 +78,6 @@ main.ts:93264
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:103089
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:93270

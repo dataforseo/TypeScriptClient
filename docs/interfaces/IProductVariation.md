@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductVariation
+[Documentation](../README.md) / IProductVariation
 
 # Interface: IProductVariation
 
+Defined in: main.ts:190585
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **product\_id**: `string`
 
+Defined in: main.ts:190590
+
 product ID in a POST array
 learn more about the parameter in this help center guide
-
-#### Defined in
-
-main.ts:178748
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:178748
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:190592
+
 name of the product seller
-
-#### Defined in
-
-main.ts:178750
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:178750
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:190587
+
 type of element
-
-#### Defined in
-
-main.ts:178745
 
 ***
 
@@ -53,9 +49,7 @@ main.ts:178745
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:190595
+
 seller url
 url of the webpage on the seller’s website where the product is sold
-
-#### Defined in
-
-main.ts:178753

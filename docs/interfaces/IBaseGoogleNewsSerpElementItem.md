@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseGoogleNewsSerpElementItem
+[Documentation](../README.md) / IBaseGoogleNewsSerpElementItem
 
 # Interface: IBaseGoogleNewsSerpElementItem
+
+Defined in: main.ts:46195
 
 ## Extended by
 
@@ -17,12 +19,10 @@
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:46204
+
 absolute rank in SERP
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:43926
 
 ***
 
@@ -30,13 +30,11 @@ main.ts:43926
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:46201
+
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:43923
 
 ***
 
@@ -44,13 +42,11 @@ main.ts:43923
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
+Defined in: main.ts:46212
+
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
-
-#### Defined in
-
-main.ts:43934
 
 ***
 
@@ -58,11 +54,9 @@ main.ts:43934
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+Defined in: main.ts:46208
 
-#### Defined in
-
-main.ts:43930
+title of the element
 
 ***
 
@@ -70,11 +64,9 @@ main.ts:43930
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:46197
+
 type of element
-
-#### Defined in
-
-main.ts:43919
 
 ***
 
@@ -82,8 +74,6 @@ main.ts:43919
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:46206
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:43928

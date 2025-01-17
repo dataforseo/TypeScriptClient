@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSubdomainsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSubdomainsLiveResultInfo
 
 # Class: DataforseoLabsGoogleSubdomainsLiveResultInfo
+
+Defined in: main.ts:104220
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleSubdomainsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
 
+Defined in: main.ts:104238
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:94419
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:94419
 
 > `optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)[]
 
+Defined in: main.ts:104234
+
 contains subdomains and related data
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:94415
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:94415
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:104232
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:94413
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:94413
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:104228
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:94409
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:94409
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:104226
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:94407
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:94407
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:104222
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:94403
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:94403
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:104224
+
 domain in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#target)
-
-#### Defined in
-
-main.ts:94405
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:94405
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:104230
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSubdomainsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:94411
 
 ## Methods
 
@@ -150,17 +138,17 @@ main.ts:94411
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:104247
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:94428
 
 ***
 
@@ -168,17 +156,17 @@ main.ts:94428
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:104274
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:94455
 
 ***
 
@@ -186,14 +174,14 @@ main.ts:94455
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
 
+Defined in: main.ts:104267
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleSubdomainsLiveResultInfo`](DataforseoLabsGoogleSubdomainsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:94448

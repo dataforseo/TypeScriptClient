@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Class: DomainAnalyticsTechnologiesLanguagesResultInfo
+
+Defined in: main.ts:85408
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsTechnologiesLanguagesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
+Defined in: main.ts:85416
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:75679
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:75679
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:85412
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md).[`language_code`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:75675
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:75675
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:85410
+
 language name
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md).[`language_name`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:75673
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:75673
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:85425
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:75688
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:75688
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:85443
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:75706
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:75706
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
+Defined in: main.ts:85436
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:75699

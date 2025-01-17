@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleAutocompleteLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleAutocompleteLiveAdvancedResultInfo
 
 # Class: SerpGoogleAutocompleteLiveAdvancedResultInfo
+
+Defined in: main.ts:56566
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleAutocompleteLiveAdvancedResultInfo**(`data`?): [`SerpGoogleAutocompleteLiveAdvancedResultInfo`](SerpGoogleAutocompleteLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:56605
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleAutocompleteLiveAdvancedResultInfo`](SerpGoogleAutocompleteLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:52853
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:56580
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:52830
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:56585
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:52835
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:56595
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -83,25 +83,19 @@ autocomplete
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:52843
-
 ***
 
 ### items?
 
-> `optional` **items**: [`SerpGoogleAutocompleteeAdvancedItem`](SerpGoogleAutocompleteeAdvancedItem.md)[]
+> `optional` **items**: [`SerpGoogleAutocompleteAdvancedItem`](SerpGoogleAutocompleteAdvancedItem.md)[]
 
-elements of search results found in SERP
+Defined in: main.ts:56601
+
+items of the element
 
 #### Implementation of
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#items)
-
-#### Defined in
-
-main.ts:52849
 
 ***
 
@@ -109,15 +103,13 @@ main.ts:52849
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:56599
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:52847
 
 ***
 
@@ -125,16 +117,14 @@ main.ts:52847
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:56569
+
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:52819
 
 ***
 
@@ -142,15 +132,13 @@ main.ts:52819
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:56577
+
 language code in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:52827
 
 ***
 
@@ -158,15 +146,27 @@ main.ts:52827
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:56575
+
 location code in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#location_code)
 
-#### Defined in
+***
 
-main.ts:52825
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:56590
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#refinement_chips)
 
 ***
 
@@ -174,15 +174,13 @@ main.ts:52825
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:56573
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:52823
 
 ***
 
@@ -190,21 +188,21 @@ main.ts:52823
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:56597
+
 total number of results in SERP
 
 #### Implementation of
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:52845
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:56588
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -213,15 +211,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:52838
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:56571
 
 type of element
 
@@ -229,27 +225,23 @@ type of element
 
 [`ISerpGoogleAutocompleteLiveAdvancedResultInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:52821
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:56614
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:52862
 
 ***
 
@@ -257,17 +249,17 @@ main.ts:52862
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:56651
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:52898
 
 ***
 
@@ -275,14 +267,14 @@ main.ts:52898
 
 > `static` **fromJS**(`data`): [`SerpGoogleAutocompleteLiveAdvancedResultInfo`](SerpGoogleAutocompleteLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:56644
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleAutocompleteLiveAdvancedResultInfo`](SerpGoogleAutocompleteLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:52891

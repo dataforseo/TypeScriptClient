@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
+
+Defined in: main.ts:120838
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
+Defined in: main.ts:120893
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:111460
 
 ## Properties
 
 ### app\_ids?
 
 > `optional` **app\_ids**: `string`[]
+
+Defined in: main.ts:120847
 
 ids of the app
 required field
@@ -51,15 +55,13 @@ the maximum number of IDs you can specify in this field is 1000
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`app_ids`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#app_ids)
 
-#### Defined in
-
-main.ts:111414
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:120883
 
 language code
 required field if you don’t specify language_name
@@ -74,15 +76,13 @@ en
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:111450
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:120874
 
 full name of the language
 required field if you don’t specify language_code
@@ -97,15 +97,13 @@ English
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:111441
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:120865
 
 location code
 required field if you don’t specify location_name
@@ -120,15 +118,13 @@ example:
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:111432
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:120856
 
 full name of the location
 required field if you don’t specify location_code
@@ -143,15 +139,13 @@ United States
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:111423
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:120889
 
 user-defined task identifier
 optional field
@@ -163,27 +157,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:111456
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:120902
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:111469
 
 ***
 
@@ -191,17 +181,17 @@ main.ts:111469
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:120928
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:111495
 
 ***
 
@@ -209,14 +199,14 @@ main.ts:111495
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
+Defined in: main.ts:120921
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:111488

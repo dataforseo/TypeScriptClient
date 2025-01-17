@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
+[Documentation](../README.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveRequestInfo
 
+Defined in: main.ts:180686
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **category\_code**: `string`
 
+Defined in: main.ts:180690
+
 target category code
 required field
 to obtain a full list of available categories, refer to the Categories endpoint
-
-#### Defined in
-
-main.ts:169000
 
 ***
 
@@ -30,15 +30,13 @@ main.ts:169000
 
 > `optional` **date\_from**: `string`
 
+Defined in: main.ts:180720
+
 starting date of the time range
 required field
 date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
-
-#### Defined in
-
-main.ts:169030
 
 ***
 
@@ -46,20 +44,20 @@ main.ts:169030
 
 > `optional` **date\_group**: `string`
 
+Defined in: main.ts:180732
+
 time range which will be used to group the results
 optional field
 default value: month
 possible values: day, week, month
-
-#### Defined in
-
-main.ts:169042
 
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:180727
 
 ending date of the time range
 optional field
@@ -68,15 +66,13 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
-
-main.ts:169037
-
 ***
 
 ### initial\_dataset\_filters?
 
 > `optional` **initial\_dataset\_filters**: `any`[]
+
+Defined in: main.ts:180749
 
 initial dataset filtering parameters
 optional field
@@ -95,15 +91,13 @@ example:
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
 
-#### Defined in
-
-main.ts:169059
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:180714
 
 maximum number of elements within internal arrays
 optional field
@@ -116,15 +110,13 @@ languages
 default value: 1
 maximum value: 20
 
-#### Defined in
-
-main.ts:169024
-
 ***
 
 ### page\_type?
 
 > `optional` **page\_type**: `string`[]
+
+Defined in: main.ts:180696
 
 target page types
 optional field
@@ -132,15 +124,13 @@ use this parameter to filter the dataset by page types
 possible values:
 "ecommerce", "news", "blogs", "message-boards", "organization"
 
-#### Defined in
-
-main.ts:169006
-
 ***
 
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
+
+Defined in: main.ts:180703
 
 results grouping type
 optional field
@@ -149,22 +139,16 @@ as_is – returns data on all citations for the target category_code
 one_per_domain – returns data on one citation of the category_code per domain
 default value: as_is
 
-#### Defined in
-
-main.ts:169013
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:180755
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:169065

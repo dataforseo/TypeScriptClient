@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixApi
+[Documentation](../README.md) / AppendixApi
 
 # Class: AppendixApi
+
+Defined in: main.ts:20864
 
 ## Constructors
 
@@ -12,21 +14,21 @@
 
 > **new AppendixApi**(`baseUrl`?, `http`?): [`AppendixApi`](AppendixApi.md)
 
+Defined in: main.ts:20869
+
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### fetch
 
 #### Returns
 
 [`AppendixApi`](AppendixApi.md)
-
-#### Defined in
-
-main.ts:20191
 
 ## Properties
 
@@ -34,19 +36,21 @@ main.ts:20191
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
+Defined in: main.ts:20867
+
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:20189
 
 ## Methods
 
@@ -54,15 +58,13 @@ main.ts:20189
 
 > **appendixErrors**(): `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
 
+Defined in: main.ts:20914
+
 #### Returns
 
 `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:20236
 
 ***
 
@@ -70,15 +72,13 @@ main.ts:20236
 
 > **appendixStatus**(): `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
 
+Defined in: main.ts:20993
+
 #### Returns
 
 `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:20315
 
 ***
 
@@ -86,17 +86,17 @@ main.ts:20315
 
 > `protected` **processAppendixErrors**(`response`): `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
 
+Defined in: main.ts:20930
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:20252
 
 ***
 
@@ -104,17 +104,17 @@ main.ts:20252
 
 > `protected` **processAppendixStatus**(`response`): `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
 
+Defined in: main.ts:21009
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:20331
 
 ***
 
@@ -122,17 +122,17 @@ main.ts:20331
 
 > `protected` **processUserData**(`response`): `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
 
+Defined in: main.ts:20893
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:20215
 
 ***
 
@@ -140,17 +140,17 @@ main.ts:20215
 
 > `protected` **processWebhookResend**(`response`): `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
 
+Defined in: main.ts:20972
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:20294
 
 ***
 
@@ -158,15 +158,13 @@ main.ts:20294
 
 > **userData**(): `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
 
+Defined in: main.ts:20877
+
 #### Returns
 
 `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:20199
 
 ***
 
@@ -174,9 +172,13 @@ main.ts:20199
 
 > **webhookResend**(`body`): `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
 
+Defined in: main.ts:20952
+
 #### Parameters
 
-• **body**: [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)[]
+##### body
+
+[`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)[]
 
 (optional)
 
@@ -185,7 +187,3 @@ main.ts:20199
 `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:20274

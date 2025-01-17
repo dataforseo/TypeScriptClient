@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseOnPageLinkItemInfo
+[Documentation](../README.md) / IBaseOnPageLinkItemInfo
 
 # Interface: IBaseOnPageLinkItemInfo
+
+Defined in: main.ts:22656
 
 ## Extended by
 
@@ -19,12 +21,10 @@
 
 > `optional` **direction**: `string`
 
+Defined in: main.ts:22686
+
 direction of the link
 possible values: internal, external
-
-#### Defined in
-
-main.ts:21783
 
 ***
 
@@ -32,12 +32,10 @@ main.ts:21783
 
 > `optional` **dofollow**: `boolean`
 
+Defined in: main.ts:22679
+
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
-
-#### Defined in
-
-main.ts:21776
 
 ***
 
@@ -45,12 +43,10 @@ main.ts:21776
 
 > `optional` **domain\_from**: `string`
 
+Defined in: main.ts:22661
+
 referring domain
 the link was found on this domain
-
-#### Defined in
-
-main.ts:21758
 
 ***
 
@@ -58,12 +54,10 @@ main.ts:21758
 
 > `optional` **domain\_to**: `string`
 
+Defined in: main.ts:22664
+
 referenced domain
 the link is pointing to this domain
-
-#### Defined in
-
-main.ts:21761
 
 ***
 
@@ -71,12 +65,10 @@ main.ts:21761
 
 > `optional` **is\_broken**: `boolean`
 
+Defined in: main.ts:22689
+
 link is broken
 indicates whether a link is directing to a broken page or resource
-
-#### Defined in
-
-main.ts:21786
 
 ***
 
@@ -84,12 +76,10 @@ main.ts:21786
 
 > `optional` **is\_link\_relation\_conflict**: `boolean`
 
+Defined in: main.ts:22692
+
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
-
-#### Defined in
-
-main.ts:21789
 
 ***
 
@@ -97,12 +87,10 @@ main.ts:21789
 
 > `optional` **link\_from**: `string`
 
+Defined in: main.ts:22673
+
 referring page
 absolute URL of the page on which the link was found
-
-#### Defined in
-
-main.ts:21770
 
 ***
 
@@ -110,12 +98,10 @@ main.ts:21770
 
 > `optional` **link\_to**: `string`
 
+Defined in: main.ts:22676
+
 referenced page
 absolute URL of the page to which the link is pointing
-
-#### Defined in
-
-main.ts:21773
 
 ***
 
@@ -123,12 +109,10 @@ main.ts:21773
 
 > `optional` **page\_from**: `string`
 
+Defined in: main.ts:22667
+
 referring page
 relative URL of the page on which the link was found
-
-#### Defined in
-
-main.ts:21764
 
 ***
 
@@ -136,11 +120,9 @@ main.ts:21764
 
 > `optional` **page\_from\_scheme**: `string`
 
+Defined in: main.ts:22681
+
 url scheme of the referring page
-
-#### Defined in
-
-main.ts:21778
 
 ***
 
@@ -148,12 +130,10 @@ main.ts:21778
 
 > `optional` **page\_to**: `string`
 
+Defined in: main.ts:22670
+
 referenced page
 relative URL of the page to which the link is pointing
-
-#### Defined in
-
-main.ts:21767
 
 ***
 
@@ -161,11 +141,9 @@ main.ts:21767
 
 > `optional` **page\_to\_scheme**: `string`
 
+Defined in: main.ts:22683
+
 url scheme of the referenced page
-
-#### Defined in
-
-main.ts:21780
 
 ***
 
@@ -173,8 +151,6 @@ main.ts:21780
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22658
+
 type of element
-
-#### Defined in
-
-main.ts:21755

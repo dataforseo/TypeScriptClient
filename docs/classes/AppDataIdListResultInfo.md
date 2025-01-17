@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataIdListResultInfo
+[Documentation](../README.md) / AppDataIdListResultInfo
 
 # Class: AppDataIdListResultInfo
+
+Defined in: main.ts:197990
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataIdListResultInfo**(`data`?): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
+Defined in: main.ts:198016
+
 #### Parameters
 
-• **data?**: [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md)
+##### data?
+
+[`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md)
 
 #### Returns
 
 [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:185817
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:185817
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:198010
+
 cost of the task, USD
 
 #### Implementation of
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`cost`](../interfaces/IAppDataIdListResultInfo.md#cost)
 
-#### Defined in
-
-main.ts:185811
-
 ***
 
 ### datetime\_done?
 
 > `optional` **datetime\_done**: `string`
+
+Defined in: main.ts:198005
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`datetime_done`](../interfaces/IAppDataIdListResultInfo.md#datetime_done)
 
-#### Defined in
-
-main.ts:185806
-
 ***
 
 ### datetime\_posted?
 
 > `optional` **datetime\_posted**: `string`
+
+Defined in: main.ts:198000
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,13 @@ example:
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`datetime_posted`](../interfaces/IAppDataIdListResultInfo.md#datetime_posted)
 
-#### Defined in
-
-main.ts:185801
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:197992
 
 id of the task
 
@@ -98,35 +96,31 @@ id of the task
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`id`](../interfaces/IAppDataIdListResultInfo.md#id)
 
-#### Defined in
-
-main.ts:185793
-
 ***
 
 ### metadata?
 
 > `optional` **metadata**: `object`
 
+Defined in: main.ts:198012
+
 contains parameters you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`metadata`](../interfaces/IAppDataIdListResultInfo.md#metadata)
-
-#### Defined in
-
-main.ts:185813
 
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:198008
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +129,13 @@ you can find the full list of general informational messages here
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`status`](../interfaces/IAppDataIdListResultInfo.md#status)
 
-#### Defined in
-
-main.ts:185809
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:197995
 
 URL of the task
 URL you used for making an API call
@@ -152,27 +144,23 @@ URL you used for making an API call
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`url`](../interfaces/IAppDataIdListResultInfo.md#url)
 
-#### Defined in
-
-main.ts:185796
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:198025
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:185826
 
 ***
 
@@ -180,17 +168,17 @@ main.ts:185826
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:198054
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:185855
 
 ***
 
@@ -198,14 +186,14 @@ main.ts:185855
 
 > `static` **fromJS**(`data`): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
+Defined in: main.ts:198047
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:185848

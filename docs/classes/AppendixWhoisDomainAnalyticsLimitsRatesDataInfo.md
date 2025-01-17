@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+
+Defined in: main.ts:231340
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231345
+
 #### Parameters
 
-• **data?**: [`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216285
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216285
 
 > `optional` **overview**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231341
+
 #### Implementation of
 
 [`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md).[`overview`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#overview)
-
-#### Defined in
-
-main.ts:216281
 
 ## Methods
 
@@ -52,17 +52,17 @@ main.ts:216281
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231354
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216294
 
 ***
 
@@ -70,17 +70,17 @@ main.ts:216294
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231371
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216311
 
 ***
 
@@ -88,14 +88,14 @@ main.ts:216311
 
 > `static` **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231364
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216304

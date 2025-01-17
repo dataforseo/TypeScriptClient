@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
+Defined in: main.ts:189509
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:189531
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:177693
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:177693
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:189536
+
 date and time when the result was received
 in the format: “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:177698
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:177698
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:189524
+
 description of the product
-
-#### Defined in
-
-main.ts:177686
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:177686
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:189526
+
 URL of the product image
-
-#### Defined in
-
-main.ts:177688
 
 ***
 
@@ -68,13 +62,11 @@ main.ts:177688
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:189540
+
 types of items found on the product specification page
 possible item types:
 shopping_specification
-
-#### Defined in
-
-main.ts:177702
 
 ***
 
@@ -82,12 +74,10 @@ main.ts:177702
 
 > `optional` **items**: [`BaseMerchantSerpElementItem`](../classes/BaseMerchantSerpElementItem.md)[]
 
+Defined in: main.ts:189545
+
 items on the product specification page
 contains all product attributes and related data listed on the product specification page
-
-#### Defined in
-
-main.ts:177707
 
 ***
 
@@ -95,11 +85,9 @@ main.ts:177707
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:189542
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:177704
 
 ***
 
@@ -107,11 +95,9 @@ main.ts:177704
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:189520
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:177682
 
 ***
 
@@ -119,11 +105,9 @@ main.ts:177682
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:189518
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:177680
 
 ***
 
@@ -131,12 +115,10 @@ main.ts:177680
 
 > `optional` **product\_id**: `string`
 
+Defined in: main.ts:189512
+
 product ID in a POST array
 learn more about the parameter in this help center guide
-
-#### Defined in
-
-main.ts:177674
 
 ***
 
@@ -144,11 +126,9 @@ main.ts:177674
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:189516
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:177678
 
 ***
 
@@ -156,11 +136,9 @@ main.ts:177678
 
 > `optional` **tags**: `string`[]
 
+Defined in: main.ts:189528
+
 tags of the product
-
-#### Defined in
-
-main.ts:177690
 
 ***
 
@@ -168,11 +146,9 @@ main.ts:177690
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:189522
+
 title of the product
-
-#### Defined in
-
-main.ts:177684
 
 ***
 
@@ -180,8 +156,6 @@ main.ts:177684
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:189514
+
 type of element
-
-#### Defined in
-
-main.ts:177676

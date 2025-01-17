@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppInfoTasksReadyResultInfo
+[Documentation](../README.md) / IAppDataAppleAppInfoTasksReadyResultInfo
 
 # Interface: IAppDataAppleAppInfoTasksReadyResultInfo
 
+Defined in: main.ts:206431
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:206440
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:193997
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:193997
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:206444
+
 URL for collecting the results of the Apple App Info task
-
-#### Defined in
-
-main.ts:194001
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:194001
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:206447
+
 URL for collecting the results of the Apple App Info HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:194004
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:194004
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:206434
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:193991
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:193991
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:206436
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:193993
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:193993
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:206438
+
 search engine type
-
-#### Defined in
-
-main.ts:193995
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:193995
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:206442
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:193999

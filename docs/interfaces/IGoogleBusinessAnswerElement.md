@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleBusinessAnswerElement
+[Documentation](../README.md) / IGoogleBusinessAnswerElement
 
 # Interface: IGoogleBusinessAnswerElement
 
+Defined in: main.ts:224563
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **answer\_id**: `string`
 
+Defined in: main.ts:224567
+
 ID of the answer
-
-#### Defined in
-
-main.ts:209545
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:209545
 
 > `optional` **answer\_text**: `string`
 
+Defined in: main.ts:224575
+
 current text of the answer
-
-#### Defined in
-
-main.ts:209553
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:209553
 
 > `optional` **original\_answer\_text**: `string`
 
+Defined in: main.ts:224577
+
 original text of the answer
-
-#### Defined in
-
-main.ts:209555
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:209555
 
 > `optional` **profile\_image\_url**: `string`
 
+Defined in: main.ts:224569
+
 URL of the user’s profile image
-
-#### Defined in
-
-main.ts:209547
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:209547
 
 > `optional` **profile\_name**: `string`
 
+Defined in: main.ts:224573
+
 displayed name of the user
-
-#### Defined in
-
-main.ts:209551
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:209551
 
 > `optional` **profile\_url**: `string`
 
+Defined in: main.ts:224571
+
 URL of the user’s profile
-
-#### Defined in
-
-main.ts:209549
 
 ***
 
@@ -88,11 +78,9 @@ main.ts:209549
 
 > `optional` **time\_ago**: `string`
 
+Defined in: main.ts:224579
+
 estimated time when the answer was posted
-
-#### Defined in
-
-main.ts:209557
 
 ***
 
@@ -100,11 +88,9 @@ main.ts:209557
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:224581
+
 exact time when the answer was posted
-
-#### Defined in
-
-main.ts:209559
 
 ***
 
@@ -112,8 +98,6 @@ main.ts:209559
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:224565
+
 type of element
-
-#### Defined in
-
-main.ts:209543

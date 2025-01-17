@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisLanguagesResultInfo
+[Documentation](../README.md) / IContentAnalysisLanguagesResultInfo
 
 # Interface: IContentAnalysisLanguagesResultInfo
 
+Defined in: main.ts:177081
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:177085
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:165395
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:165395
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:177083
+
 language name
-
-#### Defined in
-
-main.ts:165393

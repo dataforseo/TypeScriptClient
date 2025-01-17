@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationCheckGrammarLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationCheckGrammarLiveRequestInfo
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
+
+Defined in: main.ts:182734
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentGenerationCheckGrammarLiveRequestInfo**(`data`?): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
+Defined in: main.ts:182757
+
 #### Parameters
 
-• **data?**: [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:171067
 
 ## Properties
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:182743
 
 code of the text language
 required field if you do not specify language_name
@@ -46,15 +50,13 @@ see the List of Languages for Content Generation Check Grammar API
 
 [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`language_code`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:171053
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:182747
 
 name of the text language
 required field if you do not specify language_code
@@ -64,15 +66,13 @@ see the List of Languages for Content Generation Check Grammar API
 
 [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`language_name`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:171057
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:182753
 
 user-defined task identifier
 optional field
@@ -84,15 +84,13 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:171063
-
 ***
 
 ### text?
 
 > `optional` **text**: `string`
+
+Defined in: main.ts:182739
 
 target text
 required field
@@ -103,27 +101,23 @@ learn more about tokens on our help center
 
 [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#text)
 
-#### Defined in
-
-main.ts:171049
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:182766
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:171076
 
 ***
 
@@ -131,17 +125,17 @@ main.ts:171076
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:182786
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:171096
 
 ***
 
@@ -149,14 +143,14 @@ main.ts:171096
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
+Defined in: main.ts:182779
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:171089

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppListingsSearchLiveResultInfo
+[Documentation](../README.md) / IAppDataAppleAppListingsSearchLiveResultInfo
 
 # Interface: IAppDataAppleAppListingsSearchLiveResultInfo
 
+Defined in: main.ts:209252
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:209256
+
 the number of items in the results array
-
-#### Defined in
-
-main.ts:196805
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:196805
 
 > `optional` **items**: [`AppDataAppleAppListingsSearchLiveItem`](../classes/AppDataAppleAppListingsSearchLiveItem.md)[]
 
+Defined in: main.ts:209263
+
 array of apps and related data
-
-#### Defined in
-
-main.ts:196812
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:196812
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:209258
+
 offset in the results array of returned apps
-
-#### Defined in
-
-main.ts:196807
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:196807
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:209261
+
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
-
-#### Defined in
-
-main.ts:196810
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:196810
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:209254
+
 the total number of relevant results in the database
-
-#### Defined in
-
-main.ts:196803

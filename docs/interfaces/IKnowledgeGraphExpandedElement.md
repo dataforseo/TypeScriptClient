@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphExpandedElement
+[Documentation](../README.md) / IKnowledgeGraphExpandedElement
 
 # Interface: IKnowledgeGraphExpandedElement
 
+Defined in: main.ts:30164
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:30172
+
 domain in SERP
-
-#### Defined in
-
-main.ts:28605
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:28605
 
 > `optional` **featured\_title**: `string`
 
+Defined in: main.ts:30168
+
 title of a given element
-
-#### Defined in
-
-main.ts:28601
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:28601
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
+Defined in: main.ts:30178
+
 images of the element
-
-#### Defined in
-
-main.ts:28611
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:28611
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:30176
+
 text alongside the link title
-
-#### Defined in
-
-main.ts:28609
 
 ***
 
@@ -64,11 +58,10 @@ main.ts:28609
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-table element
+Defined in: main.ts:30186
 
-#### Defined in
-
-main.ts:28618
+results table
+if there are none, equals null
 
 ***
 
@@ -76,14 +69,12 @@ main.ts:28618
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:30183
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:28616
 
 ***
 
@@ -91,11 +82,9 @@ main.ts:28616
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:30174
+
 title of the result in SERP
-
-#### Defined in
-
-main.ts:28607
 
 ***
 
@@ -103,11 +92,9 @@ main.ts:28607
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:30166
+
 type of element
-
-#### Defined in
-
-main.ts:28599
 
 ***
 
@@ -115,8 +102,6 @@ main.ts:28599
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:30170
+
 relevant URL
-
-#### Defined in
-
-main.ts:28603

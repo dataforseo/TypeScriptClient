@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveRequestInfo
+[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveRequestInfo
 
 # Class: BacklinksTimeseriesSummaryLiveRequestInfo
+
+Defined in: main.ts:159294
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksTimeseriesSummaryLiveRequestInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
 
+Defined in: main.ts:159346
+
 #### Parameters
 
-• **data?**: [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:148040
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:159309
 
 starting date of the time range
 optional field
@@ -51,15 +55,13 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:148003
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:159318
 
 ending date of the time range
 optional field
@@ -74,15 +76,13 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`date_to`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:148012
-
 ***
 
 ### group\_range?
 
 > `optional` **group\_range**: `string`
+
+Defined in: main.ts:159331
 
 time range which will be used to group the results
 optional field
@@ -101,15 +101,13 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`group_range`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#group_range)
 
-#### Defined in
-
-main.ts:148025
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
+
+Defined in: main.ts:159336
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -120,15 +118,13 @@ default value: true
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
-
-main.ts:148030
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:159342
 
 user-defined task identifier
 optional field
@@ -140,15 +136,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:148036
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:159300
 
 domain to get data for
 required field
@@ -160,27 +154,23 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`target`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:147994
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:159355
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:148049
 
 ***
 
@@ -188,17 +178,17 @@ main.ts:148049
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:159377
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:148071
 
 ***
 
@@ -206,14 +196,14 @@ main.ts:148071
 
 > `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
 
+Defined in: main.ts:159370
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:148064

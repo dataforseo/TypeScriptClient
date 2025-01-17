@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AuthorsElement
+[Documentation](../README.md) / AuthorsElement
 
 # Class: AuthorsElement
+
+Defined in: main.ts:24744
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AuthorsElement**(`data`?): [`AuthorsElement`](AuthorsElement.md)
 
+Defined in: main.ts:24756
+
 #### Parameters
 
-• **data?**: [`IAuthorsElement`](../interfaces/IAuthorsElement.md)
+##### data?
+
+[`IAuthorsElement`](../interfaces/IAuthorsElement.md)
 
 #### Returns
 
 [`AuthorsElement`](AuthorsElement.md)
-
-#### Defined in
-
-main.ts:53962
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:53962
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:24752
+
 author’s link domain
 
 #### Implementation of
 
 [`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`domain`](../interfaces/IAuthorsElement.md#domain)
-
-#### Defined in
-
-main.ts:53958
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:53958
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:24748
+
 name of the dataset author
 
 #### Implementation of
 
 [`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`name`](../interfaces/IAuthorsElement.md#name)
-
-#### Defined in
-
-main.ts:53954
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:53954
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24746
+
 type of element
 
 #### Implementation of
 
 [`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`type`](../interfaces/IAuthorsElement.md#type)
-
-#### Defined in
-
-main.ts:53952
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:53952
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:24750
+
 author’s link URL
 
 #### Implementation of
 
 [`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`url`](../interfaces/IAuthorsElement.md#url)
-
-#### Defined in
-
-main.ts:53956
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:53956
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24765
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:53971
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:53971
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24785
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:53991
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:53991
 
 > `static` **fromJS**(`data`): [`AuthorsElement`](AuthorsElement.md)
 
+Defined in: main.ts:24778
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AuthorsElement`](AuthorsElement.md)
-
-#### Defined in
-
-main.ts:53984

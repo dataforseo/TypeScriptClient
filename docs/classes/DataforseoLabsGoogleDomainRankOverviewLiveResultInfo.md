@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainRankOverviewLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainRankOverviewLiveResultInfo
+
+Defined in: main.ts:105292
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleDomainRankOverviewLiveResultInfo**(`data`?): [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
+Defined in: main.ts:105310
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:95491
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:95491
 
 > `optional` **items**: [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)[]
 
+Defined in: main.ts:105306
+
 contains ranking and traffic data
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:95487
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:95487
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:105304
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:95485
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:95485
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:105300
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:95481
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:95481
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:105298
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:95479
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:95479
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:105294
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:95475
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:95475
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:105296
+
 target domain in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#target)
-
-#### Defined in
-
-main.ts:95477
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:95477
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:105302
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:95483
 
 ## Methods
 
@@ -150,17 +138,17 @@ main.ts:95483
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:105319
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:95500
 
 ***
 
@@ -168,17 +156,17 @@ main.ts:95500
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:105346
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:95527
 
 ***
 
@@ -186,14 +174,14 @@ main.ts:95527
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
 
+Defined in: main.ts:105339
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainRankOverviewLiveResultInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:95520

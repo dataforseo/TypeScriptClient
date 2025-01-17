@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentGenerationDayLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixContentGenerationDayLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationDayLimitsRatesDataInfo
+
+Defined in: main.ts:232520
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixContentGenerationDayLimitsRatesDataInfo**(`data`?): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:232526
+
 #### Parameters
 
-• **data?**: [`IAppendixContentGenerationDayLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixContentGenerationDayLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:217458
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:217458
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:232522
+
 #### Implementation of
 
 [`IAppendixContentGenerationDayLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md#languages)
-
-#### Defined in
-
-main.ts:217454
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:217454
 
 > `optional` **live**: `number`
 
+Defined in: main.ts:232521
+
 #### Implementation of
 
 [`IAppendixContentGenerationDayLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md).[`live`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md#live)
-
-#### Defined in
-
-main.ts:217453
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:217453
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:232535
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:217467
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:217467
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:232553
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:217485
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:217485
 
 > `static` **fromJS**(`data`): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:232546
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:217478

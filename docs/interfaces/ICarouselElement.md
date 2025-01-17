@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICarouselElement
+[Documentation](../README.md) / ICarouselElement
 
 # Interface: ICarouselElement
 
+Defined in: main.ts:33047
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,10 @@
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:33056
+
 URL of the image
-
-#### Defined in
-
-main.ts:31234
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 ***
 
@@ -28,11 +29,9 @@ main.ts:31234
 
 > `optional` **subtitle**: `string`
 
+Defined in: main.ts:33053
+
 subtitle of the element
-
-#### Defined in
-
-main.ts:31232
 
 ***
 
@@ -40,11 +39,9 @@ main.ts:31232
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:33051
+
 title of a given link element
-
-#### Defined in
-
-main.ts:31230
 
 ***
 
@@ -52,8 +49,6 @@ main.ts:31230
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:33049
+
 type of element
-
-#### Defined in
-
-main.ts:31228

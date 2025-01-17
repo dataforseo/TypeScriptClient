@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordProperties
+[Documentation](../README.md) / IKeywordProperties
 
 # Interface: IKeywordProperties
 
+Defined in: main.ts:92744
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **core\_keyword**: `string`
 
+Defined in: main.ts:92750
+
 main keyword in a group
 contains the main keyword in a group determined by the synonym clustering algorithm
 if the value is null, our database does not contain any keywords the corresponding algorithm could identify as synonymous with keyword
-
-#### Defined in
-
-main.ts:82937
 
 ***
 
@@ -30,12 +30,10 @@ main.ts:82937
 
 > `optional` **detected\_language**: `string`
 
+Defined in: main.ts:92764
+
 detected language of the keyword
 indicates the language of the keyword as identified by our system
-
-#### Defined in
-
-main.ts:82951
 
 ***
 
@@ -43,12 +41,10 @@ main.ts:82951
 
 > `optional` **is\_another\_language**: `boolean`
 
+Defined in: main.ts:92767
+
 detected language of the keyword is different from the set language
 if true, the language set in the request does not match the language determined by our system for a given keyword
-
-#### Defined in
-
-main.ts:82954
 
 ***
 
@@ -56,14 +52,12 @@ main.ts:82954
 
 > `optional` **keyword\_difficulty**: `number`
 
+Defined in: main.ts:92761
+
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
 calculated by analysing, among other parameters, link profiles of the first 10 pages in SERP;
 learn more about the metric in this help center guide
-
-#### Defined in
-
-main.ts:82948
 
 ***
 
@@ -71,11 +65,9 @@ main.ts:82948
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:92746
+
 search engine type
-
-#### Defined in
-
-main.ts:82933
 
 ***
 
@@ -83,12 +75,10 @@ main.ts:82933
 
 > `optional` **synonym\_clustering\_algorithm**: `string`
 
+Defined in: main.ts:92756
+
 the algorithm used to identify synonyms
 possible values:
 keyword_metrics – indicates the algorithm based on keyword_info parameters
 text_processing – indicates the text-based algorithm
 if the value is null, our database does not contain any keywords the corresponding algorithm could identify as synonymous with keyword
-
-#### Defined in
-
-main.ts:82943

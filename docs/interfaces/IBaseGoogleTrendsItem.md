@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseGoogleTrendsItem
+[Documentation](../README.md) / IBaseGoogleTrendsItem
 
 # Interface: IBaseGoogleTrendsItem
+
+Defined in: main.ts:22774
 
 ## Extended by
 
@@ -19,12 +21,10 @@
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:22784
+
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
-
-#### Defined in
-
-main.ts:21881
 
 ***
 
@@ -32,12 +32,10 @@ main.ts:21881
 
 > `optional` **position**: `number`
 
+Defined in: main.ts:22779
+
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
-
-#### Defined in
-
-main.ts:21876
 
 ***
 
@@ -45,11 +43,9 @@ main.ts:21876
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:22781
+
 title of the element in Google Trends
-
-#### Defined in
-
-main.ts:21878
 
 ***
 
@@ -57,8 +53,6 @@ main.ts:21878
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22776
+
 type of element
-
-#### Defined in
-
-main.ts:21873

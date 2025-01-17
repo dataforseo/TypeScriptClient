@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFoundOnWebElement
+[Documentation](../README.md) / IFoundOnWebElement
 
 # Interface: IFoundOnWebElement
 
+Defined in: main.ts:36900
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **image**: [`ImagesElement`](../classes/ImagesElement.md)
 
+Defined in: main.ts:36908
+
 image of the element
-
-#### Defined in
-
-main.ts:35200
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:35200
 
 > `optional` **subtitle**: `string`
 
+Defined in: main.ts:36906
+
 subtitle of the element
-
-#### Defined in
-
-main.ts:35198
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:35198
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:36904
+
 title of a given link element
-
-#### Defined in
-
-main.ts:35196
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:35196
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:36902
+
 type of element
-
-#### Defined in
-
-main.ts:35194

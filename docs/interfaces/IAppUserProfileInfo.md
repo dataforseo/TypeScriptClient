@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppUserProfileInfo
+[Documentation](../README.md) / IAppUserProfileInfo
 
 # Interface: IAppUserProfileInfo
 
+Defined in: main.ts:203413
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **profile\_image\_url**: `string`
 
+Defined in: main.ts:203417
+
 URL to the reviewer’s profile image
-
-#### Defined in
-
-main.ts:190980
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:190980
 
 > `optional` **profile\_name**: `string`
 
+Defined in: main.ts:203415
+
 profile name of the reviewer
-
-#### Defined in
-
-main.ts:190978

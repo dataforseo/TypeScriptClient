@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ICrawlStatusInfo
+[Documentation](../README.md) / ICrawlStatusInfo
 
 # Interface: ICrawlStatusInfo
 
+Defined in: main.ts:23439
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **max\_crawl\_pages**: `number`
 
+Defined in: main.ts:23442
+
 maximum number of pages to crawl
 indicates the max_crawl_pages limit you specified when setting a task
-
-#### Defined in
-
-main.ts:22539
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:22539
 
 > `optional` **pages\_crawled**: `number`
 
+Defined in: main.ts:23446
+
 number of crawled pages
-
-#### Defined in
-
-main.ts:22543
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:22543
 
 > `optional` **pages\_in\_queue**: `number`
 
+Defined in: main.ts:23444
+
 number of pages that are currently in the crawling queue
-
-#### Defined in
-
-main.ts:22541

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TrendsMapDataInfo
+[Documentation](../README.md) / TrendsMapDataInfo
 
 # Class: TrendsMapDataInfo
+
+Defined in: main.ts:134263
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new TrendsMapDataInfo**(`data`?): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
+Defined in: main.ts:134286
+
 #### Parameters
 
-• **data?**: [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md)
+##### data?
+
+[`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md)
 
 #### Returns
 
 [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
-
-#### Defined in
-
-main.ts:123936
 
 ## Properties
 
 ### geo\_id?
 
 > `optional` **geo\_id**: `string`
+
+Defined in: main.ts:134268
 
 Google Trends location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -47,15 +51,13 @@ US-NY
 
 [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`geo_id`](../interfaces/ITrendsMapDataInfo.md#geo_id)
 
-#### Defined in
-
-main.ts:123918
-
 ***
 
 ### geo\_name?
 
 > `optional` **geo\_name**: `string`
+
+Defined in: main.ts:134271
 
 Google Trends location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -64,15 +66,13 @@ you can use this field for matching obtained results with location parameters sp
 
 [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`geo_name`](../interfaces/ITrendsMapDataInfo.md#geo_name)
 
-#### Defined in
-
-main.ts:123921
-
 ***
 
 ### max\_value\_index?
 
 > `optional` **max\_value\_index**: `number`
+
+Defined in: main.ts:134282
 
 max value among comparable terms
 represents the maximum value if you specified more than two keywords in a POST array
@@ -82,15 +82,13 @@ if you specified only one keyword, the value will be null
 
 [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`max_value_index`](../interfaces/ITrendsMapDataInfo.md#max_value_index)
 
-#### Defined in
-
-main.ts:123932
-
 ***
 
 ### values?
 
 > `optional` **values**: `any`[]
+
+Defined in: main.ts:134278
 
 relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -103,27 +101,23 @@ a value of 0 means there was not enough data for this term
 
 [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`values`](../interfaces/ITrendsMapDataInfo.md#values)
 
-#### Defined in
-
-main.ts:123928
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:134295
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:123945
 
 ***
 
@@ -131,17 +125,17 @@ main.ts:123945
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:134319
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:123969
 
 ***
 
@@ -149,14 +143,14 @@ main.ts:123969
 
 > `static` **fromJS**(`data`): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
+Defined in: main.ts:134312
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
-
-#### Defined in
-
-main.ts:123962

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpSeznamLocationsResultInfo
+[Documentation](../README.md) / ISerpSeznamLocationsResultInfo
 
 # Interface: ISerpSeznamLocationsResultInfo
 
+Defined in: main.ts:82229
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:82239
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:72562
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:72562
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:82231
+
 location code
-
-#### Defined in
-
-main.ts:72554
 
 ***
 
@@ -40,13 +38,11 @@ main.ts:72554
 
 > `optional` **location\_code\_parent**: `number`
 
+Defined in: main.ts:82237
+
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
 don’t match locations by location_code_parent because the results for Region and Country-level results for most countries are not supported by Baidu SERP API
-
-#### Defined in
-
-main.ts:72560
 
 ***
 
@@ -54,11 +50,9 @@ main.ts:72560
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:82233
+
 full name of the location
-
-#### Defined in
-
-main.ts:72556
 
 ***
 
@@ -66,8 +60,6 @@ main.ts:72556
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:82241
+
 location type
-
-#### Defined in
-
-main.ts:72564

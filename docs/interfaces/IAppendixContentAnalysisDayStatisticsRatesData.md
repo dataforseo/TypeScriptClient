@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentAnalysisDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixContentAnalysisDayStatisticsRatesData
 
 # Interface: IAppendixContentAnalysisDayStatisticsRatesData
 
+Defined in: main.ts:234603
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **available\_filters**: `number`
 
-#### Defined in
-
-main.ts:219514
+Defined in: main.ts:234614
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:219514
 
 > `optional` **categories**: `number`
 
-#### Defined in
-
-main.ts:219512
+Defined in: main.ts:234612
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:219512
 
 > `optional` **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:219509
+Defined in: main.ts:234609
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:219509
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:219513
+Defined in: main.ts:234613
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:219513
 
 > `optional` **id\_list**: `number`
 
-#### Defined in
-
-main.ts:219515
+Defined in: main.ts:234615
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:219515
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:219511
+Defined in: main.ts:234611
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:219511
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:219510
+Defined in: main.ts:234610
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:219510
 
 > `optional` **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:219508
+Defined in: main.ts:234608
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:219508
 
 > `optional` **rating\_distribution**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:219507
+Defined in: main.ts:234607
 
 ***
 
@@ -106,9 +90,7 @@ main.ts:219507
 
 > `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:219504
+Defined in: main.ts:234604
 
 ***
 
@@ -116,9 +98,7 @@ main.ts:219504
 
 > `optional` **sentiment\_analysis**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:219506
+Defined in: main.ts:234606
 
 ***
 
@@ -126,6 +106,4 @@ main.ts:219506
 
 > `optional` **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:219505
+Defined in: main.ts:234605

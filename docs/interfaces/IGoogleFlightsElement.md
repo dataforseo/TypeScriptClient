@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleFlightsElement
+[Documentation](../README.md) / IGoogleFlightsElement
 
 # Interface: IGoogleFlightsElement
 
+Defined in: main.ts:33588
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:33592
+
 description
-
-#### Defined in
-
-main.ts:31782
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:31782
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:33590
+
 type of element
-
-#### Defined in
-
-main.ts:31780
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:31780
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:33594
+
 URL
-
-#### Defined in
-
-main.ts:31784

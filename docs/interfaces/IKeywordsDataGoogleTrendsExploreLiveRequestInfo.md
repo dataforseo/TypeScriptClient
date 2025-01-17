@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveRequestInfo
 
+Defined in: main.ts:134819
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,20 +18,20 @@
 
 > `optional` **category\_code**: `number`
 
+Defined in: main.ts:134865
+
 google trends search category
 optional field
 if you don’t specify this field, the 0 value will be applied by default and the search will be carried out across all available categories
 you can receive the list of available categories with their category_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/google_trends/categories
-
-#### Defined in
-
-main.ts:124513
 
 ***
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:134874
 
 starting date of the time range
 optional field
@@ -40,15 +42,13 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
-
-main.ts:124522
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:134881
 
 ending date of the time range
 optional field
@@ -57,15 +57,13 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Defined in
-
-main.ts:124529
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:134899
 
 types of items returned
 optional field
@@ -75,31 +73,28 @@ possible values:
 default value:
 "google_trends_graph"
 
-#### Defined in
-
-main.ts:124547
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:134826
+
 keywords
 optional field
 if keywords are not specified, the results will not contain keyword-related data;
 The maximum number of keywords you can specify: 5
-Note: comma symbols (,) in the specified keywords will be unset and ignored
-
-#### Defined in
-
-main.ts:124474
+Note: the comma characters (,) in the specified keywords will be unset and ignored
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:134858
 
 search engine language code
 optional field
@@ -109,15 +104,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:124506
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:134850
 
 full name of search engine language
 optional field
@@ -127,15 +120,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:124498
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:134842
 
 search engine location code
 optional field
@@ -145,15 +136,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:124490
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:134834
 
 full name of search engine location
 optional field
@@ -163,15 +152,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:124482
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:134905
 
 user-defined task identifier
 optional field
@@ -179,15 +166,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:124553
-
 ***
 
 ### time\_range?
 
 > `optional` **time\_range**: `string`
+
+Defined in: main.ts:134891
 
 preset time ranges
 optional field
@@ -199,18 +184,12 @@ possible values for web only:
 possible values for news, youtube, images, froogle:
 2008_present
 
-#### Defined in
-
-main.ts:124539
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:134860
+
 type of element
-
-#### Defined in
-
-main.ts:124508

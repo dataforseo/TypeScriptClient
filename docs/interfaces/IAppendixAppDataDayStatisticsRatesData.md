@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixAppDataDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixAppDataDayStatisticsRatesData
 
 # Interface: IAppendixAppDataDayStatisticsRatesData
 
+Defined in: main.ts:234512
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:219413
+Defined in: main.ts:234513
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:219413
 
 > `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:219414
+Defined in: main.ts:234514
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:219414
 
 > `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../classes/AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:219422
+Defined in: main.ts:234523
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:219422
 
 > `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:219415
+Defined in: main.ts:234515
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:219415
 
 > `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:219416
+Defined in: main.ts:234516
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:219416
 
 > `optional` **categories**: `number`
 
-#### Defined in
-
-main.ts:219420
+Defined in: main.ts:234520
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:219420
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:219417
+Defined in: main.ts:234517
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:219417
 
 > `optional` **id\_list**: `number`
 
-#### Defined in
-
-main.ts:219423
+Defined in: main.ts:234522
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:219423
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:219418
+Defined in: main.ts:234518
 
 ***
 
@@ -106,9 +90,7 @@ main.ts:219418
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:219419
+Defined in: main.ts:234519
 
 ***
 
@@ -116,6 +98,4 @@ main.ts:219419
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:219421
+Defined in: main.ts:234521

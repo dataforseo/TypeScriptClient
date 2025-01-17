@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisSentimentAnalysisLiveRequestInfo
+[Documentation](../README.md) / ContentAnalysisSentimentAnalysisLiveRequestInfo
 
 # Class: ContentAnalysisSentimentAnalysisLiveRequestInfo
+
+Defined in: main.ts:178966
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentAnalysisSentimentAnalysisLiveRequestInfo**(`data`?): [`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)
 
+Defined in: main.ts:179045
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md)
+##### data?
+
+[`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:167355
 
 ## Properties
 
 ### initial\_dataset\_filters?
 
 > `optional` **initial\_dataset\_filters**: `any`[]
+
+Defined in: main.ts:179035
 
 initial dataset filtering parameters
 optional field
@@ -59,15 +63,13 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md#initial_dataset_filters)
 
-#### Defined in
-
-main.ts:167345
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:179004
 
 maximum number of elements within internal arrays
 optional field
@@ -84,38 +86,34 @@ maximum value: 20
 
 [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
-
-main.ts:167314
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:178975
+
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:167285
 
 ***
 
 ### keyword\_fields?
 
 > `optional` **keyword\_fields**: `object`
+
+Defined in: main.ts:178987
 
 target keyword fields and target keywords
 optional field
@@ -131,21 +129,19 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md#keyword_fields)
-
-#### Defined in
-
-main.ts:167297
 
 ***
 
 ### page\_type?
 
 > `optional` **page\_type**: `string`[]
+
+Defined in: main.ts:178993
 
 target page types
 optional field
@@ -157,15 +153,13 @@ possible values:
 
 [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md#page_type)
 
-#### Defined in
-
-main.ts:167303
-
 ***
 
 ### positive\_connotation\_threshold?
 
 > `optional` **positive\_connotation\_threshold**: `number`
+
+Defined in: main.ts:179011
 
 positive connotation threshold
 optional field
@@ -178,15 +172,13 @@ default value: 0.4
 
 [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md).[`positive_connotation_threshold`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md#positive_connotation_threshold)
 
-#### Defined in
-
-main.ts:167321
-
 ***
 
 ### sentiments\_connotation\_threshold?
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
+
+Defined in: main.ts:179018
 
 sentiment connotation threshold
 optional field
@@ -199,15 +191,13 @@ default value: 0.4
 
 [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md).[`sentiments_connotation_threshold`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md#sentiments_connotation_threshold)
 
-#### Defined in
-
-main.ts:167328
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:179041
 
 user-defined task identifier
 optional field
@@ -219,27 +209,23 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisSentimentAnalysisLiveRequestInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisSentimentAnalysisLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:167351
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:179054
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:167364
 
 ***
 
@@ -247,17 +233,17 @@ main.ts:167364
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:179092
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:167402
 
 ***
 
@@ -265,14 +251,14 @@ main.ts:167402
 
 > `static` **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)
 
+Defined in: main.ts:179085
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisSentimentAnalysisLiveRequestInfo`](ContentAnalysisSentimentAnalysisLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:167395

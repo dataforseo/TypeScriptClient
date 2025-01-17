@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDomainAnalyticsPriceData
+[Documentation](../README.md) / AppendixDomainAnalyticsPriceData
 
 # Class: AppendixDomainAnalyticsPriceData
+
+Defined in: main.ts:238634
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixDomainAnalyticsPriceData**(`data`?): [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
 
+Defined in: main.ts:238642
+
 #### Parameters
 
-• **data?**: [`IAppendixDomainAnalyticsPriceData`](../interfaces/IAppendixDomainAnalyticsPriceData.md)
+##### data?
+
+[`IAppendixDomainAnalyticsPriceData`](../interfaces/IAppendixDomainAnalyticsPriceData.md)
 
 #### Returns
 
 [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
-
-#### Defined in
-
-main.ts:223354
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:223354
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:238637
+
 #### Implementation of
 
 [`IAppendixDomainAnalyticsPriceData`](../interfaces/IAppendixDomainAnalyticsPriceData.md).[`errors`](../interfaces/IAppendixDomainAnalyticsPriceData.md#errors)
-
-#### Defined in
-
-main.ts:223349
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:223349
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:238638
+
 #### Implementation of
 
 [`IAppendixDomainAnalyticsPriceData`](../interfaces/IAppendixDomainAnalyticsPriceData.md).[`tasks_ready`](../interfaces/IAppendixDomainAnalyticsPriceData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:223350
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:223350
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsPriceData`](AppendixTechnologiesDomainAnalyticsPriceData.md)
 
+Defined in: main.ts:238636
+
 #### Implementation of
 
 [`IAppendixDomainAnalyticsPriceData`](../interfaces/IAppendixDomainAnalyticsPriceData.md).[`technologies`](../interfaces/IAppendixDomainAnalyticsPriceData.md#technologies)
-
-#### Defined in
-
-main.ts:223348
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:223348
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
+Defined in: main.ts:238635
+
 #### Implementation of
 
 [`IAppendixDomainAnalyticsPriceData`](../interfaces/IAppendixDomainAnalyticsPriceData.md).[`whois`](../interfaces/IAppendixDomainAnalyticsPriceData.md#whois)
-
-#### Defined in
-
-main.ts:223347
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:223347
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:238651
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:223363
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:223363
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:238671
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:223383
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:223383
 
 > `static` **fromJS**(`data`): [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
 
+Defined in: main.ts:238664
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixDomainAnalyticsPriceData`](AppendixDomainAnalyticsPriceData.md)
-
-#### Defined in
-
-main.ts:223376

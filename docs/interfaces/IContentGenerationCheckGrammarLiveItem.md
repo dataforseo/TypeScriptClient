@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationCheckGrammarLiveItem
+[Documentation](../README.md) / IContentGenerationCheckGrammarLiveItem
 
 # Interface: IContentGenerationCheckGrammarLiveItem
 
+Defined in: main.ts:182916
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:182920
+
 description of the grammar or spelling error
-
-#### Defined in
-
-main.ts:171230
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:171230
 
 > `optional` **length**: `number`
 
+Defined in: main.ts:182926
+
 offset token for subsequent requests
-
-#### Defined in
-
-main.ts:171236
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:171236
 
 > `optional` **message**: `string`
 
+Defined in: main.ts:182918
+
 message of the grammar or spelling error
-
-#### Defined in
-
-main.ts:171228
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:171228
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:182924
+
 offset token for subsequent requests
-
-#### Defined in
-
-main.ts:171234
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:171234
 
 > `optional` **rule\_category\_id**: `string`
 
+Defined in: main.ts:182937
+
 id of the rule category
-
-#### Defined in
-
-main.ts:171247
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:171247
 
 > `optional` **rule\_category\_name**: `string`
 
+Defined in: main.ts:182939
+
 name of the rule category
-
-#### Defined in
-
-main.ts:171249
 
 ***
 
@@ -88,11 +78,9 @@ main.ts:171249
 
 > `optional` **rule\_description**: `string`
 
+Defined in: main.ts:182933
+
 description of the grammar or spelling rule
-
-#### Defined in
-
-main.ts:171243
 
 ***
 
@@ -100,12 +88,10 @@ main.ts:171243
 
 > `optional` **rule\_id**: `string`
 
+Defined in: main.ts:182931
+
 id of the grammar or spelling rule
 see the List of Grammar Rules for Content Generation API
-
-#### Defined in
-
-main.ts:171241
 
 ***
 
@@ -113,11 +99,9 @@ main.ts:171241
 
 > `optional` **rule\_issue\_type**: `string`
 
+Defined in: main.ts:182935
+
 type of the issue found by the relevant rule
-
-#### Defined in
-
-main.ts:171245
 
 ***
 
@@ -125,11 +109,9 @@ main.ts:171245
 
 > `optional` **suggestions**: `string`[]
 
+Defined in: main.ts:182922
+
 suggested corrections
-
-#### Defined in
-
-main.ts:171232
 
 ***
 
@@ -137,8 +119,6 @@ main.ts:171232
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:182928
+
 type of element
-
-#### Defined in
-
-main.ts:171238

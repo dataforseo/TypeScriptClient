@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
+
+Defined in: main.ts:121080
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleBulkAppMetricsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
 
+Defined in: main.ts:121096
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:111663
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:111663
 
 > `optional` **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)[]
 
+Defined in: main.ts:121092
+
 contains data related to the ranking app metrics of the specified application
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:111659
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:111659
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:121090
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:111657
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:111657
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:121086
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:111653
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:111653
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:121084
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:111651
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:111651
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:121082
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:111649
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:111649
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:121088
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:111655
 
 ## Methods
 
@@ -134,17 +124,17 @@ main.ts:111655
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:121105
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:111672
 
 ***
 
@@ -152,17 +142,17 @@ main.ts:111672
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:121131
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:111698
 
 ***
 
@@ -170,14 +160,14 @@ main.ts:111698
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
 
+Defined in: main.ts:121124
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleBulkAppMetricsLiveResultInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:111691

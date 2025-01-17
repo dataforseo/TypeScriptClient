@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppInfoTaskPostRequestInfo
+[Documentation](../README.md) / AppDataGoogleAppInfoTaskPostRequestInfo
 
 # Class: AppDataGoogleAppInfoTaskPostRequestInfo
+
+Defined in: main.ts:201480
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppDataGoogleAppInfoTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
 
+Defined in: main.ts:201560
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md)
+##### data?
+
+[`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:189123
 
 ## Properties
 
 ### app\_id?
 
 > `optional` **app\_id**: `string`
+
+Defined in: main.ts:201488
 
 id of the app
 required field
@@ -50,18 +54,16 @@ the id is org.telegram.messenger
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`app_id`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#app_id)
 
-#### Defined in
-
-main.ts:189051
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:201516
+
 search engine language code
-optional field
+required field if language_name is not specified
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages with their language_code by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -71,18 +73,16 @@ en
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:189079
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:201509
+
 full name of search engine language
-optional field
+required field if language_code is not specified
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages with language_name by making a separate request to https://api.dataforseo.com/v3/app_data/google/languages
 example:
@@ -92,15 +92,13 @@ English
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`language_name`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:189072
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:201502
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,15 +111,13 @@ example:
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:189065
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:201495
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -134,15 +130,13 @@ West Los Angeles,California,United States
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`location_name`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:189058
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:201556
 
 notification URL of a completed task
 optional field
@@ -151,22 +145,20 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:189119
 
 ***
 
 ### postback\_data?
 
 > `optional` **postback\_data**: `string`
+
+Defined in: main.ts:201546
 
 postback_url datatype
 required field if you specify postback_url
@@ -178,15 +170,13 @@ advanced, html
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`postback_data`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
-
-main.ts:189109
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:201540
 
 return URL for sending task results
 optional field
@@ -195,22 +185,20 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
 
 #### Implementation of
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`postback_url`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:189103
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:201524
 
 task priority
 optional field
@@ -224,15 +212,13 @@ The cost can be calculated on the Pricing page.
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`priority`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:189087
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:201530
 
 user-defined task identifier
 optional field
@@ -244,27 +230,23 @@ you will find the specified tag value in the data object of the response
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`tag`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:189093
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:201569
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:189132
 
 ***
 
@@ -272,17 +254,17 @@ main.ts:189132
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:201595
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:189158
 
 ***
 
@@ -290,14 +272,14 @@ main.ts:189158
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
 
+Defined in: main.ts:201588
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:189151

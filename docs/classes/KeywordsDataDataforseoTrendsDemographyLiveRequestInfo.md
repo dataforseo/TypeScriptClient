@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
 # Class: KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
+
+Defined in: main.ts:137030
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
+Defined in: main.ts:137089
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:126732
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:137066
 
 starting date of the time range
 optional field
@@ -51,15 +55,13 @@ example:
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:126709
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:137073
 
 ending date of the time range
 optional field
@@ -72,35 +74,32 @@ example:
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:126716
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:137037
+
 keywords
 required field
 the maximum number of keywords you can specify: 5
 avoid symbols and special characters (e.g., UTF symbols, emojis);
 specifying non-Latin characters, you’ll get data for the countries where they are used
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:126680
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:137055
 
 search engine location code
 optional field
@@ -115,15 +114,13 @@ example:
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:126698
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:137046
 
 full name of search engine location
 optional field
@@ -138,15 +135,13 @@ United Kingdom
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:126689
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:137085
 
 user-defined task identifier
 optional field
@@ -158,15 +153,13 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:126728
-
 ***
 
 ### time\_range?
 
 > `optional` **time\_range**: `string`
+
+Defined in: main.ts:137079
 
 preset time ranges
 optional field
@@ -178,15 +171,13 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#time_range)
 
-#### Defined in
-
-main.ts:126722
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:137057
 
 type of element
 
@@ -194,27 +185,23 @@ type of element
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#type)
 
-#### Defined in
-
-main.ts:126700
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:137098
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:126741
 
 ***
 
@@ -222,17 +209,17 @@ main.ts:126741
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:137126
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:126769
 
 ***
 
@@ -240,14 +227,14 @@ main.ts:126769
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
+Defined in: main.ts:137119
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:126762

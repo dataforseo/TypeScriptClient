@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CommercialUnitsElement
+[Documentation](../README.md) / CommercialUnitsElement
 
 # Class: CommercialUnitsElement
+
+Defined in: main.ts:35759
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new CommercialUnitsElement**(`data`?): [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
+Defined in: main.ts:35779
+
 #### Parameters
 
-• **data?**: [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md)
+##### data?
+
+[`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md)
 
 #### Returns
 
 [`CommercialUnitsElement`](CommercialUnitsElement.md)
-
-#### Defined in
-
-main.ts:34063
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:34063
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35767
+
 website domain
 
 #### Implementation of
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`domain`](../interfaces/ICommercialUnitsElement.md#domain)
-
-#### Defined in
-
-main.ts:34051
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:34051
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
+Defined in: main.ts:35769
+
 price indicated in the element
 
 #### Implementation of
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`price`](../interfaces/ICommercialUnitsElement.md#price)
 
-#### Defined in
-
-main.ts:34053
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:35775
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -77,15 +77,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`rating`](../interfaces/ICommercialUnitsElement.md#rating)
 
-#### Defined in
-
-main.ts:34059
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:35772
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -94,15 +92,13 @@ indicates the source of information included in the top_stories_element
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`source`](../interfaces/ICommercialUnitsElement.md#source)
 
-#### Defined in
-
-main.ts:34056
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:35763
 
 title of a given link element
 
@@ -110,15 +106,13 @@ title of a given link element
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`title`](../interfaces/ICommercialUnitsElement.md#title)
 
-#### Defined in
-
-main.ts:34047
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:35761
 
 type of element
 
@@ -126,15 +120,13 @@ type of element
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`type`](../interfaces/ICommercialUnitsElement.md#type)
 
-#### Defined in
-
-main.ts:34045
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:35765
 
 URL
 
@@ -142,27 +134,23 @@ URL
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`url`](../interfaces/ICommercialUnitsElement.md#url)
 
-#### Defined in
-
-main.ts:34049
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:35788
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:34072
 
 ***
 
@@ -170,17 +158,17 @@ main.ts:34072
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:35811
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:34095
 
 ***
 
@@ -188,14 +176,14 @@ main.ts:34095
 
 > `static` **fromJS**(`data`): [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
+Defined in: main.ts:35804
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`CommercialUnitsElement`](CommercialUnitsElement.md)
-
-#### Defined in
-
-main.ts:34088

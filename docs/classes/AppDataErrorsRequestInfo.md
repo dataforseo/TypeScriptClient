@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataErrorsRequestInfo
+[Documentation](../README.md) / AppDataErrorsRequestInfo
 
 # Class: AppDataErrorsRequestInfo
+
+Defined in: main.ts:198214
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataErrorsRequestInfo**(`data`?): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
+Defined in: main.ts:198248
+
 #### Parameters
 
-• **data?**: [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md)
+##### data?
+
+[`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md)
 
 #### Returns
 
 [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:186049
 
 ## Properties
 
@@ -38,9 +40,11 @@ main.ts:186049
 
 > `optional` **datetime\_from**: `string`
 
+Defined in: main.ts:198237
+
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -49,19 +53,17 @@ example:
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IAppDataErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:186038
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
 
+Defined in: main.ts:198244
+
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -70,15 +72,13 @@ example:
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IAppDataErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:186045
-
 ***
 
 ### filtered\_function?
 
 > `optional` **filtered\_function**: `string`
+
+Defined in: main.ts:198230
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,13 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IAppDataErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
-
-main.ts:186031
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:198219
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +107,13 @@ maximum value: 1000
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`limit`](../interfaces/IAppDataErrorsRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:186020
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:198224
 
 offset in the results array of returned tasks
 optional field
@@ -128,27 +124,23 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`offset`](../interfaces/IAppDataErrorsRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:186025
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:198257
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:186058
 
 ***
 
@@ -156,17 +148,17 @@ main.ts:186058
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:198278
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:186079
 
 ***
 
@@ -174,14 +166,14 @@ main.ts:186079
 
 > `static` **fromJS**(`data`): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
+Defined in: main.ts:198271
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:186072

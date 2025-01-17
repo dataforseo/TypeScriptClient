@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksPageMeta
+[Documentation](../README.md) / IBacklinksPageMeta
 
 # Interface: IBacklinksPageMeta
 
+Defined in: main.ts:153779
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **canonical**: `string`
 
+Defined in: main.ts:153783
+
 canonical page
-
-#### Defined in
-
-main.ts:142477
 
 ***
 
@@ -28,13 +28,11 @@ main.ts:142477
 
 > `optional` **charset**: `string`
 
+Defined in: main.ts:153819
+
 character encoding
 examples:
 utf-8
-
-#### Defined in
-
-main.ts:142513
 
 ***
 
@@ -42,11 +40,9 @@ main.ts:142513
 
 > `optional` **external\_links\_count**: `number`
 
+Defined in: main.ts:153787
+
 number of external links on the page
-
-#### Defined in
-
-main.ts:142481
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:142481
 
 > `optional` **h1**: `string`[]
 
+Defined in: main.ts:153801
+
 h1 tag
 content of h1 tags
-
-#### Defined in
-
-main.ts:142495
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:142495
 
 > `optional` **h2**: `string`[]
 
+Defined in: main.ts:153804
+
 h2 tag
 content of h2 tags
-
-#### Defined in
-
-main.ts:142498
 
 ***
 
@@ -80,12 +72,10 @@ main.ts:142498
 
 > `optional` **h3**: `string`[]
 
+Defined in: main.ts:153807
+
 h3 tag
 content of h3 tags
-
-#### Defined in
-
-main.ts:142501
 
 ***
 
@@ -93,11 +83,9 @@ main.ts:142501
 
 > `optional` **images\_alt**: `string`[]
 
+Defined in: main.ts:153809
+
 content of alt tags
-
-#### Defined in
-
-main.ts:142503
 
 ***
 
@@ -105,11 +93,9 @@ main.ts:142503
 
 > `optional` **images\_count**: `number`
 
+Defined in: main.ts:153789
+
 number of images on the page
-
-#### Defined in
-
-main.ts:142483
 
 ***
 
@@ -117,11 +103,9 @@ main.ts:142483
 
 > `optional` **internal\_links\_count**: `number`
 
+Defined in: main.ts:153785
+
 number of internal links on the page
-
-#### Defined in
-
-main.ts:142479
 
 ***
 
@@ -129,13 +113,11 @@ main.ts:142479
 
 > `optional` **language**: `string`
 
+Defined in: main.ts:153815
+
 page content language
 example:
 en
-
-#### Defined in
-
-main.ts:142509
 
 ***
 
@@ -143,12 +125,10 @@ main.ts:142509
 
 > `optional` **page\_spam\_score**: `number`
 
+Defined in: main.ts:153794
+
 spam score of the page
 learn more about how the metric is calculated on this help center page
-
-#### Defined in
-
-main.ts:142488
 
 ***
 
@@ -156,11 +136,9 @@ main.ts:142488
 
 > `optional` **platform\_type**: `string`[]
 
+Defined in: main.ts:153821
+
 type of a platform
-
-#### Defined in
-
-main.ts:142515
 
 ***
 
@@ -168,11 +146,9 @@ main.ts:142515
 
 > `optional` **powered\_by**: `string`[]
 
+Defined in: main.ts:153811
+
 CMS details
-
-#### Defined in
-
-main.ts:142505
 
 ***
 
@@ -180,17 +156,15 @@ main.ts:142505
 
 > `optional` **social\_media\_tags**: `object`
 
+Defined in: main.ts:153798
+
 array of social media tags found on the page
 contains social media tags and their content
 supported tags include but are not limited to Open Graph and Twitter card
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:142492
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -198,15 +172,13 @@ main.ts:142492
 
 > `optional` **technologies**: `object`
 
+Defined in: main.ts:153823
+
 website technologies
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:142517
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -214,11 +186,9 @@ main.ts:142517
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:153781
+
 page title
-
-#### Defined in
-
-main.ts:142475
 
 ***
 
@@ -226,8 +196,6 @@ main.ts:142475
 
 > `optional` **words\_count**: `number`
 
+Defined in: main.ts:153791
+
 number of words on the page
-
-#### Defined in
-
-main.ts:142485

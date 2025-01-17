@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesResultInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesResultInfo
 
 # Class: BusinessDataBusinessListingsCategoriesResultInfo
+
+Defined in: main.ts:210240
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataBusinessListingsCategoriesResultInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
+Defined in: main.ts:210248
+
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:197797
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:197797
 
 > `optional` **business\_count**: `number`
 
+Defined in: main.ts:210244
+
 number of businesses in the category
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md).[`business_count`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md#business_count)
-
-#### Defined in
-
-main.ts:197793
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:197793
 
 > `optional` **category\_name**: `string`
 
+Defined in: main.ts:210242
+
 full name of the category
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md).[`category_name`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md#category_name)
-
-#### Defined in
-
-main.ts:197791
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:197791
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:210257
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:197806
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:197806
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:210275
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:197824
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:197824
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
+Defined in: main.ts:210268
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
-
-#### Defined in
-
-main.ts:197817

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPriceInfo
+[Documentation](../README.md) / IPriceInfo
 
 # Interface: IPriceInfo
 
+Defined in: main.ts:23990
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **currency**: `string`
 
+Defined in: main.ts:24002
+
 currency of the listed price
 ISO code of the currency applied to the price
-
-#### Defined in
-
-main.ts:23099
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:23099
 
 > `optional` **current**: `number`
 
+Defined in: main.ts:23993
+
 current price
 indicates the current price of the product or service featured in the result
-
-#### Defined in
-
-main.ts:23090
 
 ***
 
@@ -42,12 +40,10 @@ main.ts:23090
 
 > `optional` **displayed\_price**: `string`
 
+Defined in: main.ts:24008
+
 price string in the result
 raw price string as provided in the result
-
-#### Defined in
-
-main.ts:23105
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:23105
 
 > `optional` **is\_price\_range**: `boolean`
 
+Defined in: main.ts:24005
+
 price is provided as a range
 indicates whether a price is provided in a range
-
-#### Defined in
-
-main.ts:23102
 
 ***
 
@@ -68,12 +62,10 @@ main.ts:23102
 
 > `optional` **max\_value**: `number`
 
+Defined in: main.ts:23999
+
 the maximum price
 the maximum price of the product or service as indicated in the result
-
-#### Defined in
-
-main.ts:23096
 
 ***
 
@@ -81,9 +73,7 @@ main.ts:23096
 
 > `optional` **regular**: `number`
 
+Defined in: main.ts:23996
+
 regular price
 indicates the regular price of the product or service with no discounts applied
-
-#### Defined in
-
-main.ts:23093

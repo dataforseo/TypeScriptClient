@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostBacklinksLiveResultInfo
+[Documentation](../README.md) / BacklinksBulkNewLostBacklinksLiveResultInfo
 
 # Class: BacklinksBulkNewLostBacklinksLiveResultInfo
+
+Defined in: main.ts:161846
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksBulkNewLostBacklinksLiveResultInfo**(`data`?): [`BacklinksBulkNewLostBacklinksLiveResultInfo`](BacklinksBulkNewLostBacklinksLiveResultInfo.md)
 
+Defined in: main.ts:161854
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBulkNewLostBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveResultInfo`](BacklinksBulkNewLostBacklinksLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:150548
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:150548
 
 > `optional` **items**: [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)[]
 
+Defined in: main.ts:161850
+
 contains relevant backlinks and referring domains data
 
 #### Implementation of
 
 [`IBacklinksBulkNewLostBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkNewLostBacklinksLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:150544
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:150544
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:161848
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IBacklinksBulkNewLostBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkNewLostBacklinksLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:150542
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:150542
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:161863
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:150557
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:150557
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:161885
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:150579
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:150579
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveResultInfo`](BacklinksBulkNewLostBacklinksLiveResultInfo.md)
 
+Defined in: main.ts:161878
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveResultInfo`](BacklinksBulkNewLostBacklinksLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:150572

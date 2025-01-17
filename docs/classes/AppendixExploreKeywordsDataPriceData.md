@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixExploreKeywordsDataPriceData
+[Documentation](../README.md) / AppendixExploreKeywordsDataPriceData
 
 # Class: AppendixExploreKeywordsDataPriceData
+
+Defined in: main.ts:236638
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixExploreKeywordsDataPriceData**(`data`?): [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
 
+Defined in: main.ts:236645
+
 #### Parameters
 
-• **data?**: [`IAppendixExploreKeywordsDataPriceData`](../interfaces/IAppendixExploreKeywordsDataPriceData.md)
+##### data?
+
+[`IAppendixExploreKeywordsDataPriceData`](../interfaces/IAppendixExploreKeywordsDataPriceData.md)
 
 #### Returns
 
 [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
-
-#### Defined in
-
-main.ts:221373
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:221373
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236639
+
 #### Implementation of
 
 [`IAppendixExploreKeywordsDataPriceData`](../interfaces/IAppendixExploreKeywordsDataPriceData.md).[`live`](../interfaces/IAppendixExploreKeywordsDataPriceData.md#live)
-
-#### Defined in
-
-main.ts:221367
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:221367
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236640
+
 #### Implementation of
 
 [`IAppendixExploreKeywordsDataPriceData`](../interfaces/IAppendixExploreKeywordsDataPriceData.md).[`task_get`](../interfaces/IAppendixExploreKeywordsDataPriceData.md#task_get)
-
-#### Defined in
-
-main.ts:221368
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:221368
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236641
+
 #### Implementation of
 
 [`IAppendixExploreKeywordsDataPriceData`](../interfaces/IAppendixExploreKeywordsDataPriceData.md).[`task_post`](../interfaces/IAppendixExploreKeywordsDataPriceData.md#task_post)
-
-#### Defined in
-
-main.ts:221369
 
 ## Methods
 
@@ -80,17 +76,17 @@ main.ts:221369
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:236654
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:221382
 
 ***
 
@@ -98,17 +94,17 @@ main.ts:221382
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:236673
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:221401
 
 ***
 
@@ -116,14 +112,14 @@ main.ts:221401
 
 > `static` **fromJS**(`data`): [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
 
+Defined in: main.ts:236666
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
-
-#### Defined in
-
-main.ts:221394

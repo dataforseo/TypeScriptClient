@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108277
+=======
+main.ts:108310
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -52,7 +56,11 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108273
+=======
+main.ts:108306
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -68,7 +76,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108269
+=======
+main.ts:108302
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -86,7 +98,11 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108267
+=======
+main.ts:108300
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -104,7 +120,11 @@ main.ts:108267
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108286
+=======
+main.ts:108319
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -122,7 +142,11 @@ main.ts:108286
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108311
+=======
+main.ts:108344
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -140,4 +164,8 @@ main.ts:108311
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:108304
+=======
+main.ts:108337
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

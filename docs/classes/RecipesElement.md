@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RecipesElement
+[Documentation](../README.md) / RecipesElement
 
 # Class: RecipesElement
+
+Defined in: main.ts:34181
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new RecipesElement**(`data`?): [`RecipesElement`](RecipesElement.md)
 
+Defined in: main.ts:34203
+
 #### Parameters
 
-• **data?**: [`IRecipesElement`](../interfaces/IRecipesElement.md)
+##### data?
+
+[`IRecipesElement`](../interfaces/IRecipesElement.md)
 
 #### Returns
 
 [`RecipesElement`](RecipesElement.md)
-
-#### Defined in
-
-main.ts:32403
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:32403
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:34194
+
 description
 
 #### Implementation of
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`description`](../interfaces/IRecipesElement.md#description)
-
-#### Defined in
-
-main.ts:32394
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:32394
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:34189
+
 website domain
 
 #### Implementation of
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`domain`](../interfaces/IRecipesElement.md#domain)
 
-#### Defined in
-
-main.ts:32389
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:34199
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -77,15 +77,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`rating`](../interfaces/IRecipesElement.md#rating)
 
-#### Defined in
-
-main.ts:32399
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:34192
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -94,15 +92,13 @@ indicates the source of information included in the top_stories_element
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`source`](../interfaces/IRecipesElement.md#source)
 
-#### Defined in
-
-main.ts:32392
-
 ***
 
 ### time?
 
 > `optional` **time**: `string`
+
+Defined in: main.ts:34196
 
 the total time it takes to prepare the cook the dish
 
@@ -110,15 +106,13 @@ the total time it takes to prepare the cook the dish
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`time`](../interfaces/IRecipesElement.md#time)
 
-#### Defined in
-
-main.ts:32396
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:34185
 
 title of a given link element
 
@@ -126,15 +120,13 @@ title of a given link element
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`title`](../interfaces/IRecipesElement.md#title)
 
-#### Defined in
-
-main.ts:32385
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:34183
 
 type of element
 
@@ -142,15 +134,13 @@ type of element
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`type`](../interfaces/IRecipesElement.md#type)
 
-#### Defined in
-
-main.ts:32383
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:34187
 
 URL
 
@@ -158,27 +148,23 @@ URL
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`url`](../interfaces/IRecipesElement.md#url)
 
-#### Defined in
-
-main.ts:32387
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:34212
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:32412
 
 ***
 
@@ -186,17 +172,17 @@ main.ts:32412
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:34236
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:32436
 
 ***
 
@@ -204,14 +190,14 @@ main.ts:32436
 
 > `static` **fromJS**(`data`): [`RecipesElement`](RecipesElement.md)
 
+Defined in: main.ts:34229
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`RecipesElement`](RecipesElement.md)
-
-#### Defined in
-
-main.ts:32429

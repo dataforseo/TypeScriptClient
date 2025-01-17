@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListingsSearchLiveRequestInfo
+[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveRequestInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveRequestInfo
+
+Defined in: main.ts:204232
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppDataGoogleAppListingsSearchLiveRequestInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)
 
+Defined in: main.ts:204301
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:191864
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:204238
 
 app categories
 optional field
@@ -48,34 +52,30 @@ you can specify up to 10 categories
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`categories`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#categories)
 
-#### Defined in
-
-main.ts:191801
-
 ***
 
 ### description?
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:204243
+
 keyword in the app’s description
 optional field
 keywords that occur in the description of the app;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`description`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#description)
-
-#### Defined in
-
-main.ts:191806
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:204259
 
 array of results filtering parameters
 optional field
@@ -92,15 +92,13 @@ you can receive the list of available filters by making a separate request to h
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`filters`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:191822
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:204278
 
 the maximum number of returned apps
 optional field
@@ -111,15 +109,13 @@ maximum value: 1000
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`limit`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:191841
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:204283
 
 offset in the results array of returned apps
 optional field
@@ -130,15 +126,13 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`offset`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:191846
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:204291
 
 token for subsequent requests
 optional field
@@ -152,15 +146,13 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`offset_token`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:191854
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:204273
 
 results sorting rules
 optional field
@@ -180,15 +172,13 @@ example:
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`order_by`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:191836
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:204297
 
 user-defined task identifier
 optional field
@@ -200,28 +190,22 @@ you will find the specified tag value in the data object of the response
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`tag`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:191860
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:204248
+
 keyword in the app’s title
 optional field
 keywords that occur in the title of the app;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
 [`IAppDataGoogleAppListingsSearchLiveRequestInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md).[`title`](../interfaces/IAppDataGoogleAppListingsSearchLiveRequestInfo.md#title)
-
-#### Defined in
-
-main.ts:191811
 
 ## Methods
 
@@ -229,17 +213,17 @@ main.ts:191811
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:204310
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:191873
 
 ***
 
@@ -247,17 +231,17 @@ main.ts:191873
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:204347
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:191910
 
 ***
 
@@ -265,14 +249,14 @@ main.ts:191910
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)
 
+Defined in: main.ts:204340
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleAppListingsSearchLiveRequestInfo`](AppDataGoogleAppListingsSearchLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:191903

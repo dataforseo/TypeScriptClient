@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
+Defined in: main.ts:86373
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](../classes/DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
 
+Defined in: main.ts:86381
+
 items array
-
-#### Defined in
-
-main.ts:76642
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:76642
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:86377
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:76638
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:76638
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:86379
+
 offset in the results array of returned domains
-
-#### Defined in
-
-main.ts:76640
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:76640
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:86375
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:76636

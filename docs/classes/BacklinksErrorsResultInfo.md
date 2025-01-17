@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksErrorsResultInfo
+[Documentation](../README.md) / BacklinksErrorsResultInfo
 
 # Class: BacklinksErrorsResultInfo
+
+Defined in: main.ts:149218
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksErrorsResultInfo**(`data`?): [`BacklinksErrorsResultInfo`](BacklinksErrorsResultInfo.md)
 
+Defined in: main.ts:149248
+
 #### Parameters
 
-• **data?**: [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md)
+##### data?
+
+[`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md)
 
 #### Returns
 
 [`BacklinksErrorsResultInfo`](BacklinksErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:137942
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:149225
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`datetime`](../interfaces/IBacklinksErrorsResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:137919
-
 ***
 
 ### error\_code?
 
 > `optional` **error\_code**: `number`
+
+Defined in: main.ts:149229
 
 error code
 
@@ -63,15 +65,13 @@ error code
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`error_code`](../interfaces/IBacklinksErrorsResultInfo.md#error_code)
 
-#### Defined in
-
-main.ts:137923
-
 ***
 
 ### error\_message?
 
 > `optional` **error\_message**: `string`
+
+Defined in: main.ts:149232
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -80,15 +80,13 @@ error message (see full list) or URL that caused an error
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`error_message`](../interfaces/IBacklinksErrorsResultInfo.md#error_message)
 
-#### Defined in
-
-main.ts:137926
-
 ***
 
 ### function?
 
 > `optional` **function**: `string`
+
+Defined in: main.ts:149227
 
 corresponding API function
 
@@ -96,15 +94,13 @@ corresponding API function
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`function`](../interfaces/IBacklinksErrorsResultInfo.md#function)
 
-#### Defined in
-
-main.ts:137921
-
 ***
 
 ### http\_code?
 
 > `optional` **http\_code**: `number`
+
+Defined in: main.ts:149239
 
 HTTP status code
 
@@ -112,15 +108,13 @@ HTTP status code
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`http_code`](../interfaces/IBacklinksErrorsResultInfo.md#http_code)
 
-#### Defined in
-
-main.ts:137933
-
 ***
 
 ### http\_method?
 
 > `optional` **http\_method**: `string`
+
+Defined in: main.ts:149237
 
 HTTP method
 
@@ -128,15 +122,13 @@ HTTP method
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`http_method`](../interfaces/IBacklinksErrorsResultInfo.md#http_method)
 
-#### Defined in
-
-main.ts:137931
-
 ***
 
 ### http\_response?
 
 > `optional` **http\_response**: `string`
+
+Defined in: main.ts:149244
 
 HTTP response
 server response
@@ -145,15 +137,13 @@ server response
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`http_response`](../interfaces/IBacklinksErrorsResultInfo.md#http_response)
 
-#### Defined in
-
-main.ts:137938
-
 ***
 
 ### http\_time?
 
 > `optional` **http\_time**: `number`
+
+Defined in: main.ts:149241
 
 time taken by HTTP request
 
@@ -161,15 +151,13 @@ time taken by HTTP request
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`http_time`](../interfaces/IBacklinksErrorsResultInfo.md#http_time)
 
-#### Defined in
-
-main.ts:137935
-
 ***
 
 ### http\_url?
 
 > `optional` **http\_url**: `string`
+
+Defined in: main.ts:149235
 
 URL that caused an error
 URL you used for making an API call
@@ -178,15 +166,13 @@ URL you used for making an API call
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`http_url`](../interfaces/IBacklinksErrorsResultInfo.md#http_url)
 
-#### Defined in
-
-main.ts:137929
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:149220
 
 id of the task
 
@@ -194,27 +180,23 @@ id of the task
 
 [`IBacklinksErrorsResultInfo`](../interfaces/IBacklinksErrorsResultInfo.md).[`id`](../interfaces/IBacklinksErrorsResultInfo.md#id)
 
-#### Defined in
-
-main.ts:137914
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:149257
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:137951
 
 ***
 
@@ -222,17 +204,17 @@ main.ts:137951
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:149283
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:137977
 
 ***
 
@@ -240,14 +222,14 @@ main.ts:137977
 
 > `static` **fromJS**(`data`): [`BacklinksErrorsResultInfo`](BacklinksErrorsResultInfo.md)
 
+Defined in: main.ts:149276
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksErrorsResultInfo`](BacklinksErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:137970

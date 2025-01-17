@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IWorkDayInfo
+[Documentation](../README.md) / IWorkDayInfo
 
 # Interface: IWorkDayInfo
 
+Defined in: main.ts:23025
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **close**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
+Defined in: main.ts:23029
+
 closing time
-
-#### Defined in
-
-main.ts:22126
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:22126
 
 > `optional` **open**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
+Defined in: main.ts:23027
+
 opening time
-
-#### Defined in
-
-main.ts:22124

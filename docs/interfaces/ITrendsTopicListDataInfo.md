@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITrendsTopicListDataInfo
+[Documentation](../README.md) / ITrendsTopicListDataInfo
 
 # Interface: ITrendsTopicListDataInfo
 
+Defined in: main.ts:135222
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **rising**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
 
+Defined in: main.ts:135228
+
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
-
-#### Defined in
-
-main.ts:124876
 
 ***
 
@@ -29,9 +29,7 @@ main.ts:124876
 
 > `optional` **top**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
 
+Defined in: main.ts:135225
+
 the most popular related topics
 represents the list of the most popular related topics
-
-#### Defined in
-
-main.ts:124873

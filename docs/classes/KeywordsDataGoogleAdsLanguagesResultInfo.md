@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsLanguagesResultInfo
 
 # Class: KeywordsDataGoogleAdsLanguagesResultInfo
+
+Defined in: main.ts:126554
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataGoogleAdsLanguagesResultInfo**(`data`?): [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
 
+Defined in: main.ts:126562
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:117289
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:117289
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:126558
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:117285
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:117285
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:126556
+
 language name
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:117283
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:117283
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:126571
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:117298
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:117298
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:126589
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:117316
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:117316
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
 
+Defined in: main.ts:126582
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:117309

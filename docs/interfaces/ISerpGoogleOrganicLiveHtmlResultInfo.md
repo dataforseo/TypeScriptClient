@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleOrganicLiveHtmlResultInfo
+[Documentation](../README.md) / ISerpGoogleOrganicLiveHtmlResultInfo
 
 # Interface: ISerpGoogleOrganicLiveHtmlResultInfo
 
+Defined in: main.ts:40376
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:40392
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:38556
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:38556
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:40396
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:38560
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:38560
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:40394
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:38558
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:38558
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:40379
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:38543
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:38543
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:40387
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:38551
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:38551
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:40385
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:38549
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:38549
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:40383
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:38547
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:38547
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:40381
+
 type of element
-
-#### Defined in
-
-main.ts:38545

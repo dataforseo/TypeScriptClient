@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductSeller
+[Documentation](../README.md) / IProductSeller
 
 # Interface: IProductSeller
 
+Defined in: main.ts:190505
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,25 +18,21 @@
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
+Defined in: main.ts:190523
+
 delivery information
 product delivery information
-
-#### Defined in
-
-main.ts:178681
 
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
+
+Defined in: main.ts:190520
 
 product price
 product price details on the seller’s website
-
-#### Defined in
-
-main.ts:178678
 
 ***
 
@@ -42,11 +40,9 @@ main.ts:178678
 
 > `optional` **seller\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
+Defined in: main.ts:190514
+
 rating of the seller
-
-#### Defined in
-
-main.ts:178672
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:178672
 
 > `optional` **seller\_review\_count**: `number`
 
+Defined in: main.ts:190517
+
 number of seller reviews
 number of reviews on the product seller’s account
-
-#### Defined in
-
-main.ts:178675
 
 ***
 
@@ -67,11 +61,9 @@ main.ts:178675
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:190509
+
 product title
-
-#### Defined in
-
-main.ts:178667
 
 ***
 
@@ -79,11 +71,9 @@ main.ts:178667
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:190507
+
 type of element
-
-#### Defined in
-
-main.ts:178665
 
 ***
 
@@ -91,9 +81,7 @@ main.ts:178665
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:190512
+
 seller url
 url of the page where the product is sold
-
-#### Defined in
-
-main.ts:178670

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleAppCompetitorsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleAppCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsGoogleAppCompetitorsLiveResultInfo
+
+Defined in: main.ts:122400
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleAppCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleAppCompetitorsLiveResultInfo`](DataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
 
+Defined in: main.ts:122418
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleAppCompetitorsLiveResultInfo`](DataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:112985
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:112985
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:122404
+
 id of the app in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md).[`app_id`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md#app_id)
-
-#### Defined in
-
-main.ts:112971
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:112971
 
 > `optional` **items**: [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)[]
 
+Defined in: main.ts:122414
+
 contains data related to the app_id and competitor applications
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:112981
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:112981
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:122412
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:112979
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:112979
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:122408
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:112975
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:112975
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:122406
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:112973
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:112973
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:122402
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:112969
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:112969
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:122410
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:112977
 
 ## Methods
 
@@ -150,17 +138,17 @@ main.ts:112977
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:122427
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:112994
 
 ***
 
@@ -168,17 +156,17 @@ main.ts:112994
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:122454
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:113021
 
 ***
 
@@ -186,14 +174,14 @@ main.ts:113021
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppCompetitorsLiveResultInfo`](DataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
 
+Defined in: main.ts:122447
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleAppCompetitorsLiveResultInfo`](DataforseoLabsGoogleAppCompetitorsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:113014

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageRedirectChainsRequestInfo
+[Documentation](../README.md) / IOnPageRedirectChainsRequestInfo
 
 # Interface: IOnPageRedirectChainsRequestInfo
 
+Defined in: main.ts:169967
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:169999
 
 array of results filtering parameters
 optional field
@@ -27,15 +31,13 @@ examples:
 ["is_redirect_loop","=","true"]
 ["is_redirect_loop","<>","false"]
 
-#### Defined in
-
-main.ts:158263
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:169973
 
 ID of the task
 required field
@@ -43,24 +45,18 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
-
-main.ts:158237
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:169983
+
 the maximum number of returned redirect chains
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:158247
 
 ***
 
@@ -68,14 +64,12 @@ main.ts:158247
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:169988
+
 offset in the results array of returned redirect chains
 optional field
 default value: 0
 if you specify the 10 value, the first ten redirect chains in the results array will be omitted and the data will be provided for the successive redirect chains
-
-#### Defined in
-
-main.ts:158252
 
 ***
 
@@ -83,15 +77,13 @@ main.ts:158252
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:170005
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:158269
 
 ***
 
@@ -99,11 +91,9 @@ main.ts:158269
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:169978
+
 page URL
 optional field
 absolute URL of the target page
 if you use this field, the API response will return only redirect chains which contain the specified URL
-
-#### Defined in
-
-main.ts:158242

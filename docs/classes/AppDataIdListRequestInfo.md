@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataIdListRequestInfo
+[Documentation](../README.md) / AppDataIdListRequestInfo
 
 # Class: AppDataIdListRequestInfo
+
+Defined in: main.ts:197866
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppDataIdListRequestInfo**(`data`?): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
 
+Defined in: main.ts:197904
+
 #### Parameters
 
-• **data?**: [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md)
+##### data?
+
+[`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md)
 
 #### Returns
 
 [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
-
-#### Defined in
-
-main.ts:185705
 
 ## Properties
 
 ### datetime\_from?
 
 > `optional` **datetime\_from**: `string`
+
+Defined in: main.ts:197874
 
 start time for filtering results
 required field
@@ -50,15 +54,13 @@ example:
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`datetime_from`](../interfaces/IAppDataIdListRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:185675
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
+
+Defined in: main.ts:197881
 
 finish time for filtering results
 required field
@@ -71,15 +73,13 @@ example:
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`datetime_to`](../interfaces/IAppDataIdListRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:185682
-
 ***
 
 ### include\_metadata?
 
 > `optional` **include\_metadata**: `boolean`
+
+Defined in: main.ts:197900
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,13 @@ default value: false
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`include_metadata`](../interfaces/IAppDataIdListRequestInfo.md#include_metadata)
 
-#### Defined in
-
-main.ts:185701
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:197886
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +106,13 @@ maximum value: 1000
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`limit`](../interfaces/IAppDataIdListRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:185687
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:197891
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +123,13 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`offset`](../interfaces/IAppDataIdListRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:185692
-
 ***
 
 ### sort?
 
 > `optional` **sort**: `string`
+
+Defined in: main.ts:197896
 
 sorting by task execution time
 optional field
@@ -146,27 +140,23 @@ default value: "asc"
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`sort`](../interfaces/IAppDataIdListRequestInfo.md#sort)
 
-#### Defined in
-
-main.ts:185697
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:197913
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:185714
 
 ***
 
@@ -174,17 +164,17 @@ main.ts:185714
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:197935
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:185736
 
 ***
 
@@ -192,14 +182,14 @@ main.ts:185736
 
 > `static` **fromJS**(`data`): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
 
+Defined in: main.ts:197928
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
-
-#### Defined in
-
-main.ts:185729

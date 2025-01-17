@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkBacklinksLiveItem
+[Documentation](../README.md) / BacklinksBulkBacklinksLiveItem
 
 # Class: BacklinksBulkBacklinksLiveItem
+
+Defined in: main.ts:160714
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksBulkBacklinksLiveItem**(`data`?): [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
 
+Defined in: main.ts:160722
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkBacklinksLiveItem`](../interfaces/IBacklinksBulkBacklinksLiveItem.md)
+##### data?
+
+[`IBacklinksBulkBacklinksLiveItem`](../interfaces/IBacklinksBulkBacklinksLiveItem.md)
 
 #### Returns
 
 [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
-
-#### Defined in
-
-main.ts:149416
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:149416
 
 > `optional` **backlinks**: `number`
 
+Defined in: main.ts:160718
+
 number of backlinks pointing to the target
 
 #### Implementation of
 
 [`IBacklinksBulkBacklinksLiveItem`](../interfaces/IBacklinksBulkBacklinksLiveItem.md).[`backlinks`](../interfaces/IBacklinksBulkBacklinksLiveItem.md#backlinks)
-
-#### Defined in
-
-main.ts:149412
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:149412
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:160716
+
 domain, subdomain or webpage from a POST array
 
 #### Implementation of
 
 [`IBacklinksBulkBacklinksLiveItem`](../interfaces/IBacklinksBulkBacklinksLiveItem.md).[`target`](../interfaces/IBacklinksBulkBacklinksLiveItem.md#target)
-
-#### Defined in
-
-main.ts:149410
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:149410
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:160731
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:149425
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:149425
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:160749
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:149443
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:149443
 
 > `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
 
+Defined in: main.ts:160742
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
-
-#### Defined in
-
-main.ts:149436

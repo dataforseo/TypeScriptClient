@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForDomainLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Class: DataforseoLabsGoogleCategoriesForDomainLiveItem
+
+Defined in: main.ts:97602
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleCategoriesForDomainLiveItem**(`data`?): [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
 
+Defined in: main.ts:97613
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForDomainLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForDomainLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
-
-#### Defined in
-
-main.ts:87794
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `number`[]
+
+Defined in: main.ts:97607
 
 product and service categories
 you can download the full list of possible categories
@@ -45,29 +49,23 @@ you can download the full list of possible categories
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md).[`categories`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md#categories)
 
-#### Defined in
-
-main.ts:87788
-
 ***
 
 ### metrics?
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:97609
+
 ranking data relevant to the specified domain or subdomain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md#metrics)
-
-#### Defined in
-
-main.ts:87790
 
 ***
 
@@ -75,15 +73,13 @@ main.ts:87790
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:97604
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveItem.md#se_type)
-
-#### Defined in
-
-main.ts:87785
 
 ## Methods
 
@@ -91,17 +87,17 @@ main.ts:87785
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:97622
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:87803
 
 ***
 
@@ -109,17 +105,17 @@ main.ts:87803
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:97651
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:87832
 
 ***
 
@@ -127,14 +123,14 @@ main.ts:87832
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
 
+Defined in: main.ts:97644
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)
-
-#### Defined in
-
-main.ts:87825

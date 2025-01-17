@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
+Defined in: main.ts:210475
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **categories\_aggregation**: `object`
 
+Defined in: main.ts:210477
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:198026
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -30,10 +30,8 @@ main.ts:198026
 
 > `optional` **search**: `object`
 
+Defined in: main.ts:210476
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:198025
+\[`key`: `string`\]: `string`

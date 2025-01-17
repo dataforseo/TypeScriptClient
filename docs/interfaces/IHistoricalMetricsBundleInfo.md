@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHistoricalMetricsBundleInfo
+[Documentation](../README.md) / IHistoricalMetricsBundleInfo
 
 # Interface: IHistoricalMetricsBundleInfo
 
+Defined in: main.ts:111553
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **featured\_snippet**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
+Defined in: main.ts:111561
+
 traffic data from the local pack results in SERP
-
-#### Defined in
-
-main.ts:101722
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:101722
 
 > `optional` **local\_pack**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
+Defined in: main.ts:111559
+
 traffic data from the featured snippet results in Google SERP
-
-#### Defined in
-
-main.ts:101720
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:101720
 
 > `optional` **organic**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
+Defined in: main.ts:111555
+
 traffic data from organic search
-
-#### Defined in
-
-main.ts:101716
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:101716
 
 > `optional` **paid**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
+Defined in: main.ts:111557
+
 traffic data from paid search
-
-#### Defined in
-
-main.ts:101718

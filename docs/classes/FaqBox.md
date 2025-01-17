@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FaqBox
+[Documentation](../README.md) / FaqBox
 
 # Class: FaqBox
+
+Defined in: main.ts:31295
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new FaqBox**(`data`?): [`FaqBox`](FaqBox.md)
 
+Defined in: main.ts:31304
+
 #### Parameters
 
-• **data?**: [`IFaqBox`](../interfaces/IFaqBox.md)
+##### data?
+
+[`IFaqBox`](../interfaces/IFaqBox.md)
 
 #### Returns
 
 [`FaqBox`](FaqBox.md)
-
-#### Defined in
-
-main.ts:29471
 
 ## Properties
 
@@ -38,15 +40,14 @@ main.ts:29471
 
 > `optional` **items**: [`FaqBoxElement`](FaqBoxElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+Defined in: main.ts:31300
+
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
 [`IFaqBox`](../interfaces/IFaqBox.md).[`items`](../interfaces/IFaqBox.md#items)
-
-#### Defined in
-
-main.ts:29467
 
 ***
 
@@ -54,15 +55,13 @@ main.ts:29467
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:31297
+
 type of element
 
 #### Implementation of
 
 [`IFaqBox`](../interfaces/IFaqBox.md).[`type`](../interfaces/IFaqBox.md#type)
-
-#### Defined in
-
-main.ts:29465
 
 ## Methods
 
@@ -70,17 +69,17 @@ main.ts:29465
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:31313
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:29480
 
 ***
 
@@ -88,17 +87,17 @@ main.ts:29480
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:31335
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:29502
 
 ***
 
@@ -106,14 +105,14 @@ main.ts:29502
 
 > `static` **fromJS**(`data`): [`FaqBox`](FaqBox.md)
 
+Defined in: main.ts:31328
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`FaqBox`](FaqBox.md)
-
-#### Defined in
-
-main.ts:29495

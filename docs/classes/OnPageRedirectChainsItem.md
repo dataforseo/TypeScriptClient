@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRedirectChainsItem
+[Documentation](../README.md) / OnPageRedirectChainsItem
 
 # Class: OnPageRedirectChainsItem
+
+Defined in: main.ts:170052
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageRedirectChainsItem**(`data`?): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
+Defined in: main.ts:170061
+
 #### Parameters
 
-• **data?**: [`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md)
+##### data?
+
+[`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md)
 
 #### Returns
 
 [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
-
-#### Defined in
-
-main.ts:158325
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:158325
 
 > `optional` **chain**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
 
+Defined in: main.ts:170057
+
 contains links that form a chain
 
 #### Implementation of
 
 [`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md).[`chain`](../interfaces/IOnPageRedirectChainsItem.md#chain)
 
-#### Defined in
-
-main.ts:158321
-
 ***
 
 ### is\_redirect\_loop?
 
 > `optional` **is\_redirect\_loop**: `boolean`
+
+Defined in: main.ts:170055
 
 indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL
@@ -61,27 +63,23 @@ if true, the last URL from the chain redirects back to the original URL
 
 [`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md).[`is_redirect_loop`](../interfaces/IOnPageRedirectChainsItem.md#is_redirect_loop)
 
-#### Defined in
-
-main.ts:158319
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:170070
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:158334
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:158334
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:170092
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:158356
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:158356
 
 > `static` **fromJS**(`data`): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
+Defined in: main.ts:170085
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
-
-#### Defined in
-
-main.ts:158349

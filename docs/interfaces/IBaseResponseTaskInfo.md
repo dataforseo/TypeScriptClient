@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseResponseTaskInfo
+[Documentation](../README.md) / IBaseResponseTaskInfo
 
 # Interface: IBaseResponseTaskInfo
+
+Defined in: main.ts:25390
 
 ## Extended by
 
@@ -80,6 +82,14 @@
 - [`ISerpGoogleDatasetInfoTasksFixedTaskInfo`](ISerpGoogleDatasetInfoTasksFixedTaskInfo.md)
 - [`ISerpGoogleDatasetInfoTaskGetAdvancedTaskInfo`](ISerpGoogleDatasetInfoTaskGetAdvancedTaskInfo.md)
 - [`ISerpGoogleDatasetInfoLiveAdvancedTaskInfo`](ISerpGoogleDatasetInfoLiveAdvancedTaskInfo.md)
+- [`ISerpGoogleAdsAdvertisersLocationsTaskInfo`](ISerpGoogleAdsAdvertisersLocationsTaskInfo.md)
+- [`ISerpGoogleAdsAdvertisersTaskPostTaskInfo`](ISerpGoogleAdsAdvertisersTaskPostTaskInfo.md)
+- [`ISerpGoogleAdsAdvertisersTasksReadyTaskInfo`](ISerpGoogleAdsAdvertisersTasksReadyTaskInfo.md)
+- [`ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo`](ISerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo.md)
+- [`ISerpGoogleAdsSearchLocationsTaskInfo`](ISerpGoogleAdsSearchLocationsTaskInfo.md)
+- [`ISerpGoogleAdsSearchTaskPostTaskInfo`](ISerpGoogleAdsSearchTaskPostTaskInfo.md)
+- [`ISerpGoogleAdsSearchTasksReadyTaskInfo`](ISerpGoogleAdsSearchTasksReadyTaskInfo.md)
+- [`ISerpGoogleAdsSearchTaskGetAdvancedTaskInfo`](ISerpGoogleAdsSearchTaskGetAdvancedTaskInfo.md)
 - [`ISerpBingLocationsTaskInfo`](ISerpBingLocationsTaskInfo.md)
 - [`ISerpBingLocationsCountryTaskInfo`](ISerpBingLocationsCountryTaskInfo.md)
 - [`ISerpBingLanguagesTaskInfo`](ISerpBingLanguagesTaskInfo.md)
@@ -267,6 +277,12 @@
 - [`IKeywordsDataBingSearchVolumeTasksReadyTaskInfo`](IKeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
 - [`IKeywordsDataBingSearchVolumeTaskGetTaskInfo`](IKeywordsDataBingSearchVolumeTaskGetTaskInfo.md)
 - [`IKeywordsDataBingSearchVolumeLiveTaskInfo`](IKeywordsDataBingSearchVolumeLiveTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationJobFunctionsTaskInfo`](IKeywordsDataBingAudienceEstimationJobFunctionsTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationIndustriesTaskInfo`](IKeywordsDataBingAudienceEstimationIndustriesTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTaskPostTaskInfo`](IKeywordsDataBingAudienceEstimationTaskPostTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTasksReadyTaskInfo`](IKeywordsDataBingAudienceEstimationTasksReadyTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTaskGetTaskInfo`](IKeywordsDataBingAudienceEstimationTaskGetTaskInfo.md)
+- [`IKeywordsDataBingAudienceEstimationLiveTaskInfo`](IKeywordsDataBingAudienceEstimationLiveTaskInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTaskPostTaskInfo`](IKeywordsDataBingKeywordsForSiteTaskPostTaskInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo`](IKeywordsDataBingKeywordsForSiteTasksReadyTaskInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTaskGetTaskInfo`](IKeywordsDataBingKeywordsForSiteTaskGetTaskInfo.md)
@@ -478,6 +494,9 @@
 - [`IBusinessDataGoogleReviewsTaskPostTaskInfo`](IBusinessDataGoogleReviewsTaskPostTaskInfo.md)
 - [`IBusinessDataGoogleReviewsTasksReadyTaskInfo`](IBusinessDataGoogleReviewsTasksReadyTaskInfo.md)
 - [`IBusinessDataGoogleReviewsTaskGetTaskInfo`](IBusinessDataGoogleReviewsTaskGetTaskInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTaskPostTaskInfo`](IBusinessDataGoogleExtendedReviewsTaskPostTaskInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTasksReadyTaskInfo`](IBusinessDataGoogleExtendedReviewsTasksReadyTaskInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTaskGetTaskInfo`](IBusinessDataGoogleExtendedReviewsTaskGetTaskInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTaskPostTaskInfo`](IBusinessDataGoogleQuestionsAndAnswersTaskPostTaskInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTasksReadyTaskInfo`](IBusinessDataGoogleQuestionsAndAnswersTasksReadyTaskInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo`](IBusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo.md)
@@ -507,7 +526,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -515,11 +534,9 @@
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:25404
+
 total tasks cost, USD
-
-#### Defined in
-
-main.ts:24334
 
 ***
 
@@ -527,15 +544,13 @@ main.ts:24334
 
 > `optional` **data**: `object`
 
+Defined in: main.ts:25410
+
 contains the same parameters that you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
-
-#### Defined in
-
-main.ts:24340
+\[`key`: `string`\]: `any`
 
 ***
 
@@ -543,12 +558,10 @@ main.ts:24340
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:25393
+
 task identifier
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:24323
 
 ***
 
@@ -556,11 +569,9 @@ main.ts:24323
 
 > `optional` **path**: `string`[]
 
+Defined in: main.ts:25408
+
 URL path
-
-#### Defined in
-
-main.ts:24338
 
 ***
 
@@ -568,11 +579,9 @@ main.ts:24338
 
 > `optional` **result\_count**: `number`
 
+Defined in: main.ts:25406
+
 number of elements in the result array
-
-#### Defined in
-
-main.ts:24336
 
 ***
 
@@ -580,13 +589,11 @@ main.ts:24336
 
 > `optional` **status\_code**: `number`
 
+Defined in: main.ts:25397
+
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
 you can find the full list of the response codes here
-
-#### Defined in
-
-main.ts:24327
 
 ***
 
@@ -594,12 +601,10 @@ main.ts:24327
 
 > `optional` **status\_message**: `string`
 
+Defined in: main.ts:25400
+
 informational message of the task
 you can find the full list of general informational messages here
-
-#### Defined in
-
-main.ts:24330
 
 ***
 
@@ -607,8 +612,6 @@ main.ts:24330
 
 > `optional` **time**: `string`
 
+Defined in: main.ts:25402
+
 execution time, seconds
-
-#### Defined in
-
-main.ts:24332

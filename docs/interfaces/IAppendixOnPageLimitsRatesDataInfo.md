@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixOnPageLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixOnPageLimitsRatesDataInfo
 
 # Interface: IAppendixOnPageLimitsRatesDataInfo
 
+Defined in: main.ts:231875
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **content\_parsing**: `number`
 
-#### Defined in
-
-main.ts:216834
+Defined in: main.ts:231894
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:216834
 
 > `optional` **content\_parsing\_live**: `number`
 
-#### Defined in
-
-main.ts:216835
+Defined in: main.ts:231895
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:216835
 
 > `optional` **duplicate\_content**: `number`
 
-#### Defined in
-
-main.ts:216827
+Defined in: main.ts:231887
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:216827
 
 > `optional` **duplicate\_tags**: `number`
 
-#### Defined in
-
-main.ts:216822
+Defined in: main.ts:231882
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:216822
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:216825
+Defined in: main.ts:231885
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:216825
 
 > `optional` **instant\_pages**: `number`
 
-#### Defined in
-
-main.ts:216829
+Defined in: main.ts:231889
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:216829
 
 > `optional` **keyword\_density**: `number`
 
-#### Defined in
-
-main.ts:216832
+Defined in: main.ts:231892
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:216832
 
 > `optional` **lighthouse**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216831
+Defined in: main.ts:231891
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:216831
 
 > `optional` **links**: `number`
 
-#### Defined in
-
-main.ts:216823
+Defined in: main.ts:231883
 
 ***
 
@@ -106,9 +90,7 @@ main.ts:216823
 
 > `optional` **non\_indexable**: `number`
 
-#### Defined in
-
-main.ts:216821
+Defined in: main.ts:231881
 
 ***
 
@@ -116,9 +98,7 @@ main.ts:216821
 
 > `optional` **page\_screenshot**: `number`
 
-#### Defined in
-
-main.ts:216833
+Defined in: main.ts:231893
 
 ***
 
@@ -126,9 +106,7 @@ main.ts:216833
 
 > `optional` **pages**: `number`
 
-#### Defined in
-
-main.ts:216820
+Defined in: main.ts:231880
 
 ***
 
@@ -136,9 +114,7 @@ main.ts:216820
 
 > `optional` **pages\_by\_resource**: `number`
 
-#### Defined in
-
-main.ts:216826
+Defined in: main.ts:231886
 
 ***
 
@@ -146,9 +122,7 @@ main.ts:216826
 
 > `optional` **raw\_html**: `number`
 
-#### Defined in
-
-main.ts:216828
+Defined in: main.ts:231888
 
 ***
 
@@ -156,9 +130,7 @@ main.ts:216828
 
 > `optional` **redirect\_chains**: `number`
 
-#### Defined in
-
-main.ts:216830
+Defined in: main.ts:231890
 
 ***
 
@@ -166,9 +138,7 @@ main.ts:216830
 
 > `optional` **resources**: `number`
 
-#### Defined in
-
-main.ts:216819
+Defined in: main.ts:231879
 
 ***
 
@@ -176,9 +146,7 @@ main.ts:216819
 
 > `optional` **summary**: `number`
 
-#### Defined in
-
-main.ts:216818
+Defined in: main.ts:231878
 
 ***
 
@@ -186,9 +154,7 @@ main.ts:216818
 
 > `optional` **task\_post**: `number`
 
-#### Defined in
-
-main.ts:216816
+Defined in: main.ts:231876
 
 ***
 
@@ -196,9 +162,7 @@ main.ts:216816
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:216817
+Defined in: main.ts:231877
 
 ***
 
@@ -206,6 +170,4 @@ main.ts:216817
 
 > `optional` **waterfall**: `number`
 
-#### Defined in
-
-main.ts:216824
+Defined in: main.ts:231884

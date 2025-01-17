@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
+
+Defined in: main.ts:148576
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo**(`data`?): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
 
+Defined in: main.ts:148586
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
 
-#### Defined in
-
-main.ts:137280
-
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`KeywordsDataClickstreamDataBulkSearchVolumeLiveItem`](KeywordsDataClickstreamDataBulkSearchVolumeLiveItem.md)[]
+> `optional` **items**: [`KeywordsDataClickstreamDataSearchVolumeLiveItem`](KeywordsDataClickstreamDataSearchVolumeLiveItem.md)[]
+
+Defined in: main.ts:148582
 
 contains keywords and related data
 
@@ -44,15 +48,13 @@ contains keywords and related data
 
 [`IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md).[`items`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md#items)
 
-#### Defined in
-
-main.ts:137276
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:148580
 
 the number of results returned in the items array
 
@@ -60,15 +62,13 @@ the number of results returned in the items array
 
 [`IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md).[`items_count`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:137274
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:148578
 
 location code in a POST array
 
@@ -76,27 +76,23 @@ location code in a POST array
 
 [`IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:137272
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:148595
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:137289
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:137289
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:148618
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:137312
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:137312
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
 
+Defined in: main.ts:148611
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:137305

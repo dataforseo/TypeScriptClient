@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpNaverOrganicTaskGetRegularResultInfo
+[Documentation](../README.md) / ISerpNaverOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpNaverOrganicTaskGetRegularResultInfo
 
+Defined in: main.ts:81526
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:81540
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:71806
 
 ***
 
@@ -29,20 +29,20 @@ main.ts:71806
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:81545
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:71811
 
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:81559
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -52,21 +52,15 @@ note that this array contains all types of search results found in the returned 
 however, this endpoint provides data for organic and paid types only
 to get all items (inlcuding SERP features and rich snippets) found in the returned SERP, please refer to the Naver Organiс Advanced SERP endpoint
 
-#### Defined in
-
-main.ts:71822
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
+Defined in: main.ts:81565
+
 items in SERP
-
-#### Defined in
-
-main.ts:71828
 
 ***
 
@@ -74,11 +68,9 @@ main.ts:71828
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:81563
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:71826
 
 ***
 
@@ -86,12 +78,10 @@ main.ts:71826
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:81529
+
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:71795
 
 ***
 
@@ -99,11 +89,9 @@ main.ts:71795
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:81537
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:71803
 
 ***
 
@@ -111,11 +99,20 @@ main.ts:71803
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:81535
+
 location code in a POST array
 
-#### Defined in
+***
 
-main.ts:71801
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+Defined in: main.ts:81551
+
+search refinement chips
+equals null
 
 ***
 
@@ -123,11 +120,9 @@ main.ts:71801
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:81533
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:71799
 
 ***
 
@@ -135,11 +130,9 @@ main.ts:71799
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:81561
+
 total number of results in SERP
-
-#### Defined in
-
-main.ts:71824
 
 ***
 
@@ -147,12 +140,10 @@ main.ts:71824
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
+Defined in: main.ts:81548
+
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
-
-#### Defined in
-
-main.ts:71814
 
 ***
 
@@ -160,8 +151,6 @@ main.ts:71814
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:81531
+
 type of element
-
-#### Defined in
-
-main.ts:71797

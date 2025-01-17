@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
+[Documentation](../README.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveRequestInfo
+
+Defined in: main.ts:229634
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataSocialMediaPinterestLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
+Defined in: main.ts:229651
+
 #### Parameters
 
-• **data?**: [`IBusinessDataSocialMediaPinterestLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataSocialMediaPinterestLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:214607
 
 ## Properties
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:229647
 
 user-defined task identifier
 optional field
@@ -48,15 +52,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataSocialMediaPinterestLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:214603
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:229641
 
 target URLs
 required field
@@ -69,27 +71,23 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 [`IBusinessDataSocialMediaPinterestLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md).[`targets`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md#targets)
 
-#### Defined in
-
-main.ts:214597
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:229660
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:214616
 
 ***
 
@@ -97,17 +95,17 @@ main.ts:214616
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:229682
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:214638
 
 ***
 
@@ -115,14 +113,14 @@ main.ts:214638
 
 > `static` **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
+Defined in: main.ts:229675
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:214631

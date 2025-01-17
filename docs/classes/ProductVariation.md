@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductVariation
+[Documentation](../README.md) / ProductVariation
 
 # Class: ProductVariation
+
+Defined in: main.ts:190528
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ProductVariation**(`data`?): [`ProductVariation`](ProductVariation.md)
 
+Defined in: main.ts:190542
+
 #### Parameters
 
-• **data?**: [`IProductVariation`](../interfaces/IProductVariation.md)
+##### data?
+
+[`IProductVariation`](../interfaces/IProductVariation.md)
 
 #### Returns
 
 [`ProductVariation`](ProductVariation.md)
-
-#### Defined in
-
-main.ts:178700
 
 ## Properties
 
 ### product\_id?
 
 > `optional` **product\_id**: `string`
+
+Defined in: main.ts:190533
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -45,15 +49,13 @@ learn more about the parameter in this help center guide
 
 [`IProductVariation`](../interfaces/IProductVariation.md).[`product_id`](../interfaces/IProductVariation.md#product_id)
 
-#### Defined in
-
-main.ts:178691
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:190535
 
 name of the product seller
 
@@ -61,15 +63,13 @@ name of the product seller
 
 [`IProductVariation`](../interfaces/IProductVariation.md).[`title`](../interfaces/IProductVariation.md#title)
 
-#### Defined in
-
-main.ts:178693
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:190530
 
 type of element
 
@@ -77,15 +77,13 @@ type of element
 
 [`IProductVariation`](../interfaces/IProductVariation.md).[`type`](../interfaces/IProductVariation.md#type)
 
-#### Defined in
-
-main.ts:178688
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:190538
 
 seller url
 url of the webpage on the seller’s website where the product is sold
@@ -94,27 +92,23 @@ url of the webpage on the seller’s website where the product is sold
 
 [`IProductVariation`](../interfaces/IProductVariation.md).[`url`](../interfaces/IProductVariation.md#url)
 
-#### Defined in
-
-main.ts:178696
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:190551
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:178709
 
 ***
 
@@ -122,17 +116,17 @@ main.ts:178709
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:190571
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:178729
 
 ***
 
@@ -140,14 +134,14 @@ main.ts:178729
 
 > `static` **fromJS**(`data`): [`ProductVariation`](ProductVariation.md)
 
+Defined in: main.ts:190564
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ProductVariation`](ProductVariation.md)
-
-#### Defined in
-
-main.ts:178722

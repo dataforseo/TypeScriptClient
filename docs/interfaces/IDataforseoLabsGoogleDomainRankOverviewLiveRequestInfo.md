@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleDomainRankOverviewLiveRequestInfo
 
+Defined in: main.ts:105145
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,20 +18,20 @@
 
 > `optional` **ignore\_synonyms**: `boolean`
 
+Defined in: main.ts:105191
+
 ignore highly similar keywords
 optional field
 if set to true, all highly similar keywords will be excluded from the ranking and traffic calculations, the results will be based on data for main keywords from groups of synonyms
 default value: false
-
-#### Defined in
-
-main.ts:95372
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:105186
 
 language code
 optional field
@@ -40,15 +42,13 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
-
-main.ts:95367
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:105177
 
 full name of the language
 optional field
@@ -59,30 +59,26 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
-
-main.ts:95358
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:105196
+
 the maximum number of returned results for domain
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:95377
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:105168
 
 location code
 optional field
@@ -93,15 +89,13 @@ ignore this field to get the results for all available locations
 example:
 2840
 
-#### Defined in
-
-main.ts:95349
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:105159
 
 full name of the location
 optional field
@@ -112,24 +106,18 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:95340
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:105201
+
 offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items
-
-#### Defined in
-
-main.ts:95382
 
 ***
 
@@ -137,15 +125,13 @@ main.ts:95382
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:105207
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:95388
 
 ***
 
@@ -153,11 +139,9 @@ main.ts:95388
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:105150
+
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
-
-#### Defined in
-
-main.ts:95331

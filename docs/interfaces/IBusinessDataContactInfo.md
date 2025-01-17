@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataContactInfo
+[Documentation](../README.md) / IBusinessDataContactInfo
 
 # Interface: IBusinessDataContactInfo
 
+Defined in: main.ts:211223
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:211231
+
 data source
-
-#### Defined in
-
-main.ts:198780
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:198780
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:211225
+
 type of element
-
-#### Defined in
-
-main.ts:198774
 
 ***
 
@@ -40,10 +38,8 @@ main.ts:198774
 
 > `optional` **value**: `string`
 
+Defined in: main.ts:211229
+
 contact displayed in SERP 
 example:
 "+119797979736"
-
-#### Defined in
-
-main.ts:198778

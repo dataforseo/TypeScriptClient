@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo
+
+Defined in: main.ts:88901
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,21 +22,21 @@
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:25286
+
 total tasks cost, USD
 
 #### Inherited from
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`cost`](IBaseResponseInfo.md#cost)
 
-#### Defined in
-
-main.ts:24216
-
 ***
 
 ### status\_code?
 
 > `optional` **status\_code**: `number`
+
+Defined in: main.ts:25279
 
 general status code
 you can find the full list of the response codes here
@@ -43,15 +45,13 @@ you can find the full list of the response codes here
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`status_code`](IBaseResponseInfo.md#status_code)
 
-#### Defined in
-
-main.ts:24209
-
 ***
 
 ### status\_message?
 
 > `optional` **status\_message**: `string`
+
+Defined in: main.ts:25282
 
 general informational message
 you can find the full list of general informational messages here
@@ -60,21 +60,15 @@ you can find the full list of general informational messages here
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`status_message`](IBaseResponseInfo.md#status_message)
 
-#### Defined in
-
-main.ts:24212
-
 ***
 
 ### tasks?
 
 > `optional` **tasks**: [`DomainAnalyticsTechnologiesDomainTechnologiesLiveTaskInfo`](../classes/DomainAnalyticsTechnologiesDomainTechnologiesLiveTaskInfo.md)[]
 
+Defined in: main.ts:88903
+
 array of tasks
-
-#### Defined in
-
-main.ts:79158
 
 ***
 
@@ -82,15 +76,13 @@ main.ts:79158
 
 > `optional` **tasks\_count**: `number`
 
+Defined in: main.ts:25288
+
 the number of tasks in the tasks array
 
 #### Inherited from
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`tasks_count`](IBaseResponseInfo.md#tasks_count)
-
-#### Defined in
-
-main.ts:24218
 
 ***
 
@@ -98,15 +90,13 @@ main.ts:24218
 
 > `optional` **tasks\_error**: `number`
 
+Defined in: main.ts:25290
+
 the number of tasks in the tasks array returned with an error
 
 #### Inherited from
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`tasks_error`](IBaseResponseInfo.md#tasks_error)
-
-#### Defined in
-
-main.ts:24220
 
 ***
 
@@ -114,15 +104,13 @@ main.ts:24220
 
 > `optional` **time**: `string`
 
+Defined in: main.ts:25284
+
 total execution time, seconds
 
 #### Inherited from
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`time`](IBaseResponseInfo.md#time)
-
-#### Defined in
-
-main.ts:24214
 
 ***
 
@@ -130,12 +118,10 @@ main.ts:24214
 
 > `optional` **version**: `string`
 
+Defined in: main.ts:25276
+
 the current version of the API
 
 #### Inherited from
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`version`](IBaseResponseInfo.md#version)
-
-#### Defined in
-
-main.ts:24206

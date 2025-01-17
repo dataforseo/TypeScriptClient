@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRefineProductsElement
+[Documentation](../README.md) / IRefineProductsElement
 
 # Interface: IRefineProductsElement
 
+Defined in: main.ts:37135
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,10 @@
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:37142
+
 URL of the image
-
-#### Defined in
-
-main.ts:35436
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 ***
 
@@ -28,11 +29,9 @@ main.ts:35436
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:37144
+
 keyword for the related refined search
-
-#### Defined in
-
-main.ts:35438
 
 ***
 
@@ -40,11 +39,9 @@ main.ts:35438
 
 > `optional` **refine\_type**: `string`
 
+Defined in: main.ts:37146
+
 type of search refinement
-
-#### Defined in
-
-main.ts:35440
 
 ***
 
@@ -52,11 +49,9 @@ main.ts:35440
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:37139
+
 title of a given link element
-
-#### Defined in
-
-main.ts:35434
 
 ***
 
@@ -64,11 +59,9 @@ main.ts:35434
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:37137
+
 type of element
-
-#### Defined in
-
-main.ts:35432
 
 ***
 
@@ -76,8 +69,6 @@ main.ts:35432
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:37148
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:35442

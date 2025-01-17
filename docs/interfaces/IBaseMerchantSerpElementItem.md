@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseMerchantSerpElementItem
+[Documentation](../README.md) / IBaseMerchantSerpElementItem
 
 # Interface: IBaseMerchantSerpElementItem
+
+Defined in: main.ts:21801
 
 ## Extended by
 
@@ -23,13 +25,11 @@
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:21813
+
 alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Defined in
-
-main.ts:21130
 
 ***
 
@@ -37,12 +37,10 @@ main.ts:21130
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:21809
+
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
-
-#### Defined in
-
-main.ts:21126
 
 ***
 
@@ -50,12 +48,10 @@ main.ts:21126
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:21806
+
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:21123
 
 ***
 
@@ -63,8 +59,6 @@ main.ts:21123
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21803
+
 type of element
-
-#### Defined in
-
-main.ts:21120

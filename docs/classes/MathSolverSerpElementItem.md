@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MathSolverSerpElementItem
+[Documentation](../README.md) / MathSolverSerpElementItem
 
 # Class: MathSolverSerpElementItem
+
+Defined in: main.ts:36309
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new MathSolverSerpElementItem**(`data`?): [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
 
+Defined in: main.ts:36326
+
 #### Parameters
 
-• **data?**: [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md)
+##### data?
+
+[`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:34615
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21045
+
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:20367
 
 ***
 
@@ -60,16 +60,13 @@ main.ts:20367
 
 > `optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+Defined in: main.ts:36316
+
+contains arrays of specific images
 
 #### Implementation of
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`items`](../interfaces/IMathSolverSerpElementItem.md#items)
-
-#### Defined in
-
-main.ts:34605
 
 ***
 
@@ -77,21 +74,21 @@ main.ts:34605
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
+Defined in: main.ts:36318
+
 link of the element
 
 #### Implementation of
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`links`](../interfaces/IMathSolverSerpElementItem.md#links)
 
-#### Defined in
-
-main.ts:34607
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21041
 
 the alignment of the element in SERP
 can take the following values:
@@ -105,15 +102,13 @@ left, right
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20363
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21037
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -126,15 +121,13 @@ absolute position among all the elements in SERP
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20359
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21034
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -148,15 +141,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20356
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
+
+Defined in: main.ts:36322
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -166,15 +157,13 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`rectangle`](../interfaces/IMathSolverSerpElementItem.md#rectangle)
 
-#### Defined in
-
-main.ts:34611
-
 ***
 
 ### result?
 
 > `optional` **result**: `string`
+
+Defined in: main.ts:36314
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
@@ -183,15 +172,13 @@ solution to the mathematical equation specified in the keyword field when settin
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`result`](../interfaces/IMathSolverSerpElementItem.md#result)
 
-#### Defined in
-
-main.ts:34602
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:36311
 
 title of the row
 
@@ -199,15 +186,13 @@ title of the row
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`title`](../interfaces/IMathSolverSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:34599
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21030
 
 type of element
 
@@ -219,15 +204,13 @@ type of element
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20352
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21043
 
 the XPath of the element
 
@@ -239,19 +222,19 @@ the XPath of the element
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20365
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:36331
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -261,19 +244,19 @@ main.ts:20365
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:34620
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:36361
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -283,19 +266,19 @@ main.ts:34620
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:34650
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`MathSolverSerpElementItem`](MathSolverSerpElementItem.md)
 
+Defined in: main.ts:36354
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -304,7 +287,3 @@ main.ts:34650
 #### Overrides
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:34643

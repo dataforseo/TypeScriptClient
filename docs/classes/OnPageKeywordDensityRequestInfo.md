@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageKeywordDensityRequestInfo
+[Documentation](../README.md) / OnPageKeywordDensityRequestInfo
 
 # Class: OnPageKeywordDensityRequestInfo
+
+Defined in: main.ts:171098
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageKeywordDensityRequestInfo**(`data`?): [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
 
+Defined in: main.ts:171161
+
 #### Parameters
 
-• **data?**: [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md)
+##### data?
+
+[`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md)
 
 #### Returns
 
 [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
-
-#### Defined in
-
-main.ts:159425
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:171137
 
 array of results filtering parameters
 optional field
@@ -59,15 +63,13 @@ The full list of possible filters is available by this link.
 
 [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md).[`filters`](../interfaces/IOnPageKeywordDensityRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:159401
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:171104
 
 ID of the task
 required field
@@ -79,15 +81,13 @@ example:
 
 [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md).[`id`](../interfaces/IOnPageKeywordDensityRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:159368
-
 ***
 
 ### keyword\_length?
 
 > `optional` **keyword\_length**: `number`
+
+Defined in: main.ts:171109
 
 number of words for a keyword
 required field
@@ -98,15 +98,13 @@ possible values:
 
 [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md).[`keyword_length`](../interfaces/IOnPageKeywordDensityRequestInfo.md#keyword_length)
 
-#### Defined in
-
-main.ts:159373
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:171120
 
 the maximum number of returned keywords
 optional field
@@ -117,15 +115,13 @@ maximum value: 1000
 
 [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md).[`limit`](../interfaces/IOnPageKeywordDensityRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:159384
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:171151
 
 results sorting rules
 optional field
@@ -145,15 +141,13 @@ example:
 
 [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md).[`order_by`](../interfaces/IOnPageKeywordDensityRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:159415
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:171157
 
 user-defined task identifier
 optional field
@@ -165,15 +159,13 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md).[`tag`](../interfaces/IOnPageKeywordDensityRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:159421
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:171115
 
 page URL
 optional field
@@ -185,27 +177,23 @@ a page should be specified with absolute URL (including http:// or https://)
 
 [`IOnPageKeywordDensityRequestInfo`](../interfaces/IOnPageKeywordDensityRequestInfo.md).[`url`](../interfaces/IOnPageKeywordDensityRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:159379
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:171170
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:159434
 
 ***
 
@@ -213,17 +201,17 @@ main.ts:159434
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:171201
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:159465
 
 ***
 
@@ -231,14 +219,14 @@ main.ts:159465
 
 > `static` **fromJS**(`data`): [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
 
+Defined in: main.ts:171194
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageKeywordDensityRequestInfo`](OnPageKeywordDensityRequestInfo.md)
-
-#### Defined in
-
-main.ts:159458

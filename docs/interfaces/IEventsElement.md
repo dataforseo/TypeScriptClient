@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IEventsElement
+[Documentation](../README.md) / IEventsElement
 
 # Interface: IEventsElement
 
+Defined in: main.ts:33888
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:33894
+
 text alongside the link title
-
-#### Defined in
-
-main.ts:32088
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:32088
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:33892
+
 title of a given link element
-
-#### Defined in
-
-main.ts:32086
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:32086
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:33890
+
 type of element
-
-#### Defined in
-
-main.ts:32084
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:32084
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:33896
+
 URL
-
-#### Defined in
-
-main.ts:32090

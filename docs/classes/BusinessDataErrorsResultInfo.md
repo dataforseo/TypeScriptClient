@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataErrorsResultInfo
+[Documentation](../README.md) / BusinessDataErrorsResultInfo
 
 # Class: BusinessDataErrorsResultInfo
+
+Defined in: main.ts:209840
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataErrorsResultInfo**(`data`?): [`BusinessDataErrorsResultInfo`](BusinessDataErrorsResultInfo.md)
 
+Defined in: main.ts:209871
+
 #### Parameters
 
-• **data?**: [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md)
+##### data?
+
+[`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md)
 
 #### Returns
 
 [`BusinessDataErrorsResultInfo`](BusinessDataErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:197420
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:209847
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`datetime`](../interfaces/IBusinessDataErrorsResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:197396
-
 ***
 
 ### error\_code?
 
 > `optional` **error\_code**: `number`
+
+Defined in: main.ts:209851
 
 error code
 
@@ -63,15 +65,13 @@ error code
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`error_code`](../interfaces/IBusinessDataErrorsResultInfo.md#error_code)
 
-#### Defined in
-
-main.ts:197400
-
 ***
 
 ### error\_message?
 
 > `optional` **error\_message**: `string`
+
+Defined in: main.ts:209854
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -80,15 +80,13 @@ error message (see full list) or URL that caused an error
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`error_message`](../interfaces/IBusinessDataErrorsResultInfo.md#error_message)
 
-#### Defined in
-
-main.ts:197403
-
 ***
 
 ### function?
 
 > `optional` **function**: `string`
+
+Defined in: main.ts:209849
 
 corresponding API function
 
@@ -96,15 +94,13 @@ corresponding API function
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`function`](../interfaces/IBusinessDataErrorsResultInfo.md#function)
 
-#### Defined in
-
-main.ts:197398
-
 ***
 
 ### http\_code?
 
 > `optional` **http\_code**: `number`
+
+Defined in: main.ts:209861
 
 HTTP status code
 
@@ -112,15 +108,13 @@ HTTP status code
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`http_code`](../interfaces/IBusinessDataErrorsResultInfo.md#http_code)
 
-#### Defined in
-
-main.ts:197410
-
 ***
 
 ### http\_method?
 
 > `optional` **http\_method**: `string`
+
+Defined in: main.ts:209859
 
 HTTP method
 
@@ -128,15 +122,13 @@ HTTP method
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`http_method`](../interfaces/IBusinessDataErrorsResultInfo.md#http_method)
 
-#### Defined in
-
-main.ts:197408
-
 ***
 
 ### http\_response?
 
 > `optional` **http\_response**: `string`
+
+Defined in: main.ts:209867
 
 HTTP response
 server response
@@ -145,15 +137,13 @@ server response
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`http_response`](../interfaces/IBusinessDataErrorsResultInfo.md#http_response)
 
-#### Defined in
-
-main.ts:197416
-
 ***
 
 ### http\_time?
 
 > `optional` **http\_time**: `number`
+
+Defined in: main.ts:209864
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -162,15 +152,13 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`http_time`](../interfaces/IBusinessDataErrorsResultInfo.md#http_time)
 
-#### Defined in
-
-main.ts:197413
-
 ***
 
 ### http\_url?
 
 > `optional` **http\_url**: `string`
+
+Defined in: main.ts:209857
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -179,15 +167,13 @@ URL you used for making an API call or pingback/postback URL
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`http_url`](../interfaces/IBusinessDataErrorsResultInfo.md#http_url)
 
-#### Defined in
-
-main.ts:197406
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:209842
 
 id of the task
 
@@ -195,27 +181,23 @@ id of the task
 
 [`IBusinessDataErrorsResultInfo`](../interfaces/IBusinessDataErrorsResultInfo.md).[`id`](../interfaces/IBusinessDataErrorsResultInfo.md#id)
 
-#### Defined in
-
-main.ts:197391
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:209880
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:197429
 
 ***
 
@@ -223,17 +205,17 @@ main.ts:197429
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:209906
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:197455
 
 ***
 
@@ -241,14 +223,14 @@ main.ts:197455
 
 > `static` **fromJS**(`data`): [`BusinessDataErrorsResultInfo`](BusinessDataErrorsResultInfo.md)
 
+Defined in: main.ts:209899
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataErrorsResultInfo`](BusinessDataErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:197448

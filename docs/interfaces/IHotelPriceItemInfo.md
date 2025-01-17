@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelPriceItemInfo
+[Documentation](../README.md) / IHotelPriceItemInfo
 
 # Interface: IHotelPriceItemInfo
 
+Defined in: main.ts:217180
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **currency**: `string`
 
+Defined in: main.ts:217189
+
 price currency
 USD is applied by default, unless specified in the POST array
-
-#### Defined in
-
-main.ts:203922
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:203922
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:217195
+
 third-party domain
 domain of the third-party website page with pricing information
-
-#### Defined in
-
-main.ts:203928
 
 ***
 
@@ -42,13 +40,11 @@ main.ts:203928
 
 > `optional` **free\_cancellation\_until**: `string`
 
+Defined in: main.ts:217203
+
 date until which free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 equals null if free cancellation is not available for the selected dates
-
-#### Defined in
-
-main.ts:203936
 
 ***
 
@@ -56,13 +52,11 @@ main.ts:203936
 
 > `optional` **is\_paid**: `boolean`
 
+Defined in: main.ts:217199
+
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing
-
-#### Defined in
-
-main.ts:203932
 
 ***
 
@@ -70,11 +64,9 @@ main.ts:203932
 
 > `optional` **offers**: [`HotelInfoPriceOffer`](../classes/HotelInfoPriceOffer.md)[]
 
+Defined in: main.ts:217205
+
 featured price offers
-
-#### Defined in
-
-main.ts:203938
 
 ***
 
@@ -82,11 +74,9 @@ main.ts:203938
 
 > `optional` **price**: `number`
 
+Defined in: main.ts:217186
+
 price per night
-
-#### Defined in
-
-main.ts:203919
 
 ***
 
@@ -94,11 +84,9 @@ main.ts:203919
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:217184
+
 title of the hotel
-
-#### Defined in
-
-main.ts:203917
 
 ***
 
@@ -106,11 +94,9 @@ main.ts:203917
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:217182
+
 type of element
-
-#### Defined in
-
-main.ts:203915
 
 ***
 
@@ -118,9 +104,7 @@ main.ts:203915
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:217192
+
 third-party page url
 URL to the third-party website page with pricing information
-
-#### Defined in
-
-main.ts:203925

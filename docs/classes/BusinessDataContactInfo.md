@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataContactInfo
+[Documentation](../README.md) / BusinessDataContactInfo
 
 # Class: BusinessDataContactInfo
+
+Defined in: main.ts:211170
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataContactInfo**(`data`?): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
+Defined in: main.ts:211182
+
 #### Parameters
 
-• **data?**: [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md)
+##### data?
+
+[`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md)
 
 #### Returns
 
 [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
-
-#### Defined in
-
-main.ts:198731
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:198731
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:211178
+
 data source
 
 #### Implementation of
 
 [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`source`](../interfaces/IBusinessDataContactInfo.md#source)
-
-#### Defined in
-
-main.ts:198727
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:198727
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:211172
+
 type of element
 
 #### Implementation of
 
 [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`type`](../interfaces/IBusinessDataContactInfo.md#type)
 
-#### Defined in
-
-main.ts:198721
-
 ***
 
 ### value?
 
 > `optional` **value**: `string`
+
+Defined in: main.ts:211176
 
 contact displayed in SERP 
 example:
@@ -78,27 +78,23 @@ example:
 
 [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`value`](../interfaces/IBusinessDataContactInfo.md#value)
 
-#### Defined in
-
-main.ts:198725
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:211191
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:198740
 
 ***
 
@@ -106,17 +102,17 @@ main.ts:198740
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:211210
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:198759
 
 ***
 
@@ -124,14 +120,14 @@ main.ts:198759
 
 > `static` **fromJS**(`data`): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
+Defined in: main.ts:211203
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
-
-#### Defined in
-
-main.ts:198752

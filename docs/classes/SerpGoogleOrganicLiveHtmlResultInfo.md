@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleOrganicLiveHtmlResultInfo
+[Documentation](../README.md) / SerpGoogleOrganicLiveHtmlResultInfo
 
 # Class: SerpGoogleOrganicLiveHtmlResultInfo
+
+Defined in: main.ts:40293
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleOrganicLiveHtmlResultInfo**(`data`?): [`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)
 
+Defined in: main.ts:40317
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md)
+##### data?
+
+[`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:38481
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:40309
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md).[`datetime`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:38473
-
 ***
 
 ### items?
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+
+Defined in: main.ts:40313
 
 elements of search results found in SERP
 
@@ -63,15 +65,13 @@ elements of search results found in SERP
 
 [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md).[`items`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md#items)
 
-#### Defined in
-
-main.ts:38477
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:40311
 
 the number of results returned in the items array
 
@@ -79,26 +79,20 @@ the number of results returned in the items array
 
 [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md).[`items_count`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:38475
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:40296
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md).[`keyword`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:38460
 
 ***
 
@@ -106,15 +100,13 @@ main.ts:38460
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:40304
+
 language code in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md).[`language_code`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:38468
 
 ***
 
@@ -122,15 +114,13 @@ main.ts:38468
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:40302
+
 location code in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md).[`location_code`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:38466
 
 ***
 
@@ -138,15 +128,13 @@ main.ts:38466
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:40300
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:38464
 
 ***
 
@@ -154,15 +142,13 @@ main.ts:38464
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:40298
+
 type of element
 
 #### Implementation of
 
 [`ISerpGoogleOrganicLiveHtmlResultInfo`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md).[`type`](../interfaces/ISerpGoogleOrganicLiveHtmlResultInfo.md#type)
-
-#### Defined in
-
-main.ts:38462
 
 ## Methods
 
@@ -170,17 +156,17 @@ main.ts:38462
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:40326
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:38490
 
 ***
 
@@ -188,17 +174,17 @@ main.ts:38490
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:40354
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:38518
 
 ***
 
@@ -206,14 +192,14 @@ main.ts:38518
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)
 
+Defined in: main.ts:40347
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleOrganicLiveHtmlResultInfo`](SerpGoogleOrganicLiveHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:38511

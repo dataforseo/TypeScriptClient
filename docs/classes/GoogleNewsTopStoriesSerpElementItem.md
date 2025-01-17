@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleNewsTopStoriesSerpElementItem
+[Documentation](../README.md) / GoogleNewsTopStoriesSerpElementItem
 
 # Class: GoogleNewsTopStoriesSerpElementItem
+
+Defined in: main.ts:46301
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new GoogleNewsTopStoriesSerpElementItem**(`data`?): [`GoogleNewsTopStoriesSerpElementItem`](GoogleNewsTopStoriesSerpElementItem.md)
 
+Defined in: main.ts:46311
+
 #### Parameters
 
-• **data?**: [`IGoogleNewsTopStoriesSerpElementItem`](../interfaces/IGoogleNewsTopStoriesSerpElementItem.md)
+##### data?
+
+[`IGoogleNewsTopStoriesSerpElementItem`](../interfaces/IGoogleNewsTopStoriesSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`constructor`](BaseGoogleNewsSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:44033
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:46142
+
 #### Inherited from
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`_discriminator`](BaseGoogleNewsSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:43864
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:43864
 
 > `optional` **items**: [`TopStoriesElement`](TopStoriesElement.md)[]
 
-elements of search results found in SERP
+Defined in: main.ts:46307
+
+items of the element
 
 #### Implementation of
 
 [`IGoogleNewsTopStoriesSerpElementItem`](../interfaces/IGoogleNewsTopStoriesSerpElementItem.md).[`items`](../interfaces/IGoogleNewsTopStoriesSerpElementItem.md#items)
-
-#### Defined in
-
-main.ts:44029
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:46305
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,15 +84,13 @@ left
 
 [`IGoogleNewsTopStoriesSerpElementItem`](../interfaces/IGoogleNewsTopStoriesSerpElementItem.md).[`position`](../interfaces/IGoogleNewsTopStoriesSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:44027
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:46132
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -105,15 +103,13 @@ absolute position among all the elements in SERP
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`rank_absolute`](BaseGoogleNewsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:43854
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:46129
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -127,15 +123,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`rank_group`](BaseGoogleNewsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:43851
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
+
+Defined in: main.ts:46140
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -149,17 +143,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`rectangle`](BaseGoogleNewsSerpElementItem.md#rectangle)
 
-#### Defined in
-
-main.ts:43862
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+Defined in: main.ts:46136
+
+title of the element
 
 #### Implementation of
 
@@ -169,15 +161,13 @@ title of the result in SERP
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`title`](BaseGoogleNewsSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:43858
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:46125
 
 type of element
 
@@ -189,15 +179,13 @@ type of element
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`type`](BaseGoogleNewsSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:43847
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:46134
 
 the XPath of the element
 
@@ -209,19 +197,19 @@ the XPath of the element
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`xpath`](BaseGoogleNewsSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:43856
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:46316
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -231,19 +219,19 @@ main.ts:43856
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`init`](BaseGoogleNewsSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:44038
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:46339
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -253,19 +241,19 @@ main.ts:44038
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`toJSON`](BaseGoogleNewsSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:44061
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`GoogleNewsTopStoriesSerpElementItem`](GoogleNewsTopStoriesSerpElementItem.md)
 
+Defined in: main.ts:46332
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -274,7 +262,3 @@ main.ts:44061
 #### Overrides
 
 [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md).[`fromJS`](BaseGoogleNewsSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:44054

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleTrendsMapElementItem
+[Documentation](../README.md) / GoogleTrendsMapElementItem
 
 # Class: GoogleTrendsMapElementItem
+
+Defined in: main.ts:134361
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new GoogleTrendsMapElementItem**(`data`?): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
+Defined in: main.ts:134367
+
 #### Parameters
 
-• **data?**: [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md)
+##### data?
+
+[`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructors)
 
-#### Defined in
-
-main.ts:124017
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22707
+
 #### Inherited from
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`_discriminator`](BaseGoogleTrendsItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21804
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:21804
 
 > `optional` **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
 
+Defined in: main.ts:134363
+
 Google Trends data from the corresponding item
 
 #### Implementation of
 
 [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`data`](../interfaces/IGoogleTrendsMapElementItem.md#data)
 
-#### Defined in
-
-main.ts:124013
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22705
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -87,15 +87,13 @@ the data included in the google_trends_graph element is based on the keywords li
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`keywords`](BaseGoogleTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21802
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22700
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -108,15 +106,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`position`](BaseGoogleTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21797
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:22702
 
 title of the element in Google Trends
 
@@ -128,15 +124,13 @@ title of the element in Google Trends
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`title`](BaseGoogleTrendsItem.md#title)
 
-#### Defined in
-
-main.ts:21799
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22697
 
 type of element
 
@@ -148,19 +142,19 @@ type of element
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`type`](BaseGoogleTrendsItem.md#type)
 
-#### Defined in
-
-main.ts:21794
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:134372
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -170,19 +164,19 @@ main.ts:21794
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`init`](BaseGoogleTrendsItem.md#init)
 
-#### Defined in
-
-main.ts:124022
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:134394
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -192,19 +186,19 @@ main.ts:124022
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`toJSON`](BaseGoogleTrendsItem.md#tojson)
 
-#### Defined in
-
-main.ts:124044
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
+Defined in: main.ts:134387
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -213,7 +207,3 @@ main.ts:124044
 #### Overrides
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`fromJS`](BaseGoogleTrendsItem.md#fromjs)
-
-#### Defined in
-
-main.ts:124037

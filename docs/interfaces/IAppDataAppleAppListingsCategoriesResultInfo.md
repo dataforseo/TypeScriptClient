@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppListingsCategoriesResultInfo
+[Documentation](../README.md) / IAppDataAppleAppListingsCategoriesResultInfo
 
 # Interface: IAppDataAppleAppListingsCategoriesResultInfo
 
+Defined in: main.ts:208755
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:208757
+
 name of the supported app category
-
-#### Defined in
-
-main.ts:196306
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:196306
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:208759
+
 number of app listings that make up the supported app category
-
-#### Defined in
-
-main.ts:196308

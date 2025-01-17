@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordKpiInfo
+[Documentation](../README.md) / KeywordKpiInfo
 
 # Class: KeywordKpiInfo
+
+Defined in: main.ts:144984
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordKpiInfo**(`data`?): [`KeywordKpiInfo`](KeywordKpiInfo.md)
 
+Defined in: main.ts:145022
+
 #### Parameters
 
-• **data?**: [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md)
+##### data?
+
+[`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md)
 
 #### Returns
 
 [`KeywordKpiInfo`](KeywordKpiInfo.md)
-
-#### Defined in
-
-main.ts:133072
 
 ## Properties
 
 ### ad\_position?
 
 > `optional` **ad\_position**: `string`
+
+Defined in: main.ts:145001
 
 represents the position of the relevant ad in SERP
 can take the following values:
@@ -59,15 +63,13 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md).[`ad_position`](../interfaces/IKeywordKpiInfo.md#ad_position)
 
-#### Defined in
-
-main.ts:133051
-
 ***
 
 ### average\_bid?
 
 > `optional` **average\_bid**: `number`
+
+Defined in: main.ts:145018
 
 average bid of the keyword
 
@@ -75,15 +77,13 @@ average bid of the keyword
 
 [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md).[`average_bid`](../interfaces/IKeywordKpiInfo.md#average_bid)
 
-#### Defined in
-
-main.ts:133068
-
 ***
 
 ### average\_cpc?
 
 > `optional` **average\_cpc**: `number`
+
+Defined in: main.ts:145010
 
 average cost per click, USD
 calculated by dividing the cost of all clicks by the number of clicks
@@ -92,15 +92,13 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md).[`average_cpc`](../interfaces/IKeywordKpiInfo.md#average_cpc)
 
-#### Defined in
-
-main.ts:133060
-
 ***
 
 ### clicks?
 
 > `optional` **clicks**: `number`
+
+Defined in: main.ts:145004
 
 ad clicks
 the number of clicks that the keyword and match type generated during the last month
@@ -109,15 +107,13 @@ the number of clicks that the keyword and match type generated during the last m
 
 [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md).[`clicks`](../interfaces/IKeywordKpiInfo.md#clicks)
 
-#### Defined in
-
-main.ts:133054
-
 ***
 
 ### ctr?
 
 > `optional` **ctr**: `number`
+
+Defined in: main.ts:145013
 
 click-through rate as a percentage
 calculated by dividing the number of clicks by the number of impressions and multiplying the result by 100
@@ -126,15 +122,13 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md).[`ctr`](../interfaces/IKeywordKpiInfo.md#ctr)
 
-#### Defined in
-
-main.ts:133063
-
 ***
 
 ### impressions?
 
 > `optional` **impressions**: `number`
+
+Defined in: main.ts:145007
 
 ad impressions
 the number of impressions that the keyword and match type generated during the last month
@@ -143,15 +137,13 @@ the number of impressions that the keyword and match type generated during the l
 
 [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md).[`impressions`](../interfaces/IKeywordKpiInfo.md#impressions)
 
-#### Defined in
-
-main.ts:133057
-
 ***
 
 ### total\_cost?
 
 > `optional` **total\_cost**: `number`
+
+Defined in: main.ts:145016
 
 total cost of an ad, USD
 the cost of using the specified keyword and match type during the last month
@@ -160,27 +152,23 @@ the cost of using the specified keyword and match type during the last month
 
 [`IKeywordKpiInfo`](../interfaces/IKeywordKpiInfo.md).[`total_cost`](../interfaces/IKeywordKpiInfo.md#total_cost)
 
-#### Defined in
-
-main.ts:133066
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:145031
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:133081
 
 ***
 
@@ -188,17 +176,17 @@ main.ts:133081
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:145054
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:133104
 
 ***
 
@@ -206,14 +194,14 @@ main.ts:133104
 
 > `static` **fromJS**(`data`): [`KeywordKpiInfo`](KeywordKpiInfo.md)
 
+Defined in: main.ts:145047
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordKpiInfo`](KeywordKpiInfo.md)
-
-#### Defined in
-
-main.ts:133097

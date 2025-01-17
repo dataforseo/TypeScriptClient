@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeLocationsResultInfo
+[Documentation](../README.md) / ISerpYoutubeLocationsResultInfo
 
 # Interface: ISerpYoutubeLocationsResultInfo
 
+Defined in: main.ts:68991
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:69006
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:60795
 
 ***
 
@@ -28,17 +28,17 @@ main.ts:60795
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:68993
+
 location code
-
-#### Defined in
-
-main.ts:60782
 
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:69004
 
 the code of the superordinate location
 example:
@@ -49,21 +49,15 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
-
-main.ts:60793
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:68995
+
 full name of the location
-
-#### Defined in
-
-main.ts:60784
 
 ***
 
@@ -71,8 +65,6 @@ main.ts:60784
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:69008
+
 location type
-
-#### Defined in
-
-main.ts:60797

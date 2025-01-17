@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskPostRequestInfo
 
+Defined in: main.ts:227820
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:227855
 
 parsing depth
 optional field
@@ -23,26 +27,21 @@ we strongly recommend setting the parsing depth in the multiples of thirty becau
 default value: 30;
 maximum value: 210
 
-#### Defined in
-
-main.ts:212817
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:227828
+
 keyword
 required field
 the keyword you specify should indicate a business category, company name, or a prominent place;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
-
-#### Defined in
-
-main.ts:212790
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -50,15 +49,13 @@ main.ts:212790
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:227840
+
 search engine location code
 required field if you don’t specify location_name
 you can receive the list of available locations with location_code by making a separate request to the https://api.dataforseo.com/v3/business_data/tripadvisor/locations
 example:
 1003854
-
-#### Defined in
-
-main.ts:212802
 
 ***
 
@@ -66,21 +63,21 @@ main.ts:212802
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:227834
+
 full name of search engine location
 required field if you don’t specify location_code
 you can receive the list of available locations with location_name by making a separate request to the https://api.dataforseo.com/v3/business_data/tripadvisor/locations
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:212796
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:227883
 
 notification URL of a completed task
 optional field
@@ -89,18 +86,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:212843
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:227872
 
 return URL for sending task results
 optional field
@@ -109,18 +105,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:212833
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:227848
 
 task priority
 optional field
@@ -130,22 +125,16 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:212810
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:227861
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:212823

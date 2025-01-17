@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostBacklinksLiveRequestInfo
+[Documentation](../README.md) / BacklinksBulkNewLostBacklinksLiveRequestInfo
 
 # Class: BacklinksBulkNewLostBacklinksLiveRequestInfo
+
+Defined in: main.ts:161646
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBulkNewLostBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
+Defined in: main.ts:161688
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:150382
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:161678
 
 starting date of the time range
 optional field
@@ -55,15 +59,13 @@ example:
 
 [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:150372
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:161684
 
 user-defined task identifier
 optional field
@@ -75,15 +77,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:150378
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:161665
 
 domains, subdomains or webpages to get new & lost backlinks for
 required field
@@ -108,27 +108,23 @@ example:
 
 [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#targets)
 
-#### Defined in
-
-main.ts:150359
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:161697
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:150391
 
 ***
 
@@ -136,17 +132,17 @@ main.ts:150391
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:161720
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:150414
 
 ***
 
@@ -154,14 +150,14 @@ main.ts:150414
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
+Defined in: main.ts:161713
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:150407

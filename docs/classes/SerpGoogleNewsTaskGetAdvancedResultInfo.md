@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleNewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleNewsTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleNewsTaskGetAdvancedResultInfo
+
+Defined in: main.ts:46367
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleNewsTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:46406
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:44127
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:46381
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:44103
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:46386
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:44108
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:46396
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -83,26 +83,19 @@ top_stories, news_search
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:44116
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+Defined in: main.ts:46402
+
+elements of search results found in SERP
 
 #### Implementation of
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#items)
-
-#### Defined in
-
-main.ts:44123
 
 ***
 
@@ -110,21 +103,21 @@ main.ts:44123
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:46400
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:44120
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:46370
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -133,15 +126,13 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:44092
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:46378
 
 language code in a POST array
 
@@ -149,15 +140,13 @@ language code in a POST array
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:44100
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:46376
 
 location code in a POST array
 
@@ -165,9 +154,19 @@ location code in a POST array
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+***
 
-main.ts:44098
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:46391
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#refinement_chips)
 
 ***
 
@@ -175,15 +174,13 @@ main.ts:44098
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:46374
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:44096
 
 ***
 
@@ -191,21 +188,21 @@ main.ts:44096
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:46398
+
 total number of results in SERP
 
 #### Implementation of
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:44118
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:46389
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -214,15 +211,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:44111
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:46372
 
 type of element
 
@@ -230,27 +225,23 @@ type of element
 
 [`ISerpGoogleNewsTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleNewsTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:44094
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:46415
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:44136
 
 ***
 
@@ -258,17 +249,17 @@ main.ts:44136
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:46452
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:44172
 
 ***
 
@@ -276,14 +267,14 @@ main.ts:44172
 
 > `static` **fromJS**(`data`): [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:46445
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleNewsTaskGetAdvancedResultInfo`](SerpGoogleNewsTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:44165

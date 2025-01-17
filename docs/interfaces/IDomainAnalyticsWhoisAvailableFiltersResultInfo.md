@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
+[Documentation](../README.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
+Defined in: main.ts:88962
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,10 +18,8 @@
 
 > `optional` **overview**: `object`
 
+Defined in: main.ts:88963
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:79218
+\[`key`: `string`\]: `string`

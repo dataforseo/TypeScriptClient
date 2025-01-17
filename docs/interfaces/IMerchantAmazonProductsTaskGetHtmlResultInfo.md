@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonProductsTaskGetHtmlResultInfo
+[Documentation](../README.md) / IMerchantAmazonProductsTaskGetHtmlResultInfo
 
 # Interface: IMerchantAmazonProductsTaskGetHtmlResultInfo
 
+Defined in: main.ts:193321
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:193337
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:181148
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:181148
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:193341
+
 HTML pages and related data
-
-#### Defined in
-
-main.ts:181152
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:181152
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:193339
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:181150
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:181150
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:193324
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:181135
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:181135
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:193332
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:181143
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:181143
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:193330
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:181141
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:181141
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:193328
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:181139
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:181139
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:193326
+
 type of element
-
-#### Defined in
-
-main.ts:181137

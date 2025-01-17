@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRedirect
+[Documentation](../README.md) / IRedirect
 
 # Interface: IRedirect
 
+Defined in: main.ts:151853
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **status\_code**: `number`
 
+Defined in: main.ts:151857
+
 HTTP status code of the URL
-
-#### Defined in
-
-main.ts:140551
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:140551
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:151855
+
 type of element
-
-#### Defined in
-
-main.ts:140549
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:140549
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:151859
+
 indirect link URL
-
-#### Defined in
-
-main.ts:140553

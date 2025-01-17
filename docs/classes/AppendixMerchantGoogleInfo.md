@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMerchantGoogleInfo
+[Documentation](../README.md) / AppendixMerchantGoogleInfo
 
 # Class: AppendixMerchantGoogleInfo
+
+Defined in: main.ts:231588
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixMerchantGoogleInfo**(`data`?): [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
+Defined in: main.ts:231596
+
 #### Parameters
 
-• **data?**: [`IAppendixMerchantGoogleInfo`](../interfaces/IAppendixMerchantGoogleInfo.md)
+##### data?
+
+[`IAppendixMerchantGoogleInfo`](../interfaces/IAppendixMerchantGoogleInfo.md)
 
 #### Returns
 
 [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
-
-#### Defined in
-
-main.ts:216536
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216536
 
 > `optional` **product\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231592
+
 #### Implementation of
 
 [`IAppendixMerchantGoogleInfo`](../interfaces/IAppendixMerchantGoogleInfo.md).[`product_info`](../interfaces/IAppendixMerchantGoogleInfo.md#product_info)
-
-#### Defined in
-
-main.ts:216532
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216532
 
 > `optional` **product\_spec**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231591
+
 #### Implementation of
 
 [`IAppendixMerchantGoogleInfo`](../interfaces/IAppendixMerchantGoogleInfo.md).[`product_spec`](../interfaces/IAppendixMerchantGoogleInfo.md#product_spec)
-
-#### Defined in
-
-main.ts:216531
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:216531
 
 > `optional` **products**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231589
+
 #### Implementation of
 
 [`IAppendixMerchantGoogleInfo`](../interfaces/IAppendixMerchantGoogleInfo.md).[`products`](../interfaces/IAppendixMerchantGoogleInfo.md#products)
-
-#### Defined in
-
-main.ts:216529
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:216529
 
 > `optional` **sellers**: [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231590
+
 #### Implementation of
 
 [`IAppendixMerchantGoogleInfo`](../interfaces/IAppendixMerchantGoogleInfo.md).[`sellers`](../interfaces/IAppendixMerchantGoogleInfo.md#sellers)
-
-#### Defined in
-
-main.ts:216530
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:216530
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231605
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216545
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:216545
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231625
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216565
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:216565
 
 > `static` **fromJS**(`data`): [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
+Defined in: main.ts:231618
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
-
-#### Defined in
-
-main.ts:216558

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksAvailableFiltersResultInfo
+[Documentation](../README.md) / BacklinksAvailableFiltersResultInfo
 
 # Class: BacklinksAvailableFiltersResultInfo
+
+Defined in: main.ts:149444
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksAvailableFiltersResultInfo**(`data`?): [`BacklinksAvailableFiltersResultInfo`](BacklinksAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:149458
+
 #### Parameters
 
-• **data?**: [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md)
+##### data?
+
+[`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`BacklinksAvailableFiltersResultInfo`](BacklinksAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:138152
 
 ## Properties
 
@@ -38,17 +40,15 @@ main.ts:138152
 
 > `optional` **anchors**: `object`
 
+Defined in: main.ts:149448
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`anchors`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#anchors)
-
-#### Defined in
-
-main.ts:138142
 
 ***
 
@@ -56,17 +56,15 @@ main.ts:138142
 
 > `optional` **backlinks**: `object`
 
+Defined in: main.ts:149446
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`backlinks`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#backlinks)
-
-#### Defined in
-
-main.ts:138140
 
 ***
 
@@ -74,17 +72,15 @@ main.ts:138140
 
 > `optional` **competitors**: `object`
 
+Defined in: main.ts:149454
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`competitors`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#competitors)
-
-#### Defined in
-
-main.ts:138148
 
 ***
 
@@ -92,17 +88,15 @@ main.ts:138148
 
 > `optional` **content\_duplicates**: `object`
 
+Defined in: main.ts:149445
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`content_duplicates`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#content_duplicates)
-
-#### Defined in
-
-main.ts:138139
 
 ***
 
@@ -110,17 +104,15 @@ main.ts:138139
 
 > `optional` **domain\_intersection**: `object`
 
+Defined in: main.ts:149450
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`domain_intersection`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#domain_intersection)
-
-#### Defined in
-
-main.ts:138144
 
 ***
 
@@ -128,17 +120,15 @@ main.ts:138144
 
 > `optional` **domain\_pages**: `object`
 
+Defined in: main.ts:149447
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`domain_pages`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#domain_pages)
-
-#### Defined in
-
-main.ts:138141
 
 ***
 
@@ -146,17 +136,15 @@ main.ts:138141
 
 > `optional` **domain\_pages\_summary**: `object`
 
+Defined in: main.ts:149453
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`domain_pages_summary`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#domain_pages_summary)
-
-#### Defined in
-
-main.ts:138147
 
 ***
 
@@ -164,17 +152,15 @@ main.ts:138147
 
 > `optional` **page\_intersection**: `object`
 
+Defined in: main.ts:149451
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`page_intersection`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#page_intersection)
-
-#### Defined in
-
-main.ts:138145
 
 ***
 
@@ -182,17 +168,15 @@ main.ts:138145
 
 > `optional` **referring\_domains**: `object`
 
+Defined in: main.ts:149449
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`referring_domains`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#referring_domains)
-
-#### Defined in
-
-main.ts:138143
 
 ***
 
@@ -200,17 +184,15 @@ main.ts:138143
 
 > `optional` **referring\_networks**: `object`
 
+Defined in: main.ts:149452
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBacklinksAvailableFiltersResultInfo`](../interfaces/IBacklinksAvailableFiltersResultInfo.md).[`referring_networks`](../interfaces/IBacklinksAvailableFiltersResultInfo.md#referring_networks)
-
-#### Defined in
-
-main.ts:138146
 
 ## Methods
 
@@ -218,17 +200,17 @@ main.ts:138146
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:149467
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:138161
 
 ***
 
@@ -236,17 +218,17 @@ main.ts:138161
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:149553
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:138247
 
 ***
 
@@ -254,14 +236,14 @@ main.ts:138247
 
 > `static` **fromJS**(`data`): [`BacklinksAvailableFiltersResultInfo`](BacklinksAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:149546
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksAvailableFiltersResultInfo`](BacklinksAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:138240

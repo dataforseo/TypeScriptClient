@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo
 
 # Class: KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo
+
+Defined in: main.ts:136234
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)
 
+Defined in: main.ts:136293
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:125938
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:136270
 
 starting date of the time range
 optional field
@@ -51,15 +55,13 @@ example:
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:125915
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:136277
 
 ending date of the time range
 optional field
@@ -72,35 +74,32 @@ example:
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:125922
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:136241
+
 keywords
 required field
 the maximum number of keywords you can specify: 5
 avoid symbols and special characters (e.g., UTF symbols, emojis);
 specifying non-Latin characters, you’ll get data for the countries where they are used
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:125886
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:136259
 
 search engine location code
 optional field
@@ -115,15 +114,13 @@ example:
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:125904
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:136250
 
 full name of search engine location
 optional field
@@ -138,15 +135,13 @@ United Kingdom
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:125895
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:136289
 
 user-defined task identifier
 optional field
@@ -158,15 +153,13 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:125934
-
 ***
 
 ### time\_range?
 
 > `optional` **time\_range**: `string`
+
+Defined in: main.ts:136283
 
 preset time ranges
 optional field
@@ -178,15 +171,13 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md#time_range)
 
-#### Defined in
-
-main.ts:125928
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:136261
 
 type of element
 
@@ -194,27 +185,23 @@ type of element
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md#type)
 
-#### Defined in
-
-main.ts:125906
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:136302
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:125947
 
 ***
 
@@ -222,17 +209,17 @@ main.ts:125947
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:136330
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:125975
 
 ***
 
@@ -240,14 +227,14 @@ main.ts:125975
 
 > `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)
 
+Defined in: main.ts:136323
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:125968

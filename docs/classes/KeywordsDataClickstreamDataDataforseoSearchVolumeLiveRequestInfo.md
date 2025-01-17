@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
+
+Defined in: main.ts:147616
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo**(`data`?): [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
 
+Defined in: main.ts:147666
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
+##### data?
+
+[`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:135703
 
 ## Properties
 
@@ -38,27 +40,28 @@ main.ts:135703
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:147625
+
 target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000
 the keywords will be converted to lowercase format
 Note: certain symbols and characters (e.g., UTF symbols, emojis) are not allowed
-to learn more about which symbols can be used, please refer to this article
+to learn more about which symbols and characters can be used, please refer to this article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:135664
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:147649
 
 search engine language code
 required field if don’t specify language_name
@@ -70,15 +73,13 @@ en
 
 [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:135688
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:147643
 
 full name of search engine language
 required field if don’t specify language_code
@@ -90,15 +91,13 @@ English
 
 [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:135682
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:147637
 
 search engine location code
 required field if you don’t specify location_name
@@ -110,15 +109,13 @@ example:
 
 [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:135676
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:147631
 
 full name of search engine location
 required field if you don’t specify location_code 
@@ -130,15 +127,13 @@ London,England,United Kingdom
 
 [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:135670
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:147662
 
 user-defined task identifier
 optional field
@@ -150,28 +145,24 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:135699
-
 ***
 
 ### use\_clickstream?
 
 > `optional` **use\_clickstream**: `boolean`
 
+Defined in: main.ts:147656
+
 use clickstream data to provide results
 optional field
-if this parameter set to true, you will get search volume rate based on clickstream data
-otherwise, Bing search volume data will be used to calculate search volume
+if set to true, you will get DataForSEO search volume values based on clickstream data;
+if set to false, Bing search volume data will be used to calculate DataForSEO search volume;
+default value: true;
+Note: some locations may not be available for calculating Bing search volume, in this case search volume will be calculated based on clickstream data even if you set this parameter to false
 
 #### Implementation of
 
 [`IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md).[`use_clickstream`](../interfaces/IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md#use_clickstream)
-
-#### Defined in
-
-main.ts:135693
 
 ## Methods
 
@@ -179,17 +170,17 @@ main.ts:135693
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:147675
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:135712
 
 ***
 
@@ -197,17 +188,17 @@ main.ts:135712
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:147702
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:135739
 
 ***
 
@@ -215,14 +206,14 @@ main.ts:135739
 
 > `static` **fromJS**(`data`): [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
 
+Defined in: main.ts:147695
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:135732

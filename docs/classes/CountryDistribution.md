@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CountryDistribution
+[Documentation](../README.md) / CountryDistribution
 
 # Class: CountryDistribution
+
+Defined in: main.ts:148138
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new CountryDistribution**(`data`?): [`CountryDistribution`](CountryDistribution.md)
 
+Defined in: main.ts:148148
+
 #### Parameters
 
-• **data?**: [`ICountryDistribution`](../interfaces/ICountryDistribution.md)
+##### data?
+
+[`ICountryDistribution`](../interfaces/ICountryDistribution.md)
 
 #### Returns
 
 [`CountryDistribution`](CountryDistribution.md)
-
-#### Defined in
-
-main.ts:136102
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:136102
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:148140
+
 country ISO code
 
 #### Implementation of
 
 [`ICountryDistribution`](../interfaces/ICountryDistribution.md).[`country_iso_code`](../interfaces/ICountryDistribution.md#country_iso_code)
-
-#### Defined in
-
-main.ts:136094
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:136094
 
 > `optional` **percentage**: `number`
 
+Defined in: main.ts:148144
+
 percentage of global search volume
 
 #### Implementation of
 
 [`ICountryDistribution`](../interfaces/ICountryDistribution.md).[`percentage`](../interfaces/ICountryDistribution.md#percentage)
-
-#### Defined in
-
-main.ts:136098
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:136098
 
 > `optional` **search\_volume**: `number`
 
+Defined in: main.ts:148142
+
 search volume in a given country
 
 #### Implementation of
 
 [`ICountryDistribution`](../interfaces/ICountryDistribution.md).[`search_volume`](../interfaces/ICountryDistribution.md#search_volume)
-
-#### Defined in
-
-main.ts:136096
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:136096
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:148157
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:136111
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:136111
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:148176
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:136130
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:136130
 
 > `static` **fromJS**(`data`): [`CountryDistribution`](CountryDistribution.md)
 
+Defined in: main.ts:148169
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`CountryDistribution`](CountryDistribution.md)
-
-#### Defined in
-
-main.ts:136123

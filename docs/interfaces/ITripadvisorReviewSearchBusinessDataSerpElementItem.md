@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
+[Documentation](../README.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITripadvisorReviewSearchBusinessDataSerpElementItem
+
+Defined in: main.ts:229327
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,14 +22,12 @@
 
 > `optional` **date\_of\_visit**: `string`
 
+Defined in: main.ts:229339
+
 date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:214295
 
 ***
 
@@ -35,12 +35,10 @@ main.ts:214295
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:229330
+
 the alignment of the review in SERP
 can take the following values: right
-
-#### Defined in
-
-main.ts:214286
 
 ***
 
@@ -48,21 +46,21 @@ main.ts:214286
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:22295
+
 absolute rank among all the elements
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21392
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22293
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -71,21 +69,15 @@ positions of elements with different type values are omitted from the rank_group
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21390
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:229334
+
 the rating score submitted by the reviewer
-
-#### Defined in
-
-main.ts:214290
 
 ***
 
@@ -93,11 +85,9 @@ main.ts:214290
 
 > `optional` **responses**: [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)[]
 
+Defined in: main.ts:229354
+
 contains information about the owner’s response
-
-#### Defined in
-
-main.ts:214310
 
 ***
 
@@ -105,12 +95,10 @@ main.ts:214310
 
 > `optional` **review\_highlights**: [`ReviewHighlights`](../classes/ReviewHighlights.md)[]
 
+Defined in: main.ts:229357
+
 review highlights
 contains highlighted review criteria and assessments
-
-#### Defined in
-
-main.ts:214313
 
 ***
 
@@ -118,11 +106,9 @@ main.ts:214313
 
 > `optional` **review\_images**: [`ImageUrlInfo`](../classes/ImageUrlInfo.md)[]
 
+Defined in: main.ts:229350
+
 contains URLs of the images used in the review
-
-#### Defined in
-
-main.ts:214306
 
 ***
 
@@ -130,11 +116,9 @@ main.ts:214306
 
 > `optional` **review\_text**: `string`
 
+Defined in: main.ts:229348
+
 content of the review
-
-#### Defined in
-
-main.ts:214304
 
 ***
 
@@ -142,14 +126,12 @@ main.ts:214304
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:229344
+
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:214300
 
 ***
 
@@ -157,11 +139,9 @@ main.ts:214300
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:229346
+
 title of the review
-
-#### Defined in
-
-main.ts:214302
 
 ***
 
@@ -169,15 +149,13 @@ main.ts:214302
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22290
+
 type of element
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21387
 
 ***
 
@@ -185,11 +163,9 @@ main.ts:21387
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:229332
+
 URL of the review
-
-#### Defined in
-
-main.ts:214288
 
 ***
 
@@ -197,8 +173,6 @@ main.ts:214288
 
 > `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
 
+Defined in: main.ts:229352
+
 information from the reviewer’s profile
-
-#### Defined in
-
-main.ts:214308

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FeaturedSnippetDataforseoLabsSerpElementItem
+[Documentation](../README.md) / FeaturedSnippetDataforseoLabsSerpElementItem
 
 # Class: FeaturedSnippetDataforseoLabsSerpElementItem
+
+Defined in: main.ts:107191
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new FeaturedSnippetDataforseoLabsSerpElementItem**(`data`?): [`FeaturedSnippetDataforseoLabsSerpElementItem`](FeaturedSnippetDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:107230
+
 #### Parameters
 
-• **data?**: [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md)
+##### data?
+
+[`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:97323
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21425
+
 #### Inherited from
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:20742
 
 ***
 
@@ -60,15 +60,13 @@ main.ts:20742
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
+Defined in: main.ts:107224
+
 backlinks information for the target website
 
 #### Implementation of
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`backlinks_info`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#backlinks_info)
-
-#### Defined in
-
-main.ts:97317
 
 ***
 
@@ -76,15 +74,13 @@ main.ts:97317
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:107199
+
 description of the results element in SERP
 
 #### Implementation of
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`description`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#description)
-
-#### Defined in
-
-main.ts:97292
 
 ***
 
@@ -92,21 +88,21 @@ main.ts:97292
 
 > `optional` **domain**: `string`
 
-website domain
+Defined in: main.ts:107193
+
+domain where a link points
 
 #### Implementation of
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`domain`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#domain)
-
-#### Defined in
-
-main.ts:97286
 
 ***
 
 ### estimated\_paid\_traffic\_cost?
 
 > `optional` **estimated\_paid\_traffic\_cost**: `number`
+
+Defined in: main.ts:107219
 
 estimated cost of monthly search traffic
 represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
@@ -116,15 +112,13 @@ learn more about how the metric is calculated in this help center article
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`estimated_paid_traffic_cost`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
 
-#### Defined in
-
-main.ts:97312
-
 ***
 
 ### etv?
 
 > `optional` **etv**: `number`
+
+Defined in: main.ts:107215
 
 estimated traffic volume
 estimated paid monthly traffic to the domain
@@ -135,15 +129,13 @@ learn more about how the metric is calculated in this help center article
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`etv`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#etv)
 
-#### Defined in
-
-main.ts:97308
-
 ***
 
 ### featured\_title?
 
 > `optional` **featured\_title**: `string`
+
+Defined in: main.ts:107197
 
 the title of the featured snippets source page
 
@@ -151,15 +143,13 @@ the title of the featured snippets source page
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`featured_title`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#featured_title)
 
-#### Defined in
-
-main.ts:97290
-
 ***
 
 ### main\_domain?
 
 > `optional` **main\_domain**: `string`
+
+Defined in: main.ts:107208
 
 primary domain name in SERP
 
@@ -167,15 +157,13 @@ primary domain name in SERP
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`main_domain`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#main_domain)
 
-#### Defined in
-
-main.ts:97301
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21421
 
 the alignment of the element in SERP
 can take the following values:
@@ -189,15 +177,13 @@ left, right
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20738
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21417
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -210,15 +196,13 @@ absolute position among all the elements in SERP
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20734
-
 ***
 
 ### rank\_changes?
 
 > `optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
+
+Defined in: main.ts:107222
 
 changes in rankings
 contains information about the ranking changes of the SERP element since the previous_updated_time
@@ -227,15 +211,13 @@ contains information about the ranking changes of the SERP element since the pre
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`rank_changes`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#rank_changes)
 
-#### Defined in
-
-main.ts:97315
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21414
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -248,15 +230,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20731
-
 ***
 
 ### rank\_info?
 
 > `optional` **rank\_info**: [`RankInfo`](RankInfo.md)
+
+Defined in: main.ts:107226
 
 page and domain rank information
 
@@ -264,15 +244,13 @@ page and domain rank information
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`rank_info`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#rank_info)
 
-#### Defined in
-
-main.ts:97319
-
 ***
 
 ### relative\_url?
 
 > `optional` **relative\_url**: `string`
+
+Defined in: main.ts:107210
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -280,15 +258,13 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`relative_url`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#relative_url)
 
-#### Defined in
-
-main.ts:97303
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:107206
 
 search engine type
 
@@ -296,15 +272,13 @@ search engine type
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#se_type)
 
-#### Defined in
-
-main.ts:97299
-
 ***
 
 ### table?
 
 > `optional` **table**: [`Table`](Table.md)
+
+Defined in: main.ts:107204
 
 results table
 if there are none, equals null
@@ -313,15 +287,13 @@ if there are none, equals null
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`table`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#table)
 
-#### Defined in
-
-main.ts:97297
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:107195
 
 title of the result in SERP
 
@@ -329,15 +301,13 @@ title of the result in SERP
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:97288
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21411
 
 type of element
 
@@ -349,15 +319,13 @@ type of element
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20728
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:107201
 
 relevant URL of the Ad element in SERP
 
@@ -365,15 +333,13 @@ relevant URL of the Ad element in SERP
 
 [`IFeaturedSnippetDataforseoLabsSerpElementItem`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md).[`url`](../interfaces/IFeaturedSnippetDataforseoLabsSerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:97294
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21423
 
 the XPath of the element
 
@@ -385,19 +351,19 @@ the XPath of the element
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20740
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:107235
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -407,19 +373,19 @@ main.ts:20740
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:97328
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:107266
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -429,19 +395,19 @@ main.ts:97328
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:97359
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`FeaturedSnippetDataforseoLabsSerpElementItem`](FeaturedSnippetDataforseoLabsSerpElementItem.md)
 
+Defined in: main.ts:107259
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -450,7 +416,3 @@ main.ts:97359
 #### Overrides
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:97352

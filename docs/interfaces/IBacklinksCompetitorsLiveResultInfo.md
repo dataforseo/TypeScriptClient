@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksCompetitorsLiveResultInfo
+[Documentation](../README.md) / IBacklinksCompetitorsLiveResultInfo
 
 # Interface: IBacklinksCompetitorsLiveResultInfo
 
+Defined in: main.ts:157167
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`BacklinksCompetitorsLiveItem`](../classes/BacklinksCompetitorsLiveItem.md)[]
 
+Defined in: main.ts:157173
+
 items array
-
-#### Defined in
-
-main.ts:145867
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:145867
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:157171
+
 number of items in the items array
-
-#### Defined in
-
-main.ts:145865
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:145865
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:157169
+
 total number of relevant items in the database
-
-#### Defined in
-
-main.ts:145863

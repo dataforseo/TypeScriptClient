@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IResponseDataInfo
+[Documentation](../README.md) / IResponseDataInfo
 
 # Interface: IResponseDataInfo
 
+Defined in: main.ts:203481
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:203483
+
 author of the response
-
-#### Defined in
-
-main.ts:191046
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:191046
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:203488
+
 content of the response
-
-#### Defined in
-
-main.ts:191051
 
 ***
 
@@ -40,14 +38,12 @@ main.ts:191051
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:203493
+
 date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:191056
 
 ***
 
@@ -55,9 +51,7 @@ main.ts:191056
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:203486
+
 title of the response
 in this case, will equal null
-
-#### Defined in
-
-main.ts:191049

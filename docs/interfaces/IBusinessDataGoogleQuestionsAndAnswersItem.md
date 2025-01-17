@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleQuestionsAndAnswersItem
+[Documentation](../README.md) / IBusinessDataGoogleQuestionsAndAnswersItem
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersItem
 
+Defined in: main.ts:224687
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **items**: [`GoogleBusinessAnswerElement`](../classes/GoogleBusinessAnswerElement.md)[]
 
+Defined in: main.ts:224715
+
 array of google business question items with answers
 possible item types: google_business_question_item
-
-#### Defined in
-
-main.ts:209693
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:209693
 
 > `optional` **original\_question\_text**: `string`
 
+Defined in: main.ts:224708
+
 original text of the question
-
-#### Defined in
-
-main.ts:209686
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:209686
 
 > `optional` **profile\_image\_url**: `string`
 
+Defined in: main.ts:224700
+
 URL of the user’s profile image
-
-#### Defined in
-
-main.ts:209678
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:209678
 
 > `optional` **profile\_name**: `string`
 
+Defined in: main.ts:224704
+
 displayed name of the user
-
-#### Defined in
-
-main.ts:209682
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:209682
 
 > `optional` **profile\_url**: `string`
 
+Defined in: main.ts:224702
+
 URL of the user’s profile
-
-#### Defined in
-
-main.ts:209680
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:209680
 
 > `optional` **question\_id**: `string`
 
+Defined in: main.ts:224696
+
 ID of the question
-
-#### Defined in
-
-main.ts:209674
 
 ***
 
@@ -89,11 +79,9 @@ main.ts:209674
 
 > `optional` **question\_text**: `string`
 
+Defined in: main.ts:224706
+
 current text of the question
-
-#### Defined in
-
-main.ts:209684
 
 ***
 
@@ -101,11 +89,9 @@ main.ts:209684
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:224694
+
 absolute rank among all the elements
-
-#### Defined in
-
-main.ts:209672
 
 ***
 
@@ -113,12 +99,10 @@ main.ts:209672
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:224692
+
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:209670
 
 ***
 
@@ -126,11 +110,9 @@ main.ts:209670
 
 > `optional` **time\_ago**: `string`
 
+Defined in: main.ts:224710
+
 estimated time when the question was posted
-
-#### Defined in
-
-main.ts:209688
 
 ***
 
@@ -138,11 +120,9 @@ main.ts:209688
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:224712
+
 exact time when the question was posted
-
-#### Defined in
-
-main.ts:209690
 
 ***
 
@@ -150,11 +130,9 @@ main.ts:209690
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:224689
+
 type of element
-
-#### Defined in
-
-main.ts:209667
 
 ***
 
@@ -162,8 +140,6 @@ main.ts:209667
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:224698
+
 URL of the question
-
-#### Defined in
-
-main.ts:209676

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGooglePageIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveResultInfo
 
+Defined in: main.ts:110495
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,23 +18,19 @@
 
 > `optional` **exclude\_pages**: `string`[]
 
+Defined in: main.ts:110501
+
 URLs you specified in a POST array that will be excluded from the results
-
-#### Defined in
-
-main.ts:100662
 
 ***
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsGooglePageIntersectionLiveItem`](../classes/DataforseoLabsGooglePageIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
+
+Defined in: main.ts:110511
 
 contains keywords, relevant SERP elements and related data
-
-#### Defined in
-
-main.ts:100672
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:100672
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:110509
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:100670
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:100670
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:110505
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:100666
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:100666
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:110503
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:100664
 
 ***
 
@@ -76,15 +68,13 @@ main.ts:100664
 
 > `optional` **pages**: `object`
 
+Defined in: main.ts:110499
+
 URLs you specified a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:100660
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:100660
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:110497
+
 search engine type
-
-#### Defined in
-
-main.ts:100658
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:100658
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:110507
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:100668

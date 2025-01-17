@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsLocationsCountryResultInfo
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsLocationsCountryResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsLocationsCountryResultInfo
 
+Defined in: main.ts:135629
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:135644
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:125292
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:125292
 
 > `optional` **geo\_id**: `string`
 
+Defined in: main.ts:135653
+
 DataForSEO trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
-
-#### Defined in
-
-main.ts:125301
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:125301
 
 > `optional` **geo\_name**: `string`
 
+Defined in: main.ts:135650
+
 DataForSEO trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
-
-#### Defined in
-
-main.ts:125298
 
 ***
 
@@ -54,17 +50,17 @@ main.ts:125298
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:135631
+
 location code
-
-#### Defined in
-
-main.ts:125279
 
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:135642
 
 the code of the superordinate location
 example:
@@ -75,21 +71,15 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
-
-main.ts:125290
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:135633
+
 full name of the location
-
-#### Defined in
-
-main.ts:125281
 
 ***
 
@@ -97,9 +87,7 @@ main.ts:125281
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:135647
+
 location type
 possible values according to Google’s target types
-
-#### Defined in
-
-main.ts:125295

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
+Defined in: main.ts:97674
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **categories**: `number`[]
 
+Defined in: main.ts:97679
+
 product and service categories
 you can download the full list of possible categories
-
-#### Defined in
-
-main.ts:87860
 
 ***
 
@@ -29,15 +29,13 @@ main.ts:87860
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:97681
+
 ranking data relevant to the specified domain or subdomain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:87862
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 ***
 
@@ -45,8 +43,6 @@ main.ts:87862
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:97676
+
 search engine type
-
-#### Defined in
-
-main.ts:87857

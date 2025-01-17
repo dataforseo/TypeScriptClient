@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
+
+Defined in: main.ts:111830
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
+Defined in: main.ts:111894
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:102055
 
 ## Properties
 
@@ -38,26 +40,26 @@ main.ts:102055
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:111837
+
 target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
-each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:101998
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:111884
 
 language code
 required field if don’t specify language_name
@@ -70,15 +72,13 @@ en
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:102045
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:111877
 
 full name of the language
 required field if don’t specify language_code
@@ -91,15 +91,13 @@ English
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:102038
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:111870
 
 location code
 required field if don’t specify location_name
@@ -113,15 +111,13 @@ example:
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:102031
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:111862
 
 full name of the location
 required field if don’t specify location_code
@@ -152,15 +148,13 @@ United States
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:102023
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:111890
 
 user-defined task identifier
 optional field
@@ -172,27 +166,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:102051
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:111903
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:102064
 
 ***
 
@@ -200,17 +190,17 @@ main.ts:102064
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:111929
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:102090
 
 ***
 
@@ -218,14 +208,14 @@ main.ts:102090
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
+Defined in: main.ts:111922
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:102083

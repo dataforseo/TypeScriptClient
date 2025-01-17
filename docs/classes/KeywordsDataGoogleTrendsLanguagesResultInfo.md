@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
 
 # Class: KeywordsDataGoogleTrendsLanguagesResultInfo
+
+Defined in: main.ts:132974
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataGoogleTrendsLanguagesResultInfo**(`data`?): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
+Defined in: main.ts:132982
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:122638
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:122638
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:132978
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:122634
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:122634
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:132976
+
 language name
 
 #### Implementation of
 
 [`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:122632
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:122632
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:132991
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:122647
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:122647
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:133009
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:122665
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:122665
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
+Defined in: main.ts:133002
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:122658

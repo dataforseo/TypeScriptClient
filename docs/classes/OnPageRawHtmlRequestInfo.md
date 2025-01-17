@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRawHtmlRequestInfo
+[Documentation](../README.md) / OnPageRawHtmlRequestInfo
 
 # Class: OnPageRawHtmlRequestInfo
+
+Defined in: main.ts:172132
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageRawHtmlRequestInfo**(`data`?): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
+Defined in: main.ts:172147
+
 #### Parameters
 
-• **data?**: [`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md)
+##### data?
+
+[`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md)
 
 #### Returns
 
 [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
-
-#### Defined in
-
-main.ts:160403
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:172138
 
 ID of the task
 required field
@@ -48,15 +52,13 @@ example:
 
 [`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md).[`id`](../interfaces/IOnPageRawHtmlRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:160394
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:172143
 
 page url
 required field
@@ -67,27 +69,23 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 [`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md).[`url`](../interfaces/IOnPageRawHtmlRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:160399
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:172156
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:160412
 
 ***
 
@@ -95,17 +93,17 @@ main.ts:160412
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:172174
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:160430
 
 ***
 
@@ -113,14 +111,14 @@ main.ts:160430
 
 > `static` **fromJS**(`data`): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
+Defined in: main.ts:172167
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
-
-#### Defined in
-
-main.ts:160423

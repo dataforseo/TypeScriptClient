@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksDomainPagesLiveRequestInfo
+[Documentation](../README.md) / IBacklinksDomainPagesLiveRequestInfo
 
 # Interface: IBacklinksDomainPagesLiveRequestInfo
 
+Defined in: main.ts:153493
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### backlinks\_filters?
 
 > `optional` **backlinks\_filters**: `any`[]
+
+Defined in: main.ts:153568
 
 filter the backlinks of your target
 optional field
@@ -24,15 +28,13 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 "backlinks_filters": ["dofollow", "=", true]
 
-#### Defined in
-
-main.ts:142262
-
 ***
 
 ### backlinks\_status\_type?
 
 > `optional` **backlinks\_status\_type**: `string`
+
+Defined in: main.ts:153529
 
 set what backlinks to return and count
 optional field
@@ -43,15 +45,13 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Defined in
-
-main.ts:142223
-
 ***
 
 ### exclude\_internal\_backlinks?
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
+
+Defined in: main.ts:153579
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -59,15 +59,13 @@ if set to true, the results will not include data on internal backlinks from sub
 if set to false, internal links will be included in the results
 default value: true
 
-#### Defined in
-
-main.ts:142273
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:153546
 
 array of results filtering parameters
 optional field
@@ -86,30 +84,26 @@ example:
 [["title","like","%seo%"],"or",["referring_domains",">","10"]]]
 The full list of possible filters is available here.
 
-#### Defined in
-
-main.ts:142240
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
 
+Defined in: main.ts:153573
+
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
-
-#### Defined in
-
-main.ts:142267
 
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:153520
 
 maximum number of elements within internal arrays
 optional field
@@ -122,24 +116,18 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000
 
-#### Defined in
-
-main.ts:142214
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:153504
+
 the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:142198
 
 ***
 
@@ -147,20 +135,20 @@ main.ts:142198
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:153509
+
 offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages
-
-#### Defined in
-
-main.ts:142203
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:153560
 
 results sorting rules
 optional field
@@ -176,15 +164,13 @@ you should use a comma to separate several sorting rules
 example:
 ["page_summary.backlinks,desc","page_summary.rank,asc"]
 
-#### Defined in
-
-main.ts:142254
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:153585
 
 user-defined task identifier
 optional field
@@ -192,22 +178,16 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:142279
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:153499
+
 domain or subdomain
 required field
 a domain or a subdomain should be specified without https:// and www.
 example:
 forbes.com
-
-#### Defined in
-
-main.ts:142193

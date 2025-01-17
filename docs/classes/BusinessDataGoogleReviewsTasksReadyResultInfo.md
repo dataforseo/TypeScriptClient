@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataGoogleReviewsTasksReadyResultInfo
 
 # Class: BusinessDataGoogleReviewsTasksReadyResultInfo
+
+Defined in: main.ts:221876
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataGoogleReviewsTasksReadyResultInfo**(`data`?): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
+Defined in: main.ts:221894
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:208249
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:208249
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:221886
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:208241
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:208241
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:221890
+
 URL for collecting the results of the task
 
 #### Implementation of
 
 [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
-
-main.ts:208245
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:221879
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -77,15 +77,13 @@ unique task identifier in our system in the UUID format
 
 [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:208234
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:221882
 
 search engine specified when setting the task
 can take the following values: google
@@ -94,15 +92,13 @@ can take the following values: google
 
 [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:208237
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:221884
 
 type of search engine
 
@@ -110,15 +106,13 @@ type of search engine
 
 [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:208239
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:221888
 
 user-defined task identifier
 
@@ -126,27 +120,23 @@ user-defined task identifier
 
 [`IBusinessDataGoogleReviewsTasksReadyResultInfo`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataGoogleReviewsTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:208243
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:221903
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:208258
 
 ***
 
@@ -154,17 +144,17 @@ main.ts:208258
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:221925
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:208280
 
 ***
 
@@ -172,14 +162,14 @@ main.ts:208280
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
 
+Defined in: main.ts:221918
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleReviewsTasksReadyResultInfo`](BusinessDataGoogleReviewsTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:208273

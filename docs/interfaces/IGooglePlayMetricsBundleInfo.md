@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGooglePlayMetricsBundleInfo
+[Documentation](../README.md) / IGooglePlayMetricsBundleInfo
 
 # Interface: IGooglePlayMetricsBundleInfo
 
+Defined in: main.ts:122293
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
+Defined in: main.ts:122295
+
 ranking data from Google Play organic search
-
-#### Defined in
-
-main.ts:112862

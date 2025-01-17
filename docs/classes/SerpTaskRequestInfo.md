@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224637
+=======
+main.ts:224670
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -53,7 +57,11 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224567
+=======
+main.ts:224600
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -76,7 +84,11 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224576
+=======
+main.ts:224609
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -99,7 +111,11 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224558
+=======
+main.ts:224591
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -120,7 +136,11 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224549
+=======
+main.ts:224582
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -143,7 +163,11 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224472
+=======
+main.ts:224505
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -162,7 +186,11 @@ default value: desktop
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224529
+=======
+main.ts:224562
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -182,7 +210,11 @@ Note: this parameter applies only to HTML task results
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224597
+=======
+main.ts:224630
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -202,7 +234,11 @@ default value: true
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224542
+=======
+main.ts:224575
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -225,7 +261,11 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224449
+=======
+main.ts:224482
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -246,7 +286,11 @@ en
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224517
+=======
+main.ts:224550
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -267,7 +311,11 @@ English
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224510
+=======
+main.ts:224543
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -289,7 +337,11 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224591
+=======
+main.ts:224624
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -310,7 +362,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224493
+=======
+main.ts:224526
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -334,7 +390,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224503
+=======
+main.ts:224536
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -355,7 +415,11 @@ London,England,United Kingdom
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224486
+=======
+main.ts:224519
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -376,7 +440,11 @@ learn more at our help center
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224479
+=======
+main.ts:224512
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -397,7 +465,11 @@ default value: android
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224536
+=======
+main.ts:224569
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -418,7 +490,11 @@ possible values: from 1 to 4
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224583
+=======
+main.ts:224616
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -442,7 +518,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224633
+=======
+main.ts:224666
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -462,7 +542,11 @@ regular, advanced, html
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224623
+=======
+main.ts:224656
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -486,7 +570,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224617
+=======
+main.ts:224650
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -508,7 +596,11 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224463
+=======
+main.ts:224496
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -529,7 +621,11 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224524
+=======
+main.ts:224557
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -547,7 +643,11 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224601
+=======
+main.ts:224634
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -567,7 +667,11 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224607
+=======
+main.ts:224640
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -587,7 +691,11 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224455
+=======
+main.ts:224488
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -605,7 +713,11 @@ main.ts:224455
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224646
+=======
+main.ts:224679
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -623,7 +735,11 @@ main.ts:224646
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224688
+=======
+main.ts:224721
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -641,4 +757,8 @@ main.ts:224688
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:224681
+=======
+main.ts:224714
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

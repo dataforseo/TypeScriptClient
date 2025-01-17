@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductSeller
+[Documentation](../README.md) / ProductSeller
 
 # Class: ProductSeller
+
+Defined in: main.ts:190434
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ProductSeller**(`data`?): [`ProductSeller`](ProductSeller.md)
 
+Defined in: main.ts:190456
+
 #### Parameters
 
-• **data?**: [`IProductSeller`](../interfaces/IProductSeller.md)
+##### data?
+
+[`IProductSeller`](../interfaces/IProductSeller.md)
 
 #### Returns
 
 [`ProductSeller`](ProductSeller.md)
-
-#### Defined in
-
-main.ts:178614
 
 ## Properties
 
 ### delivery\_info?
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
+
+Defined in: main.ts:190452
 
 delivery information
 product delivery information
@@ -45,15 +49,13 @@ product delivery information
 
 [`IProductSeller`](../interfaces/IProductSeller.md).[`delivery_info`](../interfaces/IProductSeller.md#delivery_info)
 
-#### Defined in
-
-main.ts:178610
-
 ***
 
 ### price?
 
-> `optional` **price**: [`Price`](Price.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:190449
 
 product price
 product price details on the seller’s website
@@ -62,15 +64,13 @@ product price details on the seller’s website
 
 [`IProductSeller`](../interfaces/IProductSeller.md).[`price`](../interfaces/IProductSeller.md#price)
 
-#### Defined in
-
-main.ts:178607
-
 ***
 
 ### seller\_rating?
 
 > `optional` **seller\_rating**: [`RatingElement`](RatingElement.md)
+
+Defined in: main.ts:190443
 
 rating of the seller
 
@@ -78,15 +78,13 @@ rating of the seller
 
 [`IProductSeller`](../interfaces/IProductSeller.md).[`seller_rating`](../interfaces/IProductSeller.md#seller_rating)
 
-#### Defined in
-
-main.ts:178601
-
 ***
 
 ### seller\_review\_count?
 
 > `optional` **seller\_review\_count**: `number`
+
+Defined in: main.ts:190446
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -95,15 +93,13 @@ number of reviews on the product seller’s account
 
 [`IProductSeller`](../interfaces/IProductSeller.md).[`seller_review_count`](../interfaces/IProductSeller.md#seller_review_count)
 
-#### Defined in
-
-main.ts:178604
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:190438
 
 product title
 
@@ -111,15 +107,13 @@ product title
 
 [`IProductSeller`](../interfaces/IProductSeller.md).[`title`](../interfaces/IProductSeller.md#title)
 
-#### Defined in
-
-main.ts:178596
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:190436
 
 type of element
 
@@ -127,15 +121,13 @@ type of element
 
 [`IProductSeller`](../interfaces/IProductSeller.md).[`type`](../interfaces/IProductSeller.md#type)
 
-#### Defined in
-
-main.ts:178594
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:190441
 
 seller url
 url of the page where the product is sold
@@ -144,27 +136,23 @@ url of the page where the product is sold
 
 [`IProductSeller`](../interfaces/IProductSeller.md).[`url`](../interfaces/IProductSeller.md#url)
 
-#### Defined in
-
-main.ts:178599
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:190465
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:178623
 
 ***
 
@@ -172,17 +160,17 @@ main.ts:178623
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:190488
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:178646
 
 ***
 
@@ -190,14 +178,14 @@ main.ts:178646
 
 > `static` **fromJS**(`data`): [`ProductSeller`](ProductSeller.md)
 
+Defined in: main.ts:190481
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ProductSeller`](ProductSeller.md)
-
-#### Defined in
-
-main.ts:178639

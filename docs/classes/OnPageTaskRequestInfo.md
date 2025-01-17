@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136708
+=======
+main.ts:136741
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -49,7 +53,11 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136473
+=======
+main.ts:136506
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -68,7 +76,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136602
+=======
+main.ts:136635
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -89,7 +101,11 @@ otherwise, the content of allowed_subdomains field will be ignored and the resul
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136609
+=======
+main.ts:136642
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -115,7 +131,11 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136503
+=======
+main.ts:136536
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -136,7 +156,11 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136517
+=======
+main.ts:136550
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -157,7 +181,11 @@ maximum value: 3
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136524
+=======
+main.ts:136557
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -178,7 +206,11 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136510
+=======
+main.ts:136543
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -199,7 +231,11 @@ once the crawl is completed, you can obtain keyword density values with the Keyw
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136639
+=======
+main.ts:136672
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -218,7 +254,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136620
+=======
+main.ts:136653
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -239,7 +279,11 @@ example: "SERP", "minifiers", "JavaScript"
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136632
+=======
+main.ts:136665
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -258,7 +302,11 @@ Note: if no language is specified, it will be set automatically based on page co
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136625
+=======
+main.ts:136658
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -301,7 +349,11 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136664
+=======
+main.ts:136697
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -320,7 +372,11 @@ default value: 2000
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136453
+=======
+main.ts:136486
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -341,7 +397,11 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136543
+=======
+main.ts:136576
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -367,7 +427,11 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136592
+=======
+main.ts:136625
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -385,7 +449,11 @@ example: Disallow: /directory1/
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136477
+=======
+main.ts:136510
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -404,7 +472,11 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136536
+=======
+main.ts:136569
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -425,7 +497,11 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136491
+=======
+main.ts:136524
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -445,7 +521,11 @@ false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136580
+=======
+main.ts:136613
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -464,7 +544,11 @@ specify certain checks to prevent them from running and impacting the onpage_sco
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136678
+=======
+main.ts:136711
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -487,7 +571,11 @@ specify the following checks to prevent them from running on the target website:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136673
+=======
+main.ts:136706
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -507,7 +595,11 @@ Note: to use this parameter, the allow_subdomains parameter should be set to tru
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136615
+=======
+main.ts:136648
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -530,7 +622,11 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136574
+=======
+main.ts:136607
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -549,7 +645,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136463
+=======
+main.ts:136496
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -569,7 +669,11 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136560
+=======
+main.ts:136593
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -588,7 +692,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136554
+=======
+main.ts:136587
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -607,7 +715,11 @@ default value: false;if you use this field, enable_javascript must be set to tru
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136565
+=======
+main.ts:136598
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -626,7 +738,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136431
+=======
+main.ts:136464
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -646,7 +762,11 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136549
+=======
+main.ts:136582
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -665,7 +785,11 @@ for example, starting page of the crawl is level 0, pages that have links from t
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136448
+=======
+main.ts:136481
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -688,7 +812,11 @@ to enable them anyway, set force_sitewide_checks to true
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136420
+=======
+main.ts:136453
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -712,7 +840,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136704
+=======
+main.ts:136737
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -738,7 +870,11 @@ subdomains will be ignored unless the allow_subdomains parameter is set to truee
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136443
+=======
+main.ts:136476
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -759,7 +895,11 @@ the max_crawl_depth field of the request will be ignored, you can specify the nu
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136531
+=======
+main.ts:136564
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -778,7 +918,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136688
+=======
+main.ts:136721
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -799,7 +943,11 @@ Note: if set to override, specify the custom_robots_txt parameter
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136484
+=======
+main.ts:136517
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -819,7 +967,11 @@ you can also use the live Instant Pages endpoint to get page-specific data
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136426
+=======
+main.ts:136459
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -838,7 +990,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136458
+=======
+main.ts:136491
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -857,7 +1013,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136468
+=======
+main.ts:136501
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -876,7 +1036,11 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136683
+=======
+main.ts:136716
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -896,7 +1060,11 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136694
+=======
+main.ts:136727
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -915,7 +1083,11 @@ if you specify the page URL, the results will be returned for the domain include
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136411
+=======
+main.ts:136444
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -934,7 +1106,11 @@ default value: false
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136597
+=======
+main.ts:136630
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -952,7 +1128,11 @@ main.ts:136597
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136717
+=======
+main.ts:136750
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -970,7 +1150,11 @@ main.ts:136717
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136806
+=======
+main.ts:136839
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -988,4 +1172,8 @@ main.ts:136806
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:136799
+=======
+main.ts:136832
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

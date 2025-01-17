@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDayStatisticsMoneyData
+[Documentation](../README.md) / AppendixDayStatisticsMoneyData
 
 # Class: AppendixDayStatisticsMoneyData
+
+Defined in: main.ts:235700
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixDayStatisticsMoneyData**(`data`?): [`AppendixDayStatisticsMoneyData`](AppendixDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235737
+
 #### Parameters
 
-• **data?**: [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md)
+##### data?
+
+[`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md)
 
 #### Returns
 
 [`AppendixDayStatisticsMoneyData`](AppendixDayStatisticsMoneyData.md)
-
-#### Defined in
-
-main.ts:220629
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:220629
 
 > `optional` **app\_data**: [`AppendixAppDataDayStatisticsMoneyData`](AppendixAppDataDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235721
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`app_data`](../interfaces/IAppendixDayStatisticsMoneyData.md#app_data)
-
-#### Defined in
-
-main.ts:220613
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:220613
 
 > `optional` **appendix**: [`AppendixAppendixsRatesDataInfo`](AppendixAppendixsRatesDataInfo.md)
 
+Defined in: main.ts:235707
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`appendix`](../interfaces/IAppendixDayStatisticsMoneyData.md#appendix)
-
-#### Defined in
-
-main.ts:220599
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:220599
 
 > `optional` **backlinks**: [`AppendixBacklinksDayStatisticsRatesData`](AppendixBacklinksDayStatisticsRatesData.md)
 
+Defined in: main.ts:235719
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`backlinks`](../interfaces/IAppendixDayStatisticsMoneyData.md#backlinks)
-
-#### Defined in
-
-main.ts:220611
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:220611
 
 > `optional` **business\_data**: [`AppendixBusinessDataDayStatisticsMoneyData`](AppendixBusinessDataDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235717
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`business_data`](../interfaces/IAppendixDayStatisticsMoneyData.md#business_data)
-
-#### Defined in
-
-main.ts:220609
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:220609
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235723
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`content_analysis`](../interfaces/IAppendixDayStatisticsMoneyData.md#content_analysis)
-
-#### Defined in
-
-main.ts:220615
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:220615
 
 > `optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235725
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`content_generation`](../interfaces/IAppendixDayStatisticsMoneyData.md#content_generation)
-
-#### Defined in
-
-main.ts:220617
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:220617
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsDayStatisticsRatesData`](AppendixDataforseoLabsDayStatisticsRatesData.md)
 
+Defined in: main.ts:235709
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`dataforseo_labs`](../interfaces/IAppendixDayStatisticsMoneyData.md#dataforseo_labs)
-
-#### Defined in
-
-main.ts:220601
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:220601
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235711
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`domain_analytics`](../interfaces/IAppendixDayStatisticsMoneyData.md#domain_analytics)
-
-#### Defined in
-
-main.ts:220603
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:220603
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDataDayStatisticsMoneyData`](AppendixKeywordsDataDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235705
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`keywords_data`](../interfaces/IAppendixDayStatisticsMoneyData.md#keywords_data)
-
-#### Defined in
-
-main.ts:220597
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:220597
 
 > `optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
+Defined in: main.ts:235713
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`merchant`](../interfaces/IAppendixDayStatisticsMoneyData.md#merchant)
-
-#### Defined in
-
-main.ts:220605
 
 ***
 
@@ -178,27 +160,23 @@ main.ts:220605
 
 > `optional` **on\_page**: [`AppendixOnPageDayStatisticsMoneyData`](AppendixOnPageDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235715
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`on_page`](../interfaces/IAppendixDayStatisticsMoneyData.md#on_page)
-
-#### Defined in
-
-main.ts:220607
 
 ***
 
 ### reviews?
 
-> `optional` **reviews**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **reviews**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+Defined in: main.ts:235733
 
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`reviews`](../interfaces/IAppendixDayStatisticsMoneyData.md#reviews)
-
-#### Defined in
-
-main.ts:220625
 
 ***
 
@@ -206,13 +184,11 @@ main.ts:220625
 
 > `optional` **serp**: [`AppendixSerpDayStatisticsMoneyData`](AppendixSerpDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235701
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`serp`](../interfaces/IAppendixDayStatisticsMoneyData.md#serp)
-
-#### Defined in
-
-main.ts:220593
 
 ***
 
@@ -220,15 +196,13 @@ main.ts:220593
 
 > `optional` **total**: `number`
 
+Defined in: main.ts:235703
+
 total amount of money deposited to your account
 
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total`](../interfaces/IAppendixDayStatisticsMoneyData.md#total)
-
-#### Defined in
-
-main.ts:220595
 
 ***
 
@@ -236,13 +210,11 @@ main.ts:220595
 
 > `optional` **total\_app\_data**: `number`
 
+Defined in: main.ts:235722
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_app_data`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_app_data)
-
-#### Defined in
-
-main.ts:220614
 
 ***
 
@@ -250,13 +222,11 @@ main.ts:220614
 
 > `optional` **total\_appendix**: `number`
 
+Defined in: main.ts:235708
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_appendix`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_appendix)
-
-#### Defined in
-
-main.ts:220600
 
 ***
 
@@ -264,13 +234,11 @@ main.ts:220600
 
 > `optional` **total\_backlinks**: `number`
 
+Defined in: main.ts:235720
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_backlinks`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_backlinks)
-
-#### Defined in
-
-main.ts:220612
 
 ***
 
@@ -278,13 +246,11 @@ main.ts:220612
 
 > `optional` **total\_business\_data**: `number`
 
+Defined in: main.ts:235718
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_business_data`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_business_data)
-
-#### Defined in
-
-main.ts:220610
 
 ***
 
@@ -292,13 +258,11 @@ main.ts:220610
 
 > `optional` **total\_content\_analysis**: `number`
 
+Defined in: main.ts:235724
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_content_analysis`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_content_analysis)
-
-#### Defined in
-
-main.ts:220616
 
 ***
 
@@ -306,13 +270,11 @@ main.ts:220616
 
 > `optional` **total\_content\_generation**: `number`
 
+Defined in: main.ts:235726
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_content_generation`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_content_generation)
-
-#### Defined in
-
-main.ts:220618
 
 ***
 
@@ -320,13 +282,11 @@ main.ts:220618
 
 > `optional` **total\_dataforseo\_labs**: `number`
 
+Defined in: main.ts:235710
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_dataforseo_labs`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_dataforseo_labs)
-
-#### Defined in
-
-main.ts:220602
 
 ***
 
@@ -334,13 +294,11 @@ main.ts:220602
 
 > `optional` **total\_domain\_analytics**: `number`
 
+Defined in: main.ts:235712
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_domain_analytics`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_domain_analytics)
-
-#### Defined in
-
-main.ts:220604
 
 ***
 
@@ -348,13 +306,11 @@ main.ts:220604
 
 > `optional` **total\_keywords\_data**: `number`
 
+Defined in: main.ts:235706
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_keywords_data`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_keywords_data)
-
-#### Defined in
-
-main.ts:220598
 
 ***
 
@@ -362,13 +318,11 @@ main.ts:220598
 
 > `optional` **total\_merchant**: `number`
 
+Defined in: main.ts:235714
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_merchant`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_merchant)
-
-#### Defined in
-
-main.ts:220606
 
 ***
 
@@ -376,13 +330,11 @@ main.ts:220606
 
 > `optional` **total\_on\_page**: `number`
 
+Defined in: main.ts:235716
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_on_page`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_on_page)
-
-#### Defined in
-
-main.ts:220608
 
 ***
 
@@ -390,13 +342,11 @@ main.ts:220608
 
 > `optional` **total\_reviews**: `number`
 
+Defined in: main.ts:235732
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_reviews`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_reviews)
-
-#### Defined in
-
-main.ts:220624
 
 ***
 
@@ -404,13 +354,11 @@ main.ts:220624
 
 > `optional` **total\_serp**: `number`
 
+Defined in: main.ts:235704
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_serp`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_serp)
-
-#### Defined in
-
-main.ts:220596
 
 ***
 
@@ -418,19 +366,19 @@ main.ts:220596
 
 > `optional` **total\_traffic\_analytics**: `number`
 
+Defined in: main.ts:235731
+
 #### Implementation of
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`total_traffic_analytics`](../interfaces/IAppendixDayStatisticsMoneyData.md#total_traffic_analytics)
-
-#### Defined in
-
-main.ts:220623
 
 ***
 
 ### value?
 
 > `optional` **value**: `string`
+
+Defined in: main.ts:235730
 
 time period for grouping
 day in the yyyy-MM-dd format
@@ -440,27 +388,23 @@ minute in the yyyy-MM-dd HH:mm format
 
 [`IAppendixDayStatisticsMoneyData`](../interfaces/IAppendixDayStatisticsMoneyData.md).[`value`](../interfaces/IAppendixDayStatisticsMoneyData.md#value)
 
-#### Defined in
-
-main.ts:220622
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:235746
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:220638
 
 ***
 
@@ -468,17 +412,17 @@ main.ts:220638
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:235791
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:220683
 
 ***
 
@@ -486,14 +430,14 @@ main.ts:220683
 
 > `static` **fromJS**(`data`): [`AppendixDayStatisticsMoneyData`](AppendixDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235784
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixDayStatisticsMoneyData`](AppendixDayStatisticsMoneyData.md)
-
-#### Defined in
-
-main.ts:220676

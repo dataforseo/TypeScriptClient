@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpBaiduOrganicTasksFixedResultInfo
+[Documentation](../README.md) / ISerpBaiduOrganicTasksFixedResultInfo
 
 # Interface: ISerpBaiduOrganicTasksFixedResultInfo
 
+Defined in: main.ts:79612
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:79622
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:70171
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:70171
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:79630
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:70179
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:70179
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:79633
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:70182
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:70182
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:79627
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:70176
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:70176
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:79615
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:70164
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:70164
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:79617
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:70166
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:70166
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:79620
+
 type of search engine
 can take the following values: organic
-
-#### Defined in
-
-main.ts:70169
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:70169
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:79624
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:70173

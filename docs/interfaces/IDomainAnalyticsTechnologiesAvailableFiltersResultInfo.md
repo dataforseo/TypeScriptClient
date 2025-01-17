@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAvailableFiltersResultInfo
 
+Defined in: main.ts:85127
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **aggregation\_technologies**: `object`
 
+Defined in: main.ts:85129
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:75392
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -30,13 +30,11 @@ main.ts:75392
 
 > `optional` **domains\_by\_html\_terms**: `object`
 
+Defined in: main.ts:85131
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:75394
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -44,13 +42,11 @@ main.ts:75394
 
 > `optional` **domains\_by\_technology**: `object`
 
+Defined in: main.ts:85128
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:75391
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -58,10 +54,8 @@ main.ts:75391
 
 > `optional` **technologies\_summary**: `object`
 
+Defined in: main.ts:85130
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:75393
+\[`key`: `string`\]: `string`

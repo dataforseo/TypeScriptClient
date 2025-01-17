@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksPageIntersectionLiveRequestInfo
+[Documentation](../README.md) / IBacklinksPageIntersectionLiveRequestInfo
 
 # Interface: IBacklinksPageIntersectionLiveRequestInfo
 
+Defined in: main.ts:158467
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### backlinks\_status\_type?
 
 > `optional` **backlinks\_status\_type**: `string`
+
+Defined in: main.ts:158497
 
 set what backlinks to return and count
 optional field
@@ -25,15 +29,13 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Defined in
-
-main.ts:147191
-
 ***
 
 ### exclude\_internal\_backlinks?
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
+
+Defined in: main.ts:158563
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -41,15 +43,13 @@ if set to true, the results will not include data on internal backlinks from sub
 if set to false, internal links will be included in the result
 default value: true
 
-#### Defined in
-
-main.ts:147257
-
 ***
 
 ### exclude\_targets?
 
 > `optional` **exclude\_targets**: `string`[]
+
+Defined in: main.ts:158488
 
 domains, subdomains or webpages you want to exclude
 optional field
@@ -61,15 +61,13 @@ example:
 "https://www.apple.com/iphone/*",
 "https://dataforseo.com/apis/*"]
 
-#### Defined in
-
-main.ts:147182
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:158514
 
 array of results filtering parameters
 optional field
@@ -88,15 +86,13 @@ example:
 [["1.acnhor","like","%seo%"],"or",["1.text_pre","not_like","%seo%"]]]
 The full list of possible filters is available here.
 
-#### Defined in
-
-main.ts:147208
-
 ***
 
 ### include\_indirect\_links?
 
 > `optional` **include\_indirect\_links**: `boolean`
+
+Defined in: main.ts:158557
 
 indicates if indirect links to the targets will be included in the results
 optional field
@@ -104,30 +100,26 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Defined in
-
-main.ts:147251
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
 
+Defined in: main.ts:158551
+
 indicates if the subdomains of the targets will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
-
-#### Defined in
-
-main.ts:147245
 
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:158546
 
 maximum number of elements within internal arrays
 optional field
@@ -137,15 +129,13 @@ domain_from_platform_type
 default value: 10
 maximum value: 1000
 
-#### Defined in
-
-main.ts:147240
-
 ***
 
 ### intersection\_mode?
 
 > `optional` **intersection\_mode**: `string`
+
+Defined in: main.ts:158571
 
 indicates whether to intersect backlinks
 optional field
@@ -155,24 +145,18 @@ all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all
 
-#### Defined in
-
-main.ts:147265
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:158538
+
 the maximum number of returned backlinks
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:147232
 
 ***
 
@@ -180,20 +164,20 @@ main.ts:147232
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:158533
+
 offset in the results array of the returned backlinks
 optional field
 default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks
-
-#### Defined in
-
-main.ts:147227
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:158528
 
 results sorting rules
 optional field
@@ -209,15 +193,13 @@ you should use a comma to separate several sorting rules
 example:
 ["domain_from_rank,desc","page_from_rank,asc"]
 
-#### Defined in
-
-main.ts:147222
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:158577
 
 user-defined task identifier
 optional field
@@ -225,15 +207,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:147271
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `object`
+
+Defined in: main.ts:158478
 
 domains, subdomains or webpages to get links for
 required field
@@ -248,8 +228,4 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:147172
+\[`key`: `string`\]: `string`

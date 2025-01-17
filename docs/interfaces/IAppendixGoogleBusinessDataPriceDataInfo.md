@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixGoogleBusinessDataPriceDataInfo
+[Documentation](../README.md) / IAppendixGoogleBusinessDataPriceDataInfo
 
 # Interface: IAppendixGoogleBusinessDataPriceDataInfo
 
+Defined in: main.ts:237845
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222618
+Defined in: main.ts:237846
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:222618
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222619
+Defined in: main.ts:237847
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:222619
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222620
+Defined in: main.ts:237848
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:222620
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222621
+Defined in: main.ts:237849

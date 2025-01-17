@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
+[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
+
+Defined in: main.ts:225002
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
 
+Defined in: main.ts:225076
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:210053
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:225066
 
 parsing depth
 optional field
@@ -51,22 +55,20 @@ if the specified depth is higher than the number of results in the response, the
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`depth`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:210043
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:225019
+
 keyword
 required field
 the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”; 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -76,20 +78,19 @@ cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
 spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:209996
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:225057
 
 search engine language code
 required field if you don’t specify language_name
@@ -102,15 +103,13 @@ en
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:210034
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:225050
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -123,15 +122,13 @@ English
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:210027
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:225033
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -144,15 +141,13 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:210010
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:225043
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -168,15 +163,13 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:210020
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:225026
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -189,15 +182,13 @@ London,England,United Kingdom
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:210003
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:225072
 
 user-defined task identifier
 optional field
@@ -209,27 +200,23 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:210049
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:225085
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:210062
 
 ***
 
@@ -237,17 +224,17 @@ main.ts:210062
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:225109
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:210086
 
 ***
 
@@ -255,14 +242,14 @@ main.ts:210086
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
 
+Defined in: main.ts:225102
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:210079

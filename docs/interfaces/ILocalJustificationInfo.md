@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalJustificationInfo
+[Documentation](../README.md) / ILocalJustificationInfo
 
 # Interface: ILocalJustificationInfo
 
+Defined in: main.ts:41610
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:41614
+
 text snippet of local justification
-
-#### Defined in
-
-main.ts:39772
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:39772
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:41612
+
 type of element
-
-#### Defined in
-
-main.ts:39770

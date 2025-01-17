@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DatasetDescription
+[Documentation](../README.md) / DatasetDescription
 
 # Class: DatasetDescription
+
+Defined in: main.ts:57790
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DatasetDescription**(`data`?): [`DatasetDescription`](DatasetDescription.md)
 
+Defined in: main.ts:57798
+
 #### Parameters
 
-• **data?**: [`IDatasetDescription`](../interfaces/IDatasetDescription.md)
+##### data?
+
+[`IDatasetDescription`](../interfaces/IDatasetDescription.md)
 
 #### Returns
 
 [`DatasetDescription`](DatasetDescription.md)
-
-#### Defined in
-
-main.ts:54104
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:54104
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
+Defined in: main.ts:57794
+
 links featured in the ‘dataset_description’
 
 #### Implementation of
 
 [`IDatasetDescription`](../interfaces/IDatasetDescription.md).[`links`](../interfaces/IDatasetDescription.md#links)
-
-#### Defined in
-
-main.ts:54100
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:54100
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:57792
+
 text of the description
 
 #### Implementation of
 
 [`IDatasetDescription`](../interfaces/IDatasetDescription.md).[`text`](../interfaces/IDatasetDescription.md#text)
-
-#### Defined in
-
-main.ts:54098
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:54098
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:57807
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:54113
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:54113
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:57829
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:54135
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:54135
 
 > `static` **fromJS**(`data`): [`DatasetDescription`](DatasetDescription.md)
 
+Defined in: main.ts:57822
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DatasetDescription`](DatasetDescription.md)
-
-#### Defined in
-
-main.ts:54128

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseProductInformationItem
+[Documentation](../README.md) / IBaseProductInformationItem
 
 # Interface: IBaseProductInformationItem
+
+Defined in: main.ts:24307
 
 ## Extended by
 
@@ -18,11 +20,9 @@
 
 > `optional` **section\_name**: `string`
 
+Defined in: main.ts:24311
+
 name of the section related to product information specified in the contents
-
-#### Defined in
-
-main.ts:23408
 
 ***
 
@@ -30,8 +30,6 @@ main.ts:23408
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24309
+
 type of element
-
-#### Defined in
-
-main.ts:23406

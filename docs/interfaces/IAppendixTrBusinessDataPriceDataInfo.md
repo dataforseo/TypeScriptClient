@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixTrBusinessDataPriceDataInfo
+[Documentation](../README.md) / IAppendixTrBusinessDataPriceDataInfo
 
 # Interface: IAppendixTrBusinessDataPriceDataInfo
 
+Defined in: main.ts:238027
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222740
+Defined in: main.ts:238028
 
 ***
 
@@ -26,6 +26,4 @@ main.ts:222740
 
 > `optional` **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222741
+Defined in: main.ts:238029

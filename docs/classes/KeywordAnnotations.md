@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordAnnotations
+[Documentation](../README.md) / KeywordAnnotations
 
 # Class: KeywordAnnotations
+
+Defined in: main.ts:128824
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordAnnotations**(`data`?): [`KeywordAnnotations`](KeywordAnnotations.md)
 
+Defined in: main.ts:128830
+
 #### Parameters
 
-• **data?**: [`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md)
+##### data?
+
+[`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md)
 
 #### Returns
 
 [`KeywordAnnotations`](KeywordAnnotations.md)
-
-#### Defined in
-
-main.ts:118997
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:118997
 
 > `optional` **concepts**: [`ConceptInfo`](ConceptInfo.md)[]
 
+Defined in: main.ts:128826
+
 the list of concepts for the keyword
 
 #### Implementation of
 
 [`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md).[`concepts`](../interfaces/IKeywordAnnotations.md#concepts)
-
-#### Defined in
-
-main.ts:118993
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:118993
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:128839
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:119006
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:119006
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:128860
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:119027
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:119027
 
 > `static` **fromJS**(`data`): [`KeywordAnnotations`](KeywordAnnotations.md)
 
+Defined in: main.ts:128853
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordAnnotations`](KeywordAnnotations.md)
-
-#### Defined in
-
-main.ts:119020

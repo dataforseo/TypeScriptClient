@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksAnchorsLiveResultInfo
+[Documentation](../README.md) / BacklinksAnchorsLiveResultInfo
 
 # Class: BacklinksAnchorsLiveResultInfo
+
+Defined in: main.ts:153130
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksAnchorsLiveResultInfo**(`data`?): [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
 
+Defined in: main.ts:153142
+
 #### Parameters
 
-• **data?**: [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md)
+##### data?
+
+[`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:141836
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:141836
 
 > `optional` **items**: [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)[]
 
+Defined in: main.ts:153138
+
 items array
 
 #### Implementation of
 
 [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md).[`items`](../interfaces/IBacklinksAnchorsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:141832
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:141832
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:153136
+
 number of items in the results array
 
 #### Implementation of
 
 [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksAnchorsLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:141830
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:141830
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:153132
+
 target in the post array
 
 #### Implementation of
 
 [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md).[`target`](../interfaces/IBacklinksAnchorsLiveResultInfo.md#target)
-
-#### Defined in
-
-main.ts:141826
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:141826
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:153134
+
 total number of relevant items in the database
 
 #### Implementation of
 
 [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksAnchorsLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:141828
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:141828
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:153151
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:141845
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:141845
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:153175
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:141869
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:141869
 
 > `static` **fromJS**(`data`): [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
 
+Defined in: main.ts:153168
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:141862

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixTaskGetPriceDataInfo
+[Documentation](../README.md) / AppendixTaskGetPriceDataInfo
 
 # Class: AppendixTaskGetPriceDataInfo
+
+Defined in: main.ts:236810
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixTaskGetPriceDataInfo**(`data`?): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
+Defined in: main.ts:236815
+
 #### Parameters
 
-• **data?**: [`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md)
+##### data?
+
+[`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:221535
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:221535
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236811
+
 #### Implementation of
 
 [`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md).[`advanced`](../interfaces/IAppendixTaskGetPriceDataInfo.md#advanced)
-
-#### Defined in
-
-main.ts:221531
 
 ## Methods
 
@@ -52,17 +52,17 @@ main.ts:221531
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:236824
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:221544
 
 ***
 
@@ -70,17 +70,17 @@ main.ts:221544
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:236841
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:221561
 
 ***
 
@@ -88,14 +88,14 @@ main.ts:221561
 
 > `static` **fromJS**(`data`): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
+Defined in: main.ts:236834
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:221554

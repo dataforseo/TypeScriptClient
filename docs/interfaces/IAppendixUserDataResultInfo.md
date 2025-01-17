@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixUserDataResultInfo
+[Documentation](../README.md) / IAppendixUserDataResultInfo
 
 # Interface: IAppendixUserDataResultInfo
 
+Defined in: main.ts:238970
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **login**: `string`
 
+Defined in: main.ts:238972
+
 your login
-
-#### Defined in
-
-main.ts:223684
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:223684
 
 > `optional` **money**: [`AppendixMoneyData`](../classes/AppendixMoneyData.md)
 
+Defined in: main.ts:238979
+
 section of your spending, USD
-
-#### Defined in
-
-main.ts:223691
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:223691
 
 > `optional` **price**: [`AppendixPriceData`](../classes/AppendixPriceData.md)
 
+Defined in: main.ts:238981
+
 pricing
-
-#### Defined in
-
-main.ts:223693
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:223693
 
 > `optional` **rates**: [`AppendixRatesData`](../classes/AppendixRatesData.md)
 
+Defined in: main.ts:238977
+
 your API rates
-
-#### Defined in
-
-main.ts:223689
 
 ***
 
@@ -64,9 +58,7 @@ main.ts:223689
 
 > `optional` **timezone**: `string`
 
+Defined in: main.ts:238975
+
 your time zone
 can be set in your profile settings
-
-#### Defined in
-
-main.ts:223687

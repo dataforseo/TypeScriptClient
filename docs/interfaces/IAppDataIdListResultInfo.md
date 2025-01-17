@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataIdListResultInfo
+[Documentation](../README.md) / IAppDataIdListResultInfo
 
 # Interface: IAppDataIdListResultInfo
 
+Defined in: main.ts:198077
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:198097
+
 cost of the task, USD
-
-#### Defined in
-
-main.ts:185898
 
 ***
 
@@ -28,14 +28,12 @@ main.ts:185898
 
 > `optional` **datetime\_done**: `string`
 
+Defined in: main.ts:198092
+
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:185893
 
 ***
 
@@ -43,14 +41,12 @@ main.ts:185893
 
 > `optional` **datetime\_posted**: `string`
 
+Defined in: main.ts:198087
+
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:185888
 
 ***
 
@@ -58,11 +54,9 @@ main.ts:185888
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:198079
+
 id of the task
-
-#### Defined in
-
-main.ts:185880
 
 ***
 
@@ -70,15 +64,13 @@ main.ts:185880
 
 > `optional` **metadata**: `object`
 
+Defined in: main.ts:198099
+
 contains parameters you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
-
-#### Defined in
-
-main.ts:185900
+\[`key`: `string`\]: `any`
 
 ***
 
@@ -86,12 +78,10 @@ main.ts:185900
 
 > `optional` **status**: `string`
 
+Defined in: main.ts:198095
+
 informational message of the task
 you can find the full list of general informational messages here
-
-#### Defined in
-
-main.ts:185896
 
 ***
 
@@ -99,9 +89,7 @@ main.ts:185896
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:198082
+
 URL of the task
 URL you used for making an API call
-
-#### Defined in
-
-main.ts:185883

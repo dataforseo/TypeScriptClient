@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / EventDates
+[Documentation](../README.md) / EventDates
 
 # Class: EventDates
+
+Defined in: main.ts:48745
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new EventDates**(`data`?): [`EventDates`](EventDates.md)
 
+Defined in: main.ts:48771
+
 #### Parameters
 
-• **data?**: [`IEventDates`](../interfaces/IEventDates.md)
+##### data?
+
+[`IEventDates`](../interfaces/IEventDates.md)
 
 #### Returns
 
 [`EventDates`](EventDates.md)
-
-#### Defined in
-
-main.ts:45921
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:45921
 
 > `optional` **displayed\_dates**: `string`
 
+Defined in: main.ts:48767
+
 date or date range as it is displayed in SERP
 
 #### Implementation of
 
 [`IEventDates`](../interfaces/IEventDates.md).[`displayed_dates`](../interfaces/IEventDates.md#displayed_dates)
 
-#### Defined in
-
-main.ts:45917
-
 ***
 
 ### end\_datetime?
 
 > `optional` **end\_datetime**: `string`
+
+Defined in: main.ts:48765
 
 date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -68,15 +70,13 @@ example:
 
 [`IEventDates`](../interfaces/IEventDates.md).[`end_datetime`](../interfaces/IEventDates.md#end_datetime)
 
-#### Defined in
-
-main.ts:45915
-
 ***
 
 ### start\_datetime?
 
 > `optional` **start\_datetime**: `string`
+
+Defined in: main.ts:48755
 
 date and time when the event starts
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -92,27 +92,23 @@ example:
 
 [`IEventDates`](../interfaces/IEventDates.md).[`start_datetime`](../interfaces/IEventDates.md#start_datetime)
 
-#### Defined in
-
-main.ts:45905
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:48780
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:45930
 
 ***
 
@@ -120,17 +116,17 @@ main.ts:45930
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:48799
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:45949
 
 ***
 
@@ -138,14 +134,14 @@ main.ts:45949
 
 > `static` **fromJS**(`data`): [`EventDates`](EventDates.md)
 
+Defined in: main.ts:48792
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`EventDates`](EventDates.md)
-
-#### Defined in
-
-main.ts:45942

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleAutocompleteTasksReadyResultInfo
+[Documentation](../README.md) / ISerpGoogleAutocompleteTasksReadyResultInfo
 
 # Interface: ISerpGoogleAutocompleteTasksReadyResultInfo
 
+Defined in: main.ts:55608
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:55618
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:51876
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:51876
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:55626
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:51884
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:51884
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:55629
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:51887
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:51887
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:55623
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:51881
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:51881
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:55611
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:51869
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:51869
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:55613
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:51871
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:51871
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:55616
+
 type of search engine
 example: autocomplete
-
-#### Defined in
-
-main.ts:51874
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:51874
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:55620
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:51878

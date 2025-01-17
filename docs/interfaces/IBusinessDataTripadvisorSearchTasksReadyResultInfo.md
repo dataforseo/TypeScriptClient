@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorSearchTasksReadyResultInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorSearchTasksReadyResultInfo
 
 # Interface: IBusinessDataTripadvisorSearchTasksReadyResultInfo
 
+Defined in: main.ts:228057
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:228067
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:213027
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:213027
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:228071
+
 URL for collecting the results of the task
-
-#### Defined in
-
-main.ts:213031
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:213031
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:228060
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:213020
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:213020
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:228063
+
 search engine specified when setting the task
 can take the following values: tripadvisor
-
-#### Defined in
-
-main.ts:213023
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:213023
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:228065
+
 search engine type
-
-#### Defined in
-
-main.ts:213025
 
 ***
 
@@ -78,8 +70,6 @@ main.ts:213025
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:228069
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:213029

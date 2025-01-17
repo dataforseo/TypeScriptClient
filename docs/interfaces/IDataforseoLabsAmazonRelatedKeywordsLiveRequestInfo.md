@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
+Defined in: main.ts:112417
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:112467
 
 keyword search depth
 optional field
@@ -28,24 +32,18 @@ estimated number of keywords for each level (maximum):
 3 – 258 keywords
 4 – 1554 keywords
 
-#### Defined in
-
-main.ts:102628
-
 ***
 
 ### ignore\_synonyms?
 
 > `optional` **ignore\_synonyms**: `boolean`
 
+Defined in: main.ts:112477
+
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
-
-#### Defined in
-
-main.ts:102638
 
 ***
 
@@ -53,14 +51,12 @@ main.ts:102638
 
 > `optional` **include\_seed\_keyword**: `boolean`
 
+Defined in: main.ts:112472
+
 include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false
-
-#### Defined in
-
-main.ts:102633
 
 ***
 
@@ -68,21 +64,21 @@ main.ts:102633
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:112423
+
 keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords should be specified in the lowercase format
-
-#### Defined in
-
-main.ts:102584
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:112455
 
 language code
 required field if you don’t specify language_name
@@ -91,15 +87,13 @@ you can receive the list of available locations with their language_code by maki
 example:
 en
 
-#### Defined in
-
-main.ts:102616
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:112448
 
 full name of the language
 required field if you don’t specify language_code
@@ -108,30 +102,26 @@ you can receive the list of available locations with their language_name by maki
 example:
 English
 
-#### Defined in
-
-main.ts:102609
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:112482
+
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:102643
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:112441
 
 location code
 required field if you don’t specify location_name
@@ -142,15 +132,13 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Defined in
-
-main.ts:102602
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:112432
 
 full name of the location
 required field if you don’t specify location_code
@@ -161,24 +149,18 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States
 
-#### Defined in
-
-main.ts:102593
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:112487
+
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
-
-#### Defined in
-
-main.ts:102648
 
 ***
 
@@ -186,12 +168,10 @@ main.ts:102648
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:112493
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:102654

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonSellersTaskGetAdvancedResultInfo
 
+Defined in: main.ts:196317
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **asin**: `string`
 
+Defined in: main.ts:196320
+
 asin received in a POST array
 learn more about ASINs in this help center guide
-
-#### Defined in
-
-main.ts:183907
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:183907
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:196331
+
 direct URL to Amazon results
 you can use it to make sure the provided results are accurate
-
-#### Defined in
-
-main.ts:183918
 
 ***
 
@@ -42,14 +40,12 @@ main.ts:183918
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:196336
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:183923
 
 ***
 
@@ -57,12 +53,10 @@ main.ts:183923
 
 > `optional` **image**: `string`
 
+Defined in: main.ts:196342
+
 product image url
 image URL of the product relevant to the asin received in a POST array
-
-#### Defined in
-
-main.ts:183929
 
 ***
 
@@ -70,14 +64,12 @@ main.ts:183929
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:196347
+
 types of search results found in Amazon Sellers SERP
 contains types of all search results (items) found in the returned SERP
 possible item types:
 amazon_seller_main_item, amazon_seller_item
-
-#### Defined in
-
-main.ts:183934
 
 ***
 
@@ -85,11 +77,9 @@ main.ts:183934
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
 
+Defined in: main.ts:196351
+
 items in SERP
-
-#### Defined in
-
-main.ts:183938
 
 ***
 
@@ -97,11 +87,9 @@ main.ts:183938
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:196349
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:183936
 
 ***
 
@@ -109,11 +97,9 @@ main.ts:183936
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:196328
+
 language code received in a POST array
-
-#### Defined in
-
-main.ts:183915
 
 ***
 
@@ -121,11 +107,9 @@ main.ts:183915
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:196326
+
 location code received in a POST array
-
-#### Defined in
-
-main.ts:183913
 
 ***
 
@@ -133,11 +117,9 @@ main.ts:183913
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:196324
+
 search engine domain received in a POST array
-
-#### Defined in
-
-main.ts:183911
 
 ***
 
@@ -145,12 +127,10 @@ main.ts:183911
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:196339
+
 product title
 title of the product relevant to the asin received in a POST array
-
-#### Defined in
-
-main.ts:183926
 
 ***
 
@@ -158,8 +138,6 @@ main.ts:183926
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:196322
+
 type of element
-
-#### Defined in
-
-main.ts:183909

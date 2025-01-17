@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateTagsResultInfo
+[Documentation](../README.md) / OnPageDuplicateTagsResultInfo
 
 # Class: OnPageDuplicateTagsResultInfo
+
+Defined in: main.ts:168652
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageDuplicateTagsResultInfo**(`data`?): [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
 
+Defined in: main.ts:168671
+
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md)
+##### data?
+
+[`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md)
 
 #### Returns
 
 [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
-
-#### Defined in
-
-main.ts:156935
 
 ## Properties
 
 ### crawl\_progress?
 
 > `optional` **crawl\_progress**: `string`
+
+Defined in: main.ts:168655
 
 status of the crawling session
 possible values: in_progress, finished
@@ -45,15 +49,13 @@ possible values: in_progress, finished
 
 [`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md).[`crawl_progress`](../interfaces/IOnPageDuplicateTagsResultInfo.md#crawl_progress)
 
-#### Defined in
-
-main.ts:156919
-
 ***
 
 ### crawl\_status?
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+
+Defined in: main.ts:168657
 
 details of the crawling session
 
@@ -61,15 +63,13 @@ details of the crawling session
 
 [`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md).[`crawl_status`](../interfaces/IOnPageDuplicateTagsResultInfo.md#crawl_status)
 
-#### Defined in
-
-main.ts:156921
-
 ***
 
 ### items?
 
 > `optional` **items**: [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)[]
+
+Defined in: main.ts:168667
 
 items array
 
@@ -77,15 +77,13 @@ items array
 
 [`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md).[`items`](../interfaces/IOnPageDuplicateTagsResultInfo.md#items)
 
-#### Defined in
-
-main.ts:156931
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:168665
 
 number of items in the results array
 
@@ -93,15 +91,13 @@ number of items in the results array
 
 [`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md).[`items_count`](../interfaces/IOnPageDuplicateTagsResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:156929
-
 ***
 
 ### pages\_count?
 
 > `optional` **pages\_count**: `number`
+
+Defined in: main.ts:168663
 
 number of pages with duplicate tags in the response
 displays the number of pages with duplicate tags returned in the response
@@ -110,15 +106,13 @@ displays the number of pages with duplicate tags returned in the response
 
 [`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md).[`pages_count`](../interfaces/IOnPageDuplicateTagsResultInfo.md#pages_count)
 
-#### Defined in
-
-main.ts:156927
-
 ***
 
 ### total\_pages\_count?
 
 > `optional` **total\_pages\_count**: `number`
+
+Defined in: main.ts:168660
 
 total number of pages with duplicate tags
 displays the total number of pages with duplicate tags of the target website
@@ -127,27 +121,23 @@ displays the total number of pages with duplicate tags of the target website
 
 [`IOnPageDuplicateTagsResultInfo`](../interfaces/IOnPageDuplicateTagsResultInfo.md).[`total_pages_count`](../interfaces/IOnPageDuplicateTagsResultInfo.md#total_pages_count)
 
-#### Defined in
-
-main.ts:156924
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:168680
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:156944
 
 ***
 
@@ -155,17 +145,17 @@ main.ts:156944
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:168706
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:156970
 
 ***
 
@@ -173,14 +163,14 @@ main.ts:156970
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
 
+Defined in: main.ts:168699
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageDuplicateTagsResultInfo`](OnPageDuplicateTagsResultInfo.md)
-
-#### Defined in
-
-main.ts:156963

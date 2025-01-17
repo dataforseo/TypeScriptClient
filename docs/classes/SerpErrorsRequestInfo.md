@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpErrorsRequestInfo
+[Documentation](../README.md) / SerpErrorsRequestInfo
 
 # Class: SerpErrorsRequestInfo
+
+Defined in: main.ts:25763
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpErrorsRequestInfo**(`data`?): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
+Defined in: main.ts:25797
+
 #### Parameters
 
-• **data?**: [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md)
+##### data?
+
+[`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md)
 
 #### Returns
 
 [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:24727
 
 ## Properties
 
@@ -38,9 +40,11 @@ main.ts:24727
 
 > `optional` **datetime\_from**: `string`
 
+Defined in: main.ts:25786
+
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -49,19 +53,17 @@ example:
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`datetime_from`](../interfaces/ISerpErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:24716
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
 
+Defined in: main.ts:25793
+
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -70,15 +72,13 @@ example:
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`datetime_to`](../interfaces/ISerpErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:24723
-
 ***
 
 ### filtered\_function?
 
 > `optional` **filtered\_function**: `string`
+
+Defined in: main.ts:25779
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,13 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`filtered_function`](../interfaces/ISerpErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
-
-main.ts:24709
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:25768
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +107,13 @@ maximum value: 1000
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`limit`](../interfaces/ISerpErrorsRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:24698
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:25773
 
 offset in the results array of returned tasks
 optional field
@@ -128,27 +124,23 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`offset`](../interfaces/ISerpErrorsRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:24703
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:25806
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:24736
 
 ***
 
@@ -156,17 +148,17 @@ main.ts:24736
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:25827
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:24757
 
 ***
 
@@ -174,14 +166,14 @@ main.ts:24757
 
 > `static` **fromJS**(`data`): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
+Defined in: main.ts:25820
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:24750

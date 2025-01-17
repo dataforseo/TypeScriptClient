@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalBusinessMenuLink
+[Documentation](../README.md) / ILocalBusinessMenuLink
 
 # Interface: ILocalBusinessMenuLink
+
+Defined in: main.ts:25195
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,12 +22,10 @@
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:25198
+
 title of the element
 domain of the online menu system
-
-#### Defined in
-
-main.ts:24128
 
 ***
 
@@ -33,15 +33,13 @@ main.ts:24128
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24970
+
 type of element
 
 #### Inherited from
 
 [`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md).[`type`](IBaseLocalBusinessLink.md#type)
-
-#### Defined in
-
-main.ts:23900
 
 ***
 
@@ -49,8 +47,6 @@ main.ts:23900
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:25200
+
 URL to view the menu
-
-#### Defined in
-
-main.ts:24130

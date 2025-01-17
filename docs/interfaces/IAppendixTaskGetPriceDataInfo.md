@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixTaskGetPriceDataInfo
+[Documentation](../README.md) / IAppendixTaskGetPriceDataInfo
 
 # Interface: IAppendixTaskGetPriceDataInfo
 
+Defined in: main.ts:236852
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,6 +18,4 @@
 
 > `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:221573
+Defined in: main.ts:236853

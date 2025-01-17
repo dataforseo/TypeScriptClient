@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonRankedSerpElement
+[Documentation](../README.md) / AmazonRankedSerpElement
 
 # Class: AmazonRankedSerpElement
+
+Defined in: main.ts:113228
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AmazonRankedSerpElement**(`data`?): [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
+Defined in: main.ts:113257
+
 #### Parameters
 
-• **data?**: [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md)
+##### data?
+
+[`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md)
 
 #### Returns
 
 [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
-
-#### Defined in
-
-main.ts:103518
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:113236
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`check_url`](../interfaces/IAmazonRankedSerpElement.md#check_url)
 
-#### Defined in
-
-main.ts:103497
-
 ***
 
 ### last\_updated\_time?
 
 > `optional` **last\_updated\_time**: `string`
+
+Defined in: main.ts:113248
 
 date and time when SERP data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`last_updated_time`](../interfaces/IAmazonRankedSerpElement.md#last_updated_time)
 
-#### Defined in
-
-main.ts:103509
-
 ***
 
 ### previous\_updated\_time?
 
 > `optional` **previous\_updated\_time**: `string`
+
+Defined in: main.ts:113253
 
 previous to the most recent update of SERP data
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -83,15 +83,13 @@ example:
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`previous_updated_time`](../interfaces/IAmazonRankedSerpElement.md#previous_updated_time)
 
-#### Defined in
-
-main.ts:103514
-
 ***
 
 ### se\_results\_count?
 
 > `optional` **se\_results\_count**: `number`
+
+Defined in: main.ts:113243
 
 total number of results in Amazon SERP
 
@@ -99,15 +97,13 @@ total number of results in Amazon SERP
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`se_results_count`](../interfaces/IAmazonRankedSerpElement.md#se_results_count)
 
-#### Defined in
-
-main.ts:103504
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:113230
 
 search engine type
 
@@ -115,15 +111,13 @@ search engine type
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`se_type`](../interfaces/IAmazonRankedSerpElement.md#se_type)
 
-#### Defined in
-
-main.ts:103491
-
 ***
 
 ### serp\_item?
 
 > `optional` **serp\_item**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+
+Defined in: main.ts:113233
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -132,15 +126,13 @@ the list of supported SERP elements can be found below
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`serp_item`](../interfaces/IAmazonRankedSerpElement.md#serp_item)
 
-#### Defined in
-
-main.ts:103494
-
 ***
 
 ### serp\_item\_types?
 
 > `optional` **serp\_item\_types**: `string`[]
+
+Defined in: main.ts:113241
 
 direct URL to Amazon results
 contains types of all search results (items) found in the returned SERP;
@@ -151,27 +143,23 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`serp_item_types`](../interfaces/IAmazonRankedSerpElement.md#serp_item_types)
 
-#### Defined in
-
-main.ts:103502
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:113266
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:103527
 
 ***
 
@@ -179,17 +167,17 @@ main.ts:103527
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:113293
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:103554
 
 ***
 
@@ -197,14 +185,14 @@ main.ts:103554
 
 > `static` **fromJS**(`data`): [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
+Defined in: main.ts:113286
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
-
-#### Defined in
-
-main.ts:103547

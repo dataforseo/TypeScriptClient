@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixKeywordsDataPriceDataInfo
+[Documentation](../README.md) / AppendixKeywordsDataPriceDataInfo
 
 # Class: AppendixKeywordsDataPriceDataInfo
+
+Defined in: main.ts:236286
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixKeywordsDataPriceDataInfo**(`data`?): [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236292
+
 #### Parameters
 
-• **data?**: [`IAppendixKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md)
+##### data?
+
+[`IAppendixKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:221028
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:221028
 
 > `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236287
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md).[`task_get`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md#task_get)
-
-#### Defined in
-
-main.ts:221023
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:221023
 
 > `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236288
+
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md).[`task_post`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md#task_post)
-
-#### Defined in
-
-main.ts:221024
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:221024
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:236301
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:221037
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:221037
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:236319
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:221055
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:221055
 
 > `static` **fromJS**(`data`): [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236312
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:221048

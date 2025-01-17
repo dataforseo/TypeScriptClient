@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonRelatedKeywordsLiveItem
+[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveItem
 
+Defined in: main.ts:112562
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **depth**: `number`
 
+Defined in: main.ts:112568
+
 keyword search depth
-
-#### Defined in
-
-main.ts:102829
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:102829
 
 > `optional` **keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
 
+Defined in: main.ts:112566
+
 keyword data for the returned keyword
-
-#### Defined in
-
-main.ts:102827
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:102827
 
 > `optional` **related\_keywords**: `string`[]
 
+Defined in: main.ts:112571
+
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
-
-#### Defined in
-
-main.ts:102832
 
 ***
 
@@ -53,8 +49,6 @@ main.ts:102832
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:112564
+
 search engine type
-
-#### Defined in
-
-main.ts:102825

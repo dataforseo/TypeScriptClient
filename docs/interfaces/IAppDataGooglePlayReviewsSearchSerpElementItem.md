@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
+[Documentation](../README.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
+
+Defined in: main.ts:203576
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,12 +22,10 @@
 
 > `optional` **helpful\_count**: `number`
 
+Defined in: main.ts:203589
+
 number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon
-
-#### Defined in
-
-main.ts:191152
 
 ***
 
@@ -33,17 +33,17 @@ main.ts:191152
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:203586
+
 id of the review
-
-#### Defined in
-
-main.ts:191149
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:22971
 
 the alignment of the element in SERP
 can take the following values:
@@ -53,15 +53,13 @@ left, right
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:22068
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:22967
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -70,15 +68,13 @@ absolute position among all the elements in SERP
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:22064
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22964
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -87,15 +83,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:22061
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+
+Defined in: main.ts:22975
 
 average rating of the app
 
@@ -103,21 +97,15 @@ average rating of the app
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:22072
-
 ***
 
 ### responses?
 
 > `optional` **responses**: [`ResponseDataInfo`](../classes/ResponseDataInfo.md)[]
 
+Defined in: main.ts:203595
+
 response from the developer
-
-#### Defined in
-
-main.ts:191158
 
 ***
 
@@ -125,11 +113,9 @@ main.ts:191158
 
 > `optional` **review\_text**: `string`
 
+Defined in: main.ts:203591
+
 content of the review
-
-#### Defined in
-
-main.ts:191154
 
 ***
 
@@ -137,14 +123,12 @@ main.ts:191154
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:203584
+
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:191147
 
 ***
 
@@ -152,15 +136,13 @@ main.ts:191147
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:22973
+
 title of the app
 
 #### Inherited from
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
-
-#### Defined in
-
-main.ts:22070
 
 ***
 
@@ -168,15 +150,13 @@ main.ts:22070
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22961
+
 type of element
 
 #### Inherited from
 
 [`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:22058
 
 ***
 
@@ -184,11 +164,9 @@ main.ts:22058
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
 
+Defined in: main.ts:203593
+
 user profile of the reviewer
-
-#### Defined in
-
-main.ts:191156
 
 ***
 
@@ -196,9 +174,7 @@ main.ts:191156
 
 > `optional` **version**: `string`
 
+Defined in: main.ts:203579
+
 version of the app
 version of the app for which the review is submitted
-
-#### Defined in
-
-main.ts:191142

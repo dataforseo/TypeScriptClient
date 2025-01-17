@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedRequestInfo
+
+Defined in: main.ts:58358
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleDatasetSearchLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:58426
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:54725
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:58396
 
 parsing depth
 optional field
@@ -51,15 +55,13 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:54695
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:58382
 
 device type
 optional field
@@ -69,15 +71,13 @@ possible value: desktop
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:54681
-
 ***
 
 ### file\_formats?
 
 > `optional` **file\_formats**: `string`[]
+
+Defined in: main.ts:58404
 
 file formats of the dataset
 optional field
@@ -87,15 +87,13 @@ possible values: other, archive, text, image, document, tabular
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`file_formats`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#file_formats)
 
-#### Defined in
-
-main.ts:54703
-
 ***
 
 ### is\_free?
 
 > `optional` **is\_free**: `boolean`
+
+Defined in: main.ts:58412
 
 indicates whether displayed datasets are free
 optional field
@@ -105,36 +103,33 @@ possible values: true, false
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`is_free`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#is_free)
 
-#### Defined in
-
-main.ts:54711
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:58366
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:54665
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:58378
 
 search engine language code
 optional field if you don’t specify language_name
@@ -146,15 +141,13 @@ en
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:54677
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:58372
 
 full name of search engine language
 optional field
@@ -166,15 +159,13 @@ English
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:54671
-
 ***
 
 ### last\_updated?
 
 > `optional` **last\_updated**: `string`
+
+Defined in: main.ts:58400
 
 last time the dataset was updated
 optional field
@@ -184,15 +175,13 @@ possible values: 1m, 1y, 3y
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`last_updated`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#last_updated)
 
-#### Defined in
-
-main.ts:54699
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:58387
 
 device operating system
 optional field
@@ -203,15 +192,13 @@ default value: windows
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:54686
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:58422
 
 user-defined task identifier
 optional field
@@ -223,15 +210,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:54721
-
 ***
 
 ### topics?
 
 > `optional` **topics**: `string`[]
+
+Defined in: main.ts:58416
 
 dataset topics
 optional field
@@ -241,15 +226,13 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`topics`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#topics)
 
-#### Defined in
-
-main.ts:54715
-
 ***
 
 ### usage\_rights?
 
 > `optional` **usage\_rights**: `string`
+
+Defined in: main.ts:58408
 
 usage rights of the dataset
 optional field
@@ -259,27 +242,23 @@ possible values: commercial, noncommercial
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`usage_rights`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#usage_rights)
 
-#### Defined in
-
-main.ts:54707
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:58435
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:54734
 
 ***
 
@@ -287,17 +266,17 @@ main.ts:54734
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:58471
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:54770
 
 ***
 
@@ -305,14 +284,14 @@ main.ts:54770
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:58464
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:54763

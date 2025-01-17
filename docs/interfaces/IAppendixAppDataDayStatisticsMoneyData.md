@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixAppDataDayStatisticsMoneyData
+[Documentation](../README.md) / IAppendixAppDataDayStatisticsMoneyData
 
 # Interface: IAppendixAppDataDayStatisticsMoneyData
 
+Defined in: main.ts:235684
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:220577
+Defined in: main.ts:235685
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:220577
 
 > `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:220578
+Defined in: main.ts:235686
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:220578
 
 > `optional` **app\_listings**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](../classes/AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:220586
+Defined in: main.ts:235694
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:220586
 
 > `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:220579
+Defined in: main.ts:235687
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:220579
 
 > `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:220580
+Defined in: main.ts:235688
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:220580
 
 > `optional` **categories**: `number`
 
-#### Defined in
-
-main.ts:220584
+Defined in: main.ts:235692
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:220584
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:220581
+Defined in: main.ts:235689
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:220581
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:220582
+Defined in: main.ts:235690
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:220582
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:220583
+Defined in: main.ts:235691
 
 ***
 
@@ -106,9 +90,7 @@ main.ts:220583
 
 > `optional` **refund\_money**: `number`
 
-#### Defined in
-
-main.ts:220587
+Defined in: main.ts:235695
 
 ***
 
@@ -116,6 +98,4 @@ main.ts:220587
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:220585
+Defined in: main.ts:235693

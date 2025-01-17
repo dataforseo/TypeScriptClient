@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksIdListRequestInfo
+[Documentation](../README.md) / IBacklinksIdListRequestInfo
 
 # Interface: IBacklinksIdListRequestInfo
 
+Defined in: main.ts:148841
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### datetime\_from?
 
 > `optional` **datetime\_from**: `string`
+
+Defined in: main.ts:148849
 
 start time for filtering results
 required field
@@ -24,15 +28,13 @@ must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
 
-#### Defined in
-
-main.ts:137543
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
+
+Defined in: main.ts:148856
 
 finish time for filtering results
 required field
@@ -41,23 +43,17 @@ must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-31 13:57:46 +00:00
 
-#### Defined in
-
-main.ts:137550
-
 ***
 
 ### include\_metadata?
 
 > `optional` **include\_metadata**: `boolean`
 
+Defined in: main.ts:148875
+
 include task metadata in the respond
 optional field
 default value: false
-
-#### Defined in
-
-main.ts:137569
 
 ***
 
@@ -65,14 +61,12 @@ main.ts:137569
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:148861
+
 the maximum number of returned task IDs
 optional field
 default value: 1000
 maximum value: 1000
-
-#### Defined in
-
-main.ts:137555
 
 ***
 
@@ -80,14 +74,12 @@ main.ts:137555
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:148866
+
 offset in the results array of returned task IDs
 optional field
 default value: 0
 if you specify the 10 value, the first ten tasks in the results array will be omitted
-
-#### Defined in
-
-main.ts:137560
 
 ***
 
@@ -95,11 +87,9 @@ main.ts:137560
 
 > `optional` **sort**: `string`
 
+Defined in: main.ts:148871
+
 sorting by task execution time
 optional field
 possible values: "asc", "desc"
 default value: "asc"
-
-#### Defined in
-
-main.ts:137565

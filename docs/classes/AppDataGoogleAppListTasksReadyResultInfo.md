@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppListTasksReadyResultInfo
+[Documentation](../README.md) / AppDataGoogleAppListTasksReadyResultInfo
 
 # Class: AppDataGoogleAppListTasksReadyResultInfo
+
+Defined in: main.ts:200838
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataGoogleAppListTasksReadyResultInfo**(`data`?): [`AppDataGoogleAppListTasksReadyResultInfo`](AppDataGoogleAppListTasksReadyResultInfo.md)
 
+Defined in: main.ts:200858
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppListTasksReadyResultInfo`](AppDataGoogleAppListTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:188421
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:188421
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:200847
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md).[`date_posted`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:188410
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:188410
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:200851
+
 URL for collecting the results of the Google App List task
 
 #### Implementation of
 
 [`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Defined in
-
-main.ts:188414
-
 ***
 
 ### endpoint\_html?
 
 > `optional` **endpoint\_html**: `string`
+
+Defined in: main.ts:200854
 
 URL for collecting the results of the Google App List HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
@@ -77,15 +77,13 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 [`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md#endpoint_html)
 
-#### Defined in
-
-main.ts:188417
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:200841
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -94,15 +92,13 @@ unique task identifier in our system in the UUID format
 
 [`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md).[`id`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:188404
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:200843
 
 search engine specified when setting the task
 
@@ -110,15 +106,13 @@ search engine specified when setting the task
 
 [`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md).[`se`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:188406
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:200845
 
 search engine type
 
@@ -126,15 +120,13 @@ search engine type
 
 [`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md).[`se_type`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:188408
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:200849
 
 user-defined task identifier
 
@@ -142,27 +134,23 @@ user-defined task identifier
 
 [`IAppDataGoogleAppListTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md).[`tag`](../interfaces/IAppDataGoogleAppListTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:188412
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:200867
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:188430
 
 ***
 
@@ -170,17 +158,17 @@ main.ts:188430
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:200890
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:188453
 
 ***
 
@@ -188,14 +176,14 @@ main.ts:188453
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppListTasksReadyResultInfo`](AppDataGoogleAppListTasksReadyResultInfo.md)
 
+Defined in: main.ts:200883
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleAppListTasksReadyResultInfo`](AppDataGoogleAppListTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:188446

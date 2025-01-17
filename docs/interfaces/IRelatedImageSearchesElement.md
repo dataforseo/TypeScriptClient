@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRelatedImageSearchesElement
+[Documentation](../README.md) / IRelatedImageSearchesElement
 
 # Interface: IRelatedImageSearchesElement
 
+Defined in: main.ts:32151
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **alt**: `string`
 
+Defined in: main.ts:32157
+
 alt tag of the image
-
-#### Defined in
-
-main.ts:30329
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:30329
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:32162
+
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
-
-#### Defined in
-
-main.ts:30334
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:30334
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:32155
+
 title of a given link element
-
-#### Defined in
-
-main.ts:30327
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:30327
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:32153
+
 type of element
-
-#### Defined in
-
-main.ts:30325
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:30325
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:32159
+
 relevant URL
-
-#### Defined in
-
-main.ts:30331

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateTagsRequestInfo
+[Documentation](../README.md) / OnPageDuplicateTagsRequestInfo
 
 # Class: OnPageDuplicateTagsRequestInfo
+
+Defined in: main.ts:168470
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageDuplicateTagsRequestInfo**(`data`?): [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
 
+Defined in: main.ts:168502
+
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md)
+##### data?
+
+[`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md)
 
 #### Returns
 
 [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
-
-#### Defined in
-
-main.ts:156766
 
 ## Properties
 
 ### accumulator?
 
 > `optional` **accumulator**: `string`
+
+Defined in: main.ts:168482
 
 tag value
 optional field
@@ -46,15 +50,13 @@ specify a title or description here if you want to receive a list of duplicate p
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`accumulator`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#accumulator)
 
-#### Defined in
-
-main.ts:156746
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:168476
 
 ID of the task
 required field
@@ -66,15 +68,13 @@ example:
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`id`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:156740
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:168487
 
 the maximum number of returned pages
 optional field
@@ -85,15 +85,13 @@ maximum value: 1000
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`limit`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:156751
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:168492
 
 offset in the results array of returned pages
 optional field
@@ -104,15 +102,13 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`offset`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:156756
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:168498
 
 user-defined task identifier
 optional field
@@ -124,15 +120,13 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`tag`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:156762
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:168478
 
 type of element
 
@@ -140,27 +134,23 @@ type of element
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`type`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#type)
 
-#### Defined in
-
-main.ts:156742
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:168511
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:156775
 
 ***
 
@@ -168,17 +158,17 @@ main.ts:156775
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:168533
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:156797
 
 ***
 
@@ -186,14 +176,14 @@ main.ts:156797
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
 
+Defined in: main.ts:168526
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
-
-#### Defined in
-
-main.ts:156790

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleShoppingSponsoredCarouselElement
+[Documentation](../README.md) / IGoogleShoppingSponsoredCarouselElement
 
 # Interface: IGoogleShoppingSponsoredCarouselElement
 
+Defined in: main.ts:186706
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **currency**: `string`
 
+Defined in: main.ts:186725
+
 currency in the ISO format
 example:
 USD
-
-#### Defined in
-
-main.ts:174895
 
 ***
 
@@ -30,12 +30,10 @@ main.ts:174895
 
 > `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
+Defined in: main.ts:186737
+
 delivery information
 delivery information including free and fast delivery date ranges
-
-#### Defined in
-
-main.ts:174907
 
 ***
 
@@ -43,13 +41,11 @@ main.ts:174907
 
 > `optional` **price**: `number`
 
+Defined in: main.ts:186721
+
 product price
 example:
 384.99
-
-#### Defined in
-
-main.ts:174891
 
 ***
 
@@ -57,12 +53,10 @@ main.ts:174891
 
 > `optional` **product\_images**: `string`[]
 
+Defined in: main.ts:186731
+
 URLs to the images of the product
 the first URL in the array is the featured image of the product
-
-#### Defined in
-
-main.ts:174901
 
 ***
 
@@ -70,12 +64,10 @@ main.ts:174901
 
 > `optional` **product\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
+Defined in: main.ts:186728
+
 product rating
 the product popularity rate based on product reviews
-
-#### Defined in
-
-main.ts:174898
 
 ***
 
@@ -83,12 +75,10 @@ main.ts:174898
 
 > `optional` **seller**: `string`
 
+Defined in: main.ts:186717
+
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
-
-#### Defined in
-
-main.ts:174887
 
 ***
 
@@ -96,12 +86,10 @@ main.ts:174887
 
 > `optional` **shop\_ad\_aclk**: `string`
 
+Defined in: main.ts:186734
+
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
-
-#### Defined in
-
-main.ts:174904
 
 ***
 
@@ -109,11 +97,9 @@ main.ts:174904
 
 > `optional` **tags**: `string`[]
 
+Defined in: main.ts:186714
+
 tags assigned to the product
-
-#### Defined in
-
-main.ts:174884
 
 ***
 
@@ -121,11 +107,9 @@ main.ts:174884
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:186712
+
 product title
-
-#### Defined in
-
-main.ts:174882
 
 ***
 
@@ -133,11 +117,9 @@ main.ts:174882
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:186708
+
 type of element
-
-#### Defined in
-
-main.ts:174878
 
 ***
 
@@ -145,8 +127,6 @@ main.ts:174878
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:186710
+
 XPath of the element
-
-#### Defined in
-
-main.ts:174880

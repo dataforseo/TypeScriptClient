@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixPriceData
+[Documentation](../README.md) / IAppendixPriceData
 
 # Interface: IAppendixPriceData
 
+Defined in: main.ts:238893
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **app\_data**: [`AppendixAppDataPriceData`](../classes/AppendixAppDataPriceData.md)
 
-#### Defined in
-
-main.ts:223610
+Defined in: main.ts:238898
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:223610
 
 > `optional` **appendix**: [`AppendixAppendixPriceData`](../classes/AppendixAppendixPriceData.md)
 
-#### Defined in
-
-main.ts:223609
+Defined in: main.ts:238897
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:223609
 
 > `optional` **backlinks**: [`AppendixBacklinksPriceData`](../classes/AppendixBacklinksPriceData.md)
 
-#### Defined in
-
-main.ts:223611
+Defined in: main.ts:238899
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:223611
 
 > `optional` **business\_data**: [`AppendixBusinessDataPriceData`](../classes/AppendixBusinessDataPriceData.md)
 
-#### Defined in
-
-main.ts:223612
+Defined in: main.ts:238900
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:223612
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisPriceData`](../classes/AppendixContentAnalysisPriceData.md)
 
-#### Defined in
-
-main.ts:223613
+Defined in: main.ts:238901
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:223613
 
 > `optional` **content\_generation**: [`AppendixContentGenerationPriceData`](../classes/AppendixContentGenerationPriceData.md)
 
-#### Defined in
-
-main.ts:223614
+Defined in: main.ts:238902
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:223614
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsPriceData`](../classes/AppendixDataforseoLabsPriceData.md)
 
-#### Defined in
-
-main.ts:223615
+Defined in: main.ts:238903
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:223615
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](../classes/AppendixDomainAnalyticsPriceData.md)
 
-#### Defined in
-
-main.ts:223616
+Defined in: main.ts:238904
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:223616
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDataPriceData`](../classes/AppendixKeywordsDataPriceData.md)
 
-#### Defined in
-
-main.ts:223606
+Defined in: main.ts:238894
 
 ***
 
@@ -106,9 +90,7 @@ main.ts:223606
 
 > `optional` **merchant**: [`AppendixMerchantPriceData`](../classes/AppendixMerchantPriceData.md)
 
-#### Defined in
-
-main.ts:223607
+Defined in: main.ts:238895
 
 ***
 
@@ -116,9 +98,7 @@ main.ts:223607
 
 > `optional` **on\_page**: [`AppendixOnPagePriceData`](../classes/AppendixOnPagePriceData.md)
 
-#### Defined in
-
-main.ts:223617
+Defined in: main.ts:238905
 
 ***
 
@@ -126,6 +106,4 @@ main.ts:223617
 
 > `optional` **serp**: [`AppendixSerpPriceData`](../classes/AppendixSerpPriceData.md)
 
-#### Defined in
-
-main.ts:223608
+Defined in: main.ts:238896

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
+Defined in: main.ts:144324
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **available\_locations**: [`AvailableLocations`](../classes/AvailableLocations.md)[]
 
+Defined in: main.ts:144331
+
 supported locations
 contains locations supported in combination with a specific language
-
-#### Defined in
-
-main.ts:132387
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:132387
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:144328
+
 language code
-
-#### Defined in
-
-main.ts:132384
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:132384
 
 > `optional` **language\_name**: `number`
 
+Defined in: main.ts:144326
+
 language name
-
-#### Defined in
-
-main.ts:132382

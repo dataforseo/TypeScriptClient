@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisRatingInfo
+[Documentation](../README.md) / ContentAnalysisRatingInfo
 
 # Class: ContentAnalysisRatingInfo
+
+Defined in: main.ts:177671
 
 content rating rating related to content_info
 
@@ -14,7 +16,7 @@ content rating rating related to content_info
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -22,17 +24,17 @@ content rating rating related to content_info
 
 > **new ContentAnalysisRatingInfo**(`data`?): [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
 
+Defined in: main.ts:177686
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md)
+##### data?
+
+[`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md)
 
 #### Returns
 
 [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
-
-#### Defined in
-
-main.ts:165996
 
 ## Properties
 
@@ -40,21 +42,21 @@ main.ts:165996
 
 > `optional` **max\_rating\_value**: `string`
 
+Defined in: main.ts:177680
+
 maximum value for the rating name
 
 #### Implementation of
 
 [`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md).[`max_rating_value`](../interfaces/IContentAnalysisRatingInfo.md#max_rating_value)
 
-#### Defined in
-
-main.ts:165990
-
 ***
 
 ### name?
 
 > `optional` **name**: `string`
+
+Defined in: main.ts:177674
 
 rating name
 here you can find the following elements: Max5, Percents, CustomMax
@@ -63,15 +65,13 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 [`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md).[`name`](../interfaces/IContentAnalysisRatingInfo.md#name)
 
-#### Defined in
-
-main.ts:165984
-
 ***
 
 ### rating\_count?
 
 > `optional` **rating\_count**: `number`
+
+Defined in: main.ts:177678
 
 number of votes
 
@@ -79,15 +79,13 @@ number of votes
 
 [`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md).[`rating_count`](../interfaces/IContentAnalysisRatingInfo.md#rating_count)
 
-#### Defined in
-
-main.ts:165988
-
 ***
 
 ### rating\_value?
 
 > `optional` **rating\_value**: `number`
+
+Defined in: main.ts:177676
 
 the value of the rating
 
@@ -95,15 +93,13 @@ the value of the rating
 
 [`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md).[`rating_value`](../interfaces/IContentAnalysisRatingInfo.md#rating_value)
 
-#### Defined in
-
-main.ts:165986
-
 ***
 
 ### relative\_rating?
 
 > `optional` **relative\_rating**: `number`
+
+Defined in: main.ts:177682
 
 relative rating
 
@@ -111,27 +107,23 @@ relative rating
 
 [`IContentAnalysisRatingInfo`](../interfaces/IContentAnalysisRatingInfo.md).[`relative_rating`](../interfaces/IContentAnalysisRatingInfo.md#relative_rating)
 
-#### Defined in
-
-main.ts:165992
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:177695
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:166005
 
 ***
 
@@ -139,17 +131,17 @@ main.ts:166005
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:177716
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:166026
 
 ***
 
@@ -157,14 +149,14 @@ main.ts:166026
 
 > `static` **fromJS**(`data`): [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
 
+Defined in: main.ts:177709
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
-
-#### Defined in
-
-main.ts:166019

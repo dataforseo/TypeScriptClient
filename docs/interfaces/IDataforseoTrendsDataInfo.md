@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoTrendsDataInfo
+[Documentation](../README.md) / IDataforseoTrendsDataInfo
 
 # Interface: IDataforseoTrendsDataInfo
 
+Defined in: main.ts:137327
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:137329
+
 relevant keyword for which demographic data is provided
-
-#### Defined in
-
-main.ts:126971
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:126971
 
 > `optional` **values**: [`DemographyItemValueInfo`](../classes/DemographyItemValueInfo.md)[]
 
+Defined in: main.ts:137331
+
 contains age range and corresponding keyword popularity values
-
-#### Defined in
-
-main.ts:126973

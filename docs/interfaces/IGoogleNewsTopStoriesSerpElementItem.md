@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleNewsTopStoriesSerpElementItem
+[Documentation](../README.md) / IGoogleNewsTopStoriesSerpElementItem
 
 # Interface: IGoogleNewsTopStoriesSerpElementItem
+
+Defined in: main.ts:46356
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **items**: [`TopStoriesElement`](../classes/TopStoriesElement.md)[]
 
-elements of search results found in SERP
+Defined in: main.ts:46362
 
-#### Defined in
-
-main.ts:44084
+items of the element
 
 ***
 
@@ -32,19 +32,19 @@ main.ts:44084
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:46360
+
 the alignment of the element in SERP
 can take the following values:
 left
-
-#### Defined in
-
-main.ts:44082
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:46204
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -53,15 +53,13 @@ absolute position among all the elements in SERP
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`rank_absolute`](IBaseGoogleNewsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:43926
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:46201
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -71,15 +69,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`rank_group`](IBaseGoogleNewsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:43923
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+
+Defined in: main.ts:46212
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -89,25 +85,19 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`rectangle`](IBaseGoogleNewsSerpElementItem.md#rectangle)
 
-#### Defined in
-
-main.ts:43934
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+Defined in: main.ts:46208
+
+title of the element
 
 #### Inherited from
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`title`](IBaseGoogleNewsSerpElementItem.md#title)
-
-#### Defined in
-
-main.ts:43930
 
 ***
 
@@ -115,15 +105,13 @@ main.ts:43930
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:46197
+
 type of element
 
 #### Inherited from
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`type`](IBaseGoogleNewsSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:43919
 
 ***
 
@@ -131,12 +119,10 @@ main.ts:43919
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:46206
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseGoogleNewsSerpElementItem`](IBaseGoogleNewsSerpElementItem.md).[`xpath`](IBaseGoogleNewsSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:43928

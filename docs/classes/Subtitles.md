@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Subtitles
+[Documentation](../README.md) / Subtitles
 
 # Class: Subtitles
+
+Defined in: main.ts:70311
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new Subtitles**(`data`?): [`Subtitles`](Subtitles.md)
 
+Defined in: main.ts:70321
+
 #### Parameters
 
-• **data?**: [`ISubtitles`](../interfaces/ISubtitles.md)
+##### data?
+
+[`ISubtitles`](../interfaces/ISubtitles.md)
 
 #### Returns
 
 [`Subtitles`](Subtitles.md)
-
-#### Defined in
-
-main.ts:62106
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:62106
 
 > `optional` **is\_auto\_generated**: `boolean`
 
+Defined in: main.ts:70317
+
 defines if subtitles are auto generated
 
 #### Implementation of
 
 [`ISubtitles`](../interfaces/ISubtitles.md).[`is_auto_generated`](../interfaces/ISubtitles.md#is_auto_generated)
-
-#### Defined in
-
-main.ts:62102
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:62102
 
 > `optional` **is\_translatable**: `boolean`
 
+Defined in: main.ts:70315
+
 defines if subtitles are translatable
 
 #### Implementation of
 
 [`ISubtitles`](../interfaces/ISubtitles.md).[`is_translatable`](../interfaces/ISubtitles.md#is_translatable)
-
-#### Defined in
-
-main.ts:62100
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:62100
 
 > `optional` **language**: `string`
 
+Defined in: main.ts:70313
+
 language of subtitles
 
 #### Implementation of
 
 [`ISubtitles`](../interfaces/ISubtitles.md).[`language`](../interfaces/ISubtitles.md#language)
-
-#### Defined in
-
-main.ts:62098
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:62098
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:70330
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:62115
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:62115
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:70349
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:62134
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:62134
 
 > `static` **fromJS**(`data`): [`Subtitles`](Subtitles.md)
 
+Defined in: main.ts:70342
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Subtitles`](Subtitles.md)
-
-#### Defined in
-
-main.ts:62127

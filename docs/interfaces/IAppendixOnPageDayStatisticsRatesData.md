@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixOnPageDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixOnPageDayStatisticsRatesData
 
 # Interface: IAppendixOnPageDayStatisticsRatesData
 
+Defined in: main.ts:234167
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **available\_filters**: `number`
 
-#### Defined in
-
-main.ts:219088
+Defined in: main.ts:234188
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:219088
 
 > `optional` **content\_parsing**: `number`
 
-#### Defined in
-
-main.ts:219086
+Defined in: main.ts:234186
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:219086
 
 > `optional` **content\_parsing\_live**: `number`
 
-#### Defined in
-
-main.ts:219087
+Defined in: main.ts:234187
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:219087
 
 > `optional` **duplicate\_content**: `number`
 
-#### Defined in
-
-main.ts:219079
+Defined in: main.ts:234179
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:219079
 
 > `optional` **duplicate\_tags**: `number`
 
-#### Defined in
-
-main.ts:219074
+Defined in: main.ts:234174
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:219074
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:219077
+Defined in: main.ts:234177
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:219077
 
 > `optional` **force\_stop**: `number`
 
-#### Defined in
-
-main.ts:219089
+Defined in: main.ts:234189
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:219089
 
 > `optional` **id\_list**: `number`
 
-#### Defined in
-
-main.ts:219091
+Defined in: main.ts:234191
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:219091
 
 > `optional` **instant\_pages**: `number`
 
-#### Defined in
-
-main.ts:219081
+Defined in: main.ts:234181
 
 ***
 
@@ -106,9 +90,7 @@ main.ts:219081
 
 > `optional` **keyword\_density**: `number`
 
-#### Defined in
-
-main.ts:219084
+Defined in: main.ts:234184
 
 ***
 
@@ -116,9 +98,7 @@ main.ts:219084
 
 > `optional` **lighthouse**: [`AppendixLighthouseOnPageDayStatisticsRatesData`](../classes/AppendixLighthouseOnPageDayStatisticsRatesData.md)
 
-#### Defined in
-
-main.ts:219083
+Defined in: main.ts:234183
 
 ***
 
@@ -126,9 +106,7 @@ main.ts:219083
 
 > `optional` **links**: `number`
 
-#### Defined in
-
-main.ts:219075
+Defined in: main.ts:234175
 
 ***
 
@@ -136,9 +114,7 @@ main.ts:219075
 
 > `optional` **microdata**: `number`
 
-#### Defined in
-
-main.ts:219090
+Defined in: main.ts:234190
 
 ***
 
@@ -146,9 +122,7 @@ main.ts:219090
 
 > `optional` **non\_indexable**: `number`
 
-#### Defined in
-
-main.ts:219073
+Defined in: main.ts:234173
 
 ***
 
@@ -156,9 +130,7 @@ main.ts:219073
 
 > `optional` **page\_screenshot**: `number`
 
-#### Defined in
-
-main.ts:219085
+Defined in: main.ts:234185
 
 ***
 
@@ -166,9 +138,7 @@ main.ts:219085
 
 > `optional` **pages**: `number`
 
-#### Defined in
-
-main.ts:219072
+Defined in: main.ts:234172
 
 ***
 
@@ -176,9 +146,7 @@ main.ts:219072
 
 > `optional` **pages\_by\_resource**: `number`
 
-#### Defined in
-
-main.ts:219078
+Defined in: main.ts:234178
 
 ***
 
@@ -186,9 +154,7 @@ main.ts:219078
 
 > `optional` **raw\_html**: `number`
 
-#### Defined in
-
-main.ts:219080
+Defined in: main.ts:234180
 
 ***
 
@@ -196,9 +162,7 @@ main.ts:219080
 
 > `optional` **redirect\_chains**: `number`
 
-#### Defined in
-
-main.ts:219082
+Defined in: main.ts:234182
 
 ***
 
@@ -206,9 +170,7 @@ main.ts:219082
 
 > `optional` **resources**: `number`
 
-#### Defined in
-
-main.ts:219071
+Defined in: main.ts:234171
 
 ***
 
@@ -216,9 +178,7 @@ main.ts:219071
 
 > `optional` **summary**: `number`
 
-#### Defined in
-
-main.ts:219070
+Defined in: main.ts:234170
 
 ***
 
@@ -226,9 +186,7 @@ main.ts:219070
 
 > `optional` **task\_post**: `number`
 
-#### Defined in
-
-main.ts:219068
+Defined in: main.ts:234168
 
 ***
 
@@ -236,9 +194,7 @@ main.ts:219068
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:219069
+Defined in: main.ts:234169
 
 ***
 
@@ -246,6 +202,4 @@ main.ts:219069
 
 > `optional` **waterfall**: `number`
 
-#### Defined in
-
-main.ts:219076
+Defined in: main.ts:234176

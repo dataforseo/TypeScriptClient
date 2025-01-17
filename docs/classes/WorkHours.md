@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / WorkHours
+[Documentation](../README.md) / WorkHours
 
 # Class: WorkHours
+
+Defined in: main.ts:41493
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new WorkHours**(`data`?): [`WorkHours`](WorkHours.md)
 
+Defined in: main.ts:41502
+
 #### Parameters
 
-• **data?**: [`IWorkHours`](../interfaces/IWorkHours.md)
+##### data?
+
+[`IWorkHours`](../interfaces/IWorkHours.md)
 
 #### Returns
 
 [`WorkHours`](WorkHours.md)
-
-#### Defined in
-
-main.ts:39660
 
 ## Properties
 
 ### current\_status?
 
 > `optional` **current\_status**: `string`
+
+Defined in: main.ts:41498
 
 current status of the establishment
 indicates whether the establishment is opened or closed
@@ -45,29 +49,23 @@ indicates whether the establishment is opened or closed
 
 [`IWorkHours`](../interfaces/IWorkHours.md).[`current_status`](../interfaces/IWorkHours.md#current_status)
 
-#### Defined in
-
-main.ts:39656
-
 ***
 
 ### timetable?
 
 > `optional` **timetable**: `object`
 
+Defined in: main.ts:41495
+
 work hours timetable
 
 #### Index Signature
 
- \[`key`: `string`\]: ([`WorkDayInfo`](WorkDayInfo.md) \| `undefined`)[]
+\[`key`: `string`\]: [`WorkDayInfo`](WorkDayInfo.md)[]
 
 #### Implementation of
 
 [`IWorkHours`](../interfaces/IWorkHours.md).[`timetable`](../interfaces/IWorkHours.md#timetable)
-
-#### Defined in
-
-main.ts:39653
 
 ## Methods
 
@@ -75,17 +73,17 @@ main.ts:39653
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:41511
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:39669
 
 ***
 
@@ -93,17 +91,17 @@ main.ts:39669
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:41535
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:39693
 
 ***
 
@@ -111,14 +109,14 @@ main.ts:39693
 
 > `static` **fromJS**(`data`): [`WorkHours`](WorkHours.md)
 
+Defined in: main.ts:41528
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`WorkHours`](WorkHours.md)
-
-#### Defined in
-
-main.ts:39686

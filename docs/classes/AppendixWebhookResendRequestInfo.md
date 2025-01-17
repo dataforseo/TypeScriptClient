@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixWebhookResendRequestInfo
+[Documentation](../README.md) / AppendixWebhookResendRequestInfo
 
 # Class: AppendixWebhookResendRequestInfo
+
+Defined in: main.ts:239262
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppendixWebhookResendRequestInfo**(`data`?): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
+Defined in: main.ts:239271
+
 #### Parameters
 
-• **data?**: [`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md)
+##### data?
+
+[`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md)
 
 #### Returns
 
 [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
-
-#### Defined in
-
-main.ts:223983
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:239267
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -47,27 +51,23 @@ each identifier in the task array must be specified as a separate object
 
 [`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md).[`id`](../interfaces/IAppendixWebhookResendRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:223979
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:239280
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:223992
 
 ***
 
@@ -75,17 +75,17 @@ main.ts:223992
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:239297
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:224009
 
 ***
 
@@ -93,14 +93,14 @@ main.ts:224009
 
 > `static` **fromJS**(`data`): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
+Defined in: main.ts:239290
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
-
-#### Defined in
-
-main.ts:224002

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageKeywordDensityResultInfo
+[Documentation](../README.md) / IOnPageKeywordDensityResultInfo
 
 # Interface: IOnPageKeywordDensityResultInfo
 
+Defined in: main.ts:171425
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:171428
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:159692
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:159692
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:171430
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:159694
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:159694
 
 > `optional` **items**: [`OnPageKeywordDensityItem`](../classes/OnPageKeywordDensityItem.md)[]
 
+Defined in: main.ts:171437
+
 items array
-
-#### Defined in
-
-main.ts:159701
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:159701
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:171435
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:159699
 
 ***
 
@@ -65,9 +59,7 @@ main.ts:159699
 
 > `optional` **total\_items\_count**: `number`
 
+Defined in: main.ts:171433
+
 total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters
-
-#### Defined in
-
-main.ts:159697

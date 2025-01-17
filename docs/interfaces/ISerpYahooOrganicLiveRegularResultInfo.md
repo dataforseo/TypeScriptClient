@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYahooOrganicLiveRegularResultInfo
+[Documentation](../README.md) / ISerpYahooOrganicLiveRegularResultInfo
 
 # Interface: ISerpYahooOrganicLiveRegularResultInfo
 
+Defined in: main.ts:77192
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:77206
+
 direct URL to search engine results
 You can use it to make sure that we provided exact results
-
-#### Defined in
-
-main.ts:68294
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:68294
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:77211
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:68299
 
 ***
 
@@ -44,13 +42,15 @@ main.ts:68299
 
 > `optional` **item\_types**: `string`[]
 
-types of search results in SERP
-contains types of search results (items) found in SERP
-Possible item types: organic
+Defined in: main.ts:77225
 
-#### Defined in
-
-main.ts:68306
+types of search results found in SERP
+contains types of all search results (items) found in the returned SERP
+possible item types:
+featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video;
+note that this array contains all types of search results found in the returned SERP;
+however, this endpoint provides data for organic, paid, and featured_snippet types only;
+to get all items (including SERP features and rich snippets) found in the returned SERP, please refer to the Yahoo Organiс Advanced SERP endpoint
 
 ***
 
@@ -58,11 +58,9 @@ main.ts:68306
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
+Defined in: main.ts:77231
+
 items in SERP
-
-#### Defined in
-
-main.ts:68312
 
 ***
 
@@ -70,11 +68,9 @@ main.ts:68312
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:77229
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:68310
 
 ***
 
@@ -82,12 +78,10 @@ main.ts:68310
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:77195
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:68283
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -95,11 +89,9 @@ main.ts:68283
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:77203
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:68291
 
 ***
 
@@ -107,11 +99,20 @@ main.ts:68291
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:77201
+
 location code in a POST array
 
-#### Defined in
+***
 
-main.ts:68289
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+Defined in: main.ts:77217
+
+search refinement chips
+equals null
 
 ***
 
@@ -119,11 +120,9 @@ main.ts:68289
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:77199
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:68287
 
 ***
 
@@ -131,11 +130,9 @@ main.ts:68287
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:77227
+
 total number of results in SERP
-
-#### Defined in
-
-main.ts:68308
 
 ***
 
@@ -143,12 +140,10 @@ main.ts:68308
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
+Defined in: main.ts:77214
+
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
-
-#### Defined in
-
-main.ts:68302
 
 ***
 
@@ -156,8 +151,6 @@ main.ts:68302
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:77197
+
 type of element
-
-#### Defined in
-
-main.ts:68285

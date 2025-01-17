@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopDomainInfo
+[Documentation](../README.md) / TopDomainInfo
 
 # Class: TopDomainInfo
+
+Defined in: main.ts:24139
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TopDomainInfo**(`data`?): [`TopDomainInfo`](TopDomainInfo.md)
 
+Defined in: main.ts:24145
+
 #### Parameters
 
-• **data?**: [`ITopDomainInfo`](../interfaces/ITopDomainInfo.md)
+##### data?
+
+[`ITopDomainInfo`](../interfaces/ITopDomainInfo.md)
 
 #### Returns
 
 [`TopDomainInfo`](TopDomainInfo.md)
-
-#### Defined in
-
-main.ts:23242
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:23242
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:24141
+
 #### Implementation of
 
 [`ITopDomainInfo`](../interfaces/ITopDomainInfo.md).[`count`](../interfaces/ITopDomainInfo.md#count)
-
-#### Defined in
-
-main.ts:23238
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:23238
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:24140
+
 #### Implementation of
 
 [`ITopDomainInfo`](../interfaces/ITopDomainInfo.md).[`domain`](../interfaces/ITopDomainInfo.md#domain)
-
-#### Defined in
-
-main.ts:23237
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:23237
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24154
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23251
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:23251
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24172
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23269
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:23269
 
 > `static` **fromJS**(`data`): [`TopDomainInfo`](TopDomainInfo.md)
 
+Defined in: main.ts:24165
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TopDomainInfo`](TopDomainInfo.md)
-
-#### Defined in
-
-main.ts:23262

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksTimeseriesNewLostSummaryLiveResultInfo
+[Documentation](../README.md) / IBacklinksTimeseriesNewLostSummaryLiveResultInfo
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveResultInfo
 
+Defined in: main.ts:160133
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **date\_from**: `string`
 
+Defined in: main.ts:160140
+
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01
-
-#### Defined in
-
-main.ts:148834
 
 ***
 
@@ -31,14 +31,12 @@ main.ts:148834
 
 > `optional` **date\_to**: `string`
 
+Defined in: main.ts:160145
+
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
 example:
 "2019-01-15"
-
-#### Defined in
-
-main.ts:148839
 
 ***
 
@@ -46,11 +44,9 @@ main.ts:148839
 
 > `optional` **group\_range**: `string`
 
+Defined in: main.ts:160147
+
 group_range from the POST array
-
-#### Defined in
-
-main.ts:148841
 
 ***
 
@@ -58,11 +54,9 @@ main.ts:148841
 
 > `optional` **items**: [`BacklinksTimeseriesNewLostSummaryLiveItem`](../classes/BacklinksTimeseriesNewLostSummaryLiveItem.md)[]
 
+Defined in: main.ts:160151
+
 contains relevant backlinks and referring domains data
-
-#### Defined in
-
-main.ts:148845
 
 ***
 
@@ -70,11 +64,9 @@ main.ts:148845
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:160149
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:148843
 
 ***
 
@@ -82,8 +74,6 @@ main.ts:148843
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:160135
+
 target from a POST array
-
-#### Defined in
-
-main.ts:148829

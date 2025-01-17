@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
+Defined in: main.ts:58501
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:58539
 
 parsing depth
 optional field
@@ -25,23 +29,17 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
-
-main.ts:54837
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:58525
+
 device type
 optional field
 possible value: desktop
-
-#### Defined in
-
-main.ts:54823
 
 ***
 
@@ -49,13 +47,11 @@ main.ts:54823
 
 > `optional` **file\_formats**: `string`[]
 
+Defined in: main.ts:58547
+
 file formats of the dataset
 optional field
 possible values: other, archive, text, image, document, tabular
-
-#### Defined in
-
-main.ts:54845
 
 ***
 
@@ -63,13 +59,11 @@ main.ts:54845
 
 > `optional` **is\_free**: `boolean`
 
+Defined in: main.ts:58555
+
 indicates whether displayed datasets are free
 optional field
 possible values: true, false
-
-#### Defined in
-
-main.ts:54853
 
 ***
 
@@ -77,16 +71,15 @@ main.ts:54853
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:58509
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-
-#### Defined in
-
-main.ts:54807
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -94,15 +87,13 @@ main.ts:54807
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:58521
+
 search engine language code
 optional field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 possible value:
 en
-
-#### Defined in
-
-main.ts:54819
 
 ***
 
@@ -110,15 +101,13 @@ main.ts:54819
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:58515
+
 full name of search engine language
 optional field
 if you use this field, you don’t need to specify language_code
 possible value:
 English
-
-#### Defined in
-
-main.ts:54813
 
 ***
 
@@ -126,13 +115,11 @@ main.ts:54813
 
 > `optional` **last\_updated**: `string`
 
+Defined in: main.ts:58543
+
 last time the dataset was updated
 optional field
 possible values: 1m, 1y, 3y
-
-#### Defined in
-
-main.ts:54841
 
 ***
 
@@ -140,14 +127,12 @@ main.ts:54841
 
 > `optional` **os**: `string`
 
+Defined in: main.ts:58530
+
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
-
-#### Defined in
-
-main.ts:54828
 
 ***
 
@@ -155,15 +140,13 @@ main.ts:54828
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:58565
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:54863
 
 ***
 
@@ -171,13 +154,11 @@ main.ts:54863
 
 > `optional` **topics**: `string`[]
 
+Defined in: main.ts:58559
+
 dataset topics
 optional field
 possible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering
-
-#### Defined in
-
-main.ts:54857
 
 ***
 
@@ -185,10 +166,8 @@ main.ts:54857
 
 > `optional` **usage\_rights**: `string`
 
+Defined in: main.ts:58551
+
 usage rights of the dataset
 optional field
 possible values: commercial, noncommercial
-
-#### Defined in
-
-main.ts:54849

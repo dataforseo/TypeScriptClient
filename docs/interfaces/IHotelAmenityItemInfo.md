@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelAmenityItemInfo
+[Documentation](../README.md) / IHotelAmenityItemInfo
 
 # Interface: IHotelAmenityItemInfo
 
+Defined in: main.ts:219051
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **amenity**: `string`
 
+Defined in: main.ts:219053
+
 standardised amenity name
-
-#### Defined in
-
-main.ts:205597
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:205597
 
 > `optional` **amenity\_label**: `string`
 
+Defined in: main.ts:219055
+
 displayed amenity name
-
-#### Defined in
-
-main.ts:205599
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:205599
 
 > `optional` **hint**: `string`
 
+Defined in: main.ts:219057
+
 standardised details about the amenity
-
-#### Defined in
-
-main.ts:205601
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:205601
 
 > `optional` **hint\_label**: `string`
 
+Defined in: main.ts:219059
+
 displayed details about the amenity
-
-#### Defined in
-
-main.ts:205603

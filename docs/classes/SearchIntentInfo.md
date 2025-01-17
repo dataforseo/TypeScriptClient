@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SearchIntentInfo
+[Documentation](../README.md) / SearchIntentInfo
 
 # Class: SearchIntentInfo
+
+Defined in: main.ts:93200
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SearchIntentInfo**(`data`?): [`SearchIntentInfo`](SearchIntentInfo.md)
 
+Defined in: main.ts:93218
+
 #### Parameters
 
-• **data?**: [`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md)
+##### data?
+
+[`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md)
 
 #### Returns
 
 [`SearchIntentInfo`](SearchIntentInfo.md)
-
-#### Defined in
-
-main.ts:83405
 
 ## Properties
 
 ### foreign\_intent?
 
 > `optional` **foreign\_intent**: `string`[]
+
+Defined in: main.ts:93209
 
 supplementary search intents
 possible values: informational, navigational, commercial, transactional
@@ -45,15 +49,13 @@ possible values: informational, navigational, commercial, transactional
 
 [`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md).[`foreign_intent`](../interfaces/ISearchIntentInfo.md#foreign_intent)
 
-#### Defined in
-
-main.ts:83396
-
 ***
 
 ### last\_updated\_time?
 
 > `optional` **last\_updated\_time**: `string`
+
+Defined in: main.ts:93214
 
 date and time when the dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md).[`last_updated_time`](../interfaces/ISearchIntentInfo.md#last_updated_time)
 
-#### Defined in
-
-main.ts:83401
-
 ***
 
 ### main\_intent?
 
 > `optional` **main\_intent**: `string`
+
+Defined in: main.ts:93206
 
 main search intent
 possible values: informational, navigational, commercial, transactional
@@ -81,15 +81,13 @@ possible values: informational, navigational, commercial, transactional
 
 [`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md).[`main_intent`](../interfaces/ISearchIntentInfo.md#main_intent)
 
-#### Defined in
-
-main.ts:83393
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:93203
 
 search engine type
 possible values: google
@@ -98,27 +96,23 @@ possible values: google
 
 [`ISearchIntentInfo`](../interfaces/ISearchIntentInfo.md).[`se_type`](../interfaces/ISearchIntentInfo.md#se_type)
 
-#### Defined in
-
-main.ts:83390
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:93227
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:83414
 
 ***
 
@@ -126,17 +120,17 @@ main.ts:83414
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:93251
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:83438
 
 ***
 
@@ -144,14 +138,14 @@ main.ts:83438
 
 > `static` **fromJS**(`data`): [`SearchIntentInfo`](SearchIntentInfo.md)
 
+Defined in: main.ts:93244
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SearchIntentInfo`](SearchIntentInfo.md)
-
-#### Defined in
-
-main.ts:83431

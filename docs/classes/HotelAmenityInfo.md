@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelAmenityInfo
+[Documentation](../README.md) / HotelAmenityInfo
 
 # Class: HotelAmenityInfo
+
+Defined in: main.ts:219064
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new HotelAmenityInfo**(`data`?): [`HotelAmenityInfo`](HotelAmenityInfo.md)
 
+Defined in: main.ts:219074
+
 #### Parameters
 
-• **data?**: [`IHotelAmenityInfo`](../interfaces/IHotelAmenityInfo.md)
+##### data?
+
+[`IHotelAmenityInfo`](../interfaces/IHotelAmenityInfo.md)
 
 #### Returns
 
 [`HotelAmenityInfo`](HotelAmenityInfo.md)
-
-#### Defined in
-
-main.ts:205618
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:205618
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:219066
+
 standardised category of the ammenity
 
 #### Implementation of
 
 [`IHotelAmenityInfo`](../interfaces/IHotelAmenityInfo.md).[`category`](../interfaces/IHotelAmenityInfo.md#category)
-
-#### Defined in
-
-main.ts:205610
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:205610
 
 > `optional` **category\_label**: `string`
 
+Defined in: main.ts:219068
+
 label of the category
 
 #### Implementation of
 
 [`IHotelAmenityInfo`](../interfaces/IHotelAmenityInfo.md).[`category_label`](../interfaces/IHotelAmenityInfo.md#category_label)
-
-#### Defined in
-
-main.ts:205612
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:205612
 
 > `optional` **items**: [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)[]
 
+Defined in: main.ts:219070
+
 specific amenities and details
 
 #### Implementation of
 
 [`IHotelAmenityInfo`](../interfaces/IHotelAmenityInfo.md).[`items`](../interfaces/IHotelAmenityInfo.md#items)
-
-#### Defined in
-
-main.ts:205614
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:205614
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:219083
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:205627
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:205627
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:219106
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:205650
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:205650
 
 > `static` **fromJS**(`data`): [`HotelAmenityInfo`](HotelAmenityInfo.md)
 
+Defined in: main.ts:219099
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HotelAmenityInfo`](HotelAmenityInfo.md)
-
-#### Defined in
-
-main.ts:205643

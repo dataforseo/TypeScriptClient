@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseTasksReadyResultInfo
+[Documentation](../README.md) / OnPageLighthouseTasksReadyResultInfo
 
 # Class: OnPageLighthouseTasksReadyResultInfo
+
+Defined in: main.ts:175764
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageLighthouseTasksReadyResultInfo**(`data`?): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
+Defined in: main.ts:175775
+
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md)
+##### data?
+
+[`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md)
 
 #### Returns
 
 [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:164085
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:164085
 
 > `optional` **endpoint\_json**: `string`
 
+Defined in: main.ts:175771
+
 URL for collecting the results of the OnPage Lighthouse JSON task
 
 #### Implementation of
 
 [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`endpoint_json`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#endpoint_json)
 
-#### Defined in
-
-main.ts:164081
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:175767
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -61,15 +63,13 @@ unique task identifier in our system in the UUID format
 
 [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`id`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:164077
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:175769
 
 user-defined task identifier
 
@@ -77,27 +77,23 @@ user-defined task identifier
 
 [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`tag`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:164079
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:175784
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:164094
 
 ***
 
@@ -105,17 +101,17 @@ main.ts:164094
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:175803
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:164113
 
 ***
 
@@ -123,14 +119,14 @@ main.ts:164113
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
+Defined in: main.ts:175796
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:164106

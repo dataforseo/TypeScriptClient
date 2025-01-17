@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPaidSerpElementItem
+[Documentation](../README.md) / IPaidSerpElementItem
 
 # Interface: IPaidSerpElementItem
+
+Defined in: main.ts:28704
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **breadcrumb**: `string`
 
+Defined in: main.ts:28710
+
 breadcrumb in SERP
-
-#### Defined in
-
-main.ts:27152
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:27152
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:28724
+
 description of the results element in SERP
-
-#### Defined in
-
-main.ts:27166
 
 ***
 
@@ -44,12 +42,10 @@ main.ts:27166
 
 > `optional` **description\_rows**: `string`[]
 
+Defined in: main.ts:28727
+
 extended description
 if there is none, equals null
-
-#### Defined in
-
-main.ts:27169
 
 ***
 
@@ -57,11 +53,9 @@ main.ts:27169
 
 > `optional` **domain**: `string`
 
-website domain
+Defined in: main.ts:28708
 
-#### Defined in
-
-main.ts:27150
+domain name of the reference
 
 ***
 
@@ -69,15 +63,13 @@ main.ts:27150
 
 > `optional` **extra**: `object`
 
+Defined in: main.ts:28722
+
 additional information about the result
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:27164
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -85,11 +77,9 @@ main.ts:27164
 
 > `optional` **highlighted**: `string`[]
 
+Defined in: main.ts:28720
+
 words highlighted in bold within the results description
-
-#### Defined in
-
-main.ts:27162
 
 ***
 
@@ -97,11 +87,9 @@ main.ts:27162
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
+Defined in: main.ts:28716
+
 images of the element
-
-#### Defined in
-
-main.ts:27158
 
 ***
 
@@ -109,11 +97,9 @@ main.ts:27158
 
 > `optional` **is\_image**: `boolean`
 
+Defined in: main.ts:28712
+
 indicates whether the element contains an image
-
-#### Defined in
-
-main.ts:27154
 
 ***
 
@@ -121,11 +107,9 @@ main.ts:27154
 
 > `optional` **is\_video**: `boolean`
 
+Defined in: main.ts:28714
+
 indicates whether the element contains a video
-
-#### Defined in
-
-main.ts:27156
 
 ***
 
@@ -133,19 +117,19 @@ main.ts:27156
 
 > `optional` **links**: [`AdLinkElement`](../classes/AdLinkElement.md)[]
 
+Defined in: main.ts:28731
+
 sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null
-
-#### Defined in
-
-main.ts:27173
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21404
 
 the alignment of the element in SERP
 can take the following values:
@@ -155,28 +139,24 @@ left, right
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20721
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:28734
+
 pricing details
 contains the pricing details of the product or service featured in the result
-
-#### Defined in
-
-main.ts:27176
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21400
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -185,15 +165,13 @@ absolute position among all the elements in SERP
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20717
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21397
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -203,23 +181,17 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20714
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
+Defined in: main.ts:28738
+
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
-
-#### Defined in
-
-main.ts:27180
 
 ***
 
@@ -227,11 +199,9 @@ main.ts:27180
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:28706
+
 title of the result in SERP
-
-#### Defined in
-
-main.ts:27148
 
 ***
 
@@ -239,15 +209,13 @@ main.ts:27148
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21393
+
 type of element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:20710
 
 ***
 
@@ -255,11 +223,9 @@ main.ts:20710
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:28718
+
 relevant URL in SERP
-
-#### Defined in
-
-main.ts:27160
 
 ***
 
@@ -267,11 +233,9 @@ main.ts:27160
 
 > `optional` **website\_name**: `string`
 
+Defined in: main.ts:28740
+
 website name in SERP
-
-#### Defined in
-
-main.ts:27182
 
 ***
 
@@ -279,12 +243,10 @@ main.ts:27182
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21406
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:20723

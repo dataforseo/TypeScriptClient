@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITable
+[Documentation](../README.md) / ITable
 
 # Interface: ITable
 
+Defined in: main.ts:23765
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **table\_content**: `string`[][]
 
+Defined in: main.ts:23774
+
 the content of the table
 one line of the table in this element of the array
-
-#### Defined in
-
-main.ts:22871
 
 ***
 
@@ -29,13 +29,11 @@ main.ts:22871
 
 > `optional` **table\_element**: `string`
 
+Defined in: main.ts:23769
+
 name assigned to the table element
 possible values:
 table_element
-
-#### Defined in
-
-main.ts:22866
 
 ***
 
@@ -43,8 +41,6 @@ main.ts:22866
 
 > `optional` **table\_header**: `string`[]
 
+Defined in: main.ts:23771
+
 column names
-
-#### Defined in
-
-main.ts:22868

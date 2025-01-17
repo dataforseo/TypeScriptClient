@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleOrganicTasksReadyResultInfo
+[Documentation](../README.md) / ISerpGoogleOrganicTasksReadyResultInfo
 
 # Interface: ISerpGoogleOrganicTasksReadyResultInfo
 
+Defined in: main.ts:27997
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:28007
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:26449
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:26449
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:28015
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:26457
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:26457
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:28018
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:26460
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:26460
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:28012
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:26454
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:26454
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:28000
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:26442
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:26442
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:28002
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:26444
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:26444
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:28005
+
 type of search engine
 example: organic
-
-#### Defined in
-
-main.ts:26447
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:26447
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:28009
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:26451

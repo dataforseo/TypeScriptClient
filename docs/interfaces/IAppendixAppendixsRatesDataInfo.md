@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixAppendixsRatesDataInfo
+[Documentation](../README.md) / IAppendixAppendixsRatesDataInfo
 
 # Interface: IAppendixAppendixsRatesDataInfo
 
+Defined in: main.ts:231153
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:216095
+Defined in: main.ts:231155
 
 ***
 
@@ -26,6 +26,4 @@ main.ts:216095
 
 > `optional` **user\_data**: `number`
 
-#### Defined in
-
-main.ts:216094
+Defined in: main.ts:231154

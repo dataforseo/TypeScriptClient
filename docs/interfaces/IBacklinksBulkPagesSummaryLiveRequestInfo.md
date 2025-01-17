@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkPagesSummaryLiveRequestInfo
+[Documentation](../README.md) / IBacklinksBulkPagesSummaryLiveRequestInfo
 
 # Interface: IBacklinksBulkPagesSummaryLiveRequestInfo
 
+Defined in: main.ts:162477
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **include\_subdomains**: `boolean`
 
+Defined in: main.ts:162489
+
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
-
-#### Defined in
-
-main.ts:151183
 
 ***
 
@@ -31,15 +31,13 @@ main.ts:151183
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:162495
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:151189
 
 ***
 
@@ -47,13 +45,11 @@ main.ts:151189
 
 > `optional` **targets**: `string`[]
 
+Defined in: main.ts:162484
+
 domains, subdomains or webpages to get summary data for
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
 you can specify up to 1000 pages, domains, or subdomains in each request.
 note that the URLs you set in a single request cannot belong to more than 100 different domains.
-
-#### Defined in
-
-main.ts:151178

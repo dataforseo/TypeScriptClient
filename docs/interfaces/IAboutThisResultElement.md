@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAboutThisResultElement
+[Documentation](../README.md) / IAboutThisResultElement
 
 # Interface: IAboutThisResultElement
 
+Defined in: main.ts:23182
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language**: `string`
 
+Defined in: main.ts:23195
+
 the language of the result
-
-#### Defined in
-
-main.ts:22292
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:22292
 
 > `optional` **location**: `string`
 
+Defined in: main.ts:23197
+
 location for which the result is relevant
-
-#### Defined in
-
-main.ts:22294
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:22294
 
 > `optional` **related\_terms**: `string`[]
 
+Defined in: main.ts:23201
+
 related search terms that appear in the result
-
-#### Defined in
-
-main.ts:22298
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:22298
 
 > `optional` **search\_terms**: `string`[]
 
+Defined in: main.ts:23199
+
 matching search terms that appear in the result
-
-#### Defined in
-
-main.ts:22296
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:22296
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:23188
+
 source of additional information about the result
-
-#### Defined in
-
-main.ts:22285
 
 ***
 
@@ -76,12 +68,10 @@ main.ts:22285
 
 > `optional` **source\_info**: `string`
 
+Defined in: main.ts:23191
+
 additional information about the result
 description of the website from Wikipedia or another additional context
-
-#### Defined in
-
-main.ts:22288
 
 ***
 
@@ -89,11 +79,9 @@ main.ts:22288
 
 > `optional` **source\_url**: `string`
 
+Defined in: main.ts:23193
+
 URL to full information from the 'source'
-
-#### Defined in
-
-main.ts:22290
 
 ***
 
@@ -101,11 +89,9 @@ main.ts:22290
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:23184
+
 type of element
-
-#### Defined in
-
-main.ts:22281
 
 ***
 
@@ -113,8 +99,6 @@ main.ts:22281
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:23186
+
 result’s URL
-
-#### Defined in
-
-main.ts:22283

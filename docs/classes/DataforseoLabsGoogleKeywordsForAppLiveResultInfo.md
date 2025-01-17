@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForAppLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForAppLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveResultInfo
+
+Defined in: main.ts:121784
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleKeywordsForAppLiveResultInfo**(`data`?): [`DataforseoLabsGoogleKeywordsForAppLiveResultInfo`](DataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)
 
+Defined in: main.ts:121802
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordsForAppLiveResultInfo`](DataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:112369
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:112369
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:121788
+
 id of the app in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md).[`app_id`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md#app_id)
-
-#### Defined in
-
-main.ts:112355
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:112355
 
 > `optional` **items**: [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)[]
 
+Defined in: main.ts:121798
+
 contains data related to the ranking keywords for the app specified in the app_id field
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:112365
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:112365
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:121796
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:112363
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:112363
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:121792
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:112359
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:112359
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:121790
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:112357
 
 ***
 
@@ -118,15 +110,13 @@ main.ts:112357
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:121786
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:112353
 
 ***
 
@@ -134,15 +124,13 @@ main.ts:112353
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:121794
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveResultInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:112361
 
 ## Methods
 
@@ -150,17 +138,17 @@ main.ts:112361
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:121811
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:112378
 
 ***
 
@@ -168,17 +156,17 @@ main.ts:112378
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:121838
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:112405
 
 ***
 
@@ -186,14 +174,14 @@ main.ts:112405
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForAppLiveResultInfo`](DataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)
 
+Defined in: main.ts:121831
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordsForAppLiveResultInfo`](DataforseoLabsGoogleKeywordsForAppLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:112398

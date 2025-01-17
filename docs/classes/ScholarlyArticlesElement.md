@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ScholarlyArticlesElement
+[Documentation](../README.md) / ScholarlyArticlesElement
 
 # Class: ScholarlyArticlesElement
+
+Defined in: main.ts:34491
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ScholarlyArticlesElement**(`data`?): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
+Defined in: main.ts:34505
+
 #### Parameters
 
-• **data?**: [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md)
+##### data?
+
+[`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md)
 
 #### Returns
 
 [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
-
-#### Defined in
-
-main.ts:32709
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:32709
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:34499
+
 author
 
 #### Implementation of
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`author`](../interfaces/IScholarlyArticlesElement.md#author)
-
-#### Defined in
-
-main.ts:32703
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:32703
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:34501
+
 description
 
 #### Implementation of
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`description`](../interfaces/IScholarlyArticlesElement.md#description)
-
-#### Defined in
-
-main.ts:32705
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:32705
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:34495
+
 title of a given link element
 
 #### Implementation of
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`title`](../interfaces/IScholarlyArticlesElement.md#title)
-
-#### Defined in
-
-main.ts:32699
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:32699
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:34493
+
 type of element
 
 #### Implementation of
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`type`](../interfaces/IScholarlyArticlesElement.md#type)
-
-#### Defined in
-
-main.ts:32697
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:32697
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:34497
+
 URL
 
 #### Implementation of
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`url`](../interfaces/IScholarlyArticlesElement.md#url)
-
-#### Defined in
-
-main.ts:32701
 
 ## Methods
 
@@ -118,17 +110,17 @@ main.ts:32701
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:34514
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:32718
 
 ***
 
@@ -136,17 +128,17 @@ main.ts:32718
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:34535
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:32739
 
 ***
 
@@ -154,14 +146,14 @@ main.ts:32739
 
 > `static` **fromJS**(`data`): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
+Defined in: main.ts:34528
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
-
-#### Defined in
-
-main.ts:32732

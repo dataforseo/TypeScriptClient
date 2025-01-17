@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixErrorsResultInfo
+[Documentation](../README.md) / AppendixErrorsResultInfo
 
 # Class: AppendixErrorsResultInfo
+
+Defined in: main.ts:239096
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixErrorsResultInfo**(`data`?): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
+Defined in: main.ts:239104
+
 #### Parameters
 
-• **data?**: [`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md)
+##### data?
+
+[`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md)
 
 #### Returns
 
 [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:223816
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:223816
 
 > `optional` **code**: `number`
 
+Defined in: main.ts:239098
+
 code
 
 #### Implementation of
 
 [`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md).[`code`](../interfaces/IAppendixErrorsResultInfo.md#code)
-
-#### Defined in
-
-main.ts:223810
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:223810
 
 > `optional` **message**: `string`
 
+Defined in: main.ts:239100
+
 message
 
 #### Implementation of
 
 [`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md).[`message`](../interfaces/IAppendixErrorsResultInfo.md#message)
-
-#### Defined in
-
-main.ts:223812
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:223812
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:239113
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:223825
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:223825
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:239131
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:223843
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:223843
 
 > `static` **fromJS**(`data`): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
+Defined in: main.ts:239124
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
-
-#### Defined in
-
-main.ts:223836

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
+
+Defined in: main.ts:232080
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:232088
+
 #### Parameters
 
-• **data?**: [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:217024
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:217024
 
 > `optional` **categories**: `number`
 
+Defined in: main.ts:232083
+
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`categories`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories)
-
-#### Defined in
-
-main.ts:217019
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:217019
 
 > `optional` **categories\_aggregation**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232082
+
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`categories_aggregation`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories_aggregation)
-
-#### Defined in
-
-main.ts:217018
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:217018
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:232084
+
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#locations)
-
-#### Defined in
-
-main.ts:217020
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:217020
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232081
+
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`search`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#search)
-
-#### Defined in
-
-main.ts:217017
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:217017
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:232097
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:217033
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:217033
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:232117
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:217053
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:217053
 
 > `static` **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:232110
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:217046

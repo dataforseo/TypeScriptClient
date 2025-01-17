@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisCategoryTrendsLiveRequestInfo
+[Documentation](../README.md) / ContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Class: ContentAnalysisCategoryTrendsLiveRequestInfo
+
+Defined in: main.ts:180544
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentAnalysisCategoryTrendsLiveRequestInfo**(`data`?): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
+Defined in: main.ts:180617
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md)
+##### data?
+
+[`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:168927
 
 ## Properties
 
 ### category\_code?
 
 > `optional` **category\_code**: `string`
+
+Defined in: main.ts:180548
 
 target category code
 required field
@@ -46,15 +50,13 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`category_code`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#category_code)
 
-#### Defined in
-
-main.ts:168858
-
 ***
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:180578
 
 starting date of the time range
 required field
@@ -66,15 +68,13 @@ example:
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`date_from`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:168888
-
 ***
 
 ### date\_group?
 
 > `optional` **date\_group**: `string`
+
+Defined in: main.ts:180590
 
 time range which will be used to group the results
 optional field
@@ -85,15 +85,13 @@ possible values: day, week, month
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`date_group`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_group)
 
-#### Defined in
-
-main.ts:168900
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:180585
 
 ending date of the time range
 optional field
@@ -106,15 +104,13 @@ example:
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`date_to`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:168895
-
 ***
 
 ### initial\_dataset\_filters?
 
 > `optional` **initial\_dataset\_filters**: `any`[]
+
+Defined in: main.ts:180607
 
 initial dataset filtering parameters
 optional field
@@ -137,15 +133,13 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#initial_dataset_filters)
 
-#### Defined in
-
-main.ts:168917
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:180572
 
 maximum number of elements within internal arrays
 optional field
@@ -162,15 +156,13 @@ maximum value: 20
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
-
-main.ts:168882
-
 ***
 
 ### page\_type?
 
 > `optional` **page\_type**: `string`[]
+
+Defined in: main.ts:180554
 
 target page types
 optional field
@@ -182,15 +174,13 @@ possible values:
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#page_type)
 
-#### Defined in
-
-main.ts:168864
-
 ***
 
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
+
+Defined in: main.ts:180561
 
 results grouping type
 optional field
@@ -203,15 +193,13 @@ default value: as_is
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`search_mode`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#search_mode)
 
-#### Defined in
-
-main.ts:168871
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:180613
 
 user-defined task identifier
 optional field
@@ -223,27 +211,23 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:168923
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:180626
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:168936
 
 ***
 
@@ -251,17 +235,17 @@ main.ts:168936
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:180659
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:168969
 
 ***
 
@@ -269,14 +253,14 @@ main.ts:168969
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
+Defined in: main.ts:180652
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:168962

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RankChanges
+[Documentation](../README.md) / RankChanges
 
 # Class: RankChanges
+
+Defined in: main.ts:100968
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new RankChanges**(`data`?): [`RankChanges`](RankChanges.md)
 
+Defined in: main.ts:100985
+
 #### Parameters
 
-• **data?**: [`IRankChanges`](../interfaces/IRankChanges.md)
+##### data?
+
+[`IRankChanges`](../interfaces/IRankChanges.md)
 
 #### Returns
 
 [`RankChanges`](RankChanges.md)
-
-#### Defined in
-
-main.ts:91174
 
 ## Properties
 
 ### is\_down?
 
 > `optional` **is\_down**: `boolean`
+
+Defined in: main.ts:100981
 
 rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check
@@ -45,15 +49,13 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 [`IRankChanges`](../interfaces/IRankChanges.md).[`is_down`](../interfaces/IRankChanges.md#is_down)
 
-#### Defined in
-
-main.ts:91170
-
 ***
 
 ### is\_new?
 
 > `optional` **is\_new**: `boolean`
+
+Defined in: main.ts:100975
 
 element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element
@@ -62,15 +64,13 @@ if the value is true, previously collected SERP didn’t contain this element
 
 [`IRankChanges`](../interfaces/IRankChanges.md).[`is_new`](../interfaces/IRankChanges.md#is_new)
 
-#### Defined in
-
-main.ts:91164
-
 ***
 
 ### is\_up?
 
 > `optional` **is\_up**: `boolean`
+
+Defined in: main.ts:100978
 
 rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check
@@ -79,15 +79,13 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 [`IRankChanges`](../interfaces/IRankChanges.md).[`is_up`](../interfaces/IRankChanges.md#is_up)
 
-#### Defined in
-
-main.ts:91167
-
 ***
 
 ### previous\_rank\_absolute?
 
 > `optional` **previous\_rank\_absolute**: `number`
+
+Defined in: main.ts:100972
 
 previous absolute rank in SERP
 indicates previous rank of the element in Google SERP;
@@ -97,27 +95,23 @@ if this element is new, the value will be null
 
 [`IRankChanges`](../interfaces/IRankChanges.md).[`previous_rank_absolute`](../interfaces/IRankChanges.md#previous_rank_absolute)
 
-#### Defined in
-
-main.ts:91161
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:100994
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:91183
 
 ***
 
@@ -125,17 +119,17 @@ main.ts:91183
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:101014
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:91203
 
 ***
 
@@ -143,14 +137,14 @@ main.ts:91203
 
 > `static` **fromJS**(`data`): [`RankChanges`](RankChanges.md)
 
+Defined in: main.ts:101007
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`RankChanges`](RankChanges.md)
-
-#### Defined in
-
-main.ts:91196

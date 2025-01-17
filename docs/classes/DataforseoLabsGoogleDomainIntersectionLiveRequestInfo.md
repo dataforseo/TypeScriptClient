@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
+
+Defined in: main.ts:103208
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleDomainIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
 
+Defined in: main.ts:103331
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:93512
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:103305
 
 array of results filtering parameters
 optional field
@@ -59,19 +63,17 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:93486
-
 ***
 
 ### include\_clickstream\_data?
 
 > `optional` **include\_clickstream\_data**: `boolean`
 
+Defined in: main.ts:103278
+
 include or exclude data from clickstream-based metrics in the result
 optional field
-if the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, keyword_info_normalized_with_clickstream, and keyword_info_normalized_with_bing fields in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
 learn more about how clickstream-based metrics are calculated in this help center article
@@ -80,15 +82,13 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#include_clickstream_data)
 
-#### Defined in
-
-main.ts:93459
-
 ***
 
 ### include\_serp\_info?
 
 > `optional` **include\_serp\_info**: `boolean`
+
+Defined in: main.ts:103271
 
 include data from SERP for each keyword
 optional field
@@ -99,15 +99,13 @@ default value: false
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#include_serp_info)
 
-#### Defined in
-
-main.ts:93452
-
 ***
 
 ### intersections?
 
 > `optional` **intersections**: `boolean`
+
+Defined in: main.ts:103258
 
 domain intersections in SERP
 optional field
@@ -121,15 +119,13 @@ default value: true
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`intersections`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#intersections)
 
-#### Defined in
-
-main.ts:93439
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:103266
 
 search results type
 indicates type of search results included in the response
@@ -143,15 +139,13 @@ default value:
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:93447
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:103250
 
 language code
 required field if you don’t specify language_name
@@ -165,15 +159,13 @@ en
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:93431
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:103242
 
 full name of the language
 required field if you don’t specify language_code
@@ -187,15 +179,13 @@ English
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:93423
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:103283
 
 the maximum number of returned keywords
 optional field
@@ -206,15 +196,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:93464
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:103234
 
 location code
 required field if you don’t specify location_name
@@ -228,15 +216,13 @@ example:
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:93415
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:103226
 
 full name of the location
 required field if you don’t specify location_code
@@ -250,15 +236,13 @@ United Kingdom
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:93407
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:103288
 
 offset in the items array of returned keywords
 optional field
@@ -269,15 +253,13 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:93469
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:103321
 
 results sorting rules
 optional field
@@ -299,15 +281,13 @@ example:
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:93502
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:103327
 
 user-defined task identifier
 optional field
@@ -319,15 +299,13 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:93508
-
 ***
 
 ### target1?
 
 > `optional` **target1**: `string`
+
+Defined in: main.ts:103213
 
 domain
 required field
@@ -338,15 +316,13 @@ the domain should be specified without https:// and www.
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`target1`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#target1)
 
-#### Defined in
-
-main.ts:93394
-
 ***
 
 ### target2?
 
 > `optional` **target2**: `string`
+
+Defined in: main.ts:103218
 
 domain
 required field
@@ -357,27 +333,23 @@ the domain should be specified without https:// and www.
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`target2`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#target2)
 
-#### Defined in
-
-main.ts:93399
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:103340
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:93521
 
 ***
 
@@ -385,17 +357,17 @@ main.ts:93521
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:103383
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:93564
 
 ***
 
@@ -403,14 +375,14 @@ main.ts:93564
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
 
+Defined in: main.ts:103376
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](DataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:93557

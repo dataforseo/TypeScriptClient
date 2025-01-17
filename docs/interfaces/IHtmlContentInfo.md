@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHtmlContentInfo
+[Documentation](../README.md) / IHtmlContentInfo
 
 # Interface: IHtmlContentInfo
 
+Defined in: main.ts:166115
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **automated\_readability\_index**: `number`
 
+Defined in: main.ts:166124
+
 Automated Readability Index
-
-#### Defined in
-
-main.ts:154396
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:154396
 
 > `optional` **coleman\_liau\_readability\_index**: `number`
 
+Defined in: main.ts:166126
+
 Coleman–Liau Index
-
-#### Defined in
-
-main.ts:154398
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:154398
 
 > `optional` **dale\_chall\_readability\_index**: `number`
 
+Defined in: main.ts:166128
+
 Dale–Chall Readability Index
-
-#### Defined in
-
-main.ts:154400
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:154400
 
 > `optional` **description\_to\_content\_consistency**: `number`
 
+Defined in: main.ts:166135
+
 consistency of the meta description tag with the page content
 measured from 0 to 1
-
-#### Defined in
-
-main.ts:154407
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:154407
 
 > `optional` **flesch\_kincaid\_readability\_index**: `number`
 
+Defined in: main.ts:166130
+
 Flesch–Kincaid Readability Index
-
-#### Defined in
-
-main.ts:154402
 
 ***
 
@@ -77,12 +69,10 @@ main.ts:154402
 
 > `optional` **meta\_keywords\_to\_content\_consistency**: `number`
 
+Defined in: main.ts:166141
+
 consistency of meta keywordstag with the page content
 measured from 0 to 1
-
-#### Defined in
-
-main.ts:154413
 
 ***
 
@@ -90,12 +80,10 @@ main.ts:154413
 
 > `optional` **plain\_text\_rate**: `number`
 
+Defined in: main.ts:166120
+
 plaintext rate value
 plain_text_size to size ratio
-
-#### Defined in
-
-main.ts:154392
 
 ***
 
@@ -103,11 +91,9 @@ main.ts:154392
 
 > `optional` **plain\_text\_size**: `number`
 
+Defined in: main.ts:166117
+
 total size of the text on the page measured in bytes
-
-#### Defined in
-
-main.ts:154389
 
 ***
 
@@ -115,11 +101,9 @@ main.ts:154389
 
 > `optional` **plain\_text\_word\_count**: `number`
 
+Defined in: main.ts:166122
+
 number of words on the page
-
-#### Defined in
-
-main.ts:154394
 
 ***
 
@@ -127,11 +111,9 @@ main.ts:154394
 
 > `optional` **smog\_readability\_index**: `number`
 
+Defined in: main.ts:166132
+
 SMOG Readability Index
-
-#### Defined in
-
-main.ts:154404
 
 ***
 
@@ -139,9 +121,7 @@ main.ts:154404
 
 > `optional` **title\_to\_content\_consistency**: `number`
 
+Defined in: main.ts:166138
+
 consistency of the meta title tag with the page content
 measured from 0 to 1
-
-#### Defined in
-
-main.ts:154410

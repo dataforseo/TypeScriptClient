@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksReferringNetworksLiveRequestInfo
+[Documentation](../README.md) / IBacklinksReferringNetworksLiveRequestInfo
 
 # Interface: IBacklinksReferringNetworksLiveRequestInfo
 
+Defined in: main.ts:156236
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### backlinks\_filters?
 
 > `optional` **backlinks\_filters**: `any`[]
+
+Defined in: main.ts:156315
 
 filter the backlinks of your target
 optional field
@@ -24,15 +28,13 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 "backlinks_filters": [["dofollow", "=", true]]
 
-#### Defined in
-
-main.ts:145009
-
 ***
 
 ### backlinks\_status\_type?
 
 > `optional` **backlinks\_status\_type**: `string`
+
+Defined in: main.ts:156276
 
 set what backlinks to return and count
 optional field
@@ -43,30 +45,26 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Defined in
-
-main.ts:144970
-
 ***
 
 ### exclude\_internal\_backlinks?
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
 
+Defined in: main.ts:156331
+
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
 if set to false, the backlinks from subdomains of the target will be ommited and you won’t receive the same domain in the response;
 default value: true
-
-#### Defined in
-
-main.ts:145025
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:156293
 
 array of results filtering parameters
 optional field
@@ -85,15 +83,13 @@ example:
 [["network_address","like","194.1.%"],"or",["referring_ips",">","10"]]]
 The full list of possible filters is available here.
 
-#### Defined in
-
-main.ts:144987
-
 ***
 
 ### include\_indirect\_links?
 
 > `optional` **include\_indirect\_links**: `boolean`
+
+Defined in: main.ts:156326
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -101,30 +97,26 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Defined in
-
-main.ts:145020
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
 
+Defined in: main.ts:156320
+
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
-
-#### Defined in
-
-main.ts:145014
 
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:156267
 
 maximum number of elements within internal arrays
 optional field
@@ -137,24 +129,18 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000
 
-#### Defined in
-
-main.ts:144961
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:156251
+
 the maximum number of returned networks
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:144945
 
 ***
 
@@ -162,14 +148,12 @@ main.ts:144945
 
 > `optional` **network\_address\_type**: `string`
 
+Defined in: main.ts:156246
+
 indicates the type of network to get data for
 optional field
 possible values: ip, subnet
 default value: ip
-
-#### Defined in
-
-main.ts:144940
 
 ***
 
@@ -177,20 +161,20 @@ main.ts:144940
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:156256
+
 offset in the results array of returned networks
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive pages
-
-#### Defined in
-
-main.ts:144950
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:156307
 
 results sorting rules
 optional field
@@ -206,15 +190,13 @@ you should use a comma to separate several sorting rules
 example:
 ["backlinks,desc","rank,asc"]
 
-#### Defined in
-
-main.ts:145001
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:156337
 
 user-defined task identifier
 optional field
@@ -222,21 +204,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:145031
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:156241
+
 domain, subdomain or webpage to get referring networks for
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
-
-#### Defined in
-
-main.ts:144935

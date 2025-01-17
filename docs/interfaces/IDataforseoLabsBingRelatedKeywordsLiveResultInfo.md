@@ -1,26 +1,26 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingRelatedKeywordsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingRelatedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsBingRelatedKeywordsLiveResultInfo
 
+Defined in: main.ts:119156
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingRelatedKeywordsLiveItem`](../classes/DataforseoLabsBingRelatedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](../classes/DataforseoLabsRelatedKeywordsLiveItem.md)[]
+
+Defined in: main.ts:119173
 
 contains keywords and related data
-
-#### Defined in
-
-main.ts:109740
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:109740
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:119171
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:109738
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:109738
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:119167
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:109734
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:109734
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:119165
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:109732
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:109732
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:119158
+
 search engine type
-
-#### Defined in
-
-main.ts:109725
 
 ***
 
@@ -76,24 +68,20 @@ main.ts:109725
 
 > `optional` **seed\_keyword**: `string`
 
+Defined in: main.ts:119160
+
 keyword in a POST array
-
-#### Defined in
-
-main.ts:109727
 
 ***
 
 ### seed\_keyword\_data?
 
-> `optional` **seed\_keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> `optional` **seed\_keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
+
+Defined in: main.ts:119163
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
-
-#### Defined in
-
-main.ts:109730
 
 ***
 
@@ -101,8 +89,6 @@ main.ts:109730
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:119169
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:109736

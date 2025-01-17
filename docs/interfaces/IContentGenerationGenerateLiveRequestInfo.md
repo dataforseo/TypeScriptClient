@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateLiveRequestInfo
+[Documentation](../README.md) / IContentGenerationGenerateLiveRequestInfo
 
 # Interface: IContentGenerationGenerateLiveRequestInfo
 
+Defined in: main.ts:181278
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **avoid\_starting\_words**: `string`[]
 
+Defined in: main.ts:181349
+
 words or phrases to avoid in the beginning of the generated text
 optional field
 you can specify up to 50 terms;
 example:
 ["SEO", "search engine optimization"]
-
-#### Defined in
-
-main.ts:169659
 
 ***
 
@@ -32,21 +32,21 @@ main.ts:169659
 
 > `optional` **avoid\_words**: `string`[]
 
+Defined in: main.ts:181343
+
 words or phrases to avoid when generating a text
 optional field
 you can specify up to 50 terms;
 example:
 ["term", "optimization"]
 
-#### Defined in
-
-main.ts:169653
-
 ***
 
 ### creativity\_index?
 
 > `optional` **creativity\_index**: `number`
+
+Defined in: main.ts:181306
 
 creativity of content generation
 optional field
@@ -56,15 +56,13 @@ can take values from 0 to 1
 default value: 0.8
 learn more about this parameter on our help center
 
-#### Defined in
-
-main.ts:169616
-
 ***
 
 ### max\_new\_tokens?
 
 > `optional` **max\_new\_tokens**: `number`
+
+Defined in: main.ts:181291
 
 generation limit for new tokens
 required field if max_tokens is not specified
@@ -73,15 +71,13 @@ maximum value: 300;
 Note: the number does not include tokens specified in the text field;
 learn more about this parameter on our help center
 
-#### Defined in
-
-main.ts:169601
-
 ***
 
 ### max\_tokens?
 
 > `optional` **max\_tokens**: `number`
+
+Defined in: main.ts:181298
 
 generation limit for all tokens
 required field if max_new_tokens is not specified
@@ -90,15 +86,13 @@ maximum value: 1024;
 Note: the number includes tokens specified in the text field
 learn more about this parameter on our help center
 
-#### Defined in
-
-main.ts:169608
-
 ***
 
 ### stop\_words?
 
 > `optional` **stop\_words**: `string`[]
+
+Defined in: main.ts:181355
 
 words or phrases to end the text
 optional field
@@ -106,15 +100,13 @@ you can specify up to 50 terms;
 example:
 ["now","subscribe"]
 
-#### Defined in
-
-main.ts:169665
-
 ***
 
 ### supplement\_token?
 
 > `optional` **supplement\_token**: `string`
+
+Defined in: main.ts:181361
 
 token for generating subsequent results
 optional field
@@ -122,15 +114,13 @@ provided in the identical filed of the response to each request;
 you can use this parameter to continue the generation of text from the initial response
 supplement_token values are unique for each subsequent task
 
-#### Defined in
-
-main.ts:169671
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:181367
 
 user-defined task identifier
 optional field
@@ -138,15 +128,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:169677
-
 ***
 
 ### temperature?
 
 > `optional` **temperature**: `number`
+
+Defined in: main.ts:181337
 
 controls the randomness in the output
 optional field
@@ -156,15 +144,13 @@ can take values from 0 to 1;
 default value: 0.7
 learn more about this parameter on our help center
 
-#### Defined in
-
-main.ts:169647
-
 ***
 
 ### text?
 
 > `optional` **text**: `string`
+
+Defined in: main.ts:181284
 
 initial target text
 required field
@@ -172,15 +158,13 @@ text input for content generation;
 can contain from 1 to 500 tokens
 learn more about tokens on our help center
 
-#### Defined in
-
-main.ts:169594
-
 ***
 
 ### token\_repetition\_penalty?
 
 > `optional` **token\_repetition\_penalty**: `number`
+
+Defined in: main.ts:181312
 
 token repetition
 optional field
@@ -188,15 +172,13 @@ limits the repetition of the same tokens in the generated content;
 can take values from 0.5 to 2;
 default value: 1
 
-#### Defined in
-
-main.ts:169622
-
 ***
 
 ### top\_k?
 
 > `optional` **top\_k**: `number`
+
+Defined in: main.ts:181320
 
 the number of initial tokens in each iteration for choosing a subsequent word
 optional field
@@ -206,15 +188,13 @@ can take values from 1 to 100;
 default value: 40
 learn more about this parameter on our help center
 
-#### Defined in
-
-main.ts:169630
-
 ***
 
 ### top\_p?
 
 > `optional` **top\_p**: `number`
+
+Defined in: main.ts:181329
 
 excludes initial tokens with probability lower than one
 optional field
@@ -224,7 +204,3 @@ can take values from 0 to 1
 default value: 0.9
 Note:if both top_k and top_p are used, top_k acts first;
 learn more about this parameter on our help center
-
-#### Defined in
-
-main.ts:169639

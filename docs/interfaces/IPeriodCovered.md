@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPeriodCovered
+[Documentation](../README.md) / IPeriodCovered
 
 # Interface: IPeriodCovered
 
+Defined in: main.ts:57771
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **displayed\_date**: `string`
 
+Defined in: main.ts:57785
+
 period displayed in SERP
 example:
 Mar 2, 2020 - Dec 9, 2022
-
-#### Defined in
-
-main.ts:54091
 
 ***
 
@@ -30,14 +30,12 @@ main.ts:54091
 
 > `optional` **end\_date**: `string`
 
+Defined in: main.ts:57781
+
 date and time when the period ends
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-12-09 02:00:00 +00:00
-
-#### Defined in
-
-main.ts:54087
 
 ***
 
@@ -45,11 +43,9 @@ main.ts:54087
 
 > `optional` **start\_date**: `string`
 
+Defined in: main.ts:57776
+
 date and time when the period starts
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2020-03-02 02:00:00 +00:00
-
-#### Defined in
-
-main.ts:54082

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AnalysisContentInfo
+[Documentation](../README.md) / AnalysisContentInfo
 
 # Class: AnalysisContentInfo
+
+Defined in: main.ts:177748
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AnalysisContentInfo**(`data`?): [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
+Defined in: main.ts:177813
+
 #### Parameters
 
-• **data?**: [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md)
+##### data?
+
+[`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md)
 
 #### Returns
 
 [`AnalysisContentInfo`](AnalysisContentInfo.md)
-
-#### Defined in
-
-main.ts:166123
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:166123
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:177763
+
 author of the content
 
 #### Implementation of
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`author`](../interfaces/IAnalysisContentInfo.md#author)
-
-#### Defined in
-
-main.ts:166073
 
 ***
 
@@ -54,27 +54,27 @@ main.ts:166073
 
 > `optional` **connotation\_types**: `object`
 
+Defined in: main.ts:177783
+
 connotation types
 contains types of sentiments (sentiment polarity) related to the given citation and probability index per each sentiment type
 possible sentiment connotation types: positive, negative, neutral
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`connotation_types`](../interfaces/IAnalysisContentInfo.md#connotation_types)
-
-#### Defined in
-
-main.ts:166093
 
 ***
 
 ### content\_quality\_score?
 
 > `optional` **content\_quality\_score**: `number`
+
+Defined in: main.ts:177794
 
 content quality score
 this value is calculated based on the number of words, sentences and characters the content contains
@@ -83,15 +83,13 @@ this value is calculated based on the number of words, sentences and characters 
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`content_quality_score`](../interfaces/IAnalysisContentInfo.md#content_quality_score)
 
-#### Defined in
-
-main.ts:166104
-
 ***
 
 ### content\_type?
 
 > `optional` **content\_type**: `string`
+
+Defined in: main.ts:177752
 
 type of content
 example:
@@ -101,15 +99,13 @@ page_content, comment
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`content_type`](../interfaces/IAnalysisContentInfo.md#content_type)
 
-#### Defined in
-
-main.ts:166062
-
 ***
 
 ### date\_published?
 
 > `optional` **date\_published**: `string`
+
+Defined in: main.ts:177791
 
 date and time when the content was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -120,15 +116,13 @@ example:
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`date_published`](../interfaces/IAnalysisContentInfo.md#date_published)
 
-#### Defined in
-
-main.ts:166101
-
 ***
 
 ### group\_date?
 
 > `optional` **group\_date**: `string`
+
+Defined in: main.ts:177809
 
 citation group date and time
 indicates content publication date or date and time when our crawler visited the page for the first time;
@@ -141,15 +135,13 @@ example:
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`group_date`](../interfaces/IAnalysisContentInfo.md#group_date)
 
-#### Defined in
-
-main.ts:166119
-
 ***
 
 ### highlighted\_text?
 
 > `optional` **highlighted\_text**: `string`
+
+Defined in: main.ts:177772
 
 highlighted text from the snippet
 
@@ -157,15 +149,13 @@ highlighted text from the snippet
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`highlighted_text`](../interfaces/IAnalysisContentInfo.md#highlighted_text)
 
-#### Defined in
-
-main.ts:166082
-
 ***
 
 ### language?
 
 > `optional` **language**: `string`
+
+Defined in: main.ts:177775
 
 content language
 to obtain a full list of available languages, refer to the Languages endpoint
@@ -174,15 +164,13 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`language`](../interfaces/IAnalysisContentInfo.md#language)
 
-#### Defined in
-
-main.ts:166085
-
 ***
 
 ### level?
 
 > `optional` **level**: `number`
+
+Defined in: main.ts:177761
 
 title heading level
 indicates h-tag level from 1 (top) to 6 (bottom)
@@ -191,15 +179,13 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`level`](../interfaces/IAnalysisContentInfo.md#level)
 
-#### Defined in
-
-main.ts:166071
-
 ***
 
 ### main\_title?
 
 > `optional` **main\_title**: `string`
+
+Defined in: main.ts:177756
 
 page title
 
@@ -207,15 +193,13 @@ page title
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`main_title`](../interfaces/IAnalysisContentInfo.md#main_title)
 
-#### Defined in
-
-main.ts:166066
-
 ***
 
 ### previous\_title?
 
 > `optional` **previous\_title**: `string`
+
+Defined in: main.ts:177758
 
 title of the previous content block
 
@@ -223,15 +207,13 @@ title of the previous content block
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`previous_title`](../interfaces/IAnalysisContentInfo.md#previous_title)
 
-#### Defined in
-
-main.ts:166068
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`ContentAnalysisRatingInfo`](ContentAnalysisRatingInfo.md)
+
+Defined in: main.ts:177802
 
 content rating
 rating related to content_info
@@ -240,15 +222,13 @@ rating related to content_info
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`rating`](../interfaces/IAnalysisContentInfo.md#rating)
 
-#### Defined in
-
-main.ts:166112
-
 ***
 
 ### semantic\_location?
 
 > `optional` **semantic\_location**: `string`
+
+Defined in: main.ts:177799
 
 semantic location
 indicates semantic element in HTML where the target keyword citation is located
@@ -259,15 +239,13 @@ article, header
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`semantic_location`](../interfaces/IAnalysisContentInfo.md#semantic_location)
 
-#### Defined in
-
-main.ts:166109
-
 ***
 
 ### sentiment\_connotations?
 
 > `optional` **sentiment\_connotations**: `object`
+
+Defined in: main.ts:177779
 
 sentiment connotations
 contains sentiments (emotional reactions) related to the given citation and probability index per each sentiment
@@ -275,15 +253,11 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`sentiment_connotations`](../interfaces/IAnalysisContentInfo.md#sentiment_connotations)
-
-#### Defined in
-
-main.ts:166089
 
 ***
 
@@ -291,15 +265,13 @@ main.ts:166089
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:177765
+
 content snippet
 
 #### Implementation of
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`snippet`](../interfaces/IAnalysisContentInfo.md#snippet)
-
-#### Defined in
-
-main.ts:166075
 
 ***
 
@@ -307,21 +279,21 @@ main.ts:166075
 
 > `optional` **snippet\_length**: `number`
 
+Defined in: main.ts:177767
+
 character length of the snippet
 
 #### Implementation of
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`snippet_length`](../interfaces/IAnalysisContentInfo.md#snippet_length)
 
-#### Defined in
-
-main.ts:166077
-
 ***
 
 ### social\_metrics?
 
 > `optional` **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
+
+Defined in: main.ts:177770
 
 social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms
@@ -330,15 +302,13 @@ data on social media interactions associated with the content based on website e
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`social_metrics`](../interfaces/IAnalysisContentInfo.md#social_metrics)
 
-#### Defined in
-
-main.ts:166080
-
 ***
 
 ### text\_category?
 
 > `optional` **text\_category**: `number`[]
+
+Defined in: main.ts:177786
 
 text category
 to obtain a full list of available categories, refer to the Categories endpoint
@@ -347,15 +317,13 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`text_category`](../interfaces/IAnalysisContentInfo.md#text_category)
 
-#### Defined in
-
-main.ts:166096
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:177754
 
 title of the result
 
@@ -363,27 +331,23 @@ title of the result
 
 [`IAnalysisContentInfo`](../interfaces/IAnalysisContentInfo.md).[`title`](../interfaces/IAnalysisContentInfo.md#title)
 
-#### Defined in
-
-main.ts:166064
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:177822
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:166132
 
 ***
 
@@ -391,17 +355,17 @@ main.ts:166132
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:177877
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:166187
 
 ***
 
@@ -409,14 +373,14 @@ main.ts:166187
 
 > `static` **fromJS**(`data`): [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
+Defined in: main.ts:177870
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AnalysisContentInfo`](AnalysisContentInfo.md)
-
-#### Defined in
-
-main.ts:166180

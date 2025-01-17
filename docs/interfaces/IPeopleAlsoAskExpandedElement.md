@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPeopleAlsoAskExpandedElement
+[Documentation](../README.md) / IPeopleAlsoAskExpandedElement
 
 # Interface: IPeopleAlsoAskExpandedElement
 
+Defined in: main.ts:31845
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:31857
+
 description of the results element in SERP
-
-#### Defined in
-
-main.ts:30024
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:30024
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:31853
+
 domain where a link points
-
-#### Defined in
-
-main.ts:30020
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:30020
 
 > `optional` **featured\_title**: `string`
 
+Defined in: main.ts:31849
+
 the title of the featured snippets source page
-
-#### Defined in
-
-main.ts:30016
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:30016
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
+Defined in: main.ts:31859
+
 images of the element
-
-#### Defined in
-
-main.ts:30026
 
 ***
 
@@ -64,12 +58,9 @@ main.ts:30026
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-results table
-if there are none, equals null
+Defined in: main.ts:31866
 
-#### Defined in
-
-main.ts:30034
+table element
 
 ***
 
@@ -77,14 +68,12 @@ main.ts:30034
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:31864
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:30031
 
 ***
 
@@ -92,11 +81,9 @@ main.ts:30031
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:31855
+
 title of the carousel item
-
-#### Defined in
-
-main.ts:30022
 
 ***
 
@@ -104,11 +91,9 @@ main.ts:30022
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:31847
+
 type of element
-
-#### Defined in
-
-main.ts:30014
 
 ***
 
@@ -116,8 +101,6 @@ main.ts:30014
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:31851
+
 URL of element
-
-#### Defined in
-
-main.ts:30018

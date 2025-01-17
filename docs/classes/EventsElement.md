@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / EventsElement
+[Documentation](../README.md) / EventsElement
 
 # Class: EventsElement
+
+Defined in: main.ts:33833
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new EventsElement**(`data`?): [`EventsElement`](EventsElement.md)
 
+Defined in: main.ts:33845
+
 #### Parameters
 
-• **data?**: [`IEventsElement`](../interfaces/IEventsElement.md)
+##### data?
+
+[`IEventsElement`](../interfaces/IEventsElement.md)
 
 #### Returns
 
 [`EventsElement`](EventsElement.md)
-
-#### Defined in
-
-main.ts:32039
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:32039
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:33839
+
 text alongside the link title
 
 #### Implementation of
 
 [`IEventsElement`](../interfaces/IEventsElement.md).[`snippet`](../interfaces/IEventsElement.md#snippet)
-
-#### Defined in
-
-main.ts:32033
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:32033
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:33837
+
 title of a given link element
 
 #### Implementation of
 
 [`IEventsElement`](../interfaces/IEventsElement.md).[`title`](../interfaces/IEventsElement.md#title)
-
-#### Defined in
-
-main.ts:32031
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:32031
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:33835
+
 type of element
 
 #### Implementation of
 
 [`IEventsElement`](../interfaces/IEventsElement.md).[`type`](../interfaces/IEventsElement.md#type)
-
-#### Defined in
-
-main.ts:32029
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:32029
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:33841
+
 URL
 
 #### Implementation of
 
 [`IEventsElement`](../interfaces/IEventsElement.md).[`url`](../interfaces/IEventsElement.md#url)
-
-#### Defined in
-
-main.ts:32035
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:32035
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:33854
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:32048
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:32048
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:33874
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:32068
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:32068
 
 > `static` **fromJS**(`data`): [`EventsElement`](EventsElement.md)
 
+Defined in: main.ts:33867
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`EventsElement`](EventsElement.md)
-
-#### Defined in
-
-main.ts:32061

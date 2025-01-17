@@ -1,24 +1,40 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBingKeywordsDataDayStatisticsDataInfo
+[Documentation](../README.md) / IAppendixBingKeywordsDataDayStatisticsDataInfo
 
 # Interface: IAppendixBingKeywordsDataDayStatisticsDataInfo
 
+Defined in: main.ts:233416
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixInfo`](../classes/AppendixInfo.md)
+
+Defined in: main.ts:233421
+
+***
 
 ### keyword\_performance?
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
+Defined in: main.ts:233417
 
-main.ts:218335
+***
+
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](../classes/AppendixInfo.md)
+
+Defined in: main.ts:233422
 
 ***
 
@@ -26,9 +42,7 @@ main.ts:218335
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:218338
+Defined in: main.ts:233420
 
 ***
 
@@ -36,9 +50,7 @@ main.ts:218338
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:218337
+Defined in: main.ts:233419
 
 ***
 
@@ -46,9 +58,7 @@ main.ts:218337
 
 > `optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:218336
+Defined in: main.ts:233418
 
 ***
 
@@ -56,6 +66,4 @@ main.ts:218336
 
 > `optional` **search\_volume\_history**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:218339
+Defined in: main.ts:233423

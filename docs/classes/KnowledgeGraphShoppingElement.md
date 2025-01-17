@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphShoppingElement
+[Documentation](../README.md) / KnowledgeGraphShoppingElement
 
 # Class: KnowledgeGraphShoppingElement
+
+Defined in: main.ts:30367
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KnowledgeGraphShoppingElement**(`data`?): [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)
 
+Defined in: main.ts:30394
+
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md)
+##### data?
+
+[`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md)
 
 #### Returns
 
 [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)
-
-#### Defined in
-
-main.ts:28824
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:28824
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:30375
+
 website domain
 
 #### Implementation of
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`domain`](../interfaces/IKnowledgeGraphShoppingElement.md#domain)
 
-#### Defined in
-
-main.ts:28805
-
 ***
 
 ### marketplace?
 
 > `optional` **marketplace**: `string`
+
+Defined in: main.ts:30387
 
 merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
@@ -63,15 +65,13 @@ by Google
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`marketplace`](../interfaces/IKnowledgeGraphShoppingElement.md#marketplace)
 
-#### Defined in
-
-main.ts:28817
-
 ***
 
 ### marketplace\_url?
 
 > `optional` **marketplace\_url**: `string`
+
+Defined in: main.ts:30390
 
 URL to the merchant account provider
 ecommerce site that hosts products or websites of individual sellers under the same merchant account
@@ -80,15 +80,13 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`marketplace_url`](../interfaces/IKnowledgeGraphShoppingElement.md#marketplace_url)
 
-#### Defined in
-
-main.ts:28820
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:30378
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -97,15 +95,13 @@ contains the pricing details of the product or service featured in the result
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`price`](../interfaces/IKnowledgeGraphShoppingElement.md#price)
 
-#### Defined in
-
-main.ts:28808
-
 ***
 
 ### snippet?
 
 > `optional` **snippet**: `string`
+
+Defined in: main.ts:30382
 
 text alongside the link title
 
@@ -113,15 +109,13 @@ text alongside the link title
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`snippet`](../interfaces/IKnowledgeGraphShoppingElement.md#snippet)
 
-#### Defined in
-
-main.ts:28812
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:30380
 
 source of additional information about the result
 
@@ -129,15 +123,13 @@ source of additional information about the result
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`source`](../interfaces/IKnowledgeGraphShoppingElement.md#source)
 
-#### Defined in
-
-main.ts:28810
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:30371
 
 title of the result in SERP
 
@@ -145,15 +137,13 @@ title of the result in SERP
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`title`](../interfaces/IKnowledgeGraphShoppingElement.md#title)
 
-#### Defined in
-
-main.ts:28801
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:30369
 
 type of element
 
@@ -161,15 +151,13 @@ type of element
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`type`](../interfaces/IKnowledgeGraphShoppingElement.md#type)
 
-#### Defined in
-
-main.ts:28799
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:30373
 
 relevant URL
 
@@ -177,27 +165,23 @@ relevant URL
 
 [`IKnowledgeGraphShoppingElement`](../interfaces/IKnowledgeGraphShoppingElement.md).[`url`](../interfaces/IKnowledgeGraphShoppingElement.md#url)
 
-#### Defined in
-
-main.ts:28803
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:30403
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:28833
 
 ***
 
@@ -205,17 +189,17 @@ main.ts:28833
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:30428
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:28858
 
 ***
 
@@ -223,14 +207,14 @@ main.ts:28858
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)
 
+Defined in: main.ts:30421
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)
-
-#### Defined in
-
-main.ts:28851

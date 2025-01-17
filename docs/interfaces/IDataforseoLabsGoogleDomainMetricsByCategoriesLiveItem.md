@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveItem
 
+Defined in: main.ts:99318
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:99334
+
 domain found for the specified category
-
-#### Defined in
-
-main.ts:89515
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:89515
 
 > `optional` **main\_domain**: `string`
 
+Defined in: main.ts:99336
+
 primary domain
-
-#### Defined in
-
-main.ts:89517
 
 ***
 
@@ -40,16 +38,14 @@ main.ts:89517
 
 > `optional` **metrics\_difference**: `object`
 
+Defined in: main.ts:99341
+
 metrics difference between first_date and second_date
 calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
-
-#### Defined in
-
-main.ts:89522
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 ***
 
@@ -57,15 +53,13 @@ main.ts:89522
 
 > `optional` **metrics\_history**: `object`
 
+Defined in: main.ts:99338
+
 historical ranking and traffic data of the domain
 
 #### Index Signature
 
- \[`key`: `string`\]: `object`
-
-#### Defined in
-
-main.ts:89519
+\[`key`: `string`\]: `object`
 
 ***
 
@@ -73,11 +67,9 @@ main.ts:89519
 
 > `optional` **organic\_count**: `number`
 
+Defined in: main.ts:99326
+
 current total count of organic SERPs that contain the domain
-
-#### Defined in
-
-main.ts:89507
 
 ***
 
@@ -85,11 +77,9 @@ main.ts:89507
 
 > `optional` **organic\_etv**: `number`
 
+Defined in: main.ts:99324
+
 current organic ETV of the domain
-
-#### Defined in
-
-main.ts:89505
 
 ***
 
@@ -97,12 +87,10 @@ main.ts:89505
 
 > `optional` **organic\_is\_lost**: `number`
 
+Defined in: main.ts:99329
+
 current number of lost ranked elements
 indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check
-
-#### Defined in
-
-main.ts:89510
 
 ***
 
@@ -110,12 +98,10 @@ main.ts:89510
 
 > `optional` **organic\_is\_new**: `number`
 
+Defined in: main.ts:99332
+
 current number of new ranked elements
 indicates how many new ranked elements were found for the domain
-
-#### Defined in
-
-main.ts:89513
 
 ***
 
@@ -123,11 +109,9 @@ main.ts:89513
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:99320
+
 search engine type
-
-#### Defined in
-
-main.ts:89501
 
 ***
 
@@ -135,8 +119,6 @@ main.ts:89501
 
 > `optional` **top\_categories**: `number`[]
 
+Defined in: main.ts:99322
+
 categories for which domains are collected
-
-#### Defined in
-
-main.ts:89503

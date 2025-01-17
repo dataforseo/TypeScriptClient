@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBusinessDataDayLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixBusinessDataDayLimitsRatesDataInfo
 
 # Class: AppendixBusinessDataDayLimitsRatesDataInfo
+
+Defined in: main.ts:231972
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixBusinessDataDayLimitsRatesDataInfo**(`data`?): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231978
+
 #### Parameters
 
-• **data?**: [`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216914
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216914
 
 > `optional` **reviews**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231973
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md).[`reviews`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md#reviews)
-
-#### Defined in
-
-main.ts:216909
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216909
 
 > `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:231974
+
 #### Implementation of
 
 [`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md).[`search`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md#search)
-
-#### Defined in
-
-main.ts:216910
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:216910
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231987
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216923
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:216923
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:232005
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216941
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:216941
 
 > `static` **fromJS**(`data`): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231998
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216934

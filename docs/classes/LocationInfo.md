@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocationInfo
+[Documentation](../README.md) / LocationInfo
 
 # Class: LocationInfo
+
+Defined in: main.ts:48839
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new LocationInfo**(`data`?): [`LocationInfo`](LocationInfo.md)
 
+Defined in: main.ts:48854
+
 #### Parameters
 
-• **data?**: [`ILocationInfo`](../interfaces/ILocationInfo.md)
+##### data?
+
+[`ILocationInfo`](../interfaces/ILocationInfo.md)
 
 #### Returns
 
 [`LocationInfo`](LocationInfo.md)
-
-#### Defined in
-
-main.ts:46005
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:46005
 
 > `optional` **address**: `string`
 
+Defined in: main.ts:48843
+
 address of the event’s venue
 
 #### Implementation of
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`address`](../interfaces/ILocationInfo.md#address)
-
-#### Defined in
-
-main.ts:45993
 
 ***
 
@@ -54,17 +54,14 @@ main.ts:45993
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:48848
+
 google-defined client id
-unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`cid`](../interfaces/ILocationInfo.md#cid)
-
-#### Defined in
-
-main.ts:45999
 
 ***
 
@@ -72,15 +69,13 @@ main.ts:45999
 
 > `optional` **feature\_id**: `string`
 
+Defined in: main.ts:48850
+
 the unique identifier of the element in SERP
 
 #### Implementation of
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`feature_id`](../interfaces/ILocationInfo.md#feature_id)
-
-#### Defined in
-
-main.ts:46001
 
 ***
 
@@ -88,15 +83,13 @@ main.ts:46001
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:48841
+
 name of the event’s venue
 
 #### Implementation of
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`name`](../interfaces/ILocationInfo.md#name)
-
-#### Defined in
-
-main.ts:45991
 
 ***
 
@@ -104,15 +97,13 @@ main.ts:45991
 
 > `optional` **url**: `string`
 
-URL to the event’s venue on google maps
+Defined in: main.ts:48845
+
+search URL with refinement parameters
 
 #### Implementation of
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`url`](../interfaces/ILocationInfo.md#url)
-
-#### Defined in
-
-main.ts:45995
 
 ## Methods
 
@@ -120,17 +111,17 @@ main.ts:45995
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:48863
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:46014
 
 ***
 
@@ -138,17 +129,17 @@ main.ts:46014
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:48884
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:46035
 
 ***
 
@@ -156,14 +147,14 @@ main.ts:46035
 
 > `static` **fromJS**(`data`): [`LocationInfo`](LocationInfo.md)
 
+Defined in: main.ts:48877
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`LocationInfo`](LocationInfo.md)
-
-#### Defined in
-
-main.ts:46028

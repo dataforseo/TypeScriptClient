@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisIdListResultInfo
+[Documentation](../README.md) / ContentAnalysisIdListResultInfo
 
 # Class: ContentAnalysisIdListResultInfo
+
+Defined in: main.ts:176478
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentAnalysisIdListResultInfo**(`data`?): [`ContentAnalysisIdListResultInfo`](ContentAnalysisIdListResultInfo.md)
 
+Defined in: main.ts:176504
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md)
+##### data?
+
+[`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisIdListResultInfo`](ContentAnalysisIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:164814
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:164814
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:176498
+
 cost of the task, USD
 
 #### Implementation of
 
 [`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md).[`cost`](../interfaces/IContentAnalysisIdListResultInfo.md#cost)
 
-#### Defined in
-
-main.ts:164808
-
 ***
 
 ### datetime\_done?
 
 > `optional` **datetime\_done**: `string`
+
+Defined in: main.ts:176493
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md).[`datetime_done`](../interfaces/IContentAnalysisIdListResultInfo.md#datetime_done)
 
-#### Defined in
-
-main.ts:164803
-
 ***
 
 ### datetime\_posted?
 
 > `optional` **datetime\_posted**: `string`
+
+Defined in: main.ts:176488
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,13 @@ example:
 
 [`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md).[`datetime_posted`](../interfaces/IContentAnalysisIdListResultInfo.md#datetime_posted)
 
-#### Defined in
-
-main.ts:164798
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:176480
 
 id of the task
 
@@ -98,35 +96,31 @@ id of the task
 
 [`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md).[`id`](../interfaces/IContentAnalysisIdListResultInfo.md#id)
 
-#### Defined in
-
-main.ts:164790
-
 ***
 
 ### metadata?
 
 > `optional` **metadata**: `object`
 
+Defined in: main.ts:176500
+
 contains parameters you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md).[`metadata`](../interfaces/IContentAnalysisIdListResultInfo.md#metadata)
-
-#### Defined in
-
-main.ts:164810
 
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:176496
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +129,13 @@ you can find the full list of general informational messages here
 
 [`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md).[`status`](../interfaces/IContentAnalysisIdListResultInfo.md#status)
 
-#### Defined in
-
-main.ts:164806
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:176483
 
 URL of the task
 URL you used for making an API call
@@ -152,27 +144,23 @@ URL you used for making an API call
 
 [`IContentAnalysisIdListResultInfo`](../interfaces/IContentAnalysisIdListResultInfo.md).[`url`](../interfaces/IContentAnalysisIdListResultInfo.md#url)
 
-#### Defined in
-
-main.ts:164793
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:176513
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:164823
 
 ***
 
@@ -180,17 +168,17 @@ main.ts:164823
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:176542
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:164852
 
 ***
 
@@ -198,14 +186,14 @@ main.ts:164852
 
 > `static` **fromJS**(`data`): [`ContentAnalysisIdListResultInfo`](ContentAnalysisIdListResultInfo.md)
 
+Defined in: main.ts:176535
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisIdListResultInfo`](ContentAnalysisIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:164845

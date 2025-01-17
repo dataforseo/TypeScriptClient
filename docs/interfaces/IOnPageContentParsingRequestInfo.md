@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageContentParsingRequestInfo
+[Documentation](../README.md) / IOnPageContentParsingRequestInfo
 
 # Interface: IOnPageContentParsingRequestInfo
 
+Defined in: main.ts:172904
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:172917
 
 ID of the task
 required field
@@ -23,22 +27,16 @@ note: the enable_content_parsing parameter in the POST request must be set to tr
 example:
 "07131248-1535-0216-1000-17384017ad04"
 
-#### Defined in
-
-main.ts:161203
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:172910
+
 URL of the content to parse
 required field
 URL of the page to parse
 example:
 https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api
-
-#### Defined in
-
-main.ts:161196

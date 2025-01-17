@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForCategoriesLiveResultInfo
 
+Defined in: main.ts:98681
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
+Defined in: main.ts:98701
+
 contains keyword ideas and related data
-
-#### Defined in
-
-main.ts:88882
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:88882
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:98693
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:88874
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:88874
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:98689
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:88870
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:88870
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:98687
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:88868
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:88868
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:98695
+
 current offset value
-
-#### Defined in
-
-main.ts:88876
 
 ***
 
@@ -76,13 +68,11 @@ main.ts:88876
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:98699
+
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:88880
 
 ***
 
@@ -90,11 +80,9 @@ main.ts:88880
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:98683
+
 search engine type
-
-#### Defined in
-
-main.ts:88864
 
 ***
 
@@ -102,11 +90,9 @@ main.ts:88864
 
 > `optional` **seed\_categories**: `number`[]
 
+Defined in: main.ts:98685
+
 categories in a POST array
-
-#### Defined in
-
-main.ts:88866
 
 ***
 
@@ -114,8 +100,6 @@ main.ts:88866
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:98691
+
 the total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:88872

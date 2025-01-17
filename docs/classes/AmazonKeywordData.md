@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AmazonKeywordData
+[Documentation](../README.md) / AmazonKeywordData
 
 # Class: AmazonKeywordData
+
+Defined in: main.ts:23779
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AmazonKeywordData**(`data`?): [`AmazonKeywordData`](AmazonKeywordData.md)
 
+Defined in: main.ts:23793
+
 #### Parameters
 
-• **data?**: [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md)
+##### data?
+
+[`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md)
 
 #### Returns
 
 [`AmazonKeywordData`](AmazonKeywordData.md)
-
-#### Defined in
-
-main.ts:22890
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:22890
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:23783
+
 related keyword
 
 #### Implementation of
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`keyword`](../interfaces/IAmazonKeywordData.md#keyword)
-
-#### Defined in
-
-main.ts:22880
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:22880
 
 > `optional` **keyword\_info**: [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
+Defined in: main.ts:23789
+
 keyword info for the returned keyword
 
 #### Implementation of
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`keyword_info`](../interfaces/IAmazonKeywordData.md#keyword_info)
-
-#### Defined in
-
-main.ts:22886
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:22886
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:23787
+
 language code in a POST array
 
 #### Implementation of
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`language_code`](../interfaces/IAmazonKeywordData.md#language_code)
-
-#### Defined in
-
-main.ts:22884
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:22884
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:23785
+
 location code in a POST array
 
 #### Implementation of
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`location_code`](../interfaces/IAmazonKeywordData.md#location_code)
-
-#### Defined in
-
-main.ts:22882
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:22882
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:23781
+
 search engine type
 
 #### Implementation of
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`se_type`](../interfaces/IAmazonKeywordData.md#se_type)
-
-#### Defined in
-
-main.ts:22878
 
 ## Methods
 
@@ -118,17 +110,17 @@ main.ts:22878
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:23802
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22899
 
 ***
 
@@ -136,17 +128,17 @@ main.ts:22899
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23823
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22920
 
 ***
 
@@ -154,14 +146,14 @@ main.ts:22920
 
 > `static` **fromJS**(`data`): [`AmazonKeywordData`](AmazonKeywordData.md)
 
+Defined in: main.ts:23816
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AmazonKeywordData`](AmazonKeywordData.md)
-
-#### Defined in
-
-main.ts:22913

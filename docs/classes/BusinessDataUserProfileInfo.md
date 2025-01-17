@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataUserProfileInfo
+[Documentation](../README.md) / BusinessDataUserProfileInfo
 
 # Class: BusinessDataUserProfileInfo
+
+Defined in: main.ts:226696
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataUserProfileInfo**(`data`?): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
+Defined in: main.ts:226710
+
 #### Parameters
 
-• **data?**: [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md)
+##### data?
+
+[`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md)
 
 #### Returns
 
 [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
-
-#### Defined in
-
-main.ts:211676
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:211676
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:226702
+
 URL to the reviewer’s profile picture
 
 #### Implementation of
 
 [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`image_url`](../interfaces/IBusinessDataUserProfileInfo.md#image_url)
-
-#### Defined in
-
-main.ts:211668
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:211668
 
 > `optional` **location**: `string`
 
+Defined in: main.ts:226704
+
 country of the reviewer
 
 #### Implementation of
 
 [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`location`](../interfaces/IBusinessDataUserProfileInfo.md#location)
-
-#### Defined in
-
-main.ts:211670
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:211670
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:226698
+
 the name of the reviewer
 
 #### Implementation of
 
 [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`name`](../interfaces/IBusinessDataUserProfileInfo.md#name)
-
-#### Defined in
-
-main.ts:211664
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:211664
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:226706
+
 total number of reviews submitted by the reviewer
 
 #### Implementation of
 
 [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`reviews_count`](../interfaces/IBusinessDataUserProfileInfo.md#reviews_count)
-
-#### Defined in
-
-main.ts:211672
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:211672
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:226700
+
 URL to the reviewer’s profile
 
 #### Implementation of
 
 [`IBusinessDataUserProfileInfo`](../interfaces/IBusinessDataUserProfileInfo.md).[`url`](../interfaces/IBusinessDataUserProfileInfo.md#url)
-
-#### Defined in
-
-main.ts:211666
 
 ## Methods
 
@@ -118,17 +110,17 @@ main.ts:211666
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:226719
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:211685
 
 ***
 
@@ -136,17 +128,17 @@ main.ts:211685
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:226740
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:211706
 
 ***
 
@@ -154,14 +146,14 @@ main.ts:211706
 
 > `static` **fromJS**(`data`): [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
+Defined in: main.ts:226733
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
-
-#### Defined in
-
-main.ts:211699

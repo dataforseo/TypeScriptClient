@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
+Defined in: main.ts:87628
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:87652
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, keywords or technologies
@@ -23,15 +27,13 @@ note: you can specify up to 10 technology categories in this array
 example:
 ["payment_processors","crm"]
 
-#### Defined in
-
-main.ts:77910
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:87692
 
 array of results filtering parameters
 optional field
@@ -50,15 +52,13 @@ example:
 [["country_iso_code","=","US"],"or",["country_iso_code","=","CA"]]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
-#### Defined in
-
-main.ts:77949
-
 ***
 
 ### groups?
 
 > `optional` **groups**: `string`[]
+
+Defined in: main.ts:87645
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, keywords or categories
@@ -67,15 +67,13 @@ note: you can specify up to 10 technology groups in this array
 example:
 ["sales", "marketing"]
 
-#### Defined in
-
-main.ts:77903
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:87668
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
@@ -84,10 +82,7 @@ you can specify the maximum of 10 keywords;
 UTF-8 encoding;
 example:
 ["seo","software"]
-
-#### Defined in
-
-main.ts:77925
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -95,20 +90,20 @@ main.ts:77925
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:87714
+
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 10000
-
-#### Defined in
-
-main.ts:77971
 
 ***
 
 ### mode?
 
 > `optional` **mode**: `string`
+
+Defined in: main.ts:87675
 
 search mode
 optional field
@@ -117,15 +112,13 @@ as_is – search for results exactly matching the specified group ids, category 
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is
 
-#### Defined in
-
-main.ts:77932
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:87721
 
 offset in the results array of returned domains
 optional field
@@ -134,15 +127,13 @@ if you specify the 10 value, the first ten domains in the results array will be 
 Note: the maximum value is 9999, the sum of limit and offset must not exceed 10000;
 use the offset_token if you would like to offset more results
 
-#### Defined in
-
-main.ts:77978
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:87729
 
 token for subsequent requests
 optional field
@@ -152,15 +143,13 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
 
-#### Defined in
-
-main.ts:77986
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:87709
 
 results sorting rules
 optional field
@@ -179,15 +168,13 @@ you should use a comma to separate several sorting rules
 example:
 ["last_visited,desc","domain_rank,desc"]
 
-#### Defined in
-
-main.ts:77966
-
 ***
 
 ### technologies?
 
 > `optional` **technologies**: `string`[]
+
+Defined in: main.ts:87659
 
 target technologies
 required field if you don’t specify groups, technology_paths, keywords or categories
@@ -196,15 +183,13 @@ note: you can specify up to 10 technologies in this array
 example:
 ["Google Pay","Salesforce"]
 
-#### Defined in
-
-main.ts:77917
-
 ***
 
 ### technology\_paths?
 
 > `optional` **technology\_paths**: `string`[]
+
+Defined in: main.ts:87638
 
 target technology paths
 required field if you don’t specify groups, technologies, keywords or categories
@@ -215,7 +200,3 @@ you can find the full list of technology group ids, category ids and technology 
 note: you can specify up to 10 technology paths in this array
 example:
 [{"path": "content.cms","name": "wordpress"}, {"path": "marketing.crm","name": "salesforce"}]
-
-#### Defined in
-
-main.ts:77896

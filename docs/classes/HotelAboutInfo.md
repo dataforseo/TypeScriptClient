@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelAboutInfo
+[Documentation](../README.md) / HotelAboutInfo
 
 # Class: HotelAboutInfo
+
+Defined in: main.ts:219134
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new HotelAboutInfo**(`data`?): [`HotelAboutInfo`](HotelAboutInfo.md)
 
+Defined in: main.ts:219165
+
 #### Parameters
 
-• **data?**: [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md)
+##### data?
+
+[`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md)
 
 #### Returns
 
 [`HotelAboutInfo`](HotelAboutInfo.md)
-
-#### Defined in
-
-main.ts:205709
 
 ## Properties
 
 ### amenities?
 
 > `optional` **amenities**: [`HotelAmenityInfo`](HotelAmenityInfo.md)[]
+
+Defined in: main.ts:219158
 
 hotel amenities
 information about hotel amenities
@@ -45,15 +49,13 @@ information about hotel amenities
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`amenities`](../interfaces/IHotelAboutInfo.md#amenities)
 
-#### Defined in
-
-main.ts:205702
-
 ***
 
 ### check\_in\_time?
 
 > `optional` **check\_in\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
+
+Defined in: main.ts:219143
 
 hotel check-in time
 check-in time indicated in the hotel listing
@@ -62,15 +64,13 @@ check-in time indicated in the hotel listing
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`check_in_time`](../interfaces/IHotelAboutInfo.md#check_in_time)
 
-#### Defined in
-
-main.ts:205687
-
 ***
 
 ### check\_out\_time?
 
 > `optional` **check\_out\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
+
+Defined in: main.ts:219146
 
 hotel check-out time
 check-out time indicated in the hotel listing
@@ -79,15 +79,13 @@ check-out time indicated in the hotel listing
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`check_out_time`](../interfaces/IHotelAboutInfo.md#check_out_time)
 
-#### Defined in
-
-main.ts:205690
-
 ***
 
 ### description?
 
 > `optional` **description**: `string`
+
+Defined in: main.ts:219137
 
 description of the hotel
 the description of the hotel entity for which the results are collected
@@ -96,15 +94,13 @@ the description of the hotel entity for which the results are collected
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`description`](../interfaces/IHotelAboutInfo.md#description)
 
-#### Defined in
-
-main.ts:205681
-
 ***
 
 ### domain?
 
 > `optional` **domain**: `string`
+
+Defined in: main.ts:219152
 
 hotel domain
 domain of the hotel’s website
@@ -113,15 +109,13 @@ domain of the hotel’s website
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`domain`](../interfaces/IHotelAboutInfo.md#domain)
 
-#### Defined in
-
-main.ts:205696
-
 ***
 
 ### full\_address?
 
 > `optional` **full\_address**: `string`
+
+Defined in: main.ts:219149
 
 full address of the hotel
 address of the hotel indicated in the standardised format
@@ -130,15 +124,13 @@ address of the hotel indicated in the standardised format
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`full_address`](../interfaces/IHotelAboutInfo.md#full_address)
 
-#### Defined in
-
-main.ts:205693
-
 ***
 
 ### popular\_amenities?
 
 > `optional` **popular\_amenities**: [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)[]
+
+Defined in: main.ts:219161
 
 hotel amenities
 information about hotel amenities labelled as “popular”
@@ -147,15 +139,13 @@ information about hotel amenities labelled as “popular”
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`popular_amenities`](../interfaces/IHotelAboutInfo.md#popular_amenities)
 
-#### Defined in
-
-main.ts:205705
-
 ***
 
 ### sub\_descriptions?
 
 > `optional` **sub\_descriptions**: `string`[]
+
+Defined in: main.ts:219140
 
 additional description of the hotel
 details about the hotel provided in addition to the description
@@ -164,15 +154,13 @@ details about the hotel provided in addition to the description
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`sub_descriptions`](../interfaces/IHotelAboutInfo.md#sub_descriptions)
 
-#### Defined in
-
-main.ts:205684
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:219155
 
 hotel url
 URL to the hotel’s website indicated in the listing
@@ -181,27 +169,23 @@ URL to the hotel’s website indicated in the listing
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`url`](../interfaces/IHotelAboutInfo.md#url)
 
-#### Defined in
-
-main.ts:205699
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:219174
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:205718
 
 ***
 
@@ -209,17 +193,17 @@ main.ts:205718
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:219211
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:205755
 
 ***
 
@@ -227,14 +211,14 @@ main.ts:205755
 
 > `static` **fromJS**(`data`): [`HotelAboutInfo`](HotelAboutInfo.md)
 
+Defined in: main.ts:219204
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HotelAboutInfo`](HotelAboutInfo.md)
-
-#### Defined in
-
-main.ts:205748

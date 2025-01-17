@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / IMerchantGoogleLocationsCountryResultInfo
 
 # Interface: IMerchantGoogleLocationsCountryResultInfo
 
+Defined in: main.ts:185116
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:185127
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:173437
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:173437
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:185118
+
 location code
-
-#### Defined in
-
-main.ts:173428
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:173428
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:185120
+
 full name of the location
-
-#### Defined in
-
-main.ts:173430
 
 ***
 
@@ -52,14 +48,12 @@ main.ts:173430
 
 > `optional` **location\_name\_parent**: `string`
 
+Defined in: main.ts:185125
+
 the name of the superordinate location
 example:
 "location_name": "Arkansas,United States",
 "location_name_parent": "United States"
-
-#### Defined in
-
-main.ts:173435
 
 ***
 
@@ -67,8 +61,6 @@ main.ts:173435
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:185129
+
 location type
-
-#### Defined in
-
-main.ts:173439

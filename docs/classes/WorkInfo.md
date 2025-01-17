@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:198550
+=======
+main.ts:198583
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -47,7 +51,11 @@ information about work hours of the local establishment
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:198546
+=======
+main.ts:198579
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -65,7 +73,11 @@ main.ts:198546
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:198559
+=======
+main.ts:198592
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -83,7 +95,11 @@ main.ts:198559
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:198576
+=======
+main.ts:198609
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -101,4 +117,8 @@ main.ts:198576
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:198569
+=======
+main.ts:198602
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

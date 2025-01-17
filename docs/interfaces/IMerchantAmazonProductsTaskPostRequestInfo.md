@@ -1,18 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonProductsTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantAmazonProductsTaskPostRequestInfo
 
 # Interface: IMerchantAmazonProductsTaskPostRequestInfo
 
-## Extends
-
-- [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md)
+Defined in: main.ts:191965
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,14 +18,12 @@
 
 > `optional` **department**: `string`
 
+Defined in: main.ts:192053
+
 amazon product department
 optional field
 specify one of the following amazon departments for extracting product listings:
 "Arts & Crafts", "Automotive", "Baby", "Beauty & Personal Care", "Books", "Computers", "Digital Music", "Electronics", "Kindle Store", "Prime Video", "Women's Fashion", "Men's Fashion", "Girls' Fashion", "Boys' Fashion", "Deals", "Health & Household", "Home & Kitchen", "Industrial & Scientific", "Luggage", "Movies & TV", "Music, CDs & Vinyl", "Pet Supplies", "Software", "Sports & Outdoors", "Tools & Home Improvement", "Toys & Games", "Video Games"
-
-#### Defined in
-
-main.ts:179934
 
 ***
 
@@ -35,22 +31,16 @@ main.ts:179934
 
 > `optional` **depth**: `number`
 
+Defined in: main.ts:192041
+
 parsing depth
 optional field
-number of results to be retrieved from the Google Shopping results page
+number of results to be retrieved from the Amazon results page
 default value: 100
 max value: 700
 Note: your account will be billed per each results page containing up to 100 results;
 thus, setting a depth above 100 may result in additional charges if the search engine returns more than 100 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`depth`](IMerchantTaskRequestInfo.md#depth)
-
-#### Defined in
-
-main.ts:153096
 
 ***
 
@@ -58,20 +48,14 @@ main.ts:153096
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:191972
+
 keyword
 required field
-you can also specify UPC/EAN in this field and we will return the results Google Shopping provides for the specified barcode number;
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`keyword`](IMerchantTaskRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:153029
+you can specify up to 700 characters in this field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -79,20 +63,14 @@ main.ts:153029
 
 > `optional` **language\_code**: `string`
 
-language code
+Defined in: main.ts:192025
+
+search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
-you can receive the list of available Google Shopping languages with their language_code by making a separate request to the https://api.dataforseo.com/v3/merchant/google/languages
+you can receive the list of available languages with their language_code parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
-en
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`language_code`](IMerchantTaskRequestInfo.md#language_code)
-
-#### Defined in
-
-main.ts:153080
+en_GB
 
 ***
 
@@ -100,20 +78,15 @@ main.ts:153080
 
 > `optional` **language\_name**: `string`
 
-full name of the language
+Defined in: main.ts:192018
+
+full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
-you can receive the list of available Google Shopping languages with their language_name by making a separate request to the https://api.dataforseo.com/v3/merchant/google/languages
+you can receive the list of available languages with their language_name parameters by making a separate request to the
+https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
-English
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`language_name`](IMerchantTaskRequestInfo.md#language_name)
-
-#### Defined in
-
-main.ts:153073
+English (United Kingdom)
 
 ***
 
@@ -121,26 +94,23 @@ main.ts:153073
 
 > `optional` **location\_code**: `number`
 
-location code
+Defined in: main.ts:192001
+
+search engine location code
 required field if you don’t specify location_name or location_coordinate
 if you use this field, you don’t need to specify location_name or location_coordinate
-you can receive the list of available Google Shopping locations with their location_code by making a separate request to the https://api.dataforseo.com/v3/merchant/google/locations
+you can receive the list of available locations with their location_code parameters by making a separate request to the
+https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
-2840
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`location_code`](IMerchantTaskRequestInfo.md#location_code)
-
-#### Defined in
-
-main.ts:153057
+9045969
 
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:192010
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -151,40 +121,28 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`location_coordinate`](IMerchantTaskRequestInfo.md#location_coordinate)
-
-#### Defined in
-
-main.ts:153066
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
-full name of the location
+Defined in: main.ts:191993
+
+full name of search engine location
 required field if you don’t specify location_code or location_coordinate
 if you use this field, you don’t need to specify location_code or location_coordinate
-you can receive the list of available Google Shopping locations with their location_name by making a separate request to the https://api.dataforseo.com/v3/merchant/google/locations
+you can receive the list of available locations with their location_name parameters by making a separate request to the https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
-London,England,United Kingdom
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`location_name`](IMerchantTaskRequestInfo.md#location_name)
-
-#### Defined in
-
-main.ts:153050
+HA1,England,United Kingdom
 
 ***
 
 ### max\_crawl\_pages?
 
 > `optional` **max\_crawl\_pages**: `number`
+
+Defined in: main.ts:192048
 
 page crawl limit
 optional field
@@ -193,19 +151,13 @@ max value: 7
 Note: the max_crawl_pages and depth parameters complement each other;
 learn more at our help center
 
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`max_crawl_pages`](IMerchantTaskRequestInfo.md#max_crawl_pages)
-
-#### Defined in
-
-main.ts:153103
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:192123
 
 notification URL of a completed task
 optional field
@@ -214,16 +166,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`pingback_url`](IMerchantTaskRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:153165
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -231,25 +176,21 @@ main.ts:153165
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:192112
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`postback_data`](IMerchantTaskRequestInfo.md#postback_data)
-
-#### Defined in
-
-main.ts:153155
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:192106
 
 return URL for sending task results
 optional field
@@ -258,16 +199,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`postback_url`](IMerchantTaskRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:153149
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -275,19 +209,14 @@ main.ts:153149
 
 > `optional` **price\_max**: `number`
 
+Defined in: main.ts:192081
+
 maximum product price
 optional field
-maximum price of the returned products listed on Google Shopping for the specified query
+maximum price of the returned products listed on Amazon for the specified query
 example:
 100
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`price_max`](IMerchantTaskRequestInfo.md#price_max)
-
-#### Defined in
-
-main.ts:153126
+Note: if you specify price_max, the search_param parameter will be ignored
 
 ***
 
@@ -295,25 +224,22 @@ main.ts:153126
 
 > `optional` **price\_min**: `number`
 
+Defined in: main.ts:192074
+
 minimum product price
 optional field
-minimum price of the returned products listed on Google Shopping for the specified query
+minimum price of the returned products listed on Amazon for the specified query
 example:
 5
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`price_min`](IMerchantTaskRequestInfo.md#price_min)
-
-#### Defined in
-
-main.ts:153120
+Note: if you specify price_min, the search_param parameter will be ignored
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:191986
 
 task priority
 optional field
@@ -323,34 +249,20 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`priority`](IMerchantTaskRequestInfo.md#priority)
-
-#### Defined in
-
-main.ts:153043
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:192032
+
 search engine domain
 optional field
 we choose the relevant search engine domain automatically according to the location and language you specify
 however, you can set a custom search engine domain in this field
 example:
-google.co.uk, google.com.au, google.de, etc.
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`se_domain`](IMerchantTaskRequestInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:153087
+amazon.com, amazon.co.uk, amazon.fr, etc.
 
 ***
 
@@ -358,24 +270,21 @@ main.ts:153087
 
 > `optional` **search\_param**: `string`
 
+Defined in: main.ts:192067
+
 additional parameters of the search query
 optional field
-you can use the following search URL parameters for customizing the search
+you can use the following Amazon search URL parameters for customizing the search
 example:
-&tbs=ppr_min:45 – search for products that cost more than 45 USD;
-&tbs=ppr_max:50 – search for products that cost less than 50 USD;
-&tbs=p_ord:p – sort by ascending price;
-&tbs=p_ord:pd – sort by descending price;
-&tbs=p_ord:rv – sort by review score;
-&tbs=ppr_max:50,p_ord:rv – sort by review score with the maximum price of 50 USD
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`search_param`](IMerchantTaskRequestInfo.md#search_param)
-
-#### Defined in
-
-main.ts:153114
+&low-price=52 – search for products that cost more than 52 USD;
+&high-price=45 – search for products that cost less than 45 USD;
+&sort=relevancerank – sort results by relevance;
+&sort=featured-rank – sort results by featured products;
+&sort=price-asc-rank – sort by ascending price;
+&sort=price-desc-rank – sort by descending price;
+&sort=review-rank – sort by the average customer reviews value;
+&sort=date-desc-rank – sort by the newest arrival
+Note that search_param values will be ignored if any of the following parameters is used: price_min, price_max, sort_by
 
 ***
 
@@ -383,20 +292,15 @@ main.ts:153114
 
 > `optional` **sort\_by**: `string`
 
+Defined in: main.ts:192089
+
 results sorting rules
 optional field
 the following sorting rules are supported:
-review_score, price_low_to_high, price_high_to_low
+relevance, price_low_to_high, price_high_to_low, featured, avg_customer_review, newest_arrival
 example:
-sort_by:"review_score"
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`sort_by`](IMerchantTaskRequestInfo.md#sort_by)
-
-#### Defined in
-
-main.ts:153133
+sort_by:"relevance"
+Note: if you specify sort_by, the search_param parameter will be ignored
 
 ***
 
@@ -404,19 +308,13 @@ main.ts:153133
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:192095
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`tag`](IMerchantTaskRequestInfo.md#tag)
-
-#### Defined in
-
-main.ts:153139
 
 ***
 
@@ -424,16 +322,10 @@ main.ts:153139
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:191978
+
 direct URL of the search query
 optional field
 you can specify a direct URL and we will sort it out to the necessary fields. Note that this method is the most difficult for our API to process and also requires you to specify the exact language and location in the URL. In most cases, we wouldn’t recommend using this method.
 example:
-https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw%3A1%2Cmr%3A1%2Cprice%3A1%2Cppr_min%3A5&hl=en&gl=US&gws_rd=cr&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc
-
-#### Inherited from
-
-[`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`url`](IMerchantTaskRequestInfo.md#url)
-
-#### Defined in
-
-main.ts:153035
+https://www.amazon.com/s/?field-keywords=shoes&language=en_US

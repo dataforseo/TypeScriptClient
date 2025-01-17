@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveResultInfo
 
+Defined in: main.ts:118027
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,23 +18,19 @@
 
 > `optional` **exclude\_pages**: `string`[]
 
+Defined in: main.ts:118035
+
 URLs you specified in a POST array that will be excluded from the results
-
-#### Defined in
-
-main.ts:108454
 
 ***
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsBingPageIntersectionLiveItem`](../classes/DataforseoLabsBingPageIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsPageIntersectionLiveItem`](../classes/DataforseoLabsPageIntersectionLiveItem.md)[]
+
+Defined in: main.ts:118045
 
 contains keywords, relevant SERP elements and related data
-
-#### Defined in
-
-main.ts:108464
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:108464
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:118043
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:108462
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:108462
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:118039
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:108458
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:108458
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:118037
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:108456
 
 ***
 
@@ -76,15 +68,13 @@ main.ts:108456
 
 > `optional` **pages**: `object`
 
+Defined in: main.ts:118033
+
 URLs you specified a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:108452
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -92,13 +82,11 @@ main.ts:108452
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:118031
+
 search engine type
 search engine type specified in a POST request;
 for this endpoint, the field equals bing
-
-#### Defined in
-
-main.ts:108450
 
 ***
 
@@ -106,8 +94,6 @@ main.ts:108450
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:118041
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:108460

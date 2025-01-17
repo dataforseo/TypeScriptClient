@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentGenerationLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixContentGenerationLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationLimitsRatesDataInfo
+
+Defined in: main.ts:232572
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixContentGenerationLimitsRatesDataInfo**(`data`?): [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
+Defined in: main.ts:232583
+
 #### Parameters
 
-• **data?**: [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:217515
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:217515
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:232577
+
 #### Implementation of
 
 [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md).[`check_grammar`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md#check_grammar)
-
-#### Defined in
-
-main.ts:217509
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:217509
 
 > `optional` **generate**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232573
+
 #### Implementation of
 
 [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md).[`generate`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md#generate)
-
-#### Defined in
-
-main.ts:217505
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:217505
 
 > `optional` **generate\_meta\_tags**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232574
+
 #### Implementation of
 
 [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md).[`generate_meta_tags`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md#generate_meta_tags)
-
-#### Defined in
-
-main.ts:217506
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:217506
 
 > `optional` **generate\_sub\_topics**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232579
+
 #### Implementation of
 
 [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md).[`generate_sub_topics`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md#generate_sub_topics)
-
-#### Defined in
-
-main.ts:217511
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:217511
 
 > `optional` **generate\_text**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232575
+
 #### Implementation of
 
 [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md).[`generate_text`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md#generate_text)
-
-#### Defined in
-
-main.ts:217507
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:217507
 
 > `optional` **paraphrase**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:232576
+
 #### Implementation of
 
 [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md).[`paraphrase`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md#paraphrase)
-
-#### Defined in
-
-main.ts:217508
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:217508
 
 > `optional` **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
+Defined in: main.ts:232578
+
 #### Implementation of
 
 [`IAppendixContentGenerationLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md).[`text_summary`](../interfaces/IAppendixContentGenerationLimitsRatesDataInfo.md#text_summary)
-
-#### Defined in
-
-main.ts:217510
 
 ## Methods
 
@@ -136,17 +124,17 @@ main.ts:217510
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:232592
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:217524
 
 ***
 
@@ -154,17 +142,17 @@ main.ts:217524
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:232615
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:217547
 
 ***
 
@@ -172,14 +160,14 @@ main.ts:217547
 
 > `static` **fromJS**(`data`): [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
+Defined in: main.ts:232608
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:217540

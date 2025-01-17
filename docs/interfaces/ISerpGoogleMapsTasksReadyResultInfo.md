@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleMapsTasksReadyResultInfo
+[Documentation](../README.md) / ISerpGoogleMapsTasksReadyResultInfo
 
 # Interface: ISerpGoogleMapsTasksReadyResultInfo
 
+Defined in: main.ts:41065
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:41075
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:39233
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:39233
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:41083
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:39241
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:39241
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:41086
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:39244
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:39244
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:41080
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:39238
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:39238
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:41068
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:39226
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:39226
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:41070
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:39228
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:39228
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:41073
+
 type of search engine
 example: maps
-
-#### Defined in
-
-main.ts:39231
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:39231
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:41077
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:39235

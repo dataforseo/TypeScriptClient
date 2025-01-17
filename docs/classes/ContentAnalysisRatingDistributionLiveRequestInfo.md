@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisRatingDistributionLiveRequestInfo
+[Documentation](../README.md) / ContentAnalysisRatingDistributionLiveRequestInfo
 
 # Class: ContentAnalysisRatingDistributionLiveRequestInfo
+
+Defined in: main.ts:179508
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentAnalysisRatingDistributionLiveRequestInfo**(`data`?): [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
 
+Defined in: main.ts:179594
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md)
+##### data?
+
+[`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:167904
 
 ## Properties
 
 ### initial\_dataset\_filters?
 
 > `optional` **initial\_dataset\_filters**: `any`[]
+
+Defined in: main.ts:179584
 
 initial dataset filtering parameters
 optional field
@@ -59,15 +63,13 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#initial_dataset_filters)
 
-#### Defined in
-
-main.ts:167894
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:179546
 
 maximum number of elements within internal arrays
 optional field
@@ -84,38 +86,34 @@ maximum value: 20
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#internal_list_limit)
 
-#### Defined in
-
-main.ts:167856
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:179517
+
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:167827
 
 ***
 
 ### keyword\_fields?
 
 > `optional` **keyword\_fields**: `object`
+
+Defined in: main.ts:179529
 
 target keyword fields and target keywords
 optional field
@@ -131,21 +129,19 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#keyword_fields)
-
-#### Defined in
-
-main.ts:167839
 
 ***
 
 ### page\_type?
 
 > `optional` **page\_type**: `string`[]
+
+Defined in: main.ts:179535
 
 target page types
 optional field
@@ -157,15 +153,13 @@ possible values:
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#page_type)
 
-#### Defined in
-
-main.ts:167845
-
 ***
 
 ### positive\_connotation\_threshold?
 
 > `optional` **positive\_connotation\_threshold**: `number`
+
+Defined in: main.ts:179560
 
 positive connotation threshold
 optional field
@@ -178,15 +172,13 @@ default value: 0.4
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`positive_connotation_threshold`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#positive_connotation_threshold)
 
-#### Defined in
-
-main.ts:167870
-
 ***
 
 ### search\_mode?
 
 > `optional` **search\_mode**: `string`
+
+Defined in: main.ts:179553
 
 results grouping type
 optional field
@@ -199,15 +191,13 @@ default value: as_is
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`search_mode`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#search_mode)
 
-#### Defined in
-
-main.ts:167863
-
 ***
 
 ### sentiments\_connotation\_threshold?
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
+
+Defined in: main.ts:179567
 
 sentiment connotation threshold
 optional field
@@ -220,15 +210,13 @@ default value: 0.4
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`sentiments_connotation_threshold`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#sentiments_connotation_threshold)
 
-#### Defined in
-
-main.ts:167877
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:179590
 
 user-defined task identifier
 optional field
@@ -240,27 +228,23 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:167900
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:179603
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:167913
 
 ***
 
@@ -268,17 +252,17 @@ main.ts:167913
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:179642
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:167952
 
 ***
 
@@ -286,14 +270,14 @@ main.ts:167952
 
 > `static` **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
 
+Defined in: main.ts:179635
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:167945

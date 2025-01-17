@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsLocationsResultInfo
 
+Defined in: main.ts:132619
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:132634
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:122290
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:122290
 
 > `optional` **geo\_id**: `string`
 
+Defined in: main.ts:132643
+
 google trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
-
-#### Defined in
-
-main.ts:122299
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:122299
 
 > `optional` **geo\_name**: `string`
 
+Defined in: main.ts:132640
+
 google trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
-
-#### Defined in
-
-main.ts:122296
 
 ***
 
@@ -54,17 +50,17 @@ main.ts:122296
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:132621
+
 location code
-
-#### Defined in
-
-main.ts:122277
 
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:132632
 
 the code of the superordinate location
 example:
@@ -75,21 +71,15 @@ where location_code_parent corresponds to:
 "location_code": 20044,
 "location_name": "Lower Austria,Austria"
 
-#### Defined in
-
-main.ts:122288
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:132623
+
 full name of the location
-
-#### Defined in
-
-main.ts:122279
 
 ***
 
@@ -97,9 +87,7 @@ main.ts:122279
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:132637
+
 location type
 possible values according to Google’s target types
-
-#### Defined in
-
-main.ts:122293

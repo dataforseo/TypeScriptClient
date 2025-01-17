@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelAmenityItemInfo
+[Documentation](../README.md) / HotelAmenityItemInfo
 
 # Class: HotelAmenityItemInfo
+
+Defined in: main.ts:218996
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new HotelAmenityItemInfo**(`data`?): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
+Defined in: main.ts:219008
+
 #### Parameters
 
-• **data?**: [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md)
+##### data?
+
+[`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md)
 
 #### Returns
 
 [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
-
-#### Defined in
-
-main.ts:205552
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:205552
 
 > `optional` **amenity**: `string`
 
+Defined in: main.ts:218998
+
 standardised amenity name
 
 #### Implementation of
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`amenity`](../interfaces/IHotelAmenityItemInfo.md#amenity)
-
-#### Defined in
-
-main.ts:205542
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:205542
 
 > `optional` **amenity\_label**: `string`
 
+Defined in: main.ts:219000
+
 displayed amenity name
 
 #### Implementation of
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`amenity_label`](../interfaces/IHotelAmenityItemInfo.md#amenity_label)
-
-#### Defined in
-
-main.ts:205544
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:205544
 
 > `optional` **hint**: `string`
 
+Defined in: main.ts:219002
+
 standardised details about the amenity
 
 #### Implementation of
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`hint`](../interfaces/IHotelAmenityItemInfo.md#hint)
-
-#### Defined in
-
-main.ts:205546
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:205546
 
 > `optional` **hint\_label**: `string`
 
+Defined in: main.ts:219004
+
 displayed details about the amenity
 
 #### Implementation of
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`hint_label`](../interfaces/IHotelAmenityItemInfo.md#hint_label)
-
-#### Defined in
-
-main.ts:205548
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:205548
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:219017
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:205561
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:205561
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:219037
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:205581
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:205581
 
 > `static` **fromJS**(`data`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
+Defined in: main.ts:219030
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
-
-#### Defined in
-
-main.ts:205574

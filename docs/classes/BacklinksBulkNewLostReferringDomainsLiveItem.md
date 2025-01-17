@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostReferringDomainsLiveItem
+[Documentation](../README.md) / BacklinksBulkNewLostReferringDomainsLiveItem
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveItem
+
+Defined in: main.ts:162154
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBulkNewLostReferringDomainsLiveItem**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)
 
+Defined in: main.ts:162170
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md)
+##### data?
+
+[`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)
-
-#### Defined in
-
-main.ts:150864
 
 ## Properties
 
 ### lost\_referring\_domains?
 
 > `optional` **lost\_referring\_domains**: `number`
+
+Defined in: main.ts:162162
 
 number of lost referring domains
 number of lost referring domains of the target
@@ -45,15 +49,13 @@ number of lost referring domains of the target
 
 [`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md).[`lost_referring_domains`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md#lost_referring_domains)
 
-#### Defined in
-
-main.ts:150856
-
 ***
 
 ### lost\_referring\_main\_domains?
 
 > `optional` **lost\_referring\_main\_domains**: `number`
+
+Defined in: main.ts:162166
 
 number of lost referring main domains pointing to the target
 
@@ -61,15 +63,13 @@ number of lost referring main domains pointing to the target
 
 [`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md).[`lost_referring_main_domains`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md#lost_referring_main_domains)
 
-#### Defined in
-
-main.ts:150860
-
 ***
 
 ### new\_referring\_domains?
 
 > `optional` **new\_referring\_domains**: `number`
+
+Defined in: main.ts:162159
 
 number of new referring domains
 number of new referring domains pointing to the target
@@ -78,15 +78,13 @@ number of new referring domains pointing to the target
 
 [`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md).[`new_referring_domains`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md#new_referring_domains)
 
-#### Defined in
-
-main.ts:150853
-
 ***
 
 ### new\_referring\_main\_domains?
 
 > `optional` **new\_referring\_main\_domains**: `number`
+
+Defined in: main.ts:162164
 
 number of new referring main domains pointing to the target
 
@@ -94,15 +92,13 @@ number of new referring main domains pointing to the target
 
 [`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md).[`new_referring_main_domains`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md#new_referring_main_domains)
 
-#### Defined in
-
-main.ts:150858
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:162156
 
 domain, subdomain or webpage from a POST array
 
@@ -110,27 +106,23 @@ domain, subdomain or webpage from a POST array
 
 [`IBacklinksBulkNewLostReferringDomainsLiveItem`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md).[`target`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveItem.md#target)
 
-#### Defined in
-
-main.ts:150850
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:162179
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:150873
 
 ***
 
@@ -138,17 +130,17 @@ main.ts:150873
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:162200
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:150894
 
 ***
 
@@ -156,14 +148,14 @@ main.ts:150894
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)
 
+Defined in: main.ts:162193
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)
-
-#### Defined in
-
-main.ts:150887

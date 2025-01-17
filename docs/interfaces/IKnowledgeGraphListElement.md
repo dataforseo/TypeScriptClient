@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphListElement
+[Documentation](../README.md) / IKnowledgeGraphListElement
 
 # Interface: IKnowledgeGraphListElement
 
+Defined in: main.ts:29489
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:29499
+
 domain in SERP
-
-#### Defined in
-
-main.ts:27935
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:27935
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:29502
+
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
-
-#### Defined in
-
-main.ts:27938
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:27938
 
 > `optional` **subtitle**: `string`
 
+Defined in: main.ts:29495
+
 subtitle of the item
-
-#### Defined in
-
-main.ts:27931
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:27931
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:29493
+
 link anchor text
-
-#### Defined in
-
-main.ts:27929
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:27929
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:29491
+
 type of element
-
-#### Defined in
-
-main.ts:27927
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:27927
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:29497
+
 sitelink URL
-
-#### Defined in
-
-main.ts:27933
 
 ***
 
@@ -89,8 +79,6 @@ main.ts:27933
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:29504
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:27940

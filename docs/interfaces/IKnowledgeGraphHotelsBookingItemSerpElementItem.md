@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphHotelsBookingItemSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Interface: IKnowledgeGraphHotelsBookingItemSerpElementItem
+
+Defined in: main.ts:30727
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,13 +22,11 @@
 
 > `optional` **data\_attrid**: `string`
 
+Defined in: main.ts:30743
+
 google defined data attribute ID
 example:
 kc:/local:hotel booking
-
-#### Defined in
-
-main.ts:29173
 
 ***
 
@@ -34,14 +34,12 @@ main.ts:29173
 
 > `optional` **date\_from**: `string`
 
+Defined in: main.ts:30734
+
 starting date of stay
 in the format “year-month-date”
 example:
 2019-11-15
-
-#### Defined in
-
-main.ts:29164
 
 ***
 
@@ -49,14 +47,12 @@ main.ts:29164
 
 > `optional` **date\_to**: `string`
 
+Defined in: main.ts:30739
+
 ending date of stay
 in the format “year-month-date”
 example:
 2019-11-17
-
-#### Defined in
-
-main.ts:29169
 
 ***
 
@@ -64,18 +60,18 @@ main.ts:29169
 
 > `optional` **items**: [`KnowledgeGraphHotelsBookingElement`](../classes/KnowledgeGraphHotelsBookingElement.md)[]
 
+Defined in: main.ts:30746
+
 additional items present in the element
 if there are none, equals null
-
-#### Defined in
-
-main.ts:29176
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21404
 
 the alignment of the element in SERP
 can take the following values:
@@ -85,15 +81,13 @@ left, right
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20721
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21400
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -102,15 +96,13 @@ absolute position among all the elements in SERP
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20717
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21397
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -120,23 +112,17 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20714
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
+Defined in: main.ts:30750
+
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
-
-#### Defined in
-
-main.ts:29180
 
 ***
 
@@ -144,11 +130,9 @@ main.ts:29180
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:30729
+
 title of a given link element
-
-#### Defined in
-
-main.ts:29159
 
 ***
 
@@ -156,15 +140,13 @@ main.ts:29159
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21393
+
 type of element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:20710
 
 ***
 
@@ -172,12 +154,10 @@ main.ts:20710
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21406
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:20723

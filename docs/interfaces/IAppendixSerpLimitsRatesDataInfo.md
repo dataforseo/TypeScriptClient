@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixSerpLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixSerpLimitsRatesDataInfo
 
 # Interface: IAppendixSerpLimitsRatesDataInfo
 
+Defined in: main.ts:230665
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,19 +18,15 @@
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:215628
+Defined in: main.ts:230672
 
 ***
 
 ### jobs?
 
-> `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **jobs**: [`AppendixDayLimitsRatesDataInfo`](../classes/AppendixDayLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:215630
+Defined in: main.ts:230674
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:215630
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:215626
+Defined in: main.ts:230670
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:215626
 
 > `optional` **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Defined in
-
-main.ts:215627
+Defined in: main.ts:230671
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:215627
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:215625
+Defined in: main.ts:230669
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:215625
 
 > `optional` **screenshot**: `number`
 
-#### Defined in
-
-main.ts:215631
+Defined in: main.ts:230675
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:215631
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Defined in
-
-main.ts:215623
+Defined in: main.ts:230667
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:215623
 
 > `optional` **task\_post**: `number`
 
-#### Defined in
-
-main.ts:215622
+Defined in: main.ts:230666
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:215622
 
 > `optional` **tasks\_fixed**: `number`
 
-#### Defined in
-
-main.ts:215629
+Defined in: main.ts:230673
 
 ***
 
@@ -106,6 +90,4 @@ main.ts:215629
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:215624
+Defined in: main.ts:230668

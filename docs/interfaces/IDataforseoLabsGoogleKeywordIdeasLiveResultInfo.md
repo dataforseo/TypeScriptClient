@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordIdeasLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
+Defined in: main.ts:95328
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
+Defined in: main.ts:95349
+
 contains keyword ideas and related data
-
-#### Defined in
-
-main.ts:85534
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:85534
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:95341
+
 number of results returned in the items array
-
-#### Defined in
-
-main.ts:85526
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:85526
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:95337
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:85522
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:85522
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:95335
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:85520
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:85520
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:95343
+
 current offset value
-
-#### Defined in
-
-main.ts:85528
 
 ***
 
@@ -76,13 +68,11 @@ main.ts:85528
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:95347
+
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:85532
 
 ***
 
@@ -90,11 +80,9 @@ main.ts:85532
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:95330
+
 search engine type
-
-#### Defined in
-
-main.ts:85515
 
 ***
 
@@ -102,12 +90,10 @@ main.ts:85515
 
 > `optional` **seed\_keywords**: `string`[]
 
+Defined in: main.ts:95333
+
 keywords in a POST array
-keywords are returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:85518
+keywords are returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -115,8 +101,6 @@ main.ts:85518
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:95339
+
 total number of results relevant to your request in our database
-
-#### Defined in
-
-main.ts:85524

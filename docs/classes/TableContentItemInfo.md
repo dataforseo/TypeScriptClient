@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TableContentItemInfo
+[Documentation](../README.md) / TableContentItemInfo
 
 # Class: TableContentItemInfo
+
+Defined in: main.ts:173210
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TableContentItemInfo**(`data`?): [`TableContentItemInfo`](TableContentItemInfo.md)
 
+Defined in: main.ts:173216
+
 #### Parameters
 
-• **data?**: [`ITableContentItemInfo`](../interfaces/ITableContentItemInfo.md)
+##### data?
+
+[`ITableContentItemInfo`](../interfaces/ITableContentItemInfo.md)
 
 #### Returns
 
 [`TableContentItemInfo`](TableContentItemInfo.md)
-
-#### Defined in
-
-main.ts:161502
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:161502
 
 > `optional` **row\_cells**: [`RowCellInfo`](RowCellInfo.md)[]
 
+Defined in: main.ts:173212
+
 content of the row cells of the header
 
 #### Implementation of
 
 [`ITableContentItemInfo`](../interfaces/ITableContentItemInfo.md).[`row_cells`](../interfaces/ITableContentItemInfo.md#row_cells)
-
-#### Defined in
-
-main.ts:161498
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:161498
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:173225
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161511
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:161511
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173246
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161532
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:161532
 
 > `static` **fromJS**(`data`): [`TableContentItemInfo`](TableContentItemInfo.md)
 
+Defined in: main.ts:173239
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TableContentItemInfo`](TableContentItemInfo.md)
-
-#### Defined in
-
-main.ts:161525

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixKeywordsDataDayStatisticsRatesData
+[Documentation](../README.md) / AppendixKeywordsDataDayStatisticsRatesData
 
 # Class: AppendixKeywordsDataDayStatisticsRatesData
+
+Defined in: main.ts:233428
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixKeywordsDataDayStatisticsRatesData**(`data`?): [`AppendixKeywordsDataDayStatisticsRatesData`](AppendixKeywordsDataDayStatisticsRatesData.md)
 
+Defined in: main.ts:233455
+
 #### Parameters
 
-• **data?**: [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixKeywordsDataDayStatisticsRatesData`](AppendixKeywordsDataDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218367
 
 ## Properties
 
@@ -38,13 +40,23 @@ main.ts:218367
 
 > `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233432
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`ad_traffic_by_keywords`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#ad_traffic_by_keywords)
 
-#### Defined in
+***
 
-main.ts:218348
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
+
+Defined in: main.ts:233445
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`audience_estimation`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#audience_estimation)
 
 ***
 
@@ -52,13 +64,11 @@ main.ts:218348
 
 > `optional` **bing**: [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
+Defined in: main.ts:233439
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`bing`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#bing)
-
-#### Defined in
-
-main.ts:218355
 
 ***
 
@@ -66,13 +76,11 @@ main.ts:218355
 
 > `optional` **categories**: `number`
 
+Defined in: main.ts:233437
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`categories`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#categories)
-
-#### Defined in
-
-main.ts:218353
 
 ***
 
@@ -80,13 +88,11 @@ main.ts:218353
 
 > `optional` **clickstream\_data**: [`AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233444
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`clickstream_data`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#clickstream_data)
-
-#### Defined in
-
-main.ts:218360
 
 ***
 
@@ -94,13 +100,11 @@ main.ts:218360
 
 > `optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233443
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`dataforseo_trends`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#dataforseo_trends)
-
-#### Defined in
-
-main.ts:218359
 
 ***
 
@@ -108,13 +112,11 @@ main.ts:218359
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:233438
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:218354
 
 ***
 
@@ -122,13 +124,11 @@ main.ts:218354
 
 > `optional` **explore**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233436
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`explore`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#explore)
-
-#### Defined in
-
-main.ts:218352
 
 ***
 
@@ -136,13 +136,11 @@ main.ts:218352
 
 > `optional` **google**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233450
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`google`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#google)
-
-#### Defined in
-
-main.ts:218361
 
 ***
 
@@ -150,13 +148,11 @@ main.ts:218361
 
 > `optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233442
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`google_ads`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#google_ads)
-
-#### Defined in
-
-main.ts:218358
 
 ***
 
@@ -164,13 +160,35 @@ main.ts:218358
 
 > `optional` **id\_list**: `number`
 
+Defined in: main.ts:233447
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`id_list`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#id_list)
 
-#### Defined in
+***
 
-main.ts:218363
+### industries?
+
+> `optional` **industries**: `number`
+
+Defined in: main.ts:233448
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`industries`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#industries)
+
+***
+
+### job\_functions?
+
+> `optional` **job\_functions**: `number`
+
+Defined in: main.ts:233451
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`job_functions`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#job_functions)
 
 ***
 
@@ -178,13 +196,23 @@ main.ts:218363
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233440
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`keyword_performance`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#keyword_performance)
 
-#### Defined in
+***
 
-main.ts:218356
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+Defined in: main.ts:233446
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#keyword_suggestions_for_url)
 
 ***
 
@@ -192,13 +220,11 @@ main.ts:218356
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233429
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`keywords_for_keywords`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#keywords_for_keywords)
-
-#### Defined in
-
-main.ts:218345
 
 ***
 
@@ -206,13 +232,11 @@ main.ts:218345
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233430
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`keywords_for_site`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#keywords_for_site)
-
-#### Defined in
-
-main.ts:218346
 
 ***
 
@@ -220,13 +244,11 @@ main.ts:218346
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:233433
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`languages`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#languages)
-
-#### Defined in
-
-main.ts:218349
 
 ***
 
@@ -234,13 +256,11 @@ main.ts:218349
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:233434
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`locations`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#locations)
-
-#### Defined in
-
-main.ts:218350
 
 ***
 
@@ -248,13 +268,11 @@ main.ts:218350
 
 > `optional` **locations\_and\_languages**: `number`
 
+Defined in: main.ts:233441
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`locations_and_languages`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#locations_and_languages)
-
-#### Defined in
-
-main.ts:218357
 
 ***
 
@@ -262,13 +280,11 @@ main.ts:218357
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233431
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`search_volume`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#search_volume)
-
-#### Defined in
-
-main.ts:218347
 
 ***
 
@@ -276,13 +292,11 @@ main.ts:218347
 
 > `optional` **search\_volume\_history**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233449
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`search_volume_history`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#search_volume_history)
-
-#### Defined in
-
-main.ts:218362
 
 ***
 
@@ -290,13 +304,11 @@ main.ts:218362
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:233435
+
 #### Implementation of
 
 [`IAppendixKeywordsDataDayStatisticsRatesData`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md).[`tasks_ready`](../interfaces/IAppendixKeywordsDataDayStatisticsRatesData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:218351
 
 ## Methods
 
@@ -304,17 +316,17 @@ main.ts:218351
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:233464
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218376
 
 ***
 
@@ -322,17 +334,17 @@ main.ts:218376
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:233503
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218411
 
 ***
 
@@ -340,14 +352,14 @@ main.ts:218411
 
 > `static` **fromJS**(`data`): [`AppendixKeywordsDataDayStatisticsRatesData`](AppendixKeywordsDataDayStatisticsRatesData.md)
 
+Defined in: main.ts:233496
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixKeywordsDataDayStatisticsRatesData`](AppendixKeywordsDataDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218404

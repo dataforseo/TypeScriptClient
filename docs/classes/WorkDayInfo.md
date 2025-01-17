@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / WorkDayInfo
+[Documentation](../README.md) / WorkDayInfo
 
 # Class: WorkDayInfo
+
+Defined in: main.ts:22978
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new WorkDayInfo**(`data`?): [`WorkDayInfo`](WorkDayInfo.md)
 
+Defined in: main.ts:22986
+
 #### Parameters
 
-• **data?**: [`IWorkDayInfo`](../interfaces/IWorkDayInfo.md)
+##### data?
+
+[`IWorkDayInfo`](../interfaces/IWorkDayInfo.md)
 
 #### Returns
 
 [`WorkDayInfo`](WorkDayInfo.md)
-
-#### Defined in
-
-main.ts:22083
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:22083
 
 > `optional` **close**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
+Defined in: main.ts:22982
+
 closing time
 
 #### Implementation of
 
 [`IWorkDayInfo`](../interfaces/IWorkDayInfo.md).[`close`](../interfaces/IWorkDayInfo.md#close)
-
-#### Defined in
-
-main.ts:22079
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:22079
 
 > `optional` **open**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
+Defined in: main.ts:22980
+
 opening time
 
 #### Implementation of
 
 [`IWorkDayInfo`](../interfaces/IWorkDayInfo.md).[`open`](../interfaces/IWorkDayInfo.md#open)
-
-#### Defined in
-
-main.ts:22077
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:22077
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:22995
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:22092
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:22092
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:23013
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22110
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:22110
 
 > `static` **fromJS**(`data`): [`WorkDayInfo`](WorkDayInfo.md)
 
+Defined in: main.ts:23006
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`WorkDayInfo`](WorkDayInfo.md)
-
-#### Defined in
-
-main.ts:22103

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixBingKeywordsDataDayStatisticsDataInfo
+[Documentation](../README.md) / AppendixBingKeywordsDataDayStatisticsDataInfo
 
 # Class: AppendixBingKeywordsDataDayStatisticsDataInfo
+
+Defined in: main.ts:233356
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,31 +22,53 @@
 
 > **new AppendixBingKeywordsDataDayStatisticsDataInfo**(`data`?): [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
+Defined in: main.ts:233367
+
 #### Parameters
 
-• **data?**: [`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md)
+##### data?
+
+[`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
 #### Returns
 
 [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
-#### Defined in
-
-main.ts:218289
-
 ## Properties
+
+### audience\_estimation?
+
+> `optional` **audience\_estimation**: [`AppendixInfo`](AppendixInfo.md)
+
+Defined in: main.ts:233361
+
+#### Implementation of
+
+[`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`audience_estimation`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#audience_estimation)
+
+***
 
 ### keyword\_performance?
 
 > `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233357
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`keyword_performance`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#keyword_performance)
 
-#### Defined in
+***
 
-main.ts:218281
+### keyword\_suggestions\_for\_url?
+
+> `optional` **keyword\_suggestions\_for\_url**: [`AppendixInfo`](AppendixInfo.md)
+
+Defined in: main.ts:233362
+
+#### Implementation of
+
+[`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`keyword_suggestions_for_url`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#keyword_suggestions_for_url)
 
 ***
 
@@ -52,13 +76,11 @@ main.ts:218281
 
 > `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233360
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`keywords_for_keywords`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#keywords_for_keywords)
-
-#### Defined in
-
-main.ts:218284
 
 ***
 
@@ -66,13 +88,11 @@ main.ts:218284
 
 > `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233359
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`keywords_for_site`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#keywords_for_site)
-
-#### Defined in
-
-main.ts:218283
 
 ***
 
@@ -80,13 +100,11 @@ main.ts:218283
 
 > `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233358
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`search_volume`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#search_volume)
-
-#### Defined in
-
-main.ts:218282
 
 ***
 
@@ -94,13 +112,11 @@ main.ts:218282
 
 > `optional` **search\_volume\_history**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:233363
+
 #### Implementation of
 
 [`IAppendixBingKeywordsDataDayStatisticsDataInfo`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md).[`search_volume_history`](../interfaces/IAppendixBingKeywordsDataDayStatisticsDataInfo.md#search_volume_history)
-
-#### Defined in
-
-main.ts:218285
 
 ## Methods
 
@@ -108,17 +124,17 @@ main.ts:218285
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:233376
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218298
 
 ***
 
@@ -126,17 +142,17 @@ main.ts:218298
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:233399
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218319
 
 ***
 
@@ -144,14 +160,14 @@ main.ts:218319
 
 > `static` **fromJS**(`data`): [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
 
+Defined in: main.ts:233392
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixBingKeywordsDataDayStatisticsDataInfo`](AppendixBingKeywordsDataDayStatisticsDataInfo.md)
-
-#### Defined in
-
-main.ts:218312

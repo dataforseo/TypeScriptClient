@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppUserProfileInfo
+[Documentation](../README.md) / AppUserProfileInfo
 
 # Class: AppUserProfileInfo
+
+Defined in: main.ts:203366
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppUserProfileInfo**(`data`?): [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
+Defined in: main.ts:203374
+
 #### Parameters
 
-• **data?**: [`IAppUserProfileInfo`](../interfaces/IAppUserProfileInfo.md)
+##### data?
+
+[`IAppUserProfileInfo`](../interfaces/IAppUserProfileInfo.md)
 
 #### Returns
 
 [`AppUserProfileInfo`](AppUserProfileInfo.md)
-
-#### Defined in
-
-main.ts:190937
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:190937
 
 > `optional` **profile\_image\_url**: `string`
 
+Defined in: main.ts:203370
+
 URL to the reviewer’s profile image
 
 #### Implementation of
 
 [`IAppUserProfileInfo`](../interfaces/IAppUserProfileInfo.md).[`profile_image_url`](../interfaces/IAppUserProfileInfo.md#profile_image_url)
-
-#### Defined in
-
-main.ts:190933
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:190933
 
 > `optional` **profile\_name**: `string`
 
+Defined in: main.ts:203368
+
 profile name of the reviewer
 
 #### Implementation of
 
 [`IAppUserProfileInfo`](../interfaces/IAppUserProfileInfo.md).[`profile_name`](../interfaces/IAppUserProfileInfo.md#profile_name)
-
-#### Defined in
-
-main.ts:190931
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:190931
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:203383
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:190946
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:190946
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:203401
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:190964
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:190964
 
 > `static` **fromJS**(`data`): [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
+Defined in: main.ts:203394
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppUserProfileInfo`](AppUserProfileInfo.md)
-
-#### Defined in
-
-main.ts:190957

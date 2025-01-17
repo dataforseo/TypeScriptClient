@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveItem
+
+Defined in: main.ts:98004
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLiveItem**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
 
+Defined in: main.ts:98013
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
-
-#### Defined in
-
-main.ts:88194
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `number`[]
+
+Defined in: main.ts:98009
 
 product and service categories
 you can download the full list of possible categories
@@ -45,15 +49,13 @@ you can download the full list of possible categories
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md).[`categories`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md#categories)
 
-#### Defined in
-
-main.ts:88190
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:98006
 
 keyword in a POST array
 
@@ -61,27 +63,23 @@ keyword in a POST array
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md#keyword)
 
-#### Defined in
-
-main.ts:88187
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:98022
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:88203
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:88203
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:98044
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:88225
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:88225
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
 
+Defined in: main.ts:98037
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
-
-#### Defined in
-
-main.ts:88218

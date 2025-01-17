@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseAppDataSerpElementItem
+[Documentation](../README.md) / BaseAppDataSerpElementItem
 
 # Class: BaseAppDataSerpElementItem
+
+Defined in: main.ts:22868
 
 ## Extended by
 
@@ -25,17 +27,17 @@
 
 > **new BaseAppDataSerpElementItem**(`data`?): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
+Defined in: main.ts:22888
+
 #### Parameters
 
-• **data?**: [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md)
+##### data?
+
+[`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md)
 
 #### Returns
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-
-#### Defined in
-
-main.ts:21985
 
 ## Properties
 
@@ -43,15 +45,15 @@ main.ts:21985
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:21983
+Defined in: main.ts:22886
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:22880
 
 the alignment of the element in SERP
 can take the following values:
@@ -61,15 +63,13 @@ left, right
 
 [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`position`](../interfaces/IBaseAppDataSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21977
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:22876
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -78,15 +78,13 @@ absolute position among all the elements in SERP
 
 [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseAppDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21973
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22873
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -95,15 +93,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`rank_group`](../interfaces/IBaseAppDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21970
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:22884
 
 average rating of the app
 
@@ -111,15 +107,13 @@ average rating of the app
 
 [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`rating`](../interfaces/IBaseAppDataSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:21981
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:22882
 
 title of the app
 
@@ -127,15 +121,13 @@ title of the app
 
 [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`title`](../interfaces/IBaseAppDataSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:21979
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22870
 
 type of element
 
@@ -143,27 +135,23 @@ type of element
 
 [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`type`](../interfaces/IBaseAppDataSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21967
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:22898
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:21995
 
 ***
 
@@ -171,17 +159,17 @@ main.ts:21995
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:22946
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:22043
 
 ***
 
@@ -189,14 +177,14 @@ main.ts:22043
 
 > `static` **fromJS**(`data`): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
+Defined in: main.ts:22909
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
-
-#### Defined in
-
-main.ts:22006

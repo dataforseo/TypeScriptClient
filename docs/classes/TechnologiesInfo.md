@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TechnologiesInfo
+[Documentation](../README.md) / TechnologiesInfo
 
 # Class: TechnologiesInfo
+
+Defined in: main.ts:24444
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TechnologiesInfo**(`data`?): [`TechnologiesInfo`](TechnologiesInfo.md)
 
+Defined in: main.ts:24464
+
 #### Parameters
 
-• **data?**: [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md)
+##### data?
+
+[`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md)
 
 #### Returns
 
 [`TechnologiesInfo`](TechnologiesInfo.md)
-
-#### Defined in
-
-main.ts:23566
 
 ## Properties
 
@@ -38,17 +40,15 @@ main.ts:23566
 
 > `optional` **add\_ons**: `object`
 
+Defined in: main.ts:24445
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`add_ons`](../interfaces/ITechnologiesInfo.md#add_ons)
-
-#### Defined in
-
-main.ts:23547
 
 ***
 
@@ -56,17 +56,15 @@ main.ts:23547
 
 > `optional` **analytics**: `object`
 
+Defined in: main.ts:24446
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`analytics`](../interfaces/ITechnologiesInfo.md#analytics)
-
-#### Defined in
-
-main.ts:23548
 
 ***
 
@@ -74,17 +72,15 @@ main.ts:23548
 
 > `optional` **business\_tools**: `object`
 
+Defined in: main.ts:24449
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`business_tools`](../interfaces/ITechnologiesInfo.md#business_tools)
-
-#### Defined in
-
-main.ts:23551
 
 ***
 
@@ -92,17 +88,15 @@ main.ts:23551
 
 > `optional` **communication**: `object`
 
+Defined in: main.ts:24459
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`communication`](../interfaces/ITechnologiesInfo.md#communication)
-
-#### Defined in
-
-main.ts:23561
 
 ***
 
@@ -110,17 +104,15 @@ main.ts:23561
 
 > `optional` **content**: `object`
 
+Defined in: main.ts:24456
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`content`](../interfaces/ITechnologiesInfo.md#content)
-
-#### Defined in
-
-main.ts:23558
 
 ***
 
@@ -128,17 +120,15 @@ main.ts:23558
 
 > `optional` **location**: `object`
 
+Defined in: main.ts:24455
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`location`](../interfaces/ITechnologiesInfo.md#location)
-
-#### Defined in
-
-main.ts:23557
 
 ***
 
@@ -146,17 +136,15 @@ main.ts:23557
 
 > `optional` **marketing**: `object`
 
+Defined in: main.ts:24458
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`marketing`](../interfaces/ITechnologiesInfo.md#marketing)
-
-#### Defined in
-
-main.ts:23560
 
 ***
 
@@ -164,17 +152,15 @@ main.ts:23560
 
 > `optional` **media**: `object`
 
+Defined in: main.ts:24457
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`media`](../interfaces/ITechnologiesInfo.md#media)
-
-#### Defined in
-
-main.ts:23559
 
 ***
 
@@ -182,17 +168,15 @@ main.ts:23559
 
 > `optional` **other**: `object`
 
+Defined in: main.ts:24451
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`other`](../interfaces/ITechnologiesInfo.md#other)
-
-#### Defined in
-
-main.ts:23553
 
 ***
 
@@ -200,17 +184,15 @@ main.ts:23553
 
 > `optional` **privacy**: `object`
 
+Defined in: main.ts:24453
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`privacy`](../interfaces/ITechnologiesInfo.md#privacy)
-
-#### Defined in
-
-main.ts:23555
 
 ***
 
@@ -218,17 +200,15 @@ main.ts:23555
 
 > `optional` **sales**: `object`
 
+Defined in: main.ts:24450
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`sales`](../interfaces/ITechnologiesInfo.md#sales)
-
-#### Defined in
-
-main.ts:23552
 
 ***
 
@@ -236,17 +216,15 @@ main.ts:23552
 
 > `optional` **security**: `object`
 
+Defined in: main.ts:24448
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`security`](../interfaces/ITechnologiesInfo.md#security)
-
-#### Defined in
-
-main.ts:23550
 
 ***
 
@@ -254,17 +232,15 @@ main.ts:23550
 
 > `optional` **servers**: `object`
 
+Defined in: main.ts:24454
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`servers`](../interfaces/ITechnologiesInfo.md#servers)
-
-#### Defined in
-
-main.ts:23556
 
 ***
 
@@ -272,17 +248,15 @@ main.ts:23556
 
 > `optional` **user\_generated\_content**: `object`
 
+Defined in: main.ts:24452
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`user_generated_content`](../interfaces/ITechnologiesInfo.md#user_generated_content)
-
-#### Defined in
-
-main.ts:23554
 
 ***
 
@@ -290,17 +264,15 @@ main.ts:23554
 
 > `optional` **utilities**: `object`
 
+Defined in: main.ts:24460
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`utilities`](../interfaces/ITechnologiesInfo.md#utilities)
-
-#### Defined in
-
-main.ts:23562
 
 ***
 
@@ -308,17 +280,15 @@ main.ts:23562
 
 > `optional` **web\_development**: `object`
 
+Defined in: main.ts:24447
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`web_development`](../interfaces/ITechnologiesInfo.md#web_development)
-
-#### Defined in
-
-main.ts:23549
 
 ## Methods
 
@@ -326,17 +296,17 @@ main.ts:23549
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24473
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23575
 
 ***
 
@@ -344,17 +314,17 @@ main.ts:23575
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24601
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23703
 
 ***
 
@@ -362,14 +332,14 @@ main.ts:23703
 
 > `static` **fromJS**(`data`): [`TechnologiesInfo`](TechnologiesInfo.md)
 
+Defined in: main.ts:24594
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TechnologiesInfo`](TechnologiesInfo.md)
-
-#### Defined in
-
-main.ts:23696

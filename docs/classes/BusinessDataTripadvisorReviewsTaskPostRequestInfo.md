@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorReviewsTaskPostRequestInfo
+[Documentation](../README.md) / BusinessDataTripadvisorReviewsTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorReviewsTaskPostRequestInfo
+
+Defined in: main.ts:228522
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataTripadvisorReviewsTaskPostRequestInfo**(`data`?): [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
 
+Defined in: main.ts:228647
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:213605
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:228581
 
 parsing depth
 optional field
@@ -49,36 +53,32 @@ max value: 4490
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:213541
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:228536
+
 keyword
 required field if you do not specify url_path
 the keyword you specify should indicate a name of an existing business or prominent place on Tripadvisor;
-you can specify up to 700 symbols in the keyword filed;
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
-if you need to use the “%” symbol for your keyword, please specify it as “%25”
+you can specify up to 700 characters in the keyword filed;
+all %## will be decoded (plus character ‘+’ will be decoded to a space character);
+if you need to use the “%” character for your keyword, please specify it as “%25”
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:213496
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:228574
 
 search engine language code
 optional field
@@ -93,15 +93,13 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:213534
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:228565
 
 full name of search engine language
 optional field
@@ -116,15 +114,13 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:213525
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:228548
 
 search engine location code
 required field if you don’t specify location_name or url_path
@@ -136,15 +132,13 @@ example:
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:213508
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:228542
 
 full name of search engine location
 required field if you don’t specify location_code or url_path
@@ -156,15 +150,13 @@ London,England,United Kingdom
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:213502
-
 ***
 
 ### months?
 
 > `optional` **months**: `string`[]
+
+Defined in: main.ts:228597
 
 filter by months when a traveler made a visit
 optional field
@@ -175,15 +167,13 @@ you can specify several values at once
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`months`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#months)
 
-#### Defined in
-
-main.ts:213557
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:228643
 
 notification URL of a completed task
 optional field
@@ -192,22 +182,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:213601
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:228632
 
 return URL for sending task results
 optional field
@@ -216,22 +205,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:213591
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:228556
 
 task priority
 optional field
@@ -245,15 +233,13 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:213516
-
 ***
 
 ### ratings?
 
 > `optional` **ratings**: `string`[]
+
+Defined in: main.ts:228587
 
 Tripadvisor traveler rating for a place of interest
 optional field
@@ -265,15 +251,13 @@ you can specify several values at once
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`ratings`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#ratings)
 
-#### Defined in
-
-main.ts:213547
-
 ***
 
 ### search\_reviews\_keyword?
 
 > `optional` **search\_reviews\_keyword**: `string`
+
+Defined in: main.ts:228601
 
 search reviews containing a specified keyword
 example:
@@ -283,15 +267,13 @@ dessert
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`search_reviews_keyword`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#search_reviews_keyword)
 
-#### Defined in
-
-main.ts:213561
-
 ***
 
 ### sort\_by?
 
 > `optional` **sort\_by**: `string`
+
+Defined in: main.ts:228608
 
 results sorting parameters
 optional field
@@ -304,15 +286,13 @@ detailed_reviews
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#sort_by)
 
-#### Defined in
-
-main.ts:213568
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:228621
 
 user-defined task identifier
 optional field
@@ -324,15 +304,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:213581
-
 ***
 
 ### translate\_reviews?
 
 > `optional` **translate\_reviews**: `boolean`
+
+Defined in: main.ts:228615
 
 translate reviews according to the URL path
 optional field
@@ -345,15 +323,13 @@ you can learn more about how reviews are translated in this Help Center article
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`translate_reviews`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#translate_reviews)
 
-#### Defined in
-
-main.ts:213575
-
 ***
 
 ### url\_path?
 
 > `optional` **url\_path**: `string`
+
+Defined in: main.ts:228529
 
 URL path of the business entity
 required field if you do not specify keyword
@@ -366,15 +342,13 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`url_path`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#url_path)
 
-#### Defined in
-
-main.ts:213489
-
 ***
 
 ### visit\_type?
 
 > `optional` **visit\_type**: `string`[]
+
+Defined in: main.ts:228592
 
 filter by type of travelers who left a review
 optional field
@@ -385,27 +359,23 @@ you can specify several values at once
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`visit_type`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#visit_type)
 
-#### Defined in
-
-main.ts:213552
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:228656
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:213614
 
 ***
 
@@ -413,17 +383,17 @@ main.ts:213614
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:228701
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:213659
 
 ***
 
@@ -431,14 +401,14 @@ main.ts:213659
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
 
+Defined in: main.ts:228694
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:213652

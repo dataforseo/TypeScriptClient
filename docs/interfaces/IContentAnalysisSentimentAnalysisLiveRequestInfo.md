@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisSentimentAnalysisLiveRequestInfo
+[Documentation](../README.md) / IContentAnalysisSentimentAnalysisLiveRequestInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveRequestInfo
 
+Defined in: main.ts:179124
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### initial\_dataset\_filters?
 
 > `optional` **initial\_dataset\_filters**: `any`[]
+
+Defined in: main.ts:179193
 
 initial dataset filtering parameters
 optional field
@@ -33,15 +37,13 @@ example:
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
 
-#### Defined in
-
-main.ts:167503
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:179162
 
 maximum number of elements within internal arrays
 optional field
@@ -54,34 +56,30 @@ languages
 default value: 1
 maximum value: 20
 
-#### Defined in
-
-main.ts:167472
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:179133
+
 target keyword
 required field
 UTF-8 encoding
-a keyword should be at least 3 characters long;
 the keywords will be converted to a lowercase format;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
 "keyword": "\"tesla palo alto\""
-
-#### Defined in
-
-main.ts:167443
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### keyword\_fields?
 
 > `optional` **keyword\_fields**: `object`
+
+Defined in: main.ts:179145
 
 target keyword fields and target keywords
 optional field
@@ -97,11 +95,7 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:167455
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -109,21 +103,21 @@ main.ts:167455
 
 > `optional` **page\_type**: `string`[]
 
+Defined in: main.ts:179151
+
 target page types
 optional field
 use this parameter to filter the dataset by page types
 possible values:
 "ecommerce", "news", "blogs", "message-boards", "organization"
 
-#### Defined in
-
-main.ts:167461
-
 ***
 
 ### positive\_connotation\_threshold?
 
 > `optional` **positive\_connotation\_threshold**: `number`
+
+Defined in: main.ts:179169
 
 positive connotation threshold
 optional field
@@ -132,15 +126,13 @@ if you specify this field, connotation_types object in the response will only co
 possible values: from 0 to 1
 default value: 0.4
 
-#### Defined in
-
-main.ts:167479
-
 ***
 
 ### sentiments\_connotation\_threshold?
 
 > `optional` **sentiments\_connotation\_threshold**: `number`
+
+Defined in: main.ts:179176
 
 sentiment connotation threshold
 optional field
@@ -149,22 +141,16 @@ if you specify this field, sentiment_connotations object in the response will on
 possible values: from 0 to 1
 default value: 0.4
 
-#### Defined in
-
-main.ts:167486
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:179199
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:167509

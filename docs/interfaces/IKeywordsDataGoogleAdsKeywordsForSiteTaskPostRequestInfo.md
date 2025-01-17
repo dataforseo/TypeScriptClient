@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
+Defined in: main.ts:128302
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:128364
 
 starting date of the time range
 optional field
@@ -24,15 +28,13 @@ by default, data is returned for the past 12 months;
 Note: the indicated date cannot be greater than that specified in date_to and/or yesterday’s date;if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Defined in
-
-main.ts:118533
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:128372
 
 ending date of the time range
 optional field
@@ -42,15 +44,13 @@ date format: "yyyy-mm-dd"
 example:
 "2022-11-30"
 
-#### Defined in
-
-main.ts:118541
-
 ***
 
 ### include\_adult\_keywords?
 
 > `optional` **include\_adult\_keywords**: `boolean`
+
+Defined in: main.ts:128378
 
 include keywords associated with adult content
 optional field
@@ -58,15 +58,13 @@ if set to true, adult keywords will be included in the response
 default value: false
 note that the API may return no data for such keywords due to Google Ads restrictions
 
-#### Defined in
-
-main.ts:118547
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:128351
 
 search engine language code
 optional field
@@ -74,15 +72,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:118520
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:128345
 
 full name of search engine language
 optional field
@@ -90,15 +86,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:118514
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:128330
 
 search engine location code
 optional field
@@ -108,15 +102,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:118499
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:128339
 
 GPS coordinates of a location
 optional field
@@ -127,15 +119,13 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Defined in
-
-main.ts:118508
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:128322
 
 full name of search engine location
 optional field
@@ -145,15 +135,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:118491
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:128405
 
 notification URL of a completed task
 optional field
@@ -162,18 +150,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:118572
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:128394
 
 return URL for sending task results
 optional field
@@ -182,12 +169,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:118562
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -195,14 +179,12 @@ main.ts:118562
 
 > `optional` **search\_partners**: `boolean`
 
+Defined in: main.ts:128356
+
 include Google search partners
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
-
-#### Defined in
-
-main.ts:118525
 
 ***
 
@@ -210,14 +192,12 @@ main.ts:118525
 
 > `optional` **sort\_by**: `string`
 
+Defined in: main.ts:128383
+
 results sorting parameters
 optional field
 Use these parameters to sort the results by relevance, search_volume, competition_index, low_top_of_page_bid, or high_top_of_page_bid in descending order
 default value: relevance
-
-#### Defined in
-
-main.ts:118552
 
 ***
 
@@ -225,15 +205,13 @@ main.ts:118552
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:128411
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:118578
 
 ***
 
@@ -241,14 +219,12 @@ main.ts:118578
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:128307
+
 domain or page
 required field
 the domain name of the target website or the url of the target page;
 note: to obtain keywords for the target website, use the target_type parameter
-
-#### Defined in
-
-main.ts:118476
 
 ***
 
@@ -256,13 +232,11 @@ main.ts:118476
 
 > `optional` **target\_type**: `string`
 
+Defined in: main.ts:128314
+
 search keywords for site or url
 optional field
 possible values: site, page;
 default value: page
 if set to site, keywords will be provided for the entire site;
 if set to page, keywords will be provided for the specified webpage
-
-#### Defined in
-
-main.ts:118483

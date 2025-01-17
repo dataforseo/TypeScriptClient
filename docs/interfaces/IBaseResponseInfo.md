@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseResponseInfo
+[Documentation](../README.md) / IBaseResponseInfo
 
 # Interface: IBaseResponseInfo
+
+Defined in: main.ts:25274
 
 ## Extended by
 
@@ -80,6 +82,14 @@
 - [`ISerpGoogleDatasetInfoTasksFixedResponseInfo`](ISerpGoogleDatasetInfoTasksFixedResponseInfo.md)
 - [`ISerpGoogleDatasetInfoTaskGetAdvancedResponseInfo`](ISerpGoogleDatasetInfoTaskGetAdvancedResponseInfo.md)
 - [`ISerpGoogleDatasetInfoLiveAdvancedResponseInfo`](ISerpGoogleDatasetInfoLiveAdvancedResponseInfo.md)
+- [`ISerpGoogleAdsAdvertisersLocationsResponseInfo`](ISerpGoogleAdsAdvertisersLocationsResponseInfo.md)
+- [`ISerpGoogleAdsAdvertisersTaskPostResponseInfo`](ISerpGoogleAdsAdvertisersTaskPostResponseInfo.md)
+- [`ISerpGoogleAdsAdvertisersTasksReadyResponseInfo`](ISerpGoogleAdsAdvertisersTasksReadyResponseInfo.md)
+- [`ISerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo`](ISerpGoogleAdsAdvertisersTaskGetAdvancedResponseInfo.md)
+- [`ISerpGoogleAdsSearchLocationsResponseInfo`](ISerpGoogleAdsSearchLocationsResponseInfo.md)
+- [`ISerpGoogleAdsSearchTaskPostResponseInfo`](ISerpGoogleAdsSearchTaskPostResponseInfo.md)
+- [`ISerpGoogleAdsSearchTasksReadyResponseInfo`](ISerpGoogleAdsSearchTasksReadyResponseInfo.md)
+- [`ISerpGoogleAdsSearchTaskGetAdvancedResponseInfo`](ISerpGoogleAdsSearchTaskGetAdvancedResponseInfo.md)
 - [`ISerpBingLocationsResponseInfo`](ISerpBingLocationsResponseInfo.md)
 - [`ISerpBingLocationsCountryResponseInfo`](ISerpBingLocationsCountryResponseInfo.md)
 - [`ISerpBingLanguagesResponseInfo`](ISerpBingLanguagesResponseInfo.md)
@@ -267,6 +277,12 @@
 - [`IKeywordsDataBingSearchVolumeTasksReadyResponseInfo`](IKeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)
 - [`IKeywordsDataBingSearchVolumeTaskGetResponseInfo`](IKeywordsDataBingSearchVolumeTaskGetResponseInfo.md)
 - [`IKeywordsDataBingSearchVolumeLiveResponseInfo`](IKeywordsDataBingSearchVolumeLiveResponseInfo.md)
+- [`IKeywordsDataBingAudienceEstimationJobFunctionsResponseInfo`](IKeywordsDataBingAudienceEstimationJobFunctionsResponseInfo.md)
+- [`IKeywordsDataBingAudienceEstimationIndustriesResponseInfo`](IKeywordsDataBingAudienceEstimationIndustriesResponseInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTaskPostResponseInfo`](IKeywordsDataBingAudienceEstimationTaskPostResponseInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTasksReadyResponseInfo`](IKeywordsDataBingAudienceEstimationTasksReadyResponseInfo.md)
+- [`IKeywordsDataBingAudienceEstimationTaskGetResponseInfo`](IKeywordsDataBingAudienceEstimationTaskGetResponseInfo.md)
+- [`IKeywordsDataBingAudienceEstimationLiveResponseInfo`](IKeywordsDataBingAudienceEstimationLiveResponseInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](IKeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](IKeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)
 - [`IKeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](IKeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)
@@ -478,6 +494,9 @@
 - [`IBusinessDataGoogleReviewsTaskPostResponseInfo`](IBusinessDataGoogleReviewsTaskPostResponseInfo.md)
 - [`IBusinessDataGoogleReviewsTasksReadyResponseInfo`](IBusinessDataGoogleReviewsTasksReadyResponseInfo.md)
 - [`IBusinessDataGoogleReviewsTaskGetResponseInfo`](IBusinessDataGoogleReviewsTaskGetResponseInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTaskPostResponseInfo`](IBusinessDataGoogleExtendedReviewsTaskPostResponseInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTasksReadyResponseInfo`](IBusinessDataGoogleExtendedReviewsTasksReadyResponseInfo.md)
+- [`IBusinessDataGoogleExtendedReviewsTaskGetResponseInfo`](IBusinessDataGoogleExtendedReviewsTaskGetResponseInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo`](IBusinessDataGoogleQuestionsAndAnswersTaskPostResponseInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo`](IBusinessDataGoogleQuestionsAndAnswersTasksReadyResponseInfo.md)
 - [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo`](IBusinessDataGoogleQuestionsAndAnswersTaskGetResponseInfo.md)
@@ -507,7 +526,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -515,11 +534,9 @@
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:25286
+
 total tasks cost, USD
-
-#### Defined in
-
-main.ts:24216
 
 ***
 
@@ -527,12 +544,10 @@ main.ts:24216
 
 > `optional` **status\_code**: `number`
 
+Defined in: main.ts:25279
+
 general status code
 you can find the full list of the response codes here
-
-#### Defined in
-
-main.ts:24209
 
 ***
 
@@ -540,12 +555,10 @@ main.ts:24209
 
 > `optional` **status\_message**: `string`
 
+Defined in: main.ts:25282
+
 general informational message
 you can find the full list of general informational messages here
-
-#### Defined in
-
-main.ts:24212
 
 ***
 
@@ -553,11 +566,9 @@ main.ts:24212
 
 > `optional` **tasks\_count**: `number`
 
+Defined in: main.ts:25288
+
 the number of tasks in the tasks array
-
-#### Defined in
-
-main.ts:24218
 
 ***
 
@@ -565,11 +576,9 @@ main.ts:24218
 
 > `optional` **tasks\_error**: `number`
 
+Defined in: main.ts:25290
+
 the number of tasks in the tasks array returned with an error
-
-#### Defined in
-
-main.ts:24220
 
 ***
 
@@ -577,11 +586,9 @@ main.ts:24220
 
 > `optional` **time**: `string`
 
+Defined in: main.ts:25284
+
 total execution time, seconds
-
-#### Defined in
-
-main.ts:24214
 
 ***
 
@@ -589,8 +596,6 @@ main.ts:24214
 
 > `optional` **version**: `string`
 
+Defined in: main.ts:25276
+
 the current version of the API
-
-#### Defined in
-
-main.ts:24206

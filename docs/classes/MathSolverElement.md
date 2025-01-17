@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MathSolverElement
+[Documentation](../README.md) / MathSolverElement
 
 # Class: MathSolverElement
+
+Defined in: main.ts:36239
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MathSolverElement**(`data`?): [`MathSolverElement`](MathSolverElement.md)
 
+Defined in: main.ts:36249
+
 #### Parameters
 
-• **data?**: [`IMathSolverElement`](../interfaces/IMathSolverElement.md)
+##### data?
+
+[`IMathSolverElement`](../interfaces/IMathSolverElement.md)
 
 #### Returns
 
 [`MathSolverElement`](MathSolverElement.md)
-
-#### Defined in
-
-main.ts:34537
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:34537
 
 > `optional` **expanded\_element**: [`MathSolverExpandedElement`](MathSolverExpandedElement.md)[]
 
+Defined in: main.ts:36245
+
 expanded element
 
 #### Implementation of
 
 [`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`expanded_element`](../interfaces/IMathSolverElement.md#expanded_element)
-
-#### Defined in
-
-main.ts:34533
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:34533
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:36243
+
 title of a given link element
 
 #### Implementation of
 
 [`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`title`](../interfaces/IMathSolverElement.md#title)
-
-#### Defined in
-
-main.ts:34531
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:34531
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:36241
+
 type of element
 
 #### Implementation of
 
 [`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`type`](../interfaces/IMathSolverElement.md#type)
-
-#### Defined in
-
-main.ts:34529
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:34529
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:36258
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:34546
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:34546
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:36281
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:34569
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:34569
 
 > `static` **fromJS**(`data`): [`MathSolverElement`](MathSolverElement.md)
 
+Defined in: main.ts:36274
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MathSolverElement`](MathSolverElement.md)
-
-#### Defined in
-
-main.ts:34562

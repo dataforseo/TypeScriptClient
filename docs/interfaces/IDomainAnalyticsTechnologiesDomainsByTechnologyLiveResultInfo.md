@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
 
+Defined in: main.ts:87989
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](../classes/DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
+Defined in: main.ts:88001
+
 items array
-
-#### Defined in
-
-main.ts:78258
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:78258
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:87993
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:78250
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:78250
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:87995
+
 specified offset value
-
-#### Defined in
-
-main.ts:78252
 
 ***
 
@@ -52,13 +48,11 @@ main.ts:78252
 
 > `optional` **offset\_token**: `string`
 
+Defined in: main.ts:87999
+
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
-
-#### Defined in
-
-main.ts:78256
 
 ***
 
@@ -66,8 +60,6 @@ main.ts:78256
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:87991
+
 total number of relevant items in the database
-
-#### Defined in
-
-main.ts:78248

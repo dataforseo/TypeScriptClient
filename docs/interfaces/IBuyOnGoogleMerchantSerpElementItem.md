@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBuyOnGoogleMerchantSerpElementItem
+[Documentation](../README.md) / IBuyOnGoogleMerchantSerpElementItem
 
 # Interface: IBuyOnGoogleMerchantSerpElementItem
+
+Defined in: main.ts:188201
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **base\_price**: `number`
 
+Defined in: main.ts:188214
+
 product price without tax and shipping
-
-#### Defined in
-
-main.ts:176380
 
 ***
 
@@ -32,13 +32,11 @@ main.ts:176380
 
 > `optional` **currency**: `string`
 
+Defined in: main.ts:188225
+
 currency in the ISO format
 example:
 USD
-
-#### Defined in
-
-main.ts:176391
 
 ***
 
@@ -46,12 +44,10 @@ main.ts:176391
 
 > `optional` **details**: `string`
 
+Defined in: main.ts:188212
+
 details and special offers
 if there are no details, the value will be null
-
-#### Defined in
-
-main.ts:176378
 
 ***
 
@@ -59,17 +55,17 @@ main.ts:176378
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:188205
+
 domain in SERP
-
-#### Defined in
-
-main.ts:176371
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21813
 
 alignment of the element in SERP
 can take the following values:
@@ -79,15 +75,13 @@ left, right
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21130
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21809
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -96,15 +90,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21126
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21806
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -113,22 +105,16 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21123
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
+Defined in: main.ts:188231
+
 shop rating
 the shop popularity rate based on product reviews
-
-#### Defined in
-
-main.ts:176397
 
 ***
 
@@ -136,12 +122,10 @@ main.ts:176397
 
 > `optional` **seller\_name**: `string`
 
+Defined in: main.ts:188228
+
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
-
-#### Defined in
-
-main.ts:176394
 
 ***
 
@@ -149,11 +133,9 @@ main.ts:176394
 
 > `optional` **shipping\_price**: `number`
 
+Defined in: main.ts:188219
+
 product shipping price
-
-#### Defined in
-
-main.ts:176385
 
 ***
 
@@ -161,13 +143,11 @@ main.ts:176385
 
 > `optional` **shop\_ad\_aclk**: `string`
 
+Defined in: main.ts:188235
+
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
 in this case, the value equals null
-
-#### Defined in
-
-main.ts:176401
 
 ***
 
@@ -175,12 +155,10 @@ main.ts:176401
 
 > `optional` **tax**: `number`
 
+Defined in: main.ts:188217
+
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
-
-#### Defined in
-
-main.ts:176383
 
 ***
 
@@ -188,11 +166,9 @@ main.ts:176383
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:188207
+
 product title
-
-#### Defined in
-
-main.ts:176373
 
 ***
 
@@ -200,11 +176,9 @@ main.ts:176373
 
 > `optional` **total\_price**: `number`
 
+Defined in: main.ts:188221
+
 product price including tax and shipping
-
-#### Defined in
-
-main.ts:176387
 
 ***
 
@@ -212,15 +186,13 @@ main.ts:176387
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21803
+
 type of element
 
 #### Inherited from
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21120
 
 ***
 
@@ -228,11 +200,9 @@ main.ts:21120
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:188209
+
 Google Shopping URL forwarding to the product page
-
-#### Defined in
-
-main.ts:176375
 
 ***
 
@@ -240,8 +210,6 @@ main.ts:176375
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:188203
+
 XPath of the element
-
-#### Defined in
-
-main.ts:176369

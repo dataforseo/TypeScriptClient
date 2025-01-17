@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsDomainRankOverviewLiveItem
+[Documentation](../README.md) / DataforseoLabsDomainRankOverviewLiveItem
 
 # Class: DataforseoLabsDomainRankOverviewLiveItem
+
+Defined in: main.ts:105212
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsDomainRankOverviewLiveItem**(`data`?): [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
 
+Defined in: main.ts:105224
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md)
+##### data?
+
+[`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
-
-#### Defined in
-
-main.ts:95405
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:95405
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:105218
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md).[`language_code`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md#language_code)
-
-#### Defined in
-
-main.ts:95399
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:95399
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:105216
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md).[`location_code`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md#location_code)
-
-#### Defined in
-
-main.ts:95397
 
 ***
 
@@ -70,19 +68,17 @@ main.ts:95397
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:105220
+
 ranking data relevant to the specified domain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
 [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md#metrics)
-
-#### Defined in
-
-main.ts:95401
 
 ***
 
@@ -90,15 +86,13 @@ main.ts:95401
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:105214
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md#se_type)
-
-#### Defined in
-
-main.ts:95395
 
 ## Methods
 
@@ -106,17 +100,17 @@ main.ts:95395
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:105233
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:95414
 
 ***
 
@@ -124,17 +118,17 @@ main.ts:95414
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:105259
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:95440
 
 ***
 
@@ -142,14 +136,14 @@ main.ts:95440
 
 > `static` **fromJS**(`data`): [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
 
+Defined in: main.ts:105252
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
-
-#### Defined in
-
-main.ts:95433

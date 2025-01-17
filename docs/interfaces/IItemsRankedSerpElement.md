@@ -21,7 +21,11 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114525
+=======
+main.ts:114558
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -36,7 +40,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114532
+=======
+main.ts:114565
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -52,7 +60,11 @@ in this case, will equal null
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114538
+=======
+main.ts:114571
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -64,7 +76,11 @@ number of search results for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114527
+=======
+main.ts:114560
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -76,7 +92,11 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114519
+=======
+main.ts:114552
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -89,4 +109,8 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114522
+=======
+main.ts:114555
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

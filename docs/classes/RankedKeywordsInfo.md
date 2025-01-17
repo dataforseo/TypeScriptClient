@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RankedKeywordsInfo
+[Documentation](../README.md) / RankedKeywordsInfo
 
 # Class: RankedKeywordsInfo
+
+Defined in: main.ts:151740
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new RankedKeywordsInfo**(`data`?): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
+Defined in: main.ts:151750
+
 #### Parameters
 
-• **data?**: [`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md)
+##### data?
+
+[`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md)
 
 #### Returns
 
 [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
-
-#### Defined in
-
-main.ts:140444
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:140444
 
 > `optional` **page\_from\_keywords\_count\_top\_10**: `number`
 
+Defined in: main.ts:151744
+
 number of keywords for which the page is ranked in top 10 search results
 
 #### Implementation of
 
 [`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md).[`page_from_keywords_count_top_10`](../interfaces/IRankedKeywordsInfo.md#page_from_keywords_count_top_10)
-
-#### Defined in
-
-main.ts:140438
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:140438
 
 > `optional` **page\_from\_keywords\_count\_top\_100**: `number`
 
+Defined in: main.ts:151746
+
 number of keywords for which the page is ranked in top 100 search results
 
 #### Implementation of
 
 [`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md).[`page_from_keywords_count_top_100`](../interfaces/IRankedKeywordsInfo.md#page_from_keywords_count_top_100)
-
-#### Defined in
-
-main.ts:140440
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:140440
 
 > `optional` **page\_from\_keywords\_count\_top\_3**: `number`
 
+Defined in: main.ts:151742
+
 number of keywords for which the page is ranked in top 3 search results
 
 #### Implementation of
 
 [`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md).[`page_from_keywords_count_top_3`](../interfaces/IRankedKeywordsInfo.md#page_from_keywords_count_top_3)
-
-#### Defined in
-
-main.ts:140436
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:140436
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:151759
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:140453
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:140453
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:151778
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:140472
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:140472
 
 > `static` **fromJS**(`data`): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
+Defined in: main.ts:151771
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
-
-#### Defined in
-
-main.ts:140465

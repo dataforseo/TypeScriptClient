@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
+[Documentation](../README.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveItem
+
+Defined in: main.ts:100240
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleDomainWhoisOverviewLiveItem**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
 
+Defined in: main.ts:100292
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
-
-#### Defined in
-
-main.ts:90473
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:90473
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
+Defined in: main.ts:100288
+
 backlink data for the returned domain
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`backlinks_info`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#backlinks_info)
 
-#### Defined in
-
-main.ts:90469
-
 ***
 
 ### changed\_datetime?
 
 > `optional` **changed\_datetime**: `string`
+
+Defined in: main.ts:100254
 
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
@@ -63,15 +65,13 @@ example:
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`changed_datetime`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#changed_datetime)
 
-#### Defined in
-
-main.ts:90435
-
 ***
 
 ### created\_datetime?
 
 > `optional` **created\_datetime**: `string`
+
+Defined in: main.ts:100249
 
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
@@ -82,15 +82,13 @@ example:
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`created_datetime`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#created_datetime)
 
-#### Defined in
-
-main.ts:90430
-
 ***
 
 ### domain?
 
 > `optional` **domain**: `string`
+
+Defined in: main.ts:100244
 
 domain name
 
@@ -98,15 +96,13 @@ domain name
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`domain`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#domain)
 
-#### Defined in
-
-main.ts:90425
-
 ***
 
 ### epp\_status\_codes?
 
 > `optional` **epp\_status\_codes**: `string`[]
+
+Defined in: main.ts:100272
 
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
@@ -115,15 +111,13 @@ the status of a domain name registration as defined by ICANN
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`epp_status_codes`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#epp_status_codes)
 
-#### Defined in
-
-main.ts:90453
-
 ***
 
 ### expiration\_datetime?
 
 > `optional` **expiration\_datetime**: `string`
+
+Defined in: main.ts:100259
 
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
@@ -134,15 +128,13 @@ example:
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`expiration_datetime`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#expiration_datetime)
 
-#### Defined in
-
-main.ts:90440
-
 ***
 
 ### first\_seen?
 
 > `optional` **first\_seen**: `string`
+
+Defined in: main.ts:100269
 
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -153,35 +145,31 @@ example:
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`first_seen`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#first_seen)
 
-#### Defined in
-
-main.ts:90450
-
 ***
 
 ### metrics?
 
 > `optional` **metrics**: `object`
 
+Defined in: main.ts:100286
+
 ranking data relevant to the specified domain
 
 #### Index Signature
 
- \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
+\[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#metrics)
-
-#### Defined in
-
-main.ts:90467
 
 ***
 
 ### registered?
 
 > `optional` **registered**: `boolean`
+
+Defined in: main.ts:100279
 
 domain registration status
 if false, the domain name registration has expired
@@ -191,15 +179,13 @@ Note: expired domains will remain in the database for only a short period of tim
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`registered`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#registered)
 
-#### Defined in
-
-main.ts:90460
-
 ***
 
 ### registrar?
 
 > `optional` **registrar**: `string`
+
+Defined in: main.ts:100284
 
 domain registrar
 if null, the domain registrar is unknown
@@ -210,15 +196,13 @@ NameCheap, Inc.
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`registrar`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#registrar)
 
-#### Defined in
-
-main.ts:90465
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:100242
 
 search engine type
 
@@ -226,15 +210,13 @@ search engine type
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#se_type)
 
-#### Defined in
-
-main.ts:90423
-
 ***
 
 ### tld?
 
 > `optional` **tld**: `string`
+
+Defined in: main.ts:100275
 
 top-level domain
 top-level domain in the DNS root zone
@@ -243,15 +225,13 @@ top-level domain in the DNS root zone
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`tld`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#tld)
 
-#### Defined in
-
-main.ts:90456
-
 ***
 
 ### updated\_datetime?
 
 > `optional` **updated\_datetime**: `string`
+
+Defined in: main.ts:100264
 
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated
@@ -262,27 +242,23 @@ example:
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveItem`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md).[`updated_datetime`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveItem.md#updated_datetime)
 
-#### Defined in
-
-main.ts:90445
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:100301
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:90482
 
 ***
 
@@ -290,17 +266,17 @@ main.ts:90482
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:100340
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:90521
 
 ***
 
@@ -308,14 +284,14 @@ main.ts:90521
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
 
+Defined in: main.ts:100333
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)
-
-#### Defined in
-
-main.ts:90514

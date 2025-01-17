@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ChannelSubscribersCount
+[Documentation](../README.md) / ChannelSubscribersCount
 
 # Class: ChannelSubscribersCount
+
+Defined in: main.ts:70253
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ChannelSubscribersCount**(`data`?): [`ChannelSubscribersCount`](ChannelSubscribersCount.md)
 
+Defined in: main.ts:70262
+
 #### Parameters
 
-• **data?**: [`IChannelSubscribersCount`](../interfaces/IChannelSubscribersCount.md)
+##### data?
+
+[`IChannelSubscribersCount`](../interfaces/IChannelSubscribersCount.md)
 
 #### Returns
 
 [`ChannelSubscribersCount`](ChannelSubscribersCount.md)
-
-#### Defined in
-
-main.ts:62047
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:62047
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:70258
+
 subscriber count
 
 #### Implementation of
 
 [`IChannelSubscribersCount`](../interfaces/IChannelSubscribersCount.md).[`count`](../interfaces/IChannelSubscribersCount.md#count)
 
-#### Defined in
-
-main.ts:62043
-
 ***
 
 ### displayed\_count?
 
 > `optional` **displayed\_count**: `string`
+
+Defined in: main.ts:70256
 
 displayed subscriber count
 subscriber count as displayed on YouTube
@@ -61,27 +63,23 @@ subscriber count as displayed on YouTube
 
 [`IChannelSubscribersCount`](../interfaces/IChannelSubscribersCount.md).[`displayed_count`](../interfaces/IChannelSubscribersCount.md#displayed_count)
 
-#### Defined in
-
-main.ts:62041
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:70271
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:62056
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:62056
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:70289
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:62074
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:62074
 
 > `static` **fromJS**(`data`): [`ChannelSubscribersCount`](ChannelSubscribersCount.md)
 
+Defined in: main.ts:70282
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ChannelSubscribersCount`](ChannelSubscribersCount.md)
-
-#### Defined in
-
-main.ts:62067

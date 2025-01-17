@@ -1,24 +1,32 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixGoogleBusinessDataPriceData
+[Documentation](../README.md) / IAppendixGoogleBusinessDataPriceData
 
 # Interface: IAppendixGoogleBusinessDataPriceData
 
+Defined in: main.ts:237914
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
+
+### extended\_reviews?
+
+> `optional` **extended\_reviews**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:237915
+
+***
 
 ### hotel\_info?
 
 > `optional` **hotel\_info**: [`AppendixHotelInfoGoogleBusinessDataPriceData`](../classes/AppendixHotelInfoGoogleBusinessDataPriceData.md)
 
-#### Defined in
-
-main.ts:222684
+Defined in: main.ts:237916
 
 ***
 
@@ -26,9 +34,7 @@ main.ts:222684
 
 > `optional` **hotel\_searches**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222685
+Defined in: main.ts:237917
 
 ***
 
@@ -36,9 +42,7 @@ main.ts:222685
 
 > `optional` **my\_business\_info**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222686
+Defined in: main.ts:237918
 
 ***
 
@@ -46,9 +50,7 @@ main.ts:222686
 
 > `optional` **my\_business\_updates**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222687
+Defined in: main.ts:237919
 
 ***
 
@@ -56,9 +58,7 @@ main.ts:222687
 
 > `optional` **questions\_and\_answers**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222688
+Defined in: main.ts:237920
 
 ***
 
@@ -66,6 +66,4 @@ main.ts:222688
 
 > `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:222689
+Defined in: main.ts:237921

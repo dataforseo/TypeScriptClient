@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo
 
+Defined in: main.ts:136895
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:136910
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:126554
 
 ***
 
@@ -31,12 +31,10 @@ main.ts:126554
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)[]
 
+Defined in: main.ts:136915
+
 keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region
-
-#### Defined in
-
-main.ts:126559
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:126559
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:136912
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:126556
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:126556
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:136897
+
 keywords in a POST array
-
-#### Defined in
-
-main.ts:126541
 
 ***
 
@@ -68,12 +62,10 @@ main.ts:126541
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:136905
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:126549
 
 ***
 
@@ -81,12 +73,10 @@ main.ts:126549
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:136902
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:126546
 
 ***
 
@@ -94,8 +84,6 @@ main.ts:126546
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:136899
+
 type of element
-
-#### Defined in
-
-main.ts:126543

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
+Defined in: main.ts:114043
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsAmazonProductRankOverviewLiveItem`](../classes/DataforseoLabsAmazonProductRankOverviewLiveItem.md)[]
 
+Defined in: main.ts:114057
+
 contains detected Amazon product competitors and related data
-
-#### Defined in
-
-main.ts:104318
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:104318
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:114055
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:104316
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:104316
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:114051
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:104312
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:104312
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:114048
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:104309
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:104309
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:114045
+
 search engine type
-
-#### Defined in
-
-main.ts:104306
 
 ***
 
@@ -78,8 +70,6 @@ main.ts:104306
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:114053
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:104314

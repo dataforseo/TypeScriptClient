@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114470
+=======
+main.ts:114503
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -47,7 +51,11 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114453
+=======
+main.ts:114486
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -66,7 +74,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114460
+=======
+main.ts:114493
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -86,7 +98,11 @@ in this case, will equal null
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114466
+=======
+main.ts:114499
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -102,7 +118,11 @@ number of search results for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114455
+=======
+main.ts:114488
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -118,7 +138,11 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114447
+=======
+main.ts:114480
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -135,7 +159,11 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114450
+=======
+main.ts:114483
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -153,7 +181,11 @@ main.ts:114450
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114479
+=======
+main.ts:114512
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -171,7 +203,11 @@ main.ts:114479
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114501
+=======
+main.ts:114534
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -189,4 +225,8 @@ main.ts:114501
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:114494
+=======
+main.ts:114527
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

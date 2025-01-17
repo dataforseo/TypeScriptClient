@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonDeliveryInfo
+[Documentation](../README.md) / IAmazonDeliveryInfo
 
 # Interface: IAmazonDeliveryInfo
 
+Defined in: main.ts:23676
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **delivery\_date\_from**: `string`
 
+Defined in: main.ts:23680
+
 the earliest date when the product can be shipped
-
-#### Defined in
-
-main.ts:22777
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:22777
 
 > `optional` **delivery\_date\_to**: `string`
 
+Defined in: main.ts:23682
+
 the latest date when the product can be delivered
-
-#### Defined in
-
-main.ts:22779
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:22779
 
 > `optional` **delivery\_message**: `string`
 
+Defined in: main.ts:23678
+
 message accompanying the delivery information as posted by the seller
-
-#### Defined in
-
-main.ts:22775
 
 ***
 
@@ -52,13 +48,11 @@ main.ts:22775
 
 > `optional` **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:23690
+
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
 if free delivery is available, the value is null
-
-#### Defined in
-
-main.ts:22787
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:22787
 
 > `optional` **fastest\_delivery\_date\_from**: `string`
 
+Defined in: main.ts:23684
+
 the earliest date when the product can be delivered with a fast delivery option
-
-#### Defined in
-
-main.ts:22781
 
 ***
 
@@ -78,8 +70,6 @@ main.ts:22781
 
 > `optional` **fastest\_delivery\_date\_to**: `string`
 
+Defined in: main.ts:23686
+
 the latest date when the product can be delivered with a fast delivery option
-
-#### Defined in
-
-main.ts:22783

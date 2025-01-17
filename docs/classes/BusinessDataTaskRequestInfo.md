@@ -38,7 +38,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192923
+=======
+main.ts:192956
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -68,7 +72,11 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192847
+=======
+main.ts:192880
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -89,7 +97,11 @@ en
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192893
+=======
+main.ts:192926
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -110,7 +122,11 @@ English
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192886
+=======
+main.ts:192919
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -131,7 +147,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192869
+=======
+main.ts:192902
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -155,7 +175,11 @@ example:
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192879
+=======
+main.ts:192912
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -176,7 +200,11 @@ London,England,United Kingdom
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192862
+=======
+main.ts:192895
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -200,7 +228,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192919
+=======
+main.ts:192952
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -224,7 +256,11 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192909
+=======
+main.ts:192942
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -246,7 +282,11 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192855
+=======
+main.ts:192888
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -266,7 +306,11 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192899
+=======
+main.ts:192932
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -284,7 +328,11 @@ main.ts:192899
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192932
+=======
+main.ts:192965
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -302,7 +350,11 @@ main.ts:192932
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192958
+=======
+main.ts:192991
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -320,4 +372,8 @@ main.ts:192958
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:192951
+=======
+main.ts:192984
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

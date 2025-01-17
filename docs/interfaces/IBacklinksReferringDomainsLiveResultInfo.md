@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksReferringDomainsLiveResultInfo
+[Documentation](../README.md) / IBacklinksReferringDomainsLiveResultInfo
 
 # Interface: IBacklinksReferringDomainsLiveResultInfo
 
+Defined in: main.ts:155921
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`BacklinksReferringDomainsLiveItem`](../classes/BacklinksReferringDomainsLiveItem.md)[]
 
+Defined in: main.ts:155931
+
 items array
-
-#### Defined in
-
-main.ts:144625
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:144625
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:155929
+
 number of items in the items array
-
-#### Defined in
-
-main.ts:144623
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:144623
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:155923
+
 target in a POST array
-
-#### Defined in
-
-main.ts:144617
 
 ***
 
@@ -52,10 +48,8 @@ main.ts:144617
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:155927
+
 total number of relevant items in the database
 total number of main domains referring to your target;
 example.com and blog.example.com are counted as one referring domain
-
-#### Defined in
-
-main.ts:144621

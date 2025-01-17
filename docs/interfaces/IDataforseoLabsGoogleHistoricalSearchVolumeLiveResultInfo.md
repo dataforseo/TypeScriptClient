@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo
 
+Defined in: main.ts:95863
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../classes/DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
 
+Defined in: main.ts:95873
+
 contains keywords and related data
-
-#### Defined in
-
-main.ts:86056
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:86056
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:95871
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:86054
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:86054
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:95869
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:86052
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:86052
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:95867
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:86050
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:86050
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:95865
+
 search engine type
-
-#### Defined in
-
-main.ts:86048

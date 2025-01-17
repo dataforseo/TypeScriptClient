@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ReviewHighlights
+[Documentation](../README.md) / ReviewHighlights
 
 # Class: ReviewHighlights
+
+Defined in: main.ts:222070
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ReviewHighlights**(`data`?): [`ReviewHighlights`](ReviewHighlights.md)
 
+Defined in: main.ts:222078
+
 #### Parameters
 
-• **data?**: [`IReviewHighlights`](../interfaces/IReviewHighlights.md)
+##### data?
+
+[`IReviewHighlights`](../interfaces/IReviewHighlights.md)
 
 #### Returns
 
 [`ReviewHighlights`](ReviewHighlights.md)
-
-#### Defined in
-
-main.ts:208433
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:208433
 
 > `optional` **assessment**: `string`
 
+Defined in: main.ts:222074
+
 feature assessment
 
 #### Implementation of
 
 [`IReviewHighlights`](../interfaces/IReviewHighlights.md).[`assessment`](../interfaces/IReviewHighlights.md#assessment)
-
-#### Defined in
-
-main.ts:208429
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:208429
 
 > `optional` **feature**: `string`
 
+Defined in: main.ts:222072
+
 reviewed feature
 
 #### Implementation of
 
 [`IReviewHighlights`](../interfaces/IReviewHighlights.md).[`feature`](../interfaces/IReviewHighlights.md#feature)
-
-#### Defined in
-
-main.ts:208427
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:208427
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:222087
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:208442
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:208442
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:222105
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:208460
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:208460
 
 > `static` **fromJS**(`data`): [`ReviewHighlights`](ReviewHighlights.md)
 
+Defined in: main.ts:222098
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ReviewHighlights`](ReviewHighlights.md)
-
-#### Defined in
-
-main.ts:208453

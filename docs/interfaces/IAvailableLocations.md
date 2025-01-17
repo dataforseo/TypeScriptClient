@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAvailableLocations
+[Documentation](../README.md) / IAvailableLocations
 
 # Interface: IAvailableLocations
 
+Defined in: main.ts:144249
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:144255
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:132311
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:132311
 
 > `optional` **location\_code**: `string`
 
+Defined in: main.ts:144251
+
 location code
-
-#### Defined in
-
-main.ts:132307
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:132307
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:144253
+
 location name
-
-#### Defined in
-
-main.ts:132309
 
 ***
 
@@ -52,10 +48,8 @@ main.ts:132309
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:144259
+
 location type
 possible values:
 Country, Region
-
-#### Defined in
-
-main.ts:132315

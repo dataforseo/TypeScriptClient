@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixDomainAnalyticsLimitsRatesDataInfo
+
+Defined in: main.ts:231468
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231476
+
 #### Parameters
 
-• **data?**: [`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216416
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216416
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:231470
+
 #### Implementation of
 
 [`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#errors)
-
-#### Defined in
-
-main.ts:216410
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216410
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:231469
+
 #### Implementation of
 
 [`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#tasks_ready)
-
-#### Defined in
-
-main.ts:216409
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:216409
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231472
+
 #### Implementation of
 
 [`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[`technologies`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#technologies)
-
-#### Defined in
-
-main.ts:216412
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:216412
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231471
+
 #### Implementation of
 
 [`IAppendixDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md).[`whois`](../interfaces/IAppendixDomainAnalyticsLimitsRatesDataInfo.md#whois)
-
-#### Defined in
-
-main.ts:216411
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:216411
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231485
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216425
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:216425
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231505
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216445
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:216445
 
 > `static` **fromJS**(`data`): [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231498
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216438

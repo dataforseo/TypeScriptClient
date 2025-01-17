@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonRankedKeywordsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveResultInfo
 
+Defined in: main.ts:113483
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **asin**: `string`
 
+Defined in: main.ts:113487
+
 ASIN in a POST array
-
-#### Defined in
-
-main.ts:103748
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:103748
 
 > `optional` **items**: [`DataforseoLabsAmazonRankedKeywordsLiveItem`](../classes/DataforseoLabsAmazonRankedKeywordsLiveItem.md)[]
 
+Defined in: main.ts:113499
+
 contains detected Amazon product competitors and related data
-
-#### Defined in
-
-main.ts:103760
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:103760
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:113497
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:103758
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:103758
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:113493
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:103754
 
 ***
 
@@ -65,12 +59,10 @@ main.ts:103754
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:113490
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:103751
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:103751
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:113485
+
 search engine type
-
-#### Defined in
-
-main.ts:103746
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:103746
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:113495
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:103756

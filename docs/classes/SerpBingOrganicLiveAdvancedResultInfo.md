@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBingOrganicLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpBingOrganicLiveAdvancedResultInfo
 
 # Class: SerpBingOrganicLiveAdvancedResultInfo
+
+Defined in: main.ts:65897
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpBingOrganicLiveAdvancedResultInfo**(`data`?): [`SerpBingOrganicLiveAdvancedResultInfo`](SerpBingOrganicLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:65937
+
 #### Parameters
 
-• **data?**: [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpBingOrganicLiveAdvancedResultInfo`](SerpBingOrganicLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:58788
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:65911
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:58764
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:65916
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:58769
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:65927
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -83,26 +83,19 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:58777
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+Defined in: main.ts:65933
+
+items featured in the faq_box
 
 #### Implementation of
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`items`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#items)
-
-#### Defined in
-
-main.ts:58784
 
 ***
 
@@ -110,15 +103,13 @@ main.ts:58784
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:65931
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:58781
 
 ***
 
@@ -126,16 +117,14 @@ main.ts:58781
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:65900
+
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:58753
 
 ***
 
@@ -143,15 +132,13 @@ main.ts:58753
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:65908
+
 language code in a POST array
 
 #### Implementation of
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:58761
 
 ***
 
@@ -159,15 +146,28 @@ main.ts:58761
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:65906
+
 location code in a POST array
 
 #### Implementation of
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#location_code)
 
-#### Defined in
+***
 
-main.ts:58759
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:65922
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#refinement_chips)
 
 ***
 
@@ -175,15 +175,13 @@ main.ts:58759
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:65904
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:58757
 
 ***
 
@@ -191,21 +189,21 @@ main.ts:58757
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:65929
+
 total number of results in SERP
 
 #### Implementation of
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:58779
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:65919
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -214,15 +212,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`spell`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:58772
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:65902
 
 type of element
 
@@ -230,27 +226,23 @@ type of element
 
 [`ISerpBingOrganicLiveAdvancedResultInfo`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md).[`type`](../interfaces/ISerpBingOrganicLiveAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:58755
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:65946
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:58797
 
 ***
 
@@ -258,17 +250,17 @@ main.ts:58797
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:65983
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:58833
 
 ***
 
@@ -276,14 +268,14 @@ main.ts:58833
 
 > `static` **fromJS**(`data`): [`SerpBingOrganicLiveAdvancedResultInfo`](SerpBingOrganicLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:65976
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpBingOrganicLiveAdvancedResultInfo`](SerpBingOrganicLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:58826

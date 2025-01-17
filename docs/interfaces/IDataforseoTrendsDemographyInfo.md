@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoTrendsDemographyInfo
+[Documentation](../README.md) / IDataforseoTrendsDemographyInfo
 
 # Interface: IDataforseoTrendsDemographyInfo
 
+Defined in: main.ts:137480
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **demography**: [`Demography`](../classes/Demography.md)
 
+Defined in: main.ts:137491
+
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
-
-#### Defined in
-
-main.ts:127133
 
 ***
 
@@ -29,13 +29,11 @@ main.ts:127133
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
 
+Defined in: main.ts:137495
+
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
 if you specified a single keyword, the value will be null
-
-#### Defined in
-
-main.ts:127137
 
 ***
 
@@ -43,12 +41,10 @@ main.ts:127137
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:137488
+
 relevant keywords
 the data included in the demography and demography_comparison is based on the keywords listed in this array
-
-#### Defined in
-
-main.ts:127130
 
 ***
 
@@ -56,12 +52,10 @@ main.ts:127130
 
 > `optional` **position**: `number`
 
+Defined in: main.ts:137483
+
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
-
-#### Defined in
-
-main.ts:127125
 
 ***
 
@@ -69,8 +63,6 @@ main.ts:127125
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:137485
+
 type of element
-
-#### Defined in
-
-main.ts:127127

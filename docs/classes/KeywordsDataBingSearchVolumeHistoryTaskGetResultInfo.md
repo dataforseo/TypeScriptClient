@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo
+
+Defined in: main.ts:146752
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
 
+Defined in: main.ts:146772
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:134814
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:134814
 
 > `optional` **device**: `string`[]
 
+Defined in: main.ts:146761
+
 #### Implementation of
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md).[`device`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md#device)
-
-#### Defined in
-
-main.ts:134803
 
 ***
 
@@ -52,21 +52,21 @@ main.ts:134803
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:146754
+
 keyword in a POST array
 
 #### Implementation of
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:134796
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:146760
 
 language code in a POST array
 if there is no data, then the value is null
@@ -75,15 +75,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:134802
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:146757
 
 location code in a POST array
 if there is no data, then the value is null
@@ -92,15 +90,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:134799
-
 ***
 
 ### period?
 
 > `optional` **period**: `string`
+
+Defined in: main.ts:146765
 
 time period
 indicates if returned data is aggregated to a certain time period
@@ -110,15 +106,13 @@ default value monthly
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md).[`period`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md#period)
 
-#### Defined in
-
-main.ts:134807
-
 ***
 
 ### searches?
 
 > `optional` **searches**: [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
+
+Defined in: main.ts:146768
 
 contains results distributed by device type
 if the device parameter is not specified, the data will be returned for all available device types
@@ -127,27 +121,23 @@ if the device parameter is not specified, the data will be returned for all avai
 
 [`IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md).[`searches`](../interfaces/IKeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md#searches)
 
-#### Defined in
-
-main.ts:134810
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:146781
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:134823
 
 ***
 
@@ -155,17 +145,17 @@ main.ts:134823
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:146807
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:134849
 
 ***
 
@@ -173,14 +163,14 @@ main.ts:134849
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
 
+Defined in: main.ts:146800
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:134842

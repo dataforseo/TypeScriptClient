@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBacklinksLiveRequestInfo
+[Documentation](../README.md) / BacklinksBacklinksLiveRequestInfo
 
 # Class: BacklinksBacklinksLiveRequestInfo
+
+Defined in: main.ts:151400
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBacklinksLiveRequestInfo**(`data`?): [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
 
+Defined in: main.ts:151523
+
 #### Parameters
 
-• **data?**: [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:140217
 
 ## Properties
 
 ### backlinks\_status\_type?
 
 > `optional` **backlinks\_status\_type**: `string`
+
+Defined in: main.ts:151496
 
 set what backlinks to return and count
 optional field
@@ -51,15 +55,13 @@ default value: live
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`backlinks_status_type`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#backlinks_status_type)
 
-#### Defined in
-
-main.ts:140190
-
 ***
 
 ### custom\_mode?
 
 > `optional` **custom\_mode**: `object`
+
+Defined in: main.ts:151420
 
 detailed results grouping type
 optional field
@@ -70,21 +72,19 @@ example:
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`custom_mode`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#custom_mode)
-
-#### Defined in
-
-main.ts:140114
 
 ***
 
 ### exclude\_internal\_backlinks?
 
 > `optional` **exclude\_internal\_backlinks**: `boolean`
+
+Defined in: main.ts:151513
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -96,15 +96,13 @@ default value: true
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#exclude_internal_backlinks)
 
-#### Defined in
-
-main.ts:140207
-
 ***
 
 ### field?
 
 > `optional` **field**: `string`
+
+Defined in: main.ts:151433
 
 response field
 required field if you choose to specify custom_mode
@@ -123,15 +121,13 @@ semantic_location
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`field`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#field)
 
-#### Defined in
-
-main.ts:140127
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:151454
 
 array of results filtering parameters
 optional field
@@ -154,15 +150,13 @@ The full list of possible filters is available here.
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:140148
-
 ***
 
 ### include\_indirect\_links?
 
 > `optional` **include\_indirect\_links**: `boolean`
+
+Defined in: main.ts:151507
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -174,15 +168,13 @@ default value: true
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`include_indirect_links`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#include_indirect_links)
 
-#### Defined in
-
-main.ts:140201
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
+
+Defined in: main.ts:151501
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -193,15 +185,13 @@ default value: true
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
-
-main.ts:140195
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:151487
 
 the maximum number of returned backlinks
 optional field
@@ -212,15 +202,13 @@ maximum value: 1000
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:140181
-
 ***
 
 ### mode?
 
 > `optional` **mode**: `string`
+
+Defined in: main.ts:151413
 
 results grouping type
 optional field
@@ -234,15 +222,13 @@ default value: as_is
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`mode`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#mode)
 
-#### Defined in
-
-main.ts:140107
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:151474
 
 offset in the results array of the returned backlinks
 optional field
@@ -254,15 +240,13 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:140168
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:151468
 
 results sorting rules
 optional field
@@ -282,15 +266,13 @@ example:
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:140162
-
 ***
 
 ### search\_after\_token?
 
 > `optional` **search\_after\_token**: `string`
+
+Defined in: main.ts:151482
 
 token for subsequent requests
 optional field
@@ -304,15 +286,13 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`search_after_token`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#search_after_token)
 
-#### Defined in
-
-main.ts:140176
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:151519
 
 user-defined task identifier
 optional field
@@ -324,15 +304,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:140213
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:151405
 
 domain, subdomain or webpage to get backlinks for
 required field
@@ -343,15 +321,13 @@ a page should be specified with absolute URL (including http:// or https://)
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`target`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:140099
-
 ***
 
 ### value?
 
 > `optional` **value**: `number`
+
+Defined in: main.ts:151437
 
 number of backlinks to return per field
 required field if you choose to specify custom_mode
@@ -361,27 +337,23 @@ can be set from 1 to 1000
 
 [`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`value`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#value)
 
-#### Defined in
-
-main.ts:140131
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:151532
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:140226
 
 ***
 
@@ -389,17 +361,17 @@ main.ts:140226
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:151577
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:140271
 
 ***
 
@@ -407,14 +379,14 @@ main.ts:140271
 
 > `static` **fromJS**(`data`): [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
 
+Defined in: main.ts:151570
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBacklinksLiveRequestInfo`](BacklinksBacklinksLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:140264

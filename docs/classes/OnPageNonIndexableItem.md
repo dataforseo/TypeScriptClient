@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageNonIndexableItem
+[Documentation](../README.md) / OnPageNonIndexableItem
 
 # Class: OnPageNonIndexableItem
+
+Defined in: main.ts:170436
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageNonIndexableItem**(`data`?): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
+Defined in: main.ts:170445
+
 #### Parameters
 
-• **data?**: [`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md)
+##### data?
+
+[`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md)
 
 #### Returns
 
 [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
-
-#### Defined in
-
-main.ts:158709
 
 ## Properties
 
 ### reason?
 
 > `optional` **reason**: `string`
+
+Defined in: main.ts:170439
 
 the reason why the page is non-indexable
 can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects
@@ -45,15 +49,13 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 [`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md).[`reason`](../interfaces/IOnPageNonIndexableItem.md#reason)
 
-#### Defined in
-
-main.ts:158703
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:170441
 
 url of the non-indexable page
 
@@ -61,27 +63,23 @@ url of the non-indexable page
 
 [`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md).[`url`](../interfaces/IOnPageNonIndexableItem.md#url)
 
-#### Defined in
-
-main.ts:158705
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:170454
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:158718
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:158718
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:170472
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:158736
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:158736
 
 > `static` **fromJS**(`data`): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
+Defined in: main.ts:170465
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
-
-#### Defined in
-
-main.ts:158729

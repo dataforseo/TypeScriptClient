@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataTripadvisorSearchTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataTripadvisorSearchTaskGetResultInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskGetResultInfo
 
+Defined in: main.ts:228379
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:228391
+
 direct URL to Tripadvisor results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:213351
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:213351
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:228396
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:213356
 
 ***
 
@@ -44,12 +42,10 @@ main.ts:213356
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:228399
+
 item types encountered in the result
 possible item types: tripadvisor_search_organic
-
-#### Defined in
-
-main.ts:213359
 
 ***
 
@@ -57,12 +53,10 @@ main.ts:213359
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
+Defined in: main.ts:228407
+
 Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task
-
-#### Defined in
-
-main.ts:213367
 
 ***
 
@@ -70,12 +64,10 @@ main.ts:213367
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:228404
+
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
-
-#### Defined in
-
-main.ts:213364
 
 ***
 
@@ -83,12 +75,10 @@ main.ts:213364
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:228382
+
 keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array
-
-#### Defined in
-
-main.ts:213342
 
 ***
 
@@ -96,11 +86,9 @@ main.ts:213342
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:228388
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:213348
 
 ***
 
@@ -108,11 +96,9 @@ main.ts:213348
 
 > `optional` **location\_code**: `string`
 
+Defined in: main.ts:228386
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:213346
 
 ***
 
@@ -120,11 +106,9 @@ main.ts:213346
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:228384
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:213344
 
 ***
 
@@ -132,8 +116,6 @@ main.ts:213344
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:228401
+
 the total number of results
-
-#### Defined in
-
-main.ts:213361

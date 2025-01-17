@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ShoppingElement
+[Documentation](../README.md) / ShoppingElement
 
 # Class: ShoppingElement
+
+Defined in: main.ts:33363
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ShoppingElement**(`data`?): [`ShoppingElement`](ShoppingElement.md)
 
+Defined in: main.ts:33388
+
 #### Parameters
 
-• **data?**: [`IShoppingElement`](../interfaces/IShoppingElement.md)
+##### data?
+
+[`IShoppingElement`](../interfaces/IShoppingElement.md)
 
 #### Returns
 
 [`ShoppingElement`](ShoppingElement.md)
-
-#### Defined in
-
-main.ts:31576
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:31576
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:33374
+
 description
 
 #### Implementation of
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`description`](../interfaces/IShoppingElement.md#description)
 
-#### Defined in
-
-main.ts:31562
-
 ***
 
 ### marketplace?
 
 > `optional` **marketplace**: `string`
+
+Defined in: main.ts:33379
 
 merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
@@ -63,15 +65,13 @@ by Google
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`marketplace`](../interfaces/IShoppingElement.md#marketplace)
 
-#### Defined in
-
-main.ts:31567
-
 ***
 
 ### marketplace\_url?
 
 > `optional` **marketplace\_url**: `string`
+
+Defined in: main.ts:33382
 
 relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted
@@ -80,15 +80,13 @@ URL of the page on the marketplace website where the product is hosted
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`marketplace_url`](../interfaces/IShoppingElement.md#marketplace_url)
 
-#### Defined in
-
-main.ts:31570
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:33369
 
 price indicated in the element
 
@@ -96,15 +94,13 @@ price indicated in the element
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`price`](../interfaces/IShoppingElement.md#price)
 
-#### Defined in
-
-main.ts:31557
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:33372
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -113,15 +109,13 @@ indicates the source of information included in the top_stories_element
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`source`](../interfaces/IShoppingElement.md#source)
 
-#### Defined in
-
-main.ts:31560
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:33367
 
 title of a given link element
 
@@ -129,15 +123,13 @@ title of a given link element
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`title`](../interfaces/IShoppingElement.md#title)
 
-#### Defined in
-
-main.ts:31555
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:33365
 
 type of element
 
@@ -145,15 +137,13 @@ type of element
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`type`](../interfaces/IShoppingElement.md#type)
 
-#### Defined in
-
-main.ts:31553
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:33384
 
 URL
 
@@ -161,27 +151,23 @@ URL
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`url`](../interfaces/IShoppingElement.md#url)
 
-#### Defined in
-
-main.ts:31572
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:33397
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:31585
 
 ***
 
@@ -189,17 +175,17 @@ main.ts:31585
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:33421
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:31609
 
 ***
 
@@ -207,14 +193,14 @@ main.ts:31609
 
 > `static` **fromJS**(`data`): [`ShoppingElement`](ShoppingElement.md)
 
+Defined in: main.ts:33414
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ShoppingElement`](ShoppingElement.md)
-
-#### Defined in
-
-main.ts:31602

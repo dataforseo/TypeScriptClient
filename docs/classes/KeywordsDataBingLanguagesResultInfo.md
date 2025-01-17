@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataBingLanguagesResultInfo
 
 # Class: KeywordsDataBingLanguagesResultInfo
+
+Defined in: main.ts:138372
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataBingLanguagesResultInfo**(`data`?): [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
 
+Defined in: main.ts:138380
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingLanguagesResultInfo`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingLanguagesResultInfo`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:128020
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:128020
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:138376
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IKeywordsDataBingLanguagesResultInfo`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:128016
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:128016
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:138374
+
 language name
 
 #### Implementation of
 
 [`IKeywordsDataBingLanguagesResultInfo`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:128014
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:128014
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:138389
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:128029
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:128029
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:138407
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:128047
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:128047
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
 
+Defined in: main.ts:138400
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:128040

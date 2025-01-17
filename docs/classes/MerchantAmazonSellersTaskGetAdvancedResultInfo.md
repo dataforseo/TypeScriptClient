@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
+[Documentation](../README.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonSellersTaskGetAdvancedResultInfo
+
+Defined in: main.ts:196204
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new MerchantAmazonSellersTaskGetAdvancedResultInfo**(`data`?): [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:196242
+
 #### Parameters
 
-• **data?**: [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:183829
 
 ## Properties
 
 ### asin?
 
 > `optional` **asin**: `string`
+
+Defined in: main.ts:196207
 
 asin received in a POST array
 learn more about ASINs in this help center guide
@@ -45,15 +49,13 @@ learn more about ASINs in this help center guide
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`asin`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#asin)
 
-#### Defined in
-
-main.ts:183794
-
 ***
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:196218
 
 direct URL to Amazon results
 you can use it to make sure the provided results are accurate
@@ -62,15 +64,13 @@ you can use it to make sure the provided results are accurate
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:183805
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:196223
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -81,15 +81,13 @@ example:
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:183810
-
 ***
 
 ### image?
 
 > `optional` **image**: `string`
+
+Defined in: main.ts:196229
 
 product image url
 image URL of the product relevant to the asin received in a POST array
@@ -98,15 +96,13 @@ image URL of the product relevant to the asin received in a POST array
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`image`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#image)
 
-#### Defined in
-
-main.ts:183816
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:196234
 
 types of search results found in Amazon Sellers SERP
 contains types of all search results (items) found in the returned SERP
@@ -117,15 +113,13 @@ amazon_seller_main_item, amazon_seller_item
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:183821
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)[]
+
+Defined in: main.ts:196238
 
 items in SERP
 
@@ -133,15 +127,13 @@ items in SERP
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
-
-main.ts:183825
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:196236
 
 the number of results returned in the items array
 
@@ -149,15 +141,13 @@ the number of results returned in the items array
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:183823
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:196215
 
 language code received in a POST array
 
@@ -165,15 +155,13 @@ language code received in a POST array
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:183802
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:196213
 
 location code received in a POST array
 
@@ -181,15 +169,13 @@ location code received in a POST array
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:183800
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:196211
 
 search engine domain received in a POST array
 
@@ -197,15 +183,13 @@ search engine domain received in a POST array
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:183798
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:196226
 
 product title
 title of the product relevant to the asin received in a POST array
@@ -214,15 +198,13 @@ title of the product relevant to the asin received in a POST array
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`title`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#title)
 
-#### Defined in
-
-main.ts:183813
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:196209
 
 type of element
 
@@ -230,27 +212,23 @@ type of element
 
 [`IMerchantAmazonSellersTaskGetAdvancedResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md).[`type`](../interfaces/IMerchantAmazonSellersTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:183796
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:196251
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:183838
 
 ***
 
@@ -258,17 +236,17 @@ main.ts:183838
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:196287
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:183874
 
 ***
 
@@ -276,14 +254,14 @@ main.ts:183874
 
 > `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:196280
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantAmazonSellersTaskGetAdvancedResultInfo`](MerchantAmazonSellersTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:183867

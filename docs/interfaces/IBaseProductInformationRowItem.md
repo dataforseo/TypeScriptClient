@@ -1,20 +1,21 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseProductInformationRowItem
+[Documentation](../README.md) / IBaseProductInformationRowItem
 
 # Interface: IBaseProductInformationRowItem
+
+Defined in: main.ts:24371
 
 ## Extended by
 
 - [`IProductInformationImageRow`](IProductInformationImageRow.md)
 - [`IProductInformationTextRow`](IProductInformationTextRow.md)
-- [`IProductInformationVideoRow`](IProductInformationVideoRow.md)
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -22,8 +23,6 @@
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24373
+
 type of element
-
-#### Defined in
-
-main.ts:23475

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
+Defined in: main.ts:127433
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **competition**: `string`
 
+Defined in: main.ts:127454
+
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only;
 this value is based on Google Ads data and can take the following values: HIGH, MEDIUM, LOW;
 if there is no data the value is null;
 learn more about the metric in this help center article
-
-#### Defined in
-
-main.ts:117879
 
 ***
 
@@ -32,15 +32,13 @@ main.ts:117879
 
 > `optional` **competition\_index**: `number`
 
+Defined in: main.ts:127460
+
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only;
 this value is based on Google Ads data and can be between 0 and 100 (inclusive);
 if there is no data the value is null;
 learn more about the metric in this help center article
-
-#### Defined in
-
-main.ts:117885
 
 ***
 
@@ -48,12 +46,10 @@ main.ts:117885
 
 > `optional` **cpc**: `number`
 
+Defined in: main.ts:127475
+
 cost per click
 indicates the amount paid for each click on the ad displayed for a given keyword
-
-#### Defined in
-
-main.ts:117900
 
 ***
 
@@ -61,13 +57,11 @@ main.ts:117900
 
 > `optional` **high\_top\_of\_page\_bid**: `number`
 
+Defined in: main.ts:127472
+
 maximum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 80% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers);
 the value may differ depending on the location specified in a POST request
-
-#### Defined in
-
-main.ts:117897
 
 ***
 
@@ -75,12 +69,10 @@ main.ts:117897
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:127436
+
 keyword
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:117862
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -88,12 +80,10 @@ main.ts:117862
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:127446
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:117871
 
 ***
 
@@ -101,12 +91,10 @@ main.ts:117871
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:127443
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:117868
 
 ***
 
@@ -114,13 +102,11 @@ main.ts:117868
 
 > `optional` **low\_top\_of\_page\_bid**: `number`
 
+Defined in: main.ts:127468
+
 minimum bid for the ad to be displayed at the top of the first page
 indicates the value greater than about 20% of the lowest bids for which ads were displayed (based on Google Ads statistics for advertisers);
 the value may differ depending on the location specified in a POST request
-
-#### Defined in
-
-main.ts:117893
 
 ***
 
@@ -128,13 +114,11 @@ main.ts:117893
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
+Defined in: main.ts:127479
+
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months by default), targeted to the specified geographic locations;
 if there is no data then the value is null
-
-#### Defined in
-
-main.ts:117904
 
 ***
 
@@ -142,11 +126,9 @@ main.ts:117904
 
 > `optional` **search\_partners**: `boolean`
 
+Defined in: main.ts:127448
+
 indicates whether data from partner networks included in the response
-
-#### Defined in
-
-main.ts:117873
 
 ***
 
@@ -154,23 +136,20 @@ main.ts:117873
 
 > `optional` **search\_volume**: `number`
 
+Defined in: main.ts:127464
+
 monthly average search volume rate;
 represents either the (approximate) number of searches for the given keyword idea on google.com or google.com and partners, depending on the user’s targeting;
 if there is no data then the value is null
-
-#### Defined in
-
-main.ts:117889
 
 ***
 
 ### spell?
 
-> `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> `optional` **spell**: `string`
 
-autocorrection of the search engine
-if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
+Defined in: main.ts:127440
 
-#### Defined in
-
-main.ts:117865
+correct spelling of the keyword
+Note:if the keyword in the POST array appears to be misspelled, data will be returned for the correctly spelled keyword;
+we use the functionality of Google Ads API to check and validate the spelling of keywords, learn more by this link

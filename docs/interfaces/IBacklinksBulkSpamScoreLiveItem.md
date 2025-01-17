@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkSpamScoreLiveItem
+[Documentation](../README.md) / IBacklinksBulkSpamScoreLiveItem
 
 # Interface: IBacklinksBulkSpamScoreLiveItem
 
+Defined in: main.ts:161102
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **spam\_score**: `number`
 
+Defined in: main.ts:161109
+
 average spam score the target
 learn more about how the metric is calculated
-
-#### Defined in
-
-main.ts:149803
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:149803
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:161106
+
 domain, subdomain or webpage from a POST array
-
-#### Defined in
-
-main.ts:149800
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:149800
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:161104
+
 type of element
-
-#### Defined in
-
-main.ts:149798

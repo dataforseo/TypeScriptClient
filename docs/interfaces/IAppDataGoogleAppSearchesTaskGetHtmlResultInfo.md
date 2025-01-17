@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
 # Interface: IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
+Defined in: main.ts:200330
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:200345
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:187908
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:187908
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:200349
+
 HTML pages and related data
-
-#### Defined in
-
-main.ts:187912
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:187912
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:200347
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:187910
 
 ***
 
@@ -55,11 +51,9 @@ main.ts:187910
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:200332
+
 keyword received in a POST request
-
-#### Defined in
-
-main.ts:187895
 
 ***
 
@@ -67,11 +61,9 @@ main.ts:187895
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:200340
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:187903
 
 ***
 
@@ -79,11 +71,9 @@ main.ts:187903
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:200338
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:187901
 
 ***
 
@@ -91,11 +81,9 @@ main.ts:187901
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:200336
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:187899
 
 ***
 
@@ -103,8 +91,6 @@ main.ts:187899
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:200334
+
 type of element
-
-#### Defined in
-
-main.ts:187897

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseResponseTaskInfo
+[Documentation](../README.md) / BaseResponseTaskInfo
 
 # Class: BaseResponseTaskInfo
+
+Defined in: main.ts:25295
 
 ## Extended by
 
@@ -80,6 +82,14 @@
 - [`SerpGoogleDatasetInfoTasksFixedTaskInfo`](SerpGoogleDatasetInfoTasksFixedTaskInfo.md)
 - [`SerpGoogleDatasetInfoTaskGetAdvancedTaskInfo`](SerpGoogleDatasetInfoTaskGetAdvancedTaskInfo.md)
 - [`SerpGoogleDatasetInfoLiveAdvancedTaskInfo`](SerpGoogleDatasetInfoLiveAdvancedTaskInfo.md)
+- [`SerpGoogleAdsAdvertisersLocationsTaskInfo`](SerpGoogleAdsAdvertisersLocationsTaskInfo.md)
+- [`SerpGoogleAdsAdvertisersTaskPostTaskInfo`](SerpGoogleAdsAdvertisersTaskPostTaskInfo.md)
+- [`SerpGoogleAdsAdvertisersTasksReadyTaskInfo`](SerpGoogleAdsAdvertisersTasksReadyTaskInfo.md)
+- [`SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo`](SerpGoogleAdsAdvertisersTaskGetAdvancedTaskInfo.md)
+- [`SerpGoogleAdsSearchLocationsTaskInfo`](SerpGoogleAdsSearchLocationsTaskInfo.md)
+- [`SerpGoogleAdsSearchTaskPostTaskInfo`](SerpGoogleAdsSearchTaskPostTaskInfo.md)
+- [`SerpGoogleAdsSearchTasksReadyTaskInfo`](SerpGoogleAdsSearchTasksReadyTaskInfo.md)
+- [`SerpGoogleAdsSearchTaskGetAdvancedTaskInfo`](SerpGoogleAdsSearchTaskGetAdvancedTaskInfo.md)
 - [`SerpBingLocationsTaskInfo`](SerpBingLocationsTaskInfo.md)
 - [`SerpBingLocationsCountryTaskInfo`](SerpBingLocationsCountryTaskInfo.md)
 - [`SerpBingLanguagesTaskInfo`](SerpBingLanguagesTaskInfo.md)
@@ -267,6 +277,12 @@
 - [`KeywordsDataBingSearchVolumeTasksReadyTaskInfo`](KeywordsDataBingSearchVolumeTasksReadyTaskInfo.md)
 - [`KeywordsDataBingSearchVolumeTaskGetTaskInfo`](KeywordsDataBingSearchVolumeTaskGetTaskInfo.md)
 - [`KeywordsDataBingSearchVolumeLiveTaskInfo`](KeywordsDataBingSearchVolumeLiveTaskInfo.md)
+- [`KeywordsDataBingAudienceEstimationJobFunctionsTaskInfo`](KeywordsDataBingAudienceEstimationJobFunctionsTaskInfo.md)
+- [`KeywordsDataBingAudienceEstimationIndustriesTaskInfo`](KeywordsDataBingAudienceEstimationIndustriesTaskInfo.md)
+- [`KeywordsDataBingAudienceEstimationTaskPostTaskInfo`](KeywordsDataBingAudienceEstimationTaskPostTaskInfo.md)
+- [`KeywordsDataBingAudienceEstimationTasksReadyTaskInfo`](KeywordsDataBingAudienceEstimationTasksReadyTaskInfo.md)
+- [`KeywordsDataBingAudienceEstimationTaskGetTaskInfo`](KeywordsDataBingAudienceEstimationTaskGetTaskInfo.md)
+- [`KeywordsDataBingAudienceEstimationLiveTaskInfo`](KeywordsDataBingAudienceEstimationLiveTaskInfo.md)
 - [`KeywordsDataBingKeywordsForSiteTaskPostTaskInfo`](KeywordsDataBingKeywordsForSiteTaskPostTaskInfo.md)
 - [`KeywordsDataBingKeywordsForSiteTasksReadyTaskInfo`](KeywordsDataBingKeywordsForSiteTasksReadyTaskInfo.md)
 - [`KeywordsDataBingKeywordsForSiteTaskGetTaskInfo`](KeywordsDataBingKeywordsForSiteTaskGetTaskInfo.md)
@@ -478,6 +494,9 @@
 - [`BusinessDataGoogleReviewsTaskPostTaskInfo`](BusinessDataGoogleReviewsTaskPostTaskInfo.md)
 - [`BusinessDataGoogleReviewsTasksReadyTaskInfo`](BusinessDataGoogleReviewsTasksReadyTaskInfo.md)
 - [`BusinessDataGoogleReviewsTaskGetTaskInfo`](BusinessDataGoogleReviewsTaskGetTaskInfo.md)
+- [`BusinessDataGoogleExtendedReviewsTaskPostTaskInfo`](BusinessDataGoogleExtendedReviewsTaskPostTaskInfo.md)
+- [`BusinessDataGoogleExtendedReviewsTasksReadyTaskInfo`](BusinessDataGoogleExtendedReviewsTasksReadyTaskInfo.md)
+- [`BusinessDataGoogleExtendedReviewsTaskGetTaskInfo`](BusinessDataGoogleExtendedReviewsTaskGetTaskInfo.md)
 - [`BusinessDataGoogleQuestionsAndAnswersTaskPostTaskInfo`](BusinessDataGoogleQuestionsAndAnswersTaskPostTaskInfo.md)
 - [`BusinessDataGoogleQuestionsAndAnswersTasksReadyTaskInfo`](BusinessDataGoogleQuestionsAndAnswersTasksReadyTaskInfo.md)
 - [`BusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetTaskInfo.md)
@@ -511,7 +530,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -519,17 +538,17 @@
 
 > **new BaseResponseTaskInfo**(`data`?): [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
 
+Defined in: main.ts:25319
+
 #### Parameters
 
-• **data?**: [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md)
+##### data?
+
+[`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md)
 
 #### Returns
 
 [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-#### Defined in
-
-main.ts:24249
 
 ## Properties
 
@@ -537,15 +556,13 @@ main.ts:24249
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:25309
+
 total tasks cost, USD
 
 #### Implementation of
 
 [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md).[`cost`](../interfaces/IBaseResponseTaskInfo.md#cost)
-
-#### Defined in
-
-main.ts:24239
 
 ***
 
@@ -553,25 +570,25 @@ main.ts:24239
 
 > `optional` **data**: `object`
 
+Defined in: main.ts:25315
+
 contains the same parameters that you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md).[`data`](../interfaces/IBaseResponseTaskInfo.md#data)
-
-#### Defined in
-
-main.ts:24245
 
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:25298
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -580,15 +597,13 @@ unique task identifier in our system in the UUID format
 
 [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md).[`id`](../interfaces/IBaseResponseTaskInfo.md#id)
 
-#### Defined in
-
-main.ts:24228
-
 ***
 
 ### path?
 
 > `optional` **path**: `string`[]
+
+Defined in: main.ts:25313
 
 URL path
 
@@ -596,15 +611,13 @@ URL path
 
 [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md).[`path`](../interfaces/IBaseResponseTaskInfo.md#path)
 
-#### Defined in
-
-main.ts:24243
-
 ***
 
 ### result\_count?
 
 > `optional` **result\_count**: `number`
+
+Defined in: main.ts:25311
 
 number of elements in the result array
 
@@ -612,15 +625,13 @@ number of elements in the result array
 
 [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md).[`result_count`](../interfaces/IBaseResponseTaskInfo.md#result_count)
 
-#### Defined in
-
-main.ts:24241
-
 ***
 
 ### status\_code?
 
 > `optional` **status\_code**: `number`
+
+Defined in: main.ts:25302
 
 status code of the task
 generated by DataForSEO, can be within the following range: 10000-60000
@@ -630,15 +641,13 @@ you can find the full list of the response codes here
 
 [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md).[`status_code`](../interfaces/IBaseResponseTaskInfo.md#status_code)
 
-#### Defined in
-
-main.ts:24232
-
 ***
 
 ### status\_message?
 
 > `optional` **status\_message**: `string`
+
+Defined in: main.ts:25305
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -647,15 +656,13 @@ you can find the full list of general informational messages here
 
 [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md).[`status_message`](../interfaces/IBaseResponseTaskInfo.md#status_message)
 
-#### Defined in
-
-main.ts:24235
-
 ***
 
 ### time?
 
 > `optional` **time**: `string`
+
+Defined in: main.ts:25307
 
 execution time, seconds
 
@@ -663,27 +670,23 @@ execution time, seconds
 
 [`IBaseResponseTaskInfo`](../interfaces/IBaseResponseTaskInfo.md).[`time`](../interfaces/IBaseResponseTaskInfo.md#time)
 
-#### Defined in
-
-main.ts:24237
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:25328
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:24258
 
 ***
 
@@ -691,17 +694,17 @@ main.ts:24258
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:25362
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:24292
 
 ***
 
@@ -709,14 +712,14 @@ main.ts:24292
 
 > `static` **fromJS**(`data`): [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
 
+Defined in: main.ts:25355
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseResponseTaskInfo`](BaseResponseTaskInfo.md)
-
-#### Defined in
-
-main.ts:24285

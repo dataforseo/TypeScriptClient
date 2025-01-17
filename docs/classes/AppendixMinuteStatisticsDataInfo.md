@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219798
+=======
+main.ts:219831
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -44,7 +48,11 @@ main.ts:219798
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219785
+=======
+main.ts:219818
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -58,7 +66,11 @@ main.ts:219785
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219771
+=======
+main.ts:219804
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -72,7 +84,11 @@ main.ts:219771
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219783
+=======
+main.ts:219816
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -86,7 +102,11 @@ main.ts:219783
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219781
+=======
+main.ts:219814
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -100,7 +120,11 @@ main.ts:219781
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219787
+=======
+main.ts:219820
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -114,7 +138,11 @@ main.ts:219787
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219789
+=======
+main.ts:219822
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -128,7 +156,11 @@ main.ts:219789
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219773
+=======
+main.ts:219806
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -142,7 +174,11 @@ main.ts:219773
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219775
+=======
+main.ts:219808
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -156,7 +192,11 @@ main.ts:219775
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219769
+=======
+main.ts:219802
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -170,7 +210,11 @@ main.ts:219769
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219777
+=======
+main.ts:219810
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -184,7 +228,11 @@ main.ts:219777
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219779
+=======
+main.ts:219812
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -198,7 +246,11 @@ main.ts:219779
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219765
+=======
+main.ts:219798
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -214,7 +266,11 @@ total amount of money deposited to your account
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219767
+=======
+main.ts:219800
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -228,7 +284,11 @@ main.ts:219767
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219786
+=======
+main.ts:219819
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -242,7 +302,11 @@ main.ts:219786
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219772
+=======
+main.ts:219805
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -256,7 +320,11 @@ main.ts:219772
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219784
+=======
+main.ts:219817
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -270,7 +338,11 @@ main.ts:219784
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219782
+=======
+main.ts:219815
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -284,7 +356,11 @@ main.ts:219782
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219788
+=======
+main.ts:219821
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -298,7 +374,11 @@ main.ts:219788
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219790
+=======
+main.ts:219823
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -312,7 +392,11 @@ main.ts:219790
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219774
+=======
+main.ts:219807
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -326,7 +410,11 @@ main.ts:219774
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219776
+=======
+main.ts:219809
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -340,7 +428,11 @@ main.ts:219776
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219770
+=======
+main.ts:219803
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -354,7 +446,11 @@ main.ts:219770
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219778
+=======
+main.ts:219811
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -368,7 +464,11 @@ main.ts:219778
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219780
+=======
+main.ts:219813
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -382,7 +482,11 @@ main.ts:219780
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219768
+=======
+main.ts:219801
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -400,7 +504,11 @@ minute in the yyyy-MM-dd HH:mm format
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219794
+=======
+main.ts:219827
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -418,7 +526,11 @@ main.ts:219794
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219807
+=======
+main.ts:219840
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -436,7 +548,11 @@ main.ts:219807
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219849
+=======
+main.ts:219882
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -454,4 +570,8 @@ main.ts:219849
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:219842
+=======
+main.ts:219875
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

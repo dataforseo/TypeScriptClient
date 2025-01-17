@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AiOverviewElement
+[Documentation](../README.md) / AiOverviewElement
 
 # Class: AiOverviewElement
+
+Defined in: main.ts:30835
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AiOverviewElement**(`data`?): [`AiOverviewElement`](AiOverviewElement.md)
 
+Defined in: main.ts:30849
+
 #### Parameters
 
-• **data?**: [`IAiOverviewElement`](../interfaces/IAiOverviewElement.md)
+##### data?
+
+[`IAiOverviewElement`](../interfaces/IAiOverviewElement.md)
 
 #### Returns
 
 [`AiOverviewElement`](AiOverviewElement.md)
-
-#### Defined in
-
-main.ts:36478
 
 ## Properties
 
@@ -38,16 +40,13 @@ main.ts:36478
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
+Defined in: main.ts:30843
+
 images of the element
-if there are none, equals null
 
 #### Implementation of
 
 [`IAiOverviewElement`](../interfaces/IAiOverviewElement.md).[`images`](../interfaces/IAiOverviewElement.md#images)
-
-#### Defined in
-
-main.ts:36471
 
 ***
 
@@ -55,16 +54,13 @@ main.ts:36471
 
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
+Defined in: main.ts:30845
+
 references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element
 
 #### Implementation of
 
 [`IAiOverviewElement`](../interfaces/IAiOverviewElement.md).[`references`](../interfaces/IAiOverviewElement.md#references)
-
-#### Defined in
-
-main.ts:36474
 
 ***
 
@@ -72,16 +68,13 @@ main.ts:36474
 
 > `optional` **text**: `string`
 
-reference text
-text snippet from the page that was used to generate the ai_overview_element
+Defined in: main.ts:30841
+
+description content
 
 #### Implementation of
 
 [`IAiOverviewElement`](../interfaces/IAiOverviewElement.md).[`text`](../interfaces/IAiOverviewElement.md#text)
-
-#### Defined in
-
-main.ts:36468
 
 ***
 
@@ -89,15 +82,13 @@ main.ts:36468
 
 > `optional` **title**: `string`
 
-title of a given link element
+Defined in: main.ts:30839
+
+title of the element
 
 #### Implementation of
 
 [`IAiOverviewElement`](../interfaces/IAiOverviewElement.md).[`title`](../interfaces/IAiOverviewElement.md#title)
-
-#### Defined in
-
-main.ts:36465
 
 ***
 
@@ -105,15 +96,13 @@ main.ts:36465
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:30837
+
 type of element
 
 #### Implementation of
 
 [`IAiOverviewElement`](../interfaces/IAiOverviewElement.md).[`type`](../interfaces/IAiOverviewElement.md#type)
-
-#### Defined in
-
-main.ts:36463
 
 ## Methods
 
@@ -121,17 +110,17 @@ main.ts:36463
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:30858
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:36487
 
 ***
 
@@ -139,17 +128,17 @@ main.ts:36487
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:30887
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:36516
 
 ***
 
@@ -157,14 +146,14 @@ main.ts:36516
 
 > `static` **fromJS**(`data`): [`AiOverviewElement`](AiOverviewElement.md)
 
+Defined in: main.ts:30880
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AiOverviewElement`](AiOverviewElement.md)
-
-#### Defined in
-
-main.ts:36509

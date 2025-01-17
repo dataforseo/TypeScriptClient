@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageDuplicateTagsItem
+[Documentation](../README.md) / IOnPageDuplicateTagsItem
 
 # Interface: IOnPageDuplicateTagsItem
 
+Defined in: main.ts:168641
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **accumulator**: `string`
 
+Defined in: main.ts:168643
+
 contains the value of duplicated tag
-
-#### Defined in
-
-main.ts:156907
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:156907
 
 > `optional` **pages**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
+Defined in: main.ts:168647
+
 pages with duplicate tags
-
-#### Defined in
-
-main.ts:156911
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:156911
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:168645
+
 total count of duplicate pages
-
-#### Defined in
-
-main.ts:156909

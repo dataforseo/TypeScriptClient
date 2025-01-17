@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
+
+Defined in: main.ts:85736
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
+Defined in: main.ts:85742
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
-
-#### Defined in
-
-main.ts:76005
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:76005
 
 > `optional` **groups**: [`Groups`](Groups.md)[]
 
+Defined in: main.ts:85738
+
 array of technology groups
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md).[`groups`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md#groups)
-
-#### Defined in
-
-main.ts:76001
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:76001
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:85751
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:76014
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:76014
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:85772
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:76035
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:76035
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
+Defined in: main.ts:85765
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
-
-#### Defined in
-
-main.ts:76028

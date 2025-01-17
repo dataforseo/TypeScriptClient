@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsErrorsRequestInfo
+[Documentation](../README.md) / DomainAnalyticsErrorsRequestInfo
 
 # Class: DomainAnalyticsErrorsRequestInfo
+
+Defined in: main.ts:84686
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DomainAnalyticsErrorsRequestInfo**(`data`?): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
 
+Defined in: main.ts:84720
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:74983
 
 ## Properties
 
@@ -38,9 +40,11 @@ main.ts:74983
 
 > `optional` **datetime\_from**: `string`
 
+Defined in: main.ts:84709
+
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -49,19 +53,17 @@ example:
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`datetime_from`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:74972
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
 
+Defined in: main.ts:84716
+
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -70,15 +72,13 @@ example:
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`datetime_to`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:74979
-
 ***
 
 ### filtered\_function?
 
 > `optional` **filtered\_function**: `string`
+
+Defined in: main.ts:84702
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,13 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`filtered_function`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
-
-main.ts:74965
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:84691
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +107,13 @@ maximum value: 1000
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`limit`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:74954
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:84696
 
 offset in the results array of returned tasks
 optional field
@@ -128,27 +124,23 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`offset`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:74959
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:84729
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:74992
 
 ***
 
@@ -156,17 +148,17 @@ main.ts:74992
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:84750
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:75013
 
 ***
 
@@ -174,14 +166,14 @@ main.ts:75013
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
 
+Defined in: main.ts:84743
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:75006

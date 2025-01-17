@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleNewsTasksReadyResultInfo
+[Documentation](../README.md) / ISerpGoogleNewsTasksReadyResultInfo
 
 # Interface: ISerpGoogleNewsTasksReadyResultInfo
 
+Defined in: main.ts:45775
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:45785
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:43507
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:43507
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:45793
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:43515
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:43515
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:45796
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:43518
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:43518
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:45790
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:43512
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:43512
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:45778
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:43500
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:43500
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:45780
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:43502
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:43502
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:45783
+
 type of search engine
 example: news
-
-#### Defined in
-
-main.ts:43505
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:43505
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:45787
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:43509

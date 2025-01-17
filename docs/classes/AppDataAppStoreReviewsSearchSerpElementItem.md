@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppStoreReviewsSearchSerpElementItem
+[Documentation](../README.md) / AppDataAppStoreReviewsSearchSerpElementItem
 
 # Class: AppDataAppStoreReviewsSearchSerpElementItem
+
+Defined in: main.ts:208378
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new AppDataAppStoreReviewsSearchSerpElementItem**(`data`?): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
 
+Defined in: main.ts:208396
+
 #### Parameters
 
-• **data?**: [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md)
+##### data?
+
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:195945
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22886
+
 #### Inherited from
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`_discriminator`](BaseAppDataSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21983
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:21983
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:208388
+
 id of the review
 
 #### Implementation of
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`id`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#id)
 
-#### Defined in
-
-main.ts:195937
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:22880
 
 the alignment of the element in SERP
 can take the following values:
@@ -88,15 +88,13 @@ left, right
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`position`](BaseAppDataSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21977
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:22876
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -109,15 +107,13 @@ absolute position among all the elements in SERP
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_absolute`](BaseAppDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21973
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22873
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -130,15 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_group`](BaseAppDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21970
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:22884
 
 average rating of the app
 
@@ -150,15 +144,13 @@ average rating of the app
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rating`](BaseAppDataSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:21981
-
 ***
 
 ### review\_text?
 
 > `optional` **review\_text**: `string`
+
+Defined in: main.ts:208390
 
 content of the review
 
@@ -166,15 +158,13 @@ content of the review
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`review_text`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#review_text)
 
-#### Defined in
-
-main.ts:195939
-
 ***
 
 ### timestamp?
 
 > `optional` **timestamp**: `string`
+
+Defined in: main.ts:208386
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -185,15 +175,13 @@ example:
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`timestamp`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#timestamp)
 
-#### Defined in
-
-main.ts:195935
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:22882
 
 title of the app
 
@@ -205,15 +193,13 @@ title of the app
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`title`](BaseAppDataSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:21979
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22870
 
 type of element
 
@@ -225,15 +211,13 @@ type of element
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`type`](BaseAppDataSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21967
-
 ***
 
 ### user\_profile?
 
 > `optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
+
+Defined in: main.ts:208392
 
 user profile of the reviewer
 
@@ -241,15 +225,13 @@ user profile of the reviewer
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`user_profile`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#user_profile)
 
-#### Defined in
-
-main.ts:195941
-
 ***
 
 ### version?
 
 > `optional` **version**: `string`
+
+Defined in: main.ts:208381
 
 version of the app
 version of the app for which the review is submitted
@@ -258,19 +240,19 @@ version of the app for which the review is submitted
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`version`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#version)
 
-#### Defined in
-
-main.ts:195930
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:208401
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -280,19 +262,19 @@ main.ts:195930
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`init`](BaseAppDataSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:195950
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:208423
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -302,19 +284,19 @@ main.ts:195950
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`toJSON`](BaseAppDataSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:195972
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`AppDataAppStoreReviewsSearchSerpElementItem`](AppDataAppStoreReviewsSearchSerpElementItem.md)
 
+Defined in: main.ts:208416
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -323,7 +305,3 @@ main.ts:195972
 #### Overrides
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`fromJS`](BaseAppDataSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:195965

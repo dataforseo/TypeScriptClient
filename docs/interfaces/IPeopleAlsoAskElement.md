@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPeopleAlsoAskElement
+[Documentation](../README.md) / IPeopleAlsoAskElement
 
 # Interface: IPeopleAlsoAskElement
 
+Defined in: main.ts:31938
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **expanded\_element**: [`PeopleAlsoAskExpandedElement`](../classes/PeopleAlsoAskExpandedElement.md)[]
 
+Defined in: main.ts:31948
+
 expanded element
-
-#### Defined in
-
-main.ts:30116
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:30116
 
 > `optional` **seed\_question**: `string`
 
+Defined in: main.ts:31944
+
 question that triggered additional expanded elements
-
-#### Defined in
-
-main.ts:30112
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:30112
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:31942
+
 title of a given link element
-
-#### Defined in
-
-main.ts:30110
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:30110
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:31940
+
 type of element
-
-#### Defined in
-
-main.ts:30108
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:30108
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:31946
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:30114

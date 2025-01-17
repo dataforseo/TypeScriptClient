@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleOrganicTaskGetHtmlResultInfo
+[Documentation](../README.md) / ISerpGoogleOrganicTaskGetHtmlResultInfo
 
 # Interface: ISerpGoogleOrganicTaskGetHtmlResultInfo
 
+Defined in: main.ts:38586
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:38602
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:37078
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:37078
 
 > `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
+Defined in: main.ts:38606
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:37082
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:37082
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:38604
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:37080
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:37080
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:38589
+
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:37065
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:37065
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:38597
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:37073
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:37073
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:38595
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:37071
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:37071
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:38593
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:37069
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:37069
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:38591
+
 type of element
-
-#### Defined in
-
-main.ts:37067

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationApi
+[Documentation](../README.md) / ContentGenerationApi
 
 # Class: ContentGenerationApi
+
+Defined in: main.ts:14768
 
 ## Constructors
 
@@ -12,21 +14,21 @@
 
 > **new ContentGenerationApi**(`baseUrl`?, `http`?): [`ContentGenerationApi`](ContentGenerationApi.md)
 
+Defined in: main.ts:14773
+
 #### Parameters
 
-• **baseUrl?**: `string`
+##### baseUrl?
 
-• **http?**
+`string`
 
-• **http.fetch?**
+##### http?
+
+###### fetch
 
 #### Returns
 
 [`ContentGenerationApi`](ContentGenerationApi.md)
-
-#### Defined in
-
-main.ts:14217
 
 ## Properties
 
@@ -34,19 +36,21 @@ main.ts:14217
 
 > `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
+Defined in: main.ts:14771
+
 #### Parameters
 
-• **key**: `string`
+##### key
 
-• **value**: `any`
+`string`
+
+##### value
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:14215
 
 ## Methods
 
@@ -54,9 +58,13 @@ main.ts:14215
 
 > **checkGrammarLive**(`body`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
 
+Defined in: main.ts:14992
+
 #### Parameters
 
-• **body**: [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)[]
 
 (optional)
 
@@ -65,10 +73,6 @@ main.ts:14215
 `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14436
 
 ***
 
@@ -76,15 +80,13 @@ main.ts:14436
 
 > **contentGenerationCheckGrammarLanguages**(): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
 
+Defined in: main.ts:15033
+
 #### Returns
 
 `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14477
 
 ***
 
@@ -92,15 +94,13 @@ main.ts:14477
 
 > **contentGenerationTextSummaryLanguages**(): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
 
+Defined in: main.ts:15149
+
 #### Returns
 
 `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14593
 
 ***
 
@@ -108,9 +108,13 @@ main.ts:14593
 
 > **generateLive**(`body`): `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
 
+Defined in: main.ts:14782
+
 #### Parameters
 
-• **body**: [`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationGenerateLiveRequestInfo`](ContentGenerationGenerateLiveRequestInfo.md)[]
 
 (optional)
 
@@ -119,10 +123,6 @@ main.ts:14593
 `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14226
 
 ***
 
@@ -130,9 +130,13 @@ main.ts:14226
 
 > **generateMetaTagsLive**(`body`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
 
+Defined in: main.ts:14866
+
 #### Parameters
 
-• **body**: [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -141,10 +145,6 @@ main.ts:14226
 `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14310
 
 ***
 
@@ -152,9 +152,13 @@ main.ts:14310
 
 > **generateSubTopicsLive**(`body`): `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
 
+Defined in: main.ts:14908
+
 #### Parameters
 
-• **body**: [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)[]
 
 (optional)
 
@@ -163,10 +167,6 @@ main.ts:14310
 `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14352
 
 ***
 
@@ -174,9 +174,13 @@ main.ts:14352
 
 > **generateTextLive**(`body`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
 
+Defined in: main.ts:14824
+
 #### Parameters
 
-• **body**: [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)[]
 
 (optional)
 
@@ -185,10 +189,6 @@ main.ts:14352
 `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14268
 
 ***
 
@@ -196,15 +196,13 @@ main.ts:14268
 
 > **grammarRules**(): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
 
+Defined in: main.ts:15070
+
 #### Returns
 
 `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14514
 
 ***
 
@@ -212,9 +210,13 @@ main.ts:14514
 
 > **paraphraseLive**(`body`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
 
+Defined in: main.ts:14950
+
 #### Parameters
 
-• **body**: [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)[]
 
 (optional)
 
@@ -223,10 +225,6 @@ main.ts:14514
 `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14394
 
 ***
 
@@ -234,17 +232,17 @@ main.ts:14394
 
 > `protected` **processCheckGrammarLive**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
 
+Defined in: main.ts:15012
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationCheckGrammarLiveResponseInfo`](ContentGenerationCheckGrammarLiveResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14456
 
 ***
 
@@ -252,17 +250,17 @@ main.ts:14456
 
 > `protected` **processContentGenerationCheckGrammarLanguages**(`response`): `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
 
+Defined in: main.ts:15049
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationCheckGrammarLanguagesResponseInfo`](ContentGenerationCheckGrammarLanguagesResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14493
 
 ***
 
@@ -270,17 +268,17 @@ main.ts:14493
 
 > `protected` **processContentGenerationTextSummaryLanguages**(`response`): `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
 
+Defined in: main.ts:15165
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationTextSummaryLanguagesResponseInfo`](ContentGenerationTextSummaryLanguagesResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14609
 
 ***
 
@@ -288,17 +286,17 @@ main.ts:14609
 
 > `protected` **processGenerateLive**(`response`): `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
 
+Defined in: main.ts:14802
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGenerateLiveResponseInfo`](ContentGenerationGenerateLiveResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14246
 
 ***
 
@@ -306,17 +304,17 @@ main.ts:14246
 
 > `protected` **processGenerateMetaTagsLive**(`response`): `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
 
+Defined in: main.ts:14886
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGenerateMetaTagsLiveResponseInfo`](ContentGenerationGenerateMetaTagsLiveResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14330
 
 ***
 
@@ -324,17 +322,17 @@ main.ts:14330
 
 > `protected` **processGenerateSubTopicsLive**(`response`): `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
 
+Defined in: main.ts:14928
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGenerateSubTopicsLiveResponseInfo`](ContentGenerationGenerateSubTopicsLiveResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14372
 
 ***
 
@@ -342,17 +340,17 @@ main.ts:14372
 
 > `protected` **processGenerateTextLive**(`response`): `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
 
+Defined in: main.ts:14844
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGenerateTextLiveResponseInfo`](ContentGenerationGenerateTextLiveResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14288
 
 ***
 
@@ -360,17 +358,17 @@ main.ts:14288
 
 > `protected` **processGrammarRules**(`response`): `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
 
+Defined in: main.ts:15086
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationGrammarRulesResponseInfo`](ContentGenerationGrammarRulesResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14530
 
 ***
 
@@ -378,17 +376,17 @@ main.ts:14530
 
 > `protected` **processParaphraseLive**(`response`): `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
 
+Defined in: main.ts:14970
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationParaphraseLiveResponseInfo`](ContentGenerationParaphraseLiveResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14414
 
 ***
 
@@ -396,17 +394,17 @@ main.ts:14414
 
 > `protected` **processTextSummaryLive**(`response`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
 
+Defined in: main.ts:15128
+
 #### Parameters
 
-• **response**: `Response`
+##### response
+
+`Response`
 
 #### Returns
 
 `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
-
-#### Defined in
-
-main.ts:14572
 
 ***
 
@@ -414,9 +412,13 @@ main.ts:14572
 
 > **textSummaryLive**(`body`): `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
 
+Defined in: main.ts:15108
+
 #### Parameters
 
-• **body**: [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)[]
+##### body
+
+[`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)[]
 
 (optional)
 
@@ -425,7 +427,3 @@ main.ts:14572
 `Promise`\<[`ContentGenerationTextSummaryLiveResponseInfo`](ContentGenerationTextSummaryLiveResponseInfo.md)\>
 
 Successful operation
-
-#### Defined in
-
-main.ts:14552

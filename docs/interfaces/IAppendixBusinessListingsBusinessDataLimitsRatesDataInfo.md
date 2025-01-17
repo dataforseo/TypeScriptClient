@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
+Defined in: main.ts:232131
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **categories**: `number`
 
-#### Defined in
-
-main.ts:217070
+Defined in: main.ts:232134
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:217070
 
 > `optional` **categories\_aggregation**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217069
+Defined in: main.ts:232133
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:217069
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:217071
+Defined in: main.ts:232135
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:217071
 
 > `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217068
+Defined in: main.ts:232132

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CoursesElement
+[Documentation](../README.md) / CoursesElement
 
 # Class: CoursesElement
+
+Defined in: main.ts:37885
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new CoursesElement**(`data`?): [`CoursesElement`](CoursesElement.md)
 
+Defined in: main.ts:37910
+
 #### Parameters
 
-• **data?**: [`ICoursesElement`](../interfaces/ICoursesElement.md)
+##### data?
+
+[`ICoursesElement`](../interfaces/ICoursesElement.md)
 
 #### Returns
 
 [`CoursesElement`](CoursesElement.md)
-
-#### Defined in
-
-main.ts:36209
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:36209
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:37900
+
 the date when the page source of the element was published
 
 #### Implementation of
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`date`](../interfaces/ICoursesElement.md#date)
-
-#### Defined in
-
-main.ts:36200
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:36200
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:37898
+
 description
 
 #### Implementation of
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`description`](../interfaces/ICoursesElement.md#description)
-
-#### Defined in
-
-main.ts:36198
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:36198
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:37893
+
 website domain
 
 #### Implementation of
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`domain`](../interfaces/ICoursesElement.md#domain)
-
-#### Defined in
-
-main.ts:36193
 
 ***
 
@@ -86,21 +82,22 @@ main.ts:36193
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:37903
+
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`image_url`](../interfaces/ICoursesElement.md#image_url)
-
-#### Defined in
-
-main.ts:36202
 
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:37906
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -109,15 +106,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`rating`](../interfaces/ICoursesElement.md#rating)
 
-#### Defined in
-
-main.ts:36205
-
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:37896
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -126,15 +121,13 @@ indicates the source of information included in the top_stories_element
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`source`](../interfaces/ICoursesElement.md#source)
 
-#### Defined in
-
-main.ts:36196
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:37889
 
 title of a given link element
 
@@ -142,15 +135,13 @@ title of a given link element
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`title`](../interfaces/ICoursesElement.md#title)
 
-#### Defined in
-
-main.ts:36189
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:37887
 
 type of element
 
@@ -158,15 +149,13 @@ type of element
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`type`](../interfaces/ICoursesElement.md#type)
 
-#### Defined in
-
-main.ts:36187
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:37891
 
 URL
 
@@ -174,27 +163,23 @@ URL
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`url`](../interfaces/ICoursesElement.md#url)
 
-#### Defined in
-
-main.ts:36191
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:37919
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:36218
 
 ***
 
@@ -202,17 +187,17 @@ main.ts:36218
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:37944
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:36243
 
 ***
 
@@ -220,14 +205,14 @@ main.ts:36243
 
 > `static` **fromJS**(`data`): [`CoursesElement`](CoursesElement.md)
 
+Defined in: main.ts:37937
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`CoursesElement`](CoursesElement.md)
-
-#### Defined in
-
-main.ts:36236

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLocalFinderLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpGoogleLocalFinderLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleLocalFinderLiveAdvancedRequestInfo
 
+Defined in: main.ts:44353
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:44430
 
 parsing depth
 optional field
@@ -27,24 +31,18 @@ Note: your account will be billed per each SERP containing up to 20 results for 
 thus, setting a depth above 20 for desktop or above 10 for mobile may result in additional charges if the search engine returns more than 20 or 10 results respectively;
 if the specified depth is higher than the number of results in the response, the difference will be refunded to your account balance automatically
 
-#### Defined in
-
-main.ts:42552
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:44412
+
 device type
 optional field
 can take the values:desktop, mobile
 default value: desktop
-
-#### Defined in
-
-main.ts:42534
 
 ***
 
@@ -52,16 +50,15 @@ main.ts:42534
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:44361
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
-
-#### Defined in
-
-main.ts:42483
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -69,21 +66,21 @@ main.ts:42483
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:44407
+
 search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engine with their language_code by making a separate request to the https://api.dataforseo.com/v3/serp/google/languages
 example:en
 
-#### Defined in
-
-main.ts:42529
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:44401
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -92,15 +89,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:42523
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:44383
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -109,15 +104,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:42505
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:44394
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -130,15 +123,13 @@ the maximum value for “zoom”: 18z
 example:
 52.6178549,-155.352142,20z
 
-#### Defined in
-
-main.ts:42516
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:44376
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -147,30 +138,26 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:42498
-
 ***
 
 ### min\_rating?
 
 > `optional` **min\_rating**: `number`
 
+Defined in: main.ts:44435
+
 filter results by minimum rating
 optional field
 possible values for desktop: 3.5, 4, 4.5;
 possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
-
-#### Defined in
-
-main.ts:42557
 
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:44419
 
 device operating system
 optional field
@@ -179,15 +166,13 @@ default value: windows
 if you specify mobile in the device field, choose from the following values: android, ios
 default value: android
 
-#### Defined in
-
-main.ts:42541
-
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:44369
 
 task priority
 optional field
@@ -197,15 +182,13 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:42491
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:44450
 
 user-defined task identifier
 optional field
@@ -213,15 +196,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:42572
-
 ***
 
 ### time\_filter?
 
 > `optional` **time\_filter**: `string`
+
+Defined in: main.ts:44444
 
 filter results by open hours
 optional field
@@ -231,7 +212,3 @@ possible values: "open_now", "24_hours", "$day_value", "$day_value;$time_value";
 instead of $day_value use one of these values: "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday";
 instead of $time_value use one of these values: "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"
 example: "tuesday;18"
-
-#### Defined in
-
-main.ts:42566

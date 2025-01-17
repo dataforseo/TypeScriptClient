@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
+Defined in: main.ts:224847
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:224863
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:209841
 
 ***
 
@@ -29,13 +29,11 @@ main.ts:209841
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:224872
+
 google-defined client id
 unique id of a local establishment;
 learn more about the identifier in this help center article
-
-#### Defined in
-
-main.ts:209850
 
 ***
 
@@ -43,14 +41,12 @@ main.ts:209850
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:224868
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:209846
 
 ***
 
@@ -58,11 +54,9 @@ main.ts:209846
 
 > `optional` **feature\_id**: `string`
 
+Defined in: main.ts:224874
+
 unique identifier of the SERP feature
-
-#### Defined in
-
-main.ts:209852
 
 ***
 
@@ -70,13 +64,11 @@ main.ts:209852
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:224878
+
 item types
 types of search engine results encountered in the items array;
 possible item types: google_business_question_item
-
-#### Defined in
-
-main.ts:209856
 
 ***
 
@@ -84,14 +76,12 @@ main.ts:209856
 
 > `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](../classes/BusinessDataGoogleQuestionsAndAnswersItem.md)[]
 
+Defined in: main.ts:224887
+
 array of items within google_business_question_item
 contains answers to the google business questions;
 the maximum number of answers returned for each question: 5
 possible item types google_business_answer_element
-
-#### Defined in
-
-main.ts:209865
 
 ***
 
@@ -99,11 +89,9 @@ main.ts:209865
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:224882
+
 the number of items in the items array
-
-#### Defined in
-
-main.ts:209860
 
 ***
 
@@ -111,11 +99,9 @@ main.ts:209860
 
 > `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](../classes/ItemsWithoutAnswers.md)[]
 
+Defined in: main.ts:224880
+
 array of google business question items without answers
-
-#### Defined in
-
-main.ts:209858
 
 ***
 
@@ -123,16 +109,14 @@ main.ts:209858
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:224854
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
 learn more about the parameter in this help center article
-
-#### Defined in
-
-main.ts:209832
 
 ***
 
@@ -140,11 +124,9 @@ main.ts:209832
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:224860
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:209838
 
 ***
 
@@ -152,11 +134,9 @@ main.ts:209838
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:224858
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:209836
 
 ***
 
@@ -164,8 +144,6 @@ main.ts:209836
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:224856
+
 search engine domain as specified in a POST array
-
-#### Defined in
-
-main.ts:209834

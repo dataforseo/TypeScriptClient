@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
+Defined in: main.ts:106659
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](../classes/DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
 
+Defined in: main.ts:106675
+
 additional items present in the element
 if there are none, equals null
-
-#### Defined in
-
-main.ts:96712
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:96712
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:106672
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:96709
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:96709
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:106664
+
 keyword received in a POST array
-the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
-
-#### Defined in
-
-main.ts:96701
+the keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 ***
 
@@ -54,11 +50,9 @@ main.ts:96701
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:106668
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:96705
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:96705
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:106666
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:96703
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:96703
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:106661
+
 search engine type
-
-#### Defined in
-
-main.ts:96698
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:96698
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:106670
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:96707

@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveRequestInfo
 
+Defined in: main.ts:115761
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:115807
 
 display results by item type
 optional field
@@ -25,15 +29,13 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Defined in
-
-main.ts:106068
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:115798
 
 language code
 required field if don’t specify language_name
@@ -42,15 +44,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:106059
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:115791
 
 full name of the language
 required field if don’t specify language_code
@@ -59,15 +59,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:106052
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:115784
 
 location code
 required field if don’t specify location_name
@@ -77,15 +75,13 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
-
-main.ts:106045
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:115776
 
 full name of the location
 required field if don’t specify location_code
@@ -95,15 +91,13 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
-
-main.ts:106037
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:115813
 
 user-defined task identifier
 optional field
@@ -111,15 +105,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:106074
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:115768
 
 target domains and websites
 required field
@@ -127,7 +119,3 @@ you can specify domains, subdomains, and webpages in this field;
 domains and subdomains should be specified without https:// and www.;
 pages should be specified with absolute URL, including https:// and www.;
 you can set up to 1000 domains, subdomains or webpages
-
-#### Defined in
-
-main.ts:106029

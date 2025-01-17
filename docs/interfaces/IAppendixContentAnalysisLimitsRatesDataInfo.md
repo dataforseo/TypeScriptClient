@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentAnalysisLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixContentAnalysisLimitsRatesDataInfo
 
 # Interface: IAppendixContentAnalysisLimitsRatesDataInfo
 
+Defined in: main.ts:232505
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **categories**: `number`
 
-#### Defined in
-
-main.ts:217446
+Defined in: main.ts:232514
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:217446
 
 > `optional` **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217443
+Defined in: main.ts:232511
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:217443
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:217447
+Defined in: main.ts:232515
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:217447
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:217445
+Defined in: main.ts:232513
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:217445
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:217444
+Defined in: main.ts:232512
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:217444
 
 > `optional` **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217442
+Defined in: main.ts:232510
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:217442
 
 > `optional` **rating\_distribution**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217441
+Defined in: main.ts:232509
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:217441
 
 > `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217438
+Defined in: main.ts:232506
 
 ***
 
@@ -96,9 +82,7 @@ main.ts:217438
 
 > `optional` **sentiment\_analysis**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217440
+Defined in: main.ts:232508
 
 ***
 
@@ -106,6 +90,4 @@ main.ts:217440
 
 > `optional` **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:217439
+Defined in: main.ts:232507

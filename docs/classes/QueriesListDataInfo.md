@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / QueriesListDataInfo
+[Documentation](../README.md) / QueriesListDataInfo
 
 # Class: QueriesListDataInfo
+
+Defined in: main.ts:134475
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new QueriesListDataInfo**(`data`?): [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
+Defined in: main.ts:134485
+
 #### Parameters
 
-• **data?**: [`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md)
+##### data?
+
+[`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md)
 
 #### Returns
 
 [`QueriesListDataInfo`](QueriesListDataInfo.md)
-
-#### Defined in
-
-main.ts:124135
 
 ## Properties
 
 ### rising?
 
 > `optional` **rising**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
+
+Defined in: main.ts:134481
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -45,15 +49,13 @@ represents the list of related topics with the biggest increase in search freque
 
 [`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md).[`rising`](../interfaces/IQueriesListDataInfo.md#rising)
 
-#### Defined in
-
-main.ts:124131
-
 ***
 
 ### top?
 
 > `optional` **top**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
+
+Defined in: main.ts:134478
 
 the most popular related topics
 represents the list of the most popular related topics
@@ -62,27 +64,23 @@ represents the list of the most popular related topics
 
 [`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md).[`top`](../interfaces/IQueriesListDataInfo.md#top)
 
-#### Defined in
-
-main.ts:124128
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:134494
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:124144
 
 ***
 
@@ -90,17 +88,17 @@ main.ts:124144
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:134520
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:124170
 
 ***
 
@@ -108,14 +106,14 @@ main.ts:124170
 
 > `static` **fromJS**(`data`): [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
+Defined in: main.ts:134513
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`QueriesListDataInfo`](QueriesListDataInfo.md)
-
-#### Defined in
-
-main.ts:124163

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoTrendsDemographyElementItem
+[Documentation](../README.md) / IDataforseoTrendsDemographyElementItem
 
 # Interface: IDataforseoTrendsDemographyElementItem
+
+Defined in: main.ts:137945
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,12 +22,10 @@
 
 > `optional` **demography**: [`Demography`](../classes/Demography.md)
 
+Defined in: main.ts:137948
+
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
-
-#### Defined in
-
-main.ts:127588
 
 ***
 
@@ -33,15 +33,15 @@ main.ts:127588
 
 > `optional` **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
 
-#### Defined in
-
-main.ts:127589
+Defined in: main.ts:137949
 
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22865
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -50,15 +50,13 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 [`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`keywords`](IBaseDataforseoTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21962
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22862
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -67,22 +65,16 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`position`](IBaseDataforseoTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21959
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22859
+
 type of element
 
 #### Inherited from
 
 [`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`type`](IBaseDataforseoTrendsItem.md#type)
-
-#### Defined in
-
-main.ts:21956

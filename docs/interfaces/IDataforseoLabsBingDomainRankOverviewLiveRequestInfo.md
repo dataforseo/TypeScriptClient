@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
+Defined in: main.ts:117236
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:117279
 
 language code
 optional field
@@ -25,15 +29,13 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Defined in
-
-main.ts:107616
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:117270
 
 full name of the language
 optional field
@@ -44,30 +46,26 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Defined in
-
-main.ts:107607
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:117284
+
 the maximum number of returned results for domain
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:107621
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:117261
 
 location code
 optional field
@@ -79,15 +77,13 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Defined in
-
-main.ts:107598
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:117251
 
 full name of the location
 optional field
@@ -99,24 +95,18 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Defined in
-
-main.ts:107588
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:117289
+
 offset in the results array of returned items
 optional field
 default value: 0
 if you specify the 10 value, the first ten items in the results array will be omitted and the data will be provided for the successive items
-
-#### Defined in
-
-main.ts:107626
 
 ***
 
@@ -124,15 +114,13 @@ main.ts:107626
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:117295
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:107632
 
 ***
 
@@ -140,11 +128,9 @@ main.ts:107632
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:117241
+
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
-
-#### Defined in
-
-main.ts:107578

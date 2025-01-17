@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusyWorkingTimeInfo
+[Documentation](../README.md) / BusyWorkingTimeInfo
 
 # Class: BusyWorkingTimeInfo
+
+Defined in: main.ts:211046
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusyWorkingTimeInfo**(`data`?): [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
 
+Defined in: main.ts:211056
+
 #### Parameters
 
-• **data?**: [`IBusyWorkingTimeInfo`](../interfaces/IBusyWorkingTimeInfo.md)
+##### data?
+
+[`IBusyWorkingTimeInfo`](../interfaces/IBusyWorkingTimeInfo.md)
 
 #### Returns
 
 [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
-
-#### Defined in
-
-main.ts:198605
 
 ## Properties
 
 ### popular\_index?
 
 > `optional` **popular\_index**: `number`
+
+Defined in: main.ts:211052
 
 popularity index
 relative time-bound popularity index measured from 0 to 100;
@@ -46,15 +50,13 @@ higher value corresponds to a busier time of a day
 
 [`IBusyWorkingTimeInfo`](../interfaces/IBusyWorkingTimeInfo.md).[`popular_index`](../interfaces/IBusyWorkingTimeInfo.md#popular_index)
 
-#### Defined in
-
-main.ts:198601
-
 ***
 
 ### time?
 
 > `optional` **time**: [`WorkTimeInfo`](WorkTimeInfo.md)
+
+Defined in: main.ts:211048
 
 busy hours
 
@@ -62,27 +64,23 @@ busy hours
 
 [`IBusyWorkingTimeInfo`](../interfaces/IBusyWorkingTimeInfo.md).[`time`](../interfaces/IBusyWorkingTimeInfo.md#time)
 
-#### Defined in
-
-main.ts:198597
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:211065
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:198614
 
 ***
 
@@ -90,17 +88,17 @@ main.ts:198614
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:211083
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:198632
 
 ***
 
@@ -108,14 +106,14 @@ main.ts:198632
 
 > `static` **fromJS**(`data`): [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
 
+Defined in: main.ts:211076
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
-
-#### Defined in
-
-main.ts:198625

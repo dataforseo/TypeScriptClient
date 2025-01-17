@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / CompareSitesElement
+[Documentation](../README.md) / CompareSitesElement
 
 # Class: CompareSitesElement
+
+Defined in: main.ts:37729
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new CompareSitesElement**(`data`?): [`CompareSitesElement`](CompareSitesElement.md)
 
+Defined in: main.ts:37747
+
 #### Parameters
 
-• **data?**: [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md)
+##### data?
+
+[`ICompareSitesElement`](../interfaces/ICompareSitesElement.md)
 
 #### Returns
 
 [`CompareSitesElement`](CompareSitesElement.md)
-
-#### Defined in
-
-main.ts:36046
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:36046
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:37737
+
 website domain
 
 #### Implementation of
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`domain`](../interfaces/ICompareSitesElement.md#domain)
-
-#### Defined in
-
-main.ts:36037
 
 ***
 
@@ -54,21 +54,22 @@ main.ts:36037
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:37740
+
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`image_url`](../interfaces/ICompareSitesElement.md#image_url)
-
-#### Defined in
-
-main.ts:36039
 
 ***
 
 ### source?
 
 > `optional` **source**: `string`
+
+Defined in: main.ts:37743
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -77,15 +78,13 @@ indicates the source of information included in the top_stories_element
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`source`](../interfaces/ICompareSitesElement.md#source)
 
-#### Defined in
-
-main.ts:36042
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:37733
 
 title of a given link element
 
@@ -93,15 +92,13 @@ title of a given link element
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`title`](../interfaces/ICompareSitesElement.md#title)
 
-#### Defined in
-
-main.ts:36033
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:37731
 
 type of element
 
@@ -109,15 +106,13 @@ type of element
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`type`](../interfaces/ICompareSitesElement.md#type)
 
-#### Defined in
-
-main.ts:36031
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:37735
 
 URL
 
@@ -125,27 +120,23 @@ URL
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`url`](../interfaces/ICompareSitesElement.md#url)
 
-#### Defined in
-
-main.ts:36035
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:37756
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:36055
 
 ***
 
@@ -153,17 +144,17 @@ main.ts:36055
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:37778
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:36077
 
 ***
 
@@ -171,14 +162,14 @@ main.ts:36077
 
 > `static` **fromJS**(`data`): [`CompareSitesElement`](CompareSitesElement.md)
 
+Defined in: main.ts:37771
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`CompareSitesElement`](CompareSitesElement.md)
-
-#### Defined in
-
-main.ts:36070

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPages
+[Documentation](../README.md) / IPages
 
 # Interface: IPages
 
+Defined in: main.ts:169029
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **page**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
+Defined in: main.ts:169035
+
 information about the page with duplicate content
-
-#### Defined in
-
-main.ts:157299
 
 ***
 
@@ -28,10 +28,8 @@ main.ts:157299
 
 > `optional` **similarity**: `number`
 
+Defined in: main.ts:169033
+
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
 can take values from 0 to 10
-
-#### Defined in
-
-main.ts:157297

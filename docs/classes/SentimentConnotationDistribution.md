@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SentimentConnotationDistribution
+[Documentation](../README.md) / SentimentConnotationDistribution
 
 # Class: SentimentConnotationDistribution
+
+Defined in: main.ts:179260
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SentimentConnotationDistribution**(`data`?): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
+Defined in: main.ts:179270
+
 #### Parameters
 
-• **data?**: [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md)
+##### data?
+
+[`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md)
 
 #### Returns
 
 [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
-
-#### Defined in
-
-main.ts:167580
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:167580
 
 > `optional` **anger**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
+Defined in: main.ts:179261
+
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`anger`](../interfaces/ISentimentConnotationDistribution.md#anger)
-
-#### Defined in
-
-main.ts:167571
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:167571
 
 > `optional` **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
+Defined in: main.ts:179266
+
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`fun`](../interfaces/ISentimentConnotationDistribution.md#fun)
-
-#### Defined in
-
-main.ts:167576
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:167576
 
 > `optional` **happiness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
+Defined in: main.ts:179262
+
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`happiness`](../interfaces/ISentimentConnotationDistribution.md#happiness)
-
-#### Defined in
-
-main.ts:167572
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:167572
 
 > `optional` **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
+Defined in: main.ts:179263
+
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`love`](../interfaces/ISentimentConnotationDistribution.md#love)
-
-#### Defined in
-
-main.ts:167573
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:167573
 
 > `optional` **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
+Defined in: main.ts:179264
+
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`sadness`](../interfaces/ISentimentConnotationDistribution.md#sadness)
-
-#### Defined in
-
-main.ts:167574
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:167574
 
 > `optional` **share**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
+Defined in: main.ts:179265
+
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`share`](../interfaces/ISentimentConnotationDistribution.md#share)
-
-#### Defined in
-
-main.ts:167575
 
 ## Methods
 
@@ -122,17 +112,17 @@ main.ts:167575
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:179279
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:167589
 
 ***
 
@@ -140,17 +130,17 @@ main.ts:167589
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:179301
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:167611
 
 ***
 
@@ -158,14 +148,14 @@ main.ts:167611
 
 > `static` **fromJS**(`data`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
+Defined in: main.ts:179294
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
-
-#### Defined in
-
-main.ts:167604

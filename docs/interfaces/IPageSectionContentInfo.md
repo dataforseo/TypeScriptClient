@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPageSectionContentInfo
+[Documentation](../README.md) / IPageSectionContentInfo
 
 # Interface: IPageSectionContentInfo
 
+Defined in: main.ts:173127
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
+Defined in: main.ts:173130
+
 primary content on the page
 you can find more information about content priority calculation in this help center article
-
-#### Defined in
-
-main.ts:161416
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:161416
 
 > `optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
+Defined in: main.ts:173133
+
 secondary content on the page
 you can find more information about content priority calculation in this help center article
-
-#### Defined in
-
-main.ts:161419
 
 ***
 
@@ -42,8 +40,6 @@ main.ts:161419
 
 > `optional` **table\_content**: [`TableContent`](../classes/TableContent.md)[]
 
+Defined in: main.ts:173135
+
 content of the table on the page
-
-#### Defined in
-
-main.ts:161421

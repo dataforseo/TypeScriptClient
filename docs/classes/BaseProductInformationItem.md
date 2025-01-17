@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseProductInformationItem
+[Documentation](../README.md) / BaseProductInformationItem
 
 # Class: BaseProductInformationItem
+
+Defined in: main.ts:24251
 
 ## Extended by
 
@@ -22,17 +24,17 @@
 
 > **new BaseProductInformationItem**(`data`?): [`BaseProductInformationItem`](BaseProductInformationItem.md)
 
+Defined in: main.ts:24259
+
 #### Parameters
 
-• **data?**: [`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md)
+##### data?
+
+[`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md)
 
 #### Returns
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md)
-
-#### Defined in
-
-main.ts:23356
 
 ## Properties
 
@@ -40,9 +42,7 @@ main.ts:23356
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:23354
+Defined in: main.ts:24257
 
 ***
 
@@ -50,15 +50,13 @@ main.ts:23354
 
 > `optional` **section\_name**: `string`
 
+Defined in: main.ts:24255
+
 name of the section related to product information specified in the contents
 
 #### Implementation of
 
 [`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md).[`section_name`](../interfaces/IBaseProductInformationItem.md#section_name)
-
-#### Defined in
-
-main.ts:23352
 
 ***
 
@@ -66,15 +64,13 @@ main.ts:23352
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24253
+
 type of element
 
 #### Implementation of
 
 [`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md).[`type`](../interfaces/IBaseProductInformationItem.md#type)
-
-#### Defined in
-
-main.ts:23350
 
 ## Methods
 
@@ -82,17 +78,17 @@ main.ts:23350
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24269
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23366
 
 ***
 
@@ -100,17 +96,17 @@ main.ts:23366
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24298
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23395
 
 ***
 
@@ -118,14 +114,14 @@ main.ts:23395
 
 > `static` **fromJS**(`data`): [`BaseProductInformationItem`](BaseProductInformationItem.md)
 
+Defined in: main.ts:24276
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md)
-
-#### Defined in
-
-main.ts:23373

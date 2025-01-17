@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseGoogleMapsSerpElementItem
+[Documentation](../README.md) / BaseGoogleMapsSerpElementItem
 
 # Class: BaseGoogleMapsSerpElementItem
+
+Defined in: main.ts:41619
 
 ## Extended by
 
@@ -21,17 +23,17 @@
 
 > **new BaseGoogleMapsSerpElementItem**(`data`?): [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)
 
+Defined in: main.ts:41644
+
 #### Parameters
 
-• **data?**: [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md)
+##### data?
+
+[`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md)
 
 #### Returns
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)
-
-#### Defined in
-
-main.ts:39802
 
 ## Properties
 
@@ -39,9 +41,7 @@ main.ts:39802
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:39800
+Defined in: main.ts:41642
 
 ***
 
@@ -49,21 +49,21 @@ main.ts:39800
 
 > `optional` **domain**: `string`
 
-domain in the SERP element
+Defined in: main.ts:41630
+
+domain in SERP
 
 #### Implementation of
 
 [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md).[`domain`](../interfaces/IBaseGoogleMapsSerpElementItem.md#domain)
-
-#### Defined in
-
-main.ts:39788
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:41628
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -72,15 +72,13 @@ absolute position among all the elements in SERP
 
 [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseGoogleMapsSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:39786
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:41625
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -90,15 +88,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md).[`rank_group`](../interfaces/IBaseGoogleMapsSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:39783
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:41637
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -107,30 +103,24 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md).[`rating`](../interfaces/IBaseGoogleMapsSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:39795
-
 ***
 
 ### rating\_distribution?
 
 > `optional` **rating\_distribution**: `object`
 
+Defined in: main.ts:41640
+
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md).[`rating_distribution`](../interfaces/IBaseGoogleMapsSerpElementItem.md#rating_distribution)
-
-#### Defined in
-
-main.ts:39798
 
 ***
 
@@ -138,15 +128,13 @@ main.ts:39798
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+Defined in: main.ts:41632
+
+title of the element
 
 #### Implementation of
 
 [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md).[`title`](../interfaces/IBaseGoogleMapsSerpElementItem.md#title)
-
-#### Defined in
-
-main.ts:39790
 
 ***
 
@@ -154,15 +142,13 @@ main.ts:39790
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:41621
+
 type of element
 
 #### Implementation of
 
 [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md).[`type`](../interfaces/IBaseGoogleMapsSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:39779
 
 ***
 
@@ -170,15 +156,13 @@ main.ts:39779
 
 > `optional` **url**: `string`
 
-relevant URL in SERP
+Defined in: main.ts:41634
+
+search URL with refinement parameters
 
 #### Implementation of
 
 [`IBaseGoogleMapsSerpElementItem`](../interfaces/IBaseGoogleMapsSerpElementItem.md).[`url`](../interfaces/IBaseGoogleMapsSerpElementItem.md#url)
-
-#### Defined in
-
-main.ts:39792
 
 ## Methods
 
@@ -186,17 +170,17 @@ main.ts:39792
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:41654
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:39812
 
 ***
 
@@ -204,17 +188,17 @@ main.ts:39812
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:41690
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:39848
 
 ***
 
@@ -222,14 +206,14 @@ main.ts:39848
 
 > `static` **fromJS**(`data`): [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)
 
+Defined in: main.ts:41673
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)
-
-#### Defined in
-
-main.ts:39831

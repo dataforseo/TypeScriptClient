@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppsInfo
+[Documentation](../README.md) / IAppsInfo
 
 # Interface: IAppsInfo
 
+Defined in: main.ts:202051
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:202053
+
 ID of the app
-
-#### Defined in
-
-main.ts:189616
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:189616
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:202055
+
 title of the app
-
-#### Defined in
-
-main.ts:189618
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:189618
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:202057
+
 URL to the app page on Google Play
-
-#### Defined in
-
-main.ts:189620

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleJobsTasksFixedResultInfo
+[Documentation](../README.md) / ISerpGoogleJobsTasksFixedResultInfo
 
 # Interface: ISerpGoogleJobsTasksFixedResultInfo
 
+Defined in: main.ts:54356
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:54366
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:50636
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:50636
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:54374
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:50644
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:50644
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:54377
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:50647
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:50647
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:54371
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:50641
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:50641
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:54359
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:50629
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:50629
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:54361
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:50631
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:50631
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:54364
+
 type of search engine
 can take the following values: jobs
-
-#### Defined in
-
-main.ts:50634
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:50634
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:54368
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:50638

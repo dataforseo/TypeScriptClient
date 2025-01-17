@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IShortVideosElement
+[Documentation](../README.md) / IShortVideosElement
 
 # Interface: IShortVideosElement
 
+Defined in: main.ts:35257
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35263
+
 website domain
-
-#### Defined in
-
-main.ts:33471
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:33471
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:35268
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:33476
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:33476
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:35261
+
 title of a given link element
-
-#### Defined in
-
-main.ts:33469
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:33469
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:35259
+
 type of element
-
-#### Defined in
-
-main.ts:33467
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:33467
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:35265
+
 URL
-
-#### Defined in
-
-main.ts:33473

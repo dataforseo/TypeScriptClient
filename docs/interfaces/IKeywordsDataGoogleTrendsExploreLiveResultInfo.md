@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleTrendsExploreLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
+Defined in: main.ts:135003
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:135016
+
 direct URL to the Google Trends results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:124664
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:124664
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:135021
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:124669
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:124669
 
 > `optional` **items**: [`BaseGoogleTrendsItem`](../classes/BaseGoogleTrendsItem.md)[]
 
+Defined in: main.ts:135025
+
 items on the Google Trends page
-
-#### Defined in
-
-main.ts:124673
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:124673
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:135023
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:124671
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:124671
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:135005
+
 keywords in a POST array
-
-#### Defined in
-
-main.ts:124653
 
 ***
 
@@ -80,12 +72,10 @@ main.ts:124653
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:135013
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:124661
 
 ***
 
@@ -93,12 +83,10 @@ main.ts:124661
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:135010
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:124658
 
 ***
 
@@ -106,8 +94,6 @@ main.ts:124658
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:135007
+
 type of element
-
-#### Defined in
-
-main.ts:124655

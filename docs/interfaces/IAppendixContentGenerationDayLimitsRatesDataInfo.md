@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationDayLimitsRatesDataInfo
 
+Defined in: main.ts:232565
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:217499
+Defined in: main.ts:232567
 
 ***
 
@@ -26,6 +26,4 @@ main.ts:217499
 
 > `optional` **live**: `number`
 
-#### Defined in
-
-main.ts:217498
+Defined in: main.ts:232566

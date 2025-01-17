@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FoundOnWebElement
+[Documentation](../README.md) / FoundOnWebElement
 
 # Class: FoundOnWebElement
+
+Defined in: main.ts:36845
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new FoundOnWebElement**(`data`?): [`FoundOnWebElement`](FoundOnWebElement.md)
 
+Defined in: main.ts:36857
+
 #### Parameters
 
-• **data?**: [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md)
+##### data?
+
+[`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md)
 
 #### Returns
 
 [`FoundOnWebElement`](FoundOnWebElement.md)
-
-#### Defined in
-
-main.ts:35149
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:35149
 
 > `optional` **image**: [`ImagesElement`](ImagesElement.md)
 
+Defined in: main.ts:36853
+
 image of the element
 
 #### Implementation of
 
 [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`image`](../interfaces/IFoundOnWebElement.md#image)
-
-#### Defined in
-
-main.ts:35145
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:35145
 
 > `optional` **subtitle**: `string`
 
+Defined in: main.ts:36851
+
 subtitle of the element
 
 #### Implementation of
 
 [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`subtitle`](../interfaces/IFoundOnWebElement.md#subtitle)
-
-#### Defined in
-
-main.ts:35143
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:35143
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:36849
+
 title of a given link element
 
 #### Implementation of
 
 [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`title`](../interfaces/IFoundOnWebElement.md#title)
-
-#### Defined in
-
-main.ts:35141
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:35141
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:36847
+
 type of element
 
 #### Implementation of
 
 [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`type`](../interfaces/IFoundOnWebElement.md#type)
-
-#### Defined in
-
-main.ts:35139
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:35139
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:36866
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:35158
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:35158
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:36886
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:35178
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:35178
 
 > `static` **fromJS**(`data`): [`FoundOnWebElement`](FoundOnWebElement.md)
 
+Defined in: main.ts:36879
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`FoundOnWebElement`](FoundOnWebElement.md)
-
-#### Defined in
-
-main.ts:35171

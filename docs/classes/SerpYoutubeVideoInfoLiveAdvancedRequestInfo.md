@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYoutubeVideoInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoInfoLiveAdvancedRequestInfo
+
+Defined in: main.ts:70998
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpYoutubeVideoInfoLiveAdvancedRequestInfo**(`data`?): [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:71051
+
 #### Parameters
 
-• **data?**: [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:62828
 
 ## Properties
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:71036
 
 device type
 optional field
@@ -46,15 +50,13 @@ only value: desktop
 
 [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:62813
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:71032
 
 search engine language code
 required field if you don’t specify language_name
@@ -67,15 +69,13 @@ en
 
 [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:62809
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:71025
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -88,15 +88,13 @@ English
 
 [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:62802
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:71018
 
 search engine location code
 required field if you don’t specify location_name 
@@ -109,15 +107,13 @@ example:
 
 [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:62795
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:71011
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -130,15 +126,13 @@ United States
 
 [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:62788
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:71041
 
 device operating system
 optional field
@@ -149,15 +143,13 @@ default value: windows
 
 [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:62818
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:71047
 
 user-defined task identifier
 optional field
@@ -169,15 +161,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:62824
-
 ***
 
 ### video\_id?
 
 > `optional` **video\_id**: `string`
+
+Defined in: main.ts:71004
 
 ID of the video
 required field
@@ -189,27 +179,23 @@ vQXvyV0zIP4
 
 [`ISerpYoutubeVideoInfoLiveAdvancedRequestInfo`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoInfoLiveAdvancedRequestInfo.md#video_id)
 
-#### Defined in
-
-main.ts:62781
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:71060
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:62837
 
 ***
 
@@ -217,17 +203,17 @@ main.ts:62837
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:71084
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:62861
 
 ***
 
@@ -235,14 +221,14 @@ main.ts:62861
 
 > `static` **fromJS**(`data`): [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:71077
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYoutubeVideoInfoLiveAdvancedRequestInfo`](SerpYoutubeVideoInfoLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:62854

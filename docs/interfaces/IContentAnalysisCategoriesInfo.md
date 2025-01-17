@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisCategoriesInfo
+[Documentation](../README.md) / IContentAnalysisCategoriesInfo
 
 # Interface: IContentAnalysisCategoriesInfo
 
+Defined in: main.ts:24244
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **category**: `number`[]
 
-#### Defined in
-
-main.ts:23342
+Defined in: main.ts:24245
 
 ***
 
@@ -26,6 +26,4 @@ main.ts:23342
 
 > `optional` **count**: `number`
 
-#### Defined in
-
-main.ts:23343
+Defined in: main.ts:24246

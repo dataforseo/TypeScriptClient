@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageRawHtmlItem
+[Documentation](../README.md) / OnPageRawHtmlItem
 
 # Class: OnPageRawHtmlItem
+
+Defined in: main.ts:172202
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageRawHtmlItem**(`data`?): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
+Defined in: main.ts:172208
+
 #### Parameters
 
-• **data?**: [`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md)
+##### data?
+
+[`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md)
 
 #### Returns
 
 [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
-
-#### Defined in
-
-main.ts:160464
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:160464
 
 > `optional` **html**: `string`
 
+Defined in: main.ts:172204
+
 HTML page
 
 #### Implementation of
 
 [`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md).[`html`](../interfaces/IOnPageRawHtmlItem.md#html)
-
-#### Defined in
-
-main.ts:160460
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:160460
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:172217
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:160473
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:160473
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:172234
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:160490
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:160490
 
 > `static` **fromJS**(`data`): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
+Defined in: main.ts:172227
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
-
-#### Defined in
-
-main.ts:160483

@@ -20,7 +20,11 @@ keyword search depth
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:109635
+=======
+main.ts:109668
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -32,7 +36,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:109633
+=======
+main.ts:109666
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -45,7 +53,11 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:109638
+=======
+main.ts:109671
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -57,4 +69,8 @@ search engine type
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:109631
+=======
+main.ts:109664
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

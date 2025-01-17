@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisSummaryInfo
+[Documentation](../README.md) / IContentAnalysisSummaryInfo
 
 # Interface: IContentAnalysisSummaryInfo
 
+Defined in: main.ts:178814
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,17 +18,15 @@
 
 > `optional` **connotation\_types**: `object`
 
+Defined in: main.ts:178832
+
 connotation types
 contains types of sentiments (sentiment polarity) related to the keyword citation and citation count per each sentiment type
 possible sentiment connotation types: positive, negative, neutral
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:167142
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -34,17 +34,15 @@ main.ts:167142
 
 > `optional` **countries**: `object`
 
+Defined in: main.ts:178847
+
 countries
 contains countries and citation count in each country
 to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:167157
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -52,17 +50,15 @@ main.ts:167157
 
 > `optional` **languages**: `object`
 
+Defined in: main.ts:178851
+
 languages
 contains languages and citation count in each language
 to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:167161
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -70,13 +66,11 @@ main.ts:167161
 
 > `optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
+Defined in: main.ts:178840
+
 page categories
 contains objects with page categories and citation count in each page category
 to obtain a full list of available categories, refer to the Categories endpoint
-
-#### Defined in
-
-main.ts:167150
 
 ***
 
@@ -84,16 +78,14 @@ main.ts:167150
 
 > `optional` **page\_types**: `object`
 
+Defined in: main.ts:178843
+
 page types
 contains page types and citation count per each page type
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:167153
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -101,12 +93,10 @@ main.ts:167153
 
 > `optional` **rank**: `number`
 
+Defined in: main.ts:178821
+
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword
-
-#### Defined in
-
-main.ts:167131
 
 ***
 
@@ -114,17 +104,15 @@ main.ts:167131
 
 > `optional` **sentiment\_connotations**: `object`
 
+Defined in: main.ts:178828
+
 sentiment connotations
 contains sentiments (emotional reactions) related to the target keyword citation and the number of citations per each sentiment
 possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:167138
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -132,13 +120,11 @@ main.ts:167138
 
 > `optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
+Defined in: main.ts:178836
+
 text categories
 contains objects with text categories and citation count in each text category
 to obtain a full list of available categories, refer to the Categories endpoint
-
-#### Defined in
-
-main.ts:167146
 
 ***
 
@@ -146,12 +132,10 @@ main.ts:167146
 
 > `optional` **top\_domains**: [`TopDomainInfo`](../classes/TopDomainInfo.md)[]
 
+Defined in: main.ts:178824
+
 top domains citing the target keyword
 contains objects with top domains citing the target keword and citation count per each domain
-
-#### Defined in
-
-main.ts:167134
 
 ***
 
@@ -159,11 +143,9 @@ main.ts:167134
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:178818
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:167128
 
 ***
 
@@ -171,8 +153,6 @@ main.ts:167128
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:178816
+
 type of element
-
-#### Defined in
-
-main.ts:167126

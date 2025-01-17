@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByHtmlTermsLiveRequestInfo
 
+Defined in: main.ts:88280
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:88320
 
 array of results filtering parameters
 optional field
@@ -33,15 +37,13 @@ example:
 [["country_iso_code","=","US"],"or",["country_iso_code","=","CA"]]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
-#### Defined in
-
-main.ts:78575
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:88296
 
 target keywords in the domain’s title, description or meta keywords
 optional field
@@ -49,10 +51,7 @@ UTF-8 encoding
 maximum number of keywords you can specify: 10
 example:
 ["seo","software"]
-
-#### Defined in
-
-main.ts:78551
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -60,20 +59,20 @@ main.ts:78551
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:88342
+
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 10000
-
-#### Defined in
-
-main.ts:78597
 
 ***
 
 ### mode?
 
 > `optional` **mode**: `string`
+
+Defined in: main.ts:88303
 
 search mode
 optional field
@@ -82,15 +81,13 @@ strict_entry – search for results exactly matching the order, intervals and se
 entry – search for results ignoring the order, intervals and separators in the specified search terms
 default value: entry
 
-#### Defined in
-
-main.ts:78558
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:88349
 
 offset in the results array of returned domains
 optional field
@@ -99,15 +96,13 @@ if you specify the 10 value, the first ten domains in the results array will be 
 Note: the maximum value is 9999, the sum of limit and offset must not exceed 10000;
 use the offset_token if you would like to offset more results
 
-#### Defined in
-
-main.ts:78604
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:88357
 
 token for subsequent requests
 optional field
@@ -117,15 +112,13 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
 
-#### Defined in
-
-main.ts:78612
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:88337
 
 results sorting rules
 optional field
@@ -144,15 +137,13 @@ you should use a comma to separate several sorting rules
 example:
 ["last_visited,desc","domain_rank,desc"]
 
-#### Defined in
-
-main.ts:78592
-
 ***
 
 ### search\_terms?
 
 > `optional` **search\_terms**: `string`[]
+
+Defined in: main.ts:88288
 
 target search terms
 required field
@@ -161,7 +152,3 @@ if you specify more than one search term, you will receive only the domains cont
 maximum number of search terms you can specify: 10
 example:
 ["data-attrid"]
-
-#### Defined in
-
-main.ts:78544

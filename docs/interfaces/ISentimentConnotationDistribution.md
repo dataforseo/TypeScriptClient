@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISentimentConnotationDistribution
+[Documentation](../README.md) / ISentimentConnotationDistribution
 
 # Interface: ISentimentConnotationDistribution
 
+Defined in: main.ts:179317
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **anger**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167628
+Defined in: main.ts:179318
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:167628
 
 > `optional` **fun**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167633
+Defined in: main.ts:179323
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:167633
 
 > `optional` **happiness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167629
+Defined in: main.ts:179319
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:167629
 
 > `optional` **love**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167630
+Defined in: main.ts:179320
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:167630
 
 > `optional` **sadness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167631
+Defined in: main.ts:179321
 
 ***
 
@@ -66,6 +58,4 @@ main.ts:167631
 
 > `optional` **share**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Defined in
-
-main.ts:167632
+Defined in: main.ts:179322

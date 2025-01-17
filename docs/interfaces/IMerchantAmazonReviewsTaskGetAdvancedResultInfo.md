@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
+Defined in: main.ts:197493
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **asin**: `string`
 
+Defined in: main.ts:197495
+
 asin received in a POST array
-
-#### Defined in
-
-main.ts:185296
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:185296
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:197506
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:185307
 
 ***
 
@@ -41,14 +39,12 @@ main.ts:185307
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:197511
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:185312
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:185312
 
 > `optional` **image**: [`ImagesElement`](../classes/ImagesElement.md)
 
+Defined in: main.ts:197519
+
 product image data
-
-#### Defined in
-
-main.ts:185320
 
 ***
 
@@ -68,14 +62,12 @@ main.ts:185320
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:197529
+
 type of search results in Amazon SERP
 contains types of search results (items) found in Amazon SERP;
 possible item types:
 amazon_review_item
-
-#### Defined in
-
-main.ts:185330
 
 ***
 
@@ -83,12 +75,10 @@ main.ts:185330
 
 > `optional` **items**: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)[]
 
+Defined in: main.ts:197535
+
 found reviews
 you can get more results by using the depth parameter when setting a task
-
-#### Defined in
-
-main.ts:185336
 
 ***
 
@@ -96,12 +86,10 @@ main.ts:185336
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:197532
+
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
-
-#### Defined in
-
-main.ts:185333
 
 ***
 
@@ -109,11 +97,9 @@ main.ts:185333
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:197503
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:185304
 
 ***
 
@@ -121,11 +107,9 @@ main.ts:185304
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:197501
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:185302
 
 ***
 
@@ -133,12 +117,10 @@ main.ts:185302
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
+Defined in: main.ts:197522
+
 rating of the product on Amazon
 popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:185323
 
 ***
 
@@ -146,11 +128,9 @@ main.ts:185323
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:197524
+
 the total number of reviews
-
-#### Defined in
-
-main.ts:185325
 
 ***
 
@@ -158,11 +138,9 @@ main.ts:185325
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:197499
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:185300
 
 ***
 
@@ -170,12 +148,10 @@ main.ts:185300
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
+Defined in: main.ts:197514
+
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
-
-#### Defined in
-
-main.ts:185315
 
 ***
 
@@ -183,12 +159,10 @@ main.ts:185315
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:197517
+
 title of the product on Amazon
 the title of the product for which the reviews are collected
-
-#### Defined in
-
-main.ts:185318
 
 ***
 
@@ -196,8 +170,6 @@ main.ts:185318
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:197497
+
 type of element
-
-#### Defined in
-
-main.ts:185298

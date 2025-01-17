@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSubdomainsLiveRequestInfo
+
+Defined in: main.ts:103826
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleSubdomainsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
 
+Defined in: main.ts:103943
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:94124
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:103906
 
 array of results filtering parameters
 optional field
@@ -56,15 +60,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:94087
-
 ***
 
 ### historical\_serp\_mode?
 
 > `optional` **historical\_serp\_mode**: `string`
+
+Defined in: main.ts:103892
 
 data collection mode
 optional field
@@ -79,15 +81,13 @@ default value: live
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`historical_serp_mode`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#historical_serp_mode)
 
-#### Defined in
-
-main.ts:94073
-
 ***
 
 ### include\_clickstream\_data?
 
 > `optional` **include\_clickstream\_data**: `boolean`
+
+Defined in: main.ts:103883
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -100,15 +100,13 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#include_clickstream_data)
 
-#### Defined in
-
-main.ts:94064
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:103876
 
 display results by item type
 optional field
@@ -123,15 +121,13 @@ default value:
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:94057
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:103867
 
 language code
 optional field
@@ -146,15 +142,13 @@ en
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:94048
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:103858
 
 full name of the language
 optional field
@@ -169,15 +163,13 @@ English
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:94039
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:103928
 
 the maximum number of returned keywords
 optional field
@@ -188,15 +180,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:94109
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:103849
 
 location code
 optional field
@@ -211,15 +201,13 @@ example:
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:94030
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:103840
 
 full name of the location
 optional field
@@ -234,15 +222,13 @@ United Kingdom
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:94021
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:103933
 
 offset in the results array of returned keywords
 optional field
@@ -253,15 +239,13 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:94114
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:103923
 
 results sorting rules
 optional field
@@ -284,15 +268,13 @@ Note: if the item_types array contains item types that are different from organi
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:94104
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:103939
 
 user-defined task identifier
 optional field
@@ -304,15 +286,13 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:94120
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:103831
 
 domain
 required field
@@ -323,27 +303,23 @@ the domain should be specified without https:// and www.
 
 [`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:94012
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:103952
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:94133
 
 ***
 
@@ -351,17 +327,17 @@ main.ts:94133
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:103993
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:94174
 
 ***
 
@@ -369,14 +345,14 @@ main.ts:94174
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
 
+Defined in: main.ts:103986
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleSubdomainsLiveRequestInfo`](DataforseoLabsGoogleSubdomainsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:94167

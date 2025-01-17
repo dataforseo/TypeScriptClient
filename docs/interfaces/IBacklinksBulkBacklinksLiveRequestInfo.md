@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkBacklinksLiveRequestInfo
+[Documentation](../README.md) / IBacklinksBulkBacklinksLiveRequestInfo
 
 # Interface: IBacklinksBulkBacklinksLiveRequestInfo
 
+Defined in: main.ts:160684
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,21 +18,21 @@
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:160709
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:149403
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:160703
 
 domains, subdomains or webpages to get the number of backlinks for
 required field
@@ -50,7 +52,3 @@ example:
   "https://stackoverflow.com/",
   "www.trustpilot.com"
 ]
-
-#### Defined in
-
-main.ts:149397

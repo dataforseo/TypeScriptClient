@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYahooLanguagesResultInfo
+[Documentation](../README.md) / ISerpYahooLanguagesResultInfo
 
 # Interface: ISerpYahooLanguagesResultInfo
 
+Defined in: main.ts:75051
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:75055
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:66784
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:66784
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:75053
+
 language name
-
-#### Defined in
-
-main.ts:66782

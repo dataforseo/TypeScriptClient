@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderTaskGetHtmlResultInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderTaskGetHtmlResultInfo
 
 # Class: SerpGoogleLocalFinderTaskGetHtmlResultInfo
+
+Defined in: main.ts:43973
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleLocalFinderTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleLocalFinderTaskGetHtmlResultInfo`](SerpGoogleLocalFinderTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:43997
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleLocalFinderTaskGetHtmlResultInfo`](SerpGoogleLocalFinderTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:42121
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:43989
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:42113
-
 ***
 
 ### items?
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+
+Defined in: main.ts:43993
 
 elements of search results found in SERP
 
@@ -63,15 +65,13 @@ elements of search results found in SERP
 
 [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
-
-main.ts:42117
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:43991
 
 the number of results returned in the items array
 
@@ -79,15 +79,13 @@ the number of results returned in the items array
 
 [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:42115
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:43976
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -96,15 +94,13 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:42100
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:43984
 
 language code in a POST array
 
@@ -112,15 +108,13 @@ language code in a POST array
 
 [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:42108
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:43982
 
 location code in a POST array
 
@@ -128,15 +122,13 @@ location code in a POST array
 
 [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:42106
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:43980
 
 search engine domain in a POST array
 
@@ -144,15 +136,13 @@ search engine domain in a POST array
 
 [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:42104
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:43978
 
 type of element
 
@@ -160,27 +150,23 @@ type of element
 
 [`ISerpGoogleLocalFinderTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpGoogleLocalFinderTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
-
-main.ts:42102
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:44006
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:42130
 
 ***
 
@@ -188,17 +174,17 @@ main.ts:42130
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:44034
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:42158
 
 ***
 
@@ -206,14 +192,14 @@ main.ts:42158
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTaskGetHtmlResultInfo`](SerpGoogleLocalFinderTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:44027
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleLocalFinderTaskGetHtmlResultInfo`](SerpGoogleLocalFinderTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:42151

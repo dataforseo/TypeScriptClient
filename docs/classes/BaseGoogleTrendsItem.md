@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseGoogleTrendsItem
+[Documentation](../README.md) / BaseGoogleTrendsItem
 
 # Class: BaseGoogleTrendsItem
+
+Defined in: main.ts:22695
 
 ## Extended by
 
@@ -23,17 +25,17 @@
 
 > **new BaseGoogleTrendsItem**(`data`?): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
+Defined in: main.ts:22709
+
 #### Parameters
 
-• **data?**: [`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md)
+##### data?
+
+[`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md)
 
 #### Returns
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
-#### Defined in
-
-main.ts:21806
 
 ## Properties
 
@@ -41,15 +43,15 @@ main.ts:21806
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:21804
+Defined in: main.ts:22707
 
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22705
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -58,15 +60,13 @@ the data included in the google_trends_graph element is based on the keywords li
 
 [`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md).[`keywords`](../interfaces/IBaseGoogleTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21802
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22700
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -75,15 +75,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md).[`position`](../interfaces/IBaseGoogleTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21797
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:22702
 
 title of the element in Google Trends
 
@@ -91,15 +89,13 @@ title of the element in Google Trends
 
 [`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md).[`title`](../interfaces/IBaseGoogleTrendsItem.md#title)
 
-#### Defined in
-
-main.ts:21799
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22697
 
 type of element
 
@@ -107,27 +103,23 @@ type of element
 
 [`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md).[`type`](../interfaces/IBaseGoogleTrendsItem.md#type)
 
-#### Defined in
-
-main.ts:21794
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:22719
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:21816
 
 ***
 
@@ -135,17 +127,17 @@ main.ts:21816
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:22759
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:21856
 
 ***
 
@@ -153,14 +145,14 @@ main.ts:21856
 
 > `static` **fromJS**(`data`): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
+Defined in: main.ts:22732
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
-
-#### Defined in
-
-main.ts:21829

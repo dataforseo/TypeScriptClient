@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalBusinessDeliveryServiceInfo
+[Documentation](../README.md) / ILocalBusinessDeliveryServiceInfo
 
 # Interface: ILocalBusinessDeliveryServiceInfo
 
+Defined in: main.ts:25137
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:25142
+
 title of the element
 domain of the online food ordering system
-
-#### Defined in
-
-main.ts:24072
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:24072
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:25139
+
 type of element
-
-#### Defined in
-
-main.ts:24069
 
 ***
 
@@ -41,8 +39,6 @@ main.ts:24069
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:25144
+
 URL to place an order
-
-#### Defined in
-
-main.ts:24074

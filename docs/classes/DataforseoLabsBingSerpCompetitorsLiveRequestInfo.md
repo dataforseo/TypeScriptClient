@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingSerpCompetitorsLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveRequestInfo
+
+Defined in: main.ts:119804
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsBingSerpCompetitorsLiveRequestInfo**(`data`?): [`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
 
+Defined in: main.ts:119910
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:110477
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:119884
 
 array of results filtering parameters
 optional field
@@ -57,15 +61,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:110451
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
+
+Defined in: main.ts:119851
 
 indicates if the subdomains will be included in the search
 optional field
@@ -76,15 +78,13 @@ default value: true
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`include_subdomains`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
-
-main.ts:110418
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:119859
 
 search results type
 indicates type of search results included in the response
@@ -98,37 +98,33 @@ default value:
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:110426
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:119812
+
 keywords array
 required field
 the results will be based on the keywords you specify in this array
 UTF-8 encoding;
 the keywords will be converted to lowercase format;
-a keyword should be at least 3 characters long;
 you can specify the maximum of 200 keywords
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:110379
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:119846
 
 unique language identifier
 required field if you don’t specify language_name
@@ -142,15 +138,13 @@ en
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:110413
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:119838
 
 full name of the language
 required field if you don’t specify language_code
@@ -164,15 +158,13 @@ English
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:110405
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:119864
 
 the maximum number of returned domains
 optional field
@@ -183,15 +175,13 @@ maximum value: 1000
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:110431
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:119830
 
 unique location identifier
 required field if you don’t specify location_name
@@ -206,15 +196,13 @@ example:
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:110397
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:119821
 
 full name of the location
 required field if you don’t specify location_code
@@ -229,15 +217,13 @@ United States
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:110388
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:119869
 
 offset in the results array of returned domains
 optional field
@@ -248,15 +234,13 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:110436
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:119900
 
 results sorting rules
 optional field
@@ -278,15 +262,13 @@ example:
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:110467
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:119906
 
 user-defined task identifier
 optional field
@@ -298,27 +280,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsBingSerpCompetitorsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:110473
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:119919
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:110486
 
 ***
 
@@ -326,17 +304,17 @@ main.ts:110486
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:119963
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:110530
 
 ***
 
@@ -344,14 +322,14 @@ main.ts:110530
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
 
+Defined in: main.ts:119956
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingSerpCompetitorsLiveRequestInfo`](DataforseoLabsBingSerpCompetitorsLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:110523

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixUserDataResultInfo
+[Documentation](../README.md) / AppendixUserDataResultInfo
 
 # Class: AppendixUserDataResultInfo
+
+Defined in: main.ts:238910
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixUserDataResultInfo**(`data`?): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
 
+Defined in: main.ts:238925
+
 #### Parameters
 
-• **data?**: [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md)
+##### data?
+
+[`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md)
 
 #### Returns
 
 [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
-
-#### Defined in
-
-main.ts:223637
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:223637
 
 > `optional` **login**: `string`
 
+Defined in: main.ts:238912
+
 your login
 
 #### Implementation of
 
 [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`login`](../interfaces/IAppendixUserDataResultInfo.md#login)
-
-#### Defined in
-
-main.ts:223624
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:223624
 
 > `optional` **money**: [`AppendixMoneyData`](AppendixMoneyData.md)
 
+Defined in: main.ts:238919
+
 section of your spending, USD
 
 #### Implementation of
 
 [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`money`](../interfaces/IAppendixUserDataResultInfo.md#money)
-
-#### Defined in
-
-main.ts:223631
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:223631
 
 > `optional` **price**: [`AppendixPriceData`](AppendixPriceData.md)
 
+Defined in: main.ts:238921
+
 pricing
 
 #### Implementation of
 
 [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`price`](../interfaces/IAppendixUserDataResultInfo.md#price)
-
-#### Defined in
-
-main.ts:223633
 
 ***
 
@@ -86,21 +82,21 @@ main.ts:223633
 
 > `optional` **rates**: [`AppendixRatesData`](AppendixRatesData.md)
 
+Defined in: main.ts:238917
+
 your API rates
 
 #### Implementation of
 
 [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`rates`](../interfaces/IAppendixUserDataResultInfo.md#rates)
 
-#### Defined in
-
-main.ts:223629
-
 ***
 
 ### timezone?
 
 > `optional` **timezone**: `string`
+
+Defined in: main.ts:238915
 
 your time zone
 can be set in your profile settings
@@ -109,27 +105,23 @@ can be set in your profile settings
 
 [`IAppendixUserDataResultInfo`](../interfaces/IAppendixUserDataResultInfo.md).[`timezone`](../interfaces/IAppendixUserDataResultInfo.md#timezone)
 
-#### Defined in
-
-main.ts:223627
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:238934
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:223646
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:223646
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:238955
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:223667
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:223667
 
 > `static` **fromJS**(`data`): [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
 
+Defined in: main.ts:238948
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixUserDataResultInfo`](AppendixUserDataResultInfo.md)
-
-#### Defined in
-
-main.ts:223660

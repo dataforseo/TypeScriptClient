@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductInformationRows
+[Documentation](../README.md) / ProductInformationRows
 
 # Class: ProductInformationRows
+
+Defined in: main.ts:194364
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ProductInformationRows**(`data`?): [`ProductInformationRows`](ProductInformationRows.md)
 
+Defined in: main.ts:194374
+
 #### Parameters
 
-• **data?**: [`IProductInformationRows`](../interfaces/IProductInformationRows.md)
+##### data?
+
+[`IProductInformationRows`](../interfaces/IProductInformationRows.md)
 
 #### Returns
 
 [`ProductInformationRows`](ProductInformationRows.md)
-
-#### Defined in
-
-main.ts:182155
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:182155
 
 > `optional` **rows**: [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)[]
 
+Defined in: main.ts:194370
+
 rows containing related product information
 
 #### Implementation of
 
 [`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`rows`](../interfaces/IProductInformationRows.md#rows)
-
-#### Defined in
-
-main.ts:182151
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:182151
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:194368
+
 title under which related product information appears on the Amazon product page
 
 #### Implementation of
 
 [`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`title`](../interfaces/IProductInformationRows.md#title)
-
-#### Defined in
-
-main.ts:182149
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:182149
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:194366
+
 type of element
 
 #### Implementation of
 
 [`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`type`](../interfaces/IProductInformationRows.md#type)
-
-#### Defined in
-
-main.ts:182147
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:182147
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:194383
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:182164
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:182164
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:194406
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:182187
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:182187
 
 > `static` **fromJS**(`data`): [`ProductInformationRows`](ProductInformationRows.md)
 
+Defined in: main.ts:194399
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ProductInformationRows`](ProductInformationRows.md)
-
-#### Defined in
-
-main.ts:182180

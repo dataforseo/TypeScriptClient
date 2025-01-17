@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
+Defined in: main.ts:231454
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **aggregation\_technologies**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216400
+Defined in: main.ts:231460
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:216400
 
 > `optional` **domain\_technologies**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216395
+Defined in: main.ts:231455
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:216395
 
 > `optional` **domains\_by\_html\_terms**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216402
+Defined in: main.ts:231462
 
 ***
 
@@ -46,9 +42,7 @@ main.ts:216402
 
 > `optional` **domains\_by\_technology**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216396
+Defined in: main.ts:231456
 
 ***
 
@@ -56,9 +50,7 @@ main.ts:216396
 
 > `optional` **languages**: `number`
 
-#### Defined in
-
-main.ts:216397
+Defined in: main.ts:231457
 
 ***
 
@@ -66,9 +58,7 @@ main.ts:216397
 
 > `optional` **locations**: `number`
 
-#### Defined in
-
-main.ts:216398
+Defined in: main.ts:231458
 
 ***
 
@@ -76,9 +66,7 @@ main.ts:216398
 
 > `optional` **technologies**: `number`
 
-#### Defined in
-
-main.ts:216399
+Defined in: main.ts:231459
 
 ***
 
@@ -86,9 +74,7 @@ main.ts:216399
 
 > `optional` **technologies\_summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216401
+Defined in: main.ts:231461
 
 ***
 
@@ -96,6 +82,4 @@ main.ts:216401
 
 > `optional` **technology\_stats**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:216403
+Defined in: main.ts:231463

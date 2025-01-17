@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGroups
+[Documentation](../README.md) / IGroups
 
 # Interface: IGroups
 
+Defined in: main.ts:85723
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **categories**: [`TechnologyCategoryInfo`](../classes/TechnologyCategoryInfo.md)[]
 
+Defined in: main.ts:85731
+
 technology categories in this group
-
-#### Defined in
-
-main.ts:75994
 
 ***
 
@@ -28,13 +28,11 @@ main.ts:75994
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:85727
+
 id of the technology group
 example:
 marketing, sales
-
-#### Defined in
-
-main.ts:75990
 
 ***
 
@@ -42,8 +40,6 @@ main.ts:75990
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:85729
+
 title of the technology group
-
-#### Defined in
-
-main.ts:75992

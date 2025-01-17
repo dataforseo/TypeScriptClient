@@ -1,16 +1,18 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
+
+Defined in: main.ts:87197
 
 items array
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -18,16 +20,14 @@ items array
 
 > `optional` **countries**: `object`
 
+Defined in: main.ts:87206
+
 distribution of websites by country
 contains country codes and number of websites per country
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:77465
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -35,11 +35,9 @@ main.ts:77465
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:87201
+
 date for which the data is provided
-
-#### Defined in
-
-main.ts:77460
 
 ***
 
@@ -47,11 +45,9 @@ main.ts:77460
 
 > `optional` **domains\_count**: `number`
 
+Defined in: main.ts:87203
+
 number of domains that use the specified technology
-
-#### Defined in
-
-main.ts:77462
 
 ***
 
@@ -59,17 +55,15 @@ main.ts:77462
 
 > `optional` **domains\_rank**: `object`
 
+Defined in: main.ts:87213
+
 distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
 learn more about rank and how it is calculated in this help center article
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:77472
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -77,16 +71,14 @@ main.ts:77472
 
 > `optional` **languages**: `object`
 
+Defined in: main.ts:87209
+
 distribution of websites by language
 contains language codes and number of websites per language
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:77468
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -94,8 +86,6 @@ main.ts:77468
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:87199
+
 type of element
-
-#### Defined in
-
-main.ts:77458

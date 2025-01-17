@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixDataInfo
+[Documentation](../README.md) / AppendixDataInfo
 
 # Class: AppendixDataInfo
+
+Defined in: main.ts:233042
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixDataInfo**(`data`?): [`AppendixDataInfo`](AppendixDataInfo.md)
 
+Defined in: main.ts:233078
+
 #### Parameters
 
-• **data?**: [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md)
+##### data?
+
+[`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md)
 
 #### Returns
 
 [`AppendixDataInfo`](AppendixDataInfo.md)
-
-#### Defined in
-
-main.ts:218002
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:218002
 
 > `optional` **app\_data**: [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233063
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`app_data`](../interfaces/IAppendixDataInfo.md#app_data)
-
-#### Defined in
-
-main.ts:217987
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:217987
 
 > `optional` **appendix**: [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
+Defined in: main.ts:233049
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`appendix`](../interfaces/IAppendixDataInfo.md#appendix)
-
-#### Defined in
-
-main.ts:217973
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:217973
 
 > `optional` **backlinks**: [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233061
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`backlinks`](../interfaces/IAppendixDataInfo.md#backlinks)
-
-#### Defined in
-
-main.ts:217985
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:217985
 
 > `optional` **business\_data**: [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233059
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`business_data`](../interfaces/IAppendixDataInfo.md#business_data)
-
-#### Defined in
-
-main.ts:217983
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:217983
 
 > `optional` **content\_analysis**: [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233065
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`content_analysis`](../interfaces/IAppendixDataInfo.md#content_analysis)
-
-#### Defined in
-
-main.ts:217989
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:217989
 
 > `optional` **content\_generation**: [`AppendixContentGenerationLimitsRatesDataInfo`](AppendixContentGenerationLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233067
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`content_generation`](../interfaces/IAppendixDataInfo.md#content_generation)
-
-#### Defined in
-
-main.ts:217991
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:217991
 
 > `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsLimitsRatesDataInfo`](AppendixDataforseoLabsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233051
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`dataforseo_labs`](../interfaces/IAppendixDataInfo.md#dataforseo_labs)
-
-#### Defined in
-
-main.ts:217975
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:217975
 
 > `optional` **domain\_analytics**: [`AppendixDomainAnalyticsLimitsRatesDataInfo`](AppendixDomainAnalyticsLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233053
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`domain_analytics`](../interfaces/IAppendixDataInfo.md#domain_analytics)
-
-#### Defined in
-
-main.ts:217977
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:217977
 
 > `optional` **keywords\_data**: [`AppendixKeywordsDataDataInfo`](AppendixKeywordsDataDataInfo.md)
 
+Defined in: main.ts:233047
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`keywords_data`](../interfaces/IAppendixDataInfo.md#keywords_data)
-
-#### Defined in
-
-main.ts:217971
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:217971
 
 > `optional` **merchant**: [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233055
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`merchant`](../interfaces/IAppendixDataInfo.md#merchant)
-
-#### Defined in
-
-main.ts:217979
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:217979
 
 > `optional` **on\_page**: [`AppendixOnPageLimitsRatesDataInfo`](AppendixOnPageLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233057
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`on_page`](../interfaces/IAppendixDataInfo.md#on_page)
-
-#### Defined in
-
-main.ts:217981
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:217981
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233070
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`reviews`](../interfaces/IAppendixDataInfo.md#reviews)
-
-#### Defined in
-
-main.ts:217994
 
 ***
 
@@ -206,13 +184,11 @@ main.ts:217994
 
 > `optional` **serp**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233043
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`serp`](../interfaces/IAppendixDataInfo.md#serp)
-
-#### Defined in
-
-main.ts:217967
 
 ***
 
@@ -220,13 +196,11 @@ main.ts:217967
 
 > `optional` **social**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233072
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`social`](../interfaces/IAppendixDataInfo.md#social)
-
-#### Defined in
-
-main.ts:217996
 
 ***
 
@@ -234,15 +208,13 @@ main.ts:217996
 
 > `optional` **total**: `number`
 
+Defined in: main.ts:233045
+
 total amount of money deposited to your account
 
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total`](../interfaces/IAppendixDataInfo.md#total)
-
-#### Defined in
-
-main.ts:217969
 
 ***
 
@@ -250,13 +222,11 @@ main.ts:217969
 
 > `optional` **total\_app\_data**: `number`
 
+Defined in: main.ts:233064
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_app_data`](../interfaces/IAppendixDataInfo.md#total_app_data)
-
-#### Defined in
-
-main.ts:217988
 
 ***
 
@@ -264,13 +234,11 @@ main.ts:217988
 
 > `optional` **total\_appendix**: `number`
 
+Defined in: main.ts:233050
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_appendix`](../interfaces/IAppendixDataInfo.md#total_appendix)
-
-#### Defined in
-
-main.ts:217974
 
 ***
 
@@ -278,13 +246,11 @@ main.ts:217974
 
 > `optional` **total\_backlinks**: `number`
 
+Defined in: main.ts:233062
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_backlinks`](../interfaces/IAppendixDataInfo.md#total_backlinks)
-
-#### Defined in
-
-main.ts:217986
 
 ***
 
@@ -292,13 +258,11 @@ main.ts:217986
 
 > `optional` **total\_business\_data**: `number`
 
+Defined in: main.ts:233060
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_business_data`](../interfaces/IAppendixDataInfo.md#total_business_data)
-
-#### Defined in
-
-main.ts:217984
 
 ***
 
@@ -306,13 +270,11 @@ main.ts:217984
 
 > `optional` **total\_content\_analysis**: `number`
 
+Defined in: main.ts:233066
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_content_analysis`](../interfaces/IAppendixDataInfo.md#total_content_analysis)
-
-#### Defined in
-
-main.ts:217990
 
 ***
 
@@ -320,13 +282,11 @@ main.ts:217990
 
 > `optional` **total\_content\_generation**: `number`
 
+Defined in: main.ts:233068
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_content_generation`](../interfaces/IAppendixDataInfo.md#total_content_generation)
-
-#### Defined in
-
-main.ts:217992
 
 ***
 
@@ -334,13 +294,11 @@ main.ts:217992
 
 > `optional` **total\_dataforseo\_labs**: `number`
 
+Defined in: main.ts:233052
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_dataforseo_labs`](../interfaces/IAppendixDataInfo.md#total_dataforseo_labs)
-
-#### Defined in
-
-main.ts:217976
 
 ***
 
@@ -348,13 +306,11 @@ main.ts:217976
 
 > `optional` **total\_domain\_analytics**: `number`
 
+Defined in: main.ts:233054
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_domain_analytics`](../interfaces/IAppendixDataInfo.md#total_domain_analytics)
-
-#### Defined in
-
-main.ts:217978
 
 ***
 
@@ -362,13 +318,11 @@ main.ts:217978
 
 > `optional` **total\_keywords\_data**: `number`
 
+Defined in: main.ts:233048
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_keywords_data`](../interfaces/IAppendixDataInfo.md#total_keywords_data)
-
-#### Defined in
-
-main.ts:217972
 
 ***
 
@@ -376,13 +330,11 @@ main.ts:217972
 
 > `optional` **total\_merchant**: `number`
 
+Defined in: main.ts:233056
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_merchant`](../interfaces/IAppendixDataInfo.md#total_merchant)
-
-#### Defined in
-
-main.ts:217980
 
 ***
 
@@ -390,13 +342,11 @@ main.ts:217980
 
 > `optional` **total\_on\_page**: `number`
 
+Defined in: main.ts:233058
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_on_page`](../interfaces/IAppendixDataInfo.md#total_on_page)
-
-#### Defined in
-
-main.ts:217982
 
 ***
 
@@ -404,13 +354,11 @@ main.ts:217982
 
 > `optional` **total\_reviews**: `number`
 
+Defined in: main.ts:233069
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_reviews`](../interfaces/IAppendixDataInfo.md#total_reviews)
-
-#### Defined in
-
-main.ts:217993
 
 ***
 
@@ -418,13 +366,11 @@ main.ts:217993
 
 > `optional` **total\_serp**: `number`
 
+Defined in: main.ts:233046
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_serp`](../interfaces/IAppendixDataInfo.md#total_serp)
-
-#### Defined in
-
-main.ts:217970
 
 ***
 
@@ -432,13 +378,11 @@ main.ts:217970
 
 > `optional` **total\_social**: `number`
 
+Defined in: main.ts:233071
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_social`](../interfaces/IAppendixDataInfo.md#total_social)
-
-#### Defined in
-
-main.ts:217995
 
 ***
 
@@ -446,13 +390,11 @@ main.ts:217995
 
 > `optional` **total\_traffic\_analytics**: `number`
 
+Defined in: main.ts:233073
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`total_traffic_analytics`](../interfaces/IAppendixDataInfo.md#total_traffic_analytics)
-
-#### Defined in
-
-main.ts:217997
 
 ***
 
@@ -460,13 +402,11 @@ main.ts:217997
 
 > `optional` **traffic\_analytics**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233074
+
 #### Implementation of
 
 [`IAppendixDataInfo`](../interfaces/IAppendixDataInfo.md).[`traffic_analytics`](../interfaces/IAppendixDataInfo.md#traffic_analytics)
-
-#### Defined in
-
-main.ts:217998
 
 ## Methods
 
@@ -474,17 +414,17 @@ main.ts:217998
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:233087
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218011
 
 ***
 
@@ -492,17 +432,17 @@ main.ts:218011
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:233134
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218058
 
 ***
 
@@ -510,14 +450,14 @@ main.ts:218058
 
 > `static` **fromJS**(`data`): [`AppendixDataInfo`](AppendixDataInfo.md)
 
+Defined in: main.ts:233127
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixDataInfo`](AppendixDataInfo.md)
-
-#### Defined in
-
-main.ts:218051

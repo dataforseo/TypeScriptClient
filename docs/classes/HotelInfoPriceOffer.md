@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelInfoPriceOffer
+[Documentation](../README.md) / HotelInfoPriceOffer
 
 # Class: HotelInfoPriceOffer
+
+Defined in: main.ts:216977
 
 featured price offers
 
@@ -14,7 +16,7 @@ featured price offers
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -22,23 +24,25 @@ featured price offers
 
 > **new HotelInfoPriceOffer**(`data`?): [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
 
+Defined in: main.ts:217003
+
 #### Parameters
 
-• **data?**: [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md)
+##### data?
+
+[`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md)
 
 #### Returns
 
 [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
-
-#### Defined in
-
-main.ts:203736
 
 ## Properties
 
 ### currency?
 
 > `optional` **currency**: `string`
+
+Defined in: main.ts:216986
 
 price currency
 USD is applied by default, unless specified in the POST array
@@ -47,15 +51,13 @@ USD is applied by default, unless specified in the POST array
 
 [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`currency`](../interfaces/IHotelInfoPriceOffer.md#currency)
 
-#### Defined in
-
-main.ts:203719
-
 ***
 
 ### free\_cancellation\_until?
 
 > `optional` **free\_cancellation\_until**: `string`
+
+Defined in: main.ts:216999
 
 date until free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -65,15 +67,13 @@ equals null if free cancellation is not available for the selected dates
 
 [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`free_cancellation_until`](../interfaces/IHotelInfoPriceOffer.md#free_cancellation_until)
 
-#### Defined in
-
-main.ts:203732
-
 ***
 
 ### max\_visitors?
 
 > `optional` **max\_visitors**: `number`
+
+Defined in: main.ts:216992
 
 the maximal number of visitors
 the maximum number of visitors for which the price offer is valid
@@ -82,15 +82,13 @@ the maximum number of visitors for which the price offer is valid
 
 [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`max_visitors`](../interfaces/IHotelInfoPriceOffer.md#max_visitors)
 
-#### Defined in
-
-main.ts:203725
-
 ***
 
 ### offer\_images?
 
 > `optional` **offer\_images**: `string`[]
+
+Defined in: main.ts:216995
 
 price offer images
 URLs of the images featured in the price offer
@@ -99,15 +97,13 @@ URLs of the images featured in the price offer
 
 [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`offer_images`](../interfaces/IHotelInfoPriceOffer.md#offer_images)
 
-#### Defined in
-
-main.ts:203728
-
 ***
 
 ### price?
 
 > `optional` **price**: `number`
+
+Defined in: main.ts:216983
 
 price per night
 
@@ -115,15 +111,13 @@ price per night
 
 [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`price`](../interfaces/IHotelInfoPriceOffer.md#price)
 
-#### Defined in
-
-main.ts:203716
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:216981
 
 title of the hotel
 
@@ -131,15 +125,13 @@ title of the hotel
 
 [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`title`](../interfaces/IHotelInfoPriceOffer.md#title)
 
-#### Defined in
-
-main.ts:203714
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:216979
 
 type of element
 
@@ -147,15 +139,13 @@ type of element
 
 [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`type`](../interfaces/IHotelInfoPriceOffer.md#type)
 
-#### Defined in
-
-main.ts:203712
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:216989
 
 url of the price offer
 URL to the page of the website where price offer appears
@@ -164,27 +154,23 @@ URL to the page of the website where price offer appears
 
 [`IHotelInfoPriceOffer`](../interfaces/IHotelInfoPriceOffer.md).[`url`](../interfaces/IHotelInfoPriceOffer.md#url)
 
-#### Defined in
-
-main.ts:203722
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:217012
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:203745
 
 ***
 
@@ -192,17 +178,17 @@ main.ts:203745
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:217040
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:203773
 
 ***
 
@@ -210,14 +196,14 @@ main.ts:203773
 
 > `static` **fromJS**(`data`): [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
 
+Defined in: main.ts:217033
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HotelInfoPriceOffer`](HotelInfoPriceOffer.md)
-
-#### Defined in
-
-main.ts:203766

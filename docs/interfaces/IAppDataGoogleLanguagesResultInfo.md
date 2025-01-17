@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleLanguagesResultInfo
+[Documentation](../README.md) / IAppDataGoogleLanguagesResultInfo
 
 # Interface: IAppDataGoogleLanguagesResultInfo
 
+Defined in: main.ts:199163
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:199167
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:186968
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:186968
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:199165
+
 language name
-
-#### Defined in
-
-main.ts:186966

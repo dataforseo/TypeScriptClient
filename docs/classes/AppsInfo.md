@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppsInfo
+[Documentation](../README.md) / AppsInfo
 
 # Class: AppsInfo
+
+Defined in: main.ts:202000
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppsInfo**(`data`?): [`AppsInfo`](AppsInfo.md)
 
+Defined in: main.ts:202010
+
 #### Parameters
 
-• **data?**: [`IAppsInfo`](../interfaces/IAppsInfo.md)
+##### data?
+
+[`IAppsInfo`](../interfaces/IAppsInfo.md)
 
 #### Returns
 
 [`AppsInfo`](AppsInfo.md)
-
-#### Defined in
-
-main.ts:189573
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:189573
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:202002
+
 ID of the app
 
 #### Implementation of
 
 [`IAppsInfo`](../interfaces/IAppsInfo.md).[`app_id`](../interfaces/IAppsInfo.md#app_id)
-
-#### Defined in
-
-main.ts:189565
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:189565
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:202004
+
 title of the app
 
 #### Implementation of
 
 [`IAppsInfo`](../interfaces/IAppsInfo.md).[`title`](../interfaces/IAppsInfo.md#title)
-
-#### Defined in
-
-main.ts:189567
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:189567
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:202006
+
 URL to the app page on Google Play
 
 #### Implementation of
 
 [`IAppsInfo`](../interfaces/IAppsInfo.md).[`url`](../interfaces/IAppsInfo.md#url)
-
-#### Defined in
-
-main.ts:189569
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:189569
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:202019
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:189582
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:189582
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:202038
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:189601
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:189601
 
 > `static` **fromJS**(`data`): [`AppsInfo`](AppsInfo.md)
 
+Defined in: main.ts:202031
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppsInfo`](AppsInfo.md)
-
-#### Defined in
-
-main.ts:189594

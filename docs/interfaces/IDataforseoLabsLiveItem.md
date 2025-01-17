@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md)
 
 ***
 
@@ -6,42 +6,38 @@
 
 # Interface: IDataforseoLabsLiveItem
 
+Defined in: main.ts:101567
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](../classes/KeywordDataKeywordDataInfo.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
+
+Defined in: main.ts:101571
 
 keyword data for the returned keyword
-
-#### Source
-
-main.ts:110205
 
 ***
 
 ### ranked\_serp\_element?
 
-> **`optional`** **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
+> `optional` **ranked\_serp\_element**: [`RankedSerpElement`](../classes/RankedSerpElement.md)
+
+Defined in: main.ts:101573
 
 contains data on the domain’s SERP element found for the returned keyword
-
-#### Source
-
-main.ts:110207
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
+
+Defined in: main.ts:101569
 
 search engine type
-
-#### Source
-
-main.ts:110203

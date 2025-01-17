@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixGoogleAdsKeywordsDataPriceData
+[Documentation](../README.md) / AppendixGoogleAdsKeywordsDataPriceData
 
 # Class: AppendixGoogleAdsKeywordsDataPriceData
+
+Defined in: main.ts:236514
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,73 +22,65 @@
 
 > **new AppendixGoogleAdsKeywordsDataPriceData**(`data`?): [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
 
+Defined in: main.ts:236523
+
 #### Parameters
 
-• **data?**: [`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md)
+##### data?
+
+[`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md)
 
 #### Returns
 
 [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
 
-#### Defined in
-
-main.ts:221251
-
 ## Properties
 
 ### ad\_traffic\_by\_keywords?
 
-> `optional` **ad\_traffic\_by\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **ad\_traffic\_by\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236515
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md).[`ad_traffic_by_keywords`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md#ad_traffic_by_keywords)
 
-#### Defined in
-
-main.ts:221243
-
 ***
 
 ### keywords\_for\_keywords?
 
-> `optional` **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236516
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md).[`keywords_for_keywords`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md#keywords_for_keywords)
 
-#### Defined in
-
-main.ts:221244
-
 ***
 
 ### keywords\_for\_site?
 
-> `optional` **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236517
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md).[`keywords_for_site`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md#keywords_for_site)
 
-#### Defined in
-
-main.ts:221245
-
 ***
 
 ### search\_volume?
 
-> `optional` **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search\_volume**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:236518
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md).[`search_volume`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md#search_volume)
-
-#### Defined in
-
-main.ts:221246
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:221246
 
 > `optional` **status**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236519
+
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataPriceData`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md).[`status`](../interfaces/IAppendixGoogleAdsKeywordsDataPriceData.md#status)
-
-#### Defined in
-
-main.ts:221247
 
 ## Methods
 
@@ -108,17 +100,17 @@ main.ts:221247
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:236532
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:221260
 
 ***
 
@@ -126,17 +118,17 @@ main.ts:221260
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:236553
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:221281
 
 ***
 
@@ -144,14 +136,14 @@ main.ts:221281
 
 > `static` **fromJS**(`data`): [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
 
+Defined in: main.ts:236546
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixGoogleAdsKeywordsDataPriceData`](AppendixGoogleAdsKeywordsDataPriceData.md)
-
-#### Defined in
-
-main.ts:221274

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonSerpElement
+[Documentation](../README.md) / IAmazonSerpElement
 
 # Interface: IAmazonSerpElement
 
+Defined in: main.ts:192716
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **bought\_past\_month**: `number`
 
+Defined in: main.ts:192730
+
 number of product purchases in the past month
-
-#### Defined in
-
-main.ts:180541
 
 ***
 
@@ -28,13 +28,11 @@ main.ts:180541
 
 > `optional` **currency**: `string`
 
+Defined in: main.ts:192742
+
 currency in the ISO format
 example:
 USD
-
-#### Defined in
-
-main.ts:180553
 
 ***
 
@@ -42,14 +40,12 @@ main.ts:180553
 
 > `optional` **data\_asin**: `string`
 
+Defined in: main.ts:192750
+
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
 example:
 B07G82D89J
-
-#### Defined in
-
-main.ts:180561
 
 ***
 
@@ -57,12 +53,10 @@ main.ts:180561
 
 > `optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
 
+Defined in: main.ts:192761
+
 delivery information
 delivery information including free and fast delivery date ranges
-
-#### Defined in
-
-main.ts:180572
 
 ***
 
@@ -70,11 +64,9 @@ main.ts:180572
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:192722
+
 Amazon domain
-
-#### Defined in
-
-main.ts:180533
 
 ***
 
@@ -82,11 +74,9 @@ main.ts:180533
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:192728
+
 URL of the product image featured in the results
-
-#### Defined in
-
-main.ts:180539
 
 ***
 
@@ -94,12 +84,10 @@ main.ts:180539
 
 > `optional` **is\_amazon\_choice**: `boolean`
 
+Defined in: main.ts:192755
+
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
-
-#### Defined in
-
-main.ts:180566
 
 ***
 
@@ -107,12 +95,10 @@ main.ts:180566
 
 > `optional` **is\_best\_seller**: `boolean`
 
+Defined in: main.ts:192758
+
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
-
-#### Defined in
-
-main.ts:180569
 
 ***
 
@@ -120,13 +106,11 @@ main.ts:180569
 
 > `optional` **price\_from**: `number`
 
+Defined in: main.ts:192734
+
 the regular price of a product
 example:
 49.98
-
-#### Defined in
-
-main.ts:180545
 
 ***
 
@@ -134,13 +118,11 @@ main.ts:180545
 
 > `optional` **price\_to**: `number`
 
+Defined in: main.ts:192738
+
 the upper limit of the product price range
 example:
 384.99
-
-#### Defined in
-
-main.ts:180549
 
 ***
 
@@ -148,11 +130,9 @@ main.ts:180549
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
+Defined in: main.ts:192752
+
 product rating info
-
-#### Defined in
-
-main.ts:180563
 
 ***
 
@@ -160,12 +140,10 @@ main.ts:180563
 
 > `optional` **special\_offers**: `string`[]
 
+Defined in: main.ts:192745
+
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
-
-#### Defined in
-
-main.ts:180556
 
 ***
 
@@ -173,11 +151,9 @@ main.ts:180556
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:192724
+
 product title
-
-#### Defined in
-
-main.ts:180535
 
 ***
 
@@ -185,11 +161,9 @@ main.ts:180535
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:192718
+
 type of element
-
-#### Defined in
-
-main.ts:180529
 
 ***
 
@@ -197,11 +171,9 @@ main.ts:180529
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:192726
+
 the URL of the product page
-
-#### Defined in
-
-main.ts:180537
 
 ***
 
@@ -209,8 +181,6 @@ main.ts:180537
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:192720
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:180531

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsLocationsResultInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsLocationsResultInfo
 
 # Interface: IBusinessDataBusinessListingsLocationsResultInfo
 
+Defined in: main.ts:210119
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **business\_count**: `number`
 
+Defined in: main.ts:210125
+
 number of businesses in this location in our database
-
-#### Defined in
-
-main.ts:197674
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:197674
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:210123
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:197672
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:197672
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:210121
+
 full name of the location
-
-#### Defined in
-
-main.ts:197670

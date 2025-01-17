@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesLanguagesResultInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesLanguagesResultInfo
 
+Defined in: main.ts:85455
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:85459
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:75722
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:75722
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:85457
+
 language name
-
-#### Defined in
-
-main.ts:75720

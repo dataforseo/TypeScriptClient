@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AvailibleVersions
+[Documentation](../README.md) / AvailibleVersions
 
 # Class: AvailibleVersions
+
+Defined in: main.ts:175196
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AvailibleVersions**(`data`?): [`AvailibleVersions`](AvailibleVersions.md)
 
+Defined in: main.ts:175205
+
 #### Parameters
 
-• **data?**: [`IAvailibleVersions`](../interfaces/IAvailibleVersions.md)
+##### data?
+
+[`IAvailibleVersions`](../interfaces/IAvailibleVersions.md)
 
 #### Returns
 
 [`AvailibleVersions`](AvailibleVersions.md)
-
-#### Defined in
-
-main.ts:163515
 
 ## Properties
 
 ### default?
 
 > `optional` **default**: `boolean`
+
+Defined in: main.ts:175201
 
 the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary
@@ -45,15 +49,13 @@ if false, the version is not used by default and should be specified in the corr
 
 [`IAvailibleVersions`](../interfaces/IAvailibleVersions.md).[`default`](../interfaces/IAvailibleVersions.md#default)
 
-#### Defined in
-
-main.ts:163511
-
 ***
 
 ### version?
 
 > `optional` **version**: `string`
+
+Defined in: main.ts:175198
 
 lighthouse version
 
@@ -61,27 +63,23 @@ lighthouse version
 
 [`IAvailibleVersions`](../interfaces/IAvailibleVersions.md).[`version`](../interfaces/IAvailibleVersions.md#version)
 
-#### Defined in
-
-main.ts:163508
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:175214
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:163524
 
 ***
 
@@ -89,17 +87,17 @@ main.ts:163524
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:175232
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:163542
 
 ***
 
@@ -107,14 +105,14 @@ main.ts:163542
 
 > `static` **fromJS**(`data`): [`AvailibleVersions`](AvailibleVersions.md)
 
+Defined in: main.ts:175225
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AvailibleVersions`](AvailibleVersions.md)
-
-#### Defined in
-
-main.ts:163535

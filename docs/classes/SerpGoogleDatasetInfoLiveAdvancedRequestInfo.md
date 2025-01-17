@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
+[Documentation](../README.md) / SerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedRequestInfo
+
+Defined in: main.ts:59802
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleDatasetInfoLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:59839
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
+##### data?
+
+[`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:56329
 
 ## Properties
 
 ### dataset\_id?
 
 > `optional` **dataset\_id**: `string`
+
+Defined in: main.ts:59808
 
 ID of the dataset
 required field
@@ -48,15 +52,13 @@ L2cvMTFqbl85ZHN6MQ==
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`dataset_id`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#dataset_id)
 
-#### Defined in
-
-main.ts:56298
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:59824
 
 device type
 optional field
@@ -66,15 +68,13 @@ possible value: desktop
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:56314
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:59820
 
 search engine language code
 optional field
@@ -86,15 +86,13 @@ en
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:56310
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:59814
 
 full name of search engine language
 optional field
@@ -106,15 +104,13 @@ English
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:56304
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:59829
 
 device operating system
 optional field
@@ -125,15 +121,13 @@ default value: windows
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:56319
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:59835
 
 user-defined task identifier
 optional field
@@ -145,27 +139,23 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:56325
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:59848
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:56338
 
 ***
 
@@ -173,17 +163,17 @@ main.ts:56338
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:59870
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:56360
 
 ***
 
@@ -191,14 +181,14 @@ main.ts:56360
 
 > `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
+Defined in: main.ts:59863
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
-
-#### Defined in
-
-main.ts:56353

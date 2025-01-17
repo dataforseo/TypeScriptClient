@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageWaterfallRequestInfo
+[Documentation](../README.md) / OnPageWaterfallRequestInfo
 
 # Class: OnPageWaterfallRequestInfo
+
+Defined in: main.ts:170688
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageWaterfallRequestInfo**(`data`?): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
+Defined in: main.ts:170708
+
 #### Parameters
 
-• **data?**: [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md)
+##### data?
+
+[`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md)
 
 #### Returns
 
 [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
-
-#### Defined in
-
-main.ts:158972
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:170694
 
 ID of the task
 required field
@@ -48,15 +52,13 @@ example:
 
 [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`id`](../interfaces/IOnPageWaterfallRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:158958
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:170704
 
 user-defined task identifier
 optional field
@@ -68,15 +70,13 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`tag`](../interfaces/IOnPageWaterfallRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:158968
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:170698
 
 page URL
 required field
@@ -86,27 +86,23 @@ specify the pages you want to receive timing for
 
 [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`url`](../interfaces/IOnPageWaterfallRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:158962
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:170717
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:158981
 
 ***
 
@@ -114,17 +110,17 @@ main.ts:158981
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:170736
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:159000
 
 ***
 
@@ -132,14 +128,14 @@ main.ts:159000
 
 > `static` **fromJS**(`data`): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
+Defined in: main.ts:170729
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
-
-#### Defined in
-
-main.ts:158993

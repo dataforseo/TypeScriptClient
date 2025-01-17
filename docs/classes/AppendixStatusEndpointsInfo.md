@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixStatusEndpointsInfo
+[Documentation](../README.md) / AppendixStatusEndpointsInfo
 
 # Class: AppendixStatusEndpointsInfo
+
+Defined in: main.ts:239424
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppendixStatusEndpointsInfo**(`data`?): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
+Defined in: main.ts:239445
+
 #### Parameters
 
-• **data?**: [`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md)
+##### data?
+
+[`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md)
 
 #### Returns
 
 [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
-
-#### Defined in
-
-main.ts:224157
 
 ## Properties
 
 ### endpoint?
 
 > `optional` **endpoint**: `string`
+
+Defined in: main.ts:239431
 
 name of the endpoint
 the list of possible endpoints:
@@ -49,15 +53,13 @@ postback/pingback
 
 [`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md).[`endpoint`](../interfaces/IAppendixStatusEndpointsInfo.md#endpoint)
 
-#### Defined in
-
-main.ts:224143
-
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:239441
 
 current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -73,27 +75,23 @@ send_delay
 
 [`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md).[`status`](../interfaces/IAppendixStatusEndpointsInfo.md#status)
 
-#### Defined in
-
-main.ts:224153
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:239454
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:224166
 
 ***
 
@@ -101,17 +99,17 @@ main.ts:224166
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:239472
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:224184
 
 ***
 
@@ -119,14 +117,14 @@ main.ts:224184
 
 > `static` **fromJS**(`data`): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
+Defined in: main.ts:239465
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
-
-#### Defined in
-
-main.ts:224177

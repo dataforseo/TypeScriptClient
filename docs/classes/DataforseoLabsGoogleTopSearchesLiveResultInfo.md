@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleTopSearchesLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleTopSearchesLiveResultInfo
 
 # Class: DataforseoLabsGoogleTopSearchesLiveResultInfo
+
+Defined in: main.ts:99862
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleTopSearchesLiveResultInfo**(`data`?): [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
 
+Defined in: main.ts:99884
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:90065
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:90065
 
 > `optional` **items**: [`KeywordDataInfo`](KeywordDataInfo.md)[]
 
+Defined in: main.ts:99880
+
 contains keywords and related data
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:90061
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:90061
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:99872
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:90053
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:90053
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:99868
+
 language code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:90049
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:90049
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:99866
+
 location code in a POST array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:90047
 
 ***
 
@@ -102,21 +96,21 @@ main.ts:90047
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:99874
+
 current offset value
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#offset)
 
-#### Defined in
-
-main.ts:90055
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:99878
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
@@ -126,15 +120,13 @@ note: offset_token values are unique for each subsequent task
 
 [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md).[`offset_token`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:90059
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:99864
 
 search engine type
 
@@ -142,15 +134,13 @@ search engine type
 
 [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:90045
-
 ***
 
 ### total\_count?
 
 > `optional` **total\_count**: `number`
+
+Defined in: main.ts:99870
 
 total amount of results in our database relevant to your request
 
@@ -158,27 +148,23 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsGoogleTopSearchesLiveResultInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveResultInfo.md#total_count)
 
-#### Defined in
-
-main.ts:90051
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:99893
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:90074
 
 ***
 
@@ -186,17 +172,17 @@ main.ts:90074
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:99921
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:90102
 
 ***
 
@@ -204,14 +190,14 @@ main.ts:90102
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
 
+Defined in: main.ts:99914
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleTopSearchesLiveResultInfo`](DataforseoLabsGoogleTopSearchesLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:90095

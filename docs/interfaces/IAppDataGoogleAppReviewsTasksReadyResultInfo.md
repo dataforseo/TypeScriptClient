@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppReviewsTasksReadyResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppReviewsTasksReadyResultInfo
 
 # Interface: IAppDataGoogleAppReviewsTasksReadyResultInfo
 
+Defined in: main.ts:203235
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:203244
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:190807
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:190807
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:203248
+
 URL for collecting the results of the Google App Reviews task
-
-#### Defined in
-
-main.ts:190811
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:190811
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:203251
+
 URL for collecting the results of the Google App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:190814
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:190814
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:203238
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:190801
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:190801
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:203240
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:190803
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:190803
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:203242
+
 search engine type
-
-#### Defined in
-
-main.ts:190805
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:190805
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:203246
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:190809

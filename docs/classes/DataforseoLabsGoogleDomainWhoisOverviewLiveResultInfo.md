@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+
+Defined in: main.ts:100426
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo**(`data`?): [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
 
+Defined in: main.ts:100438
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:90619
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:90619
 
 > `optional` **items**: [`DataforseoLabsGoogleDomainWhoisOverviewLiveItem`](DataforseoLabsGoogleDomainWhoisOverviewLiveItem.md)[]
 
+Defined in: main.ts:100434
+
 contains ranking and traffic data
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:90615
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:90615
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:100432
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:90613
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:90613
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:100428
+
 search engine type
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md#se_type)
-
-#### Defined in
-
-main.ts:90609
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:90609
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:100430
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:90611
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:90611
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:100447
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:90628
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:90628
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:100471
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:90652
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:90652
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
 
+Defined in: main.ts:100464
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:90645

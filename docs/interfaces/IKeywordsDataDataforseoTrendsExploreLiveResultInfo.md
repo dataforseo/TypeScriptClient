@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsExploreLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataDataforseoTrendsExploreLiveResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsExploreLiveResultInfo
 
+Defined in: main.ts:136100
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:136115
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:125761
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:125761
 
 > `optional` **items**: [`BaseDataforseoTrendsItem`](../classes/BaseDataforseoTrendsItem.md)[]
 
+Defined in: main.ts:136119
+
 contains keyword popularity and related data
-
-#### Defined in
-
-main.ts:125765
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:125765
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:136117
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:125763
 
 ***
 
@@ -55,11 +51,9 @@ main.ts:125763
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:136102
+
 keywords in a POST array
-
-#### Defined in
-
-main.ts:125748
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:125748
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:136110
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:125756
 
 ***
 
@@ -80,12 +72,10 @@ main.ts:125756
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:136107
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:125753
 
 ***
 
@@ -93,8 +83,6 @@ main.ts:125753
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:136104
+
 type of element
-
-#### Defined in
-
-main.ts:125750

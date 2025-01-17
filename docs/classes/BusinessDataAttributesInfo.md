@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataAttributesInfo
+[Documentation](../README.md) / BusinessDataAttributesInfo
 
 # Class: BusinessDataAttributesInfo
+
+Defined in: main.ts:210832
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataAttributesInfo**(`data`?): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
+Defined in: main.ts:210842
+
 #### Parameters
 
-• **data?**: [`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md)
+##### data?
+
+[`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md)
 
 #### Returns
 
 [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
-
-#### Defined in
-
-main.ts:198391
 
 ## Properties
 
@@ -38,20 +40,18 @@ main.ts:198391
 
 > `optional` **available\_attributes**: `object`
 
+Defined in: main.ts:210835
+
 available attributes
 indicates attributes a business entity can offer
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md).[`available_attributes`](../interfaces/IBusinessDataAttributesInfo.md#available_attributes)
-
-#### Defined in
-
-main.ts:198384
 
 ***
 
@@ -59,20 +59,18 @@ main.ts:198384
 
 > `optional` **unavailable\_attributes**: `object`
 
+Defined in: main.ts:210838
+
 unavailable attributes
 indicates attributes a business entity cannot offer
 
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
+\[`key`: `string`\]: `string`[]
 
 #### Implementation of
 
 [`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md).[`unavailable_attributes`](../interfaces/IBusinessDataAttributesInfo.md#unavailable_attributes)
-
-#### Defined in
-
-main.ts:198387
 
 ## Methods
 
@@ -80,17 +78,17 @@ main.ts:198387
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:210851
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:198400
 
 ***
 
@@ -98,17 +96,17 @@ main.ts:198400
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:210881
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:198430
 
 ***
 
@@ -116,14 +114,14 @@ main.ts:198430
 
 > `static` **fromJS**(`data`): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
+Defined in: main.ts:210874
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
-
-#### Defined in
-
-main.ts:198423

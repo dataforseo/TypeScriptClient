@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52256
+=======
+main.ts:52289
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -51,7 +55,11 @@ gws-wiz-local
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52252
+=======
+main.ts:52285
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -68,7 +76,11 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52223
+=======
+main.ts:52256
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -86,7 +98,11 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52220
+=======
+main.ts:52253
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -107,7 +123,11 @@ chrome/chrome-omni
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52230
+=======
+main.ts:52263
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -124,7 +144,11 @@ url to search results relevant to the google autocomplete suggestion
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52239
+=======
+main.ts:52272
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -140,7 +164,11 @@ google autocomplete keyword suggestion
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52232
+=======
+main.ts:52265
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -158,7 +186,11 @@ chrome/chrome-omni
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52236
+=======
+main.ts:52269
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -178,7 +210,11 @@ gws-wiz-serp
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52245
+=======
+main.ts:52278
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -194,7 +230,11 @@ type of element
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52216
+=======
+main.ts:52249
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -212,7 +252,11 @@ main.ts:52216
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52265
+=======
+main.ts:52298
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -230,7 +274,11 @@ main.ts:52265
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52294
+=======
+main.ts:52327
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -248,4 +296,8 @@ main.ts:52294
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:52287
+=======
+main.ts:52320
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

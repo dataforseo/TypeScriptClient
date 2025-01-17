@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersLiveResultInfo
+[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersLiveResultInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersLiveResultInfo
+
+Defined in: main.ts:225202
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataGoogleQuestionsAndAnswersLiveResultInfo**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
 
+Defined in: main.ts:225245
+
 #### Parameters
 
-• **data?**: [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
+##### data?
+
+[`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
 
 #### Returns
 
 [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:210221
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:225218
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:210194
-
 ***
 
 ### cid?
 
 > `optional` **cid**: `string`
+
+Defined in: main.ts:225227
 
 google-defined client id
 unique id of a local establishment;
@@ -63,15 +65,13 @@ learn more about the identifier in this help center article
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`cid`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#cid)
 
-#### Defined in
-
-main.ts:210203
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:225223
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,13 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:210199
-
 ***
 
 ### feature\_id?
 
 > `optional` **feature\_id**: `string`
+
+Defined in: main.ts:225229
 
 unique identifier of the SERP feature
 
@@ -98,15 +96,13 @@ unique identifier of the SERP feature
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`feature_id`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#feature_id)
 
-#### Defined in
-
-main.ts:210205
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:225233
 
 item types
 types of search engine results encountered in the items array;
@@ -116,15 +112,13 @@ possible item types: google_business_question_item
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`item_types`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:210209
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)[]
+
+Defined in: main.ts:225241
 
 array of items within google_business_question_item
 contains answers to the google business questions;
@@ -134,15 +128,13 @@ possible item types google_business_answer_element
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#items)
 
-#### Defined in
-
-main.ts:210217
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:225237
 
 the number of items in the items array
 
@@ -150,15 +142,13 @@ the number of items in the items array
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:210213
-
 ***
 
 ### items\_without\_answers?
 
 > `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)[]
+
+Defined in: main.ts:225235
 
 array of google business question items without answers
 
@@ -166,18 +156,16 @@ array of google business question items without answers
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`items_without_answers`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#items_without_answers)
 
-#### Defined in
-
-main.ts:210211
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:225209
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 this field will contain the cid parameter if you specified it in the keyword field when setting a task;
 example:
 cid:2946633002421908862
@@ -187,15 +175,13 @@ learn more about the parameter in this help center article
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:210185
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:225215
 
 language code in a POST array
 
@@ -203,15 +189,13 @@ language code in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:210191
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:225213
 
 location code in a POST array
 
@@ -219,15 +203,13 @@ location code in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:210189
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:225211
 
 search engine domain as specified in a POST array
 
@@ -235,27 +217,23 @@ search engine domain as specified in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`se_domain`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:210187
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:225254
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:210230
 
 ***
 
@@ -263,17 +241,17 @@ main.ts:210230
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:225294
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:210270
 
 ***
 
@@ -281,14 +259,14 @@ main.ts:210270
 
 > `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
 
+Defined in: main.ts:225287
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:210263

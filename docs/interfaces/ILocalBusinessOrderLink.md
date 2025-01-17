@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILocalBusinessOrderLink
+[Documentation](../README.md) / ILocalBusinessOrderLink
 
 # Interface: ILocalBusinessOrderLink
+
+Defined in: main.ts:25078
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](../classes/LocalBusinessDeliveryServiceInfo.md)[]
 
+Defined in: main.ts:25080
+
 lists available delivery services
-
-#### Defined in
-
-main.ts:24010
 
 ***
 
@@ -32,12 +32,10 @@ main.ts:24010
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24970
+
 type of element
 
 #### Inherited from
 
 [`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md).[`type`](IBaseLocalBusinessLink.md#type)
-
-#### Defined in
-
-main.ts:23900

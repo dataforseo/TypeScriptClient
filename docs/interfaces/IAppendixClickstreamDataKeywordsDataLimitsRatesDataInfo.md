@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
+Defined in: main.ts:230983
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **bulk\_search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215934
+Defined in: main.ts:230986
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:215934
 
 > `optional` **dataforseo\_search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215932
+Defined in: main.ts:230984
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:215932
 
 > `optional` **global\_search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Defined in
-
-main.ts:215935
+Defined in: main.ts:230987
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:215935
 
 > `optional` **locations\_and\_languages**: `number`
 
-#### Defined in
-
-main.ts:215933
+Defined in: main.ts:230985

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / TopSightsElement
+[Documentation](../README.md) / TopSightsElement
 
 # Class: TopSightsElement
+
+Defined in: main.ts:34343
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new TopSightsElement**(`data`?): [`TopSightsElement`](TopSightsElement.md)
 
+Defined in: main.ts:34358
+
 #### Parameters
 
-• **data?**: [`ITopSightsElement`](../interfaces/ITopSightsElement.md)
+##### data?
+
+[`ITopSightsElement`](../interfaces/ITopSightsElement.md)
 
 #### Returns
 
 [`TopSightsElement`](TopSightsElement.md)
-
-#### Defined in
-
-main.ts:32560
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:32560
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:34351
+
 description
 
 #### Implementation of
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`description`](../interfaces/ITopSightsElement.md#description)
 
-#### Defined in
-
-main.ts:32553
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:34354
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -61,15 +63,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`rating`](../interfaces/ITopSightsElement.md#rating)
 
-#### Defined in
-
-main.ts:32556
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:34347
 
 title of a given link element
 
@@ -77,15 +77,13 @@ title of a given link element
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`title`](../interfaces/ITopSightsElement.md#title)
 
-#### Defined in
-
-main.ts:32549
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:34345
 
 type of element
 
@@ -93,15 +91,13 @@ type of element
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`type`](../interfaces/ITopSightsElement.md#type)
 
-#### Defined in
-
-main.ts:32547
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:34349
 
 URL
 
@@ -109,27 +105,23 @@ URL
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`url`](../interfaces/ITopSightsElement.md#url)
 
-#### Defined in
-
-main.ts:32551
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:34367
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:32569
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:32569
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:34388
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:32590
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:32590
 
 > `static` **fromJS**(`data`): [`TopSightsElement`](TopSightsElement.md)
 
+Defined in: main.ts:34381
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`TopSightsElement`](TopSightsElement.md)
-
-#### Defined in
-
-main.ts:32583

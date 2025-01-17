@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo
 
+Defined in: main.ts:220839
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **about**: [`HotelAboutInfo`](../classes/HotelAboutInfo.md)
 
+Defined in: main.ts:220873
+
 information about the hotel
-
-#### Defined in
-
-main.ts:207417
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:207417
 
 > `optional` **address**: `string`
 
+Defined in: main.ts:220868
+
 hotel address
 physical address of the hotel
-
-#### Defined in
-
-main.ts:207412
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:207412
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:220851
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:207395
 
 ***
 
@@ -54,14 +50,12 @@ main.ts:207395
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:220856
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:207400
 
 ***
 
@@ -69,14 +63,12 @@ main.ts:207400
 
 > `optional` **hotel\_identifier**: `string`
 
+Defined in: main.ts:220844
+
 identifier received in a POST array
 this field will contain the hotel_identifier parameter specified when setting a task;
 example:
 CgoI-KWyzenM_MV3EAE
-
-#### Defined in
-
-main.ts:207388
 
 ***
 
@@ -84,11 +76,9 @@ main.ts:207388
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:220848
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:207392
 
 ***
 
@@ -96,12 +86,10 @@ main.ts:207392
 
 > `optional` **location**: [`Location`](../classes/Location.md)
 
+Defined in: main.ts:220876
+
 information about the hotel location
 information about the location where the hotel is located
-
-#### Defined in
-
-main.ts:207420
 
 ***
 
@@ -109,11 +97,9 @@ main.ts:207420
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:220846
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:207390
 
 ***
 
@@ -121,12 +107,10 @@ main.ts:207390
 
 > `optional` **overview\_images**: `string`[]
 
+Defined in: main.ts:220882
+
 images displayed in the hotel overview
 array containing URLs to images displayed in the hotel overview
-
-#### Defined in
-
-main.ts:207426
 
 ***
 
@@ -134,12 +118,10 @@ main.ts:207426
 
 > `optional` **phone**: `string`
 
+Defined in: main.ts:220871
+
 hotel phone number
 contact phone number of the hotel
-
-#### Defined in
-
-main.ts:207415
 
 ***
 
@@ -147,12 +129,10 @@ main.ts:207415
 
 > `optional` **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
 
+Defined in: main.ts:220885
+
 pricing details of the hotel entity
 contains information about the hotel’s prices
-
-#### Defined in
-
-main.ts:207429
 
 ***
 
@@ -160,12 +140,10 @@ main.ts:207429
 
 > `optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
 
+Defined in: main.ts:220879
+
 hotel reviews by criteria
 information about reviews of the hotel entity
-
-#### Defined in
-
-main.ts:207423
 
 ***
 
@@ -173,12 +151,10 @@ main.ts:207423
 
 > `optional` **stars**: `number`
 
+Defined in: main.ts:220862
+
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary
-
-#### Defined in
-
-main.ts:207406
 
 ***
 
@@ -186,12 +162,10 @@ main.ts:207406
 
 > `optional` **stars\_description**: `string`
 
+Defined in: main.ts:220865
+
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary
-
-#### Defined in
-
-main.ts:207409
 
 ***
 
@@ -199,9 +173,7 @@ main.ts:207409
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:220859
+
 hotel title
 the title of the hotel entity for which the results are collected
-
-#### Defined in
-
-main.ts:207403

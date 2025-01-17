@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorSearchTasksReadyResultInfo
+[Documentation](../README.md) / BusinessDataTripadvisorSearchTasksReadyResultInfo
 
 # Class: BusinessDataTripadvisorSearchTasksReadyResultInfo
+
+Defined in: main.ts:227992
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataTripadvisorSearchTasksReadyResultInfo**(`data`?): [`BusinessDataTripadvisorSearchTasksReadyResultInfo`](BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
 
+Defined in: main.ts:228010
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorSearchTasksReadyResultInfo`](BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:212970
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:212970
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:228002
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md).[`date_posted`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:212962
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:212962
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:228006
+
 URL for collecting the results of the task
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md).[`endpoint`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#endpoint)
 
-#### Defined in
-
-main.ts:212966
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:227995
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -77,15 +77,13 @@ unique task identifier in our system in the UUID format
 
 [`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md).[`id`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:212955
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:227998
 
 search engine specified when setting the task
 can take the following values: tripadvisor
@@ -94,15 +92,13 @@ can take the following values: tripadvisor
 
 [`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md).[`se`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:212958
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:228000
 
 search engine type
 
@@ -110,15 +106,13 @@ search engine type
 
 [`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md).[`se_type`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:212960
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:228004
 
 user-defined task identifier
 
@@ -126,27 +120,23 @@ user-defined task identifier
 
 [`IBusinessDataTripadvisorSearchTasksReadyResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md).[`tag`](../interfaces/IBusinessDataTripadvisorSearchTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:212964
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:228019
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:212979
 
 ***
 
@@ -154,17 +144,17 @@ main.ts:212979
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:228041
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:213001
 
 ***
 
@@ -172,14 +162,14 @@ main.ts:213001
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorSearchTasksReadyResultInfo`](BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
 
+Defined in: main.ts:228034
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTripadvisorSearchTasksReadyResultInfo`](BusinessDataTripadvisorSearchTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:212994

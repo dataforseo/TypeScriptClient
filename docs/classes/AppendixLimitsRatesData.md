@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixLimitsRatesData
+[Documentation](../README.md) / AppendixLimitsRatesData
 
 # Class: AppendixLimitsRatesData
+
+Defined in: main.ts:233212
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixLimitsRatesData**(`data`?): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
+Defined in: main.ts:233218
+
 #### Parameters
 
-• **data?**: [`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md)
+##### data?
+
+[`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md)
 
 #### Returns
 
 [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
-
-#### Defined in
-
-main.ts:218142
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:218142
 
 > `optional` **day**: [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
 
+Defined in: main.ts:233213
+
 #### Implementation of
 
 [`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md).[`day`](../interfaces/IAppendixLimitsRatesData.md#day)
-
-#### Defined in
-
-main.ts:218137
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:218137
 
 > `optional` **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
 
+Defined in: main.ts:233214
+
 #### Implementation of
 
 [`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md).[`minute`](../interfaces/IAppendixLimitsRatesData.md#minute)
-
-#### Defined in
-
-main.ts:218138
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:218138
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:233227
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218151
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:218151
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:233245
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218169
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:218169
 
 > `static` **fromJS**(`data`): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
+Defined in: main.ts:233238
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
-
-#### Defined in
-
-main.ts:218162

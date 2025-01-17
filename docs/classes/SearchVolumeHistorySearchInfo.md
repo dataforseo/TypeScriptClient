@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SearchVolumeHistorySearchInfo
+[Documentation](../README.md) / SearchVolumeHistorySearchInfo
 
 # Class: SearchVolumeHistorySearchInfo
+
+Defined in: main.ts:146644
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SearchVolumeHistorySearchInfo**(`data`?): [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
 
+Defined in: main.ts:146660
+
 #### Parameters
 
-• **data?**: [`ISearchVolumeHistorySearchInfo`](../interfaces/ISearchVolumeHistorySearchInfo.md)
+##### data?
+
+[`ISearchVolumeHistorySearchInfo`](../interfaces/ISearchVolumeHistorySearchInfo.md)
 
 #### Returns
 
 [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
-
-#### Defined in
-
-main.ts:134702
 
 ## Properties
 
 ### desktop?
 
 > `optional` **desktop**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
+
+Defined in: main.ts:146647
 
 device type = desktop
 contains historical search volume data for searches made from desktop devices
@@ -45,15 +49,13 @@ contains historical search volume data for searches made from desktop devices
 
 [`ISearchVolumeHistorySearchInfo`](../interfaces/ISearchVolumeHistorySearchInfo.md).[`desktop`](../interfaces/ISearchVolumeHistorySearchInfo.md#desktop)
 
-#### Defined in
-
-main.ts:134689
-
 ***
 
 ### mobile?
 
 > `optional` **mobile**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
+
+Defined in: main.ts:146653
 
 device type = mobile
 contains historical search volume data for searches made from mobile devices
@@ -62,15 +64,13 @@ contains historical search volume data for searches made from mobile devices
 
 [`ISearchVolumeHistorySearchInfo`](../interfaces/ISearchVolumeHistorySearchInfo.md).[`mobile`](../interfaces/ISearchVolumeHistorySearchInfo.md#mobile)
 
-#### Defined in
-
-main.ts:134695
-
 ***
 
 ### non\_smartphones?
 
 > `optional` **non\_smartphones**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
+
+Defined in: main.ts:146650
 
 device type = non-smartphones
 contains historical search volume data for searches made from feature phones (non-smartphone mobile devices)
@@ -79,15 +79,13 @@ contains historical search volume data for searches made from feature phones (no
 
 [`ISearchVolumeHistorySearchInfo`](../interfaces/ISearchVolumeHistorySearchInfo.md).[`non_smartphones`](../interfaces/ISearchVolumeHistorySearchInfo.md#non_smartphones)
 
-#### Defined in
-
-main.ts:134692
-
 ***
 
 ### tablet?
 
 > `optional` **tablet**: [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)[]
+
+Defined in: main.ts:146656
 
 device type = tablet
 contains historical search volume data for searches made from tablets
@@ -96,27 +94,23 @@ contains historical search volume data for searches made from tablets
 
 [`ISearchVolumeHistorySearchInfo`](../interfaces/ISearchVolumeHistorySearchInfo.md).[`tablet`](../interfaces/ISearchVolumeHistorySearchInfo.md#tablet)
 
-#### Defined in
-
-main.ts:134698
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:146669
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:134711
 
 ***
 
@@ -124,17 +118,17 @@ main.ts:134711
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:146705
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:134747
 
 ***
 
@@ -142,14 +136,14 @@ main.ts:134747
 
 > `static` **fromJS**(`data`): [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
 
+Defined in: main.ts:146698
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SearchVolumeHistorySearchInfo`](SearchVolumeHistorySearchInfo.md)
-
-#### Defined in
-
-main.ts:134740

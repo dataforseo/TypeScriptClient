@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantAmazonAsinTaskPostRequestInfo
+[Documentation](../README.md) / MerchantAmazonAsinTaskPostRequestInfo
 
 # Class: MerchantAmazonAsinTaskPostRequestInfo
+
+Defined in: main.ts:193456
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new MerchantAmazonAsinTaskPostRequestInfo**(`data`?): [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
 
+Defined in: main.ts:193564
+
 #### Parameters
 
-• **data?**: [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md)
+##### data?
+
+[`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md)
 
 #### Returns
 
 [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:181362
 
 ## Properties
 
 ### asin?
 
 > `optional` **asin**: `string`
+
+Defined in: main.ts:193461
 
 product ID
 required field
@@ -47,15 +51,13 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`asin`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#asin)
 
-#### Defined in
-
-main.ts:181272
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:193508
 
 search engine language code
 required field if you don’t specify language_name
@@ -68,15 +70,13 @@ en_GB
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`language_code`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:181319
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:193501
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -90,15 +90,48 @@ English (United Kingdom)
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`language_name`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#language_name)
 
-#### Defined in
+***
 
-main.ts:181312
+### load\_more\_local\_reviews?
+
+> `optional` **load\_more\_local\_reviews**: `boolean`
+
+Defined in: main.ts:193520
+
+load more local reviews
+optional field
+if set to true, additional local reviews will be loaded in the top_local_reviews array of the Task GET response;
+Note: you will be charged double the price for using this parameter
+
+#### Implementation of
+
+[`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`load_more_local_reviews`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#load_more_local_reviews)
+
+***
+
+### local\_reviews\_sort?
+
+> `optional` **local\_reviews\_sort**: `string`
+
+Defined in: main.ts:193526
+
+sort local reviews
+optional field
+reviews in the top_local_reviews array of the Task GET response can be sorted by most helpful or most recent first;
+possible values: helpful, recent
+default value: helpful
+
+#### Implementation of
+
+[`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`local_reviews_sort`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#local_reviews_sort)
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:193484
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -112,15 +145,13 @@ example:
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`location_code`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:181295
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:193493
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -135,15 +166,13 @@ example:
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:181304
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:193476
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -156,15 +185,13 @@ HA1,England,United Kingdom
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`location_name`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:181287
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:193560
 
 notification URL of a completed task
 optional field
@@ -173,22 +200,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:181358
 
 ***
 
 ### postback\_data?
 
 > `optional` **postback\_data**: `string`
+
+Defined in: main.ts:193549
 
 postback_url datatype
 required field if you specify postback_url
@@ -200,15 +226,13 @@ advanced, html
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`postback_data`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
-
-main.ts:181348
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:193543
 
 return URL for sending task results
 optional field
@@ -217,22 +241,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`postback_url`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:181342
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:193469
 
 task priority
 optional field
@@ -246,15 +269,13 @@ The cost can be calculated on the Pricing page.
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`priority`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:181280
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:193515
 
 search engine domain
 optional field
@@ -267,15 +288,13 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`se_domain`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:181326
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:193532
 
 user-defined task identifier
 optional field
@@ -287,27 +306,23 @@ you will find the specified tag value in the data object of the response
 
 [`IMerchantAmazonAsinTaskPostRequestInfo`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md).[`tag`](../interfaces/IMerchantAmazonAsinTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:181332
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:193573
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:181371
 
 ***
 
@@ -315,17 +330,17 @@ main.ts:181371
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:193603
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:181399
 
 ***
 
@@ -333,14 +348,14 @@ main.ts:181399
 
 > `static` **fromJS**(`data`): [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
 
+Defined in: main.ts:193596
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantAmazonAsinTaskPostRequestInfo`](MerchantAmazonAsinTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:181392

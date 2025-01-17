@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsErrorsResultInfo
+[Documentation](../README.md) / IDataforseoLabsErrorsResultInfo
 
 # Interface: IDataforseoLabsErrorsResultInfo
 
+Defined in: main.ts:90697
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:90704
+
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:80959
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:80959
 
 > `optional` **error\_code**: `number`
 
+Defined in: main.ts:90708
+
 error code
-
-#### Defined in
-
-main.ts:80963
 
 ***
 
@@ -43,12 +41,10 @@ main.ts:80963
 
 > `optional` **error\_message**: `string`
 
+Defined in: main.ts:90711
+
 error message or error URL
 error message (see full list) or URL that caused an error
-
-#### Defined in
-
-main.ts:80966
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:80966
 
 > `optional` **function**: `string`
 
+Defined in: main.ts:90706
+
 corresponding API function
-
-#### Defined in
-
-main.ts:80961
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:80961
 
 > `optional` **http\_code**: `number`
 
+Defined in: main.ts:90718
+
 HTTP status code
-
-#### Defined in
-
-main.ts:80973
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:80973
 
 > `optional` **http\_method**: `string`
 
+Defined in: main.ts:90716
+
 HTTP method
-
-#### Defined in
-
-main.ts:80971
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:80971
 
 > `optional` **http\_response**: `string`
 
+Defined in: main.ts:90723
+
 HTTP response
 server response
-
-#### Defined in
-
-main.ts:80978
 
 ***
 
@@ -105,11 +93,9 @@ main.ts:80978
 
 > `optional` **http\_time**: `number`
 
+Defined in: main.ts:90720
+
 time taken by HTTP request
-
-#### Defined in
-
-main.ts:80975
 
 ***
 
@@ -117,12 +103,10 @@ main.ts:80975
 
 > `optional` **http\_url**: `string`
 
+Defined in: main.ts:90714
+
 URL that caused an error
 URL you used for making an API call
-
-#### Defined in
-
-main.ts:80969
 
 ***
 
@@ -130,8 +114,6 @@ main.ts:80969
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:90699
+
 id of the task
-
-#### Defined in
-
-main.ts:80954

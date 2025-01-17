@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
+[Documentation](../README.md) / IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo
 
+Defined in: main.ts:225127
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:225191
 
 parsing depth
 optional field
@@ -25,22 +29,20 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
-
-main.ts:210167
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:225144
+
 keyword
 required field
 the keyword you specify should indicate the name of the local establishment
-you can specify up to 700 symbols in the keyword filed
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”; 
+you can specify up to 700 characters in the keyword filed
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”; 
 this field can also be used to pass the following parameters:
 cid – a unique, google-defined id of the business entity;
 place_id – an identifier of the business entity in Google Maps;
@@ -50,16 +52,15 @@ cid:194604053573767737
 place_id:GhIJQWDl0CIeQUARxks3icF8U8A
 spp:CgsvZy8xdGN4cWRraBoUChIJPZDrEzLsZIgRoNrpodC5P30
 learn more about the cid and place_id identifiers in this help center article
-
-#### Defined in
-
-main.ts:210120
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:225182
 
 search engine language code
 required field if you don’t specify language_name
@@ -68,15 +69,13 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Defined in
-
-main.ts:210158
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:225175
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -85,15 +84,13 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Defined in
-
-main.ts:210151
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:225158
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -102,15 +99,13 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840
 
-#### Defined in
-
-main.ts:210134
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:225168
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -122,15 +117,13 @@ the maximum value for “radius”: 199999 (mm)
 example:
 53.476225,-2.243572,200
 
-#### Defined in
-
-main.ts:210144
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:225151
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -139,22 +132,16 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:210127
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:225197
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:210173

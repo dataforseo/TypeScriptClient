@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleRelevantPagesLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleRelevantPagesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveRequestInfo
+
+Defined in: main.ts:104424
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleRelevantPagesLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleRelevantPagesLiveRequestInfo`](DataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)
 
+Defined in: main.ts:104541
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleRelevantPagesLiveRequestInfo`](DataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:94722
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:104514
 
 array of results filtering parameters
 optional field
@@ -56,15 +60,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:94695
-
 ***
 
 ### historical\_serp\_mode?
 
 > `optional` **historical\_serp\_mode**: `string`
+
+Defined in: main.ts:104500
 
 data collection mode
 optional field
@@ -79,15 +81,13 @@ default value: live
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`historical_serp_mode`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#historical_serp_mode)
 
-#### Defined in
-
-main.ts:94681
-
 ***
 
 ### include\_clickstream\_data?
 
 > `optional` **include\_clickstream\_data**: `boolean`
+
+Defined in: main.ts:104481
 
 include or exclude data from clickstream-based metrics in the result
 optional field
@@ -100,15 +100,13 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#include_clickstream_data)
 
-#### Defined in
-
-main.ts:94667
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:104474
 
 display results by item type
 optional field
@@ -123,15 +121,13 @@ default value:
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:94655
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:104465
 
 language code
 optional field
@@ -146,15 +142,13 @@ en
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:94646
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:104456
 
 full name of the language
 optional field
@@ -169,15 +163,13 @@ English
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:94637
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:104486
 
 the maximum number of returned pages
 optional field
@@ -188,15 +180,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:94660
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:104447
 
 location code
 optional field
@@ -211,15 +201,13 @@ example:
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:94628
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:104438
 
 full name of the location
 optional field
@@ -234,15 +222,13 @@ United Kingdom
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:94619
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:104491
 
 offset in the results array of returned pages
 optional field
@@ -253,15 +239,13 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:94672
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:104531
 
 results sorting rules
 optional field
@@ -284,15 +268,13 @@ Note: if the item_types array contains item types that are different from organi
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:94712
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:104537
 
 user-defined task identifier
 optional field
@@ -304,15 +286,13 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:94718
-
 ***
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:104429
 
 domain
 required field
@@ -323,27 +303,23 @@ the domain should be specified without https:// and www.
 
 [`IDataforseoLabsGoogleRelevantPagesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleRelevantPagesLiveRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:94610
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:104550
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:94731
 
 ***
 
@@ -351,17 +327,17 @@ main.ts:94731
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:104591
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:94772
 
 ***
 
@@ -369,14 +345,14 @@ main.ts:94772
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelevantPagesLiveRequestInfo`](DataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)
 
+Defined in: main.ts:104584
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleRelevantPagesLiveRequestInfo`](DataforseoLabsGoogleRelevantPagesLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:94765

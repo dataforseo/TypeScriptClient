@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopicListDataItemInfo
+[Documentation](../README.md) / ITopicListDataItemInfo
 
 # Interface: ITopicListDataItemInfo
 
+Defined in: main.ts:135142
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **topic\_id**: `string`
 
+Defined in: main.ts:135144
+
 unique topic identifier in Google Trends
-
-#### Defined in
-
-main.ts:124792
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:124792
 
 > `optional` **topic\_title**: `string`
 
+Defined in: main.ts:135146
+
 title of the topic
-
-#### Defined in
-
-main.ts:124794
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:124794
 
 > `optional` **topic\_type**: `string`
 
+Defined in: main.ts:135149
+
 type of the topic
 represents the general type of the topic
-
-#### Defined in
-
-main.ts:124797
 
 ***
 
@@ -53,9 +49,7 @@ main.ts:124797
 
 > `optional` **value**: `string`
 
+Defined in: main.ts:135152
+
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
-
-#### Defined in
-
-main.ts:124800

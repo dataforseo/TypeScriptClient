@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseLocalBusinessLink
+[Documentation](../README.md) / IBaseLocalBusinessLink
 
 # Interface: IBaseLocalBusinessLink
+
+Defined in: main.ts:24968
 
 ## Extended by
 
@@ -18,8 +20,6 @@
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:24970
+
 type of element
-
-#### Defined in
-
-main.ts:23900

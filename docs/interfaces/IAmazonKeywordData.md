@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonKeywordData
+[Documentation](../README.md) / IAmazonKeywordData
 
 # Interface: IAmazonKeywordData
 
+Defined in: main.ts:23838
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:23842
+
 related keyword
-
-#### Defined in
-
-main.ts:22939
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:22939
 
 > `optional` **keyword\_info**: [`AmazonKeywordInfo`](../classes/AmazonKeywordInfo.md)
 
+Defined in: main.ts:23848
+
 keyword info for the returned keyword
-
-#### Defined in
-
-main.ts:22945
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:22945
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:23846
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:22943
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:22943
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:23844
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:22941
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:22941
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:23840
+
 search engine type
-
-#### Defined in
-
-main.ts:22937

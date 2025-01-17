@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpYahooOrganicLiveRegularResultInfo
+[Documentation](../README.md) / SerpYahooOrganicLiveRegularResultInfo
 
 # Class: SerpYahooOrganicLiveRegularResultInfo
+
+Defined in: main.ts:77072
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpYahooOrganicLiveRegularResultInfo**(`data`?): [`SerpYahooOrganicLiveRegularResultInfo`](SerpYahooOrganicLiveRegularResultInfo.md)
 
+Defined in: main.ts:77115
+
 #### Parameters
 
-• **data?**: [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md)
+##### data?
+
+[`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md)
 
 #### Returns
 
 [`SerpYahooOrganicLiveRegularResultInfo`](SerpYahooOrganicLiveRegularResultInfo.md)
-
-#### Defined in
-
-main.ts:68205
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:77086
 
 direct URL to search engine results
 You can use it to make sure that we provided exact results
@@ -45,15 +49,13 @@ You can use it to make sure that we provided exact results
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`check_url`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:68183
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:77091
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,27 +66,25 @@ example:
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`datetime`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:68188
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
 
-types of search results in SERP
-contains types of search results (items) found in SERP
-Possible item types: organic
+Defined in: main.ts:77105
+
+types of search results found in SERP
+contains types of all search results (items) found in the returned SERP
+possible item types:
+featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_ask, related_searches, shopping, recipes, top_stories, video;
+note that this array contains all types of search results found in the returned SERP;
+however, this endpoint provides data for organic, paid, and featured_snippet types only;
+to get all items (including SERP features and rich snippets) found in the returned SERP, please refer to the Yahoo Organiс Advanced SERP endpoint
 
 #### Implementation of
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`item_types`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#item_types)
-
-#### Defined in
-
-main.ts:68195
 
 ***
 
@@ -92,15 +92,13 @@ main.ts:68195
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
+Defined in: main.ts:77111
+
 items in SERP
 
 #### Implementation of
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`items`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#items)
-
-#### Defined in
-
-main.ts:68201
 
 ***
 
@@ -108,15 +106,13 @@ main.ts:68201
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:77109
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`items_count`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:68199
 
 ***
 
@@ -124,16 +120,14 @@ main.ts:68199
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:77075
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`keyword`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:68172
 
 ***
 
@@ -141,15 +135,13 @@ main.ts:68172
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:77083
+
 language code in a POST array
 
 #### Implementation of
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`language_code`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:68180
 
 ***
 
@@ -157,15 +149,28 @@ main.ts:68180
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:77081
+
 location code in a POST array
 
 #### Implementation of
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`location_code`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#location_code)
 
-#### Defined in
+***
 
-main.ts:68178
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:77097
+
+search refinement chips
+equals null
+
+#### Implementation of
+
+[`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`refinement_chips`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#refinement_chips)
 
 ***
 
@@ -173,15 +178,13 @@ main.ts:68178
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:77079
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`se_domain`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:68176
 
 ***
 
@@ -189,21 +192,21 @@ main.ts:68176
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:77107
+
 total number of results in SERP
 
 #### Implementation of
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`se_results_count`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:68197
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:77094
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -212,15 +215,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`spell`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:68191
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:77077
 
 type of element
 
@@ -228,27 +229,23 @@ type of element
 
 [`ISerpYahooOrganicLiveRegularResultInfo`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md).[`type`](../interfaces/ISerpYahooOrganicLiveRegularResultInfo.md#type)
 
-#### Defined in
-
-main.ts:68174
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:77124
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:68214
 
 ***
 
@@ -256,17 +253,17 @@ main.ts:68214
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:77161
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:68250
 
 ***
 
@@ -274,14 +271,14 @@ main.ts:68250
 
 > `static` **fromJS**(`data`): [`SerpYahooOrganicLiveRegularResultInfo`](SerpYahooOrganicLiveRegularResultInfo.md)
 
+Defined in: main.ts:77154
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpYahooOrganicLiveRegularResultInfo`](SerpYahooOrganicLiveRegularResultInfo.md)
-
-#### Defined in
-
-main.ts:68243

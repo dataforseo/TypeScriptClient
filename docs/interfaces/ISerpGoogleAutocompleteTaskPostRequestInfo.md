@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleAutocompleteTaskPostRequestInfo
+[Documentation](../README.md) / ISerpGoogleAutocompleteTaskPostRequestInfo
 
 # Interface: ISerpGoogleAutocompleteTaskPostRequestInfo
 
+Defined in: main.ts:55318
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### client?
 
 > `optional` **client**: `string`
+
+Defined in: main.ts:55389
 
 search client for autocomplete
 optional field
@@ -33,30 +37,24 @@ gws-wiz-local — used in google local;
 img — used in google’s image search;
 products-cc — used in google shopping search
 
-#### Defined in
-
-main.ts:51649
-
 ***
 
 ### cursor\_pointer?
 
 > `optional` **cursor\_pointer**: `number`
 
+Defined in: main.ts:55372
+
 search bar cursor pointer
 optional field
 the horizontal numerical position of the cursor pointer within the keyword in the search bar;
 by modifying the position of the cursor pointer, you will obtain different autocomplete suggestions for the same seed keyword;
 minimal value: 0
-default value: the number of the last symbol of the specified keyword
+default value: the number of the last character of the specified keyword
 example:
 |which query are s – "cursor_pointer": 0
 which query is s| – "cursor_pointer": 16
 which que|ry is s – "cursor_pointer": 9
-
-#### Defined in
-
-main.ts:51632
 
 ***
 
@@ -64,22 +62,23 @@ main.ts:51632
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:55326
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
-
-#### Defined in
-
-main.ts:51586
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”;
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:55361
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,15 +87,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:51621
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:55354
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -105,15 +102,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:51614
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:55347
 
 search engine location code
 required field if you don’t specify location_name;
@@ -121,15 +116,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:51607
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:55341
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -138,15 +131,13 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Defined in
-
-main.ts:51601
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:55423
 
 notification URL of a completed task
 optional field
@@ -155,12 +146,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:51681
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -168,21 +156,21 @@ main.ts:51681
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:55412
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 advanced
 
-#### Defined in
-
-main.ts:51671
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:55406
 
 return URL for sending task results
 optional field
@@ -191,18 +179,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be url-encoded;
-i.e., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:51665
+Note: special characters in postback_url will be url-encoded;
+i.e., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:55334
 
 task priority
 optional field
@@ -212,22 +199,16 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority;
 The cost can be calculated on the Pricing page
 
-#### Defined in
-
-main.ts:51594
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:55395
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:51655

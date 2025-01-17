@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageMicrodataResultInfo
+[Documentation](../README.md) / IOnPageMicrodataResultInfo
 
 # Interface: IOnPageMicrodataResultInfo
 
+Defined in: main.ts:172006
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:172009
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:160265
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:160265
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:172011
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:160267
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:160267
 
 > `optional` **items**: [`OnPageMicrodataItem`](../classes/OnPageMicrodataItem.md)[]
 
+Defined in: main.ts:172017
+
 items array
-
-#### Defined in
-
-main.ts:160273
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:160273
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:172015
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:160271
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:160271
 
 > `optional` **test\_summary**: [`TestSummary`](../classes/TestSummary.md)
 
+Defined in: main.ts:172013
+
 microdata validation test results
-
-#### Defined in
-
-main.ts:160269

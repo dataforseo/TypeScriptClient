@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageNonIndexableRequestInfo
+[Documentation](../README.md) / IOnPageNonIndexableRequestInfo
 
 # Interface: IOnPageNonIndexableRequestInfo
 
+Defined in: main.ts:170399
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:170431
 
 array of results filtering parameters
 optional field
@@ -32,15 +36,13 @@ example:
 [["reason","<>","meta_tag"],"or",["reason","<>","http_header"]]]
 The full list of possible filters is available by this link.
 
-#### Defined in
-
-main.ts:158695
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:170405
 
 ID of the task
 required field
@@ -48,24 +50,18 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
-
-main.ts:158669
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:170410
+
 the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:158674
 
 ***
 
@@ -73,11 +69,9 @@ main.ts:158674
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:170415
+
 offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages
-
-#### Defined in
-
-main.ts:158679

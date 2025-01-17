@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksReferringNetworksLiveResultInfo
+[Documentation](../README.md) / IBacklinksReferringNetworksLiveResultInfo
 
 # Interface: IBacklinksReferringNetworksLiveResultInfo
 
+Defined in: main.ts:156703
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`BacklinksReferringNetworksLiveItem`](../classes/BacklinksReferringNetworksLiveItem.md)[]
 
+Defined in: main.ts:156711
+
 items array
-
-#### Defined in
-
-main.ts:145405
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:145405
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:156709
+
 number of items in the items array
-
-#### Defined in
-
-main.ts:145403
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:145403
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:156705
+
 target in a POST array
-
-#### Defined in
-
-main.ts:145399
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:145399
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:156707
+
 total number of relevant items in the database
-
-#### Defined in
-
-main.ts:145401

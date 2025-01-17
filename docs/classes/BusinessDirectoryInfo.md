@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDirectoryInfo
+[Documentation](../README.md) / BusinessDirectoryInfo
 
 # Class: BusinessDirectoryInfo
+
+Defined in: main.ts:214004
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDirectoryInfo**(`data`?): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
+Defined in: main.ts:214015
+
 #### Parameters
 
-• **data?**: [`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md)
+##### data?
+
+[`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md)
 
 #### Returns
 
 [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
-
-#### Defined in
-
-main.ts:201318
 
 ## Properties
 
 ### items?
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+
+Defined in: main.ts:214011
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -46,15 +50,13 @@ possible item types: google_business_info
 
 [`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md).[`items`](../interfaces/IBusinessDirectoryInfo.md#items)
 
-#### Defined in
-
-main.ts:201314
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:214007
 
 title of the element
 domain of the online menu system
@@ -63,27 +65,23 @@ domain of the online menu system
 
 [`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md).[`title`](../interfaces/IBusinessDirectoryInfo.md#title)
 
-#### Defined in
-
-main.ts:201310
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:214024
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:201327
 
 ***
 
@@ -91,17 +89,17 @@ main.ts:201327
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:214046
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:201349
 
 ***
 
@@ -109,14 +107,14 @@ main.ts:201349
 
 > `static` **fromJS**(`data`): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
+Defined in: main.ts:214039
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
-
-#### Defined in
-
-main.ts:201342

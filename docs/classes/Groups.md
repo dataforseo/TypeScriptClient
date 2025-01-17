@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / Groups
+[Documentation](../README.md) / Groups
 
 # Class: Groups
+
+Defined in: main.ts:85662
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new Groups**(`data`?): [`Groups`](Groups.md)
 
+Defined in: main.ts:85674
+
 #### Parameters
 
-• **data?**: [`IGroups`](../interfaces/IGroups.md)
+##### data?
+
+[`IGroups`](../interfaces/IGroups.md)
 
 #### Returns
 
 [`Groups`](Groups.md)
-
-#### Defined in
-
-main.ts:75937
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:75937
 
 > `optional` **categories**: [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)[]
 
+Defined in: main.ts:85670
+
 technology categories in this group
 
 #### Implementation of
 
 [`IGroups`](../interfaces/IGroups.md).[`categories`](../interfaces/IGroups.md#categories)
 
-#### Defined in
-
-main.ts:75933
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:85666
 
 id of the technology group
 example:
@@ -62,15 +64,13 @@ marketing, sales
 
 [`IGroups`](../interfaces/IGroups.md).[`id`](../interfaces/IGroups.md#id)
 
-#### Defined in
-
-main.ts:75929
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:85668
 
 title of the technology group
 
@@ -78,27 +78,23 @@ title of the technology group
 
 [`IGroups`](../interfaces/IGroups.md).[`title`](../interfaces/IGroups.md#title)
 
-#### Defined in
-
-main.ts:75931
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:85683
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:75946
 
 ***
 
@@ -106,17 +102,17 @@ main.ts:75946
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:85706
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:75969
 
 ***
 
@@ -124,14 +120,14 @@ main.ts:75969
 
 > `static` **fromJS**(`data`): [`Groups`](Groups.md)
 
+Defined in: main.ts:85699
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`Groups`](Groups.md)
-
-#### Defined in
-
-main.ts:75962

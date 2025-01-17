@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IReviewResponseItemInfo
+[Documentation](../README.md) / IReviewResponseItemInfo
 
 # Interface: IReviewResponseItemInfo
 
+Defined in: main.ts:22530
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:22534
+
 the content of response
-
-#### Defined in
-
-main.ts:21631
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:21631
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:22536
+
 the time of publication
-
-#### Defined in
-
-main.ts:21633
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:21633
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:22532
+
 the title of response
-
-#### Defined in
-
-main.ts:21629

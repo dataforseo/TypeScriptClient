@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpBingLocalPackLiveHtmlResultInfo
+[Documentation](../README.md) / SerpBingLocalPackLiveHtmlResultInfo
 
 # Class: SerpBingLocalPackLiveHtmlResultInfo
+
+Defined in: main.ts:68707
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpBingLocalPackLiveHtmlResultInfo**(`data`?): [`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)
 
+Defined in: main.ts:68731
+
 #### Parameters
 
-• **data?**: [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md)
+##### data?
+
+[`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md)
 
 #### Returns
 
 [`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:60520
 
 ## Properties
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:68723
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +51,13 @@ example:
 
 [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md).[`datetime`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:60512
-
 ***
 
 ### items?
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+
+Defined in: main.ts:68727
 
 elements of search results found in SERP
 
@@ -63,15 +65,13 @@ elements of search results found in SERP
 
 [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md).[`items`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md#items)
 
-#### Defined in
-
-main.ts:60516
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:68725
 
 the number of results returned in the items array
 
@@ -79,26 +79,20 @@ the number of results returned in the items array
 
 [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md).[`items_count`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:60514
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:68710
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md).[`keyword`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:60499
 
 ***
 
@@ -106,15 +100,13 @@ main.ts:60499
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:68718
+
 language code in a POST array
 
 #### Implementation of
 
 [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md).[`language_code`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:60507
 
 ***
 
@@ -122,15 +114,13 @@ main.ts:60507
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:68716
+
 location code in a POST array
 
 #### Implementation of
 
 [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md).[`location_code`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:60505
 
 ***
 
@@ -138,15 +128,13 @@ main.ts:60505
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:68714
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:60503
 
 ***
 
@@ -154,15 +142,13 @@ main.ts:60503
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:68712
+
 type of element
 
 #### Implementation of
 
 [`ISerpBingLocalPackLiveHtmlResultInfo`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md).[`type`](../interfaces/ISerpBingLocalPackLiveHtmlResultInfo.md#type)
-
-#### Defined in
-
-main.ts:60501
 
 ## Methods
 
@@ -170,17 +156,17 @@ main.ts:60501
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:68740
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:60529
 
 ***
 
@@ -188,17 +174,17 @@ main.ts:60529
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:68768
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:60557
 
 ***
 
@@ -206,14 +192,14 @@ main.ts:60557
 
 > `static` **fromJS**(`data`): [`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)
 
+Defined in: main.ts:68761
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpBingLocalPackLiveHtmlResultInfo`](SerpBingLocalPackLiveHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:60550

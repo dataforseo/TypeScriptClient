@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ReviewMentionInfo
+[Documentation](../README.md) / ReviewMentionInfo
 
 # Class: ReviewMentionInfo
+
+Defined in: main.ts:219480
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ReviewMentionInfo**(`data`?): [`ReviewMentionInfo`](ReviewMentionInfo.md)
 
+Defined in: main.ts:219497
+
 #### Parameters
 
-• **data?**: [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md)
+##### data?
+
+[`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md)
 
 #### Returns
 
 [`ReviewMentionInfo`](ReviewMentionInfo.md)
-
-#### Defined in
-
-main.ts:206041
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:206041
 
 > `optional` **negative\_count**: `number`
 
+Defined in: main.ts:219488
+
 count of negative reviews by criterion
 
 #### Implementation of
 
 [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`negative_count`](../interfaces/IReviewMentionInfo.md#negative_count)
-
-#### Defined in
-
-main.ts:206032
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:206032
 
 > `optional` **positive\_count**: `number`
 
+Defined in: main.ts:219486
+
 count of positive reviews by criterion
 
 #### Implementation of
 
 [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`positive_count`](../interfaces/IReviewMentionInfo.md#positive_count)
-
-#### Defined in
-
-main.ts:206030
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:206030
 
 > `optional` **positive\_score**: `number`
 
+Defined in: main.ts:219484
+
 positive score by criterion
 
 #### Implementation of
 
 [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`positive_score`](../interfaces/IReviewMentionInfo.md#positive_score)
-
-#### Defined in
-
-main.ts:206028
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:206028
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:219482
+
 title of the evaluated criterion
 
 #### Implementation of
 
 [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`title`](../interfaces/IReviewMentionInfo.md#title)
-
-#### Defined in
-
-main.ts:206026
 
 ***
 
@@ -102,21 +96,21 @@ main.ts:206026
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:219490
+
 count of all reviews by criterion
 
 #### Implementation of
 
 [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`total_count`](../interfaces/IReviewMentionInfo.md#total_count)
 
-#### Defined in
-
-main.ts:206034
-
 ***
 
 ### visible\_by\_default?
 
 > `optional` **visible\_by\_default**: `boolean`
+
+Defined in: main.ts:219493
 
 element is visible by default
 indicates whether the review element is visible by default
@@ -125,27 +119,23 @@ indicates whether the review element is visible by default
 
 [`IReviewMentionInfo`](../interfaces/IReviewMentionInfo.md).[`visible_by_default`](../interfaces/IReviewMentionInfo.md#visible_by_default)
 
-#### Defined in
-
-main.ts:206037
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:219506
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:206050
 
 ***
 
@@ -153,17 +143,17 @@ main.ts:206050
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:219528
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:206072
 
 ***
 
@@ -171,14 +161,14 @@ main.ts:206072
 
 > `static` **fromJS**(`data`): [`ReviewMentionInfo`](ReviewMentionInfo.md)
 
+Defined in: main.ts:219521
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ReviewMentionInfo`](ReviewMentionInfo.md)
-
-#### Defined in
-
-main.ts:206065

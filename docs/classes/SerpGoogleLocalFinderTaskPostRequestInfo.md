@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderTaskPostRequestInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderTaskPostRequestInfo
 
 # Class: SerpGoogleLocalFinderTaskPostRequestInfo
+
+Defined in: main.ts:42855
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleLocalFinderTaskPostRequestInfo**(`data`?): [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
 
+Defined in: main.ts:42983
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md)
 
 #### Returns
 
 [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:41116
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:42931
 
 parsing depth
 optional field
@@ -52,15 +56,13 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#depth)
 
-#### Defined in
-
-main.ts:41066
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
+
+Defined in: main.ts:42914
 
 device type
 optional field
@@ -71,36 +73,33 @@ default value: desktop
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`device`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#device)
 
-#### Defined in
-
-main.ts:41049
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:42863
+
 keyword
 required field
-you can specify up to 700 symbols in the keyword field
-all %## will be decoded (plus symbol ‘+’ will be decoded to a space character)
-if you need to use the “%” symbol for your keyword, please specify it as “%25”;
-if you need to use the “+” symbol for your keyword, please specify it as “%2B”
+you can specify up to 700 characters in the keyword field
+all %## will be decoded (plus character ‘+’ will be decoded to a space character)
+if you need to use the “%” character for your keyword, please specify it as “%25”;
+if you need to use the “+” character for your keyword, please specify it as “%2B”
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#keyword)
-
-#### Defined in
-
-main.ts:40998
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:42909
 
 search engine language code
 required field if you don’t specify language_name
@@ -112,15 +111,13 @@ example:en
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:41044
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:42903
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -133,15 +130,13 @@ English
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:41038
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:42885
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -154,15 +149,13 @@ example:
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:41020
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:42896
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -179,15 +172,13 @@ example:
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:41031
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:42878
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -200,15 +191,13 @@ London,England,United Kingdom
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:41013
-
 ***
 
 ### min\_rating?
 
 > `optional` **min\_rating**: `number`
+
+Defined in: main.ts:42936
 
 filter results by minimum rating
 optional field
@@ -219,15 +208,13 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`min_rating`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#min_rating)
 
-#### Defined in
-
-main.ts:41071
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
+
+Defined in: main.ts:42921
 
 device operating system
 optional field
@@ -240,15 +227,13 @@ default value: android
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`os`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#os)
 
-#### Defined in
-
-main.ts:41056
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:42979
 
 notification URL of a completed task
 optional field
@@ -257,22 +242,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:41112
 
 ***
 
 ### postback\_data?
 
 > `optional` **postback\_data**: `string`
+
+Defined in: main.ts:42968
 
 postback_url datatype
 required field if you specify postback_url
@@ -284,15 +268,13 @@ advanced, html
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#postback_data)
 
-#### Defined in
-
-main.ts:41102
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:42962
 
 return URL for sending task results
 optional field
@@ -301,22 +283,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:41096
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:42871
 
 task priority
 optional field
@@ -330,15 +311,13 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#priority)
 
-#### Defined in
-
-main.ts:41006
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:42951
 
 user-defined task identifier
 optional field
@@ -350,15 +329,13 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:41086
-
 ***
 
 ### time\_filter?
 
 > `optional` **time\_filter**: `string`
+
+Defined in: main.ts:42945
 
 filter results by open hours
 optional field
@@ -373,27 +350,23 @@ example: "tuesday;18"
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`time_filter`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#time_filter)
 
-#### Defined in
-
-main.ts:41080
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:42992
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:41125
 
 ***
 
@@ -401,17 +374,17 @@ main.ts:41125
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:43024
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:41157
 
 ***
 
@@ -419,14 +392,14 @@ main.ts:41157
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
 
+Defined in: main.ts:43017
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:41150

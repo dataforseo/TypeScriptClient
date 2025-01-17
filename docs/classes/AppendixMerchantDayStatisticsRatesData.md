@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixMerchantDayStatisticsRatesData
+[Documentation](../README.md) / AppendixMerchantDayStatisticsRatesData
 
 # Class: AppendixMerchantDayStatisticsRatesData
+
+Defined in: main.ts:233908
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixMerchantDayStatisticsRatesData**(`data`?): [`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
 
+Defined in: main.ts:233920
+
 #### Parameters
 
-• **data?**: [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218820
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:218820
 
 > `optional` **amazon**: [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
+Defined in: main.ts:233910
+
 #### Implementation of
 
 [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md).[`amazon`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md#amazon)
-
-#### Defined in
-
-main.ts:218810
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:218810
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:233913
+
 #### Implementation of
 
 [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:218813
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:218813
 
 > `optional` **google**: [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
+Defined in: main.ts:233909
+
 #### Implementation of
 
 [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md).[`google`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md#google)
-
-#### Defined in
-
-main.ts:218809
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:218809
 
 > `optional` **id\_list**: `number`
 
+Defined in: main.ts:233916
+
 #### Implementation of
 
 [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md).[`id_list`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md#id_list)
-
-#### Defined in
-
-main.ts:218816
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:218816
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:233912
+
 #### Implementation of
 
 [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md).[`languages`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md#languages)
-
-#### Defined in
-
-main.ts:218812
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:218812
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:233911
+
 #### Implementation of
 
 [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md).[`locations`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md#locations)
-
-#### Defined in
-
-main.ts:218811
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:218811
 
 > `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:233914
+
 #### Implementation of
 
 [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md).[`reviews`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md#reviews)
-
-#### Defined in
-
-main.ts:218814
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:218814
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:233915
+
 #### Implementation of
 
 [`IAppendixMerchantDayStatisticsRatesData`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md).[`tasks_ready`](../interfaces/IAppendixMerchantDayStatisticsRatesData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:218815
 
 ## Methods
 
@@ -150,17 +136,17 @@ main.ts:218815
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:233929
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218829
 
 ***
 
@@ -168,17 +154,17 @@ main.ts:218829
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:233953
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218853
 
 ***
 
@@ -186,14 +172,14 @@ main.ts:218853
 
 > `static` **fromJS**(`data`): [`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
 
+Defined in: main.ts:233946
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixMerchantDayStatisticsRatesData`](AppendixMerchantDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218846

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantAmazonAsinTaskPostRequestInfo
+[Documentation](../README.md) / IMerchantAmazonAsinTaskPostRequestInfo
 
 # Interface: IMerchantAmazonAsinTaskPostRequestInfo
 
+Defined in: main.ts:193627
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,20 +18,20 @@
 
 > `optional` **asin**: `string`
 
+Defined in: main.ts:193632
+
 product ID
 required field
 unique product identifier (ASIN) in Amazon
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
-
-#### Defined in
-
-main.ts:181426
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:193679
 
 search engine language code
 required field if you don’t specify language_name
@@ -38,15 +40,13 @@ you can receive the list of available languages with their language_code parame
 example:
 en_GB
 
-#### Defined in
-
-main.ts:181473
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:193672
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -56,15 +56,40 @@ https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
 English (United Kingdom)
 
-#### Defined in
+***
 
-main.ts:181466
+### load\_more\_local\_reviews?
+
+> `optional` **load\_more\_local\_reviews**: `boolean`
+
+Defined in: main.ts:193691
+
+load more local reviews
+optional field
+if set to true, additional local reviews will be loaded in the top_local_reviews array of the Task GET response;
+Note: you will be charged double the price for using this parameter
+
+***
+
+### local\_reviews\_sort?
+
+> `optional` **local\_reviews\_sort**: `string`
+
+Defined in: main.ts:193697
+
+sort local reviews
+optional field
+reviews in the top_local_reviews array of the Task GET response can be sorted by most helpful or most recent first;
+possible values: helpful, recent
+default value: helpful
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:193655
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -74,15 +99,13 @@ https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
 9045969
 
-#### Defined in
-
-main.ts:181449
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:193664
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -93,15 +116,13 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
-#### Defined in
-
-main.ts:181458
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:193647
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -110,15 +131,13 @@ you can receive the list of available locations with their location_name paramet
 example:
 HA1,England,United Kingdom
 
-#### Defined in
-
-main.ts:181441
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:193731
 
 notification URL of a completed task
 optional field
@@ -127,12 +146,9 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:181512
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
@@ -140,21 +156,21 @@ main.ts:181512
 
 > `optional` **postback\_data**: `string`
 
+Defined in: main.ts:193720
+
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Defined in
-
-main.ts:181502
-
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:193714
 
 return URL for sending task results
 optional field
@@ -163,18 +179,17 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
-
-#### Defined in
-
-main.ts:181496
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 ***
 
 ### priority?
 
 > `optional` **priority**: `number`
+
+Defined in: main.ts:193640
 
 task priority
 optional field
@@ -184,15 +199,13 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Defined in
-
-main.ts:181434
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:193686
 
 search engine domain
 optional field
@@ -201,22 +214,16 @@ however, you can set a custom search engine domain in this field
 example:
 amazon.com, amazon.co.uk, amazon.fr, etc.
 
-#### Defined in
-
-main.ts:181480
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:193703
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:181486

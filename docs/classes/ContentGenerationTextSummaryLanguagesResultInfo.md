@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationTextSummaryLanguagesResultInfo
+[Documentation](../README.md) / ContentGenerationTextSummaryLanguagesResultInfo
 
 # Class: ContentGenerationTextSummaryLanguagesResultInfo
+
+Defined in: main.ts:183842
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentGenerationTextSummaryLanguagesResultInfo**(`data`?): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
 
+Defined in: main.ts:183850
+
 #### Parameters
 
-• **data?**: [`IContentGenerationTextSummaryLanguagesResultInfo`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md)
+##### data?
+
+[`IContentGenerationTextSummaryLanguagesResultInfo`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:172160
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:172160
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:183846
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLanguagesResultInfo`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md).[`language_code`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:172156
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:172156
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:183844
+
 language name
 
 #### Implementation of
 
 [`IContentGenerationTextSummaryLanguagesResultInfo`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md).[`language_name`](../interfaces/IContentGenerationTextSummaryLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:172154
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:172154
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:183859
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:172169
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:172169
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:183877
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:172187
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:172187
 
 > `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
 
+Defined in: main.ts:183870
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationTextSummaryLanguagesResultInfo`](ContentGenerationTextSummaryLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:172180

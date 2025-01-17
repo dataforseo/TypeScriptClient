@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / StoresCountInfo
+[Documentation](../README.md) / StoresCountInfo
 
 # Class: StoresCountInfo
+
+Defined in: main.ts:186192
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new StoresCountInfo**(`data`?): [`StoresCountInfo`](StoresCountInfo.md)
 
+Defined in: main.ts:186206
+
 #### Parameters
 
-• **data?**: [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md)
+##### data?
+
+[`IStoresCountInfo`](../interfaces/IStoresCountInfo.md)
 
 #### Returns
 
 [`StoresCountInfo`](StoresCountInfo.md)
-
-#### Defined in
-
-main.ts:174376
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:174376
 
 > `optional` **count**: `string`
 
+Defined in: main.ts:186194
+
 number of stores that offer the product
 
 #### Implementation of
 
 [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`count`](../interfaces/IStoresCountInfo.md#count)
 
-#### Defined in
-
-main.ts:174364
-
 ***
 
 ### count\_from\_text?
 
 > `optional` **count\_from\_text**: `boolean`
+
+Defined in: main.ts:186202
 
 whether the number of stores is taken from text
 indicates whether the number of stores is taken from displayed_text;
@@ -64,15 +66,13 @@ in this case, the parameter is true
 
 [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`count_from_text`](../interfaces/IStoresCountInfo.md#count_from_text)
 
-#### Defined in
-
-main.ts:174372
-
 ***
 
 ### displayed\_text?
 
 > `optional` **displayed\_text**: `string`
+
+Defined in: main.ts:186196
 
 text displayed on the Google Shopping page
 
@@ -80,27 +80,23 @@ text displayed on the Google Shopping page
 
 [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`displayed_text`](../interfaces/IStoresCountInfo.md#displayed_text)
 
-#### Defined in
-
-main.ts:174366
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:186215
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:174385
 
 ***
 
@@ -108,17 +104,17 @@ main.ts:174385
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:186234
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:174404
 
 ***
 
@@ -126,14 +122,14 @@ main.ts:174404
 
 > `static` **fromJS**(`data`): [`StoresCountInfo`](StoresCountInfo.md)
 
+Defined in: main.ts:186227
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`StoresCountInfo`](StoresCountInfo.md)
-
-#### Defined in
-
-main.ts:174397

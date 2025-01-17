@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
 # Interface: IAppDataGoogleAppSearchesTaskGetAdvancedResultInfo
 
+Defined in: main.ts:200111
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:200122
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:187685
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:187685
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:200127
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:187690
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:187690
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)[]
 
+Defined in: main.ts:200133
+
 found apps
-
-#### Defined in
-
-main.ts:187696
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:187696
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:200131
+
 the number of items in the results array
-
-#### Defined in
-
-main.ts:187694
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:187694
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:200113
+
 keyword received in a POST request
-
-#### Defined in
-
-main.ts:187676
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:187676
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:200119
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:187682
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:187682
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:200117
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:187680
 
 ***
 
@@ -104,11 +92,9 @@ main.ts:187680
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:200115
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:187678
 
 ***
 
@@ -116,8 +102,6 @@ main.ts:187678
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:200129
+
 the total number of results
-
-#### Defined in
-
-main.ts:187692

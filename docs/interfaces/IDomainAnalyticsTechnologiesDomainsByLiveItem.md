@@ -1,16 +1,18 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByLiveItem
+
+Defined in: main.ts:87875
 
 items array
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -18,12 +20,10 @@ items array
 
 > `optional` **content\_language\_code**: `string`
 
+Defined in: main.ts:87902
+
 content language
 code of the language that content on the target domain is written with
-
-#### Defined in
-
-main.ts:78159
 
 ***
 
@@ -31,12 +31,10 @@ main.ts:78159
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:87896
+
 domain ISO code
 ISO code of the country that target domain is determined to belong to
-
-#### Defined in
-
-main.ts:78153
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:78153
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:87883
+
 domain meta description
-
-#### Defined in
-
-main.ts:78140
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:78140
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:87879
+
 specified domain name
-
-#### Defined in
-
-main.ts:78136
 
 ***
 
@@ -68,12 +62,10 @@ main.ts:78136
 
 > `optional` **domain\_rank**: `string`
 
+Defined in: main.ts:87888
+
 backlink rank of the target domain
 learn more about the metric and how it is calculated in this help center article
-
-#### Defined in
-
-main.ts:78145
 
 ***
 
@@ -81,12 +73,10 @@ main.ts:78145
 
 > `optional` **emails**: `string`[]
 
+Defined in: main.ts:87908
+
 emails of the target
 emails indicated on the target website
-
-#### Defined in
-
-main.ts:78165
 
 ***
 
@@ -94,12 +84,10 @@ main.ts:78165
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:87899
+
 domain language
 code of the language that target domain is determined to be associated with
-
-#### Defined in
-
-main.ts:78156
 
 ***
 
@@ -107,14 +95,12 @@ main.ts:78156
 
 > `optional` **last\_visited**: `string`
 
+Defined in: main.ts:87893
+
 most recent date when our crawler visited the domain
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-10-10 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:78150
 
 ***
 
@@ -122,11 +108,9 @@ main.ts:78150
 
 > `optional` **meta\_keywords**: `string`[]
 
+Defined in: main.ts:87885
+
 domain meta keywords
-
-#### Defined in
-
-main.ts:78142
 
 ***
 
@@ -134,12 +118,10 @@ main.ts:78142
 
 > `optional` **phone\_numbers**: `string`[]
 
+Defined in: main.ts:87905
+
 phone numbers of the target
 contact phone numbers indicated on the target website
-
-#### Defined in
-
-main.ts:78162
 
 ***
 
@@ -147,12 +129,10 @@ main.ts:78162
 
 > `optional` **social\_graph\_urls**: `string`[]
 
+Defined in: main.ts:87911
+
 social media links and handles
 social media URLs detected in the social graphs of the target website
-
-#### Defined in
-
-main.ts:78168
 
 ***
 
@@ -160,13 +140,11 @@ main.ts:78168
 
 > `optional` **technologies**: [`TechnologiesInfo`](../classes/TechnologiesInfo.md)
 
+Defined in: main.ts:87915
+
 technologies used by target domain
 contains objects with the names of technologies used on the website;
 to get a full list of technologies and their structure, refer to the technologies endpoint
-
-#### Defined in
-
-main.ts:78172
 
 ***
 
@@ -174,11 +152,9 @@ main.ts:78172
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:87881
+
 domain meta title
-
-#### Defined in
-
-main.ts:78138
 
 ***
 
@@ -186,8 +162,6 @@ main.ts:78138
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:87877
+
 type of element
-
-#### Defined in
-
-main.ts:78134

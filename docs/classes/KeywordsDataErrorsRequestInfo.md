@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataErrorsRequestInfo
+[Documentation](../README.md) / KeywordsDataErrorsRequestInfo
 
 # Class: KeywordsDataErrorsRequestInfo
+
+Defined in: main.ts:125622
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataErrorsRequestInfo**(`data`?): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
+Defined in: main.ts:125656
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md)
+##### data?
+
+[`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:116383
 
 ## Properties
 
@@ -38,9 +40,11 @@ main.ts:116383
 
 > `optional` **datetime\_from**: `string`
 
+Defined in: main.ts:125645
+
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -49,19 +53,17 @@ example:
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IKeywordsDataErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:116372
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
 
+Defined in: main.ts:125652
+
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -70,15 +72,13 @@ example:
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IKeywordsDataErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:116379
-
 ***
 
 ### filtered\_function?
 
 > `optional` **filtered\_function**: `string`
+
+Defined in: main.ts:125638
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,13 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IKeywordsDataErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
-
-main.ts:116365
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:125627
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +107,13 @@ maximum value: 1000
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`limit`](../interfaces/IKeywordsDataErrorsRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:116354
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:125632
 
 offset in the results array of returned tasks
 optional field
@@ -128,27 +124,23 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`offset`](../interfaces/IKeywordsDataErrorsRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:116359
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:125665
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:116392
 
 ***
 
@@ -156,17 +148,17 @@ main.ts:116392
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:125686
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:116413
 
 ***
 
@@ -174,14 +166,14 @@ main.ts:116413
 
 > `static` **fromJS**(`data`): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
+Defined in: main.ts:125679
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:116406

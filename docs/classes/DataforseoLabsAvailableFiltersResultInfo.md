@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsAvailableFiltersResultInfo
+[Documentation](../README.md) / DataforseoLabsAvailableFiltersResultInfo
 
 # Class: DataforseoLabsAvailableFiltersResultInfo
+
+Defined in: main.ts:90838
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsAvailableFiltersResultInfo**(`data`?): [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:90864
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md)
+##### data?
+
+[`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:81119
 
 ## Properties
 
@@ -38,17 +40,15 @@ main.ts:81119
 
 > `optional` **app\_competitors**: `object`
 
+Defined in: main.ts:90858
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`app_competitors`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#app_competitors)
-
-#### Defined in
-
-main.ts:81113
 
 ***
 
@@ -56,17 +56,15 @@ main.ts:81113
 
 > `optional` **app\_intersection**: `object`
 
+Defined in: main.ts:90857
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`app_intersection`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#app_intersection)
-
-#### Defined in
-
-main.ts:81112
 
 ***
 
@@ -74,17 +72,15 @@ main.ts:81112
 
 > `optional` **categories\_for\_domain**: `object`
 
+Defined in: main.ts:90847
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`categories_for_domain`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#categories_for_domain)
-
-#### Defined in
-
-main.ts:81102
 
 ***
 
@@ -92,17 +88,15 @@ main.ts:81102
 
 > `optional` **competitors\_domain**: `object`
 
+Defined in: main.ts:90846
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`competitors_domain`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#competitors_domain)
-
-#### Defined in
-
-main.ts:81101
 
 ***
 
@@ -110,17 +104,15 @@ main.ts:81101
 
 > `optional` **database\_rows\_count**: `object`
 
+Defined in: main.ts:90860
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`database_rows_count`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#database_rows_count)
-
-#### Defined in
-
-main.ts:81115
 
 ***
 
@@ -128,17 +120,15 @@ main.ts:81115
 
 > `optional` **domain\_intersection**: `object`
 
+Defined in: main.ts:90849
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`domain_intersection`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#domain_intersection)
-
-#### Defined in
-
-main.ts:81104
 
 ***
 
@@ -146,17 +136,15 @@ main.ts:81104
 
 > `optional` **domain\_metrics\_by\_categories**: `object`
 
+Defined in: main.ts:90853
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`domain_metrics_by_categories`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#domain_metrics_by_categories)
-
-#### Defined in
-
-main.ts:81108
 
 ***
 
@@ -164,17 +152,15 @@ main.ts:81108
 
 > `optional` **domain\_whois\_overview**: `object`
 
+Defined in: main.ts:90851
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`domain_whois_overview`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#domain_whois_overview)
-
-#### Defined in
-
-main.ts:81106
 
 ***
 
@@ -182,17 +168,15 @@ main.ts:81106
 
 > `optional` **keyword\_ideas**: `object`
 
+Defined in: main.ts:90842
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keyword_ideas`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keyword_ideas)
-
-#### Defined in
-
-main.ts:81097
 
 ***
 
@@ -200,17 +184,15 @@ main.ts:81097
 
 > `optional` **keyword\_suggestions**: `object`
 
+Defined in: main.ts:90840
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keyword_suggestions`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keyword_suggestions)
-
-#### Defined in
-
-main.ts:81095
 
 ***
 
@@ -218,17 +200,15 @@ main.ts:81095
 
 > `optional` **keywords\_for\_app**: `object`
 
+Defined in: main.ts:90859
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keywords_for_app`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keywords_for_app)
-
-#### Defined in
-
-main.ts:81114
 
 ***
 
@@ -236,17 +216,15 @@ main.ts:81114
 
 > `optional` **keywords\_for\_categories**: `object`
 
+Defined in: main.ts:90848
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keywords_for_categories`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keywords_for_categories)
-
-#### Defined in
-
-main.ts:81103
 
 ***
 
@@ -254,17 +232,15 @@ main.ts:81103
 
 > `optional` **keywords\_for\_site**: `object`
 
+Defined in: main.ts:90854
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keywords_for_site`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keywords_for_site)
-
-#### Defined in
-
-main.ts:81109
 
 ***
 
@@ -272,17 +248,15 @@ main.ts:81109
 
 > `optional` **page\_intersection**: `object`
 
+Defined in: main.ts:90850
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`page_intersection`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#page_intersection)
-
-#### Defined in
-
-main.ts:81105
 
 ***
 
@@ -290,17 +264,15 @@ main.ts:81105
 
 > `optional` **product\_competitors**: `object`
 
+Defined in: main.ts:90855
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`product_competitors`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#product_competitors)
-
-#### Defined in
-
-main.ts:81110
 
 ***
 
@@ -308,17 +280,15 @@ main.ts:81110
 
 > `optional` **product\_keyword\_intersections**: `object`
 
+Defined in: main.ts:90856
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`product_keyword_intersections`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#product_keyword_intersections)
-
-#### Defined in
-
-main.ts:81111
 
 ***
 
@@ -326,17 +296,15 @@ main.ts:81111
 
 > `optional` **ranked\_keywords**: `object`
 
+Defined in: main.ts:90841
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`ranked_keywords`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#ranked_keywords)
-
-#### Defined in
-
-main.ts:81096
 
 ***
 
@@ -344,17 +312,15 @@ main.ts:81096
 
 > `optional` **related\_keywords**: `object`
 
+Defined in: main.ts:90839
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`related_keywords`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#related_keywords)
-
-#### Defined in
-
-main.ts:81094
 
 ***
 
@@ -362,17 +328,15 @@ main.ts:81094
 
 > `optional` **relevant\_pages**: `object`
 
+Defined in: main.ts:90844
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`relevant_pages`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#relevant_pages)
-
-#### Defined in
-
-main.ts:81099
 
 ***
 
@@ -380,17 +344,15 @@ main.ts:81099
 
 > `optional` **serp\_competitors**: `object`
 
+Defined in: main.ts:90843
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`serp_competitors`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#serp_competitors)
-
-#### Defined in
-
-main.ts:81098
 
 ***
 
@@ -398,17 +360,15 @@ main.ts:81098
 
 > `optional` **subdomains**: `object`
 
+Defined in: main.ts:90845
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`subdomains`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#subdomains)
-
-#### Defined in
-
-main.ts:81100
 
 ***
 
@@ -416,17 +376,15 @@ main.ts:81100
 
 > `optional` **top\_searches**: `object`
 
+Defined in: main.ts:90852
+
 #### Index Signature
 
- \[`key`: `string`\]: `object`
+\[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`top_searches`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#top_searches)
-
-#### Defined in
-
-main.ts:81107
 
 ## Methods
 
@@ -434,17 +392,17 @@ main.ts:81107
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:90873
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:81128
 
 ***
 
@@ -452,17 +410,17 @@ main.ts:81128
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:91043
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:81298
 
 ***
 
@@ -470,14 +428,14 @@ main.ts:81298
 
 > `static` **fromJS**(`data`): [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:91036
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:81291

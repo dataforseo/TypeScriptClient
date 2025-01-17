@@ -1,16 +1,18 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsWhoisOverviewLiveItem
+[Documentation](../README.md) / IDomainAnalyticsWhoisOverviewLiveItem
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveItem
+
+Defined in: main.ts:89691
 
 items array
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -18,11 +20,9 @@ items array
 
 > `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
+Defined in: main.ts:89737
+
 backlink data for the returned domain
-
-#### Defined in
-
-main.ts:79992
 
 ***
 
@@ -30,14 +30,12 @@ main.ts:79992
 
 > `optional` **changed\_datetime**: `string`
 
+Defined in: main.ts:89703
+
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
 example:
 "2021-01-14 08:36:28 +00:00"
-
-#### Defined in
-
-main.ts:79958
 
 ***
 
@@ -45,14 +43,12 @@ main.ts:79958
 
 > `optional` **created\_datetime**: `string`
 
+Defined in: main.ts:89698
+
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
 example:
 "1997-03-29 03:00:00 +00:00"
-
-#### Defined in
-
-main.ts:79953
 
 ***
 
@@ -60,11 +56,9 @@ main.ts:79953
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:89693
+
 domain name
-
-#### Defined in
-
-main.ts:79948
 
 ***
 
@@ -72,12 +66,10 @@ main.ts:79948
 
 > `optional` **epp\_status\_codes**: `string`[]
 
+Defined in: main.ts:89721
+
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
-
-#### Defined in
-
-main.ts:79976
 
 ***
 
@@ -85,14 +77,12 @@ main.ts:79976
 
 > `optional` **expiration\_datetime**: `string`
 
+Defined in: main.ts:89708
+
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
 example:
 "2022-11-26 17:21:23 +00:00"
-
-#### Defined in
-
-main.ts:79963
 
 ***
 
@@ -100,14 +90,12 @@ main.ts:79963
 
 > `optional` **first\_seen**: `string`
 
+Defined in: main.ts:89718
+
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 "2019-11-15 12:57:46 +00:00"
-
-#### Defined in
-
-main.ts:79973
 
 ***
 
@@ -115,11 +103,9 @@ main.ts:79973
 
 > `optional` **metrics**: [`MetricsBundleInfo`](../classes/MetricsBundleInfo.md)
 
+Defined in: main.ts:89735
+
 ranking data relevant to the specified domain
-
-#### Defined in
-
-main.ts:79990
 
 ***
 
@@ -127,13 +113,11 @@ main.ts:79990
 
 > `optional` **registered**: `boolean`
 
+Defined in: main.ts:89728
+
 domain registration status
 if false, the domain name registration has expired
 Note: expired domains will remain in the database for only a short period of time
-
-#### Defined in
-
-main.ts:79983
 
 ***
 
@@ -141,14 +125,12 @@ main.ts:79983
 
 > `optional` **registrar**: `string`
 
+Defined in: main.ts:89733
+
 domain registrar
 if null, the domain registrar is unknown
 example:
 NameCheap, Inc.
-
-#### Defined in
-
-main.ts:79988
 
 ***
 
@@ -156,12 +138,10 @@ main.ts:79988
 
 > `optional` **tld**: `string`
 
+Defined in: main.ts:89724
+
 top-level domain
 top-level domain in the DNS root zone
-
-#### Defined in
-
-main.ts:79979
 
 ***
 
@@ -169,11 +149,9 @@ main.ts:79979
 
 > `optional` **updated\_datetime**: `string`
 
+Defined in: main.ts:89713
+
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated
 example:
 "2021-01-29 13:59:38 +00:00"
-
-#### Defined in
-
-main.ts:79968

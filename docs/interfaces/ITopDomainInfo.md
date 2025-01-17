@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITopDomainInfo
+[Documentation](../README.md) / ITopDomainInfo
 
 # Interface: ITopDomainInfo
 
+Defined in: main.ts:24184
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **count**: `number`
 
-#### Defined in
-
-main.ts:23283
+Defined in: main.ts:24186
 
 ***
 
@@ -26,6 +26,4 @@ main.ts:23283
 
 > `optional` **domain**: `string`
 
-#### Defined in
-
-main.ts:23282
+Defined in: main.ts:24185

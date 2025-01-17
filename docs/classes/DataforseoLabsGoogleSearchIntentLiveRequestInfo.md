@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveRequestInfo
+
+Defined in: main.ts:96404
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsGoogleSearchIntentLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
+Defined in: main.ts:96460
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:86642
 
 ## Properties
 
@@ -38,25 +40,26 @@ main.ts:86642
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:96411
+
 target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:86593
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:96450
 
 language code
 required field if don’t specify language_name
@@ -69,15 +72,13 @@ en
 
 [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:86632
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:96443
 
 full name of the language
 required field if don’t specify language_code
@@ -115,15 +116,13 @@ English
 
 [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:86625
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:96456
 
 user-defined task identifier
 optional field
@@ -135,27 +134,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:86638
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:96469
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:86651
 
 ***
 
@@ -163,17 +158,17 @@ main.ts:86651
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:96493
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:86675
 
 ***
 
@@ -181,14 +176,14 @@ main.ts:86675
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
+Defined in: main.ts:96486
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:86668

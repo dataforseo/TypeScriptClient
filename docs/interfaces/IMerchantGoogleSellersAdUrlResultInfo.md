@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleSellersAdUrlResultInfo
+[Documentation](../README.md) / IMerchantGoogleSellersAdUrlResultInfo
 
 # Interface: IMerchantGoogleSellersAdUrlResultInfo
 
+Defined in: main.ts:191056
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **ad\_aclk**: `string`
 
+Defined in: main.ts:191058
+
 unique ad click referral parameter
-
-#### Defined in
-
-main.ts:179216
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:179216
 
 > `optional` **ad\_url**: `string`
 
+Defined in: main.ts:191060
+
 full URL of the advertisement
-
-#### Defined in
-
-main.ts:179218
 
 ***
 
@@ -40,9 +38,7 @@ main.ts:179218
 
 > `optional` **ad\_url\_redirects**: `string`[]
 
+Defined in: main.ts:191063
+
 URLs where the link from Google Shopping redirects before reaching a final URL
 includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
-
-#### Defined in
-
-main.ts:179221

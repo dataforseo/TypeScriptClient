@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixAppendixDayStatisticsRatesData
+[Documentation](../README.md) / IAppendixAppendixDayStatisticsRatesData
 
 # Interface: IAppendixAppendixDayStatisticsRatesData
 
+Defined in: main.ts:233615
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:218517
+Defined in: main.ts:233617
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:218517
 
 > `optional` **status**: `number`
 
-#### Defined in
-
-main.ts:218518
+Defined in: main.ts:233618
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:218518
 
 > `optional` **user\_data**: `number`
 
-#### Defined in
-
-main.ts:218516
+Defined in: main.ts:233616
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:218516
 
 > `optional` **webhook\_resend**: `number`
 
-#### Defined in
-
-main.ts:218519
+Defined in: main.ts:233619

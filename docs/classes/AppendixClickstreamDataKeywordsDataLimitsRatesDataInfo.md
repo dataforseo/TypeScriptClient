@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
+
+Defined in: main.ts:230932
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:230940
+
 #### Parameters
 
-• **data?**: [`IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:215888
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:215888
 
 > `optional` **bulk\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230935
+
 #### Implementation of
 
 [`IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md).[`bulk_search_volume`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md#bulk_search_volume)
-
-#### Defined in
-
-main.ts:215883
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:215883
 
 > `optional` **dataforseo\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230933
+
 #### Implementation of
 
 [`IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md).[`dataforseo_search_volume`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md#dataforseo_search_volume)
-
-#### Defined in
-
-main.ts:215881
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:215881
 
 > `optional` **global\_search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
+Defined in: main.ts:230936
+
 #### Implementation of
 
 [`IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md).[`global_search_volume`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md#global_search_volume)
-
-#### Defined in
-
-main.ts:215884
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:215884
 
 > `optional` **locations\_and\_languages**: `number`
 
+Defined in: main.ts:230934
+
 #### Implementation of
 
 [`IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md).[`locations_and_languages`](../interfaces/IAppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md#locations_and_languages)
-
-#### Defined in
-
-main.ts:215882
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:215882
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:230949
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:215897
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:215897
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:230969
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:215917
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:215917
 
 > `static` **fromJS**(`data`): [`AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:230962
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:215910

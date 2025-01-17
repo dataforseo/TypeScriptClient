@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusyWorkingTimeInfo
+[Documentation](../README.md) / IBusyWorkingTimeInfo
 
 # Interface: IBusyWorkingTimeInfo
 
+Defined in: main.ts:211095
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **popular\_index**: `number`
 
+Defined in: main.ts:211101
+
 popularity index
 relative time-bound popularity index measured from 0 to 100;
 higher value corresponds to a busier time of a day
-
-#### Defined in
-
-main.ts:198650
 
 ***
 
@@ -30,8 +30,6 @@ main.ts:198650
 
 > `optional` **time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
+Defined in: main.ts:211097
+
 busy hours
-
-#### Defined in
-
-main.ts:198646

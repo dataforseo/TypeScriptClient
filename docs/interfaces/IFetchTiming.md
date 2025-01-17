@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFetchTiming
+[Documentation](../README.md) / IFetchTiming
 
 # Interface: IFetchTiming
 
+Defined in: main.ts:167941
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **duration\_time**: `number`
 
+Defined in: main.ts:167943
+
 indicates how many milliseconds it took to fetch a resource
-
-#### Defined in
-
-main.ts:156207
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:156207
 
 > `optional` **fetch\_end**: `number`
 
+Defined in: main.ts:167949
+
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
-
-#### Defined in
-
-main.ts:156213
 
 ***
 
@@ -41,9 +39,7 @@ main.ts:156213
 
 > `optional` **fetch\_start**: `number`
 
+Defined in: main.ts:167946
+
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource
-
-#### Defined in
-
-main.ts:156210

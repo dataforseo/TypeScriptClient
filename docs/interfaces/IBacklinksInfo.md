@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksInfo
+[Documentation](../README.md) / IBacklinksInfo
 
 # Interface: IBacklinksInfo
 
+Defined in: main.ts:89551
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **backlinks**: `number`
 
+Defined in: main.ts:89562
+
 total number of backlinks
 the total number of backlinks, including dofollow and nofollow links
-
-#### Defined in
-
-main.ts:79817
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:79817
 
 > `optional` **dofollow**: `number`
 
+Defined in: main.ts:89559
+
 number of dofollow links
-
-#### Defined in
-
-main.ts:79814
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:79814
 
 > `optional` **referring\_domains**: `number`
 
+Defined in: main.ts:89553
+
 number of referring domains
-
-#### Defined in
-
-main.ts:79808
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:79808
 
 > `optional` **referring\_main\_domains**: `number`
 
+Defined in: main.ts:89555
+
 number of referring main domains
-
-#### Defined in
-
-main.ts:79810
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:79810
 
 > `optional` **referring\_pages**: `number`
 
+Defined in: main.ts:89557
+
 number of referring pages
-
-#### Defined in
-
-main.ts:79812
 
 ***
 
@@ -77,11 +69,9 @@ main.ts:79812
 
 > `optional` **time\_update**: `string`
 
+Defined in: main.ts:89567
+
 date and time when backlink data was updated
 in the UTC format: "yyyy-mm-dd hh-mm-ss +00:00"
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:79822

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ProductInfoElementMerchantSerpElementItem
+[Documentation](../README.md) / ProductInfoElementMerchantSerpElementItem
 
 # Class: ProductInfoElementMerchantSerpElementItem
+
+Defined in: main.ts:190600
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new ProductInfoElementMerchantSerpElementItem**(`data`?): [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
 
+Defined in: main.ts:190632
+
 #### Parameters
 
-• **data?**: [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md)
+##### data?
+
+[`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:178790
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21722
+
 #### Inherited from
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:21039
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:21039
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:190607
+
 description of the product
 
 #### Implementation of
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`description`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#description)
 
-#### Defined in
-
-main.ts:178765
-
 ***
 
 ### features?
 
 > `optional` **features**: `string`[]
+
+Defined in: main.ts:190616
 
 product features
 contains snippets with the description of product features
@@ -83,15 +83,13 @@ contains snippets with the description of product features
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`features`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#features)
 
-#### Defined in
-
-main.ts:178774
-
 ***
 
 ### images?
 
 > `optional` **images**: `string`[]
+
+Defined in: main.ts:190613
 
 product images
 contains urls to product images
@@ -100,15 +98,13 @@ contains urls to product images
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`images`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#images)
 
-#### Defined in
-
-main.ts:178771
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21720
 
 alignment of the element in SERP
 can take the following values:
@@ -122,15 +118,13 @@ left, right
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21037
-
 ***
 
 ### product\_id?
 
 > `optional` **product\_id**: `string`
+
+Defined in: main.ts:190603
 
 product_id received in a POST array
 ilearn more about the parameter in this help center guide
@@ -139,15 +133,13 @@ ilearn more about the parameter in this help center guide
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`product_id`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#product_id)
 
-#### Defined in
-
-main.ts:178761
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21716
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -160,15 +152,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21033
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21713
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -181,15 +171,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21030
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingElement`](RatingElement.md)
+
+Defined in: main.ts:190619
 
 product rating 
 the popularity rate based on reviews
@@ -198,15 +186,13 @@ the popularity rate based on reviews
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`rating`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:178777
-
 ***
 
 ### seller\_reviews\_count?
 
 > `optional` **seller\_reviews\_count**: `number`
+
+Defined in: main.ts:190622
 
 number of seller reviews
 number of reviews on the product seller’s account
@@ -215,15 +201,13 @@ number of reviews on the product seller’s account
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`seller_reviews_count`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#seller_reviews_count)
 
-#### Defined in
-
-main.ts:178780
-
 ***
 
 ### sellers?
 
 > `optional` **sellers**: [`ProductSeller`](ProductSeller.md)[]
+
+Defined in: main.ts:190625
 
 sellers of the product
 number of reviews on the product seller’s account
@@ -232,15 +216,13 @@ number of reviews on the product seller’s account
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`sellers`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#sellers)
 
-#### Defined in
-
-main.ts:178783
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:190605
 
 title of the product
 
@@ -248,15 +230,13 @@ title of the product
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`title`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:178763
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21710
 
 type of element
 
@@ -268,15 +248,13 @@ type of element
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:21027
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:190610
 
 product url
 url of the product on Google Shopping
@@ -285,15 +263,13 @@ url of the product on Google Shopping
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`url`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:178768
-
 ***
 
 ### variations?
 
 > `optional` **variations**: [`ProductVariation`](ProductVariation.md)[]
+
+Defined in: main.ts:190628
 
 variations of the product
 contains brief information about different product variations
@@ -302,19 +278,19 @@ contains brief information about different product variations
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`variations`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#variations)
 
-#### Defined in
-
-main.ts:178786
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:190637
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -324,19 +300,19 @@ main.ts:178786
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:178795
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:190680
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -346,19 +322,19 @@ main.ts:178795
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:178838
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`ProductInfoElementMerchantSerpElementItem`](ProductInfoElementMerchantSerpElementItem.md)
 
+Defined in: main.ts:190673
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -367,7 +343,3 @@ main.ts:178838
 #### Overrides
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:178831

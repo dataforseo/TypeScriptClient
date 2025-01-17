@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationCheckGrammarLanguagesResultInfo
+[Documentation](../README.md) / ContentGenerationCheckGrammarLanguagesResultInfo
 
 # Class: ContentGenerationCheckGrammarLanguagesResultInfo
+
+Defined in: main.ts:183148
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentGenerationCheckGrammarLanguagesResultInfo**(`data`?): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
 
+Defined in: main.ts:183156
+
 #### Parameters
 
-• **data?**: [`IContentGenerationCheckGrammarLanguagesResultInfo`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md)
+##### data?
+
+[`IContentGenerationCheckGrammarLanguagesResultInfo`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md)
 
 #### Returns
 
 [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:171466
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:171466
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:183152
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLanguagesResultInfo`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md).[`language_code`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:171462
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:171462
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:183150
+
 language name
 
 #### Implementation of
 
 [`IContentGenerationCheckGrammarLanguagesResultInfo`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md).[`language_name`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:171460
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:171460
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:183165
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:171475
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:171475
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:183183
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:171493
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:171493
 
 > `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
 
+Defined in: main.ts:183176
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:171486

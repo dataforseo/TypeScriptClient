@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / RowCellInfo
+[Documentation](../README.md) / RowCellInfo
 
 # Class: RowCellInfo
+
+Defined in: main.ts:173140
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new RowCellInfo**(`data`?): [`RowCellInfo`](RowCellInfo.md)
 
+Defined in: main.ts:173150
+
 #### Parameters
 
-• **data?**: [`IRowCellInfo`](../interfaces/IRowCellInfo.md)
+##### data?
+
+[`IRowCellInfo`](../interfaces/IRowCellInfo.md)
 
 #### Returns
 
 [`RowCellInfo`](RowCellInfo.md)
-
-#### Defined in
-
-main.ts:161436
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:161436
 
 > `optional` **is\_header**: `boolean`
 
+Defined in: main.ts:173146
+
 indicates if the text belongs to the header
 
 #### Implementation of
 
 [`IRowCellInfo`](../interfaces/IRowCellInfo.md).[`is_header`](../interfaces/IRowCellInfo.md#is_header)
-
-#### Defined in
-
-main.ts:161432
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:161432
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:173142
+
 content text
 
 #### Implementation of
 
 [`IRowCellInfo`](../interfaces/IRowCellInfo.md).[`text`](../interfaces/IRowCellInfo.md#text)
-
-#### Defined in
-
-main.ts:161428
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:161428
 
 > `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
 
+Defined in: main.ts:173144
+
 contains other URLs and anchors found in the content element
 
 #### Implementation of
 
 [`IRowCellInfo`](../interfaces/IRowCellInfo.md).[`urls`](../interfaces/IRowCellInfo.md#urls)
-
-#### Defined in
-
-main.ts:161430
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:161430
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:173159
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161445
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:161445
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173182
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161468
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:161468
 
 > `static` **fromJS**(`data`): [`RowCellInfo`](RowCellInfo.md)
 
+Defined in: main.ts:173175
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`RowCellInfo`](RowCellInfo.md)
-
-#### Defined in
-
-main.ts:161461

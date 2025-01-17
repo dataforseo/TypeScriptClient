@@ -1,16 +1,18 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageResourceIssueInfo
+[Documentation](../README.md) / IOnPageResourceIssueInfo
 
 # Interface: IOnPageResourceIssueInfo
+
+Defined in: main.ts:166711
 
 resource errors and warnings
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -18,11 +20,9 @@ resource errors and warnings
 
 > `optional` **errors**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
 
+Defined in: main.ts:166713
+
 resource errors
-
-#### Defined in
-
-main.ts:154985
 
 ***
 
@@ -30,8 +30,6 @@ main.ts:154985
 
 > `optional` **warnings**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
 
+Defined in: main.ts:166715
+
 resource warnings
-
-#### Defined in
-
-main.ts:154987

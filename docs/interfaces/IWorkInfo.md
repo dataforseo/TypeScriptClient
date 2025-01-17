@@ -21,4 +21,8 @@ information about work hours of the local establishment
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:198590
+=======
+main.ts:198623
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

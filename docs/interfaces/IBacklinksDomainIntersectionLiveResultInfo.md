@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksDomainIntersectionLiveResultInfo
+[Documentation](../README.md) / IBacklinksDomainIntersectionLiveResultInfo
 
 # Interface: IBacklinksDomainIntersectionLiveResultInfo
 
+Defined in: main.ts:158133
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`BacklinksDomainIntersectionLiveItem`](../classes/BacklinksDomainIntersectionLiveItem.md)[]
 
+Defined in: main.ts:158141
+
 contains domain that link to all targets from the POST array
-
-#### Defined in
-
-main.ts:146835
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:146835
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:158139
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:146833
 
 ***
 
@@ -40,15 +38,13 @@ main.ts:146833
 
 > `optional` **targets**: `object`
 
+Defined in: main.ts:158135
+
 target domains, subdomains or webpages in a POST array
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:146829
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -56,8 +52,6 @@ main.ts:146829
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:158137
+
 total amount of results relevant to your request
-
-#### Defined in
-
-main.ts:146831

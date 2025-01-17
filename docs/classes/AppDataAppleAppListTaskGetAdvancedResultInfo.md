@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataAppleAppListTaskGetAdvancedResultInfo
+[Documentation](../README.md) / AppDataAppleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppListTaskGetAdvancedResultInfo
+
+Defined in: main.ts:207592
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppDataAppleAppListTaskGetAdvancedResultInfo**(`data`?): [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:207620
+
 #### Parameters
 
-• **data?**: [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:195173
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:207603
 
 direct URL to search engine results
 in this case, the value will be null
@@ -45,15 +49,13 @@ in this case, the value will be null
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:195156
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:207608
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:195161
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
+
+Defined in: main.ts:207616
 
 found apps
 you can get more results by using the depth parameter when setting a task
@@ -81,15 +81,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#items)
 
-#### Defined in
-
-main.ts:195169
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:207613
 
 the number of app items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -98,15 +96,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:195166
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:207594
 
 app collection received in a POST array
 
@@ -114,15 +110,13 @@ app collection received in a POST array
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:195147
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:207600
 
 language code in a POST array
 
@@ -130,15 +124,13 @@ language code in a POST array
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:195153
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:207598
 
 location code in a POST array
 
@@ -146,15 +138,13 @@ location code in a POST array
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:195151
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:207596
 
 search engine domain in a POST array
 
@@ -162,15 +152,13 @@ search engine domain in a POST array
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:195149
-
 ***
 
 ### se\_results\_count?
 
 > `optional` **se\_results\_count**: `number`
+
+Defined in: main.ts:207610
 
 the total number of results
 
@@ -178,27 +166,23 @@ the total number of results
 
 [`IAppDataAppleAppListTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/IAppDataAppleAppListTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:195163
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:207629
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:195182
 
 ***
 
@@ -206,17 +190,17 @@ main.ts:195182
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:207658
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:195211
 
 ***
 
@@ -224,14 +208,14 @@ main.ts:195211
 
 > `static` **fromJS**(`data`): [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:207651
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataAppleAppListTaskGetAdvancedResultInfo`](AppDataAppleAppListTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:195204

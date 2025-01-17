@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkRanksLiveResultInfo
+[Documentation](../README.md) / BacklinksBulkRanksLiveResultInfo
 
 # Class: BacklinksBulkRanksLiveResultInfo
+
+Defined in: main.ts:160434
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksBulkRanksLiveResultInfo**(`data`?): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
+Defined in: main.ts:160442
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:149136
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:149136
 
 > `optional` **items**: [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)[]
 
+Defined in: main.ts:160438
+
 contains relevant backlinks and referring domains data
 
 #### Implementation of
 
 [`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:149132
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:149132
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:160436
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:149130
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:149130
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:160451
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:149145
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:149145
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:160473
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:149167
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:149167
 
 > `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
+Defined in: main.ts:160466
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:149160

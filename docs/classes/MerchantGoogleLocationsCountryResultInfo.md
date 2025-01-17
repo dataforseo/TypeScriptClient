@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MerchantGoogleLocationsCountryResultInfo
+[Documentation](../README.md) / MerchantGoogleLocationsCountryResultInfo
 
 # Class: MerchantGoogleLocationsCountryResultInfo
+
+Defined in: main.ts:185054
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MerchantGoogleLocationsCountryResultInfo**(`data`?): [`MerchantGoogleLocationsCountryResultInfo`](MerchantGoogleLocationsCountryResultInfo.md)
 
+Defined in: main.ts:185071
+
 #### Parameters
 
-• **data?**: [`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md)
+##### data?
+
+[`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`MerchantGoogleLocationsCountryResultInfo`](MerchantGoogleLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:173381
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:173381
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:185065
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:173375
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:173375
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:185056
+
 location code
 
 #### Implementation of
 
 [`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md).[`location_code`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:173366
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:173366
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:185058
+
 full name of the location
 
 #### Implementation of
 
 [`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md).[`location_name`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:173368
-
 ***
 
 ### location\_name\_parent?
 
 > `optional` **location\_name\_parent**: `string`
+
+Defined in: main.ts:185063
 
 the name of the superordinate location
 example:
@@ -95,15 +93,13 @@ example:
 
 [`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md).[`location_name_parent`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md#location_name_parent)
 
-#### Defined in
-
-main.ts:173373
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:185067
 
 location type
 
@@ -111,27 +107,23 @@ location type
 
 [`IMerchantGoogleLocationsCountryResultInfo`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md).[`location_type`](../interfaces/IMerchantGoogleLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:173377
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:185080
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:173390
 
 ***
 
@@ -139,17 +131,17 @@ main.ts:173390
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:185101
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:173411
 
 ***
 
@@ -157,14 +149,14 @@ main.ts:173411
 
 > `static` **fromJS**(`data`): [`MerchantGoogleLocationsCountryResultInfo`](MerchantGoogleLocationsCountryResultInfo.md)
 
+Defined in: main.ts:185094
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MerchantGoogleLocationsCountryResultInfo`](MerchantGoogleLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:173404

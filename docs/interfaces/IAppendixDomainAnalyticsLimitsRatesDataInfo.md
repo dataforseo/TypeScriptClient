@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../README.md) / IAppendixDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixDomainAnalyticsLimitsRatesDataInfo
 
+Defined in: main.ts:231519
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **errors**: `number`
 
-#### Defined in
-
-main.ts:216461
+Defined in: main.ts:231521
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:216461
 
 > `optional` **tasks\_ready**: `number`
 
-#### Defined in
-
-main.ts:216460
+Defined in: main.ts:231520
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:216460
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:216463
+Defined in: main.ts:231523
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:216463
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../classes/AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Defined in
-
-main.ts:216462
+Defined in: main.ts:231522

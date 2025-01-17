@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GoogleImageRelatedSearchesSerpElementItem
+[Documentation](../README.md) / GoogleImageRelatedSearchesSerpElementItem
 
 # Class: GoogleImageRelatedSearchesSerpElementItem
+
+Defined in: main.ts:50970
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new GoogleImageRelatedSearchesSerpElementItem**(`data`?): [`GoogleImageRelatedSearchesSerpElementItem`](GoogleImageRelatedSearchesSerpElementItem.md)
 
+Defined in: main.ts:50984
+
 #### Parameters
 
-• **data?**: [`IGoogleImageRelatedSearchesSerpElementItem`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md)
+##### data?
+
+[`IGoogleImageRelatedSearchesSerpElementItem`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md)
 
 #### Returns
 
@@ -36,23 +42,17 @@
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`constructor`](BaseGoogleImagesSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:47790
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:50742
+
 #### Inherited from
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`_discriminator`](BaseGoogleImagesSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:47548
 
 ***
 
@@ -60,21 +60,21 @@ main.ts:47548
 
 > `optional` **items**: `string`[]
 
-elements of search results found in SERP
+Defined in: main.ts:50976
+
+items of the element
 
 #### Implementation of
 
 [`IGoogleImageRelatedSearchesSerpElementItem`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md).[`items`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md#items)
-
-#### Defined in
-
-main.ts:47782
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:50974
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,15 +84,13 @@ left, right
 
 [`IGoogleImageRelatedSearchesSerpElementItem`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md).[`position`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:47780
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:50738
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -105,15 +103,13 @@ absolute position among all the elements in SERP
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`rank_absolute`](BaseGoogleImagesSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:47544
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:50735
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -127,15 +123,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`rank_group`](BaseGoogleImagesSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:47541
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
+
+Defined in: main.ts:50980
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -145,15 +139,13 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 [`IGoogleImageRelatedSearchesSerpElementItem`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md).[`rectangle`](../interfaces/IGoogleImageRelatedSearchesSerpElementItem.md#rectangle)
 
-#### Defined in
-
-main.ts:47786
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:50731
 
 type of element
 
@@ -165,15 +157,13 @@ type of element
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`type`](BaseGoogleImagesSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:47537
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:50740
 
 the XPath of the element
 
@@ -185,19 +175,19 @@ the XPath of the element
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`xpath`](BaseGoogleImagesSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:47546
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:50989
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -207,19 +197,19 @@ main.ts:47546
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`init`](BaseGoogleImagesSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:47795
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:51013
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -229,19 +219,19 @@ main.ts:47795
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`toJSON`](BaseGoogleImagesSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:47819
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`GoogleImageRelatedSearchesSerpElementItem`](GoogleImageRelatedSearchesSerpElementItem.md)
 
+Defined in: main.ts:51006
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -250,7 +240,3 @@ main.ts:47819
 #### Overrides
 
 [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md).[`fromJS`](BaseGoogleImagesSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:47812

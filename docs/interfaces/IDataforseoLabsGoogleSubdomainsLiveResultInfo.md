@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleSubdomainsLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleSubdomainsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSubdomainsLiveResultInfo
 
+Defined in: main.ts:104295
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsSubdomainsLiveItem`](../classes/DataforseoLabsSubdomainsLiveItem.md)[]
 
+Defined in: main.ts:104309
+
 contains subdomains and related data
-
-#### Defined in
-
-main.ts:94490
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:94490
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:104307
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:94488
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:94488
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:104303
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:94484
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:94484
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:104301
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:94482
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:94482
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:104297
+
 search engine type
-
-#### Defined in
-
-main.ts:94478
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:94478
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:104299
+
 domain in a POST array
-
-#### Defined in
-
-main.ts:94480
 
 ***
 
@@ -88,8 +78,6 @@ main.ts:94480
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:104305
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:94486

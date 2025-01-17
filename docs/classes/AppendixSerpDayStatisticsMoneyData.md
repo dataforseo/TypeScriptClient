@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixSerpDayStatisticsMoneyData
+[Documentation](../README.md) / AppendixSerpDayStatisticsMoneyData
 
 # Class: AppendixSerpDayStatisticsMoneyData
+
+Defined in: main.ts:235180
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixSerpDayStatisticsMoneyData**(`data`?): [`AppendixSerpDayStatisticsMoneyData`](AppendixSerpDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235196
+
 #### Parameters
 
-• **data?**: [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md)
+##### data?
+
+[`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md)
 
 #### Returns
 
 [`AppendixSerpDayStatisticsMoneyData`](AppendixSerpDayStatisticsMoneyData.md)
-
-#### Defined in
-
-main.ts:220096
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:220096
 
 > `optional` **ai\_summary**: `number`
 
+Defined in: main.ts:235191
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`ai_summary`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#ai_summary)
-
-#### Defined in
-
-main.ts:220092
 
 ***
 
@@ -52,27 +52,23 @@ main.ts:220092
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:235187
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`errors`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#errors)
-
-#### Defined in
-
-main.ts:220087
 
 ***
 
 ### jobs?
 
-> `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **jobs**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+Defined in: main.ts:235189
 
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`jobs`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#jobs)
-
-#### Defined in
-
-main.ts:220089
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:220089
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:235185
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`languages`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#languages)
-
-#### Defined in
-
-main.ts:220085
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:220085
 
 > `optional` **live**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
+Defined in: main.ts:235186
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`live`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#live)
-
-#### Defined in
-
-main.ts:220086
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:220086
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:235184
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`locations`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#locations)
-
-#### Defined in
-
-main.ts:220084
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:220084
 
 > `optional` **refund\_money**: `number`
 
+Defined in: main.ts:235192
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`refund_money`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#refund_money)
-
-#### Defined in
-
-main.ts:220091
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:220091
 
 > `optional` **screenshot**: `number`
 
+Defined in: main.ts:235190
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`screenshot`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#screenshot)
-
-#### Defined in
-
-main.ts:220090
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:220090
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
+Defined in: main.ts:235182
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`task_get`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#task_get)
-
-#### Defined in
-
-main.ts:220082
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:220082
 
 > `optional` **task\_post**: `number`
 
+Defined in: main.ts:235181
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`task_post`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#task_post)
-
-#### Defined in
-
-main.ts:220081
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:220081
 
 > `optional` **tasks\_fixed**: `number`
 
+Defined in: main.ts:235188
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`tasks_fixed`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#tasks_fixed)
-
-#### Defined in
-
-main.ts:220088
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:220088
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:235183
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsMoneyData`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md).[`tasks_ready`](../interfaces/IAppendixSerpDayStatisticsMoneyData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:220083
 
 ## Methods
 
@@ -206,17 +184,17 @@ main.ts:220083
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:235205
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:220105
 
 ***
 
@@ -224,17 +202,17 @@ main.ts:220105
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:235233
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:220133
 
 ***
 
@@ -242,14 +220,14 @@ main.ts:220133
 
 > `static` **fromJS**(`data`): [`AppendixSerpDayStatisticsMoneyData`](AppendixSerpDayStatisticsMoneyData.md)
 
+Defined in: main.ts:235226
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixSerpDayStatisticsMoneyData`](AppendixSerpDayStatisticsMoneyData.md)
-
-#### Defined in
-
-main.ts:220126

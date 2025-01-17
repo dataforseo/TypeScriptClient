@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceTasksReadyResultInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceTasksReadyResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTasksReadyResultInfo
+
+Defined in: main.ts:144792
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataBingKeywordPerformanceTasksReadyResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
 
+Defined in: main.ts:144809
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:132859
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:132859
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:144801
+
 date when the task was posted (in the UTC format)
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md).[`date_posted`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md#date_posted)
-
-#### Defined in
-
-main.ts:132851
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:132851
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:144805
+
 URL for collecting the results of the task
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md).[`endpoint`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md#endpoint)
-
-#### Defined in
-
-main.ts:132855
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:132855
 
 > `optional` **function**: `string`
 
+Defined in: main.ts:144799
+
 type of the task
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md).[`function`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md#function)
 
-#### Defined in
-
-main.ts:132849
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:144795
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -93,15 +91,13 @@ unique task identifier in our system in the UUID format
 
 [`IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md).[`id`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md#id)
 
-#### Defined in
-
-main.ts:132845
-
 ***
 
 ### se?
 
 > `optional` **se**: `string`
+
+Defined in: main.ts:144797
 
 search engine specified when setting the task
 
@@ -109,15 +105,13 @@ search engine specified when setting the task
 
 [`IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md).[`se`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md#se)
 
-#### Defined in
-
-main.ts:132847
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:144803
 
 user-defined task identifier
 
@@ -125,27 +119,23 @@ user-defined task identifier
 
 [`IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md).[`tag`](../interfaces/IKeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md#tag)
 
-#### Defined in
-
-main.ts:132853
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:144818
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:132868
 
 ***
 
@@ -153,17 +143,17 @@ main.ts:132868
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:144840
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:132890
 
 ***
 
@@ -171,14 +161,14 @@ main.ts:132890
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
 
+Defined in: main.ts:144833
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceTasksReadyResultInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResultInfo.md)
-
-#### Defined in
-
-main.ts:132883

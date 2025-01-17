@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / FaqBoxElement
+[Documentation](../README.md) / FaqBoxElement
 
 # Class: FaqBoxElement
+
+Defined in: main.ts:31219
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new FaqBoxElement**(`data`?): [`FaqBoxElement`](FaqBoxElement.md)
 
+Defined in: main.ts:31231
+
 #### Parameters
 
-• **data?**: [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md)
+##### data?
+
+[`IFaqBoxElement`](../interfaces/IFaqBoxElement.md)
 
 #### Returns
 
 [`FaqBoxElement`](FaqBoxElement.md)
-
-#### Defined in
-
-main.ts:29399
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:29399
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:31225
+
 description
 
 #### Implementation of
 
 [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md).[`description`](../interfaces/IFaqBoxElement.md#description)
-
-#### Defined in
-
-main.ts:29393
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:29393
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
+Defined in: main.ts:31227
+
 link of the element
 
 #### Implementation of
 
 [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md).[`links`](../interfaces/IFaqBoxElement.md#links)
-
-#### Defined in
-
-main.ts:29395
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:29395
 
 > `optional` **title**: `string`
 
-title of a given link element
+Defined in: main.ts:31223
+
+reference page title
 
 #### Implementation of
 
 [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md).[`title`](../interfaces/IFaqBoxElement.md#title)
-
-#### Defined in
-
-main.ts:29391
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:29391
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:31221
+
 type of element
 
 #### Implementation of
 
 [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md).[`type`](../interfaces/IFaqBoxElement.md#type)
-
-#### Defined in
-
-main.ts:29389
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:29389
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:31240
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:29408
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:29408
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:31264
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:29432
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:29432
 
 > `static` **fromJS**(`data`): [`FaqBoxElement`](FaqBoxElement.md)
 
+Defined in: main.ts:31257
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`FaqBoxElement`](FaqBoxElement.md)
-
-#### Defined in
-
-main.ts:29425

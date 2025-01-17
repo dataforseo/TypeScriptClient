@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BaseDataforseoTrendsItem
+[Documentation](../README.md) / BaseDataforseoTrendsItem
 
 # Class: BaseDataforseoTrendsItem
+
+Defined in: main.ts:22787
 
 ## Extended by
 
@@ -22,17 +24,17 @@
 
 > **new BaseDataforseoTrendsItem**(`data`?): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
+Defined in: main.ts:22799
+
 #### Parameters
 
-• **data?**: [`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md)
+##### data?
+
+[`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md)
 
 #### Returns
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
-
-#### Defined in
-
-main.ts:21896
 
 ## Properties
 
@@ -40,15 +42,15 @@ main.ts:21896
 
 > `protected` **\_discriminator**: `string`
 
-#### Defined in
-
-main.ts:21894
+Defined in: main.ts:22797
 
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
+
+Defined in: main.ts:22795
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -57,15 +59,13 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 [`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md).[`keywords`](../interfaces/IBaseDataforseoTrendsItem.md#keywords)
 
-#### Defined in
-
-main.ts:21892
-
 ***
 
 ### position?
 
 > `optional` **position**: `number`
+
+Defined in: main.ts:22792
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -74,15 +74,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md).[`position`](../interfaces/IBaseDataforseoTrendsItem.md#position)
 
-#### Defined in
-
-main.ts:21889
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22789
 
 type of element
 
@@ -90,27 +88,23 @@ type of element
 
 [`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md).[`type`](../interfaces/IBaseDataforseoTrendsItem.md#type)
 
-#### Defined in
-
-main.ts:21886
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:22809
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:21906
 
 ***
 
@@ -118,17 +112,17 @@ main.ts:21906
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:22843
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:21940
 
 ***
 
@@ -136,14 +130,14 @@ main.ts:21940
 
 > `static` **fromJS**(`data`): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
+Defined in: main.ts:22821
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
-
-#### Defined in
-
-main.ts:21918

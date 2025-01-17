@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILastModified
+[Documentation](../README.md) / ILastModified
 
 # Interface: ILastModified
 
+Defined in: main.ts:166841
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,15 +18,13 @@
 
 > `optional` **header**: `string`
 
+Defined in: main.ts:166847
+
 date and time when the header was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null
-
-#### Defined in
-
-main.ts:155119
 
 ***
 
@@ -32,15 +32,13 @@ main.ts:155119
 
 > `optional` **meta\_tag**: `string`
 
+Defined in: main.ts:166859
+
 date and time when the meta tag was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null
-
-#### Defined in
-
-main.ts:155131
 
 ***
 
@@ -48,12 +46,10 @@ main.ts:155131
 
 > `optional` **sitemap**: `string`
 
+Defined in: main.ts:166853
+
 date and time when the sitemap was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 if there is no data, the value will be null
-
-#### Defined in
-
-main.ts:155125

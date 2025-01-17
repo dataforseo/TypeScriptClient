@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IWorkTimeInfo
+[Documentation](../README.md) / IWorkTimeInfo
 
 # Interface: IWorkTimeInfo
 
+Defined in: main.ts:23081
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **hour**: `number`
 
+Defined in: main.ts:23083
+
 hours in the 24-hour format
-
-#### Defined in
-
-main.ts:22180
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:22180
 
 > `optional` **minute**: `number`
 
+Defined in: main.ts:23085
+
 minutes
-
-#### Defined in
-
-main.ts:22182

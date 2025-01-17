@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HotelsPackElement
+[Documentation](../README.md) / HotelsPackElement
 
 # Class: HotelsPackElement
+
+Defined in: main.ts:35493
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new HotelsPackElement**(`data`?): [`HotelsPackElement`](HotelsPackElement.md)
 
+Defined in: main.ts:35518
+
 #### Parameters
 
-• **data?**: [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md)
+##### data?
+
+[`IHotelsPackElement`](../interfaces/IHotelsPackElement.md)
 
 #### Returns
 
 [`HotelsPackElement`](HotelsPackElement.md)
-
-#### Defined in
-
-main.ts:33730
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:33730
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:35501
+
 description
 
 #### Implementation of
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`description`](../interfaces/IHotelsPackElement.md#description)
-
-#### Defined in
-
-main.ts:33713
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:33713
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35507
+
 website domain
 
 #### Implementation of
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`domain`](../interfaces/IHotelsPackElement.md#domain)
 
-#### Defined in
-
-main.ts:33719
-
 ***
 
 ### hotel\_identifier?
 
 > `optional` **hotel\_identifier**: `string`
+
+Defined in: main.ts:35505
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -78,15 +78,13 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`hotel_identifier`](../interfaces/IHotelsPackElement.md#hotel_identifier)
 
-#### Defined in
-
-main.ts:33717
-
 ***
 
 ### is\_paid?
 
 > `optional` **is\_paid**: `boolean`
+
+Defined in: main.ts:35511
 
 indicates whether the element is an ad
 
@@ -94,15 +92,13 @@ indicates whether the element is an ad
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`is_paid`](../interfaces/IHotelsPackElement.md#is_paid)
 
-#### Defined in
-
-main.ts:33723
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:35497
 
 price indicated in the element
 
@@ -110,15 +106,13 @@ price indicated in the element
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`price`](../interfaces/IHotelsPackElement.md#price)
 
-#### Defined in
-
-main.ts:33709
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:35514
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -127,15 +121,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`rating`](../interfaces/IHotelsPackElement.md#rating)
 
-#### Defined in
-
-main.ts:33726
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:35499
 
 title of a given link element
 
@@ -143,15 +135,13 @@ title of a given link element
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`title`](../interfaces/IHotelsPackElement.md#title)
 
-#### Defined in
-
-main.ts:33711
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:35495
 
 type of element
 
@@ -159,15 +149,13 @@ type of element
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`type`](../interfaces/IHotelsPackElement.md#type)
 
-#### Defined in
-
-main.ts:33707
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:35509
 
 URL
 
@@ -175,27 +163,23 @@ URL
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`url`](../interfaces/IHotelsPackElement.md#url)
 
-#### Defined in
-
-main.ts:33721
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:35527
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:33739
 
 ***
 
@@ -203,17 +187,17 @@ main.ts:33739
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:35552
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:33764
 
 ***
 
@@ -221,14 +205,14 @@ main.ts:33764
 
 > `static` **fromJS**(`data`): [`HotelsPackElement`](HotelsPackElement.md)
 
+Defined in: main.ts:35545
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HotelsPackElement`](HotelsPackElement.md)
-
-#### Defined in
-
-main.ts:33757

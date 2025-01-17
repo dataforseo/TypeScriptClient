@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / LocalBusinessReservationLink
+[Documentation](../README.md) / LocalBusinessReservationLink
 
 # Class: LocalBusinessReservationLink
+
+Defined in: main.ts:24973
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new LocalBusinessReservationLink**(`data`?): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
 
+Defined in: main.ts:24982
+
 #### Parameters
 
-• **data?**: [`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md)
+##### data?
+
+[`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
 
-#### Defined in
-
-main.ts:23912
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:24920
+
 #### Inherited from
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`_discriminator`](BaseLocalBusinessLink.md#_discriminator)
-
-#### Defined in
-
-main.ts:23850
 
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:24976
 
 title of the element
 domain of the reservation software
@@ -67,15 +69,13 @@ domain of the reservation software
 
 [`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md).[`title`](../interfaces/ILocalBusinessReservationLink.md#title)
 
-#### Defined in
-
-main.ts:23906
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:24918
 
 type of element
 
@@ -87,15 +87,13 @@ type of element
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`type`](BaseLocalBusinessLink.md#type)
 
-#### Defined in
-
-main.ts:23848
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:24978
 
 URL to make a reservation
 
@@ -103,19 +101,19 @@ URL to make a reservation
 
 [`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md).[`url`](../interfaces/ILocalBusinessReservationLink.md#url)
 
-#### Defined in
-
-main.ts:23908
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24987
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -125,19 +123,19 @@ main.ts:23908
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`init`](BaseLocalBusinessLink.md#init)
 
-#### Defined in
-
-main.ts:23917
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:25006
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -147,19 +145,19 @@ main.ts:23917
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`toJSON`](BaseLocalBusinessLink.md#tojson)
 
-#### Defined in
-
-main.ts:23936
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
 
+Defined in: main.ts:24999
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -168,7 +166,3 @@ main.ts:23936
 #### Overrides
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`fromJS`](BaseLocalBusinessLink.md#fromjs)
-
-#### Defined in
-
-main.ts:23929

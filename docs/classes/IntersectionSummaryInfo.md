@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IntersectionSummaryInfo
+[Documentation](../README.md) / IntersectionSummaryInfo
 
 # Class: IntersectionSummaryInfo
+
+Defined in: main.ts:157938
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new IntersectionSummaryInfo**(`data`?): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
+Defined in: main.ts:157944
+
 #### Parameters
 
-• **data?**: [`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md)
+##### data?
+
+[`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md)
 
 #### Returns
 
 [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
-
-#### Defined in
-
-main.ts:146638
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:146638
 
 > `optional` **intersections\_count**: `number`
 
+Defined in: main.ts:157940
+
 total number of intersections
 
 #### Implementation of
 
 [`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md).[`intersections_count`](../interfaces/IIntersectionSummaryInfo.md#intersections_count)
-
-#### Defined in
-
-main.ts:146634
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:146634
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:157953
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:146647
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:146647
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:157970
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:146664
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:146664
 
 > `static` **fromJS**(`data`): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
+Defined in: main.ts:157963
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
-
-#### Defined in
-
-main.ts:146657

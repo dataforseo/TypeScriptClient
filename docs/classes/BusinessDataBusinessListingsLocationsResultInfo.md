@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsLocationsResultInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsLocationsResultInfo
 
 # Class: BusinessDataBusinessListingsLocationsResultInfo
+
+Defined in: main.ts:210068
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataBusinessListingsLocationsResultInfo**(`data`?): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
 
+Defined in: main.ts:210078
+
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:197627
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:197627
 
 > `optional` **business\_count**: `number`
 
+Defined in: main.ts:210074
+
 number of businesses in this location in our database
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[`business_count`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#business_count)
-
-#### Defined in
-
-main.ts:197623
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:197623
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:210072
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[`country_iso_code`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:197621
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:197621
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:210070
+
 full name of the location
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsLocationsResultInfo`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md).[`location_name`](../interfaces/IBusinessDataBusinessListingsLocationsResultInfo.md#location_name)
-
-#### Defined in
-
-main.ts:197619
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:197619
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:210087
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:197636
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:197636
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:210106
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:197655
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:197655
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
 
+Defined in: main.ts:210099
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsLocationsResultInfo`](BusinessDataBusinessListingsLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:197648

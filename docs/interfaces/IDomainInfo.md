@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainInfo
+[Documentation](../README.md) / IDomainInfo
 
 # Interface: IDomainInfo
 
+Defined in: main.ts:165427
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **canonicalization\_status\_code**: `number`
 
+Defined in: main.ts:165483
+
 status code returned by a canonicalized page
 the checkup of the server behavior when our crawler tries to access the website via IP;
 in most cases, it is recommended that canonicalized pages respond with a 301 or 302 status code
-
-#### Defined in
-
-main.ts:153755
 
 ***
 
@@ -30,16 +30,14 @@ main.ts:153755
 
 > `optional` **checks**: `object`
 
+Defined in: main.ts:165473
+
 website checks
 other on-page check-ups related to the website
 
 #### Index Signature
 
- \[`key`: `string`\]: `boolean`
-
-#### Defined in
-
-main.ts:153745
+\[`key`: `string`\]: `boolean`
 
 ***
 
@@ -47,21 +45,21 @@ main.ts:153745
 
 > `optional` **cms**: `string`
 
+Defined in: main.ts:165435
+
 content management system
 content management system identified on a website
 the content of the generator meta tag
 the data is taken from the first random page that returns the 200 response code
 if our crawler was unable to identify the cms, the value would be null
 
-#### Defined in
-
-main.ts:153707
-
 ***
 
 ### crawl\_end?
 
 > `optional` **crawl\_end**: `string`
+
+Defined in: main.ts:165455
 
 time when the crawling ended
 date and time when the crawling was finished
@@ -70,15 +68,13 @@ example:
 2019-11-15 12:57:46 +00:00note: informative only if "crawl_progress" is "finished"
 if "crawl_progress" is in_progress, the value will be null
 
-#### Defined in
-
-main.ts:153727
-
 ***
 
 ### crawl\_start?
 
 > `optional` **crawl\_start**: `string`
+
+Defined in: main.ts:165448
 
 time when the crawling start
 date and time when the website was sent for crawling
@@ -86,29 +82,25 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Defined in
-
-main.ts:153720
-
 ***
 
 ### directory\_browsing\_status\_code?
 
 > `optional` **directory\_browsing\_status\_code**: `number`
 
+Defined in: main.ts:165487
+
 status code returned by a directory
 the status code returned by a directory page on a target website
 in most cases, it is recommended that directories respond with a 403 or 401 status code
-
-#### Defined in
-
-main.ts:153759
 
 ***
 
 ### extended\_crawl\_status?
 
 > `optional` **extended\_crawl\_status**: `string`
+
+Defined in: main.ts:165467
 
 crawl status and errors
 indicates the reason why a website was not crawled;
@@ -122,21 +114,15 @@ forbidden_http_header – HTTP header of the page contains “X-Robots-Tag: noin
 too_many_redirects – the first crawled page has more than 10 redirects;
 unknown – the reason is unknown
 
-#### Defined in
-
-main.ts:153739
-
 ***
 
 ### ip?
 
 > `optional` **ip**: `string`
 
+Defined in: main.ts:165437
+
 domain ip address
-
-#### Defined in
-
-main.ts:153709
 
 ***
 
@@ -144,11 +130,9 @@ main.ts:153709
 
 > `optional` **main\_domain**: `string`
 
+Defined in: main.ts:165493
+
 root domain name
-
-#### Defined in
-
-main.ts:153765
 
 ***
 
@@ -156,11 +140,9 @@ main.ts:153765
 
 > `optional` **name**: `string`
 
+Defined in: main.ts:165429
+
 domain name
-
-#### Defined in
-
-main.ts:153701
 
 ***
 
@@ -168,12 +150,10 @@ main.ts:153701
 
 > `optional` **page\_not\_found\_status\_code**: `number`
 
+Defined in: main.ts:165479
+
 status code returned by a non-existent page
 in most cases, it is recommended a server returns a 404 response code
-
-#### Defined in
-
-main.ts:153751
 
 ***
 
@@ -181,14 +161,12 @@ main.ts:153751
 
 > `optional` **server**: `string`
 
+Defined in: main.ts:165442
+
 website server
 the version of the server detected on a website
 the content of the server header
 the information is taken from the first page which response code is 200
-
-#### Defined in
-
-main.ts:153714
 
 ***
 
@@ -196,12 +174,10 @@ main.ts:153714
 
 > `optional` **ssl\_info**: [`SslInfo`](../classes/SslInfo.md)
 
+Defined in: main.ts:165470
+
 ssl certificate info
 information about the Secure Sockets Layer protocol detected on a website
-
-#### Defined in
-
-main.ts:153742
 
 ***
 
@@ -209,12 +185,10 @@ main.ts:153742
 
 > `optional` **total\_pages**: `number`
 
+Defined in: main.ts:165476
+
 total crawled pages
 the total number of crawled pages
-
-#### Defined in
-
-main.ts:153748
 
 ***
 
@@ -222,10 +196,8 @@ main.ts:153748
 
 > `optional` **www\_redirect\_status\_code**: `number`
 
+Defined in: main.ts:165491
+
 redirect status code
 the status code of the www to non-www redirect
 in most cases, it is recommended that redirect returns a 301 status code
-
-#### Defined in
-
-main.ts:153763

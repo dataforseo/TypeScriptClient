@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAiOverviewElement
+[Documentation](../README.md) / IAiOverviewElement
 
 # Interface: IAiOverviewElement
 
+Defined in: main.ts:30910
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,9 @@
 
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
+Defined in: main.ts:30918
+
 images of the element
-if there are none, equals null
-
-#### Defined in
-
-main.ts:36549
 
 ***
 
@@ -29,12 +28,9 @@ main.ts:36549
 
 > `optional` **references**: [`AiOverviewReference`](../classes/AiOverviewReference.md)[]
 
+Defined in: main.ts:30920
+
 references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element
-
-#### Defined in
-
-main.ts:36552
 
 ***
 
@@ -42,12 +38,9 @@ main.ts:36552
 
 > `optional` **text**: `string`
 
-reference text
-text snippet from the page that was used to generate the ai_overview_element
+Defined in: main.ts:30916
 
-#### Defined in
-
-main.ts:36546
+description content
 
 ***
 
@@ -55,11 +48,9 @@ main.ts:36546
 
 > `optional` **title**: `string`
 
-title of a given link element
+Defined in: main.ts:30914
 
-#### Defined in
-
-main.ts:36543
+title of the element
 
 ***
 
@@ -67,8 +58,6 @@ main.ts:36543
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:30912
+
 type of element
-
-#### Defined in
-
-main.ts:36541

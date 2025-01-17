@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRankChanges
+[Documentation](../README.md) / IRankChanges
 
 # Interface: IRankChanges
 
+Defined in: main.ts:101028
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **is\_down**: `boolean`
 
+Defined in: main.ts:101041
+
 rank of this element went down
 if the value is true, position of the element in SERP is lower compared to the previous check
-
-#### Defined in
-
-main.ts:91230
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:91230
 
 > `optional` **is\_new**: `boolean`
 
+Defined in: main.ts:101035
+
 element was previously present in SERP
 if the value is true, previously collected SERP didn’t contain this element
-
-#### Defined in
-
-main.ts:91224
 
 ***
 
@@ -42,12 +40,10 @@ main.ts:91224
 
 > `optional` **is\_up**: `boolean`
 
+Defined in: main.ts:101038
+
 rank of this element went up
 if the value is true, position of the element in SERP is higher compared to the previous check
-
-#### Defined in
-
-main.ts:91227
 
 ***
 
@@ -55,10 +51,8 @@ main.ts:91227
 
 > `optional` **previous\_rank\_absolute**: `number`
 
+Defined in: main.ts:101032
+
 previous absolute rank in SERP
 indicates previous rank of the element in Google SERP;
 if this element is new, the value will be null
-
-#### Defined in
-
-main.ts:91221

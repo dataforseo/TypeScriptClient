@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixLighthouseOnPageDayStatisticsRatesData
+[Documentation](../README.md) / AppendixLighthouseOnPageDayStatisticsRatesData
 
 # Class: AppendixLighthouseOnPageDayStatisticsRatesData
+
+Defined in: main.ts:233984
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixLighthouseOnPageDayStatisticsRatesData**(`data`?): [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
 
+Defined in: main.ts:233995
+
 #### Parameters
 
-• **data?**: [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218895
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:218895
 
 > `optional` **audits**: `number`
 
+Defined in: main.ts:233989
+
 #### Implementation of
 
 [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md).[`audits`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md#audits)
-
-#### Defined in
-
-main.ts:218890
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:218890
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:233990
+
 #### Implementation of
 
 [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md).[`languages`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md#languages)
-
-#### Defined in
-
-main.ts:218889
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:218889
 
 > `optional` **live**: `number`
 
+Defined in: main.ts:233988
+
 #### Implementation of
 
 [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md).[`live`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md#live)
-
-#### Defined in
-
-main.ts:218888
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:218888
 
 > `optional` **task\_get**: `number`
 
+Defined in: main.ts:233987
+
 #### Implementation of
 
 [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md).[`task_get`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md#task_get)
-
-#### Defined in
-
-main.ts:218887
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:218887
 
 > `optional` **task\_post**: `number`
 
+Defined in: main.ts:233985
+
 #### Implementation of
 
 [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md).[`task_post`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md#task_post)
-
-#### Defined in
-
-main.ts:218885
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:218885
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:233986
+
 #### Implementation of
 
 [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md).[`tasks_ready`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:218886
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:218886
 
 > `optional` **versions**: `number`
 
+Defined in: main.ts:233991
+
 #### Implementation of
 
 [`IAppendixLighthouseOnPageDayStatisticsRatesData`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md).[`versions`](../interfaces/IAppendixLighthouseOnPageDayStatisticsRatesData.md#versions)
-
-#### Defined in
-
-main.ts:218891
 
 ## Methods
 
@@ -136,17 +124,17 @@ main.ts:218891
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:234004
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218904
 
 ***
 
@@ -154,17 +142,17 @@ main.ts:218904
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:234027
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218927
 
 ***
 
@@ -172,14 +160,14 @@ main.ts:218927
 
 > `static` **fromJS**(`data`): [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
 
+Defined in: main.ts:234020
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218920

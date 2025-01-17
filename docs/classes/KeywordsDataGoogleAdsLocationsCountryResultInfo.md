@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsLocationsCountryResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsLocationsCountryResultInfo
 
 # Class: KeywordsDataGoogleAdsLocationsCountryResultInfo
+
+Defined in: main.ts:126354
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataGoogleAdsLocationsCountryResultInfo**(`data`?): [`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)
 
+Defined in: main.ts:126376
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:117103
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:117103
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:126369
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:117096
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:117096
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:126356
+
 location code
 
 #### Implementation of
 
 [`IKeywordsDataGoogleAdsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:117083
-
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:126367
 
 the code of the superordinate location
 example:
@@ -83,15 +83,13 @@ where location_code_parent corresponds to:
 
 [`IKeywordsDataGoogleAdsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md#location_code_parent)
 
-#### Defined in
-
-main.ts:117094
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:126358
 
 full name of the location
 
@@ -99,15 +97,13 @@ full name of the location
 
 [`IKeywordsDataGoogleAdsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:117085
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:126372
 
 location type
 possible values according to Google’s target types
@@ -116,27 +112,23 @@ possible values according to Google’s target types
 
 [`IKeywordsDataGoogleAdsLocationsCountryResultInfo`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md).[`location_type`](../interfaces/IKeywordsDataGoogleAdsLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:117099
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:126385
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:117112
 
 ***
 
@@ -144,17 +136,17 @@ main.ts:117112
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:126406
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:117133
 
 ***
 
@@ -162,14 +154,14 @@ main.ts:117133
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)
 
+Defined in: main.ts:126399
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsLocationsCountryResultInfo`](KeywordsDataGoogleAdsLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:117126

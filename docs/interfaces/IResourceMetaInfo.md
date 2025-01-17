@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IResourceMetaInfo
+[Documentation](../README.md) / IResourceMetaInfo
 
 # Interface: IResourceMetaInfo
 
+Defined in: main.ts:167870
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **alternative\_text**: `string`
 
+Defined in: main.ts:167873
+
 content of the image alt attribute
 the value depends on the resource_type
-
-#### Defined in
-
-main.ts:156137
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:156137
 
 > `optional` **height**: `number`
 
+Defined in: main.ts:167883
+
 image height in px
-
-#### Defined in
-
-main.ts:156147
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:156147
 
 > `optional` **original\_height**: `number`
 
+Defined in: main.ts:167879
+
 original image height in px
-
-#### Defined in
-
-main.ts:156143
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:156143
 
 > `optional` **original\_width**: `number`
 
+Defined in: main.ts:167877
+
 original image width in px
-
-#### Defined in
-
-main.ts:156141
 
 ***
 
@@ -65,11 +59,9 @@ main.ts:156141
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:167875
+
 title
-
-#### Defined in
-
-main.ts:156139
 
 ***
 
@@ -77,8 +69,6 @@ main.ts:156139
 
 > `optional` **width**: `number`
 
+Defined in: main.ts:167881
+
 image width in px
-
-#### Defined in
-
-main.ts:156145

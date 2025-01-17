@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataErrorsResultInfo
+[Documentation](../README.md) / IKeywordsDataErrorsResultInfo
 
 # Interface: IKeywordsDataErrorsResultInfo
 
+Defined in: main.ts:125822
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:125829
+
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:116556
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:116556
 
 > `optional` **error\_code**: `number`
 
+Defined in: main.ts:125833
+
 error code
-
-#### Defined in
-
-main.ts:116560
 
 ***
 
@@ -43,12 +41,10 @@ main.ts:116560
 
 > `optional` **error\_message**: `string`
 
+Defined in: main.ts:125836
+
 error message or error URL
 error message (see full list) or URL that caused an error
-
-#### Defined in
-
-main.ts:116563
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:116563
 
 > `optional` **function**: `string`
 
+Defined in: main.ts:125831
+
 corresponding API function
-
-#### Defined in
-
-main.ts:116558
 
 ***
 
@@ -68,11 +62,9 @@ main.ts:116558
 
 > `optional` **http\_code**: `number`
 
+Defined in: main.ts:125843
+
 HTTP status code
-
-#### Defined in
-
-main.ts:116570
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:116570
 
 > `optional` **http\_method**: `string`
 
+Defined in: main.ts:125841
+
 HTTP method
-
-#### Defined in
-
-main.ts:116568
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:116568
 
 > `optional` **http\_response**: `string`
 
+Defined in: main.ts:125849
+
 HTTP response
 server response
-
-#### Defined in
-
-main.ts:116576
 
 ***
 
@@ -105,12 +93,10 @@ main.ts:116576
 
 > `optional` **http\_time**: `number`
 
+Defined in: main.ts:125846
+
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
-
-#### Defined in
-
-main.ts:116573
 
 ***
 
@@ -118,12 +104,10 @@ main.ts:116573
 
 > `optional` **http\_url**: `string`
 
+Defined in: main.ts:125839
+
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
-
-#### Defined in
-
-main.ts:116566
 
 ***
 
@@ -131,8 +115,6 @@ main.ts:116566
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:125824
+
 id of the task
-
-#### Defined in
-
-main.ts:116551

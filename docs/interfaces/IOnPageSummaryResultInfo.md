@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageSummaryResultInfo
+[Documentation](../README.md) / IOnPageSummaryResultInfo
 
 # Interface: IOnPageSummaryResultInfo
 
+Defined in: main.ts:165724
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **crawl\_gateway\_address**: `string`
 
+Defined in: main.ts:165733
+
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section
-
-#### Defined in
-
-main.ts:154005
 
 ***
 
@@ -30,12 +30,10 @@ main.ts:154005
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:165727
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:153999
 
 ***
 
@@ -43,17 +41,17 @@ main.ts:153999
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:165729
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:154001
 
 ***
 
 ### crawl\_stop\_reason?
 
 > `optional` **crawl\_stop\_reason**: `string`
+
+Defined in: main.ts:165741
 
 reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -63,22 +61,16 @@ empty_queue – all URLs in the queue were crawled;
 force_stopped – the crawling process was halted using the On Page API Force Stop function;
 unexpected_exception – an internal error was encountered while crawling the target, contact support for more info
 
-#### Defined in
-
-main.ts:154013
-
 ***
 
 ### domain\_info?
 
 > `optional` **domain\_info**: [`DomainInfo`](../classes/DomainInfo.md)
 
+Defined in: main.ts:165744
+
 domain-wide info
 on-page information about the target domain and crawling process
-
-#### Defined in
-
-main.ts:154016
 
 ***
 
@@ -86,9 +78,7 @@ main.ts:154016
 
 > `optional` **page\_metrics**: [`PageMetrics`](../classes/PageMetrics.md)
 
+Defined in: main.ts:165747
+
 page-specific info
 metrics information on the target website pages
-
-#### Defined in
-
-main.ts:154019

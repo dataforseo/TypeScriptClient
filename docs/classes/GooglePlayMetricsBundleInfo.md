@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / GooglePlayMetricsBundleInfo
+[Documentation](../README.md) / GooglePlayMetricsBundleInfo
 
 # Class: GooglePlayMetricsBundleInfo
+
+Defined in: main.ts:122250
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new GooglePlayMetricsBundleInfo**(`data`?): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
+Defined in: main.ts:122256
+
 #### Parameters
 
-• **data?**: [`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md)
+##### data?
+
+[`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md)
 
 #### Returns
 
 [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:112823
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:112823
 
 > `optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
+Defined in: main.ts:122252
+
 ranking data from Google Play organic search
 
 #### Implementation of
 
 [`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md).[`google_play_search_organic`](../interfaces/IGooglePlayMetricsBundleInfo.md#google_play_search_organic)
-
-#### Defined in
-
-main.ts:112819
 
 ## Methods
 
@@ -54,17 +54,17 @@ main.ts:112819
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:122265
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:112832
 
 ***
 
@@ -72,17 +72,17 @@ main.ts:112832
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:122282
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:112849
 
 ***
 
@@ -90,14 +90,14 @@ main.ts:112849
 
 > `static` **fromJS**(`data`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
+Defined in: main.ts:122275
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:112842

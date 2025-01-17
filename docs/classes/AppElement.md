@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppElement
+[Documentation](../README.md) / AppElement
 
 # Class: AppElement
+
+Defined in: main.ts:32749
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppElement**(`data`?): [`AppElement`](AppElement.md)
 
+Defined in: main.ts:32763
+
 #### Parameters
 
-• **data?**: [`IAppElement`](../interfaces/IAppElement.md)
+##### data?
+
+[`IAppElement`](../interfaces/IAppElement.md)
 
 #### Returns
 
 [`AppElement`](AppElement.md)
-
-#### Defined in
-
-main.ts:30941
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:30941
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:32755
+
 description
 
 #### Implementation of
 
 [`IAppElement`](../interfaces/IAppElement.md).[`description`](../interfaces/IAppElement.md#description)
-
-#### Defined in
-
-main.ts:30933
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:30933
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
+Defined in: main.ts:32759
+
 price indicated in the element
 
 #### Implementation of
 
 [`IAppElement`](../interfaces/IAppElement.md).[`price`](../interfaces/IAppElement.md#price)
-
-#### Defined in
-
-main.ts:30937
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:30937
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:32753
+
 title of a given link element
 
 #### Implementation of
 
 [`IAppElement`](../interfaces/IAppElement.md).[`title`](../interfaces/IAppElement.md#title)
-
-#### Defined in
-
-main.ts:30931
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:30931
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:32751
+
 type of element
 
 #### Implementation of
 
 [`IAppElement`](../interfaces/IAppElement.md).[`type`](../interfaces/IAppElement.md#type)
-
-#### Defined in
-
-main.ts:30929
 
 ***
 
@@ -102,15 +96,13 @@ main.ts:30929
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:32757
+
 URL
 
 #### Implementation of
 
 [`IAppElement`](../interfaces/IAppElement.md).[`url`](../interfaces/IAppElement.md#url)
-
-#### Defined in
-
-main.ts:30935
 
 ## Methods
 
@@ -118,17 +110,17 @@ main.ts:30935
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:32772
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:30950
 
 ***
 
@@ -136,17 +128,17 @@ main.ts:30950
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:32793
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:30971
 
 ***
 
@@ -154,14 +146,14 @@ main.ts:30971
 
 > `static` **fromJS**(`data`): [`AppElement`](AppElement.md)
 
+Defined in: main.ts:32786
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppElement`](AppElement.md)
-
-#### Defined in
-
-main.ts:30964

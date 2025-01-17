@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+[Documentation](../README.md) / AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Class: AppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+
+Defined in: main.ts:236144
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo**(`data`?): [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236155
+
 #### Parameters
 
-• **data?**: [`IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
+##### data?
+
+[`IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:220891
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:220891
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:236151
+
 cost, USD
 
 #### Implementation of
 
 [`IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md).[`cost`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md#cost)
 
-#### Defined in
-
-main.ts:220887
-
 ***
 
 ### cost\_type?
 
 > `optional` **cost\_type**: `string`
+
+Defined in: main.ts:236149
 
 charge type
 can take the following values:
@@ -63,27 +65,23 @@ per_request – charge for a GET or POST request
 
 [`IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md).[`cost_type`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md#cost_type)
 
-#### Defined in
-
-main.ts:220885
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:236164
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:220900
 
 ***
 
@@ -91,17 +89,17 @@ main.ts:220900
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:236182
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:220918
 
 ***
 
@@ -109,14 +107,14 @@ main.ts:220918
 
 > `static` **fromJS**(`data`): [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:236175
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:220911

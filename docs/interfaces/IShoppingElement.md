@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IShoppingElement
+[Documentation](../README.md) / IShoppingElement
 
 # Interface: IShoppingElement
 
+Defined in: main.ts:33439
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:33450
+
 description
-
-#### Defined in
-
-main.ts:31638
 
 ***
 
@@ -28,14 +28,12 @@ main.ts:31638
 
 > `optional` **marketplace**: `string`
 
+Defined in: main.ts:33455
+
 merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
 example:
 by Google
-
-#### Defined in
-
-main.ts:31643
 
 ***
 
@@ -43,12 +41,10 @@ main.ts:31643
 
 > `optional` **marketplace\_url**: `string`
 
+Defined in: main.ts:33458
+
 relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted
-
-#### Defined in
-
-main.ts:31646
 
 ***
 
@@ -56,11 +52,9 @@ main.ts:31646
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:33445
+
 price indicated in the element
-
-#### Defined in
-
-main.ts:31633
 
 ***
 
@@ -68,12 +62,10 @@ main.ts:31633
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:33448
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:31636
 
 ***
 
@@ -81,11 +73,9 @@ main.ts:31636
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:33443
+
 title of a given link element
-
-#### Defined in
-
-main.ts:31631
 
 ***
 
@@ -93,11 +83,9 @@ main.ts:31631
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:33441
+
 type of element
-
-#### Defined in
-
-main.ts:31629
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:31629
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:33460
+
 URL
-
-#### Defined in
-
-main.ts:31648

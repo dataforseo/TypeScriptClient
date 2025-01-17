@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AlternateLinkElementItem
+[Documentation](../README.md) / AlternateLinkElementItem
 
 # Class: AlternateLinkElementItem
+
+Defined in: main.ts:169765
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new AlternateLinkElementItem**(`data`?): [`AlternateLinkElementItem`](AlternateLinkElementItem.md)
 
+Defined in: main.ts:169772
+
 #### Parameters
 
-• **data?**: [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md)
+##### data?
+
+[`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`constructor`](BaseOnPageLinkItemInfo.md#constructors)
 
-#### Defined in
-
-main.ts:158036
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:22579
+
 #### Inherited from
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`_discriminator`](BaseOnPageLinkItemInfo.md#_discriminator)
-
-#### Defined in
-
-main.ts:21676
 
 ***
 
 ### direction?
 
 > `optional` **direction**: `string`
+
+Defined in: main.ts:22571
 
 direction of the link
 possible values: internal, external
@@ -71,15 +73,13 @@ possible values: internal, external
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`direction`](BaseOnPageLinkItemInfo.md#direction)
 
-#### Defined in
-
-main.ts:21668
-
 ***
 
 ### dofollow?
 
 > `optional` **dofollow**: `boolean`
+
+Defined in: main.ts:22564
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
@@ -92,15 +92,13 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`dofollow`](BaseOnPageLinkItemInfo.md#dofollow)
 
-#### Defined in
-
-main.ts:21661
-
 ***
 
 ### domain\_from?
 
 > `optional` **domain\_from**: `string`
+
+Defined in: main.ts:22546
 
 referring domain
 the link was found on this domain
@@ -113,15 +111,13 @@ the link was found on this domain
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`domain_from`](BaseOnPageLinkItemInfo.md#domain_from)
 
-#### Defined in
-
-main.ts:21643
-
 ***
 
 ### domain\_to?
 
 > `optional` **domain\_to**: `string`
+
+Defined in: main.ts:22549
 
 referenced domain
 the link is pointing to this domain
@@ -134,15 +130,13 @@ the link is pointing to this domain
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`domain_to`](BaseOnPageLinkItemInfo.md#domain_to)
 
-#### Defined in
-
-main.ts:21646
-
 ***
 
 ### is\_broken?
 
 > `optional` **is\_broken**: `boolean`
+
+Defined in: main.ts:22574
 
 link is broken
 indicates whether a link is directing to a broken page or resource
@@ -155,15 +149,13 @@ indicates whether a link is directing to a broken page or resource
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`is_broken`](BaseOnPageLinkItemInfo.md#is_broken)
 
-#### Defined in
-
-main.ts:21671
-
 ***
 
 ### is\_link\_relation\_conflict?
 
 > `optional` **is\_link\_relation\_conflict**: `boolean`
+
+Defined in: main.ts:22577
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
@@ -176,15 +168,13 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`is_link_relation_conflict`](BaseOnPageLinkItemInfo.md#is_link_relation_conflict)
 
-#### Defined in
-
-main.ts:21674
-
 ***
 
 ### link\_from?
 
 > `optional` **link\_from**: `string`
+
+Defined in: main.ts:22558
 
 referring page
 absolute URL of the page on which the link was found
@@ -197,15 +187,13 @@ absolute URL of the page on which the link was found
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`link_from`](BaseOnPageLinkItemInfo.md#link_from)
 
-#### Defined in
-
-main.ts:21655
-
 ***
 
 ### link\_to?
 
 > `optional` **link\_to**: `string`
+
+Defined in: main.ts:22561
 
 referenced page
 absolute URL of the page to which the link is pointing
@@ -218,15 +206,13 @@ absolute URL of the page to which the link is pointing
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`link_to`](BaseOnPageLinkItemInfo.md#link_to)
 
-#### Defined in
-
-main.ts:21658
-
 ***
 
 ### page\_from?
 
 > `optional` **page\_from**: `string`
+
+Defined in: main.ts:22552
 
 referring page
 relative URL of the page on which the link was found
@@ -239,15 +225,13 @@ relative URL of the page on which the link was found
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_from`](BaseOnPageLinkItemInfo.md#page_from)
 
-#### Defined in
-
-main.ts:21649
-
 ***
 
 ### page\_from\_scheme?
 
 > `optional` **page\_from\_scheme**: `string`
+
+Defined in: main.ts:22566
 
 url scheme of the referring page
 
@@ -259,15 +243,13 @@ url scheme of the referring page
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_from_scheme`](BaseOnPageLinkItemInfo.md#page_from_scheme)
 
-#### Defined in
-
-main.ts:21663
-
 ***
 
 ### page\_to?
 
 > `optional` **page\_to**: `string`
+
+Defined in: main.ts:22555
 
 referenced page
 relative URL of the page to which the link is pointing
@@ -280,15 +262,13 @@ relative URL of the page to which the link is pointing
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_to`](BaseOnPageLinkItemInfo.md#page_to)
 
-#### Defined in
-
-main.ts:21652
-
 ***
 
 ### page\_to\_scheme?
 
 > `optional` **page\_to\_scheme**: `string`
+
+Defined in: main.ts:22568
 
 url scheme of the referenced page
 
@@ -300,15 +280,13 @@ url scheme of the referenced page
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_to_scheme`](BaseOnPageLinkItemInfo.md#page_to_scheme)
 
-#### Defined in
-
-main.ts:21665
-
 ***
 
 ### page\_to\_status\_code?
 
 > `optional` **page\_to\_status\_code**: `number`
+
+Defined in: main.ts:169768
 
 status code of the referenced page
 status code of the page to which the link is pointing
@@ -317,15 +295,13 @@ status code of the page to which the link is pointing
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`page_to_status_code`](../interfaces/IAlternateLinkElementItem.md#page_to_status_code)
 
-#### Defined in
-
-main.ts:158032
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:22543
 
 type of element
 
@@ -337,19 +313,19 @@ type of element
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`type`](BaseOnPageLinkItemInfo.md#type)
 
-#### Defined in
-
-main.ts:21640
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:169777
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -359,19 +335,19 @@ main.ts:21640
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`init`](BaseOnPageLinkItemInfo.md#init)
 
-#### Defined in
-
-main.ts:158041
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:169795
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -381,19 +357,19 @@ main.ts:158041
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`toJSON`](BaseOnPageLinkItemInfo.md#tojson)
 
-#### Defined in
-
-main.ts:158059
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`AlternateLinkElementItem`](AlternateLinkElementItem.md)
 
+Defined in: main.ts:169788
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -402,7 +378,3 @@ main.ts:158059
 #### Overrides
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`fromJS`](BaseOnPageLinkItemInfo.md#fromjs)
-
-#### Defined in
-
-main.ts:158052

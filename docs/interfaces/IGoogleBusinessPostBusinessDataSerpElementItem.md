@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGoogleBusinessPostBusinessDataSerpElementItem
+[Documentation](../README.md) / IGoogleBusinessPostBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
+
+Defined in: main.ts:215781
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:215788
+
 author of the post
-
-#### Defined in
-
-main.ts:202712
 
 ***
 
@@ -32,11 +32,9 @@ main.ts:202712
 
 > `optional` **images\_url**: `string`
 
+Defined in: main.ts:215796
+
 url of an image included in the post
-
-#### Defined in
-
-main.ts:202720
 
 ***
 
@@ -44,11 +42,9 @@ main.ts:202720
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
+Defined in: main.ts:215807
+
 links included in the post
-
-#### Defined in
-
-main.ts:202731
 
 ***
 
@@ -56,12 +52,10 @@ main.ts:202731
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:215784
+
 the alignment of the element in SERP
 can take the following values: right
-
-#### Defined in
-
-main.ts:202708
 
 ***
 
@@ -69,13 +63,11 @@ main.ts:202708
 
 > `optional` **post\_date**: `string`
 
+Defined in: main.ts:215800
+
 date when a post was published
 in the following format:
 "mm/dd/yyyy hh:mm:ss"
-
-#### Defined in
-
-main.ts:202724
 
 ***
 
@@ -83,11 +75,9 @@ main.ts:202724
 
 > `optional` **post\_text**: `string`
 
+Defined in: main.ts:215792
+
 main content of a post
-
-#### Defined in
-
-main.ts:202716
 
 ***
 
@@ -95,21 +85,21 @@ main.ts:202716
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:22295
+
 absolute rank among all the elements
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21392
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:22293
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from the rank_group
@@ -118,21 +108,15 @@ positions of elements with different type values are omitted from the rank_group
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21390
-
 ***
 
 ### snippet?
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:215790
+
 additional content of a post
-
-#### Defined in
-
-main.ts:202714
 
 ***
 
@@ -140,14 +124,12 @@ main.ts:202714
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:215805
+
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:202729
 
 ***
 
@@ -155,15 +137,13 @@ main.ts:202729
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22290
+
 type of element
 
 #### Inherited from
 
 [`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21387
 
 ***
 
@@ -171,11 +151,9 @@ main.ts:21387
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:215794
+
 url of a post
-
-#### Defined in
-
-main.ts:202718
 
 ***
 
@@ -183,8 +161,6 @@ main.ts:202718
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:215786
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:202710

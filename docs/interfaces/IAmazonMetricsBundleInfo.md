@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAmazonMetricsBundleInfo
+[Documentation](../README.md) / IAmazonMetricsBundleInfo
 
 # Interface: IAmazonMetricsBundleInfo
 
+Defined in: main.ts:113895
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **amazon\_paid**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
+Defined in: main.ts:113899
+
 ranking data from Amazon paid SERP
-
-#### Defined in
-
-main.ts:104160
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:104160
 
 > `optional` **amazon\_serp**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
+Defined in: main.ts:113897
+
 ranking data from Amazon organic SERP
-
-#### Defined in
-
-main.ts:104158

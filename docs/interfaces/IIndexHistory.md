@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IIndexHistory
+[Documentation](../README.md) / IIndexHistory
 
 # Interface: IIndexHistory
 
+Defined in: main.ts:149812
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,14 +18,12 @@
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:149817
+
 date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
 example:
 2021-10-01
-
-#### Defined in
-
-main.ts:138511
 
 ***
 
@@ -31,11 +31,9 @@ main.ts:138511
 
 > `optional` **total\_backlinks**: `number`
 
+Defined in: main.ts:149819
+
 total number of backlinks our database contained on the given date
-
-#### Defined in
-
-main.ts:138513
 
 ***
 
@@ -43,11 +41,9 @@ main.ts:138513
 
 > `optional` **total\_domains**: `number`
 
+Defined in: main.ts:149823
+
 total number of domains our database contained on the given date
-
-#### Defined in
-
-main.ts:138517
 
 ***
 
@@ -55,8 +51,6 @@ main.ts:138517
 
 > `optional` **total\_pages**: `number`
 
+Defined in: main.ts:149821
+
 total number of pages our database contained on the given date
-
-#### Defined in
-
-main.ts:138515

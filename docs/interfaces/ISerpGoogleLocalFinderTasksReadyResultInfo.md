@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleLocalFinderTasksReadyResultInfo
+[Documentation](../README.md) / ISerpGoogleLocalFinderTasksReadyResultInfo
 
 # Interface: ISerpGoogleLocalFinderTasksReadyResultInfo
 
+Defined in: main.ts:43359
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:43369
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:41499
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:41499
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:43377
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:41507
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:41507
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:43380
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:41510
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:41510
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:43374
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:41504
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:41504
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:43362
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:41492
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:41492
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:43364
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:41494
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:41494
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:43367
+
 type of search engine
 example: local_finder
-
-#### Defined in
-
-main.ts:41497
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:41497
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:43371
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:41501

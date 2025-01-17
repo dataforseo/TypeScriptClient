@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpAiSummaryResultInfo
+[Documentation](../README.md) / SerpAiSummaryResultInfo
 
 # Class: SerpAiSummaryResultInfo
+
+Defined in: main.ts:26593
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpAiSummaryResultInfo**(`data`?): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
+Defined in: main.ts:26601
+
 #### Parameters
 
-• **data?**: [`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md)
+##### data?
+
+[`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md)
 
 #### Returns
 
 [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
-
-#### Defined in
-
-main.ts:25531
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:25531
 
 > `optional` **items**: [`SerpAiSummaryItem`](SerpAiSummaryItem.md)[]
 
+Defined in: main.ts:26597
+
 items array
 
 #### Implementation of
 
 [`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md).[`items`](../interfaces/ISerpAiSummaryResultInfo.md#items)
-
-#### Defined in
-
-main.ts:25527
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:25527
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:26595
+
 number of items in the results array
 
 #### Implementation of
 
 [`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md).[`items_count`](../interfaces/ISerpAiSummaryResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:25525
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:25525
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:26610
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:25540
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:25540
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:26632
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:25562
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:25562
 
 > `static` **fromJS**(`data`): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
+Defined in: main.ts:26625
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
-
-#### Defined in
-
-main.ts:25555

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageLighthouseLanguagesResultInfo
+[Documentation](../README.md) / OnPageLighthouseLanguagesResultInfo
 
 # Class: OnPageLighthouseLanguagesResultInfo
+
+Defined in: main.ts:174858
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageLighthouseLanguagesResultInfo**(`data`?): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
 
+Defined in: main.ts:174866
+
 #### Parameters
 
-• **data?**: [`IOnPageLighthouseLanguagesResultInfo`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md)
+##### data?
+
+[`IOnPageLighthouseLanguagesResultInfo`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md)
 
 #### Returns
 
 [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:163176
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:163176
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:174862
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IOnPageLighthouseLanguagesResultInfo`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md).[`language_code`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:163172
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:163172
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:174860
+
 language name
 
 #### Implementation of
 
 [`IOnPageLighthouseLanguagesResultInfo`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md).[`language_name`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:163170
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:163170
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:174875
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:163185
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:163185
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:174893
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:163203
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:163203
 
 > `static` **fromJS**(`data`): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
 
+Defined in: main.ts:174886
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:163196

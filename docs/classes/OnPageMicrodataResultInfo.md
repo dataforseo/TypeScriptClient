@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageMicrodataResultInfo
+[Documentation](../README.md) / OnPageMicrodataResultInfo
 
 # Class: OnPageMicrodataResultInfo
+
+Defined in: main.ts:171938
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageMicrodataResultInfo**(`data`?): [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
 
+Defined in: main.ts:171953
+
 #### Parameters
 
-• **data?**: [`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md)
+##### data?
+
+[`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md)
 
 #### Returns
 
 [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
-
-#### Defined in
-
-main.ts:160209
 
 ## Properties
 
 ### crawl\_progress?
 
 > `optional` **crawl\_progress**: `string`
+
+Defined in: main.ts:171941
 
 status of the crawling session
 possible values: in_progress, finished
@@ -45,15 +49,13 @@ possible values: in_progress, finished
 
 [`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md).[`crawl_progress`](../interfaces/IOnPageMicrodataResultInfo.md#crawl_progress)
 
-#### Defined in
-
-main.ts:160197
-
 ***
 
 ### crawl\_status?
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+
+Defined in: main.ts:171943
 
 details of the crawling session
 
@@ -61,15 +63,13 @@ details of the crawling session
 
 [`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md).[`crawl_status`](../interfaces/IOnPageMicrodataResultInfo.md#crawl_status)
 
-#### Defined in
-
-main.ts:160199
-
 ***
 
 ### items?
 
 > `optional` **items**: [`OnPageMicrodataItem`](OnPageMicrodataItem.md)[]
+
+Defined in: main.ts:171949
 
 items array
 
@@ -77,15 +77,13 @@ items array
 
 [`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md).[`items`](../interfaces/IOnPageMicrodataResultInfo.md#items)
 
-#### Defined in
-
-main.ts:160205
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:171947
 
 number of items in the results array
 
@@ -93,15 +91,13 @@ number of items in the results array
 
 [`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md).[`items_count`](../interfaces/IOnPageMicrodataResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:160203
-
 ***
 
 ### test\_summary?
 
 > `optional` **test\_summary**: [`TestSummary`](TestSummary.md)
+
+Defined in: main.ts:171945
 
 microdata validation test results
 
@@ -109,27 +105,23 @@ microdata validation test results
 
 [`IOnPageMicrodataResultInfo`](../interfaces/IOnPageMicrodataResultInfo.md).[`test_summary`](../interfaces/IOnPageMicrodataResultInfo.md#test_summary)
 
-#### Defined in
-
-main.ts:160201
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:171962
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:160218
 
 ***
 
@@ -137,17 +129,17 @@ main.ts:160218
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:171987
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:160243
 
 ***
 
@@ -155,14 +147,14 @@ main.ts:160243
 
 > `static` **fromJS**(`data`): [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
 
+Defined in: main.ts:171980
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageMicrodataResultInfo`](OnPageMicrodataResultInfo.md)
-
-#### Defined in
-
-main.ts:160236

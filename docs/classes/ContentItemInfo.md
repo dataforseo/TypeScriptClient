@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentItemInfo
+[Documentation](../README.md) / ContentItemInfo
 
 # Class: ContentItemInfo
+
+Defined in: main.ts:172978
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentItemInfo**(`data`?): [`ContentItemInfo`](ContentItemInfo.md)
 
+Defined in: main.ts:172989
+
 #### Parameters
 
-• **data?**: [`IContentItemInfo`](../interfaces/IContentItemInfo.md)
+##### data?
+
+[`IContentItemInfo`](../interfaces/IContentItemInfo.md)
 
 #### Returns
 
 [`ContentItemInfo`](ContentItemInfo.md)
-
-#### Defined in
-
-main.ts:161275
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:161275
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:172980
+
 content text
 
 #### Implementation of
 
 [`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`text`](../interfaces/IContentItemInfo.md#text)
 
-#### Defined in
-
-main.ts:161266
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:172983
 
 page URL
 displayed in case the text is a link anchor
@@ -61,15 +63,13 @@ displayed in case the text is a link anchor
 
 [`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`url`](../interfaces/IContentItemInfo.md#url)
 
-#### Defined in
-
-main.ts:161269
-
 ***
 
 ### urls?
 
 > `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
+
+Defined in: main.ts:172985
 
 contains other URLs and anchors found in the content element
 
@@ -77,27 +77,23 @@ contains other URLs and anchors found in the content element
 
 [`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`urls`](../interfaces/IContentItemInfo.md#urls)
 
-#### Defined in
-
-main.ts:161271
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:172998
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161284
 
 ***
 
@@ -105,17 +101,17 @@ main.ts:161284
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:173021
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161307
 
 ***
 
@@ -123,14 +119,14 @@ main.ts:161307
 
 > `static` **fromJS**(`data`): [`ContentItemInfo`](ContentItemInfo.md)
 
+Defined in: main.ts:173014
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentItemInfo`](ContentItemInfo.md)
-
-#### Defined in
-
-main.ts:161300

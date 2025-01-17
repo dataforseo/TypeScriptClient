@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRedditReviews
+[Documentation](../README.md) / IRedditReviews
 
 # Interface: IRedditReviews
 
+Defined in: main.ts:230294
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **author\_name**: `string`
 
+Defined in: main.ts:230299
+
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
-
-#### Defined in
-
-main.ts:215255
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:215255
 
 > `optional` **permalink**: `string`
 
+Defined in: main.ts:230303
+
 URL to the subreddit post
-
-#### Defined in
-
-main.ts:215259
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:215259
 
 > `optional` **subreddit**: `string`
 
+Defined in: main.ts:230296
+
 the name of the subreddit
-
-#### Defined in
-
-main.ts:215252
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:215252
 
 > `optional` **subreddit\_members**: `number`
 
+Defined in: main.ts:230305
+
 number of subreddit members
-
-#### Defined in
-
-main.ts:215261
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:215261
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:230301
+
 title of the subreddit post
-
-#### Defined in
-
-main.ts:215257

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageRedirectChainsItem
+[Documentation](../README.md) / IOnPageRedirectChainsItem
 
 # Interface: IOnPageRedirectChainsItem
 
+Defined in: main.ts:170108
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **chain**: [`BaseOnPageLinkItemInfo`](../classes/BaseOnPageLinkItemInfo.md)[]
 
+Defined in: main.ts:170113
+
 contains links that form a chain
-
-#### Defined in
-
-main.ts:158377
 
 ***
 
@@ -28,9 +28,7 @@ main.ts:158377
 
 > `optional` **is\_redirect\_loop**: `boolean`
 
+Defined in: main.ts:170111
+
 indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL
-
-#### Defined in
-
-main.ts:158375

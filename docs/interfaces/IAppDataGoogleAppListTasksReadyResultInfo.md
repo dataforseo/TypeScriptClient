@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataGoogleAppListTasksReadyResultInfo
+[Documentation](../README.md) / IAppDataGoogleAppListTasksReadyResultInfo
 
 # Interface: IAppDataGoogleAppListTasksReadyResultInfo
 
+Defined in: main.ts:200907
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:200916
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:188479
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:188479
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:200920
+
 URL for collecting the results of the Google App List task
-
-#### Defined in
-
-main.ts:188483
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:188483
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:200923
+
 URL for collecting the results of the Google App List HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:188486
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:188486
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:200910
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:188473
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:188473
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:200912
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:188475
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:188475
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:200914
+
 search engine type
-
-#### Defined in
-
-main.ts:188477
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:188477
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:200918
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:188481

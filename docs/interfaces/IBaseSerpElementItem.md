@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseSerpElementItem
+[Documentation](../README.md) / IBaseSerpElementItem
 
 # Interface: IBaseSerpElementItem
+
+Defined in: main.ts:21391
 
 ## Extended by
 
@@ -20,6 +22,7 @@
 - [`IKnowledgeGraphPartItemSerpElementItem`](IKnowledgeGraphPartItemSerpElementItem.md)
 - [`IKnowledgeGraphShoppingItemSerpElementItem`](IKnowledgeGraphShoppingItemSerpElementItem.md)
 - [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](IKnowledgeGraphHotelsBookingItemSerpElementItem.md)
+- [`IKnowledgeGraphAiOverviewItemSerpElementItem`](IKnowledgeGraphAiOverviewItemSerpElementItem.md)
 - [`IKnowledgeGraphSerpElementItem`](IKnowledgeGraphSerpElementItem.md)
 - [`ITopStoriesSerpElementItem`](ITopStoriesSerpElementItem.md)
 - [`IPeopleAlsoAskSerpElementItem`](IPeopleAlsoAskSerpElementItem.md)
@@ -75,13 +78,11 @@
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:21404
+
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Defined in
-
-main.ts:20721
 
 ***
 
@@ -89,12 +90,10 @@ main.ts:20721
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:21400
+
 absolute rank in SERP
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:20717
 
 ***
 
@@ -102,13 +101,11 @@ main.ts:20717
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:21397
+
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:20714
 
 ***
 
@@ -116,11 +113,9 @@ main.ts:20714
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21393
+
 type of element
-
-#### Defined in
-
-main.ts:20710
 
 ***
 
@@ -128,8 +123,6 @@ main.ts:20710
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21406
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:20723

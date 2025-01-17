@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveItem
 
+Defined in: main.ts:113957
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **asin**: `string`
 
+Defined in: main.ts:113963
+
 ASIN of the product
 unique product identifier on Amazon;
 for more information, refer to this help center guide
-
-#### Defined in
-
-main.ts:104224
 
 ***
 
@@ -30,11 +30,9 @@ main.ts:104224
 
 > `optional` **metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
+Defined in: main.ts:113965
+
 average keyword position of the product
-
-#### Defined in
-
-main.ts:104226
 
 ***
 
@@ -42,8 +40,6 @@ main.ts:104226
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:113959
+
 search engine type
-
-#### Defined in
-
-main.ts:104220

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsErrorsRequestInfo
+[Documentation](../README.md) / DataforseoLabsErrorsRequestInfo
 
 # Class: DataforseoLabsErrorsRequestInfo
+
+Defined in: main.ts:90498
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsErrorsRequestInfo**(`data`?): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
 
+Defined in: main.ts:90532
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:80787
 
 ## Properties
 
@@ -38,9 +40,11 @@ main.ts:80787
 
 > `optional` **datetime\_from**: `string`
 
+Defined in: main.ts:90521
+
 start time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 12:57:46 +00:00
@@ -49,19 +53,17 @@ example:
 
 [`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`datetime_from`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#datetime_from)
 
-#### Defined in
-
-main.ts:80776
-
 ***
 
 ### datetime\_to?
 
 > `optional` **datetime\_to**: `string`
 
+Defined in: main.ts:90528
+
 finish time for filtering results
 optional field
-allows filtering results by the datetime parameter within the range of the last 24 hours;
+allows filtering results by the datetime parameter within the range of the last 7 days;
 must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2021-11-15 13:57:46 +00:00
@@ -70,15 +72,13 @@ example:
 
 [`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`datetime_to`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#datetime_to)
 
-#### Defined in
-
-main.ts:80783
-
 ***
 
 ### filtered\_function?
 
 > `optional` **filtered\_function**: `string`
+
+Defined in: main.ts:90514
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,13 @@ example: dataforseo_labs/related_keywords/live
 
 [`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`filtered_function`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#filtered_function)
 
-#### Defined in
-
-main.ts:80769
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:90503
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +107,13 @@ maximum value: 1000
 
 [`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:80758
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:90508
 
 offset in the results array of returned tasks
 optional field
@@ -128,27 +124,23 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IDataforseoLabsErrorsRequestInfo`](../interfaces/IDataforseoLabsErrorsRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsErrorsRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:80763
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:90541
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:80796
 
 ***
 
@@ -156,17 +148,17 @@ main.ts:80796
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:90562
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:80817
 
 ***
 
@@ -174,14 +166,14 @@ main.ts:80817
 
 > `static` **fromJS**(`data`): [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
 
+Defined in: main.ts:90555
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsErrorsRequestInfo`](DataforseoLabsErrorsRequestInfo.md)
-
-#### Defined in
-
-main.ts:80810

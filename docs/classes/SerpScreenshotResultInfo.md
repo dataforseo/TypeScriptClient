@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpScreenshotResultInfo
+[Documentation](../README.md) / SerpScreenshotResultInfo
 
 # Class: SerpScreenshotResultInfo
+
+Defined in: main.ts:26259
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpScreenshotResultInfo**(`data`?): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
+Defined in: main.ts:26267
+
 #### Parameters
 
-• **data?**: [`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md)
+##### data?
+
+[`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md)
 
 #### Returns
 
 [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
-
-#### Defined in
-
-main.ts:25197
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:25197
 
 > `optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
 
+Defined in: main.ts:26263
+
 items array
 
 #### Implementation of
 
 [`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md).[`items`](../interfaces/ISerpScreenshotResultInfo.md#items)
-
-#### Defined in
-
-main.ts:25193
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:25193
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:26261
+
 number of items in the results array
 
 #### Implementation of
 
 [`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md).[`items_count`](../interfaces/ISerpScreenshotResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:25191
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:25191
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:26276
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:25206
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:25206
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:26298
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:25228
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:25228
 
 > `static` **fromJS**(`data`): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
+Defined in: main.ts:26291
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
-
-#### Defined in
-
-main.ts:25221

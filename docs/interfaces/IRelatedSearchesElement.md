@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRelatedSearchesElement
+[Documentation](../README.md) / IRelatedSearchesElement
 
 # Interface: IRelatedSearchesElement
 
+Defined in: main.ts:23510
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **image\_alt**: `string`
 
+Defined in: main.ts:23518
+
 the alt tag of the product image featured in the results
-
-#### Defined in
-
-main.ts:22615
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:22615
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:23520
+
 URL of the product image featured in the results
-
-#### Defined in
-
-main.ts:22617
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:22617
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:23514
+
 product title
-
-#### Defined in
-
-main.ts:22611
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:22611
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:23512
+
 type of element
-
-#### Defined in
-
-main.ts:22609
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:22609
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:23516
+
 the URL of the product page
-
-#### Defined in
-
-main.ts:22613

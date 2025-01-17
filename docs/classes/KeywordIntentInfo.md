@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordIntentInfo
+[Documentation](../README.md) / KeywordIntentInfo
 
 # Class: KeywordIntentInfo
+
+Defined in: main.ts:96568
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordIntentInfo**(`data`?): [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
+Defined in: main.ts:96578
+
 #### Parameters
 
-• **data?**: [`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md)
+##### data?
+
+[`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md)
 
 #### Returns
 
 [`KeywordIntentInfo`](KeywordIntentInfo.md)
-
-#### Defined in
-
-main.ts:86759
 
 ## Properties
 
 ### label?
 
 > `optional` **label**: `string`
+
+Defined in: main.ts:96571
 
 search intent name
 possible values: informational, navigational, commercial, transactional
@@ -45,15 +49,13 @@ possible values: informational, navigational, commercial, transactional
 
 [`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md).[`label`](../interfaces/IKeywordIntentInfo.md#label)
 
-#### Defined in
-
-main.ts:86752
-
 ***
 
 ### probability?
 
 > `optional` **probability**: `number`
+
+Defined in: main.ts:96574
 
 search intent probability
 1 indicates the highest probability
@@ -62,27 +64,23 @@ search intent probability
 
 [`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md).[`probability`](../interfaces/IKeywordIntentInfo.md#probability)
 
-#### Defined in
-
-main.ts:86755
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:96587
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:86768
 
 ***
 
@@ -90,17 +88,17 @@ main.ts:86768
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:96605
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:86786
 
 ***
 
@@ -108,14 +106,14 @@ main.ts:86786
 
 > `static` **fromJS**(`data`): [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
+Defined in: main.ts:96598
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordIntentInfo`](KeywordIntentInfo.md)
-
-#### Defined in
-
-main.ts:86779

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataBusinessListingsCategoriesResultInfo
+[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesResultInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesResultInfo
 
+Defined in: main.ts:210287
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **business\_count**: `number`
 
+Defined in: main.ts:210291
+
 number of businesses in the category
-
-#### Defined in
-
-main.ts:197840
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:197840
 
 > `optional` **category\_name**: `string`
 
+Defined in: main.ts:210289
+
 full name of the category
-
-#### Defined in
-
-main.ts:197838

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpNaverOrganicTaskGetAdvancedResponseInfo
+[Documentation](../README.md) / SerpNaverOrganicTaskGetAdvancedResponseInfo
 
 # Class: SerpNaverOrganicTaskGetAdvancedResponseInfo
+
+Defined in: main.ts:81895
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new SerpNaverOrganicTaskGetAdvancedResponseInfo**(`data`?): [`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)
 
+Defined in: main.ts:81901
+
 #### Parameters
 
-• **data?**: [`ISerpNaverOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResponseInfo.md)
+##### data?
+
+[`ISerpNaverOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResponseInfo.md)
 
 #### Returns
 
@@ -36,15 +42,13 @@
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Defined in
-
-main.ts:72224
-
 ## Properties
 
 ### cost?
 
 > `optional` **cost**: `number`
+
+Defined in: main.ts:25217
 
 total tasks cost, USD
 
@@ -56,15 +60,13 @@ total tasks cost, USD
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Defined in
-
-main.ts:24147
-
 ***
 
 ### status\_code?
 
 > `optional` **status\_code**: `number`
+
+Defined in: main.ts:25210
 
 general status code
 you can find the full list of the response codes here
@@ -77,15 +79,13 @@ you can find the full list of the response codes here
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Defined in
-
-main.ts:24140
-
 ***
 
 ### status\_message?
 
 > `optional` **status\_message**: `string`
+
+Defined in: main.ts:25213
 
 general informational message
 you can find the full list of general informational messages here
@@ -98,15 +98,13 @@ you can find the full list of general informational messages here
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Defined in
-
-main.ts:24143
-
 ***
 
 ### tasks?
 
 > `optional` **tasks**: [`SerpNaverOrganicTaskGetAdvancedTaskInfo`](SerpNaverOrganicTaskGetAdvancedTaskInfo.md)[]
+
+Defined in: main.ts:81897
 
 array of tasks
 
@@ -114,15 +112,13 @@ array of tasks
 
 [`ISerpNaverOrganicTaskGetAdvancedResponseInfo`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResponseInfo.md).[`tasks`](../interfaces/ISerpNaverOrganicTaskGetAdvancedResponseInfo.md#tasks)
 
-#### Defined in
-
-main.ts:72220
-
 ***
 
 ### tasks\_count?
 
 > `optional` **tasks\_count**: `number`
+
+Defined in: main.ts:25219
 
 the number of tasks in the tasks array
 
@@ -134,15 +130,13 @@ the number of tasks in the tasks array
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Defined in
-
-main.ts:24149
-
 ***
 
 ### tasks\_error?
 
 > `optional` **tasks\_error**: `number`
+
+Defined in: main.ts:25221
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,15 +148,13 @@ the number of tasks in the tasks array returned with an error
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Defined in
-
-main.ts:24151
-
 ***
 
 ### time?
 
 > `optional` **time**: `string`
+
+Defined in: main.ts:25215
 
 total execution time, seconds
 
@@ -174,15 +166,13 @@ total execution time, seconds
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Defined in
-
-main.ts:24145
-
 ***
 
 ### version?
 
 > `optional` **version**: `string`
+
+Defined in: main.ts:25207
 
 the current version of the API
 
@@ -194,19 +184,19 @@ the current version of the API
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Defined in
-
-main.ts:24137
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:81905
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -216,19 +206,19 @@ main.ts:24137
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Defined in
-
-main.ts:72228
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:81927
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -238,19 +228,19 @@ main.ts:72228
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Defined in
-
-main.ts:72250
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`SerpNaverOrganicTaskGetAdvancedResponseInfo`](SerpNaverOrganicTaskGetAdvancedResponseInfo.md)
 
+Defined in: main.ts:81920
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -259,7 +249,3 @@ main.ts:72250
 #### Overrides
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
-
-#### Defined in
-
-main.ts:72243

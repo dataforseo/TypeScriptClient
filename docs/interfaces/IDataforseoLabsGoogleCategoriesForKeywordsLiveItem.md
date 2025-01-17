@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
+Defined in: main.ts:98060
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **categories**: `number`[]
 
+Defined in: main.ts:98065
+
 product and service categories
 you can download the full list of possible categories
-
-#### Defined in
-
-main.ts:88246
 
 ***
 
@@ -29,8 +29,6 @@ main.ts:88246
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:98062
+
 keyword in a POST array
-
-#### Defined in
-
-main.ts:88243

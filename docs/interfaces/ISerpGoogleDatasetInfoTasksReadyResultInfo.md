@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpGoogleDatasetInfoTasksReadyResultInfo
+[Documentation](../README.md) / ISerpGoogleDatasetInfoTasksReadyResultInfo
 
 # Interface: ISerpGoogleDatasetInfoTasksReadyResultInfo
 
+Defined in: main.ts:59202
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:59212
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:55500
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:55500
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:59220
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:55508
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:55508
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:59223
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:55511
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:55511
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:59217
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:55505
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:55505
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:59205
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:55493
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:55493
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:59207
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:55495
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:55495
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:59210
+
 type of search engine
 example: dataset_info
-
-#### Defined in
-
-main.ts:55498
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:55498
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:59214
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:55502

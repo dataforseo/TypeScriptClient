@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleLanguagesResultInfo
+[Documentation](../README.md) / AppDataGoogleLanguagesResultInfo
 
 # Class: AppDataGoogleLanguagesResultInfo
+
+Defined in: main.ts:199116
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataGoogleLanguagesResultInfo**(`data`?): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
+Defined in: main.ts:199124
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md)
+##### data?
+
+[`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:186925
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:186925
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:199120
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/IAppDataGoogleLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:186921
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:186921
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:199118
+
 language name
 
 #### Implementation of
 
 [`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/IAppDataGoogleLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:186919
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:186919
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:199133
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:186934
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:186934
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:199151
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:186952
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:186952
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
+Defined in: main.ts:199144
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:186945

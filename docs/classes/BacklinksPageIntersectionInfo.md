@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksPageIntersectionInfo
+[Documentation](../README.md) / BacklinksPageIntersectionInfo
 
 # Class: BacklinksPageIntersectionInfo
+
+Defined in: main.ts:158582
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksPageIntersectionInfo**(`data`?): [`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md)
 
+Defined in: main.ts:158729
+
 #### Parameters
 
-• **data?**: [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md)
+##### data?
+
+[`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md)
 
 #### Returns
 
 [`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md)
-
-#### Defined in
-
-main.ts:147423
 
 ## Properties
 
 ### alt?
 
 > `optional` **alt**: `string`
+
+Defined in: main.ts:158688
 
 alternative text of the image
 this field will be null if backlink type is not image
@@ -45,15 +49,13 @@ this field will be null if backlink type is not image
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`alt`](../interfaces/IBacklinksPageIntersectionInfo.md#alt)
 
-#### Defined in
-
-main.ts:147382
-
 ***
 
 ### anchor?
 
 > `optional` **anchor**: `string`
+
+Defined in: main.ts:158690
 
 anchor text of the backlink
 
@@ -61,15 +63,13 @@ anchor text of the backlink
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`anchor`](../interfaces/IBacklinksPageIntersectionInfo.md#anchor)
 
-#### Defined in
-
-main.ts:147384
-
 ***
 
 ### attributes?
 
 > `optional` **attributes**: `string`[]
+
+Defined in: main.ts:158680
 
 link attributes of the referring links
 example:
@@ -79,15 +79,13 @@ nofollow
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`attributes`](../interfaces/IBacklinksPageIntersectionInfo.md#attributes)
 
-#### Defined in
-
-main.ts:147374
-
 ***
 
 ### backlink\_spam\_score?
 
 > `optional` **backlink\_spam\_score**: `number`
+
+Defined in: main.ts:158609
 
 spam score of the backlink
 learn more about how the metric is calculated on this help center page
@@ -96,15 +94,13 @@ learn more about how the metric is calculated on this help center page
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`backlink_spam_score`](../interfaces/IBacklinksPageIntersectionInfo.md#backlink_spam_score)
 
-#### Defined in
-
-main.ts:147303
-
 ***
 
 ### dofollow?
 
 > `optional` **dofollow**: `boolean`
+
+Defined in: main.ts:158683
 
 indicates whether the backlink is dofollow
 if false, the backlink is nofollow
@@ -113,15 +109,13 @@ if false, the backlink is nofollow
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`dofollow`](../interfaces/IBacklinksPageIntersectionInfo.md#dofollow)
 
-#### Defined in
-
-main.ts:147377
-
 ***
 
 ### domain\_from?
 
 > `optional` **domain\_from**: `string`
+
+Defined in: main.ts:158586
 
 domain referring to the target domain or webpage
 
@@ -129,15 +123,13 @@ domain referring to the target domain or webpage
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`domain_from`](../interfaces/IBacklinksPageIntersectionInfo.md#domain_from)
 
-#### Defined in
-
-main.ts:147280
-
 ***
 
 ### domain\_from\_country?
 
 > `optional` **domain\_from\_country**: `string`
+
+Defined in: main.ts:158634
 
 ISO country code of the referring domain
 
@@ -145,15 +137,13 @@ ISO country code of the referring domain
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`domain_from_country`](../interfaces/IBacklinksPageIntersectionInfo.md#domain_from_country)
 
-#### Defined in
-
-main.ts:147328
-
 ***
 
 ### domain\_from\_ip?
 
 > `optional` **domain\_from\_ip**: `string`
+
+Defined in: main.ts:158632
 
 IP address of the referring domain
 
@@ -161,15 +151,13 @@ IP address of the referring domain
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`domain_from_ip`](../interfaces/IBacklinksPageIntersectionInfo.md#domain_from_ip)
 
-#### Defined in
-
-main.ts:147326
-
 ***
 
 ### domain\_from\_is\_ip?
 
 > `optional` **domain\_from\_is\_ip**: `boolean`
+
+Defined in: main.ts:158630
 
 indicates if the domain is IP
 if true, the domain functions as an IP address and does not have a domain name
@@ -178,15 +166,13 @@ if true, the domain functions as an IP address and does not have a domain name
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`domain_from_is_ip`](../interfaces/IBacklinksPageIntersectionInfo.md#domain_from_is_ip)
 
-#### Defined in
-
-main.ts:147324
-
 ***
 
 ### domain\_from\_platform\_type?
 
 > `optional` **domain\_from\_platform\_type**: `string`[]
+
+Defined in: main.ts:158627
 
 platform types of the referring domain
 example:
@@ -197,15 +183,13 @@ example:
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`domain_from_platform_type`](../interfaces/IBacklinksPageIntersectionInfo.md#domain_from_platform_type)
 
-#### Defined in
-
-main.ts:147321
-
 ***
 
 ### domain\_from\_rank?
 
 > `optional` **domain\_from\_rank**: `number`
+
+Defined in: main.ts:158622
 
 domain rank of the referring domain
 indicates the rank of the domain at the time our crawler last saw the backlink;
@@ -216,15 +200,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`domain_from_rank`](../interfaces/IBacklinksPageIntersectionInfo.md#domain_from_rank)
 
-#### Defined in
-
-main.ts:147316
-
 ***
 
 ### domain\_to?
 
 > `optional` **domain\_to**: `string`
+
+Defined in: main.ts:158593
 
 domain the backlink is pointing to
 
@@ -232,15 +214,13 @@ domain the backlink is pointing to
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`domain_to`](../interfaces/IBacklinksPageIntersectionInfo.md#domain_to)
 
-#### Defined in
-
-main.ts:147287
-
 ***
 
 ### first\_seen?
 
 > `optional` **first\_seen**: `string`
+
+Defined in: main.ts:158662
 
 date and time when our crawler found the backlink for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -251,15 +231,13 @@ example:
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`first_seen`](../interfaces/IBacklinksPageIntersectionInfo.md#first_seen)
 
-#### Defined in
-
-main.ts:147356
-
 ***
 
 ### group\_count?
 
 > `optional` **group\_count**: `number`
+
+Defined in: main.ts:158704
 
 indicates total number of backlinks from this domain
 for example, if mode is set to one_per_domain, this field will indicate the total number of backlinks coming from this domain
@@ -268,15 +246,13 @@ for example, if mode is set to one_per_domain, this field will indicate the tota
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`group_count`](../interfaces/IBacklinksPageIntersectionInfo.md#group_count)
 
-#### Defined in
-
-main.ts:147398
-
 ***
 
 ### indirect\_link\_path?
 
 > `optional` **indirect\_link\_path**: [`Redirect`](Redirect.md)[]
+
+Defined in: main.ts:158725
 
 indirect link path
 indicates a URL or a sequence of URLs that lead to url_to
@@ -285,15 +261,13 @@ indicates a URL or a sequence of URLs that lead to url_to
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`indirect_link_path`](../interfaces/IBacklinksPageIntersectionInfo.md#indirect_link_path)
 
-#### Defined in
-
-main.ts:147419
-
 ***
 
 ### is\_broken?
 
 > `optional` **is\_broken**: `boolean`
+
+Defined in: main.ts:158707
 
 indicates whether the backlink is broken
 if true, the backlink is pointing to a page responding with a 4xx or 5xx status code
@@ -302,15 +276,13 @@ if true, the backlink is pointing to a page responding with a 4xx or 5xx status 
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`is_broken`](../interfaces/IBacklinksPageIntersectionInfo.md#is_broken)
 
-#### Defined in
-
-main.ts:147401
-
 ***
 
 ### is\_indirect\_link?
 
 > `optional` **is\_indirect\_link**: `boolean`
+
+Defined in: main.ts:158722
 
 indicates whether the backlink is an indirect link
 if true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page
@@ -319,15 +291,13 @@ if true, the backlink is an indirect link pointing to a page that either redirec
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`is_indirect_link`](../interfaces/IBacklinksPageIntersectionInfo.md#is_indirect_link)
 
-#### Defined in
-
-main.ts:147416
-
 ***
 
 ### is\_lost?
 
 > `optional` **is\_lost**: `boolean`
+
+Defined in: main.ts:158606
 
 indicates whether the backlink was removed
 if true, the backlink or the entire page was removed
@@ -336,15 +306,13 @@ if true, the backlink or the entire page was removed
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`is_lost`](../interfaces/IBacklinksPageIntersectionInfo.md#is_lost)
 
-#### Defined in
-
-main.ts:147300
-
 ***
 
 ### is\_new?
 
 > `optional` **is\_new**: `boolean`
+
+Defined in: main.ts:158603
 
 indicates whether the backlink is new
 if true, the backlink was found on the page last time our crawler visited it
@@ -353,15 +321,13 @@ if true, the backlink was found on the page last time our crawler visited it
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`is_new`](../interfaces/IBacklinksPageIntersectionInfo.md#is_new)
 
-#### Defined in
-
-main.ts:147297
-
 ***
 
 ### item\_type?
 
 > `optional` **item\_type**: `string`
+
+Defined in: main.ts:158676
 
 link type
 possible values:
@@ -371,15 +337,13 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`item_type`](../interfaces/IBacklinksPageIntersectionInfo.md#item_type)
 
-#### Defined in
-
-main.ts:147370
-
 ***
 
 ### last\_seen?
 
 > `optional` **last\_seen**: `string`
+
+Defined in: main.ts:158672
 
 most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -390,15 +354,13 @@ example:
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`last_seen`](../interfaces/IBacklinksPageIntersectionInfo.md#last_seen)
 
-#### Defined in
-
-main.ts:147366
-
 ***
 
 ### links\_count?
 
 > `optional` **links\_count**: `number`
+
+Defined in: main.ts:158701
 
 number of identical backlinks found on the referring page
 
@@ -406,15 +368,13 @@ number of identical backlinks found on the referring page
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`links_count`](../interfaces/IBacklinksPageIntersectionInfo.md#links_count)
 
-#### Defined in
-
-main.ts:147395
-
 ***
 
 ### original?
 
 > `optional` **original**: `boolean`
+
+Defined in: main.ts:158685
 
 indicates whether the backlink was present on the referring page when our crawler first visited it
 
@@ -422,15 +382,13 @@ indicates whether the backlink was present on the referring page when our crawle
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`original`](../interfaces/IBacklinksPageIntersectionInfo.md#original)
 
-#### Defined in
-
-main.ts:147379
-
 ***
 
 ### page\_from\_encoding?
 
 > `optional` **page\_from\_encoding**: `string`
+
+Defined in: main.ts:158646
 
 character encoding of the referring page
 example:
@@ -440,15 +398,13 @@ utf-8
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`page_from_encoding`](../interfaces/IBacklinksPageIntersectionInfo.md#page_from_encoding)
 
-#### Defined in
-
-main.ts:147340
-
 ***
 
 ### page\_from\_external\_links?
 
 > `optional` **page\_from\_external\_links**: `number`
+
+Defined in: main.ts:158636
 
 number of external links found on the referring page
 
@@ -456,15 +412,13 @@ number of external links found on the referring page
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`page_from_external_links`](../interfaces/IBacklinksPageIntersectionInfo.md#page_from_external_links)
 
-#### Defined in
-
-main.ts:147330
-
 ***
 
 ### page\_from\_internal\_links?
 
 > `optional` **page\_from\_internal\_links**: `number`
+
+Defined in: main.ts:158638
 
 number of internal links found on the referring page
 
@@ -472,15 +426,13 @@ number of internal links found on the referring page
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`page_from_internal_links`](../interfaces/IBacklinksPageIntersectionInfo.md#page_from_internal_links)
 
-#### Defined in
-
-main.ts:147332
-
 ***
 
 ### page\_from\_language?
 
 > `optional` **page\_from\_language**: `string`
+
+Defined in: main.ts:158651
 
 language of the referring page
 in ISO 639-1 format
@@ -491,15 +443,13 @@ en
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`page_from_language`](../interfaces/IBacklinksPageIntersectionInfo.md#page_from_language)
 
-#### Defined in
-
-main.ts:147345
-
 ***
 
 ### page\_from\_rank?
 
 > `optional` **page\_from\_rank**: `number`
+
+Defined in: main.ts:158617
 
 page rank of the referring page
 page_from_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -509,15 +459,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`page_from_rank`](../interfaces/IBacklinksPageIntersectionInfo.md#page_from_rank)
 
-#### Defined in
-
-main.ts:147311
-
 ***
 
 ### page\_from\_size?
 
 > `optional` **page\_from\_size**: `number`
+
+Defined in: main.ts:158642
 
 size of the referring page, in bytes
 example:
@@ -527,15 +475,13 @@ example:
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`page_from_size`](../interfaces/IBacklinksPageIntersectionInfo.md#page_from_size)
 
-#### Defined in
-
-main.ts:147336
-
 ***
 
 ### page\_from\_status\_code?
 
 > `optional` **page\_from\_status\_code**: `number`
+
+Defined in: main.ts:158657
 
 HTTP status code returned by the referring page
 example:
@@ -545,15 +491,13 @@ example:
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`page_from_status_code`](../interfaces/IBacklinksPageIntersectionInfo.md#page_from_status_code)
 
-#### Defined in
-
-main.ts:147351
-
 ***
 
 ### page\_from\_title?
 
 > `optional` **page\_from\_title**: `string`
+
+Defined in: main.ts:158653
 
 title of the referring page
 
@@ -561,15 +505,13 @@ title of the referring page
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`page_from_title`](../interfaces/IBacklinksPageIntersectionInfo.md#page_from_title)
 
-#### Defined in
-
-main.ts:147347
-
 ***
 
 ### prev\_seen?
 
 > `optional` **prev\_seen**: `string`
+
+Defined in: main.ts:158667
 
 previous to the most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -580,15 +522,13 @@ example:
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`prev_seen`](../interfaces/IBacklinksPageIntersectionInfo.md#prev_seen)
 
-#### Defined in
-
-main.ts:147361
-
 ***
 
 ### rank?
 
 > `optional` **rank**: `number`
+
+Defined in: main.ts:158613
 
 backlink rank
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -598,15 +538,13 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`rank`](../interfaces/IBacklinksPageIntersectionInfo.md#rank)
 
-#### Defined in
-
-main.ts:147307
-
 ***
 
 ### semantic\_location?
 
 > `optional` **semantic\_location**: `string`
+
+Defined in: main.ts:158699
 
 indicates semantic element in HTML where the backlink is found
 you can get the full list of semantic elements here
@@ -617,15 +555,13 @@ article, section, summary
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`semantic_location`](../interfaces/IBacklinksPageIntersectionInfo.md#semantic_location)
 
-#### Defined in
-
-main.ts:147393
-
 ***
 
 ### text\_post?
 
 > `optional` **text\_post**: `string`
+
+Defined in: main.ts:158694
 
 snippet after the anchor text
 
@@ -633,15 +569,13 @@ snippet after the anchor text
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`text_post`](../interfaces/IBacklinksPageIntersectionInfo.md#text_post)
 
-#### Defined in
-
-main.ts:147388
-
 ***
 
 ### text\_pre?
 
 > `optional` **text\_pre**: `string`
+
+Defined in: main.ts:158692
 
 text snippet before the anchor text
 
@@ -649,15 +583,13 @@ text snippet before the anchor text
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`text_pre`](../interfaces/IBacklinksPageIntersectionInfo.md#text_pre)
 
-#### Defined in
-
-main.ts:147386
-
 ***
 
 ### tld\_from?
 
 > `optional` **tld\_from**: `string`
+
+Defined in: main.ts:158600
 
 top-level domain of the referring URL
 
@@ -665,15 +597,13 @@ top-level domain of the referring URL
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`tld_from`](../interfaces/IBacklinksPageIntersectionInfo.md#tld_from)
 
-#### Defined in
-
-main.ts:147294
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:158584
 
 type of element
 
@@ -681,15 +611,13 @@ type of element
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`type`](../interfaces/IBacklinksPageIntersectionInfo.md#type)
 
-#### Defined in
-
-main.ts:147278
-
 ***
 
 ### url\_from?
 
 > `optional` **url\_from**: `string`
+
+Defined in: main.ts:158588
 
 URL of the page where the backlink is found
 
@@ -697,15 +625,13 @@ URL of the page where the backlink is found
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`url_from`](../interfaces/IBacklinksPageIntersectionInfo.md#url_from)
 
-#### Defined in
-
-main.ts:147282
-
 ***
 
 ### url\_from\_https?
 
 > `optional` **url\_from\_https**: `boolean`
+
+Defined in: main.ts:158591
 
 indicates whether the referring URL is secured with HTTPS
 if true, the referring URL is secured with HTTPS
@@ -714,15 +640,13 @@ if true, the referring URL is secured with HTTPS
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`url_from_https`](../interfaces/IBacklinksPageIntersectionInfo.md#url_from_https)
 
-#### Defined in
-
-main.ts:147285
-
 ***
 
 ### url\_to?
 
 > `optional` **url\_to**: `string`
+
+Defined in: main.ts:158595
 
 URL the backlink is pointing to
 
@@ -730,15 +654,13 @@ URL the backlink is pointing to
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`url_to`](../interfaces/IBacklinksPageIntersectionInfo.md#url_to)
 
-#### Defined in
-
-main.ts:147289
-
 ***
 
 ### url\_to\_https?
 
 > `optional` **url\_to\_https**: `boolean`
+
+Defined in: main.ts:158598
 
 indicates if the URL the backlink is pointing to is secured with HTTPS
 if true, the URL is secured with HTTPS
@@ -747,15 +669,13 @@ if true, the URL is secured with HTTPS
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`url_to_https`](../interfaces/IBacklinksPageIntersectionInfo.md#url_to_https)
 
-#### Defined in
-
-main.ts:147292
-
 ***
 
 ### url\_to\_redirect\_target?
 
 > `optional` **url\_to\_redirect\_target**: `string`
+
+Defined in: main.ts:158719
 
 target url of the redirect
 target page the redirect is pointing to
@@ -764,15 +684,13 @@ target page the redirect is pointing to
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`url_to_redirect_target`](../interfaces/IBacklinksPageIntersectionInfo.md#url_to_redirect_target)
 
-#### Defined in
-
-main.ts:147413
-
 ***
 
 ### url\_to\_spam\_score?
 
 > `optional` **url\_to\_spam\_score**: `number`
+
+Defined in: main.ts:158716
 
 spam score of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to
@@ -782,15 +700,13 @@ learn more about how the metric is calculated on this help center page
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`url_to_spam_score`](../interfaces/IBacklinksPageIntersectionInfo.md#url_to_spam_score)
 
-#### Defined in
-
-main.ts:147410
-
 ***
 
 ### url\_to\_status\_code?
 
 > `optional` **url\_to\_status\_code**: `number`
+
+Defined in: main.ts:158712
 
 status code of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to
@@ -801,27 +717,23 @@ example:
 
 [`IBacklinksPageIntersectionInfo`](../interfaces/IBacklinksPageIntersectionInfo.md).[`url_to_status_code`](../interfaces/IBacklinksPageIntersectionInfo.md#url_to_status_code)
 
-#### Defined in
-
-main.ts:147406
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:158738
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:147432
 
 ***
 
@@ -829,17 +741,17 @@ main.ts:147432
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:158811
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:147505
 
 ***
 
@@ -847,14 +759,14 @@ main.ts:147505
 
 > `static` **fromJS**(`data`): [`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md)
 
+Defined in: main.ts:158804
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md)
-
-#### Defined in
-
-main.ts:147498

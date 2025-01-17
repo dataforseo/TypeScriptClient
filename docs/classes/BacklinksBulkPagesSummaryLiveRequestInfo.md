@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkPagesSummaryLiveRequestInfo
+[Documentation](../README.md) / BacklinksBulkPagesSummaryLiveRequestInfo
 
 # Class: BacklinksBulkPagesSummaryLiveRequestInfo
+
+Defined in: main.ts:162406
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BacklinksBulkPagesSummaryLiveRequestInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
 
+Defined in: main.ts:162428
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md)
+##### data?
+
+[`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md)
 
 #### Returns
 
 [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:151122
 
 ## Properties
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
+
+Defined in: main.ts:162418
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -47,15 +51,13 @@ default value: true
 
 [`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md#include_subdomains)
 
-#### Defined in
-
-main.ts:151112
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:162424
 
 user-defined task identifier
 optional field
@@ -67,15 +69,13 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:151118
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:162413
 
 domains, subdomains or webpages to get summary data for
 required field
@@ -88,27 +88,23 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 [`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md#targets)
 
-#### Defined in
-
-main.ts:151107
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:162437
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:151131
 
 ***
 
@@ -116,17 +112,17 @@ main.ts:151131
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:162460
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:151154
 
 ***
 
@@ -134,14 +130,14 @@ main.ts:151154
 
 > `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
 
+Defined in: main.ts:162453
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:151147

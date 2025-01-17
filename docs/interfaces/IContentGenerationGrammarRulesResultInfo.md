@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGrammarRulesResultInfo
+[Documentation](../README.md) / IContentGenerationGrammarRulesResultInfo
 
 # Interface: IContentGenerationGrammarRulesResultInfo
 
+Defined in: main.ts:183365
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **rules**: `string`[]
 
+Defined in: main.ts:183367
+
 array of rules
-
-#### Defined in
-
-main.ts:171677

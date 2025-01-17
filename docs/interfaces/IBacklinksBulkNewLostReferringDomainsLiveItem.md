@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
+[Documentation](../README.md) / IBacklinksBulkNewLostReferringDomainsLiveItem
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveItem
 
+Defined in: main.ts:162215
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **lost\_referring\_domains**: `number`
 
+Defined in: main.ts:162223
+
 number of lost referring domains
 number of lost referring domains of the target
-
-#### Defined in
-
-main.ts:150917
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:150917
 
 > `optional` **lost\_referring\_main\_domains**: `number`
 
+Defined in: main.ts:162227
+
 number of lost referring main domains pointing to the target
-
-#### Defined in
-
-main.ts:150921
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:150921
 
 > `optional` **new\_referring\_domains**: `number`
 
+Defined in: main.ts:162220
+
 number of new referring domains
 number of new referring domains pointing to the target
-
-#### Defined in
-
-main.ts:150914
 
 ***
 
@@ -54,11 +50,9 @@ main.ts:150914
 
 > `optional` **new\_referring\_main\_domains**: `number`
 
+Defined in: main.ts:162225
+
 number of new referring main domains pointing to the target
-
-#### Defined in
-
-main.ts:150919
 
 ***
 
@@ -66,8 +60,6 @@ main.ts:150919
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:162217
+
 domain, subdomain or webpage from a POST array
-
-#### Defined in
-
-main.ts:150911

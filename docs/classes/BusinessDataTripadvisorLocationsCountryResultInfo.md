@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorLocationsCountryResultInfo
+[Documentation](../README.md) / BusinessDataTripadvisorLocationsCountryResultInfo
 
 # Class: BusinessDataTripadvisorLocationsCountryResultInfo
+
+Defined in: main.ts:227344
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataTripadvisorLocationsCountryResultInfo**(`data`?): [`BusinessDataTripadvisorLocationsCountryResultInfo`](BusinessDataTripadvisorLocationsCountryResultInfo.md)
 
+Defined in: main.ts:227362
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorLocationsCountryResultInfo`](BusinessDataTripadvisorLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:212328
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:212328
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:227356
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:212322
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:212322
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:227346
+
 location code
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md).[`location_code`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:212312
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:212312
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:227348
+
 full name of the location
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md).[`location_name`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:212314
-
 ***
 
 ### location\_name\_parent?
 
 > `optional` **location\_name\_parent**: `string`
+
+Defined in: main.ts:227354
 
 the name of the superordinate location
 example:
@@ -96,15 +94,13 @@ example:
 
 [`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md).[`location_name_parent`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md#location_name_parent)
 
-#### Defined in
-
-main.ts:212320
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:227358
 
 location type
 
@@ -112,27 +108,23 @@ location type
 
 [`IBusinessDataTripadvisorLocationsCountryResultInfo`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md).[`location_type`](../interfaces/IBusinessDataTripadvisorLocationsCountryResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:212324
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:227371
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:212337
 
 ***
 
@@ -140,17 +132,17 @@ main.ts:212337
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:227392
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:212358
 
 ***
 
@@ -158,14 +150,14 @@ main.ts:212358
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorLocationsCountryResultInfo`](BusinessDataTripadvisorLocationsCountryResultInfo.md)
 
+Defined in: main.ts:227385
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTripadvisorLocationsCountryResultInfo`](BusinessDataTripadvisorLocationsCountryResultInfo.md)
-
-#### Defined in
-
-main.ts:212351

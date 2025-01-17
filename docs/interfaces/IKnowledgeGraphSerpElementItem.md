@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKnowledgeGraphSerpElementItem
+[Documentation](../README.md) / IKnowledgeGraphSerpElementItem
 
 # Interface: IKnowledgeGraphSerpElementItem
+
+Defined in: main.ts:31109
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **card\_id**: `string`
 
+Defined in: main.ts:31117
+
 card id
-
-#### Defined in
-
-main.ts:29284
 
 ***
 
@@ -32,13 +32,11 @@ main.ts:29284
 
 > `optional` **cid**: `string`
 
+Defined in: main.ts:31128
+
 google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
-
-#### Defined in
-
-main.ts:29295
 
 ***
 
@@ -46,11 +44,9 @@ main.ts:29295
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:31115
+
 description of the results element in SERP
-
-#### Defined in
-
-main.ts:29282
 
 ***
 
@@ -58,12 +54,10 @@ main.ts:29282
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:31122
+
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
-
-#### Defined in
-
-main.ts:29289
 
 ***
 
@@ -71,12 +65,9 @@ main.ts:29289
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+Defined in: main.ts:31130
 
-#### Defined in
-
-main.ts:29298
+contains results featured in the ‘hotels_pack’ element of SERP
 
 ***
 
@@ -84,17 +75,17 @@ main.ts:29298
 
 > `optional` **logo\_url**: `string`
 
+Defined in: main.ts:31124
+
 URL of the logo from knowledge graph
-
-#### Defined in
-
-main.ts:29291
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21404
 
 the alignment of the element in SERP
 can take the following values:
@@ -104,15 +95,13 @@ left, right
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20721
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21400
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -121,15 +110,13 @@ absolute position among all the elements in SERP
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20717
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21397
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -139,23 +126,17 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20714
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
+Defined in: main.ts:31134
+
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
-
-#### Defined in
-
-main.ts:29302
 
 ***
 
@@ -163,11 +144,9 @@ main.ts:29302
 
 > `optional` **subtitle**: `string`
 
+Defined in: main.ts:31113
+
 subtitle of the item
-
-#### Defined in
-
-main.ts:29280
 
 ***
 
@@ -175,11 +154,9 @@ main.ts:29280
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:31111
+
 title of the result in SERP
-
-#### Defined in
-
-main.ts:29278
 
 ***
 
@@ -187,15 +164,13 @@ main.ts:29278
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21393
+
 type of element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:20710
 
 ***
 
@@ -203,11 +178,9 @@ main.ts:20710
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:31119
+
 relevant URL in SERP
-
-#### Defined in
-
-main.ts:29286
 
 ***
 
@@ -215,12 +188,10 @@ main.ts:29286
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:21406
+
 the XPath of the element
 
 #### Inherited from
 
 [`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
-
-#### Defined in
-
-main.ts:20723

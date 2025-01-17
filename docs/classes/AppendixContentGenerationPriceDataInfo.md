@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentGenerationPriceDataInfo
+[Documentation](../README.md) / AppendixContentGenerationPriceDataInfo
 
 # Class: AppendixContentGenerationPriceDataInfo
+
+Defined in: main.ts:238202
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixContentGenerationPriceDataInfo**(`data`?): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
+Defined in: main.ts:238208
+
 #### Parameters
 
-• **data?**: [`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md)
+##### data?
+
+[`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md)
 
 #### Returns
 
 [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:222920
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:222920
 
 > `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:238204
+
 #### Implementation of
 
 [`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md).[`languages`](../interfaces/IAppendixContentGenerationPriceDataInfo.md#languages)
-
-#### Defined in
-
-main.ts:222916
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:222916
 
 > `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
+Defined in: main.ts:238203
+
 #### Implementation of
 
 [`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md).[`live`](../interfaces/IAppendixContentGenerationPriceDataInfo.md#live)
-
-#### Defined in
-
-main.ts:222915
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:222915
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:238217
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:222929
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:222929
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:238235
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:222947
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:222947
 
 > `static` **fromJS**(`data`): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
+Defined in: main.ts:238228
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
-
-#### Defined in
-
-main.ts:222940

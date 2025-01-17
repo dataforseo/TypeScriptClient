@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphImagesElement
+[Documentation](../README.md) / KnowledgeGraphImagesElement
 
 # Class: KnowledgeGraphImagesElement
+
+Defined in: main.ts:29673
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KnowledgeGraphImagesElement**(`data`?): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
 
+Defined in: main.ts:29690
+
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md)
+##### data?
+
+[`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md)
 
 #### Returns
 
 [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
-
-#### Defined in
-
-main.ts:28126
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:28126
 
 > `optional` **alt**: `string`
 
+Defined in: main.ts:29681
+
 alt tag of the image
 
 #### Implementation of
 
 [`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md).[`alt`](../interfaces/IKnowledgeGraphImagesElement.md#alt)
-
-#### Defined in
-
-main.ts:28117
 
 ***
 
@@ -54,21 +54,21 @@ main.ts:28117
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:29679
+
 domain in SERP of the Ad element
 
 #### Implementation of
 
 [`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md).[`domain`](../interfaces/IKnowledgeGraphImagesElement.md#domain)
 
-#### Defined in
-
-main.ts:28115
-
 ***
 
 ### image\_url?
 
 > `optional` **image\_url**: `string`
+
+Defined in: main.ts:29684
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -77,15 +77,13 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md).[`image_url`](../interfaces/IKnowledgeGraphImagesElement.md#image_url)
 
-#### Defined in
-
-main.ts:28120
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:29675
 
 type of element
 
@@ -93,15 +91,13 @@ type of element
 
 [`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md).[`type`](../interfaces/IKnowledgeGraphImagesElement.md#type)
 
-#### Defined in
-
-main.ts:28111
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:29677
 
 relevant URL in SERP
 
@@ -109,15 +105,13 @@ relevant URL in SERP
 
 [`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md).[`url`](../interfaces/IKnowledgeGraphImagesElement.md#url)
 
-#### Defined in
-
-main.ts:28113
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:29686
 
 the XPath of the element
 
@@ -125,27 +119,23 @@ the XPath of the element
 
 [`IKnowledgeGraphImagesElement`](../interfaces/IKnowledgeGraphImagesElement.md).[`xpath`](../interfaces/IKnowledgeGraphImagesElement.md#xpath)
 
-#### Defined in
-
-main.ts:28122
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:29699
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:28135
 
 ***
 
@@ -153,17 +143,17 @@ main.ts:28135
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:29721
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:28157
 
 ***
 
@@ -171,14 +161,14 @@ main.ts:28157
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
 
+Defined in: main.ts:29714
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KnowledgeGraphImagesElement`](KnowledgeGraphImagesElement.md)
-
-#### Defined in
-
-main.ts:28150

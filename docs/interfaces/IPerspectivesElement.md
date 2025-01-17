@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IPerspectivesElement
+[Documentation](../README.md) / IPerspectivesElement
 
 # Interface: IPerspectivesElement
 
+Defined in: main.ts:37460
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:37472
+
 the date when the page source of the element was published
-
-#### Defined in
-
-main.ts:35768
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:35768
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:37466
+
 description
-
-#### Defined in
-
-main.ts:35762
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:35762
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:37470
+
 website domain
-
-#### Defined in
-
-main.ts:35766
 
 ***
 
@@ -52,12 +48,10 @@ main.ts:35766
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:37475
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:35771
 
 ***
 
@@ -65,14 +59,12 @@ main.ts:35771
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:37480
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:35776
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:35776
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:37464
+
 title of a given link element
-
-#### Defined in
-
-main.ts:35760
 
 ***
 
@@ -92,11 +82,9 @@ main.ts:35760
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:37462
+
 type of element
-
-#### Defined in
-
-main.ts:35758
 
 ***
 
@@ -104,8 +92,6 @@ main.ts:35758
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:37468
+
 URL
-
-#### Defined in
-
-main.ts:35764

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
+
+Defined in: main.ts:121278
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleKeywordsForAppLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](DataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)
 
+Defined in: main.ts:121370
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](DataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:111937
 
 ## Properties
 
 ### app\_id?
 
 > `optional` **app\_id**: `string`
+
+Defined in: main.ts:121286
 
 id of the apps
 required field
@@ -50,15 +54,13 @@ the id is org.telegram.messenger
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`app_id`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#app_id)
 
-#### Defined in
-
-main.ts:111853
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:121333
 
 array of results filtering parameters
 optional field
@@ -75,15 +77,13 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:111900
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:121322
 
 language code
 required field if you don’t specify language_name
@@ -98,15 +98,13 @@ en
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:111889
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:121313
 
 full name of the language
 required field if you don’t specify language_code
@@ -121,15 +119,13 @@ English
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:111880
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:121355
 
 the maximum number of returned keywords
 optional field
@@ -140,15 +136,13 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:111922
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:121304
 
 location code
 required field if you don’t specify location_name
@@ -163,15 +157,13 @@ example:
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:111871
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:121295
 
 full name of the location
 required field if you don’t specify location_code
@@ -186,15 +178,13 @@ United States
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:111862
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:121360
 
 offset in the results array of returned keywords
 optional field
@@ -205,15 +195,13 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:111927
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:121350
 
 results sorting rules
 optional field
@@ -236,15 +224,13 @@ Note: if the item_types array contains item types that are different from organi
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:111917
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:121366
 
 user-defined task identifier
 optional field
@@ -256,27 +242,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:111933
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:121379
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:111946
 
 ***
 
@@ -284,17 +266,17 @@ main.ts:111946
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:121413
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:111980
 
 ***
 
@@ -302,14 +284,14 @@ main.ts:111980
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](DataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)
 
+Defined in: main.ts:121406
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleKeywordsForAppLiveRequestInfo`](DataforseoLabsGoogleKeywordsForAppLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:111973

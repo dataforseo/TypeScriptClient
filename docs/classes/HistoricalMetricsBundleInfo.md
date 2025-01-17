@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / HistoricalMetricsBundleInfo
+[Documentation](../README.md) / HistoricalMetricsBundleInfo
 
 # Class: HistoricalMetricsBundleInfo
+
+Defined in: main.ts:111466
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new HistoricalMetricsBundleInfo**(`data`?): [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
 
+Defined in: main.ts:111478
+
 #### Parameters
 
-• **data?**: [`IHistoricalMetricsBundleInfo`](../interfaces/IHistoricalMetricsBundleInfo.md)
+##### data?
+
+[`IHistoricalMetricsBundleInfo`](../interfaces/IHistoricalMetricsBundleInfo.md)
 
 #### Returns
 
 [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:101639
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:101639
 
 > `optional` **featured\_snippet**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
+Defined in: main.ts:111474
+
 traffic data from the local pack results in SERP
 
 #### Implementation of
 
 [`IHistoricalMetricsBundleInfo`](../interfaces/IHistoricalMetricsBundleInfo.md).[`featured_snippet`](../interfaces/IHistoricalMetricsBundleInfo.md#featured_snippet)
-
-#### Defined in
-
-main.ts:101635
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:101635
 
 > `optional` **local\_pack**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
+Defined in: main.ts:111472
+
 traffic data from the featured snippet results in Google SERP
 
 #### Implementation of
 
 [`IHistoricalMetricsBundleInfo`](../interfaces/IHistoricalMetricsBundleInfo.md).[`local_pack`](../interfaces/IHistoricalMetricsBundleInfo.md#local_pack)
-
-#### Defined in
-
-main.ts:101633
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:101633
 
 > `optional` **organic**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
+Defined in: main.ts:111468
+
 traffic data from organic search
 
 #### Implementation of
 
 [`IHistoricalMetricsBundleInfo`](../interfaces/IHistoricalMetricsBundleInfo.md).[`organic`](../interfaces/IHistoricalMetricsBundleInfo.md#organic)
-
-#### Defined in
-
-main.ts:101629
 
 ***
 
@@ -86,15 +82,13 @@ main.ts:101629
 
 > `optional` **paid**: [`HistoricalMetricsInfo`](HistoricalMetricsInfo.md)[]
 
+Defined in: main.ts:111470
+
 traffic data from paid search
 
 #### Implementation of
 
 [`IHistoricalMetricsBundleInfo`](../interfaces/IHistoricalMetricsBundleInfo.md).[`paid`](../interfaces/IHistoricalMetricsBundleInfo.md#paid)
-
-#### Defined in
-
-main.ts:101631
 
 ## Methods
 
@@ -102,17 +96,17 @@ main.ts:101631
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:111487
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:101648
 
 ***
 
@@ -120,17 +114,17 @@ main.ts:101648
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:111523
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:101684
 
 ***
 
@@ -138,14 +132,14 @@ main.ts:101684
 
 > `static` **fromJS**(`data`): [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
 
+Defined in: main.ts:111516
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:101677

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataTripadvisorReviewsTaskGetResultInfo
+[Documentation](../README.md) / BusinessDataTripadvisorReviewsTaskGetResultInfo
 
 # Class: BusinessDataTripadvisorReviewsTaskGetResultInfo
+
+Defined in: main.ts:229362
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataTripadvisorReviewsTaskGetResultInfo**(`data`?): [`BusinessDataTripadvisorReviewsTaskGetResultInfo`](BusinessDataTripadvisorReviewsTaskGetResultInfo.md)
 
+Defined in: main.ts:229402
+
 #### Parameters
 
-• **data?**: [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md)
+##### data?
+
+[`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md)
 
 #### Returns
 
 [`BusinessDataTripadvisorReviewsTaskGetResultInfo`](BusinessDataTripadvisorReviewsTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:214358
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:229371
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:214327
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:229376
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:214332
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+
+Defined in: main.ts:229396
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -81,15 +81,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#items)
 
-#### Defined in
-
-main.ts:214352
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:229393
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -98,15 +96,13 @@ you can get more results by using the depth parameter when setting a task
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:214349
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:229398
 
 language code in a POST array
 
@@ -114,15 +110,13 @@ language code in a POST array
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`language_code`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:214354
-
 ***
 
 ### location?
 
 > `optional` **location**: `string`
+
+Defined in: main.ts:229382
 
 location of the local establishment
 address of the local establishment for which the reviews are collected
@@ -131,15 +125,13 @@ address of the local establishment for which the reviews are collected
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`location`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#location)
 
-#### Defined in
-
-main.ts:214338
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:229387
 
 rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP
@@ -148,30 +140,24 @@ popularity rate based on reviews and displayed in SERP
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`rating`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#rating)
 
-#### Defined in
-
-main.ts:214343
-
 ***
 
 ### rating\_distribution?
 
 > `optional` **rating\_distribution**: `object`
 
+Defined in: main.ts:229390
+
 rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
+\[`key`: `string`\]: `number`
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`rating_distribution`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#rating_distribution)
-
-#### Defined in
-
-main.ts:214346
 
 ***
 
@@ -179,15 +165,13 @@ main.ts:214346
 
 > `optional` **reviews\_count**: `number`
 
+Defined in: main.ts:229384
+
 the total number of reviews
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`reviews_count`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#reviews_count)
-
-#### Defined in
-
-main.ts:214340
 
 ***
 
@@ -195,21 +179,21 @@ main.ts:214340
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:229368
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:214324
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:229379
 
 title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected
@@ -218,15 +202,13 @@ the name of the local establishment for which the reviews are collected
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`title`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#title)
 
-#### Defined in
-
-main.ts:214335
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:229366
 
 type of element
 
@@ -234,15 +216,13 @@ type of element
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`type`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#type)
 
-#### Defined in
-
-main.ts:214322
-
 ***
 
 ### url\_path?
 
 > `optional` **url\_path**: `string`
+
+Defined in: main.ts:229364
 
 URL path received in a POST array
 
@@ -250,27 +230,23 @@ URL path received in a POST array
 
 [`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`url_path`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#url_path)
 
-#### Defined in
-
-main.ts:214320
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:229411
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:214367
 
 ***
 
@@ -278,17 +254,17 @@ main.ts:214367
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:229450
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:214406
 
 ***
 
@@ -296,14 +272,14 @@ main.ts:214406
 
 > `static` **fromJS**(`data`): [`BusinessDataTripadvisorReviewsTaskGetResultInfo`](BusinessDataTripadvisorReviewsTaskGetResultInfo.md)
 
+Defined in: main.ts:229443
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataTripadvisorReviewsTaskGetResultInfo`](BusinessDataTripadvisorReviewsTaskGetResultInfo.md)
-
-#### Defined in
-
-main.ts:214399

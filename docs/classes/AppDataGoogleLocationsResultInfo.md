@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleLocationsResultInfo
+[Documentation](../README.md) / AppDataGoogleLocationsResultInfo
 
 # Class: AppDataGoogleLocationsResultInfo
+
+Defined in: main.ts:198724
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataGoogleLocationsResultInfo**(`data`?): [`AppDataGoogleLocationsResultInfo`](AppDataGoogleLocationsResultInfo.md)
 
+Defined in: main.ts:198744
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md)
+##### data?
+
+[`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleLocationsResultInfo`](AppDataGoogleLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:186545
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:186545
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:198738
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md).[`country_iso_code`](../interfaces/IAppDataGoogleLocationsResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:186539
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:186539
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:198726
+
 location code
 
 #### Implementation of
 
 [`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md).[`location_code`](../interfaces/IAppDataGoogleLocationsResultInfo.md#location_code)
-
-#### Defined in
-
-main.ts:186527
 
 ***
 
@@ -70,21 +68,21 @@ main.ts:186527
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:198728
+
 full name of the location
 
 #### Implementation of
 
 [`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md).[`location_name`](../interfaces/IAppDataGoogleLocationsResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:186529
-
 ***
 
 ### location\_name\_parent?
 
 > `optional` **location\_name\_parent**: `string`
+
+Defined in: main.ts:198736
 
 the name of the superordinate location
 example:
@@ -98,15 +96,13 @@ example:
 
 [`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md).[`location_name_parent`](../interfaces/IAppDataGoogleLocationsResultInfo.md#location_name_parent)
 
-#### Defined in
-
-main.ts:186537
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:198740
 
 location type
 
@@ -114,27 +110,23 @@ location type
 
 [`IAppDataGoogleLocationsResultInfo`](../interfaces/IAppDataGoogleLocationsResultInfo.md).[`location_type`](../interfaces/IAppDataGoogleLocationsResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:186541
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:198753
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:186554
 
 ***
 
@@ -142,17 +134,17 @@ main.ts:186554
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:198774
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:186575
 
 ***
 
@@ -160,14 +152,14 @@ main.ts:186575
 
 > `static` **fromJS**(`data`): [`AppDataGoogleLocationsResultInfo`](AppDataGoogleLocationsResultInfo.md)
 
+Defined in: main.ts:198767
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleLocationsResultInfo`](AppDataGoogleLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:186568

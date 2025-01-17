@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsLocationsResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsLocationsResultInfo
 
 # Class: KeywordsDataGoogleTrendsLocationsResultInfo
+
+Defined in: main.ts:132542
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataGoogleTrendsLocationsResultInfo**(`data`?): [`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)
 
+Defined in: main.ts:132570
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:122226
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:122226
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:132557
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md).[`country_iso_code`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md#country_iso_code)
 
-#### Defined in
-
-main.ts:122213
-
 ***
 
 ### geo\_id?
 
 > `optional` **geo\_id**: `string`
+
+Defined in: main.ts:132566
 
 google trends location identifier
 you can use this field for matching obtained results with the location_code parameter specified in the request
@@ -61,15 +63,13 @@ you can use this field for matching obtained results with the location_code para
 
 [`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md).[`geo_id`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md#geo_id)
 
-#### Defined in
-
-main.ts:122222
-
 ***
 
 ### geo\_name?
 
 > `optional` **geo\_name**: `string`
+
+Defined in: main.ts:132563
 
 google trends location name
 you can use this field for matching obtained results with the location_name parameter specified in the request
@@ -78,15 +78,13 @@ you can use this field for matching obtained results with the location_name para
 
 [`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md).[`geo_name`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md#geo_name)
 
-#### Defined in
-
-main.ts:122219
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:132544
 
 location code
 
@@ -94,15 +92,13 @@ location code
 
 [`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:122200
-
 ***
 
 ### location\_code\_parent?
 
 > `optional` **location\_code\_parent**: `number`
+
+Defined in: main.ts:132555
 
 the code of the superordinate location
 example:
@@ -117,15 +113,13 @@ where location_code_parent corresponds to:
 
 [`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md).[`location_code_parent`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md#location_code_parent)
 
-#### Defined in
-
-main.ts:122211
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:132546
 
 full name of the location
 
@@ -133,15 +127,13 @@ full name of the location
 
 [`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md#location_name)
 
-#### Defined in
-
-main.ts:122202
-
 ***
 
 ### location\_type?
 
 > `optional` **location\_type**: `string`
+
+Defined in: main.ts:132560
 
 location type
 possible values according to Google’s target types
@@ -150,27 +142,23 @@ possible values according to Google’s target types
 
 [`IKeywordsDataGoogleTrendsLocationsResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md).[`location_type`](../interfaces/IKeywordsDataGoogleTrendsLocationsResultInfo.md#location_type)
 
-#### Defined in
-
-main.ts:122216
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:132579
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:122235
 
 ***
 
@@ -178,17 +166,17 @@ main.ts:122235
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:132602
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:122258
 
 ***
 
@@ -196,14 +184,14 @@ main.ts:122258
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)
 
+Defined in: main.ts:132595
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsLocationsResultInfo`](KeywordsDataGoogleTrendsLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:122251

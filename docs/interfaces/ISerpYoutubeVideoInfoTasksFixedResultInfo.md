@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoInfoTasksFixedResultInfo
+[Documentation](../README.md) / ISerpYoutubeVideoInfoTasksFixedResultInfo
 
 # Interface: ISerpYoutubeVideoInfoTasksFixedResultInfo
 
+Defined in: main.ts:70117
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_fixed**: `string`
 
+Defined in: main.ts:70127
+
 date when the task was fixed (in the UTC format)
-
-#### Defined in
-
-main.ts:61912
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:61912
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:70135
+
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:61920
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:61920
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:70138
+
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:61923
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:61923
 
 > `optional` **endpoint\_regular**: `string`
 
+Defined in: main.ts:70132
+
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:61917
 
 ***
 
@@ -67,12 +61,10 @@ main.ts:61917
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:70120
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:61905
 
 ***
 
@@ -80,11 +72,9 @@ main.ts:61905
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:70122
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:61907
 
 ***
 
@@ -92,12 +82,10 @@ main.ts:61907
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:70125
+
 type of search engine
 can take the following values: video_info
-
-#### Defined in
-
-main.ts:61910
 
 ***
 
@@ -105,8 +93,6 @@ main.ts:61910
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:70129
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:61914

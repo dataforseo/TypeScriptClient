@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageWaterfallResultInfo
+[Documentation](../README.md) / IOnPageWaterfallResultInfo
 
 # Interface: IOnPageWaterfallResultInfo
 
+Defined in: main.ts:170974
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:170977
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:159241
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:159241
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:170979
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:159243
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:159243
 
 > `optional` **items**: [`OnPageWaterfallItem`](../classes/OnPageWaterfallItem.md)[]
 
+Defined in: main.ts:170983
+
 items array
-
-#### Defined in
-
-main.ts:159247
 
 ***
 
@@ -53,8 +49,6 @@ main.ts:159247
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:170981
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:159245

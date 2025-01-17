@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLighthouseLanguagesResultInfo
+[Documentation](../README.md) / IOnPageLighthouseLanguagesResultInfo
 
 # Interface: IOnPageLighthouseLanguagesResultInfo
 
+Defined in: main.ts:174905
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:174909
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:163219
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:163219
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:174907
+
 language name
-
-#### Defined in
-
-main.ts:163217

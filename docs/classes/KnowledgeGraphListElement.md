@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KnowledgeGraphListElement
+[Documentation](../README.md) / KnowledgeGraphListElement
 
 # Class: KnowledgeGraphListElement
+
+Defined in: main.ts:29421
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KnowledgeGraphListElement**(`data`?): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
+Defined in: main.ts:29440
+
 #### Parameters
 
-• **data?**: [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md)
+##### data?
+
+[`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md)
 
 #### Returns
 
 [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
-
-#### Defined in
-
-main.ts:27876
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:27876
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:29431
+
 domain in SERP
 
 #### Implementation of
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`domain`](../interfaces/IKnowledgeGraphListElement.md#domain)
 
-#### Defined in
-
-main.ts:27867
-
 ***
 
 ### image\_url?
 
 > `optional` **image\_url**: `string`
+
+Defined in: main.ts:29434
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -61,15 +63,13 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`image_url`](../interfaces/IKnowledgeGraphListElement.md#image_url)
 
-#### Defined in
-
-main.ts:27870
-
 ***
 
 ### subtitle?
 
 > `optional` **subtitle**: `string`
+
+Defined in: main.ts:29427
 
 subtitle of the item
 
@@ -77,15 +77,13 @@ subtitle of the item
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`subtitle`](../interfaces/IKnowledgeGraphListElement.md#subtitle)
 
-#### Defined in
-
-main.ts:27863
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:29425
 
 link anchor text
 
@@ -93,15 +91,13 @@ link anchor text
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`title`](../interfaces/IKnowledgeGraphListElement.md#title)
 
-#### Defined in
-
-main.ts:27861
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:29423
 
 type of element
 
@@ -109,15 +105,13 @@ type of element
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`type`](../interfaces/IKnowledgeGraphListElement.md#type)
 
-#### Defined in
-
-main.ts:27859
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:29429
 
 sitelink URL
 
@@ -125,15 +119,13 @@ sitelink URL
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`url`](../interfaces/IKnowledgeGraphListElement.md#url)
 
-#### Defined in
-
-main.ts:27865
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:29436
 
 the XPath of the element
 
@@ -141,27 +133,23 @@ the XPath of the element
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`xpath`](../interfaces/IKnowledgeGraphListElement.md#xpath)
 
-#### Defined in
-
-main.ts:27872
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:29449
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:27885
 
 ***
 
@@ -169,17 +157,17 @@ main.ts:27885
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:29472
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:27908
 
 ***
 
@@ -187,14 +175,14 @@ main.ts:27908
 
 > `static` **fromJS**(`data`): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
+Defined in: main.ts:29465
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
-
-#### Defined in
-
-main.ts:27901

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelsPackElement
+[Documentation](../README.md) / IHotelsPackElement
 
 # Interface: IHotelsPackElement
 
+Defined in: main.ts:35571
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:35579
+
 description
-
-#### Defined in
-
-main.ts:33791
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:33791
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:35585
+
 website domain
-
-#### Defined in
-
-main.ts:33797
 
 ***
 
@@ -40,13 +38,11 @@ main.ts:33797
 
 > `optional` **hotel\_identifier**: `string`
 
+Defined in: main.ts:35583
+
 unique hotel identifier
 unique hotel identifier assigned by Google;
 example: "CgoIjaeSlI6CnNpVEAE"
-
-#### Defined in
-
-main.ts:33795
 
 ***
 
@@ -54,11 +50,9 @@ main.ts:33795
 
 > `optional` **is\_paid**: `boolean`
 
+Defined in: main.ts:35589
+
 indicates whether the element is an ad
-
-#### Defined in
-
-main.ts:33801
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:33801
 
 > `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
+Defined in: main.ts:35575
+
 price indicated in the element
-
-#### Defined in
-
-main.ts:33787
 
 ***
 
@@ -78,12 +70,10 @@ main.ts:33787
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:35592
+
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:33804
 
 ***
 
@@ -91,11 +81,9 @@ main.ts:33804
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:35577
+
 title of a given link element
-
-#### Defined in
-
-main.ts:33789
 
 ***
 
@@ -103,11 +91,9 @@ main.ts:33789
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:35573
+
 type of element
-
-#### Defined in
-
-main.ts:33785
 
 ***
 
@@ -115,8 +101,6 @@ main.ts:33785
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:35587
+
 URL
-
-#### Defined in
-
-main.ts:33799

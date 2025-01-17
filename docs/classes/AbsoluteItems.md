@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AbsoluteItems
+[Documentation](../README.md) / AbsoluteItems
 
 # Class: AbsoluteItems
+
+Defined in: main.ts:136568
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AbsoluteItems**(`data`?): [`AbsoluteItems`](AbsoluteItems.md)
 
+Defined in: main.ts:136593
+
 #### Parameters
 
-• **data?**: [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md)
+##### data?
+
+[`IAbsoluteItems`](../interfaces/IAbsoluteItems.md)
 
 #### Returns
 
 [`AbsoluteItems`](AbsoluteItems.md)
-
-#### Defined in
-
-main.ts:126237
 
 ## Properties
 
 ### geo\_id?
 
 > `optional` **geo\_id**: `string`
+
+Defined in: main.ts:136574
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -48,15 +52,13 @@ US-NY
 
 [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`geo_id`](../interfaces/IAbsoluteItems.md#geo_id)
 
-#### Defined in
-
-main.ts:126218
-
 ***
 
 ### geo\_name?
 
 > `optional` **geo\_name**: `string`
+
+Defined in: main.ts:136580
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -68,15 +70,13 @@ Andorra
 
 [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`geo_name`](../interfaces/IAbsoluteItems.md#geo_name)
 
-#### Defined in
-
-main.ts:126224
-
 ***
 
 ### values?
 
 > `optional` **values**: `number`[]
+
+Defined in: main.ts:136589
 
 keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -91,27 +91,23 @@ a value of 0 means there was not enough data for this term
 
 [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`values`](../interfaces/IAbsoluteItems.md#values)
 
-#### Defined in
-
-main.ts:126233
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:136602
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:126246
 
 ***
 
@@ -119,17 +115,17 @@ main.ts:126246
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:136625
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:126269
 
 ***
 
@@ -137,14 +133,14 @@ main.ts:126269
 
 > `static` **fromJS**(`data`): [`AbsoluteItems`](AbsoluteItems.md)
 
+Defined in: main.ts:136618
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AbsoluteItems`](AbsoluteItems.md)
-
-#### Defined in
-
-main.ts:126262

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
+[Documentation](../README.md) / IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
 # Interface: IKeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
+Defined in: main.ts:148333
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem`](../classes/KeywordsDataClickstreamDataGlobalSearchVolumeLiveItem.md)[]
 
+Defined in: main.ts:148337
+
 contains keywords and related data
-
-#### Defined in
-
-main.ts:136291
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:136291
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:148335
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:136289

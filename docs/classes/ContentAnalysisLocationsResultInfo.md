@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisLocationsResultInfo
+[Documentation](../README.md) / ContentAnalysisLocationsResultInfo
 
 # Class: ContentAnalysisLocationsResultInfo
+
+Defined in: main.ts:176868
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentAnalysisLocationsResultInfo**(`data`?): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
+Defined in: main.ts:176876
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md)
+##### data?
+
+[`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md)
 
 #### Returns
 
 [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:165186
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:165186
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:176872
+
 ISO country code of the location
 
 #### Implementation of
 
 [`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md).[`country_iso_code`](../interfaces/IContentAnalysisLocationsResultInfo.md#country_iso_code)
-
-#### Defined in
-
-main.ts:165182
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:165182
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:176870
+
 full name of the location
 
 #### Implementation of
 
 [`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md).[`location_name`](../interfaces/IContentAnalysisLocationsResultInfo.md#location_name)
-
-#### Defined in
-
-main.ts:165180
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:165180
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:176885
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:165195
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:165195
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:176903
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:165213
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:165213
 
 > `static` **fromJS**(`data`): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
+Defined in: main.ts:176896
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
-
-#### Defined in
-
-main.ts:165206

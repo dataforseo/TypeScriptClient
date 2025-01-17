@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductInfoElementMerchantSerpElementItem
+[Documentation](../README.md) / IProductInfoElementMerchantSerpElementItem
 
 # Interface: IProductInfoElementMerchantSerpElementItem
+
+Defined in: main.ts:190717
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:190724
+
 description of the product
-
-#### Defined in
-
-main.ts:178882
 
 ***
 
@@ -32,12 +32,10 @@ main.ts:178882
 
 > `optional` **features**: `string`[]
 
+Defined in: main.ts:190733
+
 product features
 contains snippets with the description of product features
-
-#### Defined in
-
-main.ts:178891
 
 ***
 
@@ -45,18 +43,18 @@ main.ts:178891
 
 > `optional` **images**: `string`[]
 
+Defined in: main.ts:190730
+
 product images
 contains urls to product images
-
-#### Defined in
-
-main.ts:178888
 
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21813
 
 alignment of the element in SERP
 can take the following values:
@@ -66,28 +64,24 @@ left, right
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:21130
-
 ***
 
 ### product\_id?
 
 > `optional` **product\_id**: `string`
 
+Defined in: main.ts:190720
+
 product_id received in a POST array
 ilearn more about the parameter in this help center guide
-
-#### Defined in
-
-main.ts:178878
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21809
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -96,15 +90,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:21126
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21806
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -113,22 +105,16 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:21123
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
+Defined in: main.ts:190736
+
 product rating 
 the popularity rate based on reviews
-
-#### Defined in
-
-main.ts:178894
 
 ***
 
@@ -136,12 +122,10 @@ main.ts:178894
 
 > `optional` **seller\_reviews\_count**: `number`
 
+Defined in: main.ts:190739
+
 number of seller reviews
 number of reviews on the product seller’s account
-
-#### Defined in
-
-main.ts:178897
 
 ***
 
@@ -149,12 +133,10 @@ main.ts:178897
 
 > `optional` **sellers**: [`ProductSeller`](../classes/ProductSeller.md)[]
 
+Defined in: main.ts:190742
+
 sellers of the product
 number of reviews on the product seller’s account
-
-#### Defined in
-
-main.ts:178900
 
 ***
 
@@ -162,11 +144,9 @@ main.ts:178900
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:190722
+
 title of the product
-
-#### Defined in
-
-main.ts:178880
 
 ***
 
@@ -174,15 +154,13 @@ main.ts:178880
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:21803
+
 type of element
 
 #### Inherited from
 
 [`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:21120
 
 ***
 
@@ -190,12 +168,10 @@ main.ts:21120
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:190727
+
 product url
 url of the product on Google Shopping
-
-#### Defined in
-
-main.ts:178885
 
 ***
 
@@ -203,9 +179,7 @@ main.ts:178885
 
 > `optional` **variations**: [`ProductVariation`](../classes/ProductVariation.md)[]
 
+Defined in: main.ts:190745
+
 variations of the product
 contains brief information about different product variations
-
-#### Defined in
-
-main.ts:178903

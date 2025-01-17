@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageAvailableFiltersResultInfo
+[Documentation](../README.md) / IOnPageAvailableFiltersResultInfo
 
 # Interface: IOnPageAvailableFiltersResultInfo
 
+Defined in: main.ts:163990
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **keyword\_density**: `object`
 
+Defined in: main.ts:163997
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:152691
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -30,13 +30,11 @@ main.ts:152691
 
 > `optional` **links**: `object`
 
+Defined in: main.ts:163994
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:152688
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -44,13 +42,11 @@ main.ts:152688
 
 > `optional` **non\_indexable**: `object`
 
+Defined in: main.ts:163993
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:152687
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -58,13 +54,11 @@ main.ts:152687
 
 > `optional` **pages**: `object`
 
+Defined in: main.ts:163992
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:152686
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -72,13 +66,11 @@ main.ts:152686
 
 > `optional` **pages\_by\_resource**: `object`
 
+Defined in: main.ts:163995
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:152689
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -86,13 +78,11 @@ main.ts:152689
 
 > `optional` **redirect\_chains**: `object`
 
+Defined in: main.ts:163996
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:152690
+\[`key`: `string`\]: `string`
 
 ***
 
@@ -100,10 +90,8 @@ main.ts:152690
 
 > `optional` **resources**: `object`
 
+Defined in: main.ts:163991
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:152685
+\[`key`: `string`\]: `string`

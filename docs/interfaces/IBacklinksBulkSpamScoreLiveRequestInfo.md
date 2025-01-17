@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkSpamScoreLiveRequestInfo
+[Documentation](../README.md) / IBacklinksBulkSpamScoreLiveRequestInfo
 
 # Interface: IBacklinksBulkSpamScoreLiveRequestInfo
 
+Defined in: main.ts:161020
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,21 +18,21 @@
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:161045
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:149739
-
 ***
 
 ### targets?
 
 > `optional` **targets**: `string`[]
+
+Defined in: main.ts:161039
 
 domains, subdomains or webpages to get rank for
 required field
@@ -50,7 +52,3 @@ example:
   "https://stackoverflow.com/",
   "www.trustpilot.com"
 ]
-
-#### Defined in
-
-main.ts:149733

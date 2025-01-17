@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OrganicSerpElementItem
+[Documentation](../README.md) / OrganicSerpElementItem
 
 # Class: OrganicSerpElementItem
+
+Defined in: main.ts:28745
 
 ## Extends
 
@@ -16,7 +18,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -24,9 +26,13 @@
 
 > **new OrganicSerpElementItem**(`data`?): [`OrganicSerpElementItem`](OrganicSerpElementItem.md)
 
+Defined in: main.ts:28822
+
 #### Parameters
 
-• **data?**: [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md)
+##### data?
+
+[`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md)
 
 #### Returns
 
@@ -36,29 +42,25 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Defined in
-
-main.ts:27264
-
 ## Properties
 
 ### \_discriminator
 
 > `protected` **\_discriminator**: `string`
 
+Defined in: main.ts:21045
+
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
-
-#### Defined in
-
-main.ts:20367
 
 ***
 
 ### about\_this\_result?
 
 > `optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
+
+Defined in: main.ts:28805
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -68,15 +70,13 @@ this feature appears after clicking on the three dots next to most results
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`about_this_result`](../interfaces/IOrganicSerpElementItem.md#about_this_result)
 
-#### Defined in
-
-main.ts:27247
-
 ***
 
 ### amp\_version?
 
 > `optional` **amp\_version**: `boolean`
+
+Defined in: main.ts:28781
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -85,15 +85,13 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`amp_version`](../interfaces/IOrganicSerpElementItem.md#amp_version)
 
-#### Defined in
-
-main.ts:27223
-
 ***
 
 ### breadcrumb?
 
 > `optional` **breadcrumb**: `string`
+
+Defined in: main.ts:28758
 
 breadcrumb in SERP
 
@@ -101,15 +99,13 @@ breadcrumb in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`breadcrumb`](../interfaces/IOrganicSerpElementItem.md#breadcrumb)
 
-#### Defined in
-
-main.ts:27200
-
 ***
 
 ### cache\_url?
 
 > `optional` **cache\_url**: `string`
+
+Defined in: main.ts:28753
 
 cached version of the page
 
@@ -117,15 +113,13 @@ cached version of the page
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`cache_url`](../interfaces/IOrganicSerpElementItem.md#cache_url)
 
-#### Defined in
-
-main.ts:27195
-
 ***
 
 ### description?
 
 > `optional` **description**: `string`
+
+Defined in: main.ts:28772
 
 description of the results element in SERP
 
@@ -133,31 +127,27 @@ description of the results element in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`description`](../interfaces/IOrganicSerpElementItem.md#description)
 
-#### Defined in
-
-main.ts:27214
-
 ***
 
 ### domain?
 
 > `optional` **domain**: `string`
 
-website domain
+Defined in: main.ts:28747
+
+domain name of the reference
 
 #### Implementation of
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`domain`](../interfaces/IOrganicSerpElementItem.md#domain)
-
-#### Defined in
-
-main.ts:27189
 
 ***
 
 ### extended\_people\_also\_search?
 
 > `optional` **extended\_people\_also\_search**: `string`[]
+
+Defined in: main.ts:28801
 
 extension of the organic element
 extension of the organic result containing related search queries
@@ -167,15 +157,13 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`extended_people_also_search`](../interfaces/IOrganicSerpElementItem.md#extended_people_also_search)
 
-#### Defined in
-
-main.ts:27243
-
 ***
 
 ### extended\_snippet?
 
 > `optional` **extended\_snippet**: `string`
+
+Defined in: main.ts:28776
 
 includes additional information appended after the result description in SERP
 
@@ -183,15 +171,13 @@ includes additional information appended after the result description in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`extended_snippet`](../interfaces/IOrganicSerpElementItem.md#extended_snippet)
 
-#### Defined in
-
-main.ts:27218
-
 ***
 
 ### faq?
 
 > `optional` **faq**: [`FaqBox`](FaqBox.md)
+
+Defined in: main.ts:28797
 
 frequently asked questions
 questions and answers extension shown below some of Google’s search results
@@ -201,15 +187,13 @@ if there are none, equals null
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`faq`](../interfaces/IOrganicSerpElementItem.md#faq)
 
-#### Defined in
-
-main.ts:27239
-
 ***
 
 ### highlighted?
 
 > `optional` **highlighted**: `string`[]
+
+Defined in: main.ts:28789
 
 words highlighted in bold within the results description
 
@@ -217,15 +201,13 @@ words highlighted in bold within the results description
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`highlighted`](../interfaces/IOrganicSerpElementItem.md#highlighted)
 
-#### Defined in
-
-main.ts:27231
-
 ***
 
 ### images?
 
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
+
+Defined in: main.ts:28778
 
 images of the element
 
@@ -233,15 +215,13 @@ images of the element
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`images`](../interfaces/IOrganicSerpElementItem.md#images)
 
-#### Defined in
-
-main.ts:27220
-
 ***
 
 ### is\_featured\_snippet?
 
 > `optional` **is\_featured\_snippet**: `boolean`
+
+Defined in: main.ts:28766
 
 indicates whether the element is a featured_snippet
 
@@ -249,15 +229,13 @@ indicates whether the element is a featured_snippet
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`is_featured_snippet`](../interfaces/IOrganicSerpElementItem.md#is_featured_snippet)
 
-#### Defined in
-
-main.ts:27208
-
 ***
 
 ### is\_image?
 
 > `optional` **is\_image**: `boolean`
+
+Defined in: main.ts:28762
 
 indicates whether the element contains an image
 
@@ -265,15 +243,13 @@ indicates whether the element contains an image
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`is_image`](../interfaces/IOrganicSerpElementItem.md#is_image)
 
-#### Defined in
-
-main.ts:27204
-
 ***
 
 ### is\_malicious?
 
 > `optional` **is\_malicious**: `boolean`
+
+Defined in: main.ts:28768
 
 indicates whether the element is marked as malicious
 
@@ -281,15 +257,13 @@ indicates whether the element is marked as malicious
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`is_malicious`](../interfaces/IOrganicSerpElementItem.md#is_malicious)
 
-#### Defined in
-
-main.ts:27210
-
 ***
 
 ### is\_video?
 
 > `optional` **is\_video**: `boolean`
+
+Defined in: main.ts:28764
 
 indicates whether the element contains a video
 
@@ -297,15 +271,13 @@ indicates whether the element contains a video
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`is_video`](../interfaces/IOrganicSerpElementItem.md#is_video)
 
-#### Defined in
-
-main.ts:27206
-
 ***
 
 ### is\_web\_story?
 
 > `optional` **is\_web\_story**: `boolean`
+
+Defined in: main.ts:28770
 
 indicates whether the element is marked as Google web story
 
@@ -313,15 +285,13 @@ indicates whether the element is marked as Google web story
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`is_web_story`](../interfaces/IOrganicSerpElementItem.md#is_web_story)
 
-#### Defined in
-
-main.ts:27212
-
 ***
 
 ### links?
 
 > `optional` **links**: [`LinkElement`](LinkElement.md)[]
+
+Defined in: main.ts:28793
 
 sitelinks
 the links shown below some of Google’s search results
@@ -331,15 +301,13 @@ if there are none, equals null
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`links`](../interfaces/IOrganicSerpElementItem.md#links)
 
-#### Defined in
-
-main.ts:27235
-
 ***
 
 ### position?
 
 > `optional` **position**: `string`
+
+Defined in: main.ts:21041
 
 the alignment of the element in SERP
 can take the following values:
@@ -353,15 +321,13 @@ left, right
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
 
-#### Defined in
-
-main.ts:20363
-
 ***
 
 ### pre\_snippet?
 
 > `optional` **pre\_snippet**: `string`
+
+Defined in: main.ts:28774
 
 includes additional information appended before the result description in SERP
 
@@ -369,15 +335,13 @@ includes additional information appended before the result description in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`pre_snippet`](../interfaces/IOrganicSerpElementItem.md#pre_snippet)
 
-#### Defined in
-
-main.ts:27216
-
 ***
 
 ### price?
 
 > `optional` **price**: [`PriceInfo`](PriceInfo.md)
+
+Defined in: main.ts:28787
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -386,15 +350,13 @@ contains the pricing details of the product or service featured in the result
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`price`](../interfaces/IOrganicSerpElementItem.md#price)
 
-#### Defined in
-
-main.ts:27229
-
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:21037
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -407,15 +369,13 @@ absolute position among all the elements in SERP
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:20359
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:21034
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -429,15 +389,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:20356
-
 ***
 
 ### rating?
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+Defined in: main.ts:28784
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -446,15 +404,13 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`rating`](../interfaces/IOrganicSerpElementItem.md#rating)
 
-#### Defined in
-
-main.ts:27226
-
 ***
 
 ### rectangle?
 
 > `optional` **rectangle**: [`Rectangle`](Rectangle.md)
+
+Defined in: main.ts:28818
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -464,15 +420,13 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`rectangle`](../interfaces/IOrganicSerpElementItem.md#rectangle)
 
-#### Defined in
-
-main.ts:27260
-
 ***
 
 ### related\_result?
 
 > `optional` **related\_result**: [`RelatedResult`](RelatedResult.md)[]
+
+Defined in: main.ts:28809
 
 related result from the same domain
 related result from the same domain appears as a part of the main result snippet;
@@ -482,15 +436,13 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`related_result`](../interfaces/IOrganicSerpElementItem.md#related_result)
 
-#### Defined in
-
-main.ts:27251
-
 ***
 
 ### related\_search\_url?
 
 > `optional` **related\_search\_url**: `string`
+
+Defined in: main.ts:28756
 
 URL to a similar search
 URL to a new search for the same keyword(s) on related sites
@@ -499,15 +451,13 @@ URL to a new search for the same keyword(s) on related sites
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`related_search_url`](../interfaces/IOrganicSerpElementItem.md#related_search_url)
 
-#### Defined in
-
-main.ts:27198
-
 ***
 
 ### timestamp?
 
 > `optional` **timestamp**: `string`
+
+Defined in: main.ts:28814
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -518,15 +468,13 @@ example:
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`timestamp`](../interfaces/IOrganicSerpElementItem.md#timestamp)
 
-#### Defined in
-
-main.ts:27256
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:28749
 
 title of the result in SERP
 
@@ -534,15 +482,13 @@ title of the result in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`title`](../interfaces/IOrganicSerpElementItem.md#title)
 
-#### Defined in
-
-main.ts:27191
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:21030
 
 type of element
 
@@ -554,15 +500,13 @@ type of element
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
 
-#### Defined in
-
-main.ts:20352
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:28751
 
 relevant URL in SERP
 
@@ -570,15 +514,13 @@ relevant URL in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`url`](../interfaces/IOrganicSerpElementItem.md#url)
 
-#### Defined in
-
-main.ts:27193
-
 ***
 
 ### website\_name?
 
 > `optional` **website\_name**: `string`
+
+Defined in: main.ts:28760
 
 name of the website in SERP
 
@@ -586,15 +528,13 @@ name of the website in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`website_name`](../interfaces/IOrganicSerpElementItem.md#website_name)
 
-#### Defined in
-
-main.ts:27202
-
 ***
 
 ### xpath?
 
 > `optional` **xpath**: `string`
+
+Defined in: main.ts:21043
 
 the XPath of the element
 
@@ -606,19 +546,19 @@ the XPath of the element
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
 
-#### Defined in
-
-main.ts:20365
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:28827
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
@@ -628,19 +568,19 @@ main.ts:20365
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Defined in
-
-main.ts:27269
-
 ***
 
 ### toJSON()
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:28891
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
@@ -650,19 +590,19 @@ main.ts:27269
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Defined in
-
-main.ts:27333
-
 ***
 
 ### fromJS()
 
 > `static` **fromJS**(`data`): [`OrganicSerpElementItem`](OrganicSerpElementItem.md)
 
+Defined in: main.ts:28884
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
@@ -671,7 +611,3 @@ main.ts:27333
 #### Overrides
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
-
-#### Defined in
-
-main.ts:27326

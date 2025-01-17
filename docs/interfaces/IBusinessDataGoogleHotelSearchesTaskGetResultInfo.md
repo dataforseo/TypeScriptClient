@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesTaskGetResultInfo
 
+Defined in: main.ts:217527
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:217538
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:204271
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:204271
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:217543
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:204276
 
 ***
 
@@ -44,12 +42,10 @@ main.ts:204276
 
 > `optional` **items**: [`BusinessDataGoogleHotelSearchesItem`](../classes/BusinessDataGoogleHotelSearchesItem.md)[]
 
+Defined in: main.ts:217549
+
 array of items
 note: this field always equals null; use it to facilitate integration and ensure interoperability with the Hotel Info endpoint
-
-#### Defined in
-
-main.ts:204282
 
 ***
 
@@ -57,12 +53,10 @@ main.ts:204282
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:217546
+
 item types
 the number of items in the items array
-
-#### Defined in
-
-main.ts:204279
 
 ***
 
@@ -70,13 +64,11 @@ main.ts:204279
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:217531
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character);
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character);
 in order to obtain accurate search results, the location name is appended to the keyword automatically
-
-#### Defined in
-
-main.ts:204264
 
 ***
 
@@ -84,11 +76,9 @@ main.ts:204264
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:217535
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:204268
 
 ***
 
@@ -96,8 +86,6 @@ main.ts:204268
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:217533
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:204266

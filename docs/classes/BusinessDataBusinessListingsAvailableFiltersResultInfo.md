@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Class: BusinessDataBusinessListingsAvailableFiltersResultInfo
+
+Defined in: main.ts:210406
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BusinessDataBusinessListingsAvailableFiltersResultInfo**(`data`?): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:210412
+
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:197961
 
 ## Properties
 
@@ -38,17 +40,15 @@ main.ts:197961
 
 > `optional` **categories\_aggregation**: `object`
 
+Defined in: main.ts:210408
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md).[`categories_aggregation`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#categories_aggregation)
-
-#### Defined in
-
-main.ts:197957
 
 ***
 
@@ -56,17 +56,15 @@ main.ts:197957
 
 > `optional` **search**: `object`
 
+Defined in: main.ts:210407
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md).[`search`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#search)
-
-#### Defined in
-
-main.ts:197956
 
 ## Methods
 
@@ -74,17 +72,17 @@ main.ts:197956
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:210421
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:197970
 
 ***
 
@@ -92,17 +90,17 @@ main.ts:197970
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:210451
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:198000
 
 ***
 
@@ -110,14 +108,14 @@ main.ts:198000
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:210444
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:197993

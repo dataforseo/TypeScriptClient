@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
+[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveItem
 
+Defined in: main.ts:112066
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:112070
+
 keyword in a POST array
-
-#### Defined in
-
-main.ts:102231
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:102231
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:112068
+
 search engine type
-
-#### Defined in
-
-main.ts:102229
 
 ***
 
@@ -40,9 +38,7 @@ main.ts:102229
 
 > `optional` **search\_volume**: `number`
 
+Defined in: main.ts:112073
+
 average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon
-
-#### Defined in
-
-main.ts:102234

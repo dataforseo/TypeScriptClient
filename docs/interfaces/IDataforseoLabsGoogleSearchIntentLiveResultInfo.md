@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleSearchIntentLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveResultInfo
 
+Defined in: main.ts:96758
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`DataforseoLabsGoogleSearchIntentLiveItem`](../classes/DataforseoLabsGoogleSearchIntentLiveItem.md)[]
 
+Defined in: main.ts:96765
+
 array of items with relevant traffic estimation data
-
-#### Defined in
-
-main.ts:86946
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:86946
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:96763
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:86944
 
 ***
 
@@ -40,9 +38,7 @@ main.ts:86944
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:96761
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:86942

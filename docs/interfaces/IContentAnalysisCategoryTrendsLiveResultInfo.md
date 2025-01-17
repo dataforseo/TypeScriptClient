@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentAnalysisCategoryTrendsLiveResultInfo
+[Documentation](../README.md) / IContentAnalysisCategoryTrendsLiveResultInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveResultInfo
 
+Defined in: main.ts:180946
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,17 +18,15 @@
 
 > `optional` **connotation\_types**: `object`
 
+Defined in: main.ts:180966
+
 connotation types
 contains types of sentiments (sentiment polarity) related to the category citation and citation count per each sentiment type
 possible connotation types: "positive", "negative", "neutral"
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:169276
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -34,17 +34,15 @@ main.ts:169276
 
 > `optional` **countries**: `object`
 
+Defined in: main.ts:180981
+
 countries
 contains countries and citation count in each country
 to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:169291
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -52,11 +50,9 @@ main.ts:169291
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:180950
+
 date for which the data is provided
-
-#### Defined in
-
-main.ts:169260
 
 ***
 
@@ -64,17 +60,15 @@ main.ts:169260
 
 > `optional` **languages**: `object`
 
+Defined in: main.ts:180985
+
 languages
 contains languages and citation count in each language
 to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:169295
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -82,13 +76,11 @@ main.ts:169295
 
 > `optional` **page\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
+Defined in: main.ts:180974
+
 page categories
 contains objects with page categories and citation count in each page category
 to obtain a full list of available categories, refer to the Categories endpoint
-
-#### Defined in
-
-main.ts:169284
 
 ***
 
@@ -96,16 +88,14 @@ main.ts:169284
 
 > `optional` **page\_types**: `object`
 
+Defined in: main.ts:180977
+
 page types
 contains page types and citation count per each page type
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:169287
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -113,12 +103,10 @@ main.ts:169287
 
 > `optional` **rank**: `number`
 
+Defined in: main.ts:180955
+
 rank of all URLs citing the keyword
 normalized sum of ranks of all URLs citing the target keyword for the given date
-
-#### Defined in
-
-main.ts:169265
 
 ***
 
@@ -126,17 +114,15 @@ main.ts:169265
 
 > `optional` **sentiment\_connotations**: `object`
 
+Defined in: main.ts:180962
+
 sentiment connotations
 contains sentiments (emotional reactions) related to the target category citation and the number of citations per each sentiment
 possible connotations: "anger", "fear", "happiness", "love", "sadness", "share", "neutral", "fun"
 
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-main.ts:169272
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -144,13 +130,11 @@ main.ts:169272
 
 > `optional` **text\_categories**: [`ContentAnalysisCategoriesInfo`](../classes/ContentAnalysisCategoriesInfo.md)[]
 
+Defined in: main.ts:180970
+
 text categories
 contains objects with text categories and citation count in each text category
 to obtain a full list of available categories, refer to the Categories endpoint
-
-#### Defined in
-
-main.ts:169280
 
 ***
 
@@ -158,12 +142,10 @@ main.ts:169280
 
 > `optional` **top\_domains**: [`TopDomainInfo`](../classes/TopDomainInfo.md)[]
 
+Defined in: main.ts:180958
+
 top domains citing the target keyword
 contains objects with top domains citing the target category and citation count per each domain
-
-#### Defined in
-
-main.ts:169268
 
 ***
 
@@ -171,11 +153,9 @@ main.ts:169268
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:180952
+
 total number of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:169262
 
 ***
 
@@ -183,8 +163,6 @@ main.ts:169262
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:180948
+
 type of element
-
-#### Defined in
-
-main.ts:169258

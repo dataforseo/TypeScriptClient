@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationGenerateMetaTagsLiveResultInfo
+[Documentation](../README.md) / IContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Interface: IContentGenerationGenerateMetaTagsLiveResultInfo
 
+Defined in: main.ts:182073
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:182083
+
 generated description
-
-#### Defined in
-
-main.ts:170393
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:170393
 
 > `optional` **input\_tokens**: `number`
 
+Defined in: main.ts:182075
+
 number of input tokens
-
-#### Defined in
-
-main.ts:170385
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:170385
 
 > `optional` **new\_tokens**: `number`
 
+Defined in: main.ts:182079
+
 number of new tokens
-
-#### Defined in
-
-main.ts:170389
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:170389
 
 > `optional` **output\_tokens**: `number`
 
+Defined in: main.ts:182077
+
 number of output tokens
-
-#### Defined in
-
-main.ts:170387
 
 ***
 
@@ -64,8 +58,6 @@ main.ts:170387
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:182081
+
 generated title
-
-#### Defined in
-
-main.ts:170391

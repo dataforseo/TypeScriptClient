@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseGoogleImagesSerpElementItem
+[Documentation](../README.md) / IBaseGoogleImagesSerpElementItem
 
 # Interface: IBaseGoogleImagesSerpElementItem
+
+Defined in: main.ts:50796
 
 ## Extended by
 
@@ -18,12 +20,10 @@
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:50805
+
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:47611
 
 ***
 
@@ -31,13 +31,11 @@ main.ts:47611
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:50802
+
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:47608
 
 ***
 
@@ -45,11 +43,9 @@ main.ts:47608
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:50798
+
 type of element
-
-#### Defined in
-
-main.ts:47604
 
 ***
 
@@ -57,8 +53,6 @@ main.ts:47604
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:50807
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:47613

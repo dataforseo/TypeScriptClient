@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGraphElement
+[Documentation](../README.md) / IGraphElement
 
 # Interface: IGraphElement
 
+Defined in: main.ts:35008
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date**: `string`
 
+Defined in: main.ts:35012
+
 the posting date
-
-#### Defined in
-
-main.ts:33220
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:33220
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:35010
+
 type of element
-
-#### Defined in
-
-main.ts:33218
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:33218
 
 > `optional` **value**: `number`
 
+Defined in: main.ts:35014
+
 the value of the rating
-
-#### Defined in
-
-main.ts:33222

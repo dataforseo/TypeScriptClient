@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITestSummary
+[Documentation](../README.md) / ITestSummary
 
 # Interface: ITestSummary
 
+Defined in: main.ts:171693
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **error**: `number`
 
+Defined in: main.ts:171697
+
 number of serious microdata errors
-
-#### Defined in
-
-main.ts:159961
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:159961
 
 > `optional` **fatal**: `number`
 
+Defined in: main.ts:171695
+
 number of fatal microdata errors
-
-#### Defined in
-
-main.ts:159959
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:159959
 
 > `optional` **info**: `number`
 
+Defined in: main.ts:171701
+
 number of microdata information flags
-
-#### Defined in
-
-main.ts:159965
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:159965
 
 > `optional` **warning**: `number`
 
+Defined in: main.ts:171699
+
 number of microdata warnings
-
-#### Defined in
-
-main.ts:159963

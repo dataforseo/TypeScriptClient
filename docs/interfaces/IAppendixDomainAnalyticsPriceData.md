@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixDomainAnalyticsPriceData
+[Documentation](../README.md) / IAppendixDomainAnalyticsPriceData
 
 # Interface: IAppendixDomainAnalyticsPriceData
 
+Defined in: main.ts:238685
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,9 +18,7 @@
 
 > `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223400
+Defined in: main.ts:238688
 
 ***
 
@@ -26,9 +26,7 @@ main.ts:223400
 
 > `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Defined in
-
-main.ts:223401
+Defined in: main.ts:238689
 
 ***
 
@@ -36,9 +34,7 @@ main.ts:223401
 
 > `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsPriceData`](../classes/AppendixTechnologiesDomainAnalyticsPriceData.md)
 
-#### Defined in
-
-main.ts:223399
+Defined in: main.ts:238687
 
 ***
 
@@ -46,6 +42,4 @@ main.ts:223399
 
 > `optional` **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](../classes/AppendixWhoisDomainAnalyticsPriceData.md)
 
-#### Defined in
-
-main.ts:223398
+Defined in: main.ts:238686

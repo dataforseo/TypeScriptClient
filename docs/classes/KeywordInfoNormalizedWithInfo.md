@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordInfoNormalizedWithInfo
+[Documentation](../README.md) / KeywordInfoNormalizedWithInfo
 
 # Class: KeywordInfoNormalizedWithInfo
+
+Defined in: main.ts:92596
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordInfoNormalizedWithInfo**(`data`?): [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
+Defined in: main.ts:92608
+
 #### Parameters
 
-• **data?**: [`IKeywordInfoNormalizedWithInfo`](../interfaces/IKeywordInfoNormalizedWithInfo.md)
+##### data?
+
+[`IKeywordInfoNormalizedWithInfo`](../interfaces/IKeywordInfoNormalizedWithInfo.md)
 
 #### Returns
 
 [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
-
-#### Defined in
-
-main.ts:82795
 
 ## Properties
 
 ### last\_updated\_time?
 
 > `optional` **last\_updated\_time**: `string`
+
+Defined in: main.ts:92599
 
 date and time when the clickstream dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -45,15 +49,13 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 [`IKeywordInfoNormalizedWithInfo`](../interfaces/IKeywordInfoNormalizedWithInfo.md).[`last_updated_time`](../interfaces/IKeywordInfoNormalizedWithInfo.md#last_updated_time)
 
-#### Defined in
-
-main.ts:82786
-
 ***
 
 ### monthly\_searches?
 
 > `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
+
+Defined in: main.ts:92604
 
 monthly clickstream search volume rates
 array of objects with clickstream search volume rates in a certain month of a year
@@ -62,15 +64,13 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 [`IKeywordInfoNormalizedWithInfo`](../interfaces/IKeywordInfoNormalizedWithInfo.md).[`monthly_searches`](../interfaces/IKeywordInfoNormalizedWithInfo.md#monthly_searches)
 
-#### Defined in
-
-main.ts:82791
-
 ***
 
 ### search\_volume?
 
 > `optional` **search\_volume**: `number`
+
+Defined in: main.ts:92601
 
 monthly average clickstream search volume rate
 
@@ -78,27 +78,23 @@ monthly average clickstream search volume rate
 
 [`IKeywordInfoNormalizedWithInfo`](../interfaces/IKeywordInfoNormalizedWithInfo.md).[`search_volume`](../interfaces/IKeywordInfoNormalizedWithInfo.md#search_volume)
 
-#### Defined in
-
-main.ts:82788
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:92617
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:82804
 
 ***
 
@@ -106,17 +102,17 @@ main.ts:82804
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:92640
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:82827
 
 ***
 
@@ -124,14 +120,14 @@ main.ts:82827
 
 > `static` **fromJS**(`data`): [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
 
+Defined in: main.ts:92633
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
-
-#### Defined in
-
-main.ts:82820

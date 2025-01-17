@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IJobsElement
+[Documentation](../README.md) / IJobsElement
 
 # Interface: IJobsElement
 
+Defined in: main.ts:32581
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **author**: `string`
 
+Defined in: main.ts:32589
+
 author
-
-#### Defined in
-
-main.ts:30765
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:30765
 
 > `optional` **contract\_type**: `string`
 
+Defined in: main.ts:32598
+
 contract type
-
-#### Defined in
-
-main.ts:30774
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:30774
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:32587
+
 description
-
-#### Defined in
-
-main.ts:30763
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:30763
 
 > `optional` **job\_posted\_time**: `string`
 
+Defined in: main.ts:32591
+
 the time when the job was posted
-
-#### Defined in
-
-main.ts:30767
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:30767
 
 > `optional` **salary**: `string`
 
+Defined in: main.ts:32600
+
 salary
-
-#### Defined in
-
-main.ts:30776
 
 ***
 
@@ -76,14 +68,12 @@ main.ts:30776
 
 > `optional` **timestamp**: `string`
 
+Defined in: main.ts:32596
+
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:30772
 
 ***
 
@@ -91,11 +81,9 @@ main.ts:30772
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:32585
+
 title of a given link element
-
-#### Defined in
-
-main.ts:30761
 
 ***
 
@@ -103,11 +91,9 @@ main.ts:30761
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:32583
+
 type of element
-
-#### Defined in
-
-main.ts:30759
 
 ***
 
@@ -115,8 +101,6 @@ main.ts:30759
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:32602
+
 URL
-
-#### Defined in
-
-main.ts:30778

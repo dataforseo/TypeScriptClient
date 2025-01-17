@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixSerpDayStatisticsRatesData
+[Documentation](../README.md) / AppendixSerpDayStatisticsRatesData
 
 # Class: AppendixSerpDayStatisticsRatesData
+
+Defined in: main.ts:233264
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixSerpDayStatisticsRatesData**(`data`?): [`AppendixSerpDayStatisticsRatesData`](AppendixSerpDayStatisticsRatesData.md)
 
+Defined in: main.ts:233280
+
 #### Parameters
 
-• **data?**: [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixSerpDayStatisticsRatesData`](AppendixSerpDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218204
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:218204
 
 > `optional` **ai\_summary**: `number`
 
+Defined in: main.ts:233276
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`ai_summary`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#ai_summary)
-
-#### Defined in
-
-main.ts:218199
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:218199
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:233271
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:218195
 
 ***
 
@@ -66,27 +64,23 @@ main.ts:218195
 
 > `optional` **id\_list**: `number`
 
+Defined in: main.ts:233275
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`id_list`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#id_list)
-
-#### Defined in
-
-main.ts:218200
 
 ***
 
 ### jobs?
 
-> `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **jobs**: [`AppendixDayLimitsRatesDataInfo`](AppendixDayLimitsRatesDataInfo.md)
+
+Defined in: main.ts:233273
 
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`jobs`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#jobs)
-
-#### Defined in
-
-main.ts:218197
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:218197
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:233269
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`languages`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#languages)
-
-#### Defined in
-
-main.ts:218193
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:218193
 
 > `optional` **live**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
+Defined in: main.ts:233270
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`live`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#live)
-
-#### Defined in
-
-main.ts:218194
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:218194
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:233268
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`locations`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#locations)
-
-#### Defined in
-
-main.ts:218192
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:218192
 
 > `optional` **screenshot**: `number`
 
+Defined in: main.ts:233274
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`screenshot`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#screenshot)
-
-#### Defined in
-
-main.ts:218198
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:218198
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
+Defined in: main.ts:233266
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`task_get`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#task_get)
-
-#### Defined in
-
-main.ts:218190
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:218190
 
 > `optional` **task\_post**: `number`
 
+Defined in: main.ts:233265
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`task_post`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#task_post)
-
-#### Defined in
-
-main.ts:218189
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:218189
 
 > `optional` **tasks\_fixed**: `number`
 
+Defined in: main.ts:233272
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`tasks_fixed`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#tasks_fixed)
-
-#### Defined in
-
-main.ts:218196
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:218196
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:233267
+
 #### Implementation of
 
 [`IAppendixSerpDayStatisticsRatesData`](../interfaces/IAppendixSerpDayStatisticsRatesData.md).[`tasks_ready`](../interfaces/IAppendixSerpDayStatisticsRatesData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:218191
 
 ## Methods
 
@@ -206,17 +184,17 @@ main.ts:218191
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:233289
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218213
 
 ***
 
@@ -224,17 +202,17 @@ main.ts:218213
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:233317
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:218241
 
 ***
 
@@ -242,14 +220,14 @@ main.ts:218241
 
 > `static` **fromJS**(`data`): [`AppendixSerpDayStatisticsRatesData`](AppendixSerpDayStatisticsRatesData.md)
 
+Defined in: main.ts:233310
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixSerpDayStatisticsRatesData`](AppendixSerpDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218234

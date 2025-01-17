@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+[Documentation](../README.md) / DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+
+Defined in: main.ts:115288
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo**(`data`?): [`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
 
+Defined in: main.ts:115335
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
+##### data?
+
+[`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
 
 #### Returns
 
 [`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:105596
 
 ## Properties
 
@@ -38,26 +40,26 @@ main.ts:105596
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:115295
+
 target keywords
 required field
 UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000
-each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:105556
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:115325
 
 language code
 required field if don’t specify language_name
@@ -70,15 +72,13 @@ en
 
 [`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:105586
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:115318
 
 full name of the language
 required field if don’t specify language_code
@@ -91,15 +91,13 @@ English
 
 [`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:105579
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:115311
 
 location code
 required field if don’t specify location_name
@@ -113,15 +111,13 @@ example:
 
 [`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:105572
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:115303
 
 full name of the location
 required field if don’t specify location_code
@@ -135,15 +131,13 @@ United States
 
 [`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:105564
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:115331
 
 user-defined task identifier
 optional field
@@ -155,27 +149,23 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:105592
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:115344
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:105605
 
 ***
 
@@ -183,17 +173,17 @@ main.ts:105605
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:115370
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:105631
 
 ***
 
@@ -201,14 +191,14 @@ main.ts:105631
 
 > `static` **fromJS**(`data`): [`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
 
+Defined in: main.ts:115363
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:105624

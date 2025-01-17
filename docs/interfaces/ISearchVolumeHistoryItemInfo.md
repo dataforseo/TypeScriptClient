@@ -1,16 +1,18 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISearchVolumeHistoryItemInfo
+[Documentation](../README.md) / ISearchVolumeHistoryItemInfo
 
 # Interface: ISearchVolumeHistoryItemInfo
+
+Defined in: main.ts:146631
 
 device type = desktop contains historical search volume data for searches made from desktop devices
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -18,11 +20,9 @@ device type = desktop contains historical search volume data for searches made f
 
 > `optional` **day**: `number`
 
+Defined in: main.ts:146637
+
 day of the month
-
-#### Defined in
-
-main.ts:134679
 
 ***
 
@@ -30,11 +30,9 @@ main.ts:134679
 
 > `optional` **month**: `number`
 
+Defined in: main.ts:146635
+
 month
-
-#### Defined in
-
-main.ts:134677
 
 ***
 
@@ -42,11 +40,9 @@ main.ts:134677
 
 > `optional` **search\_volume**: `number`
 
+Defined in: main.ts:146639
+
 search volume rate
-
-#### Defined in
-
-main.ts:134681
 
 ***
 
@@ -54,8 +50,6 @@ main.ts:134681
 
 > `optional` **year**: `number`
 
+Defined in: main.ts:146633
+
 year
-
-#### Defined in
-
-main.ts:134675

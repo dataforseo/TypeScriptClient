@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ILinkElement
+[Documentation](../README.md) / ILinkElement
 
 # Interface: ILinkElement
 
+Defined in: main.ts:23592
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:23600
+
 description of the results element
-
-#### Defined in
-
-main.ts:22697
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:22697
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:23604
+
 domain where a link points
-
-#### Defined in
-
-main.ts:22701
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:22701
 
 > `optional` **snippet**: `string`
 
+Defined in: main.ts:23598
+
 text alongside the link title
-
-#### Defined in
-
-main.ts:22695
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:22695
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:23596
+
 title of a given link element
-
-#### Defined in
-
-main.ts:22693
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:22693
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:23594
+
 type of element
-
-#### Defined in
-
-main.ts:22691
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:22691
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:23602
+
 URL
-
-#### Defined in
-
-main.ts:22699
 
 ***
 
@@ -88,8 +78,6 @@ main.ts:22699
 
 > `optional` **xpath**: `string`
 
+Defined in: main.ts:23606
+
 the XPath of the element
-
-#### Defined in
-
-main.ts:22703

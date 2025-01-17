@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
+[Documentation](../README.md) / IKeywordsDataGoogleTrendsCategoriesResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsCategoriesResultInfo
 
+Defined in: main.ts:133198
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,17 +18,17 @@
 
 > `optional` **category\_code**: `number`
 
+Defined in: main.ts:133200
+
 unique google trends category identifier
-
-#### Defined in
-
-main.ts:122856
 
 ***
 
 ### category\_code\_parent?
 
 > `optional` **category\_code\_parent**: `number`
+
+Defined in: main.ts:133211
 
 the code of the superordinate category
 example:
@@ -37,18 +39,12 @@ where category_code_parent corresponds to:
 "category_code": 1097,
 "category_name": "Action & Adventure Films"
 
-#### Defined in
-
-main.ts:122867
-
 ***
 
 ### category\_name?
 
 > `optional` **category\_name**: `string`
 
+Defined in: main.ts:133202
+
 name of the google trends category
-
-#### Defined in
-
-main.ts:122858

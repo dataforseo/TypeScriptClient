@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ResourceMetaInfo
+[Documentation](../README.md) / ResourceMetaInfo
 
 # Class: ResourceMetaInfo
+
+Defined in: main.ts:167806
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ResourceMetaInfo**(`data`?): [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
+Defined in: main.ts:167823
+
 #### Parameters
 
-• **data?**: [`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md)
+##### data?
+
+[`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md)
 
 #### Returns
 
 [`ResourceMetaInfo`](ResourceMetaInfo.md)
-
-#### Defined in
-
-main.ts:156087
 
 ## Properties
 
 ### alternative\_text?
 
 > `optional` **alternative\_text**: `string`
+
+Defined in: main.ts:167809
 
 content of the image alt attribute
 the value depends on the resource_type
@@ -45,15 +49,13 @@ the value depends on the resource_type
 
 [`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md).[`alternative_text`](../interfaces/IResourceMetaInfo.md#alternative_text)
 
-#### Defined in
-
-main.ts:156073
-
 ***
 
 ### height?
 
 > `optional` **height**: `number`
+
+Defined in: main.ts:167819
 
 image height in px
 
@@ -61,15 +63,13 @@ image height in px
 
 [`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md).[`height`](../interfaces/IResourceMetaInfo.md#height)
 
-#### Defined in
-
-main.ts:156083
-
 ***
 
 ### original\_height?
 
 > `optional` **original\_height**: `number`
+
+Defined in: main.ts:167815
 
 original image height in px
 
@@ -77,15 +77,13 @@ original image height in px
 
 [`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md).[`original_height`](../interfaces/IResourceMetaInfo.md#original_height)
 
-#### Defined in
-
-main.ts:156079
-
 ***
 
 ### original\_width?
 
 > `optional` **original\_width**: `number`
+
+Defined in: main.ts:167813
 
 original image width in px
 
@@ -93,15 +91,13 @@ original image width in px
 
 [`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md).[`original_width`](../interfaces/IResourceMetaInfo.md#original_width)
 
-#### Defined in
-
-main.ts:156077
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
+
+Defined in: main.ts:167811
 
 title
 
@@ -109,15 +105,13 @@ title
 
 [`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md).[`title`](../interfaces/IResourceMetaInfo.md#title)
 
-#### Defined in
-
-main.ts:156075
-
 ***
 
 ### width?
 
 > `optional` **width**: `number`
+
+Defined in: main.ts:167817
 
 image width in px
 
@@ -125,27 +119,23 @@ image width in px
 
 [`IResourceMetaInfo`](../interfaces/IResourceMetaInfo.md).[`width`](../interfaces/IResourceMetaInfo.md#width)
 
-#### Defined in
-
-main.ts:156081
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:167832
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:156096
 
 ***
 
@@ -153,17 +143,17 @@ main.ts:156096
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:167854
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:156118
 
 ***
 
@@ -171,14 +161,14 @@ main.ts:156118
 
 > `static` **fromJS**(`data`): [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
+Defined in: main.ts:167847
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ResourceMetaInfo`](ResourceMetaInfo.md)
-
-#### Defined in
-
-main.ts:156111

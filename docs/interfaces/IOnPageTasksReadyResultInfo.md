@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageTasksReadyResultInfo
+[Documentation](../README.md) / IOnPageTasksReadyResultInfo
 
 # Interface: IOnPageTasksReadyResultInfo
 
+Defined in: main.ts:165058
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:165065
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:153337
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:153337
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:165061
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:153333
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:153333
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:165067
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:153339
 
 ***
 
@@ -53,8 +49,6 @@ main.ts:153339
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:165063
+
 target website specified when setting a task
-
-#### Defined in
-
-main.ts:153335

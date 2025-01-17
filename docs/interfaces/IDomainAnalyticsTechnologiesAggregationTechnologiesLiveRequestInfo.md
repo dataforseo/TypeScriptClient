@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
+Defined in: main.ts:86099
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### category?
 
 > `optional` **category**: `string`
+
+Defined in: main.ts:86113
 
 id of the target technology category
 required field if you don’t specify group, keyword or technology
@@ -23,15 +27,13 @@ you can find the full list of technology category ids on this page
 example:
 "crm"
 
-#### Defined in
-
-main.ts:76375
-
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:86149
 
 array of results filtering parameters
 optional field
@@ -47,15 +49,13 @@ example:
 "and",
 ["domain_rank",">",800]]for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
-#### Defined in
-
-main.ts:76410
-
 ***
 
 ### group?
 
 > `optional` **group**: `string`
+
+Defined in: main.ts:86106
 
 id of the target technology group
 required field if you don’t specify technology, category  or keyword
@@ -64,15 +64,13 @@ you can find the full list of technology group ids on this page
 example:
 "marketing"
 
-#### Defined in
-
-main.ts:76368
-
 ***
 
 ### internal\_categories\_list\_limit?
 
 > `optional` **internal\_categories\_list\_limit**: `number`
+
+Defined in: main.ts:86179
 
 maximum number of returned technology categories within the same group
 optional field
@@ -81,15 +79,13 @@ default value: 5
 minimum value: 1
 maximum value: 10000
 
-#### Defined in
-
-main.ts:76440
-
 ***
 
 ### internal\_groups\_list\_limit?
 
 > `optional` **internal\_groups\_list\_limit**: `number`
+
+Defined in: main.ts:86172
 
 maximum number of returned technology groups
 optional field
@@ -98,15 +94,13 @@ default value: 5
 minimum value: 1
 maximum value: 10000
 
-#### Defined in
-
-main.ts:76433
-
 ***
 
 ### internal\_list\_limit?
 
 > `optional` **internal\_list\_limit**: `number`
+
+Defined in: main.ts:86194
 
 maximum number of items with identical "category", "group", and "technology"
 optional field
@@ -116,15 +110,13 @@ default value: 10
 minimum value: 1
 maximum value: 10000
 
-#### Defined in
-
-main.ts:76455
-
 ***
 
 ### internal\_technologies\_list\_limit?
 
 > `optional` **internal\_technologies\_list\_limit**: `number`
+
+Defined in: main.ts:86186
 
 maximum number of returned technologies within the same category
 optional field
@@ -133,15 +125,13 @@ default value: 10
 minimum value: 1
 maximum value: 10000
 
-#### Defined in
-
-main.ts:76447
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:86128
 
 target keyword in the domain’s meta keywords
 required field if you don’t specify group, category or technology
@@ -149,10 +139,7 @@ at least one field (group, category, keyword, technology) must be set
 UTF-8 encoding
 example:
 "seo"
-
-#### Defined in
-
-main.ts:76389
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 ***
 
@@ -160,20 +147,20 @@ main.ts:76389
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:86199
+
 the maximum number of returned technologies
 optional field
 default value: 100
 maximum value: 10000
-
-#### Defined in
-
-main.ts:76460
 
 ***
 
 ### mode?
 
 > `optional` **mode**: `string`
+
+Defined in: main.ts:86135
 
 search mode
 optional field
@@ -182,15 +169,13 @@ as_is – search for results exactly matching the specified group ids, category 
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is
 
-#### Defined in
-
-main.ts:76396
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:86205
 
 offset in the results array of returned domains
 optional field
@@ -198,15 +183,13 @@ default value: 0
 maximum value: 9999
 if you specify the 10 value, the first ten technologies in the results array will be omitted and the data will be provided for the successive technologies
 
-#### Defined in
-
-main.ts:76466
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:86165
 
 results sorting rules
 optional field
@@ -224,15 +207,13 @@ example:
 default value:
 ["groups_count,desc","categories_count,desc","technologies_count,desc"]
 
-#### Defined in
-
-main.ts:76426
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:86211
 
 user-defined task identifier
 optional field
@@ -240,15 +221,13 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Defined in
-
-main.ts:76472
-
 ***
 
 ### technology?
 
 > `optional` **technology**: `string`
+
+Defined in: main.ts:86120
 
 target technology
 required field if you don’t specify group, keyword or category
@@ -256,7 +235,3 @@ at least one field (group, category, keyword, technology) must be set
 you can find the full list of technologies on this page
 example:
 "Salesforce"
-
-#### Defined in
-
-main.ts:76382

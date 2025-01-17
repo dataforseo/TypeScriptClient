@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ITechnologiesInfo
+[Documentation](../README.md) / ITechnologiesInfo
 
 # Interface: ITechnologiesInfo
 
+Defined in: main.ts:24723
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **add\_ons**: `object`
 
+Defined in: main.ts:24724
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23826
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -30,13 +30,11 @@ main.ts:23826
 
 > `optional` **analytics**: `object`
 
+Defined in: main.ts:24725
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23827
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -44,13 +42,11 @@ main.ts:23827
 
 > `optional` **business\_tools**: `object`
 
+Defined in: main.ts:24728
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23830
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -58,13 +54,11 @@ main.ts:23830
 
 > `optional` **communication**: `object`
 
+Defined in: main.ts:24738
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23840
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -72,13 +66,11 @@ main.ts:23840
 
 > `optional` **content**: `object`
 
+Defined in: main.ts:24735
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23837
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -86,13 +78,11 @@ main.ts:23837
 
 > `optional` **location**: `object`
 
+Defined in: main.ts:24734
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23836
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -100,13 +90,11 @@ main.ts:23836
 
 > `optional` **marketing**: `object`
 
+Defined in: main.ts:24737
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23839
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -114,13 +102,11 @@ main.ts:23839
 
 > `optional` **media**: `object`
 
+Defined in: main.ts:24736
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23838
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -128,13 +114,11 @@ main.ts:23838
 
 > `optional` **other**: `object`
 
+Defined in: main.ts:24730
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23832
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -142,13 +126,11 @@ main.ts:23832
 
 > `optional` **privacy**: `object`
 
+Defined in: main.ts:24732
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23834
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -156,13 +138,11 @@ main.ts:23834
 
 > `optional` **sales**: `object`
 
+Defined in: main.ts:24729
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23831
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -170,13 +150,11 @@ main.ts:23831
 
 > `optional` **security**: `object`
 
+Defined in: main.ts:24727
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23829
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -184,13 +162,11 @@ main.ts:23829
 
 > `optional` **servers**: `object`
 
+Defined in: main.ts:24733
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23835
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -198,13 +174,11 @@ main.ts:23835
 
 > `optional` **user\_generated\_content**: `object`
 
+Defined in: main.ts:24731
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23833
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -212,13 +186,11 @@ main.ts:23833
 
 > `optional` **utilities**: `object`
 
+Defined in: main.ts:24739
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23841
+\[`key`: `string`\]: `string`[]
 
 ***
 
@@ -226,10 +198,8 @@ main.ts:23841
 
 > `optional` **web\_development**: `object`
 
+Defined in: main.ts:24726
+
 #### Index Signature
 
- \[`key`: `string`\]: (`string` \| `undefined`)[]
-
-#### Defined in
-
-main.ts:23828
+\[`key`: `string`\]: `string`[]

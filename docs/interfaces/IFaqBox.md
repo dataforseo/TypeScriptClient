@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFaqBox
+[Documentation](../README.md) / IFaqBox
 
 # Interface: IFaqBox
 
+Defined in: main.ts:31351
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,10 @@
 
 > `optional` **items**: [`FaqBoxElement`](../classes/FaqBoxElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+Defined in: main.ts:31356
 
-#### Defined in
-
-main.ts:29522
+additional items present in the element
+if there are none, equals null
 
 ***
 
@@ -28,8 +29,6 @@ main.ts:29522
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:31353
+
 type of element
-
-#### Defined in
-
-main.ts:29520

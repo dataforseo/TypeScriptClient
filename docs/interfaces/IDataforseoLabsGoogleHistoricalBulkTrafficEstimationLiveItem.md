@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
+[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
+Defined in: main.ts:111617
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **metrics**: [`HistoricalMetricsBundleInfo`](../classes/HistoricalMetricsBundleInfo.md)
 
+Defined in: main.ts:111623
+
 traffic data relevant to the specified domain
-
-#### Defined in
-
-main.ts:101784
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:101784
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:111619
+
 search engine type
-
-#### Defined in
-
-main.ts:101780
 
 ***
 
@@ -40,8 +38,6 @@ main.ts:101780
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:111621
+
 target domain in a POST array
-
-#### Defined in
-
-main.ts:101782

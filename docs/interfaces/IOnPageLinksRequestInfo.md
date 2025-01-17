@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageLinksRequestInfo
+[Documentation](../README.md) / IOnPageLinksRequestInfo
 
 # Interface: IOnPageLinksRequestInfo
 
+Defined in: main.ts:169408
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:169451
 
 array of results filtering parameters
 optional field
@@ -33,15 +37,13 @@ example:
 [["link_from","like","%example.com/blog%"],"or",["link_from","like","%example.com/help%"]]]
 The full list of possible filters is available by this link.
 
-#### Defined in
-
-main.ts:157715
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:169414
 
 ID of the task
 required field
@@ -49,24 +51,18 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Defined in
-
-main.ts:157678
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:169429
+
 the maximum number of returned links
 optional field
 default value: 100
 maximum value: 1000
-
-#### Defined in
-
-main.ts:157693
 
 ***
 
@@ -74,14 +70,12 @@ main.ts:157693
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:169434
+
 offset in the results array of returned links
 optional field
 default value: 0
 if you specify the 10 value, the first ten links in the results array will be omitted and the data will be provided for the successive links
-
-#### Defined in
-
-main.ts:157698
 
 ***
 
@@ -89,14 +83,12 @@ main.ts:157698
 
 > `optional` **page\_from**: `string`
 
+Defined in: main.ts:169419
+
 relative page URL
 optional field
 if you use this field, the API response will contain only links from the specified page
 note that in this field you can specify relative URLs only
-
-#### Defined in
-
-main.ts:157683
 
 ***
 
@@ -104,14 +96,12 @@ main.ts:157683
 
 > `optional` **page\_to**: `string`
 
+Defined in: main.ts:169424
+
 relative page URL
 optional field
 if you use this field, the API response will contain only internal links pointing to the specified page
 note that in this field you can specify relative URLs only
-
-#### Defined in
-
-main.ts:157688
 
 ***
 
@@ -119,12 +109,10 @@ main.ts:157688
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:169457
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:157721

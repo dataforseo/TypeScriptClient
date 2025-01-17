@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
+[Documentation](../README.md) / DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
+
+Defined in: main.ts:94076
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsGoogleRelatedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
 
+Defined in: main.ts:94097
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
+##### data?
+
+[`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
 
-#### Defined in
-
-main.ts:84282
-
 ## Properties
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsRelatedKeywordsLiveItem`](DataforseoLabsRelatedKeywordsLiveItem.md)[]
+
+Defined in: main.ts:94093
 
 contains keywords and related data
 
@@ -44,15 +48,13 @@ contains keywords and related data
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#items)
 
-#### Defined in
-
-main.ts:84278
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:94091
 
 the number of results returned in the items array
 
@@ -60,15 +62,13 @@ the number of results returned in the items array
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:84276
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:94087
 
 language code in a POST array
 
@@ -76,15 +76,13 @@ language code in a POST array
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:84272
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:94085
 
 location code in a POST array
 
@@ -92,15 +90,13 @@ location code in a POST array
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:84270
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:94078
 
 search engine type
 
@@ -108,15 +104,13 @@ search engine type
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#se_type)
 
-#### Defined in
-
-main.ts:84263
-
 ***
 
 ### seed\_keyword?
 
 > `optional` **seed\_keyword**: `string`
+
+Defined in: main.ts:94080
 
 keyword in a POST array
 
@@ -124,30 +118,24 @@ keyword in a POST array
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md).[`seed_keyword`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#seed_keyword)
 
-#### Defined in
-
-main.ts:84265
-
 ***
 
 ### seed\_keyword\_data?
 
 > `optional` **seed\_keyword\_data**: `object`
 
+Defined in: main.ts:94083
+
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md).[`seed_keyword_data`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#seed_keyword_data)
-
-#### Defined in
-
-main.ts:84268
 
 ***
 
@@ -155,15 +143,13 @@ main.ts:84268
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:94089
+
 total amount of results in our database relevant to your request
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md#total_count)
-
-#### Defined in
-
-main.ts:84274
 
 ## Methods
 
@@ -171,17 +157,17 @@ main.ts:84274
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:94106
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:84291
 
 ***
 
@@ -189,17 +175,17 @@ main.ts:84291
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:94140
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:84325
 
 ***
 
@@ -207,14 +193,14 @@ main.ts:84325
 
 > `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
 
+Defined in: main.ts:94133
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsGoogleRelatedKeywordsLiveResultInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:84318

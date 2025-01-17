@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
+[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskPostRequestInfo
+
+Defined in: main.ts:133326
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataGoogleTrendsExploreTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
+Defined in: main.ts:133437
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:123090
 
 ## Properties
 
 ### category\_code?
 
 > `optional` **category\_code**: `number`
+
+Defined in: main.ts:133371
 
 google trends search category
 optional field
@@ -47,15 +51,13 @@ you can receive the list of available categories with their category_code by mak
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`category_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#category_code)
 
-#### Defined in
-
-main.ts:123026
-
 ***
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:133380
 
 starting date of the time range
 optional field
@@ -70,15 +72,13 @@ example:
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_from)
 
-#### Defined in
-
-main.ts:123035
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:133387
 
 ending date of the time range
 optional field
@@ -91,15 +91,13 @@ example:
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#date_to)
 
-#### Defined in
-
-main.ts:123042
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:133405
 
 types of items returned
 optional field
@@ -113,34 +111,31 @@ default value:
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`item_types`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#item_types)
 
-#### Defined in
-
-main.ts:123060
-
 ***
 
 ### keywords?
 
 > `optional` **keywords**: `string`[]
 
+Defined in: main.ts:133332
+
 keywords
 required field
 The maximum number of keywords you can specify: 5
-Note: comma symbols (,) in the specified keywords will be unset and ignored
+Note: the comma characters (,) in the specified keywords will be unset and ignored
+learn more about rules and limitations of keyword and keywords fields in DataForSEO APIs in this Help Center article
 
 #### Implementation of
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#keywords)
-
-#### Defined in
-
-main.ts:122987
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:133364
 
 search engine language code
 optional field
@@ -154,15 +149,13 @@ en
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_code)
 
-#### Defined in
-
-main.ts:123019
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:133356
 
 full name of search engine language
 optional field
@@ -176,15 +169,13 @@ English
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#language_name)
 
-#### Defined in
-
-main.ts:123011
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:133348
 
 search engine location code
 optional field
@@ -198,15 +189,13 @@ example:
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_code)
 
-#### Defined in
-
-main.ts:123003
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:133340
 
 full name of search engine location
 optional field
@@ -220,15 +209,13 @@ United Kingdom
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#location_name)
 
-#### Defined in
-
-main.ts:122995
-
 ***
 
 ### pingback\_url?
 
 > `optional` **pingback\_url**: `string`
+
+Defined in: main.ts:133427
 
 notification URL of a completed task
 optional field
@@ -237,22 +224,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/pingscript?id=$id
 http://your-server.com/pingscript?id=$id&tag=$tag
-Note: special symbols in pingback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in pingback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#pingback_url)
-
-#### Defined in
-
-main.ts:123080
 
 ***
 
 ### postback\_url?
 
 > `optional` **postback\_url**: `string`
+
+Defined in: main.ts:133416
 
 return URL for sending task results
 optional field
@@ -261,22 +247,21 @@ you can use the ‘$id’ string as a $id variable and ‘$tag’ as urlencoded 
 example:
 http://your-server.com/postbackscript?id=$id
 http://your-server.com/postbackscript?id=$id&tag=$tag
-Note: special symbols in postback_url will be urlencoded;
-i.a., the # symbol will be encoded into %23
+Note: special characters in postback_url will be urlencoded;
+i.a., the # character will be encoded into %23
+learn more on our Help Center
 
 #### Implementation of
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#postback_url)
-
-#### Defined in
-
-main.ts:123070
 
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:133433
 
 user-defined task identifier
 optional field
@@ -288,15 +273,13 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:123086
-
 ***
 
 ### time\_range?
 
 > `optional` **time\_range**: `string`
+
+Defined in: main.ts:133397
 
 preset time ranges
 optional field
@@ -312,15 +295,13 @@ possible values for news, youtube, images, froogle:
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#time_range)
 
-#### Defined in
-
-main.ts:123052
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:133366
 
 type of element
 
@@ -328,27 +309,23 @@ type of element
 
 [`IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md).[`type`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md#type)
 
-#### Defined in
-
-main.ts:123021
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:133446
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:123099
 
 ***
 
@@ -356,17 +333,17 @@ main.ts:123099
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:133484
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:123137
 
 ***
 
@@ -374,14 +351,14 @@ main.ts:123137
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
 
+Defined in: main.ts:133477
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleTrendsExploreTaskPostRequestInfo`](KeywordsDataGoogleTrendsExploreTaskPostRequestInfo.md)
-
-#### Defined in
-
-main.ts:123130

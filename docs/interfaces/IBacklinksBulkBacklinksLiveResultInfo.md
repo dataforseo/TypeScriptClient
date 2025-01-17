@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksBulkBacklinksLiveResultInfo
+[Documentation](../README.md) / IBacklinksBulkBacklinksLiveResultInfo
 
 # Interface: IBacklinksBulkBacklinksLiveResultInfo
 
+Defined in: main.ts:160825
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **items**: [`BacklinksBulkBacklinksLiveItem`](../classes/BacklinksBulkBacklinksLiveItem.md)[]
 
+Defined in: main.ts:160829
+
 contains relevant backlink data
-
-#### Defined in
-
-main.ts:149523
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:149523
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:160827
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:149521

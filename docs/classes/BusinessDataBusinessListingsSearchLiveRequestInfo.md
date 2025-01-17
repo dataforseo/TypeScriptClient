@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BusinessDataBusinessListingsSearchLiveRequestInfo
+[Documentation](../README.md) / BusinessDataBusinessListingsSearchLiveRequestInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveRequestInfo
+
+Defined in: main.ts:210588
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new BusinessDataBusinessListingsSearchLiveRequestInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
 
+Defined in: main.ts:210669
+
 #### Parameters
 
-• **data?**: [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md)
+##### data?
+
+[`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md)
 
 #### Returns
 
 [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:198218
 
 ## Properties
 
 ### categories?
 
 > `optional` **categories**: `string`[]
+
+Defined in: main.ts:210594
 
 business categories
 optional field
@@ -48,34 +52,30 @@ you can specify up to 10 categories
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`categories`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#categories)
 
-#### Defined in
-
-main.ts:198143
-
 ***
 
 ### description?
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:210599
+
 description of the element in SERP
 optional field
 the description of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`description`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#description)
-
-#### Defined in
-
-main.ts:198148
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:210628
 
 array of results filtering parameters
 optional field
@@ -92,15 +92,13 @@ you can receive the list of available filters by making a separate request to h
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`filters`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:198177
-
 ***
 
 ### is\_claimed?
 
 > `optional` **is\_claimed**: `boolean`
+
+Defined in: main.ts:210607
 
 indicates whether the business is verified by its owner on Google Maps
 optional field
@@ -109,15 +107,13 @@ optional field
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`is_claimed`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#is_claimed)
 
-#### Defined in
-
-main.ts:198156
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:210646
 
 the maximum number of returned businesses
 optional field
@@ -128,15 +124,13 @@ maximum value: 1000
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`limit`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:198195
-
 ***
 
 ### location\_coordinate?
 
 > `optional` **location\_coordinate**: `string`
+
+Defined in: main.ts:210617
 
 GPS coordinates of a location
 optional field
@@ -152,15 +146,13 @@ example:
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#location_coordinate)
 
-#### Defined in
-
-main.ts:198166
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:210651
 
 offset in the results array of returned businesses
 optional field
@@ -171,15 +163,13 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`offset`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:198200
-
 ***
 
 ### offset\_token?
 
 > `optional` **offset\_token**: `string`
+
+Defined in: main.ts:210659
 
 token for subsequent requests
 optional field
@@ -193,15 +183,13 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`offset_token`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#offset_token)
 
-#### Defined in
-
-main.ts:198208
-
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:210641
 
 results sorting rules
 optional field
@@ -220,15 +208,13 @@ example:
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`order_by`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#order_by)
 
-#### Defined in
-
-main.ts:198190
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:210665
 
 user-defined task identifier
 optional field
@@ -240,28 +226,22 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:198214
-
 ***
 
 ### title?
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:210604
+
 title of the element in SERP
 optional field
 the name of the business entity for which the results are collected;
-can contain up to 200 symbols
+can contain up to 200 characters
 
 #### Implementation of
 
 [`IBusinessDataBusinessListingsSearchLiveRequestInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md).[`title`](../interfaces/IBusinessDataBusinessListingsSearchLiveRequestInfo.md#title)
-
-#### Defined in
-
-main.ts:198153
 
 ## Methods
 
@@ -269,17 +249,17 @@ main.ts:198153
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:210678
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:198227
 
 ***
 
@@ -287,17 +267,17 @@ main.ts:198227
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:210717
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:198266
 
 ***
 
@@ -305,14 +285,14 @@ main.ts:198266
 
 > `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
 
+Defined in: main.ts:210710
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BusinessDataBusinessListingsSearchLiveRequestInfo`](BusinessDataBusinessListingsSearchLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:198259

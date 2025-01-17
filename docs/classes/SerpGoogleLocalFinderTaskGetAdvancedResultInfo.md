@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleLocalFinderTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleLocalFinderTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleLocalFinderTaskGetAdvancedResultInfo
+
+Defined in: main.ts:43707
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleLocalFinderTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`](SerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:43746
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`](SerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:41874
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:43721
 
 direct URL to search engine results
 you can use it to make sure that we provided exact results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided exact results
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:41851
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:43726
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:41856
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:43736
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -83,25 +83,19 @@ local_pack
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:41864
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-elements of search results found in SERP
+Defined in: main.ts:43742
+
+items of the element
 
 #### Implementation of
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#items)
-
-#### Defined in
-
-main.ts:41870
 
 ***
 
@@ -109,21 +103,21 @@ main.ts:41870
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:43740
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:41868
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:43710
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -132,15 +126,13 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:41840
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:43718
 
 language code in a POST array
 
@@ -148,15 +140,13 @@ language code in a POST array
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:41848
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:43716
 
 location code in a POST array
 
@@ -164,9 +154,19 @@ location code in a POST array
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+***
 
-main.ts:41846
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:43731
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#refinement_chips)
 
 ***
 
@@ -174,15 +174,13 @@ main.ts:41846
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:43714
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:41844
 
 ***
 
@@ -190,21 +188,21 @@ main.ts:41844
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:43738
+
 total number of results in SERP
 
 #### Implementation of
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:41866
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:43729
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -213,15 +211,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:41859
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:43712
 
 type of element
 
@@ -229,27 +225,23 @@ type of element
 
 [`ISerpGoogleLocalFinderTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleLocalFinderTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:41842
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:43755
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:41883
 
 ***
 
@@ -257,17 +249,17 @@ main.ts:41883
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:43792
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:41919
 
 ***
 
@@ -275,14 +267,14 @@ main.ts:41919
 
 > `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`](SerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:43785
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleLocalFinderTaskGetAdvancedResultInfo`](SerpGoogleLocalFinderTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:41912

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppRankedSerpElementInfo
+[Documentation](../README.md) / AppRankedSerpElementInfo
 
 # Class: AppRankedSerpElementInfo
+
+Defined in: main.ts:121624
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new AppRankedSerpElementInfo**(`data`?): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
+Defined in: main.ts:121649
+
 #### Parameters
 
-• **data?**: [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md)
+##### data?
+
+[`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md)
 
 #### Returns
 
 [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
-
-#### Defined in
-
-main.ts:112216
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:121632
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`check_url`](../interfaces/IAppRankedSerpElementInfo.md#check_url)
 
-#### Defined in
-
-main.ts:112199
-
 ***
 
 ### last\_updated\_time?
 
 > `optional` **last\_updated\_time**: `string`
+
+Defined in: main.ts:121639
 
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`last_updated_time`](../interfaces/IAppRankedSerpElementInfo.md#last_updated_time)
 
-#### Defined in
-
-main.ts:112206
-
 ***
 
 ### previous\_updated\_time?
 
 > `optional` **previous\_updated\_time**: `string`
+
+Defined in: main.ts:121645
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -84,15 +84,13 @@ in this case, will equal null
 
 [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`previous_updated_time`](../interfaces/IAppRankedSerpElementInfo.md#previous_updated_time)
 
-#### Defined in
-
-main.ts:112212
-
 ***
 
 ### se\_results\_count?
 
 > `optional` **se\_results\_count**: `string`
+
+Defined in: main.ts:121634
 
 number of search results for the returned keyword
 
@@ -100,15 +98,13 @@ number of search results for the returned keyword
 
 [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`se_results_count`](../interfaces/IAppRankedSerpElementInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:112201
-
 ***
 
 ### se\_type?
 
 > `optional` **se\_type**: `string`
+
+Defined in: main.ts:121626
 
 search engine type
 
@@ -116,15 +112,13 @@ search engine type
 
 [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`se_type`](../interfaces/IAppRankedSerpElementInfo.md#se_type)
 
-#### Defined in
-
-main.ts:112193
-
 ***
 
 ### serp\_item?
 
 > `optional` **serp\_item**: [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
+
+Defined in: main.ts:121629
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -133,27 +127,23 @@ the list of supported SERP elements can be found below
 
 [`IAppRankedSerpElementInfo`](../interfaces/IAppRankedSerpElementInfo.md).[`serp_item`](../interfaces/IAppRankedSerpElementInfo.md#serp_item)
 
-#### Defined in
-
-main.ts:112196
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:121658
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:112225
 
 ***
 
@@ -161,17 +151,17 @@ main.ts:112225
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:121680
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:112247
 
 ***
 
@@ -179,14 +169,14 @@ main.ts:112247
 
 > `static` **fromJS**(`data`): [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
+Defined in: main.ts:121673
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
-
-#### Defined in
-
-main.ts:112240

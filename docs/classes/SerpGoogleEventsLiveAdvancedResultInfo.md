@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleEventsLiveAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleEventsLiveAdvancedResultInfo
 
 # Class: SerpGoogleEventsLiveAdvancedResultInfo
+
+Defined in: main.ts:49597
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new SerpGoogleEventsLiveAdvancedResultInfo**(`data`?): [`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:49637
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:46783
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:46783
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:49611
+
 direct URL to search engine results
 
 #### Implementation of
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:46759
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:49616
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:46764
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:49625
 
 types of search results found in SERP
 possible item types:
@@ -81,25 +81,19 @@ event_item
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:46771
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-items in SERP
+Defined in: main.ts:49633
+
+items of the element
 
 #### Implementation of
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#items)
-
-#### Defined in
-
-main.ts:46779
 
 ***
 
@@ -107,15 +101,13 @@ main.ts:46779
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:49631
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:46777
 
 ***
 
@@ -123,22 +115,22 @@ main.ts:46777
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:49600
+
 keyword received in a POST array
-keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
+keyword is returned with decoded %## (plus character ‘+’ will be decoded to a space character)
 
 #### Implementation of
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#keyword)
-
-#### Defined in
-
-main.ts:46748
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:49609
 
 language code
 in this case, the value will be null
@@ -147,15 +139,13 @@ in this case, the value will be null
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:46757
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:49606
 
 location code in a POST array
 
@@ -163,9 +153,19 @@ location code in a POST array
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#location_code)
 
-#### Defined in
+***
 
-main.ts:46754
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:49621
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#refinement_chips)
 
 ***
 
@@ -173,21 +173,21 @@ main.ts:46754
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:49604
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:46752
-
 ***
 
 ### se\_results\_count?
 
 > `optional` **se\_results\_count**: `number`
+
+Defined in: main.ts:49629
 
 total number of results in SERP
 in this case, the value will be 0
@@ -197,15 +197,13 @@ this search engine does not indicate the total number of results
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:46775
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:49619
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -214,15 +212,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:46767
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:49602
 
 type of element
 
@@ -230,27 +226,23 @@ type of element
 
 [`ISerpGoogleEventsLiveAdvancedResultInfo`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleEventsLiveAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:46750
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:49646
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:46792
 
 ***
 
@@ -258,17 +250,17 @@ main.ts:46792
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:49683
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:46828
 
 ***
 
@@ -276,14 +268,14 @@ main.ts:46828
 
 > `static` **fromJS**(`data`): [`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)
 
+Defined in: main.ts:49676
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleEventsLiveAdvancedResultInfo`](SerpGoogleEventsLiveAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:46821

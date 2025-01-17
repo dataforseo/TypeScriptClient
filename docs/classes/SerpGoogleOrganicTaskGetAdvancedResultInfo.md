@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / SerpGoogleOrganicTaskGetAdvancedResultInfo
+[Documentation](../README.md) / SerpGoogleOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleOrganicTaskGetAdvancedResultInfo
+
+Defined in: main.ts:38169
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new SerpGoogleOrganicTaskGetAdvancedResultInfo**(`data`?): [`SerpGoogleOrganicTaskGetAdvancedResultInfo`](SerpGoogleOrganicTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:38208
+
 #### Parameters
 
-• **data?**: [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md)
+##### data?
+
+[`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md)
 
 #### Returns
 
 [`SerpGoogleOrganicTaskGetAdvancedResultInfo`](SerpGoogleOrganicTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:36688
 
 ## Properties
 
 ### check\_url?
 
 > `optional` **check\_url**: `string`
+
+Defined in: main.ts:38183
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +49,13 @@ you can use it to make sure that we provided accurate results
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#check_url)
 
-#### Defined in
-
-main.ts:36665
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:38188
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +66,13 @@ example:
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:36670
-
 ***
 
 ### item\_types?
 
 > `optional` **item\_types**: `string`[]
+
+Defined in: main.ts:38198
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -83,25 +83,19 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`item_types`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#item_types)
 
-#### Defined in
-
-main.ts:36678
-
 ***
 
 ### items?
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-contains arrays of elements available in the list
+Defined in: main.ts:38204
+
+items present in the element
 
 #### Implementation of
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`items`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#items)
-
-#### Defined in
-
-main.ts:36684
 
 ***
 
@@ -109,21 +103,21 @@ main.ts:36684
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:38202
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:36682
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:38172
 
 keyword received in a POST array
 the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -132,15 +126,13 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`keyword`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:36654
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:38180
 
 language code in a POST array
 
@@ -148,15 +140,13 @@ language code in a POST array
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:36662
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:38178
 
 location code in a POST array
 
@@ -164,9 +154,19 @@ location code in a POST array
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#location_code)
 
-#### Defined in
+***
 
-main.ts:36660
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](RefinementChipsInfo.md)
+
+Defined in: main.ts:38193
+
+search refinement chips
+
+#### Implementation of
+
+[`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`refinement_chips`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#refinement_chips)
 
 ***
 
@@ -174,15 +174,13 @@ main.ts:36660
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:38176
+
 search engine domain in a POST array
 
 #### Implementation of
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#se_domain)
-
-#### Defined in
-
-main.ts:36658
 
 ***
 
@@ -190,21 +188,21 @@ main.ts:36658
 
 > `optional` **se\_results\_count**: `number`
 
+Defined in: main.ts:38200
+
 total number of results in SERP
 
 #### Implementation of
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Defined in
-
-main.ts:36680
-
 ***
 
 ### spell?
 
 > `optional` **spell**: [`SpellInfo`](SpellInfo.md)
+
+Defined in: main.ts:38191
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -213,15 +211,13 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`spell`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#spell)
 
-#### Defined in
-
-main.ts:36673
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:38174
 
 type of element
 
@@ -229,27 +225,23 @@ type of element
 
 [`ISerpGoogleOrganicTaskGetAdvancedResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md).[`type`](../interfaces/ISerpGoogleOrganicTaskGetAdvancedResultInfo.md#type)
 
-#### Defined in
-
-main.ts:36656
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:38217
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:36697
 
 ***
 
@@ -257,17 +249,17 @@ main.ts:36697
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:38254
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:36733
 
 ***
 
@@ -275,14 +267,14 @@ main.ts:36733
 
 > `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskGetAdvancedResultInfo`](SerpGoogleOrganicTaskGetAdvancedResultInfo.md)
 
+Defined in: main.ts:38247
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`SerpGoogleOrganicTaskGetAdvancedResultInfo`](SerpGoogleOrganicTaskGetAdvancedResultInfo.md)
-
-#### Defined in
-
-main.ts:36726

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageRedirectChainsResultInfo
+[Documentation](../README.md) / IOnPageRedirectChainsResultInfo
 
 # Interface: IOnPageRedirectChainsResultInfo
 
+Defined in: main.ts:170186
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **crawl\_progress**: `string`
 
+Defined in: main.ts:170189
+
 status of the crawling session
 possible values: in_progress, finished
-
-#### Defined in
-
-main.ts:158453
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:158453
 
 > `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
+Defined in: main.ts:170191
+
 details of the crawling session
-
-#### Defined in
-
-main.ts:158455
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:158455
 
 > `optional` **items**: [`OnPageRedirectChainsItem`](../classes/OnPageRedirectChainsItem.md)[]
 
+Defined in: main.ts:170197
+
 items array
-
-#### Defined in
-
-main.ts:158461
 
 ***
 
@@ -53,11 +49,9 @@ main.ts:158461
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:170195
+
 number of items in the results array
-
-#### Defined in
-
-main.ts:158459
 
 ***
 
@@ -65,8 +59,6 @@ main.ts:158459
 
 > `optional` **total\_items\_count**: `number`
 
+Defined in: main.ts:170193
+
 total number of relevant items in the database
-
-#### Defined in
-
-main.ts:158457

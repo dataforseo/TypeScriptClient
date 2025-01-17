@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
 # Class: KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
+
+Defined in: main.ts:145804
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
 
+Defined in: main.ts:145814
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:133862
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:133862
 
 > `optional` **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
 
+Defined in: main.ts:145810
+
 array of available locations for a certain language
 
 #### Implementation of
 
 [`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md).[`available_locations`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md#available_locations)
-
-#### Defined in
-
-main.ts:133858
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:133858
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:145808
+
 language code according to ISO 639-1
 
 #### Implementation of
 
 [`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md#language_code)
-
-#### Defined in
-
-main.ts:133856
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:133856
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:145806
+
 language name
 
 #### Implementation of
 
 [`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md#language_name)
-
-#### Defined in
-
-main.ts:133854
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:133854
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:145823
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:133871
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:133871
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:145846
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:133894
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:133894
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
 
+Defined in: main.ts:145839
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
-
-#### Defined in
-
-main.ts:133887

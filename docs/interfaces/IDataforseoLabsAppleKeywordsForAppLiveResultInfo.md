@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
+[Documentation](../README.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
+Defined in: main.ts:123953
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,23 +18,19 @@
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:123957
+
 id of the app in a POST array
-
-#### Defined in
-
-main.ts:114684
 
 ***
 
 ### items?
 
-> `optional` **items**: [`DataforseoLabsAppleKeywordsForAppLiveItem`](../classes/DataforseoLabsAppleKeywordsForAppLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsLiveItem`](../classes/DataforseoLabsLiveItem.md)[]
+
+Defined in: main.ts:123967
 
 contains data related to the ranking keywords for the app specified in the app_id field
-
-#### Defined in
-
-main.ts:114694
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:114694
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:123965
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:114692
 
 ***
 
@@ -52,11 +48,9 @@ main.ts:114692
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:123961
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:114688
 
 ***
 
@@ -64,11 +58,9 @@ main.ts:114688
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:123959
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:114686
 
 ***
 
@@ -76,11 +68,9 @@ main.ts:114686
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:123955
+
 search engine type
-
-#### Defined in
-
-main.ts:114682
 
 ***
 
@@ -88,8 +78,6 @@ main.ts:114682
 
 > `optional` **total\_count**: `number`
 
+Defined in: main.ts:123963
+
 total amount of results in our database relevant to your request
-
-#### Defined in
-
-main.ts:114690

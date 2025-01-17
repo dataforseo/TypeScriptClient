@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsStatusResultInfo
+[Documentation](../README.md) / DataforseoLabsStatusResultInfo
 
 # Class: DataforseoLabsStatusResultInfo
+
+Defined in: main.ts:90326
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new DataforseoLabsStatusResultInfo**(`data`?): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
+Defined in: main.ts:90336
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md)
+##### data?
+
+[`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md)
 
 #### Returns
 
 [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
-
-#### Defined in
-
-main.ts:80591
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:80591
 
 > `optional` **amazon**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
+Defined in: main.ts:90332
+
 update information for the Amazon endpoints
 
 #### Implementation of
 
 [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`amazon`](../interfaces/IDataforseoLabsStatusResultInfo.md#amazon)
-
-#### Defined in
-
-main.ts:80587
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:80587
 
 > `optional` **bing**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
+Defined in: main.ts:90330
+
 update information for the Bing endpoints
 
 #### Implementation of
 
 [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`bing`](../interfaces/IDataforseoLabsStatusResultInfo.md#bing)
-
-#### Defined in
-
-main.ts:80585
 
 ***
 
@@ -70,15 +68,13 @@ main.ts:80585
 
 > `optional` **google**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
+Defined in: main.ts:90328
+
 update information for the Google endpoints
 
 #### Implementation of
 
 [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`google`](../interfaces/IDataforseoLabsStatusResultInfo.md#google)
-
-#### Defined in
-
-main.ts:80583
 
 ## Methods
 
@@ -86,17 +82,17 @@ main.ts:80583
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:90345
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:80600
 
 ***
 
@@ -104,17 +100,17 @@ main.ts:80600
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:90364
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:80619
 
 ***
 
@@ -122,14 +118,14 @@ main.ts:80619
 
 > `static` **fromJS**(`data`): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
+Defined in: main.ts:90357
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
-
-#### Defined in
-
-main.ts:80612

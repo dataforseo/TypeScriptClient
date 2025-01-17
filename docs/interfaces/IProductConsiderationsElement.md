@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IProductConsiderationsElement
+[Documentation](../README.md) / IProductConsiderationsElement
 
 # Interface: IProductConsiderationsElement
 
+Defined in: main.ts:36759
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **consideration\_category**: `string`
 
+Defined in: main.ts:36766
+
 category of the consideration element
 the category is indicated just above the title fo the consideration element
-
-#### Defined in
-
-main.ts:35056
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:35056
 
 > `optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](../classes/ProductConsiderationsExpandedElement.md)
 
+Defined in: main.ts:36768
+
 expanded element
-
-#### Defined in
-
-main.ts:35058
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:35058
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:36763
+
 title of a given link element
-
-#### Defined in
-
-main.ts:35053
 
 ***
 
@@ -53,8 +49,6 @@ main.ts:35053
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:36761
+
 type of element
-
-#### Defined in
-
-main.ts:35051

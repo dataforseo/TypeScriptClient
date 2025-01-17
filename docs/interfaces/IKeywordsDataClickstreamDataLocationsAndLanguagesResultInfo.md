@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
+[Documentation](../README.md) / IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
+Defined in: main.ts:147485
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **available\_languages**: [`AvailableLanguages`](../classes/AvailableLanguages.md)[]
 
+Defined in: main.ts:147501
+
 supported languages
 contains the languages which are supported for a specific location
-
-#### Defined in
-
-main.ts:135541
 
 ***
 
@@ -29,11 +29,9 @@ main.ts:135541
 
 > `optional` **country\_iso\_code**: `string`
 
+Defined in: main.ts:147494
+
 ISO country code of the location
-
-#### Defined in
-
-main.ts:135534
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:135534
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:147487
+
 location code
-
-#### Defined in
-
-main.ts:135527
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:135527
 
 > `optional` **location\_code\_parent**: `number`
 
+Defined in: main.ts:147492
+
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
-
-#### Defined in
-
-main.ts:135532
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:135532
 
 > `optional` **location\_name**: `string`
 
+Defined in: main.ts:147489
+
 full name of the location
-
-#### Defined in
-
-main.ts:135529
 
 ***
 
@@ -78,10 +70,8 @@ main.ts:135529
 
 > `optional` **location\_type**: `string`
 
+Defined in: main.ts:147498
+
 location type
 possible values:
 Country
-
-#### Defined in
-
-main.ts:135538

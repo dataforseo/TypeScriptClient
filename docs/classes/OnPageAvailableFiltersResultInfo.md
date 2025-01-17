@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageAvailableFiltersResultInfo
+[Documentation](../README.md) / OnPageAvailableFiltersResultInfo
 
 # Class: OnPageAvailableFiltersResultInfo
+
+Defined in: main.ts:163846
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new OnPageAvailableFiltersResultInfo**(`data`?): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:163857
+
 #### Parameters
 
-• **data?**: [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md)
+##### data?
+
+[`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md)
 
 #### Returns
 
 [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:152551
 
 ## Properties
 
@@ -38,17 +40,15 @@ main.ts:152551
 
 > `optional` **keyword\_density**: `object`
 
+Defined in: main.ts:163853
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`keyword_density`](../interfaces/IOnPageAvailableFiltersResultInfo.md#keyword_density)
-
-#### Defined in
-
-main.ts:152547
 
 ***
 
@@ -56,17 +56,15 @@ main.ts:152547
 
 > `optional` **links**: `object`
 
+Defined in: main.ts:163850
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`links`](../interfaces/IOnPageAvailableFiltersResultInfo.md#links)
-
-#### Defined in
-
-main.ts:152544
 
 ***
 
@@ -74,17 +72,15 @@ main.ts:152544
 
 > `optional` **non\_indexable**: `object`
 
+Defined in: main.ts:163849
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`non_indexable`](../interfaces/IOnPageAvailableFiltersResultInfo.md#non_indexable)
-
-#### Defined in
-
-main.ts:152543
 
 ***
 
@@ -92,17 +88,15 @@ main.ts:152543
 
 > `optional` **pages**: `object`
 
+Defined in: main.ts:163848
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`pages`](../interfaces/IOnPageAvailableFiltersResultInfo.md#pages)
-
-#### Defined in
-
-main.ts:152542
 
 ***
 
@@ -110,17 +104,15 @@ main.ts:152542
 
 > `optional` **pages\_by\_resource**: `object`
 
+Defined in: main.ts:163851
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`pages_by_resource`](../interfaces/IOnPageAvailableFiltersResultInfo.md#pages_by_resource)
-
-#### Defined in
-
-main.ts:152545
 
 ***
 
@@ -128,17 +120,15 @@ main.ts:152545
 
 > `optional` **redirect\_chains**: `object`
 
+Defined in: main.ts:163852
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`redirect_chains`](../interfaces/IOnPageAvailableFiltersResultInfo.md#redirect_chains)
-
-#### Defined in
-
-main.ts:152546
 
 ***
 
@@ -146,17 +136,15 @@ main.ts:152546
 
 > `optional` **resources**: `object`
 
+Defined in: main.ts:163847
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Implementation of
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`resources`](../interfaces/IOnPageAvailableFiltersResultInfo.md#resources)
-
-#### Defined in
-
-main.ts:152541
 
 ## Methods
 
@@ -164,17 +152,17 @@ main.ts:152541
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:163866
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:152560
 
 ***
 
@@ -182,17 +170,17 @@ main.ts:152560
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:163931
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:152625
 
 ***
 
@@ -200,14 +188,14 @@ main.ts:152625
 
 > `static` **fromJS**(`data`): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
 
+Defined in: main.ts:163924
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
-
-#### Defined in
-
-main.ts:152618

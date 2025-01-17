@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentGenerationParaphraseLiveRequestInfo
+[Documentation](../README.md) / ContentGenerationParaphraseLiveRequestInfo
 
 # Class: ContentGenerationParaphraseLiveRequestInfo
+
+Defined in: main.ts:182470
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new ContentGenerationParaphraseLiveRequestInfo**(`data`?): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
+Defined in: main.ts:182492
+
 #### Parameters
 
-• **data?**: [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md)
+##### data?
+
+[`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md)
 
 #### Returns
 
 [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:170802
 
 ## Properties
 
 ### creativity\_index?
 
 > `optional` **creativity\_index**: `number`
+
+Defined in: main.ts:182482
 
 creativity of content generation
 required field
@@ -49,15 +53,13 @@ learn more about this parameter on our help center
 
 [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#creativity_index)
 
-#### Defined in
-
-main.ts:170792
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:182488
 
 user-defined task identifier
 optional field
@@ -69,15 +71,13 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:170798
-
 ***
 
 ### text?
 
 > `optional` **text**: `string`
+
+Defined in: main.ts:182475
 
 target text
 required field
@@ -88,27 +88,23 @@ learn more about tokens on our help center
 
 [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#text)
 
-#### Defined in
-
-main.ts:170785
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:182501
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:170811
 
 ***
 
@@ -116,17 +112,17 @@ main.ts:170811
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:182520
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:170830
 
 ***
 
@@ -134,14 +130,14 @@ main.ts:170830
 
 > `static` **fromJS**(`data`): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
+Defined in: main.ts:182513
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:170823

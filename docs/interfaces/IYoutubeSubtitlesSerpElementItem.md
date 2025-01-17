@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IYoutubeSubtitlesSerpElementItem
+[Documentation](../README.md) / IYoutubeSubtitlesSerpElementItem
 
 # Interface: IYoutubeSubtitlesSerpElementItem
+
+Defined in: main.ts:72247
 
 ## Extends
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -20,11 +22,9 @@
 
 > `optional` **duration\_time**: `number`
 
+Defined in: main.ts:72255
+
 duration of subtitles in seconds
-
-#### Defined in
-
-main.ts:64020
 
 ***
 
@@ -32,17 +32,17 @@ main.ts:64020
 
 > `optional` **end\_time**: `number`
 
+Defined in: main.ts:72253
+
 the second subtitled text ends
-
-#### Defined in
-
-main.ts:64018
 
 ***
 
 ### rank\_absolute?
 
 > `optional` **rank\_absolute**: `number`
+
+Defined in: main.ts:70531
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -51,15 +51,13 @@ absolute position among all the elements in SERP
 
 [`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`rank_absolute`](IBaseYoutubeSerpElementItem.md#rank_absolute)
 
-#### Defined in
-
-main.ts:62316
-
 ***
 
 ### rank\_group?
 
 > `optional` **rank\_group**: `number`
+
+Defined in: main.ts:70528
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -69,21 +67,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`rank_group`](IBaseYoutubeSerpElementItem.md#rank_group)
 
-#### Defined in
-
-main.ts:62313
-
 ***
 
 ### start\_time?
 
 > `optional` **start\_time**: `number`
 
+Defined in: main.ts:72251
+
 the second subtitled text starts
-
-#### Defined in
-
-main.ts:64016
 
 ***
 
@@ -91,11 +83,9 @@ main.ts:64016
 
 > `optional` **text**: `string`
 
+Defined in: main.ts:72249
+
 text translated in subtitles
-
-#### Defined in
-
-main.ts:64014
 
 ***
 
@@ -103,12 +93,10 @@ main.ts:64014
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:70524
+
 type of element
 
 #### Inherited from
 
 [`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`type`](IBaseYoutubeSerpElementItem.md#type)
-
-#### Defined in
-
-main.ts:62309

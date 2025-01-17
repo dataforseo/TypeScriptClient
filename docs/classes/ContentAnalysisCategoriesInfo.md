@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ContentAnalysisCategoriesInfo
+[Documentation](../README.md) / ContentAnalysisCategoriesInfo
 
 # Class: ContentAnalysisCategoriesInfo
+
+Defined in: main.ts:24191
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new ContentAnalysisCategoriesInfo**(`data`?): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
+Defined in: main.ts:24197
+
 #### Parameters
 
-• **data?**: [`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md)
+##### data?
+
+[`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md)
 
 #### Returns
 
 [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
-
-#### Defined in
-
-main.ts:23294
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:23294
 
 > `optional` **category**: `number`[]
 
+Defined in: main.ts:24192
+
 #### Implementation of
 
 [`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md).[`category`](../interfaces/IContentAnalysisCategoriesInfo.md#category)
-
-#### Defined in
-
-main.ts:23289
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:23289
 
 > `optional` **count**: `number`
 
+Defined in: main.ts:24193
+
 #### Implementation of
 
 [`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md).[`count`](../interfaces/IContentAnalysisCategoriesInfo.md#count)
-
-#### Defined in
-
-main.ts:23290
 
 ## Methods
 
@@ -66,17 +64,17 @@ main.ts:23290
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:24206
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:23303
 
 ***
 
@@ -84,17 +82,17 @@ main.ts:23303
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:24228
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:23325
 
 ***
 
@@ -102,14 +100,14 @@ main.ts:23325
 
 > `static` **fromJS**(`data`): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
+Defined in: main.ts:24221
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
-
-#### Defined in
-
-main.ts:23318

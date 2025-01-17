@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataIdListResultInfo
+[Documentation](../README.md) / KeywordsDataIdListResultInfo
 
 # Class: KeywordsDataIdListResultInfo
+
+Defined in: main.ts:125398
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataIdListResultInfo**(`data`?): [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
 
+Defined in: main.ts:125424
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md)
+##### data?
+
+[`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:116151
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:116151
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:125418
+
 cost of the task, USD
 
 #### Implementation of
 
 [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`cost`](../interfaces/IKeywordsDataIdListResultInfo.md#cost)
 
-#### Defined in
-
-main.ts:116145
-
 ***
 
 ### datetime\_done?
 
 > `optional` **datetime\_done**: `string`
+
+Defined in: main.ts:125413
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`datetime_done`](../interfaces/IKeywordsDataIdListResultInfo.md#datetime_done)
 
-#### Defined in
-
-main.ts:116140
-
 ***
 
 ### datetime\_posted?
 
 > `optional` **datetime\_posted**: `string`
+
+Defined in: main.ts:125408
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,13 @@ example:
 
 [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`datetime_posted`](../interfaces/IKeywordsDataIdListResultInfo.md#datetime_posted)
 
-#### Defined in
-
-main.ts:116135
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:125400
 
 id of the task
 
@@ -98,35 +96,31 @@ id of the task
 
 [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`id`](../interfaces/IKeywordsDataIdListResultInfo.md#id)
 
-#### Defined in
-
-main.ts:116127
-
 ***
 
 ### metadata?
 
 > `optional` **metadata**: `object`
 
+Defined in: main.ts:125420
+
 contains parameters you specified in the POST request
 
 #### Index Signature
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`metadata`](../interfaces/IKeywordsDataIdListResultInfo.md#metadata)
-
-#### Defined in
-
-main.ts:116147
 
 ***
 
 ### status?
 
 > `optional` **status**: `string`
+
+Defined in: main.ts:125416
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +129,13 @@ you can find the full list of general informational messages here
 
 [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`status`](../interfaces/IKeywordsDataIdListResultInfo.md#status)
 
-#### Defined in
-
-main.ts:116143
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:125403
 
 URL of the task
 URL you used for making an API call
@@ -152,27 +144,23 @@ URL you used for making an API call
 
 [`IKeywordsDataIdListResultInfo`](../interfaces/IKeywordsDataIdListResultInfo.md).[`url`](../interfaces/IKeywordsDataIdListResultInfo.md#url)
 
-#### Defined in
-
-main.ts:116130
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:125433
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:116160
 
 ***
 
@@ -180,17 +168,17 @@ main.ts:116160
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:125462
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:116189
 
 ***
 
@@ -198,14 +186,14 @@ main.ts:116189
 
 > `static` **fromJS**(`data`): [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
 
+Defined in: main.ts:125455
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataIdListResultInfo`](KeywordsDataIdListResultInfo.md)
-
-#### Defined in
-
-main.ts:116182

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IFaqBoxElement
+[Documentation](../README.md) / IFaqBoxElement
 
 # Interface: IFaqBoxElement
 
+Defined in: main.ts:31282
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:31288
+
 description
-
-#### Defined in
-
-main.ts:29456
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:29456
 
 > `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
+Defined in: main.ts:31290
+
 link of the element
-
-#### Defined in
-
-main.ts:29458
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:29458
 
 > `optional` **title**: `string`
 
-title of a given link element
+Defined in: main.ts:31286
 
-#### Defined in
-
-main.ts:29454
+reference page title
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:29454
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:31284
+
 type of element
-
-#### Defined in
-
-main.ts:29452

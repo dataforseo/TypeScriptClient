@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBacklinksTimeseriesSummaryLiveRequestInfo
+[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveRequestInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveRequestInfo
 
+Defined in: main.ts:159393
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### date\_from?
 
 > `optional` **date\_from**: `string`
+
+Defined in: main.ts:159408
 
 starting date of the time range
 optional field
@@ -25,15 +29,13 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-01"
 
-#### Defined in
-
-main.ts:148102
-
 ***
 
 ### date\_to?
 
 > `optional` **date\_to**: `string`
+
+Defined in: main.ts:159417
 
 ending date of the time range
 optional field
@@ -44,15 +46,13 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-15"
 
-#### Defined in
-
-main.ts:148111
-
 ***
 
 ### group\_range?
 
 > `optional` **group\_range**: `string`
+
+Defined in: main.ts:159430
 
 time range which will be used to group the results
 optional field
@@ -67,24 +67,18 @@ for example, if you specify:
 we will return items falling between 2022-03-01 and 2022-05-31, namely, three items corresponding to the following dates: 2022-03-31, 2022-04-30, 2022-05-31
 if there is no data for a certain  day/week/month/year, we will return 0
 
-#### Defined in
-
-main.ts:148124
-
 ***
 
 ### include\_subdomains?
 
 > `optional` **include\_subdomains**: `boolean`
 
+Defined in: main.ts:159435
+
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
-
-#### Defined in
-
-main.ts:148129
 
 ***
 
@@ -92,15 +86,13 @@ main.ts:148129
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:159441
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:148135
 
 ***
 
@@ -108,12 +100,10 @@ main.ts:148135
 
 > `optional` **target**: `string`
 
+Defined in: main.ts:159399
+
 domain to get data for
 required field
 a domain should be specified without https:// and www.
 example:
 "forbes.com"
-
-#### Defined in
-
-main.ts:148093

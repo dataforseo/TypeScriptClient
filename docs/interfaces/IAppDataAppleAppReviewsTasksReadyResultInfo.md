@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppDataAppleAppReviewsTasksReadyResultInfo
+[Documentation](../README.md) / IAppDataAppleAppReviewsTasksReadyResultInfo
 
 # Interface: IAppDataAppleAppReviewsTasksReadyResultInfo
 
+Defined in: main.ts:208247
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:208256
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:195805
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:195805
 
 > `optional` **endpoint\_advanced**: `string`
 
+Defined in: main.ts:208260
+
 URL for collecting the results of the Apple App Reviews task
-
-#### Defined in
-
-main.ts:195809
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:195809
 
 > `optional` **endpoint\_html**: `string`
 
+Defined in: main.ts:208263
+
 URL for collecting the results of the Apple App Reviews HTML task
 if HTML tasks are not supported in the specified endpoint, the value will be null
-
-#### Defined in
-
-main.ts:195812
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:195812
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:208250
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:195799
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:195799
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:208252
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:195801
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:195801
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:208254
+
 search engine type
-
-#### Defined in
-
-main.ts:195803
 
 ***
 
@@ -90,8 +80,6 @@ main.ts:195803
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:208258
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:195807

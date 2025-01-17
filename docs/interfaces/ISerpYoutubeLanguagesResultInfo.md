@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeLanguagesResultInfo
+[Documentation](../README.md) / ISerpYoutubeLanguagesResultInfo
 
 # Interface: ISerpYoutubeLanguagesResultInfo
 
+Defined in: main.ts:69368
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:69372
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:61161
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:61161
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:69370
+
 language name
-
-#### Defined in
-
-main.ts:61159

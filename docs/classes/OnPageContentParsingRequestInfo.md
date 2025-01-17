@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageContentParsingRequestInfo
+[Documentation](../README.md) / OnPageContentParsingRequestInfo
 
 # Class: OnPageContentParsingRequestInfo
+
+Defined in: main.ts:172848
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageContentParsingRequestInfo**(`data`?): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
+Defined in: main.ts:172865
+
 #### Parameters
 
-• **data?**: [`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md)
+##### data?
+
+[`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md)
 
 #### Returns
 
 [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
-
-#### Defined in
-
-main.ts:161151
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:172861
 
 ID of the task
 required field
@@ -49,15 +53,13 @@ example:
 
 [`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md).[`id`](../interfaces/IOnPageContentParsingRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:161147
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:172854
 
 URL of the content to parse
 required field
@@ -69,27 +71,23 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 [`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md).[`url`](../interfaces/IOnPageContentParsingRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:161140
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:172874
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:161160
 
 ***
 
@@ -97,17 +95,17 @@ main.ts:161160
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:172892
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:161178
 
 ***
 
@@ -115,14 +113,14 @@ main.ts:161178
 
 > `static` **fromJS**(`data`): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
+Defined in: main.ts:172885
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
-
-#### Defined in
-
-main.ts:161171

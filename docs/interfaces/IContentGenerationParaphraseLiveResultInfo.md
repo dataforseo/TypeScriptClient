@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IContentGenerationParaphraseLiveResultInfo
+[Documentation](../README.md) / IContentGenerationParaphraseLiveResultInfo
 
 # Interface: IContentGenerationParaphraseLiveResultInfo
 
+Defined in: main.ts:182611
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **generated\_text**: `string`
 
+Defined in: main.ts:182619
+
 paraphrased version of the given text
-
-#### Defined in
-
-main.ts:170929
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:170929
 
 > `optional` **input\_tokens**: `number`
 
+Defined in: main.ts:182613
+
 number of input tokens in the POST request
-
-#### Defined in
-
-main.ts:170923
 
 ***
 
@@ -40,11 +38,9 @@ main.ts:170923
 
 > `optional` **new\_tokens**: `number`
 
+Defined in: main.ts:182617
+
 number of new tokens in the response
-
-#### Defined in
-
-main.ts:170927
 
 ***
 
@@ -52,8 +48,6 @@ main.ts:170927
 
 > `optional` **output\_tokens**: `number`
 
+Defined in: main.ts:182615
+
 number of output tokens in the response
-
-#### Defined in
-
-main.ts:170925

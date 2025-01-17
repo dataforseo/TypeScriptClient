@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+[Documentation](../README.md) / ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
+Defined in: main.ts:74279
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### depth?
 
 > `optional` **depth**: `number`
+
+Defined in: main.ts:74331
 
 parsing depth
 optional field
@@ -25,29 +29,25 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Defined in
-
-main.ts:66068
-
 ***
 
 ### device?
 
 > `optional` **device**: `string`
 
+Defined in: main.ts:74317
+
 device type
 optional field
 only value: desktop
-
-#### Defined in
-
-main.ts:66054
 
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:74313
 
 search engine language code
 required field if you don’t specify language_name
@@ -56,15 +56,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Defined in
-
-main.ts:66050
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:74306
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -73,15 +71,13 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Defined in
-
-main.ts:66043
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:74299
 
 search engine location code
 required field if you don’t specify location_name 
@@ -90,15 +86,13 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Defined in
-
-main.ts:66036
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:74292
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -107,24 +101,18 @@ you can receive the list of available locations of the search engine with their 
 example:
 United States
 
-#### Defined in
-
-main.ts:66029
-
 ***
 
 ### os?
 
 > `optional` **os**: `string`
 
+Defined in: main.ts:74322
+
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
-
-#### Defined in
-
-main.ts:66059
 
 ***
 
@@ -132,15 +120,13 @@ main.ts:66059
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:74337
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:66074
 
 ***
 
@@ -148,12 +134,10 @@ main.ts:66074
 
 > `optional` **video\_id**: `string`
 
+Defined in: main.ts:74285
+
 ID of the video
 required field
 you can find video ID in the URL or ‘youtube_video’ item of YouTube Organic result
 example:
 vQXvyV0zIP4
-
-#### Defined in
-
-main.ts:66022

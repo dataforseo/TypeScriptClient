@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixOnPageDayStatisticsRatesData
+[Documentation](../README.md) / AppendixOnPageDayStatisticsRatesData
 
 # Class: AppendixOnPageDayStatisticsRatesData
+
+Defined in: main.ts:234056
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixOnPageDayStatisticsRatesData**(`data`?): [`AppendixOnPageDayStatisticsRatesData`](AppendixOnPageDayStatisticsRatesData.md)
 
+Defined in: main.ts:234084
+
 #### Parameters
 
-• **data?**: [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixOnPageDayStatisticsRatesData`](AppendixOnPageDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:218984
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:218984
 
 > `optional` **available\_filters**: `number`
 
+Defined in: main.ts:234077
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`available_filters`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#available_filters)
-
-#### Defined in
-
-main.ts:218977
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:218977
 
 > `optional` **content\_parsing**: `number`
 
+Defined in: main.ts:234075
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`content_parsing`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#content_parsing)
-
-#### Defined in
-
-main.ts:218975
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:218975
 
 > `optional` **content\_parsing\_live**: `number`
 
+Defined in: main.ts:234076
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`content_parsing_live`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#content_parsing_live)
-
-#### Defined in
-
-main.ts:218976
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:218976
 
 > `optional` **duplicate\_content**: `number`
 
+Defined in: main.ts:234068
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`duplicate_content`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#duplicate_content)
-
-#### Defined in
-
-main.ts:218968
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:218968
 
 > `optional` **duplicate\_tags**: `number`
 
+Defined in: main.ts:234063
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`duplicate_tags`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#duplicate_tags)
-
-#### Defined in
-
-main.ts:218963
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:218963
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:234066
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:218966
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:218966
 
 > `optional` **force\_stop**: `number`
 
+Defined in: main.ts:234078
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`force_stop`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#force_stop)
-
-#### Defined in
-
-main.ts:218978
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:218978
 
 > `optional` **id\_list**: `number`
 
+Defined in: main.ts:234080
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`id_list`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#id_list)
-
-#### Defined in
-
-main.ts:218980
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:218980
 
 > `optional` **instant\_pages**: `number`
 
+Defined in: main.ts:234070
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`instant_pages`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#instant_pages)
-
-#### Defined in
-
-main.ts:218970
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:218970
 
 > `optional` **keyword\_density**: `number`
 
+Defined in: main.ts:234073
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`keyword_density`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#keyword_density)
-
-#### Defined in
-
-main.ts:218973
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:218973
 
 > `optional` **lighthouse**: [`AppendixLighthouseOnPageDayStatisticsRatesData`](AppendixLighthouseOnPageDayStatisticsRatesData.md)
 
+Defined in: main.ts:234072
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`lighthouse`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#lighthouse)
-
-#### Defined in
-
-main.ts:218972
 
 ***
 
@@ -192,13 +172,11 @@ main.ts:218972
 
 > `optional` **links**: `number`
 
+Defined in: main.ts:234064
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`links`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#links)
-
-#### Defined in
-
-main.ts:218964
 
 ***
 
@@ -206,13 +184,11 @@ main.ts:218964
 
 > `optional` **microdata**: `number`
 
+Defined in: main.ts:234079
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`microdata`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#microdata)
-
-#### Defined in
-
-main.ts:218979
 
 ***
 
@@ -220,13 +196,11 @@ main.ts:218979
 
 > `optional` **non\_indexable**: `number`
 
+Defined in: main.ts:234062
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`non_indexable`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#non_indexable)
-
-#### Defined in
-
-main.ts:218962
 
 ***
 
@@ -234,13 +208,11 @@ main.ts:218962
 
 > `optional` **page\_screenshot**: `number`
 
+Defined in: main.ts:234074
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`page_screenshot`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#page_screenshot)
-
-#### Defined in
-
-main.ts:218974
 
 ***
 
@@ -248,13 +220,11 @@ main.ts:218974
 
 > `optional` **pages**: `number`
 
+Defined in: main.ts:234061
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`pages`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#pages)
-
-#### Defined in
-
-main.ts:218961
 
 ***
 
@@ -262,13 +232,11 @@ main.ts:218961
 
 > `optional` **pages\_by\_resource**: `number`
 
+Defined in: main.ts:234067
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`pages_by_resource`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#pages_by_resource)
-
-#### Defined in
-
-main.ts:218967
 
 ***
 
@@ -276,13 +244,11 @@ main.ts:218967
 
 > `optional` **raw\_html**: `number`
 
+Defined in: main.ts:234069
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`raw_html`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#raw_html)
-
-#### Defined in
-
-main.ts:218969
 
 ***
 
@@ -290,13 +256,11 @@ main.ts:218969
 
 > `optional` **redirect\_chains**: `number`
 
+Defined in: main.ts:234071
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`redirect_chains`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#redirect_chains)
-
-#### Defined in
-
-main.ts:218971
 
 ***
 
@@ -304,13 +268,11 @@ main.ts:218971
 
 > `optional` **resources**: `number`
 
+Defined in: main.ts:234060
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`resources`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#resources)
-
-#### Defined in
-
-main.ts:218960
 
 ***
 
@@ -318,13 +280,11 @@ main.ts:218960
 
 > `optional` **summary**: `number`
 
+Defined in: main.ts:234059
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`summary`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#summary)
-
-#### Defined in
-
-main.ts:218959
 
 ***
 
@@ -332,13 +292,11 @@ main.ts:218959
 
 > `optional` **task\_post**: `number`
 
+Defined in: main.ts:234057
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`task_post`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#task_post)
-
-#### Defined in
-
-main.ts:218957
 
 ***
 
@@ -346,13 +304,11 @@ main.ts:218957
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:234058
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`tasks_ready`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:218958
 
 ***
 
@@ -360,13 +316,11 @@ main.ts:218958
 
 > `optional` **waterfall**: `number`
 
+Defined in: main.ts:234065
+
 #### Implementation of
 
 [`IAppendixOnPageDayStatisticsRatesData`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md).[`waterfall`](../interfaces/IAppendixOnPageDayStatisticsRatesData.md#waterfall)
-
-#### Defined in
-
-main.ts:218965
 
 ## Methods
 
@@ -374,17 +328,17 @@ main.ts:218965
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:234093
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:218993
 
 ***
 
@@ -392,17 +346,17 @@ main.ts:218993
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:234133
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:219033
 
 ***
 
@@ -410,14 +364,14 @@ main.ts:219033
 
 > `static` **fromJS**(`data`): [`AppendixOnPageDayStatisticsRatesData`](AppendixOnPageDayStatisticsRatesData.md)
 
+Defined in: main.ts:234126
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixOnPageDayStatisticsRatesData`](AppendixOnPageDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219026

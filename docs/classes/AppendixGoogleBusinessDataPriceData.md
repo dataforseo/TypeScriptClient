@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixGoogleBusinessDataPriceData
+[Documentation](../README.md) / AppendixGoogleBusinessDataPriceData
 
 # Class: AppendixGoogleBusinessDataPriceData
+
+Defined in: main.ts:237854
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,31 +22,41 @@
 
 > **new AppendixGoogleBusinessDataPriceData**(`data`?): [`AppendixGoogleBusinessDataPriceData`](AppendixGoogleBusinessDataPriceData.md)
 
+Defined in: main.ts:237865
+
 #### Parameters
 
-• **data?**: [`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md)
+##### data?
+
+[`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md)
 
 #### Returns
 
 [`AppendixGoogleBusinessDataPriceData`](AppendixGoogleBusinessDataPriceData.md)
 
-#### Defined in
-
-main.ts:222636
-
 ## Properties
+
+### extended\_reviews?
+
+> `optional` **extended\_reviews**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:237855
+
+#### Implementation of
+
+[`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`extended_reviews`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#extended_reviews)
+
+***
 
 ### hotel\_info?
 
 > `optional` **hotel\_info**: [`AppendixHotelInfoGoogleBusinessDataPriceData`](AppendixHotelInfoGoogleBusinessDataPriceData.md)
 
+Defined in: main.ts:237856
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`hotel_info`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#hotel_info)
-
-#### Defined in
-
-main.ts:222627
 
 ***
 
@@ -52,13 +64,11 @@ main.ts:222627
 
 > `optional` **hotel\_searches**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237857
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`hotel_searches`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#hotel_searches)
-
-#### Defined in
-
-main.ts:222628
 
 ***
 
@@ -66,13 +76,11 @@ main.ts:222628
 
 > `optional` **my\_business\_info**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237858
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`my_business_info`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#my_business_info)
-
-#### Defined in
-
-main.ts:222629
 
 ***
 
@@ -80,13 +88,11 @@ main.ts:222629
 
 > `optional` **my\_business\_updates**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237859
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`my_business_updates`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#my_business_updates)
-
-#### Defined in
-
-main.ts:222630
 
 ***
 
@@ -94,13 +100,11 @@ main.ts:222630
 
 > `optional` **questions\_and\_answers**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237860
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`questions_and_answers`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#questions_and_answers)
-
-#### Defined in
-
-main.ts:222631
 
 ***
 
@@ -108,13 +112,11 @@ main.ts:222631
 
 > `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
+Defined in: main.ts:237861
+
 #### Implementation of
 
 [`IAppendixGoogleBusinessDataPriceData`](../interfaces/IAppendixGoogleBusinessDataPriceData.md).[`reviews`](../interfaces/IAppendixGoogleBusinessDataPriceData.md#reviews)
-
-#### Defined in
-
-main.ts:222632
 
 ## Methods
 
@@ -122,17 +124,17 @@ main.ts:222632
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:237874
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:222645
 
 ***
 
@@ -140,17 +142,17 @@ main.ts:222645
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:237897
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:222667
 
 ***
 
@@ -158,14 +160,14 @@ main.ts:222667
 
 > `static` **fromJS**(`data`): [`AppendixGoogleBusinessDataPriceData`](AppendixGoogleBusinessDataPriceData.md)
 
+Defined in: main.ts:237890
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixGoogleBusinessDataPriceData`](AppendixGoogleBusinessDataPriceData.md)
-
-#### Defined in
-
-main.ts:222660

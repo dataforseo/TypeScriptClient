@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+[Documentation](../README.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Interface: IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
+Defined in: main.ts:236194
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **cost**: `number`
 
+Defined in: main.ts:236201
+
 cost, USD
-
-#### Defined in
-
-main.ts:220937
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:220937
 
 > `optional` **cost\_type**: `string`
 
+Defined in: main.ts:236199
+
 charge type
 can take the following values:
 per_result – charge for every row in the result array
 per_request – charge for a GET or POST request
-
-#### Defined in
-
-main.ts:220935

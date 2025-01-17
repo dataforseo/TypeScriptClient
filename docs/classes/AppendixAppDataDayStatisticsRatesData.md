@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixAppDataDayStatisticsRatesData
+[Documentation](../README.md) / AppendixAppDataDayStatisticsRatesData
 
 # Class: AppendixAppDataDayStatisticsRatesData
+
+Defined in: main.ts:234440
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixAppDataDayStatisticsRatesData**(`data`?): [`AppendixAppDataDayStatisticsRatesData`](AppendixAppDataDayStatisticsRatesData.md)
 
+Defined in: main.ts:234455
+
 #### Parameters
 
-• **data?**: [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md)
+##### data?
+
+[`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md)
 
 #### Returns
 
 [`AppendixAppDataDayStatisticsRatesData`](AppendixAppDataDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219355
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:219355
 
 > `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:234441
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`app_info`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#app_info)
-
-#### Defined in
-
-main.ts:219341
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:219341
 
 > `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:234442
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`app_list`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#app_list)
-
-#### Defined in
-
-main.ts:219342
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:219342
 
 > `optional` **app\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
+Defined in: main.ts:234451
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`app_listings`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#app_listings)
-
-#### Defined in
-
-main.ts:219350
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:219350
 
 > `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:234443
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`app_reviews`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#app_reviews)
-
-#### Defined in
-
-main.ts:219343
 
 ***
 
@@ -94,13 +88,11 @@ main.ts:219343
 
 > `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
+Defined in: main.ts:234444
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`app_searches`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#app_searches)
-
-#### Defined in
-
-main.ts:219344
 
 ***
 
@@ -108,13 +100,11 @@ main.ts:219344
 
 > `optional` **categories**: `number`
 
+Defined in: main.ts:234448
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`categories`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#categories)
-
-#### Defined in
-
-main.ts:219348
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:219348
 
 > `optional` **errors**: `number`
 
+Defined in: main.ts:234445
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`errors`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#errors)
-
-#### Defined in
-
-main.ts:219345
 
 ***
 
@@ -136,13 +124,11 @@ main.ts:219345
 
 > `optional` **id\_list**: `number`
 
+Defined in: main.ts:234450
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`id_list`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#id_list)
-
-#### Defined in
-
-main.ts:219351
 
 ***
 
@@ -150,13 +136,11 @@ main.ts:219351
 
 > `optional` **languages**: `number`
 
+Defined in: main.ts:234446
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`languages`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#languages)
-
-#### Defined in
-
-main.ts:219346
 
 ***
 
@@ -164,13 +148,11 @@ main.ts:219346
 
 > `optional` **locations**: `number`
 
+Defined in: main.ts:234447
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`locations`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#locations)
-
-#### Defined in
-
-main.ts:219347
 
 ***
 
@@ -178,13 +160,11 @@ main.ts:219347
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:234449
+
 #### Implementation of
 
 [`IAppendixAppDataDayStatisticsRatesData`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md).[`tasks_ready`](../interfaces/IAppendixAppDataDayStatisticsRatesData.md#tasks_ready)
-
-#### Defined in
-
-main.ts:219349
 
 ## Methods
 
@@ -192,17 +172,17 @@ main.ts:219349
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:234464
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:219364
 
 ***
 
@@ -210,17 +190,17 @@ main.ts:219364
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:234491
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:219391
 
 ***
 
@@ -228,14 +208,14 @@ main.ts:219391
 
 > `static` **fromJS**(`data`): [`AppendixAppDataDayStatisticsRatesData`](AppendixAppDataDayStatisticsRatesData.md)
 
+Defined in: main.ts:234484
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixAppDataDayStatisticsRatesData`](AppendixAppDataDayStatisticsRatesData.md)
-
-#### Defined in
-
-main.ts:219384

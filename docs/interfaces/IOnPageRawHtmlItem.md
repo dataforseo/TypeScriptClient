@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IOnPageRawHtmlItem
+[Documentation](../README.md) / IOnPageRawHtmlItem
 
 # Interface: IOnPageRawHtmlItem
 
+Defined in: main.ts:172245
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,8 +18,6 @@
 
 > `optional` **html**: `string`
 
+Defined in: main.ts:172247
+
 HTML page
-
-#### Defined in
-
-main.ts:160503

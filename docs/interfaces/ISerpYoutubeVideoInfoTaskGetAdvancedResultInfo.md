@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
+Defined in: main.ts:70852
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:70863
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:62643
 
 ***
 
@@ -29,14 +29,12 @@ main.ts:62643
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:70868
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:62648
 
 ***
 
@@ -44,14 +42,12 @@ main.ts:62648
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:70879
+
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item:
 youtube_video_info
-
-#### Defined in
-
-main.ts:62656
 
 ***
 
@@ -59,11 +55,9 @@ main.ts:62656
 
 > `optional` **items**: [`BaseYoutubeSerpElementItem`](../classes/BaseYoutubeSerpElementItem.md)[]
 
+Defined in: main.ts:70883
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:62660
 
 ***
 
@@ -71,11 +65,9 @@ main.ts:62660
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:70881
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:62658
 
 ***
 
@@ -83,11 +75,9 @@ main.ts:62658
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:70860
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:62640
 
 ***
 
@@ -95,11 +85,20 @@ main.ts:62640
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:70858
+
 location code in a POST array
 
-#### Defined in
+***
 
-main.ts:62638
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+Defined in: main.ts:70874
+
+search refinement chips
+equals null
 
 ***
 
@@ -107,11 +106,9 @@ main.ts:62638
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:70856
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:62636
 
 ***
 
@@ -119,12 +116,10 @@ main.ts:62636
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
+Defined in: main.ts:70871
+
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
-
-#### Defined in
-
-main.ts:62651
 
 ***
 
@@ -132,8 +127,6 @@ main.ts:62651
 
 > `optional` **video\_id**: `string`
 
+Defined in: main.ts:70854
+
 ID of the video received in a POST array
-
-#### Defined in
-
-main.ts:62634

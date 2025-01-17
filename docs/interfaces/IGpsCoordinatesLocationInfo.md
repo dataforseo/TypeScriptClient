@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IGpsCoordinatesLocationInfo
+[Documentation](../README.md) / IGpsCoordinatesLocationInfo
 
 # Interface: IGpsCoordinatesLocationInfo
 
+Defined in: main.ts:216963
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,13 +18,11 @@
 
 > `optional` **latitude**: `number`
 
+Defined in: main.ts:216967
+
 latitude coordinate of the hotel in google maps
 example:
 "latitude": 51.584091
-
-#### Defined in
-
-main.ts:203700
 
 ***
 
@@ -30,10 +30,8 @@ main.ts:203700
 
 > `optional` **longitude**: `number`
 
+Defined in: main.ts:216971
+
 longitude coordinate of the hotel in google maps
 example:
 "longitude": -0.31365919999999997
-
-#### Defined in
-
-main.ts:203704

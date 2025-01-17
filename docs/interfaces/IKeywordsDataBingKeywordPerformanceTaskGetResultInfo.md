@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
+[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
+Defined in: main.ts:145272
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:145274
+
 keyword in a POST array
-
-#### Defined in
-
-main.ts:133324
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:133324
 
 > `optional` **keyword\_kpi**: [`KeywordKpi`](../classes/KeywordKpi.md)
 
+Defined in: main.ts:145291
+
 object containing keyword metrics
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:133341
 
 ***
 
@@ -41,12 +39,10 @@ main.ts:133341
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:145280
+
 language code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:133330
 
 ***
 
@@ -54,12 +50,10 @@ main.ts:133330
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:145277
+
 location code in a POST array
 if there is no data, then the value is null
-
-#### Defined in
-
-main.ts:133327
 
 ***
 
@@ -67,13 +61,11 @@ main.ts:133327
 
 > `optional` **month**: `number`
 
+Defined in: main.ts:145288
+
 indicates the month for which the data is provided for
 example:
 10
-
-#### Defined in
-
-main.ts:133338
 
 ***
 
@@ -81,10 +73,8 @@ main.ts:133338
 
 > `optional` **year**: `number`
 
+Defined in: main.ts:145284
+
 indicates the year for which the data is provided for
 example:
 2020
-
-#### Defined in
-
-main.ts:133334

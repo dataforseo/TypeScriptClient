@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
+[Documentation](../README.md) / IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTasksReadyResultInfo
 
+Defined in: main.ts:213403
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **date\_posted**: `string`
 
+Defined in: main.ts:213413
+
 date when the task was posted (in the UTC format)
-
-#### Defined in
-
-main.ts:200716
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:200716
 
 > `optional` **endpoint**: `string`
 
+Defined in: main.ts:213417
+
 URL for collecting the results of the task
-
-#### Defined in
-
-main.ts:200720
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:200720
 
 > `optional` **id**: `string`
 
+Defined in: main.ts:213406
+
 task identifier of the completed task
 unique task identifier in our system in the UUID format
-
-#### Defined in
-
-main.ts:200709
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:200709
 
 > `optional` **se**: `string`
 
+Defined in: main.ts:213409
+
 search engine specified when setting the task
 can take the following values: google
-
-#### Defined in
-
-main.ts:200712
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:200712
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:213411
+
 search engine specified when setting the task
-
-#### Defined in
-
-main.ts:200714
 
 ***
 
@@ -78,8 +70,6 @@ main.ts:200714
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:213415
+
 user-defined task identifier
-
-#### Defined in
-
-main.ts:200718

@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IRecipesElement
+[Documentation](../README.md) / IRecipesElement
 
 # Interface: IRecipesElement
 
+Defined in: main.ts:34254
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:34267
+
 description
-
-#### Defined in
-
-main.ts:32467
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:32467
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:34262
+
 website domain
-
-#### Defined in
-
-main.ts:32462
 
 ***
 
@@ -40,12 +38,10 @@ main.ts:32462
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:34272
+
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
-
-#### Defined in
-
-main.ts:32472
 
 ***
 
@@ -53,12 +49,10 @@ main.ts:32472
 
 > `optional` **source**: `string`
 
+Defined in: main.ts:34265
+
 source of the element
 indicates the source of information included in the top_stories_element
-
-#### Defined in
-
-main.ts:32465
 
 ***
 
@@ -66,11 +60,9 @@ main.ts:32465
 
 > `optional` **time**: `string`
 
+Defined in: main.ts:34269
+
 the total time it takes to prepare the cook the dish
-
-#### Defined in
-
-main.ts:32469
 
 ***
 
@@ -78,11 +70,9 @@ main.ts:32469
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:34258
+
 title of a given link element
-
-#### Defined in
-
-main.ts:32458
 
 ***
 
@@ -90,11 +80,9 @@ main.ts:32458
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:34256
+
 type of element
-
-#### Defined in
-
-main.ts:32456
 
 ***
 
@@ -102,8 +90,6 @@ main.ts:32456
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:34260
+
 URL
-
-#### Defined in
-
-main.ts:32460

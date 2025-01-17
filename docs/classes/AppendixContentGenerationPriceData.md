@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixContentGenerationPriceData
+[Documentation](../README.md) / AppendixContentGenerationPriceData
 
 # Class: AppendixContentGenerationPriceData
+
+Defined in: main.ts:238254
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixContentGenerationPriceData**(`data`?): [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
 
+Defined in: main.ts:238265
+
 #### Parameters
 
-• **data?**: [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md)
+##### data?
+
+[`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md)
 
 #### Returns
 
 [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
-
-#### Defined in
-
-main.ts:222977
 
 ## Properties
 
@@ -38,83 +40,71 @@ main.ts:222977
 
 > `optional` **check\_grammar**: [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
+Defined in: main.ts:238255
+
 #### Implementation of
 
 [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md).[`check_grammar`](../interfaces/IAppendixContentGenerationPriceData.md#check_grammar)
-
-#### Defined in
-
-main.ts:222967
 
 ***
 
 ### generate?
 
-> `optional` **generate**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238256
 
 #### Implementation of
 
 [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md).[`generate`](../interfaces/IAppendixContentGenerationPriceData.md#generate)
 
-#### Defined in
-
-main.ts:222968
-
 ***
 
 ### generate\_meta\_tags?
 
-> `optional` **generate\_meta\_tags**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_meta\_tags**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238257
 
 #### Implementation of
 
 [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md).[`generate_meta_tags`](../interfaces/IAppendixContentGenerationPriceData.md#generate_meta_tags)
 
-#### Defined in
-
-main.ts:222969
-
 ***
 
 ### generate\_sub\_topics?
 
-> `optional` **generate\_sub\_topics**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_sub\_topics**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238258
 
 #### Implementation of
 
 [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md).[`generate_sub_topics`](../interfaces/IAppendixContentGenerationPriceData.md#generate_sub_topics)
 
-#### Defined in
-
-main.ts:222970
-
 ***
 
 ### generate\_text?
 
-> `optional` **generate\_text**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **generate\_text**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238259
 
 #### Implementation of
 
 [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md).[`generate_text`](../interfaces/IAppendixContentGenerationPriceData.md#generate_text)
 
-#### Defined in
-
-main.ts:222971
-
 ***
 
 ### paraphrase?
 
-> `optional` **paraphrase**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **paraphrase**: [`AppendixBingKeywordsDataPriceDataInfo`](AppendixBingKeywordsDataPriceDataInfo.md)
+
+Defined in: main.ts:238260
 
 #### Implementation of
 
 [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md).[`paraphrase`](../interfaces/IAppendixContentGenerationPriceData.md#paraphrase)
-
-#### Defined in
-
-main.ts:222972
 
 ***
 
@@ -122,13 +112,11 @@ main.ts:222972
 
 > `optional` **text\_summary**: [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
+Defined in: main.ts:238261
+
 #### Implementation of
 
 [`IAppendixContentGenerationPriceData`](../interfaces/IAppendixContentGenerationPriceData.md).[`text_summary`](../interfaces/IAppendixContentGenerationPriceData.md#text_summary)
-
-#### Defined in
-
-main.ts:222973
 
 ## Methods
 
@@ -136,17 +124,17 @@ main.ts:222973
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:238274
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:222986
 
 ***
 
@@ -154,17 +142,17 @@ main.ts:222986
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:238297
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:223009
 
 ***
 
@@ -172,14 +160,14 @@ main.ts:223009
 
 > `static` **fromJS**(`data`): [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
 
+Defined in: main.ts:238290
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixContentGenerationPriceData`](AppendixContentGenerationPriceData.md)
-
-#### Defined in
-
-main.ts:223002

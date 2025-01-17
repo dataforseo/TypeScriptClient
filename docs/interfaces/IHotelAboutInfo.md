@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IHotelAboutInfo
+[Documentation](../README.md) / IHotelAboutInfo
 
 # Interface: IHotelAboutInfo
 
+Defined in: main.ts:219242
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,12 +18,10 @@
 
 > `optional` **amenities**: [`HotelAmenityInfo`](../classes/HotelAmenityInfo.md)[]
 
+Defined in: main.ts:219266
+
 hotel amenities
 information about hotel amenities
-
-#### Defined in
-
-main.ts:205810
 
 ***
 
@@ -29,12 +29,10 @@ main.ts:205810
 
 > `optional` **check\_in\_time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
+Defined in: main.ts:219251
+
 hotel check-in time
 check-in time indicated in the hotel listing
-
-#### Defined in
-
-main.ts:205795
 
 ***
 
@@ -42,12 +40,10 @@ main.ts:205795
 
 > `optional` **check\_out\_time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
+Defined in: main.ts:219254
+
 hotel check-out time
 check-out time indicated in the hotel listing
-
-#### Defined in
-
-main.ts:205798
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:205798
 
 > `optional` **description**: `string`
 
+Defined in: main.ts:219245
+
 description of the hotel
 the description of the hotel entity for which the results are collected
-
-#### Defined in
-
-main.ts:205789
 
 ***
 
@@ -68,12 +62,10 @@ main.ts:205789
 
 > `optional` **domain**: `string`
 
+Defined in: main.ts:219260
+
 hotel domain
 domain of the hotel’s website
-
-#### Defined in
-
-main.ts:205804
 
 ***
 
@@ -81,12 +73,10 @@ main.ts:205804
 
 > `optional` **full\_address**: `string`
 
+Defined in: main.ts:219257
+
 full address of the hotel
 address of the hotel indicated in the standardised format
-
-#### Defined in
-
-main.ts:205801
 
 ***
 
@@ -94,12 +84,10 @@ main.ts:205801
 
 > `optional` **popular\_amenities**: [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)[]
 
+Defined in: main.ts:219269
+
 hotel amenities
 information about hotel amenities labelled as “popular”
-
-#### Defined in
-
-main.ts:205813
 
 ***
 
@@ -107,12 +95,10 @@ main.ts:205813
 
 > `optional` **sub\_descriptions**: `string`[]
 
+Defined in: main.ts:219248
+
 additional description of the hotel
 details about the hotel provided in addition to the description
-
-#### Defined in
-
-main.ts:205792
 
 ***
 
@@ -120,9 +106,7 @@ main.ts:205792
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:219263
+
 hotel url
 URL to the hotel’s website indicated in the listing
-
-#### Defined in
-
-main.ts:205807

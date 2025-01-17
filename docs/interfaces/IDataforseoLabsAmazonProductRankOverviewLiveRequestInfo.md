@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo
 
+Defined in: main.ts:113718
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### asins?
 
 > `optional` **asins**: `string`[]
+
+Defined in: main.ts:113727
 
 product IDs to compare
 required field
@@ -25,15 +29,13 @@ Note: all letters in ASIN code must be specified in uppercase format;
 example:
 B01LW2SL7R
 
-#### Defined in
-
-main.ts:103988
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:113757
 
 language code
 required field if don’t specify language_name
@@ -42,15 +44,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:104018
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:113750
 
 full name of the language
 required field if don’t specify language_code
@@ -59,15 +59,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:104011
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:113743
 
 location code
 required field if don’t specify location_name
@@ -77,15 +75,13 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Defined in
-
-main.ts:104004
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:113735
 
 full name of the location
 required field if don’t specify location_code
@@ -95,22 +91,16 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States
 
-#### Defined in
-
-main.ts:103996
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:113763
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:104024

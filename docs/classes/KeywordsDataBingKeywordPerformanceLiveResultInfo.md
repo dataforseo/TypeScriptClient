@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceLiveResultInfo
+[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceLiveResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLiveResultInfo
+
+Defined in: main.ts:145600
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new KeywordsDataBingKeywordPerformanceLiveResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
+Defined in: main.ts:145623
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:133671
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:133671
 
 > `optional` **keyword**: `string`
 
+Defined in: main.ts:145602
+
 keyword in a POST array
 
 #### Implementation of
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:133650
-
 ***
 
 ### keyword\_kpi?
 
 > `optional` **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
+
+Defined in: main.ts:145619
 
 object containing keyword metrics
 if there is no data, then the value is null
@@ -61,15 +63,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`keyword_kpi`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#keyword_kpi)
 
-#### Defined in
-
-main.ts:133667
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:145608
 
 language code in a POST array
 if there is no data, then the value is null
@@ -78,15 +78,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:133656
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:145605
 
 location code in a POST array
 if there is no data, then the value is null
@@ -95,15 +93,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:133653
-
 ***
 
 ### month?
 
 > `optional` **month**: `number`
+
+Defined in: main.ts:145616
 
 indicates the month for which the data is provided for
 example:
@@ -113,15 +109,13 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`month`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#month)
 
-#### Defined in
-
-main.ts:133664
-
 ***
 
 ### year?
 
 > `optional` **year**: `number`
+
+Defined in: main.ts:145612
 
 indicates the year for which the data is provided for
 example:
@@ -131,27 +125,23 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`year`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#year)
 
-#### Defined in
-
-main.ts:133660
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:145632
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:133680
 
 ***
 
@@ -159,17 +149,17 @@ main.ts:133680
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:145654
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:133702
 
 ***
 
@@ -177,14 +167,14 @@ main.ts:133702
 
 > `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
+Defined in: main.ts:145647
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:133695

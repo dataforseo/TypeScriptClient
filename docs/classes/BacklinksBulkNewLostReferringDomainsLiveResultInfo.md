@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / BacklinksBulkNewLostReferringDomainsLiveResultInfo
+[Documentation](../README.md) / BacklinksBulkNewLostReferringDomainsLiveResultInfo
 
 # Class: BacklinksBulkNewLostReferringDomainsLiveResultInfo
+
+Defined in: main.ts:162232
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new BacklinksBulkNewLostReferringDomainsLiveResultInfo**(`data`?): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
+Defined in: main.ts:162240
+
 #### Parameters
 
-• **data?**: [`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
+##### data?
+
+[`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:150934
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:150934
 
 > `optional` **items**: [`BacklinksBulkNewLostReferringDomainsLiveItem`](BacklinksBulkNewLostReferringDomainsLiveItem.md)[]
 
+Defined in: main.ts:162236
+
 contains relevant backlinks and referring domains data
 
 #### Implementation of
 
 [`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items)
-
-#### Defined in
-
-main.ts:150930
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:150930
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:162234
+
 the number of results returned in the items array
 
 #### Implementation of
 
 [`IBacklinksBulkNewLostReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkNewLostReferringDomainsLiveResultInfo.md#items_count)
-
-#### Defined in
-
-main.ts:150928
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:150928
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:162249
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:150943
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:150943
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:162271
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:150965
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:150965
 
 > `static` **fromJS**(`data`): [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
 
+Defined in: main.ts:162264
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`BacklinksBulkNewLostReferringDomainsLiveResultInfo`](BacklinksBulkNewLostReferringDomainsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:150958

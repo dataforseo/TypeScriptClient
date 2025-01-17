@@ -30,7 +30,11 @@
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102683
+=======
+main.ts:102716
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Properties
 
@@ -47,7 +51,11 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102679
+=======
+main.ts:102712
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -63,7 +71,11 @@ returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102665
+=======
+main.ts:102698
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -79,7 +91,11 @@ keyword data for the returned keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102671
+=======
+main.ts:102704
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -95,7 +111,11 @@ additional information about the keyword
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102673
+=======
+main.ts:102706
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -111,7 +131,11 @@ language code in a POST array
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102669
+=======
+main.ts:102702
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -127,7 +151,11 @@ location code in a POST array
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102667
+=======
+main.ts:102700
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -145,7 +173,11 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102663
+=======
+main.ts:102696
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -162,7 +194,11 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102676
+=======
+main.ts:102709
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ## Methods
 
@@ -180,7 +216,11 @@ main.ts:102676
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102692
+=======
+main.ts:102725
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -198,7 +238,11 @@ main.ts:102692
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102716
+=======
+main.ts:102749
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be
 
 ***
 
@@ -216,4 +260,8 @@ main.ts:102716
 
 #### Defined in
 
+<<<<<<< HEAD
 main.ts:102709
+=======
+main.ts:102742
+>>>>>>> 7636fa90216d2261a48e4bdfb9eddee93fdf72be

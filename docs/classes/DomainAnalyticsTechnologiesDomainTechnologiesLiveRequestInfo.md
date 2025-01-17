@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+
+Defined in: main.ts:88558
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
+Defined in: main.ts:88567
+
 #### Parameters
 
-• **data?**: [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+##### data?
+
+[`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:78822
 
 ## Properties
 
 ### target?
 
 > `optional` **target**: `string`
+
+Defined in: main.ts:88563
 
 target domain
 required field
@@ -47,27 +51,23 @@ Note: results will be returned for the specified domain only
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md).[`target`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#target)
 
-#### Defined in
-
-main.ts:78818
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:88576
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:78831
 
 ***
 
@@ -75,17 +75,17 @@ main.ts:78831
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:88593
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:78848
 
 ***
 
@@ -93,14 +93,14 @@ main.ts:78848
 
 > `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
+Defined in: main.ts:88586
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
-
-#### Defined in
-
-main.ts:78841

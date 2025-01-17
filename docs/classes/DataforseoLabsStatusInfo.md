@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / DataforseoLabsStatusInfo
+[Documentation](../README.md) / DataforseoLabsStatusInfo
 
 # Class: DataforseoLabsStatusInfo
+
+Defined in: main.ts:90270
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new DataforseoLabsStatusInfo**(`data`?): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
+Defined in: main.ts:90279
+
 #### Parameters
 
-• **data?**: [`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md)
+##### data?
+
+[`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md)
 
 #### Returns
 
 [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
-
-#### Defined in
-
-main.ts:80534
 
 ## Properties
 
 ### date\_update?
 
 > `optional` **date\_update**: `string`
+
+Defined in: main.ts:90275
 
 update date of the Google endpoints
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;
@@ -47,27 +51,23 @@ example:
 
 [`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md).[`date_update`](../interfaces/IDataforseoLabsStatusInfo.md#date_update)
 
-#### Defined in
-
-main.ts:80530
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:90288
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:80543
 
 ***
 
@@ -75,17 +75,17 @@ main.ts:80543
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:90305
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:80560
 
 ***
 
@@ -93,14 +93,14 @@ main.ts:80560
 
 > `static` **fromJS**(`data`): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
+Defined in: main.ts:90298
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
-
-#### Defined in
-
-main.ts:80553

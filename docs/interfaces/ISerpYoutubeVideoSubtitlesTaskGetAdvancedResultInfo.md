@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
+[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
+Defined in: main.ts:72392
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **category**: `string`
 
+Defined in: main.ts:72427
+
 the category the video belongs to
-
-#### Defined in
-
-main.ts:64184
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:64184
 
 > `optional` **check\_url**: `string`
 
+Defined in: main.ts:72403
+
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
-
-#### Defined in
-
-main.ts:64163
 
 ***
 
@@ -41,14 +39,12 @@ main.ts:64163
 
 > `optional` **datetime**: `string`
 
+Defined in: main.ts:72408
+
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:64168
 
 ***
 
@@ -56,14 +52,12 @@ main.ts:64168
 
 > `optional` **item\_types**: `string`[]
 
+Defined in: main.ts:72419
+
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item:
 youtube_subtitles
-
-#### Defined in
-
-main.ts:64176
 
 ***
 
@@ -71,11 +65,9 @@ main.ts:64176
 
 > `optional` **items**: [`BaseYoutubeSerpElementItem`](../classes/BaseYoutubeSerpElementItem.md)[]
 
+Defined in: main.ts:72435
+
 elements of search results found in SERP
-
-#### Defined in
-
-main.ts:64192
 
 ***
 
@@ -83,11 +75,9 @@ main.ts:64192
 
 > `optional` **items\_count**: `number`
 
+Defined in: main.ts:72433
+
 the number of results returned in the items array
-
-#### Defined in
-
-main.ts:64190
 
 ***
 
@@ -95,11 +85,9 @@ main.ts:64190
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:72400
+
 language code in a POST array
-
-#### Defined in
-
-main.ts:64160
 
 ***
 
@@ -107,11 +95,9 @@ main.ts:64160
 
 > `optional` **location\_code**: `number`
 
+Defined in: main.ts:72398
+
 location code in a POST array
-
-#### Defined in
-
-main.ts:64158
 
 ***
 
@@ -119,11 +105,20 @@ main.ts:64158
 
 > `optional` **origin\_language**: `string`
 
+Defined in: main.ts:72425
+
 language code of original text
 
-#### Defined in
+***
 
-main.ts:64182
+### refinement\_chips?
+
+> `optional` **refinement\_chips**: [`RefinementChipsInfo`](../classes/RefinementChipsInfo.md)
+
+Defined in: main.ts:72414
+
+search refinement chips
+equals null
 
 ***
 
@@ -131,11 +126,9 @@ main.ts:64182
 
 > `optional` **se\_domain**: `string`
 
+Defined in: main.ts:72396
+
 search engine domain in a POST array
-
-#### Defined in
-
-main.ts:64156
 
 ***
 
@@ -143,12 +136,10 @@ main.ts:64156
 
 > `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
+Defined in: main.ts:72411
+
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
-
-#### Defined in
-
-main.ts:64171
 
 ***
 
@@ -156,11 +147,9 @@ main.ts:64171
 
 > `optional` **subtitles\_count**: `number`
 
+Defined in: main.ts:72429
+
 number of subtitles in the video
-
-#### Defined in
-
-main.ts:64186
 
 ***
 
@@ -168,11 +157,9 @@ main.ts:64186
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:72431
+
 title of the video
-
-#### Defined in
-
-main.ts:64188
 
 ***
 
@@ -180,11 +167,9 @@ main.ts:64188
 
 > `optional` **translate\_language**: `string`
 
+Defined in: main.ts:72423
+
 language code of translated text
-
-#### Defined in
-
-main.ts:64180
 
 ***
 
@@ -192,11 +177,9 @@ main.ts:64180
 
 > `optional` **unsupported\_language**: `boolean`
 
+Defined in: main.ts:72421
+
 indicates whether the language is unsupported by the system
-
-#### Defined in
-
-main.ts:64178
 
 ***
 
@@ -204,8 +187,6 @@ main.ts:64178
 
 > `optional` **video\_id**: `string`
 
+Defined in: main.ts:72394
+
 ID of the video received in a POST array
-
-#### Defined in
-
-main.ts:64154

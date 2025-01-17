@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageDuplicateContentRequestInfo
+[Documentation](../README.md) / OnPageDuplicateContentRequestInfo
 
 # Class: OnPageDuplicateContentRequestInfo
+
+Defined in: main.ts:168856
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageDuplicateContentRequestInfo**(`data`?): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
+Defined in: main.ts:168890
+
 #### Parameters
 
-• **data?**: [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md)
+##### data?
+
+[`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md)
 
 #### Returns
 
 [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
-
-#### Defined in
-
-main.ts:157154
 
 ## Properties
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:168862
 
 ID of the task
 required field
@@ -48,15 +52,13 @@ example:
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`id`](../interfaces/IOnPageDuplicateContentRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:157126
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:168875
 
 the maximum number of returned pages
 optional field
@@ -67,15 +69,13 @@ maximum value: 1000
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`limit`](../interfaces/IOnPageDuplicateContentRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:157139
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:168880
 
 offset in the results array of returned pages
 optional field
@@ -86,15 +86,13 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`offset`](../interfaces/IOnPageDuplicateContentRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:157144
-
 ***
 
 ### similarity?
 
 > `optional` **similarity**: `number`
+
+Defined in: main.ts:168870
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -104,15 +102,13 @@ you can specify any similarity score in the 0-to-10 range
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`similarity`](../interfaces/IOnPageDuplicateContentRequestInfo.md#similarity)
 
-#### Defined in
-
-main.ts:157134
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
+
+Defined in: main.ts:168886
 
 user-defined task identifier
 optional field
@@ -124,15 +120,13 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`tag`](../interfaces/IOnPageDuplicateContentRequestInfo.md#tag)
 
-#### Defined in
-
-main.ts:157150
-
 ***
 
 ### url?
 
 > `optional` **url**: `string`
+
+Defined in: main.ts:168866
 
 page URL
 required field
@@ -142,27 +136,23 @@ specify the initial page you want to receive duplicate content for
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`url`](../interfaces/IOnPageDuplicateContentRequestInfo.md#url)
 
-#### Defined in
-
-main.ts:157130
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:168899
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:157163
 
 ***
 
@@ -170,17 +160,17 @@ main.ts:157163
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:168921
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:157185
 
 ***
 
@@ -188,14 +178,14 @@ main.ts:157185
 
 > `static` **fromJS**(`data`): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
+Defined in: main.ts:168914
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
-
-#### Defined in
-
-main.ts:157178

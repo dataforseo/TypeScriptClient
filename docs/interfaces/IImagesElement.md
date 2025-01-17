@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IImagesElement
+[Documentation](../README.md) / IImagesElement
 
 # Interface: IImagesElement
 
+Defined in: main.ts:30063
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **alt**: `string`
 
+Defined in: main.ts:30067
+
 alt tag of the image
-
-#### Defined in
-
-main.ts:28501
 
 ***
 
@@ -28,12 +28,10 @@ main.ts:28501
 
 > `optional` **image\_url**: `string`
 
+Defined in: main.ts:30072
+
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
-
-#### Defined in
-
-main.ts:28506
 
 ***
 
@@ -41,11 +39,9 @@ main.ts:28506
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:30065
+
 type of element
-
-#### Defined in
-
-main.ts:28499
 
 ***
 
@@ -53,8 +49,6 @@ main.ts:28499
 
 > `optional` **url**: `string`
 
+Defined in: main.ts:30069
+
 URL link
-
-#### Defined in
-
-main.ts:28503

@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppDataGoogleAppReviewsTaskGetHtmlResultInfo
+[Documentation](../README.md) / AppDataGoogleAppReviewsTaskGetHtmlResultInfo
 
 # Class: AppDataGoogleAppReviewsTaskGetHtmlResultInfo
+
+Defined in: main.ts:203850
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppDataGoogleAppReviewsTaskGetHtmlResultInfo**(`data`?): [`AppDataGoogleAppReviewsTaskGetHtmlResultInfo`](AppDataGoogleAppReviewsTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:203873
+
 #### Parameters
 
-• **data?**: [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md)
+##### data?
+
+[`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md)
 
 #### Returns
 
 [`AppDataGoogleAppReviewsTaskGetHtmlResultInfo`](AppDataGoogleAppReviewsTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:191436
 
 ## Properties
 
@@ -38,21 +40,21 @@ main.ts:191436
 
 > `optional` **app\_id**: `string`
 
+Defined in: main.ts:203852
+
 app id received in a POST array
 
 #### Implementation of
 
 [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md).[`app_id`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md#app_id)
 
-#### Defined in
-
-main.ts:191415
-
 ***
 
 ### datetime?
 
 > `optional` **datetime**: `string`
+
+Defined in: main.ts:203865
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +65,13 @@ example:
 
 [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md#datetime)
 
-#### Defined in
-
-main.ts:191428
-
 ***
 
 ### items?
 
 > `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
+
+Defined in: main.ts:203869
 
 HTML pages and related data
 
@@ -79,15 +79,13 @@ HTML pages and related data
 
 [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md).[`items`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md#items)
 
-#### Defined in
-
-main.ts:191432
-
 ***
 
 ### items\_count?
 
 > `optional` **items\_count**: `number`
+
+Defined in: main.ts:203867
 
 the number of results returned in the items array
 
@@ -95,15 +93,13 @@ the number of results returned in the items array
 
 [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md#items_count)
 
-#### Defined in
-
-main.ts:191430
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:203860
 
 language code in a POST array
 
@@ -111,15 +107,13 @@ language code in a POST array
 
 [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:191423
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:203858
 
 location code in a POST array
 
@@ -127,15 +121,13 @@ location code in a POST array
 
 [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:191421
-
 ***
 
 ### se\_domain?
 
 > `optional` **se\_domain**: `string`
+
+Defined in: main.ts:203856
 
 search engine domain in a POST array
 
@@ -143,15 +135,13 @@ search engine domain in a POST array
 
 [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md#se_domain)
 
-#### Defined in
-
-main.ts:191419
-
 ***
 
 ### type?
 
 > `optional` **type**: `string`
+
+Defined in: main.ts:203854
 
 type of element
 
@@ -159,27 +149,23 @@ type of element
 
 [`IAppDataGoogleAppReviewsTaskGetHtmlResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md).[`type`](../interfaces/IAppDataGoogleAppReviewsTaskGetHtmlResultInfo.md#type)
 
-#### Defined in
-
-main.ts:191417
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:203882
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:191445
 
 ***
 
@@ -187,17 +173,17 @@ main.ts:191445
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:203910
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:191473
 
 ***
 
@@ -205,14 +191,14 @@ main.ts:191473
 
 > `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetHtmlResultInfo`](AppDataGoogleAppReviewsTaskGetHtmlResultInfo.md)
 
+Defined in: main.ts:203903
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppDataGoogleAppReviewsTaskGetHtmlResultInfo`](AppDataGoogleAppReviewsTaskGetHtmlResultInfo.md)
-
-#### Defined in
-
-main.ts:191466

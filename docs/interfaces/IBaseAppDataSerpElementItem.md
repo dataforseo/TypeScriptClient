@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IBaseAppDataSerpElementItem
+[Documentation](../README.md) / IBaseAppDataSerpElementItem
 
 # Interface: IBaseAppDataSerpElementItem
+
+Defined in: main.ts:22959
 
 ## Extended by
 
@@ -21,13 +23,11 @@
 
 > `optional` **position**: `string`
 
+Defined in: main.ts:22971
+
 the alignment of the element in SERP
 can take the following values:
 left, right
-
-#### Defined in
-
-main.ts:22068
 
 ***
 
@@ -35,12 +35,10 @@ main.ts:22068
 
 > `optional` **rank\_absolute**: `number`
 
+Defined in: main.ts:22967
+
 absolute rank in SERP
 absolute position among all the elements in SERP
-
-#### Defined in
-
-main.ts:22064
 
 ***
 
@@ -48,12 +46,10 @@ main.ts:22064
 
 > `optional` **rank\_group**: `number`
 
+Defined in: main.ts:22964
+
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
-
-#### Defined in
-
-main.ts:22061
 
 ***
 
@@ -61,11 +57,9 @@ main.ts:22061
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
+Defined in: main.ts:22975
+
 average rating of the app
-
-#### Defined in
-
-main.ts:22072
 
 ***
 
@@ -73,11 +67,9 @@ main.ts:22072
 
 > `optional` **title**: `string`
 
+Defined in: main.ts:22973
+
 title of the app
-
-#### Defined in
-
-main.ts:22070
 
 ***
 
@@ -85,8 +77,6 @@ main.ts:22070
 
 > `optional` **type**: `string`
 
+Defined in: main.ts:22961
+
 type of element
-
-#### Defined in
-
-main.ts:22058

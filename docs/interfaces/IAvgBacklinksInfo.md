@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IAvgBacklinksInfo
+[Documentation](../README.md) / IAvgBacklinksInfo
 
 # Interface: IAvgBacklinksInfo
 
+Defined in: main.ts:93172
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **backlinks**: `number`
 
+Defined in: main.ts:93176
+
 average number of backlinks
-
-#### Defined in
-
-main.ts:83363
 
 ***
 
@@ -28,11 +28,9 @@ main.ts:83363
 
 > `optional` **dofollow**: `number`
 
+Defined in: main.ts:93178
+
 average number of dofollow links
-
-#### Defined in
-
-main.ts:83365
 
 ***
 
@@ -40,14 +38,12 @@ main.ts:83365
 
 > `optional` **last\_updated\_time**: `string`
 
+Defined in: main.ts:93195
+
 date and time when search intent data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
-
-#### Defined in
-
-main.ts:83382
 
 ***
 
@@ -55,12 +51,10 @@ main.ts:83382
 
 > `optional` **main\_domain\_rank**: `number`
 
+Defined in: main.ts:93190
+
 average main domain rank
 learn more about the metric and its calculation formula in this help center article
-
-#### Defined in
-
-main.ts:83377
 
 ***
 
@@ -68,12 +62,10 @@ main.ts:83377
 
 > `optional` **rank**: `number`
 
+Defined in: main.ts:93187
+
 average rank
 learn more about the metric and its calculation formula in this help center article
-
-#### Defined in
-
-main.ts:83374
 
 ***
 
@@ -81,11 +73,9 @@ main.ts:83374
 
 > `optional` **referring\_domains**: `number`
 
+Defined in: main.ts:93182
+
 average number of referring domains
-
-#### Defined in
-
-main.ts:83369
 
 ***
 
@@ -93,11 +83,9 @@ main.ts:83369
 
 > `optional` **referring\_main\_domains**: `number`
 
+Defined in: main.ts:93184
+
 average number of referring main domains
-
-#### Defined in
-
-main.ts:83371
 
 ***
 
@@ -105,11 +93,9 @@ main.ts:83371
 
 > `optional` **referring\_pages**: `number`
 
+Defined in: main.ts:93180
+
 average number of referring pages
-
-#### Defined in
-
-main.ts:83367
 
 ***
 
@@ -117,8 +103,6 @@ main.ts:83367
 
 > `optional` **se\_type**: `string`
 
+Defined in: main.ts:93174
+
 search engine type
-
-#### Defined in
-
-main.ts:83361

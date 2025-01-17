@@ -1,14 +1,16 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IMerchantGoogleLanguagesResultInfo
+[Documentation](../README.md) / IMerchantGoogleLanguagesResultInfo
 
 # Interface: IMerchantGoogleLanguagesResultInfo
 
+Defined in: main.ts:184745
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
@@ -16,11 +18,9 @@
 
 > `optional` **language\_code**: `string`
 
+Defined in: main.ts:184749
+
 language code according to ISO 639-1
-
-#### Defined in
-
-main.ts:173059
 
 ***
 
@@ -28,8 +28,6 @@ main.ts:173059
 
 > `optional` **language\_name**: `string`
 
+Defined in: main.ts:184747
+
 language name
-
-#### Defined in
-
-main.ts:173057

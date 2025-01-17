@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / OnPageNonIndexableRequestInfo
+[Documentation](../README.md) / OnPageNonIndexableRequestInfo
 
 # Class: OnPageNonIndexableRequestInfo
+
+Defined in: main.ts:170312
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new OnPageNonIndexableRequestInfo**(`data`?): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
 
+Defined in: main.ts:170348
+
 #### Parameters
 
-• **data?**: [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md)
+##### data?
+
+[`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md)
 
 #### Returns
 
 [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
-
-#### Defined in
-
-main.ts:158612
 
 ## Properties
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:170344
 
 array of results filtering parameters
 optional field
@@ -58,15 +62,13 @@ The full list of possible filters is available by this link.
 
 [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md).[`filters`](../interfaces/IOnPageNonIndexableRequestInfo.md#filters)
 
-#### Defined in
-
-main.ts:158608
-
 ***
 
 ### id?
 
 > `optional` **id**: `string`
+
+Defined in: main.ts:170318
 
 ID of the task
 required field
@@ -78,15 +80,13 @@ example:
 
 [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md).[`id`](../interfaces/IOnPageNonIndexableRequestInfo.md#id)
 
-#### Defined in
-
-main.ts:158582
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
+
+Defined in: main.ts:170323
 
 the maximum number of returned pages
 optional field
@@ -97,15 +97,13 @@ maximum value: 1000
 
 [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md).[`limit`](../interfaces/IOnPageNonIndexableRequestInfo.md#limit)
 
-#### Defined in
-
-main.ts:158587
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
+
+Defined in: main.ts:170328
 
 offset in the results array of returned pages
 optional field
@@ -116,27 +114,23 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md).[`offset`](../interfaces/IOnPageNonIndexableRequestInfo.md#offset)
 
-#### Defined in
-
-main.ts:158592
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:170357
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:158621
 
 ***
 
@@ -144,17 +138,17 @@ main.ts:158621
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:170381
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:158645
 
 ***
 
@@ -162,14 +156,14 @@ main.ts:158645
 
 > `static` **fromJS**(`data`): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
 
+Defined in: main.ts:170374
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
-
-#### Defined in
-
-main.ts:158638

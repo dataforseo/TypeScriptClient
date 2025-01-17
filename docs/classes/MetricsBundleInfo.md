@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / MetricsBundleInfo
+[Documentation](../README.md) / MetricsBundleInfo
 
 # Class: MetricsBundleInfo
+
+Defined in: main.ts:89428
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new MetricsBundleInfo**(`data`?): [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
+Defined in: main.ts:89436
+
 #### Parameters
 
-• **data?**: [`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md)
+##### data?
+
+[`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md)
 
 #### Returns
 
 [`MetricsBundleInfo`](MetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:79691
 
 ## Properties
 
@@ -38,15 +40,13 @@ main.ts:79691
 
 > `optional` **organic**: [`MetricsInfo`](MetricsInfo.md)
 
+Defined in: main.ts:89430
+
 ranking and traffic data from organic search
 
 #### Implementation of
 
 [`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md).[`organic`](../interfaces/IMetricsBundleInfo.md#organic)
-
-#### Defined in
-
-main.ts:79685
 
 ***
 
@@ -54,15 +54,13 @@ main.ts:79685
 
 > `optional` **paid**: [`MetricsInfo`](MetricsInfo.md)
 
+Defined in: main.ts:89432
+
 ranking and traffic data from paid search
 
 #### Implementation of
 
 [`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md).[`paid`](../interfaces/IMetricsBundleInfo.md#paid)
-
-#### Defined in
-
-main.ts:79687
 
 ## Methods
 
@@ -70,17 +68,17 @@ main.ts:79687
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:89445
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:79700
 
 ***
 
@@ -88,17 +86,17 @@ main.ts:79700
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:89463
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:79718
 
 ***
 
@@ -106,14 +104,14 @@ main.ts:79718
 
 > `static` **fromJS**(`data`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
+Defined in: main.ts:89456
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`MetricsBundleInfo`](MetricsBundleInfo.md)
-
-#### Defined in
-
-main.ts:79711

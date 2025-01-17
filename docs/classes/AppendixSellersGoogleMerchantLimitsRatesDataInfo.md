@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / AppendixSellersGoogleMerchantLimitsRatesDataInfo
+[Documentation](../README.md) / AppendixSellersGoogleMerchantLimitsRatesDataInfo
 
 # Class: AppendixSellersGoogleMerchantLimitsRatesDataInfo
+
+Defined in: main.ts:231528
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,17 +22,17 @@
 
 > **new AppendixSellersGoogleMerchantLimitsRatesDataInfo**(`data`?): [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231536
+
 #### Parameters
 
-• **data?**: [`IAppendixSellersGoogleMerchantLimitsRatesDataInfo`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
+##### data?
+
+[`IAppendixSellersGoogleMerchantLimitsRatesDataInfo`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
 #### Returns
 
 [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216476
 
 ## Properties
 
@@ -38,13 +40,11 @@ main.ts:216476
 
 > `optional` **ad\_url**: `number`
 
+Defined in: main.ts:231532
+
 #### Implementation of
 
 [`IAppendixSellersGoogleMerchantLimitsRatesDataInfo`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md).[`ad_url`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md#ad_url)
-
-#### Defined in
-
-main.ts:216472
 
 ***
 
@@ -52,13 +52,11 @@ main.ts:216472
 
 > `optional` **task\_get**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
+Defined in: main.ts:231531
+
 #### Implementation of
 
 [`IAppendixSellersGoogleMerchantLimitsRatesDataInfo`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md).[`task_get`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md#task_get)
-
-#### Defined in
-
-main.ts:216471
 
 ***
 
@@ -66,13 +64,11 @@ main.ts:216471
 
 > `optional` **task\_post**: `number`
 
+Defined in: main.ts:231529
+
 #### Implementation of
 
 [`IAppendixSellersGoogleMerchantLimitsRatesDataInfo`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md).[`task_post`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md#task_post)
-
-#### Defined in
-
-main.ts:216469
 
 ***
 
@@ -80,13 +76,11 @@ main.ts:216469
 
 > `optional` **tasks\_ready**: `number`
 
+Defined in: main.ts:231530
+
 #### Implementation of
 
 [`IAppendixSellersGoogleMerchantLimitsRatesDataInfo`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixSellersGoogleMerchantLimitsRatesDataInfo.md#tasks_ready)
-
-#### Defined in
-
-main.ts:216470
 
 ## Methods
 
@@ -94,17 +88,17 @@ main.ts:216470
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:231545
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:216485
 
 ***
 
@@ -112,17 +106,17 @@ main.ts:216485
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:231565
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:216505
 
 ***
 
@@ -130,14 +124,14 @@ main.ts:216505
 
 > `static` **fromJS**(`data`): [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
 
+Defined in: main.ts:231558
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`AppendixSellersGoogleMerchantLimitsRatesDataInfo`](AppendixSellersGoogleMerchantLimitsRatesDataInfo.md)
-
-#### Defined in
-
-main.ts:216498

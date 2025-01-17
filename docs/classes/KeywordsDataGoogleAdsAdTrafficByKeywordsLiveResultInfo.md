@@ -1,10 +1,12 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
+[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
+
+Defined in: main.ts:132274
 
 ## Implements
 
@@ -12,7 +14,7 @@
 
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -20,23 +22,25 @@
 
 > **new KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo**(`data`?): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
+Defined in: main.ts:132323
+
 #### Parameters
 
-• **data?**: [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
+##### data?
+
+[`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:121979
 
 ## Properties
 
 ### average\_cpc?
 
 > `optional` **average\_cpc**: `number`
+
+Defined in: main.ts:132311
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
@@ -46,15 +50,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`average_cpc`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#average_cpc)
 
-#### Defined in
-
-main.ts:121967
-
 ***
 
 ### bid?
 
 > `optional` **bid**: `number`
+
+Defined in: main.ts:132295
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -66,15 +68,13 @@ learn more in this help center article
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`bid`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#bid)
 
-#### Defined in
-
-main.ts:121951
-
 ***
 
 ### clicks?
 
 > `optional` **clicks**: `number`
+
+Defined in: main.ts:132319
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
@@ -84,15 +84,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`clicks`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#clicks)
 
-#### Defined in
-
-main.ts:121975
-
 ***
 
 ### cost?
 
 > `optional` **cost**: `number`
+
+Defined in: main.ts:132315
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
@@ -102,15 +100,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`cost`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#cost)
 
-#### Defined in
-
-main.ts:121971
-
 ***
 
 ### ctr?
 
 > `optional` **ctr**: `number`
+
+Defined in: main.ts:132307
 
 projected click through rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
@@ -120,15 +116,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`ctr`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#ctr)
 
-#### Defined in
-
-main.ts:121963
-
 ***
 
 ### date\_interval?
 
 > `optional` **date\_interval**: `string`
+
+Defined in: main.ts:132284
 
 forecasting date interval in a POST array
 
@@ -136,15 +130,13 @@ forecasting date interval in a POST array
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`date_interval`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#date_interval)
 
-#### Defined in
-
-main.ts:121940
-
 ***
 
 ### impressions?
 
 > `optional` **impressions**: `number`
+
+Defined in: main.ts:132303
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
@@ -155,15 +147,13 @@ learn more about impressions in this help center article
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`impressions`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#impressions)
 
-#### Defined in
-
-main.ts:121959
-
 ***
 
 ### keyword?
 
 > `optional` **keyword**: `string`
+
+Defined in: main.ts:132276
 
 keyword in a POST array
 
@@ -171,15 +161,13 @@ keyword in a POST array
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`keyword`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#keyword)
 
-#### Defined in
-
-main.ts:121932
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:132282
 
 language code in a POST array
 if there is no data, then the value is null
@@ -188,15 +176,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#language_code)
 
-#### Defined in
-
-main.ts:121938
-
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:132279
 
 location code in a POST array
 if there is no data, then the value is null
@@ -205,15 +191,13 @@ if there is no data, then the value is null
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#location_code)
 
-#### Defined in
-
-main.ts:121935
-
 ***
 
 ### match?
 
 > `optional` **match**: `string`
+
+Defined in: main.ts:132298
 
 keywords match-type
 can take the following values: exact, broad, phrase
@@ -222,15 +206,13 @@ can take the following values: exact, broad, phrase
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`match`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#match)
 
-#### Defined in
-
-main.ts:121954
-
 ***
 
 ### search\_partners?
 
 > `optional` **search\_partners**: `boolean`
+
+Defined in: main.ts:132289
 
 include Google search partners
 the value you specified when setting the task
@@ -241,27 +223,23 @@ if false, the results are returned for Google search sites only
 
 [`IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md#search_partners)
 
-#### Defined in
-
-main.ts:121945
-
 ## Methods
 
 ### init()
 
 > **init**(`_data`?): `void`
 
+Defined in: main.ts:132332
+
 #### Parameters
 
-• **\_data?**: `any`
+##### \_data?
+
+`any`
 
 #### Returns
 
 `void`
-
-#### Defined in
-
-main.ts:121988
 
 ***
 
@@ -269,17 +247,17 @@ main.ts:121988
 
 > **toJSON**(`data`?): `any`
 
+Defined in: main.ts:132360
+
 #### Parameters
 
-• **data?**: `any`
+##### data?
+
+`any`
 
 #### Returns
 
 `any`
-
-#### Defined in
-
-main.ts:122016
 
 ***
 
@@ -287,14 +265,14 @@ main.ts:122016
 
 > `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
 
+Defined in: main.ts:132353
+
 #### Parameters
 
-• **data**: `any`
+##### data
+
+`any`
 
 #### Returns
 
 [`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo.md)
-
-#### Defined in
-
-main.ts:122009

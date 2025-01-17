@@ -1,20 +1,24 @@
-[**Documentation**](../README.md) • **Docs**
+[**Documentation**](../README.md)
 
 ***
 
-[Documentation](../globals.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
+[Documentation](../README.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
+Defined in: main.ts:114899
+
 ## Indexable
 
- \[`key`: `string`\]: `any`
+\[`key`: `string`\]: `any`
 
 ## Properties
 
 ### asins?
 
 > `optional` **asins**: `object`
+
+Defined in: main.ts:114910
 
 asins of target products
 required field
@@ -29,17 +33,15 @@ learn more about the parameter on this help center page
 
 #### Index Signature
 
- \[`key`: `string`\]: `string`
-
-#### Defined in
-
-main.ts:105171
+\[`key`: `string`\]: `string`
 
 ***
 
 ### filters?
 
 > `optional` **filters**: `any`[]
+
+Defined in: main.ts:114962
 
 array of results filtering parameters
 optional field
@@ -52,15 +54,13 @@ example:
 ["avg_position","<", 10]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Defined in
-
-main.ts:105223
-
 ***
 
 ### intersection\_mode?
 
 > `optional` **intersection\_mode**: `string`
+
+Defined in: main.ts:114951
 
 mode for finding asin intersections
 optional field
@@ -68,15 +68,13 @@ possible values: union, intersect;
 default value: intersect;
 learn more about the parameter in this help center guide
 
-#### Defined in
-
-main.ts:105212
-
 ***
 
 ### language\_code?
 
 > `optional` **language\_code**: `string`
+
+Defined in: main.ts:114940
 
 language code
 required field if don’t specify language_name
@@ -85,15 +83,13 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Defined in
-
-main.ts:105201
-
 ***
 
 ### language\_name?
 
 > `optional` **language\_name**: `string`
+
+Defined in: main.ts:114933
 
 full name of the language
 required field if don’t specify language_code
@@ -102,30 +98,26 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Defined in
-
-main.ts:105194
-
 ***
 
 ### limit?
 
 > `optional` **limit**: `number`
 
+Defined in: main.ts:114945
+
 the maximum number of products in the results array
 optional field
 default value: 100;
 maximum value: 1000
-
-#### Defined in
-
-main.ts:105206
 
 ***
 
 ### location\_code?
 
 > `optional` **location\_code**: `number`
+
+Defined in: main.ts:114926
 
 location code
 required field if don’t specify location_name
@@ -135,15 +127,13 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Defined in
-
-main.ts:105187
-
 ***
 
 ### location\_name?
 
 > `optional` **location\_name**: `string`
+
+Defined in: main.ts:114918
 
 full name of the location
 required field if don’t specify location_code
@@ -153,30 +143,26 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United Kingdom
 
-#### Defined in
-
-main.ts:105179
-
 ***
 
 ### offset?
 
 > `optional` **offset**: `number`
 
+Defined in: main.ts:114983
+
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
-
-#### Defined in
-
-main.ts:105244
 
 ***
 
 ### order\_by?
 
 > `optional` **order\_by**: `string`[]
+
+Defined in: main.ts:114978
 
 results sorting rules
 optional field
@@ -194,22 +180,16 @@ example:
 default rule:
 ["intersections,desc"]
 
-#### Defined in
-
-main.ts:105239
-
 ***
 
 ### tag?
 
 > `optional` **tag**: `string`
 
+Defined in: main.ts:114989
+
 user-defined task identifier
 optional field
 the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
-
-#### Defined in
-
-main.ts:105250
